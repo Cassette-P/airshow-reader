@@ -2,3 +2,4 @@ feedparser
 requests
 pydantic
 google-genai
+curl_cffi

@@ -260,23 +260,109 @@ def filter_new_episodes(feed_entries, limit: int = 1, max_age_days: int = 0) -> 
 
 
 def download_audio_file(audio_url: str, dest_path: Path) -> int:
-    """[3. DOWNLOAD_AUDIO] 流式下载 MP3 至系统临时目录."""
+    """[3. DOWNLOAD_AUDIO] 流式下载 MP3 至系统临时目录（四级策略自动降级）."""
     log("DOWNLOAD", f"Downloading audio from {audio_url}...")
-    try:
-        with requests.get(audio_url, headers=DEFAULT_HEADERS, stream=True, timeout=120) as resp:
+
+    def _cleanup_partial() -> None:
+        if dest_path.exists():
+            try:
+                dest_path.unlink()
+            except Exception:
+                pass
+
+    def _run_strategy_1():
+        headers = {
+            "User-Agent": "AppleCoreMedia/1.0.0.21F79 (iPhone; U; CPU OS 17_5 like Mac OS X; en_us)",
+            "Accept": "*/*",
+        }
+        with requests.get(audio_url, headers=headers, stream=True, timeout=120) as resp:
             resp.raise_for_status()
-            downloaded = 0
             with open(dest_path, "wb") as f:
                 for chunk in resp.iter_content(chunk_size=1024 * 1024):
                     if chunk:
                         f.write(chunk)
-                        downloaded += len(chunk)
-            size_mb = downloaded / (1024 * 1024)
-            log("DOWNLOAD", f"Audio downloaded successfully ({size_mb:.2f} MB, {downloaded} bytes).")
-            return downloaded
-    except Exception as e:
-        log("ERROR", f"Audio download failed: {e}")
-        raise
+
+    def _run_strategy_2():
+        headers = {
+            "User-Agent": "Overcast/3.0 (+http://overcast.fm/; iOS podcast app)",
+            "Accept": "*/*",
+        }
+        with requests.get(audio_url, headers=headers, stream=True, timeout=120) as resp:
+            resp.raise_for_status()
+            with open(dest_path, "wb") as f:
+                for chunk in resp.iter_content(chunk_size=1024 * 1024):
+                    if chunk:
+                        f.write(chunk)
+
+    def _run_strategy_3():
+        from curl_cffi import requests as cffi_requests
+
+        resp = cffi_requests.get(
+            audio_url,
+            impersonate="chrome",
+            stream=True,
+            timeout=120,
+            allow_redirects=True,
+        )
+        try:
+            resp.raise_for_status()
+            with open(dest_path, "wb") as f:
+                for chunk in resp.iter_content(chunk_size=1024 * 1024):
+                    if chunk:
+                        f.write(chunk)
+        finally:
+            resp.close()
+
+    def _run_strategy_4():
+        subprocess.run(
+            [
+                "curl",
+                "-fSL",
+                "--max-time",
+                "120",
+                "-A",
+                "AppleCoreMedia/1.0.0.21F79 (iPhone; U; CPU OS 17_5 like Mac OS X; en_us)",
+                "-o",
+                str(dest_path),
+                audio_url,
+            ],
+            check=True,
+        )
+
+    strategies = [
+        ("Strategy 1 (requests + Apple Podcasts UA)", _run_strategy_1),
+        ("Strategy 2 (requests + Overcast UA)", _run_strategy_2),
+        ("Strategy 3 (curl_cffi impersonate chrome)", _run_strategy_3),
+        ("Strategy 4 (system curl fallback)", _run_strategy_4),
+    ]
+
+    last_exception = None
+    for name, runner in strategies:
+        _cleanup_partial()
+        log("DOWNLOAD", f"Trying download strategy: {name}...")
+        try:
+            runner()
+            if dest_path.exists() and dest_path.stat().st_size > 0:
+                downloaded = dest_path.stat().st_size
+                size_mb = downloaded / (1024 * 1024)
+                log(
+                    "DOWNLOAD",
+                    f"Audio downloaded successfully via {name} ({size_mb:.2f} MB, {downloaded} bytes).",
+                )
+                return downloaded
+            else:
+                raise RuntimeError(
+                    f"{name} completed but output file is missing or empty."
+                )
+        except Exception as e:
+            last_exception = e
+            log("DOWNLOAD", f"{name} failed: {e}")
+            _cleanup_partial()
+
+    log("ERROR", f"Audio download failed across all strategies: {last_exception}")
+    if last_exception:
+        raise last_exception
+    raise RuntimeError("Audio download failed across all strategies.")
 
 
 def get_audio_duration_sec(audio_path: Path) -> int:
