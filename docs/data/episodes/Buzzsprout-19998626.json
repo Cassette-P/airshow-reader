@@ -1,0 +1,1287 @@
+{
+  "schema_version": "2.0",
+  "guid": "Buzzsprout-19998626",
+  "title": "The US Softens Its Stance On Mexico...For Now",
+  "pub_date": "2026-10-22T10:00:00Z",
+  "duration_sec": 2066,
+  "audio_url": "https://www.buzzsprout.com/2329718/episodes/19998626-the-us-softens-its-stance-on-mexico-for-now.mp3",
+  "summary_zh": "本期节目中，Brian与Brett深度复盘了美墨两国近年来跌宕起伏的航空双边博弈。矛盾源于墨西哥前总统停建特斯科科新机场、强推偏远的AIFA机场，并自2022年起在墨西哥城主机场（MEX）强行削减35%的起降时刻（Slot）及驱逐全货机，违背了开放天空协议精神。继2021至2023年FAA将墨西哥降至安全二类（Cat 2）冻结墨航司运力后，美国交通部在2025年进一步祭出严厉反制，封杀墨航司自首都两场赴美的新增航线与腹舱货运，并试图撤销达美与墨航的航线联营（JV）及反垄断豁免（ATI）。近期随着墨方承诺归还时刻并遵循国际管理准则，美方解除了新航线禁令，关系暂迎解冻。然而新一轮安全审计隐患使墨西哥明年2月恐再遭Cat 2降级，迫使Volaris等航司趁窗口期激进抢开赴美新航线。",
+  "key_takeaways_zh": [
+    "墨西哥政府为扶持偏远的AIFA机场，强行削减MEX机场35%的起降时刻并禁飞全货机，直接触发了美方针对开放天空协议的严厉反制。",
+    "长达两年的FAA安全二类（Cat 2）评级与随后的航权制裁严重受挫了Viva与Volaris的赴美扩张步伐，并间接导致Viva与Allegiant的航线联营（JV）计划流产。",
+    "随着墨方承诺归还被没收的起降时刻并恢复国际标准管理准则，美国交通部近期撤销了首都两场的新增赴美航线禁令，双边航空关系迎来阶段性缓和。",
+    "面对明年年初可能再次降临的FAA安全降级风险，Volaris等墨西哥航司正利用短暂的政策窗口期激进抢开多条赴美新航线以锁定运力基数。"
+  ],
+  "highlights": [
+    {
+      "start_sec": 101,
+      "title_zh": "弃建新枢纽与AIFA机场困局",
+      "summary_zh": "墨西哥城主机场（MEX）早已饱和，但2018年上任的总统强行叫停了耗资50亿美元、已完工三分之一的特斯科科新机场项目。政府转而在北部空军基地改建了距离市区遥远且地面交通不便的AIFA机场，导致美方航司拒绝迁入，为后续双边冲突埋下伏笔。",
+      "quote_en": "It is far out of town, and it is much less convenient than MEX is, and Texcoco would have been."
+    },
+    {
+      "start_sec": 442,
+      "title_zh": "首次安全降级重创墨低成本航司",
+      "summary_zh": "2021年5月FAA将墨西哥航空安全评级降至二类（Cat 2），在长达两年多的时间里冻结了墨西哥航司的赴美航线规模，并禁止美方航司在其执飞航班上进行代码共享（Codeshare）。这一限制对处于高速扩张期的Volaris与Viva打击最为沉重，更间接拖垮了Viva与Allegiant筹划的航线联营（JV）。",
+      "quote_en": "They just can't grow. They can't add routes, and it's like moment in time, this is what you can do."
+    },
+    {
+      "start_sec": 1104,
+      "title_zh": "强削MEX时刻与全货机禁令",
+      "summary_zh": "墨西哥政府打破时刻受限（Slot-controlled）机场的国际惯例，在一年内将MEX每小时起降容量从61架次大幅削减35%至43架次，并全面驱逐全货机以强推AIFA机场。由于美方航司时刻稀缺且无法像墨西哥本土航司那样调配国内时刻，此举彻底激怒了美国客货运航司。",
+      "quote_en": "Nothing changed, and then all of a sudden, in a year's time, departures are slashed 35%?"
+    },
+    {
+      "start_sec": 1426,
+      "title_zh": "美方祭出航线封杀与JV制裁",
+      "summary_zh": "2025年下半年美墨航空摩擦全面升级，美国交通部不仅要求墨航司提前报批时刻并试图终止达美与墨航的航线联营（JV），更全面封杀了墨航司自MEX与AIFA赴美的新增航线及MEX赴美客机腹舱货运。高压反制直接导致AIFA机场的对美航线彻底归零。",
+      "quote_en": "There will be no new service from MEX or NLU to the US for any Mexican airlines, and they can't increase frequency on any existing routes from there either."
+    },
+    {
+      "start_sec": 1633,
+      "title_zh": "双边关系阶段性解冻与法律博弈",
+      "summary_zh": "在墨方同意归还被没收的起降时刻（Slot）、允许持时刻全货机重返MEX并采纳国际管理准则后，美国交通部撤销了针对墨西哥城两场新增赴美航班的禁令。不过预先时刻审批与包机限制依然保留，而美国上诉法院也在今年8月驳回了交通部强行拆散达美与墨航联营的决定。",
+      "quote_en": "That one order that blocked the new Mexico City flying, that was revoked, but everything else is still in place."
+    },
+    {
+      "start_sec": 1803,
+      "title_zh": "二度降级隐忧引发航司抢开航线",
+      "summary_zh": "今年夏季的FAA安全审计再次暴露出墨西哥航空监管存在监察员短缺与行政漏洞，若年底复查未果，墨西哥最早将于明年2月再度跌回Cat 2评级。为防止运力再次被冻结，Volaris正趁当前短暂的窗口期集中新开瓜达拉哈拉至亚特兰大、波士顿等七条赴美航线。",
+      "quote_en": "I just have a hard time believing they would have done all of this right now if they didn't think that this was their window."
+    }
+  ],
+  "transcript": [
+    {
+      "id": 1,
+      "start_sec": 0,
+      "speaker": "Brian Sumers",
+      "en": "I'm Brian Sumers and I write The Airline Observer.",
+      "zh": "我是 Brian Sumers，我是《The Airline Observer》的作者。"
+    },
+    {
+      "id": 2,
+      "start_sec": 4,
+      "speaker": "Brett Snyder",
+      "en": "And I'm Brett Snyder, author of Cranky Flier. You're listening to The Air Show, the podcast where we talk about what happens in the business of the sky.",
+      "zh": "我是 Brett Snyder，《Cranky Flier》的作者。您正在收听的是《The Air Show》，这是一档畅聊民航天空商业内幕的播客节目。"
+    },
+    {
+      "id": 3,
+      "start_sec": 11,
+      "speaker": "Brett Snyder",
+      "en": "Brought to you by the Alaska Hawaiian Airlines pilots. This week's episode is also sponsored by Tulsa International Airport and Plusgrade.",
+      "zh": "本期节目由阿拉斯加航空与夏威夷航空飞行员联合呈现，同时感谢塔尔萨国际机场以及 Plusgrade 对本期节目的赞助支持。"
+    },
+    {
+      "id": 4,
+      "start_sec": 20,
+      "speaker": "Brett Snyder",
+      "en": "Now, Jon was going to be back this week, but then Boeing apparently called a press conference for when we were recording, so he's not here. So, it's just me and you, Brian.",
+      "zh": "Jon 本来这周要归队的，但波音恰好在我们录音的档口开了场新闻发布会，所以他没能来。这周又只剩咱俩了，Brian。"
+    },
+    {
+      "id": 5,
+      "start_sec": 30,
+      "speaker": "Brian Sumers",
+      "en": "Jon, we miss you. I did hear a rumor that he's going to be back next week, and maybe we're going to talk about some airplanes. But Brett, we're not going to do that today, of course, because it's you and me. What are we going to talk about?",
+      "zh": "Jon，想死你了。我倒是听到风声说他下周肯定回来，到时候我们可能会聊聊飞机制造那些事儿。但 Brett，今天既然只有咱俩，自然就不聊飞机了。我们今天聊什么？"
+    },
+    {
+      "id": 6,
+      "start_sec": 44,
+      "speaker": "Brett Snyder",
+      "en": "This week, I'm going to do a little call back here, Brian. So, we did the joint venture episode a couple weeks back, right? And I made a passing comment about how we could do an entire episode on the messy aviation relations between the US and Mexico.",
+      "zh": "这周我想承接一下之前的话题，Brian。前两周我们不是录了一期航线联营（JV）的节目嘛，我当时随口提了一句，说美墨之间错综复杂的航空关系完全够单独做一整期节目了。"
+    },
+    {
+      "id": 7,
+      "start_sec": 60,
+      "speaker": "Brett Snyder",
+      "en": "So, let's do an entire episode on the messy aviation relations between the US and Mexico.",
+      "zh": "那择日不如撞日，今天我们就专门做一期，好好聊聊美墨之间混乱的航空纠葛。"
+    },
+    {
+      "id": 8,
+      "start_sec": 65,
+      "speaker": "Brian Sumers",
+      "en": "Let's do it!",
+      "zh": "正合我意，搞起！"
+    },
+    {
+      "id": 9,
+      "start_sec": 67,
+      "speaker": "Brett Snyder",
+      "en": "Let me say this: there has been news, and that's why we're doing this this week. But before we talk about the news, that maybe this long-running saga is going to end, we do need to talk a little bit about the genesis of this and what has happened over the last few years.",
+      "zh": "容我先提一句：最近确实出了大新闻，这也是我们选在今天聊的原因。但在聊最新动态——也就是这场旷日持久的博弈可能迎来尾声之前——我们还是得先交代下前因后果，理理过去这几年到底发生了什么。"
+    },
+    {
+      "id": 10,
+      "start_sec": 83,
+      "speaker": "Brett Snyder",
+      "en": "But hopefully, this will get resolved and continue improving. And that will be great news, especially for the Mexican airlines, because they have been hit the hardest with some of this fight here. And man, they sure do need it, because the domestic market in Mexico has not been good lately. It's been a rough go.",
+      "zh": "不过若真能顺利解决并持续向好，那绝对是大好消息，尤其是对墨西哥本土航司而言。在这场风波里受创最深的就是他们，而且坦白讲，他们现在急需利好回血——最近墨西哥国内航线市场的表现相当惨淡，日子属实难熬。"
+    },
+    {
+      "id": 11,
+      "start_sec": 101,
+      "speaker": "Brett Snyder",
+      "en": "Let's just start with this general understanding here: that the Mexico City Airport, which I'm just going to call MEX to make it easy, it is overcrowded, and it is landlocked, it has no way to grow. It is maxed out.",
+      "zh": "我们先确立一个基本认知：墨西哥城国际机场（为省事后面我就简称 MEX 了），不仅极度拥挤，而且四周全被城市包围，根本没有物理扩建空间。它的运能已经彻底饱和了。"
+    },
+    {
+      "id": 12,
+      "start_sec": 114,
+      "speaker": "Brian Sumers",
+      "en": "That's right, Brett. But Mexico was planning to do something that very few countries have done over the years. Mexico was going to be extremely forward-thinking, and it was going to build a brand new airport not far from Mexico City with plenty of room to expand. Wasn't that going to be great, Brett?",
+      "zh": "没错，Brett。但墨西哥此前原本打算干一件这几十年极少有国家干成的大手笔。他们本打算展现出极具前瞻性的眼光，在离墨西哥城不远的地方平地起一座全新的机场，留足扩建空间。当时听起来不是无比美好吗，Brett？"
+    },
+    {
+      "id": 13,
+      "start_sec": 135,
+      "speaker": "Brett Snyder",
+      "en": "Oh, it was! It was. And if you take off from MEX heading east, you can see that land where there was this magical Texcoco airport, it's on an old lake bed.",
+      "zh": "可不是嘛！确实曾万众瞩目。如果你现在从 MEX 起飞往东飞，依然能俯瞰到当年那座寄予厚望的特斯科科（Texcoco）新机场选址，它就建在干涸的旧湖盆上。"
+    },
+    {
+      "id": 14,
+      "start_sec": 147,
+      "speaker": "Brian Sumers",
+      "en": "It was going to be so great, Brett. But what happened? Why are we not flying to this beautiful, brand-new airport with plenty of room, akin to what they did in Istanbul or Hong Kong, or a lot of these places that think about the future? We were supposed to get this, Brett.",
+      "zh": "当年规划得天花乱坠啊，Brett。但后来究竟出了什么变故？为什么我们今天没能飞去那座崭新气派、预留了海量跑道和停机位的新机场？那本该像伊斯坦布尔或香港新机场一样，成为面向未来的旗舰级枢纽。Brett，我们本该拥有它的。"
+    },
+    {
+      "id": 15,
+      "start_sec": 164,
+      "speaker": "Brett Snyder",
+      "en": "We were supposed to get this. In fact, they had already spent $5 billion on this, and they had finished about a third of it. It was well underway. This was happening. And then there was a presidential election in 2018.",
+      "zh": "确实本该建成的。事实上，当时项目已经砸进去了整整 50 亿美元，工程进度都推到三分之一了。建设如火如荼，眼看着就要成真了。然而，2018 年墨西哥迎来了一场总统大选。"
+    },
+    {
+      "id": 16,
+      "start_sec": 180,
+      "speaker": "Brett Snyder",
+      "en": "...18, and that messed it up.",
+      "zh": "……2018 年，然后局势就被搅乱了。"
+    },
+    {
+      "id": 17,
+      "start_sec": 184,
+      "speaker": "Brian Sumers",
+      "en": "Ah, yes. Do you remember AMLO?",
+      "zh": "啊，没错。你还记得 AMLO（洛佩斯·奥夫拉多尔）吗？"
+    },
+    {
+      "id": 18,
+      "start_sec": 186,
+      "speaker": "Brett Snyder",
+      "en": "Of course. That is el Presidente, Andrés Manuel López Obrador, to you, sir.",
+      "zh": "当然。对你而言，那可是总统先生——安德烈斯·曼努埃尔·洛佩斯·奥夫拉多尔阁下。"
+    },
+    {
+      "id": 19,
+      "start_sec": 192,
+      "speaker": "Brian Sumers",
+      "en": "Yeah. Interesting fellow. I can say one positive thing about him related to this airport: apparently, the man really understood the sunk cost fallacy.",
+      "zh": "是啊。挺有意思的一个人。关于这座机场，我可以挑他一个优点来说：显然，这个人是真真正正理解什么是“沉没成本谬误”。"
+    },
+    {
+      "id": 20,
+      "start_sec": 203,
+      "speaker": "Brett Snyder",
+      "en": "He was like, \"Look, we've spent $5 billion, it does not matter. None of that matters, guys. I have a better plan.\"",
+      "zh": "他当时的态度就是：“听着，咱们是砸了 50 亿美元，但那没关系。大家听我说，这些都不重要，我有一个更好的计划。”"
+    },
+    {
+      "id": 21,
+      "start_sec": 211,
+      "speaker": "Brett Snyder",
+      "en": "And he made it sound like he was going to save a bunch of money for the good people of Mexico, but that's definitely not what happened here. But in 2018, he just scrapped it.",
+      "zh": "他当时说得好像能为墨西哥善良的人民省下一大笔钱，但事实绝对不是那么回事。不过在 2018 年，他就这么直接把项目给废弃了。"
+    },
+    {
+      "id": 22,
+      "start_sec": 222,
+      "speaker": "Brian Sumers",
+      "en": "Another nice thing to say about him, though, is that not only did he understand the sunk cost fallacy, he actually campaigned on this before he took over in 2018, and it turns out he was a man of his word.",
+      "zh": "不过关于他还有一点值得肯定的是，他不仅懂得沉没成本谬误，在 2018 年上台执政之前，他确实就是以此作为竞选纲领的，事实证明他还真说到做到了。"
+    },
+    {
+      "id": 23,
+      "start_sec": 236,
+      "speaker": "Brett Snyder",
+      "en": "What he did was he decided that MEX was perfectly fine, and it just needed a reliever. So, he took the old Santa Lucía Air Force Base up in the north, and he built this gleaming new terminal—very quickly, I should add.",
+      "zh": "他的做法是，断定 MEX 机场完全够用，只需要一个分流机场即可。于是他征用了北部老旧的圣卢西亚空军基地，并在那里建起了一座崭新锃亮的航站楼——顺便说一句，建设速度极快。"
+    },
+    {
+      "id": 24,
+      "start_sec": 256,
+      "speaker": "Brett Snyder",
+      "en": "And that is now called Aeropuerto Internacional Felipe Ángeles, which we will just call AIFA for short, Brian, because I think you don't want to say that whole name.",
+      "zh": "那里现在叫作费利佩·安赫莱斯国际机场，Brian，我们接下来就简称它为 AIFA 吧，因为我觉得你肯定不想把整个全称念出来。"
+    },
+    {
+      "id": 25,
+      "start_sec": 267,
+      "speaker": "Brian Sumers",
+      "en": "No, I don't. I suppose on the surface this sounds like a nice idea, but one interesting thing about the Texcoco project is that it doesn't have the same problem as a lot of these airports that are started from scratch in the modern era, where they can be quite far from town or from the big city because that's the only place that you can get land.",
+      "zh": "确实不想。我想表面上看这似乎是个不错的主意，但特斯科科项目有个很有意思的特点：它并没有现代很多从零开始新建的机场所面临的问题，即因为只有远郊能拿到土地，所以往往距离市区或大都市非常遥远。"
+    },
+    {
+      "id": 26,
+      "start_sec": 293,
+      "speaker": "Brian Sumers",
+      "en": "That thing was going to be pretty close to Mexico City. How about this other airport, Brett? Close to Mexico City, or not so much?",
+      "zh": "那个项目原本离墨西哥城相当近。那另一座机场呢，Brett？离墨西哥城市区近吗，还是挺远的？"
+    },
+    {
+      "id": 27,
+      "start_sec": 300,
+      "speaker": "Brett Snyder",
+      "en": "No, sir. I think you may remember this in January when I went to Mexico and learned this firsthand. I landed in AIFA, and I should have just paid for the roughly one-hour taxi ride into town.",
+      "zh": "可一点都不近。我想你可能还记得 1 月份我去墨西哥的那次亲身体验。当时我降落在 AIFA 机场，本来应该直接掏钱打个大概一小时的出租车进城的。"
+    },
+    {
+      "id": 28,
+      "start_sec": 317,
+      "speaker": "Brett Snyder",
+      "en": "I think it's about 50 bucks, I don't know, depends on the currency conversion. But I was convinced I could make Uber work, and I had nothing but time, so I gave that a shot, and I was horribly mistaken.",
+      "zh": "车费大概是 50 美元左右吧，我也说不准，得看汇率折算。但我当时深信自己能打到 Uber，反正时间充裕，我就试了一下，结果大错特错。"
+    },
+    {
+      "id": 29,
+      "start_sec": 328,
+      "speaker": "Brett Snyder",
+      "en": "I had to take a paid bus to get to the edge of the airport, where I then got into an Uber, and this guy made me pay cash tolls even though he's not supposed to, Uber never reimbursed me, it took forever. It's... no.",
+      "zh": "我不得不坐付费接驳大巴赶到机场外围，在那儿才坐上一辆 Uber。司机还非让我掏现金付过路费，按规定他是不能这么要求的，Uber 后来也一直没给我报销，路上花了大半天。所以……算了吧。"
+    },
+    {
+      "id": 30,
+      "start_sec": 343,
+      "speaker": "Brett Snyder",
+      "en": "It is far out of town, and it is much less convenient than MEX is, and Texcoco would have been.",
+      "zh": "它离市区极其遥远，便利程度远不如 MEX 机场，也根本比不上原计划中的特斯科科机场。"
+    },
+    {
+      "id": 31,
+      "start_sec": 351,
+      "speaker": "Brian Sumers",
+      "en": "Yeah, I remember that trip. But back to AIFA for a second, isn't there a train?",
+      "zh": "是啊，我对你那趟行程有印象。不过言归正传回到 AIFA 机场，那里不是通了城铁吗？"
+    },
+    {
+      "id": 32,
+      "start_sec": 356,
+      "speaker": "Brett Snyder",
+      "en": "Okay, there is now. There was not when I was there.",
+      "zh": "好吧，现在确实有了。但我当时去的时候还没通车呢。"
+    },
+    {
+      "id": 33,
+      "start_sec": 360,
+      "speaker": "Brett Snyder",
+      "en": "It opened in April. It takes about 40 minutes, which is better, but it dumps you off at the Buenavista Station in town, which, I mean, it depends where you're going if that's helpful or not. Where I was going, that was not going to be that helpful.",
+      "zh": "它是在4月开通的。大概需要40分钟，确实快了一些，但它把你送到城里的布埃纳维斯塔车站。至于这方不方便，完全取决于你要去哪儿。就我当时的目的地来说，坐城铁其实没什么用。"
+    },
+    {
+      "id": 34,
+      "start_sec": 375,
+      "speaker": "Brett Snyder",
+      "en": "I still would have done that and then taken an Uber from there, so that is better. It is a real improvement, but it's still not nearly as convenient as MEX. And because of that, MEX is going to remain the primary airport in Mexico City as long as it's open.",
+      "zh": "不过我原本可以坐到那儿再打Uber，所以确实算是个进步，有了切实的改善。但比起MEX机场，它的便利程度还是差远了。正因如此，只要MEX一天不关停，它就仍将是墨西哥城最主要的核心机场。"
+    },
+    {
+      "id": 35,
+      "start_sec": 393,
+      "speaker": "Brett Snyder",
+      "en": "And it's still going to be constrained and completely ridiculous how they're managing this thing. So, AIFA, the idea was this will be a reliever, so everyone will have to grow there.",
+      "zh": "而且由于当局令人匪夷所思的管理方式，MEX依然会面临严重的时刻受限。至于AIFA机场，最初的设想是作为分流机场，迫使所有航司把增量业务放到那里。"
+    },
+    {
+      "id": 36,
+      "start_sec": 405,
+      "speaker": "Brian Sumers",
+      "en": "So you've given us the background here, but this seems so far to be an issue that Mexico has. It made perhaps a dumb move not to go forward with the new airport, the reliever airport isn't working as well as it should, and Mexico City's airport is filled to the brim.",
+      "zh": "你已经向我们交代了前因后果，但目前听起来这纯粹是墨西哥内部的问题。取消新机场项目或许是个愚蠢的决定，分流机场没有达到预期效果，而墨西哥城老机场又彻底爆满。"
+    },
+    {
+      "id": 37,
+      "start_sec": 421,
+      "speaker": "Brian Sumers",
+      "en": "But we promised our listeners that we would talk about this fight between the United States and Mexico over aviation access. What does all this have to do with that?",
+      "zh": "但我们向听众承诺过，这期要聊聊美墨之间围绕航空航权准入的争端。这一切和美墨纷争到底有什么关联？"
+    },
+    {
+      "id": 38,
+      "start_sec": 432,
+      "speaker": "Brett Snyder",
+      "en": "The year was 2021.",
+      "zh": "事情要从2021年说起。"
+    },
+    {
+      "id": 39,
+      "start_sec": 434,
+      "speaker": "Brian Sumers",
+      "en": "Not this again, Brett! Although 2021, at least we only have to hear you drone on for five years of history this time?",
+      "zh": "又来了，Brett！不过既然是2021年，至少这次我们只需要听你唠叨过去五年的历史了吧？"
+    },
+    {
+      "id": 40,
+      "start_sec": 442,
+      "speaker": "Brett Snyder",
+      "en": "That's right, this is all recent drama. We don't have to go back to US deregulation or anything. But specifically, May 25th, 2021 is the day I'm looking at.",
+      "zh": "没错，这全是近年的风波。我们不需要倒回去讲美国民航放松管制之类老黄历。具体来说，我想聚焦在2021年5月25日这一天。"
+    },
+    {
+      "id": 41,
+      "start_sec": 452,
+      "speaker": "Brett Snyder",
+      "en": "That is the day that the US announced it was downgrading Mexico from Category 1 to Category 2 status.",
+      "zh": "就在那一天，美国宣布将墨西哥的航空安全评级从1类降至2类。"
+    },
+    {
+      "id": 42,
+      "start_sec": 460,
+      "speaker": "Brian Sumers",
+      "en": "I remember this drama. It sounds very basic, Category 1 to 2. It's actually a really big deal, and it has to do with safety. The United States says that it conducted a safety audit of Mexico, it found issues specifically with how the country handles safety and also security, right?",
+      "zh": "我记得这起风波。从1类降到2类，听起来很平常，但实际上是一件关乎飞行安全的大事。当时美国表示对墨西哥进行了安全审计，发现该国在安全乃至安保监管方面存在诸多问题，对吧？"
+    },
+    {
+      "id": 43,
+      "start_sec": 480,
+      "speaker": "Brett Snyder",
+      "en": "Yeah, so the way that they word this, the FAA, they do these audits and they assign categories to different countries. And so here it is, quote, 'A Category 2 rating means that the country's laws or regulations lack the necessary requirements to oversee the country's air carriers in accordance with minimum international safety standards,'",
+      "zh": "是的。FAA对不同国家进行此类审计并划分评级，其官方表述是这样的，我引用一下：‘2类评级意味着该国的法律法规缺乏必要的监管要求，无法按照最低国际安全标准对其本国空运企业实施监管；’"
+    },
+    {
+      "id": 44,
+      "start_sec": 503,
+      "speaker": "Brett Snyder",
+      "en": "'or the civil aviation authority is lacking in one or more areas, such as technical expertise, trained personnel, record-keeping, inspection procedures, or resolution of safety concerns.'",
+      "zh": "‘或者该国民航当局在以下一个或多个方面存在不足：技术专业能力、专业培训人员、台账记录、检查程序或安全隐患化解处置能力。’"
+    },
+    {
+      "id": 45,
+      "start_sec": 514,
+      "speaker": "Brian Sumers",
+      "en": "This is pretty rare, Brett. I looked at the most recent list from the FAA, and the only ones that are Category 2 right now are Bangladesh, Russia, Venezuela, and some small Eastern Caribbean islands that are under the same regulator. These are countries where there are either no flights to the USA or very few.",
+      "zh": "这种情况相当罕见，Brett。我查阅了FAA最新的名单，目前被列入2类的只有孟加拉国、俄罗斯、委内瑞拉以及由同一监管机构管辖的东加勒比海几个小岛国。这些国家要么根本没有直飞美国的航班，要么极少。"
+    },
+    {
+      "id": 46,
+      "start_sec": 537,
+      "speaker": "Brian Sumers",
+      "en": "Mexico stands out here, and it's...",
+      "zh": "墨西哥在其中显得尤为扎眼，而且……"
+    },
+    {
+      "id": 47,
+      "start_sec": 540,
+      "speaker": "Brian Sumers",
+      "en": "The airlines feel a lot more pain when it goes to Category 2. How are those airlines penalized, Brett?",
+      "zh": "当降级到 2 类时，航空公司会承受多得多的痛苦。Brett，那些航司具体会受到怎样的处罚？"
+    },
+    {
+      "id": 48,
+      "start_sec": 547,
+      "speaker": "Brett Snyder",
+      "en": "You're right. It is pretty rare for this to happen. But yeah, this is a real hardship for the airlines that are in that country and not the airlines in the US, so it's it's very imbalanced on this. But what it does is it restricts the airlines in that country from what they can do in the US.",
+      "zh": "你说得对，这种情况确实相当罕见。但没错，这对该国的航司来说是真正的困境，而对美国航司则不然，因此这方面非常不对等。其核心限制在于，它限制了该国航司在美国境内的运营权限。"
+    },
+    {
+      "id": 49,
+      "start_sec": 563,
+      "speaker": "Brett Snyder",
+      "en": "And it's pretty weird, because if you think things aren't safe, then you might want to say, \"Okay, you can't fly here,\" or extra checks or something like that. But all it does is it freezes you.",
+      "zh": "而且这很耐人寻味，因为如果你认为存在安全隐患，你本可以宣布：“好吧，你们不能飞这里”，或者施加额外检查之类的措施。但它实际做的只是将你彻底冻结。"
+    },
+    {
+      "id": 50,
+      "start_sec": 575,
+      "speaker": "Brett Snyder",
+      "en": "So it says whatever you were doing when you got moved down to Cat 2, those airlines from that country, they can keep doing it. They just can't grow. They can't add routes, and it's like moment in time, this is what you can do. So whatever was happening on May 25th, 2021, that could continue as is.",
+      "zh": "它的意思是你被降到 2 类时正在飞什么，该国航司就可以继续飞。他们只是无法扩张。不能新增航线，这就如同时间定格在了那一刻，你只能保留现状。因此，无论 2021 年 5 月 25 日那天在飞什么，都可以照常继续。"
+    },
+    {
+      "id": 51,
+      "start_sec": 594,
+      "speaker": "Brian Sumers",
+      "en": "For the most part, Brett. As I understand it, there's one more thing and that's that US airlines can't codeshare on flights operated by Mexican airlines. So there is some very real impact to US carriers or at least some of them.",
+      "zh": "大部分如此，Brett。据我了解还有一点，那就是美国航司不能在墨西哥航司实际承运的航班上进行代码共享。所以这对美国航司，或者至少是对其中一部分，造成了非常实质性的影响。"
+    },
+    {
+      "id": 52,
+      "start_sec": 609,
+      "speaker": "Brian Sumers",
+      "en": "So, Brett, let me ask you a broader question here. We've teased this idea that there is a fight between the US and Mexico over aviation access. That should be separate from security issues. But are you a conspiracy theorist?",
+      "zh": "那么，Brett，让我在这里问你一个更宽泛的问题。我们之前提到过美墨之间在航空准入权上存在博弈。这原本应当与安全问题分开。但你相信阴谋论吗？"
+    },
+    {
+      "id": 53,
+      "start_sec": 629,
+      "speaker": "Brian Sumers",
+      "en": "Do you think that there's anything that shows us that maybe Mexico's move to Category 2 is not just about safety and security, but also maybe to send a message to Mexico? Like maybe stop favoring your own airlines at constrained airports?",
+      "zh": "你觉得是否有迹象表明，墨西哥被降为 2 类或许不仅仅是因为安全与安保问题，更是为了向墨西哥传达某种信号？比如让其不要在受限机场继续偏袒本国航司？"
+    },
+    {
+      "id": 54,
+      "start_sec": 644,
+      "speaker": "Brett Snyder",
+      "en": "I think it was based on legitimate safety concerns. You're not just going to throw this out there without any kind of basis, but it's possible that tensions rising between the two countries led them to scrutinize it more closely or penalize them more, or I I don't really know the details. But I am sure that there is a legitimate basis for this in the first place.",
+      "zh": "我认为这确实是基于合规的安全考量。你不可能在没有任何依据的情况下抛出这种降级决定，但两国之间日益加剧的紧张关系，确实有可能促使他们对其进行更严密的审查或施加更严厉的处罚。具体细节我不清楚，但我确信起初肯定是有合法正当依据的。"
+    },
+    {
+      "id": 55,
+      "start_sec": 666,
+      "speaker": "Brett Snyder",
+      "en": "The thing is doesn't really matter for what we're talking about here. We can now fast-forward here. Two years, three months and 20 days, which is when Mexico went back to Category 1. That was September 14, 2023. So it was over two years that they were all frozen in time in Mexico, while US airlines could do whatever they felt like.",
+      "zh": "问题在于，这对于我们现在讨论的内容其实无关紧要。我们现在可以直接把时间往后拨。经过了 2 年 3 个月零 20 天，墨西哥才重新恢复到 1 类，那是 2023 年 9 月 14 日。也就是说，墨西哥航司被整整冻结了两年多，而美国航司却可以随心所欲地开展运营。"
+    },
+    {
+      "id": 56,
+      "start_sec": 689,
+      "speaker": "Brian Sumers",
+      "en": "Brett, you act like the US airlines can do anything, and then Mexican airlines are getting hurt. But in a lot of cases, their networks don't overlap. They serve different markets, right?",
+      "zh": "Brett，你说的好像美国航司能为所欲为，而墨西哥航司一直在遭受损失。但在很多情况下，他们的航线网络并没有重叠。他们服务的是不同的细分市场，对吧？"
+    },
+    {
+      "id": 57,
+      "start_sec": 701,
+      "speaker": "Brett Snyder",
+      "en": "Yeah, that is true. I mean, you've got in Mexico Viva and Volaris, which have been much more focused on the VFR market, friends and relatives, low-cost leisure, that type of stuff. And in the US, of course, most of the airlines are focusing on getting people to the beach.",
+      "zh": "是的，确实如此。我是说，墨西哥本土有 Viva 和 Volaris，他们过去更专注于探亲访友（VFR）市场、低成本休闲游这类的需求。当然，美国的航司主要聚焦于把游客送到海滩度假地。"
+    },
+    {
+      "id": 58,
+      "start_sec": 720,
+      "speaker": "Brett Snyder",
+      "en": "So those really don't overlap. And even when they try, it doesn't work well. Volaris recently tried Oakland and Ontario, I think, to Cabo. Did not last long. They're really just very separate.",
+      "zh": "所以这两个群体其实没什么重叠。即使航司尝试兼顾，效果也很差。比如沃拉里斯航空前阵子尝试开通奥克兰以及安大略飞往卡波的航线，没坚持多久就停了。这两个客群确实泾渭分明。"
+    },
+    {
+      "id": 59,
+      "start_sec": 735,
+      "speaker": "Brett Snyder",
+      "en": "Viva hasn't even tried this beach market from the US, but they kind of had other plans, a different way to serve it.",
+      "zh": "Viva 甚至都没碰过美国出发的海滩度假市场，但他们曾经另有算盘，打算换一种方式来运营。"
+    },
+    {
+      "id": 60,
+      "start_sec": 742,
+      "speaker": "Brian Sumers",
+      "en": "No, Viva, if you remember, it wanted to serve Mexican beaches from the United States, and it was going to do that in an interesting way. It had planned a joint venture with Allegiant, where Viva was going to go into some of those smaller US markets that Allegiant has liked very much and take those customers to Mexican beaches.",
+      "zh": "没碰过，但如果你还记得的话，Viva 其实一直想开通从美国飞往墨西哥海滩的航线，而且打算用一种很巧妙的方式来做。他们曾计划与忠实航空组建航线联营（JV），由 Viva 进军忠实航空非常看重的一些美国下沉支线市场，并把这些旅客运往墨西哥的海滩。"
+    },
+    {
+      "id": 61,
+      "start_sec": 763,
+      "speaker": "Brian Sumers",
+      "en": "Those two airlines, Viva and Allegiant, really wanted this, and they had been very mad for a while. But in recent months, they've both kind of moved on. Viva and Volaris are on the cusp of approval for their merger of equals, as if anything like that has ever been possible.",
+      "zh": "Viva 和忠实航空这两家公司非常渴望达成合作，并且为此郁闷了很长一段时间。但最近几个月，双方似乎都各自朝前看了。Viva 正在与沃拉里斯推进所谓的“对等合并”审批——就好像这种对等合并真的存在过一样。"
+    },
+    {
+      "id": 62,
+      "start_sec": 778,
+      "speaker": "Brian Sumers",
+      "en": "And then Allegiant recently bought Sun Country. So both of them have other things to worry about. Just a side note for the listeners, this would be the airline formerly known as Viva what, Brett?",
+      "zh": "而忠实航空最近收购了太阳城航空。所以两家公司现在都有别的头疼事要操心。顺便给听众科普一下，这家航司以前的全名应该叫 Viva 什么来着，Brett？"
+    },
+    {
+      "id": 63,
+      "start_sec": 791,
+      "speaker": "Brett Snyder",
+      "en": "Aerobus.",
+      "zh": "VivaAerobus。"
+    },
+    {
+      "id": 64,
+      "start_sec": 792,
+      "speaker": "Brian Sumers",
+      "en": "Yeah, what a great name that was.",
+      "zh": "对，那名字起得真绝了。"
+    },
+    {
+      "id": 65,
+      "start_sec": 794,
+      "speaker": "Brett Snyder",
+      "en": "But this is another casualty of this fight, because their joint venture was held up. The government in the US refused to even review it until the fight was resolved.",
+      "zh": "但这又是这场博弈下的另一个牺牲品，因为他们的航线联营申请被直接搁置了。美国政府甚至拒绝予以审查，除非两国的争端得到解决。"
+    },
+    {
+      "id": 66,
+      "start_sec": 806,
+      "speaker": "Brett Snyder",
+      "en": "And we haven't even gotten into the full fight yet, but now it's probably dead because of the two mergers. And that actually would have been very beneficial for travelers in the US, but here we are.",
+      "zh": "我们待会儿才会详细聊这场全盘冲突，但鉴于这两起合并案，联营计划现在大概率是彻底黄了。而这种联营原本对美国旅客是极具好处的，但现实就是如此残酷。"
+    },
+    {
+      "id": 67,
+      "start_sec": 816,
+      "speaker": "Brian Sumers",
+      "en": "Yes, and that was only the second joint venture that was kind of messed up by all this drama. Delta and Aeromexico created a joint venture in 2017. They'd been partners for a long time in SkyTeam.",
+      "zh": "是的，而这还只是第二起被这场闹剧搅黄的航线联营（JV）。达美航空与墨西哥国际航空早在 2017 年就建立了联营，双方此前在天合联盟也是长期的合作伙伴。"
+    },
+    {
+      "id": 68,
+      "start_sec": 831,
+      "speaker": "Brian Sumers",
+      "en": "And they had this joint venture to feed each other and strengthen their positions in the US-Mexico market. Keep in mind that Aero Mexico is really Aero Mexico City, since that's where most of its flights go.",
+      "zh": "他们建立联营旨在互相喂客，并巩固双方在美墨航线市场的地位。要记住，墨西哥国际航空（Aeroméxico）本质上其实是“墨西哥城航空”，因为其绝大部分航班都集中在那里。"
+    },
+    {
+      "id": 69,
+      "start_sec": 847,
+      "speaker": "Brian Sumers",
+      "en": "And then Delta, we know, doesn't have a great Mexican-facing hub, at least compared to American and DFW, and United and Houston. Those are both much better hubs than anything Delta has for the business traveler and for premium.",
+      "zh": "而达美航空我们都知道，并没有面向墨西哥市场的强势枢纽，至少比起美国航空的达拉斯/沃斯堡枢纽和美联航的休斯敦枢纽相形见绌。无论在商旅还是高端客源方面，后两者的枢纽都远胜达美的任何基地。"
+    },
+    {
+      "id": 70,
+      "start_sec": 863,
+      "speaker": "Brett Snyder",
+      "en": "This is true, Brian. The difference though is that Aeromexico hasn't really been on this big growth trajectory. It does have airplanes coming in now, it's growing some long-haul, but Viva and Volaris, they were about massive growth.",
+      "zh": "确实如此，Brian。不过区别在于，墨西哥国际航空此前并没有处于大规模扩张的轨道上。尽管它现在确实有新机型交付并拓展了一些长航线，但 Viva 和沃拉里斯此前追求的可是爆发式增长。"
+    },
+    {
+      "id": 71,
+      "start_sec": 877,
+      "speaker": "Brett Snyder",
+      "en": "And so they're the ones that are really hurt the most, because they had to freeze in time, right? Aeromexico and Delta, maybe Delta couldn't put its code on Aeromexico, but Delta could add metal into Mexico and Aeromexico could put its code on them.",
+      "zh": "因此真正受伤最严重的是这两家低成本航司，因为它们的扩张被生生按下了暂停键。至于墨航和达美，也许达美不能挂代码到墨航的航班上，但达美可以用自己的飞机飞进墨西哥，墨航也可以在上面挂代码。"
+    },
+    {
+      "id": 72,
+      "start_sec": 891,
+      "speaker": "Brett Snyder",
+      "en": "So it was not nearly as difficult as it was for Viva and Volaris to just sit there and have to find places to put these other airplanes.",
+      "zh": "所以其处境远没有 Viva 和沃拉里斯那么艰难——这两家只能干瞪眼，还得想方设法给接连交付的新飞机硬找地方消化。"
+    },
+    {
+      "id": 73,
+      "start_sec": 898,
+      "speaker": "Brian Sumers",
+      "en": "As you mentioned earlier, the Mex-",
+      "zh": "正如你刚才提到的，墨西……"
+    },
+    {
+      "id": 74,
+      "start_sec": 900,
+      "speaker": "Brett Snyder",
+      "en": "Mexico domestic market is kind of, eh, and they wanted to grow in the United States and for a while they couldn't. But there was a plan for them to now move ahead once it went to CAT 1 again and then the real fight began.",
+      "zh": "墨西哥国内市场表现平平，他们本想在美国市场发力，但此前有一阵子却受限无法扩张。不过他们早就制定了方案，计划在墨西哥重新重返一类安全评级（CAT 1）后全速推进，而随后真正的交锋才正式拉开序幕。"
+    },
+    {
+      "id": 75,
+      "start_sec": 916,
+      "speaker": "Jon Ostrower",
+      "en": "We'll talk about that more after the break. It's Tulsa time again! Did you know that one of the big advantages at Tulsa International Airport is room to grow?",
+      "zh": "我们将在稍后中场休息后深入探讨这个话题。又到了塔尔萨时间！你知道塔尔萨国际机场的一大核心优势就是充足的扩建空间吗？"
+    },
+    {
+      "id": 76,
+      "start_sec": 928,
+      "speaker": "Brett Snyder",
+      "en": "It's in Oklahoma, tell us something we don't know.",
+      "zh": "那可是在俄克拉荷马州，说点我们不知道的吧。"
+    },
+    {
+      "id": 77,
+      "start_sec": 931,
+      "speaker": "Jon Ostrower",
+      "en": "It's not just generic open space. There are more than 200 acres of shovel-ready land with aeronautical access available for development, plus another 1,000 acres of non-aeronautical land for companies that need even more space. And these can typically be permitted in under 30 days with significant utility capacity already in place.",
+      "zh": "这可不是随随便便的普通空地。这里有超过 200 英亩完成前期平整、具备通航接口的即建用地可供开发，此外还有另外 1000 英亩非航空用地供需要更大空间的企业使用。这些地块通常在 30 天内即可完成审批许可，且已预先接入了充沛的水电市政公用管网基础设施。"
+    },
+    {
+      "id": 78,
+      "start_sec": 950,
+      "speaker": "Jon Ostrower",
+      "en": "There are also significant incentives tied to these sites. TUL is part of a designated foreign trade zone, which can help companies reduce some tariff-related costs.",
+      "zh": "这些地块还享有可观的激励扶持政策。塔尔萨国际机场（TUL）属于指定的对外贸易区，能有效协助企业降低部分关税相关成本。"
+    },
+    {
+      "id": 79,
+      "start_sec": 959,
+      "speaker": "Brett Snyder",
+      "en": "Tariff reduction seems timely.",
+      "zh": "降低关税，这现在听起来正当时。"
+    },
+    {
+      "id": 80,
+      "start_sec": 962,
+      "speaker": "Jon Ostrower",
+      "en": "The sites also have access to other federal and state incentives, including Opportunity Zones, HUBZone designations, qualifying census tracts for New Markets Tax Credits, and Enterprise Zones.",
+      "zh": "该区域地块还可享受其他联邦及州级激励政策，包括机会区计划、历史欠发达商业区（HUBZone）资质认定、符合新市场税收减免资格的普查统计区以及企业区优惠。"
+    },
+    {
+      "id": 81,
+      "start_sec": 974,
+      "speaker": "Brett Snyder",
+      "en": "I'm not sure I know what those are, but I assume they save a lot of money?",
+      "zh": "我不太确定这些具体都是什么，但我猜应该能省下一大笔钱吧？"
+    },
+    {
+      "id": 82,
+      "start_sec": 977,
+      "speaker": "Jon Ostrower",
+      "en": "The available sites are also in a tax increment financing district, so qualifying capital projects can receive significant cash-back incentives to help offset development costs.",
+      "zh": "此外，可租售地块还位于税收增量融资区内，因此符合条件的资本投资项目均可获得丰厚的现金返还奖励，用以抵消前期开发建设成本。"
+    },
+    {
+      "id": 83,
+      "start_sec": 987,
+      "speaker": "Brett Snyder",
+      "en": "I hear if you ask nicely, they'll even throw in a free scoop of ice cream at the Big Dipper Creamery.",
+      "zh": "我听说如果你客客气气去谈，他们甚至还会自掏腰包请你吃一个 Big Dipper Creamery 的免费冰淇淋球。"
+    },
+    {
+      "id": 84,
+      "start_sec": 993,
+      "speaker": "Jon Ostrower",
+      "en": "Not enough? The state of Oklahoma gives cash-back incentives through the Quality Jobs Program, along with tax credits for businesses and employees, and tax exemptions for manufacturers.",
+      "zh": "这还不够？俄克拉荷马州还会通过优质就业计划提供现金返还奖励，以及面向企业和员工的税收抵免，还有专门针对制造业的免税政策。"
+    },
+    {
+      "id": 85,
+      "start_sec": 1003,
+      "speaker": "Brett Snyder",
+      "en": "So, if I understand this right, they will pay me in many different ways to move my business there?",
+      "zh": "所以按我的理解，只要我把业务搬迁过去，他们就会通过各种形式给我发钱补贴？"
+    },
+    {
+      "id": 86,
+      "start_sec": 1008,
+      "speaker": "Jon Ostrower",
+      "en": "That's one way to think about it. When companies consider Tulsa, they see more than available land: they get established infrastructure, development incentives, multimodal transportation access, and a strong industry base. For more information, visit flytulsa.com/develop.",
+      "zh": "这么理解完全没问题。当企业考察塔尔萨时，看到的不仅是可用土地：他们获得的是成熟完备的基础设施、招商开发激励政策、多式联运交通接驳，以及雄厚的产业基础。欲了解更多详情，请访问 flytulsa.com/develop。"
+    },
+    {
+      "id": 87,
+      "start_sec": 1024,
+      "speaker": "Jon Ostrower",
+      "en": "Flights are getting expensive.",
+      "zh": "机票是越来越贵了。"
+    },
+    {
+      "id": 88,
+      "start_sec": 1026,
+      "speaker": "Brett Snyder",
+      "en": "Getting? I think we're already there. That's why people pay a lot more attention to their points when they're booking travel these days.",
+      "zh": "越来越贵？我觉得已经是贵得离谱了。这也是为什么如今大家在预订旅行时，都格外看重自己的常旅客积分。"
+    },
+    {
+      "id": 89,
+      "start_sec": 1033,
+      "speaker": "Jon Ostrower",
+      "en": "And there's nothing more frustrating than being so close to the mileage they need for that trip they're looking forward to, but also so far.",
+      "zh": "最让人崩溃的莫过于眼看就要攒够向往已久的旅程所需里程，却总是差那么一点点，看似咫尺却遥不可及。"
+    },
+    {
+      "id": 90,
+      "start_sec": 1040,
+      "speaker": "Brett Snyder",
+      "en": "Yeah, building points can take a while, so people can feel defeated when that happens.",
+      "zh": "确实，积攒常旅客积分需要漫长的过程，所以一旦遇到这种情况，旅客往往会产生强烈的挫败感。"
+    },
+    {
+      "id": 91,
+      "start_sec": 1044,
+      "speaker": "Jon Ostrower",
+      "en": "That's why subscription models are getting so much attention in loyalty. Members pick a monthly or annual plan, and points or miles are added to their account automatically.",
+      "zh": "这就是为什么常旅客计划领域如今对订阅模式青睐有加。会员只需选择月付或年付方案，积分或里程就会按期自动存入他们的账户。"
+    },
+    {
+      "id": 92,
+      "start_sec": 1053,
+      "speaker": "Brett Snyder",
+      "en": "Instead of buying points at the last minute, they build their balance steadily throughout the year, usually at a better value price per point than a one-off purchase, too.",
+      "zh": "比起在最后一刻匆忙补买积分，他们可以在一整年里稳步累积账户余额，而且通常每个积分的单价比单次临时购买要划算得多。"
+    },
+    {
+      "id": 93,
+      "start_sec": 1063,
+      "speaker": "Jon Ostrower",
+      "en": "This is good for travelers, but it also makes a lot of sense for loyalty programs.",
+      "zh": "这不仅造福了旅客，对航司常旅客计划而言也是极为明智的商业设计。"
+    },
+    {
+      "id": 94,
+      "start_sec": 1067,
+      "speaker": "Brett Snyder",
+      "en": "Members stay engaged more consistently, and programs get a more predictable revenue stream instead of relying so heavily on one-off campaigns.",
+      "zh": "会员能够保持更高频、持续的黏性与活跃度，常旅客计划也能获得更具可预测性的经常性收入流，而无需过度依赖单次促销营销活动。"
+    },
+    {
+      "id": 95,
+      "start_sec": 1076,
+      "speaker": "Jon Ostrower",
+      "en": "That's the idea behind Subscription from Points, a Plusgrade company.",
+      "zh": "这正是 Plusgrade 旗下 Subscription from Points 业务的核心理念。"
+    },
+    {
+      "id": 96,
+      "start_sec": 1080,
+      "speaker": "Brett Snyder",
+      "en": "It helps loyalty programs stay connected to members long before they're ready to book.",
+      "zh": "它能帮助常旅客计划在会员准备订票前很久，就与其建立紧密联系。"
+    },
+    {
+      "id": 97,
+      "start_sec": 1084,
+      "speaker": "Brian Sumers",
+      "en": "Because earning points is one thing, but helping people actually get where they want to go is another.",
+      "zh": "因为赚取积分是一回事，但真正帮大家抵达目的地则是另一回事。"
+    },
+    {
+      "id": 98,
+      "start_sec": 1090,
+      "speaker": "Brett Snyder",
+      "en": "Subscription from Points, a Plusgrade company, helping loyalty programs grow recurring revenue while making travel more attainable for members. Learn more at plusgrade.com.",
+      "zh": "Subscription 来自 Plusgrade 旗下公司 Points，助力常旅客计划拓展经常性收入，同时让会员出行更触手可及。详情请访问 plusgrade.com。"
+    },
+    {
+      "id": 99,
+      "start_sec": 1104,
+      "speaker": "Brett Snyder",
+      "en": "And we're back. So, things were resolved on the safety front, but then politics took over at MEX.",
+      "zh": "欢迎回来。安全层面的问题虽然解决了，但随后墨西哥城机场（MEX）又陷入了政治博弈。"
+    },
+    {
+      "id": 100,
+      "start_sec": 1112,
+      "speaker": "Brett Snyder",
+      "en": "And this, it's pretty interesting here, because the issue is not that MEX is full. It's how the government dealt with the fact that MEX is full. Because instead of just following regular guidelines on managing slot-controlled airports like we see everywhere around the world everyday, they went rogue.",
+      "zh": "这里的情况非常有意思：问题并不在于 MEX 机场容量饱和，而在于政府处理饱和问题的方式。他们没有遵循全球通行的时刻受限机场常规管理准则，反而彻底不按常理出牌。"
+    },
+    {
+      "id": 101,
+      "start_sec": 1130,
+      "speaker": "Brian Sumers",
+      "en": "Is that a technical term, Brett? What does that mean?",
+      "zh": "Brett，这是个专业术语吗？到底是什么意思？"
+    },
+    {
+      "id": 102,
+      "start_sec": 1133,
+      "speaker": "Brett Snyder",
+      "en": "No, it is just a descriptive term. Really at this point, there are two big objections from the US side to how the Mexicans have handled this.",
+      "zh": "不，纯粹是个形象的形容词。目前美方对墨西哥方面的处理方式主要有两大异议。"
+    },
+    {
+      "id": 103,
+      "start_sec": 1145,
+      "speaker": "Brett Snyder",
+      "en": "So, the first is that in August of 2022, so this is even before the Cat 2 was lifted, the Mexican government just arbitrarily decided that there were too many flights at MEX. So, they seized slots from the big three US airlines and the big three Mexican airlines, and just decided that was a thing.",
+      "zh": "首先是在 2022 年 8 月，甚至在 2 级安全评级解除之前，墨西哥政府就擅自认定 MEX 航班过多。于是他们强行没收了美国三大航和墨西哥三大航的起降时刻，就这么直接拍板定案了。"
+    },
+    {
+      "id": 104,
+      "start_sec": 1164,
+      "speaker": "Brian Sumers",
+      "en": "Wait a second here. \"Seized\" is a very strong word. Am I hearing you correctly? Didn't they force all airlines to reduce flying? Isn't that fair? Maybe a little ridiculous, but still fair?",
+      "zh": "等等，“强行没收”这词可很重啊。我没听错吧？他们不是强制所有航司都缩减航班吗？这难道不公平吗？哪怕有点荒唐，但至少一视同仁吧？"
+    },
+    {
+      "id": 105,
+      "start_sec": 1176,
+      "speaker": "Brett Snyder",
+      "en": "Well, okay, here's the problem. So, the justification was that they had to reduce operations from 61 to 52 per hour so they could do construction work. But it doesn't appear they actually did any construction work that was going to reduce capacity at the airport in anyway. So, it's not actually clear why this happened.",
+      "zh": "好吧，问题就在这儿。当时的理由是为了施工改造，必须将每小时运行架次从 61 架削减到 52 架。但实际上他们似乎根本没搞任何会降低机场容量的施工。所以外界压根不清楚这么做的真正原因。"
+    },
+    {
+      "id": 106,
+      "start_sec": 1197,
+      "speaker": "Brian Sumers",
+      "en": "Okay, that is a little bit weird that they didn't do the work. There was a second thing here as well though, right?",
+      "zh": "行吧，说了要施工却根本没动工，确实有点诡异。但还有第二件事对吧？"
+    },
+    {
+      "id": 107,
+      "start_sec": 1203,
+      "speaker": "Brett Snyder",
+      "en": "Yeah. So, the second part is that in February 2023, the Mexican government announced it was going to ban all-cargo operations at MEX.",
+      "zh": "没错。第二件事是，2023 年 2 月墨西哥政府宣布将全面禁止全货机在 MEX 运行。"
+    },
+    {
+      "id": 108,
+      "start_sec": 1213,
+      "speaker": "Brian Sumers",
+      "en": "Yeah, all-cargo operations, which is not to be confused with belly cargo. That was still allowed. It sounds like the point was to free up space for passenger flights.",
+      "zh": "对，全货机业务，可别和客机腹舱带货混为一谈，腹舱货运依然是允许的。听起来这么做是为了给客运航班腾出空间。"
+    },
+    {
+      "id": 109,
+      "start_sec": 1223,
+      "speaker": "Brett Snyder",
+      "en": "You might think that, Brian. That would stand to reason, wouldn't it? But then they just kept reducing capacity at the airport. So, in August 2023, they cut it again from 52 to 43 per hour.",
+      "zh": "你可能会这么想，Brian，按常理确实该这样对吧？但随后他们却继续削减机场容量。到了 2023 年 8 月，他们再次将每小时架次从 52 砍到了 43。"
+    },
+    {
+      "id": 110,
+      "start_sec": 1236,
+      "speaker": "Brett Snyder",
+      "en": "Step back and think about this for a minute. So, this airport is jammed, but it had been operating at 61 an hour for almost a decade. Nothing changed, and then all of a sudden, in a year's time, departures are slashed 35%?",
+      "zh": "退一步仔细想想：这座机场确实拥挤不堪，但过去近十年里一直保持着每小时 61 架次的运行。一切都没变，结果短短一年内，起飞架次竟然直接被砍掉了 35%？"
+    },
+    {
+      "id": 111,
+      "start_sec": 1251,
+      "speaker": "Brett Snyder",
+      "en": "Like that is massive, especially when you compare it to like what the FAA's done in Chicago or Newark. And in those cases, by the way, in the US...",
+      "zh": "这种降幅是极为惊人的，特别是对比 FAA 在芝加哥或纽瓦克采取的做法。顺便提一句，在美国那些案例中……"
+    },
+    {
+      "id": 112,
+      "start_sec": 1260,
+      "speaker": "Brett Snyder",
+      "en": "as it didn't impact international operations. It was just domestic carriers that they had to work with to figure that out. So very different story, but that is just a massive cut.",
+      "zh": "因为它没有影响到国际航线运营。当时他们只需要协调国内航司来解决这个问题。所以情况截然不同，但这次削减的幅度确实极其巨大。"
+    },
+    {
+      "id": 113,
+      "start_sec": 1269,
+      "speaker": "Brian Sumers",
+      "en": "You know what's even more bizarre here, Brett? The government is located in Mexico City, and we've seen this example in the United States where the government protects its local airport because the politicians like to use it. Nothing like a maybe a self-interest to get things going, but that's not happening here.",
+      "zh": "你知道更诡异的是什么吗，Brett？联邦政府就在墨西哥城。我们在美国见过类似的例子，政府通常会保护本地机场，因为政客们自己喜欢用。没有什么比切身利益更能推动事情了，但这里的情况却截然相反。"
+    },
+    {
+      "id": 114,
+      "start_sec": 1290,
+      "speaker": "Brett Snyder",
+      "en": "No, it's not. What this did, ultimately, is force out operations to secondary airports. And you know, there's Toluca, west of town, and oh wait, AIFA. Didn't we talk about AIFA? I think maybe that they wanted to grow that new airport out there.",
+      "zh": "确实不是。这种做法最终的结果，就是迫使航班运营转移到次级机场。城西有托卢卡机场，哦对了，还有费利佩·安赫莱斯国际机场（AIFA）。我们之前是不是聊过 AIFA？我想可能就是因为他们想做大那个新机场。"
+    },
+    {
+      "id": 115,
+      "start_sec": 1309,
+      "speaker": "Brett Snyder",
+      "en": "So, that's kind of what this could do. So they would move the cargo operations to AIFA and then I guess the hope was that by cutting even passenger operations so much that other airlines would then relocate or grow elsewhere. And the Mexican airlines did that.",
+      "zh": "所以，这招的作用正在于此。他们把货运业务强行迁到了 AIFA，接着大概是希望通过大幅削减客运航班，迫使其他航司搬迁过去，或在其他地方寻求增量。墨西哥本土航司确实妥协了。"
+    },
+    {
+      "id": 116,
+      "start_sec": 1328,
+      "speaker": "Brett Snyder",
+      "en": "They went in to AIFA, which I'm sure they had to do that. I'm sure the government was not going to be thrilled if they said no, thank you. But no US carriers did.",
+      "zh": "他们入驻了 AIFA，我相信这也是迫不得已。如果他们敢回绝，墨西哥政府绝对不会给好脸色看。但美国航司可没买账。"
+    },
+    {
+      "id": 117,
+      "start_sec": 1338,
+      "speaker": "Brett Snyder",
+      "en": "Viva to its credit is trying to make a go of something there, and it's probably not wrong to try. There are people out there, but you're not going to get other airlines, especially from the US. They're not going to do the split operation like that.",
+      "zh": "平心而论，Viva 航司确实在努力在那里打开局面，尝试一下也未尝不可，毕竟周边还是有客源的。但你指望不上其他航司，特别是美国航司，他们绝不会去搞这种两场分流运营。"
+    },
+    {
+      "id": 118,
+      "start_sec": 1352,
+      "speaker": "Brett Snyder",
+      "en": "You know, this is very much a secondary airport and the US airlines don't really want to deal with that.",
+      "zh": "要知道，这完全就是一个次级机场，美国航司根本不想趟这摊浑水。"
+    },
+    {
+      "id": 119,
+      "start_sec": 1358,
+      "speaker": "Brian Sumers",
+      "en": "No, they don't. And anybody who is not familiar with the intricacies of US agreements with other countries might be thinking, well, this is bizarre, it's stupid, but can't Mexico do whatever it wants here? But the United States is calling shenanigans here, saying that Mexico isn't living up to its bargain, the bargain that it set when it negotiated that Open Skies agreement with the United States.",
+      "zh": "确实不想。不熟悉美国对外航空协定复杂细节的人可能会想：这虽然离谱又愚蠢，但难道墨西哥在自家地盘上还不能为所欲为吗？但美国方面指责这是在搞猫腻，称墨西哥没有履行承诺——也就是当年与美国签署《开放天空协定》时达成的约定。"
+    },
+    {
+      "id": 120,
+      "start_sec": 1386,
+      "speaker": "Brett Snyder",
+      "en": "Yeah, that's pretty much it. And you can make this argument that it's not fair. The Mexican government did say, well, we took slots from our carriers too. But the difference is that the US carriers, you know, they're only flying to the US, they don't have that many slots. So you take away their slots and they pretty much have no choice here.",
+      "zh": "没错，大致就是这么回事。你完全可以说这有失公允。墨西哥政府当时辩解称：我们也削减了本土航司的起降时刻啊。但本质区别在于，美国航司只飞美墨航线，手里的时刻本来就少。你削减他们的时刻，他们就几乎没有回旋余地。"
+    },
+    {
+      "id": 121,
+      "start_sec": 1405,
+      "speaker": "Brett Snyder",
+      "en": "But Mexican carriers, they could reduce their domestic flying because they have so many slots and then they could reallocate that to the US if they wanted to. And so that makes it more challenging. But then, combine it with the angry cargo carriers, which do not underestimate the importance of FedEx and UPS and everyone else who they're very angry about all of this.",
+      "zh": "可墨西哥本土航司不同，他们起降时刻充裕，可以缩减国内航线运力，如果愿意的话，还能把时刻重新调配到美国航线上。这就导致竞争更加不平等。此外，再加上愤怒的货运航司——可千万别低估联邦快递（FedEx）和联合包裹（UPS）等巨头的影响力，他们对此事也是怒不可遏。"
+    },
+    {
+      "id": 122,
+      "start_sec": 1426,
+      "speaker": "Brett Snyder",
+      "en": "And it reached this boiling point on July 19, 2025, which is when the US announced it would be putting restrictions out there on Mexican airlines. So, first it said Mexican airlines could no longer",
+      "zh": "矛盾在 2025 年 7 月 19 日彻底激化到沸点，美国当时宣布将对墨西哥航司实施反制限制措施。首先，美方宣布墨西哥航司不得再"
+    },
+    {
+      "id": 123,
+      "start_sec": 1440,
+      "speaker": "Brett Snyder",
+      "en": "...operate any charters into the US without permission. And it said all schedules to the US had to be sent in advance for approval to determine if they, quote, 'may be contrary to applicable law or adversely affect the public interest,' end quote. Then they also said that they were going to move to end the Aeromexico-Delta joint venture, since this wasn't really Open Skies. And that has always been the requirement for a joint venture with antitrust immunity, is you have to have Open Skies.",
+      "zh": "……未经许可不得向美国执飞任何包机包机航班。此外，所有赴美航班计划都必须提前呈报审批，以判定其是否『可能违反适用法律或损害公众利益』。随后他们还表示，将着手叫停墨西哥航空与达美航空的航线联营（JV），因为这根本算不上真正的『开放天空』。而获得反垄断豁免（ATI）的联营合作历来都有一项硬性门槛，那就是必须具备双边『开放天空』协议。"
+    },
+    {
+      "id": 124,
+      "start_sec": 1471,
+      "speaker": "Brian Sumers",
+      "en": "Those are pretty impressive restrictions. Did Mexico move at all?",
+      "zh": "这些限制力度着实不小。墨西哥方面有任何动作吗？"
+    },
+    {
+      "id": 125,
+      "start_sec": 1477,
+      "speaker": "Brett Snyder",
+      "en": "It actually did. So, you know, it started by agreeing to put into place more transparent slot assignment processes, and then it said it would give back the confiscated slots. It didn't really fix the problem fully, it just started to sort of warm up to the idea that, 'Okay, you've hit us harder, now we're going to have to deal with you.' So worked directionally toward fixing it.",
+      "zh": "其实还真有。你看，他们先是同意建立更透明的时刻（Slot）分配机制，随后又表态会归还那些被强行收回的时刻。这并没有彻底解决问题，只是迫于压力开始妥协，心想：『行吧，既然你们动了真格，我们不得不出面应付。』所以大体上是朝着解决问题的方向在推进。"
+    },
+    {
+      "id": 126,
+      "start_sec": 1503,
+      "speaker": "Brian Sumers",
+      "en": "'Directionally', you say. That sounds like one of those wishy-washy words that means things are moving, but maybe slowly. Do we not yet have a full solution? Have things escalated?",
+      "zh": "你说『朝着这个方向』？这话听起来含糊其辞，像是事情虽在进展，但步履维艰。难道至今都还没有彻底的解决方案吗？事态进一步升级了吗？"
+    },
+    {
+      "id": 127,
+      "start_sec": 1515,
+      "speaker": "Brett Snyder",
+      "en": "We do not have a full solution, and things absolutely did escalate. So what happened in October of 2025, all the Mexican airlines filed their planned schedules. And so then the US government responded and said, 'No, you can't do this, you can't do this, you can't do this.' They basically all the all the new flights that were planned out of MEX...",
+      "zh": "确实没有彻底解决，而且局势绝对进一步激化了。到了2025年10月，所有墨西哥航司提交了新一季的航班计划。结果美国政府直接出手驳回，表示：『不行，这班不行，那班不行，统统不行。』基本上所有从MEX（墨西哥城贝尼托·胡亚雷斯机场）规划的新增航班全部被砍……"
+    },
+    {
+      "id": 128,
+      "start_sec": 1538,
+      "speaker": "Brian Sumers",
+      "en": "So you're saying, Brett, that there's still is a US government? There are regulators somewhere in Washington, DC that are still doing things?",
+      "zh": "Brett，你的意思是美国政府居然还在运作？华盛顿特区还有监管官员在干实事？"
+    },
+    {
+      "id": 129,
+      "start_sec": 1543,
+      "speaker": "Brett Snyder",
+      "en": "This is true, you can read about it in the docket if you'd like. But they blocked, let's see, Aeromexico had already started flying from NLU to Houston and McAllen. And they said, 'Nope, you can't do that.' So they made them stop.",
+      "zh": "千真万确，有兴趣的话你可以去查阅官方卷宗文件。他们直接叫停了相关航线——让我想想，墨西哥航空当时已经开通了从NLU（费利佩·安赫莱斯机场）飞往休斯敦和麦卡伦的航线。美方直接勒令：『不行，不准飞。』迫使他们停航。"
+    },
+    {
+      "id": 130,
+      "start_sec": 1560,
+      "speaker": "Brett Snyder",
+      "en": "And then Volaris wanted to fly MEX to Newark, they said, 'No.' Viva was planning to fly from NLU to nine US cities back then, and said, 'Nope.' And then it just said, 'Listen, forget it. There will be no new service from MEX or NLU to the US for any Mexican airlines, and they can't increase frequency on any existing routes from there either.'",
+      "zh": "接着Volaris申请开通MEX至纽瓦克航线，被否决；Viva Aerobus当时规划从NLU直飞9个美国城市，同样被一票否决。美方最后索性撂下狠话：『彻底死心吧，墨西哥各航司休想再开通任何从MEX或NLU赴美的新航线，现有航线也一律不准加密频次。』"
+    },
+    {
+      "id": 131,
+      "start_sec": 1584,
+      "speaker": "Brian Sumers",
+      "en": "That is pretty harsh.",
+      "zh": "这制裁手段可够狠的。"
+    },
+    {
+      "id": 132,
+      "start_sec": 1585,
+      "speaker": "Brett Snyder",
+      "en": "Yeah, and there's more. So the US then also said that it would ban Mexican airlines from carrying any belly cargo on flights from MEX to the US on passenger flights. So they went pretty hard on this.",
+      "zh": "是啊，而且还不止这些。美方紧接着又宣布，禁止墨西哥航司在MEX飞往美国的客运航班上搭载任何腹舱货物（Belly Cargo）。所以这次制裁力度极其严厉。"
+    },
+    {
+      "id": 133,
+      "start_sec": 1599,
+      "speaker": "Brian Sumers",
+      "en": "This is fierce stuff from the United States. Sounds like the story's getting pretty good here.",
+      "zh": "美国这招确实够狠辣。看来剧情真是越来越精彩了。"
+    },
+    {
+      "id": 134,
+      "start_sec": 1604,
+      "speaker": "Brett Snyder",
+      "en": "Yeah, it was. So, you know, NLU lost the few flights it had to the US, and they had all these grand plans. There has not been a flight to the US from NLU ever since this went into place, because no US airlines are doing it.",
+      "zh": "没错，确实是。所以你看，NLU机场仅有的几条赴美航线全被掐断了，尽管他们此前还描绘了宏伟蓝图。自这套限制令落地实施以来，NLU就再也没有过任何赴美航班，因为根本没有美国航司愿意飞那里。"
+    },
+    {
+      "id": 135,
+      "start_sec": 1618,
+      "speaker": "Brian Sumers",
+      "en": "Brett, one would...",
+      "zh": "Brett，大家不免会……"
+    },
+    {
+      "id": 136,
+      "start_sec": 1620,
+      "speaker": "Brian Sumers",
+      "en": "assume that this sort of pressure would get the Mexican government to take action, maybe pretty swiftly. Doesn't Mexico need those US air ties? I would think that business is pretty darn important.",
+      "zh": "这种施压会让墨西哥政府采取行动，而且可能会非常迅速。墨西哥难道不需要这些美墨航线纽带吗？我本以为这块业务相当重要。"
+    },
+    {
+      "id": 137,
+      "start_sec": 1633,
+      "speaker": "Brett Snyder",
+      "en": "Yeah, you would think, right? But it took a year until DOT just announced on October 16th here that it will be revoking the previous order and new service can once again begin.",
+      "zh": "是啊，按理说该这样，对吧？但整整拖了一年，直到10月16日美国交通部才刚宣布将撤销之前的禁令，新航线终于可以再次开通了。"
+    },
+    {
+      "id": 138,
+      "start_sec": 1645,
+      "speaker": "Brian Sumers",
+      "en": "This is amazing news. How did we finally get here?",
+      "zh": "这真是个大好消息。我们最终是怎么达成这一步的？"
+    },
+    {
+      "id": 139,
+      "start_sec": 1649,
+      "speaker": "Brett Snyder",
+      "en": "Well, okay, so they they got pretty serious in talks after this uh last year. And then by May 1st of this year, there was a memorandum of consultations.",
+      "zh": "好吧，去年这事发生后，双方的谈判变得非常认真。到了今年5月1日，他们达成了一份磋商备忘录。"
+    },
+    {
+      "id": 140,
+      "start_sec": 1659,
+      "speaker": "Brian Sumers",
+      "en": "Isn't government terminology amazing? Can you translate that into English for us, please?",
+      "zh": "政府公文黑话真有意思，对吧？能不能麻烦你给我们把它翻译成大白话？"
+    },
+    {
+      "id": 141,
+      "start_sec": 1665,
+      "speaker": "Brett Snyder",
+      "en": "I cannot, but no, what it meant was it they basically just agreed on a roadmap to resolve all the fights. So the Mexicans agreed to return the confiscated slots, and then they weren't going to block cargo carriers from using MEX if they had slots.",
+      "zh": "我可翻不来。不过说白了，其实就是双方就解决所有争端的基本路线图达成了一致。墨西哥方面同意归还被没收的起降时刻，只要全货运航司拥有时刻，就不再阻止它们使用墨西哥城机场。"
+    },
+    {
+      "id": 142,
+      "start_sec": 1680,
+      "speaker": "Brett Snyder",
+      "en": "They also said that they would use the industry standard best practices for slot management, and include like industry standard usage requirements to keep them, and there's all this kind of stuff. So they did that, and then with that, the US said, \"Okay, fine. Well, then we'll take our foot off your neck for a minute here.\"",
+      "zh": "他们还表示将采用行业标准的最佳实践来进行时刻管理，包括引入行业标准的时刻使用率要求等一整套规范。墨西哥落实了这些，美国就表示：“行吧，那我们暂时先对你们松松绑。”"
+    },
+    {
+      "id": 143,
+      "start_sec": 1698,
+      "speaker": "Brian Sumers",
+      "en": "All right. Well, this is this is good news. I I presume that we can end the show right now because everything is great, the two countries are playing well together, airlines are happy. Should we just do the theme music?",
+      "zh": "好吧，这确实是个好消息。我想我们现在就可以结束本期节目了，因为一切都已圆满解决，两国合作融洽，航司也皆大欢喜。要不我们直接放片尾曲？"
+    },
+    {
+      "id": 144,
+      "start_sec": 1708,
+      "speaker": "Brett Snyder",
+      "en": "This is where we play the \"wah-wah\". We're not there yet. That one order that blocked the new Mexico City flying, that was revoked, but everything else is still in place.",
+      "zh": "这时候就该配一段“呜哇呜哇”的扫兴音效了。还没到那一步呢。仅仅是那份阻挠墨西哥城新航线的禁令被撤销了，但其他限制依然有效。"
+    },
+    {
+      "id": 145,
+      "start_sec": 1720,
+      "speaker": "Brett Snyder",
+      "en": "So they still have to file their schedules in advance, and no charters, and all that kind of stuff. And you know, if the US decided it wanted to, it could block other flights if it wanted to review the schedules as they're filed. But this is let's call this a thawing. They say they're just going to keep monitoring this to see what happens.",
+      "zh": "他们仍须提前报备航班计划，包机依然受限等等。而且如果美国愿意，在审查报备的航班时刻时仍可随时叫停其他航班。不过我们姑且把这称为一次“破冰”。美方表示将继续保持监控，静观其变。"
+    },
+    {
+      "id": 146,
+      "start_sec": 1740,
+      "speaker": "Brian Sumers",
+      "en": "Do we know what monitoring means in this context?",
+      "zh": "我们清楚在这种语境下“监控”究竟意味着什么吗？"
+    },
+    {
+      "id": 147,
+      "start_sec": 1743,
+      "speaker": "Brett Snyder",
+      "en": "I guess that's the million-peso question there. That's, you know, it's still a lot of pesos, okay? Anyway, the point is, um, let me say this.",
+      "zh": "我想这就是价值百万比索的关键问题了。不管怎么说，这也算是一大笔比索了，对吧？总之关键在于，我想提一下这个。"
+    },
+    {
+      "id": 148,
+      "start_sec": 1755,
+      "speaker": "Brett Snyder",
+      "en": "In August, the 11th Circuit Court of Appeals in the US ruled that DOT had done a crap job of justifying ending the Delta-Aeromexico joint venture.",
+      "zh": "今年8月，美国联邦第十一巡回上诉法院裁定，交通部在叫停达美与墨航联营（JV）的依据阐述上干得极其糟糕。"
+    },
+    {
+      "id": 149,
+      "start_sec": 1765,
+      "speaker": "Brian Sumers",
+      "en": "Was \"crap job\" actually in the uh judgment?",
+      "zh": "判决书里真用了“极其糟糕”这种词吗？"
+    },
+    {
+      "id": 150,
+      "start_sec": 1768,
+      "speaker": "Brett Snyder",
+      "en": "That was not, I believe, the justification used, but that's my summary of how they described it. So they blocked it. Now, DOT could go back and say, do a good job, and still fight it, or they could appeal to the Supreme Court, or you know, there are other ways if they want to do that.",
+      "zh": "我相信法官用的肯定不是这个词，但这是我对他们表述的总结。所以法院叫停了交通部的决定。现在交通部可以重新组织有力的说辞继续力争，或者上诉至最高法院，只要他们想，总有其他途径。"
+    },
+    {
+      "id": 151,
+      "start_sec": 1786,
+      "speaker": "Brett Snyder",
+      "en": "So I'm kind of watching that to see if they do move forward on that aggressively, then that would suggest that the thawing is not working. So that's one thing to keep an eye on.",
+      "zh": "所以我正在关注这件事，看交通部是否会激进推进阻挠联营。如果是，那就说明所谓的破冰缓和根本没起作用。这是值得持续关注的一点。"
+    },
+    {
+      "id": 152,
+      "start_sec": 1797,
+      "speaker": "Brian Sumers",
+      "en": "Yeah, it's all very complicated. But at least",
+      "zh": "是啊，这整件事太复杂了。但至少……"
+    },
+    {
+      "id": 153,
+      "start_sec": 1800,
+      "speaker": "Brett Snyder",
+      "en": "Things are getting better, right? Unless...",
+      "zh": "情况在好转，对吧？除非……"
+    },
+    {
+      "id": 154,
+      "start_sec": 1803,
+      "speaker": "Jon Ostrower",
+      "en": "You mean unless the US decides to send Mexico back into, say, Category 2 status for safety? Yes. So that is back on the table again. Apparently, there was a safety audit this summer, and they found a bunch of problems, like a shortage of inspectors, and administrative errors, and all different kinds of issues.",
+      "zh": "你的意思是，除非美国决定出于安全评级，把墨西哥重新降回所谓的二类评级（Category 2）？是的，这事又被提上日程了。显然，今年夏天FAA进行了一次安全审计，发现了一大堆问题，比如监察员短缺、行政管理疏漏，以及各种各样的问题。"
+    },
+    {
+      "id": 155,
+      "start_sec": 1826,
+      "speaker": "Jon Ostrower",
+      "en": "So, I believe the report was just delivered to the Mexicans on October 14th, and the US will come back in December to see if everything has been fixed. If there is a downgrade, Aviacionline says that could happen no earlier than February of next year in this process.",
+      "zh": "据我了解，这份审查报告刚在10月14日递交给墨方，美国方面将在12月杀个回马枪，看看所有整改是否落实。根据外媒Aviacionline的报道，如果要正式降级，整个流程走下来最早也要到明年2月。"
+    },
+    {
+      "id": 156,
+      "start_sec": 1848,
+      "speaker": "Brett Snyder",
+      "en": "This all sounds kind of stupid. So we think we're getting to a point where Mexico could go back to Category 2, and if or when that happens, new routes will be frozen. We seem to be heading in that direction.",
+      "zh": "这听起来实在有点荒谬。所以我们现在认为墨西哥可能会重回二类评级，而一旦降级成真，所有新开航线都将被冻结。现在的走势似乎正是如此。"
+    },
+    {
+      "id": 157,
+      "start_sec": 1863,
+      "speaker": "Brett Snyder",
+      "en": "But until then, until the order's actually made, it's like, have at it, airlines, you can do whatever you want until then.",
+      "zh": "但在那之前，在降级禁令正式下达前，航司却能放飞自我——你们想怎么飞就怎么飞，直到大限来临。"
+    },
+    {
+      "id": 158,
+      "start_sec": 1871,
+      "speaker": "Jon Ostrower",
+      "en": "Right? It's so ridiculous. I don't understand how this process makes sense. I guess it's really just more of them saying, \"Well, it's safe enough, but we want you to fix these things anyway, so we'll slap you around a little bit and hope you do that, I guess.\"",
+      "zh": "可不是吗？简直荒唐透顶。我真不明白这种监管逻辑怎么说得通。我猜当局的意思更偏向于：“其实现在还算安全，但我们还是勒令你们把这些漏洞堵上，所以我们先给点敲打警告，指望你们能照办。”"
+    },
+    {
+      "id": 159,
+      "start_sec": 1887,
+      "speaker": "Brett Snyder",
+      "en": "Considering what happened last time, especially to Viva and Volaris, should I presume that these airlines are adding flights as quickly as they can, just in case?",
+      "zh": "鉴于上次降级的教训，尤其是对Viva和Volaris这两家航司的影响，我是不是可以推测，航司们现在正争分夺秒地拼命加开航班，以防万一？"
+    },
+    {
+      "id": 160,
+      "start_sec": 1898,
+      "speaker": "Jon Ostrower",
+      "en": "Oh, it sounds like you should work for Volaris, I think, because yes, Volaris is starting flights this month from Guadalajara to Atlanta, Boston, Nashville, Raleigh-Durham, and Washington Dulles. It's also adding Puebla to O'Hare and Queretaro to Vegas.",
+      "zh": "哈哈，我看你都能去Volaris上班了，因为你说得太对了。Volaris本月正开通从瓜达拉哈拉飞往亚特兰大、波士顿、纳什维尔、罗利达勒姆以及华盛顿杜勒斯的航线；还加开了普埃布拉到芝加哥奥黑尔、克雷塔罗到拉斯维加斯的航线。"
+    },
+    {
+      "id": 161,
+      "start_sec": 1913,
+      "speaker": "Jon Ostrower",
+      "en": "I just have a hard time believing they would have done all of this right now if they didn't think that this was their window.",
+      "zh": "如果不是认准了当下的时间窗口稍纵即逝，我很难相信他们会在这个节点孤注一掷地铺开这么多航线。"
+    },
+    {
+      "id": 162,
+      "start_sec": 1920,
+      "speaker": "Brett Snyder",
+      "en": "I can't blame them for doing this.",
+      "zh": "他们这么做也无可厚非。"
+    },
+    {
+      "id": 163,
+      "start_sec": 1922,
+      "speaker": "Jon Ostrower",
+      "en": "Yeah, I can't either. I don't know that all of these are going to do great yet. You know, you need to build up slowly but surely. But if you don't have the ability to do that, then you just kind of have to take the hit and do what you need to do to put your plan out there so that you can keep going with it if another two years of no growth hits, who knows?",
+      "zh": "确实，我也理解。虽然还不知道这些航线表现会怎样——毕竟航线培育需要稳扎稳打、循序渐进。但如果外部环境不给你从容布局的机会，你就只能硬着头皮承担前期的试错成本，先把生米煮成熟饭，哪怕后面再遭遇两年的零增长冻结期，也能保住运力份额，谁又说得准呢？"
+    },
+    {
+      "id": 164,
+      "start_sec": 1940,
+      "speaker": "Brett Snyder",
+      "en": "Could you imagine running a Mexican airline in this environment?",
+      "zh": "你能想象在眼下这种环境下经营一家墨西哥航司有多难吗？"
+    },
+    {
+      "id": 165,
+      "start_sec": 1944,
+      "speaker": "Jon Ostrower",
+      "en": "Oh, god, no. It would be so brutal. Because not only is the domestic market suffering right now, but the biggest place you can send your airplanes, the US, it's a huge market, and it's just on and off, and on and off.",
+      "zh": "天呐，想都不敢想，简直是地狱难度。不仅因为墨西哥国内市场目前表现低迷，更因为运力消纳最大的目的地——庞大的美国市场，政策总是变幻莫测、开开停停。"
+    },
+    {
+      "id": 166,
+      "start_sec": 1958,
+      "speaker": "Jon Ostrower",
+      "en": "I can't even imagine how exhausting this is to run these airlines, but they have no choice. They just work around it. And, you know, at least they're distracted right now, Volaris and Viva trying to do that Masvuelos merger, as they're calling it. And maybe that's a story for a different episode, I guess.",
+      "zh": "去掌舵这些航司的精疲力竭感我甚至无法想象，但他们别无选择，只能见招拆招。不过眼下他们或许能分分心，毕竟Volaris和Viva正忙着搞他们所谓的“Masvuelos”合并案。不过这个话题，恐怕得留到以后的节目再细聊了。"
+    },
+    {
+      "id": 167,
+      "start_sec": 1977,
+      "speaker": "Brett Snyder",
+      "en": "Yeah, that will be a fun episode. Maybe a little bit of a niche...",
+      "zh": "好啊，那期节目肯定很有意思。虽然可能稍微有点小众……"
+    },
+    {
+      "id": 168,
+      "start_sec": 1980,
+      "speaker": "Jon Ostrower",
+      "en": "Fun episode. Fun nonetheless. Before we go today, though, Brett, I need to give you a hard time because we've gone this entire show without mentioning Mexicana.",
+      "zh": "很有意思的一集，依然干货满满。不过在今天节目结束前，Brett，我得调侃你两句，因为我们整期节目竟然都没提到墨西哥航空（Mexicana）。"
+    },
+    {
+      "id": 169,
+      "start_sec": 1990,
+      "speaker": "Jon Ostrower",
+      "en": "Now that Alitalia is ITA, part of the Lufthansa Group, pretty sure that Mexicana is your favorite airline still operating under its historic name and logo?",
+      "zh": "如今意大利航空变成了汉莎航空集团旗下的ITA航空，我敢肯定，Mexicana现在是你最喜欢的、仍保留历史名称和航徽运营的航司了吧？"
+    },
+    {
+      "id": 170,
+      "start_sec": 2000,
+      "speaker": "Brett Snyder",
+      "en": "Listen, this is not your father's Mexicana, if you will. This is a reincarnation. It is run by the military.",
+      "zh": "听着，可以说这早就不是你父辈记忆里的那个Mexicana了。这完全是一个转世壳子，它现在是由军方运营的。"
+    },
+    {
+      "id": 171,
+      "start_sec": 2008,
+      "speaker": "Brett Snyder",
+      "en": "It is basically a jobs program from AMLO meant to prop up AIFA, that's what it does. It should not exist. It's not even worth talking about.",
+      "zh": "它基本上就是墨西哥总统洛佩斯搞出来的一个保障就业项目，纯粹是为了给新机场AIFA撑场面。它根本就不该存在，甚至都不值得我们拿出来聊。"
+    },
+    {
+      "id": 172,
+      "start_sec": 2016,
+      "speaker": "Brett Snyder",
+      "en": "But I guess this is another reason why it's so hard being a Mexican airline. Your government is trying to mess with you everywhere it possibly can, including direct competition by its own airline.",
+      "zh": "但我想这也是在墨西哥做航司如此艰难的另一个原因：本国政府在方方面面找你麻烦，甚至还自己下场办航司来直接同你竞争。"
+    },
+    {
+      "id": 173,
+      "start_sec": 2031,
+      "speaker": "Jon Ostrower",
+      "en": "You've been listening to The Air Show, brought to you by the Alaska-Hawaiian Airlines pilots. Thanks also to this week's sponsors, Tulsa International Airport and Plusgrade.",
+      "zh": "您正在收听的是由阿拉斯加航空与夏威夷航空飞行员赞助播出的 The Air Show。同时感谢本周的赞助商塔尔萨国际机场以及 Plusgrade。"
+    },
+    {
+      "id": 174,
+      "start_sec": 2042,
+      "speaker": "Jon Ostrower",
+      "en": "If you have suggestions or questions for us, or if you're interested in sponsoring the podcast, email us at info@theairshowpodcast.com to get in touch.",
+      "zh": "如果您对我们有任何建议或疑问，或者有兴趣赞助本播客，请发送邮件至 info@theairshowpodcast.com 与我们联系。"
+    },
+    {
+      "id": 175,
+      "start_sec": 2052,
+      "speaker": "Brett Snyder",
+      "en": "Leo Duran produced and edited this episode. Our theme music is by Joshua Mosier. Thanks for listening, and we'll be back soon.",
+      "zh": "本期节目由 Leo Duran 制作并剪辑。主题曲创作者为 Joshua Mosier。感谢大家的收听，我们很快再见。"
+    },
+    {
+      "id": 176,
+      "start_sec": 2059,
+      "speaker": "Jon Ostrower",
+      "en": "Brett, what does the music sound like now? Doo doo doo doo doo doo doo doo.",
+      "zh": "Brett，那音乐现在听起来是啥样？嘟嘟嘟嘟嘟嘟嘟嘟。"
+    }
+  ]
+}

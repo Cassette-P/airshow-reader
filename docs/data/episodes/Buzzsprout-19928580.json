@@ -1,0 +1,1441 @@
+{
+  "schema_version": "2.0",
+  "guid": "Buzzsprout-19928580",
+  "title": "A Joint Venture Primer",
+  "pub_date": "2026-10-08T10:00:00Z",
+  "duration_sec": 2205,
+  "audio_url": "https://www.buzzsprout.com/2329718/episodes/19928580-a-joint-venture-primer.mp3",
+  "summary_zh": "本期节目以阿拉斯加航空申请加入美国航空跨太平洋与跨大西洋航线联营（JV）为切入点，深度剖析了现代航空业附带反垄断豁免（ATI）的联营机制。Brett、Brian 与 Jon 回顾了自1992年美荷“天空开放”协定及西北航空与荷航合作以来的历史，指出外资持股限制使跨境并购无法实现，进而催生了合法联合定价与排班的JV，并推动A330、787等双发宽体机取代747与A380。数据显示，随着欧洲航司进一步整合，三大联营未来将掌控欧美市场约87%的航班量；而亚太市场因缺乏中美天空开放协定则相对分散。针对阿拉斯加航空，三位主播一致认为，面对达美航空在西雅图枢纽的激烈竞争，加入JV是其支撑远程宽体机网络的必由之路，既能补齐美航的亚太短板并获取英航的欧洲客源，又无需经历阻碍重重的美国国内并购审批。",
+  "key_takeaways_zh": [
+    "由于各国严格限制外资控股与航司跨境并购，附带反垄断豁免（ATI）的航线联营（JV）成为国际航司实现联合定价与网络协同的最佳替代方案。",
+    "“天空开放”协定与航线联营的普及打破了依赖单一枢纽中转的传统模式，直接加速了747和A380的衰落以及A330、787等双发宽体机点对点航线的崛起。",
+    "跨大西洋市场高度集中，随着北欧航空、ITA航空和葡萄牙航空被收编，三大联营阵营预计将控制欧美市场约87%的航班量，独立航司生存空间被极度压缩。",
+    "受制于中美之间缺乏“天空开放”协定以及区域地缘政治因素，跨太平洋市场的联营整合度远低于欧洲市场。",
+    "阿拉斯加航空加入美航联营既能以西雅图门户补齐美航的太平洋短板并改善自身伦敦航线表现，又能在规避国内并购反垄断审查的前提下有效抗衡达美航空。"
+  ],
+  "highlights": [
+    {
+      "start_sec": 221,
+      "title_zh": "反垄断豁免与联营起源",
+      "summary_zh": "Brett 与 Brian 指出，美国法律限制外资持有本国航司超过25%的表决权股份，跨境并购无法操作，附带反垄断豁免（ATI）的现代航线联营应运而生。1993年西北航空与荷航开启了首个现代JV，使合作航司得以合法共享非公开数据并进行联合网络规划与定价。",
+      "quote_en": "The key here is the modern joint venture, and I define that as one that comes with a grant of antitrust immunity, or ATI."
+    },
+    {
+      "start_sec": 486,
+      "title_zh": "天空开放重塑宽体机格局",
+      "summary_zh": "Jon 强调，1992年美荷签署首个“天空开放”协定与跨大西洋联营的兴起，彻底改变了远程机队选型逻辑。航司不再需要用747或A380将旅客强行集中到时刻受限的大型枢纽，A330、777和787等双发宽体机得以灵活开辟更多次级点对点航线。",
+      "quote_en": "You want to know when the A380 was cooked? It was 1992 with that first Open Skies agreement between the US and the Netherlands."
+    },
+    {
+      "start_sec": 731,
+      "title_zh": "三大联营主导跨大西洋市场",
+      "summary_zh": "Brian 与 Brett 对比了1992年与2026年的排班数据，指出目前美航、达美、美联航主导的三大联营各自占据欧美市场26%至28%的航班份额。一旦SAS、ITA航空和葡萄牙航空完成整合，三大JV将控制约87%的跨大西洋航班，非联营航司处境艰难。",
+      "quote_en": "Yeah, and once ITA, TAP, and SAS get scooped up, we're probably looking at about 87% of departures being controlled by one of these three joint ventures."
+    },
+    {
+      "start_sec": 872,
+      "title_zh": "亚太联营格局与中美航权瓶颈",
+      "summary_zh": "相比欧洲，跨太平洋航线联营起步较晚且集中度偏低，目前美联航-全日空、达美-大韩、美航-日航分别占据约25%、21%和15%的份额。Brett 指出，中美之间缺乏“天空开放”协定以及涉台航司的地缘政治敏感性，是阻碍亚太市场进一步整合的关键因素。",
+      "quote_en": "But there's no Open Skies policy between the US and China, or Hong Kong."
+    },
+    {
+      "start_sec": 1267,
+      "title_zh": "联营结算机制与内部博弈",
+      "summary_zh": "航线联营通过高度保密的复杂公式在特定区域分配收益，其中美联航与美航主要基于收入分成，而达美的联营还纳入了成本核算。尽管两舱座位比例差异、航线开航分歧以及劳工外包限制常引发内部摩擦，但联合定价的巨大收益仍让各航司难以割舍。",
+      "quote_en": "So one thing that is notable here, for the United and American joint ventures, these are based on a revenue split, while as far as I can tell, Delta's joint ventures also incorporate costs."
+    },
+    {
+      "start_sec": 1466,
+      "title_zh": "美航司同处联营的监管先例",
+      "summary_zh": "针对两家美国本土航司同处一个国际联营的可行性，Brian 与 Brett 回顾了2008年美联航与大陆航空在合并前获批加入同一JV的先例。当时美国交通部（DOT）认定该合作能增强联盟竞争力并带来公共利益，仅对少数重叠航线设置了轻微豁免排除。",
+      "quote_en": "United and Continental tried in 2008. That was approved about a year later."
+    },
+    {
+      "start_sec": 1718,
+      "title_zh": "阿拉斯加航空的远程突围战",
+      "summary_zh": "主播们认为，阿拉斯加航空在西雅图面临达美航空的强力竞争，若不加入联营将难以持续扩张远程宽体机网络。加入美航JV既能为美航输送西雅图亚太门户客流，又能借助英航衔接伦敦中转网络，在不触发美国国内并购审查的前提下实现双赢。",
+      "quote_en": "Do we want Alaska to be competitive or not? Do we want Alaska to grow its network or not? Do we want Alaska to provide real competition to Delta in Seattle or not?"
+    }
+  ],
+  "transcript": [
+    {
+      "id": 1,
+      "start_sec": 0,
+      "speaker": "Jon Ostrower",
+      "en": "I'm Jon Ostrower, editor-in-chief of The Air Current.",
+      "zh": "我是《The Air Current》的主编 Jon Ostrower。"
+    },
+    {
+      "id": 2,
+      "start_sec": 4,
+      "speaker": "Brian Sumers",
+      "en": "I'm Brian Sumers, and I write The Airline Observer.",
+      "zh": "我是《The Airline Observer》的作者 Brian Sumers。"
+    },
+    {
+      "id": 3,
+      "start_sec": 6,
+      "speaker": "Brett Snyder",
+      "en": "And I'm Brett Snyder, author of Cranky Flier. You're listening to The Air Show, the podcast where we talk about what happens in the business of the sky.",
+      "zh": "我是《Cranky Flier》的作者 Brett Snyder。你收听的是 The Air Show，这是一档带你聊透航空商业内幕的播客节目。"
+    },
+    {
+      "id": 4,
+      "start_sec": 13,
+      "speaker": "Brett Snyder",
+      "en": "This episode is sponsored by the Alaska Hawaiian Pilots. As Alaska Airlines expands its global reach, its pilots are seeking a contract that grows alongside the company. Learn more at alaskahawaiianpilots.org.",
+      "zh": "本期节目由阿拉斯加航空与夏威夷航空飞行员联合赞助。随着阿拉斯加航空不断拓展其全球航线网络，飞行员们也期望达成一份能与公司共同成长的劳动合同。了解更多信息请访问 alaskahawaiianpilots.org。"
+    },
+    {
+      "id": 5,
+      "start_sec": 24,
+      "speaker": "Brett Snyder",
+      "en": "This week's episode is also sponsored by Plusgrade and Tulsa International Airport. And man, I am very happy to be comfortably back in front of my own computer to record this week's episode.",
+      "zh": "本期节目同时由 Plusgrade 和塔尔萨国际机场赞助。朋友们，能舒舒服服地坐回自己的电脑前录制本周的节目，我真的太开心了。"
+    },
+    {
+      "id": 6,
+      "start_sec": 37,
+      "speaker": "Brett Snyder",
+      "en": "Last week, of course, we had our very first The Air Show LIVE, where we interviewed Alaska president and CFO Shane Tackett. It was great, but it was a lot of work, and I slept a lot last weekend. But congrats to us, because with that episode, guys, we passed the 1 million download milestone.",
+      "zh": "上周我们举办了首届 The Air Show 线下直播活动，现场专访了阿拉斯加航空总裁兼首席财务官 Shane Tackett。活动非常成功，但工作量也巨大，上周末我狠狠补了一大觉。不过祝贺我们大家，正是凭借那期节目，我们的总下载量突破了 100 万大关。"
+    },
+    {
+      "id": 7,
+      "start_sec": 58,
+      "speaker": "Brian Sumers",
+      "en": "It's really cool to be part of this fascinating community. We did sell out last week. When I got back home to Los Angeles and I told my wife, Katie, she was completely floored.",
+      "zh": "能成为这个充满魅力的社区的一份子实在太棒了。我们上周的门票确实售罄了。当我回到洛杉矶家里告诉妻子 Katie 时，她完全惊呆了。"
+    },
+    {
+      "id": 8,
+      "start_sec": 69,
+      "speaker": "Brian Sumers",
+      "en": "I don't think she knows how much people love airlines and airplanes, but I guess that's the benefit of marrying a non-aviation geek.",
+      "zh": "我觉得她根本不知道大家对航司和飞机有多狂热，不过我想，这就是娶了一个非航迷当老婆的好处吧。"
+    },
+    {
+      "id": 9,
+      "start_sec": 77,
+      "speaker": "Jon Ostrower",
+      "en": "Yeah, no, last week was awesome, and I too married a non-AvGeek, which actually keeps a healthy level of balance in my life. Deb came out to the show, too. She had a blast meeting everyone.",
+      "zh": "没错，上周真的很棒，而且我的妻子也不是航迷，这倒让我的生活保持了一种健康的平衡。Deb 也来到了现场，她和大家聊得非常开心。"
+    },
+    {
+      "id": 10,
+      "start_sec": 87,
+      "speaker": "Jon Ostrower",
+      "en": "It was a tremendous event, and I'm actually really excited to do it again soon.",
+      "zh": "那真是一场无与伦比的活动，我其实非常期待很快能再办一次。"
+    },
+    {
+      "id": 11,
+      "start_sec": 90,
+      "speaker": "Brett Snyder",
+      "en": "Yeah, it was great to meet her finally and see she's a real person. That was exciting.",
+      "zh": "是啊，终于见到她本人、确认她是个真实存在的人，感觉真是太棒了。"
+    },
+    {
+      "id": 12,
+      "start_sec": 96,
+      "speaker": "Brett Snyder",
+      "en": "But on to the topic of the day here. So when we were together last week, we all talked about what we found was most interesting from the media day. And for me, the biggest news was that Alaska would be applying to join American's immunized joint ventures over the North Pacific and over the Atlantic.",
+      "zh": "不过言归正传，聊聊今天的主题吧。上周我们聚在一起时，讨论了在媒体日上各自觉得最有趣的内容。对我而言，最大的新闻当属阿拉斯加航空将申请加入美国航空在北太平洋和跨大西洋方向享有反垄断豁免的航线联营（JV）。"
+    },
+    {
+      "id": 13,
+      "start_sec": 114,
+      "speaker": "Brett Snyder",
+      "en": "So today, I want to do a deep dive into joint ventures and why they matter so much.",
+      "zh": "所以今天，我想深入剖析一下航线联营，以及它们为什么如此重要。"
+    },
+    {
+      "id": 14,
+      "start_sec": 122,
+      "speaker": "Brian Sumers",
+      "en": "Brett, I'm sensing another history lesson here.",
+      "zh": "Brett，我预感你又要上一堂历史课了。"
+    },
+    {
+      "id": 15,
+      "start_sec": 125,
+      "speaker": "Brett Snyder",
+      "en": "The year was 1978.",
+      "zh": "那一年是 1978 年。"
+    },
+    {
+      "id": 16,
+      "start_sec": 127,
+      "speaker": "Jon Ostrower",
+      "en": "Okay, okay. Hold on, hold on. There were no immunized joint ventures back then, just one massively regulated airline industry until it wasn't. No ETOPS, and the longest-range airplane in the world was the 747-SP.",
+      "zh": "好吧好吧，等等，等等。那时候可没有什么享有反垄断豁免的航线联营，只有受到极其严格监管的航空业——直到后来放松管制。当时没有双发延程运行（ETOPS），全世界航程最长的飞机还是波音 747SP。"
+    },
+    {
+      "id": 17,
+      "start_sec": 141,
+      "speaker": "Brett Snyder",
+      "en": "Okay, I know what you're trying to do here, Jon. You're trying to get me to talk about the SP, which I will now do for 25 minutes. Ready?",
+      "zh": "好吧，我知道你想干嘛了，Jon。你是想引我聊 747SP 是吧，那我现在就能讲上 25 分钟。准备好了吗？"
+    },
+    {
+      "id": 18,
+      "start_sec": 148,
+      "speaker": "Brian Sumers",
+      "en": "Bring it. I'm fine with that.",
+      "zh": "放马过来吧，我完全没意见。"
+    },
+    {
+      "id": 19,
+      "start_sec": 150,
+      "speaker": "Brett Snyder",
+      "en": "No, no, let's keep this on track. You are correct, none of these things existed back then. But deregulation did open up the industry to all kinds of ideas: new airlines, new ideas, whatever.",
+      "zh": "别别别，我们还是回到正题。你说得对，那时候这些东西全都没有。但放松管制确实为行业打开了各种思路：新的航空公司、新的运营理念等等。"
+    },
+    {
+      "id": 20,
+      "start_sec": 163,
+      "speaker": "Brett Snyder",
+      "en": "And as the '80s dragged on, the airlines started to think about things like cross-border investment. So 1988, I believe was the first version of that, or at least the one that I could find. That is when SAS bought a 10th of Continental Airlines, when Continental needed",
+      "zh": "随着 80 年代的推进，航空公司开始考虑跨境投资等策略。我记得 1988 年出现了首个此类案例，或者至少是我能查到的最早案例：北欧航空（SAS）收购了大陆航空十分之一的股份，当时大陆航空正急需……"
+    },
+    {
+      "id": 21,
+      "start_sec": 181,
+      "speaker": "Brett Snyder",
+      "en": "SAS kept increasing its stake, by the way. But then, Continental filed for bankruptcy for a second time in 1990 and SAS's stake was completely wiped out. It is kind of interesting to think what would have happened if this had lasted a few more years, because we were really just on the cusp of this modern joint venture.",
+      "zh": "顺便提一句，SAS（北欧航空）其实一直在增持股份。但随后，美国大陆航空在1990年第二次申请破产保护，SAS的持股彻底打了水漂。其实想想还挺有意思的，如果这笔合作能多撑几年会怎样，因为当时我们实际上正处于现代航线联营（JV）模式爆发的前夜。"
+    },
+    {
+      "id": 22,
+      "start_sec": 200,
+      "speaker": "Brian Sumers",
+      "en": "And the first one was Northwest and KLM, right?",
+      "zh": "而最早的那起联营是西北航空和荷兰皇家航空（KLM），对吧？"
+    },
+    {
+      "id": 23,
+      "start_sec": 202,
+      "speaker": "Brett Snyder",
+      "en": "Yeah, sure was. And that process, so that actually started in 1989 when Al Checchi led the leveraged buyout of Northwest, because, you know, it was the 80s, man. And as part of that, KLM took about a 20% stake in Northwest.",
+      "zh": "没错，确实是。那段渊源其实始于1989年Al Checchi主导的对西北航空的杠杆收购，毕竟那时候可是80年代嘛。作为交易的一部分，KLM拿下了西北航空大约20%的股权。"
+    },
+    {
+      "id": 24,
+      "start_sec": 217,
+      "speaker": "Jon Ostrower",
+      "en": "Okay, but this wasn't really when the JV began, right? That wasn't until 1993.",
+      "zh": "好的，但这也还不算真正意义上的JV建立，对吧？那要等到1993年才正式成型。"
+    },
+    {
+      "id": 25,
+      "start_sec": 221,
+      "speaker": "Brett Snyder",
+      "en": "Yeah, that's right. So let's back up for a second here, because I think we should probably clarify what we're talking about when we talk about these joint ventures. Anyone can do a joint venture, that's not very exciting. The key here is the modern joint venture, and I define that as one that comes with a grant of antitrust immunity, or ATI.",
+      "zh": "是的，没错。所以我们先退一步来说，因为我觉得我们可能得先明确一下，我们所说的这些联营到底指什么。任何人都能搞个合作联营，这没什么大不了的。关键在于现代意义上的航线联营（JV），我的定义是：必须获得反垄断豁免（ATI）的批准。"
+    },
+    {
+      "id": 26,
+      "start_sec": 240,
+      "speaker": "Brian Sumers",
+      "en": "Yeah, I've made this joke before, but this is a fancy way of saying legalized collusion. I'm just gonna let the audience in on a little secret here. Brett gave us an outline before this show about what we might say, and he had me playing the part of the skeptic, which I do love to do normally. Perhaps I would have been the guy who said these are terrible.",
+      "zh": "是啊，我以前就开过这个玩笑，这其实就是把合谋合法化换了个高级的说法。顺便给听众透露个小内幕，Brett在录这期节目之前给了我们一份提纲，列了大致的发言思路，他原本安排我扮演质疑者的角色——我平时确实也挺喜欢唱反调的。也许按剧本我应该跳出来说JV坏透了。"
+    },
+    {
+      "id": 27,
+      "start_sec": 263,
+      "speaker": "Brian Sumers",
+      "en": "Honestly, I think these are pretty great for airlines and I don't think that they're so bad for consumers either, because I'm pretty sure that without ATI, a lot of airlines would have struggled over the years. And I think, ultimately, that would have led to fewer routes and choices. I don't know that we'd be flying from Cleveland and Indianapolis to Europe and things like that.",
+      "zh": "但说实话，我认为这些联营对航司来说非常有益，对消费者而言也没那么糟。因为我很确定，如果没有ATI，很多航司这些年来日子会难过得多。而我认为那最终会导致航线和选择减少。如果没有JV，我怀疑我们能不能坐上从克利夫兰或印第安纳波利斯直飞欧洲之类的航班。"
+    },
+    {
+      "id": 28,
+      "start_sec": 286,
+      "speaker": "Brian Sumers",
+      "en": "The old partnerships, and we still have some of those, they're nice, but without ATI, you can't integrate in the same way. We can now do joint network planning, joint pricing. Airlines are allowed to coordinate with non-public information instead of having to dance around it as other partnerships have had to do.",
+      "zh": "以前那种老式的合作关系——现在也还存在一些——确实挺好，但没有ATI，你就无法做到深度的协同整合。现在航司可以共同进行航线网络规划、共同定价。航司被允许就非公开商业信息进行沟通协同，而不必像其他合作形式那样遮遮掩掩、走钢丝。"
+    },
+    {
+      "id": 29,
+      "start_sec": 307,
+      "speaker": "Brett Snyder",
+      "en": "Brian, you're not supposed to tell them how the sausage is made! Back to Northwest and KLM. At the time, this was pretty revolutionary and they certainly celebrated this thing every way possible. Do you guys remember the DC-10s with the half-Northwest, half-KLM livery on it?",
+      "zh": "Brian，你怎么能把香肠的制作内幕全抖落出去了！言归正传，说回西北航空和KLM。在当时，这可以说是颠覆性的创举，他们想尽一切办法大肆宣传庆祝。你们还记得那些一半喷着西北航空、一半喷着KLM涂装的DC-10客机吗？"
+    },
+    {
+      "id": 30,
+      "start_sec": 323,
+      "speaker": "Jon Ostrower",
+      "en": "That was just a classic '90s sort of transatlantic symbol. I loved it.",
+      "zh": "那简直是90年代跨大西洋航线极具代表性的经典象征，我太喜欢了。"
+    },
+    {
+      "id": 31,
+      "start_sec": 329,
+      "speaker": "Brett Snyder",
+      "en": "Yeah, and I mean the marketing teams, they really milked this thing and they should have, because this was a big deal.",
+      "zh": "没错，市场营销团队确实把这个噱头利用到了极致，而且他们也理应如此，因为这在当时确实是件了不起的大事。"
+    },
+    {
+      "id": 32,
+      "start_sec": 334,
+      "speaker": "Jon Ostrower",
+      "en": "Yeah, you have to remember that this was like before there were any global alliances. No Star Alliance, no oneworld, no SkyTeam. Like this was a big deal at the time. I mean, cross-border mergers weren't a thing, and really they still aren't allowed by the US government. But really, kind of that was as close as they could get.",
+      "zh": "是的，你要知道，那是在任何全球性航空联盟诞生之前。当时没有星空联盟，没有寰宇一家，也没有天合联盟。所以这在当时是一件划时代的大事。毕竟跨国跨境并购根本不可能实现，直到今天美国政府也依然不批准，但这基本上已经是航司能做到的极限了。"
+    },
+    {
+      "id": 33,
+      "start_sec": 351,
+      "speaker": "Brett Snyder",
+      "en": "Oh yeah, okay. That is a good point. We should probably clarify this. So people outside airlines just assume cross-border mergers are fine, it happens...",
+      "zh": "噢没错，你说得对。这确实是个关键点，我们可能得澄清一下。航空业外的人往往想当然地以为跨国并购很正常，觉得这种事随处可见……"
+    },
+    {
+      "id": 34,
+      "start_sec": 360,
+      "speaker": "Brett Snyder",
+      "en": "all the time in other industries, right? This is normal. But airlines can't do that, as of course everyone who's in the industry knows this. But the airlines were deemed too strategically important. So, any foreign entity was limited to owning no more than 25% of voting shares and 49% of total shares in a US-based airline, and that is still the case today. So, cross-border mergers, not an option.",
+      "zh": "在其他行业比比皆是，对吧？这很正常。但航司做不到这点，业内人士当然都清楚。航司被认为具有极高的战略重要性。因此，任何外国实体在美籍航司中持有的有表决权股份不得超过25%，总股份不得超过49%，如今依然如此。所以，跨境合并根本不可行。"
+    },
+    {
+      "id": 35,
+      "start_sec": 383,
+      "speaker": "Brian Sumers",
+      "en": "No, they're not. And Professor Snyder, you talked about how these were impossible before 1978. That makes a lot of sense. But why did it take so long for airlines to realize this would work? How come this didn't happen in the '80s?",
+      "zh": "确实不可行。“Snyder教授”，你刚才提到在1978年之前这些都是不可能的。这很有道理。但为什么航司花了这么长时间才意识到这种模式可行？为什么没有在80年代发生呢？"
+    },
+    {
+      "id": 36,
+      "start_sec": 397,
+      "speaker": "Brett Snyder",
+      "en": "The '80s were kind of like living in the Wild West. With deregulation, nobody knew exactly how to tackle this. They all tried a million different things and this is just not something that they hit on.",
+      "zh": "80年代有点像身处蛮荒的狂野西部。随着航空管制的放松，没人确切知道该如何破局。大家尝试了无数种不同的路径，只是碰巧没摸索到这一步。"
+    },
+    {
+      "id": 37,
+      "start_sec": 407,
+      "speaker": "Brett Snyder",
+      "en": "I think you know you had like the Pan Ams and the TWAs still dominating international travel and they didn't really have the domestic network and these were not the most forward-thinking airlines out there. So I think there was just a lot there.",
+      "zh": "当时泛美航空（Pan Am）和环球航空（TWA）依然主导着国际航线，但它们缺乏真正的本土国内航线网络，而且它们也不是业内最具前瞻性的航司。所以我觉得当时存在很多客观阻碍。"
+    },
+    {
+      "id": 38,
+      "start_sec": 420,
+      "speaker": "Brett Snyder",
+      "en": "But also this never could have happened until the big political moment where the US government developed this plan to try and limit regulation for flights over the borders, improve competition by creating this Open Skies policy that they pitched to anyone and everyone who is listening.",
+      "zh": "而且，这也必须等到那个重大政治契机出现才行——当时美国政府制定了一项计划，试图减少跨境航班的管制，并通过推出向所有感兴趣的国家推销的“开放天空”（Open Skies）政策来促进竞争。"
+    },
+    {
+      "id": 39,
+      "start_sec": 439,
+      "speaker": "Brett Snyder",
+      "en": "So, any country that was willing to open their skies for travel between the US and that country, they would try and get them to sign on.",
+      "zh": "因此，只要有任何国家愿意为与美国之间的航线开放领空，美国政府就会极力促成双边协定的签署。"
+    },
+    {
+      "id": 40,
+      "start_sec": 449,
+      "speaker": "Jon Ostrower",
+      "en": "I don't think we really remember a world before Open Skies. At the time, it was a hugely divisive political conversation domestically. I mean there was a lot of angst amongst the airports, amongst the airlines, amongst politicians around opening up the US to effectively unfettered access for foreign carriers.",
+      "zh": "我觉得我们现在很难想象“开放天空”之前的世界了。在当时，这在美国国内是一场分歧极大的政治论战。我的意思是，机场、航司以及政客之间存在大量的焦虑，担心向外国航司敞开美国大门会让它们获得近乎不受限制的市场准入。"
+    },
+    {
+      "id": 41,
+      "start_sec": 471,
+      "speaker": "Jon Ostrower",
+      "en": "And what that would have done is say, \"Okay, hey, if you're the Netherlands, you can fly from Amsterdam to any point in the US, and we're not going to regulate it.\" That came later. But it wasn't very good under the earlier system. There was not an open market here.",
+      "zh": "这意味着政策会规定：“好，如果你是荷兰，你可以从阿姆斯特丹飞往美国的任何地点，我们不会对此进行管制。”这些都是后来才实现的。但在早期的体制下运行情况并不好，当时根本没有一个开放的市场。"
+    },
+    {
+      "id": 42,
+      "start_sec": 486,
+      "speaker": "Jon Ostrower",
+      "en": "I think what also comes down to, I think you cannot overstate the correlation between trans-Atlantic joint ventures and market liberalization with Open Skies in Europe, that allowed for unfettered access to the US and with select European destinations on one side of it. That really drove the aircraft that we fly on.",
+      "zh": "我认为归根结底，跨大西洋航线联营（JV）与欧洲开放天空带来的市场自由化之间的关联无论怎么强调都不为过。它不仅让欧洲部分航点获得了进入美国的自由通道，而且在另一层面上，它真正重塑了我们今天所乘坐的机型。"
+    },
+    {
+      "id": 43,
+      "start_sec": 504,
+      "speaker": "Jon Ostrower",
+      "en": "You want to know when the A380 was cooked? It was 1992 with that first Open Skies agreement between the US and the Netherlands. You no longer had to pile everyone into a hub with a 747 in a slot-constrained airport.",
+      "zh": "想知道A380的命运是何时注定的吗？正是1992年美荷签署首份“开放天空”协议的时候。你不再需要用747把所有旅客硬塞进那些起降时刻受限的枢纽机场了。"
+    },
+    {
+      "id": 44,
+      "start_sec": 517,
+      "speaker": "Jon Ostrower",
+      "en": "This also coincided with the rise of the big twins, large high-bypass turbofan engines for Boeing and Airbus. And look, the move away from the 747 was steady after that. 777, 767, A330 could work and could fly places like Atlanta, Orlando, Baltimore.",
+      "zh": "这也恰逢波音和空客大型双发宽体机以及大涵道比涡扇发动机的崛起。你看，从那以后告别747的趋势就势不可挡了。777、767、A330完全能胜任，可以直飞亚特兰大、奥兰多、巴尔的摩等城市。"
+    },
+    {
+      "id": 45,
+      "start_sec": 535,
+      "speaker": "Jon Ostrower",
+      "en": "But look, this was the prelude to 787's point-to-point M.O. Like the first US commitment...",
+      "zh": "但这其实是波音787点对点运营模式的序幕。比如美国最初的承诺……"
+    },
+    {
+      "id": 46,
+      "start_sec": 540,
+      "speaker": "Jon Ostrower",
+      "en": "For the A330 came in the late 1980s, it was Northwest. The first US order for the 787, also Northwest. Not a coincidence.",
+      "zh": "A330在1980年代末迎来的首个美国订单正是来自西北航空。而787的美国首发订单，同样来自西北航空。这绝非巧合。"
+    },
+    {
+      "id": 47,
+      "start_sec": 550,
+      "speaker": "Brian Sumers",
+      "en": "That's a good point, Jon. A quick clarification, though. Open Skies doesn't mean that airlines have free rein to do whatever they want. And in theory, it does, but there's plenty of airports in Europe that are very congested, they have slots, and airlines have to abide by those slots.",
+      "zh": "Jon说得很在理。不过还是需要稍作澄清。“开放天空”并不意味着航司可以完全为所欲为。理论上或许如此，但欧洲有大量机场极度拥挤，实行时刻管理，航司必须遵守起降时刻限制。"
+    },
+    {
+      "id": 48,
+      "start_sec": 567,
+      "speaker": "Brian Sumers",
+      "en": "In that case, the rules essentially require carriers from the United States and the other country to be treated in the same way. Every now and then, airlines believe they're not being treated fairly, and then those go through a legal system.",
+      "zh": "在这种情况下，规则从本质上要求来自美国和对方国家的承运人必须获得同等待遇。偶尔会有航司认为自己受到了不公正对待，这就需要诉诸法律程序来解决了。"
+    },
+    {
+      "id": 49,
+      "start_sec": 581,
+      "speaker": "Brett Snyder",
+      "en": "Yes, that is the Mexico thing, which we will not get into now. But when this framework was decided upon, this was just a huge thing. And that's because the US said, if you do this, then we will consider these immunized joint ventures. If you don't, don't even think about trying.",
+      "zh": "是的，这就是墨西哥的那桩纠纷，我们今天暂且不展开。但当年确立这套框架时，确实是一件惊天动地的大事。因为美国当时明确表态：只有签署协议，我们才会批准享有反垄断豁免的航线联营；否则想都别想。"
+    },
+    {
+      "id": 50,
+      "start_sec": 601,
+      "speaker": "Brett Snyder",
+      "en": "So, you know, 1992 was the first one signed by the Dutch. There were other countries that did this as well. And once they saw what KLM and Northwest were doing, oh, they wanted a piece of it.",
+      "zh": "所以，1992年与荷兰签署了首份协议。随后其他国家也纷纷效仿。一看到荷兰皇家航空和西北航空尝到了甜头，他们全都跃跃欲试想分一杯羹。"
+    },
+    {
+      "id": 51,
+      "start_sec": 613,
+      "speaker": "Brian Sumers",
+      "en": "I know how much you like going into the way back machine and looking at your SkyGo data. Let's just think about what was happening in 1992 before all of this went into place, because it's quite a bit different than today. And we took a look at the SkyGo data from 1992.",
+      "zh": "我知道你有多喜欢坐着“时光机”去翻你的SkyGo历史数据。让我们回想一下在1992年这一切落地之前是个什么光景，因为当时的情况和今天大相径庭。我们查看了1992年的SkyGo数据。"
+    },
+    {
+      "id": 52,
+      "start_sec": 631,
+      "speaker": "Brian Sumers",
+      "en": "We took out the fifth freedom flying from airlines like Singapore and Air India, just to look at the core markets. I saw 36 different airlines flying between the United States and Europe in 1992.",
+      "zh": "我们剔除了新加坡航空和印度航空等航司的第五航权航线，只看核心市场。我发现1992年执飞美欧航线的航司竟然多达36家。"
+    },
+    {
+      "id": 53,
+      "start_sec": 646,
+      "speaker": "Brett Snyder",
+      "en": "Delta was number one in the market because they had just taken over the Pan Am European routes. So they had about 16% of departures. American with the TWA London flying they picked up, they were just shy of 14%.",
+      "zh": "达美航空在市场中位居第一，因为他们刚刚接盘了泛美航空的欧洲航线。他们当时占据了大约16%的出港航班量。而收购了环球航空伦敦航线的美航，占比略低于14%。"
+    },
+    {
+      "id": 54,
+      "start_sec": 661,
+      "speaker": "Brett Snyder",
+      "en": "And then BA was just over 10%, and nobody else was above 10% of capacity. But if you look at some of these guys, there are definitely some names long gone, some through mergers, some through worse fates. We have Continental, Swissair, US Airways.",
+      "zh": "随后是占比略超10%的英国航空，其他航司的运力份额都没能跨过10%。但如果看一下当年的名单，确实有些名字早已烟消云散，有的经历合并，有的下场更惨。比如美国大陆航空、瑞士航空、全美航空。"
+    },
+    {
+      "id": 55,
+      "start_sec": 680,
+      "speaker": "Brian Sumers",
+      "en": "Give us the most random ones, Brett.",
+      "zh": "给大伙儿报几个最冷门的名字吧，Brett。"
+    },
+    {
+      "id": 56,
+      "start_sec": 682,
+      "speaker": "Brett Snyder",
+      "en": "We have LTU, remember them? We have Olympic.",
+      "zh": "有德国LTU航空，还记得他们吗？还有希腊奥林匹克航空。"
+    },
+    {
+      "id": 57,
+      "start_sec": 686,
+      "speaker": "Jon Ostrower",
+      "en": "Oh, yeah, yeah.",
+      "zh": "哦对，知道知道。"
+    },
+    {
+      "id": 58,
+      "start_sec": 687,
+      "speaker": "Brett Snyder",
+      "en": "How about UTA in France?",
+      "zh": "还有法国的联合航空运输（UTA）呢？"
+    },
+    {
+      "id": 59,
+      "start_sec": 689,
+      "speaker": "Jon Ostrower",
+      "en": "Oh, yeah. UTA. Yep, yep.",
+      "zh": "哦对，UTA。没错，没错。"
+    },
+    {
+      "id": 60,
+      "start_sec": 692,
+      "speaker": "Brian Sumers",
+      "en": "Brett, take us to today. How many airlines are flying?",
+      "zh": "Brett，再把视线拉回今天。现在还有多少家航司在飞？"
+    },
+    {
+      "id": 61,
+      "start_sec": 695,
+      "speaker": "Brett Snyder",
+      "en": "It actually looks pretty similar on the surface. So if you look at the schedules, exclude fifth freedom flying, same thing we just did, there were 35 airlines in the market in 2026. So it doesn't sound like a big deal.",
+      "zh": "表面上看起来其实惊人地相似。如果看一下航班时刻表，同样剔除第五航权航班，2026年市场上共有35家航司。听起来似乎变化不大。"
+    },
+    {
+      "id": 62,
+      "start_sec": 706,
+      "speaker": "Brett Snyder",
+      "en": "And United is the biggest, which is shy of 17% of departures. So seems like not much has changed on the surface. But of course, that's not true, because we have joint ventures.",
+      "zh": "美联航体量最大，出港航班占比略低于17%。所以单从表面数据看似乎没太大变化。但这当然是假象，因为我们如今有了航线联营。"
+    },
+    {
+      "id": 63,
+      "start_sec": 717,
+      "speaker": "Brett Snyder",
+      "en": "And then also consolidation in Europe, which is",
+      "zh": "此外欧洲内部也经历了大规模整合，这导致……"
+    },
+    {
+      "id": 64,
+      "start_sec": 720,
+      "speaker": "Brett Snyder",
+      "en": "very important to remember here. Because unlike in the US where airlines merge and consolidate under a single code, in Europe, they all maintain their own codes, even though it's one big company.",
+      "zh": "这一点非常重要，必须牢记。因为与美国航司合并后整合到单一代码下不同，在欧洲，即便它们属于同一家大集团，也依然各自保留着独立的代码。"
+    },
+    {
+      "id": 65,
+      "start_sec": 731,
+      "speaker": "Brian Sumers",
+      "en": "You're right, Brett. I think people like us see all these airlines as basically one airline operating a bunch of different hubs. Let's go through these three big joint ventures on the European and the American side.",
+      "zh": "你说得对，Brett。我觉得像我们这样的人，基本上把所有这些航司看作是一家在运营多个不同枢纽的航空公司。我们来梳理一下欧美之间的这三大航线联营（JV）。"
+    },
+    {
+      "id": 66,
+      "start_sec": 746,
+      "speaker": "Brian Sumers",
+      "en": "One of them is American and Finnair, both independent airlines, and then they're grouped with the IAG airlines: BA, Iberia, Aer Lingus, and LEVEL. Air France-KLM, they're in there with Delta and Virgin Atlantic. Eventually, we're pretty sure SAS is going to join, but not yet.",
+      "zh": "其中一个是美航（American）和芬航（Finnair），它们都是独立航司，然后与IAG旗下的航司结盟：英航、伊比利亚航空、爱尔兰航空和LEVEL。法荷航集团（Air France-KLM）则是与达美航空及维珍大西洋航空联营。我们基本可以确定北欧航空（SAS）最终也会加入，但目前还没。"
+    },
+    {
+      "id": 67,
+      "start_sec": 766,
+      "speaker": "Brian Sumers",
+      "en": "And then, lastly, we have your favorite, Brett, I think, of the three groups: Lufthansa, Swiss, Austrian, Discover, Brussels, Edelweiss, and then they're with United and Air Canada. Probably going to see ITA, which is really your favorite airline, brought into that joint venture. Hasn't happened yet.",
+      "zh": "最后这组，我想应该是你最喜欢的，Brett：汉莎航空、瑞航、奥地利航空、发现航空、布鲁塞尔航空、雪绒花航空，它们与美联航及加拿大航空联营。未来很有可能会看到ITA航空——这才是你真正的最爱——被纳入该联营，不过目前尚未尘埃落定。"
+    },
+    {
+      "id": 68,
+      "start_sec": 786,
+      "speaker": "Brett Snyder",
+      "en": "Yeah, but as you point out, even this consolidation that we've already talked about here, it's still not complete. SAS and ITA should end up in these.",
+      "zh": "是的，但正如你所指出的，即便是我们刚才讨论的这些整合，也仍未完全成型。北欧航空（SAS）和ITA航空最终都该并入其中。"
+    },
+    {
+      "id": 69,
+      "start_sec": 797,
+      "speaker": "Brett Snyder",
+      "en": "TAP Air Portugal has bids in from both Air France-KLM and Lufthansa Group, so that'll probably join the party too. So, you know, if we ignore that, though, right now, each of these joint ventures, they sit around 26 to 28% of the departures in the US-Europe market, so they are a force to be reckoned with.",
+      "zh": "葡萄牙航空（TAP）收到了法荷航和汉莎集团双方的竞标，所以它大概率也会加入战局。因此，即便我们暂且撇开这些不谈，仅看眼前，这三大航线联营各自都占据了美欧航线市场约26%至28%的出港起飞份额，绝对是不可小觑的力量。"
+    },
+    {
+      "id": 70,
+      "start_sec": 817,
+      "speaker": "Brian Sumers",
+      "en": "Yeah, and once ITA, TAP, and SAS get scooped up, we're probably looking at about 87% of departures being controlled by one of these three joint ventures. That was something that former JetBlue CEO Robin Hayes used to rail against.",
+      "zh": "是的，一旦ITA航空、葡航和北欧航空被瓜分完毕，这三大航线联营控制的出港份额恐怕会达到87%左右。这正是捷蓝航空（JetBlue）前CEO罗宾·海斯（Robin Hayes）过去常常痛批的现象。"
+    },
+    {
+      "id": 71,
+      "start_sec": 833,
+      "speaker": "Brian Sumers",
+      "en": "The biggest airline flying over the Atlantic and not in a JV is Turkish at about 4% of departures. They tend to undercut the other airlines in pricing. They actually do pretty well.",
+      "zh": "飞越大西洋且未加入任何航线联营的最大航司是土耳其航空，约占4%的出港份额。它们往往在票价上压低竞价，其实经营得很不错。"
+    },
+    {
+      "id": 72,
+      "start_sec": 847,
+      "speaker": "Brian Sumers",
+      "en": "Other than that, we have some airlines that maybe aren't doing as well. One of them, Icelandair, I guess they could be doing okay because they have a nice niche there. Icelandair has about 3% of the market, JetBlue 2%, LOT with 1%, and then 11 others that are all under 1%.",
+      "zh": "除此之外，还有一些航司日子可能就没那么好过了。其中一家是冰岛航空，我想它们可能还过得去，毕竟占据了不错的生态利基。冰岛航空约占3%的市场份额，捷蓝航空占2%，波兰航空占1%，其余11家航司的份额均不足1%。"
+    },
+    {
+      "id": 73,
+      "start_sec": 865,
+      "speaker": "Brian Sumers",
+      "en": "Combined, they're barely 3% of departures. All I have to say about them is these poor airlines.",
+      "zh": "加在一起，它们仅占出港航班总量的勉强3%。对此我只能说，这些航司真是不容易。"
+    },
+    {
+      "id": 74,
+      "start_sec": 872,
+      "speaker": "Brett Snyder",
+      "en": "Let's also talk about Asia, because that is part of the Alaska and American plan, too, right? And Asia is different. It started much later, Open Skies agreements started later, and also distances are longer, fewer flights between the countries anyway.",
+      "zh": "我们再来聊聊亚洲，因为这也是阿拉斯加航空与美航规划的一部分，对吧？亚洲的情况截然不同。那边的合作起步要晚得多，开辟开放天空协议的进程也较迟，而且航距更长，两国间的航班量本就偏少。"
+    },
+    {
+      "id": 75,
+      "start_sec": 887,
+      "speaker": "Brett Snyder",
+      "en": "But the first JV didn't happen until 2009-2010 when the US and Japan signed a sort of Open Skies deal. It still protects Haneda, it's weird, but anyway, US government decided",
+      "zh": "首个航线联营直到2009至2010年间才诞生，当时美日签署了一种变相的开放天空协议。该协议仍然保护羽田机场，这有些奇怪，但不管怎么说，美国政府还是决定……"
+    },
+    {
+      "id": 76,
+      "start_sec": 900,
+      "speaker": "Brett Snyder",
+      "en": "counted, so they granted ATI to those carriers. Interestingly, the US and South Korea, they actually signed Open Skies back in 1998, but Delta and Korean didn't start their JV for 20 more years.",
+      "zh": "他们因此向这些航司授予了反垄断豁免（ATI）。有趣的是，美韩早在1998年就签署了天空开放协议，但达美航空和大韩航空直到20年后才成立航线联营（JV）。"
+    },
+    {
+      "id": 77,
+      "start_sec": 913,
+      "speaker": "Brett Snyder",
+      "en": "So, when we look at this data, I'm sure it's going to end up looking pretty different than Europe.",
+      "zh": "所以，当我们看这组数据时，我相信它最终呈现的格局会与欧洲大不相同。"
+    },
+    {
+      "id": 78,
+      "start_sec": 918,
+      "speaker": "Brian Sumers",
+      "en": "Shall we go back to the 1992 way back machine, Brett?",
+      "zh": "Brett，我们要坐时光机回到1992年看看吗？"
+    },
+    {
+      "id": 79,
+      "start_sec": 922,
+      "speaker": "Brett Snyder",
+      "en": "Yes, please.",
+      "zh": "好的，求之不得。"
+    },
+    {
+      "id": 80,
+      "start_sec": 924,
+      "speaker": "Brian Sumers",
+      "en": "All right. So we looked at US to East and Southeast Asia. At that point, 1992, there were 24 airlines in the market.",
+      "zh": "好的。我们调取了美国至东亚及东南亚的数据。在1992年那个节点，市场上共有24家航空公司。"
+    },
+    {
+      "id": 81,
+      "start_sec": 933,
+      "speaker": "Brian Sumers",
+      "en": "United was the biggest because it had bought all those Pan Am routes. It had about 21% of departures. JAL was next at 18%, and then Northwest just behind that.",
+      "zh": "美联航规模最大，因为它收购了泛美航空所有的跨太平洋航线。它占据了约21%的出港航班量，其次是日本航空（JAL）占18%，西北航空紧随其后。"
+    },
+    {
+      "id": 82,
+      "start_sec": 945,
+      "speaker": "Brian Sumers",
+      "en": "Here in 2026, not different than Europe, there are just about the same number of airlines.",
+      "zh": "到了2026年，跟欧洲情况一样，航司的数量几乎没有什么变化。"
+    },
+    {
+      "id": 83,
+      "start_sec": 951,
+      "speaker": "Brett Snyder",
+      "en": "Okay, so not different. But we do, of course, need to combine those out too because United has the joint venture with ANA, American with JAL, Delta with Korean.",
+      "zh": "好吧，数量上没变。但我们当然也得做合并计算，因为美联航与全日空（ANA）有航线联营（JV），美航与日航联营，达美与大韩航空联营。"
+    },
+    {
+      "id": 84,
+      "start_sec": 962,
+      "speaker": "Brett Snyder",
+      "en": "Plus Korean is just about done taking over Asiana, and then Alaska took over Hawaiian. So we combine those, we're down to 19, but it's still a pretty big number.",
+      "zh": "再加上大韩航空即将完成对韩亚航空的收购，阿拉斯加航空也收购了夏威夷航空。这么合并后减少到了19家，但依然是个相当庞大的数字。"
+    },
+    {
+      "id": 85,
+      "start_sec": 972,
+      "speaker": "Brett Snyder",
+      "en": "But when you look at share, so United and ANA have about a quarter of the departures in the whole market. Delta, Korean, Asiana are around 21%, and JAL and American are only at 15%.",
+      "zh": "但看市场份额的话，美联航与全日空占据了整个市场约四分之一的出港航班量。达美、大韩和韩亚合计约占21%，而日航与美航仅占15%。"
+    },
+    {
+      "id": 86,
+      "start_sec": 984,
+      "speaker": "Jon Ostrower",
+      "en": "So basically, no matter how you slice it, this is still not nearly as consolidated as Europe. Like it's just further behind in the process, or is it something else?",
+      "zh": "所以基本上不管怎么分析，这边的集中度都远不如欧洲。这只是整合进程落后了，还是有其他原因？"
+    },
+    {
+      "id": 87,
+      "start_sec": 991,
+      "speaker": "Brett Snyder",
+      "en": "It's probably both. There is actually one really big, important difference here. So of those airlines, seven of them are in China, and I'm including Hong Kong there.",
+      "zh": "可能兼而有之。这里其实有一个非常关键的重大区别。在这些航司中，有7家在中国，这里我把香港也算进去了。"
+    },
+    {
+      "id": 88,
+      "start_sec": 1002,
+      "speaker": "Brett Snyder",
+      "en": "But there's no Open Skies policy between the US and China, or Hong Kong.",
+      "zh": "但中美之间、以及美港之间都没有签署天空开放协议。"
+    },
+    {
+      "id": 89,
+      "start_sec": 1006,
+      "speaker": "Jon Ostrower",
+      "en": "Nor will there ever be. But in all seriousness, that's kind of the holy grail, isn't it? Right? Like unfettered access to both of their markets.",
+      "zh": "未来也绝不可能有。但说真的，这算是航空业的终极梦想了，对吧？也就是无限制地准入彼此的市场。"
+    },
+    {
+      "id": 90,
+      "start_sec": 1011,
+      "speaker": "Brett Snyder",
+      "en": "It would definitely change things.",
+      "zh": "那绝对会彻底改变行业格局。"
+    },
+    {
+      "id": 91,
+      "start_sec": 1013,
+      "speaker": "Jon Ostrower",
+      "en": "Yeah. I mean, the US also, I mean there has to be a little bit of airspace modification for that to ever even get anywhere near the realm of realistic.",
+      "zh": "是啊。我是说，要让这事哪怕沾一点现实的边，空域限制方面也得先有一些松绑。"
+    },
+    {
+      "id": 92,
+      "start_sec": 1023,
+      "speaker": "Brett Snyder",
+      "en": "Sure. And it's also, by the way, it's not even just China. It's like China's sphere, cuz three of these airlines are Taiwanese carriers. This is in addition to the seven.",
+      "zh": "没错。顺便提一句，这甚至不仅限于中国大陆，而是涉及两岸三地大中华区。因为其中有3家是台湾的航司，这还是在那7家之外的。"
+    },
+    {
+      "id": 93,
+      "start_sec": 1033,
+      "speaker": "Brett Snyder",
+      "en": "Something tells me that mainland China would absolutely flip out if a US carrier formed a joint venture with one of them. So I imagine political pressure is also keeping this down.",
+      "zh": "我直觉认为，如果有美国航司与其中一家台湾航司成立航线联营（JV），中国大陆肯定会强烈反对。所以我想政治压力也是阻碍因素。"
+    },
+    {
+      "id": 94,
+      "start_sec": 1044,
+      "speaker": "Brett Snyder",
+      "en": "So either way, the lack of Open Skies in China is a big driver of having so many airlines here, I think.",
+      "zh": "所以无论如何，我认为中美之间缺乏天空开放协议，是这里保留了这么多独立航司的一大主因。"
+    },
+    {
+      "id": 95,
+      "start_sec": 1050,
+      "speaker": "Jon Ostrower",
+      "en": "Correct me if I'm wrong, though. Didn't we want to talk about Alaska? We've barely talked about them at all here.",
+      "zh": "不过要是我记错了请纠正我。我们之前不是想聊阿拉斯加航空吗？到现在我们几乎根本没提他们。"
+    },
+    {
+      "id": 96,
+      "start_sec": 1056,
+      "speaker": "Brett Snyder",
+      "en": "Oh, yeah. Alaska, that's where this whole thing started.",
+      "zh": "噢对，阿拉斯加航空，我们一开始就是从他们聊起的。"
+    },
+    {
+      "id": 97,
+      "start_sec": 1059,
+      "speaker": "Jon Ostrower",
+      "en": "All right.",
+      "zh": "行吧。"
+    },
+    {
+      "id": 98,
+      "start_sec": 1060,
+      "speaker": "Brett Snyder",
+      "en": "Well, look, there was a lot of history to get through here, okay? But yes, let's take a break and when we come back, we'll talk about how these joint ventures work.",
+      "zh": "你看，刚才有太多的历史背景要梳理了，对吧？不过好的，我们先休息一下。回来后，我们将探讨这些航线联营（JV）到底是如何运作的。"
+    },
+    {
+      "id": 99,
+      "start_sec": 1070,
+      "speaker": "Brett Snyder",
+      "en": "Also, I want to talk about a little precedent, what the DOT has done with previous applications, and then whether there's a place for Alaska in this world or not.",
+      "zh": "此外，我还想聊聊先例，看看美国交通部（DOT）之前是如何审批类似申请的，以及在这个跨太平洋体系中究竟有没有阿拉斯加航空的立足之地。"
+    },
+    {
+      "id": 100,
+      "start_sec": 1080,
+      "speaker": "Brian Sumers",
+      "en": "Extra legroom, priority boarding, lounge access. All of it got unbundled and sold over the past decade. Personal space is the next frontier. The back of the plane is changing.",
+      "zh": "额外腿部空间、优先登机、贵宾室准入。在过去的十年间，这些服务都被拆包并单独销售。个人空间则是下一个前沿领域。客舱后段正在迎来变革。"
+    },
+    {
+      "id": 101,
+      "start_sec": 1091,
+      "speaker": "Jon Ostrower",
+      "en": "Can we agree that an empty middle seat is one of the great luxuries of flying economy?",
+      "zh": "大家是否赞同，坐经济舱时有个空着的中间座，绝对是一大奢享？"
+    },
+    {
+      "id": 102,
+      "start_sec": 1095,
+      "speaker": "Brian Sumers",
+      "en": "Yes, if I have to sit back there. There is no greater feeling than the rush of seeing the door closing and that seat staying empty.",
+      "zh": "没错，如果我不得不坐后排的话。看到舱门关闭而旁边的座位依然空着，没有什么比这种瞬间更让人暗爽了。"
+    },
+    {
+      "id": 103,
+      "start_sec": 1102,
+      "speaker": "Jon Ostrower",
+      "en": "Turns out airlines can monetize that experience, too, as they should.",
+      "zh": "事实证明，航司同样可以将这种体验货币化，而他们也理应如此。"
+    },
+    {
+      "id": 104,
+      "start_sec": 1106,
+      "speaker": "Brian Sumers",
+      "en": "They can. And while I love the rush of getting that empty seat, I'd rather be able to pay for more certainty that it'll be blocked. And Plusgrade is helping airlines give customers that option.",
+      "zh": "确实可以。虽然我喜欢中间座落空带来的惊喜感，但我更愿意花钱买个踏实，确保那个座位被锁定。Plusgrade 正帮助航司为客户提供这一选项。"
+    },
+    {
+      "id": 105,
+      "start_sec": 1115,
+      "speaker": "Jon Ostrower",
+      "en": "So how does it work?",
+      "zh": "那它是如何运作的呢？"
+    },
+    {
+      "id": 106,
+      "start_sec": 1116,
+      "speaker": "Brian Sumers",
+      "en": "It's called SeatBlocker. Passengers can pay for the chance to keep the seat beside them empty or even secure a whole row.",
+      "zh": "该产品名为 SeatBlocker。旅客可以付费锁定身旁的空位，甚至直接包下一整排。"
+    },
+    {
+      "id": 107,
+      "start_sec": 1123,
+      "speaker": "Jon Ostrower",
+      "en": "But here's the smart part: the airline can still sell the seat if demand shows up.",
+      "zh": "但最精妙的地方在于：如果有后续客运需求，航司依然可以把这个座位卖出去。"
+    },
+    {
+      "id": 108,
+      "start_sec": 1127,
+      "speaker": "Brian Sumers",
+      "en": "Exactly. And if there's space at departure, the request clears. The passenger gets more room, and the airline earns incremental revenue from a seat that would otherwise fly empty.",
+      "zh": "正是如此。如果在起飞前仍有空位，申请就会生效。旅客获得了更多空间，而航司则能从原本可能空飞的座位上赚取增量收入。"
+    },
+    {
+      "id": 109,
+      "start_sec": 1135,
+      "speaker": "Jon Ostrower",
+      "en": "No cabin changes, no hard product capital investments, no giving up sellable inventory too early.",
+      "zh": "无需改装客舱，无需针对硬件产品进行资本投入，也无需过早放弃可销售库存。"
+    },
+    {
+      "id": 110,
+      "start_sec": 1140,
+      "speaker": "Brian Sumers",
+      "en": "And nearly 30 airlines are already doing it with Plusgrade.",
+      "zh": "目前已有近 30 家航司与 Plusgrade 展开了此类合作。"
+    },
+    {
+      "id": 111,
+      "start_sec": 1144,
+      "speaker": "Jon Ostrower",
+      "en": "If your empty seats are flying without generating revenue, you're missing out on a great opportunity.",
+      "zh": "如果贵航司的空位在起飞时无法创造收益，那你们就错失了一大良机。"
+    },
+    {
+      "id": 112,
+      "start_sec": 1149,
+      "speaker": "Brian Sumers",
+      "en": "See how SeatBlocker works at plusgrade.com.",
+      "zh": "欢迎访问 plusgrade.com，了解 SeatBlocker 的详细运作方式。"
+    },
+    {
+      "id": 113,
+      "start_sec": 1154,
+      "speaker": "Jon Ostrower",
+      "en": "We may live on the West Coast, but we keep hearing about Tulsa, Oklahoma.",
+      "zh": "我们虽然住在西海岸，但最近总能听到俄克拉荷马州塔尔萨的消息。"
+    },
+    {
+      "id": 114,
+      "start_sec": 1157,
+      "speaker": "Brett Snyder",
+      "en": "Yeah, but I'm still not sure why.",
+      "zh": "没错，但我一直不太明白是为什么。"
+    },
+    {
+      "id": 115,
+      "start_sec": 1159,
+      "speaker": "Jon Ostrower",
+      "en": "There's actually a good reason. Tulsa International Airport is a major hub for metal. Think aviation, aerospace, advanced manufacturing, and MRO, with an impressive roster of global companies that just keeps growing.",
+      "zh": "其实原因很充分。塔尔萨国际机场是航空硬核制造的核心枢纽。涵盖航空、航天、先进制造以及 MRO，汇聚了一大批顶尖跨国企业，且规模还在不断扩大。"
+    },
+    {
+      "id": 116,
+      "start_sec": 1169,
+      "speaker": "Brian Sumers",
+      "en": "Lufthansa Technik's Tulsa operation has been its largest operation in North America for over a decade, and it just keeps growing. It's expected to have up to a thousand employees soon.",
+      "zh": "汉莎技术在塔尔萨的基地十多年来一直是其在北美最大的运营中心，而且仍在持续扩张。预计其员工总数很快将达到 1000 人。"
+    },
+    {
+      "id": 117,
+      "start_sec": 1178,
+      "speaker": "Jon Ostrower",
+      "en": "Tulsa's aviation roots go back farther than that, too. And with some of the biggest names in aviation, L3, Boeing, and American Airlines all have significant operations in Tulsa.",
+      "zh": "塔尔萨的航空渊源其实还要深远得多。业内赫赫有名的巨头——L3、波音和美国航空都在塔尔萨设有重要运营基地。"
+    },
+    {
+      "id": 118,
+      "start_sec": 1187,
+      "speaker": "Jon Ostrower",
+      "en": "American has been there since the 1940s, and its Tulsa Tech Ops facility is the largest commercial aircraft maintenance base in the world.",
+      "zh": "美国航空自 20 世纪 40 年代起就扎根于此，其位于塔尔萨的技术运行基地是全球最大的商用飞机维修中心。"
+    },
+    {
+      "id": 119,
+      "start_sec": 1193,
+      "speaker": "Brian Sumers",
+      "en": "There are some new players in town as well, including Agile Space Industries and Quantum Space.",
+      "zh": "当地也迎来了一些新玩家，包括 Agile Space Industries 和 Quantum Space。"
+    },
+    {
+      "id": 120,
+      "start_sec": 1198,
+      "speaker": "Brett Snyder",
+      "en": "I heard about this. Quantum Space recently moved into scale production of its Ranger spacecraft, which will do defense and commercial space.",
+      "zh": "这事我也听说了。Quantum Space 最近开始规模化量产其 Ranger 航天器，将服务于国防与商业航天领域。"
+    },
+    {
+      "id": 121,
+      "start_sec": 1208,
+      "speaker": "Brett Snyder",
+      "en": "Fun fact: the company is led by former NASA Administrator Jim Bridenstine.",
+      "zh": "补充个冷知识：该公司的掌舵人是 NASA 前局长 Jim Bridenstine。"
+    },
+    {
+      "id": 122,
+      "start_sec": 1215,
+      "speaker": "Jon Ostrower",
+      "en": "There's even more coming. At the 2026 Farnborough International Airshow, Park Aerospace announced it will invest about 65 million to build an advanced composite materials manufacturing plant at Tulsa International Airport to expand production of prepregs and other engineered materials for air and space travel.",
+      "zh": "未来还会有更多动作。在 2024 年范堡罗国际航展上，Park Aerospace 宣布将投资约 6500 万美元，在塔尔萨国际机场兴建一座先进复合材料制造厂，以扩大用于航空航天的预浸料及其他工程工程材料的产能。"
+    },
+    {
+      "id": 123,
+      "start_sec": 1230,
+      "speaker": "Brian Sumers",
+      "en": "For companies looking at where to grow next, Tulsa offers something pretty unique: an established aviation and aerospace ecosystem, significant local incentives, shovel-ready sites, and a developed industry workforce pipeline.",
+      "zh": "对于正在物色未来扩张之地的企业来说，塔尔萨能提供极为独特的优势：成熟的航空航天生态圈、可观的地方扶持政策、即买即建的熟地以及完善的产业技术人才梯队。"
+    },
+    {
+      "id": 124,
+      "start_sec": 1242,
+      "speaker": "Brian Sumers",
+      "en": "This is a community that wants to see aerospace and defense, its second-largest and fastest-growing industry, thrive. For more information, visit flytulsa.com/develop.",
+      "zh": "航空航天与国防是塔尔萨的第二大且增长最快的支柱产业，当地社会各界都极为渴望看到它繁荣发展。欲了解更多信息，请访问 flytulsa.com/develop。"
+    },
+    {
+      "id": 125,
+      "start_sec": 1255,
+      "speaker": "Brett Snyder",
+      "en": "And we're back. I was thinking we still don't talk about Alaska.",
+      "zh": "欢迎回来。我刚才在想，我们好像还没怎么聊过阿拉斯加航空呢。"
+    },
+    {
+      "id": 126,
+      "start_sec": 1260,
+      "speaker": "Brian Sumers",
+      "en": "Because there's a lot of things to talk about still. First, Brett, tell us, how do these joint ventures actually work?",
+      "zh": "因为这里面还有很多值得聊的。首先，Brett，快跟我们讲讲，这些航线联营到底是怎么运作的？"
+    },
+    {
+      "id": 127,
+      "start_sec": 1267,
+      "speaker": "Brett Snyder",
+      "en": "They're a lot more complicated than what I can describe. But the basic idea is that you pool your money together in a specific geography, and then you split it up proportionally between the participating airlines. So one thing that is notable here, for the United and American joint ventures, these are based on a revenue split, while as far as I can tell, Delta's joint ventures also incorporate costs.",
+      "zh": "它们的复杂程度远超我的三言两语。但核心逻辑是：大家把在特定地理区域赚的钱汇总到一个池子里，然后各参与航司按比例分成。这里有一点值得注意：美联航和美航的联营基本都是基于纯收入分成，而据我了解，达美航空的联营模式还把运营成本也纳入了核算。"
+    },
+    {
+      "id": 128,
+      "start_sec": 1294,
+      "speaker": "Brian Sumers",
+      "en": "That's actually really interesting. Can you walk us through the complexity of this?",
+      "zh": "这还真挺有意思的。你能给我们梳理一下这背后有多复杂吗？"
+    },
+    {
+      "id": 129,
+      "start_sec": 1297,
+      "speaker": "Brett Snyder",
+      "en": "Sort of. So when you start thinking about this, it gets more and more insane. None of the formulas for settlement are public. That's proprietary information. But the airlines do have to figure out internally how to divide it up.",
+      "zh": "差不多可以讲讲。当你开始深入琢磨这事时，就会发现它越来越离谱。所有的结算公式都是不对外公开的商业机密。但航司内部必须把利益划分彻底算清楚。"
+    },
+    {
+      "id": 130,
+      "start_sec": 1311,
+      "speaker": "Brett Snyder",
+      "en": "You can just think about this on your own. Like, if Iberia has the same number of seats going over the Atlantic as Finnair—it doesn't, but stick with me—but then let's say Finnair generates twice as much money, should it have to give more to Iberia to settle that? Or think about how British Airways has a much higher percentage of premium cabin seats on board than say Finnair, so there has to be an adjustment there too. You can find a million different ways that somebody is going to get angry about how the settlement works.",
+      "zh": "大家自己琢磨一下就能明白：假设西班牙国家航空投放在跨大西洋航线上的运力座位数和芬兰航空完全一样——实际并非如此，但先顺着我的思路想——如果芬航创造的收入是前者的两倍，难道芬航还要在结算时倒贴给西航吗？再比如，英国航空客舱中两舱（高端舱位）配比远高于芬兰航空，所以这里也必须有相应的调整参数。你可以找出一万种理由，让某些航司在最终结算公式上吵得不可开交。"
+    },
+    {
+      "id": 131,
+      "start_sec": 1339,
+      "speaker": "Brian Sumers",
+      "en": "This part is very interesting to me, Brett. I've never met an airline executive who doesn't like the JV idea, very broadly speaking. Everybody knows that being in a joint venture with antitrust immunity is far, far better than going at it alone.",
+      "zh": "Brett，这部分确实非常吸引我。大体上说，我还没见过哪位航司高管是不喜欢航线联营（JV）这个概念的。大家都心知肚明，抱团搞拥有反垄断豁免（ATI）的联营，绝对远比单打独斗强得多。"
+    },
+    {
+      "id": 132,
+      "start_sec": 1356,
+      "speaker": "Brian Sumers",
+      "en": "But as you say, this is a business, right? This is a business deal, and when these people are talking privately, I do hear them, from time to time, have a dig for their JV partner. We talked about this idea that you can do a joint network planning, and a lot of the very close JVs do that, but you don't have to, or you don't have to do it all the time. And sometimes there will be a carrier that for certain prestige reasons wants to be in a certain market, and maybe the JV partner doesn't think that's the right market for the airline, and they'll kind of negotiate in private about what is best.",
+      "zh": "但正如你所说，商场如战场。这是一桩商业交易。私底下交流时，我确实偶尔会听到他们吐槽各自的联营盟友。我们聊过航司可以进行联合航线网络规划，许多深度绑定的联营体也确实这么做，但这并非硬性规定，或者说并非每时每刻都完全同步。有时某家航司出于品牌声誉考量执意要飞某条航线，但联营伙伴可能觉得对该航司来说这并非良策，双方就得私下博弈协商出最优解。"
+    },
+    {
+      "id": 133,
+      "start_sec": 1396,
+      "speaker": "Brian Sumers",
+      "en": "And then we haven't talked about labor yet. Labor doesn't always like these joint ventures.",
+      "zh": "另外，我们还没聊到工会。劳工组织往往对这类航线联营并不感冒。"
+    },
+    {
+      "id": 134,
+      "start_sec": 1403,
+      "speaker": "Brett Snyder",
+      "en": "The argument here is that a rising tide raises all boats, and that is really what the airlines are trying to do here. And that is how you see a lot of these routes that, even 10 years ago, seemed completely unfathomable. As for the labor piece, though, of course they do need to be protected. You could just find someone—just like you outsource manufacturing to Vietnam or wherever it may be—you could outsource your flying to some third party that's a lot cheaper somewhere else.",
+      "zh": "航司拿出的论调是‘水涨船高，利益共享’，这也是他们推进联营的初衷所在。正因如此，你才能看到许多搁在十年前完全无法想象能开通的航线。不过至于劳工权益，确实必须得到保障。航司完全有可能像把制造业外包给越南或其他地方一样，把飞行任务外包给成本低得多的第三方航司。"
+    },
+    {
+      "id": 135,
+      "start_sec": 1431,
+      "speaker": "Brett Snyder",
+      "en": "So there have to be rules against that. There definitely are in these agreements protecting labor and saying who can do what. We could get deeper into the weeds on here,",
+      "zh": "所以协议中必须设立规避条款。这些联营协定里确实都白纸黑字写明了劳工保护条款，严格限定谁能执飞什么。关于这点我们还可以进一步展开细聊，"
+    },
+    {
+      "id": 136,
+      "start_sec": 1440,
+      "speaker": "Brett Snyder",
+      "en": "But I really don't think we need to. I think the point is just know that these airlines have really complicated formulas for splitting things up, and there's always something that somebody is mad about at some airline.",
+      "zh": "但我真觉得没必要细究。关键是要明白，这些航司有一套极其复杂的利益分成计算公式，而且总会有某家航司的某些人对此心怀不满。"
+    },
+    {
+      "id": 137,
+      "start_sec": 1452,
+      "speaker": "Brett Snyder",
+      "en": "But it's still worth it for everyone, because they can jointly plan and price, and that makes up for the pain of having to deal with these other airlines. And it does sound like some of these relationships may really be love-hate.",
+      "zh": "但这对大家来说依然是划算的，因为他们可以联合规划运力并统一协同定价，这足以弥补应付其他合作航司的痛苦。听起来，其中某些合作关系确实可以说是相爱相杀。"
+    },
+    {
+      "id": 138,
+      "start_sec": 1466,
+      "speaker": "Jon Ostrower",
+      "en": "Well, and then there's Alaska. Has anyone actually ever tried to put two US airlines in the same immunized joint venture before?",
+      "zh": "说到这儿还有阿拉斯加航空呢。以前真有人尝试过把两家美国航司塞进同一个享有反垄断豁免的航线联营（JV）里吗？"
+    },
+    {
+      "id": 139,
+      "start_sec": 1473,
+      "speaker": "Brian Sumers",
+      "en": "Yeah, Jon, I think they have. United and Continental tried in 2008. That was approved about a year later. But the thing is, in 2010, both of these airlines merged, and that became a moot point.",
+      "zh": "有的，Jon，我觉得他们试过。美联航和大陆航空在 2008 年就尝试过，大约一年后获得了批准。但问题是，2010 年这两家航司合并了，之前的申请也就失去了实际意义。"
+    },
+    {
+      "id": 140,
+      "start_sec": 1486,
+      "speaker": "Jon Ostrower",
+      "en": "Interesting. I guess until Alaska pulls together enough cash to buy American, these two are not going to merge. Still, I had forgotten United and Continental went to the JV just before their own merger. But so this really isn't unfamiliar ground, is it?",
+      "zh": "有意思。我想在阿拉斯加航空攒够现金收购美航之前，这两家是绝不可能合并的。不过，我都忘了美联航和大陆航空在合并前也搞过联营。所以这其实并不是前所未有的盲区，对吧？"
+    },
+    {
+      "id": 141,
+      "start_sec": 1499,
+      "speaker": "Brett Snyder",
+      "en": "Yeah, I had forgotten about that too until you brought this up in some of the pre-show work here, Brian. And so when you did, I went and pulled up the old United-Continental docket to see what DOT had to say then.",
+      "zh": "是的，在 Brian 录制前准备时提起这事之前，我也早忘了。所以当你提到时，我特意调出了当年美联航与大陆航空的案件卷宗，看看当时美国交通部（DOT）是怎么说的。"
+    },
+    {
+      "id": 142,
+      "start_sec": 1512,
+      "speaker": "Brett Snyder",
+      "en": "So, the standard on how they evaluate this is to first decide if this substantially reduces or eliminates competition. Those are their words, not mine. And then if it clears that hurdle, then DOT has to look to confirm if it will, quote, 'meet a serious transportation need or achieve important public benefits.'",
+      "zh": "他们评估的标准是，首先判定这是否会“实质性减少或消除竞争”——这是他们的原话，不是我编的。如果跨过了这道门槛，DOT 接着必须核实它是否能“满足重大的运输需求，或实现重要的公共利益”。"
+    },
+    {
+      "id": 143,
+      "start_sec": 1532,
+      "speaker": "Brett Snyder",
+      "en": "And that's just for the basic deal. But then to get ATI, it has to be found that the deal would be, quote, 'required by the public interest.' Hard to define that perfectly, but at least now you know sort of what they're looking at.",
+      "zh": "而这还只是针对基础协议。但若想获得反垄断豁免（ATI），还必须认定该协议是“符合公共利益所必需的”。这很难给出一个绝对精确的定义，但至少你现在知道了他们大致是在考量什么。"
+    },
+    {
+      "id": 144,
+      "start_sec": 1547,
+      "speaker": "Brian Sumers",
+      "en": "Yeah, and DOT found that all of those were the case for the Continental-United deal.",
+      "zh": "是的，而且 DOT 认定大陆航空与美联航的交易完全符合这些条件。"
+    },
+    {
+      "id": 145,
+      "start_sec": 1552,
+      "speaker": "Brett Snyder",
+      "en": "Yeah, they did. And I think when I was reading through this, though, there were two interesting nuggets that stood out to me. So first is when DOT said, quote, 'We identified several country-pair markets where Continental services overlap those of existing alliance partners, but noted that with Continental, Star becomes a more competitive alliance in markets where oneworld or SkyTeam have a strong presence.'",
+      "zh": "没错，他们确实批准了。不过我在通读这份文件时，注意到了两个非常耐人寻味的细节。首先是 DOT 提到：“我们指出了若干个大陆航空航线与现有联盟伙伴重叠的国别对市场，但同时也指出，有了大陆航空的加入，星空联盟在寰宇一家或天合联盟占据优势的市场中将变得更具竞争力。”"
+    },
+    {
+      "id": 146,
+      "start_sec": 1575,
+      "speaker": "Brett Snyder",
+      "en": "So this would actually suggest that the whole level playing field thing may actually be on the table when it comes to these international agreements, unlike it was with the JetBlue NEA argument that American had.",
+      "zh": "这就表明，在涉及这些国际协议时，“创造公平竞争环境”的论点实际上是可以摆上台面讨论的，这与美航此前在捷蓝航空东北联盟（NEA）一案中的遭遇完全不同。"
+    },
+    {
+      "id": 147,
+      "start_sec": 1586,
+      "speaker": "Jon Ostrower",
+      "en": "So what was the second nugget?",
+      "zh": "那第二个细节是什么？"
+    },
+    {
+      "id": 148,
+      "start_sec": 1587,
+      "speaker": "Brett Snyder",
+      "en": "Second, DOT said, quote, 'We noted 14 city-pair markets in which Continental's non-stop service overlaps that of other alliance partners, but tentatively found that carve-outs of those markets from a grant of immunity would detract from the efficiencies that the alliance would otherwise create.'",
+      "zh": "第二，DOT 表示：“我们注意到了 14 个大陆航空直飞业务与其他联盟伙伴重叠的城市对市场，但初步认定，若在授予豁免时将这些市场排除在外，将削弱该联盟本可带来的协同效益。”"
+    },
+    {
+      "id": 149,
+      "start_sec": 1606,
+      "speaker": "Brett Snyder",
+      "en": "But then DOJ got pissed off and objected to most of this. And DOT gave in a little, so they put carve-outs on New York to Copenhagen, Geneva, Lisbon, and Stockholm. And maybe that explains why United has",
+      "zh": "但随后司法部（DOJ）大为光火，并对其中的大部分内容提出了反对。DOT 最终妥协了一小部分，因此对纽约至哥本哈根、日内瓦、里斯本和斯德哥尔摩等航线做出了豁免排除限制。这或许也解释了为什么美联航……"
+    },
+    {
+      "id": 150,
+      "start_sec": 1620,
+      "speaker": "Brett Snyder",
+      "en": "I don't fly to Copenhagen and Stockholm. I don't know. But any new entrants on these routes would have allowed this restriction to go away anyway. Norwegian would have counted there, so I'm pretty sure this is all gone by now anyway.",
+      "zh": "我也没飞过哥本哈根和斯德哥尔摩，具体我不太清楚。但只要这些航线上有新进入者，限制本来就会自动解除。挪威航空当时也算在内，所以我敢肯定现在这些限制早就失效了。"
+    },
+    {
+      "id": 151,
+      "start_sec": 1633,
+      "speaker": "Brian Sumers",
+      "en": "Were any of these restrictions actually meaningful?",
+      "zh": "这些限制条件真的有什么实际约束力吗？"
+    },
+    {
+      "id": 152,
+      "start_sec": 1635,
+      "speaker": "Brett Snyder",
+      "en": "Not really. I mean, of course they said that the grant of immunity only applied to international flying, couldn't do it on domestic, no surprise there. And then they had rules about filing reports and things like that so they could track it.",
+      "zh": "并没有。当然，他们明确规定反垄断豁免仅适用于国际航线，不能用于国内航线，这并不意外。此外，他们还要求提交报告等以便监管追踪。"
+    },
+    {
+      "id": 153,
+      "start_sec": 1649,
+      "speaker": "Brett Snyder",
+      "en": "But they really, they liked this deal so much that they said that the joint venture had to be fully implemented within 18 months. They just really wanted all those public benefits out there, so didn't really care what DOJ had to say.",
+      "zh": "但监管部门其实非常看好这笔交易，甚至要求该联运必须在18个月内全面落地。他们极力希望促成这些公众利益，根本不在乎司法部（DOJ）怎么看。"
+    },
+    {
+      "id": 154,
+      "start_sec": 1662,
+      "speaker": "Brian Sumers",
+      "en": "Ah, DOJ. I think we think that it will probably not object this time, but who knows? As for overlapping routes, there aren't that many. That is partly because Alaska is just getting its widebody operation going.",
+      "zh": "哈，司法部。我想我们都认为他们这次大概率不会反对，但谁说得准呢？至于重叠航线，其实并不多。部分原因在于阿拉斯加航空的宽体机运营才刚刚起步。"
+    },
+    {
+      "id": 155,
+      "start_sec": 1677,
+      "speaker": "Brian Sumers",
+      "en": "But we've got Alaska and British Airways both flying from Seattle to Heathrow. Then we have Alaska and JAL flying from Seattle to Narita. And we can probably count Hawaiian and JAL overlapping on those routes from Honolulu to Haneda and Osaka.",
+      "zh": "但目前阿拉斯加航空和英国航空都运营西雅图至希思罗航线；阿拉斯加航空和日航都运营西雅图至成田航线；还可以算上夏威夷航空与日航在檀香山至羽田及大阪航线上的重叠。"
+    },
+    {
+      "id": 156,
+      "start_sec": 1695,
+      "speaker": "Brian Sumers",
+      "en": "That's it, and of course all of those routes have competition from at least one other joint venture, except Honolulu-Osaka.",
+      "zh": "也就这些了。当然，除檀香山至大阪外，所有这些航线都面临至少另一家联营实体的竞争。"
+    },
+    {
+      "id": 157,
+      "start_sec": 1703,
+      "speaker": "Brett Snyder",
+      "en": "Yeah, and we can talk about this and the limited overlap and all that, but if DOJ doesn't care, then whatever. Then it won't go to the courts, nobody will rule from the bench anyway. It probably has a decent chance of sailing through.",
+      "zh": "没错，我们可以继续讨论重叠航线有限这些细节，但只要司法部不干预，那都无所谓。案子不会闹上法庭，自然也不会有法官当庭裁决。它很大概率能顺利过关。"
+    },
+    {
+      "id": 158,
+      "start_sec": 1718,
+      "speaker": "Brian Sumers",
+      "en": "I think it should sail through. What's that old cliché, the horse has left the barn, is that what it is?",
+      "zh": "我认为它理应过关。俗话怎么说的来着？木已成舟、覆水难收，是这么说的吧？"
+    },
+    {
+      "id": 159,
+      "start_sec": 1724,
+      "speaker": "Brett Snyder",
+      "en": "That is one, yeah.",
+      "zh": "没错，就是这句。"
+    },
+    {
+      "id": 160,
+      "start_sec": 1725,
+      "speaker": "Brian Sumers",
+      "en": "All right, it's like, do we want Alaska to be competitive or not? Do we want Alaska to grow its network or not? Do we want Alaska to provide real competition to Delta in Seattle or not?",
+      "zh": "行吧，问题本质在于：我们到底想不想让阿拉斯加航空具备竞争力？想不想让它拓展航线网络？想不想让它在西雅图对达美航空构成实质性竞争？"
+    },
+    {
+      "id": 161,
+      "start_sec": 1735,
+      "speaker": "Brian Sumers",
+      "en": "Because you gave the numbers earlier, these non-JV airlines are kind of jokes now, except for maybe Turkish. If Alaska is not in a JV, what would they be, the LOT or the TAP of the United States? It would not be able to be a global player, it wouldn't move the needle, this is just kind of a fact.",
+      "zh": "因为你前面也列了数据，除了土耳其航空，那些没加入联营的航司现在基本成了笑话。如果阿拉斯加航空不搞联运，它会沦为什么？美国版的波兰航空还是葡萄牙航空？它根本无法成为全球级玩家，也无法带来实质改变，这就是客观事实。"
+    },
+    {
+      "id": 162,
+      "start_sec": 1753,
+      "speaker": "Brett Snyder",
+      "en": "I don't know, JetBlue might take offense there. They might want to be the LOT or the TAP of the United States.",
+      "zh": "这不好说，捷蓝航空听了可能会不高兴。说不定人家还抢着当美国版的波兰航空或葡萄牙航空呢。"
+    },
+    {
+      "id": 163,
+      "start_sec": 1760,
+      "speaker": "Brian Sumers",
+      "en": "Okay, well, I have a different comparison. I think best case they could be the WestJet of America. WestJet has seven Dreamliners at this point. It has a near monopoly in Calgary, and it plays around with those MAXes in Halifax.",
+      "zh": "行吧，不过我有不同的类比。我认为最好的情况下，他们也就是成为美国版的西捷航空。西捷航空目前拥有7架梦想客机（787），在卡尔加里几乎形成垄断，并在哈利法克斯用737 MAX小打小闹。"
+    },
+    {
+      "id": 164,
+      "start_sec": 1774,
+      "speaker": "Brian Sumers",
+      "en": "I know our good friend, friend of the show, Alexis von Hoensbroech, has told us those work pretty well for WestJet, but I also don't think Air Canada is scared. And that would probably change if WestJet were able to join the Air France-KLM-Delta joint venture.",
+      "zh": "我知道我们的好朋友、本节目的老熟人Alexis von Hoensbroech跟我们说过，这些机型对西捷航空来说表现不错，但我认为加拿大航空并不忌惮他们。当然，如果西捷航空能够加入法航荷航与达美航空的航线联营，情况可能就截然不同了。"
+    },
+    {
+      "id": 165,
+      "start_sec": 1789,
+      "speaker": "Jon Ostrower",
+      "en": "I heard recently that WestJet's 787 expansion was actually a closely watched template that Alaska looked at for their own international expansion.",
+      "zh": "我最近听说，西捷航空的787扩张计划，实际上正是阿拉斯加航空规划自身国际航线扩张时密切参考的模板。"
+    },
+    {
+      "id": 166,
+      "start_sec": 1801,
+      "speaker": "Brett Snyder",
+      "en": "The only problem is that Alaska has intense competition in its home Seattle, whereas WestJet dominates Calgary.",
+      "zh": "唯一的问题是，阿拉斯加航空在其大本营西雅图面临着极其激烈的竞争，而西捷航空在卡尔加里则占据主导地位。"
+    },
+    {
+      "id": 167,
+      "start_sec": 1809,
+      "speaker": "Brian Sumers",
+      "en": "Well, WestJet didn't always dominate Calgary. You'll remember that at some point, Air Canada retreated and said, \"Hey, take this market, we'll take the others.\"",
+      "zh": "不过西捷航空也并非一直称霸卡尔加里。你肯定还记得，加航在某个时期选择了退让，意思是说：“这个市场留给你们，我们去守别的地盘。”"
+    },
+    {
+      "id": 168,
+      "start_sec": 1817,
+      "speaker": "Brett Snyder",
+      "en": "Yeah, but Air Canada didn't do much long-haul from there. They did some, but it was never big the way that Delta has gone into... That is interesting to think about, and why would you not? I mean, that is probably one of the more successful implementations of a non-JV strategy at this point, right?",
+      "zh": "没错，但加航从那里起飞的远程长途航线并不多。他们确实飞过一些，但规模从未达到达美如今的体量……这确实是个很有意思的切入点，而且为什么不这么做呢？我是说，这大概是目前非联营（non-JV）战略实施得最成功的案例之一了吧？"
+    },
+    {
+      "id": 169,
+      "start_sec": 1837,
+      "speaker": "Brett Snyder",
+      "en": "But also, I mean, Brian, I've heard you compare this before to Finnair as well, over in Europe, you know, Alaska could be the Finnair of the US. I also can't help but think back to when Hawaiian tried to create a joint venture with JAL, and in 2020, it was shot down.",
+      "zh": "另外，Brian，我之前也听你拿欧洲的芬兰航空来做过对比，觉得阿拉斯加航空完全可以成为美国版的芬兰航空。这也不禁让我联想起当年夏威夷航空试图与日航建立联营（JV），但在 2020 年被监管部门否决的情形。"
+    },
+    {
+      "id": 170,
+      "start_sec": 1853,
+      "speaker": "Brett Snyder",
+      "en": "And the feds said at the time, quote, \"While the commercial agreements would not substantially reduce competition, the agreements as structured did not require ATI, because they would not offer any more public benefits than would likely be obtained through ordinary commercial cooperation agreements.\"",
+      "zh": "当时美国联邦政府的原话是：“尽管该商业协定不会实质性削弱竞争，但鉴于其现有架构，并不需要赋予反垄断豁免（ATI），因为该协议并未带来超越普通商业合作协议所能提供的更多公共利益。”"
+    },
+    {
+      "id": 171,
+      "start_sec": 1870,
+      "speaker": "Brett Snyder",
+      "en": "So, you know, there are different ways to look at this. And this would be a much bigger deal. I think there's more benefit to be had, I think we all seem to think that. And you know, if you do think about that over the Pacific, American is just not very competitive.",
+      "zh": "所以，看待这件事情可以有不同的视角。而眼下这笔交易的影响力显然要大得多。我认为其中能挖掘的协同效益更为丰厚，我想我们大家都有共识。如果你纵观整个跨太平洋航线，美航自身其实并没有太大的竞争力。"
+    },
+    {
+      "id": 172,
+      "start_sec": 1885,
+      "speaker": "Brett Snyder",
+      "en": "But, you know, a Hawaiian-JAL joint venture without American wasn't allowed back then. So I don't know how they'll look at this. But you have to think of this as, if American can feed Alaska's Seattle gateway into the Pacific, that's really a key opportunity here for American to have more of a Pacific strategy, which they really have struggled to handle up until now.",
+      "zh": "但要知道，当年抛开美航单独搞夏威夷航与日航的联营（JV）就没能获批。所以我拿不准监管层这次会作何裁定。但你必须明白的是：如果美航能够为阿拉斯加航空的西雅图门户航线注入客流，中转输送至跨太平洋航线，这绝对是美航补强其太平洋战略的关键契机——毕竟在此之前，他们在这块市场上一直举步维艰。"
+    },
+    {
+      "id": 173,
+      "start_sec": 1912,
+      "speaker": "Brett Snyder",
+      "en": "And if you're Alaska, you then want to say that your long-haul network isn't sustainable without the joint venture, at least not to the same scale and level. But also, you don't really want to say that, obviously.",
+      "zh": "而如果你站在阿拉斯加航空的立场，你固然会声称若没有联营支持，自身的远程航线网络根本难以为继——至少无法维持现有的规模与频次。但很显然，你骨子里又极其不情愿对外承认这一点。"
+    },
+    {
+      "id": 174,
+      "start_sec": 1925,
+      "speaker": "Brian Sumers",
+      "en": "We can say that, Brett.",
+      "zh": "我们可以替他们说出来，Brett。"
+    },
+    {
+      "id": 175,
+      "start_sec": 1926,
+      "speaker": "Brett Snyder",
+      "en": "We can say that.",
+      "zh": "没错，我们可以说。"
+    },
+    {
+      "id": 176,
+      "start_sec": 1928,
+      "speaker": "Jon Ostrower",
+      "en": "Look, and over the Atlantic, it's sort of a different argument. Seattle is so far away from Europe, effectively equidistant to Asia, also, that American and Alaska really aren't likely to feed on each other here, right?",
+      "zh": "听着，在跨大西洋航线上情况又有所不同。西雅图距离欧洲极其遥远，实际上它到欧洲的距离跟到亚洲差不多，所以美航和阿拉斯加航空在这里其实不太可能相互蚕食客源，对吧？"
+    },
+    {
+      "id": 177,
+      "start_sec": 1940,
+      "speaker": "Brett Snyder",
+      "en": "Yeah, it's unlikely that you'd have a ton of people flying American to Seattle to get to Europe. That just doesn't really seem to be in most people's best interest, unless you're in the Pacific Northwest.",
+      "zh": "是的，极少会有大批旅客特意搭乘美航先飞到西雅图，然后再转机去欧洲。除非你本身就在太平洋西北地区，否则这种飞法对大多数人来说完全不划算。"
+    },
+    {
+      "id": 178,
+      "start_sec": 1952,
+      "speaker": "Brett Snyder",
+      "en": "But this does feel like it's more about the European carriers on the Atlantic side, and that's where the biggest benefit lies, because British Airways flies Seattle-London already, right? And so does Alaska, now. Now, American tried it a couple of years ago, but it was bad, like, real bad.",
+      "zh": "但这感觉更多关乎跨大西洋航线上的欧洲航司伙伴，那才是最大的利益所在，因为英国航空已经在飞西雅图直飞伦敦了，对吧？如今阿拉斯加航空也开通了。美航几年前也尝试过这条航线，但经营惨淡，可以说是非常惨淡。"
+    },
+    {
+      "id": 179,
+      "start_sec": 1969,
+      "speaker": "Brett Snyder",
+      "en": "And so, I would imagine now Alaska is struggling in London, besides being new and fighting against Delta and Virgin Atlantic, it's also not getting that European point of sale.",
+      "zh": "所以我完全能想象，阿拉斯加航空目前在伦敦市场压力重重。除了作为初来乍到者要死磕达美和维珍航空之外，他们也完全拿不到欧洲本地始发的销售客源（POS）。"
+    },
+    {
+      "id": 180,
+      "start_sec": 1980,
+      "speaker": "Brett Snyder",
+      "en": "And it's not getting the same level of connectivity beyond London that it could be getting with BA in a joint venture where you can price it together. But when you put it all together, now you have this much bigger network, gives you that point of sale Seattle strength that American never had. This should probably work.",
+      "zh": "而且它在伦敦以远的航线网络衔接，根本比不上如果能和英航搞航线联营（JV）联合定价所能达到的效果。但当你把这一切结合起来，就拥有了一个庞大得多的网络，能带来美航从未拥有过的西雅图客源地销售实力。这事儿按理说行得通。"
+    },
+    {
+      "id": 181,
+      "start_sec": 1997,
+      "speaker": "Brian Sumers",
+      "en": "I hope Alaska doesn't really have to justify this to U.S. regulators. I hope that U.S. regulators understand why this should be important. I do think there could be a hurdle with governments on the other end.",
+      "zh": "我希望阿拉斯加航空不需要向美国监管部门费力证明这一点。我希望美国监管机构能明白为什么这很重要。但我确实认为，大洋彼岸的外国政府可能会是一道阻碍。"
+    },
+    {
+      "id": 182,
+      "start_sec": 2010,
+      "speaker": "Brian Sumers",
+      "en": "The Europeans seem to be pretty protective of competition, some might say too protective. If we look at Germany, what does Michael O'Leary say about German regulators?",
+      "zh": "欧洲人似乎对市场竞争极度保护，甚至有人会说保护过度了。看看德国吧，Michael O'Leary 是怎么评价德国监管机构的？"
+    },
+    {
+      "id": 183,
+      "start_sec": 2022,
+      "speaker": "Brett Snyder",
+      "en": "Probably can't say that here. We don't want to have this rated explicit.",
+      "zh": "那话在这儿可能播不出来。我们可不想让这期播客被标上成人警告标签。"
+    },
+    {
+      "id": 184,
+      "start_sec": 2027,
+      "speaker": "Brian Sumers",
+      "en": "What do we think about the regulators in other countries? Or other single markets?",
+      "zh": "那大家怎么看其他国家的监管机构？或者其他单一市场的监管部门？"
+    },
+    {
+      "id": 185,
+      "start_sec": 2031,
+      "speaker": "Brett Snyder",
+      "en": "I just don't really know. First of all, Alaska doesn't fly to Germany, so they don't have to worry about them so much, but the EC they do have to worry about. But you have to think these guys did some due diligence already before it was announcing that they were going forward, right?",
+      "zh": "我确实不太清楚。首先，阿拉斯加航空并不飞德国，所以不用太担心德国方面，但欧盟委员会（EC）确实是个需要顾虑的对象。但你得想想，这几家航司在宣布推进合作之前，肯定已经做过尽职调查了吧？"
+    },
+    {
+      "id": 186,
+      "start_sec": 2045,
+      "speaker": "Brett Snyder",
+      "en": "I say that, but I guess American had the NEA shut down, so what do I know? But they have to have some indications that they think that this is going to be possible.",
+      "zh": "我虽然这么说，但美航之前连东北联盟（NEA）都被叫停了，我又能知道什么呢？不过他们肯定掌握了一些迹象，认为这次获批是行得通的。"
+    },
+    {
+      "id": 187,
+      "start_sec": 2057,
+      "speaker": "Brett Snyder",
+      "en": "And Alaska is so small and brand new at this, it's hard to imagine that they would see any huge reduction in competition when they're reviewing this from an individual country level or market level. But I guess we'll find out.",
+      "zh": "而且阿拉斯加航空体量这么小，在这一领域又是新手，很难想象各国在单一国家或市场层面进行审查时，会认为这严重削弱了竞争。不过我想我们很快就会见分晓。"
+    },
+    {
+      "id": 188,
+      "start_sec": 2071,
+      "speaker": "Jon Ostrower",
+      "en": "Will they need any carve-outs here? I mean, somehow segregating Alaska and American? Or is this whole thing a prelude to a bigger dance between American and Alaska?",
+      "zh": "他们在这里需要做出任何航线排除让步（carve-outs）吗？我是指，在某些方面把阿拉斯加航空和美航做隔离？或者说，整件事其实是美航与阿拉斯加航空之间一场更大动作的序曲？"
+    },
+    {
+      "id": 189,
+      "start_sec": 2082,
+      "speaker": "Brett Snyder",
+      "en": "So, based on that Continental case, it would seem unlikely they'd need carve-outs. Or maybe if so, maybe Honolulu–Osaka, since that's the only one that doesn't have another airline on it right now. But big deal, that's Japanese point of sale anyway, so who really cares?",
+      "zh": "从当年大陆航空的案例来看，他们似乎不太可能需要做航线排除。如果真要排除，可能也就是檀香山至大阪航线，因为那是目前唯一一条没有其他航司运营的航线。但这也无所谓，反正那主要靠日本客源地销售，谁在乎呢？"
+    },
+    {
+      "id": 190,
+      "start_sec": 2099,
+      "speaker": "Brett Snyder",
+      "en": "The feds do, I think, realize that they have to be careful not to overdo any carving out and putting restrictions on. Because at some point, it's better to just walk away if the regulators won't let you get the benefit of this.",
+      "zh": "我认为联邦监管部门确实也意识到，在设置航线排除和施加限制时不能用力过猛。因为在某种程度上，如果监管部门不让你享受到合作红利，那还不如直接放弃合作。"
+    },
+    {
+      "id": 191,
+      "start_sec": 2115,
+      "speaker": "Brett Snyder",
+      "en": "And if you remember the American-LATAM joint venture, they did not get favorable rulings down in Chile, and that was the start of it falling apart.",
+      "zh": "如果大家还记得当年美航与南美航空（LATAM）的航线联营（JV），智利当局当时给出的裁决很不友好，那就是合作破裂的导火索。"
+    },
+    {
+      "id": 192,
+      "start_sec": 2124,
+      "speaker": "Brett Snyder",
+      "en": "But it's not really clear to me how carve-outs would really work anyway. Because if you isolate a certain route or an origin or something, then it just makes it complex and challenging for consumers, and it disadvantages those routes. I think it would actually have the opposite effect and make those excluded routes perform worse, and potentially they wouldn't last.",
+      "zh": "但我其实也不明白航线排除到底能起什么作用。因为一旦把某条航线或某个始发地单独剥离出来，只会让消费者的购票变得复杂又麻烦，同时让这些航线处于劣势。我认为这反而会适得其反，导致被排除的航线运营表现更差，甚至可能撑不下去。"
+    },
+    {
+      "id": 193,
+      "start_sec": 2144,
+      "speaker": "Brett Snyder",
+      "en": "But ultimately, could Alaska and American just merge? Well, maybe, but then, you know, that requires a domestic look, not just international. That's much more problematic when you're talking about domestic overlap. So instead, putting Alaska into the...",
+      "zh": "但归根结底，阿拉斯加航空和美航能直接合并吗？也许吧，但那就需要接受国内航线层面的反垄断审查，而不仅仅是国际航线了。一旦牵扯到国内航线网络重叠，问题就会棘手得多。所以退一步，把阿拉斯加航空纳入到……"
+    },
+    {
+      "id": 194,
+      "start_sec": 2160,
+      "speaker": "Brett Snyder",
+      "en": "keeps domestic competition while giving Alaska the ability to actually sustain this long-haul business it's building. And that seems like a win for just about everybody, unless you're Delta.",
+      "zh": "既维持了国内市场的竞争，又让阿拉斯加航空有能力真正支撑起它正在构建的这套远程航线业务。这似乎对几乎所有人来说都是个共赢局面，除非你是达美航空。"
+    },
+    {
+      "id": 195,
+      "start_sec": 2172,
+      "speaker": "Brian Sumers",
+      "en": "You've been listening to The Air Show, brought to you by the Alaska-Hawaiian Airlines pilots. Thanks also to this week's sponsors: Plusgrade and Tulsa International Airport.",
+      "zh": "您收听的是《The Air Show》，本期节目由阿拉斯加航空及夏威夷航空飞行员赞助呈现。同时感谢本周的赞助商：Plusgrade 以及塔尔萨国际机场。"
+    },
+    {
+      "id": 196,
+      "start_sec": 2183,
+      "speaker": "Brian Sumers",
+      "en": "If you have suggestions or questions for us, or if you're interested in sponsoring the podcast, email us at info@theairshowpodcast.com to get in touch.",
+      "zh": "如果您有任何建议或问题，或者有意赞助我们的播客，欢迎发送邮件至 info@theairshowpodcast.com 与我们联系。"
+    },
+    {
+      "id": 197,
+      "start_sec": 2193,
+      "speaker": "Jon Ostrower",
+      "en": "Leo Duran produced and edited this episode. Our theme music is by Joshua Mosier. Thanks for listening, and we'll be back soon.",
+      "zh": "本期节目由 Leo Duran 制作并剪辑。主题曲创作者为 Joshua Mosier。感谢大家的收听，我们下期再会！"
+    }
+  ]
+}
