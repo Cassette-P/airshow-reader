@@ -1,0 +1,1448 @@
+{
+  "schema_version": "2.0",
+  "guid": "Buzzsprout-20076825",
+  "title": "The Wildly Overblown JetBlue Panic",
+  "pub_date": "2026-11-05T11:00:00Z",
+  "duration_sec": 2073,
+  "audio_url": "https://www.buzzsprout.com/2329718/episodes/20076825-the-wildly-overblown-jetblue-panic.mp3",
+  "summary_zh": "本期节目聚焦近期市场对捷蓝航空（JetBlue）常旅客计划（FFP）抵押债券暴跌引发的过度恐慌。Brett与Jon回顾了捷蓝从疫情前10%营业利润率滑坡的根源：前任管理层点对点航线扩张失焦，与美航的东北联盟及收购Spirit双双被法院叫停，耗尽了财务缓冲。新任CEO Joanna Geraghty推出JetForward战略后，通过填补劳德代尔堡运力空白、重构票价体系及与美联航达成Blue Sky合作，推动三季度PRASM（客运单位收入）同比大增近18%，商业端显著回暖。两位主播一致认为，短期破产恐慌纯属反应过度，捷蓝现金与未抵押资产充足；但约80亿美元长期债务、700%的债务股本比及高油价仍是长期隐患，捷蓝必须在窗口期关闭前实现持续盈利以化解债务危机。",
+  "key_takeaways_zh": [
+    "市场对捷蓝航空TrueBlue常旅客债券的抛售属于过度恐慌，公司短期流动性充足且核心常旅客资产稳固，并无迫在眉睫的倒闭风险。",
+    "前任管理层盲目扩张及执着于高溢价收购Spirit消耗了大量资源，法院叫停该交易反而让捷蓝免于在高油价周期背负更致命的债务包袱。",
+    "新管理层的商业改革成效显著，依托票价分层、联名信用卡升级及与美联航的合作，三季度经航距调整后的收益率（Yield）大幅飙升20%。",
+    "近80亿美元的长期债务与高企的航油成本是核心枷锁，高达700%的债务股本比虽暂时阻退了潜在收购方，但长期来看仍潜藏破产重组风险。"
+  ],
+  "highlights": [
+    {
+      "start_sec": 84,
+      "title_zh": "捷蓝常旅客债券暴跌之谜",
+      "summary_zh": "三季报发布前，捷蓝航空以TrueBlue常旅客计划（FFP）作抵押发行的债券价格大幅跳水，引发市场恐慌。Brett指出，虽然捷蓝长期面临债务挑战，但短期内绝无倒闭之虞，债券投资者的恐慌情绪被严重放大。",
+      "quote_en": "There was a massive plunge in the price of those bonds that turned into a panic, and everyone just kind of flipped out right before earnings came out."
+    },
+    {
+      "start_sec": 224,
+      "title_zh": "战略失焦与并购扩张败局",
+      "summary_zh": "疫情期间捷蓝航空盲目尝试非枢纽点对点航线（Point-to-Point），随后又在美航东北联盟和收购Spirit上耗费过多精力。司法部叫停Spirit并购实则救了捷蓝，但前任管理层的失误仍导致公司由盈转亏，长期债务在2023年底翻倍至44亿美元以上。",
+      "quote_en": "JetBlue also made a lot of bad bets during that time that ended up pushing it into trouble."
+    },
+    {
+      "start_sec": 657,
+      "title_zh": "商业转型推动单位收入大涨",
+      "summary_zh": "新CEO Joanna Geraghty迎回Marty St. George推进商业改革，将基础经济舱（Basic Economy）与灵活票价扩展至全舱位以强化升舱销售，趁Spirit衰落抢占劳德代尔堡市场，并与美联航合作激活联名信用卡生态。改革带动三季度航距调整后PRASM大涨近18%，收益率（Yield）提升20%。",
+      "quote_en": "If you compare it year-over-year, JetBlue showed PRASM growth, so passenger, you know, revenues, of nearly 18% versus last year after taking into account the stage length change."
+    },
+    {
+      "start_sec": 1207,
+      "title_zh": "八十亿巨额债务的双刃剑",
+      "summary_zh": "为补充流动性，捷蓝在2024年通过抵押常旅客计划融资，导致长期债务膨胀至约80亿美元，债务股本比高达700%。沉重的债务和利息负担不仅压缩了财务空间，也使激进投资者和潜在并购方望而却步，客观上为现管理层争取了自救时间。",
+      "quote_en": "By the end of '24, cash was back in a better place at around 2 billion, but long-term debt had ballooned to 8.15 billion."
+    },
+    {
+      "start_sec": 1483,
+      "title_zh": "债券腰斩与美航竞购推演",
+      "summary_zh": "捷蓝常旅客债券一度从80美分跌至42美分，市值跌破10亿美元。Brett认为常旅客资产不会在重组中消失，并提出美航应趁低价发起战略竞购，无论成败都能重塑东海岸格局或消耗美联航与达美航空的精力。",
+      "quote_en": "Bondholders were willing to sell at less than half the face value cuz they were afraid bankruptcy was coming and then they'd get even less than that."
+    },
+    {
+      "start_sec": 1823,
+      "title_zh": "高油价掣肘与破产时间窗口",
+      "summary_zh": "财报发布后捷蓝股价一度反弹超30%，管理层重申现金与未抵押资产充足，2027年无需申请破产。尽管三季度捷蓝通过涨价覆盖了87%的燃油成本增幅（高于美联航15个百分点），但地缘冲突引发的高油价仍是其扭亏减债的最大阻碍。",
+      "quote_en": "The CEO, Joanna, said there's no need to file for bankruptcy in 2027. They have enough cash. They also have a bunch of unencumbered assets if they needed to burn more furniture."
+    }
+  ],
+  "transcript": [
+    {
+      "id": 1,
+      "start_sec": 0,
+      "speaker": "Jon Ostrower",
+      "en": "I'm Jon Ostrower, Editor-in-Chief of The Air Current.",
+      "zh": "我是《The Air Current》主编 Jon Ostrower。"
+    },
+    {
+      "id": 2,
+      "start_sec": 4,
+      "speaker": "Brett Snyder",
+      "en": "And I'm Brett Snyder, author of Cranky Flier. You're listening to The Air Show, the podcast where we talk about what happens in the business of the sky.",
+      "zh": "我是《Cranky Flier》的作者 Brett Snyder。你正在收听的是《The Air Show》，在这里我们畅聊航空商业圈里的大小事。"
+    },
+    {
+      "id": 3,
+      "start_sec": 11,
+      "speaker": "Brett Snyder",
+      "en": "This episode is sponsored by the Alaska Hawaiian Pilots. The airlines have merged, but the work of bringing their pilot groups together continues. A strong joint contract is the next critical step. Learn more about the work that is happening at the bargaining table at alaskahawaiianpilots.org. This week's episode is also sponsored by Tulsa International Airport.",
+      "zh": "本期节目由阿拉斯加航空与夏威夷航空飞行员联合赞助。虽然两家航司已经合并，但整合双方飞行员团队的工作仍在继续。一份强有力的联合合同是至关重要的下一步。如需了解谈判桌上的最新进展，请访问 alaskahawaiianpilots.org。本期节目同样由塔尔萨国际机场赞助播出。"
+    },
+    {
+      "id": 4,
+      "start_sec": 30,
+      "speaker": "Brett Snyder",
+      "en": "Jon, this is two weeks in a row for you. I'm excited to have you here, especially since Brian's on the road.",
+      "zh": "Jon，你这可是连续两周都在啊。能有你来我太高兴了，尤其是 Brian 这周又出差了。"
+    },
+    {
+      "id": 5,
+      "start_sec": 37,
+      "speaker": "Jon Ostrower",
+      "en": "It is excellent to be here. I should get a punch card. If you get 10 appearances on the The Air Show, you get...",
+      "zh": "能来这儿太棒了。我真应该办张打卡积分卡。在《The Air Show》出镜满 10 次，就能免费获得……"
+    },
+    {
+      "id": 6,
+      "start_sec": 43,
+      "speaker": "Brett Snyder",
+      "en": "Free sub? There you go. It is good that you are here, because if it were not for you, I would be talking to myself, since Brian is gone doing weird things, I believe.",
+      "zh": "免费赛百味潜客堡？哈哈，这就对了。你在这儿真好，因为要不是你，我就得自言自语了——Brian 不在，而且我觉得他又在搞什么稀奇古怪的事。"
+    },
+    {
+      "id": 7,
+      "start_sec": 53,
+      "speaker": "Jon Ostrower",
+      "en": "I think he said he was something about, I don't know, buying 200,000 Finnair Avios using Japanese yen? You know what? Rock on.",
+      "zh": "我记得他说过，好像是要用日元去买 20 万芬航的 Avios 里程积分？不管怎么说，开心就好！"
+    },
+    {
+      "id": 8,
+      "start_sec": 62,
+      "speaker": "Brett Snyder",
+      "en": "I would normally say that maybe something was lost in translation if you were having that conversation, but this is Brian, so that actually does track. This is probably a thing. I know he's traveling this week, he's moderating a panel. Maybe it'll be a loyalty panel on how to best acquire miles with Japanese yen.",
+      "zh": "要是别人聊起这个，我通常会觉得可能是沟通里传岔劈了，但鉴于是 Brian，这事儿完全对得上号。没准真有这回事。我知道他这周在出差主持一个座谈会。说不定就是关于常旅客计划的讨论，主题正是如何用日元最划算地搞到里程呢。"
+    },
+    {
+      "id": 9,
+      "start_sec": 81,
+      "speaker": "Jon Ostrower",
+      "en": "It's too bad Plusgrade isn't one of this week's sponsors.",
+      "zh": "可惜 Plusgrade 没赞助本周的节目。"
+    },
+    {
+      "id": 10,
+      "start_sec": 84,
+      "speaker": "Brett Snyder",
+      "en": "That's okay, we'll give them that shout-out anyway. But, you know, today, we actually are talking about loyalty in a very tenuous way. It's actually the bonds that are tied to JetBlue's TrueBlue loyalty program. Close enough?",
+      "zh": "没关系，我们还是顺带提一句他们。不过话说回来，我们今天确实勉强也算在聊常旅客话题——实际上是探讨与捷蓝航空 TrueBlue 计划绑定的债券。这算沾边吧？"
+    },
+    {
+      "id": 11,
+      "start_sec": 96,
+      "speaker": "Brett Snyder",
+      "en": "There was a massive plunge in the price of those bonds that turned into a panic, and everyone just kind of flipped out right before earnings came out. This seems like a good time to explain what is going on and why. At least as far as I'm concerned, this is way overblown.",
+      "zh": "那批债券的价格经历了一波暴跌，引发了恐慌，就在财报出炉前，大家几乎都炸锅了。现在正好来梳理一下到底发生了什么，以及背后的原因。至少在我看来，这纯属大惊小怪、过度反应了。"
+    },
+    {
+      "id": 12,
+      "start_sec": 115,
+      "speaker": "Jon Ostrower",
+      "en": "So you're saying we shouldn't freak out about JetBlue?",
+      "zh": "所以你的意思是，我们没必要为捷蓝航空过度恐慌？"
+    },
+    {
+      "id": 13,
+      "start_sec": 118,
+      "speaker": "Brett Snyder",
+      "en": "Well, you can freak out about how awesome Fort Lauderdale is doing, if you'd like.",
+      "zh": "呃，如果你愿意的话，倒是可以为劳德代尔堡那边的强劲势头惊叹一下。"
+    },
+    {
+      "id": 14,
+      "start_sec": 122,
+      "speaker": "Jon Ostrower",
+      "en": "That's not where I thought this was going, but okay, okay.",
+      "zh": "这完全出乎我的意料，不过行吧，行吧。"
+    },
+    {
+      "id": 15,
+      "start_sec": 125,
+      "speaker": "Brett Snyder",
+      "en": "No, no. There is absolutely a reason to be concerned about JetBlue in the long run. But I should note that that is not that the airline's going to fail. It's concerned about potential bankruptcy and stuff like that. We'll talk about that more later.",
+      "zh": "不不不。长远来看，确实有充分理由为捷蓝航空捏一把汗。但我必须澄清，这并不意味着这家航司会倒闭，担心的只是潜在的破产重组之类的事。我们稍后再细聊这个。"
+    },
+    {
+      "id": 16,
+      "start_sec": 139,
+      "speaker": "Brett Snyder",
+      "en": "But it is fairly nutty to be fearing imminent danger, especially for all the loyalty bondholders that kind of set this frenzy off.",
+      "zh": "但如果去恐慌迫在眉睫的危机，那就相当离谱了，特别是那些掀起这场恐慌狂潮的常旅客债券持有人们。"
+    },
+    {
+      "id": 17,
+      "start_sec": 149,
+      "speaker": "Jon Ostrower",
+      "en": "We've talked about JetBlue here before. We've interviewed President Marty St. George, but it's of course been a while, and lots of things have actually unfolded since then. So I think we should back up a little and set the stage for how JetBlue got to this point.",
+      "zh": "我们之前在节目里聊过捷蓝航空。我们还采访过总裁 Marty St. George，不过那已经是蛮久之前的事了，自那之后局势发生了很大变化。所以我觉得我们应该先往回倒一倒，铺垫一下捷蓝航空究竟是如何一步步走到今天这个局面的。"
+    },
+    {
+      "id": 18,
+      "start_sec": 159,
+      "speaker": "Brett Snyder",
+      "en": "Yeah, okay, that's a good idea. So pre-pandemic, JetBlue was a profitable airline, had its home base at JFK, the rising star in Boston, also had the Fort Lauderdale, Orlando focus cities, and a little bit in San Juan. And, of course, the Long Beach focus city was out there losing money with abandon.",
+      "zh": "好，这个主意不错。在疫情前，捷蓝航空是一家盈利状况良好的航司，以纽约肯尼迪机场（JFK）为大本营，在波士顿则是后起之秀，同时还拥有劳德代尔堡和奥兰多两个焦点城市，以及圣胡安的一点业务。当然，还有长滩那个焦点城市，在那里疯狂亏钱。"
+    },
+    {
+      "id": 19,
+      "start_sec": 180,
+      "speaker": "Brett Snyder",
+      "en": "And then in 2019, right before the pandemic, that was also the year that they announced they would go to Europe, so there was a lot going on. But this was also an airline that had an operating margin of 10%. So, you know, life was good.",
+      "zh": "紧接着在2019年，就在疫情爆发前夕，他们还宣布将开通欧洲航线，可以说是大动作频频。但当时这还是一家营业利润率达10%的航空公司。所以说，那段日子过得挺滋润。"
+    },
+    {
+      "id": 20,
+      "start_sec": 194,
+      "speaker": "Jon Ostrower",
+      "en": "Can I go back just one small notch to the very beginning? So we're recording this on Tuesday, November the 3rd. It's Election Day in the United States, and I find it very interesting that JetBlue's inaugural flight is often lost into history, but on that flight was Rudy Giuliani and Chuck Schumer sitting together on the airplane.",
+      "zh": "我能不能把时间线稍微往前拉一点，回到最开始？我们录这期节目是在11月3日周二，正好是美国大选日。我觉得很有意思的是，捷蓝航空的首航往往被历史淡忘了，但当时鲁迪·朱利安尼和查克·舒默就并肩坐在那架飞机上。"
+    },
+    {
+      "id": 21,
+      "start_sec": 213,
+      "speaker": "Jon Ostrower",
+      "en": "I will just say, a lot has changed in the world since JetBlue was founded. And I think that's also part of what we're going to get at here, is how much the world has changed. But look, 2019 was a turning point.",
+      "zh": "我只能说，自捷蓝航空成立以来，世界发生了翻天覆地的变化。我想这也是我们今天要探讨的核心之一：世界究竟变了多少。但话说回来，2019年确实是个转折点。"
+    },
+    {
+      "id": 22,
+      "start_sec": 224,
+      "speaker": "Brett Snyder",
+      "en": "Yeah, you know, that whole pandemic thing did upend the world somewhat. But JetBlue also made a lot of bad bets during that time that ended up pushing it into trouble.",
+      "zh": "是啊，那场疫情确实在一定程度上彻底颠覆了世界。但捷蓝航空在此期间也押错了好几步棋，最终将自己推入了困境。"
+    },
+    {
+      "id": 23,
+      "start_sec": 236,
+      "speaker": "Jon Ostrower",
+      "en": "Yeah, I can think of a lot of things it did wrong, but I do remember it was very adventurous during the pandemic in the beginning. I mean, they moved Long Beach to LAX to create a bigger operation there. Then it went into Miami, Newark, and didn't it try like Raleigh-Durham and San Francisco also?",
+      "zh": "没错，我能想到不少他们走错的棋，但我记得在疫情初期他们其实非常敢闯。比如他们把长滩的运力迁到了洛杉矶（LAX），试图在那里做大运营规模；随后又开进了迈阿密、纽瓦克，而且是不是还尝试了罗利-达勒姆和旧金山航线？"
+    },
+    {
+      "id": 24,
+      "start_sec": 251,
+      "speaker": "Brett Snyder",
+      "en": "Yeah, it was like throwing spaghetti at the wall. There were so many different things, and in the end, none of them worked. The airline was just—it was not focused.",
+      "zh": "对，简直就像乱枪打鸟、病急乱投医。他们尝试了太多不同的东西，但到头来一个都没成。这家航司当时可以说是毫无专注度可言。"
+    },
+    {
+      "id": 25,
+      "start_sec": 260,
+      "speaker": "Brett Snyder",
+      "en": "I get the idea of trying to see what's going to work, but all that really random non-hub flying, that's all gone. So JetBlue pulled out of Miami entirely, pared back Newark dramatically—that's probably the closest you can get to a success story, Newark, which they're still there. And LA, that was killed off except as a spoke connecting to its focus cities.",
+      "zh": "我能理解他们想试错的心态，但那些完全随机的非枢纽航线，如今全被砍掉了。捷蓝完全退出了迈阿密，大幅缩减了纽瓦克的业务——纽瓦克大概算是唯一勉强称得上成功的例子，他们现在还在飞。至于洛杉矶，除了作为连接其焦点城市的辐射航点外，其余航线全被砍光了。"
+    },
+    {
+      "id": 26,
+      "start_sec": 282,
+      "speaker": "Brett Snyder",
+      "en": "But this is also—this isn't just a network issue. We've talked about the network, but it was more than that.",
+      "zh": "但这不仅仅是一个航线网络规划的问题。我们刚才聊了航线网络，但问题远不止于此。"
+    },
+    {
+      "id": 27,
+      "start_sec": 287,
+      "speaker": "Jon Ostrower",
+      "en": "Totally. And I think we also know JetBlue's two big initiatives. We've talked about them a bit on the program: the Northeast Alliance with American and, of course, the attempted Spirit acquisition. We know how that went.",
+      "zh": "完全同意。而且大家都很清楚捷蓝当时的两大核心战略举措，我们之前在节目里也聊过：一是与美国航空组建东北联盟，二当然就是试图收购精神航空（Spirit）。结果大家也都看到了。"
+    },
+    {
+      "id": 28,
+      "start_sec": 299,
+      "speaker": "Brett Snyder",
+      "en": "Yeah, and I would put those in two separate categories. So, I loved the Northeast Alliance as an idea. The plan there made sense, right? You've got JetBlue and American getting together, form a joint venture, that would allow them to pool their resources in New York and there they can fight Delta and United better. And then in Boston, they could fight Delta.",
+      "zh": "是的，我会把这两件事归为完全不同的两类。就构想而言，我当时非常认可东北联盟。那个方案逻辑上是通的，对吧？捷蓝和美航联手组建航线联营（JV），整合在纽约的资源，从而更好地抗衡达美和美联航；同时在波士顿，他们也能合力阻击达美。"
+    },
+    {
+      "id": 29,
+      "start_sec": 319,
+      "speaker": "Brett Snyder",
+      "en": "So that, on the surface, was great. But on the other hand, it also required JetBlue to take its eye off the ball in some of the other places so that it could build up, for example, LaGuardia, where it had to take over all those American slots, right? So it pulled back in some of its other focus cities.",
+      "zh": "所以表面上看这很不错。但另一方面，这也要求捷蓝分散其他区域的注意力，以便集中资源扩张，比如在拉瓜迪亚机场接管美航的所有起降时刻，对吧？因此，它不得不缩减了在其他几个焦点城市的运力。"
+    },
+    {
+      "id": 30,
+      "start_sec": 340,
+      "speaker": "Brett Snyder",
+      "en": "And there was a rationale. This in theory was going to work, but I still think American stood more to gain from this than JetBlue did. And in the end, it got shot down.",
+      "zh": "这背后确实有其合理逻辑，理论上也行得通，但我依然认为美航从中的获益远大于捷蓝。而最终，这个联盟被监管机构叫停了。"
+    },
+    {
+      "id": 31,
+      "start_sec": 349,
+      "speaker": "Jon Ostrower",
+      "en": "Of course, JetBlue and American woefully underestimated how much the government would hate this idea. At least the DOJ hated it, since DOT was ultimately fine with it.",
+      "zh": "当然，捷蓝和美航极其严重地低估了政府对这个方案的反对程度。至少司法部（DOJ）是极力反对的，虽然交通部（DOT）最终倒没怎么为难。"
+    },
+    {
+      "id": 32,
+      "start_sec": 360,
+      "speaker": "Jon Ostrower",
+      "en": "time was such that it really wanted to stop this from happening. There was a massively different approach to airline competition in the previous administration. They did not want this happening at all, at all costs, and they would not settle. Uh and then once it went to court, the airlines were were still feeling good, but the judge ultimately shot it down.",
+      "zh": "反垄断监管机构的态度非常坚决，铁了心要阻止这一交易。上届政府对航司竞争采取了截然不同的强硬手段。他们无论如何都绝不容许这种事发生，且拒绝任何和解。案件一旦进入法庭，航司起初还感觉胜券在握，但法官最终彻底叫停了交易。"
+    },
+    {
+      "id": 33,
+      "start_sec": 377,
+      "speaker": "Brian Sumers",
+      "en": "Yeah, it ended very poorly, but the idea was good. The Spirit acquisition, on the other hand, that was not in any way a good idea. So that was just a huge distraction.",
+      "zh": "是的，结局非常惨淡，但那个构想本身是好的。而相比之下，收购精神航空（Spirit）这招，可就完全不是什么好主意了。那纯粹是一场巨大的战略分心。"
+    },
+    {
+      "id": 34,
+      "start_sec": 389,
+      "speaker": "Brian Sumers",
+      "en": "JetBlue put all of its eggs in that busted basket of Spirit. Uh it was willing to dramatically overpay for the airline to to keep it away from Frontier, which already had a merger agreement with Spirit. And then it even agreed to pay a ticking fee. So money was flowing out the door even before the deal was done.",
+      "zh": "捷蓝航空把所有筹码都押在精神航空这个烂摊子上。为了从已经与其达成合并协议的边疆航空（Frontier）手中截胡，捷蓝愿意支付巨额溢价。甚至还同意支付定时补偿金（Ticking fee），以至于交易还没完成，真金白银就已经哗哗往外流了。"
+    },
+    {
+      "id": 35,
+      "start_sec": 407,
+      "speaker": "Jon Ostrower",
+      "en": "And of course, the Feds stepped in again on this one. And they too won in court, blocking the acquisition from happening. And, well, the rest is history.",
+      "zh": "当然，联邦政府在此案上再次强势介入。他们同样在法庭上胜诉，成功阻止了这起收购案。剩下的，正如大家所见，都已成历史了。"
+    },
+    {
+      "id": 36,
+      "start_sec": 415,
+      "speaker": "Brian Sumers",
+      "en": "Yeah. You know, whatever happened to Spirit? I feel like we haven't heard from them in a while.",
+      "zh": "是啊。话说精神航空最近怎么样了？感觉好一阵子没听到他们的消息了。"
+    },
+    {
+      "id": 37,
+      "start_sec": 418,
+      "speaker": "Jon Ostrower",
+      "en": "Pour one out, man. Pour one out.",
+      "zh": "敬他们一杯吧，兄弟，为他们默哀。"
+    },
+    {
+      "id": 38,
+      "start_sec": 421,
+      "speaker": "Brian Sumers",
+      "en": "Seriously. But as bad as it may have been for Spirit, losing this was good for JetBlue, because can you imagine if that had gone through?",
+      "zh": "说真的。但对精神航空来说再怎么糟糕，收购失败对捷蓝航空反倒是一桩幸事，你能想象要是这笔交易真成了会怎样吗？"
+    },
+    {
+      "id": 39,
+      "start_sec": 430,
+      "speaker": "Brian Sumers",
+      "en": "JetBlue would have been saddled with more debt. It would have been in very dire straits at this point, especially with fuel where it is. It would have been in worse shape than it is now.",
+      "zh": "捷蓝背负的债务会更加沉重。眼下肯定会陷入极度艰难的困境，特别是考虑到如今的高油价。处境绝对比现在还要糟糕得多。"
+    },
+    {
+      "id": 40,
+      "start_sec": 441,
+      "speaker": "Jon Ostrower",
+      "en": "Can I just ask you, was there any scenario where it actually could have worked?",
+      "zh": "那我能问你一句吗：在当时，到底存不存在任何哪怕一丝能成功的可能？"
+    },
+    {
+      "id": 41,
+      "start_sec": 445,
+      "speaker": "Brian Sumers",
+      "en": "Not in my mind. I don't see that this is something they needed. It was all about this growth into different, you know, \"We're going to now be bigger in Dallas, and we're going to be bigger in Detroit, and wherever it may be.\" But I don't think they were really going to be able to make a go of it anyway.",
+      "zh": "依我看完全没有。我认为这根本不是他们所需要的东西。整件事无非是盲目追求扩张，满脑子想着“我们现在要在达拉斯做大，在底特律做大，或者在任何地方做大”。但我认为他们无论如何都不可能把它盘活。"
+    },
+    {
+      "id": 42,
+      "start_sec": 462,
+      "speaker": "Brian Sumers",
+      "en": "Why, you think you you see something you think makes sense?",
+      "zh": "怎么，你觉得你看到有什么合理之处吗？"
+    },
+    {
+      "id": 43,
+      "start_sec": 465,
+      "speaker": "Jon Ostrower",
+      "en": "I don't know. I I just am fascinated by the counterfactual, because obviously we'll never know exactly what would have unfolded had it been approved. But I mean, there would have been all kinds of integration issues. I mean, you're you're talking about two very different markets.",
+      "zh": "我也不好说。我只是对反事实假设很着迷，因为如果当年获批，究竟会怎样我们永远不得而知了。但话说回来，各种整合难题肯定是少不了的。毕竟面对的是两类截然不同的客群市场。"
+    },
+    {
+      "id": 44,
+      "start_sec": 477,
+      "speaker": "Jon Ostrower",
+      "en": "Yes, common Airbus fleet, but not really common given the interior configuration. I mean, it would have it would have been a a huge challenge. And frankly, integration costs and complexity at a time when we then hit 4.50 jet fuel, I think, you know, not not pretty.",
+      "zh": "没错，机队都是空客机型，但看看客舱内部布局其实根本不通用。那原本会是一场巨大的挑战。坦白讲，在航油价格飙到每加仑4.5美元之际去承担整合成本和复杂性，下场可想而知会有多惨。"
+    },
+    {
+      "id": 45,
+      "start_sec": 491,
+      "speaker": "Brian Sumers",
+      "en": "Right. And we can play the \"what if\" games, too, you know, what if a different person was president and didn't start a war in Iran and the fuel didn't go up, and what if Ukraine had stopped bombing infrastructure in Russia that was also hurting fuel supply? I mean, there are a lot of different things that you can point to, but the thing is, when you're running an airline, right, you you need to be pretty focused, and you need to be able to react.",
+      "zh": "对。我们也可以玩这种假设游戏：要是换个人当总统、没在伊朗挑起战端、油价没涨呢？要是乌克兰没轰炸俄罗斯那些影响燃油供应的基础设施呢？你能列举出各种各样的外部变量。但关键在于，经营一家航空公司，你必须高度聚焦核心业务，并且具备敏捷应对的能力。"
+    },
+    {
+      "id": 46,
+      "start_sec": 514,
+      "speaker": "Brian Sumers",
+      "en": "And what I think JetBlue was doing at this time is that it was just really unfocused. And it was doing a lot of different things that weren't really going to save the core of the business. It was just like, \"Let's try this. Let's do this. Let's do this.\"",
+      "zh": "而在我看来，当时的捷蓝航空恰恰彻底丧失了焦点。他们做了大堆根本无法挽救核心业务的尝试。整天都在病急乱投医：“咱们试试这个，搞搞这个，再做做那个。”"
+    },
+    {
+      "id": 47,
+      "start_sec": 530,
+      "speaker": "Brian Sumers",
+      "en": "And yes, the NEA helped the core, but it also did take resources away from elsewhere, too. And so I think that just makes it really challenging to actually figure out how",
+      "zh": "不可否认东北联盟（NEA）对核心网络有所助益，但也确实分流了其他航线的资源。所以这让捷蓝陷入了极其被动的境地，根本理不清……"
+    },
+    {
+      "id": 48,
+      "start_sec": 540,
+      "speaker": "Brett Snyder",
+      "en": "how do you make this a a fully functioning airline? Because it's always just a matter of when is the next crisis, right? It It's not it's not a matter of if, it's always when. And, you know, instead, in 2023, you've got JetBlue rolling out a new livery, because that's what CEOs do when they have no better idea. And there were just so many missed opportunities and questionable moves.",
+      "zh": "如何才能把它变成一家运转正常的航空公司？因为问题从来不是下一次危机会不会来，而是何时到来，对吧？不是“如果”，而是“何时”。但你看，到了2023年，JetBlue却在推出新涂装，因为那是CEO们束手无策时才会做的事。他们错失了太多良机，做出了太多令人费解的决策。"
+    },
+    {
+      "id": 49,
+      "start_sec": 562,
+      "speaker": "Brett Snyder",
+      "en": "I mean, the time under CEO Robin Hayes did not go well.",
+      "zh": "我的意思是，在CEO Robin Hayes掌舵期间，局面真的很糟糕。"
+    },
+    {
+      "id": 50,
+      "start_sec": 568,
+      "speaker": "Jon Ostrower",
+      "en": "Look, I think we can all agree that Robin Hayes's tenure at JetBlue left the company with far, far fewer options.",
+      "zh": "大家应该都有共识，Robin Hayes在JetBlue任内留给这家公司的选择余地，已经远远缩水了。"
+    },
+    {
+      "id": 51,
+      "start_sec": 573,
+      "speaker": "Brett Snyder",
+      "en": "Yeah, that's a charitable way to put it. But, yeah, I mean, look. In the end, Robin was pushed out at JetBlue in February of 2024, even though technically he retired or left for medical reasons.",
+      "zh": "是啊，这么说还算客气的。不过事实确实如此。最终在2024年2月，Robin被排挤出了JetBlue，尽管官方说法是他因健康原因退休或离职。"
+    },
+    {
+      "id": 52,
+      "start_sec": 586,
+      "speaker": "Brett Snyder",
+      "en": "But it was it was clear that when the Spirit merger was dead, there needed to be something that was going to change, cuz he was he was just so focused on that Spirit merger that he would do anything to make it happen. They flew to Tallahassee to convince Florida how great this would be. Tallahassee, Jon!",
+      "zh": "但很明显，一旦与Spirit的合并告吹，局面就必须有所改变，因为他当时把全副心思都扑在收购Spirit上，为了促成交易不惜一切手段。他们甚至专门飞去塔拉哈西，试图说服佛罗里达州政府这次合并会有多好。塔拉哈西啊，Jon！"
+    },
+    {
+      "id": 53,
+      "start_sec": 604,
+      "speaker": "Jon Ostrower",
+      "en": "Yeah. Well, look, when he left, JetBlue was in much, much worse financial shape than when he started, right?",
+      "zh": "是啊。不过你看，在他离职时，JetBlue的财务状况比他刚接手时要恶化得多，不是吗？"
+    },
+    {
+      "id": 54,
+      "start_sec": 609,
+      "speaker": "Brett Snyder",
+      "en": "Yeah, but we don't even need to go back that far. Just go back to 2019, where we were talking before, like when they had that enviable 10% operating margin, right? At the at the end of that year, JetBlue had just under $1 billion in cash, with long-term debt just under $2 billion.",
+      "zh": "没错，但我们甚至都不用回溯那么久。就看我们之前聊过的2019年，当时他们还有令人艳羡的10%营业利润率，对吧？截至那一年年底，JetBlue账上现金略低于10亿美元，长期债务也略低于20亿美元。"
+    },
+    {
+      "id": 55,
+      "start_sec": 625,
+      "speaker": "Brett Snyder",
+      "en": "By the end of 2023, this is an airline that hadn't had a profitable year since then, was holding cash under $1.2 billion at a time when you needed more cash. I think, post-pandemic, cash needs to be higher.",
+      "zh": "而到了2023年底，这家航司自那之后就再未实现过年度盈利，持有现金不到12亿美元，而当时本应需要更多现金储备。我认为在疫情后，现金流必须更加充裕才行。"
+    },
+    {
+      "id": 56,
+      "start_sec": 638,
+      "speaker": "Brett Snyder",
+      "en": "And it also had its long-term debt doubled to more than $4.4 billion. So it definitely was in in worse shape.",
+      "zh": "而且它的长期债务还翻了一番，超过44亿美元。所以它的财务状况绝对是大幅恶化了。"
+    },
+    {
+      "id": 57,
+      "start_sec": 645,
+      "speaker": "Jon Ostrower",
+      "en": "They put so much faith in that Spirit merger that once it all fell apart, there kind of wasn't a whole lot left. No real strategy, mounting debt, dwindling cash. God, it's really bad place to be.",
+      "zh": "他们把太多赌注压在与Spirit的合并上，一旦彻底泡汤，几乎就没剩下什么底牌了。缺乏实质战略、债务堆积如山、现金不断缩水。天呐，处境真是太糟糕了。"
+    },
+    {
+      "id": 58,
+      "start_sec": 657,
+      "speaker": "Brett Snyder",
+      "en": "It was, which is why they needed a change. And so that's when the board turned over the reins to Joanna Geraghty, Robin's number two. And I was skeptical, because I'm thinking, why are you turning this over to Robin's number two? What they need is a really big change.",
+      "zh": "确实如此，这也是为什么他们必须做出改变。于是董事会把大权交给了Joanna Geraghty，也就是Robin当年的二把手。我一开始深表怀疑，因为我在想，为什么要让Robin的二把手接盘？他们现在需要的是伤筋动骨的彻底改革。"
+    },
+    {
+      "id": 59,
+      "start_sec": 671,
+      "speaker": "Brett Snyder",
+      "en": "But Joanna, she changed my mind pretty quickly, because she made big changes. And at least in the commercial area, which is obviously where I know best.",
+      "zh": "但Joanna很快就让我改观了，因为她确实推行了大刀阔斧的改革。至少在商业领域是如此，而这显然是我最熟悉的范畴。"
+    },
+    {
+      "id": 60,
+      "start_sec": 680,
+      "speaker": "Brett Snyder",
+      "en": "So she brought back Marty St. George to be president, and then he brought in Daniel Shurz from Frontier to head up revenue, sales, network, and partners. And then all of a sudden, things started happening.",
+      "zh": "她请回了Marty St. George担任总裁，随后Marty又从Frontier挖来Daniel Shurz，统管收益管理、销售、航线网络及合作伙伴业务。紧接着，各项举措便全面铺开了。"
+    },
+    {
+      "id": 61,
+      "start_sec": 690,
+      "speaker": "Jon Ostrower",
+      "en": "What do you mean?",
+      "zh": "怎么说？"
+    },
+    {
+      "id": 62,
+      "start_sec": 691,
+      "speaker": "Brett Snyder",
+      "en": "Well, I mean, they they put out this JetForward plan, right? And there was this strategy, a real strategy that was in place, that they were trying to get everyone to work toward. And as always, it had four pillars.",
+      "zh": "我的意思是，他们推出了这项“JetForward”计划，对吧？出台了一套真正的战略部署，并努力动员全员朝这个方向推进。不出所料，该计划同样设立了“四大支柱”。"
+    },
+    {
+      "id": 63,
+      "start_sec": 702,
+      "speaker": "Jon Ostrower",
+      "en": "Got to have four pillars. Not a real plan if you don't have four pillars.",
+      "zh": "必须得有四大支柱。没有四大支柱哪算得上是一套正经的规划。"
+    },
+    {
+      "id": 64,
+      "start_sec": 705,
+      "speaker": "Brett Snyder",
+      "en": "Mhm. Also you have to call them pillars.",
+      "zh": "没错，而且还必须得叫“支柱”。"
+    },
+    {
+      "id": 65,
+      "start_sec": 707,
+      "speaker": "Jon Ostrower",
+      "en": "Oh, yes. Exactly.",
+      "zh": "哈哈，确实是这样。"
+    },
+    {
+      "id": 66,
+      "start_sec": 709,
+      "speaker": "Brett Snyder",
+      "en": "The pillars were: focus on having the best East Coast leisure network, providing products and perks customers value, offering reliable and caring service, and creating a secure",
+      "zh": "这四大支柱分别是：打造最佳美东休闲航线网络、提供契合旅客需求的产品与权益、提供可靠且贴心的服务，以及构建一个稳健的"
+    },
+    {
+      "id": 67,
+      "start_sec": 720,
+      "speaker": "Jon Ostrower",
+      "en": "...their financial future. Is creating a secure financial future just sort of a downstream from the other three?",
+      "zh": "……他们的财务前景。“确立稳健的财务前景”，在很大程度上只是前三项举措的顺理成章之果吗？"
+    },
+    {
+      "id": 68,
+      "start_sec": 726,
+      "speaker": "Brett Snyder",
+      "en": "Well, that's a good question, right? Because I would assume that there is a need for some sort of financial engineering—and I don't mean that in the bad, evil financial engineering way—but their...",
+      "zh": "嗯，问得好。因为我觉得他们确实需要进行某种财务运作——我指的并不是那种声名狼藉的投机资本运作——而是……"
+    },
+    {
+      "id": 69,
+      "start_sec": 739,
+      "speaker": "Jon Ostrower",
+      "en": "Balance sheet cleanup and all that, yeah.",
+      "zh": "清理资产负债表之类的，对吧。"
+    },
+    {
+      "id": 70,
+      "start_sec": 741,
+      "speaker": "Brett Snyder",
+      "en": "Yeah, I mean, you can do some work from that perspective. But, yeah, you need to start making money so you have cash to do things. So you fix commercial, in theory, that helps with everything else, but they still haven't quite gotten to that secure financial future part yet.",
+      "zh": "对，从这个角度确实有些文章可做。但归根结底，你得先赚钱，手里有现金才能施展拳脚。所以理顺了商业策略，理论上能带动其他各个环节，但他们目前还没完全走到财务稳健的那一步。"
+    },
+    {
+      "id": 71,
+      "start_sec": 758,
+      "speaker": "Brett Snyder",
+      "en": "But they did make inroads, right? I mean, they started focusing on the most important cities in the network, were building Boston back up, and taking any possible opportunity to find space in Fort Lauderdale. When the book is written, Harder-est Landing, you know, we'll see.",
+      "zh": "但他们确实取得了进展，对吧？他们开始聚焦航线网络中最核心的城市，重新做强波士顿枢纽，并抓住一切可能的机会在劳德代尔堡争取空间。等哪天有人写本书，就叫《更硬的着陆》之类，我们就能看清全貌了。"
+    },
+    {
+      "id": 72,
+      "start_sec": 776,
+      "speaker": "Brett Snyder",
+      "en": "The way that they kind of snuck in there and slowly, as Spirit just kept tanking, and then JetBlue just kind of snuck right in, it was pretty impressive to watch. And, you know, they just kept backfilling Spirit where there was opportunity, looking for all of that. They started to make moves fairly quickly.",
+      "zh": "看着他们悄然切入，趁着精神航空一路下滑，捷蓝航空顺势见缝插针，这一招确实相当亮眼。只要出现空缺，他们就持续填补精神航空撤出的运力，行动可以说是相当迅速。"
+    },
+    {
+      "id": 73,
+      "start_sec": 793,
+      "speaker": "Jon Ostrower",
+      "en": "Brian's not here to talk about it, of course, but they did a lot of work changing the product being sold. I mean, sure, we know about the upcoming Blue First first-class offering, but they even turned Even More Space into Even More with more benefits, and instead of being just an extra-paid seating assignment, it became its own separate product for purchase. JetBlue also created the new BlueHouse lounges to cater to premium customers.",
+      "zh": "Brian今天不在，但他们确实在客舱产品端下了很大功夫。大家都知道即将推出的Blue First头等舱，但他们甚至将Even More Space升级为权益更丰富的Even More；它不再只是加钱选座，而是变成了独立的细分舱位产品。此外，捷蓝还推出了全新的BlueHouse贵宾休息室，专门服务高端客群。"
+    },
+    {
+      "id": 74,
+      "start_sec": 814,
+      "speaker": "Brett Snyder",
+      "en": "Yeah, and then they also rethought how they sold the fares. They had a basic fare, but now they have basic for all fare categories, including Mint and Blue First and whatever else.",
+      "zh": "对，他们还彻底重构了运价结构体系。以前只有最底层的基础经济舱，现在他们在所有舱位等级都引入了基础款，包括Mint公务舱和Blue First等。"
+    },
+    {
+      "id": 75,
+      "start_sec": 824,
+      "speaker": "Brett Snyder",
+      "en": "And then they also have a Flex fare above that, so the standard's in the middle. All of this really just comes together to create the ability to upsell. They just didn't have the ability to do it before, whether people wanted it or not.",
+      "zh": "而在标准票价之上还设有Flex灵活退改票价，标准舱位则居中。这一切举措的核心，就是为了打造升舱增购能力。以前不管旅客有没有需求，他们根本没有这套向上销售的产品架构。"
+    },
+    {
+      "id": 76,
+      "start_sec": 837,
+      "speaker": "Jon Ostrower",
+      "en": "Yeah, and don't forget Blue Sky, their partnership with United. That's a big deal. It's not NEA Redux, but JetBlue now has a much better presence, even better presence in New York. And New York continues to be the most challenging place in the network, ironically where they started.",
+      "zh": "没错，别忘了还有“蓝天计划”——他们与美联航的合作，这意义重大。虽然不是当年的东北联盟重启，但捷蓝在纽约的航线网络布局更上一层楼。讽刺的是，纽约既是他们的发家之地，却也始终是整个网络中最难运营的区域。"
+    },
+    {
+      "id": 77,
+      "start_sec": 850,
+      "speaker": "Brett Snyder",
+      "en": "Yeah, it is not the NEA part two because that was illegal, apparently.",
+      "zh": "是啊，这可不能算是东北联盟2.0，因为显而易见，上一版被法院判违规了。"
+    },
+    {
+      "id": 78,
+      "start_sec": 856,
+      "speaker": "Jon Ostrower",
+      "en": "That's it. The lawyers tell me I need to say that's it, yeah.",
+      "zh": "没错。律师专门叮嘱我必须这么表述，哈哈。"
+    },
+    {
+      "id": 79,
+      "start_sec": 860,
+      "speaker": "Brett Snyder",
+      "en": "But it's as far as they can get, so at least they can do it. And, really, connecting with MileagePlus makes it just more valuable to be a TrueBlue member, and so that feeds into the whole credit card deal, right? Because they had credit cards before, but they didn't have the right lineup with the right benefits; they didn't really have the right product to match up with that.",
+      "zh": "但这是他们目前在反垄断框架下能达到的极限了。而且，打通美联航的前程万里计划显著提升了成为TrueBlue会员的价值，进而反哺了联名信用卡业务，对吧？他们以前也有信用卡，但产品梯队和权益设计不合理，缺少与之匹配的客舱产品。"
+    },
+    {
+      "id": 80,
+      "start_sec": 880,
+      "speaker": "Brett Snyder",
+      "en": "So now that they've kind of reworked the whole fare system and done this, now they have credit cards that are more compelling. And with United as a partner, then that makes the redemption options better, so you get more people into the ecosystem. Did you hear on the earnings call, they said that since this started in February, more than 1.1 billion points have been burned on United...",
+      "zh": "如今他们理顺了整个票价体系，联名信用卡的吸引力也大幅提升。加上美联航这个合作伙伴，积分兑换选项变得更加丰富，从而吸引更多人加入整个生态圈。你听财报电话会了吗？他们提到自2月份上线以来，已有超过11亿积分被兑换到美联航的航班上……"
+    },
+    {
+      "id": 81,
+      "start_sec": 900,
+      "speaker": "Brett Snyder",
+      "en": "flights. So people are finding that attractive, and more people get into the program, more people get the credit card. We all know this is this is how this goes.",
+      "zh": "航班。所以大家都觉得这很有吸引力，更多人加入了常旅客计划，更多人办了联名信用卡。我们都知道，事情就是这么运作的。"
+    },
+    {
+      "id": 82,
+      "start_sec": 908,
+      "speaker": "Jon Ostrower",
+      "en": "I will just say that Scott Kirby actually had a really interesting interview on the Cheeky Pint podcast with John Collison and Ben Thompson recently, and he made a really interesting point about how much airlines are making from credit card redemptions. He says, \"Well, no one ever considers the cost of carrying all those people for free every day in terms of balancing out free in quotes.\" Free, free. It doesn't balance out. No, or or there is a cost involved, sure.",
+      "zh": "我想顺便提一句，Scott Kirby 最近在 John Collison 和 Ben Thompson 的 Cheeky Pint 播客上接受了一次非常有趣的采访。他提出了一个耐人寻味的观点，关于航司从信用卡积分兑换中到底赚了多少钱。他说：“没人算过每天‘免费’承运这帮人的成本，得把这部分冲抵掉才行，‘免费’得打个引号。”免费，打双引号。这根本冲抵不了。是啊，但确实有一笔成本摆在那儿，没错。"
+    },
+    {
+      "id": 83,
+      "start_sec": 934,
+      "speaker": "Jon Ostrower",
+      "en": "I'd actually be really interested to understand the economics of that side of it better. You know, Delta is not, \"Man, we're, you know, spending 8 and 1/2 billion to carry all those passengers before we make 9 billion from Amex.\" You know, it's not it's like there's a very healthy margin on this stuff. I think it's a fascinating question as we kind of step through this.",
+      "zh": "其实我真的很想深入了解一下这背后的商业逻辑。达美可不会抱怨说：“哎呀，为了承运这些积分兑换旅客，我们得花掉85亿美元，而从运通那儿才赚了90亿美元。”显然不是这样，这门生意的利润率非常可观。随着我们逐层剖析，这确实是个非常引人入胜的话题。"
+    },
+    {
+      "id": 84,
+      "start_sec": 952,
+      "speaker": "Brett Snyder",
+      "en": "Yeah, it is not pure profit, but it is absolutely a very large amount of profit.",
+      "zh": "是的，虽然谈不上是纯利润，但绝对是一笔极其丰厚的利润。"
+    },
+    {
+      "id": 85,
+      "start_sec": 959,
+      "speaker": "Jon Ostrower",
+      "en": "Yeah, no, absolutely. But I'm curious what the what the cost side of it actually is when he says something like that. But I think that what it what it really comes back to is for JetBlue, like this is a lot of change for a pretty small amount of time.",
+      "zh": "完全同意。不过既然他那么说了，我倒真好奇成本端到底占多少。但归根结底，对于捷蓝航空来说，在这么短的时间内发生如此密集的变动，确实幅度太大了。"
+    },
+    {
+      "id": 86,
+      "start_sec": 972,
+      "speaker": "Jon Ostrower",
+      "en": "I do wonder how much of it has been on a roadmap for them for a long time, and sort of, \"Okay, let's pull that off the shelf. Let's pull that off the shelf and get it moving,\" and, you know, what are ideas that have been sitting around since the, you know, Dave Barger days?",
+      "zh": "我很怀疑其中有多少东西早已列在他们的长期规划路线图上，只是现在才说：“好，把那个方案拿出来，把这个也落地推行。”又有多少点子其实是从 Dave Barger 时代就一直搁置到现在的？"
+    },
+    {
+      "id": 87,
+      "start_sec": 983,
+      "speaker": "Brett Snyder",
+      "en": "I don't know if it was that far back, but no question a lot of these things have been kicked around before. I think there was not a sense of urgency, which again goes back to what's happening at the top, right?",
+      "zh": "我不确定能不能追溯到那么久之前，但毫无疑问，很多举措以前肯定都被反复讨论过。我认为当时他们缺乏紧迫感，而这归根结底又回到了管理层的问题上，对吧？"
+    },
+    {
+      "id": 88,
+      "start_sec": 996,
+      "speaker": "Brett Snyder",
+      "en": "But you get the new team in and all of a sudden, it's they're biased to action, so all these things keep changing. And in the end, it's going well on the revenue side.",
+      "zh": "但换了新管理团队之后，他们雷厉风行、雷厉果断，所以各项变革接踵而至。最终，在营收端也确实见到了成效。"
+    },
+    {
+      "id": 89,
+      "start_sec": 1006,
+      "speaker": "Brett Snyder",
+      "en": "So I know that some people are going to say, \"Well, Spirit failed, so of course it's going well for them. And also, by the way, the rest of the industry is absolutely crushing it. Look at all these revenue numbers.\" And that is true, but look at JetBlue in Q3 of this year.",
+      "zh": "我知道有人会反驳说：“精神航空崩盘了，捷蓝的业绩能不好吗？而且整个行业目前都很火爆，看看各家的营收数据就知道了。”这话确实没错，但是你看看捷蓝今年第三季度的表现。"
+    },
+    {
+      "id": 90,
+      "start_sec": 1020,
+      "speaker": "Brett Snyder",
+      "en": "If you compare it year-over-year, JetBlue showed PRASM growth, so passenger, you know, revenues, of nearly 18% versus last year after taking into account the stage length change. And load factor dropped 1.5 points on that too. So yields were up 20% stage length-adjusted. That's huge.",
+      "zh": "如果做同比分析，在考虑平均航距变化调整后，捷蓝的客运单位收入（PRASM）较去年同期增长了近18%。即便在客座率微跌1.5个百分点的情况下，经航距调整后的客公里收益依然上涨了20%。这涨幅简直惊人。"
+    },
+    {
+      "id": 91,
+      "start_sec": 1044,
+      "speaker": "Jon Ostrower",
+      "en": "So to put that this in context, that only trailed Southwest and Frontier. I mean Southwest was up more than 22%, but it completely remade its entire system and added bag fees and seat assignments for which it was generously compensated.",
+      "zh": "横向对比来看，这一增速仅次于西南航空和边疆航空。西南航空涨幅超过22%，但他们是彻底重构了整个运营体系，引入了行李费和选座费，并从中大赚了一笔。"
+    },
+    {
+      "id": 92,
+      "start_sec": 1056,
+      "speaker": "Jon Ostrower",
+      "en": "Frontier, well, it was up 28%, also with the help from Spirit's demise. Meanwhile, JetBlue poured capacity into Fort Lauderdale, and fares had to rise, but to be where it is for 3Q, it has really done a great job managing that side of the business.",
+      "zh": "边疆航空上涨了28%，同样吃到了精神航空没落的红利。与此同时，捷蓝航空向劳德代尔堡大举倾斜运力，票价也顺势上调。但能在第三季度取得这样的成绩，他们在收入管理方面的确交出了一份出色的答卷。"
+    },
+    {
+      "id": 93,
+      "start_sec": 1071,
+      "speaker": "Brett Snyder",
+      "en": "Yeah, I think credit where credit is due. And that brings us back to the original point here: why is everyone freaking out?",
+      "zh": "没错，该表扬的地方就得表扬。这就又绕回我们最初的核心问题了：大家到底在恐慌什么呢？"
+    },
+    {
+      "id": 94,
+      "start_sec": 1080,
+      "speaker": "Brett Snyder",
+      "en": "It's not revenue that's causing trouble, as we can see. So let's talk about what it is after the break.",
+      "zh": "正如我们所见，问题并不出在收入端。至于症结究竟在哪，我们广告之后继续探讨。"
+    },
+    {
+      "id": 95,
+      "start_sec": 1090,
+      "speaker": "Brett Snyder",
+      "en": "It's time for the Tulsa Trifecta! We talked about all the great land opportunities and incentives for the growing number of aviation and aerospace companies at TUL last time, but you know what we didn't talk about?",
+      "zh": "又到了“塔尔萨三部曲”时间！上期我们聊了塔尔萨国际机场为日渐壮大的航空航天企业提供的优质用地机遇和优惠政策，但你知道我们漏了什么吗？"
+    },
+    {
+      "id": 96,
+      "start_sec": 1102,
+      "speaker": "Brian Sumers",
+      "en": "The people who will work there?",
+      "zh": "在那里工作的人才？"
+    },
+    {
+      "id": 97,
+      "start_sec": 1104,
+      "speaker": "Brett Snyder",
+      "en": "The people who will work there! And this is a big part of the story, because until our robot overlords fully replace us, people will make the difference.",
+      "zh": "没错，正是未来的人才！这是至关重要的一环，因为在机器人彻底接管世界之前，人才是决定成败的关键。"
+    },
+    {
+      "id": 98,
+      "start_sec": 1112,
+      "speaker": "Brian Sumers",
+      "en": "There's a long history of building that people pipeline in Tulsa, with Spartan College of Aeronautics and Technology having been founded there almost 100 years ago.",
+      "zh": "塔尔萨在人才储备培养方面历史悠久，斯巴达航空技术学院早在近一个世纪前就诞生于此。"
+    },
+    {
+      "id": 99,
+      "start_sec": 1121,
+      "speaker": "Brett Snyder",
+      "en": "And if a new specialty is needed? No problem. When Boeing needed more specialized composite skills, Tulsa Tech developed a custom composites program to meet the need.",
+      "zh": "如果需要新的专业技能呢？完全不在话下。当年波音需要更多复合材料专业人才时，塔尔萨技术中心便量身定制了复合材料培训课程来满足需求。"
+    },
+    {
+      "id": 100,
+      "start_sec": 1129,
+      "speaker": "Brian Sumers",
+      "en": "It starts even earlier than that. Oklahoma ranks number one in the nation for offering aviation and aerospace programs to high school students.",
+      "zh": "这种培养甚至起步得更早。俄克拉荷马州向高中生普及航空航天课程的规模高居全美第一。"
+    },
+    {
+      "id": 101,
+      "start_sec": 1136,
+      "speaker": "Brett Snyder",
+      "en": "It also has a low cost of living, which makes it attractive for people to make the move. There are some pretty great perks outside of work, including Gathering Place, with free family activities, and the Southern Hills Country Club, which will host the PGA Championship for a record sixth time in 2030.",
+      "zh": "这里的低生活成本也吸引着各地人才落户。工作之余的配套同样出色，不仅有提供丰富免费亲子活动的 Gathering Place 公园，还有将在2030年破纪录第六次承办 PGA 锦标赛的南方山丘乡村俱乐部。"
+    },
+    {
+      "id": 102,
+      "start_sec": 1152,
+      "speaker": "Brian Sumers",
+      "en": "Don't forget the growing arts scene, with places like the Philbrook Museum of Art, the Bob Dylan Center, the Church Studio founded by Tulsa music icon Leon Russell, and as any important city, a giant statue of a shirtless oil driller.",
+      "zh": "也别忘了这里蓬勃发展的艺术生态，比如菲尔布鲁克艺术博物馆、鲍勃·迪伦中心、由塔尔萨本土音乐巨星 Leon Russell 创立的教堂录音室，以及任何重要城市都会有的——一座赤膊钻井工人的巨型雕像。"
+    },
+    {
+      "id": 103,
+      "start_sec": 1163,
+      "speaker": "Brett Snyder",
+      "en": "Tulsa has the companies, space, training, partnerships, and talent to support aviation and aerospace growth, all in an affordable place to live and do business. For more information, visit flytulsa.com/develop.",
+      "zh": "塔尔萨兼具企业底蕴、发展空间、技能培训、产业合作与人才储备，全方位支撑航空航天产业发展，同时生活和营商成本极具竞争力。了解更多详情，请访问 flytulsa.com/develop。"
+    },
+    {
+      "id": 104,
+      "start_sec": 1178,
+      "speaker": "Brett Snyder",
+      "en": "And we're back. So look, JetBlue's revenue performance has been impressive. This is an airline that is trying hard to improve its position, and it is seeing results there.",
+      "zh": "欢迎回来。你看，捷蓝航空在收入端的表现确实可圈可点。这家航司一直在全力改善自身处境，而且在营收层面也见到了成效。"
+    },
+    {
+      "id": 105,
+      "start_sec": 1188,
+      "speaker": "Brett Snyder",
+      "en": "But then there is the other side of the equation, and that's where we run into the real trouble here. So, the airline had been lacking a true leader that was pushing in the right direction for so long that it built up a lot of debt, and it lost a lot of its financial cushion.",
+      "zh": "但算盘还有另一面，这也正是真正的问题所在。捷蓝航空长期缺乏一个能把握正确方向的真正领袖，以至于债台高筑，财务安全垫也几乎消耗殆尽。"
+    },
+    {
+      "id": 106,
+      "start_sec": 1207,
+      "speaker": "Brett Snyder",
+      "en": "And really, once Robin left as CEO, to fix the airline, they needed to bring in more money. So in August of 2024, they raised a couple of billion dollars using bonds that were tied to the TrueBlue loyalty program as collateral.",
+      "zh": "实际上，在 Robin 卸任 CEO 后，为了挽救航司，他们必须筹集更多资金。于是在2024年8月，他们以 TrueBlue 常旅客计划为抵押发行债券，筹集了数十亿美元。"
+    },
+    {
+      "id": 107,
+      "start_sec": 1226,
+      "speaker": "Brett Snyder",
+      "en": "And there was an additional, I don't know, a few hundred million raised through a different facility at that time. But point is, by the end of '24, cash was back in a better place at around 2 billion, but long-term debt had ballooned to 8.15 billion.",
+      "zh": "当时还通过另一笔信贷工具额外筹集了大概几亿美元。但重点是，到2024年底，现金流虽然回升到了约20亿美元的相对健康水平，但长期负债已经急剧膨胀至81.5亿美元。"
+    },
+    {
+      "id": 108,
+      "start_sec": 1242,
+      "speaker": "Jon Ostrower",
+      "en": "That is, that's a lot of money for an airline this size.",
+      "zh": "对于这种体量的航空公司来说，这笔钱确实……可不是个小数目。"
+    },
+    {
+      "id": 109,
+      "start_sec": 1247,
+      "speaker": "Brett Snyder",
+      "en": "It is, and that's where I, I was trying to think of like the best ratio to show this. You can look at any of them, they're just not great, but for example, look at just the debt-to-equity ratio.",
+      "zh": "确实如此，我也一直在琢磨用哪个财务指标来体现最合适。其实看哪个指标都不容乐观，但比如单看资产负债率或产权比率就可见一斑。"
+    },
+    {
+      "id": 110,
+      "start_sec": 1260,
+      "speaker": "Brett Snyder",
+      "en": "There are a couple ways to choose your numerator on that, but the most generous one to JetBlue still has it at 700%. You start to worry over about 200%, so, you know, the debt is piling up, and at some point, this absolutely does become unsustainable.",
+      "zh": "关于分子怎么选有几种不同算法，但即使是对JetBlue最宽容的算法，这个比例也高达700%。超过200%就该让人担忧了，所以你看，债务正在不断堆积，到了某个阶段，这绝对会变得难以为继。"
+    },
+    {
+      "id": 111,
+      "start_sec": 1275,
+      "speaker": "Brian Sumers",
+      "en": "Yeah, I mean, this is a company with a market cap of just under 1.2 billion as of today. So, that's a lot. So, this is really a double-edged sword, though, isn't it?",
+      "zh": "是啊，这家公司截至今天的市值还不到12亿美元。所以这笔债务相当庞大。但这真是一把双刃剑，不是吗？"
+    },
+    {
+      "id": 112,
+      "start_sec": 1285,
+      "speaker": "Brett Snyder",
+      "en": "What do you mean?",
+      "zh": "你指什么？"
+    },
+    {
+      "id": 113,
+      "start_sec": 1286,
+      "speaker": "Brian Sumers",
+      "en": "Well, we saw this at American, too. When you have crushing amounts of debt, nobody wants to touch you, so you have to kind of solve your problems. I mean, it in many ways sort of a strategic deterrent for anyone else, like, you know, wait and see.",
+      "zh": "我们在American身上也见过这种情况。当你背负着压倒性的债务时，没人愿意碰你，所以你只能靠自己解决问题。我的意思是，在很多方面，这反倒成了对其他人的战略威慑，大家都会选择观望。"
+    },
+    {
+      "id": 114,
+      "start_sec": 1297,
+      "speaker": "Brett Snyder",
+      "en": "Oh, yeah, yeah. No, that is totally true. But just look, if you look at an airline where you'd think an activist investor would be interested, American, right? I mean, they've done nothing but underperform, but huge debt load, roughly double what Delta has.",
+      "zh": "哦，对，确实如此。但你看，如果要挑一家激进投资者可能会感兴趣的航司，首先想到的就是American对吧？他们表现一直不尽如人意，但背着巨额债务，大概是Delta的两倍。"
+    },
+    {
+      "id": 115,
+      "start_sec": 1313,
+      "speaker": "Brett Snyder",
+      "en": "And so, the opportunities just aren't there for these guys to get rich quick. Same thing for JetBlue, and that's not just an activist investor. That also goes to merger partners.",
+      "zh": "因此，这些投资人根本没有快速赚取暴利的机会。JetBlue也是同样的道理，不仅激进投资人如此，潜在的兼并重组对象也是这样想的。"
+    },
+    {
+      "id": 116,
+      "start_sec": 1322,
+      "speaker": "Brett Snyder",
+      "en": "You know, JetBlue has really attractive positions in Boston, New York, Fort Lauderdale. We've heard pundits talk all the time about who would want to buy JetBlue, but the answer continues to be most likely nobody as long as all that debt is sitting there.",
+      "zh": "你知道，JetBlue在波士顿、纽约、劳德代尔堡都有非常优质的市场布局。我们总能听到行业评论员讨论谁会想收购JetBlue，但只要那座债务大山还在，答案大概率依然是‘没人愿意’。"
+    },
+    {
+      "id": 117,
+      "start_sec": 1337,
+      "speaker": "Brian Sumers",
+      "en": "So JetBlue has time here.",
+      "zh": "所以JetBlue目前还有时间调整。"
+    },
+    {
+      "id": 118,
+      "start_sec": 1340,
+      "speaker": "Brett Snyder",
+      "en": "It has some time. It has a slowly closing window, I guess is how I would put it, because at some point, the debt does become unsustainable and it has to file for Chapter 11 bankruptcy protection.",
+      "zh": "它确实还有点时间。我想准确地说是它的机会窗口正在逐渐关闭，因为到了某个临界点，债务确实会变得不可持续，它就不得不申请破产法第11章破产保护。"
+    },
+    {
+      "id": 119,
+      "start_sec": 1353,
+      "speaker": "Brett Snyder",
+      "en": "And then in the bankruptcy spa, as we all know, debts and costs are cut, and unless you're Spirit the first time around, you come out in much better financial shape. But JetBlue's management doesn't want to do that.",
+      "zh": "然后就像大家所熟知的，在破产保护这个‘水疗馆’里，债务和成本都会被大幅削减，除非像第一次破产时的Spirit那样，否则重组后财务状况都会大为改善。但JetBlue的管理层并不想走这一步。"
+    },
+    {
+      "id": 120,
+      "start_sec": 1365,
+      "speaker": "Brian Sumers",
+      "en": "Yeah, sure, because if it does that, then it'll be it'll be a bidding war to buy out the airline, and then they're all out of a job.",
+      "zh": "那当然，因为一旦破产，就会引来各方竞价收购这家航司，然后管理层全得卷铺盖走人。"
+    },
+    {
+      "id": 121,
+      "start_sec": 1370,
+      "speaker": "Brett Snyder",
+      "en": "Well, yeah, that, and no company wants to go bankrupt because you lose complete control over your destiny. If you have a plan that you think will work, and they absolutely do at JetBlue think that this will work, then filing for bankruptcy hurts that plan.",
+      "zh": "对，不仅如此，没有哪家公司愿意破产，因为那意味着你彻底失去了对自己命运的主导权。如果你手上有一套坚信能奏效的方案——而JetBlue管理层绝对深信这一点——那么申请破产就会彻底毁掉这个方案。"
+    },
+    {
+      "id": 122,
+      "start_sec": 1384,
+      "speaker": "Brett Snyder",
+      "en": "And of course, investors and debtors don't like bankruptcy because then you're in trouble. You might lose out entirely if you're an equity holder, and for bondholders, it could still require a haircut.",
+      "zh": "当然，投资者和债权人也不希望航司破产，因为那样大家都会陷入困境。如果你是股权持有人，可能会血本无归；而对债券持有人来说，也免不了要承担债务本金削减。"
+    },
+    {
+      "id": 123,
+      "start_sec": 1396,
+      "speaker": "Brett Snyder",
+      "en": "So there's a ton of uncertainty that comes with that, and so if you think you can make this work without it, you keep trying to make that plan happen.",
+      "zh": "所以破产伴随着巨大的不确定性，如果能不破产就把问题解决，肯定会继续竭尽全力推进现有方案。"
+    },
+    {
+      "id": 124,
+      "start_sec": 1403,
+      "speaker": "Brian Sumers",
+      "en": "Okay, Brett, let's keep going with this. What is JetBlue doing about all this?",
+      "zh": "好的，Brett，我们继续顺着往下聊。那面对这一切，JetBlue目前都在采取什么措施？"
+    },
+    {
+      "id": 125,
+      "start_sec": 1407,
+      "speaker": "Brett Snyder",
+      "en": "Okay, well, it has tried to reduce some of the big expenses when it can, defer expenditures here. It pushed out deliveries of new aircraft. I don't remember when they did that, but the Airbuses are pushed pretty far out.",
+      "zh": "好的，他们一直在尽力削减一些重大开支，延缓资本支出。他们推迟了新飞机的交付机位。我不记得他们具体是什么时候操作的了，但空客飞机的交付已经被大幅延后了。"
+    },
+    {
+      "id": 126,
+      "start_sec": 1419,
+      "speaker": "Brett Snyder",
+      "en": "They only have a handful of—well, you know this, they only have a handful of A220s coming in, I think.",
+      "zh": "他们后续只会有少数——嗯，你也知道这个，我看他们应该只有少量的A220即将交付。"
+    },
+    {
+      "id": 127,
+      "start_sec": 1425,
+      "speaker": "Brian Sumers",
+      "en": "Yeah, the XLRs are, I think, almost out to 2030, if—",
+      "zh": "是的，A321XLR的交付，我想几乎被推到了2030年左右，如果——"
+    },
+    {
+      "id": 128,
+      "start_sec": 1429,
+      "speaker": "Brett Snyder",
+      "en": "If they ever take them, but we'll see.",
+      "zh": "如果他们最终真会接收的话，不过且走且看吧。"
+    },
+    {
+      "id": 129,
+      "start_sec": 1431,
+      "speaker": "Brett Snyder",
+      "en": "So they did they retired the Embraer 190s, right, that was helpful. They sold off JetBlue Ventures. They've started trying a little bit to pay down debt, but it's only—",
+      "zh": "另外他们退役了巴西航空工业E190机队，对吧，这很有帮助。他们还出售了JetBlue Ventures风险投资部门。他们也已经开始尝试偿还一小部分债务，但这仅仅是——"
+    },
+    {
+      "id": 130,
+      "start_sec": 1440,
+      "speaker": "Brett Snyder",
+      "en": "down from 8.15 billion to 7.91 billion at the end of Q3. And you know, they've had decent cost control, but there's only so much you can do when your debt is so high.",
+      "zh": "从三季度末的81.5亿美元降至79.1亿美元。你知道，他们的成本控制做得还不错，但当你的负债如此高昂时，你能做的事情就很有限了。"
+    },
+    {
+      "id": 131,
+      "start_sec": 1450,
+      "speaker": "Brett Snyder",
+      "en": "And you've got these just really hefty interest payments that you're making, takes up a lot of the budget. But still, if fuel hadn't done what it did, which I know that's the thing everyone says, but JetBlue would have been solidly profitable, I think, if it had been, you know, in a much lower place.",
+      "zh": "而且你要承担极其高昂的利息支出，占用了大笔预算。但即便如此，如果燃油价格没有暴涨——我知道大家都会拿油价说事——但如果油价处在更低的水平，我认为捷蓝航空原本是能实现稳稳盈利的。"
+    },
+    {
+      "id": 132,
+      "start_sec": 1468,
+      "speaker": "Brett Snyder",
+      "en": "But you can't talk about that because it is not there. And there is absolutely no relief in sight that anyone can see right now. No one has any sense of when we will see something more reasonable on fuel.",
+      "zh": "但你不能假设这些，因为事实并非如此。而且目前完全看不到任何缓解的迹象，没人知道油价何时才能回归到更合理的水平。"
+    },
+    {
+      "id": 133,
+      "start_sec": 1481,
+      "speaker": "Jon Ostrower",
+      "en": "So, is this what fundamentally spooked everyone?",
+      "zh": "所以，这就是根本上吓到大家的原因吗？"
+    },
+    {
+      "id": 134,
+      "start_sec": 1483,
+      "speaker": "Brett Snyder",
+      "en": "I think what happened was that the holders of those loyalty bonds that JetBlue issued in 2024 got very nervous about imminent bankruptcy before the airline published its earnings for Q3. Although I don't know exactly why.",
+      "zh": "我认为实际情况是，持有捷蓝航空在2024年发行的常旅客积分担保债券的投资者，在航司公布三季度财报前，对可能迫在眉睫的破产感到非常恐慌。尽管我并不确切知道原因。"
+    },
+    {
+      "id": 135,
+      "start_sec": 1497,
+      "speaker": "Brett Snyder",
+      "en": "I've heard rumors, but I don't know what caused it in the first place. But then again, the 'why' doesn't really matter because the end result was that everything just tanked.",
+      "zh": "我听到过一些传闻，但并不清楚最初是由什么引发的。不过话说回来，原因其实并不重要，因为最终的结果就是全面崩盘。"
+    },
+    {
+      "id": 136,
+      "start_sec": 1508,
+      "speaker": "Brett Snyder",
+      "en": "So, at the end of September, you could buy those bonds at about 80 cents on the dollar, and then it just plunged. So, it got down recently to 42 cents on the dollar, or in that neighborhood.",
+      "zh": "所以在9月底，你花大约80美分就能买到面值1美元的债券，接着它就断崖式暴跌。最近更是跌到了每美元面值42美分左右。"
+    },
+    {
+      "id": 137,
+      "start_sec": 1521,
+      "speaker": "Brett Snyder",
+      "en": "Bondholders were willing to sell at less than half the face value cuz they were afraid bankruptcy was coming and then they'd get even less than that. But this to me is nuts, because even in bankruptcy, JetBlue is not going out of business.",
+      "zh": "债券持有人甘愿以不到面值一半的价格抛售，因为他们担心一旦申请破产，能拿回的钱甚至会更少。但在我看来这太疯狂了，因为即便真的破产重组，捷蓝航空也不会倒闭。"
+    },
+    {
+      "id": 138,
+      "start_sec": 1535,
+      "speaker": "Brett Snyder",
+      "en": "The loyalty program which backs these bonds isn't going away. This isn't Spirit.",
+      "zh": "作为这些债券质押底层资产的常旅客计划是不会消失的。这可不是精神航空。"
+    },
+    {
+      "id": 139,
+      "start_sec": 1540,
+      "speaker": "Jon Ostrower",
+      "en": "So, did you buy all the bonds?",
+      "zh": "所以，你把那些债券全买下来了吗？"
+    },
+    {
+      "id": 140,
+      "start_sec": 1542,
+      "speaker": "Brett Snyder",
+      "en": "Yes, I did. I own them all now.",
+      "zh": "没错，我买了，现在全部归我了。"
+    },
+    {
+      "id": 141,
+      "start_sec": 1544,
+      "speaker": "Jon Ostrower",
+      "en": "There we go. Brett Snyder, bondholder.",
+      "zh": "太棒了。Brett Snyder，大债主。"
+    },
+    {
+      "id": 142,
+      "start_sec": 1548,
+      "speaker": "Brett Snyder",
+      "en": "Listen, there's still, you know, $2 billion in face value, so I think, you know, the billion required is still a bit much for my taste. But there is opportunity, I think. I mean, if investors are willing to take that chance, you know, that seems very cheap at this point in time, especially with the coupon rate of almost 10%.",
+      "zh": "听着，面值可还是有20亿美元的，所以要拿出10亿美元去买，对我来说还是有点太多了。但我认为确实存在机会。我的意思是，如果投资者愿意冒这个险，目前来看价格非常便宜，特别是票息率接近10%。"
+    },
+    {
+      "id": 143,
+      "start_sec": 1567,
+      "speaker": "Brett Snyder",
+      "en": "Like, it's there's a lot there if this works. But when the bondholders freaked out, then everyone freaked out, right? So, the equity holders, the shareholders, and they, by the way, are at a higher risk of being totally wiped out if there is bankruptcy, much higher than the bondholders.",
+      "zh": "如果这一注押对了，回报会非常可观。但是当债权人陷入恐慌时，其他人也都跟着慌了，对吧？接着是普通股股东——顺便说一句，如果真发生破产重组，股东被彻底清零的风险要比债权人高得多。"
+    },
+    {
+      "id": 144,
+      "start_sec": 1584,
+      "speaker": "Brett Snyder",
+      "en": "The share price dropped to $2.37 a share. So, it was the airline had a market cap at the summer of $2 billion and it was under a billion dollars. That is that is a quick downhill ride right there.",
+      "zh": "股价一路暴跌至每股2.37美元。这家航司在夏季时的市值还有20亿美元，结果直接跌破了10亿美元。这真是一路加速俯冲啊。"
+    },
+    {
+      "id": 145,
+      "start_sec": 1597,
+      "speaker": "Jon Ostrower",
+      "en": "I mean, you, me, and Brian could have picked it up at that point.",
+      "zh": "我是说，到那个地步，你、我和Brian联手都能把它买下来了。"
+    },
+    {
+      "id": 146,
+      "start_sec": 1602,
+      "speaker": "Brett Snyder",
+      "en": "As long as I don't have to put in that much. Yeah, right? Exactly. I'll buy one share. You buy one share.",
+      "zh": "只要不用我掏太多钱就行。是吧？可不是嘛。我买一股，你买一股。"
+    },
+    {
+      "id": 147,
+      "start_sec": 1611,
+      "speaker": "Jon Ostrower",
+      "en": "Well, yeah, but to your point, at some point the stock actually does get cheap enough you think someone would actually, you know, consider buying the airline even with the high debt load on just...",
+      "zh": "不过话说回来，正如你所说，在某个节点上，股价确实会便宜到让你觉得真的会有人考虑收购这家航司，哪怕背负着高额债务……"
+    },
+    {
+      "id": 148,
+      "start_sec": 1620,
+      "speaker": "Brian Sumers",
+      "en": "Based on the market cap alone.",
+      "zh": "单从市值来看的话。"
+    },
+    {
+      "id": 149,
+      "start_sec": 1622,
+      "speaker": "Brett Snyder",
+      "en": "Yeah, maybe. The idea makes sense, right? Because, yes, debt is a hurdle, but if the equity is cheap enough, then maybe the debt's worth taking on.",
+      "zh": "也许吧。这个逻辑在商业上是说得通的，对吧？因为债务确实是个障碍，但如果股权足够便宜，那这笔债务或许就值得承担。"
+    },
+    {
+      "id": 150,
+      "start_sec": 1632,
+      "speaker": "Brett Snyder",
+      "en": "I don't know how the airlines are calculating this, but if they weren't willing to make a move when it was under a billion-dollar market cap, I don't know that they'll ever be willing to make the move without that debt going away.",
+      "zh": "我不知道各家航司具体是怎么盘算的，但如果它们在市值跌破10亿美元时都不愿意出手，那我怀疑在债务消除之前，它们永远不会有动作。"
+    },
+    {
+      "id": 151,
+      "start_sec": 1644,
+      "speaker": "Brett Snyder",
+      "en": "Still, I'm surprised American didn't take a swing at this. I know it's a risk, but isn't that what American should be doing right now?",
+      "zh": "不过，我还是很惊讶American居然连试都没试一下。我知道这有风险，但眼下American不就应该放手一搏吗？"
+    },
+    {
+      "id": 152,
+      "start_sec": 1650,
+      "speaker": "Brian Sumers",
+      "en": "Buying JetBlue or just taking a swing of any kind?",
+      "zh": "你是说收购JetBlue，还是指无论如何都该出招一试？"
+    },
+    {
+      "id": 153,
+      "start_sec": 1653,
+      "speaker": "Brett Snyder",
+      "en": "Maybe both, but I'm talking about the latter, just taking a swing. Because the way I see it, American needs big wins, and it's going to be really hard to do that with Delta and United continuing to go full speed ahead.",
+      "zh": "也许兼而有之吧，但我指的是后者，总得有所行动。因为在我看来，American急需几场大胜，而在Delta和United全速前进的态势下，这会极其艰难。"
+    },
+    {
+      "id": 154,
+      "start_sec": 1667,
+      "speaker": "Brett Snyder",
+      "en": "So they need them to trip up or at least be distracted. And what better way to do that than to put in a bid for JetBlue?",
+      "zh": "所以它们需要对手犯错，或者至少让它们分心。而有什么比直接竞购JetBlue更能达到这个目的呢？"
+    },
+    {
+      "id": 155,
+      "start_sec": 1673,
+      "speaker": "Jon Ostrower",
+      "en": "One super debt-laden carrier.",
+      "zh": "造就一个背负超级巨债的航司。"
+    },
+    {
+      "id": 156,
+      "start_sec": 1678,
+      "speaker": "Brett Snyder",
+      "en": "We have all the debt.",
+      "zh": "我们扛下了所有债务。"
+    },
+    {
+      "id": 157,
+      "start_sec": 1680,
+      "speaker": "Brian Sumers",
+      "en": "All the debt! We have all the debt! All the debt!",
+      "zh": "所有的债务！所有债务都归我们！全包了！"
+    },
+    {
+      "id": 158,
+      "start_sec": 1684,
+      "speaker": "Brett Snyder",
+      "en": "Yeah, that is... Okay, so that part's not ideal, but also just because American kicks off this bidding process doesn't mean it even ends up buying the airline in the end. Because if it loses, presumably it loses to either United or Southwest, is my guess.",
+      "zh": "好吧，那一块确实不太妙。但是，就算American发起竞购流程，也不代表它最后真得把这家航司买下来。因为如果竞购失败，我猜它多半是输给United或Southwest。"
+    },
+    {
+      "id": 159,
+      "start_sec": 1699,
+      "speaker": "Brett Snyder",
+      "en": "And right now, man, United is getting all the milk for free with that Blue Sky partnership. So, either make United buy the cow and get distracted deep in a merger, or at least take away all the benefit they're getting from the current JetBlue partnership.",
+      "zh": "而眼下，United靠着“蓝天”合作计划完全是在白捡便宜。所以，要么逼United把整头奶牛买下来，让它深陷合并泥潭而分心；要么至少夺走它们目前从JetBlue合作中攫取的所有利益。"
+    },
+    {
+      "id": 160,
+      "start_sec": 1714,
+      "speaker": "Brett Snyder",
+      "en": "And if American does win, well, then that also distracts Delta, because now American becomes relevant in New York again. So Delta would have to pay attention there and do something where they didn't really think they'd have to spend the time.",
+      "zh": "而如果American真赢了，那也能牵制Delta，因为American在纽约将重获话语权。这样Delta就不得不把精力放回纽约，在原本以为不用多费心思的市场采取应对行动。"
+    },
+    {
+      "id": 161,
+      "start_sec": 1728,
+      "speaker": "Brett Snyder",
+      "en": "Right now, they're so busy in LA trying to do things, whatever it may be. No matter what the outcome is of a JetBlue merger frenzy, you're distracting and you're hurting your rivals that you're trying to catch.",
+      "zh": "眼下Delta正忙着在洛杉矶大施拳脚。不论这场围绕JetBlue的并购狂潮结果如何，你都能牵制并打击那些你正试图追赶的竞争对手。"
+    },
+    {
+      "id": 162,
+      "start_sec": 1742,
+      "speaker": "Brett Snyder",
+      "en": "And oh, by the way, then you helped fix your East Coast problem at American if you do end up winning the bid. So the question is: how much is American willing to spend for this?",
+      "zh": "而且顺便说一句，如果你最终真的竞购成功，还顺手解决了American在东海岸的网络短板。所以核心问题是：American愿意为此砸多少钱？"
+    },
+    {
+      "id": 163,
+      "start_sec": 1753,
+      "speaker": "Brett Snyder",
+      "en": "Because like, they've already said they're going to do this LAX Pacific gateway. How much are they willing to lose doing that? Because they will lose a ton of money, even if it's not forever.",
+      "zh": "因为他们之前就表态要在洛杉矶机场（LAX）打造太平洋门户枢纽。他们为此做好了亏损多少的准备？因为前期注定会亏掉大把银子，哪怕只是阶段性的。"
+    },
+    {
+      "id": 164,
+      "start_sec": 1763,
+      "speaker": "Brett Snyder",
+      "en": "To build that up, you have to lose money. Think of buying JetBlue as that kind of expensive investment.",
+      "zh": "想要把那个枢纽做起来就得先交学费。收购JetBlue同样可以被视作这种高成本的战略投资。"
+    },
+    {
+      "id": 165,
+      "start_sec": 1769,
+      "speaker": "Brian Sumers",
+      "en": "Yeah, it's not a bad plan, but the share price has already come back up. So I guess the appetite isn't quite there, at least taking advantage of a discounted share price.",
+      "zh": "确实，这方案不赖，但股价目前已经回升了。所以我看这种胃口并不是特别大，至少趁着折价抄底股权的吸引力没那么强了。"
+    },
+    {
+      "id": 166,
+      "start_sec": 1779,
+      "speaker": "Brian Sumers",
+      "en": "But once JetBlue issued its earning reports, things really actually seem to bounce back. I mean, the stock at one point was up more than 30% once earnings came out, and then, like, what happened to the bonds?",
+      "zh": "不过在JetBlue发布财报后，形势似乎确实有所反弹。我是说，财报一出来，其股价一度大涨超过30%，紧接着，它的债券行情又是怎么走的？"
+    },
+    {
+      "id": 167,
+      "start_sec": 1790,
+      "speaker": "Brett Snyder",
+      "en": "Yeah, they bounced back somewhat. They got up toward around 60 cents on the dollar, but then they fell back again. So I found this random...",
+      "zh": "债券也确实略有回升。价格一度反弹到了面值的60美分左右，但随后又再度回落。所以我在网上翻到了一份特别的……"
+    },
+    {
+      "id": 168,
+      "start_sec": 1800,
+      "speaker": "Brett Snyder",
+      "en": "Poor registered website that shows quotes and you can buy and sell bonds through them, which, you know, trust this as far as you're willing.",
+      "zh": "那种注册信息简陋的网站，能看到行情报价，还能在上面买卖债券。大家懂的，这种网站能信几分完全看你自己了。"
+    },
+    {
+      "id": 169,
+      "start_sec": 1807,
+      "speaker": "Brian Sumers",
+      "en": "Sounds like a fun way to lose your money.",
+      "zh": "听起来是个亏钱的好法子。"
+    },
+    {
+      "id": 170,
+      "start_sec": 1809,
+      "speaker": "Brett Snyder",
+      "en": "Well, I did not buy anything, to be clear. I am just trying to get an actual, like, real-time quote, cuz this is not an easy thing to do. But it said when I looked yesterday, it said that it's hanging around 50 cents on the dollar right now.",
+      "zh": "先声明，我可什么都没买。我只是想查个实时的真实报价，因为这事儿确实不太好查。但我昨天看的时候，上面显示目前的交易价格大概只有票面价值的五成左右。"
+    },
+    {
+      "id": 171,
+      "start_sec": 1823,
+      "speaker": "Brett Snyder",
+      "en": "So, yes, it rebounded, but it's nowhere near where it was before. And the company pretty strongly said that this was all ridiculous, and you know what? It is pretty ridiculous.",
+      "zh": "所以，虽然确实反弹了，但离之前的水平还差得远。公司方面态度很坚决，说这一切都很荒谬，而且说实话，这确实挺荒谬的。"
+    },
+    {
+      "id": 172,
+      "start_sec": 1832,
+      "speaker": "Brett Snyder",
+      "en": "The CEO, Joanna, said there's no need to file for bankruptcy in 2027. They have enough cash. They also have a bunch of unencumbered assets if they needed to burn more furniture.",
+      "zh": "首席执行官 Joanna 表示根本不需要在 2027 年申请破产。他们拥有充足的现金。万一真到了要“拆家具取暖”的地步，他们手里还有大量未抵押资产。"
+    },
+    {
+      "id": 173,
+      "start_sec": 1843,
+      "speaker": "Brett Snyder",
+      "en": "But also, the airline is predicting profit to come relatively quickly, and then it can continue its recovery here.",
+      "zh": "而且，这家航司还预计很快就能恢复盈利，随后便能继续保持复苏势头。"
+    },
+    {
+      "id": 174,
+      "start_sec": 1850,
+      "speaker": "Brian Sumers",
+      "en": "It sounds like people aren't really believing it, though.",
+      "zh": "但听起来大家似乎并不怎么买账。"
+    },
+    {
+      "id": 175,
+      "start_sec": 1853,
+      "speaker": "Brett Snyder",
+      "en": "Apparently not, or the markets aren't. And it is kind of wild, cuz specifically for these bonds, these are loyalty bonds.",
+      "zh": "显然不信，或者说资本市场不买账。这其实挺不可思议的，因为具体到这些债券来说，它们可是常旅客计划支持的债券。"
+    },
+    {
+      "id": 176,
+      "start_sec": 1862,
+      "speaker": "Brett Snyder",
+      "en": "They tend to work pretty well unless the airline dies and the loyalty program goes away. But that's not gonna happen here. It doesn't mean that there's not some risk, but it's not like it's gonna disappear.",
+      "zh": "除非航司倒闭、常旅客计划彻底清零，否则这类债券的表现往往相当稳健。而这种情况在这里根本不可能发生。这并不代表完全没有风险，但绝不至于彻底化为乌有。"
+    },
+    {
+      "id": 177,
+      "start_sec": 1873,
+      "speaker": "Brian Sumers",
+      "en": "It still seems like this is an overreaction. I mean, I suppose this is the point where we say we're not financial experts on any of this.",
+      "zh": "看起来这依然像是过度反应。不过我想，这时候还是得免责声明一下，我们俩可都不是什么金融专家。"
+    },
+    {
+      "id": 178,
+      "start_sec": 1880,
+      "speaker": "Brett Snyder",
+      "en": "Yeah, no, we are, I am not. And I don't have insider information that's driving this either. We're just observing this, and I'm just scratching my head.",
+      "zh": "没错，我们都不是，我绝对不是。我也掌握不到任何驱动行情的内幕消息。我们只是客观观察，而我只是觉得很纳闷。"
+    },
+    {
+      "id": 179,
+      "start_sec": 1890,
+      "speaker": "Brett Snyder",
+      "en": "Because, yes, JetBlue is an airline with some warning signs. But it has a plan, revenue's been good. Hey, did you see it re-captured 87% of the fuel costs on higher fares in Q3?",
+      "zh": "因为不可否认，JetBlue 这家航司确实出现了一些预警信号。但他们有应对方案，营收表现也不错。对了，你注意到他们在第三季度通过提高票价收回了 87% 的燃油成本吗？"
+    },
+    {
+      "id": 180,
+      "start_sec": 1901,
+      "speaker": "Brett Snyder",
+      "en": "That was 15 points above United, which, remember United was one crowing about how it was going to re-capture fuel by the end of the year, but nobody seems to be saying that anymore. That is a discussion for a different time.",
+      "zh": "这比美联航高出了 15 个百分点。要知道，美联航之前还到处吹嘘说要在年底前通过票价收回燃油成本，但现在似乎没人再提这茬了。不过那个话题我们留到以后再聊。"
+    },
+    {
+      "id": 181,
+      "start_sec": 1912,
+      "speaker": "Brett Snyder",
+      "en": "But still, JetBlue did pretty well. You know, at some point they're going to have to recapture all the fuel costs.",
+      "zh": "但不管怎么说，JetBlue 表现相当不错。当然了，他们迟早得把全部燃油成本都覆盖回来。"
+    },
+    {
+      "id": 182,
+      "start_sec": 1916,
+      "speaker": "Brian Sumers",
+      "en": "Yeah, but the uncertainty around fuel prices and the eventual drop in demand have to be the real issues here. We just don't know what's going to happen, how this is all going to unfold.",
+      "zh": "是啊，但燃油价格的不确定性以及需求最终出现的下滑，必然才是这里真正的症结所在。我们根本无法预料后续局势会如何演变。"
+    },
+    {
+      "id": 183,
+      "start_sec": 1925,
+      "speaker": "Brett Snyder",
+      "en": "That is true. And you know, it's kind of funny cuz, remember how Spirit tried to spin its final demise as being due to the uncertainty in oil from the Iran war? So...",
+      "zh": "确实如此。说起来其实挺滑稽的，还记得 Spirit 当初怎么想把自己的最终溃败归咎于伊朗战争引发的油价波动吗？所以……"
+    },
+    {
+      "id": 184,
+      "start_sec": 1935,
+      "speaker": "Brian Sumers",
+      "en": "It didn't help. It did not help.",
+      "zh": "那确实没起到好作用，完全没有。"
+    },
+    {
+      "id": 185,
+      "start_sec": 1937,
+      "speaker": "Brett Snyder",
+      "en": "It did not help, but that was how it was trying to, like, get the government to bail the airline out, right? It was bull. Spirit was screwed before. Maybe it was the straw that broke the camel's back, but it was certainly not the case.",
+      "zh": "那确实没用，但那就是他们当时想骗取政府注资纾困的说辞，对吧？全是一派胡言。Spirit 早在这之前就已经完蛋了。也许那算是压垮骆驼的最后一根稻草，但根本原因绝不在于此。"
+    },
+    {
+      "id": 186,
+      "start_sec": 1949,
+      "speaker": "Brian Sumers",
+      "en": "Not a healthy camel.",
+      "zh": "那本来就不是一头健康的骆驼。"
+    },
+    {
+      "id": 187,
+      "start_sec": 1950,
+      "speaker": "Brett Snyder",
+      "en": "Not a healthy camel. But in this case, honestly, you can kind of blame the Iran war, because of course, you know, without fuel spiking, fares wouldn't have gone up as much.",
+      "zh": "确实病入膏肓了。但在目前这个案子里，讲真，确实能在一定程度上怪到伊朗战事头上，因为很显然，如果没有油价暴涨，票价也不会被推得这么高。"
+    },
+    {
+      "id": 188,
+      "start_sec": 1961,
+      "speaker": "Brett Snyder",
+      "en": "But remember, JetBlue's only recaptured 87% of the fuel price anyway in those fares. So if you had a more normal fuel environment, you probably would have a profitable airline that would be starting to knock down that debt and working toward that end goal.",
+      "zh": "但别忘了，JetBlue 哪怕调高了票价，也只覆盖了 87% 的燃油涨价成本。因此，如果处在相对正常的燃油价格环境下，它很可能已经是一家实现盈利的航司，不仅能开始削减债务，而且正向着最终目标稳步迈进。"
+    },
+    {
+      "id": 189,
+      "start_sec": 1978,
+      "speaker": "Brett Snyder",
+      "en": "as opposed to now where it's still trying to keep",
+      "zh": "而不像现在这样，依然在竭尽全力维持……"
+    },
+    {
+      "id": 190,
+      "start_sec": 1980,
+      "speaker": "Brett Snyder",
+      "en": "head above water. I mean, if I'm Joanna, it seems like she needs to go make some friends with President Trump, get some handouts over there.",
+      "zh": "勉强维持下去。我的意思是，如果我是Joanna，看来她得去跟特朗普总统搞好关系，从那边要点救济了。"
+    },
+    {
+      "id": 191,
+      "start_sec": 1987,
+      "speaker": "Jon Ostrower",
+      "en": "That's one strategy. I mean, we can play the what-if game all we want, but the reality is that JetBlue needs to start making more progress on making a profit and paying down its debt, or yes, eventually it runs out of options and bankruptcy shows up.",
+      "zh": "这也是一种策略。我们可以尽情做各种假设，但现实是捷蓝航空必须在扭亏为盈和偿还债务上取得更大进展，否则的话，它迟早会无路可走，最终走向破产。"
+    },
+    {
+      "id": 192,
+      "start_sec": 2003,
+      "speaker": "Jon Ostrower",
+      "en": "I mean, it doesn't matter who caused oil to spike for the ultimate outcome. But bankruptcy, it's not happening tomorrow unless we somehow find a way to make fuel spike even higher, which is sort of the \"hold my beer\" moment for geopolitics at the moment, but you know.",
+      "zh": "归根结底，究竟是谁导致油价暴涨并不重要。不过破产倒不至于明天就发生，除非我们又赶上航油价格进一步暴涨——鉴于眼下的地缘政治局势，这还真保不齐会发生，但谁知道呢。"
+    },
+    {
+      "id": 193,
+      "start_sec": 2019,
+      "speaker": "Brett Snyder",
+      "en": "Please don't say that, as you say this as we record on Election Day. Yeah, yeah. Oh no, who knows what's going to happen tomorrow and around. But either way, even if that does happen, JetBlue is not going away.",
+      "zh": "可别这么说，尤其咱们还是在选举日录这期节目。是啊，天晓得明天周围又会发生什么。不过无论如何，就算真的破产，捷蓝航空也不会彻底消失。"
+    },
+    {
+      "id": 194,
+      "start_sec": 2031,
+      "speaker": "Brett Snyder",
+      "en": "But at some point, whether through bankruptcy or through a turnaround that the team executes, JetBlue has a future. Maybe as part of another airline.",
+      "zh": "无论是在破产程序中，还是靠管理团队成功执行扭亏方案，捷蓝航空未来总会有一席之地。或许会成为另一家航司的一部分吧。"
+    },
+    {
+      "id": 195,
+      "start_sec": 2042,
+      "speaker": "Brett Snyder",
+      "en": "You've been listening to The Air Show, presented by the Alaska-Hawaiian Pilots. Thanks also to this week's sponsor, Tulsa International Airport. If you have suggestions or questions for us, or if you're interested in sponsoring the podcast, email us at info@theairshowpodcast.com to get in touch.",
+      "zh": "您收听的是由阿拉斯加-夏威夷航空飞行员呈献的《The Air Show》。同时也感谢本周赞助商塔尔萨国际机场。如果您有任何建议或疑问，或有意赞助本播客，欢迎发送邮件至 info@theairshowpodcast.com 与我们取得联系。"
+    },
+    {
+      "id": 196,
+      "start_sec": 2057,
+      "speaker": "Jon Ostrower",
+      "en": "Leo Duran produced and edited this episode. Our theme music is by Joshua Moser. Thanks for listening, and we'll be back soon.",
+      "zh": "本期节目由 Leo Duran 制作和剪辑。片头曲由 Joshua Moser 创作。感谢您的收听，我们下期再会。"
+    },
+    {
+      "id": 197,
+      "start_sec": 2066,
+      "speaker": "Jon Ostrower",
+      "en": "Delta turned even more space into even more with more...",
+      "zh": "达美航空把更多空间变成了更多的……"
+    },
+    {
+      "id": 198,
+      "start_sec": 2069,
+      "speaker": "Brett Snyder",
+      "en": "So much more, Jon! There's so...",
+      "zh": "多得多得多，Jon！简直太……"
+    },
+    {
+      "id": 199,
+      "start_sec": 2071,
+      "speaker": "Jon Ostrower",
+      "en": "...oh, so much more.",
+      "zh": "……哦，真的是多得多。"
+    }
+  ]
+}

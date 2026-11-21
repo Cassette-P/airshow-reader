@@ -2,7 +2,7 @@
   "schema_version": "2.0",
   "podcast_title": "The Air Show",
   "rss_url": "https://feeds.buzzsprout.com/2329718.rss",
-  "updated_at": "2026-11-21T01:54:12Z",
+  "updated_at": "2026-11-21T07:53:50Z",
   "episodes": [
     {
       "guid": "Buzzsprout-20148830",
@@ -37,6 +37,23 @@
       ],
       "highlights_count": 7,
       "transcript_count": 252
+    },
+    {
+      "guid": "Buzzsprout-20076825",
+      "title": "The Wildly Overblown JetBlue Panic",
+      "pub_date": "2026-11-05T11:00:00Z",
+      "duration_sec": 2073,
+      "audio_url": "https://www.buzzsprout.com/2329718/episodes/20076825-the-wildly-overblown-jetblue-panic.mp3",
+      "file": "episodes/Buzzsprout-20076825.json",
+      "summary_zh": "本期节目聚焦近期市场对捷蓝航空（JetBlue）常旅客计划（FFP）抵押债券暴跌引发的过度恐慌。Brett与Jon回顾了捷蓝从疫情前10%营业利润率滑坡的根源：前任管理层点对点航线扩张失焦，与美航的东北联盟及收购Spirit双双被法院叫停，耗尽了财务缓冲。新任CEO Joanna Geraghty推出JetForward战略后，通过填补劳德代尔堡运力空白、重构票价体系及与美联航达成Blue Sky合作，推动三季度PRASM（客运单位收入）同比大增近18%，商业端显著回暖。两位主播一致认为，短期破产恐慌纯属反应过度，捷蓝现金与未抵押资产充足；但约80亿美元长期债务、700%的债务股本比及高油价仍是长期隐患，捷蓝必须在窗口期关闭前实现持续盈利以化解债务危机。",
+      "key_takeaways_zh": [
+        "市场对捷蓝航空TrueBlue常旅客债券的抛售属于过度恐慌，公司短期流动性充足且核心常旅客资产稳固，并无迫在眉睫的倒闭风险。",
+        "前任管理层盲目扩张及执着于高溢价收购Spirit消耗了大量资源，法院叫停该交易反而让捷蓝免于在高油价周期背负更致命的债务包袱。",
+        "新管理层的商业改革成效显著，依托票价分层、联名信用卡升级及与美联航的合作，三季度经航距调整后的收益率（Yield）大幅飙升20%。",
+        "近80亿美元的长期债务与高企的航油成本是核心枷锁，高达700%的债务股本比虽暂时阻退了潜在收购方，但长期来看仍潜藏破产重组风险。"
+      ],
+      "highlights_count": 6,
+      "transcript_count": 199
     }
   ]
 }
