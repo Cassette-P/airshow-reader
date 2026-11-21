@@ -219,3 +219,57 @@ v3.0 架构升级为**多播客配置驱动 + 目录分层隔离 + 全局清单�
 - `duration_sec` / `start_sec`：非负整数；所有 `start_sec` 不得超过 `duration_sec` 且保持**单调非递减**。
 - `highlights`：4–10 条（适配 60–95 分钟长篇深度单集）；`transcript`：按 2–4 句自然语义块分段，`id` 从 `1` 连续递增。
 - `index.json` 中的 `highlights_count`、`transcript_count`、`summary_zh`、`key_takeaways_zh` 必须与对应单集 JSON 文件完全一致。
+
+---
+
+## 5. 前端视觉规范与 Unslop 刊物化架构（docs/index.html · v3.1）
+
+针对 AI 原型界面的“发光、药丸化、彩虹糖、机器文案、双层臃肿顶栏”等 Slop 异味，前端于 2026-11 实施 Unslopping 全量重塑，确立出版物级研读体验：
+
+### 5.1 空间布局与视口释放
+- **单层 52px 紧凑期刊顶栏**：
+  - 合并原双层 Header，消除对垂直视口的过度挤占；
+  - 顶栏容器宽 `--header-max-w: 1240px`，确保大屏下 Brand Monogram、Show Tabs、Issue Archive 按钮与右侧语言/搜索/主题控制栏呼吸舒展且互不遮挡；
+  - 正文排版宽度固定为 `--content-max-w: 880px`，贴合学术与财经期刊最佳阅读字频行长；
+  - 底部吸底音频播放器紧凑收缩为 60px（`--player-h: 60px`）。
+
+### 5.2 目录抽屉交互（Issue Archive Drawer · 方案 A）
+- **彻底移除原生 `<select>` 下拉菜单**：
+  - 改造为刊物式侧边抽屉（`#archive-drawer`），大屏最大宽度 440px，窄屏（<=640px）自适应 100vw 全屏展开；
+  - 列表以逆序（`#08` ~ `#01`）排布单集，每张单集卡片聚合期号徽章、发布日期、音频时长、句段数、英文标题与中文导读摘要；
+  - 当前收听单集呈现左侧 3px 品牌主题重音边框与微底色激活态；
+  - 交互支持 `Esc` 键监听、背景遮罩（`#archive-backdrop`）点击关闭与显式关闭按钮；
+  - 保留隐藏式 `<select id="episode-select">` 兼容垫片，确保任何历史选择器依赖 100% 安全。
+
+### 5.3 亮/暗双模式品牌重音架构（Dynamic Contrast Tokens）
+- **清除硬编码 `--accent-blue`**：
+  - 全站动态透传 `--show-accent` 至 `--accent-primary`、`--accent-hover`、`--accent-subtle`，全面接管音频播放器滑轨与播放按钮、精选原声引用线、摘要卡片重音与搜索高亮；
+  - **双模式高可读性对比度规范**：
+    - **Air Show**：亮色模式墨蓝 `#0a2540`，暗色模式天青 `#38bdf8`；
+    - **Sinica Podcast**：亮色模式印泥朱红 `#9b2226`，暗色模式高对比珊瑚粉 `#f87171`（实测暗色石墨底对比度 > 5.2:1，杜绝深底暗红发黑看不清）。
+
+### 5.4 说话人印刷体排版（Restrained Editorial Badges）
+- **杜绝全员 9999px 药丸与 8 色彩虹糖失控**：
+  - 说话人徽章半径收敛为 4px（`var(--radius-sm)`）；
+  - 摒弃高饱和荧光彩色背景，采用无底色或极浅中性微底（4%~6% 不透明度），搭配细致的 1px 印刷墨色边框；
+  - 说话人姓名右侧跟随 `tabular-nums` 时间戳，保证多人对谈时视线扫读极其沉静且易于辨识。
+
+### 5.5 字体排印分工策略（Typography Stack）与声学图标规范
+- **单集扉页（Masthead）与原声引文（Pull-quote）**：
+  - 采用经典出版物衬线体栈：`Charter, 'Bitstream Charter', 'Sitka Text', Cambria, serif`；
+- **双语逐字稿正文与中文可变字重（M7.1 精修）**：
+  - 异步加载 Google Fonts `Noto Sans SC:wght@400..700` 可变字体，无缝根治 4K 100% 缩放下中文细笔画发虚；
+  - 字体栈精修：`--font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans SC", "PingFang SC", "HarmonyOS Sans SC", "MiSans", "Hiragino Sans GB", "Microsoft YaHei", sans-serif`；
+  - 中文正文字重精细化变量：亮色模式 `--zh-body-weight: 480`，暗黑模式 `--zh-body-weight: 460`（杜绝暗底白字笔画发胖膨胀）；
+  - 精准覆盖阅读元素：`.transcript-zh`（`1.03125rem` / 16.5px，`font-weight: var(--zh-body-weight)`，`line-height: 1.78`）、`.summary-lead`（`1.03125rem`）、`.takeaway-item`、`.highlight-summary`（`0.875rem`）、`.archive-item-desc`；
+  - 次级文字对比度微调：亮色模式 `--text-secondary: #3f3f46`，暗色模式 `--text-secondary: #c4c4cc`。
+- **时间码、期号与数字**：
+  - 全站时间戳（`MM:SS`）、期号（`#08`）、时长与统计数字全面启用 `font-variant-numeric: tabular-nums` 等宽对齐；
+- **声学微刻度标尺（Pass 8 Signature）动态化**：
+  - 题头下方嵌入纯 CSS 绘制的声学时间微刻度标尺（`.masthead-scale`），纯依靠排版微细线条展现录音室音频工程质感；
+  - 在 `renderArticleMeta` 中按单集时长 `ep.duration_sec` 动态渲染 0%、25%、50%、75%、100% 五等分刻度，自适应 35 分钟短片与 97 分钟超长单集。
+- **「声波书页（Acoustic Folio）」标志性 Icon 与动态 Favicon**：
+  - 静态图标文件 `docs/favicon.svg`：32×32 viewBox，左侧 3 道等宽声波脉冲柱 + 右侧 3 行出版物印刷段落线，16×16px 极限视口下锐利不糊；
+  - 顶栏内联图标 `<svg class="brand-logo-svg">`：底色跟随 `var(--accent-primary)`，内部几何图形跟随 `var(--accent-contrast)`，平滑过渡无缝响应深浅主题；
+  - 浏览器标签页 Favicon 动态同步：通过 `updateDynamicFavicon(bgHex)` 动态生成带当前播客 lightAccent 主题色（Air Show `#0a2540` / Sinica `#9b2226`）的 SVG Data URI，实现浏览器标签页图标随选中节目实时变色。
+

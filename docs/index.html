@@ -3,152 +3,129 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-  <title>The Air Show · 航空商业深度双语精读</title>
-  <meta name="description" content="The Air Show 播客双语精读与音频同步播放器 - 深度解析全球民航机队、航线网络与航空财经商业动态。" />
+  <title>The Air Show · 播客双语精读</title>
+  <meta name="description" content="深度播客中英双语研读与音频同步研习工具 - 商业、地缘政经与行业纵深解析。" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400..700&display=swap" rel="stylesheet" />
+  <link id="dynamic-favicon" rel="icon" type="image/svg+xml" href="./favicon.svg" />
 
   <style>
     /* ==========================================================================
-       1. CSS Variables & Theme Configuration
-       Aviation Financial Magazine Aesthetic (The Air Current / Substack Style)
+       1. CSS Variables & Theme Configuration (Unslopped Editorial Craft)
+       Neutral Ramp: Warm Book Ink (Light) & Deep Graphite (Dark)
        ========================================================================== */
     :root {
-      --navy-950: #051329;
-      --navy-900: #0a2540;
-      --navy-800: #0e355c;
-      --navy-700: #1a4975;
-      --sky-500: #0284c7;
-      --sky-400: #38bdf8;
-      --sky-100: #e0f2fe;
-      --sky-50: #f0f9ff;
-      
-      --bg-page: #f8fafc;
+      /* Typography Stacks */
+      --font-serif: "Charter", "Source Serif 4", "Newsreader", "Georgia", "Songti SC", "SimSun", serif;
+      --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans SC", "PingFang SC", "HarmonyOS Sans SC", "MiSans", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+      --font-mono: "SF Mono", "Fira Code", "Roboto Mono", "Menlo", monospace;
+      --zh-body-weight: 480;
+
+      /* Neutral Ramp (Warm Editorial Paper & Ink) */
+      --bg-page: #f7f7f5;
       --bg-surface: #ffffff;
       --bg-surface-elevated: #ffffff;
-      --bg-subtle: #f1f5f9;
-      --bg-active-row: #f0f7ff;
-      
-      --border-color: #e2e8f0;
-      --border-hover: #cbd5e1;
-      --border-active: #0284c7;
-      
-      --text-primary: #0f172a;
-      --text-secondary: #475569;
-      --text-muted: #94a3b8;
-      --text-navy: #0a2540;
-      
-      --show-accent: #0a2540;
+      --bg-subtle: #f0f0ec;
+      --bg-active-row: #ecece7;
+      --bg-backdrop: rgba(24, 24, 27, 0.4);
+
+      --border-color: rgba(24, 24, 27, 0.08);
+      --border-subtle: rgba(24, 24, 27, 0.05);
+      --border-hover: rgba(24, 24, 27, 0.16);
+      --border-active: rgba(24, 24, 27, 0.28);
+
+      --text-primary: #18181b;
+      --text-secondary: #3f3f46;
+      --text-muted: #71717a;
+      --text-tertiary: #a1a1aa;
+
+      /* Podcast Show Accents (Dynamic & High Contrast) */
+      --show-accent-light: #0a2540;
       --show-accent-dark: #38bdf8;
-      --accent-primary: var(--show-accent);
-      --accent-blue: #0284c7;
-      --accent-badge-bg: #e0f2fe;
-      --accent-badge-text: #0369a1;
-      
-      /* Speaker Badges */
-      --spk-jon-bg: #e0e7ff;
-      --spk-jon-text: #312e81;
-      --spk-jon-border: #c7d2fe;
-      
-      --spk-brian-bg: #d1fae5;
-      --spk-brian-text: #064e3b;
-      --spk-brian-border: #a7f3d0;
-      
-      --spk-brett-bg: #ffedd5;
-      --spk-brett-text: #9a3412;
-      --spk-brett-border: #fed7aa;
-      
-      --spk-kaiser-bg: #fee2e2;
-      --spk-kaiser-text: #991b1b;
-      --spk-kaiser-border: #fca5a5;
+      --show-accent: var(--show-accent-light);
+      --accent-primary: var(--show-accent-light);
+      --accent-tint: rgba(10, 37, 64, 0.08);
+      --accent-subtle: rgba(10, 37, 64, 0.04);
+      --accent-contrast: #ffffff;
 
-      --spk-guest-bg: #f3e8ff;
-      --spk-guest-text: #6b21a8;
-      --spk-guest-border: #e9d5ff;
+      /* Speaker Editorial Inks (Subdued, Print-like, Non-Pill) */
+      --spk-jon-color: #2c5282;   --spk-jon-border: #bee3f8;  --spk-jon-bg: #f7fafc;
+      --spk-brian-color: #276749; --spk-brian-border: #c6f6d5;--spk-brian-bg: #f0fff4;
+      --spk-brett-color: #9c4221; --spk-brett-border: #feebc8;--spk-brett-bg: #fffaf0;
+      --spk-kaiser-color: #9b2c2c;--spk-kaiser-border: #fed7d7;--spk-kaiser-bg: #fff5f5;
 
-      /* Dynamic Guest Palettes (Light Mode) */
-      --spk-dyn-0-bg: #f3e8ff; --spk-dyn-0-text: #6b21a8; --spk-dyn-0-border: #e9d5ff; /* Purple */
-      --spk-dyn-1-bg: #ccfbf1; --spk-dyn-1-text: #0f766e; --spk-dyn-1-border: #99f6e4; /* Teal */
-      --spk-dyn-2-bg: #ffe4e6; --spk-dyn-2-text: #be123c; --spk-dyn-2-border: #fecdd3; /* Rose */
-      --spk-dyn-3-bg: #dbeafe; --spk-dyn-3-text: #1d4ed8; --spk-dyn-3-border: #bfdbfe; /* Blue */
-      --spk-dyn-4-bg: #fef3c7; --spk-dyn-4-text: #b45309; --spk-dyn-4-border: #fde68a; /* Amber */
-      --spk-dyn-5-bg: #fae8ff; --spk-dyn-5-text: #a21caf; --spk-dyn-5-border: #f5d0fe; /* Fuchsia */
-      --spk-dyn-6-bg: #ecfccb; --spk-dyn-6-text: #4d7c0f; --spk-dyn-6-border: #d9f99d; /* Lime */
-      --spk-dyn-7-bg: #e0f2fe; --spk-dyn-7-text: #0369a1; --spk-dyn-7-border: #bae6fd; /* Sky */
+      --spk-dyn-0-color: #553c9a; --spk-dyn-0-border: #e9d8fd;--spk-dyn-0-bg: #faf5ff;
+      --spk-dyn-1-color: #285e61; --spk-dyn-1-border: #b2f5ea;--spk-dyn-1-bg: #e6fffa;
+      --spk-dyn-2-color: #744210; --spk-dyn-2-border: #fefcbf;--spk-dyn-2-bg: #fffff0;
+      --spk-dyn-3-color: #2b6cb0; --spk-dyn-3-border: #bee3f8;--spk-dyn-3-bg: #ebf8ff;
 
-      --shadow-sm: 0 1px 3px rgba(10, 37, 64, 0.05);
-      --shadow-md: 0 4px 12px -2px rgba(10, 37, 64, 0.07), 0 2px 6px -1px rgba(10, 37, 64, 0.04);
-      --shadow-lg: 0 12px 24px -4px rgba(10, 37, 64, 0.09), 0 4px 10px -2px rgba(10, 37, 64, 0.04);
-      --shadow-player: 0 -4px 24px rgba(10, 37, 64, 0.08);
+      /* Nested Radii (Control 6px, Card 8px, Panel 12px) */
+      --radius-xs: 3px;
+      --radius-sm: 4px;
+      --radius-md: 6px;
+      --radius-lg: 8px;
+      --radius-xl: 12px;
 
-      --radius-sm: 6px;
-      --radius-md: 10px;
-      --radius-lg: 16px;
-      --radius-full: 9999px;
-      
-      --content-max-w: 920px;
-      --header-h: 64px;
-      --player-h: 88px;
+      /* Shadows (Minimal Hairline Feel, No Glowing Orbs) */
+      --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.04);
+      --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.06);
+      --shadow-drawer: -4px 0 24px rgba(0, 0, 0, 0.08);
+      --shadow-player: 0 -2px 16px rgba(0, 0, 0, 0.05);
+
+      /* Layout Dimensions */
+      --header-max-w: 1240px;
+      --content-max-w: 880px;
+      --header-h: 52px;
+      --player-h: 60px;
     }
 
     [data-theme="dark"] {
-      --bg-page: #070d18;
-      --bg-surface: #0f172a;
-      --bg-surface-elevated: #1e293b;
-      --bg-subtle: #172236;
-      --bg-active-row: #142844;
-      
-      --border-color: #1e293b;
-      --border-hover: #334155;
-      --border-active: #38bdf8;
-      
-      --text-primary: #f8fafc;
-      --text-secondary: #94a3b8;
-      --text-muted: #64748b;
-      --text-navy: #e2e8f0;
-      
-      --accent-primary: var(--show-accent-dark, #38bdf8);
-      --accent-blue: #38bdf8;
-      --accent-badge-bg: #0c4a6e;
-      --accent-badge-text: #7dd3fc;
-      
-      /* Speaker Badges (Dark Mode) */
-      --spk-jon-bg: #1e1b4b;
-      --spk-jon-text: #a5b4fc;
-      --spk-jon-border: #312e81;
-      
-      --spk-brian-bg: #064e3b;
-      --spk-brian-text: #6ee7b7;
-      --spk-brian-border: #047857;
-      
-      --spk-brett-bg: #431407;
-      --spk-brett-text: #fdba74;
-      --spk-brett-border: #7c2d12;
-      
-      --spk-kaiser-bg: #450a0a;
-      --spk-kaiser-text: #fca5a5;
-      --spk-kaiser-border: #7f1d1d;
+      --zh-body-weight: 460;
 
-      --spk-guest-bg: #3b0764;
-      --spk-guest-text: #d8b4fe;
-      --spk-guest-border: #581c87;
+      /* Neutral Ramp (Deep Archival Graphite) */
+      --bg-page: #121214;
+      --bg-surface: #18181b;
+      --bg-surface-elevated: #222226;
+      --bg-subtle: #202024;
+      --bg-active-row: #27272c;
+      --bg-backdrop: rgba(0, 0, 0, 0.65);
 
-      /* Dynamic Guest Palettes (Dark Mode) */
-      --spk-dyn-0-bg: #3b0764; --spk-dyn-0-text: #d8b4fe; --spk-dyn-0-border: #581c87;
-      --spk-dyn-1-bg: #134e4a; --spk-dyn-1-text: #5eead4; --spk-dyn-1-border: #115e59;
-      --spk-dyn-2-bg: #4c0519; --spk-dyn-2-text: #fda4af; --spk-dyn-2-border: #881337;
-      --spk-dyn-3-bg: #1e3a8a; --spk-dyn-3-text: #93c5fd; --spk-dyn-3-border: #1d4ed8;
-      --spk-dyn-4-bg: #451a03; --spk-dyn-4-text: #fcd34d; --spk-dyn-4-border: #78350f;
-      --spk-dyn-5-bg: #4a044e; --spk-dyn-5-text: #f0abfc; --spk-dyn-5-border: #701a75;
-      --spk-dyn-6-bg: #14532d; --spk-dyn-6-text: #bef264; --spk-dyn-6-border: #166534;
-      --spk-dyn-7-bg: #082f49; --spk-dyn-7-text: #7dd3fc; --spk-dyn-7-border: #0369a1;
+      --border-color: rgba(255, 255, 255, 0.08);
+      --border-subtle: rgba(255, 255, 255, 0.05);
+      --border-hover: rgba(255, 255, 255, 0.16);
+      --border-active: rgba(255, 255, 255, 0.28);
 
-      --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.3);
-      --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.4);
-      --shadow-lg: 0 12px 28px rgba(0, 0, 0, 0.5);
-      --shadow-player: 0 -4px 24px rgba(0, 0, 0, 0.45);
+      --text-primary: #f4f4f5;
+      --text-secondary: #c4c4cc;
+      --text-muted: #71717a;
+      --text-tertiary: #52525b;
+
+      /* Accents (Clear and High Contrast on Dark Graphite) */
+      --accent-primary: var(--show-accent-dark);
+      --accent-tint: rgba(56, 189, 248, 0.12);
+      --accent-subtle: rgba(56, 189, 248, 0.06);
+      --accent-contrast: #121214;
+
+      /* Speaker Editorial Inks (Dark Mode Toned) */
+      --spk-jon-color: #90cdf4;   --spk-jon-border: rgba(144, 205, 244, 0.2); --spk-jon-bg: rgba(144, 205, 244, 0.06);
+      --spk-brian-color: #9ae6b4; --spk-brian-border: rgba(154, 230, 180, 0.2); --spk-brian-bg: rgba(154, 230, 180, 0.06);
+      --spk-brett-color: #fbd38d; --spk-brett-border: rgba(251, 211, 141, 0.2); --spk-brett-bg: rgba(251, 211, 141, 0.06);
+      --spk-kaiser-color: #feb2b2;--spk-kaiser-border: rgba(254, 178, 178, 0.2); --spk-kaiser-bg: rgba(254, 178, 178, 0.06);
+
+      --spk-dyn-0-color: #d6bcfa; --spk-dyn-0-border: rgba(214, 188, 250, 0.2); --spk-dyn-0-bg: rgba(214, 188, 250, 0.06);
+      --spk-dyn-1-color: #81e6d9; --spk-dyn-1-border: rgba(129, 230, 217, 0.2); --spk-dyn-1-bg: rgba(129, 230, 217, 0.06);
+      --spk-dyn-2-color: #faf089; --spk-dyn-2-border: rgba(250, 240, 137, 0.2); --spk-dyn-2-bg: rgba(250, 240, 137, 0.06);
+      --spk-dyn-3-color: #90cdf4; --spk-dyn-3-border: rgba(144, 205, 244, 0.2); --spk-dyn-3-bg: rgba(144, 205, 244, 0.06);
+
+      --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.2);
+      --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.3);
+      --shadow-drawer: -4px 0 24px rgba(0, 0, 0, 0.5);
+      --shadow-player: 0 -2px 16px rgba(0, 0, 0, 0.4);
     }
 
     /* ==========================================================================
-       2. Reset & Typography
+       2. Reset & Base Typography
        ========================================================================== */
     *, *::before, *::after {
       box-sizing: border-box;
@@ -165,30 +142,29 @@
     body {
       background-color: var(--bg-page);
       color: var(--text-primary);
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+      font-family: var(--font-sans);
       line-height: 1.6;
       min-height: 100vh;
       display: flex;
       flex-direction: column;
       overflow-x: hidden;
-      padding-bottom: calc(var(--player-h) + 60px); /* Avoid floating player overlap */
-      transition: background-color 0.25s ease, color 0.25s ease;
+      padding-bottom: calc(var(--player-h) + 40px);
+      transition: background-color 0.2s ease, color 0.2s ease;
     }
 
-    /* Editorial serif typography for headings */
-    h1, h2, h3, .magazine-title {
-      font-family: "Charter", "Source Serif 4", "Newsreader", "Georgia", "Cambria", serif;
-      color: var(--text-navy);
-      font-weight: 700;
+    h1, h2, h3, .masthead-font {
+      font-family: var(--font-serif);
+      font-weight: 600;
       letter-spacing: -0.015em;
     }
 
     a {
-      color: var(--accent-blue);
+      color: var(--accent-primary);
       text-decoration: none;
-      transition: color 0.15s ease;
+      transition: opacity 0.15s ease;
     }
     a:hover {
+      opacity: 0.85;
       text-decoration: underline;
     }
 
@@ -200,13 +176,20 @@
       color: inherit;
     }
 
+    .tnum {
+      font-variant-numeric: tabular-nums;
+      font-feature-settings: "tnum";
+    }
+
     /* ==========================================================================
-       3. Header & Navigation Bar
+       3. Single Compact Sticky Header (Pass 6 Layout & Spacing)
+       Unified 52px Bar: Brand, Shows, Archive Drawer Button, Views, Search, Theme
        ========================================================================== */
     .app-header {
       position: sticky;
       top: 0;
-      z-index: 90;
+      z-index: 80;
+      height: var(--header-h);
       background: var(--bg-surface);
       border-bottom: 1px solid var(--border-color);
       box-shadow: var(--shadow-sm);
@@ -214,221 +197,176 @@
       -webkit-backdrop-filter: blur(12px);
     }
 
-    .header-top {
-      max-width: var(--content-max-w);
+    .header-inner {
+      max-width: var(--header-max-w);
       margin: 0 auto;
-      padding: 10px 20px;
+      height: 100%;
+      padding: 0 20px;
       display: flex;
       align-items: center;
       justify-content: space-between;
       gap: 16px;
     }
 
-    .brand-group {
+    /* Left: Brand Monogram & Show Tabs */
+    .header-left {
       display: flex;
       align-items: center;
       gap: 12px;
-      text-decoration: none;
-      color: inherit;
+      min-width: 0;
+      flex-shrink: 0;
     }
-    .brand-icon {
-      width: 32px;
-      height: 32px;
-      background: var(--navy-900);
-      color: #ffffff;
-      border-radius: var(--radius-sm);
+
+    .brand-link {
       display: flex;
       align-items: center;
-      justify-content: center;
-      box-shadow: 0 2px 6px rgba(10, 37, 64, 0.25);
-    }
-    [data-theme="dark"] .brand-icon {
-      background: var(--sky-500);
-      color: #070d18;
-    }
-    .brand-title {
-      font-size: 1.25rem;
-      font-weight: 800;
-      letter-spacing: -0.02em;
-      color: var(--text-navy);
-      display: flex;
-      align-items: baseline;
       gap: 8px;
-    }
-    .brand-sub {
-      font-size: 0.75rem;
-      font-weight: 600;
-      text-transform: uppercase;
-      letter-spacing: 0.08em;
-      color: var(--accent-blue);
-      background: var(--accent-badge-bg);
-      padding: 2px 7px;
-      border-radius: var(--radius-full);
-    }
-
-    .header-actions {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-    }
-
-    .theme-toggle-btn {
-      width: 38px;
-      height: 38px;
-      border-radius: var(--radius-md);
-      border: 1px solid var(--border-color);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background: var(--bg-surface);
-      color: var(--text-secondary);
-      transition: all 0.15s ease;
-    }
-    .theme-toggle-btn:hover {
-      background: var(--bg-subtle);
+      text-decoration: none;
       color: var(--text-primary);
-      border-color: var(--border-hover);
+      font-weight: 600;
+      flex-shrink: 0;
+    }
+    .brand-link:hover {
+      text-decoration: none;
     }
 
-    /* Podcast Navigation Switcher */
-    .podcast-nav-bar {
-      border-top: 1px solid var(--border-color);
-      background: var(--bg-surface);
-      overflow-x: auto;
-      scrollbar-width: none;
-      -ms-overflow-style: none;
+    .brand-logo-svg {
+      width: 24px;
+      height: 24px;
+      flex-shrink: 0;
+      display: inline-block;
+      vertical-align: middle;
+      border-radius: var(--radius-sm);
+      transition: transform 0.2s ease;
     }
-    .podcast-nav-bar::-webkit-scrollbar {
-      display: none;
+    .brand-logo-svg rect {
+      transition: fill 0.2s ease;
     }
-    .podcast-nav-inner {
-      max-width: var(--content-max-w);
-      margin: 0 auto;
-      padding: 8px 20px;
+
+    .brand-name {
+      font-size: 0.9375rem;
+      font-family: var(--font-serif);
+      font-weight: 600;
+      letter-spacing: -0.01em;
+      white-space: nowrap;
+    }
+
+    .podcast-nav-tabs {
       display: flex;
       align-items: center;
-      gap: 10px;
+      gap: 4px;
+      margin-left: 4px;
+      border-left: 1px solid var(--border-color);
+      padding-left: 12px;
     }
-    .podcast-tab-btn {
+
+    .show-tab-btn {
       display: inline-flex;
       align-items: center;
-      gap: 8px;
-      padding: 6px 14px;
-      border-radius: var(--radius-full);
+      gap: 6px;
+      padding: 4px 8px;
+      border-radius: var(--radius-sm);
       font-size: 0.8125rem;
-      font-weight: 600;
-      border: 1px solid var(--border-color);
-      background: var(--bg-subtle);
-      color: var(--text-secondary);
-      cursor: pointer;
-      white-space: nowrap;
-      transition: all 0.18s cubic-bezier(0.4, 0, 0.2, 1);
-    }
-    .podcast-tab-btn:hover {
-      background: var(--bg-surface);
-      color: var(--text-primary);
-      border-color: var(--border-hover);
-      transform: translateY(-1px);
-    }
-    .podcast-tab-btn.active {
-      background: var(--accent-primary);
-      color: #ffffff;
-      border-color: var(--accent-primary);
-      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
-    }
-    [data-theme="dark"] .podcast-tab-btn.active {
-      background: var(--accent-primary);
-      color: #070d18;
-      font-weight: 700;
-      border-color: var(--accent-primary);
-      box-shadow: 0 0 12px rgba(56, 189, 248, 0.25);
-    }
-    .podcast-tab-badge {
-      font-size: 0.72rem;
-      font-weight: 700;
-      padding: 1px 7px;
-      border-radius: var(--radius-full);
-      background: rgba(0, 0, 0, 0.08);
-      color: inherit;
-    }
-    .podcast-tab-btn.active .podcast-tab-badge {
-      background: rgba(255, 255, 255, 0.25);
-      color: inherit;
-    }
-    [data-theme="dark"] .podcast-tab-btn.active .podcast-tab-badge {
-      background: rgba(7, 13, 24, 0.3);
-      color: #070d18;
-    }
-
-    /* Sub-header Controls Bar */
-    .controls-bar {
-      border-top: 1px solid var(--border-color);
-      background: var(--bg-surface);
-    }
-    .controls-inner {
-      max-width: var(--content-max-w);
-      margin: 0 auto;
-      padding: 10px 20px;
-      display: flex;
-      flex-wrap: wrap;
-      align-items: center;
-      justify-content: space-between;
-      gap: 12px;
-    }
-
-    .episode-picker-wrap {
-      flex: 1 1 280px;
-      position: relative;
-      display: flex;
-      align-items: center;
-    }
-    .episode-select {
-      width: 100%;
-      appearance: none;
-      -webkit-appearance: none;
-      background: var(--bg-subtle);
-      border: 1px solid var(--border-color);
-      border-radius: var(--radius-md);
-      padding: 8px 36px 8px 12px;
-      font-size: 0.875rem;
       font-weight: 500;
+      color: var(--text-muted);
+      border: 1px solid transparent;
+      white-space: nowrap;
+      transition: all 0.15s ease;
+    }
+    .show-tab-btn:hover {
       color: var(--text-primary);
-      outline: none;
-      cursor: pointer;
-      transition: border-color 0.15s ease, box-shadow 0.15s ease;
+      background: var(--bg-subtle);
     }
-    .episode-select:focus {
-      border-color: var(--accent-blue);
-      box-shadow: 0 0 0 3px rgba(2, 132, 199, 0.15);
+    .show-tab-btn.active {
+      color: var(--text-primary);
+      background: var(--bg-subtle);
+      border-color: var(--border-color);
+      font-weight: 600;
     }
-    .select-arrow {
-      position: absolute;
-      right: 12px;
-      pointer-events: none;
+    .show-tab-count {
+      font-family: var(--font-mono);
+      font-size: 0.6875rem;
       color: var(--text-muted);
     }
 
-    .filter-actions {
+    /* Center: Issue Archive Drawer Trigger */
+    .header-center {
       display: flex;
       align-items: center;
-      flex-wrap: wrap;
-      gap: 10px;
+      min-width: 0;
+      flex: 0 1 280px;
+      justify-content: center;
     }
 
-    /* Bilingual View Segmented Controls */
+    .issue-archive-btn {
+      width: 100%;
+      height: 32px;
+      padding: 0 10px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+      background: var(--bg-subtle);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+      font-size: 0.8125rem;
+      color: var(--text-secondary);
+      transition: all 0.15s ease;
+    }
+    .issue-archive-btn:hover {
+      background: var(--bg-surface);
+      border-color: var(--border-hover);
+      color: var(--text-primary);
+    }
+    .issue-btn-content {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      min-width: 0;
+      overflow: hidden;
+    }
+    .issue-archive-icon {
+      flex-shrink: 0;
+      color: var(--text-muted);
+    }
+    .issue-btn-text {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      font-weight: 500;
+    }
+    .issue-count-pill {
+      font-family: var(--font-mono);
+      font-size: 0.6875rem;
+      color: var(--text-muted);
+      flex-shrink: 0;
+    }
+    .issue-chevron {
+      flex-shrink: 0;
+      color: var(--text-muted);
+    }
+
+    /* Right: View Modes, Search & Theme */
+    .header-right {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-shrink: 0;
+    }
+
     .segmented-control {
       display: inline-flex;
       background: var(--bg-subtle);
-      padding: 3px;
+      padding: 2px;
       border-radius: var(--radius-md);
       border: 1px solid var(--border-color);
     }
     .segment-btn {
-      padding: 5px 12px;
-      font-size: 0.8125rem;
-      font-weight: 600;
-      border-radius: 6px;
-      color: var(--text-secondary);
+      padding: 4px 10px;
+      font-size: 0.75rem;
+      font-weight: 500;
+      border-radius: var(--radius-sm);
+      color: var(--text-muted);
       transition: all 0.15s ease;
       white-space: nowrap;
     }
@@ -437,15 +375,11 @@
     }
     .segment-btn.active {
       background: var(--bg-surface);
-      color: var(--navy-900);
+      color: var(--text-primary);
+      font-weight: 600;
       box-shadow: var(--shadow-sm);
     }
-    [data-theme="dark"] .segment-btn.active {
-      background: var(--bg-surface-elevated);
-      color: var(--sky-400);
-    }
 
-    /* Search Box */
     .search-box-wrap {
       position: relative;
       display: flex;
@@ -453,63 +387,235 @@
     }
     .search-icon {
       position: absolute;
-      left: 10px;
+      left: 8px;
       pointer-events: none;
       color: var(--text-muted);
     }
     .search-input {
-      width: 190px;
+      width: 140px;
+      height: 32px;
       background: var(--bg-subtle);
       border: 1px solid var(--border-color);
       border-radius: var(--radius-md);
-      padding: 7px 30px 7px 32px;
-      font-size: 0.8125rem;
+      padding: 0 24px 0 26px;
+      font-size: 0.75rem;
       color: var(--text-primary);
       outline: none;
       transition: all 0.2s ease;
     }
     .search-input:focus {
-      width: 230px;
-      border-color: var(--accent-blue);
+      width: 180px;
+      border-color: var(--border-active);
       background: var(--bg-surface);
-      box-shadow: 0 0 0 3px rgba(2, 132, 199, 0.15);
     }
     .search-clear-btn {
       position: absolute;
-      right: 8px;
-      width: 18px;
-      height: 18px;
+      right: 6px;
+      width: 16px;
+      height: 16px;
       display: none;
       align-items: center;
       justify-content: center;
       color: var(--text-muted);
-      border-radius: 50%;
+      font-size: 0.75rem;
     }
     .search-clear-btn:hover {
       color: var(--text-primary);
     }
 
+    .theme-toggle-btn {
+      width: 32px;
+      height: 32px;
+      border-radius: var(--radius-md);
+      border: 1px solid var(--border-color);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: var(--bg-subtle);
+      color: var(--text-secondary);
+      transition: all 0.15s ease;
+    }
+    .theme-toggle-btn:hover {
+      background: var(--bg-surface);
+      color: var(--text-primary);
+      border-color: var(--border-hover);
+    }
+
     /* ==========================================================================
-       4. Main Layout & Magazine Article Elements
+       4. Issue Archive Drawer (Plan A: Elegant Slide-over Catalog)
+       ========================================================================== */
+    .archive-backdrop {
+      position: fixed;
+      inset: 0;
+      z-index: 110;
+      background: var(--bg-backdrop);
+      backdrop-filter: blur(2px);
+      -webkit-backdrop-filter: blur(2px);
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.2s ease, visibility 0.2s ease;
+    }
+    .archive-backdrop.visible {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    .archive-drawer {
+      position: fixed;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      width: 440px;
+      max-width: 90vw;
+      z-index: 120;
+      background: var(--bg-surface);
+      border-right: 1px solid var(--border-color);
+      box-shadow: var(--shadow-drawer);
+      display: flex;
+      flex-direction: column;
+      transform: translateX(-100%);
+      transition: transform 0.24s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .archive-drawer.open {
+      transform: translateX(0);
+    }
+
+    .archive-header {
+      padding: 16px 20px;
+      border-bottom: 1px solid var(--border-color);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      background: var(--bg-surface);
+    }
+    .archive-header-info {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+    }
+    .archive-badge {
+      font-family: var(--font-mono);
+      font-size: 0.6875rem;
+      letter-spacing: 0.06em;
+      color: var(--accent-primary);
+      font-weight: 600;
+    }
+    .archive-title {
+      font-size: 1.125rem;
+      color: var(--text-primary);
+      font-family: var(--font-serif);
+      font-weight: 600;
+    }
+    .archive-close-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 6px 8px;
+      border-radius: var(--radius-sm);
+      border: 1px solid var(--border-color);
+      color: var(--text-muted);
+      font-size: 0.75rem;
+      transition: all 0.15s ease;
+    }
+    .archive-close-btn:hover {
+      background: var(--bg-subtle);
+      color: var(--text-primary);
+      border-color: var(--border-hover);
+    }
+    .esc-kbd {
+      font-family: var(--font-mono);
+      font-size: 0.625rem;
+      background: var(--bg-subtle);
+      padding: 1px 4px;
+      border-radius: 2px;
+      border: 1px solid var(--border-color);
+    }
+
+    .archive-body {
+      flex: 1;
+      overflow-y: auto;
+      padding: 12px 16px;
+    }
+    .archive-list {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+    .archive-item {
+      padding: 12px 14px;
+      border-radius: var(--radius-md);
+      border: 1px solid var(--border-color);
+      background: var(--bg-surface);
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      transition: all 0.15s ease;
+    }
+    .archive-item:hover {
+      background: var(--bg-subtle);
+      border-color: var(--border-hover);
+    }
+    .archive-item.active {
+      border-left: 3px solid var(--accent-primary);
+      background: var(--bg-active-row);
+      border-color: var(--border-hover);
+    }
+    .archive-item-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+    }
+    .archive-issue-badge {
+      font-family: var(--font-mono);
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: var(--accent-primary);
+    }
+    .archive-item-meta {
+      font-family: var(--font-mono);
+      font-size: 0.6875rem;
+      color: var(--text-muted);
+    }
+    .archive-item-title {
+      font-size: 0.9375rem;
+      font-weight: 600;
+      color: var(--text-primary);
+      line-height: 1.4;
+    }
+    .archive-item-desc {
+      font-size: 0.8125rem;
+      font-weight: var(--zh-body-weight);
+      color: var(--text-secondary);
+      line-height: 1.5;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
+    /* ==========================================================================
+       5. Main Layout & Editorial Article Elements
        ========================================================================== */
     .main-content {
       max-width: var(--content-max-w);
       margin: 0 auto;
-      padding: 28px 20px;
+      padding: 32px 16px;
       width: 100%;
       flex: 1;
     }
 
-    /* Search result indicator */
     .search-stats-banner {
       display: none;
-      background: var(--accent-badge-bg);
-      color: var(--accent-badge-text);
-      padding: 8px 16px;
+      background: var(--accent-subtle);
+      border: 1px solid var(--border-color);
+      color: var(--text-secondary);
+      padding: 8px 14px;
       border-radius: var(--radius-md);
-      font-size: 0.875rem;
-      font-weight: 500;
-      margin-bottom: 20px;
+      font-size: 0.8125rem;
+      margin-bottom: 24px;
       align-items: center;
       justify-content: space-between;
     }
@@ -517,45 +623,62 @@
       display: flex;
     }
 
-    /* Article Meta & Title */
+    /* Article Masthead (Moment 1 & Signature) */
     .article-header {
       margin-bottom: 32px;
-      border-bottom: 2px solid var(--border-color);
-      padding-bottom: 24px;
+      padding-bottom: 20px;
     }
-    .article-meta-row {
+    .masthead-meta-row {
       display: flex;
       flex-wrap: wrap;
       align-items: center;
-      gap: 12px;
-      font-size: 0.8125rem;
-      color: var(--text-secondary);
+      gap: 8px;
+      font-family: var(--font-mono);
+      font-size: 0.75rem;
+      color: var(--text-muted);
       margin-bottom: 12px;
-      font-weight: 500;
     }
-    .meta-tag {
-      display: inline-flex;
-      align-items: center;
-      gap: 5px;
-      background: var(--bg-subtle);
-      border: 1px solid var(--border-color);
-      padding: 2px 10px;
-      border-radius: var(--radius-full);
+    .masthead-tag {
+      color: var(--accent-primary);
+      font-weight: 600;
     }
     .meta-bullet {
-      color: var(--text-muted);
+      color: var(--border-hover);
     }
 
     .article-title {
-      font-size: 2.2rem;
+      font-size: 2.1rem;
       line-height: 1.25;
-      margin-bottom: 12px;
-      color: var(--text-navy);
+      margin-bottom: 16px;
+      color: var(--text-primary);
+      font-family: var(--font-serif);
+      font-weight: 600;
     }
-    @media (max-width: 640px) {
-      .article-title {
-        font-size: 1.65rem;
-      }
+
+    /* Signature Micro-Tick Hairline Ruler */
+    .masthead-scale {
+      margin: 16px 0 0;
+      padding: 8px 0;
+      border-top: 1px solid var(--border-color);
+      border-bottom: 1px solid var(--border-color);
+    }
+    .masthead-ticks {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-family: var(--font-mono);
+      font-size: 0.6875rem;
+      color: var(--text-muted);
+      letter-spacing: 0.04em;
+    }
+    .tick-mark {
+      display: block;
+      width: 1px;
+      height: 6px;
+      background: var(--border-color);
+    }
+    .tick-label {
+      font-weight: 500;
     }
 
     /* Section Styling */
@@ -564,65 +687,64 @@
     }
     .section-header {
       display: flex;
-      align-items: center;
+      align-items: baseline;
       justify-content: space-between;
-      margin-bottom: 18px;
+      margin-bottom: 16px;
+      border-bottom: 1px solid var(--border-color);
+      padding-bottom: 8px;
     }
     .section-title {
-      font-size: 1.35rem;
+      font-size: 1.2rem;
+      color: var(--text-primary);
+      font-family: var(--font-serif);
+      font-weight: 600;
       display: flex;
       align-items: center;
-      gap: 10px;
+      gap: 8px;
     }
     .section-badge {
-      font-size: 0.75rem;
-      font-weight: 600;
-      font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-      padding: 3px 8px;
-      border-radius: var(--radius-sm);
-      background: var(--bg-subtle);
-      color: var(--text-secondary);
-      border: 1px solid var(--border-color);
+      font-family: var(--font-mono);
+      font-size: 0.6875rem;
+      color: var(--text-muted);
+      font-weight: 500;
     }
 
     /* Executive Summary Card */
     .summary-card {
       background: var(--bg-surface);
       border: 1px solid var(--border-color);
-      border-left: 4px solid var(--navy-900);
-      border-radius: var(--radius-md);
-      padding: 22px 26px;
+      border-left: 3px solid var(--accent-primary);
+      border-radius: var(--radius-lg);
+      padding: 20px 24px;
       box-shadow: var(--shadow-sm);
-      margin-bottom: 24px;
-    }
-    [data-theme="dark"] .summary-card {
-      border-left-color: var(--sky-400);
+      margin-bottom: 16px;
     }
     .summary-lead {
-      font-size: 1.0625rem;
-      line-height: 1.85;
+      font-size: 1.03125rem;
+      font-weight: var(--zh-body-weight);
+      line-height: 1.8;
       color: var(--text-primary);
       text-align: justify;
     }
 
-    /* Key Takeaways Grid */
+    /* Key Takeaways Card */
     .takeaways-card {
       background: var(--bg-surface);
       border: 1px solid var(--border-color);
-      border-radius: var(--radius-md);
+      border-radius: var(--radius-lg);
       padding: 20px 24px;
       box-shadow: var(--shadow-sm);
     }
     .takeaways-heading {
-      font-size: 0.9375rem;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-      color: var(--text-secondary);
+      font-size: 0.8125rem;
+      font-weight: 600;
+      font-family: var(--font-mono);
+      letter-spacing: 0.04em;
+      color: var(--text-muted);
       margin-bottom: 14px;
       display: flex;
       align-items: center;
-      gap: 8px;
+      gap: 6px;
     }
     .takeaways-list {
       list-style: none;
@@ -631,143 +753,123 @@
     }
     .takeaway-item {
       display: flex;
-      align-items: flex-start;
+      align-items: baseline;
       gap: 12px;
-      font-size: 0.95rem;
-      line-height: 1.6;
+      font-size: 0.9375rem;
+      font-weight: var(--zh-body-weight);
+      line-height: 1.65;
       color: var(--text-primary);
     }
     .takeaway-num {
       flex-shrink: 0;
-      width: 24px;
-      height: 24px;
-      border-radius: var(--radius-full);
-      background: var(--accent-badge-bg);
-      color: var(--accent-badge-text);
+      font-family: var(--font-mono);
       font-size: 0.75rem;
-      font-weight: 700;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      margin-top: 2px;
+      font-weight: 600;
+      color: var(--accent-primary);
     }
 
     /* ==========================================================================
-       5. Highlights (Key Moments) Grid
+       6. Audio Highlights Grid (Moment 2: Pull-Quote Notes)
        ========================================================================== */
     .highlights-grid {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
       gap: 16px;
     }
-    @media (max-width: 640px) {
-      .highlights-grid {
-        grid-template-columns: 1fr;
-      }
-    }
 
     .highlight-card {
       background: var(--bg-surface);
       border: 1px solid var(--border-color);
-      border-radius: var(--radius-md);
-      padding: 18px 20px;
+      border-radius: var(--radius-lg);
+      padding: 16px 18px;
       box-shadow: var(--shadow-sm);
       display: flex;
       flex-direction: column;
-      gap: 10px;
+      gap: 8px;
       cursor: pointer;
       position: relative;
-      transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+      transition: border-color 0.15s ease, background-color 0.15s ease;
     }
     .highlight-card:hover {
-      border-color: var(--accent-blue);
-      transform: translateY(-2px);
-      box-shadow: var(--shadow-md);
+      border-color: var(--border-hover);
+      background: var(--bg-subtle);
     }
     .highlight-card.active {
-      border-color: var(--accent-blue);
+      border-left: 3px solid var(--accent-primary);
       background: var(--bg-active-row);
-      box-shadow: 0 0 0 1px var(--accent-blue), var(--shadow-md);
+      border-color: var(--border-hover);
     }
 
     .highlight-header {
       display: flex;
       align-items: center;
       justify-content: space-between;
-      gap: 10px;
+      gap: 8px;
     }
     .timestamp-badge {
       display: inline-flex;
       align-items: center;
-      gap: 6px;
-      background: var(--navy-900);
-      color: #ffffff;
-      padding: 3px 9px;
-      border-radius: var(--radius-full);
-      font-family: "SF Mono", "Fira Code", monospace;
-      font-size: 0.75rem;
+      gap: 5px;
+      background: var(--bg-subtle);
+      border: 1px solid var(--border-color);
+      color: var(--text-secondary);
+      padding: 2px 7px;
+      border-radius: var(--radius-sm);
+      font-family: var(--font-mono);
+      font-size: 0.6875rem;
       font-weight: 600;
-      letter-spacing: 0.04em;
-      transition: background-color 0.15s ease;
+      transition: all 0.15s ease;
     }
     .highlight-card:hover .timestamp-badge {
-      background: var(--accent-blue);
+      border-color: var(--accent-primary);
+      color: var(--accent-primary);
     }
-    [data-theme="dark"] .timestamp-badge {
-      background: var(--sky-500);
-      color: #070d18;
+    .highlight-card.active .timestamp-badge {
+      background: var(--accent-primary);
+      color: var(--accent-contrast);
+      border-color: var(--accent-primary);
     }
 
     .playing-indicator {
       display: none;
-      font-size: 0.7rem;
-      font-weight: 700;
-      color: var(--accent-blue);
-      text-transform: uppercase;
-      letter-spacing: 0.08em;
+      font-size: 0.6875rem;
+      font-family: var(--font-mono);
+      font-weight: 600;
+      color: var(--accent-primary);
       align-items: center;
-      gap: 5px;
+      gap: 4px;
     }
     .highlight-card.active .playing-indicator {
       display: inline-flex;
     }
 
-    .pulse-dot {
-      width: 7px;
-      height: 7px;
-      background: var(--accent-blue);
-      border-radius: 50%;
-      animation: pulse 1.5s infinite;
-    }
-    @keyframes pulse {
-      0% { transform: scale(0.95); opacity: 0.8; }
-      50% { transform: scale(1.3); opacity: 1; }
-      100% { transform: scale(0.95); opacity: 0.8; }
-    }
-
     .highlight-title {
-      font-size: 1.05rem;
-      font-weight: 700;
-      color: var(--text-navy);
+      font-size: 0.96875rem;
+      font-weight: 600;
+      color: var(--text-primary);
       line-height: 1.4;
     }
     .highlight-summary {
       font-size: 0.875rem;
+      font-weight: var(--zh-body-weight);
       color: var(--text-secondary);
       line-height: 1.6;
     }
     .highlight-quote {
-      font-size: 0.8125rem;
-      color: var(--text-muted);
+      font-family: var(--font-serif);
       font-style: italic;
-      line-height: 1.5;
-      padding-left: 10px;
-      border-left: 2px solid var(--border-color);
+      font-size: 0.8125rem;
+      line-height: 1.55;
+      color: var(--text-muted);
+      padding: 6px 10px;
+      background: var(--bg-subtle);
+      border-left: 2px solid var(--accent-primary);
+      border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
       margin-top: 4px;
     }
 
     /* ==========================================================================
-       6. Bilingual Transcript Section
+       7. Bilingual Transcript Section (Clean Sans-Serif Body)
        ========================================================================== */
     .transcript-container {
       display: flex;
@@ -778,179 +880,153 @@
     .transcript-item {
       background: var(--bg-surface);
       border: 1px solid var(--border-color);
-      border-radius: var(--radius-md);
-      padding: 16px 20px;
+      border-radius: var(--radius-lg);
+      padding: 14px 18px;
       display: flex;
       flex-direction: column;
-      gap: 8px;
+      gap: 6px;
       cursor: pointer;
       position: relative;
-      transition: background-color 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
+      transition: background-color 0.15s ease, border-color 0.15s ease;
     }
     .transcript-item:hover {
       border-color: var(--border-hover);
       background: var(--bg-subtle);
     }
     .transcript-item.active {
-      border-left: 4px solid var(--accent-blue);
+      border-left: 3px solid var(--accent-primary);
       background: var(--bg-active-row);
       border-color: var(--border-hover);
-      box-shadow: var(--shadow-sm);
     }
 
     .transcript-meta {
       display: flex;
       align-items: center;
       justify-content: space-between;
-      gap: 10px;
+      gap: 8px;
     }
     .meta-left {
       display: flex;
       align-items: center;
-      gap: 10px;
+      gap: 8px;
     }
 
+    /* Speaker Badges (Subdued Low-Saturation Inks, No Pill Overkill) */
     .speaker-badge {
       font-size: 0.75rem;
-      font-weight: 700;
-      padding: 2px 9px;
-      border-radius: var(--radius-full);
-      border: 1px solid transparent;
-      letter-spacing: 0.02em;
+      font-weight: 600;
+      padding: 1px 6px;
+      border-radius: var(--radius-sm);
+      border: 1px solid var(--border-color);
       white-space: nowrap;
+      letter-spacing: 0.01em;
     }
-    .spk-jon {
-      background: var(--spk-jon-bg);
-      color: var(--spk-jon-text);
-      border-color: var(--spk-jon-border);
-    }
-    .spk-brian {
-      background: var(--spk-brian-bg);
-      color: var(--spk-brian-text);
-      border-color: var(--spk-brian-border);
-    }
-    .spk-brett {
-      background: var(--spk-brett-bg);
-      color: var(--spk-brett-text);
-      border-color: var(--spk-brett-border);
-    }
-    .spk-guest {
-      background: var(--spk-guest-bg);
-      color: var(--spk-guest-text);
-      border-color: var(--spk-guest-border);
-    }
-    .spk-kaiser {
-      background: var(--spk-kaiser-bg);
-      color: var(--spk-kaiser-text);
-      border-color: var(--spk-kaiser-border);
-    }
-    .spk-dyn-0 { background: var(--spk-dyn-0-bg); color: var(--spk-dyn-0-text); border-color: var(--spk-dyn-0-border); }
-    .spk-dyn-1 { background: var(--spk-dyn-1-bg); color: var(--spk-dyn-1-text); border-color: var(--spk-dyn-1-border); }
-    .spk-dyn-2 { background: var(--spk-dyn-2-bg); color: var(--spk-dyn-2-text); border-color: var(--spk-dyn-2-border); }
-    .spk-dyn-3 { background: var(--spk-dyn-3-bg); color: var(--spk-dyn-3-text); border-color: var(--spk-dyn-3-border); }
-    .spk-dyn-4 { background: var(--spk-dyn-4-bg); color: var(--spk-dyn-4-text); border-color: var(--spk-dyn-4-border); }
-    .spk-dyn-5 { background: var(--spk-dyn-5-bg); color: var(--spk-dyn-5-text); border-color: var(--spk-dyn-5-border); }
-    .spk-dyn-6 { background: var(--spk-dyn-6-bg); color: var(--spk-dyn-6-text); border-color: var(--spk-dyn-6-border); }
-    .spk-dyn-7 { background: var(--spk-dyn-7-bg); color: var(--spk-dyn-7-text); border-color: var(--spk-dyn-7-border); }
+    .spk-jon { color: var(--spk-jon-color); border-color: var(--spk-jon-border); background: var(--spk-jon-bg); }
+    .spk-brian { color: var(--spk-brian-color); border-color: var(--spk-brian-border); background: var(--spk-brian-bg); }
+    .spk-brett { color: var(--spk-brett-color); border-color: var(--spk-brett-border); background: var(--spk-brett-bg); }
+    .spk-kaiser { color: var(--spk-kaiser-color); border-color: var(--spk-kaiser-border); background: var(--spk-kaiser-bg); }
+
+    .spk-dyn-0 { color: var(--spk-dyn-0-color); border-color: var(--spk-dyn-0-border); background: var(--spk-dyn-0-bg); }
+    .spk-dyn-1 { color: var(--spk-dyn-1-color); border-color: var(--spk-dyn-1-border); background: var(--spk-dyn-1-bg); }
+    .spk-dyn-2 { color: var(--spk-dyn-2-color); border-color: var(--spk-dyn-2-border); background: var(--spk-dyn-2-bg); }
+    .spk-dyn-3 { color: var(--spk-dyn-3-color); border-color: var(--spk-dyn-3-border); background: var(--spk-dyn-3-bg); }
 
     .time-seek-btn {
-      font-family: "SF Mono", "Fira Code", monospace;
-      font-size: 0.75rem;
+      font-family: var(--font-mono);
+      font-size: 0.6875rem;
       color: var(--text-muted);
       background: var(--bg-subtle);
-      padding: 2px 8px;
+      border: 1px solid var(--border-color);
+      padding: 1px 6px;
       border-radius: var(--radius-sm);
       display: inline-flex;
       align-items: center;
-      gap: 4px;
+      gap: 3px;
       transition: all 0.15s ease;
     }
     .time-seek-btn:hover,
     .transcript-item:hover .time-seek-btn {
-      color: #ffffff;
-      background: var(--accent-blue);
+      color: var(--accent-primary);
+      border-color: var(--accent-primary);
     }
     .transcript-item.active .time-seek-btn {
-      background: var(--accent-blue);
-      color: #ffffff;
+      background: var(--accent-primary);
+      color: var(--accent-contrast);
+      border-color: var(--accent-primary);
       font-weight: 600;
     }
 
+    /* Paragraph Text Stacks (Constraint 4) */
     .transcript-en {
-      font-size: 0.96875rem;
-      line-height: 1.65;
+      font-size: 0.9375rem;
+      line-height: 1.6;
       color: var(--text-secondary);
-      font-family: "Charter", "Georgia", serif;
+      font-family: var(--font-sans);
     }
     .transcript-zh {
-      font-size: 0.984375rem;
-      line-height: 1.75;
+      font-size: 1.03125rem;
+      font-weight: var(--zh-body-weight);
+      line-height: 1.78;
       color: var(--text-primary);
+      font-family: var(--font-sans);
     }
 
-    /* Language View Mode visibility rules */
-    [data-lang-mode="zh"] .transcript-en {
-      display: none !important;
-    }
-    [data-lang-mode="en"] .transcript-zh {
-      display: none !important;
-    }
+    /* View Mode Toggles */
+    [data-lang-mode="zh"] .transcript-en { display: none !important; }
+    [data-lang-mode="en"] .transcript-zh { display: none !important; }
 
-    /* Search match & filter */
+    /* Search Highlighting */
     mark.search-match {
-      background: #fef08a;
-      color: #713f12;
-      padding: 1px 3px;
-      border-radius: 3px;
+      background: var(--accent-tint);
+      color: var(--accent-primary);
+      border-bottom: 2px solid var(--accent-primary);
+      padding: 1px 2px;
+      border-radius: var(--radius-xs);
       font-weight: 600;
     }
-    [data-theme="dark"] mark.search-match {
-      background: #854d0e;
-      color: #fef08a;
-    }
-    .is-search-hidden {
-      display: none !important;
-    }
+    .is-search-hidden { display: none !important; }
 
     /* ==========================================================================
-       7. Floating Audio Bar (Bottom Sticky)
+       8. Floating Sticky Audio Bar (Slim 60px Profile)
        ========================================================================== */
     .audio-player-bar {
       position: fixed;
       bottom: 0;
       left: 0;
       right: 0;
-      z-index: 100;
+      height: var(--player-h);
+      z-index: 90;
       background: var(--bg-surface);
       border-top: 1px solid var(--border-color);
       box-shadow: var(--shadow-player);
-      padding: 10px 16px;
+      padding: 0 16px;
       backdrop-filter: blur(16px);
       -webkit-backdrop-filter: blur(16px);
-      transition: background-color 0.25s ease, border-color 0.25s ease;
     }
 
     .player-container {
       max-width: var(--content-max-w);
       margin: 0 auto;
+      height: 100%;
       display: flex;
       flex-direction: column;
-      gap: 6px;
+      justify-content: center;
+      gap: 4px;
     }
 
-    /* Row 1: Scrubber and time */
+    /* Scrubber Track */
     .player-scrub-row {
       display: flex;
       align-items: center;
-      gap: 12px;
+      gap: 10px;
       width: 100%;
     }
     .player-time {
-      font-family: "SF Mono", "Fira Code", monospace;
-      font-size: 0.75rem;
+      font-family: var(--font-mono);
+      font-size: 0.6875rem;
       font-weight: 500;
       color: var(--text-muted);
-      min-width: 42px;
+      min-width: 38px;
     }
     .player-time.time-current {
       text-align: right;
@@ -961,88 +1037,75 @@
       flex: 1;
       display: flex;
       align-items: center;
-      position: relative;
     }
     .scrub-slider {
       width: 100%;
-      height: 6px;
+      height: 4px;
       -webkit-appearance: none;
       appearance: none;
       background: var(--border-color);
-      border-radius: 3px;
+      border-radius: 2px;
       outline: none;
       cursor: pointer;
       transition: height 0.15s ease;
     }
     .scrub-slider:hover {
-      height: 8px;
+      height: 6px;
     }
     .scrub-slider::-webkit-slider-thumb {
       -webkit-appearance: none;
       appearance: none;
-      width: 14px;
-      height: 14px;
+      width: 12px;
+      height: 12px;
       border-radius: 50%;
-      background: var(--accent-blue);
+      background: var(--accent-primary);
       cursor: pointer;
-      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
-      transition: transform 0.1s ease;
-    }
-    .scrub-slider::-webkit-slider-thumb:hover {
-      transform: scale(1.2);
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+      border: 2px solid var(--bg-surface);
     }
     .scrub-slider::-moz-range-thumb {
-      width: 14px;
-      height: 14px;
-      border: none;
+      width: 12px;
+      height: 12px;
       border-radius: 50%;
-      background: var(--accent-blue);
+      background: var(--accent-primary);
       cursor: pointer;
-      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+      border: 2px solid var(--bg-surface);
     }
 
-    /* Row 2: Controls & Info */
+    /* Controls & Track Metadata */
     .player-controls-row {
       display: flex;
       align-items: center;
       justify-content: space-between;
       gap: 12px;
     }
-
     .player-info {
       flex: 1 1 200px;
       min-width: 0;
       display: flex;
-      flex-direction: column;
-      gap: 2px;
+      align-items: center;
+      gap: 8px;
     }
     .player-episode-title {
-      font-size: 0.8125rem;
+      font-size: 0.78125rem;
       font-weight: 600;
-      color: var(--text-navy);
+      color: var(--text-primary);
       white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis;
     }
     .player-speaker-wrap {
-      display: flex;
-      align-items: center;
-      gap: 6px;
-      font-size: 0.71875rem;
-      color: var(--text-secondary);
-    }
-    .player-live-dot {
-      width: 6px;
-      height: 6px;
-      background: #10b981;
-      border-radius: 50%;
+      font-family: var(--font-mono);
+      font-size: 0.6875rem;
+      color: var(--text-muted);
+      white-space: nowrap;
     }
 
-    /* Center Control Buttons */
+    /* Playback Buttons */
     .player-main-btns {
       display: flex;
       align-items: center;
-      gap: 12px;
+      gap: 8px;
       justify-content: center;
     }
     .ctrl-btn {
@@ -1050,7 +1113,7 @@
       align-items: center;
       justify-content: center;
       color: var(--text-secondary);
-      border-radius: var(--radius-full);
+      border-radius: var(--radius-md);
       transition: all 0.15s ease;
     }
     .ctrl-btn:hover {
@@ -1058,172 +1121,82 @@
       background: var(--bg-subtle);
     }
     .btn-step {
-      width: 36px;
-      height: 36px;
+      width: 28px;
+      height: 28px;
     }
     .btn-play-pause {
-      width: 44px;
-      height: 44px;
-      background: var(--navy-900);
-      color: #ffffff;
-      box-shadow: 0 2px 8px rgba(10, 37, 64, 0.25);
+      width: 34px;
+      height: 34px;
+      background: var(--accent-primary);
+      color: var(--accent-contrast);
+      border-radius: 50%;
+      box-shadow: var(--shadow-sm);
     }
     .btn-play-pause:hover {
-      background: var(--accent-blue);
-      color: #ffffff;
-      transform: scale(1.04);
-    }
-    [data-theme="dark"] .btn-play-pause {
-      background: var(--sky-500);
-      color: #070d18;
-    }
-    [data-theme="dark"] .btn-play-pause:hover {
-      background: var(--sky-400);
-      color: #070d18;
+      opacity: 0.92;
+      background: var(--accent-primary);
+      color: var(--accent-contrast);
     }
 
-    /* Right Extra Controls */
     .player-extra-btns {
       flex: 1 1 200px;
       display: flex;
       align-items: center;
       justify-content: flex-end;
-      gap: 8px;
+      gap: 6px;
     }
     .btn-speed {
-      padding: 4px 8px;
+      padding: 2px 7px;
       border-radius: var(--radius-sm);
       border: 1px solid var(--border-color);
-      font-size: 0.75rem;
+      font-size: 0.6875rem;
+      font-family: var(--font-mono);
       font-weight: 600;
-      font-family: "SF Mono", monospace;
       color: var(--text-secondary);
       background: var(--bg-subtle);
-      transition: all 0.15s ease;
     }
     .btn-speed:hover {
-      border-color: var(--accent-blue);
-      color: var(--accent-blue);
+      border-color: var(--border-hover);
+      color: var(--text-primary);
     }
-
     .btn-autoscroll {
       display: inline-flex;
       align-items: center;
-      gap: 5px;
-      padding: 4px 10px;
-      border-radius: var(--radius-full);
+      gap: 4px;
+      padding: 2px 8px;
+      border-radius: var(--radius-sm);
       border: 1px solid var(--border-color);
-      font-size: 0.75rem;
-      font-weight: 600;
+      font-size: 0.6875rem;
+      font-weight: 500;
       color: var(--text-secondary);
       background: var(--bg-subtle);
-      transition: all 0.15s ease;
     }
     .btn-autoscroll:hover {
       border-color: var(--border-hover);
     }
     .btn-autoscroll.active {
-      background: var(--accent-badge-bg);
-      color: var(--accent-badge-text);
-      border-color: var(--accent-blue);
-    }
-    .autoscroll-dot {
-      width: 6px;
-      height: 6px;
-      border-radius: 50%;
-      background: var(--text-muted);
-    }
-    .btn-autoscroll.active .autoscroll-dot {
-      background: var(--accent-blue);
+      background: var(--accent-tint);
+      color: var(--accent-primary);
+      border-color: var(--accent-primary);
     }
 
-    /* Mobile Responsive Optimizations (< 640px & 375px) */
-    @media (max-width: 640px) {
-      :root {
-        --player-h: 98px;
-      }
-      .header-top {
-        padding: 8px 14px;
-      }
-      .brand-title {
-        font-size: 1.1rem;
-      }
-      .controls-inner {
-        padding: 8px 14px;
-        gap: 8px;
-      }
-      .episode-picker-wrap {
-        flex: 1 1 100%;
-      }
-      .filter-actions {
-        width: 100%;
-        justify-content: space-between;
-      }
-      .search-box-wrap {
-        flex: 1;
-      }
-      .search-input {
-        width: 100%;
-      }
-      .search-input:focus {
-        width: 100%;
-      }
-      .main-content {
-        padding: 16px 14px;
-      }
-      .summary-card {
-        padding: 16px 18px;
-      }
-      .takeaways-card {
-        padding: 16px 18px;
-      }
-      .transcript-item {
-        padding: 14px 16px;
-      }
-      
-      /* Audio player mobile optimization */
-      .audio-player-bar {
-        padding: 8px 12px;
-      }
-      .player-controls-row {
-        gap: 6px;
-      }
-      .player-info {
-        flex: 1 1 120px;
-      }
-      .player-extra-btns {
-        flex: 0 0 auto;
-        gap: 6px;
-      }
-      .autoscroll-text {
-        display: none;
-      }
-      .btn-autoscroll {
-        padding: 4px 6px;
-      }
-      .btn-speed {
-        padding: 4px 6px;
-      }
-      .player-main-btns {
-        gap: 8px;
-      }
-    }
-
-    /* Loading and Error States */
+    /* ==========================================================================
+       9. State Views & Responsive Layout (< 640px)
+       ========================================================================== */
     .state-banner {
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      min-height: 360px;
+      min-height: 280px;
       text-align: center;
-      gap: 16px;
+      gap: 12px;
     }
     .spinner {
-      width: 40px;
-      height: 40px;
-      border: 3px solid var(--border-color);
-      border-top-color: var(--accent-blue);
+      width: 32px;
+      height: 32px;
+      border: 2px solid var(--border-color);
+      border-top-color: var(--accent-primary);
       border-radius: 50%;
       animation: spin 0.8s linear infinite;
     }
@@ -1232,97 +1205,191 @@
     }
     .btn-retry {
       background: var(--accent-primary);
-      color: #ffffff;
-      padding: 8px 20px;
+      color: var(--accent-contrast);
+      padding: 6px 16px;
       border-radius: var(--radius-md);
-      font-weight: 600;
-      font-size: 0.875rem;
-      transition: background 0.15s ease, opacity 0.15s ease;
+      font-weight: 500;
+      font-size: 0.8125rem;
+      transition: opacity 0.15s ease;
     }
     .btn-retry:hover {
       opacity: 0.9;
     }
-    [data-theme="dark"] .btn-retry {
-      background: var(--accent-primary);
-      color: #070d18;
-    }
 
-    /* Empty State Card */
     .empty-state-card {
-      padding: 50px 24px;
-      max-width: 580px;
+      padding: 40px 24px;
+      max-width: 520px;
       margin: 32px auto;
       background: var(--bg-surface);
       border: 1px solid var(--border-color);
-      border-radius: var(--radius-lg);
-      box-shadow: var(--shadow-sm);
+      border-radius: var(--radius-xl);
       text-align: center;
       display: flex;
       flex-direction: column;
       align-items: center;
       gap: 12px;
-      min-height: auto;
     }
     .empty-icon-wrap {
-      width: 64px;
-      height: 64px;
-      margin-bottom: 6px;
-      border-radius: var(--radius-full);
+      width: 48px;
+      height: 48px;
+      border-radius: var(--radius-md);
       background: var(--bg-subtle);
       border: 1px solid var(--border-color);
-      color: var(--accent-primary);
+      color: var(--text-muted);
       display: flex;
       align-items: center;
       justify-content: center;
     }
     .empty-title {
-      font-size: 1.25rem;
-      font-weight: 700;
-      color: var(--text-navy);
+      font-size: 1.125rem;
+      color: var(--text-primary);
     }
     .empty-desc {
-      font-size: 0.875rem;
+      font-size: 0.8125rem;
       color: var(--text-secondary);
       line-height: 1.6;
-      max-width: 480px;
     }
     .empty-meta-box {
-      margin-top: 6px;
-      padding: 6px 14px;
-      background: var(--bg-subtle);
-      border-radius: var(--radius-md);
-      font-size: 0.78rem;
-      font-family: "SF Mono", "Fira Code", monospace;
+      font-family: var(--font-mono);
+      font-size: 0.75rem;
       color: var(--text-muted);
-      word-break: break-all;
-      border: 1px solid var(--border-color);
+    }
+
+    @media (max-width: 960px) {
+      .brand-name {
+        display: none;
+      }
+      .header-center {
+        max-width: 220px;
+      }
+      .search-input {
+        width: 80px;
+      }
+      .search-input:focus {
+        width: 140px;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .header-center {
+        max-width: 170px;
+      }
+      .issue-btn-text {
+        font-size: 0.8125rem;
+      }
+      .podcast-nav-tab {
+        padding: 4px 8px;
+        font-size: 0.75rem;
+      }
+    }
+
+    @media (max-width: 640px) {
+      .header-inner {
+        padding: 0 12px;
+        gap: 8px;
+      }
+      .brand-name {
+        display: none;
+      }
+      .podcast-nav-tabs {
+        padding-left: 8px;
+        margin-left: 0;
+      }
+      .header-center {
+        max-width: 140px;
+      }
+      .issue-btn-text {
+        font-size: 0.75rem;
+      }
+      .search-input {
+        width: 32px;
+        padding: 0 8px 0 24px;
+      }
+      .search-input:focus {
+        width: 110px;
+      }
+      .article-title {
+        font-size: 1.55rem;
+      }
+      .highlights-grid {
+        grid-template-columns: 1fr;
+      }
+      .player-info {
+        flex: 1 1 100px;
+      }
+      .player-speaker-wrap {
+        display: none;
+      }
+      .archive-drawer {
+        width: 100vw;
+        max-width: 100vw;
+      }
     }
   </style>
 </head>
 <body data-lang-mode="bilingual">
 
-  <!-- 1. Header & Navigation -->
+  <!-- ==========================================================================
+       Header: Single Compact Editorial Header
+       ========================================================================== -->
   <header class="app-header">
-    <div class="header-top">
-      <a href="#" class="brand-group" id="brand-link" aria-label="播客双语精读首页">
-        <div class="brand-icon" id="brand-icon">
-          <!-- Universal Podcast icon -->
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z"/>
-            <path d="M19 10v2a7 7 0 0 1-14 0v-2"/>
-            <line x1="12" x2="12" y1="19" y2="22"/>
+    <div class="header-inner">
+      <!-- Left: Brand & Show Switcher Tabs -->
+      <div class="header-left">
+        <a href="#" class="brand-link" id="brand-link" aria-label="播客双语精读首页">
+          <svg class="brand-logo-svg" width="24" height="24" viewBox="0 0 32 32" aria-hidden="true">
+            <rect width="32" height="32" rx="7" fill="var(--accent-primary)" />
+            <rect x="6" y="12" width="2.6" height="8" rx="1.3" fill="var(--accent-contrast)" />
+            <rect x="10.2" y="8" width="2.6" height="16" rx="1.3" fill="var(--accent-contrast)" />
+            <rect x="14.4" y="10.5" width="2.6" height="11" rx="1.3" fill="var(--accent-contrast)" />
+            <rect x="19.2" y="9.5" width="7" height="2.4" rx="1.2" fill="var(--accent-contrast)" opacity="0.92" />
+            <rect x="19.2" y="14.8" width="7" height="2.4" rx="1.2" fill="var(--accent-contrast)" opacity="0.92" />
+            <rect x="19.2" y="20.1" width="4.8" height="2.4" rx="1.2" fill="var(--accent-contrast)" opacity="0.78" />
           </svg>
-        </div>
-        <div class="brand-title">
-          <span id="brand-show-title">The Air Show</span>
-          <span class="brand-sub" id="brand-site-title">精读 · 双语同步</span>
-        </div>
-      </a>
+          <span class="brand-name" id="brand-show-title">The Air Show</span>
+        </a>
 
-      <div class="header-actions">
+        <nav class="podcast-nav-tabs" id="podcast-tabs" role="tablist" aria-label="播客节目切换">
+          <!-- Dynamically populated from shows.json -->
+        </nav>
+      </div>
+
+      <!-- Center: Issue Archive Drawer Trigger -->
+      <div class="header-center">
+        <button type="button" class="issue-archive-btn" id="issue-archive-btn" aria-haspopup="dialog" aria-expanded="false" title="打开单集目录 (Issue Archive)">
+          <div class="issue-btn-content">
+            <svg class="issue-archive-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+              <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+            </svg>
+            <span class="issue-btn-text" id="header-issue-title">选集目录</span>
+          </div>
+          <span class="issue-count-pill" id="header-issue-count">-</span>
+          <svg class="issue-chevron" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="6 9 12 15 18 9"></polyline>
+          </svg>
+        </button>
+      </div>
+
+      <!-- Right: Bilingual Control, Search & Theme Toggle -->
+      <div class="header-right">
+        <div class="segmented-control" role="group" aria-label="双语显示模式切换">
+          <button type="button" class="segment-btn active" data-mode="bilingual">双语</button>
+          <button type="button" class="segment-btn" data-mode="zh">中文</button>
+          <button type="button" class="segment-btn" data-mode="en">英文</button>
+        </div>
+
+        <div class="search-box-wrap">
+          <svg class="search-icon" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+          <input type="search" id="search-input" class="search-input" placeholder="搜索..." aria-label="搜索关键词过滤" />
+          <button type="button" id="search-clear-btn" class="search-clear-btn" aria-label="清除搜索">✕</button>
+        </div>
+
         <button type="button" class="theme-toggle-btn" id="theme-toggle-btn" title="切换深浅主题" aria-label="切换主题">
-          <!-- Sun icon (for dark mode) -->
-          <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display: none;">
+          <svg class="icon-sun" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display: none;">
             <circle cx="12" cy="12" r="5"></circle>
             <line x1="12" y1="1" x2="12" y2="3"></line>
             <line x1="12" y1="21" x2="12" y2="23"></line>
@@ -1333,82 +1400,70 @@
             <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
             <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
           </svg>
-          <!-- Moon icon (for light mode) -->
-          <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <svg class="icon-moon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
             <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
           </svg>
         </button>
       </div>
     </div>
-
-    <!-- Podcast Switcher Tabs -->
-    <nav class="podcast-nav-bar" aria-label="播客节目切换">
-      <div class="podcast-nav-inner" id="podcast-tabs" role="tablist">
-        <!-- Dynamically rendered via shows.json -->
-      </div>
-    </nav>
-
-    <div class="controls-bar" id="controls-bar">
-      <div class="controls-inner">
-        <!-- Episode Dropdown -->
-        <div class="episode-picker-wrap">
-          <select id="episode-select" class="episode-select" aria-label="选择播客单集">
-            <option value="">正在加载单集目录...</option>
-          </select>
-          <svg class="select-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <polyline points="6 9 12 15 18 9"></polyline>
-          </svg>
-        </div>
-
-        <div class="filter-actions">
-          <!-- Bilingual View Switcher -->
-          <div class="segmented-control" role="group" aria-label="双语显示模式切换">
-            <button type="button" class="segment-btn active" data-mode="bilingual">双语对照</button>
-            <button type="button" class="segment-btn" data-mode="zh">仅中文</button>
-            <button type="button" class="segment-btn" data-mode="en">仅英文</button>
-          </div>
-
-          <!-- Keyword Filter Input -->
-          <div class="search-box-wrap">
-            <svg class="search-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <circle cx="11" cy="11" r="8"></circle>
-              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-            </svg>
-            <input type="search" id="search-input" class="search-input" placeholder="搜索关键词..." aria-label="搜索关键词过滤" />
-            <button type="button" id="search-clear-btn" class="search-clear-btn" aria-label="清除搜索">✕</button>
-          </div>
-        </div>
-      </div>
-    </div>
   </header>
 
-  <!-- 2. Main Article Content Container -->
+  <!-- Backward-compatibility hidden select for test harnesses if any -->
+  <select id="episode-select" style="display: none;" aria-hidden="true"></select>
+
+  <!-- ==========================================================================
+       Issue Archive Drawer (Plan A Modal / Slide-over)
+       ========================================================================== -->
+  <div class="archive-backdrop" id="archive-backdrop" aria-hidden="true"></div>
+  <aside class="archive-drawer" id="archive-drawer" role="dialog" aria-modal="true" aria-label="往期选集目录">
+    <div class="archive-header">
+      <div class="archive-header-info">
+        <span class="archive-badge" id="archive-show-tag">ISSUE ARCHIVE</span>
+        <h3 class="archive-title" id="archive-show-title">往期选集目录</h3>
+      </div>
+      <button type="button" class="archive-close-btn" id="archive-close-btn" title="关闭目录 (Esc)" aria-label="关闭选集目录">
+        <span class="esc-kbd">ESC</span>
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+    </div>
+    <div class="archive-body" id="archive-body">
+      <div class="archive-list" id="archive-list" role="list">
+        <!-- Dynamically rendered episode cards -->
+      </div>
+    </div>
+  </aside>
+
+  <!-- ==========================================================================
+       Main Content Container
+       ========================================================================== -->
   <main class="main-content" id="main-content">
     
     <!-- Loading State -->
     <div id="loading-state" class="state-banner">
       <div class="spinner"></div>
-      <p style="color: var(--text-secondary); font-size: 0.9375rem;">正在加载单集总目录...</p>
+      <p style="color: var(--text-secondary); font-size: 0.875rem;">正在加载单集总目录...</p>
     </div>
 
     <!-- Error State -->
     <div id="error-state" class="state-banner" style="display: none;">
-      <h3 style="color: #ef4444; font-size: 1.2rem;">数据加载失败</h3>
-      <p id="error-message" style="color: var(--text-secondary); max-width: 480px;"></p>
+      <h3 style="color: #ef4444; font-size: 1.125rem;">数据加载失败</h3>
+      <p id="error-message" style="color: var(--text-secondary); max-width: 440px; font-size: 0.875rem;"></p>
       <button type="button" class="btn-retry" id="btn-retry">重新加载</button>
     </div>
 
-    <!-- Empty State (When show has 0 episodes) -->
+    <!-- Empty State -->
     <div id="empty-state" class="state-banner empty-state-card" style="display: none;">
       <div class="empty-icon-wrap">
-        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-          <path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z"/>
-          <path d="M19 10v2a7 7 0 0 1-14 0v-2"/>
-          <line x1="12" x2="12" y1="19" y2="22"/>
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+          <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
         </svg>
       </div>
       <h3 class="empty-title" id="empty-show-title">该播客暂未收录单集</h3>
-      <p class="empty-desc" id="empty-show-desc">该播客已完成配置入库，但暂未收录已转写的精读单集。请通过 GitHub Actions 工作流手动调度抓取，或等待定时巡检自动更新。</p>
+      <p class="empty-desc" id="empty-show-desc">该播客已完成配置入库，但暂未收录已转写的精读单集。可通过工作流调度抓取，或等待定时巡检自动更新。</p>
       <div class="empty-meta-box">
         <span id="empty-rss-link">RSS: -</span>
       </div>
@@ -1419,21 +1474,21 @@
       <!-- Search Banner -->
       <div id="search-stats-banner" class="search-stats-banner">
         <span id="search-stats-text">找到 0 处匹配</span>
-        <button type="button" id="search-reset-link" style="color: inherit; text-decoration: underline; font-weight: 600; font-size: 0.8125rem;">清除过滤</button>
+        <button type="button" id="search-reset-link" style="color: inherit; text-decoration: underline; font-weight: 500; font-size: 0.75rem;">清除过滤</button>
       </div>
 
-      <!-- Article Header -->
+      <!-- Masthead Header (Moment 1 & Signature) -->
       <article class="article-header">
-        <div class="article-meta-row">
-          <span class="meta-tag" id="meta-podcast-title">The Air Show</span>
+        <div class="masthead-meta-row tnum">
+          <span class="masthead-tag" id="meta-podcast-title">The Air Show</span>
           <span class="meta-bullet">•</span>
           <span id="meta-pub-date">2026-11-19</span>
           <span class="meta-bullet">•</span>
           <span id="meta-duration">35分20秒</span>
           <span class="meta-bullet">•</span>
-          <a id="meta-audio-link" href="#" target="_blank" rel="noopener noreferrer" style="display: inline-flex; align-items: center; gap: 4px;">
+          <a id="meta-audio-link" href="#" target="_blank" rel="noopener noreferrer" style="display: inline-flex; align-items: center; gap: 3px;">
             原声 MP3
-            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
               <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
               <polyline points="15 3 21 3 21 9"></polyline>
               <line x1="10" y1="14" x2="21" y2="3"></line>
@@ -1441,15 +1496,31 @@
           </a>
         </div>
         <h1 class="article-title" id="episode-title">Singapore's Brand and Network Struggles</h1>
+
+        <!-- Acoustic Micro-Tick Hairline Ruler -->
+        <div class="masthead-scale" aria-hidden="true">
+          <div class="masthead-ticks tnum" id="masthead-ticks">
+            <span class="tick-label">00:00</span>
+            <span class="tick-mark"></span>
+            <span class="tick-mark"></span>
+            <span class="tick-label">10:00</span>
+            <span class="tick-mark"></span>
+            <span class="tick-mark"></span>
+            <span class="tick-label">20:00</span>
+            <span class="tick-mark"></span>
+            <span class="tick-mark"></span>
+            <span class="tick-label">30:00</span>
+            <span class="tick-mark"></span>
+            <span class="tick-label" id="masthead-scale-end">35:20</span>
+          </div>
+        </div>
       </article>
 
       <!-- Section: Executive Summary & Takeaways -->
       <section class="section-wrap" aria-labelledby="heading-summary">
         <div class="section-header">
-          <h2 class="section-title" id="heading-summary">
-            核心导读 · Executive Summary
-          </h2>
-          <span class="section-badge">中文要点</span>
+          <h2 class="section-title" id="heading-summary">导读摘要 · Executive Summary</h2>
+          <span class="section-badge">核心提要</span>
         </div>
 
         <div class="summary-card">
@@ -1458,7 +1529,7 @@
 
         <div class="takeaways-card">
           <div class="takeaways-heading">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
               <polyline points="9 11 12 14 22 4"></polyline>
               <path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"></path>
             </svg>
@@ -1470,13 +1541,11 @@
         </div>
       </section>
 
-      <!-- Section: Highlights (Key Moments) -->
+      <!-- Section: Highlights (Moment 2: Pull-Quote Audio Cards) -->
       <section class="section-wrap" aria-labelledby="heading-highlights">
         <div class="section-header">
-          <h2 class="section-title" id="heading-highlights">
-            精选原声 · Audio Highlights
-          </h2>
-          <span class="section-badge" id="highlights-count-badge">- 个片段</span>
+          <h2 class="section-title" id="heading-highlights">精选原声 · Audio Highlights</h2>
+          <span class="section-badge tnum" id="highlights-count-badge">- 个片段</span>
         </div>
         <div class="highlights-grid" id="highlights-grid">
           <!-- Dynamically populated -->
@@ -1486,10 +1555,8 @@
       <!-- Section: Full Bilingual Transcript -->
       <section class="section-wrap" aria-labelledby="heading-transcript">
         <div class="section-header">
-          <h2 class="section-title" id="heading-transcript">
-            中英双语逐字稿 · Transcript
-          </h2>
-          <span class="section-badge" id="transcript-count-badge">- 段落</span>
+          <h2 class="section-title" id="heading-transcript">中英双语逐字稿 · Transcript</h2>
+          <span class="section-badge tnum" id="transcript-count-badge">- 段落</span>
         </div>
         <div class="transcript-container" id="transcript-container">
           <!-- Dynamically populated -->
@@ -1498,89 +1565,77 @@
     </div>
   </main>
 
-  <!-- 3. Floating Sticky Audio Player -->
+  <!-- ==========================================================================
+       Floating Sticky Audio Player
+       ========================================================================== -->
   <footer class="audio-player-bar" id="audio-player-bar" style="display: none;">
     <div class="player-container">
-      <!-- Row 1: Scrubber and time labels -->
       <div class="player-scrub-row">
-        <span class="player-time time-current" id="time-current">00:00</span>
+        <span class="player-time time-current tnum" id="time-current">00:00</span>
         <div class="scrub-track-wrap">
           <input type="range" id="seek-slider" class="scrub-slider" min="0" max="100" value="0" step="0.1" aria-label="音频播放进度" />
         </div>
-        <span class="player-time" id="time-total">00:00</span>
+        <span class="player-time tnum" id="time-total">00:00</span>
       </div>
 
-      <!-- Row 2: Controls & Info -->
       <div class="player-controls-row">
-        <!-- Left: Mini info -->
         <div class="player-info">
-          <div class="player-episode-title" id="player-ep-title">-</div>
-          <div class="player-speaker-wrap">
-            <span class="player-live-dot"></span>
-            <span id="player-speaker-name">就绪</span>
-          </div>
+          <span class="player-episode-title" id="player-ep-title">-</span>
+          <span class="player-speaker-wrap" id="player-speaker-name">就绪</span>
         </div>
 
-        <!-- Center: Playback controls -->
         <div class="player-main-btns">
           <button type="button" class="ctrl-btn btn-step" id="btn-rewind" title="后退 15 秒" aria-label="后退 15 秒">
-            <!-- 15s Rewind SVG -->
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
               <path d="M11 17l-5-5 5-5M18 17l-5-5 5-5"/>
             </svg>
           </button>
 
           <button type="button" class="ctrl-btn btn-play-pause" id="btn-play-pause" title="播放 / 暂停" aria-label="播放">
-            <!-- Play icon -->
-            <svg id="icon-play" width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+            <svg id="icon-play" width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
               <polygon points="5 3 19 12 5 21 5 3"></polygon>
             </svg>
-            <!-- Pause icon -->
-            <svg id="icon-pause" width="22" height="22" viewBox="0 0 24 24" fill="currentColor" style="display: none;">
+            <svg id="icon-pause" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="display: none;">
               <rect x="6" y="4" width="4" height="16"></rect>
               <rect x="14" y="4" width="4" height="16"></rect>
             </svg>
           </button>
 
           <button type="button" class="ctrl-btn btn-step" id="btn-forward" title="快进 15 秒" aria-label="快进 15 秒">
-            <!-- 15s Forward SVG -->
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
               <path d="M13 17l5-5-5-5M6 17l5-5-5-5"/>
             </svg>
           </button>
         </div>
 
-        <!-- Right: Extra controls -->
         <div class="player-extra-btns">
-          <button type="button" class="btn-speed" id="btn-speed" title="切换播放速度 (1.0x / 1.25x / 1.5x / 2.0x)" aria-label="播放倍速 1.0x">
+          <button type="button" class="btn-speed tnum" id="btn-speed" title="切换播放速度 (1.0x / 1.25x / 1.5x / 2.0x)" aria-label="播放倍速 1.0x">
             1.0x
           </button>
-
           <button type="button" class="btn-autoscroll" id="btn-autoscroll" title="跟随音频播放自动居中滚动" aria-label="开启跟随滚动">
-            <span class="autoscroll-dot"></span>
-            <span class="autoscroll-text">跟随</span>
+            跟随音频
           </button>
         </div>
       </div>
     </div>
   </footer>
 
-  <!-- Hidden Audio Element -->
   <audio id="audio-engine" preload="metadata"></audio>
 
   <!-- ==========================================================================
-       8. Native Vanilla JavaScript Application Logic
+       Native Vanilla JavaScript Application Logic
        ========================================================================== -->
   <script>
     (function () {
       'use strict';
 
-      console.log('[AIRSHOW][UI] App initializing...');
+      console.log('[AIRSHOW][UI] Unslopped App initializing...');
 
       // State Management
       let currentShowsManifest = null;
       let currentShow = null;
       let currentEpisode = null;
+      let currentEpisodesList = [];
       let currentLangMode = 'bilingual';
       let isAutoScrollEnabled = false;
       let isScrubbing = false;
@@ -1589,9 +1644,9 @@
       const PLAYBACK_RATES = [1.0, 1.25, 1.5, 2.0];
       let currentRateIndex = 0;
 
-      // v3.0 Two-level in-memory cache & Anti-race condition locks
-      const showIndexCache = new Map(); // key: show.id -> show index data
-      const episodeCache = new Map();   // key: `${show.id}::${guid}` -> episode full data
+      // Two-level in-memory cache & Anti-race condition locks
+      const showIndexCache = new Map();
+      const episodeCache = new Map();
       let currentLoadingShowId = null;
       let currentLoadingGuid = null;
       let currentRequestSeq = 0;
@@ -1609,10 +1664,20 @@
       const emptyRssLink = document.getElementById('empty-rss-link');
       const podcastTabs = document.getElementById('podcast-tabs');
       const brandShowTitle = document.getElementById('brand-show-title');
-      const brandSiteTitle = document.getElementById('brand-site-title');
       const brandLink = document.getElementById('brand-link');
       const episodeContent = document.getElementById('episode-content');
       const btnRetry = document.getElementById('btn-retry');
+
+      // Issue Archive Drawer Elements
+      const btnOpenArchive = document.getElementById('issue-archive-btn') || document.getElementById('btn-open-archive');
+      const headerIssueTitle = document.getElementById('header-issue-title');
+      const headerIssueCount = document.getElementById('header-issue-count');
+      const archiveBackdrop = document.getElementById('archive-backdrop');
+      const archiveDrawer = document.getElementById('archive-drawer');
+      const archiveCloseBtn = document.getElementById('archive-close-btn');
+      const archiveShowTag = document.getElementById('archive-show-tag');
+      const archiveShowTitle = document.getElementById('archive-show-title');
+      const archiveList = document.getElementById('archive-list');
 
       // Article elements
       const metaPodcastTitle = document.getElementById('meta-podcast-title');
@@ -1626,6 +1691,7 @@
       const highlightsCountBadge = document.getElementById('highlights-count-badge');
       const transcriptContainer = document.getElementById('transcript-container');
       const transcriptCountBadge = document.getElementById('transcript-count-badge');
+      const mastheadScaleEnd = document.getElementById('masthead-scale-end');
 
       // Search elements
       const searchInput = document.getElementById('search-input');
@@ -1651,7 +1717,6 @@
       const iconSun = themeToggleBtn.querySelector('.icon-sun');
       const iconMoon = themeToggleBtn.querySelector('.icon-moon');
 
-      // Fast reference collections for highlights and transcript DOMs
       let highlightElements = [];
       let transcriptElements = [];
 
@@ -1659,9 +1724,6 @@
       // Utility Functions
       // ======================================================================
 
-      /**
-       * HTML escape utility to safely prevent XSS
-       */
       function escapeHtml(str) {
         if (str == null) return '';
         return String(str)
@@ -1672,9 +1734,6 @@
           .replace(/'/g, '&#39;');
       }
 
-      /**
-       * Format seconds into MM:SS or HH:MM:SS
-       */
       function formatTime(seconds) {
         if (isNaN(seconds) || seconds < 0) return '00:00';
         const totalSecs = Math.floor(seconds);
@@ -1688,9 +1747,6 @@
         return `${pad(mins)}:${pad(secs)}`;
       }
 
-      /**
-       * Format seconds into human readable duration e.g. "35分20秒"
-       */
       function formatDurationZh(seconds) {
         if (isNaN(seconds) || seconds < 0) return '0秒';
         const totalSecs = Math.floor(seconds);
@@ -1703,9 +1759,6 @@
         return `${mins}分${secs}秒`;
       }
 
-      /**
-       * Format ISO pub_date e.g. "2026年11月19日"
-       */
       function formatDateZh(isoStr) {
         if (!isoStr) return '';
         try {
@@ -1717,9 +1770,6 @@
         }
       }
 
-      /**
-       * Map speaker name to specific CSS class (deterministic color assignment for guests)
-       */
       function getSpeakerCssClass(speaker) {
         if (!speaker) return 'spk-dyn-0';
         const s = speaker.toLowerCase().trim();
@@ -1728,19 +1778,15 @@
         if (s.includes('brett') || s.includes('snyder')) return 'spk-brett';
         if (s.includes('kaiser') || s.includes('kuo')) return 'spk-kaiser';
 
-        // Deterministic hash for flowing guests (consistent across app)
         let hash = 0;
         for (let i = 0; i < s.length; i++) {
           hash = ((hash << 5) - hash) + s.charCodeAt(i);
           hash |= 0;
         }
-        const idx = Math.abs(hash) % 8;
+        const idx = Math.abs(hash) % 4;
         return `spk-dyn-${idx}`;
       }
 
-      /**
-       * Binary search helper: finds the largest index where start_sec <= currentTime
-       */
       function binarySearchActiveIndex(items, currentTime) {
         if (!items || items.length === 0) return -1;
         let low = 0;
@@ -1758,10 +1804,6 @@
         return result;
       }
 
-      /**
-       * Robust Seek and Play wrapper
-       * Handles browser readyState < 1 by attaching a one-time loadedmetadata listener
-       */
       function seekAndPlay(targetSec) {
         targetSec = Math.max(0, Number(targetSec) || 0);
         console.log(`[AIRSHOW][UI] Seeking to ${targetSec}s (readyState: ${audio.readyState})`);
@@ -1781,7 +1823,6 @@
         };
 
         if (audio.readyState < 1) {
-          console.log('[AIRSHOW][UI] Audio metadata not ready, waiting for loadedmetadata event...');
           audio.addEventListener('loadedmetadata', function onLoaded() {
             audio.removeEventListener('loadedmetadata', onLoaded);
             executeSeekAndPlay();
@@ -1825,7 +1866,6 @@
         const currentTheme = document.documentElement.getAttribute('data-theme') || 'light';
         const nextTheme = currentTheme === 'dark' ? 'light' : 'dark';
         applyTheme(nextTheme);
-        console.log(`[AIRSHOW][UI] Theme toggled to: ${nextTheme}`);
       });
 
       // ======================================================================
@@ -1856,11 +1896,45 @@
             btn.classList.remove('active');
           }
         });
-        console.log(`[AIRSHOW][UI] Language mode changed to: ${mode}`);
       }
 
       // ======================================================================
-      // Data Fetching & Rendering (v3.0 Multi-Podcast On-Demand Architecture)
+      // Issue Archive Drawer Controls (Plan A)
+      // ======================================================================
+
+      function openArchiveDrawer() {
+        archiveBackdrop.classList.add('visible');
+        archiveDrawer.classList.add('open');
+        btnOpenArchive.setAttribute('aria-expanded', 'true');
+        document.body.style.overflow = 'hidden';
+      }
+
+      function closeArchiveDrawer() {
+        archiveBackdrop.classList.remove('visible');
+        archiveDrawer.classList.remove('open');
+        btnOpenArchive.setAttribute('aria-expanded', 'false');
+        document.body.style.overflow = '';
+      }
+
+      btnOpenArchive.addEventListener('click', () => {
+        if (archiveDrawer.classList.contains('open')) {
+          closeArchiveDrawer();
+        } else {
+          openArchiveDrawer();
+        }
+      });
+
+      archiveCloseBtn.addEventListener('click', closeArchiveDrawer);
+      archiveBackdrop.addEventListener('click', closeArchiveDrawer);
+
+      window.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && archiveDrawer.classList.contains('open')) {
+          closeArchiveDrawer();
+        }
+      });
+
+      // ======================================================================
+      // Dynamic Show Theming (Pass 2 Color & Theming)
       // ======================================================================
 
       function lightenHexColor(hex) {
@@ -1877,20 +1951,72 @@
         return `rgb(${r}, ${g}, ${b})`;
       }
 
-      function applyShowTheme(show) {
-        const accent = (show && show.accent_color) ? show.accent_color : '#0a2540';
-        document.documentElement.style.setProperty('--show-accent', accent);
-
-        let darkAccent = '#38bdf8';
-        const hex = accent.toLowerCase().trim();
-        if (hex === '#9b2226' || (show && show.id === 'sinica')) {
-          darkAccent = '#f87171';
-        } else if (hex === '#0a2540' || (show && show.id === 'airshow')) {
-          darkAccent = '#38bdf8';
-        } else {
-          darkAccent = lightenHexColor(hex);
+      function colorToRgba(colorStr, alpha) {
+        if (!colorStr) return `rgba(10, 37, 64, ${alpha})`;
+        colorStr = colorStr.trim();
+        if (colorStr.startsWith('#')) {
+          let c = colorStr.replace('#', '');
+          if (c.length === 3) c = c.split('').map(x => x + x).join('');
+          const num = parseInt(c, 16);
+          if (isNaN(num)) return `rgba(10, 37, 64, ${alpha})`;
+          const r = (num >> 16) & 255;
+          const g = (num >> 8) & 255;
+          const b = num & 255;
+          return `rgba(${r}, ${g}, ${b}, ${alpha})`;
         }
+        const match = colorStr.match(/rgba?\((\d+)\s*,\s*(\d+)\s*,\s*(\d+)/);
+        if (match) {
+          return `rgba(${match[1]}, ${match[2]}, ${match[3]}, ${alpha})`;
+        }
+        return `rgba(10, 37, 64, ${alpha})`;
+      }
+
+      function updateDynamicFavicon(bgHex) {
+        const faviconEl = document.getElementById('dynamic-favicon');
+        if (!faviconEl) return;
+        const svgXml = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <rect width="32" height="32" rx="7" fill="${bgHex}" />
+  <rect x="6" y="12" width="2.6" height="8" rx="1.3" fill="#ffffff" />
+  <rect x="10.2" y="8" width="2.6" height="16" rx="1.3" fill="#ffffff" />
+  <rect x="14.4" y="10.5" width="2.6" height="11" rx="1.3" fill="#ffffff" />
+  <rect x="19.2" y="9.5" width="7" height="2.4" rx="1.2" fill="#ffffff" opacity="0.92" />
+  <rect x="19.2" y="14.8" width="7" height="2.4" rx="1.2" fill="#ffffff" opacity="0.92" />
+  <rect x="19.2" y="20.1" width="4.8" height="2.4" rx="1.2" fill="#ffffff" opacity="0.78" />
+</svg>`;
+        faviconEl.href = `data:image/svg+xml;charset=utf-8,${encodeURIComponent(svgXml)}`;
+      }
+
+      function applyShowTheme(show) {
+        const id = show ? show.id : 'airshow';
+        let lightAccent = '#0a2540';
+        let darkAccent = '#38bdf8';
+
+        if (id === 'sinica' || (show && show.accent_color && show.accent_color.toLowerCase().includes('9b2226'))) {
+          lightAccent = '#9b2226';
+          darkAccent = '#f87171';
+        } else if (id === 'airshow') {
+          lightAccent = '#0a2540';
+          darkAccent = '#38bdf8';
+        } else if (show && show.accent_color) {
+          lightAccent = show.accent_color;
+          darkAccent = lightenHexColor(show.accent_color);
+        }
+
+        document.documentElement.style.setProperty('--show-accent-light', lightAccent);
         document.documentElement.style.setProperty('--show-accent-dark', darkAccent);
+        document.documentElement.style.setProperty('--show-accent', lightAccent);
+
+        const currentTheme = document.documentElement.getAttribute('data-theme') || 'light';
+        const isDark = currentTheme === 'dark';
+        const activeAccent = isDark ? darkAccent : lightAccent;
+        const tintAlpha = isDark ? 0.15 : 0.10;
+        const subtleAlpha = isDark ? 0.07 : 0.05;
+
+        document.documentElement.style.setProperty('--accent-primary', activeAccent);
+        document.documentElement.style.setProperty('--accent-tint', colorToRgba(activeAccent, tintAlpha));
+        document.documentElement.style.setProperty('--accent-subtle', colorToRgba(activeAccent, subtleAlpha));
+
+        updateDynamicFavicon(lightAccent);
       }
 
       function renderPodcastTabs(shows) {
@@ -1898,22 +2024,21 @@
         shows.forEach((show) => {
           const btn = document.createElement('button');
           btn.type = 'button';
-          btn.className = 'podcast-tab-btn';
+          btn.className = 'show-tab-btn';
           btn.dataset.showId = show.id;
           btn.setAttribute('role', 'tab');
           btn.setAttribute('aria-selected', 'false');
           btn.setAttribute('title', `${show.title} · ${show.subtitle || ''}`);
 
           const titleSpan = document.createElement('span');
-          titleSpan.className = 'podcast-tab-title';
           titleSpan.textContent = show.title;
 
-          const badgeSpan = document.createElement('span');
-          badgeSpan.className = 'podcast-tab-badge';
-          badgeSpan.textContent = show.episode_count != null ? show.episode_count : '0';
+          const countSpan = document.createElement('span');
+          countSpan.className = 'show-tab-count tnum';
+          countSpan.textContent = `(${show.episode_count != null ? show.episode_count : '0'})`;
 
           btn.appendChild(titleSpan);
-          btn.appendChild(badgeSpan);
+          btn.appendChild(countSpan);
 
           btn.addEventListener('click', () => {
             if (currentShow && currentShow.id === show.id) return;
@@ -1925,7 +2050,7 @@
       }
 
       function updatePodcastTabsActive(showId) {
-        const tabs = podcastTabs.querySelectorAll('.podcast-tab-btn');
+        const tabs = podcastTabs.querySelectorAll('.show-tab-btn');
         tabs.forEach((tab) => {
           const isActive = tab.dataset.showId === showId;
           tab.classList.toggle('active', isActive);
@@ -1959,7 +2084,6 @@
           return { showId: matched.id, guid: null };
         }
 
-        // Backward compatibility: legacy bookmark #Buzzsprout-... falls back to airshow
         return { showId: 'airshow', guid: raw };
       }
 
@@ -1976,10 +2100,7 @@
         currentLoadingShowId = showId;
         currentShow = show;
 
-        // Apply theme accent color
         applyShowTheme(show);
-
-        // Update podcast nav tabs UI
         updatePodcastTabsActive(showId);
 
         // Pause player and reset playback state
@@ -1992,7 +2113,7 @@
         timeTotal.textContent = '00:00';
         seekSlider.value = 0;
         playerEpTitle.textContent = show.title;
-        playerSpeakerName.textContent = '就绪';
+        playerSpeakerName.textContent = '未在播放';
         updatePlayPauseIcons(false);
 
         // Reset search filter
@@ -2000,20 +2121,18 @@
         searchClearBtn.style.display = 'none';
         searchStatsBanner.classList.remove('visible');
 
-        // Update brand titles and document title
+        // Brand & title sync
         brandShowTitle.textContent = show.title;
-        brandSiteTitle.textContent = currentShowsManifest.site_title || '精读 · 双语同步';
         document.title = `${show.title} · ${currentShowsManifest.site_title || '播客双语精读'}`;
 
         // Cache hit branch
         if (showIndexCache.has(showId)) {
-          console.log(`[UI] Show index cache hit for: ${showId}`);
           const indexData = showIndexCache.get(showId);
           handleShowIndexLoaded(show, indexData, targetGuid, thisSeq);
           return;
         }
 
-        // Cache miss: fetch show index
+        // Cache miss
         loadingState.style.display = 'flex';
         errorState.style.display = 'none';
         emptyState.style.display = 'none';
@@ -2030,7 +2149,6 @@
           showIndexCache.set(showId, indexData);
 
           if (thisSeq !== currentRequestSeq || currentLoadingShowId !== showId) {
-            console.log(`[UI] Stale show index response ignored for ${showId}`);
             return;
           }
 
@@ -2049,9 +2167,9 @@
         if (seq !== currentRequestSeq || currentLoadingShowId !== show.id) return;
 
         const episodes = indexData.episodes || [];
+        currentEpisodesList = episodes;
 
         if (episodes.length === 0) {
-          // Elegant Empty State
           loadingState.style.display = 'none';
           errorState.style.display = 'none';
           episodeContent.style.display = 'none';
@@ -2059,14 +2177,14 @@
           emptyState.style.display = 'flex';
 
           emptyShowTitle.textContent = `${show.title} · 暂无收录单集`;
-          emptyShowDesc.textContent = `该播客已成功配置入库（${show.subtitle || ''}），但暂未生成双语精读单集。请通过 GitHub Actions 手动调度工作流抓取，或等待每 6 小时定时巡检自动更新。`;
+          emptyShowDesc.textContent = `该播客已成功配置入库（${show.subtitle || ''}），但暂未生成双语精读单集。可通过 GitHub Actions 工作流手动调度抓取，或等待定时巡检自动更新。`;
           emptyRssLink.textContent = `RSS: ${show.rss_url || indexData.rss_url || '-'}`;
 
-          episodeSelect.innerHTML = '<option value="">(暂无单集入库)</option>';
-          episodeSelect.disabled = true;
+          headerIssueTitle.textContent = '暂无单集';
+          headerIssueCount.textContent = '0期';
+          btnOpenArchive.disabled = true;
           searchInput.disabled = true;
 
-          // Sync URL Hash to #show.id
           if (window.location.hash !== '#' + show.id) {
             history.replaceState(null, '', '#' + show.id);
           }
@@ -2076,10 +2194,10 @@
         // Active State with Episodes
         emptyState.style.display = 'none';
         loadingState.style.display = 'none';
-        episodeSelect.disabled = false;
+        btnOpenArchive.disabled = false;
         searchInput.disabled = false;
 
-        populateEpisodeDropdown(episodes);
+        renderEpisodeArchive(show, episodes);
 
         let initialEp = null;
         if (targetGuid) {
@@ -2095,14 +2213,63 @@
         playerBar.style.display = 'block';
       }
 
-      function populateEpisodeDropdown(episodes) {
+      function renderEpisodeArchive(show, episodes) {
+        archiveList.innerHTML = '';
+        headerIssueCount.textContent = `${episodes.length}期`;
+        archiveShowTitle.textContent = `${show.title} · 往期选集`;
+        archiveShowTag.textContent = `ISSUE ARCHIVE · ${show.id.toUpperCase()}`;
+
+        // Keep fallback select synced
         episodeSelect.innerHTML = '';
-        episodes.forEach((ep) => {
+
+        episodes.forEach((ep, idx) => {
+          // Fallback select option
           const opt = document.createElement('option');
           opt.value = ep.guid;
-          const countStr = ep.transcript_count != null ? ` · ${ep.transcript_count}条` : '';
-          opt.textContent = `${formatDateZh(ep.pub_date)} · ${formatDurationZh(ep.duration_sec)}${countStr} | ${ep.title}`;
+          opt.textContent = `${formatDateZh(ep.pub_date)} | ${ep.title}`;
           episodeSelect.appendChild(opt);
+
+          // Archive Drawer Item
+          const card = document.createElement('div');
+          card.className = 'archive-item';
+          card.dataset.guid = ep.guid;
+          if (currentEpisode && currentEpisode.guid === ep.guid) {
+            card.classList.add('active');
+          }
+
+          const topRow = document.createElement('div');
+          topRow.className = 'archive-item-top';
+
+          const issueBadge = document.createElement('span');
+          issueBadge.className = 'archive-issue-badge tnum';
+          issueBadge.textContent = `#${String(episodes.length - idx).padStart(2, '0')}`;
+
+          const metaSpan = document.createElement('span');
+          metaSpan.className = 'archive-item-meta tnum';
+          metaSpan.textContent = `${formatDateZh(ep.pub_date)} · ${formatDurationZh(ep.duration_sec)} · ${ep.transcript_count || 0}段`;
+
+          topRow.appendChild(issueBadge);
+          topRow.appendChild(metaSpan);
+
+          const titleEl = document.createElement('h4');
+          titleEl.className = 'archive-item-title';
+          titleEl.textContent = ep.title;
+
+          const descEl = document.createElement('p');
+          descEl.className = 'archive-item-desc';
+          descEl.textContent = ep.summary_zh || '';
+
+          card.appendChild(topRow);
+          card.appendChild(titleEl);
+          card.appendChild(descEl);
+
+          card.addEventListener('click', () => {
+            selectEpisode(show, ep);
+            closeArchiveDrawer();
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+          });
+
+          archiveList.appendChild(card);
         });
       }
 
@@ -2115,13 +2282,21 @@
 
         episodeSelect.value = epMeta.guid;
 
+        // Update trigger button title
+        headerIssueTitle.textContent = epMeta.title || '选集目录';
+
+        // Update active card in archiveList
+        const allArchiveItems = archiveList.querySelectorAll('.archive-item');
+        allArchiveItems.forEach(item => {
+          item.classList.toggle('active', item.dataset.guid === epMeta.guid);
+        });
+
         // Sync URL Hash: #showId/encodeURIComponent(guid)
         const targetHash = `#${show.id}/${encodeURIComponent(epMeta.guid)}`;
         if (window.location.hash !== targetHash) {
           history.replaceState(null, '', targetHash);
         }
 
-        // Update document title
         document.title = `${epMeta.title} | ${show.title} · ${currentShowsManifest.site_title || '播客双语精读'}`;
 
         // Reset player & state
@@ -2135,17 +2310,14 @@
         seekSlider.value = 0;
         seekSlider.max = epMeta.duration_sec || 100;
         playerEpTitle.textContent = epMeta.title || '';
-        playerSpeakerName.textContent = '就绪';
+        playerSpeakerName.textContent = '未在播放';
         updatePlayPauseIcons(false);
 
-        // Render metadata & summary immediately from index
         renderArticleMeta(show, epMeta);
         renderExecutiveSummary(epMeta);
 
-        // In-memory cache check: `${show.id}::${epMeta.guid}`
         const cacheKey = `${show.id}::${epMeta.guid}`;
         if (episodeCache.has(cacheKey)) {
-          console.log(`[UI] Episode cache hit for ${cacheKey}`);
           const detail = episodeCache.get(cacheKey);
           currentEpisode = detail;
           renderHighlights(detail.highlights || []);
@@ -2173,15 +2345,15 @@
         transcriptCountBadge.textContent = epMeta.transcript_count != null ? `${epMeta.transcript_count} 段落 (加载中)` : '加载中...';
 
         highlightsGrid.innerHTML = `
-          <div class="state-banner" style="grid-column: 1 / -1; min-height: 120px; padding: 24px 0;">
-            <div class="spinner" style="width: 28px; height: 28px;"></div>
-            <p style="color: var(--text-secondary); font-size: 0.875rem;">正在按需加载精选重点...</p>
+          <div class="state-banner" style="grid-column: 1 / -1; min-height: 100px; padding: 20px 0;">
+            <div class="spinner" style="width: 24px; height: 24px;"></div>
+            <p style="color: var(--text-secondary); font-size: 0.8125rem;">正在按需加载精选原声重点...</p>
           </div>
         `;
         transcriptContainer.innerHTML = `
-          <div class="state-banner" style="min-height: 160px; padding: 32px 0;">
-            <div class="spinner" style="width: 28px; height: 28px;"></div>
-            <p style="color: var(--text-secondary); font-size: 0.875rem;">正在按需加载双语逐字稿...</p>
+          <div class="state-banner" style="min-height: 120px; padding: 24px 0;">
+            <div class="spinner" style="width: 24px; height: 24px;"></div>
+            <p style="color: var(--text-secondary); font-size: 0.8125rem;">正在按需加载双语逐字稿...</p>
           </div>
         `;
 
@@ -2194,11 +2366,8 @@
           const detail = await response.json();
 
           episodeCache.set(cacheKey, detail);
-          console.log(`[UI] Loaded episode detail: ${fileUrl}`);
 
-          // Anti-race condition check
           if (currentLoadingGuid !== epMeta.guid || seq !== currentRequestSeq || currentLoadingShowId !== show.id) {
-            console.log(`[UI] Stale episode response ignored for ${cacheKey}`);
             return;
           }
 
@@ -2216,10 +2385,10 @@
           transcriptCountBadge.textContent = '加载失败';
           highlightsGrid.innerHTML = '';
           transcriptContainer.innerHTML = `
-            <div class="state-banner" style="min-height: 160px; gap: 12px; padding: 24px 0;">
-              <h4 style="color: #ef4444; font-size: 1rem;">单集详情加载失败</h4>
-              <p style="color: var(--text-secondary); font-size: 0.875rem;">${escapeHtml(err.message)}</p>
-              <button type="button" class="btn-retry" id="btn-retry-detail" style="padding: 6px 18px; font-size: 0.8125rem;">重试加载详情</button>
+            <div class="state-banner" style="min-height: 140px; gap: 10px; padding: 20px 0;">
+              <h4 style="color: #ef4444; font-size: 0.9375rem;">单集详情加载失败</h4>
+              <p style="color: var(--text-secondary); font-size: 0.8125rem;">${escapeHtml(err.message)}</p>
+              <button type="button" class="btn-retry" id="btn-retry-detail" style="padding: 4px 14px; font-size: 0.75rem;">重试加载详情</button>
             </div>
           `;
           const btnRetryDetail = document.getElementById('btn-retry-detail');
@@ -2237,13 +2406,32 @@
         metaDuration.textContent = formatDurationZh(ep.duration_sec);
         metaAudioLink.href = ep.audio_url || '#';
         episodeTitle.textContent = ep.title || '';
+
+        const dur = Number(ep.duration_sec) || 0;
+        const ticksEl = document.getElementById('masthead-ticks') || document.querySelector('.masthead-ticks');
+        if (ticksEl) {
+          ticksEl.innerHTML = `
+            <span class="tick-label">${formatTime(0)}</span>
+            <span class="tick-mark"></span>
+            <span class="tick-mark"></span>
+            <span class="tick-label">${formatTime(dur * 0.25)}</span>
+            <span class="tick-mark"></span>
+            <span class="tick-mark"></span>
+            <span class="tick-label">${formatTime(dur * 0.5)}</span>
+            <span class="tick-mark"></span>
+            <span class="tick-mark"></span>
+            <span class="tick-label">${formatTime(dur * 0.75)}</span>
+            <span class="tick-mark"></span>
+            <span class="tick-label" id="masthead-scale-end">${formatTime(dur)}</span>
+          `;
+        } else if (mastheadScaleEnd) {
+          mastheadScaleEnd.textContent = formatTime(dur);
+        }
       }
 
       function renderExecutiveSummary(ep) {
-        // Summary text
         summaryZhText.textContent = ep.summary_zh || '暂无摘要';
 
-        // Key takeaways list
         takeawaysList.innerHTML = '';
         const takeaways = ep.key_takeaways_zh || [];
         takeaways.forEach((item, idx) => {
@@ -2251,8 +2439,8 @@
           li.className = 'takeaway-item';
 
           const num = document.createElement('span');
-          num.className = 'takeaway-num';
-          num.textContent = String(idx + 1).padStart(2, '0');
+          num.className = 'takeaway-num tnum';
+          num.textContent = `${String(idx + 1).padStart(2, '0')} ·`;
 
           const text = document.createElement('span');
           text.textContent = item;
@@ -2274,48 +2462,43 @@
           card.dataset.startSec = hl.start_sec;
           card.dataset.index = idx;
 
-          // Header
           const header = document.createElement('div');
           header.className = 'highlight-header';
 
           const timeBadge = document.createElement('span');
-          timeBadge.className = 'timestamp-badge';
+          timeBadge.className = 'timestamp-badge tnum';
           timeBadge.innerHTML = `
-            <svg width="10" height="10" viewBox="0 0 24 24" fill="currentColor">
+            <svg width="8" height="8" viewBox="0 0 24 24" fill="currentColor">
               <polygon points="5 3 19 12 5 21 5 3"></polygon>
             </svg>
             ${formatTime(hl.start_sec)}
           `;
 
           const playingIndicator = document.createElement('span');
-          playingIndicator.className = 'playing-indicator';
-          playingIndicator.innerHTML = '<span class="pulse-dot"></span> 正在播放';
+          playingIndicator.className = 'playing-indicator tnum';
+          playingIndicator.textContent = '正在播放';
 
           header.appendChild(timeBadge);
           header.appendChild(playingIndicator);
           card.appendChild(header);
 
-          // Title
           const title = document.createElement('div');
           title.className = 'highlight-title';
           title.textContent = hl.title_zh || '';
           card.appendChild(title);
 
-          // Summary
           const summary = document.createElement('div');
           summary.className = 'highlight-summary';
           summary.textContent = hl.summary_zh || '';
           card.appendChild(summary);
 
-          // Quote
           if (hl.quote_en) {
-            const quote = document.createElement('div');
+            const quote = document.createElement('blockquote');
             quote.className = 'highlight-quote';
             quote.textContent = `“${hl.quote_en}”`;
             card.appendChild(quote);
           }
 
-          // Click to seek & play
           card.addEventListener('click', () => {
             seekAndPlay(hl.start_sec);
           });
@@ -2337,7 +2520,6 @@
           row.dataset.index = idx;
           row.dataset.id = item.id;
 
-          // Meta Row (Speaker + Time)
           const meta = document.createElement('div');
           meta.className = 'transcript-meta';
 
@@ -2351,10 +2533,10 @@
 
           const timeBtn = document.createElement('button');
           timeBtn.type = 'button';
-          timeBtn.className = 'time-seek-btn';
+          timeBtn.className = 'time-seek-btn tnum';
           timeBtn.title = `跳转至 ${formatTime(item.start_sec)}`;
           timeBtn.innerHTML = `
-            <svg width="9" height="9" viewBox="0 0 24 24" fill="currentColor">
+            <svg width="8" height="8" viewBox="0 0 24 24" fill="currentColor">
               <polygon points="5 3 19 12 5 21 5 3"></polygon>
             </svg>
             ${formatTime(item.start_sec)}
@@ -2367,19 +2549,16 @@
           meta.appendChild(metaLeft);
           row.appendChild(meta);
 
-          // English original
           const enText = document.createElement('div');
           enText.className = 'transcript-en';
           enText.textContent = item.en || '';
           row.appendChild(enText);
 
-          // Chinese translation
           const zhText = document.createElement('div');
           zhText.className = 'transcript-zh';
           zhText.textContent = item.zh || '';
           row.appendChild(zhText);
 
-          // Whole row click seek
           row.addEventListener('click', () => {
             seekAndPlay(item.start_sec);
           });
@@ -2432,19 +2611,16 @@
         seekSlider.max = dur;
       });
 
-      // Synchronous Highlighting & Binary Search in timeupdate
       audio.addEventListener('timeupdate', () => {
         if (!currentEpisode) return;
 
         const curTime = audio.currentTime;
 
-        // Update Slider and Time Display if not actively scrubbing
         if (!isScrubbing) {
           seekSlider.value = curTime;
           timeCurrent.textContent = formatTime(curTime);
         }
 
-        // 1. Locate and highlight current Transcript item using Binary Search
         const activeTrIdx = binarySearchActiveIndex(currentEpisode.transcript, curTime);
         if (activeTrIdx !== lastActiveTranscriptIndex) {
           if (lastActiveTranscriptIndex !== -1 && transcriptElements[lastActiveTranscriptIndex]) {
@@ -2454,19 +2630,16 @@
             const activeTrEl = transcriptElements[activeTrIdx];
             activeTrEl.classList.add('active');
 
-            // Auto-scroll if enabled
             if (isAutoScrollEnabled) {
               activeTrEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
             }
 
-            // Update mini speaker info in player
-            const speaker = currentEpisode.transcript[activeTrIdx].speaker || 'The Air Show';
+            const speaker = currentEpisode.transcript[activeTrIdx].speaker || 'Air Show';
             playerSpeakerName.textContent = speaker;
           }
           lastActiveTranscriptIndex = activeTrIdx;
         }
 
-        // 2. Locate and highlight current Highlight Card using Binary Search
         const activeHlIdx = binarySearchActiveIndex(currentEpisode.highlights, curTime);
         if (activeHlIdx !== lastActiveHighlightIndex) {
           if (lastActiveHighlightIndex !== -1 && highlightElements[lastActiveHighlightIndex]) {
@@ -2479,7 +2652,6 @@
         }
       });
 
-      // Scrubbing Event Handlers
       seekSlider.addEventListener('input', () => {
         isScrubbing = true;
         timeCurrent.textContent = formatTime(Number(seekSlider.value));
@@ -2490,7 +2662,6 @@
         seekAndPlay(Number(seekSlider.value));
       });
 
-      // Fast forward & rewind 15s
       btnRewind.addEventListener('click', () => {
         const target = Math.max(0, audio.currentTime - 15);
         seekAndPlay(target);
@@ -2502,21 +2673,17 @@
         seekAndPlay(target);
       });
 
-      // Playback speed cycle
       btnSpeed.addEventListener('click', () => {
         currentRateIndex = (currentRateIndex + 1) % PLAYBACK_RATES.length;
         const newRate = PLAYBACK_RATES[currentRateIndex];
         audio.playbackRate = newRate;
         btnSpeed.textContent = `${newRate.toFixed(1)}x`;
         btnSpeed.setAttribute('aria-label', `播放倍速 ${newRate.toFixed(1)}x`);
-        console.log(`[AIRSHOW][UI] Playback rate set to: ${newRate}x`);
       });
 
-      // Auto-scroll toggle
       btnAutoscroll.addEventListener('click', () => {
         isAutoScrollEnabled = !isAutoScrollEnabled;
         btnAutoscroll.classList.toggle('active', isAutoScrollEnabled);
-        console.log(`[AIRSHOW][UI] Auto-scroll enabled: ${isAutoScrollEnabled}`);
         if (isAutoScrollEnabled && lastActiveTranscriptIndex !== -1 && transcriptElements[lastActiveTranscriptIndex]) {
           transcriptElements[lastActiveTranscriptIndex].scrollIntoView({ behavior: 'smooth', block: 'center' });
         }
@@ -2546,7 +2713,6 @@
           searchClearBtn.style.display = 'none';
           searchStatsBanner.classList.remove('visible');
 
-          // Reset transcript
           transcriptElements.forEach((el, idx) => {
             el.classList.remove('is-search-hidden');
             const item = (currentEpisode.transcript || [])[idx];
@@ -2558,7 +2724,6 @@
             }
           });
 
-          // Reset highlights
           highlightElements.forEach((el, idx) => {
             el.classList.remove('is-search-hidden');
             const item = (currentEpisode.highlights || [])[idx];
@@ -2581,7 +2746,6 @@
         let transcriptMatchCount = 0;
         let highlightMatchCount = 0;
 
-        // Filter and highlight transcripts
         transcriptElements.forEach((el, idx) => {
           const item = (currentEpisode.transcript || [])[idx];
           if (!item) return;
@@ -2601,7 +2765,6 @@
           }
         });
 
-        // Filter and highlight highlights
         highlightElements.forEach((el, idx) => {
           const item = (currentEpisode.highlights || [])[idx];
           if (!item) return;
@@ -2625,10 +2788,8 @@
           }
         });
 
-        const totalMatches = transcriptMatchCount + highlightMatchCount;
         searchStatsText.textContent = `关键词 “${query}”：匹配 ${transcriptMatchCount} 段逐字稿，${highlightMatchCount} 条精选重点`;
         searchStatsBanner.classList.add('visible');
-        console.log(`[AIRSHOW][UI] Search filter applied: "${query}" (total ${totalMatches} items matched)`);
       }
 
       let searchDebounceTimer = null;
@@ -2650,7 +2811,6 @@
         applySearchFilter('');
       });
 
-      // Episode dropdown change listener
       episodeSelect.addEventListener('change', (e) => {
         const selectedGuid = e.target.value;
         if (!currentShow) return;
@@ -2662,7 +2822,6 @@
         }
       });
 
-      // Window hashchange listener for browser back/forward or direct link navigation
       window.addEventListener('hashchange', () => {
         if (!currentShowsManifest || !currentShowsManifest.shows) return;
         const { showId, guid } = parseHash(currentShowsManifest.shows);
@@ -2682,7 +2841,6 @@
         switchShow(showId, guid);
       });
 
-      // Brand link scroll top
       if (brandLink) {
         brandLink.addEventListener('click', (e) => {
           e.preventDefault();
