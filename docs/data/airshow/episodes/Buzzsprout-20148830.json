@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "3.0",
   "guid": "Buzzsprout-20148830",
   "title": "Singapore's Brand and Network Struggles",
   "pub_date": "2026-11-19T11:00:00Z",
@@ -1346,5 +1346,6 @@
       "en": "Leo Duran produced and edited this episode. Our theme music is by Joshua Moser. Thanks for listening and we'll be back after the Thanksgiving holiday.",
       "zh": "本期节目由 Leo Duran 制作和剪辑。我们的主题音乐由 Joshua Moser 创作。感谢收听，我们将在感恩节假期后回归。"
     }
-  ]
+  ],
+  "show_id": "airshow"
 }

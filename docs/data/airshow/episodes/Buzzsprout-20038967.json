@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "3.0",
   "guid": "Buzzsprout-20038967",
   "title": "The MAX 10 is Certified",
   "pub_date": "2026-10-29T10:00:00Z",
@@ -1450,5 +1450,6 @@
       "en": "Let's talk about some airplanes!",
       "zh": "我们来聊聊飞机吧！"
     }
-  ]
+  ],
+  "show_id": "airshow"
 }

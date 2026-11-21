@@ -1,0 +1,25 @@
+{
+  "schema_version": "3.0",
+  "site_title": "Podcast Bilingual Reader",
+  "updated_at": "2026-11-21T10:46:29Z",
+  "shows": [
+    {
+      "id": "airshow",
+      "title": "The Air Show",
+      "subtitle": "Aviation Business & Industry Analysis",
+      "accent_color": "#0a2540",
+      "index_file": "airshow/index.json",
+      "episode_count": 8,
+      "latest_pub_date": "2026-11-19T11:00:00Z"
+    },
+    {
+      "id": "sinica",
+      "title": "Sinica Podcast",
+      "subtitle": "Current Affairs in China · Hosted by Kaiser Kuo",
+      "accent_color": "#9b2226",
+      "index_file": "sinica/index.json",
+      "episode_count": 0,
+      "latest_pub_date": ""
+    }
+  ]
+}

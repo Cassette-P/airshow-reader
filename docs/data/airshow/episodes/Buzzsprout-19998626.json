@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "3.0",
   "guid": "Buzzsprout-19998626",
   "title": "The US Softens Its Stance On Mexico...For Now",
   "pub_date": "2026-10-22T10:00:00Z",
@@ -1283,5 +1283,6 @@
       "en": "Brett, what does the music sound like now? Doo doo doo doo doo doo doo doo.",
       "zh": "Brett，那音乐现在听起来是啥样？嘟嘟嘟嘟嘟嘟嘟嘟。"
     }
-  ]
+  ],
+  "show_id": "airshow"
 }

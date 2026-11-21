@@ -6,8 +6,10 @@ __pycache__/
 # Temporary and preview data files
 data/_smoke_preview.json
 docs/data/_smoke_preview.json
+docs/data/**/_smoke_preview.json
 data/*.tmp
 docs/data/*.tmp
+docs/data/**/*.tmp
 docs/data/episodes/*.tmp
 *.tmp
 

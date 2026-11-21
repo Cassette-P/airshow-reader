@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "3.0",
   "guid": "Buzzsprout-19893187",
   "title": "The Air Show Live at Alaska Investor Day",
   "pub_date": "2026-10-01T10:00:00Z",
@@ -2438,5 +2438,6 @@
       "en": "It was a very long day and I'm sure Shane would like to go to bed now. But our theme music is by Joshua Mosier. Thanks for listening, and we'll be back soon.",
       "zh": "今天真是漫长的一天，我肯定 Shane 现在只想赶紧去睡一觉。本节目片头音乐由 Joshua Mosier 创作。感谢收听，我们很快再见。"
     }
-  ]
+  ],
+  "show_id": "airshow"
 }

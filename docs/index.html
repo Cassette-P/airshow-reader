@@ -36,7 +36,9 @@
       --text-muted: #94a3b8;
       --text-navy: #0a2540;
       
-      --accent-primary: #0a2540;
+      --show-accent: #0a2540;
+      --show-accent-dark: #38bdf8;
+      --accent-primary: var(--show-accent);
       --accent-blue: #0284c7;
       --accent-badge-bg: #e0f2fe;
       --accent-badge-text: #0369a1;
@@ -54,9 +56,23 @@
       --spk-brett-text: #9a3412;
       --spk-brett-border: #fed7aa;
       
+      --spk-kaiser-bg: #fee2e2;
+      --spk-kaiser-text: #991b1b;
+      --spk-kaiser-border: #fca5a5;
+
       --spk-guest-bg: #f3e8ff;
       --spk-guest-text: #6b21a8;
       --spk-guest-border: #e9d5ff;
+
+      /* Dynamic Guest Palettes (Light Mode) */
+      --spk-dyn-0-bg: #f3e8ff; --spk-dyn-0-text: #6b21a8; --spk-dyn-0-border: #e9d5ff; /* Purple */
+      --spk-dyn-1-bg: #ccfbf1; --spk-dyn-1-text: #0f766e; --spk-dyn-1-border: #99f6e4; /* Teal */
+      --spk-dyn-2-bg: #ffe4e6; --spk-dyn-2-text: #be123c; --spk-dyn-2-border: #fecdd3; /* Rose */
+      --spk-dyn-3-bg: #dbeafe; --spk-dyn-3-text: #1d4ed8; --spk-dyn-3-border: #bfdbfe; /* Blue */
+      --spk-dyn-4-bg: #fef3c7; --spk-dyn-4-text: #b45309; --spk-dyn-4-border: #fde68a; /* Amber */
+      --spk-dyn-5-bg: #fae8ff; --spk-dyn-5-text: #a21caf; --spk-dyn-5-border: #f5d0fe; /* Fuchsia */
+      --spk-dyn-6-bg: #ecfccb; --spk-dyn-6-text: #4d7c0f; --spk-dyn-6-border: #d9f99d; /* Lime */
+      --spk-dyn-7-bg: #e0f2fe; --spk-dyn-7-text: #0369a1; --spk-dyn-7-border: #bae6fd; /* Sky */
 
       --shadow-sm: 0 1px 3px rgba(10, 37, 64, 0.05);
       --shadow-md: 0 4px 12px -2px rgba(10, 37, 64, 0.07), 0 2px 6px -1px rgba(10, 37, 64, 0.04);
@@ -89,7 +105,7 @@
       --text-muted: #64748b;
       --text-navy: #e2e8f0;
       
-      --accent-primary: #38bdf8;
+      --accent-primary: var(--show-accent-dark, #38bdf8);
       --accent-blue: #38bdf8;
       --accent-badge-bg: #0c4a6e;
       --accent-badge-text: #7dd3fc;
@@ -107,9 +123,23 @@
       --spk-brett-text: #fdba74;
       --spk-brett-border: #7c2d12;
       
+      --spk-kaiser-bg: #450a0a;
+      --spk-kaiser-text: #fca5a5;
+      --spk-kaiser-border: #7f1d1d;
+
       --spk-guest-bg: #3b0764;
       --spk-guest-text: #d8b4fe;
       --spk-guest-border: #581c87;
+
+      /* Dynamic Guest Palettes (Dark Mode) */
+      --spk-dyn-0-bg: #3b0764; --spk-dyn-0-text: #d8b4fe; --spk-dyn-0-border: #581c87;
+      --spk-dyn-1-bg: #134e4a; --spk-dyn-1-text: #5eead4; --spk-dyn-1-border: #115e59;
+      --spk-dyn-2-bg: #4c0519; --spk-dyn-2-text: #fda4af; --spk-dyn-2-border: #881337;
+      --spk-dyn-3-bg: #1e3a8a; --spk-dyn-3-text: #93c5fd; --spk-dyn-3-border: #1d4ed8;
+      --spk-dyn-4-bg: #451a03; --spk-dyn-4-text: #fcd34d; --spk-dyn-4-border: #78350f;
+      --spk-dyn-5-bg: #4a044e; --spk-dyn-5-text: #f0abfc; --spk-dyn-5-border: #701a75;
+      --spk-dyn-6-bg: #14532d; --spk-dyn-6-text: #bef264; --spk-dyn-6-border: #166534;
+      --spk-dyn-7-bg: #082f49; --spk-dyn-7-text: #7dd3fc; --spk-dyn-7-border: #0369a1;
 
       --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.3);
       --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.4);
@@ -258,6 +288,76 @@
       background: var(--bg-subtle);
       color: var(--text-primary);
       border-color: var(--border-hover);
+    }
+
+    /* Podcast Navigation Switcher */
+    .podcast-nav-bar {
+      border-top: 1px solid var(--border-color);
+      background: var(--bg-surface);
+      overflow-x: auto;
+      scrollbar-width: none;
+      -ms-overflow-style: none;
+    }
+    .podcast-nav-bar::-webkit-scrollbar {
+      display: none;
+    }
+    .podcast-nav-inner {
+      max-width: var(--content-max-w);
+      margin: 0 auto;
+      padding: 8px 20px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .podcast-tab-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 6px 14px;
+      border-radius: var(--radius-full);
+      font-size: 0.8125rem;
+      font-weight: 600;
+      border: 1px solid var(--border-color);
+      background: var(--bg-subtle);
+      color: var(--text-secondary);
+      cursor: pointer;
+      white-space: nowrap;
+      transition: all 0.18s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .podcast-tab-btn:hover {
+      background: var(--bg-surface);
+      color: var(--text-primary);
+      border-color: var(--border-hover);
+      transform: translateY(-1px);
+    }
+    .podcast-tab-btn.active {
+      background: var(--accent-primary);
+      color: #ffffff;
+      border-color: var(--accent-primary);
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    }
+    [data-theme="dark"] .podcast-tab-btn.active {
+      background: var(--accent-primary);
+      color: #070d18;
+      font-weight: 700;
+      border-color: var(--accent-primary);
+      box-shadow: 0 0 12px rgba(56, 189, 248, 0.25);
+    }
+    .podcast-tab-badge {
+      font-size: 0.72rem;
+      font-weight: 700;
+      padding: 1px 7px;
+      border-radius: var(--radius-full);
+      background: rgba(0, 0, 0, 0.08);
+      color: inherit;
+    }
+    .podcast-tab-btn.active .podcast-tab-badge {
+      background: rgba(255, 255, 255, 0.25);
+      color: inherit;
+    }
+    [data-theme="dark"] .podcast-tab-btn.active .podcast-tab-badge {
+      background: rgba(7, 13, 24, 0.3);
+      color: #070d18;
     }
 
     /* Sub-header Controls Bar */
@@ -739,6 +839,19 @@
       color: var(--spk-guest-text);
       border-color: var(--spk-guest-border);
     }
+    .spk-kaiser {
+      background: var(--spk-kaiser-bg);
+      color: var(--spk-kaiser-text);
+      border-color: var(--spk-kaiser-border);
+    }
+    .spk-dyn-0 { background: var(--spk-dyn-0-bg); color: var(--spk-dyn-0-text); border-color: var(--spk-dyn-0-border); }
+    .spk-dyn-1 { background: var(--spk-dyn-1-bg); color: var(--spk-dyn-1-text); border-color: var(--spk-dyn-1-border); }
+    .spk-dyn-2 { background: var(--spk-dyn-2-bg); color: var(--spk-dyn-2-text); border-color: var(--spk-dyn-2-border); }
+    .spk-dyn-3 { background: var(--spk-dyn-3-bg); color: var(--spk-dyn-3-text); border-color: var(--spk-dyn-3-border); }
+    .spk-dyn-4 { background: var(--spk-dyn-4-bg); color: var(--spk-dyn-4-text); border-color: var(--spk-dyn-4-border); }
+    .spk-dyn-5 { background: var(--spk-dyn-5-bg); color: var(--spk-dyn-5-text); border-color: var(--spk-dyn-5-border); }
+    .spk-dyn-6 { background: var(--spk-dyn-6-bg); color: var(--spk-dyn-6-text); border-color: var(--spk-dyn-6-border); }
+    .spk-dyn-7 { background: var(--spk-dyn-7-bg); color: var(--spk-dyn-7-text); border-color: var(--spk-dyn-7-border); }
 
     .time-seek-btn {
       font-family: "SF Mono", "Fira Code", monospace;
@@ -1118,16 +1231,71 @@
       to { transform: rotate(360deg); }
     }
     .btn-retry {
-      background: var(--navy-900);
+      background: var(--accent-primary);
       color: #ffffff;
       padding: 8px 20px;
       border-radius: var(--radius-md);
       font-weight: 600;
       font-size: 0.875rem;
-      transition: background 0.15s ease;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
     .btn-retry:hover {
-      background: var(--accent-blue);
+      opacity: 0.9;
+    }
+    [data-theme="dark"] .btn-retry {
+      background: var(--accent-primary);
+      color: #070d18;
+    }
+
+    /* Empty State Card */
+    .empty-state-card {
+      padding: 50px 24px;
+      max-width: 580px;
+      margin: 32px auto;
+      background: var(--bg-surface);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-lg);
+      box-shadow: var(--shadow-sm);
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 12px;
+      min-height: auto;
+    }
+    .empty-icon-wrap {
+      width: 64px;
+      height: 64px;
+      margin-bottom: 6px;
+      border-radius: var(--radius-full);
+      background: var(--bg-subtle);
+      border: 1px solid var(--border-color);
+      color: var(--accent-primary);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .empty-title {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: var(--text-navy);
+    }
+    .empty-desc {
+      font-size: 0.875rem;
+      color: var(--text-secondary);
+      line-height: 1.6;
+      max-width: 480px;
+    }
+    .empty-meta-box {
+      margin-top: 6px;
+      padding: 6px 14px;
+      background: var(--bg-subtle);
+      border-radius: var(--radius-md);
+      font-size: 0.78rem;
+      font-family: "SF Mono", "Fira Code", monospace;
+      color: var(--text-muted);
+      word-break: break-all;
+      border: 1px solid var(--border-color);
     }
   </style>
 </head>
@@ -1136,16 +1304,18 @@
   <!-- 1. Header & Navigation -->
   <header class="app-header">
     <div class="header-top">
-      <a href="#" class="brand-group" aria-label="The Air Show 首页">
-        <div class="brand-icon">
-          <!-- Aviation aircraft icon -->
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
-            <path d="M21 16v-2l-8-5V3.5c0-.83-.67-1.5-1.5-1.5S10 2.67 10 3.5V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5l8 2.5z"/>
+      <a href="#" class="brand-group" id="brand-link" aria-label="播客双语精读首页">
+        <div class="brand-icon" id="brand-icon">
+          <!-- Universal Podcast icon -->
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z"/>
+            <path d="M19 10v2a7 7 0 0 1-14 0v-2"/>
+            <line x1="12" x2="12" y1="19" y2="22"/>
           </svg>
         </div>
         <div class="brand-title">
-          The Air Show
-          <span class="brand-sub">精读 · 双语同步</span>
+          <span id="brand-show-title">The Air Show</span>
+          <span class="brand-sub" id="brand-site-title">精读 · 双语同步</span>
         </div>
       </a>
 
@@ -1171,7 +1341,14 @@
       </div>
     </div>
 
-    <div class="controls-bar">
+    <!-- Podcast Switcher Tabs -->
+    <nav class="podcast-nav-bar" aria-label="播客节目切换">
+      <div class="podcast-nav-inner" id="podcast-tabs" role="tablist">
+        <!-- Dynamically rendered via shows.json -->
+      </div>
+    </nav>
+
+    <div class="controls-bar" id="controls-bar">
       <div class="controls-inner">
         <!-- Episode Dropdown -->
         <div class="episode-picker-wrap">
@@ -1219,6 +1396,22 @@
       <h3 style="color: #ef4444; font-size: 1.2rem;">数据加载失败</h3>
       <p id="error-message" style="color: var(--text-secondary); max-width: 480px;"></p>
       <button type="button" class="btn-retry" id="btn-retry">重新加载</button>
+    </div>
+
+    <!-- Empty State (When show has 0 episodes) -->
+    <div id="empty-state" class="state-banner empty-state-card" style="display: none;">
+      <div class="empty-icon-wrap">
+        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z"/>
+          <path d="M19 10v2a7 7 0 0 1-14 0v-2"/>
+          <line x1="12" x2="12" y1="19" y2="22"/>
+        </svg>
+      </div>
+      <h3 class="empty-title" id="empty-show-title">该播客暂未收录单集</h3>
+      <p class="empty-desc" id="empty-show-desc">该播客已完成配置入库，但暂未收录已转写的精读单集。请通过 GitHub Actions 工作流手动调度抓取，或等待定时巡检自动更新。</p>
+      <div class="empty-meta-box">
+        <span id="empty-rss-link">RSS: -</span>
+      </div>
     </div>
 
     <!-- Episode Render Container -->
@@ -1385,7 +1578,8 @@
       console.log('[AIRSHOW][UI] App initializing...');
 
       // State Management
-      let appData = null;
+      let currentShowsManifest = null;
+      let currentShow = null;
       let currentEpisode = null;
       let currentLangMode = 'bilingual';
       let isAutoScrollEnabled = false;
@@ -1395,8 +1589,10 @@
       const PLAYBACK_RATES = [1.0, 1.25, 1.5, 2.0];
       let currentRateIndex = 0;
 
-      // v2.0 Lazy Loading & In-Memory Cache State
-      const episodeCache = new Map();
+      // v3.0 Two-level in-memory cache & Anti-race condition locks
+      const showIndexCache = new Map(); // key: show.id -> show index data
+      const episodeCache = new Map();   // key: `${show.id}::${guid}` -> episode full data
+      let currentLoadingShowId = null;
       let currentLoadingGuid = null;
       let currentRequestSeq = 0;
 
@@ -1407,6 +1603,14 @@
       const loadingState = document.getElementById('loading-state');
       const errorState = document.getElementById('error-state');
       const errorMessage = document.getElementById('error-message');
+      const emptyState = document.getElementById('empty-state');
+      const emptyShowTitle = document.getElementById('empty-show-title');
+      const emptyShowDesc = document.getElementById('empty-show-desc');
+      const emptyRssLink = document.getElementById('empty-rss-link');
+      const podcastTabs = document.getElementById('podcast-tabs');
+      const brandShowTitle = document.getElementById('brand-show-title');
+      const brandSiteTitle = document.getElementById('brand-site-title');
+      const brandLink = document.getElementById('brand-link');
       const episodeContent = document.getElementById('episode-content');
       const btnRetry = document.getElementById('btn-retry');
 
@@ -1514,15 +1718,24 @@
       }
 
       /**
-       * Map speaker name to specific CSS class
+       * Map speaker name to specific CSS class (deterministic color assignment for guests)
        */
       function getSpeakerCssClass(speaker) {
-        if (!speaker) return 'spk-guest';
-        const s = speaker.toLowerCase();
+        if (!speaker) return 'spk-dyn-0';
+        const s = speaker.toLowerCase().trim();
         if (s.includes('jon') || s.includes('ostrower')) return 'spk-jon';
         if (s.includes('brian') || s.includes('sumers')) return 'spk-brian';
         if (s.includes('brett') || s.includes('snyder')) return 'spk-brett';
-        return 'spk-guest';
+        if (s.includes('kaiser') || s.includes('kuo')) return 'spk-kaiser';
+
+        // Deterministic hash for flowing guests (consistent across app)
+        let hash = 0;
+        for (let i = 0; i < s.length; i++) {
+          hash = ((hash << 5) - hash) + s.charCodeAt(i);
+          hash |= 0;
+        }
+        const idx = Math.abs(hash) % 8;
+        return `spk-dyn-${idx}`;
       }
 
       /**
@@ -1603,6 +1816,9 @@
           iconSun.style.display = 'none';
           iconMoon.style.display = 'block';
         }
+        if (currentShow) {
+          applyShowTheme(currentShow);
+        }
       }
 
       themeToggleBtn.addEventListener('click', () => {
@@ -1644,47 +1860,240 @@
       }
 
       // ======================================================================
-      // Data Fetching & Rendering (v2.0 On-Demand Lazy Architecture)
+      // Data Fetching & Rendering (v3.0 Multi-Podcast On-Demand Architecture)
       // ======================================================================
 
-      async function loadIndexData() {
-        console.log('[AIRSHOW][UI] Fetching ./data/index.json...');
+      function lightenHexColor(hex) {
+        let c = hex.replace('#', '');
+        if (c.length === 3) c = c.split('').map(x => x + x).join('');
+        const num = parseInt(c, 16);
+        if (isNaN(num)) return '#38bdf8';
+        let r = (num >> 16) & 255;
+        let g = (num >> 8) & 255;
+        let b = num & 255;
+        r = Math.round(r + (255 - r) * 0.55);
+        g = Math.round(g + (255 - g) * 0.55);
+        b = Math.round(b + (255 - b) * 0.55);
+        return `rgb(${r}, ${g}, ${b})`;
+      }
+
+      function applyShowTheme(show) {
+        const accent = (show && show.accent_color) ? show.accent_color : '#0a2540';
+        document.documentElement.style.setProperty('--show-accent', accent);
+
+        let darkAccent = '#38bdf8';
+        const hex = accent.toLowerCase().trim();
+        if (hex === '#9b2226' || (show && show.id === 'sinica')) {
+          darkAccent = '#f87171';
+        } else if (hex === '#0a2540' || (show && show.id === 'airshow')) {
+          darkAccent = '#38bdf8';
+        } else {
+          darkAccent = lightenHexColor(hex);
+        }
+        document.documentElement.style.setProperty('--show-accent-dark', darkAccent);
+      }
+
+      function renderPodcastTabs(shows) {
+        podcastTabs.innerHTML = '';
+        shows.forEach((show) => {
+          const btn = document.createElement('button');
+          btn.type = 'button';
+          btn.className = 'podcast-tab-btn';
+          btn.dataset.showId = show.id;
+          btn.setAttribute('role', 'tab');
+          btn.setAttribute('aria-selected', 'false');
+          btn.setAttribute('title', `${show.title} · ${show.subtitle || ''}`);
+
+          const titleSpan = document.createElement('span');
+          titleSpan.className = 'podcast-tab-title';
+          titleSpan.textContent = show.title;
+
+          const badgeSpan = document.createElement('span');
+          badgeSpan.className = 'podcast-tab-badge';
+          badgeSpan.textContent = show.episode_count != null ? show.episode_count : '0';
+
+          btn.appendChild(titleSpan);
+          btn.appendChild(badgeSpan);
+
+          btn.addEventListener('click', () => {
+            if (currentShow && currentShow.id === show.id) return;
+            switchShow(show.id);
+          });
+
+          podcastTabs.appendChild(btn);
+        });
+      }
+
+      function updatePodcastTabsActive(showId) {
+        const tabs = podcastTabs.querySelectorAll('.podcast-tab-btn');
+        tabs.forEach((tab) => {
+          const isActive = tab.dataset.showId === showId;
+          tab.classList.toggle('active', isActive);
+          tab.setAttribute('aria-selected', isActive ? 'true' : 'false');
+        });
+      }
+
+      function parseHash(shows) {
+        const raw = window.location.hash.replace(/^#/, '');
+        if (!raw) {
+          return { showId: shows[0].id, guid: null };
+        }
+
+        if (raw.includes('/')) {
+          const slashIdx = raw.indexOf('/');
+          const sId = raw.slice(0, slashIdx);
+          const encGuid = raw.slice(slashIdx + 1);
+          let epGuid = null;
+          try {
+            epGuid = decodeURIComponent(encGuid);
+          } catch {
+            epGuid = encGuid;
+          }
+          if (shows.some(s => s.id === sId)) {
+            return { showId: sId, guid: epGuid };
+          }
+        }
+
+        const matched = shows.find(s => s.id === raw);
+        if (matched) {
+          return { showId: matched.id, guid: null };
+        }
+
+        // Backward compatibility: legacy bookmark #Buzzsprout-... falls back to airshow
+        return { showId: 'airshow', guid: raw };
+      }
+
+      async function switchShow(showId, targetGuid = null) {
+        if (!currentShowsManifest || !currentShowsManifest.shows) return;
+        const show = currentShowsManifest.shows.find(s => s.id === showId);
+        if (!show) {
+          console.warn(`[UI] Show ${showId} not found in manifest`);
+          return;
+        }
+
+        currentRequestSeq++;
+        const thisSeq = currentRequestSeq;
+        currentLoadingShowId = showId;
+        currentShow = show;
+
+        // Apply theme accent color
+        applyShowTheme(show);
+
+        // Update podcast nav tabs UI
+        updatePodcastTabsActive(showId);
+
+        // Pause player and reset playback state
+        audio.pause();
+        audio.removeAttribute('src');
+        audio.load();
+        lastActiveTranscriptIndex = -1;
+        lastActiveHighlightIndex = -1;
+        timeCurrent.textContent = '00:00';
+        timeTotal.textContent = '00:00';
+        seekSlider.value = 0;
+        playerEpTitle.textContent = show.title;
+        playerSpeakerName.textContent = '就绪';
+        updatePlayPauseIcons(false);
+
+        // Reset search filter
+        searchInput.value = '';
+        searchClearBtn.style.display = 'none';
+        searchStatsBanner.classList.remove('visible');
+
+        // Update brand titles and document title
+        brandShowTitle.textContent = show.title;
+        brandSiteTitle.textContent = currentShowsManifest.site_title || '精读 · 双语同步';
+        document.title = `${show.title} · ${currentShowsManifest.site_title || '播客双语精读'}`;
+
+        // Cache hit branch
+        if (showIndexCache.has(showId)) {
+          console.log(`[UI] Show index cache hit for: ${showId}`);
+          const indexData = showIndexCache.get(showId);
+          handleShowIndexLoaded(show, indexData, targetGuid, thisSeq);
+          return;
+        }
+
+        // Cache miss: fetch show index
         loadingState.style.display = 'flex';
         errorState.style.display = 'none';
+        emptyState.style.display = 'none';
         episodeContent.style.display = 'none';
+        playerBar.style.display = 'none';
 
         try {
-          const response = await fetch('./data/index.json', { cache: 'no-cache' });
+          const fileUrl = './data/' + show.index_file;
+          const response = await fetch(fileUrl, { cache: 'no-cache' });
           if (!response.ok) {
             throw new Error(`HTTP ${response.status} ${response.statusText}`);
           }
-          const data = await response.json();
-          appData = data;
-          console.log(`[AIRSHOW][UI] Successfully loaded index with ${data.episodes ? data.episodes.length : 0} episodes (schema: ${data.schema_version})`);
+          const indexData = await response.json();
+          showIndexCache.set(showId, indexData);
 
-          if (!data.episodes || data.episodes.length === 0) {
-            throw new Error('index.json 中未包含任何播客单集数据');
+          if (thisSeq !== currentRequestSeq || currentLoadingShowId !== showId) {
+            console.log(`[UI] Stale show index response ignored for ${showId}`);
+            return;
           }
 
-          populateEpisodeDropdown(data.episodes);
-
-          // Support URL hash or default to latest episode (item 0)
-          const hashGuid = window.location.hash.replace(/^#/, '');
-          const initialEp = (hashGuid && data.episodes.find(ep => ep.guid === hashGuid)) || data.episodes[0];
-          selectEpisode(initialEp);
-
-          loadingState.style.display = 'none';
-          episodeContent.style.display = 'block';
-          playerBar.style.display = 'block';
+          handleShowIndexLoaded(show, indexData, targetGuid, thisSeq);
         } catch (err) {
-          console.error('[AIRSHOW][UI] Failed to load index data:', err);
+          console.error(`[UI] Failed to load index for show ${showId}:`, err);
+          if (thisSeq !== currentRequestSeq || currentLoadingShowId !== showId) return;
+
           loadingState.style.display = 'none';
           errorState.style.display = 'flex';
-          errorMessage.textContent = `加载失败：${err.message}。请确认已在 docs 目录下运行静态服务器。`;
+          errorMessage.textContent = `加载节目目录失败：${err.message}`;
         }
       }
 
-      btnRetry.addEventListener('click', loadIndexData);
+      function handleShowIndexLoaded(show, indexData, targetGuid, seq) {
+        if (seq !== currentRequestSeq || currentLoadingShowId !== show.id) return;
+
+        const episodes = indexData.episodes || [];
+
+        if (episodes.length === 0) {
+          // Elegant Empty State
+          loadingState.style.display = 'none';
+          errorState.style.display = 'none';
+          episodeContent.style.display = 'none';
+          playerBar.style.display = 'none';
+          emptyState.style.display = 'flex';
+
+          emptyShowTitle.textContent = `${show.title} · 暂无收录单集`;
+          emptyShowDesc.textContent = `该播客已成功配置入库（${show.subtitle || ''}），但暂未生成双语精读单集。请通过 GitHub Actions 手动调度工作流抓取，或等待每 6 小时定时巡检自动更新。`;
+          emptyRssLink.textContent = `RSS: ${show.rss_url || indexData.rss_url || '-'}`;
+
+          episodeSelect.innerHTML = '<option value="">(暂无单集入库)</option>';
+          episodeSelect.disabled = true;
+          searchInput.disabled = true;
+
+          // Sync URL Hash to #show.id
+          if (window.location.hash !== '#' + show.id) {
+            history.replaceState(null, '', '#' + show.id);
+          }
+          return;
+        }
+
+        // Active State with Episodes
+        emptyState.style.display = 'none';
+        loadingState.style.display = 'none';
+        episodeSelect.disabled = false;
+        searchInput.disabled = false;
+
+        populateEpisodeDropdown(episodes);
+
+        let initialEp = null;
+        if (targetGuid) {
+          initialEp = episodes.find(e => e.guid === targetGuid);
+        }
+        if (!initialEp) {
+          initialEp = episodes[0];
+        }
+
+        selectEpisode(show, initialEp);
+
+        episodeContent.style.display = 'block';
+        playerBar.style.display = 'block';
+      }
 
       function populateEpisodeDropdown(episodes) {
         episodeSelect.innerHTML = '';
@@ -1697,22 +2106,25 @@
         });
       }
 
-      function selectEpisode(epMeta) {
+      function selectEpisode(show, epMeta) {
         currentLoadingGuid = epMeta.guid;
         currentRequestSeq++;
         const thisSeq = currentRequestSeq;
 
-        console.log(`[AIRSHOW][UI] Selected episode: "${epMeta.title}" (${epMeta.guid})`);
+        console.log(`[UI] Selected episode: "${epMeta.title}" (${epMeta.guid}) in ${show.id}`);
 
-        // Update dropdown selected value
         episodeSelect.value = epMeta.guid;
 
-        // Sync URL Hash without triggering page scroll
-        if (window.location.hash.replace(/^#/, '') !== epMeta.guid) {
-          history.replaceState(null, '', '#' + epMeta.guid);
+        // Sync URL Hash: #showId/encodeURIComponent(guid)
+        const targetHash = `#${show.id}/${encodeURIComponent(epMeta.guid)}`;
+        if (window.location.hash !== targetHash) {
+          history.replaceState(null, '', targetHash);
         }
 
-        // Reset player & state (pause previous episode playback and reset highlight indices)
+        // Update document title
+        document.title = `${epMeta.title} | ${show.title} · ${currentShowsManifest.site_title || '播客双语精读'}`;
+
+        // Reset player & state
         audio.pause();
         audio.src = epMeta.audio_url || '';
         audio.load();
@@ -1726,33 +2138,29 @@
         playerSpeakerName.textContent = '就绪';
         updatePlayPauseIcons(false);
 
-        // Immediately render metadata and summary from index.json
-        renderArticleMeta(epMeta);
+        // Render metadata & summary immediately from index
+        renderArticleMeta(show, epMeta);
         renderExecutiveSummary(epMeta);
 
-        // In-memory cache hit branch
-        if (episodeCache.has(epMeta.guid)) {
-          console.log(`[AIRSHOW][UI] Cache hit for ${epMeta.guid}`);
-          const detail = episodeCache.get(epMeta.guid);
+        // In-memory cache check: `${show.id}::${epMeta.guid}`
+        const cacheKey = `${show.id}::${epMeta.guid}`;
+        if (episodeCache.has(cacheKey)) {
+          console.log(`[UI] Episode cache hit for ${cacheKey}`);
+          const detail = episodeCache.get(cacheKey);
           currentEpisode = detail;
           renderHighlights(detail.highlights || []);
           renderTranscript(detail.transcript || []);
 
-          // Link search state: re-apply filter and highlighting if search input is non-empty
           const q = searchInput.value.trim();
-          if (q) {
-            applySearchFilter(q);
-          } else {
-            applySearchFilter('');
-          }
+          applySearchFilter(q);
           return;
         }
 
-        // Cache miss: show concise loading indicator in Highlights and Transcript areas, then fetch
-        loadEpisodeDetail(epMeta, thisSeq);
+        loadEpisodeDetail(show, epMeta, thisSeq);
       }
 
-      async function loadEpisodeDetail(epMeta, seq) {
+      async function loadEpisodeDetail(show, epMeta, seq) {
+        const cacheKey = `${show.id}::${epMeta.guid}`;
         currentEpisode = {
           ...epMeta,
           highlights: [],
@@ -1778,20 +2186,19 @@
         `;
 
         try {
-          const fileUrl = './data/' + epMeta.file;
+          const fileUrl = `./data/${show.id}/${epMeta.file}`;
           const response = await fetch(fileUrl, { cache: 'no-cache' });
           if (!response.ok) {
             throw new Error(`HTTP ${response.status} ${response.statusText}`);
           }
           const detail = await response.json();
 
-          // Save to in-memory cache
-          episodeCache.set(epMeta.guid, detail);
-          console.log(`[AIRSHOW][UI] Loaded episode detail: ${epMeta.file}`);
+          episodeCache.set(cacheKey, detail);
+          console.log(`[UI] Loaded episode detail: ${fileUrl}`);
 
-          // Race condition check: verify if still the currently selected episode
-          if (currentLoadingGuid !== epMeta.guid || seq !== currentRequestSeq) {
-            console.log(`[AIRSHOW][UI] Stale response ignored for ${epMeta.guid}`);
+          // Anti-race condition check
+          if (currentLoadingGuid !== epMeta.guid || seq !== currentRequestSeq || currentLoadingShowId !== show.id) {
+            console.log(`[UI] Stale episode response ignored for ${cacheKey}`);
             return;
           }
 
@@ -1799,18 +2206,11 @@
           renderHighlights(detail.highlights || []);
           renderTranscript(detail.transcript || []);
 
-          // Link search state: re-apply filter and highlighting if search input is non-empty
           const q = searchInput.value.trim();
-          if (q) {
-            applySearchFilter(q);
-          } else {
-            applySearchFilter('');
-          }
+          applySearchFilter(q);
         } catch (err) {
-          console.error(`[AIRSHOW][UI] Failed to load detail for ${epMeta.guid}:`, err);
-          if (currentLoadingGuid !== epMeta.guid || seq !== currentRequestSeq) {
-            return;
-          }
+          console.error(`[UI] Failed to load detail for ${cacheKey}:`, err);
+          if (currentLoadingGuid !== epMeta.guid || seq !== currentRequestSeq || currentLoadingShowId !== show.id) return;
 
           highlightsCountBadge.textContent = '加载失败';
           transcriptCountBadge.textContent = '加载失败';
@@ -1825,14 +2225,14 @@
           const btnRetryDetail = document.getElementById('btn-retry-detail');
           if (btnRetryDetail) {
             btnRetryDetail.addEventListener('click', () => {
-              selectEpisode(epMeta);
+              selectEpisode(show, epMeta);
             });
           }
         }
       }
 
-      function renderArticleMeta(ep) {
-        metaPodcastTitle.textContent = appData.podcast_title || 'The Air Show';
+      function renderArticleMeta(show, ep) {
+        metaPodcastTitle.textContent = (show && show.title) || '播客精读';
         metaPubDate.textContent = formatDateZh(ep.pub_date);
         metaDuration.textContent = formatDurationZh(ep.duration_sec);
         metaAudioLink.href = ep.audio_url || '#';
@@ -2253,30 +2653,84 @@
       // Episode dropdown change listener
       episodeSelect.addEventListener('change', (e) => {
         const selectedGuid = e.target.value;
-        if (!appData || !appData.episodes) return;
-        const found = appData.episodes.find(ep => ep.guid === selectedGuid);
+        if (!currentShow) return;
+        const indexData = showIndexCache.get(currentShow.id);
+        if (!indexData || !indexData.episodes) return;
+        const found = indexData.episodes.find(ep => ep.guid === selectedGuid);
         if (found) {
-          selectEpisode(found);
+          selectEpisode(currentShow, found);
         }
       });
 
       // Window hashchange listener for browser back/forward or direct link navigation
       window.addEventListener('hashchange', () => {
-        const hashGuid = window.location.hash.replace(/^#/, '');
-        if (hashGuid && hashGuid !== currentLoadingGuid && appData && appData.episodes) {
-          const found = appData.episodes.find(ep => ep.guid === hashGuid);
-          if (found) {
-            selectEpisode(found);
+        if (!currentShowsManifest || !currentShowsManifest.shows) return;
+        const { showId, guid } = parseHash(currentShowsManifest.shows);
+        if (currentShow && currentShow.id === showId) {
+          if (guid && currentEpisode && currentEpisode.guid === guid) {
+            return;
+          }
+          const indexData = showIndexCache.get(showId);
+          if (indexData && indexData.episodes) {
+            const found = indexData.episodes.find(ep => ep.guid === guid);
+            if (found) {
+              selectEpisode(currentShow, found);
+              return;
+            }
           }
         }
+        switchShow(showId, guid);
       });
 
+      // Brand link scroll top
+      if (brandLink) {
+        brandLink.addEventListener('click', (e) => {
+          e.preventDefault();
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+      }
+
       // ======================================================================
-      // Initialization
+      // Application Initialization
       // ======================================================================
+
+      async function initApp() {
+        console.log('[UI] Initializing application...');
+        loadingState.style.display = 'flex';
+        errorState.style.display = 'none';
+        emptyState.style.display = 'none';
+        episodeContent.style.display = 'none';
+        playerBar.style.display = 'none';
+
+        try {
+          const response = await fetch('./data/shows.json', { cache: 'no-cache' });
+          if (!response.ok) {
+            throw new Error(`无法获取节目清单 (HTTP ${response.status} ${response.statusText})`);
+          }
+          const showsData = await response.json();
+          currentShowsManifest = showsData;
+
+          if (!showsData.shows || showsData.shows.length === 0) {
+            throw new Error('shows.json 中未配置任何播客节目');
+          }
+
+          renderPodcastTabs(showsData.shows);
+
+          const { showId, guid } = parseHash(showsData.shows);
+          await switchShow(showId, guid);
+        } catch (err) {
+          console.error('[UI] App initialization failed:', err);
+          loadingState.style.display = 'none';
+          errorState.style.display = 'flex';
+          errorMessage.textContent = `初始化失败：${err.message}。请确认已在 docs 目录下运行静态服务器。`;
+        }
+      }
+
+      btnRetry.addEventListener('click', initApp);
+
       initTheme();
       initLanguageMode();
-      loadIndexData();
+      initApp();
 
     })();
   </script>

@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "3.0",
   "guid": "Buzzsprout-20076825",
   "title": "The Wildly Overblown JetBlue Panic",
   "pub_date": "2026-11-05T11:00:00Z",
@@ -1444,5 +1444,6 @@
       "en": "...oh, so much more.",
       "zh": "……哦，真的是多得多。"
     }
-  ]
+  ],
+  "show_id": "airshow"
 }

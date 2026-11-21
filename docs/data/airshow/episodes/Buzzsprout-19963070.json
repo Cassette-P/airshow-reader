@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "3.0",
   "guid": "Buzzsprout-19963070",
   "title": "American: THE Premier Global Airline Based in the U.S.",
   "pub_date": "2026-10-15T10:00:00Z",
@@ -1361,5 +1361,6 @@
       "en": "Weren't they flying Dallas for a while, too, with like a single red-eye just to make their displeasure known about something?",
       "zh": "他们之前不也是飞了一段时间达拉斯吗，就排了一趟红眼航班，单纯为了表达对某些事的不满？"
     }
-  ]
+  ],
+  "show_id": "airshow"
 }
