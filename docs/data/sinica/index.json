@@ -3,6 +3,25 @@
   "show_id": "sinica",
   "podcast_title": "Sinica Podcast",
   "rss_url": "https://rss.art19.com/sinica",
-  "updated_at": "2026-11-21T10:42:19Z",
-  "episodes": []
+  "updated_at": "2026-11-21T11:27:21Z",
+  "episodes": [
+    {
+      "guid": "gid://art19-episode-locator/V0/NOjpq5Y0yw3rXM-ajgSwiv-2MjylOPDFws2QzBr3dJk",
+      "title": "Joe Studwell on How Africa Works, and What It Tells Us About China",
+      "pub_date": "2026-11-20T05:00:00Z",
+      "duration_sec": 5863,
+      "audio_url": "https://rss.art19.com/episodes/cb534e0c-c99b-4607-b3a0-61ce02e378b3.mp3?rss_browser=BAhJIgtDaHJvbWUGOgZFVA%3D%3D--d05363d83ce333c74f32188013892b2863ad051c",
+      "file": "episodes/gid_art19-episode-locator_V0_NOjpq5Y0yw3rXM-ajgSwiv-2MjylOPDFws2QzBr3dJk.json",
+      "summary_zh": "本期节目中，主播Kaiser Kuo对话知名学者Joe Studwell，围绕其新作《How Africa Works》探讨非洲经济发展瓶颈、东亚发展模式的普适性及中国在非角色。Studwell指出，长期束缚非洲的根本原因并非腐败或部族冲突，而是历史上极低的人口密度与“低预算殖民主义”导致的市场缺失、城市化不足与教育匮乏。他以埃塞俄比亚为核心案例，剖析前总理Meles Zenawi如何效仿台湾与韩国推行小农农业与出口制造业政策实现减贫奇迹，同时检视其军工垄断与族裔联邦制的严重失误。此外，两人深入辨析了中国发展模式中普适性与独特性的边界，并指出当前中企赴非投资正从早期政策性基建贷款转向由商业银行和私营部门驱动的制造业，核心诉求在于逃离国内“内卷”以获取更高利润率。",
+      "key_takeaways_zh": [
+        "制约非洲早期发展的核心变量并非腐败或族群冲突，而是极低的人口密度导致缺乏市场规模、基础设施分摊能力与“低预算殖民主义”下的教育空白。",
+        "所谓的“东亚发展模式”（小农农业优先、出口导向型制造业、金融抑制与资本管制）本质上是全球快速工业化的通用最优解，在非洲成功案例中同样有效。",
+        "埃塞俄比亚在Meles Zenawi治下深入践行东亚型“发展型国家”路径并大幅减贫，但缺乏竞争的军工国企垄断与僵化的族裔联邦制最终诱发了惨烈内战。",
+        "中国发展模式的底层经济逻辑与日韩台高度一致，其真正独特之处在于“地方试点再全国推广”的政策机制以及1990年代通过拆分国企引入内部竞争的改革手腕。",
+        "中国对非经济参与已从早期政策性银行主导的基建与资源贷款，转向商业银行与私营企业驱动的制造业FDI，中企赴非的核心动机是寻求比国内更高的利润率。"
+      ],
+      "highlights_count": 9,
+      "transcript_count": 347
+    }
+  ]
 }
