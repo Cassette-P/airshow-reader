@@ -3,7 +3,7 @@
   "show_id": "sinica",
   "podcast_title": "Sinica Podcast",
   "rss_url": "https://rss.art19.com/sinica",
-  "updated_at": "2026-11-21T11:27:21Z",
+  "updated_at": "2026-11-21T13:28:01Z",
   "episodes": [
     {
       "guid": "gid://art19-episode-locator/V0/NOjpq5Y0yw3rXM-ajgSwiv-2MjylOPDFws2QzBr3dJk",
@@ -22,6 +22,59 @@
       ],
       "highlights_count": 9,
       "transcript_count": 347
+    },
+    {
+      "guid": "gid://art19-episode-locator/V0/g4Li4aDuRedsOv3VvzOuIvebNhfM0LC13WMs6BsbXV8",
+      "title": "Asia’s Future Beyond U.S.-China Competition: Evan Feigenbaum’s Ottawa Keynote",
+      "pub_date": "2026-11-15T06:00:00Z",
+      "duration_sec": 2709,
+      "audio_url": "https://rss.art19.com/episodes/549dcbe4-0f1a-42e6-840f-5bdb2e69e1d6.mp3?rss_browser=BAhJIgtDaHJvbWUGOgZFVA%3D%3D--d05363d83ce333c74f32188013892b2863ad051c",
+      "file": "episodes/gid_art19-episode-locator_V0_g4Li4aDuRedsOv3VvzOuIvebNhfM0LC13WMs6BsbXV8.json",
+      "summary_zh": "本期节目呈现了卡内基国际和平研究院副院长 Evan Feigenbaum 在加拿大亚太基金会印太论坛上的主旨演讲。他打破了美方非“霸权”即“两极对抗”的二元思维，指出除军事安全仍呈两极格局外，亚洲秩序正走向多元的“碎片化”。他批评中美同陷“战略自恋”与零和内耗：华盛顿将对华政策泛安全化、将亚洲政策“中国化”，在宣示霸权姿态的同时撤回公共产品，并与伙伴频生贸易摩擦；北京虽在周边提供契合当地需求的数字与新能源合作，却也全面效仿美式经济胁迫与长臂管辖。Evan Feigenbaum 认为，正因中美竞相破坏集体行动，碎片化并未导致失序，反而为加拿大等中等强国创造了规则制定的历史机遇，但前提是摒弃空洞的小多边“形式”，转向务实的“功能”合作。",
+      "key_takeaways_zh": [
+        "亚洲秩序的未来既非美国或中国的单极霸权，也非冷战式的两极分化，而是除军事安全外在经贸与数字规则等领域呈现多元“碎片化”。",
+        "美国已将对华政策全面“泛安全化”并将亚洲政策彻底“中国化”，在军民两用技术驱动下，将一切经贸与科技流动纳入国安审查的趋势极难逆转。",
+        "当前美国印太政策“姿态有余而战略不足”，在要求盟友围绕台海突发事态强化防务前置承诺的同时，却撤回市场开放等公共产品甚至与伙伴大打贸易战。",
+        "中国虽凭借数字基建与可再生能源契合了周边国家的产业升级需求，但在制度工具和法律上正全面效仿美国的经济胁迫与长臂管辖。",
+        "大国竞相破坏集体行动反而赋予了中等强国在碎片化秩序中充当规则先行者的空间，但破局关键在于聚焦具体能力的“功能”整合，而非拼凑空洞的多边“形式”。"
+      ],
+      "highlights_count": 8,
+      "transcript_count": 141
+    },
+    {
+      "guid": "gid://art19-episode-locator/V0/Y_CjSJz9ygXM5ejP7WRSX6cPjWIfQSqunPeIU-8kwMg",
+      "title": "Sinica Weekend Edition: Three Days Out and About in Beijing",
+      "pub_date": "2026-11-05T11:00:00Z",
+      "duration_sec": 2691,
+      "audio_url": "https://rss.art19.com/episodes/ac790a5f-dc2d-44dd-91b6-382f85dc99b5.mp3?rss_browser=BAhJIgtDaHJvbWUGOgZFVA%3D%3D--d05363d83ce333c74f32188013892b2863ad051c",
+      "file": "episodes/gid_art19-episode-locator_V0_Y_CjSJz9ygXM5ejP7WRSX6cPjWIfQSqunPeIU-8kwMg.json",
+      "summary_zh": "本期周末特别节目中，主播Kaiser Kuo携带便携录音设备走上北京街头，记录了十月底至十一月初三天的真实生活切面。透过在Café Zarah、Golden Weasel酒吧、香港大学北京中心及餐桌旁的即兴对谈，节目串联起智库学者、艺术家、媒体人与经济学家对当下中国的微观体感与宏观观察。受访者们探讨了北京外籍社群与文艺生态在疫情后的温和复苏、中欧围绕新能源汽车与光伏出口的产业博弈、中国经济的“K型”分化与房地产深度调整，以及主动刺破地产泡沫与转向硬科技之间的政策逻辑。同时，跨国科研合作面临的安全化阻碍与在美中国留学生的夹缝处境，也折射出地缘政治张力下的个体困境，立体呈现出一座在剧烈变迁与日常惯性间交织的当代北京。",
+      "key_takeaways_zh": [
+        "面对中国新能源汽车与光伏等制造业出口浪潮，欧洲不应止步于防御性抱怨，而需提出双方均可接受的具体谈判诉求以达成利益平衡。",
+        "当下中国经济呈现显著的“K型”分化特征：硬科技与人工智能从业者信心高涨，而受房地产深度回调拖累的传统制造业与居民消费则持续承压。",
+        "监管层早年借“三条红线”主动刺破房地产泡沫，在深层逻辑上与引导资源流向人工智能、先进半导体等硬科技领域的国家战略密切相关。",
+        "在“武器化相互依赖”的地缘政治氛围下，跨国科研交流正遭受信任赤字侵蚀，而在美中国留学生也日益陷入“父母离异式”的选边站队困境。",
+        "尽管经历了街道整治、疫情冲击及对西方节日的降温，北京的外籍常住群体与本土文艺圈仍在“第三空间”中展现出复苏迹象与社群韧性。"
+      ],
+      "highlights_count": 8,
+      "transcript_count": 188
+    },
+    {
+      "guid": "gid://art19-episode-locator/V0/Rd44xrxF2NfF-Ct061CEgmtGlMoCkPmPZeCpOxshIY8",
+      "title": "Mr. China’s Great Enterprise: Tim Clissold and the Fight for a Chinese Civilisation A-level",
+      "pub_date": "2026-10-27T00:00:00Z",
+      "duration_sec": 4282,
+      "audio_url": "https://rss.art19.com/episodes/7bd5ed24-99dd-43c6-8c02-6a7a6aaaad70.mp3?rss_browser=BAhJIgtDaHJvbWUGOgZFVA%3D%3D--d05363d83ce333c74f32188013892b2863ad051c",
+      "file": "episodes/gid_art19-episode-locator_V0_Rd44xrxF2NfF-Ct061CEgmtGlMoCkPmPZeCpOxshIY8.json",
+      "summary_zh": "本期节目中，Kaiser Kuo 在北京对话深耕中国近四十年的英国商业调解人、《Mr. China》作者 Tim Clissold，探讨其新书《Teach the People》与耗时二十年的“大业”——在英国高中推动设立全英文授课的“中华文明”A-level课程。Tim 指出，中西方存在严峻的“认知鸿沟”：中国人对西方的了解远超西方对中国，这已成为关乎国家安全与竞争力的结构性短板。两人将当下西方处境与晚清作历史类比，反思西方在能源转型、基础设施与产业政策上的制度掣肘，并探讨如何倒置“中体西用”以实现自我革新。尽管该课程提案获得了英国顶尖高校校长、商界领袖及私人资金支持，却因官僚惰性与单押中文语言教育的误区屡遭英国教育部否决。双方一致认为，无论对华鹰派还是鸽派，打破无知与恐慌、建立透明理性的合作与防御护栏都刻不容缓。",
+      "key_takeaways_zh": [
+        "中西方存在严重的不对称“认知鸿沟”，中国自改革开放前夕便开始系统性研究西方，而西方对华认知的匮乏正演变为国家安全与战略竞争的致命短板。",
+        "当下西方在能源转型、基建效率与全球南方发展合作上正面临类似晚清的“历史大清算”，亟需借鉴冯桂芬式的自省，探索跨越选举周期的长期产业政策与资本引导机制。",
+        "英国单纯依赖中文语言教学的策略因母语者升学竞争等结构性障碍导致A-level报考人数减半，仿照“古典文明”设立全英文授课的“中华文明”课程才是扩大对华人才池的可行桥梁。",
+        "西方媒体与政界常陷入将中国妖魔化的道德恐慌，而真正理性的对华战略应当跨越鹰鸽分歧，在深刻理解中国运作逻辑的基础上划定透明清晰的合作与防御护栏。"
+      ],
+      "highlights_count": 8,
+      "transcript_count": 313
     }
   ]
 }

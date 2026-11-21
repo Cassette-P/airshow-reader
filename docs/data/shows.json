@@ -1,7 +1,7 @@
 {
   "schema_version": "3.0",
   "site_title": "Podcast Bilingual Reader",
-  "updated_at": "2026-11-21T11:27:21Z",
+  "updated_at": "2026-11-21T13:28:01Z",
   "shows": [
     {
       "id": "airshow",
@@ -18,7 +18,7 @@
       "subtitle": "Current Affairs in China · Hosted by Kaiser Kuo",
       "accent_color": "#9b2226",
       "index_file": "sinica/index.json",
-      "episode_count": 1,
+      "episode_count": 4,
       "latest_pub_date": "2026-11-20T05:00:00Z"
     }
   ]

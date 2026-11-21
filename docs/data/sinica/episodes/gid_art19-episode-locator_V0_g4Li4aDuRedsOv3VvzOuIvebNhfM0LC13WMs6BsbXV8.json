@@ -1,0 +1,1056 @@
+{
+  "schema_version": "3.0",
+  "show_id": "sinica",
+  "guid": "gid://art19-episode-locator/V0/g4Li4aDuRedsOv3VvzOuIvebNhfM0LC13WMs6BsbXV8",
+  "title": "Asia’s Future Beyond U.S.-China Competition: Evan Feigenbaum’s Ottawa Keynote",
+  "pub_date": "2026-11-15T06:00:00Z",
+  "duration_sec": 2709,
+  "audio_url": "https://rss.art19.com/episodes/549dcbe4-0f1a-42e6-840f-5bdb2e69e1d6.mp3?rss_browser=BAhJIgtDaHJvbWUGOgZFVA%3D%3D--d05363d83ce333c74f32188013892b2863ad051c",
+  "summary_zh": "本期节目呈现了卡内基国际和平研究院副院长 Evan Feigenbaum 在加拿大亚太基金会印太论坛上的主旨演讲。他打破了美方非“霸权”即“两极对抗”的二元思维，指出除军事安全仍呈两极格局外，亚洲秩序正走向多元的“碎片化”。他批评中美同陷“战略自恋”与零和内耗：华盛顿将对华政策泛安全化、将亚洲政策“中国化”，在宣示霸权姿态的同时撤回公共产品，并与伙伴频生贸易摩擦；北京虽在周边提供契合当地需求的数字与新能源合作，却也全面效仿美式经济胁迫与长臂管辖。Evan Feigenbaum 认为，正因中美竞相破坏集体行动，碎片化并未导致失序，反而为加拿大等中等强国创造了规则制定的历史机遇，但前提是摒弃空洞的小多边“形式”，转向务实的“功能”合作。",
+  "key_takeaways_zh": [
+    "亚洲秩序的未来既非美国或中国的单极霸权，也非冷战式的两极分化，而是除军事安全外在经贸与数字规则等领域呈现多元“碎片化”。",
+    "美国已将对华政策全面“泛安全化”并将亚洲政策彻底“中国化”，在军民两用技术驱动下，将一切经贸与科技流动纳入国安审查的趋势极难逆转。",
+    "当前美国印太政策“姿态有余而战略不足”，在要求盟友围绕台海突发事态强化防务前置承诺的同时，却撤回市场开放等公共产品甚至与伙伴大打贸易战。",
+    "中国虽凭借数字基建与可再生能源契合了周边国家的产业升级需求，但在制度工具和法律上正全面效仿美国的经济胁迫与长臂管辖。",
+    "大国竞相破坏集体行动反而赋予了中等强国在碎片化秩序中充当规则先行者的空间，但破局关键在于聚焦具体能力的“功能”整合，而非拼凑空洞的多边“形式”。"
+  ],
+  "highlights": [
+    {
+      "start_sec": 627,
+      "title_zh": "美国战略思维的霸权与两极偏见",
+      "summary_zh": "Evan Feigenbaum 指出，美国战略界习惯以二元对立思维审视亚洲，只看得到单极霸权、势力范围划分、新冷战两极对抗或所谓中美共治（G2）。从奥巴马关于TPP“谁来书写规则”的表态到特朗普政府国家安全战略对美国主导地位的反复强调，均折射出这一简单化认知与亚洲复杂现实的脱节。",
+      "quote_en": "We basically have two speeds when it comes to regional and global order: hegemony or bipolarity."
+    },
+    {
+      "start_sec": 916,
+      "title_zh": "碎片化并非失序而是多元机遇",
+      "summary_zh": "美国退出TPP后，并非如美方所言由中国接管规则制定，而是由日本、澳大利亚等其余11国合力推动协定落地。这延续了亚洲由非中美“先行者”引领议程的历史传统，表明当大国无力提供秩序方案时，碎片化并非失序，反而能催生契合区域增长与就业诉求的多元规则体系。",
+      "quote_en": "fragmentation actually creates the possibility of creating multivariant, multifaceted, and diverse orders that deliver to countries in the region"
+    },
+    {
+      "start_sec": 1109,
+      "title_zh": "中美同陷“战略自恋”困局",
+      "summary_zh": "尽管中美在政治体制、意识形态与经济模式上截然不同，但两国如今高度趋同地沦为“战略自恋者”。双方都将区域内的几乎所有议题置于彼此竞争的棱镜下审视，陷入一场相互消耗的零和竞赛，难以对区域秩序做出建设性贡献。",
+      "quote_en": "They are, in my view, both strategic narcissists that have a tendency to, as I said, refract almost everything through the prism of their competition with the other power."
+    },
+    {
+      "start_sec": 1202,
+      "title_zh": "对华泛安全化与亚洲政策中国化",
+      "summary_zh": "美国对华政策经历了超越党派的代际转向，原本并行的经贸与安全轨道彻底合流，商品、资本、人才、技术与数据流动全面受制于国家安全审查。由于人工智能等新兴基础技术天然具备军民两用属性，美方默认采取出口管制、中方加速国产替代，令泛安全化趋势极难逆转。",
+      "quote_en": "we have securitized our approach to China, and we have China-fied our approach to Asia."
+    },
+    {
+      "start_sec": 1475,
+      "title_zh": "台海突发事态重塑美亚同盟对话",
+      "summary_zh": "华盛顿彻底颠倒了前副国务卿 Richard Armitage“先做好亚洲政策才能做好对华政策”的格言，将制衡中国作为一切区域关系的出发点。在安全领域，美国正围绕台海潜在冲突重塑美韩与美澳同盟，敦促盟友突破传统防务分工，就基地准入、兵力结构与军费开支做出前置承诺。",
+      "quote_en": "the United States is making every relationship, initiative, and policy with nearly every partner in the region derivative of its focus on security balancing of China."
+    },
+    {
+      "start_sec": 1727,
+      "title_zh": "姿态大于战略与公共产品的撤回",
+      "summary_zh": "当前美国亚洲政策呈现出“姿态有余而战略不足、安全过剩而其余匮乏”的矛盾。华盛顿不仅放弃了贸易自由化等传统规则塑造，还与印度等制衡中国所需的关键伙伴陷入贸易摩擦，在索取主导地位的同时关闭本国市场、撤回公共产品，引发地区国家的普遍疑虑。",
+      "quote_en": "to assert your primacy, but to do it while withdrawing public goods, stands on its head the traditional way that the United States has approached the region."
+    },
+    {
+      "start_sec": 1910,
+      "title_zh": "中国的产业引力与效仿美式胁迫",
+      "summary_zh": "在中亚及非四方安全对话（Quad）成员国眼中，中国已从早期的资源开采转向提供数字基建与可再生能源合作，契合了当地向价值链上游攀升的需求。但与此同时，北京也在制度与法律层面全面效仿美国这位“经济胁迫世界冠军”，建立起不可靠实体清单、制裁机制乃至反外国制裁的长臂管辖条款。",
+      "quote_en": "both structurally and behaviorally, China has created mechanisms that, ironically enough, look even within the ambit of China's very different political system, a lot like the United States."
+    },
+    {
+      "start_sec": 2189,
+      "title_zh": "功能优于形式：中等强国的机遇",
+      "summary_zh": "Evan Feigenbaum 批评政策界热衷于拼凑三边、四边机制等“形式”却缺乏实质目标，指出Quad在2004年印度洋海啸救援中恰因聚焦“功能”才大获成功。在除军事安全外的碎片化领域，加拿大等中等强国应借鉴TPP与数字经济伙伴关系协定（DEPA）的经验，以特定领域的能力整合成为规则与标准的先行者。",
+      "quote_en": "the only way to realize that opportunity is to focus on function. Because if you focus on form, you'll make the same mistake the U.S. and others have made"
+    }
+  ],
+  "transcript": [
+    {
+      "id": 1,
+      "start_sec": 9,
+      "speaker": "Kaiser Kuo",
+      "en": "Welcome to the Sinica Podcast, a weekly discussion of current affairs in China. In this program, we look at books, ideas, new research, intellectual currents, and cultural trends that can help us better understand what's happening in China's politics, foreign relations, economics, and society.",
+      "zh": "欢迎收听 Sinica 播客，这是一档每周讨论中国时事的节目。在这里，我们关注书籍、思想、最新研究、思潮与文化趋势，以帮助大家更深入地理解中国的政治、对外关系、经济与社会脉动。"
+    },
+    {
+      "id": 2,
+      "start_sec": 26,
+      "speaker": "Kaiser Kuo",
+      "en": "Join me each week for in-depth conversations that shed more light and bring less heat to how we think and talk about China. I'm Kaiser Kuo, coming to you again this week from Mexico City.",
+      "zh": "欢迎每周与我一同展开深度对话，为我们思考和讨论中国的方式多注入理性思考，少一些情绪对立。我是 Kaiser Kuo，本周再次在墨西哥城向大家播报。"
+    },
+    {
+      "id": 3,
+      "start_sec": 37,
+      "speaker": "Kaiser Kuo",
+      "en": "As you're all probably aware, there was that massive outage that took down air traffic control across the U.S. on Friday the 13th of November. And my flight was canceled not once, but twice, and so I ended up in Mexico for, well, two additional days so far.",
+      "zh": "大家可能都知道，11月13日星期五那天，全美空中交通管制系统发生了严重故障。我的航班不仅被取消了一次，而且是两次，所以截至目前我不得不在墨西哥多滞留了整整两天。"
+    },
+    {
+      "id": 4,
+      "start_sec": 53,
+      "speaker": "Kaiser Kuo",
+      "en": "I mean, I'm assuming I fly out successfully tomorrow, but hey, I am enjoying some amazing food. I checked out the terrific Anthropology and History Museum here, which surely ranks among the absolute best museums in the world, and I am of course catching up on some reading.",
+      "zh": "不过我估计明天应该能顺利起飞吧。但话说回来，我在这里享用了不少美味佳肴，参观了当地极棒的人类学与历史博物馆——它绝对算得上是全球顶尖的博物馆之一，当然，我也趁机补读了不少书。"
+    },
+    {
+      "id": 5,
+      "start_sec": 70,
+      "speaker": "Kaiser Kuo",
+      "en": "I've got something special for you listeners today. Four years ago, Evan Feigenbaum, who serves as vice president for studies over at the Carnegie Endowment for International Peace and is a frequent guest on this program, he delivered the keynote address in the East Asia Strategy Forum in Ottawa, and I published his excellent talk here on Sinica.",
+      "zh": "今天我为听众朋友们准备了一期特别节目。四年前，卡内基国际和平研究院负责研究事务的副院长、也是本节目的常客 Evan Feigenbaum，在渥太华举行的东亚战略论坛上发表了主旨演讲，我当时就在 Sinica 上发布了他那场极为精彩的报告。"
+    },
+    {
+      "id": 6,
+      "start_sec": 92,
+      "speaker": "Kaiser Kuo",
+      "en": "Well, this year, Evan was invited back to Ottawa, where he joined the Asia Pacific Foundation of Canada, that's APF Canada, at the foundation's 2026 Indo-Pacific Forum on October 5th to discuss the dynamics of U.S.-China relations and a reordering of the Indo-Pacific security landscape as Canada actively considers the next phase of its 2022 Indo-Pacific Strategy.",
+      "zh": "今年，Evan 再次受邀前往渥太华，于 10 月 5 日出席了加拿大亚太基金会（APF Canada）举办的“2026 年印太论坛”。在加拿大积极谋划其 2022 年《印太战略》下一阶段举措之际，共同探讨中美关系动态以及印太安全格局的重塑。"
+    },
+    {
+      "id": 7,
+      "start_sec": 118,
+      "speaker": "Kaiser Kuo",
+      "en": "Once again, Evan and the good folks at APF Canada have allowed me to republish the talk in audio form. You can find a link to the YouTube video in on podcast page, and Evan is his usual wise and witty self.",
+      "zh": "Evan 和加拿大亚太基金会的朋友们再次慷慨授权，允许我以音频形式重播这场演讲。大家可以在播客主页找到相关 YouTube 视频的链接，Evan 依然保持着他那一贯的睿智与幽默。"
+    },
+    {
+      "id": 8,
+      "start_sec": 133,
+      "speaker": "Kaiser Kuo",
+      "en": "You'll hear first from Jeff Nankivell, APF Canada's president and CEO, who offered some introductory remarks prior to Evan's speech. The talk features many of Evan's greatest hits, which are always worth hearing again.",
+      "zh": "大家首先会听到加拿大亚太基金会总裁兼首席执行官 Jeff Nankivell 在 Evan 发言前所作的开场致辞。这次演讲汇集了 Evan 的诸多代表性观点，非常值得反复聆听；"
+    },
+    {
+      "id": 9,
+      "start_sec": 148,
+      "speaker": "Kaiser Kuo",
+      "en": "But he also offers plenty of fresh material and, you know, prognostication even, that is certainly worth paying close attention to if his track record of proven prescience is any guide. Anyway, thanks to APF Canada, and of course to Evan Feigenbaum, and please enjoy.",
+      "zh": "同时他也带来了大量新鲜素材，甚至包括不少前瞻性研判——鉴于他过往已被验证的超前预见性，这些内容绝对值得密切关注。总之，非常感谢加拿大亚太基金会，当然也要感谢 Evan Feigenbaum，请大家收听。"
+    },
+    {
+      "id": 10,
+      "start_sec": 167,
+      "speaker": "Jeff Nankivell",
+      "en": "Alors, mesdames et messieurs, c'est le temps maintenant pour le grand événement. It's time for the main event. 'Mon Dieu,' he says. I could give a very long introduction to Dr. Evan—",
+      "zh": "女士们，先生们，现在到了今天的重头戏时刻。到了关键环节了。他说：“我的天哪。”对于 Evan 博士，我本可以作一番冗长的介绍——"
+    },
+    {
+      "id": 11,
+      "start_sec": 180,
+      "speaker": "Jeff Nankivell",
+      "en": "Feigenbaum. I will take a Canadian middle road on this, because I think it's worth saying that before he became the VP for studies Asia-Pacific at the Carnegie Endowment for International Peace, he has had a storied career, decades working on Asia.",
+      "zh": "关于埃文·费根鲍姆（Evan Feigenbaum），我打算采取一种加拿大人式的折中说法。因为我觉得必须提一下，在出任卡内基国际和平研究院亚太研究副总裁之前，他便已拥有辉煌的职业生涯，在亚洲事务领域深耕了数十年。"
+    },
+    {
+      "id": 12,
+      "start_sec": 203,
+      "speaker": "Jeff Nankivell",
+      "en": "Including starting, launching with a PhD in Chinese politics from Stanford University, he served a very eventful eight years in various jobs in the State Department, where he had senior responsibilities for East Asia, Central Asia, and South Asia.",
+      "zh": "他的学术起点是在斯坦福大学获得中国政治学博士学位，随后他在美国国务院担任过多种职务，度过了风云激荡的八年，在东亚、中亚和南亚事务上承担着高级领导职责。"
+    },
+    {
+      "id": 13,
+      "start_sec": 223,
+      "speaker": "Jeff Nankivell",
+      "en": "Where he played a major role, this by other people's accounts, played a major role, contributed to some major breakthroughs in US-India relations, something that is coming around again as an interesting topic for engagement and discussion.",
+      "zh": "据其他人评价，他在美印关系取得重大突破的过程中发挥了举足轻重的作用，做出了卓越贡献。而美印关系如今再次成为各方接触和探讨的热点议题。"
+    },
+    {
+      "id": 14,
+      "start_sec": 241,
+      "speaker": "Jeff Nankivell",
+      "en": "He went into the private sector and has kind of done a tour of all the places you can go in private sector consulting and in the foreign policy ecosystem in the United States. MacroPolo consulting, a co-founder of MacroPolo, time with the Eurasia Group, RAND Corporation, he's taught at Harvard, he has worked at RAND Corporation, and was a co-chair of the Paulson Institute.",
+      "zh": "后来他转入私营部门，几乎把美国私营咨询业和外交政策生态圈的重要机构转了个遍。他是宏观咨询智库马可波罗（MacroPolo）的联合创始人，曾在欧亚集团（Eurasia Group）、兰德公司（RAND Corporation）任职，在哈佛大学执教过，还担任过保尔森基金会（Paulson Institute）的联席主席。"
+    },
+    {
+      "id": 15,
+      "start_sec": 272,
+      "speaker": "Jeff Nankivell",
+      "en": "On the Carnegie Endowment website, you know, people list different areas of expertise. I see 21 here, and there's not one that is an exaggeration: North Korea, security, South Asia, India, East Asia. You've done it all, Evan.",
+      "zh": "在卡内基国际和平研究院的官网上，大家都会列出各自的研究专长。我数了一下，上面列了21个领域，没有一个是言过其实的：朝鲜、安全、南亚、印度、东亚……埃文，你几乎无所不通。"
+    },
+    {
+      "id": 16,
+      "start_sec": 290,
+      "speaker": "Jeff Nankivell",
+      "en": "But you've also been a good friend to us at the foundation. We had an earlier iteration of this event that we started in 2022. It was just at the time that the Indo-Pacific strategy of the government of Canada was actually weeks away from being launched.",
+      "zh": "同时，你也是我们基金会的老朋友了。我们在2022年启动了这项活动的前身。当时，加拿大政府的“印太战略”距离正式发布其实只有几周时间。"
+    },
+    {
+      "id": 17,
+      "start_sec": 312,
+      "speaker": "Jeff Nankivell",
+      "en": "With another partner, we did something we called the Indo-Pacific Strategy Forum. And Evan was a keynote speaker for that. And we did a Q&A session that was so good that it was picked up for the Sinica Podcast, which we were very pleased about.",
+      "zh": "我们与另一家合作伙伴共同举办了名为“印太战略论坛”的活动。埃文作为主旨演讲嘉宾出席。当时的问答环节极其精彩，甚至被收录进了Sinica播客，对此我们感到非常高兴。"
+    },
+    {
+      "id": 18,
+      "start_sec": 336,
+      "speaker": "Jeff Nankivell",
+      "en": "And Evan is back with us again today, having just flown up from Washington, D.C., this morning. I can't commend to you highly enough following Evan on social media. He engages in an engaging way, which might account for the 55...",
+      "zh": "今天埃文再次回到我们中间，他今早刚从华盛顿特区飞过来。我极力向大家推荐在社交媒体上关注埃文。他的互动方式非常引人入胜，这或许正解释了为什么有5.5万……"
+    },
+    {
+      "id": 19,
+      "start_sec": 360,
+      "speaker": "Jeff Nankivell",
+      "en": "...thousand-plus followers, many of whom are clearly humans, because they engage in ways that I don't think AI could come up with.",
+      "zh": "……超过一千名关注者，其中许多显然是真人，因为他们的互动方式我认为是人工智能想不出来的。"
+    },
+    {
+      "id": 20,
+      "start_sec": 373,
+      "speaker": "Jeff Nankivell",
+      "en": "And if you want to see some other talks that he's given, I think you've linked recently, Evan, to the talk that you gave that I witnessed in Singapore a month ago at the Eurasia Group Global Summit there that made some excellent points about Asia and strategy and the United States.",
+      "zh": "如果你想看他的其他演讲，Evan，我想你最近也发了链接，那是你一个月前在新加坡欧亚集团全球峰会上的演讲，我当时也在场，那场演讲对亚洲、战略以及美国提出了极具洞察力的见解。"
+    },
+    {
+      "id": 21,
+      "start_sec": 396,
+      "speaker": "Jeff Nankivell",
+      "en": "So the topic that we have loosely agreed on is Asia's future beyond U.S.-China cooperation—sorry, competition, beyond U.S.-China competition.",
+      "zh": "我们大致确定的主题是“超越美中合作的亚洲未来”——抱歉，是竞争，“超越美中竞争的亚洲未来”。"
+    },
+    {
+      "id": 22,
+      "start_sec": 411,
+      "speaker": "Jeff Nankivell",
+      "en": "And with this high-powered group, we're really looking forward to getting into a real conversation. We've allotted a generous amount of time for this session, but I think you will find that it will fly by. So please join me in thanking and welcoming Dr. Evan Feigenbaum.",
+      "zh": "面对在座的各位重量级嘉宾，我们非常期待展开一场真正的深入对话。我们为这个环节留出了充裕的时间，但我相信大家会觉得时间飞逝。请大家和我一起感谢并欢迎 Evan Feigenbaum 博士。"
+    },
+    {
+      "id": 23,
+      "start_sec": 434,
+      "speaker": "Evan Feigenbaum",
+      "en": "Jeff, that was a long way of saying I can't keep a job. Every two years, I change my job. Onward and upward, okay.",
+      "zh": "Jeff，你绕这么大一圈，其实就是想说我总是干不长久。好像每过两年我就换一次工作。“步步高升”，好吧。"
+    },
+    {
+      "id": 24,
+      "start_sec": 441,
+      "speaker": "Evan Feigenbaum",
+      "en": "As Jeff said, this is not my first rodeo with the Asia Pacific Foundation of Canada. And lest you think everything in the United States and in Washington is about President Donald J. Trump, who tends to suck the oxygen out of every conversation...",
+      "zh": "正如 Jeff 所言，这已经不是我第一次参加加拿大亚太基金会的活动了。免得大家以为在美国、在华盛顿，一切都只关乎唐纳德·J·特朗普总统——他往往会把每场对话的关注点全部吸走……"
+    },
+    {
+      "id": 25,
+      "start_sec": 463,
+      "speaker": "Evan Feigenbaum",
+      "en": "When I came up here last time for this, it was 2022. So we were deep into the Biden administration, Trump wasn't back in the presidency yet.",
+      "zh": "我上次来这里参加这个论坛还是在2022年。当时正处于拜登政府执政中期，特朗普还没重返总统之位。"
+    },
+    {
+      "id": 26,
+      "start_sec": 476,
+      "speaker": "Evan Feigenbaum",
+      "en": "And I gave a somewhat dark keynote speech about the trajectory of American foreign policy, about where the United States was headed with allies and partners, including but not limited to Canada, where I argued to your audience that the United States would be sharpening the contradictions for its allies, not least on policy toward China.",
+      "zh": "当时我发表了一场略显灰暗的主旨演讲，谈论了美国外交政策的走向，谈论了美国将把包括但不限于加拿大的盟友及伙伴引向何方。我向在座听众提出，美国将会激化其盟友面临的矛盾，尤其是在对华政策方面。"
+    },
+    {
+      "id": 27,
+      "start_sec": 504,
+      "speaker": "Evan Feigenbaum",
+      "en": "And I think if you look at how the trajectory has evolved, a lot of that has come to pass. On the other hand, last week the president's senior advisor for trade and manufacturing, in talking about Canadians in Washington, said something like, \"quote-unquote, they should get the hell out of our country.\"",
+      "zh": "回顾后来的局势演变，很多确实不幸言中。但另一方面，上周总统负责贸易和制造业的高级顾问在谈到华盛顿的加拿大人时，居然说了类似“他们应该滚出我们国家”这样的话。"
+    },
+    {
+      "id": 28,
+      "start_sec": 527,
+      "speaker": "Evan Feigenbaum",
+      "en": "So some things have changed as a result of Trump. And even though I'm from the other side of—yes, we still call it Lake Ontario—I'm glad you had at least one American.",
+      "zh": "所以由于特朗普的缘故，有些事情确实变了。虽然我来自对岸——没错，我们依然叫它安大略湖——但我很高兴你们至少还邀请了一位美国人。"
+    },
+    {
+      "id": 29,
+      "start_sec": 540,
+      "speaker": "Evan Feigenbaum",
+      "en": "feel big welcomed at a conference where I caught the last session, and the United States was being invoked quite a bit. So, Jeff, Jeff usually has me up here to explain Americans to Canadian audiences, so I will I'll try that I'll try that again, inexplicable as we sometimes are.",
+      "zh": "非常荣幸能来到这里。刚才听了上一场讨论，发现大家频繁提及美国。Jeff 通常邀请我来给加拿大听众解读美国人的想法，所以我会再次尝试——尽管我们有时确实令人费解。"
+    },
+    {
+      "id": 30,
+      "start_sec": 556,
+      "speaker": "Evan Feigenbaum",
+      "en": "He's usually a tough taskmaster. He gives me a very specific topic. This time, he said, \"Talk about whatever you want to talk about.\" So, what I thought I would do, and my intent is to talk with you, not at you, so I'll try not to do it for very long, is maybe just talk about three things that play a little bit off what I talked about last time.",
+      "zh": "他通常是个要求很严的组织者，会给我一个极其明确的主题。但这次他说：“你想讲什么就讲什么吧。”所以，我打算——我的初衷是与大家交流，而不是对大家单向说教，因此我尽量讲得精炼——谈三点，稍微延伸一下我上次演讲的内容。"
+    },
+    {
+      "id": 31,
+      "start_sec": 579,
+      "speaker": "Evan Feigenbaum",
+      "en": "So first, I'll talk a little bit about how the region is shaping up, and there I'm going to be optimistic, rather than the usual dark DC pessimist. Then I'll talk about the U.S. and China, where, in contrast, I'll be pessimistic, and I'll tell you why I don't think the United States and or China have much productive to contribute to regional order.",
+      "zh": "首先，我先谈谈该地区正在显现的格局走势。在这一点上我持乐观态度，不会像华盛顿那些惯常的悲观论者那样灰暗。接着，我会谈谈美中关系，在这方面我反而很悲观，我会解释为什么我认为美中两国对区域秩序都没有多少建设性的贡献。"
+    },
+    {
+      "id": 32,
+      "start_sec": 605,
+      "speaker": "Evan Feigenbaum",
+      "en": "And then third, I will be aspirationally hopeful about what I think, because I'm anticipating what you're going to ask me anyway, what countries like Canada might be able to do in this kind of environment, okay? So, I'll I'll do it in three bites, and to keep this not too long, I'll try and do five minutes per bite, okay? If that makes sense. All right.",
+      "zh": "第三点，我将怀着抱负心表达一些希望，谈谈在这样的环境中——因为我也预料到你们待会儿会问——像加拿大这样的国家能做些什么。好吗？所以我把内容分成三部分，为了不拖太久，我争取每部分讲五分钟。如果大家没意见的话，我们就开始。"
+    },
+    {
+      "id": 33,
+      "start_sec": 627,
+      "speaker": "Evan Feigenbaum",
+      "en": "All right. So, first, on why I'm optimistic about the region despite the fact that security competition is intensifying, the U.S.-China relationship's kind of going down the tubes notwithstanding what happened last week, and so on. I'm American, and so I have a lot of the biases that Americans have. We basically have two speeds when it comes to regional and global order: hegemony or bipolarity.",
+      "zh": "首先谈谈为什么我对该地区持乐观态度，尽管安全竞争正在加剧，尽管美中关系无论上周发生了什么都在一路下滑，等等。我是美国人，所以难免带有许多美国人固有的偏见。在谈及区域和全球秩序时，美国人基本只有两种思维定式：要么是霸权，要么是两极对立。"
+    },
+    {
+      "id": 34,
+      "start_sec": 648,
+      "speaker": "Evan Feigenbaum",
+      "en": "And if you've heard me give a speech before, I often tell a story about an interview that President Obama gave in 2016 to The Wall Street Journal when he was talking about the Trans-Pacific Partnership trade agreement, because it captures this essence of American bipolarity or hegemony perfectly. He was asked, as I always say, to make the case for the TPP, and he muttered something about export opportunities to U.S. companies as presidents do when they're trying to sell something. And then he said something like this. He said, \"If we don't write the rules in Asia, China's going to write the rules in Asia.\"",
+      "zh": "如果大家以前听过我的演讲，就会知道我经常提到奥巴马总统在 2016 年接受《华尔街日报》专访时的一幕。当时他在推销《跨太平洋伙伴关系协定》（TPP），这番话完美体现了美国非此即彼的霸权与两极思维。正如我常说的，当时记者请他阐述支持 TPP 的理由，他先是像历任总统推销政策那样含糊带过了几句美国企业的出口机遇，随后他话锋一转说道：“如果我们不在亚洲制定规则，中国就会在亚洲制定规则。”"
+    },
+    {
+      "id": 35,
+      "start_sec": 685,
+      "speaker": "Evan Feigenbaum",
+      "en": "So, there you have it: three options for the region's future. We write the rules, it's American hegemony; China writes the rules, it's Chinese hegemony; or there's some kind of Cold War-like bipolarity where the region divides between the United States and China, and countries are either caught betwixt and between, or, in an environment where they're sharpening the contradictions for one another and for others, they have to choose sides.",
+      "zh": "你看，这就给出了该地区未来的三种可能：我们定规则，那就是美国霸权；中国定规则，那就是中国霸权；或者走向类似冷战的两极格局，该地区分裂为美中两大阵营，各国要么被夹在中间进退维谷，要么在双方激化彼此乃至整个地区矛盾的环境下不得不选边站队。"
+    },
+    {
+      "id": 36,
+      "start_sec": 710,
+      "speaker": "Evan Feigenbaum",
+      "en": "If you don't believe me that Americans think this way, you can just look at kind of the preponderant ways that our recent national security strategies or our officials have talked about",
+      "zh": "如果你不信美国人是这么想的，只要看看我们近期的《国家安全战略》报告或者美国官员的主流表态就知道了。"
+    },
+    {
+      "id": 37,
+      "start_sec": 720,
+      "speaker": "Evan Feigenbaum",
+      "en": "region, and I can illustrate each one of those for you. Okay. Um, 'America writes the rules.' If you look at President Trump's most recent National Security Strategy, there are, by my count, not one, not two, not three, not four, but at least five references to either primacy or preeminence in the Asia-Pacific region.",
+      "zh": "我可以为各位一一举例说明。首先，是“由美国书写规则”。如果你去翻阅特朗普总统最近的那份《国家安全战略》，据我统计，其中提到在亚太地区保持“主导地位”（primacy）或“卓越地位”（preeminence）的地方，不是一次两次、三次四次，而是至少有五处之多。"
+    },
+    {
+      "id": 38,
+      "start_sec": 740,
+      "speaker": "Evan Feigenbaum",
+      "en": "So for all the talk about US withdrawal, US fading, US prioritizing, US restraint, the reality is they're still talking the talk of American primacy in the region.",
+      "zh": "因此，尽管外界都在议论美国在战略收缩、走向衰落、重新划分优先级或是奉行克制，但现实是，他们口头上依然在宣扬美国在该地区的霸权地位。"
+    },
+    {
+      "id": 39,
+      "start_sec": 753,
+      "speaker": "Evan Feigenbaum",
+      "en": "If you want to flip the other way, you can see how some Americans talk about the idea of spheres of influence. This has somehow become fashionable in Washington, although I'm not really sure why.",
+      "zh": "如果换个角度来看，你也会发现一些美国人开始大谈“势力范围”的概念。出于某种我不甚理解的原因，这种论调在华盛顿居然变得时髦起来。"
+    },
+    {
+      "id": 40,
+      "start_sec": 765,
+      "speaker": "Evan Feigenbaum",
+      "en": "Partly because the administration is starting to put a lot of stress on the Western Hemisphere, and by the way, to my point earlier, is sharpening the contradictions for Latin American countries around what they do with China in cooperation and in partnership, even in the economic area.",
+      "zh": "部分原因在于，本届政府开始将重心大幅倾斜到西半球。顺带一提，正如我前面指出的，这加剧了拉美国家在与中国开展合作及伙伴关系时的矛盾，即便是单纯的经贸领域也是如此。"
+    },
+    {
+      "id": 41,
+      "start_sec": 781,
+      "speaker": "Evan Feigenbaum",
+      "en": "There are some people who have made the argument that the United States is actually prepared to accept a more sphere of influence-type world, where it focuses more on the Western Hemisphere, and then, I guess by implication, somehow cedes East Asia to China.",
+      "zh": "有些人主张，美国实际上已经准备好接受一个“势力范围划分”的世界：美国将更多精力放在西半球，而顺理成章地，似乎在某种程度上把东亚让给了中国。"
+    },
+    {
+      "id": 42,
+      "start_sec": 796,
+      "speaker": "Evan Feigenbaum",
+      "en": "There's not a lot of evidence for that proposition, as I said. And if you believe that, you might ask, legitimately, why they refer so often to American primacy.",
+      "zh": "正如我所言，并没有多少证据支持这种论点。如果你信奉这一套，你完全可以合理地质问：那他们为什么还动辄将美国的主导地位挂在嘴边？"
+    },
+    {
+      "id": 43,
+      "start_sec": 804,
+      "speaker": "Evan Feigenbaum",
+      "en": "But more importantly, there's not a lot in American behavior that suggests it's prepared to accept a Chinese sphere of influence in Asia. And then that brings us to kind of the Cold War and bipolarity.",
+      "zh": "但更重要的是，从美国的实际行事风格中，根本看不出它准备接受中国在亚洲划定势力范围。这就把我们引向了冷战与两极格局的视角。"
+    },
+    {
+      "id": 44,
+      "start_sec": 814,
+      "speaker": "Evan Feigenbaum",
+      "en": "Peter Navarro, who I just invoked without naming him, also gave another talk last week where he talked about the US-China relationship as being a new Cold War. We like these Cold War analogies because they're simple and they're easy, and you can refract everything through that prism.",
+      "zh": "我刚才虽未点名但提到过的彼得·纳瓦罗（Peter Navarro），上周也发表了一次演讲，声称美中关系已经是一场“新冷战”。我们向来喜欢冷战这类比喻，因为它们简单直白，让人能把所有复杂问题都套进这个棱镜去解读。"
+    },
+    {
+      "id": 45,
+      "start_sec": 830,
+      "speaker": "Evan Feigenbaum",
+      "en": "They're very familiar to us. And if you believe that's the case, and many Americans do, then you're able to sharpen the contradictions for yourself, for your policy, for your strategy, for the choices that you have to make, where you put your investments, for your budgeting, and also what you expect of your partners.",
+      "zh": "这种模式我们太熟悉了。如果你认为事实确是如此——不少美国人确实这么想——那你就可以为自己、为政策、为战略，以及为你必须做出的决断去激化矛盾，包括如何投资、如何做预算，以及对盟友施加何种期待。"
+    },
+    {
+      "id": 46,
+      "start_sec": 845,
+      "speaker": "Evan Feigenbaum",
+      "en": "But then there's a fourth possibility, which is the flip side of bipolarity, which is the idea of a kind of US-China condominium in Asia. And particularly after Xi Jinping's visit to the United States last week, where the president kind of bent over backwards to make him feel welcome, went out to the airport, welcomed him, there weren't a lot of deliverables.",
+      "zh": "但还存在第四种可能性，也就是两极格局的另一面：中美在亚洲达成某种“共管”格局（condominium）。特别是在上周中国最高领导人访美之后，美国总统可谓极尽地主之谊，不仅亲赴机场迎接，尽管并没达成多少实质成果。"
+    },
+    {
+      "id": 47,
+      "start_sec": 863,
+      "speaker": "Evan Feigenbaum",
+      "en": "There are some, not really in the United States, but in Asia, including in India, where people tend to fret, I think, unnecessarily about a so-called G2 between the United States and China. People began to mutter again that somehow the United States was plotting and scheming for a kind of condominium with China.",
+      "zh": "有些不在美国而是在亚洲的人——包括印度，我觉得那里的人往往对所谓中美“两国集团”（G2）感到不必要的焦虑——大家又开始私下议论，认为美国似乎在密谋策划与中国共管亚洲。"
+    },
+    {
+      "id": 48,
+      "start_sec": 882,
+      "speaker": "Evan Feigenbaum",
+      "en": "So none of these quite captures the complex reality in Asia, but they capture the way Americans tend to think. We're very simple people. We tend to think in binaries.",
+      "zh": "这几种设想没有一个能真正把握亚洲错综复杂的现实，但它们反映了美国人习惯的思维方式。我们思考问题往往非常直白，偏好非黑即白的二元论。"
+    },
+    {
+      "id": 49,
+      "start_sec": 890,
+      "speaker": "Evan Feigenbaum",
+      "en": "So it's US versus China, it's war or not war, it's 'you're with us or you're against us.' And if you think about the world that way, where you end up is on hegemony or",
+      "zh": "于是变成了美国对抗中国、非战即和，要么“与我们为伍”，要么“与我们为敌”。如果你以这种方式看待世界，最终的结论必然导向霸权，或是……"
+    },
+    {
+      "id": 50,
+      "start_sec": 900,
+      "speaker": "Evan Feigenbaum",
+      "en": "and bipolarity. The reality, though, is that's not how the region is shaping up. And if I can go back to illustrate that with what President Obama said, that the context of that remark that he made to The Wall Street Journal was in making the case for the Trans-Pacific Partnership trade agreement.",
+      "zh": "以及两极对立。然而现实是，该地区的发展态势并非如此。如果我再回过头，用奥巴马总统说过的话来说明这一点——他当时对《华尔街日报》发表那番言论的背景，正是在为跨太平洋伙伴关系协定（TPP）极力游说。"
+    },
+    {
+      "id": 51,
+      "start_sec": 916,
+      "speaker": "Evan Feigenbaum",
+      "en": "And if you remember the quote that I just gave you, he said, \"If we don't write the rules, China's going to write the rules.\" And if the president had been right about that, then when President Trump took the United States out of the TPP, what should have happened when the U.S. withdrew from being part of a rulemaking pact? China should have come in to be the rule writer.",
+      "zh": "如果你还记得我刚才引用的那句话，他说：“如果我们不制定规则，中国就会制定规则。”如果这位总统说得对，那么当特朗普总统带领美国退出 TPP 时，按理应该发生什么？当美国退出这样一个规则制定协定时，中国本该顺势而入，成为规则的制定者。"
+    },
+    {
+      "id": 52,
+      "start_sec": 932,
+      "speaker": "Evan Feigenbaum",
+      "en": "But as we all know, that's not what happened at all in the TPP context. The other 11 got together, spurred a lot by Australia, a lot by Japan, but some others, and solidified the agreement as 11, with neither the United States nor China as part of it.",
+      "zh": "但众所周知，在 TPP 这件事上，情况完全不是这样。其余 11 个国家走到了一起，很大程度上是在澳大利亚和日本的推动下，以及其他一些成员国的参与下，最终以 11 国的阵容巩固了该协定，而美中两国均未参与其中。"
+    },
+    {
+      "id": 53,
+      "start_sec": 948,
+      "speaker": "Evan Feigenbaum",
+      "en": "And that's consistent with, I think, a history in Asia that people tend to forget of first movers not called the United States or China tending to drive action on functions that matter to them. How did TPP begin, after all? It began with four first movers within APEC—Chile, New Zealand, Singapore, and Brunei—that in the absence of a free trade area of the Asia-Pacific, which was the aspiration, began to act as kind of first-mover liberalizers and then invite others to join.",
+      "zh": "我认为，这与亚洲历史上人们往往容易淡忘的一点相吻合：除美中之外的“先行者”，往往会在对其至关重要的特定功能性领域率先采取行动。毕竟，TPP 是如何起步的？它始于亚太经合组织（APEC）内部的四个先行国家——智利、新西兰、新加坡和文莱。在亚太自贸区这一宏伟愿景尚无法落实的情况下，它们开始扮演自由化先行者的角色，随后再邀请其他国家加入。"
+    },
+    {
+      "id": 54,
+      "start_sec": 981,
+      "speaker": "Evan Feigenbaum",
+      "en": "And so you can think of a world where first movers begin in a much more diverse, much more multifaceted, much more multipolar region, but especially one where the two preponderant powers, the United States and China, are racing to the bottom, refracting everything through the prism of their competition, as one where fragmentation is not debilitating, but actually creates opportunities. And I want to come back to that in the third bite when I talk about opportunities for Canada.",
+      "zh": "因此，你可以设想这样一个世界：在这个远为多元、多面且多极化的地区中，先行者们纷纷起跑；尤其是当美中这两个超级大国正在竞相走向下策，将一切都置于两国竞争的棱镜下折射时，碎片化不仅没有削弱各方力量，反而创造了机遇。在第三个模块中谈及加拿大的机遇时，我还会回过头来探讨这一点。"
+    },
+    {
+      "id": 55,
+      "start_sec": 1010,
+      "speaker": "Evan Feigenbaum",
+      "en": "But it's important because the way I think the region is heading is not for hegemony, one way or the other, or for bipolarity. It's for something that looks a lot more like fragmentation, where what you see in terms of regional order depends a lot on what it is you're trying to explain. Is it trade rules? Is it data governance rules? Is it something else? Or is it something in the security domain, which I will admit looks a lot more like bipolarity between the U.S. and China?",
+      "zh": "但这一点至关重要，因为在我看来，该地区的走向既非倒向任何一方的霸权，亦非陷入两极对立，而是更趋向于一种碎片化的格局。在这一格局中，你所看到的区域秩序形态，很大程度上取决于你试图解释的具体议题。是贸易规则？是数据治理规则？还是其他什么？亦或是安全领域的事务——我承认，在安全领域，美中之间确实看起来更像两极对立。"
+    },
+    {
+      "id": 56,
+      "start_sec": 1038,
+      "speaker": "Evan Feigenbaum",
+      "en": "Um, it's important because we usually think of fragmentation as being something that's very, very debilitating. As I said, in a world that's fragmented, you have no order. But when the major players are not either providing a strategic rationale for or organizing coalitions to create order, fragmentation actually creates the possibility of creating multivariant, multifaceted, and diverse orders that deliver to countries in the region that, after all, have an agenda that's focused on growth, employment, upskilling, sustainability, opportunity—opportunities that might not be available to them in a world that was defined solely by security competition.",
+      "zh": "这一点非常重要，因为我们通常认为碎片化是一件极具削弱性的事。正如我之前所言，在一个碎片化的世界里，秩序荡然无存。然而，当主要大国既无法为构建秩序提供战略合理性，也无法组织联盟来维系秩序时，碎片化实际上催生了建立多元、多维且兼蓄并包新秩序的可能性。归根结底，地区国家的核心议程依然聚焦于增长、就业、技能提升、可持续发展与各类机遇——而如果世界完全被安全竞争所定义，它们或许根本无从获得这些机遇。"
+    },
+    {
+      "id": 57,
+      "start_sec": 1080,
+      "speaker": "Evan Feigenbaum",
+      "en": "competition between big powers. The United States in my view is a little bit out to lunch on how the region is evolving. But, what I want to say is if you if you buy what I'm saying that the region is not going to be bipolar, it's not going to be characterized by either the US or China imposing its will, but that in a lot of cases it's going to be a fragmented order, it creates opportunities for other countries that would not have existed otherwise, and certainly did not exist 10, 15, or 20 years ago.",
+      "zh": "大国博弈。在我看来，美国对于该地区的演变态势有些脱节。但我想说的是，如果你认同我的观点——即该地区不会走向两极格局，也不会呈现由美中任何一方强加其意志的特征，而是在很多情况下会形成一种碎片化的秩序——那么这就为其他国家创造了在其他情况下绝不可能存在、而且在10年、15年或20年前也绝不存在的机遇。"
+    },
+    {
+      "id": 58,
+      "start_sec": 1109,
+      "speaker": "Evan Feigenbaum",
+      "en": "All right, that then brings me to the second bite. If that's the case, how do the US and China as the preponderant powers fit into that? Unfortunately, in my view, both countries are largely out to lunch about this, and they are racing to the bottom, refracting almost everything in the region through the prism of their competition with one another.",
+      "zh": "好，这就引出了我的第二部分。如果事实确是如此，那么作为优势大国的美中两国又该如何置身其中？遗憾的是，在我看来，两国在很大程度上都对此不甚明了，并且正在竞相探底，几乎把该地区的所有事物都放在彼此竞争的棱镜下来折射审视。"
+    },
+    {
+      "id": 59,
+      "start_sec": 1129,
+      "speaker": "Evan Feigenbaum",
+      "en": "That's sad, but it also is a little bit ironic. The United States and China are so dissimilar. They're dissimilar in terms of their political systems and ideologies, in terms of their economic systems, in terms of their strategic concepts, in terms of their orientation. But in one very important respect, they are the same.",
+      "zh": "这令人遗憾，但也颇具讽刺意味。美国和中国是如此迥异。无论是在政治体制和意识形态上、经济体制上、战略理念上，还是在价值取向上，它们都大相径庭。然而，在一个极为关键的方面，它们却如出一辙。"
+    },
+    {
+      "id": 60,
+      "start_sec": 1150,
+      "speaker": "Evan Feigenbaum",
+      "en": "They are, in my view, both strategic narcissists that have a tendency to, as I said, refract almost everything through the prism of their competition with the other power. Now, that was not always the case. It was certainly not the case for the United States, and when I say that, I invariably get a lot of pushback from Chinese.",
+      "zh": "在我看来，它们都是战略自恋者，正如我所说，它们倾向于通过与另一大国竞争的棱镜来折射审视几乎所有事情。过去并非向来如此。对美国而言过去显然不是这样，而每当我这么说时，我也总会遭到来自中国方面的诸多反驳。"
+    },
+    {
+      "id": 61,
+      "start_sec": 1170,
+      "speaker": "Evan Feigenbaum",
+      "en": "And they'll say, 'That's not the case. That's not what China does. We have a positive-sum offering. Just look at our Belt and Road. We're providing all this investment, we're providing all this capital.' I'll come back to that, but I think increasingly China has actually learned from the American experience in ways that are making the two countries somewhat converge.",
+      "zh": "他们会说：“事实并非如此。中国不是这么做的。我们提供的是正和博弈方案，看看我们的‘一带一路’就知道了。我们提供了所有这些投资，提供了所有这些资本。”我稍后会再谈这一点，但我认为，中国实际上在越来越深地吸取美国的经验，其方式甚至让两国在某些方面呈现出趋同的态势。"
+    },
+    {
+      "id": 62,
+      "start_sec": 1188,
+      "speaker": "Evan Feigenbaum",
+      "en": "Let me start with the United States because it matters a lot to me. If you want to understand the trajectory of US policy, you can't begin and end with Donald Trump. I think there's really been a generational shift in the United States.",
+      "zh": "先从美国谈起吧，因为这与我休戚相关。要想理解美国政策的演变轨迹，就不能仅仅着眼于唐纳德·特朗普一人。我认为美国实际上已经发生了一场代际转变。"
+    },
+    {
+      "id": 63,
+      "start_sec": 1202,
+      "speaker": "Evan Feigenbaum",
+      "en": "And the American approach to Asia now is very different than it was when I got in this business like 30, 40 years ago with Asia and then 25 years ago in terms of policy. The way I would characterize American policy now is we have securitized our approach to China, and we have China-fied our approach to Asia.",
+      "zh": "而如今美国对亚洲的方针，与我大约30、40年前入行涉足亚洲事务，以及25年前参与政策制定时相比，已经大不相同。如果让我概括当下的美国政策，那就是：我们把对华方针泛安全化了，同时把对亚洲的方针全面“中国化”了。"
+    },
+    {
+      "id": 64,
+      "start_sec": 1222,
+      "speaker": "Evan Feigenbaum",
+      "en": "And those two things are deeply connected because if you've securitized your approach to China, but you've China-fied your approach to Asia, then to bring it full circle, you've essentially securitized your approach to Asia writ large as well. And that raises a lot of questions, as it should, among countries in the region about exactly what it is the United States is offering in terms of the mathematical operations that matter to most governments, markets, and people in the region, which are addition and multiplication, not subtraction and division.",
+      "zh": "而这两点是紧密相连的，因为如果你把对华方针泛安全化，又把对亚洲的方针中国化，那么顺理成章，你本质上也就把针对整个亚洲的方针全面泛安全化了。这理所当然地引发了该地区各国的诸多质疑：针对本地区大多数政府、市场和民众最为关心的“数学运算”——即加法与乘法，而非减法与除法——美国究竟能提供什么？"
+    },
+    {
+      "id": 65,
+      "start_sec": 1255,
+      "speaker": "Evan Feigenbaum",
+      "en": "Why has the United States securitized its approach to China? Because nearly",
+      "zh": "为什么美国会将对华方针泛安全化？因为几乎……"
+    },
+    {
+      "id": 66,
+      "start_sec": 1260,
+      "speaker": "Evan Feigenbaum",
+      "en": "Every aspect of the relationship, including economic flows of goods, capital, people, technology, and data, is now refracted, as I often say if you've heard me do some of those podcasts, through the prism of national security. And so economics and security have collapsed together in the United States, where once upon a time they ran on parallel tracks.",
+      "zh": "两国关系的方方面面，包括商品、资本、人员、技术和数据等经济要素的流动，正如我经常所说（如果你听过我的那些播客的话），如今都被置于国家安全这棱镜之下来审视。因此，在美国，经济与安全已经交织坍缩在一起，而在过去，这两者曾经是平行推进的。"
+    },
+    {
+      "id": 67,
+      "start_sec": 1284,
+      "speaker": "Evan Feigenbaum",
+      "en": "None of the security issues between the United States and China are new. Taiwan goes back to the inception. South China Sea, gone on for decades. Clashing security concepts, when Richard Nixon went to China in 1972, the United States was fighting a proxy war with China in Vietnam. None of that stuff is new.",
+      "zh": "中美之间的安全问题没有一个是全新的。台湾问题可以追溯到政权建立之初；南海争端也持续了几十年。至于安全理念的冲突，1972年理查德·尼克松访华时，美国正在越南与中国打一场代理人战争。这些都不是什么新鲜事。"
+    },
+    {
+      "id": 68,
+      "start_sec": 1301,
+      "speaker": "Evan Feigenbaum",
+      "en": "But in spite of that, the United States developed this massive, highly integrated trade and investment relationship with China. But today, if I fast-forward to the difference between, let's say, 10 years ago, all of those economic flows are refracted by the strategic class, the political class, and the regulatory class in the United States through the prism of American security interests. And that matters in terms of the configuration of what we see.",
+      "zh": "但即便如此，美国过去依然与中国建立了庞大且高度融合的经贸与投资关系。然而时至今日，如果我们快进对比，比如与十年前相比，所有这些经济要素流动，都被美国的战略界、政界和监管层放在美国安全利益的棱镜下折射审视。这直接决定了我们今天所看到的格局重构。"
+    },
+    {
+      "id": 69,
+      "start_sec": 1331,
+      "speaker": "Evan Feigenbaum",
+      "en": "10 years ago, there were a lot of Chinese students sitting in nuclear engineering programs at places like Caltech and MIT. You want to know what the conversation is in Washington today? 'Why are we training a generation of Chinese missile scientists and nuclear engineers who work on dual-use technology?'",
+      "zh": "十年前，加州理工和麻省理工等学府的核工程专业里坐着许多中国留学生。你想知道华盛顿如今的讨论是什么吗？'我们为什么要替中国培养一代从事军民两用技术的导弹科学家和核工程师？'"
+    },
+    {
+      "id": 70,
+      "start_sec": 1346,
+      "speaker": "Evan Feigenbaum",
+      "en": "10 years ago, there was a lot of Chinese capital in Silicon Valley below the threshold of control that triggers a CFIUS review, on things like AI-enabled applications or new, new innovations. And that was largely welcomed in the United States, but if you refract that through the prism of national security, it's not really the case anymore.",
+      "zh": "十年前，大量的中国资本涌入硅谷，投资于AI赋能的应用或前沿创新，且投资额低于触发美国外资投资委员会（CFIUS）审查的控制权门槛。当时美国对这种资本大体上是欢迎的；但如果透过国家安全的棱镜来看，情况就完全不同了。"
+    },
+    {
+      "id": 71,
+      "start_sec": 1367,
+      "speaker": "Evan Feigenbaum",
+      "en": "And increasingly, the securitization of everything is both constraining the opportunities for U.S.-China collaboration, but it also explains, I think, the trajectory of American policy. And once you securitize everything, to be blunt about it, it's very hard to throw the reverse switch.",
+      "zh": "这种将一切泛安全化的倾向，正日益扼杀中美合作的空间，而且我认为，它也解释了美国政策的发展轨迹。坦率地说，一旦你把所有事情都上升到安全层面，就很难再踩下倒车挡了。"
+    },
+    {
+      "id": 72,
+      "start_sec": 1386,
+      "speaker": "Evan Feigenbaum",
+      "en": "Technology, as the last panel was saying, is especially vulnerable to that, because so many of the emerging and foundational technologies that people mentioned in the last panel, like AI that triggered a question from Hayley, are dual-use in nature. The same innovations that can have remarkable effects in the life sciences, like fast computing where you can run clinical trials, you can also simulate a nuclear weapons test, and you can do all kinds of other things.",
+      "zh": "正如上一场小组讨论所说，科技领域在这方面尤为脆弱，因为大家提到的很多新兴和基础技术——比如引发Hayley提问的人工智能——本质上都具有军民两用性。那些在生命科学中展现出惊人潜力的创新，比如用于临床试验的高性能计算，同样可以用来模拟核武器试验，或是用于各种其他目的。"
+    },
+    {
+      "id": 73,
+      "start_sec": 1412,
+      "speaker": "Evan Feigenbaum",
+      "en": "And so the default position, in a world where emerging and foundational technologies are inherently dual-use, on the American side, is to control. And I'll come back to this, therefore, on the Chinese side, the default position is to indigenize as quickly as possible.",
+      "zh": "因此，在一个新兴和基础技术天然具备军民两用属性的世界里，美方的默认立场就是实施管控；而我稍后还会谈到这一点，中方的默认立场自然就是尽快实现自主可控与国产替代。"
+    },
+    {
+      "id": 74,
+      "start_sec": 1427,
+      "speaker": "Evan Feigenbaum",
+      "en": "And so what's different in the United States today, and it's not just a function of Trump, in fact, in some ways Trump is bucking this trend by talking about Chinese investment in sectors like the automotive...",
+      "zh": "所以今天美国所发生的变化，绝不仅仅是特朗普一人所致。事实上，在某些方面特朗普甚至在逆势而行，比如他还会谈论吸引中国在汽车等领域的投资……"
+    },
+    {
+      "id": 75,
+      "start_sec": 1440,
+      "speaker": "Evan Feigenbaum",
+      "en": "sector, which is very technology saturated. It's all autonomous and connected driving now, in terms of the emerging vehicles that are going to define the automotive industry. All of that is heavily securitized in the United States, and I don't see much that's going to change that.",
+      "zh": "这个行业的科技含量极高。从决定汽车工业未来的新兴车型来看，现在全都是自动驾驶与智能网联汽车。在美国，所有这些都被高度安全化了，而且我看不到有什么能改变这一现状。"
+    },
+    {
+      "id": 76,
+      "start_sec": 1454,
+      "speaker": "Evan Feigenbaum",
+      "en": "And that really has begun to bleed, in ways that were not the case historically, into American policy in Asia writ large. Why? Because China has become the alpha and omega of almost every aspect of US policy in the region.",
+      "zh": "而这种情况正以前所未有的方式，开始渗透到美国更广泛的亚洲政策中。为什么？因为中国已经成为美国在该地区几乎所有政策的全部核心与始末。"
+    },
+    {
+      "id": 77,
+      "start_sec": 1475,
+      "speaker": "Evan Feigenbaum",
+      "en": "When I was in State Department, I had a boss—this is another story I tell a lot—named Richard Armitage. Some of you may remember Rich. He was Deputy Secretary of State, had long experience with Asia, especially with Japan, but not limited just to Japan.",
+      "zh": "我在国务院工作时曾有一位上司——这也是我常提起的一个故事——他叫 Richard Armitage。你们有些人可能还记得 Rich。他当时担任副国务卿，在亚洲事务上经验非常丰富，尤其是对日本，但绝不仅限于日本。"
+    },
+    {
+      "id": 78,
+      "start_sec": 1490,
+      "speaker": "Evan Feigenbaum",
+      "en": "And Rich famously used to say, you know, \"If the United States wants to get China policy right, it needs to get Asia policy right.\" By which he meant that you can't always shape China's choices directly, but you can at least shape the strategic environment around them and create incentives and disincentives for certain kinds of Chinese choices.",
+      "zh": "Rich 有句名言：“如果美国想把对华政策搞好，首先得把对亚政策搞对。”他的意思是，你不可能总能直接左右中国的选择，但至少可以塑造其周边的战略环境，为中国的某些选择提供激励或施加阻力。"
+    },
+    {
+      "id": 79,
+      "start_sec": 1510,
+      "speaker": "Evan Feigenbaum",
+      "en": "But if you believe what I'm saying about US policy toward China, and then you believe that the US is making China the alpha and omega of its policy in the region, then what you're going to see happening from now until as far as my eyes can see is the United States essentially flipping Armitage's aphorism upside down. Instead of trying to get Asia policy right—sorry, China policy right by getting Asia policy right, the United States is making every relationship, initiative, and policy with nearly every partner in the region derivative of its focus on security balancing of China.",
+      "zh": "但如果你赞同我对美国对华政策的判断，并且认同美国正将中国视作其该地区政策的全部，那么在可预见的未来，你将看到美国基本上彻底颠覆了 Armitage 的这句箴言。美国不再试图通过把对亚政策搞好来把对华政策搞对，而是将该地区几乎所有伙伴关系、倡议和政策，全都降格为服务于对华安全制衡的衍生品。"
+    },
+    {
+      "id": 80,
+      "start_sec": 1548,
+      "speaker": "Evan Feigenbaum",
+      "en": "Now, if you don't believe me, let's just go down the list. We can start in the security bucket, then we'll go to the economic bucket, then we'll go to the technology bucket.",
+      "zh": "如果你不信，我们不妨逐一梳理。我们可以从安全领域开始，然后是经济领域，最后再看科技领域。"
+    },
+    {
+      "id": 81,
+      "start_sec": 1557,
+      "speaker": "Evan Feigenbaum",
+      "en": "Right, in the security bucket, things are happening in, let's say, the US-Korea relationship, which used to be disproportionately focused on deterring one contingency, North Korea, that were not the case before. Because there's one contingency in Northeast—in East Asia that really matters for American security planning, and that's in the Taiwan Strait.",
+      "zh": "在安全领域，比方说美韩关系中正在发生一些以往未曾出现的变化，而过去美韩同盟绝大部分精力都集中在防范单一突发事态，即朝鲜。因为在东亚，对美国安全规划而言真正至关重要的突发事态只有一个，那就是台湾海峡。"
+    },
+    {
+      "id": 82,
+      "start_sec": 1581,
+      "speaker": "Evan Feigenbaum",
+      "en": "And so increasingly, not surprisingly, this is becoming a subject of the American conversation with allies and partners. What assets are you prepared to provide? What access are you prepared to provide? Can you pre-commit, because it's necessary for American war planning, to certain kinds of access arrangements, contingencies, rotational forces, providing your own forces?",
+      "zh": "因此，毫不意外，这正日益成为美国与盟友和伙伴对话的核心议题。你们准备提供哪些军事资产？准备提供哪些准入权限？鉴于美国作战规划的需要，你们能否预先承诺提供某些准入安排、应急响应、轮换部队乃至直接出动自身兵力？"
+    },
+    {
+      "id": 83,
+      "start_sec": 1609,
+      "speaker": "Evan Feigenbaum",
+      "en": "And that's come as a surprise to a lot of people outside of Japan. And what it means is that the single contingency that really was the focus of US...",
+      "zh": "对日本以外的许多人来说，这多少令人感到意外。这意味着，曾经真正作为美国焦点的单一突发事态……"
+    },
+    {
+      "id": 84,
+      "start_sec": 1620,
+      "speaker": "Evan Feigenbaum",
+      "en": "U.S.-Korea alliance planning is not the only focus, and for the United States, it's not necessarily the preponderant focus anymore. The same thing is true of Australia, as Haley knows.",
+      "zh": "美韩同盟规划不再是唯一的重心，对美国而言，这甚至不再是最主要的重心。澳大利亚的情况也是如此，Haley对此很清楚。"
+    },
+    {
+      "id": 85,
+      "start_sec": 1629,
+      "speaker": "Evan Feigenbaum",
+      "en": "Robert Menzies signed the ANZUS Treaty in 1951. In 1952, there was something called the Radford-Collins agreement that established kind of de facto a geographic division of labor between the United States and Australia in their thinking.",
+      "zh": "罗伯特·孟席斯（Robert Menzies）于1951年签署了《澳新美安全条约》（ANZUS）。1952年，双方达成了所谓的《拉德福德-柯林斯协定》（Radford-Collins Agreement），在美澳两国的构想中事实上确立了一种地缘分工。"
+    },
+    {
+      "id": 86,
+      "start_sec": 1642,
+      "speaker": "Evan Feigenbaum",
+      "en": "And the idea was the United States would kind of focus on contingencies up in Northeast Asia and on deterrence there, and Australia and the alliance would focus in areas that were closer to the strategic approaches that mattered to Australia.",
+      "zh": "当时的核心思路是：美国将侧重于东北亚的突发事态及那里的威慑；而澳大利亚及其同盟则聚焦于距离其更近、关系到澳大利亚自身战略通道的区域。"
+    },
+    {
+      "id": 87,
+      "start_sec": 1657,
+      "speaker": "Evan Feigenbaum",
+      "en": "But increasingly, if you look at where the U.S.-Australia defense conversation is going, it's focused on deterrence of China. And it's focused on contingencies that will expand Australia's strategic horizons beyond just the defense of Australia and the Australian—let's call it mainland Australia, even though it's an island.",
+      "zh": "但如今，如果你观察美澳防务对话的发展走向，就会发现它正聚焦于对华威慑。它正侧重于促使澳大利亚将战略视野拓宽到本土防御之外——姑且称之为澳大利亚“大陆”，尽管它实际上是个岛屿。"
+    },
+    {
+      "id": 88,
+      "start_sec": 1676,
+      "speaker": "Evan Feigenbaum",
+      "en": "And the U.S. is pushing on that. That's why the U.S. is pushing for 3.5% defense spent. That's why the United States is pursuing for pre-commitment.",
+      "zh": "美国正在大力推动这一点。这就是为什么美国要求军费开支达到GDP的3.5%，这就是为什么美国在寻求预先承诺。"
+    },
+    {
+      "id": 89,
+      "start_sec": 1683,
+      "speaker": "Evan Feigenbaum",
+      "en": "That's why the United States is pushing for a whole variety of things in force structure agreements between the U.S. and Australia that are relevant to those other contingencies.",
+      "zh": "这也是为什么美国在与澳大利亚的兵力结构协定中，强力推行一整套针对那些“其他突发事态”的相关安排。"
+    },
+    {
+      "id": 90,
+      "start_sec": 1695,
+      "speaker": "Evan Feigenbaum",
+      "en": "So increasingly, that's the dynamic out of the United States. And I don't see a lot that's going to flip that.",
+      "zh": "因此，这种态势日益成为来自美国的驱动力。而且我认为短期内没有什么力量能扭转这种趋势。"
+    },
+    {
+      "id": 91,
+      "start_sec": 1704,
+      "speaker": "Evan Feigenbaum",
+      "en": "But what that means, if you go back to the first bite, is that the United States increasingly has an approach to the region that's in—it's at variance with where I think the region is headed.",
+      "zh": "但这同时意味着——回到我前面讲的第一点——美国对待该地区的方式，正日益偏离我认为该地区真正走向的轨道。"
+    },
+    {
+      "id": 92,
+      "start_sec": 1713,
+      "speaker": "Evan Feigenbaum",
+      "en": "Because the region is headed for diversity, multipolarity, and just a more fragmented landscape. But the United States is trying to shoehorn everything back into bipolarity and security balancing between the U.S. and China.",
+      "zh": "因为这个地区正走向多样化、多极化，以及一个更加碎片化的格局。然而，美国却试图把一切硬塞回两极对立的框架中，塞进中美之间的安全制衡当中。"
+    },
+    {
+      "id": 93,
+      "start_sec": 1727,
+      "speaker": "Evan Feigenbaum",
+      "en": "And what that means is that the way I see U.S. policy now is it's kind of long on attitude, short on strategy, and long on security, but short on everything else.",
+      "zh": "这就意味着，在我看来，当下的美国政策有点“姿态有余，战略不足”，在“安全”上着力过多，而在其他所有领域却严重匮乏。"
+    },
+    {
+      "id": 94,
+      "start_sec": 1736,
+      "speaker": "Evan Feigenbaum",
+      "en": "It's long on attitude, short on strategy because the United States has neither a principled nor a particularly strategic view of the region. If it had a principled view of the region, it would organize its policy around certain principles.",
+      "zh": "所谓“姿态有余，战略不足”，是因为美国对该地区既缺乏基于原则的视角，也缺乏真正战略性的视野。如果它有原则性的视角，就会围绕某些原则来构建其政策。"
+    },
+    {
+      "id": 95,
+      "start_sec": 1748,
+      "speaker": "Evan Feigenbaum",
+      "en": "You know, expansion of markets, liberalization of regional order—the kind of things that used to really matter to the United States when it was a standard-setter, when it was pushing for trade liberalization agreements. That's clearly not the case anymore.",
+      "zh": "比如市场扩张、区域秩序自由化——这些在过去美国作为规则制定者、积极推动贸易自由化协定时，曾是它真正关切的核心。但现在显然已经不再是这样了。"
+    },
+    {
+      "id": 96,
+      "start_sec": 1761,
+      "speaker": "Evan Feigenbaum",
+      "en": "Which is why, for example, the Trump administration no longer puts a lot of emphasis on that. The U.S. hasn't done a bilateral or a plurilateral trade agreement that was focused on across- and behind-the-border liberalization since a long time ago—at least the Obama administration, and really the George W. Bush administration.",
+      "zh": "这也是为什么比如特朗普政府不再对此抱有热情。美国已经很久没有签署过聚焦于边境及边境后自由化的双边或多边贸易协定了——至少从奥巴马政府，甚至从乔治·W·布什政府时期算起就断档了。"
+    },
+    {
+      "id": 97,
+      "start_sec": 1780,
+      "speaker": "Evan Feigenbaum",
+      "en": "But the United States doesn't have a particularly strategic approach either, because if it did, and it was focused on security balancing of China, it would not be picking fights with every one of the allies and partners that it would need to foster a balance with China and to deter the rise of Chinese power.",
+      "zh": "但美国同样缺乏真正战略性的方法。因为如果它真有战略定力并专注于对华安全制衡，它就不会去同每一个盟友和伙伴挑起争端——而这些盟友和伙伴恰恰是它构建对华均势、遏制中国实力崛起所不可或缺的力量。"
+    },
+    {
+      "id": 98,
+      "start_sec": 1800,
+      "speaker": "Evan Feigenbaum",
+      "en": "And that's why, as we were just talking, your Indian colleague and I, what we thought at the beginning of the Trump administration would be a US-China trade war has mysteriously morphed into a US-India trade war where the US and India still don't have a trade deal done. And Minister Sitharaman was out this morning talking about how the talks have basically plateaued and don't expect much to happen.",
+      "zh": "正因如此，正如刚才我和你的印度同事聊到的那样，在特朗普政府初期我们原以为会是中美贸易战，结果却莫名其妙地演变成了一场美印贸易战。如今美印之间仍未达成贸易协议。西塔拉曼部长今天上午还公开表示，双方谈判基本上已陷入停滞，不要指望有什么进展。"
+    },
+    {
+      "id": 99,
+      "start_sec": 1823,
+      "speaker": "Evan Feigenbaum",
+      "en": "So that's where we are. What's more, and I'll conclude the American part on this part, the US is no longer interested in its traditional roles and missions in the region.",
+      "zh": "现状就是如此。而且，关于美国这一部分我想以这点作结：美国对自己在该地区的传统角色和使命已经不再感兴趣了。"
+    },
+    {
+      "id": 100,
+      "start_sec": 1837,
+      "speaker": "Evan Feigenbaum",
+      "en": "The price of primacy is that you provide public goods to other players. But what I see happening in the United States now is essentially the withdrawal of public goods. The US isn't interested in opening its market and giving other countries a free ride, it's closing its market.",
+      "zh": "维持霸权的代价，在于你必须向其他参与者提供公共产品。但我看到当前美国所做的，本质上是在撤回公共产品。美国不仅不再有兴趣开放本国市场让别国搭便车，反而在封闭自己的市场。"
+    },
+    {
+      "id": 101,
+      "start_sec": 1853,
+      "speaker": "Evan Feigenbaum",
+      "en": "The United States is focused, as the president often says, on what matters to America first. But empire isn't cheap. And so to assert your primacy, but to do it while withdrawing public goods, stands on its head the traditional way that the United States has approached the region.",
+      "zh": "正如总统常说的那样，美国只聚焦于所谓‘美国优先’的事物。但维系帝国从来代价不菲。因此，一边坚称自己的主导地位，一边却在撤回公共产品，这彻底颠覆了美国涉足该地区的传统方式。"
+    },
+    {
+      "id": 102,
+      "start_sec": 1873,
+      "speaker": "Evan Feigenbaum",
+      "en": "And it's precisely why a lot of countries are saying, if it's America first for you, then does that mean us last? And that's the challenge the United States faces.",
+      "zh": "正因如此，许多国家都在发问：如果对你们来说是‘美国优先’，那是否意味着我们被排在最后？这就是美国所面临的挑战。"
+    },
+    {
+      "id": 103,
+      "start_sec": 1882,
+      "speaker": "Evan Feigenbaum",
+      "en": "Now, the good news for the United States, if it is worried about bipolarity and the potential for Chinese hegemony, is that China, as I said earlier, is a bit of a strategic narcissist, too. And the United States, in my view, has kind of dodged a bullet over the last few years because China has rather clumsily—this an editorial comment that many of my Chinese colleagues don't agree with—messed up its own relations with a large number of countries in the region.",
+      "zh": "如果美国真在担忧两极化以及中国可能谋求的霸权，那么对美国而言的好消息在于，正如我刚才所言，中国在某种程度上也是个‘战略自恋者’。在我看来，过去几年美国可以说是侥幸躲过了一劫，因为中国相当笨拙地——这是我个人的评论观点，我的很多中国同行并不同意——搞砸了自己与该地区大量国家的关系。"
+    },
+    {
+      "id": 104,
+      "start_sec": 1910,
+      "speaker": "Evan Feigenbaum",
+      "en": "China, interestingly enough, has a pretty rapidly evolving offering in Asia. And by Asia, I don't just mean East Asia; I mean Central Asia, non-India South Asia, and then much of East Asia that isn't in the Quad.",
+      "zh": "颇有意思的是，中国在亚洲能提供的合作模式正以相当快的速度演进。我说的亚洲不仅指东亚，还包括中亚、除印度以外的南亚，以及东亚绝大部分不属于‘四方安全对话’（Quad）的国家。"
+    },
+    {
+      "id": 105,
+      "start_sec": 1930,
+      "speaker": "Evan Feigenbaum",
+      "en": "And it's a mistake, I think, that Americans in particular make to conflate Quad views of China with Asian views of China, which are much more diverse, much less focused on security balancing, and therefore much more at variance with the zeitgeist of American policy.",
+      "zh": "我认为，尤其是美国人经常犯的一个错误，就是把Quad对中国的看法与整个亚洲对中国的看法混为一谈。后者的视角要多元得多，也远没有那么聚焦于安全制衡，因此与美国政策的时代思潮存在巨大分歧。"
+    },
+    {
+      "id": 106,
+      "start_sec": 1952,
+      "speaker": "Evan Feigenbaum",
+      "en": "If you look, let's just say Central Asia, China's western periphery, that economic relationship a few years ago was all extractive. It was like oil, gas, and mining, that was the story. That's no longer the case, not at all.",
+      "zh": "拿中亚也就是中国的西部周边来说，几年前这种经贸关系完全是资源开采型的。当时基本就是石油、天然气和采矿业，仅此而已。但现在情况完全变了，绝非仅此而已。"
+    },
+    {
+      "id": 107,
+      "start_sec": 1965,
+      "speaker": "Evan Feigenbaum",
+      "en": "Increasingly, it's focused on a digital footprint. It's focused on renewable energy, not just oil and gas. And so China is providing an offering that doesn't just reflect Chinese push, as we often...",
+      "zh": "它越来越聚焦于数字足迹，聚焦于可再生能源，而非仅仅局限于油气。因此，中国提供的方案并不仅仅体现了中国单方面的推动，正如我们常常……"
+    },
+    {
+      "id": 108,
+      "start_sec": 1980,
+      "speaker": "Evan Feigenbaum",
+      "en": "here, but demand-side pull for countries that are trying to diversify their economies and rise up the value chain. And what that means is that China doesn't have to win a lot of popularity contests. It can leverage the map, it can leverage economic gravity, and it can leverage an offering that the United States is not really able to offer in some of these spaces.",
+      "zh": "而是来自那些试图实现经济多元化、向价值链上游攀升的国家在需求端的拉动。这意味着，中国并不需要去赢得多少民意支持或人气竞赛。它可以利用地缘版图，利用经济引力，并利用一套美国在其中部分领域根本无法提供的供给。"
+    },
+    {
+      "id": 109,
+      "start_sec": 2002,
+      "speaker": "Evan Feigenbaum",
+      "en": "Okay. But having said that, China, interestingly enough, has learned a lot from the United States about how to coerce other countries. The United States is, in my view, kind of the world champion of economic coercion. And both structurally and behaviorally, China has created mechanisms that, ironically enough, look even within the ambit of China's very different political system, a lot like the United States.",
+      "zh": "但话虽如此，有趣的是，中国在如何威慑与胁迫其他国家方面，向美国学到了很多。在我看来，美国堪称经济胁迫领域的“世界冠军”。无论在结构上还是在行为上，中国建立的机制——即便是在中国截然不同的政治体制范围内——讽刺的是，都显得与美国极为相似。"
+    },
+    {
+      "id": 110,
+      "start_sec": 2029,
+      "speaker": "Evan Feigenbaum",
+      "en": "The United States has an entity list in the Commerce Department, China now has an unreliable entities list. The United States has sanctioned companies, China's sanctioned companies. The United States has sanctioned individuals, China's sanctioned individuals. So, structurally, the mechanisms are there for China to behave just like the United States does, and behaviorally, China increasingly is using some of those.",
+      "zh": "美国商务部有“实体清单”，中国现在有了“不可靠实体清单”。美国制裁企业，中国也制裁企业；美国制裁个人，中国也制裁个人。因此，在结构层面，中国已经具备了像美国那样行事的制度机制；而在行为层面，中国也越来越多地开始使用这些工具。"
+    },
+    {
+      "id": 111,
+      "start_sec": 2053,
+      "speaker": "Evan Feigenbaum",
+      "en": "And that includes some of the things that China complains most strenuously about. The number one complaint I've heard from China over the years is that the United States extraterritorializes its economic coercion, for instance, its export controls, by leaning on third parties through refusal of licenses, permissions, and so on and so forth. And that is true.",
+      "zh": "这甚至包括了中国自身抗议最激烈的一些做法。这些年来我听到中方最核心的抱怨，就是美国将其经济胁迫（例如出口管制）进行“长臂管辖”或域外化，通过拒绝发放许可、批件等手段向第三方施压。事实确实如此。"
+    },
+    {
+      "id": 112,
+      "start_sec": 2076,
+      "speaker": "Evan Feigenbaum",
+      "en": "If you just look at—I think, did somebody mention ultraviolet lithography in the last session? If you were talking about semiconductors and compute and all of that, if the United States could extract voluntary compliance from partners like the Netherlands, it wouldn't have to put the hammer down on them. But it's putting the hammer down on them precisely because it's not able to extract voluntary compliance to basically de-China-fy everything in the supply chain.",
+      "zh": "如果大家看看——我想上一场是不是有人提到了极紫外光刻机（EUV）？在谈论半导体、算力等等议题时，如果美国能让荷兰等合作伙伴自愿配合，它就根本没必要对他们挥舞大棒。但它之所以挥舞大棒，恰恰是因为无法让对方自愿遵从，从而将供应链中的一切彻底“去中国化”。"
+    },
+    {
+      "id": 113,
+      "start_sec": 2100,
+      "speaker": "Evan Feigenbaum",
+      "en": "And that being the case, it's leaning on extraterritorialization of some of its regulatory and administrative instruments. But China's starting to do the same, and actually it's writing it in to both law and policy.",
+      "zh": "正因如此，美国愈发依赖其监管和行政工具的域外效力。但中国也开始采取同样的手法，而且实际上正将其写入法律和政策之中。"
+    },
+    {
+      "id": 114,
+      "start_sec": 2115,
+      "speaker": "Evan Feigenbaum",
+      "en": "So, if you look at the Hong Kong National Security Law, for instance, there's a whole section of it, Article 29, Section 4, that actually makes it a violation of the law to implement foreign government sanctions. So, there's the \"long-arm jurisdiction\" that China complains about, embedded even into Chinese law.",
+      "zh": "比如你看《香港国安法》，其中整整一条，即第29条第4款，实际上将执行外国政府的制裁规定为了违法行为。中国平日抗议的“长臂管辖”，如今也同样嵌入到了中国自身的法律体系中。"
+    },
+    {
+      "id": 115,
+      "start_sec": 2132,
+      "speaker": "Evan Feigenbaum",
+      "en": "So, if you're worried about bipolarity, my story for you is actually it's looking more like fragmentation. But if you're American or you're Chinese and you're worried about the dominance of the other, what I would say is the way the region is shaping up is not the Sinocentrism that the United States fears, nor is it the American containment that China worries about the most, because other countries get a vote.",
+      "zh": "所以，如果你担心的是两极分化，我想告诉你的是，现实看起来更像碎片化。但如果你是美国人或中国人，并且担心对方占据主导地位，我想说的是，该地区正在形成的格局既非美国所担心的“以中国为中心”，也不是中国最忧虑的“美国对华围堵”，因为其他国家同样拥有话语权和选择权。"
+    },
+    {
+      "id": 116,
+      "start_sec": 2160,
+      "speaker": "Evan Feigenbaum",
+      "en": "on the outcome. And that brings me to the last point, which is why I'm kind of aspirationally hopeful. I think part of why people kind of dump on middle power strategy or whether, you know, the prime minister talks about middle power strategy, or people tend to refract everything back through bipolarity, is that there's a tendency, especially among those of us who study international relations, to focus on form rather than function.",
+      "zh": "对最终结果产生影响。这就引出了我的最后一个观点，也是我为何抱有一种审慎乐观态度的原因。我认为，人们之所以倾向于贬低中等强国战略——无论加拿大总理是否谈及中等强国战略——或者总是习惯性地将一切问题重新置于两极对抗的框架下审视，原因之一在于，尤其是我们这些研究国际关系的人，往往倾向于关注“形式”而非“功能”。"
+    },
+    {
+      "id": 117,
+      "start_sec": 2189,
+      "speaker": "Evan Feigenbaum",
+      "en": "And you see that actually in policy, not just in theory. Haley and I were talking a little bit about this at the break. What do I mean by form? Just kind of forging groups: quadrilaterals, trilaterals. I've lost count of how many trilaterals there are in the region. Plurilaterals.",
+      "zh": "这种现象不仅存在于理论层面，实际上在政策制定中也屡见不鲜。休会期间我和 Haley 还就此聊过几句。我说的“形式”是什么意思？就是一味地去拼凑各种小圈子：四边机制、三边机制。我都数不清这个地区到底有多少个三边机制了，还有各种多边小圈子。"
+    },
+    {
+      "id": 118,
+      "start_sec": 2208,
+      "speaker": "Evan Feigenbaum",
+      "en": "And some of it you can almost joke about how ridiculous it's become. In the Biden administration, a very senior US official called me up, and he said, \"Hey, you were the former deputy assistant secretary of state for Central Asia. You know a lot about those countries, right?\" And I said, \"Yeah, I keep up.\" And he said, \"What do you think about this idea: a US-Japan-Kazakhstan trilateral?\"",
+      "zh": "有些情况甚至荒谬到几乎能当成笑话讲。在拜登政府时期，一位非常高层的美国官员曾打电话给我说：“嘿，你以前当过负责中亚事务的副助理国务卿，很了解那些国家，对吧？”我说：“对，我一直保持关注。”他说：“你觉得这个主意怎么样：搞一个美日哈萨克斯坦三边机制？”"
+    },
+    {
+      "id": 119,
+      "start_sec": 2227,
+      "speaker": "Evan Feigenbaum",
+      "en": "And I said, \"Like, what for? What for? To do what?\" And he said, \"Okay, what about this one: Uzbekistan, Australia, and the United States?\" And I said, \"Okay, what for?\"",
+      "zh": "我反问：“图什么呢？这机制是用来干什么的？”他又说：“好吧，那这个怎么样：乌兹别克斯坦、澳大利亚加美国？”我又问：“这又是为了什么呢？”"
+    },
+    {
+      "id": 120,
+      "start_sec": 2240,
+      "speaker": "Evan Feigenbaum",
+      "en": "And I think some of that focus on form is being mirror-imaged by the very middle powers that are trying to escape the trap of the form of being shoehorned into the bipolarity that the United States and China often seek, but that the region, in fact, is, in my view, beginning to drift away from. So, there's this effort on creating, as I said, quads, groups. I think Canada has created a few of these yourselves.",
+      "zh": "我认为，这种对形式的痴迷，恰恰在那些试图摆脱形式陷阱的中等强国身上得到了投射。它们一方面极力想避免被硬塞进中美两国往往试图塑造的两极对抗格局中——而在我看来，该地区实际上已经在逐渐脱离这种两极格局；但另一方面，它们又在忙于搭建各种所谓的“四边”、“多边”小圈子。我想加拿大自己也搞过不少这类组合。"
+    },
+    {
+      "id": 121,
+      "start_sec": 2271,
+      "speaker": "Evan Feigenbaum",
+      "en": "But if you don't focus on form and you focus on function, then what you get is not groups that grope around for purpose, but instead a much more realistic effort to basically assemble coalitions of those who have capacity, to pull the capacity, and then, as in the TPP case, become first movers that drive collective action when the United States and China are actually increasingly the spoilers of collective action. So if you're worried about getting trapped in a box of American or Chinese making, the best way out of it is to reflect on the fact that countries that are sizable, capable, and self-interested have, on specific functions, capacity that they can bring to the table that can actually set standards, make rules, or at least set an example that may establish some kind of norm that the others will want to follow.",
+      "zh": "但如果你不再执泥于形式，而是聚焦于功能，你得到的就不会是一群漫无目的摸索宗旨的空架子，而会是一种务实得多的努力——将拥有实际能力的各方凝聚为联盟，整合资源，然后在特定议题上像当年处理 TPP 那样发挥先行者作用，去引领集体行动；尤其是在中美两国实际上日益沦为集体行动破坏者的当下。因此，如果你担心被困在美国或中国设定的既定框架里，最好的破局之道就是清醒地认识到：那些具有一定体量、具备实际能力且追求自身利益的国家，在特定功能领域完全有能力拿出自身资源，去制定标准、确立规则，或者退一步讲，至少树立起某种榜样，建立起其他国家愿意追随的行为规范。"
+    },
+    {
+      "id": 122,
+      "start_sec": 2336,
+      "speaker": "Evan Feigenbaum",
+      "en": "And we do, as I said, have a history of that in this region.",
+      "zh": "正如我之前所言，在这个地区，我们是有过这种历史先例的。"
+    },
+    {
+      "id": 123,
+      "start_sec": 2340,
+      "speaker": "Evan Feigenbaum",
+      "en": "Part of the world, so TPP is one example that I gave. Another is the Digital Economy Partnership Agreement in a world of fragmenting digital rules. The same four countries that drove TPP also drove forward the idea of a DEPA.",
+      "zh": "放眼世界，TPP 就是我举的一个例子。另一个是在数字规则日益碎片化的世界中的《数字经济伙伴关系协定》（DEPA）。正是推动 TPP 的那四个国家，同样提出了 DEPA 的构想。"
+    },
+    {
+      "id": 124,
+      "start_sec": 2354,
+      "speaker": "Evan Feigenbaum",
+      "en": "And even some of the groups that we think about in terms of form today, like the Quad, ironically enough, actually started by being about function. And they've lost their way as they transition from being primarily about function to being increasingly about form.",
+      "zh": "甚至连我们今天从“形式”角度来看待的一些组织，比如“四方安全对话”（Quad），讽刺的是，最初其实是因“功能”而生的。但随着它们从以功能为主转向越来越注重形式，它们已经迷失了方向。"
+    },
+    {
+      "id": 125,
+      "start_sec": 2371,
+      "speaker": "Evan Feigenbaum",
+      "en": "Does anybody remember how the Quad started? It started in 2004, after the Indian Ocean tsunami, when those four countries—the United States, Japan, Australia, and India—got together. And for nine days, provided rapid and effective relief around the Indian Ocean littoral.",
+      "zh": "有人记得 Quad 是怎么开始的吗？它始于 2004 年印度洋海啸之后，当时美、日、澳、印四国走到一起。在九天时间里，它们为印度洋沿岸地区提供了迅速而有效的救援。"
+    },
+    {
+      "id": 126,
+      "start_sec": 2393,
+      "speaker": "Evan Feigenbaum",
+      "en": "They didn't have ministerials. They didn't have summits. They didn't issue communiques. They didn't have a secretariat. And the definition of success was, what? The mission was accomplished, and for a while, the group put itself out of business.",
+      "zh": "他们当时没有部长级会议，没有峰会，不发表联合公报，也没有秘书处。而成功的定义是什么？任务完成了，于是一段时间内这个组织就功成身退、就地解散了。"
+    },
+    {
+      "id": 127,
+      "start_sec": 2410,
+      "speaker": "Evan Feigenbaum",
+      "en": "And then later on, Japan particularly became the spur of a revived Quad that became more about form, in my view, rather than function. And that explains, if you think about it, some of the skepticism we've heard of the last few years toward the Quad.",
+      "zh": "后来，尤其是日本，成为了重启 Quad 的推手，但在我看来，重组后的 Quad 变得更加流于形式而非注重功能。如果你仔细想想，这正解释了过去几年我们所听到的针对 Quad 的质疑。"
+    },
+    {
+      "id": 128,
+      "start_sec": 2425,
+      "speaker": "Evan Feigenbaum",
+      "en": "I've gotten tired of reading all these articles and tweets sniping at our many 'Quadologists' in Washington and saying, you know, like, \"What the hell does the Quad do anyway? Oh, they have a photo op.\" And then you have people, some of whom are my friends in Washington, saying, \"Oh, no, no, no, no, the Quad's not out of business. Look, there's Rubio and Jaishankar standing there having a meeting.\"",
+      "zh": "我已经厌倦了读到那些在文章和推特上嘲讽华盛顿众多所谓“四方机制专家”的内容，说：“Quad 到底干成了什么？哦，就拍了张合影。”然后华盛顿的一些人——其中有些还是我的朋友——就反驳说：“不不不，Quad 没停摆，你看，卢比奥和苏杰生正站在那开会呢。”"
+    },
+    {
+      "id": 129,
+      "start_sec": 2444,
+      "speaker": "Evan Feigenbaum",
+      "en": "And then the skeptics say, \"Well, why are they just having a meeting? It's just a photo op. Where's the action?\" So, what that tells me is that in a world of function rather than a world of form, countries have the opportunity, especially in a world of fragmentation, to drive toward rule-making, standard-setting, and norm-setting in ways that they actually wouldn't, ironically enough, have the opportunity to do if the United States and China were not racing to the bottom.",
+      "zh": "接着质疑者又会问：“那他们为什么只是在开会？纯粹是拍照作秀，实际行动呢？”所以，这给我的启示是：在一个讲求实际功能而非表面形式的世界里，尤其是在一个碎片化的世界中，各国其实迎来了推进规则制定、标准设定和规范建立的机遇。具有讽刺意味的是，如果中美两国没有陷入这种“逐底竞争”，其他国家本不可能获得这样的机遇。"
+    },
+    {
+      "id": 130,
+      "start_sec": 2479,
+      "speaker": "Evan Feigenbaum",
+      "en": "Because if American policy and Chinese policy was more coherent, more function-specific, more additive, they would be trying to shoehorn everybody else into coalitions. But because they're not—the U.S. because it's mainly interested in America First, China because it's racing the U.S. to the bottom, in my view, although as I said, many Chinese would dispute that—that is the opportunity precisely that I think the middle, let's call them the middle powers, have that they wouldn't have otherwise.",
+      "zh": "因为如果美国和中国的政策更加连贯、更聚焦具体功能、更具建设性，他们就会试图把其他所有国家硬塞进各自的联盟阵营。但正因他们没有做到这一点——美国主要沉迷于“美国优先”，而在我看来，中国正与美国陷入逐底竞争（尽管正如我所说，许多中国人并不同意这一说法）——这恰恰为中间国家，我们姑且称之为“中等强国”，创造了原本不可能拥有的战略机遇。"
+    },
+    {
+      "id": 131,
+      "start_sec": 2511,
+      "speaker": "Evan Feigenbaum",
+      "en": "So to circle that back to where I started, we have a tendency to think about fragmentation as a bad thing.",
+      "zh": "因此，回到我开篇提出的观点：我们往往倾向于把碎片化看作一件坏事。"
+    },
+    {
+      "id": 132,
+      "start_sec": 2520,
+      "speaker": "Evan Feigenbaum",
+      "en": "Because that's how we think in international relations, right? If you read international relations theory, it's all about order and disorder. Fragmentation means disorder. And order, whether it's bipolar, whether it's unipolar, through hegemony, whatever it is—order good, fragmentation bad.",
+      "zh": "因为我们在国际关系学里就是这么思考的，对吧？如果你读过国际关系理论，就会发现它通篇都在讲秩序与无序。碎片化就意味着无序。而秩序，无论是由霸权维系的两极还是单极，总之秩序就是好的，碎片化就是坏的。"
+    },
+    {
+      "id": 133,
+      "start_sec": 2534,
+      "speaker": "Evan Feigenbaum",
+      "en": "But what I'm saying to you is you can get order out of fragmentation, especially when the preponderant powers in the system don't have much to offer. And the way I see U.S. policy and Chinese policy going these days, they will still sharpen the contradictions for other players. They will still put everybody under pressure.",
+      "zh": "但我真正想说的是，你完全可以从碎片化中构建出秩序，尤其是当体系中的主导大国拿不出太多实质利益的时候。而在我看来，美中两国当下的政策走向依然会激化其他各方的矛盾，依然会给所有人施加压力。"
+    },
+    {
+      "id": 134,
+      "start_sec": 2552,
+      "speaker": "Evan Feigenbaum",
+      "en": "As Korea is, as Australia is, as India certainly is, as Japan is. The president was on yesterday being asked about why Korea won't invest in his Alaska energy project after he thought they would, and his response was, 'Oh, did they say that? Tell them I'm going to make them pay.' He said, 'I'll double it,' presumably referring to tariffs.",
+      "zh": "韩国如此，澳大利亚如此，印度显然也是，日本同样如此。昨天总统还在电视上被问到，既然他原本以为韩国会投资他的阿拉斯加能源项目，为什么韩国不肯投？他的回答是：‘哦，他们这么说的吗？告诉他们，我会让他们付出代价。’他说‘我要翻倍’，大概指的是关税。"
+    },
+    {
+      "id": 135,
+      "start_sec": 2575,
+      "speaker": "Evan Feigenbaum",
+      "en": "So, when you behave that way, you're heading for a world that other people don't want to join your coalitions. But that's a world in which, whether it's just as a holding action or it's as a norm setter—and in that sense, I do think TPP was transformative to regional order, to the extent that now you have countries outside the region, like the UK, trying to join it, rather than the other way around.",
+      "zh": "所以，当你采取这种行事方式时，你正走向一个别人根本不想加入你联盟的世界。但在这样一个世界里，无论只是作为权宜拖延之计，还是作为规则的制定者——从这个意义上讲，我确实认为 TPP 彻底改变了区域秩序，以至于现在连英国这样的区域外国家都在争取加入，而不是反过来。"
+    },
+    {
+      "id": 136,
+      "start_sec": 2598,
+      "speaker": "Evan Feigenbaum",
+      "en": "That's the opportunity that four years ago, when you asked me that question, and you said what does Canada have to bring, and I said, 'Eh, not that much, except duck and cover.' Now, I think, ironically enough, there are opportunities that would not have existed four years ago. And it's precisely because American and Chinese policy are more debilitating than ever.",
+      "zh": "这就是四年前你们问我加拿大能带来什么时所谈到的契机，当时我说：‘呃，除了抱头掩护，真没什么了。’现在我觉得，极其讽刺的是，如今出现的种种契机在四年前根本不存在。而这恰恰是因为美中两国的政策比以往任何时候都更具破坏性、更令人窒息。"
+    },
+    {
+      "id": 137,
+      "start_sec": 2616,
+      "speaker": "Evan Feigenbaum",
+      "en": "So, that's my aspirationally hopeful note. But my closing message to you would be, the only way to realize that opportunity is to focus on function. Because if you focus on form, you'll make the same mistake the U.S. and others have made, which is: you form groups, you grope for purpose, and you'll never find that kind of purpose.",
+      "zh": "所以，这是我抱有积极期许的一面。但我最后想留给大家的忠告是：要想把握住这种机遇，唯一的途径就是聚焦于功能本身。因为如果你只着眼于形式，就会重蹈美国和其他国家的覆辙：拉起一堆小圈子，却四处摸索目标，最终永远也找不到真正的目的。"
+    },
+    {
+      "id": 138,
+      "start_sec": 2634,
+      "speaker": "Evan Feigenbaum",
+      "en": "I will say, at the very end, that security order is largely bipolar in the region. So when I say that, I'm not really talking about military security, I'm talking about most of the other areas in the above. All right, so hopefully that gave you something to bite into, and now you can like, shoot at me.",
+      "zh": "最后我还要补充一句，该地区的安全秩序在很大程度上依然是两极化的。所以当我说这些时，我指的并非军事安全，而是上述绝大多数其他领域。好了，希望这些观点能给大家带来一些思考的切入点，现在大家可以‘向我开火’提问了。"
+    },
+    {
+      "id": 139,
+      "start_sec": 2656,
+      "speaker": "Kaiser Kuo",
+      "en": "You've been listening to the Sinica Podcast. The show is produced, recorded, engineered, edited, and mastered by me, Kaiser Kuo. Support the show through Substack at sinicapodcast.com, where you will find a growing offering of terrific original China-related writing and audio, or email me at sinicapod@gmail.com if you've got ideas on how you can help out with the show.",
+      "zh": "您正在收听的是 Sinica Podcast。本节目由我 Kaiser Kuo 担任制作、录音、音效工程、剪辑及母带处理。欢迎通过 Substack 平台访问 sinicapodcast.com 支持本节目，您将在那里看到越来越多优质的涉华原创图文与音频内容；如果您对如何协助做好节目有任何想法，也可以发邮件至 sinicapod@gmail.com。"
+    },
+    {
+      "id": 140,
+      "start_sec": 2677,
+      "speaker": "Kaiser Kuo",
+      "en": "Don't forget to leave a review on Apple Podcasts. Huge thanks to Evan, and to Jeff Nankivell of APF Canada for this terrific talk. Thanks for listening, and we'll see you next week. Take care.",
+      "zh": "别忘了在 Apple Podcasts 上留下您的好评。非常感谢 Evan，也要感谢加拿大亚太基金会（APF Canada）的 Jeff Nankivell 带来的这场精彩演讲。感谢您的收听，我们下周再见，保重。"
+    },
+    {
+      "id": 141,
+      "start_sec": 2700,
+      "speaker": "Kaiser Kuo",
+      "en": "Welcome to Sinica, a weekly discussion of current affairs in China, produced by Sinica Media.",
+      "zh": "欢迎收听《Sinica》，这是一档由 Sinica Media 制作的中国时政周播访谈节目。"
+    }
+  ]
+}
