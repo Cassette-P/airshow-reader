@@ -1211,7 +1211,7 @@
     <!-- Loading State -->
     <div id="loading-state" class="state-banner">
       <div class="spinner"></div>
-      <p style="color: var(--text-secondary); font-size: 0.9375rem;">正在加载精读数据与中英双语逐字稿...</p>
+      <p style="color: var(--text-secondary); font-size: 0.9375rem;">正在加载单集总目录...</p>
     </div>
 
     <!-- Error State -->
@@ -1283,7 +1283,7 @@
           <h2 class="section-title" id="heading-highlights">
             精选原声 · Audio Highlights
           </h2>
-          <span class="section-badge" id="highlights-count-badge">7 个片段</span>
+          <span class="section-badge" id="highlights-count-badge">- 个片段</span>
         </div>
         <div class="highlights-grid" id="highlights-grid">
           <!-- Dynamically populated -->
@@ -1296,7 +1296,7 @@
           <h2 class="section-title" id="heading-transcript">
             中英双语逐字稿 · Transcript
           </h2>
-          <span class="section-badge" id="transcript-count-badge">191 段落</span>
+          <span class="section-badge" id="transcript-count-badge">- 段落</span>
         </div>
         <div class="transcript-container" id="transcript-container">
           <!-- Dynamically populated -->
@@ -1394,6 +1394,11 @@
       let lastActiveHighlightIndex = -1;
       const PLAYBACK_RATES = [1.0, 1.25, 1.5, 2.0];
       let currentRateIndex = 0;
+
+      // v2.0 Lazy Loading & In-Memory Cache State
+      const episodeCache = new Map();
+      let currentLoadingGuid = null;
+      let currentRequestSeq = 0;
 
       // DOM Elements Cache
       const audio = document.getElementById('audio-engine');
@@ -1639,92 +1644,190 @@
       }
 
       // ======================================================================
-      // Data Fetching & Rendering
+      // Data Fetching & Rendering (v2.0 On-Demand Lazy Architecture)
       // ======================================================================
 
-      async function loadEpisodesData() {
-        console.log('[AIRSHOW][UI] Fetching ./data/episodes.json...');
+      async function loadIndexData() {
+        console.log('[AIRSHOW][UI] Fetching ./data/index.json...');
         loadingState.style.display = 'flex';
         errorState.style.display = 'none';
         episodeContent.style.display = 'none';
 
         try {
-          const response = await fetch('./data/episodes.json', { cache: 'no-cache' });
+          const response = await fetch('./data/index.json', { cache: 'no-cache' });
           if (!response.ok) {
             throw new Error(`HTTP ${response.status} ${response.statusText}`);
           }
           const data = await response.json();
           appData = data;
-          console.log(`[AIRSHOW][UI] Successfully loaded ${data.episodes ? data.episodes.length : 0} episodes (schema: ${data.schema_version})`);
+          console.log(`[AIRSHOW][UI] Successfully loaded index with ${data.episodes ? data.episodes.length : 0} episodes (schema: ${data.schema_version})`);
 
           if (!data.episodes || data.episodes.length === 0) {
-            throw new Error('episodes.json 中未包含任何播客单集数据');
+            throw new Error('index.json 中未包含任何播客单集数据');
           }
 
           populateEpisodeDropdown(data.episodes);
-          selectEpisode(data.episodes[0]);
+
+          // Support URL hash or default to latest episode (item 0)
+          const hashGuid = window.location.hash.replace(/^#/, '');
+          const initialEp = (hashGuid && data.episodes.find(ep => ep.guid === hashGuid)) || data.episodes[0];
+          selectEpisode(initialEp);
 
           loadingState.style.display = 'none';
           episodeContent.style.display = 'block';
           playerBar.style.display = 'block';
         } catch (err) {
-          console.error('[AIRSHOW][UI] Failed to load episodes data:', err);
+          console.error('[AIRSHOW][UI] Failed to load index data:', err);
           loadingState.style.display = 'none';
           errorState.style.display = 'flex';
           errorMessage.textContent = `加载失败：${err.message}。请确认已在 docs 目录下运行静态服务器。`;
         }
       }
 
-      btnRetry.addEventListener('click', loadEpisodesData);
+      btnRetry.addEventListener('click', loadIndexData);
 
       function populateEpisodeDropdown(episodes) {
         episodeSelect.innerHTML = '';
-        episodes.forEach((ep, idx) => {
+        episodes.forEach((ep) => {
           const opt = document.createElement('option');
           opt.value = ep.guid;
-          opt.textContent = `${formatDateZh(ep.pub_date)} · ${formatDurationZh(ep.duration_sec)} | ${ep.title}`;
+          const countStr = ep.transcript_count != null ? ` · ${ep.transcript_count}条` : '';
+          opt.textContent = `${formatDateZh(ep.pub_date)} · ${formatDurationZh(ep.duration_sec)}${countStr} | ${ep.title}`;
           episodeSelect.appendChild(opt);
-        });
-
-        episodeSelect.addEventListener('change', (e) => {
-          const selectedGuid = e.target.value;
-          const found = appData.episodes.find(ep => ep.guid === selectedGuid);
-          if (found) {
-            selectEpisode(found);
-          }
         });
       }
 
-      function selectEpisode(ep) {
-        currentEpisode = ep;
-        console.log(`[AIRSHOW][UI] Selected episode: "${ep.title}" (${ep.guid})`);
+      function selectEpisode(epMeta) {
+        currentLoadingGuid = epMeta.guid;
+        currentRequestSeq++;
+        const thisSeq = currentRequestSeq;
+
+        console.log(`[AIRSHOW][UI] Selected episode: "${epMeta.title}" (${epMeta.guid})`);
 
         // Update dropdown selected value
-        episodeSelect.value = ep.guid;
+        episodeSelect.value = epMeta.guid;
 
-        // Reset player & state
+        // Sync URL Hash without triggering page scroll
+        if (window.location.hash.replace(/^#/, '') !== epMeta.guid) {
+          history.replaceState(null, '', '#' + epMeta.guid);
+        }
+
+        // Reset player & state (pause previous episode playback and reset highlight indices)
         audio.pause();
-        audio.src = ep.audio_url || '';
+        audio.src = epMeta.audio_url || '';
         audio.load();
         lastActiveTranscriptIndex = -1;
         lastActiveHighlightIndex = -1;
         timeCurrent.textContent = '00:00';
-        timeTotal.textContent = formatTime(ep.duration_sec || 0);
+        timeTotal.textContent = formatTime(epMeta.duration_sec || 0);
         seekSlider.value = 0;
-        seekSlider.max = ep.duration_sec || 100;
-        playerEpTitle.textContent = ep.title;
+        seekSlider.max = epMeta.duration_sec || 100;
+        playerEpTitle.textContent = epMeta.title || '';
         playerSpeakerName.textContent = '就绪';
         updatePlayPauseIcons(false);
 
-        // Render Article Sections
-        renderArticleMeta(ep);
-        renderExecutiveSummary(ep);
-        renderHighlights(ep.highlights || []);
-        renderTranscript(ep.transcript || []);
+        // Immediately render metadata and summary from index.json
+        renderArticleMeta(epMeta);
+        renderExecutiveSummary(epMeta);
 
-        // Reset search if any
-        if (searchInput.value) {
-          applySearchFilter(searchInput.value.trim());
+        // In-memory cache hit branch
+        if (episodeCache.has(epMeta.guid)) {
+          console.log(`[AIRSHOW][UI] Cache hit for ${epMeta.guid}`);
+          const detail = episodeCache.get(epMeta.guid);
+          currentEpisode = detail;
+          renderHighlights(detail.highlights || []);
+          renderTranscript(detail.transcript || []);
+
+          // Link search state: re-apply filter and highlighting if search input is non-empty
+          const q = searchInput.value.trim();
+          if (q) {
+            applySearchFilter(q);
+          } else {
+            applySearchFilter('');
+          }
+          return;
+        }
+
+        // Cache miss: show concise loading indicator in Highlights and Transcript areas, then fetch
+        loadEpisodeDetail(epMeta, thisSeq);
+      }
+
+      async function loadEpisodeDetail(epMeta, seq) {
+        currentEpisode = {
+          ...epMeta,
+          highlights: [],
+          transcript: []
+        };
+        highlightElements = [];
+        transcriptElements = [];
+
+        highlightsCountBadge.textContent = epMeta.highlights_count != null ? `${epMeta.highlights_count} 个片段 (加载中)` : '加载中...';
+        transcriptCountBadge.textContent = epMeta.transcript_count != null ? `${epMeta.transcript_count} 段落 (加载中)` : '加载中...';
+
+        highlightsGrid.innerHTML = `
+          <div class="state-banner" style="grid-column: 1 / -1; min-height: 120px; padding: 24px 0;">
+            <div class="spinner" style="width: 28px; height: 28px;"></div>
+            <p style="color: var(--text-secondary); font-size: 0.875rem;">正在按需加载精选重点...</p>
+          </div>
+        `;
+        transcriptContainer.innerHTML = `
+          <div class="state-banner" style="min-height: 160px; padding: 32px 0;">
+            <div class="spinner" style="width: 28px; height: 28px;"></div>
+            <p style="color: var(--text-secondary); font-size: 0.875rem;">正在按需加载双语逐字稿...</p>
+          </div>
+        `;
+
+        try {
+          const fileUrl = './data/' + epMeta.file;
+          const response = await fetch(fileUrl, { cache: 'no-cache' });
+          if (!response.ok) {
+            throw new Error(`HTTP ${response.status} ${response.statusText}`);
+          }
+          const detail = await response.json();
+
+          // Save to in-memory cache
+          episodeCache.set(epMeta.guid, detail);
+          console.log(`[AIRSHOW][UI] Loaded episode detail: ${epMeta.file}`);
+
+          // Race condition check: verify if still the currently selected episode
+          if (currentLoadingGuid !== epMeta.guid || seq !== currentRequestSeq) {
+            console.log(`[AIRSHOW][UI] Stale response ignored for ${epMeta.guid}`);
+            return;
+          }
+
+          currentEpisode = detail;
+          renderHighlights(detail.highlights || []);
+          renderTranscript(detail.transcript || []);
+
+          // Link search state: re-apply filter and highlighting if search input is non-empty
+          const q = searchInput.value.trim();
+          if (q) {
+            applySearchFilter(q);
+          } else {
+            applySearchFilter('');
+          }
+        } catch (err) {
+          console.error(`[AIRSHOW][UI] Failed to load detail for ${epMeta.guid}:`, err);
+          if (currentLoadingGuid !== epMeta.guid || seq !== currentRequestSeq) {
+            return;
+          }
+
+          highlightsCountBadge.textContent = '加载失败';
+          transcriptCountBadge.textContent = '加载失败';
+          highlightsGrid.innerHTML = '';
+          transcriptContainer.innerHTML = `
+            <div class="state-banner" style="min-height: 160px; gap: 12px; padding: 24px 0;">
+              <h4 style="color: #ef4444; font-size: 1rem;">单集详情加载失败</h4>
+              <p style="color: var(--text-secondary); font-size: 0.875rem;">${escapeHtml(err.message)}</p>
+              <button type="button" class="btn-retry" id="btn-retry-detail" style="padding: 6px 18px; font-size: 0.8125rem;">重试加载详情</button>
+            </div>
+          `;
+          const btnRetryDetail = document.getElementById('btn-retry-detail');
+          if (btnRetryDetail) {
+            btnRetryDetail.addEventListener('click', () => {
+              selectEpisode(epMeta);
+            });
+          }
         }
       }
 
@@ -2046,20 +2149,28 @@
           // Reset transcript
           transcriptElements.forEach((el, idx) => {
             el.classList.remove('is-search-hidden');
-            const item = currentEpisode.transcript[idx];
-            el.querySelector('.transcript-en').innerHTML = escapeHtml(item.en);
-            el.querySelector('.transcript-zh').innerHTML = escapeHtml(item.zh);
+            const item = (currentEpisode.transcript || [])[idx];
+            if (item) {
+              const enEl = el.querySelector('.transcript-en');
+              const zhEl = el.querySelector('.transcript-zh');
+              if (enEl) enEl.innerHTML = escapeHtml(item.en);
+              if (zhEl) zhEl.innerHTML = escapeHtml(item.zh);
+            }
           });
 
           // Reset highlights
           highlightElements.forEach((el, idx) => {
             el.classList.remove('is-search-hidden');
-            const item = currentEpisode.highlights[idx];
-            el.querySelector('.highlight-title').innerHTML = escapeHtml(item.title_zh);
-            el.querySelector('.highlight-summary').innerHTML = escapeHtml(item.summary_zh);
-            const quoteEl = el.querySelector('.highlight-quote');
-            if (quoteEl && item.quote_en) {
-              quoteEl.innerHTML = `“${escapeHtml(item.quote_en)}”`;
+            const item = (currentEpisode.highlights || [])[idx];
+            if (item) {
+              const titleEl = el.querySelector('.highlight-title');
+              const summaryEl = el.querySelector('.highlight-summary');
+              if (titleEl) titleEl.innerHTML = escapeHtml(item.title_zh);
+              if (summaryEl) summaryEl.innerHTML = escapeHtml(item.summary_zh);
+              const quoteEl = el.querySelector('.highlight-quote');
+              if (quoteEl && item.quote_en) {
+                quoteEl.innerHTML = `“${escapeHtml(item.quote_en)}”`;
+              }
             }
           });
           return;
@@ -2072,7 +2183,8 @@
 
         // Filter and highlight transcripts
         transcriptElements.forEach((el, idx) => {
-          const item = currentEpisode.transcript[idx];
+          const item = (currentEpisode.transcript || [])[idx];
+          if (!item) return;
           const matchEn = (item.en || '').toLowerCase().includes(qLower);
           const matchZh = (item.zh || '').toLowerCase().includes(qLower);
           const matchSpk = (item.speaker || '').toLowerCase().includes(qLower);
@@ -2080,8 +2192,10 @@
           if (matchEn || matchZh || matchSpk) {
             transcriptMatchCount++;
             el.classList.remove('is-search-hidden');
-            el.querySelector('.transcript-en').innerHTML = highlightTextMatches(item.en, query);
-            el.querySelector('.transcript-zh').innerHTML = highlightTextMatches(item.zh, query);
+            const enEl = el.querySelector('.transcript-en');
+            const zhEl = el.querySelector('.transcript-zh');
+            if (enEl) enEl.innerHTML = highlightTextMatches(item.en, query);
+            if (zhEl) zhEl.innerHTML = highlightTextMatches(item.zh, query);
           } else {
             el.classList.add('is-search-hidden');
           }
@@ -2089,7 +2203,8 @@
 
         // Filter and highlight highlights
         highlightElements.forEach((el, idx) => {
-          const item = currentEpisode.highlights[idx];
+          const item = (currentEpisode.highlights || [])[idx];
+          if (!item) return;
           const matchTitle = (item.title_zh || '').toLowerCase().includes(qLower);
           const matchSummary = (item.summary_zh || '').toLowerCase().includes(qLower);
           const matchQuote = (item.quote_en || '').toLowerCase().includes(qLower);
@@ -2097,8 +2212,10 @@
           if (matchTitle || matchSummary || matchQuote) {
             highlightMatchCount++;
             el.classList.remove('is-search-hidden');
-            el.querySelector('.highlight-title').innerHTML = highlightTextMatches(item.title_zh, query);
-            el.querySelector('.highlight-summary').innerHTML = highlightTextMatches(item.summary_zh, query);
+            const titleEl = el.querySelector('.highlight-title');
+            const summaryEl = el.querySelector('.highlight-summary');
+            if (titleEl) titleEl.innerHTML = highlightTextMatches(item.title_zh, query);
+            if (summaryEl) summaryEl.innerHTML = highlightTextMatches(item.summary_zh, query);
             const quoteEl = el.querySelector('.highlight-quote');
             if (quoteEl && item.quote_en) {
               quoteEl.innerHTML = `“${highlightTextMatches(item.quote_en, query)}”`;
@@ -2133,12 +2250,33 @@
         applySearchFilter('');
       });
 
+      // Episode dropdown change listener
+      episodeSelect.addEventListener('change', (e) => {
+        const selectedGuid = e.target.value;
+        if (!appData || !appData.episodes) return;
+        const found = appData.episodes.find(ep => ep.guid === selectedGuid);
+        if (found) {
+          selectEpisode(found);
+        }
+      });
+
+      // Window hashchange listener for browser back/forward or direct link navigation
+      window.addEventListener('hashchange', () => {
+        const hashGuid = window.location.hash.replace(/^#/, '');
+        if (hashGuid && hashGuid !== currentLoadingGuid && appData && appData.episodes) {
+          const found = appData.episodes.find(ep => ep.guid === hashGuid);
+          if (found) {
+            selectEpisode(found);
+          }
+        }
+      });
+
       // ======================================================================
       // Initialization
       // ======================================================================
       initTheme();
       initLanguageMode();
-      loadEpisodesData();
+      loadIndexData();
 
     })();
   </script>

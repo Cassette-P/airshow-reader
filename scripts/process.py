@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""airshow-reader: Podcast bilingual reading processor.
+"""airshow-reader: Podcast bilingual reading processor (v2.0).
 
 Implements the state machine defined in SPEC.md:
-[1. FETCH_RSS] -> [2. FILTER_NEW] -> [3. DOWNLOAD_AUDIO] -> [4. CHUNK_AUDIO]
+[0. MIGRATE_IF_NEEDED] -> [1. FETCH_RSS] -> [2. FILTER_NEW] -> [3. DOWNLOAD_AUDIO] -> [4. CHUNK_AUDIO]
 -> [5. CHANNEL_B] -> [6. CHANNEL_A] -> [7. ATOMIC_SAVE] -> [8. CLEANUP]
 """
 
@@ -12,6 +12,7 @@ from datetime import datetime, timezone, timedelta
 import json
 import os
 from pathlib import Path
+import re
 import shutil
 import subprocess
 import sys
@@ -24,14 +25,19 @@ from google.genai import types
 from pydantic import BaseModel, Field
 import requests
 
-# Constants & Paths
+# Constants & Paths (docs/data/ as single source of truth)
 RSS_URL = "https://feeds.buzzsprout.com/2329718.rss"
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
-DATA_DIR = PROJECT_ROOT / "data"
-EPISODES_FILE = DATA_DIR / "episodes.json"
 DOCS_DATA_DIR = PROJECT_ROOT / "docs" / "data"
-DOCS_EPISODES_FILE = DOCS_DATA_DIR / "episodes.json"
+INDEX_FILE = DOCS_DATA_DIR / "index.json"
+EPISODES_DIR = DOCS_DATA_DIR / "episodes"
+SMOKE_PREVIEW_FILE = DOCS_DATA_DIR / "_smoke_preview.json"
 GLOSSARY_FILE = PROJECT_ROOT / "GLOSSARY.md"
+
+# Legacy v1 paths (only referenced for idempotent migration check & cleanup)
+LEGACY_DATA_DIR = PROJECT_ROOT / "data"
+LEGACY_EPISODES_FILE = LEGACY_DATA_DIR / "episodes.json"
+LEGACY_DOCS_EPISODES_FILE = DOCS_DATA_DIR / "episodes.json"
 
 MODEL_USAGE_STATS: dict[str, dict[str, int]] = {
     "CH-B": {},
@@ -45,6 +51,24 @@ DEFAULT_HEADERS = {
         "Chrome/130.0.0.0 Safari/537.36"
     )
 }
+
+
+# --- Safe GUID & Env Utility Functions ---
+
+
+def make_safe_guid(guid: str) -> str:
+    """Normalize GUID to a safe filename string: [^A-Za-z0-9._-]+ -> _."""
+    return re.sub(r"[^A-Za-z0-9._-]+", "_", guid).strip("_")
+
+
+def get_env_stripped(key: str, default: str = "") -> str:
+    """Read environment variable with .strip() and empty-string fallback."""
+    val = os.environ.get(key)
+    if val is not None:
+        val = val.strip()
+        if val:
+            return val
+    return default
 
 
 # --- Pydantic Structured Output Schemas ---
@@ -155,6 +179,130 @@ def load_glossary() -> str:
     return content
 
 
+def migrate_v1_to_v2_if_needed() -> bool:
+    """[0. MIGRATE_IF_NEEDED] Migrate legacy v1 episodes.json to v2.0 split architecture if needed.
+
+    Returns True if migration was performed, False if already up to date or nothing to migrate.
+    """
+    if INDEX_FILE.exists():
+        log("MIGRATE", f"v2.0 index file already exists at {INDEX_FILE}. Migration not required.")
+        return False
+
+    legacy_file = None
+    if LEGACY_DOCS_EPISODES_FILE.exists():
+        legacy_file = LEGACY_DOCS_EPISODES_FILE
+    elif LEGACY_EPISODES_FILE.exists():
+        legacy_file = LEGACY_EPISODES_FILE
+
+    if not legacy_file:
+        log("MIGRATE", "No legacy v1 episodes.json found and no v2 index.json exists. Clean state.")
+        return False
+
+    log("MIGRATE", f"Starting v1->v2 migration from legacy file: {legacy_file}...")
+    try:
+        with open(legacy_file, "r", encoding="utf-8") as f:
+            v1_data = json.load(f)
+    except Exception as e:
+        log("ERROR", f"Failed to read legacy episodes file {legacy_file}: {e}")
+        sys.exit(1)
+
+    v1_episodes = v1_data.get("episodes", [])
+    log("MIGRATE", f"Found {len(v1_episodes)} episode(s) to migrate.")
+
+    EPISODES_DIR.mkdir(parents=True, exist_ok=True)
+    DOCS_DATA_DIR.mkdir(parents=True, exist_ok=True)
+
+    index_episodes = []
+    written_files: list[Path] = []
+
+    for ep in v1_episodes:
+        guid = ep.get("guid", "")
+        if not guid:
+            log("ERROR", f"Encountered episode without guid during migration: {ep.get('title', '')}")
+            continue
+        safe_guid = make_safe_guid(guid)
+        ep_file_rel = f"episodes/{safe_guid}.json"
+        ep_file_abs = DOCS_DATA_DIR / ep_file_rel
+
+        # Single episode v2 document
+        ep_v2 = {
+            "schema_version": "2.0",
+            "guid": guid,
+            "title": ep.get("title", ""),
+            "pub_date": ep.get("pub_date", ""),
+            "duration_sec": int(ep.get("duration_sec", 0)),
+            "audio_url": ep.get("audio_url", ""),
+            "summary_zh": ep.get("summary_zh", ""),
+            "key_takeaways_zh": ep.get("key_takeaways_zh", []),
+            "highlights": ep.get("highlights", []),
+            "transcript": ep.get("transcript", []),
+        }
+
+        # Atomic write for single episode (.tmp -> os.replace)
+        tmp_ep_file = ep_file_abs.with_suffix(".json.tmp")
+        with open(tmp_ep_file, "w", encoding="utf-8") as f:
+            json.dump(ep_v2, f, ensure_ascii=False, indent=2)
+        os.replace(tmp_ep_file, ep_file_abs)
+        written_files.append(ep_file_abs)
+
+        # Index entry
+        index_episodes.append({
+            "guid": guid,
+            "title": ep.get("title", ""),
+            "pub_date": ep.get("pub_date", ""),
+            "duration_sec": int(ep.get("duration_sec", 0)),
+            "audio_url": ep.get("audio_url", ""),
+            "file": ep_file_rel,
+            "summary_zh": ep.get("summary_zh", ""),
+            "key_takeaways_zh": ep.get("key_takeaways_zh", []),
+            "highlights_count": len(ep.get("highlights", [])),
+            "transcript_count": len(ep.get("transcript", [])),
+        })
+
+    # Sort index episodes by pub_date descending
+    index_episodes.sort(key=lambda x: x.get("pub_date", ""), reverse=True)
+
+    index_v2 = {
+        "schema_version": "2.0",
+        "podcast_title": v1_data.get("podcast_title", "The Air Show"),
+        "rss_url": v1_data.get("rss_url", RSS_URL),
+        "updated_at": v1_data.get("updated_at", datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")),
+        "episodes": index_episodes,
+    }
+
+    tmp_index_file = INDEX_FILE.with_suffix(".json.tmp")
+    with open(tmp_index_file, "w", encoding="utf-8") as f:
+        json.dump(index_v2, f, ensure_ascii=False, indent=2)
+    os.replace(tmp_index_file, INDEX_FILE)
+    written_files.append(INDEX_FILE)
+
+    # Verification of written files
+    for p in written_files:
+        if not p.exists() or p.stat().st_size == 0:
+            log("ERROR", f"Migration verification failed: {p} is missing or empty.")
+            sys.exit(1)
+
+    log("MIGRATE", f"Verified {len(written_files)} files written successfully.")
+
+    # Remove legacy files
+    for legacy_path in [LEGACY_DOCS_EPISODES_FILE, LEGACY_EPISODES_FILE]:
+        if legacy_path.exists():
+            legacy_path.unlink()
+            log("MIGRATE", f"Removed legacy file: {legacy_path}")
+
+    # Remove legacy data/ directory if empty
+    if LEGACY_DATA_DIR.exists():
+        try:
+            if not any(LEGACY_DATA_DIR.iterdir()):
+                LEGACY_DATA_DIR.rmdir()
+                log("MIGRATE", f"Removed empty legacy directory: {LEGACY_DATA_DIR}")
+        except Exception:
+            pass
+
+    log("MIGRATE", f"v1->v2 migration completed successfully. {len(index_episodes)} episode(s) migrated to {EPISODES_DIR} and {INDEX_FILE}.")
+    return True
+
+
 def fetch_rss(url: str = RSS_URL):
     """[1. FETCH_RSS] 抓取 RSS feed."""
     log("RSS", f"Fetching RSS feed from {url}...")
@@ -212,16 +360,16 @@ def get_entry_audio_url(entry) -> str:
 
 
 def filter_new_episodes(feed_entries, limit: int = 1, max_age_days: int = 0) -> list:
-    """[2. FILTER_NEW] 对比 data/episodes.json 已有 guid，筛选最新未处理的 N 集（--limit），可选按发布时间过滤（--max-age-days）."""
-    log("FILTER", "Checking existing episodes in data/episodes.json...")
+    """[2. FILTER_NEW] 对比 docs/data/index.json 已有 guid，筛选最新未处理的 N 集（--limit），可选按发布时间过滤（--max-age-days）."""
+    log("FILTER", "Checking existing episodes in docs/data/index.json...")
     existing_guids = set()
-    if EPISODES_FILE.exists():
+    if INDEX_FILE.exists():
         try:
-            with open(EPISODES_FILE, "r", encoding="utf-8") as f:
+            with open(INDEX_FILE, "r", encoding="utf-8") as f:
                 data = json.load(f)
                 existing_guids = {ep["guid"] for ep in data.get("episodes", []) if "guid" in ep}
         except Exception as e:
-            log("ERROR", f"Failed to read existing {EPISODES_FILE}: {e}")
+            log("ERROR", f"Failed to read existing {INDEX_FILE}: {e}")
             sys.exit(1)
 
     new_entries = [e for e in feed_entries if get_entry_guid(e) not in existing_guids]
@@ -463,6 +611,7 @@ def generate_structured_with_retry(
     stage: str = "GENAI",
     temperature: float = 0.2,
     max_retries: int = 5,
+    thinking_level: str | None = None,
 ) -> BaseModel:
     """Execute structured generation using streaming response with 5-retry backoff across model_pool."""
     backoff_delays = [15, 20, 25, 30]
@@ -471,19 +620,48 @@ def generate_structured_with_retry(
     for m_idx, current_model in enumerate(model_pool):
         log(stage, f"Using model candidate [{m_idx + 1}/{len(model_pool)}]: '{current_model}'...")
         skipped_404 = False
+        current_thinking_level = thinking_level
+
         for attempt in range(1, max_retries + 1):
             try:
-                log(stage, f"Calling Gemini model '{current_model}' via streaming (attempt {attempt}/{max_retries})...")
-                response = client.models.generate_content_stream(
-                    model=current_model,
-                    contents=contents,
-                    config=types.GenerateContentConfig(
-                        system_instruction=system_instruction,
-                        response_mime_type="application/json",
-                        response_schema=response_schema,
-                        temperature=temperature,
-                    ),
-                )
+                config_kwargs = {
+                    "system_instruction": system_instruction,
+                    "response_mime_type": "application/json",
+                    "response_schema": response_schema,
+                    "temperature": temperature,
+                }
+                if current_thinking_level:
+                    try:
+                        config_kwargs["thinking_config"] = types.ThinkingConfig(thinking_level=current_thinking_level)
+                    except Exception as t_init_err:
+                        log("ERROR", f"[{stage}] Failed to instantiate ThinkingConfig({current_thinking_level}): {t_init_err}. Disabling thinking_config.")
+                        current_thinking_level = None
+
+                thinking_desc = f"thinking={current_thinking_level}" if current_thinking_level else "thinking=default"
+                log(stage, f"Calling Gemini model '{current_model}' via streaming (attempt {attempt}/{max_retries}, {thinking_desc})...")
+
+                try:
+                    response = client.models.generate_content_stream(
+                        model=current_model,
+                        contents=contents,
+                        config=types.GenerateContentConfig(**config_kwargs),
+                    )
+                except Exception as api_err:
+                    if current_thinking_level:
+                        err_lower = str(api_err).lower()
+                        if any(kw in err_lower for kw in ["thinking", "unsupported", "unknown field", "invalid argument", "not supported"]):
+                            log("ERROR", f"[{stage}] Model '{current_model}' does not support thinking_config ({api_err}). Retrying immediately without thinking_config...")
+                            current_thinking_level = None
+                            config_kwargs.pop("thinking_config", None)
+                            response = client.models.generate_content_stream(
+                                model=current_model,
+                                contents=contents,
+                                config=types.GenerateContentConfig(**config_kwargs),
+                            )
+                        else:
+                            raise api_err
+                    else:
+                        raise api_err
 
                 chunks_text = []
                 for chunk in response:
@@ -545,18 +723,28 @@ def run_channel_b(
 ) -> list[dict]:
     """[5. CHANNEL_B] 逐片上传 Gemini File API → 注入 GLOSSARY.md 转写+翻译 → 立即删除云端文件.
 
-    受 --max-chunks 限制；遇 429/503 指数退避最多 5 次；片间休眠 15s。
+    受 --max-chunks 限制；遇 429/503 指数退避最多 5 次；片间休眠 CHUNK_SLEEP_SEC（默认 2.0s）。
     """
-    api_key = os.environ.get("GEMINI_API_KEY")
+    api_key = get_env_stripped("GEMINI_API_KEY")
     client = genai.Client(api_key=api_key)
 
-    default_ch_b_pool = ["gemini-3.5-flash-lite", "gemini-3.1-flash-lite"]
-    env_ch_b = os.environ.get("GEMINI_MODEL_CH_B") or os.environ.get("GEMINI_MODEL")
+    default_ch_b_pool = ["gemini-3.8-flash", "gemini-4-hydrogen", "gemini-3.5-flash-lite"]
+    env_ch_b = get_env_stripped("GEMINI_MODEL_CH_B") or get_env_stripped("GEMINI_MODEL")
     if env_ch_b:
         model_pool = [env_ch_b] + [m for m in default_ch_b_pool if m != env_ch_b]
     else:
         model_pool = list(default_ch_b_pool)
     log("CH-B", f"Channel B model pool configured: {model_pool}")
+
+    thinking_level = get_env_stripped("GEMINI_THINKING_CH_B", "low")
+    log("CH-B", f"Channel B thinking level configured: '{thinking_level}'")
+
+    chunk_sleep_raw = get_env_stripped("CHUNK_SLEEP_SEC", "2.0")
+    try:
+        chunk_sleep_sec = float(chunk_sleep_raw)
+    except ValueError:
+        chunk_sleep_sec = 2.0
+    log("CH-B", f"Channel B chunk sleep configured: {chunk_sleep_sec}s")
 
     chunks_to_process = chunks[:max_chunks] if max_chunks > 0 else chunks
     log("CH-B", f"Starting Channel B processing for {len(chunks_to_process)} chunk(s) (total chunks: {len(chunks)})...")
@@ -619,6 +807,7 @@ def run_channel_b(
                 response_schema=ChannelBOutput,
                 stage="CH-B",
                 temperature=0.2,
+                thinking_level=thinking_level,
             )
 
             chunk_segments = parsed_resp.segments
@@ -645,8 +834,8 @@ def run_channel_b(
         accumulated_chunk_start_sec += chunk_dur
 
         if idx < len(chunks_to_process) - 1:
-            log("CH-B", "Sleeping 15s between chunks as per rate-limiting policy...")
-            time.sleep(15)
+            log("CH-B", f"Sleeping {chunk_sleep_sec}s between chunks as per rate-limiting policy...")
+            time.sleep(chunk_sleep_sec)
 
     final_transcript = []
     prev_start_sec = 0
@@ -676,11 +865,11 @@ def run_channel_a(
     duration_sec: int = 0,
 ) -> dict:
     """[6. CHANNEL_A] 将拼合的纯文本带时间戳逐字稿单次发给 Gemini，生成摘要与 Highlights."""
-    api_key = os.environ.get("GEMINI_API_KEY")
+    api_key = get_env_stripped("GEMINI_API_KEY")
     client = genai.Client(api_key=api_key)
 
-    default_ch_a_pool = ["gemini-3.8-flash", "gemini-3.5-flash", "gemini-3.5-flash-lite"]
-    env_ch_a = os.environ.get("GEMINI_MODEL_CH_A")
+    default_ch_a_pool = ["gemini-4-carbon", "gemini-4-neon", "gemini-3.8-flash"]
+    env_ch_a = get_env_stripped("GEMINI_MODEL_CH_A")
     if env_ch_a:
         model_pool = [env_ch_a] + [m for m in default_ch_a_pool if m != env_ch_a]
     else:
@@ -723,6 +912,7 @@ def run_channel_a(
         response_schema=ChannelAOutput,
         stage="CH-A",
         temperature=0.2,
+        thinking_level=None,
     )
 
     highlights = []
@@ -757,25 +947,62 @@ def run_channel_a(
 
 
 def atomic_save(new_episodes: list[dict]) -> None:
-    """[7. ATOMIC_SAVE] 合并数据、按 pub_date 降序 → 写 .tmp → os.replace 覆盖 data/episodes.json → 同步复制到 docs/data/episodes.json."""
-    DATA_DIR.mkdir(parents=True, exist_ok=True)
+    """[7. ATOMIC_SAVE] 原子写入 docs/data/episodes/<safe_guid>.json，再更新并按 pub_date 降序原子写入 docs/data/index.json."""
+    EPISODES_DIR.mkdir(parents=True, exist_ok=True)
     DOCS_DATA_DIR.mkdir(parents=True, exist_ok=True)
 
-    data = {
-        "schema_version": "1.0",
+    for ep in new_episodes:
+        guid = ep["guid"]
+        safe_guid = make_safe_guid(guid)
+        ep_file = EPISODES_DIR / f"{safe_guid}.json"
+        ep_data = {
+            "schema_version": "2.0",
+            "guid": guid,
+            "title": ep.get("title", ""),
+            "pub_date": ep.get("pub_date", ""),
+            "duration_sec": int(ep.get("duration_sec", 0)),
+            "audio_url": ep.get("audio_url", ""),
+            "summary_zh": ep.get("summary_zh", ""),
+            "key_takeaways_zh": ep.get("key_takeaways_zh", []),
+            "highlights": ep.get("highlights", []),
+            "transcript": ep.get("transcript", []),
+        }
+        tmp_ep_file = ep_file.with_suffix(".json.tmp")
+        with open(tmp_ep_file, "w", encoding="utf-8") as f:
+            json.dump(ep_data, f, ensure_ascii=False, indent=2)
+        os.replace(tmp_ep_file, ep_file)
+
+    index_data = {
+        "schema_version": "2.0",
         "podcast_title": "The Air Show",
         "rss_url": RSS_URL,
         "updated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "episodes": [],
     }
+    if INDEX_FILE.exists():
+        try:
+            with open(INDEX_FILE, "r", encoding="utf-8") as f:
+                index_data = json.load(f)
+        except Exception as e:
+            log("ERROR", f"Failed to read existing {INDEX_FILE}: {e}")
+            sys.exit(1)
 
-    if EPISODES_FILE.exists():
-        with open(EPISODES_FILE, "r", encoding="utf-8") as f:
-            data = json.load(f)
-
-    existing_map = {ep["guid"]: ep for ep in data.get("episodes", []) if "guid" in ep}
+    existing_map = {ep["guid"]: ep for ep in index_data.get("episodes", []) if "guid" in ep}
     for ep in new_episodes:
-        existing_map[ep["guid"]] = ep
+        guid = ep["guid"]
+        safe_guid = make_safe_guid(guid)
+        existing_map[guid] = {
+            "guid": guid,
+            "title": ep.get("title", ""),
+            "pub_date": ep.get("pub_date", ""),
+            "duration_sec": int(ep.get("duration_sec", 0)),
+            "audio_url": ep.get("audio_url", ""),
+            "file": f"episodes/{safe_guid}.json",
+            "summary_zh": ep.get("summary_zh", ""),
+            "key_takeaways_zh": ep.get("key_takeaways_zh", []),
+            "highlights_count": len(ep.get("highlights", [])),
+            "transcript_count": len(ep.get("transcript", [])),
+        }
 
     sorted_episodes = sorted(
         existing_map.values(),
@@ -783,16 +1010,18 @@ def atomic_save(new_episodes: list[dict]) -> None:
         reverse=True,
     )
 
-    data["updated_at"] = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
-    data["episodes"] = sorted_episodes
+    index_data["schema_version"] = "2.0"
+    index_data["podcast_title"] = "The Air Show"
+    index_data["rss_url"] = RSS_URL
+    index_data["updated_at"] = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    index_data["episodes"] = sorted_episodes
 
-    tmp_file = DATA_DIR / "episodes.json.tmp"
-    with open(tmp_file, "w", encoding="utf-8") as f:
-        json.dump(data, f, ensure_ascii=False, indent=2)
+    tmp_index_file = INDEX_FILE.with_suffix(".json.tmp")
+    with open(tmp_index_file, "w", encoding="utf-8") as f:
+        json.dump(index_data, f, ensure_ascii=False, indent=2)
+    os.replace(tmp_index_file, INDEX_FILE)
 
-    os.replace(tmp_file, EPISODES_FILE)
-    shutil.copy2(EPISODES_FILE, DOCS_EPISODES_FILE)
-    log("SAVE", f"Saved {len(sorted_episodes)} episode(s) to {EPISODES_FILE} and synced to {DOCS_EPISODES_FILE}.")
+    log("SAVE", f"Saved {len(new_episodes)} episode(s) to {EPISODES_DIR} and updated {INDEX_FILE} (total {len(sorted_episodes)} episodes).")
 
 
 def process_episode(entry, args, glossary_text: str) -> None:
@@ -868,28 +1097,31 @@ def process_episode(entry, args, glossary_text: str) -> None:
         }
 
         if args.max_chunks > 0:
-            DATA_DIR.mkdir(parents=True, exist_ok=True)
-            smoke_preview_file = DATA_DIR / "_smoke_preview.json"
+            DOCS_DATA_DIR.mkdir(parents=True, exist_ok=True)
             preview_data = {
-                "schema_version": "1.0",
+                "schema_version": "2.0",
                 "podcast_title": "The Air Show",
                 "rss_url": RSS_URL,
                 "updated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
                 "episodes": [episode_record],
             }
-            with open(smoke_preview_file, "w", encoding="utf-8") as f:
+            tmp_smoke = SMOKE_PREVIEW_FILE.with_suffix(".json.tmp")
+            with open(tmp_smoke, "w", encoding="utf-8") as f:
                 json.dump(preview_data, f, ensure_ascii=False, indent=2)
+            os.replace(tmp_smoke, SMOKE_PREVIEW_FILE)
             log(
                 "SAVE",
-                f"[SMOKE] Smoke preview written to {smoke_preview_file}. "
-                f"Neither {EPISODES_FILE} nor {DOCS_EPISODES_FILE} was modified.",
+                f"[SMOKE] Smoke preview written to {SMOKE_PREVIEW_FILE}. "
+                f"Neither {INDEX_FILE} nor {EPISODES_DIR} was modified.",
             )
         else:
             log("SAVE", "Calling atomic save...")
-            smoke_preview_file = DATA_DIR / "_smoke_preview.json"
-            if smoke_preview_file.exists():
-                smoke_preview_file.unlink()
-                log("SAVE", f"Removed temporary smoke preview file: {smoke_preview_file}")
+            if SMOKE_PREVIEW_FILE.exists():
+                try:
+                    SMOKE_PREVIEW_FILE.unlink()
+                    log("SAVE", f"Removed temporary smoke preview file: {SMOKE_PREVIEW_FILE}")
+                except Exception:
+                    pass
             atomic_save([episode_record])
             log("SAVE", f"Model usage statistics: {MODEL_USAGE_STATS}")
 
@@ -902,17 +1134,31 @@ def process_episode(entry, args, glossary_text: str) -> None:
 
 
 def main():
-    parser = argparse.ArgumentParser(description="airshow-reader: Podcast bilingual reading processor.")
+    parser = argparse.ArgumentParser(description="airshow-reader: Podcast bilingual reading processor (v2.0).")
     parser.add_argument("--limit", type=int, default=1, help="单次最多处理的新单集数量 (default: 1)")
     parser.add_argument("--max-age-days", type=int, default=0, help="仅处理发布时间距当前 UTC 不超过 N 天的单集（0 表示不限制，default: 0）")
     parser.add_argument("--chunk-sec", type=int, default=180, help="音频切片时长（秒） (default: 180)")
     parser.add_argument("--dry-run", action="store_true", default=False, help="演习模式，不调用 Gemini API、不修改 JSON")
     parser.add_argument("--max-chunks", type=int, default=0, help="仅处理前 M 个切片（0 表示全部，default: 0）")
+    parser.add_argument("--migrate-only", action="store_true", default=False, help="仅执行 v1→v2 本地数据拆分迁移，不访问网络、不调用 Gemini API，完成后退出 0")
     args = parser.parse_args()
 
-    # M1 Audit Fix: GEMINI_API_KEY check moved to the start of main() (only when not dry_run)
+    # [0. MIGRATE_IF_NEEDED]
+    if args.migrate_only:
+        log("MIGRATE", "Running in --migrate-only mode...")
+        migrated = migrate_v1_to_v2_if_needed()
+        if migrated:
+            log("MIGRATE", "Migration completed successfully. Exiting 0 as requested by --migrate-only.")
+        else:
+            log("MIGRATE", "Data already in v2 format or nothing to migrate. Exiting 0.")
+        sys.exit(0)
+
+    # Automatic migration if index.json does not exist yet but legacy files exist
+    if not INDEX_FILE.exists() and (LEGACY_DOCS_EPISODES_FILE.exists() or LEGACY_EPISODES_FILE.exists()):
+        migrate_v1_to_v2_if_needed()
+
     if not args.dry_run:
-        api_key = os.environ.get("GEMINI_API_KEY")
+        api_key = get_env_stripped("GEMINI_API_KEY")
         if not api_key:
             log("ERROR", "GEMINI_API_KEY environment variable is required when not in --dry-run mode.")
             sys.exit(1)

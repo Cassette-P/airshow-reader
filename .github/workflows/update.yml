@@ -50,6 +50,10 @@ jobs:
       - name: Run processing pipeline
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL_CH_B: ${{ vars.GEMINI_MODEL_CH_B }}
+          GEMINI_MODEL_CH_A: ${{ vars.GEMINI_MODEL_CH_A }}
+          GEMINI_THINKING_CH_B: ${{ vars.GEMINI_THINKING_CH_B }}
+          CHUNK_SLEEP_SEC: ${{ vars.CHUNK_SLEEP_SEC }}
           EVENT_NAME: ${{ github.event_name }}
           INPUT_LIMIT: ${{ inputs.limit }}
           INPUT_MAX_AGE_DAYS: ${{ inputs.max_age_days }}
@@ -66,11 +70,11 @@ jobs:
 
       - name: Commit and push changes if updated
         run: |
-          if [ -n "$(git status --porcelain data/episodes.json docs/data/episodes.json)" ]; then
-            echo "Changes detected in data/episodes.json or docs/data/episodes.json. Committing and pushing..."
+          if [ -n "$(git status --porcelain docs/data/index.json docs/data/episodes data/episodes.json docs/data/episodes.json)" ]; then
+            echo "Changes detected in episode data. Committing and pushing..."
             git config user.name "github-actions[bot]"
             git config user.email "github-actions[bot]@users.noreply.github.com"
-            git add data/episodes.json docs/data/episodes.json
+            git add -A docs/data/index.json docs/data/episodes data/episodes.json docs/data/episodes.json
             git commit -m "chore(data): auto-update episodes"
             git pull --rebase
             git push
