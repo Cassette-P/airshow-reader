@@ -4,35 +4,14 @@
 
 ## 里程碑总览（Vertical Slicing）
 
-- [x] **M1**：后端管道骨架 + `--dry-run` 演习验收（2026-11-20 通过，已验证 4 切片与临时目录清理）
-- [x] **M2**：Gemini 双通道精读与真实数据落盘（2026-11-20 通过，已跑通 1 集 4 切片 191 条逐字稿双语转译与摘要，100% 通过 SPEC 契约校验）
-- [ ] **M3（当前活跃）**：基于真实 `docs/data/episodes.json` 构建自适应前端阅读器 `docs/index.html`
-- [ ] **M4**：配置 `.github/workflows/update.yml` 定时巡检与自动 Commit 闭环
+- [x] **M1**：后端管道骨架 + `--dry-run` 演习验收（2026-11-20 通过）
+- [x] **M2**：Gemini 双通道精读与全量落盘（2026-11-20 通过，已生成 *Singapore's Brand and Network Struggles* 191 条双语逐字稿并同步至 `docs/data/episodes.json`）
+- [x] **M2.5**：流式抗断连与分通道路由升级（2026-11-21 通过，完成 `generate_content_stream` 拼接与校验、分通道模型池 Channel B [`gemini-3.5-flash-lite`, `gemini-3.1-flash-lite`] / Channel A [`gemini-3.8-flash`, `gemini-3.5-flash`, `gemini-3.5-flash-lite`]、5 次 `[15s, 20s, 25s, 30s]` 长退避策略，全量 12 片及 Channel A 摘要验证落盘完成）
+- [x] **M3**：自适应静态双语阅读器完成（2026-11-20 通过，完成航空财经杂志风单页阅读器、二分查找段落高亮、seekAndPlay 健壮跳转播放、双语模式切换与关键词搜索过滤）
+- [x] **M4**：自动化工作流与上线准备完成（2026-11-21 通过，完成 `--max-age-days` 防历史倒灌机制、根目录 `.gitignore`、`.github/workflows/update.yml` 每 6 小时定时巡检与 `workflow_dispatch` 手动补抓/演习触发、原子变更检测与 GitHub Actions Bot 自动 Commit/Push 闭环，全流程归档完成）
 
 ---
 
-## 当前任务：M3 — 自适应静态单页阅读器（`docs/index.html`）
+## 阶段归档状态：全里程碑顺利交付（All Done）
 
-### 交付范围（严格禁越界）
-
-- 仅修改：`docs/index.html`、`ITERATION.md`
-- 消费数据：`docs/data/episodes.json`
-- 禁止修改：`scripts/process.py`
-- 禁止创建：`.github/workflows/update.yml`
-
-### M3 核心实现要求
-
-1. **零外部构建依赖**：纯 HTML5/CSS3/Vanilla JS 单页实现（或使用轻量 Tailwind CDN），无需 npm 构建体系。
-2. **多端自适应布局**：
-   - 桌面端：左侧单集列表 + 右侧双栏/折叠内容区（摘要、Key Takeaways、Highlights、中英双语逐字稿对照）。
-   - 移动端：流畅自适应单栏，提供快捷章节跳转与中英文显示切换（中英对照 / 仅看中文 / 仅看英文）。
-3. **播放器联动机制**：
-   - 内置 HTML5 `<audio>` 音频播放器，加载 `audio_url`。
-   - 点击任何 Highlight 或逐字稿时间戳（`start_sec`）时，自动跳转播放并高亮当前对应段落。
-4. **快速搜索与过滤**：支持对单集标题、摘要及逐字稿内容的即时关键字过滤。
-
-### M3 验收标准
-
-1. 本地启动静态服务器访问，页面能在 1 秒内无白屏加载并渲染 `docs/data/episodes.json` 最新单集。
-2. 时间戳跳转播放功能正常，中英双语视图切换顺畅。
-3. 移动端与桌面端视口测试无任何水平溢出或排版破损。
+所有计划里程碑（M1 ~ M4）均已通过验收标准，后端自动化抓取、双通道智能转写翻译、静态前端自适应阅读器及 CI/CD 自动化定时巡检已就绪。

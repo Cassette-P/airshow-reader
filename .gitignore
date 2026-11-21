@@ -1,0 +1,24 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Temporary and preview data files
+data/_smoke_preview.json
+data/*.tmp
+*.tmp
+
+# Environment variables & local secrets
+.env
+.env.*
+
+# Operating System files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Virtual environments
+venv/
+.venv/
+env/

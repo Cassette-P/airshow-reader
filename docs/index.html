@@ -1,0 +1,2146 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>The Air Show · 航空商业深度双语精读</title>
+  <meta name="description" content="The Air Show 播客双语精读与音频同步播放器 - 深度解析全球民航机队、航线网络与航空财经商业动态。" />
+
+  <style>
+    /* ==========================================================================
+       1. CSS Variables & Theme Configuration
+       Aviation Financial Magazine Aesthetic (The Air Current / Substack Style)
+       ========================================================================== */
+    :root {
+      --navy-950: #051329;
+      --navy-900: #0a2540;
+      --navy-800: #0e355c;
+      --navy-700: #1a4975;
+      --sky-500: #0284c7;
+      --sky-400: #38bdf8;
+      --sky-100: #e0f2fe;
+      --sky-50: #f0f9ff;
+      
+      --bg-page: #f8fafc;
+      --bg-surface: #ffffff;
+      --bg-surface-elevated: #ffffff;
+      --bg-subtle: #f1f5f9;
+      --bg-active-row: #f0f7ff;
+      
+      --border-color: #e2e8f0;
+      --border-hover: #cbd5e1;
+      --border-active: #0284c7;
+      
+      --text-primary: #0f172a;
+      --text-secondary: #475569;
+      --text-muted: #94a3b8;
+      --text-navy: #0a2540;
+      
+      --accent-primary: #0a2540;
+      --accent-blue: #0284c7;
+      --accent-badge-bg: #e0f2fe;
+      --accent-badge-text: #0369a1;
+      
+      /* Speaker Badges */
+      --spk-jon-bg: #e0e7ff;
+      --spk-jon-text: #312e81;
+      --spk-jon-border: #c7d2fe;
+      
+      --spk-brian-bg: #d1fae5;
+      --spk-brian-text: #064e3b;
+      --spk-brian-border: #a7f3d0;
+      
+      --spk-brett-bg: #ffedd5;
+      --spk-brett-text: #9a3412;
+      --spk-brett-border: #fed7aa;
+      
+      --spk-guest-bg: #f3e8ff;
+      --spk-guest-text: #6b21a8;
+      --spk-guest-border: #e9d5ff;
+
+      --shadow-sm: 0 1px 3px rgba(10, 37, 64, 0.05);
+      --shadow-md: 0 4px 12px -2px rgba(10, 37, 64, 0.07), 0 2px 6px -1px rgba(10, 37, 64, 0.04);
+      --shadow-lg: 0 12px 24px -4px rgba(10, 37, 64, 0.09), 0 4px 10px -2px rgba(10, 37, 64, 0.04);
+      --shadow-player: 0 -4px 24px rgba(10, 37, 64, 0.08);
+
+      --radius-sm: 6px;
+      --radius-md: 10px;
+      --radius-lg: 16px;
+      --radius-full: 9999px;
+      
+      --content-max-w: 920px;
+      --header-h: 64px;
+      --player-h: 88px;
+    }
+
+    [data-theme="dark"] {
+      --bg-page: #070d18;
+      --bg-surface: #0f172a;
+      --bg-surface-elevated: #1e293b;
+      --bg-subtle: #172236;
+      --bg-active-row: #142844;
+      
+      --border-color: #1e293b;
+      --border-hover: #334155;
+      --border-active: #38bdf8;
+      
+      --text-primary: #f8fafc;
+      --text-secondary: #94a3b8;
+      --text-muted: #64748b;
+      --text-navy: #e2e8f0;
+      
+      --accent-primary: #38bdf8;
+      --accent-blue: #38bdf8;
+      --accent-badge-bg: #0c4a6e;
+      --accent-badge-text: #7dd3fc;
+      
+      /* Speaker Badges (Dark Mode) */
+      --spk-jon-bg: #1e1b4b;
+      --spk-jon-text: #a5b4fc;
+      --spk-jon-border: #312e81;
+      
+      --spk-brian-bg: #064e3b;
+      --spk-brian-text: #6ee7b7;
+      --spk-brian-border: #047857;
+      
+      --spk-brett-bg: #431407;
+      --spk-brett-text: #fdba74;
+      --spk-brett-border: #7c2d12;
+      
+      --spk-guest-bg: #3b0764;
+      --spk-guest-text: #d8b4fe;
+      --spk-guest-border: #581c87;
+
+      --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.3);
+      --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.4);
+      --shadow-lg: 0 12px 28px rgba(0, 0, 0, 0.5);
+      --shadow-player: 0 -4px 24px rgba(0, 0, 0, 0.45);
+    }
+
+    /* ==========================================================================
+       2. Reset & Typography
+       ========================================================================== */
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      font-size: 16px;
+      scroll-behavior: smooth;
+      -webkit-text-size-adjust: 100%;
+    }
+
+    body {
+      background-color: var(--bg-page);
+      color: var(--text-primary);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+      line-height: 1.6;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      overflow-x: hidden;
+      padding-bottom: calc(var(--player-h) + 60px); /* Avoid floating player overlap */
+      transition: background-color 0.25s ease, color 0.25s ease;
+    }
+
+    /* Editorial serif typography for headings */
+    h1, h2, h3, .magazine-title {
+      font-family: "Charter", "Source Serif 4", "Newsreader", "Georgia", "Cambria", serif;
+      color: var(--text-navy);
+      font-weight: 700;
+      letter-spacing: -0.015em;
+    }
+
+    a {
+      color: var(--accent-blue);
+      text-decoration: none;
+      transition: color 0.15s ease;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+
+    button {
+      font-family: inherit;
+      cursor: pointer;
+      border: none;
+      background: transparent;
+      color: inherit;
+    }
+
+    /* ==========================================================================
+       3. Header & Navigation Bar
+       ========================================================================== */
+    .app-header {
+      position: sticky;
+      top: 0;
+      z-index: 90;
+      background: var(--bg-surface);
+      border-bottom: 1px solid var(--border-color);
+      box-shadow: var(--shadow-sm);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+    }
+
+    .header-top {
+      max-width: var(--content-max-w);
+      margin: 0 auto;
+      padding: 10px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+    }
+
+    .brand-group {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      text-decoration: none;
+      color: inherit;
+    }
+    .brand-icon {
+      width: 32px;
+      height: 32px;
+      background: var(--navy-900);
+      color: #ffffff;
+      border-radius: var(--radius-sm);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 2px 6px rgba(10, 37, 64, 0.25);
+    }
+    [data-theme="dark"] .brand-icon {
+      background: var(--sky-500);
+      color: #070d18;
+    }
+    .brand-title {
+      font-size: 1.25rem;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      color: var(--text-navy);
+      display: flex;
+      align-items: baseline;
+      gap: 8px;
+    }
+    .brand-sub {
+      font-size: 0.75rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--accent-blue);
+      background: var(--accent-badge-bg);
+      padding: 2px 7px;
+      border-radius: var(--radius-full);
+    }
+
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .theme-toggle-btn {
+      width: 38px;
+      height: 38px;
+      border-radius: var(--radius-md);
+      border: 1px solid var(--border-color);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: var(--bg-surface);
+      color: var(--text-secondary);
+      transition: all 0.15s ease;
+    }
+    .theme-toggle-btn:hover {
+      background: var(--bg-subtle);
+      color: var(--text-primary);
+      border-color: var(--border-hover);
+    }
+
+    /* Sub-header Controls Bar */
+    .controls-bar {
+      border-top: 1px solid var(--border-color);
+      background: var(--bg-surface);
+    }
+    .controls-inner {
+      max-width: var(--content-max-w);
+      margin: 0 auto;
+      padding: 10px 20px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+    }
+
+    .episode-picker-wrap {
+      flex: 1 1 280px;
+      position: relative;
+      display: flex;
+      align-items: center;
+    }
+    .episode-select {
+      width: 100%;
+      appearance: none;
+      -webkit-appearance: none;
+      background: var(--bg-subtle);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+      padding: 8px 36px 8px 12px;
+      font-size: 0.875rem;
+      font-weight: 500;
+      color: var(--text-primary);
+      outline: none;
+      cursor: pointer;
+      transition: border-color 0.15s ease, box-shadow 0.15s ease;
+    }
+    .episode-select:focus {
+      border-color: var(--accent-blue);
+      box-shadow: 0 0 0 3px rgba(2, 132, 199, 0.15);
+    }
+    .select-arrow {
+      position: absolute;
+      right: 12px;
+      pointer-events: none;
+      color: var(--text-muted);
+    }
+
+    .filter-actions {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    /* Bilingual View Segmented Controls */
+    .segmented-control {
+      display: inline-flex;
+      background: var(--bg-subtle);
+      padding: 3px;
+      border-radius: var(--radius-md);
+      border: 1px solid var(--border-color);
+    }
+    .segment-btn {
+      padding: 5px 12px;
+      font-size: 0.8125rem;
+      font-weight: 600;
+      border-radius: 6px;
+      color: var(--text-secondary);
+      transition: all 0.15s ease;
+      white-space: nowrap;
+    }
+    .segment-btn:hover {
+      color: var(--text-primary);
+    }
+    .segment-btn.active {
+      background: var(--bg-surface);
+      color: var(--navy-900);
+      box-shadow: var(--shadow-sm);
+    }
+    [data-theme="dark"] .segment-btn.active {
+      background: var(--bg-surface-elevated);
+      color: var(--sky-400);
+    }
+
+    /* Search Box */
+    .search-box-wrap {
+      position: relative;
+      display: flex;
+      align-items: center;
+    }
+    .search-icon {
+      position: absolute;
+      left: 10px;
+      pointer-events: none;
+      color: var(--text-muted);
+    }
+    .search-input {
+      width: 190px;
+      background: var(--bg-subtle);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+      padding: 7px 30px 7px 32px;
+      font-size: 0.8125rem;
+      color: var(--text-primary);
+      outline: none;
+      transition: all 0.2s ease;
+    }
+    .search-input:focus {
+      width: 230px;
+      border-color: var(--accent-blue);
+      background: var(--bg-surface);
+      box-shadow: 0 0 0 3px rgba(2, 132, 199, 0.15);
+    }
+    .search-clear-btn {
+      position: absolute;
+      right: 8px;
+      width: 18px;
+      height: 18px;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      color: var(--text-muted);
+      border-radius: 50%;
+    }
+    .search-clear-btn:hover {
+      color: var(--text-primary);
+    }
+
+    /* ==========================================================================
+       4. Main Layout & Magazine Article Elements
+       ========================================================================== */
+    .main-content {
+      max-width: var(--content-max-w);
+      margin: 0 auto;
+      padding: 28px 20px;
+      width: 100%;
+      flex: 1;
+    }
+
+    /* Search result indicator */
+    .search-stats-banner {
+      display: none;
+      background: var(--accent-badge-bg);
+      color: var(--accent-badge-text);
+      padding: 8px 16px;
+      border-radius: var(--radius-md);
+      font-size: 0.875rem;
+      font-weight: 500;
+      margin-bottom: 20px;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .search-stats-banner.visible {
+      display: flex;
+    }
+
+    /* Article Meta & Title */
+    .article-header {
+      margin-bottom: 32px;
+      border-bottom: 2px solid var(--border-color);
+      padding-bottom: 24px;
+    }
+    .article-meta-row {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 12px;
+      font-size: 0.8125rem;
+      color: var(--text-secondary);
+      margin-bottom: 12px;
+      font-weight: 500;
+    }
+    .meta-tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      background: var(--bg-subtle);
+      border: 1px solid var(--border-color);
+      padding: 2px 10px;
+      border-radius: var(--radius-full);
+    }
+    .meta-bullet {
+      color: var(--text-muted);
+    }
+
+    .article-title {
+      font-size: 2.2rem;
+      line-height: 1.25;
+      margin-bottom: 12px;
+      color: var(--text-navy);
+    }
+    @media (max-width: 640px) {
+      .article-title {
+        font-size: 1.65rem;
+      }
+    }
+
+    /* Section Styling */
+    .section-wrap {
+      margin-bottom: 40px;
+    }
+    .section-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 18px;
+    }
+    .section-title {
+      font-size: 1.35rem;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .section-badge {
+      font-size: 0.75rem;
+      font-weight: 600;
+      font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+      padding: 3px 8px;
+      border-radius: var(--radius-sm);
+      background: var(--bg-subtle);
+      color: var(--text-secondary);
+      border: 1px solid var(--border-color);
+    }
+
+    /* Executive Summary Card */
+    .summary-card {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-color);
+      border-left: 4px solid var(--navy-900);
+      border-radius: var(--radius-md);
+      padding: 22px 26px;
+      box-shadow: var(--shadow-sm);
+      margin-bottom: 24px;
+    }
+    [data-theme="dark"] .summary-card {
+      border-left-color: var(--sky-400);
+    }
+    .summary-lead {
+      font-size: 1.0625rem;
+      line-height: 1.85;
+      color: var(--text-primary);
+      text-align: justify;
+    }
+
+    /* Key Takeaways Grid */
+    .takeaways-card {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+      padding: 20px 24px;
+      box-shadow: var(--shadow-sm);
+    }
+    .takeaways-heading {
+      font-size: 0.9375rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--text-secondary);
+      margin-bottom: 14px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .takeaways-list {
+      list-style: none;
+      display: grid;
+      gap: 12px;
+    }
+    .takeaway-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      font-size: 0.95rem;
+      line-height: 1.6;
+      color: var(--text-primary);
+    }
+    .takeaway-num {
+      flex-shrink: 0;
+      width: 24px;
+      height: 24px;
+      border-radius: var(--radius-full);
+      background: var(--accent-badge-bg);
+      color: var(--accent-badge-text);
+      font-size: 0.75rem;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 2px;
+    }
+
+    /* ==========================================================================
+       5. Highlights (Key Moments) Grid
+       ========================================================================== */
+    .highlights-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+      gap: 16px;
+    }
+    @media (max-width: 640px) {
+      .highlights-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .highlight-card {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+      padding: 18px 20px;
+      box-shadow: var(--shadow-sm);
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      cursor: pointer;
+      position: relative;
+      transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .highlight-card:hover {
+      border-color: var(--accent-blue);
+      transform: translateY(-2px);
+      box-shadow: var(--shadow-md);
+    }
+    .highlight-card.active {
+      border-color: var(--accent-blue);
+      background: var(--bg-active-row);
+      box-shadow: 0 0 0 1px var(--accent-blue), var(--shadow-md);
+    }
+
+    .highlight-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+    }
+    .timestamp-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: var(--navy-900);
+      color: #ffffff;
+      padding: 3px 9px;
+      border-radius: var(--radius-full);
+      font-family: "SF Mono", "Fira Code", monospace;
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      transition: background-color 0.15s ease;
+    }
+    .highlight-card:hover .timestamp-badge {
+      background: var(--accent-blue);
+    }
+    [data-theme="dark"] .timestamp-badge {
+      background: var(--sky-500);
+      color: #070d18;
+    }
+
+    .playing-indicator {
+      display: none;
+      font-size: 0.7rem;
+      font-weight: 700;
+      color: var(--accent-blue);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      align-items: center;
+      gap: 5px;
+    }
+    .highlight-card.active .playing-indicator {
+      display: inline-flex;
+    }
+
+    .pulse-dot {
+      width: 7px;
+      height: 7px;
+      background: var(--accent-blue);
+      border-radius: 50%;
+      animation: pulse 1.5s infinite;
+    }
+    @keyframes pulse {
+      0% { transform: scale(0.95); opacity: 0.8; }
+      50% { transform: scale(1.3); opacity: 1; }
+      100% { transform: scale(0.95); opacity: 0.8; }
+    }
+
+    .highlight-title {
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: var(--text-navy);
+      line-height: 1.4;
+    }
+    .highlight-summary {
+      font-size: 0.875rem;
+      color: var(--text-secondary);
+      line-height: 1.6;
+    }
+    .highlight-quote {
+      font-size: 0.8125rem;
+      color: var(--text-muted);
+      font-style: italic;
+      line-height: 1.5;
+      padding-left: 10px;
+      border-left: 2px solid var(--border-color);
+      margin-top: 4px;
+    }
+
+    /* ==========================================================================
+       6. Bilingual Transcript Section
+       ========================================================================== */
+    .transcript-container {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .transcript-item {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+      padding: 16px 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      cursor: pointer;
+      position: relative;
+      transition: background-color 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
+    }
+    .transcript-item:hover {
+      border-color: var(--border-hover);
+      background: var(--bg-subtle);
+    }
+    .transcript-item.active {
+      border-left: 4px solid var(--accent-blue);
+      background: var(--bg-active-row);
+      border-color: var(--border-hover);
+      box-shadow: var(--shadow-sm);
+    }
+
+    .transcript-meta {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+    }
+    .meta-left {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .speaker-badge {
+      font-size: 0.75rem;
+      font-weight: 700;
+      padding: 2px 9px;
+      border-radius: var(--radius-full);
+      border: 1px solid transparent;
+      letter-spacing: 0.02em;
+      white-space: nowrap;
+    }
+    .spk-jon {
+      background: var(--spk-jon-bg);
+      color: var(--spk-jon-text);
+      border-color: var(--spk-jon-border);
+    }
+    .spk-brian {
+      background: var(--spk-brian-bg);
+      color: var(--spk-brian-text);
+      border-color: var(--spk-brian-border);
+    }
+    .spk-brett {
+      background: var(--spk-brett-bg);
+      color: var(--spk-brett-text);
+      border-color: var(--spk-brett-border);
+    }
+    .spk-guest {
+      background: var(--spk-guest-bg);
+      color: var(--spk-guest-text);
+      border-color: var(--spk-guest-border);
+    }
+
+    .time-seek-btn {
+      font-family: "SF Mono", "Fira Code", monospace;
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      background: var(--bg-subtle);
+      padding: 2px 8px;
+      border-radius: var(--radius-sm);
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      transition: all 0.15s ease;
+    }
+    .time-seek-btn:hover,
+    .transcript-item:hover .time-seek-btn {
+      color: #ffffff;
+      background: var(--accent-blue);
+    }
+    .transcript-item.active .time-seek-btn {
+      background: var(--accent-blue);
+      color: #ffffff;
+      font-weight: 600;
+    }
+
+    .transcript-en {
+      font-size: 0.96875rem;
+      line-height: 1.65;
+      color: var(--text-secondary);
+      font-family: "Charter", "Georgia", serif;
+    }
+    .transcript-zh {
+      font-size: 0.984375rem;
+      line-height: 1.75;
+      color: var(--text-primary);
+    }
+
+    /* Language View Mode visibility rules */
+    [data-lang-mode="zh"] .transcript-en {
+      display: none !important;
+    }
+    [data-lang-mode="en"] .transcript-zh {
+      display: none !important;
+    }
+
+    /* Search match & filter */
+    mark.search-match {
+      background: #fef08a;
+      color: #713f12;
+      padding: 1px 3px;
+      border-radius: 3px;
+      font-weight: 600;
+    }
+    [data-theme="dark"] mark.search-match {
+      background: #854d0e;
+      color: #fef08a;
+    }
+    .is-search-hidden {
+      display: none !important;
+    }
+
+    /* ==========================================================================
+       7. Floating Audio Bar (Bottom Sticky)
+       ========================================================================== */
+    .audio-player-bar {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      z-index: 100;
+      background: var(--bg-surface);
+      border-top: 1px solid var(--border-color);
+      box-shadow: var(--shadow-player);
+      padding: 10px 16px;
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      transition: background-color 0.25s ease, border-color 0.25s ease;
+    }
+
+    .player-container {
+      max-width: var(--content-max-w);
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    /* Row 1: Scrubber and time */
+    .player-scrub-row {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      width: 100%;
+    }
+    .player-time {
+      font-family: "SF Mono", "Fira Code", monospace;
+      font-size: 0.75rem;
+      font-weight: 500;
+      color: var(--text-muted);
+      min-width: 42px;
+    }
+    .player-time.time-current {
+      text-align: right;
+      color: var(--text-secondary);
+    }
+
+    .scrub-track-wrap {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      position: relative;
+    }
+    .scrub-slider {
+      width: 100%;
+      height: 6px;
+      -webkit-appearance: none;
+      appearance: none;
+      background: var(--border-color);
+      border-radius: 3px;
+      outline: none;
+      cursor: pointer;
+      transition: height 0.15s ease;
+    }
+    .scrub-slider:hover {
+      height: 8px;
+    }
+    .scrub-slider::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      appearance: none;
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      background: var(--accent-blue);
+      cursor: pointer;
+      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+      transition: transform 0.1s ease;
+    }
+    .scrub-slider::-webkit-slider-thumb:hover {
+      transform: scale(1.2);
+    }
+    .scrub-slider::-moz-range-thumb {
+      width: 14px;
+      height: 14px;
+      border: none;
+      border-radius: 50%;
+      background: var(--accent-blue);
+      cursor: pointer;
+      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    /* Row 2: Controls & Info */
+    .player-controls-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+    }
+
+    .player-info {
+      flex: 1 1 200px;
+      min-width: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+    }
+    .player-episode-title {
+      font-size: 0.8125rem;
+      font-weight: 600;
+      color: var(--text-navy);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .player-speaker-wrap {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 0.71875rem;
+      color: var(--text-secondary);
+    }
+    .player-live-dot {
+      width: 6px;
+      height: 6px;
+      background: #10b981;
+      border-radius: 50%;
+    }
+
+    /* Center Control Buttons */
+    .player-main-btns {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      justify-content: center;
+    }
+    .ctrl-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--text-secondary);
+      border-radius: var(--radius-full);
+      transition: all 0.15s ease;
+    }
+    .ctrl-btn:hover {
+      color: var(--text-primary);
+      background: var(--bg-subtle);
+    }
+    .btn-step {
+      width: 36px;
+      height: 36px;
+    }
+    .btn-play-pause {
+      width: 44px;
+      height: 44px;
+      background: var(--navy-900);
+      color: #ffffff;
+      box-shadow: 0 2px 8px rgba(10, 37, 64, 0.25);
+    }
+    .btn-play-pause:hover {
+      background: var(--accent-blue);
+      color: #ffffff;
+      transform: scale(1.04);
+    }
+    [data-theme="dark"] .btn-play-pause {
+      background: var(--sky-500);
+      color: #070d18;
+    }
+    [data-theme="dark"] .btn-play-pause:hover {
+      background: var(--sky-400);
+      color: #070d18;
+    }
+
+    /* Right Extra Controls */
+    .player-extra-btns {
+      flex: 1 1 200px;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 8px;
+    }
+    .btn-speed {
+      padding: 4px 8px;
+      border-radius: var(--radius-sm);
+      border: 1px solid var(--border-color);
+      font-size: 0.75rem;
+      font-weight: 600;
+      font-family: "SF Mono", monospace;
+      color: var(--text-secondary);
+      background: var(--bg-subtle);
+      transition: all 0.15s ease;
+    }
+    .btn-speed:hover {
+      border-color: var(--accent-blue);
+      color: var(--accent-blue);
+    }
+
+    .btn-autoscroll {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      padding: 4px 10px;
+      border-radius: var(--radius-full);
+      border: 1px solid var(--border-color);
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: var(--text-secondary);
+      background: var(--bg-subtle);
+      transition: all 0.15s ease;
+    }
+    .btn-autoscroll:hover {
+      border-color: var(--border-hover);
+    }
+    .btn-autoscroll.active {
+      background: var(--accent-badge-bg);
+      color: var(--accent-badge-text);
+      border-color: var(--accent-blue);
+    }
+    .autoscroll-dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: var(--text-muted);
+    }
+    .btn-autoscroll.active .autoscroll-dot {
+      background: var(--accent-blue);
+    }
+
+    /* Mobile Responsive Optimizations (< 640px & 375px) */
+    @media (max-width: 640px) {
+      :root {
+        --player-h: 98px;
+      }
+      .header-top {
+        padding: 8px 14px;
+      }
+      .brand-title {
+        font-size: 1.1rem;
+      }
+      .controls-inner {
+        padding: 8px 14px;
+        gap: 8px;
+      }
+      .episode-picker-wrap {
+        flex: 1 1 100%;
+      }
+      .filter-actions {
+        width: 100%;
+        justify-content: space-between;
+      }
+      .search-box-wrap {
+        flex: 1;
+      }
+      .search-input {
+        width: 100%;
+      }
+      .search-input:focus {
+        width: 100%;
+      }
+      .main-content {
+        padding: 16px 14px;
+      }
+      .summary-card {
+        padding: 16px 18px;
+      }
+      .takeaways-card {
+        padding: 16px 18px;
+      }
+      .transcript-item {
+        padding: 14px 16px;
+      }
+      
+      /* Audio player mobile optimization */
+      .audio-player-bar {
+        padding: 8px 12px;
+      }
+      .player-controls-row {
+        gap: 6px;
+      }
+      .player-info {
+        flex: 1 1 120px;
+      }
+      .player-extra-btns {
+        flex: 0 0 auto;
+        gap: 6px;
+      }
+      .autoscroll-text {
+        display: none;
+      }
+      .btn-autoscroll {
+        padding: 4px 6px;
+      }
+      .btn-speed {
+        padding: 4px 6px;
+      }
+      .player-main-btns {
+        gap: 8px;
+      }
+    }
+
+    /* Loading and Error States */
+    .state-banner {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 360px;
+      text-align: center;
+      gap: 16px;
+    }
+    .spinner {
+      width: 40px;
+      height: 40px;
+      border: 3px solid var(--border-color);
+      border-top-color: var(--accent-blue);
+      border-radius: 50%;
+      animation: spin 0.8s linear infinite;
+    }
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+    .btn-retry {
+      background: var(--navy-900);
+      color: #ffffff;
+      padding: 8px 20px;
+      border-radius: var(--radius-md);
+      font-weight: 600;
+      font-size: 0.875rem;
+      transition: background 0.15s ease;
+    }
+    .btn-retry:hover {
+      background: var(--accent-blue);
+    }
+  </style>
+</head>
+<body data-lang-mode="bilingual">
+
+  <!-- 1. Header & Navigation -->
+  <header class="app-header">
+    <div class="header-top">
+      <a href="#" class="brand-group" aria-label="The Air Show 首页">
+        <div class="brand-icon">
+          <!-- Aviation aircraft icon -->
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M21 16v-2l-8-5V3.5c0-.83-.67-1.5-1.5-1.5S10 2.67 10 3.5V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5l8 2.5z"/>
+          </svg>
+        </div>
+        <div class="brand-title">
+          The Air Show
+          <span class="brand-sub">精读 · 双语同步</span>
+        </div>
+      </a>
+
+      <div class="header-actions">
+        <button type="button" class="theme-toggle-btn" id="theme-toggle-btn" title="切换深浅主题" aria-label="切换主题">
+          <!-- Sun icon (for dark mode) -->
+          <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display: none;">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <!-- Moon icon (for light mode) -->
+          <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <div class="controls-bar">
+      <div class="controls-inner">
+        <!-- Episode Dropdown -->
+        <div class="episode-picker-wrap">
+          <select id="episode-select" class="episode-select" aria-label="选择播客单集">
+            <option value="">正在加载单集目录...</option>
+          </select>
+          <svg class="select-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="6 9 12 15 18 9"></polyline>
+          </svg>
+        </div>
+
+        <div class="filter-actions">
+          <!-- Bilingual View Switcher -->
+          <div class="segmented-control" role="group" aria-label="双语显示模式切换">
+            <button type="button" class="segment-btn active" data-mode="bilingual">双语对照</button>
+            <button type="button" class="segment-btn" data-mode="zh">仅中文</button>
+            <button type="button" class="segment-btn" data-mode="en">仅英文</button>
+          </div>
+
+          <!-- Keyword Filter Input -->
+          <div class="search-box-wrap">
+            <svg class="search-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+            <input type="search" id="search-input" class="search-input" placeholder="搜索关键词..." aria-label="搜索关键词过滤" />
+            <button type="button" id="search-clear-btn" class="search-clear-btn" aria-label="清除搜索">✕</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- 2. Main Article Content Container -->
+  <main class="main-content" id="main-content">
+    
+    <!-- Loading State -->
+    <div id="loading-state" class="state-banner">
+      <div class="spinner"></div>
+      <p style="color: var(--text-secondary); font-size: 0.9375rem;">正在加载精读数据与中英双语逐字稿...</p>
+    </div>
+
+    <!-- Error State -->
+    <div id="error-state" class="state-banner" style="display: none;">
+      <h3 style="color: #ef4444; font-size: 1.2rem;">数据加载失败</h3>
+      <p id="error-message" style="color: var(--text-secondary); max-width: 480px;"></p>
+      <button type="button" class="btn-retry" id="btn-retry">重新加载</button>
+    </div>
+
+    <!-- Episode Render Container -->
+    <div id="episode-content" style="display: none;">
+      <!-- Search Banner -->
+      <div id="search-stats-banner" class="search-stats-banner">
+        <span id="search-stats-text">找到 0 处匹配</span>
+        <button type="button" id="search-reset-link" style="color: inherit; text-decoration: underline; font-weight: 600; font-size: 0.8125rem;">清除过滤</button>
+      </div>
+
+      <!-- Article Header -->
+      <article class="article-header">
+        <div class="article-meta-row">
+          <span class="meta-tag" id="meta-podcast-title">The Air Show</span>
+          <span class="meta-bullet">•</span>
+          <span id="meta-pub-date">2026-11-19</span>
+          <span class="meta-bullet">•</span>
+          <span id="meta-duration">35分20秒</span>
+          <span class="meta-bullet">•</span>
+          <a id="meta-audio-link" href="#" target="_blank" rel="noopener noreferrer" style="display: inline-flex; align-items: center; gap: 4px;">
+            原声 MP3
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+              <polyline points="15 3 21 3 21 9"></polyline>
+              <line x1="10" y1="14" x2="21" y2="3"></line>
+            </svg>
+          </a>
+        </div>
+        <h1 class="article-title" id="episode-title">Singapore's Brand and Network Struggles</h1>
+      </article>
+
+      <!-- Section: Executive Summary & Takeaways -->
+      <section class="section-wrap" aria-labelledby="heading-summary">
+        <div class="section-header">
+          <h2 class="section-title" id="heading-summary">
+            核心导读 · Executive Summary
+          </h2>
+          <span class="section-badge">中文要点</span>
+        </div>
+
+        <div class="summary-card">
+          <p class="summary-lead" id="summary-zh-text">正在加载核心摘要...</p>
+        </div>
+
+        <div class="takeaways-card">
+          <div class="takeaways-heading">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="9 11 12 14 22 4"></polyline>
+              <path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"></path>
+            </svg>
+            关键洞察 · Key Takeaways
+          </div>
+          <ul class="takeaways-list" id="takeaways-list">
+            <!-- Dynamically populated -->
+          </ul>
+        </div>
+      </section>
+
+      <!-- Section: Highlights (Key Moments) -->
+      <section class="section-wrap" aria-labelledby="heading-highlights">
+        <div class="section-header">
+          <h2 class="section-title" id="heading-highlights">
+            精选原声 · Audio Highlights
+          </h2>
+          <span class="section-badge" id="highlights-count-badge">7 个片段</span>
+        </div>
+        <div class="highlights-grid" id="highlights-grid">
+          <!-- Dynamically populated -->
+        </div>
+      </section>
+
+      <!-- Section: Full Bilingual Transcript -->
+      <section class="section-wrap" aria-labelledby="heading-transcript">
+        <div class="section-header">
+          <h2 class="section-title" id="heading-transcript">
+            中英双语逐字稿 · Transcript
+          </h2>
+          <span class="section-badge" id="transcript-count-badge">191 段落</span>
+        </div>
+        <div class="transcript-container" id="transcript-container">
+          <!-- Dynamically populated -->
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <!-- 3. Floating Sticky Audio Player -->
+  <footer class="audio-player-bar" id="audio-player-bar" style="display: none;">
+    <div class="player-container">
+      <!-- Row 1: Scrubber and time labels -->
+      <div class="player-scrub-row">
+        <span class="player-time time-current" id="time-current">00:00</span>
+        <div class="scrub-track-wrap">
+          <input type="range" id="seek-slider" class="scrub-slider" min="0" max="100" value="0" step="0.1" aria-label="音频播放进度" />
+        </div>
+        <span class="player-time" id="time-total">00:00</span>
+      </div>
+
+      <!-- Row 2: Controls & Info -->
+      <div class="player-controls-row">
+        <!-- Left: Mini info -->
+        <div class="player-info">
+          <div class="player-episode-title" id="player-ep-title">-</div>
+          <div class="player-speaker-wrap">
+            <span class="player-live-dot"></span>
+            <span id="player-speaker-name">就绪</span>
+          </div>
+        </div>
+
+        <!-- Center: Playback controls -->
+        <div class="player-main-btns">
+          <button type="button" class="ctrl-btn btn-step" id="btn-rewind" title="后退 15 秒" aria-label="后退 15 秒">
+            <!-- 15s Rewind SVG -->
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M11 17l-5-5 5-5M18 17l-5-5 5-5"/>
+            </svg>
+          </button>
+
+          <button type="button" class="ctrl-btn btn-play-pause" id="btn-play-pause" title="播放 / 暂停" aria-label="播放">
+            <!-- Play icon -->
+            <svg id="icon-play" width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+              <polygon points="5 3 19 12 5 21 5 3"></polygon>
+            </svg>
+            <!-- Pause icon -->
+            <svg id="icon-pause" width="22" height="22" viewBox="0 0 24 24" fill="currentColor" style="display: none;">
+              <rect x="6" y="4" width="4" height="16"></rect>
+              <rect x="14" y="4" width="4" height="16"></rect>
+            </svg>
+          </button>
+
+          <button type="button" class="ctrl-btn btn-step" id="btn-forward" title="快进 15 秒" aria-label="快进 15 秒">
+            <!-- 15s Forward SVG -->
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M13 17l5-5-5-5M6 17l5-5-5-5"/>
+            </svg>
+          </button>
+        </div>
+
+        <!-- Right: Extra controls -->
+        <div class="player-extra-btns">
+          <button type="button" class="btn-speed" id="btn-speed" title="切换播放速度 (1.0x / 1.25x / 1.5x / 2.0x)" aria-label="播放倍速 1.0x">
+            1.0x
+          </button>
+
+          <button type="button" class="btn-autoscroll" id="btn-autoscroll" title="跟随音频播放自动居中滚动" aria-label="开启跟随滚动">
+            <span class="autoscroll-dot"></span>
+            <span class="autoscroll-text">跟随</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Hidden Audio Element -->
+  <audio id="audio-engine" preload="metadata"></audio>
+
+  <!-- ==========================================================================
+       8. Native Vanilla JavaScript Application Logic
+       ========================================================================== -->
+  <script>
+    (function () {
+      'use strict';
+
+      console.log('[AIRSHOW][UI] App initializing...');
+
+      // State Management
+      let appData = null;
+      let currentEpisode = null;
+      let currentLangMode = 'bilingual';
+      let isAutoScrollEnabled = false;
+      let isScrubbing = false;
+      let lastActiveTranscriptIndex = -1;
+      let lastActiveHighlightIndex = -1;
+      const PLAYBACK_RATES = [1.0, 1.25, 1.5, 2.0];
+      let currentRateIndex = 0;
+
+      // DOM Elements Cache
+      const audio = document.getElementById('audio-engine');
+      const playerBar = document.getElementById('audio-player-bar');
+      const episodeSelect = document.getElementById('episode-select');
+      const loadingState = document.getElementById('loading-state');
+      const errorState = document.getElementById('error-state');
+      const errorMessage = document.getElementById('error-message');
+      const episodeContent = document.getElementById('episode-content');
+      const btnRetry = document.getElementById('btn-retry');
+
+      // Article elements
+      const metaPodcastTitle = document.getElementById('meta-podcast-title');
+      const metaPubDate = document.getElementById('meta-pub-date');
+      const metaDuration = document.getElementById('meta-duration');
+      const metaAudioLink = document.getElementById('meta-audio-link');
+      const episodeTitle = document.getElementById('episode-title');
+      const summaryZhText = document.getElementById('summary-zh-text');
+      const takeawaysList = document.getElementById('takeaways-list');
+      const highlightsGrid = document.getElementById('highlights-grid');
+      const highlightsCountBadge = document.getElementById('highlights-count-badge');
+      const transcriptContainer = document.getElementById('transcript-container');
+      const transcriptCountBadge = document.getElementById('transcript-count-badge');
+
+      // Search elements
+      const searchInput = document.getElementById('search-input');
+      const searchClearBtn = document.getElementById('search-clear-btn');
+      const searchStatsBanner = document.getElementById('search-stats-banner');
+      const searchStatsText = document.getElementById('search-stats-text');
+      const searchResetLink = document.getElementById('search-reset-link');
+
+      // Player elements
+      const btnPlayPause = document.getElementById('btn-play-pause');
+      const iconPlay = document.getElementById('icon-play');
+      const iconPause = document.getElementById('icon-pause');
+      const btnRewind = document.getElementById('btn-rewind');
+      const btnForward = document.getElementById('btn-forward');
+      const btnSpeed = document.getElementById('btn-speed');
+      const btnAutoscroll = document.getElementById('btn-autoscroll');
+      const seekSlider = document.getElementById('seek-slider');
+      const timeCurrent = document.getElementById('time-current');
+      const timeTotal = document.getElementById('time-total');
+      const playerEpTitle = document.getElementById('player-ep-title');
+      const playerSpeakerName = document.getElementById('player-speaker-name');
+      const themeToggleBtn = document.getElementById('theme-toggle-btn');
+      const iconSun = themeToggleBtn.querySelector('.icon-sun');
+      const iconMoon = themeToggleBtn.querySelector('.icon-moon');
+
+      // Fast reference collections for highlights and transcript DOMs
+      let highlightElements = [];
+      let transcriptElements = [];
+
+      // ======================================================================
+      // Utility Functions
+      // ======================================================================
+
+      /**
+       * HTML escape utility to safely prevent XSS
+       */
+      function escapeHtml(str) {
+        if (str == null) return '';
+        return String(str)
+          .replace(/&/g, '&amp;')
+          .replace(/</g, '&lt;')
+          .replace(/>/g, '&gt;')
+          .replace(/"/g, '&quot;')
+          .replace(/'/g, '&#39;');
+      }
+
+      /**
+       * Format seconds into MM:SS or HH:MM:SS
+       */
+      function formatTime(seconds) {
+        if (isNaN(seconds) || seconds < 0) return '00:00';
+        const totalSecs = Math.floor(seconds);
+        const hrs = Math.floor(totalSecs / 3600);
+        const mins = Math.floor((totalSecs % 3600) / 60);
+        const secs = totalSecs % 60;
+        const pad = n => String(n).padStart(2, '0');
+        if (hrs > 0) {
+          return `${hrs}:${pad(mins)}:${pad(secs)}`;
+        }
+        return `${pad(mins)}:${pad(secs)}`;
+      }
+
+      /**
+       * Format seconds into human readable duration e.g. "35分20秒"
+       */
+      function formatDurationZh(seconds) {
+        if (isNaN(seconds) || seconds < 0) return '0秒';
+        const totalSecs = Math.floor(seconds);
+        const hrs = Math.floor(totalSecs / 3600);
+        const mins = Math.floor((totalSecs % 3600) / 60);
+        const secs = totalSecs % 60;
+        if (hrs > 0) {
+          return `${hrs}小时${mins}分${secs}秒`;
+        }
+        return `${mins}分${secs}秒`;
+      }
+
+      /**
+       * Format ISO pub_date e.g. "2026年11月19日"
+       */
+      function formatDateZh(isoStr) {
+        if (!isoStr) return '';
+        try {
+          const d = new Date(isoStr);
+          if (isNaN(d.getTime())) return isoStr.slice(0, 10);
+          return `${d.getUTCFullYear()}年${d.getUTCMonth() + 1}月${d.getUTCDate()}日`;
+        } catch {
+          return String(isoStr).slice(0, 10);
+        }
+      }
+
+      /**
+       * Map speaker name to specific CSS class
+       */
+      function getSpeakerCssClass(speaker) {
+        if (!speaker) return 'spk-guest';
+        const s = speaker.toLowerCase();
+        if (s.includes('jon') || s.includes('ostrower')) return 'spk-jon';
+        if (s.includes('brian') || s.includes('sumers')) return 'spk-brian';
+        if (s.includes('brett') || s.includes('snyder')) return 'spk-brett';
+        return 'spk-guest';
+      }
+
+      /**
+       * Binary search helper: finds the largest index where start_sec <= currentTime
+       */
+      function binarySearchActiveIndex(items, currentTime) {
+        if (!items || items.length === 0) return -1;
+        let low = 0;
+        let high = items.length - 1;
+        let result = -1;
+        while (low <= high) {
+          const mid = Math.floor((low + high) / 2);
+          if (items[mid].start_sec <= currentTime) {
+            result = mid;
+            low = mid + 1;
+          } else {
+            high = mid - 1;
+          }
+        }
+        return result;
+      }
+
+      /**
+       * Robust Seek and Play wrapper
+       * Handles browser readyState < 1 by attaching a one-time loadedmetadata listener
+       */
+      function seekAndPlay(targetSec) {
+        targetSec = Math.max(0, Number(targetSec) || 0);
+        console.log(`[AIRSHOW][UI] Seeking to ${targetSec}s (readyState: ${audio.readyState})`);
+
+        const executeSeekAndPlay = () => {
+          try {
+            audio.currentTime = targetSec;
+          } catch (err) {
+            console.warn('[AIRSHOW][UI] Setting currentTime failed:', err);
+          }
+          const playPromise = audio.play();
+          if (playPromise !== undefined) {
+            playPromise.catch(err => {
+              console.warn('[AIRSHOW][UI] Play call rejected/interrupted:', err);
+            });
+          }
+        };
+
+        if (audio.readyState < 1) {
+          console.log('[AIRSHOW][UI] Audio metadata not ready, waiting for loadedmetadata event...');
+          audio.addEventListener('loadedmetadata', function onLoaded() {
+            audio.removeEventListener('loadedmetadata', onLoaded);
+            executeSeekAndPlay();
+          }, { once: true });
+
+          if (audio.networkState === HTMLMediaElement.NETWORK_EMPTY) {
+            audio.load();
+          }
+        } else {
+          executeSeekAndPlay();
+        }
+      }
+
+      // ======================================================================
+      // Theme & Preference Management
+      // ======================================================================
+
+      function initTheme() {
+        const savedTheme = localStorage.getItem('airshow_theme');
+        const systemPrefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+        const theme = savedTheme || (systemPrefersDark ? 'dark' : 'light');
+        applyTheme(theme);
+      }
+
+      function applyTheme(theme) {
+        document.documentElement.setAttribute('data-theme', theme);
+        localStorage.setItem('airshow_theme', theme);
+        if (theme === 'dark') {
+          iconSun.style.display = 'block';
+          iconMoon.style.display = 'none';
+        } else {
+          iconSun.style.display = 'none';
+          iconMoon.style.display = 'block';
+        }
+      }
+
+      themeToggleBtn.addEventListener('click', () => {
+        const currentTheme = document.documentElement.getAttribute('data-theme') || 'light';
+        const nextTheme = currentTheme === 'dark' ? 'light' : 'dark';
+        applyTheme(nextTheme);
+        console.log(`[AIRSHOW][UI] Theme toggled to: ${nextTheme}`);
+      });
+
+      // ======================================================================
+      // Language Display Mode Switcher
+      // ======================================================================
+
+      function initLanguageMode() {
+        const savedMode = localStorage.getItem('airshow_lang_mode') || 'bilingual';
+        setLanguageMode(savedMode);
+
+        document.querySelectorAll('.segment-btn').forEach(btn => {
+          btn.addEventListener('click', () => {
+            const mode = btn.getAttribute('data-mode');
+            setLanguageMode(mode);
+          });
+        });
+      }
+
+      function setLanguageMode(mode) {
+        currentLangMode = mode;
+        document.body.setAttribute('data-lang-mode', mode);
+        localStorage.setItem('airshow_lang_mode', mode);
+
+        document.querySelectorAll('.segment-btn').forEach(btn => {
+          if (btn.getAttribute('data-mode') === mode) {
+            btn.classList.add('active');
+          } else {
+            btn.classList.remove('active');
+          }
+        });
+        console.log(`[AIRSHOW][UI] Language mode changed to: ${mode}`);
+      }
+
+      // ======================================================================
+      // Data Fetching & Rendering
+      // ======================================================================
+
+      async function loadEpisodesData() {
+        console.log('[AIRSHOW][UI] Fetching ./data/episodes.json...');
+        loadingState.style.display = 'flex';
+        errorState.style.display = 'none';
+        episodeContent.style.display = 'none';
+
+        try {
+          const response = await fetch('./data/episodes.json', { cache: 'no-cache' });
+          if (!response.ok) {
+            throw new Error(`HTTP ${response.status} ${response.statusText}`);
+          }
+          const data = await response.json();
+          appData = data;
+          console.log(`[AIRSHOW][UI] Successfully loaded ${data.episodes ? data.episodes.length : 0} episodes (schema: ${data.schema_version})`);
+
+          if (!data.episodes || data.episodes.length === 0) {
+            throw new Error('episodes.json 中未包含任何播客单集数据');
+          }
+
+          populateEpisodeDropdown(data.episodes);
+          selectEpisode(data.episodes[0]);
+
+          loadingState.style.display = 'none';
+          episodeContent.style.display = 'block';
+          playerBar.style.display = 'block';
+        } catch (err) {
+          console.error('[AIRSHOW][UI] Failed to load episodes data:', err);
+          loadingState.style.display = 'none';
+          errorState.style.display = 'flex';
+          errorMessage.textContent = `加载失败：${err.message}。请确认已在 docs 目录下运行静态服务器。`;
+        }
+      }
+
+      btnRetry.addEventListener('click', loadEpisodesData);
+
+      function populateEpisodeDropdown(episodes) {
+        episodeSelect.innerHTML = '';
+        episodes.forEach((ep, idx) => {
+          const opt = document.createElement('option');
+          opt.value = ep.guid;
+          opt.textContent = `${formatDateZh(ep.pub_date)} · ${formatDurationZh(ep.duration_sec)} | ${ep.title}`;
+          episodeSelect.appendChild(opt);
+        });
+
+        episodeSelect.addEventListener('change', (e) => {
+          const selectedGuid = e.target.value;
+          const found = appData.episodes.find(ep => ep.guid === selectedGuid);
+          if (found) {
+            selectEpisode(found);
+          }
+        });
+      }
+
+      function selectEpisode(ep) {
+        currentEpisode = ep;
+        console.log(`[AIRSHOW][UI] Selected episode: "${ep.title}" (${ep.guid})`);
+
+        // Update dropdown selected value
+        episodeSelect.value = ep.guid;
+
+        // Reset player & state
+        audio.pause();
+        audio.src = ep.audio_url || '';
+        audio.load();
+        lastActiveTranscriptIndex = -1;
+        lastActiveHighlightIndex = -1;
+        timeCurrent.textContent = '00:00';
+        timeTotal.textContent = formatTime(ep.duration_sec || 0);
+        seekSlider.value = 0;
+        seekSlider.max = ep.duration_sec || 100;
+        playerEpTitle.textContent = ep.title;
+        playerSpeakerName.textContent = '就绪';
+        updatePlayPauseIcons(false);
+
+        // Render Article Sections
+        renderArticleMeta(ep);
+        renderExecutiveSummary(ep);
+        renderHighlights(ep.highlights || []);
+        renderTranscript(ep.transcript || []);
+
+        // Reset search if any
+        if (searchInput.value) {
+          applySearchFilter(searchInput.value.trim());
+        }
+      }
+
+      function renderArticleMeta(ep) {
+        metaPodcastTitle.textContent = appData.podcast_title || 'The Air Show';
+        metaPubDate.textContent = formatDateZh(ep.pub_date);
+        metaDuration.textContent = formatDurationZh(ep.duration_sec);
+        metaAudioLink.href = ep.audio_url || '#';
+        episodeTitle.textContent = ep.title || '';
+      }
+
+      function renderExecutiveSummary(ep) {
+        // Summary text
+        summaryZhText.textContent = ep.summary_zh || '暂无摘要';
+
+        // Key takeaways list
+        takeawaysList.innerHTML = '';
+        const takeaways = ep.key_takeaways_zh || [];
+        takeaways.forEach((item, idx) => {
+          const li = document.createElement('li');
+          li.className = 'takeaway-item';
+
+          const num = document.createElement('span');
+          num.className = 'takeaway-num';
+          num.textContent = String(idx + 1).padStart(2, '0');
+
+          const text = document.createElement('span');
+          text.textContent = item;
+
+          li.appendChild(num);
+          li.appendChild(text);
+          takeawaysList.appendChild(li);
+        });
+      }
+
+      function renderHighlights(highlights) {
+        highlightsGrid.innerHTML = '';
+        highlightElements = [];
+        highlightsCountBadge.textContent = `${highlights.length} 个片段`;
+
+        highlights.forEach((hl, idx) => {
+          const card = document.createElement('div');
+          card.className = 'highlight-card';
+          card.dataset.startSec = hl.start_sec;
+          card.dataset.index = idx;
+
+          // Header
+          const header = document.createElement('div');
+          header.className = 'highlight-header';
+
+          const timeBadge = document.createElement('span');
+          timeBadge.className = 'timestamp-badge';
+          timeBadge.innerHTML = `
+            <svg width="10" height="10" viewBox="0 0 24 24" fill="currentColor">
+              <polygon points="5 3 19 12 5 21 5 3"></polygon>
+            </svg>
+            ${formatTime(hl.start_sec)}
+          `;
+
+          const playingIndicator = document.createElement('span');
+          playingIndicator.className = 'playing-indicator';
+          playingIndicator.innerHTML = '<span class="pulse-dot"></span> 正在播放';
+
+          header.appendChild(timeBadge);
+          header.appendChild(playingIndicator);
+          card.appendChild(header);
+
+          // Title
+          const title = document.createElement('div');
+          title.className = 'highlight-title';
+          title.textContent = hl.title_zh || '';
+          card.appendChild(title);
+
+          // Summary
+          const summary = document.createElement('div');
+          summary.className = 'highlight-summary';
+          summary.textContent = hl.summary_zh || '';
+          card.appendChild(summary);
+
+          // Quote
+          if (hl.quote_en) {
+            const quote = document.createElement('div');
+            quote.className = 'highlight-quote';
+            quote.textContent = `“${hl.quote_en}”`;
+            card.appendChild(quote);
+          }
+
+          // Click to seek & play
+          card.addEventListener('click', () => {
+            seekAndPlay(hl.start_sec);
+          });
+
+          highlightsGrid.appendChild(card);
+          highlightElements.push(card);
+        });
+      }
+
+      function renderTranscript(transcript) {
+        transcriptContainer.innerHTML = '';
+        transcriptElements = [];
+        transcriptCountBadge.textContent = `${transcript.length} 段落`;
+
+        transcript.forEach((item, idx) => {
+          const row = document.createElement('div');
+          row.className = 'transcript-item';
+          row.dataset.startSec = item.start_sec;
+          row.dataset.index = idx;
+          row.dataset.id = item.id;
+
+          // Meta Row (Speaker + Time)
+          const meta = document.createElement('div');
+          meta.className = 'transcript-meta';
+
+          const metaLeft = document.createElement('div');
+          metaLeft.className = 'meta-left';
+
+          const speaker = document.createElement('span');
+          speaker.className = `speaker-badge ${getSpeakerCssClass(item.speaker)}`;
+          speaker.textContent = item.speaker || 'Guest';
+          metaLeft.appendChild(speaker);
+
+          const timeBtn = document.createElement('button');
+          timeBtn.type = 'button';
+          timeBtn.className = 'time-seek-btn';
+          timeBtn.title = `跳转至 ${formatTime(item.start_sec)}`;
+          timeBtn.innerHTML = `
+            <svg width="9" height="9" viewBox="0 0 24 24" fill="currentColor">
+              <polygon points="5 3 19 12 5 21 5 3"></polygon>
+            </svg>
+            ${formatTime(item.start_sec)}
+          `;
+          timeBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            seekAndPlay(item.start_sec);
+          });
+          metaLeft.appendChild(timeBtn);
+          meta.appendChild(metaLeft);
+          row.appendChild(meta);
+
+          // English original
+          const enText = document.createElement('div');
+          enText.className = 'transcript-en';
+          enText.textContent = item.en || '';
+          row.appendChild(enText);
+
+          // Chinese translation
+          const zhText = document.createElement('div');
+          zhText.className = 'transcript-zh';
+          zhText.textContent = item.zh || '';
+          row.appendChild(zhText);
+
+          // Whole row click seek
+          row.addEventListener('click', () => {
+            seekAndPlay(item.start_sec);
+          });
+
+          transcriptContainer.appendChild(row);
+          transcriptElements.push(row);
+        });
+      }
+
+      // ======================================================================
+      // Audio Engine & Sync Highlighting Logic
+      // ======================================================================
+
+      function updatePlayPauseIcons(isPlaying) {
+        if (isPlaying) {
+          iconPlay.style.display = 'none';
+          iconPause.style.display = 'block';
+          btnPlayPause.setAttribute('aria-label', '暂停');
+        } else {
+          iconPlay.style.display = 'block';
+          iconPause.style.display = 'none';
+          btnPlayPause.setAttribute('aria-label', '播放');
+        }
+      }
+
+      btnPlayPause.addEventListener('click', () => {
+        if (!audio.src) return;
+        if (audio.paused) {
+          audio.play().catch(err => console.warn('[AIRSHOW][UI] Play rejected:', err));
+        } else {
+          audio.pause();
+        }
+      });
+
+      audio.addEventListener('play', () => {
+        updatePlayPauseIcons(true);
+      });
+
+      audio.addEventListener('pause', () => {
+        updatePlayPauseIcons(false);
+      });
+
+      audio.addEventListener('ended', () => {
+        updatePlayPauseIcons(false);
+      });
+
+      audio.addEventListener('loadedmetadata', () => {
+        const dur = audio.duration || (currentEpisode ? currentEpisode.duration_sec : 0);
+        timeTotal.textContent = formatTime(dur);
+        seekSlider.max = dur;
+      });
+
+      // Synchronous Highlighting & Binary Search in timeupdate
+      audio.addEventListener('timeupdate', () => {
+        if (!currentEpisode) return;
+
+        const curTime = audio.currentTime;
+
+        // Update Slider and Time Display if not actively scrubbing
+        if (!isScrubbing) {
+          seekSlider.value = curTime;
+          timeCurrent.textContent = formatTime(curTime);
+        }
+
+        // 1. Locate and highlight current Transcript item using Binary Search
+        const activeTrIdx = binarySearchActiveIndex(currentEpisode.transcript, curTime);
+        if (activeTrIdx !== lastActiveTranscriptIndex) {
+          if (lastActiveTranscriptIndex !== -1 && transcriptElements[lastActiveTranscriptIndex]) {
+            transcriptElements[lastActiveTranscriptIndex].classList.remove('active');
+          }
+          if (activeTrIdx !== -1 && transcriptElements[activeTrIdx]) {
+            const activeTrEl = transcriptElements[activeTrIdx];
+            activeTrEl.classList.add('active');
+
+            // Auto-scroll if enabled
+            if (isAutoScrollEnabled) {
+              activeTrEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            }
+
+            // Update mini speaker info in player
+            const speaker = currentEpisode.transcript[activeTrIdx].speaker || 'The Air Show';
+            playerSpeakerName.textContent = speaker;
+          }
+          lastActiveTranscriptIndex = activeTrIdx;
+        }
+
+        // 2. Locate and highlight current Highlight Card using Binary Search
+        const activeHlIdx = binarySearchActiveIndex(currentEpisode.highlights, curTime);
+        if (activeHlIdx !== lastActiveHighlightIndex) {
+          if (lastActiveHighlightIndex !== -1 && highlightElements[lastActiveHighlightIndex]) {
+            highlightElements[lastActiveHighlightIndex].classList.remove('active');
+          }
+          if (activeHlIdx !== -1 && highlightElements[activeHlIdx]) {
+            highlightElements[activeHlIdx].classList.add('active');
+          }
+          lastActiveHighlightIndex = activeHlIdx;
+        }
+      });
+
+      // Scrubbing Event Handlers
+      seekSlider.addEventListener('input', () => {
+        isScrubbing = true;
+        timeCurrent.textContent = formatTime(Number(seekSlider.value));
+      });
+
+      seekSlider.addEventListener('change', () => {
+        isScrubbing = false;
+        seekAndPlay(Number(seekSlider.value));
+      });
+
+      // Fast forward & rewind 15s
+      btnRewind.addEventListener('click', () => {
+        const target = Math.max(0, audio.currentTime - 15);
+        seekAndPlay(target);
+      });
+
+      btnForward.addEventListener('click', () => {
+        const maxSec = audio.duration || (currentEpisode ? currentEpisode.duration_sec : Infinity);
+        const target = Math.min(maxSec, audio.currentTime + 15);
+        seekAndPlay(target);
+      });
+
+      // Playback speed cycle
+      btnSpeed.addEventListener('click', () => {
+        currentRateIndex = (currentRateIndex + 1) % PLAYBACK_RATES.length;
+        const newRate = PLAYBACK_RATES[currentRateIndex];
+        audio.playbackRate = newRate;
+        btnSpeed.textContent = `${newRate.toFixed(1)}x`;
+        btnSpeed.setAttribute('aria-label', `播放倍速 ${newRate.toFixed(1)}x`);
+        console.log(`[AIRSHOW][UI] Playback rate set to: ${newRate}x`);
+      });
+
+      // Auto-scroll toggle
+      btnAutoscroll.addEventListener('click', () => {
+        isAutoScrollEnabled = !isAutoScrollEnabled;
+        btnAutoscroll.classList.toggle('active', isAutoScrollEnabled);
+        console.log(`[AIRSHOW][UI] Auto-scroll enabled: ${isAutoScrollEnabled}`);
+        if (isAutoScrollEnabled && lastActiveTranscriptIndex !== -1 && transcriptElements[lastActiveTranscriptIndex]) {
+          transcriptElements[lastActiveTranscriptIndex].scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }
+      });
+
+      // ======================================================================
+      // Keyword Search & Filtering (Safe Escaped Highlight)
+      // ======================================================================
+
+      function highlightTextMatches(rawText, query) {
+        if (!query || !rawText) return escapeHtml(rawText);
+        const escapedQ = query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+        const regex = new RegExp(`(${escapedQ})`, 'gi');
+        const parts = rawText.split(regex);
+        return parts.map(part => {
+          if (part.toLowerCase() === query.toLowerCase()) {
+            return `<mark class="search-match">${escapeHtml(part)}</mark>`;
+          }
+          return escapeHtml(part);
+        }).join('');
+      }
+
+      function applySearchFilter(query) {
+        if (!currentEpisode) return;
+
+        if (!query) {
+          searchClearBtn.style.display = 'none';
+          searchStatsBanner.classList.remove('visible');
+
+          // Reset transcript
+          transcriptElements.forEach((el, idx) => {
+            el.classList.remove('is-search-hidden');
+            const item = currentEpisode.transcript[idx];
+            el.querySelector('.transcript-en').innerHTML = escapeHtml(item.en);
+            el.querySelector('.transcript-zh').innerHTML = escapeHtml(item.zh);
+          });
+
+          // Reset highlights
+          highlightElements.forEach((el, idx) => {
+            el.classList.remove('is-search-hidden');
+            const item = currentEpisode.highlights[idx];
+            el.querySelector('.highlight-title').innerHTML = escapeHtml(item.title_zh);
+            el.querySelector('.highlight-summary').innerHTML = escapeHtml(item.summary_zh);
+            const quoteEl = el.querySelector('.highlight-quote');
+            if (quoteEl && item.quote_en) {
+              quoteEl.innerHTML = `“${escapeHtml(item.quote_en)}”`;
+            }
+          });
+          return;
+        }
+
+        searchClearBtn.style.display = 'flex';
+        const qLower = query.toLowerCase();
+        let transcriptMatchCount = 0;
+        let highlightMatchCount = 0;
+
+        // Filter and highlight transcripts
+        transcriptElements.forEach((el, idx) => {
+          const item = currentEpisode.transcript[idx];
+          const matchEn = (item.en || '').toLowerCase().includes(qLower);
+          const matchZh = (item.zh || '').toLowerCase().includes(qLower);
+          const matchSpk = (item.speaker || '').toLowerCase().includes(qLower);
+
+          if (matchEn || matchZh || matchSpk) {
+            transcriptMatchCount++;
+            el.classList.remove('is-search-hidden');
+            el.querySelector('.transcript-en').innerHTML = highlightTextMatches(item.en, query);
+            el.querySelector('.transcript-zh').innerHTML = highlightTextMatches(item.zh, query);
+          } else {
+            el.classList.add('is-search-hidden');
+          }
+        });
+
+        // Filter and highlight highlights
+        highlightElements.forEach((el, idx) => {
+          const item = currentEpisode.highlights[idx];
+          const matchTitle = (item.title_zh || '').toLowerCase().includes(qLower);
+          const matchSummary = (item.summary_zh || '').toLowerCase().includes(qLower);
+          const matchQuote = (item.quote_en || '').toLowerCase().includes(qLower);
+
+          if (matchTitle || matchSummary || matchQuote) {
+            highlightMatchCount++;
+            el.classList.remove('is-search-hidden');
+            el.querySelector('.highlight-title').innerHTML = highlightTextMatches(item.title_zh, query);
+            el.querySelector('.highlight-summary').innerHTML = highlightTextMatches(item.summary_zh, query);
+            const quoteEl = el.querySelector('.highlight-quote');
+            if (quoteEl && item.quote_en) {
+              quoteEl.innerHTML = `“${highlightTextMatches(item.quote_en, query)}”`;
+            }
+          } else {
+            el.classList.add('is-search-hidden');
+          }
+        });
+
+        const totalMatches = transcriptMatchCount + highlightMatchCount;
+        searchStatsText.textContent = `关键词 “${query}”：匹配 ${transcriptMatchCount} 段逐字稿，${highlightMatchCount} 条精选重点`;
+        searchStatsBanner.classList.add('visible');
+        console.log(`[AIRSHOW][UI] Search filter applied: "${query}" (total ${totalMatches} items matched)`);
+      }
+
+      let searchDebounceTimer = null;
+      searchInput.addEventListener('input', () => {
+        clearTimeout(searchDebounceTimer);
+        searchDebounceTimer = setTimeout(() => {
+          applySearchFilter(searchInput.value.trim());
+        }, 150);
+      });
+
+      searchClearBtn.addEventListener('click', () => {
+        searchInput.value = '';
+        applySearchFilter('');
+        searchInput.focus();
+      });
+
+      searchResetLink.addEventListener('click', () => {
+        searchInput.value = '';
+        applySearchFilter('');
+      });
+
+      // ======================================================================
+      // Initialization
+      // ======================================================================
+      initTheme();
+      initLanguageMode();
+      loadEpisodesData();
+
+    })();
+  </script>
+</body>
+</html>

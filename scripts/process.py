@@ -8,7 +8,7 @@ Implements the state machine defined in SPEC.md:
 
 import argparse
 import calendar
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 import json
 import os
 from pathlib import Path
@@ -33,6 +33,11 @@ DOCS_DATA_DIR = PROJECT_ROOT / "docs" / "data"
 DOCS_EPISODES_FILE = DOCS_DATA_DIR / "episodes.json"
 GLOSSARY_FILE = PROJECT_ROOT / "GLOSSARY.md"
 
+MODEL_USAGE_STATS: dict[str, dict[str, int]] = {
+    "CH-B": {},
+    "CH-A": {},
+}
+
 DEFAULT_HEADERS = {
     "User-Agent": (
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
@@ -46,8 +51,8 @@ DEFAULT_HEADERS = {
 
 
 class TranscriptSegment(BaseModel):
-    offset_sec: int = Field(
-        description="Segment start offset in seconds from the beginning of this audio chunk"
+    timestamp: str = Field(
+        description="Segment start timestamp strictly formatted as 'MM:SS' (e.g. '00:02', '01:06', '02:55') relative to the beginning of this audio chunk. Colon must NOT be omitted."
     )
     speaker: str = Field(
         description="Speaker full name normalized according to glossary: 'Jon Ostrower', 'Brian Sumers', 'Brett Snyder', or guest name ('Guest' if unknown)"
@@ -206,8 +211,8 @@ def get_entry_audio_url(entry) -> str:
     return ""
 
 
-def filter_new_episodes(feed_entries, limit: int = 1) -> list:
-    """[2. FILTER_NEW] 对比 data/episodes.json 已有 guid，筛选最新未处理的 N 集（--limit）."""
+def filter_new_episodes(feed_entries, limit: int = 1, max_age_days: int = 0) -> list:
+    """[2. FILTER_NEW] 对比 data/episodes.json 已有 guid，筛选最新未处理的 N 集（--limit），可选按发布时间过滤（--max-age-days）."""
     log("FILTER", "Checking existing episodes in data/episodes.json...")
     existing_guids = set()
     if EPISODES_FILE.exists():
@@ -225,6 +230,29 @@ def filter_new_episodes(feed_entries, limit: int = 1) -> list:
     if not new_entries:
         log("FILTER", "No new episodes to process. Exiting cleanly.")
         sys.exit(0)
+
+    if max_age_days > 0:
+        now_utc = datetime.now(timezone.utc)
+        cutoff_dt = now_utc - timedelta(days=max_age_days)
+        log("FILTER", f"Applying max-age-days filter: {max_age_days} day(s) (cutoff UTC: {cutoff_dt.strftime('%Y-%m-%dT%H:%M:%SZ')})...")
+        filtered_entries = []
+        for e in new_entries:
+            pub_date_str = get_entry_pub_date(e)
+            try:
+                pub_dt = datetime.fromisoformat(pub_date_str.replace("Z", "+00:00"))
+            except Exception:
+                pub_dt = now_utc
+            if pub_dt >= cutoff_dt:
+                filtered_entries.append(e)
+            else:
+                log("FILTER", f"Filtered out legacy episode '{e.get('title', 'Unknown')}' ({get_entry_guid(e)}, published {pub_date_str}) older than {max_age_days} day(s).")
+
+        new_entries = filtered_entries
+        log("FILTER", f"{len(new_entries)} unhandled episode(s) remaining within the {max_age_days}-day limit.")
+
+        if not new_entries:
+            log("FILTER", f"No unhandled episodes match the criteria (within {max_age_days} day(s)). Exiting cleanly.")
+            sys.exit(0)
 
     selected = new_entries[:limit]
     log("FILTER", f"Selected {len(selected)} episode(s) to process (limit: {limit}).")
@@ -290,8 +318,30 @@ def get_audio_duration_sec(audio_path: Path) -> int:
     raise RuntimeError(f"Unable to probe duration for {audio_path}")
 
 
+def parse_mmss_to_sec(ts: str, fallback_sec: int = 0) -> int:
+    """Parse 'MM:SS' (or 'HH:MM:SS') timestamp string to integer seconds."""
+    if not ts or not isinstance(ts, str):
+        return fallback_sec
+    parts = ts.strip().split(":")
+    try:
+        if len(parts) == 2:
+            mins = int(float(parts[0]))
+            secs = int(round(float(parts[1])))
+            return mins * 60 + secs
+        elif len(parts) == 3:
+            hours = int(float(parts[0]))
+            mins = int(float(parts[1]))
+            secs = int(round(float(parts[2])))
+            return hours * 3600 + mins * 60 + secs
+        elif len(parts) == 1:
+            return int(round(float(parts[0])))
+    except Exception:
+        pass
+    return fallback_sec
+
+
 def chunk_audio(audio_path: Path, output_dir: Path, chunk_sec: int) -> list[Path]:
-    """[4. CHUNK_AUDIO] ffmpeg 转为单声道 64k mp3 并按 --chunk-sec（默认 600s）切片."""
+    """[4. CHUNK_AUDIO] ffmpeg 转为单声道 64k mp3 并按 --chunk-sec（默认 180s）切片."""
     output_pattern = output_dir / "chunk_%03d.mp3"
     log("FFMPEG", f"Transcoding and slicing audio: mono, 64kbps, segment_time={chunk_sec}s...")
     cmd = [
@@ -320,8 +370,7 @@ def chunk_audio(audio_path: Path, output_dir: Path, chunk_sec: int) -> list[Path
 
 def generate_structured_with_retry(
     client: genai.Client,
-    model_name: str,
-    fallback_model: str | None,
+    model_pool: list[str],
     contents: list,
     system_instruction: str,
     response_schema: type[BaseModel],
@@ -329,83 +378,77 @@ def generate_structured_with_retry(
     temperature: float = 0.2,
     max_retries: int = 5,
 ) -> BaseModel:
-    """Execute structured generation with exponential backoff on 429/503/timeout and optional fallback."""
-    current_model = model_name
+    """Execute structured generation using streaming response with 5-retry backoff across model_pool."""
+    backoff_delays = [15, 20, 25, 30]
     last_exception = None
 
-    for attempt in range(1, max_retries + 1):
-        try:
-            log(stage, f"Calling Gemini model '{current_model}' (attempt {attempt}/{max_retries})...")
-            response = client.models.generate_content(
-                model=current_model,
-                contents=contents,
-                config=types.GenerateContentConfig(
-                    system_instruction=system_instruction,
-                    response_mime_type="application/json",
-                    response_schema=response_schema,
-                    temperature=temperature,
-                ),
-            )
+    for m_idx, current_model in enumerate(model_pool):
+        log(stage, f"Using model candidate [{m_idx + 1}/{len(model_pool)}]: '{current_model}'...")
+        skipped_404 = False
+        for attempt in range(1, max_retries + 1):
+            try:
+                log(stage, f"Calling Gemini model '{current_model}' via streaming (attempt {attempt}/{max_retries})...")
+                response = client.models.generate_content_stream(
+                    model=current_model,
+                    contents=contents,
+                    config=types.GenerateContentConfig(
+                        system_instruction=system_instruction,
+                        response_mime_type="application/json",
+                        response_schema=response_schema,
+                        temperature=temperature,
+                    ),
+                )
 
-            if response.parsed is not None:
-                return response.parsed
-            elif response.text:
-                text = response.text.strip()
-                if text.startswith("```json"):
-                    text = text[7:]
-                elif text.startswith("```"):
-                    text = text[3:]
-                if text.endswith("```"):
-                    text = text[:-3]
-                return response_schema.model_validate_json(text.strip())
-            else:
-                raise ValueError("Received empty response from Gemini model.")
+                chunks_text = []
+                for chunk in response:
+                    if chunk.text:
+                        chunks_text.append(chunk.text)
+                full_text = "".join(chunks_text).strip()
 
-        except Exception as e:
-            last_exception = e
-            log("ERROR", f"[{stage}] Attempt {attempt}/{max_retries} with model '{current_model}' failed: {e}")
+                if not full_text:
+                    raise ValueError(f"Received empty streamed response from model '{current_model}'.")
 
-            if attempt < max_retries:
-                if attempt >= 3 and fallback_model and current_model != fallback_model:
-                    log(stage, f"Switching to fallback model '{fallback_model}' after repeated failures.")
-                    current_model = fallback_model
+                cleaned_text = full_text
+                if cleaned_text.startswith("```json"):
+                    cleaned_text = cleaned_text[7:]
+                elif cleaned_text.startswith("```"):
+                    cleaned_text = cleaned_text[3:]
+                if cleaned_text.endswith("```"):
+                    cleaned_text = cleaned_text[:-3]
+                cleaned_text = cleaned_text.strip()
 
-                backoff_sec = min(60, (2 ** attempt) * 2)
-                log(stage, f"Backing off for {backoff_sec}s before retry...")
-                time.sleep(backoff_sec)
-            else:
-                if fallback_model and current_model != fallback_model:
-                    log(
-                        stage,
-                        f"Primary model retries exhausted. Attempting final try with fallback model '{fallback_model}'...",
-                    )
-                    try:
-                        response = client.models.generate_content(
-                            model=fallback_model,
-                            contents=contents,
-                            config=types.GenerateContentConfig(
-                                system_instruction=system_instruction,
-                                response_mime_type="application/json",
-                                response_schema=response_schema,
-                                temperature=temperature,
-                            ),
-                        )
-                        if response.parsed is not None:
-                            return response.parsed
-                        elif response.text:
-                            text = response.text.strip()
-                            if text.startswith("```json"):
-                                text = text[7:]
-                            elif text.startswith("```"):
-                                text = text[3:]
-                            if text.endswith("```"):
-                                text = text[:-3]
-                            return response_schema.model_validate_json(text.strip())
-                    except Exception as fb_err:
-                        log("ERROR", f"[{stage}] Fallback model also failed: {fb_err}")
-                        raise fb_err from e
+                parsed = response_schema.model_validate_json(cleaned_text)
+                log(stage, f"Successfully received and parsed response using model '{current_model}' on attempt {attempt}.")
+                if stage in MODEL_USAGE_STATS:
+                    MODEL_USAGE_STATS[stage][current_model] = MODEL_USAGE_STATS[stage].get(current_model, 0) + 1
+                return parsed
 
-    raise last_exception
+            except Exception as e:
+                last_exception = e
+                err_str = str(e)
+                log("ERROR", f"[{stage}] Attempt {attempt}/{max_retries} with model '{current_model}' failed: {e}")
+
+                is_404 = "404" in err_str or "NOT_FOUND" in err_str or "NotFound" in type(e).__name__
+                if is_404:
+                    log("ERROR", f"[{stage}] Model '{current_model}' returned 404/NOT_FOUND. Skipping model immediately without waiting.")
+                    skipped_404 = True
+                    break
+
+                if attempt < max_retries:
+                    delay = backoff_delays[attempt - 1] if (attempt - 1) < len(backoff_delays) else 30
+                    log(stage, f"Retrying model '{current_model}' after {delay}s backoff (attempt {attempt}/{max_retries})...")
+                    time.sleep(delay)
+                else:
+                    log("ERROR", f"[{stage}] All {max_retries} attempts exhausted for model '{current_model}'.")
+
+        if m_idx < len(model_pool) - 1:
+            if not skipped_404:
+                log(stage, f"Model '{current_model}' exhausted. Sleeping 10s before switching to next candidate model...")
+                time.sleep(10)
+
+    if last_exception is not None:
+        raise last_exception
+    raise RuntimeError(f"All models in pool {model_pool} exhausted without returning a valid response.")
 
 
 def run_channel_b(
@@ -416,12 +459,18 @@ def run_channel_b(
 ) -> list[dict]:
     """[5. CHANNEL_B] 逐片上传 Gemini File API → 注入 GLOSSARY.md 转写+翻译 → 立即删除云端文件.
 
-    受 --max-chunks 限制；遇 429/503 指数退避最多 5 次；片间休眠 10s。
+    受 --max-chunks 限制；遇 429/503 指数退避最多 5 次；片间休眠 15s。
     """
     api_key = os.environ.get("GEMINI_API_KEY")
     client = genai.Client(api_key=api_key)
-    model_name = os.environ.get("GEMINI_MODEL", "gemini-3.5-flash-lite")
-    fallback_model = os.environ.get("GEMINI_FALLBACK_MODEL", "gemini-2.5-flash")
+
+    default_ch_b_pool = ["gemini-3.5-flash-lite", "gemini-3.1-flash-lite"]
+    env_ch_b = os.environ.get("GEMINI_MODEL_CH_B") or os.environ.get("GEMINI_MODEL")
+    if env_ch_b:
+        model_pool = [env_ch_b] + [m for m in default_ch_b_pool if m != env_ch_b]
+    else:
+        model_pool = list(default_ch_b_pool)
+    log("CH-B", f"Channel B model pool configured: {model_pool}")
 
     chunks_to_process = chunks[:max_chunks] if max_chunks > 0 else chunks
     log("CH-B", f"Starting Channel B processing for {len(chunks_to_process)} chunk(s) (total chunks: {len(chunks)})...")
@@ -432,7 +481,7 @@ def run_channel_b(
         "Rules:\n"
         "1. Segment into natural semantic blocks of 2-4 sentences each.\n"
         "2. For each block, provide:\n"
-        "   - offset_sec: integer seconds relative to the beginning of this audio chunk (>= 0).\n"
+        "   - timestamp: string timestamp relative to the beginning of this audio chunk, strictly formatted as 'MM:SS' (e.g., '00:02', '01:06', '02:55'). Never omit the colon.\n"
         "   - speaker: strictly normalized to the hosts' full English names: 'Jon Ostrower', 'Brian Sumers', 'Brett Snyder', or the guest's full name (use 'Guest' if unknown).\n"
         "   - en: the original English spoken text (2-4 sentences per block).\n"
         "   - zh: natural, fluent, professional aviation Chinese translation adhering strictly to the glossary.\n"
@@ -478,8 +527,7 @@ def run_channel_b(
 
             parsed_resp: ChannelBOutput = generate_structured_with_retry(
                 client=client,
-                model_name=model_name,
-                fallback_model=fallback_model,
+                model_pool=model_pool,
                 contents=contents,
                 system_instruction=system_instruction,
                 response_schema=ChannelBOutput,
@@ -490,8 +538,9 @@ def run_channel_b(
             chunk_segments = parsed_resp.segments
             log("CH-B", f"Chunk [{idx + 1}/{len(chunks_to_process)}] produced {len(chunk_segments)} segment(s).")
             for seg in chunk_segments:
-                offset = max(0, int(seg.offset_sec))
-                global_start = accumulated_chunk_start_sec + offset
+                offset = parse_mmss_to_sec(seg.timestamp, fallback_sec=0)
+                clamped_offset = max(0, min(offset, chunk_dur))
+                global_start = accumulated_chunk_start_sec + clamped_offset
                 clamped_start = max(0, min(global_start, duration_sec))
                 all_raw_segments.append({
                     "start_sec": clamped_start,
@@ -510,15 +559,21 @@ def run_channel_b(
         accumulated_chunk_start_sec += chunk_dur
 
         if idx < len(chunks_to_process) - 1:
-            log("CH-B", "Sleeping 10s between chunks as per rate-limiting policy...")
-            time.sleep(10)
+            log("CH-B", "Sleeping 15s between chunks as per rate-limiting policy...")
+            time.sleep(15)
 
-    all_raw_segments.sort(key=lambda s: s["start_sec"])
     final_transcript = []
+    prev_start_sec = 0
     for i, seg in enumerate(all_raw_segments):
+        start_sec = seg["start_sec"]
+        if start_sec < prev_start_sec:
+            start_sec = prev_start_sec
+        else:
+            prev_start_sec = start_sec
+
         final_transcript.append({
             "id": i + 1,
-            "start_sec": seg["start_sec"],
+            "start_sec": start_sec,
             "speaker": seg["speaker"],
             "en": seg["en"],
             "zh": seg["zh"],
@@ -537,8 +592,14 @@ def run_channel_a(
     """[6. CHANNEL_A] 将拼合的纯文本带时间戳逐字稿单次发给 Gemini，生成摘要与 Highlights."""
     api_key = os.environ.get("GEMINI_API_KEY")
     client = genai.Client(api_key=api_key)
-    model_name = os.environ.get("GEMINI_MODEL", "gemini-3.5-flash-lite")
-    fallback_model = os.environ.get("GEMINI_FALLBACK_MODEL", "gemini-2.5-flash")
+
+    default_ch_a_pool = ["gemini-3.8-flash", "gemini-3.5-flash", "gemini-3.5-flash-lite"]
+    env_ch_a = os.environ.get("GEMINI_MODEL_CH_A")
+    if env_ch_a:
+        model_pool = [env_ch_a] + [m for m in default_ch_a_pool if m != env_ch_a]
+    else:
+        model_pool = list(default_ch_a_pool)
+    log("CH-A", f"Channel A model pool configured: {model_pool}")
 
     log("CH-A", f"Starting Channel A summarization for episode '{title}' (duration: {duration_sec}s)...")
 
@@ -570,8 +631,7 @@ def run_channel_a(
 
     parsed_resp: ChannelAOutput = generate_structured_with_retry(
         client=client,
-        model_name=model_name,
-        fallback_model=fallback_model,
+        model_pool=model_pool,
         contents=[user_prompt],
         system_instruction=system_instruction,
         response_schema=ChannelAOutput,
@@ -658,7 +718,7 @@ def process_episode(entry, args, glossary_text: str) -> None:
 
     if not audio_url:
         log("ERROR", f"Episode '{title}' ({guid}) has no valid audio URL.")
-        return
+        raise ValueError(f"Episode '{title}' ({guid}) has no valid audio URL.")
 
     temp_dir = None
     try:
@@ -745,6 +805,7 @@ def process_episode(entry, args, glossary_text: str) -> None:
                 smoke_preview_file.unlink()
                 log("SAVE", f"Removed temporary smoke preview file: {smoke_preview_file}")
             atomic_save([episode_record])
+            log("SAVE", f"Model usage statistics: {MODEL_USAGE_STATS}")
 
     finally:
         # [8. CLEANUP]
@@ -757,7 +818,8 @@ def process_episode(entry, args, glossary_text: str) -> None:
 def main():
     parser = argparse.ArgumentParser(description="airshow-reader: Podcast bilingual reading processor.")
     parser.add_argument("--limit", type=int, default=1, help="单次最多处理的新单集数量 (default: 1)")
-    parser.add_argument("--chunk-sec", type=int, default=600, help="音频切片时长（秒） (default: 600)")
+    parser.add_argument("--max-age-days", type=int, default=0, help="仅处理发布时间距当前 UTC 不超过 N 天的单集（0 表示不限制，default: 0）")
+    parser.add_argument("--chunk-sec", type=int, default=180, help="音频切片时长（秒） (default: 180)")
     parser.add_argument("--dry-run", action="store_true", default=False, help="演习模式，不调用 Gemini API、不修改 JSON")
     parser.add_argument("--max-chunks", type=int, default=0, help="仅处理前 M 个切片（0 表示全部，default: 0）")
     args = parser.parse_args()
@@ -777,15 +839,23 @@ def main():
     feed = fetch_rss(RSS_URL)
 
     # [2. FILTER_NEW]
-    episodes_to_process = filter_new_episodes(feed.entries, limit=args.limit)
+    episodes_to_process = filter_new_episodes(feed.entries, limit=args.limit, max_age_days=args.max_age_days)
 
     log("FILTER", f"Loaded GLOSSARY.md successfully ({len(glossary_text)} characters).")
+
+    total_episodes = len(episodes_to_process)
+    failed_count = 0
 
     for entry in episodes_to_process:
         try:
             process_episode(entry, args, glossary_text)
         except Exception as e:
+            failed_count += 1
             log("ERROR", f"Episode '{entry.get('title', 'Unknown')}' processing failed: {e}")
+
+    if total_episodes > 0 and failed_count == total_episodes:
+        log("ERROR", f"All {total_episodes} episode(s) failed to process in this run.")
+        sys.exit(1)
 
 
 if __name__ == "__main__":

@@ -1,0 +1,79 @@
+name: Scheduled Update and Ingestion
+
+'on':
+  schedule:
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: 'Number of new episodes to process'
+        required: false
+        default: '1'
+        type: string
+      max_age_days:
+        description: 'Max age of episodes in days (0 for no limit)'
+        required: false
+        default: '7'
+        type: string
+      dry_run:
+        description: 'Dry run mode (do not call Gemini API or save data)'
+        required: false
+        default: false
+        type: boolean
+
+permissions:
+  contents: write
+
+concurrency:
+  group: airshow-reader-update
+  cancel-in-progress: false
+
+jobs:
+  update-episodes:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies & ffmpeg
+        run: |
+          pip install -r requirements.txt
+          command -v ffmpeg >/dev/null || (sudo apt-get update && sudo apt-get install -y ffmpeg)
+
+      - name: Run processing pipeline
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          EVENT_NAME: ${{ github.event_name }}
+          INPUT_LIMIT: ${{ inputs.limit }}
+          INPUT_MAX_AGE_DAYS: ${{ inputs.max_age_days }}
+          INPUT_DRY_RUN: ${{ inputs.dry_run }}
+        run: |
+          LIMIT="${INPUT_LIMIT:-1}"
+          MAX_AGE="${INPUT_MAX_AGE_DAYS:-7}"
+          EXTRA_ARGS=""
+          if [ "$INPUT_DRY_RUN" = "true" ]; then
+            EXTRA_ARGS="--dry-run"
+          fi
+          echo "Running process.py with --limit $LIMIT --max-age-days $MAX_AGE $EXTRA_ARGS"
+          python scripts/process.py --limit "$LIMIT" --max-age-days "$MAX_AGE" $EXTRA_ARGS
+
+      - name: Commit and push changes if updated
+        run: |
+          if [ -n "$(git status --porcelain data/episodes.json docs/data/episodes.json)" ]; then
+            echo "Changes detected in data/episodes.json or docs/data/episodes.json. Committing and pushing..."
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add data/episodes.json docs/data/episodes.json
+            git commit -m "chore(data): auto-update episodes"
+            git pull --rebase
+            git push
+          else
+            echo "No changes detected in episode data. Clean exit."
+          fi
