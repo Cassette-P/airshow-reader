@@ -2,7 +2,7 @@
   "schema_version": "3.0",
   "podcast_title": "The Air Show",
   "rss_url": "https://feeds.buzzsprout.com/2329718.rss",
-  "updated_at": "2026-11-22T02:09:34Z",
+  "updated_at": "2026-11-22T15:39:50Z",
   "episodes": [
     {
       "guid": "Buzzsprout-20148830",
@@ -178,6 +178,23 @@
       ],
       "highlights_count": 7,
       "transcript_count": 182
+    },
+    {
+      "guid": "Buzzsprout-19709435",
+      "title": "American Needs More Urgency",
+      "pub_date": "2026-08-27T12:00:00Z",
+      "duration_sec": 2373,
+      "audio_url": "https://www.buzzsprout.com/2329718/episodes/19709435-american-needs-more-urgency.mp3",
+      "file": "episodes/Buzzsprout-19709435.json",
+      "summary_zh": "本期节目中，Brian Sumers 与 Brett Snyder 深度剖析了美国航空近期为追赶达美航空与美联航所采取的战略纠偏与高管洗牌。产品端，美航计划将窄体机高端座位占比从约25%提升至40%，并宣布全面恢复窄体机椅背娱乐屏幕及引入品牌零食。两人围绕美航枢纽网络能否消化 737 MAX 10 多达24个头等舱座位展开争论：Brett 担忧其缺乏北方核心商务市场支撑而陷入过度补偿，Brian 则认为高端休闲需求已普及至全美腹地。组织端，美航拆解了原先因人设岗的混乱高管职能，新任首席商务官 Nat Pieper 全面收拢客户体验与市场营销大权。两位主播一致认为，美航虽终于认错转向，但屏幕改装要到2028年才启动、人事调整仍缺乏问责魄力，整体转型严重缺乏紧迫感。",
+      "key_takeaways_zh": [
+        "美国航空计划将窄体机队的高端座位占比从25%大幅提升至40%，重点补齐加长腿部空间座位短板以撬动常旅客黏性与联名信用卡消费。",
+        "窄体机全面恢复椅背屏幕不仅能改善乘机体验并探索精准广告变现，更是向旅客直观传递高品质服务心智的关键视觉符号。",
+        "美航借高管离职理顺了此前混乱的汇报架构，首席商务官 Nat Pieper 整合客户服务与市场营销后权重大增，成为推动高端化转型的核心人物。",
+        "美航椅背屏幕安装需等到2028年才启动并延续至2030年代初，叠加上层沟通的保守官僚姿态，暴露出其在追赶竞争对手时严重缺乏紧迫感。"
+      ],
+      "highlights_count": 7,
+      "transcript_count": 208
     }
   ],
   "show_id": "airshow"

@@ -3,7 +3,7 @@
   "show_id": "sinica",
   "podcast_title": "Sinica Podcast",
   "rss_url": "https://rss.art19.com/sinica",
-  "updated_at": "2026-11-22T02:32:46Z",
+  "updated_at": "2026-11-22T15:49:29Z",
   "episodes": [
     {
       "guid": "gid://art19-episode-locator/V0/NOjpq5Y0yw3rXM-ajgSwiv-2MjylOPDFws2QzBr3dJk",
@@ -111,6 +111,23 @@
       ],
       "highlights_count": 9,
       "transcript_count": 317
+    },
+    {
+      "guid": "gid://art19-episode-locator/V0/XyWw_-Lr13LQVuWUV8r2KYvrby35Trcn2wMVKhu2B5g",
+      "title": "Not a Master Plan: The Real History of China's Rare Earth Dominance, with Gloria Xiong and Jessica Chen Weiss",
+      "pub_date": "2026-09-16T16:00:00Z",
+      "duration_sec": 4691,
+      "audio_url": "https://rss.art19.com/episodes/b0c8560c-2933-4f97-ac71-5899f0ef2b3e.mp3?rss_browser=BAhJIgtDaHJvbWUGOgZFVA%3D%3D--d05363d83ce333c74f32188013892b2863ad051c",
+      "file": "episodes/gid_art19-episode-locator_V0_XyWw_-Lr13LQVuWUV8r2KYvrby35Trcn2wMVKhu2B5g.json",
+      "summary_zh": "本期节目中，Kaiser Kuo对话学者Gloria Xiong与Jessica Chen Weiss，深入剖析两人在《Foreign Affairs》发表的合著文章，还原中国稀土主导地位的真实演变史。针对华盛顿跨党派盛行的“数十年宏大战略”叙事，两位学者指出，中国占全球约85%的稀土加工主导权并非源于邓小平时代的深谋远虑，而是改革开放初期出口创汇狂热、地方保护主义与非法盗采、惨重环境代价，以及欧美乐于外包污染共同塑造的历史副产物。直至2010年中日钓鱼岛撞船风波及近年美国对华实施半导体出口管制后，北京才逐步整合产业，并镜像模仿美国的域外管辖工具将稀土武器化。随着釜山休战协议即将于11月到期，中美正陷入难以完全掌控的“行动—反应”螺旋。两位学者呼吁摒弃全面脱钩与“升级主导”幻想，通过“正向互惠”与管理相互依赖来重建双边稳定。",
+      "key_takeaways_zh": [
+        "中国在稀土加工领域的绝对主导地位并非蓄谋已久的“宏大蓝图”，而是早期粗放出口创汇、央地利益博弈与西方转移环境外部性共同造就的意外产物。",
+        "2010年中日稀土断供风波很可能是地方海关在民族主义氛围下的自发行为而非中央禁令，但该事件与2019年华为被制裁共同促使北京认识到供应链卡脖子的地缘价值。",
+        "中国近年出台的稀土出口管制及域外管辖新规，在制度设计上高度模仿了美国的实体清单与“外国直接产品规则”，体现出典型的大国“经济安全困境”。",
+        "即便在稀土单一领域，中国仍面临资源枯竭焦虑、海外矿源动荡及高端下游专利短板，中美均无法实现单方面压制，唯有“正向互惠”与适度技术合作方能避免两败俱伤。"
+      ],
+      "highlights_count": 8,
+      "transcript_count": 280
     }
   ]
 }
