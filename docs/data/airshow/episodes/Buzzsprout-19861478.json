@@ -1,0 +1,1552 @@
+{
+  "schema_version": "3.0",
+  "show_id": "airshow",
+  "guid": "Buzzsprout-19861478",
+  "title": "Lounges Are The New Moneymaker",
+  "pub_date": "2026-09-25T10:00:00Z",
+  "duration_sec": 2354,
+  "audio_url": "https://www.buzzsprout.com/2329718/episodes/19861478-lounges-are-the-new-moneymaker.mp3",
+  "summary_zh": "本期节目深入探讨了机场贵宾室如何从早期的常旅客专属礼遇，演变为航司依托高额年费、两舱机票尤其是联名信用卡（Co-branded Credit Card）合作驱动的核心印钞机。Jon、Brian与Brett剖析了信用卡准入泛滥引发的严重拥挤，这不仅迫使达美航空等制定出逾五千字的复杂准入与限次规则，还催生了“贵宾室分级”及外带简餐新业态。三位主播对贵宾室的实用价值存在明显分歧：Jon看重其在混乱航站楼中的办公与避风港价值，Brett则认为其过度拥挤、不如卡点登机。最后大家指出，尽管航司、发卡行与机场目前实现了多赢，但宽体机高密度商务舱配置带来的物理空间瓶颈、刷卡费率监管风险，以及生态锁定后的体验劣化，将是这一商业模式面临的长期隐患。",
+  "key_takeaways_zh": [
+    "机场贵宾室的核心商业逻辑已从“维系飞行忠诚度”彻底转向“向发卡行出售权益变现”，成为传统全服务航司拉大与中小航司盈利差距的现金牛。",
+    "联名信用卡持卡人的涌入导致基础贵宾室严重拥挤与体验稀释，倒逼航司一方面出台极其繁琐的准入限制，另一方面向上增设绑定高价机票的超高端贵宾室。",
+    "宽体机高密度商务舱配置与集中航班波（Bank）出发叠加，正在突破枢纽机场的物理空间极限，贵宾室扩建速度难以追上两舱座位数的激增。",
+    "西南航空等后来者为快速兑现投资者承诺而高度依赖摩根大通共建贵宾室网络，虽能短期拉动高年费信用卡发卡量，但长期利润分成恐受制于银行。",
+    "贵宾室生态正面临刷卡手续费监管法案以及平台“体验劣化”的双重风险，一旦权益缩水越过临界点将直接反噬高端信用卡的核心价值。"
+  ],
+  "highlights": [
+    {
+      "start_sec": 180,
+      "title_zh": "从专属礼遇到航司印钞机",
+      "summary_zh": "美国航空于1939年在拉瓜迪亚机场首创邀请制的Admirals Club，直到1960年代因反歧视投诉才被迫转为付费会员制。如今贵宾室已不再是辅助卖票的配角，单靠个人年费（如美联航高达750至1400美元）已非主流，真正的驱动力变成了变现能力极强的信用卡商业合作。",
+      "quote_en": "As anybody knows who's either waited in a long line for a Delta Sky Club, this isn't necessarily about passenger comfort anymore. It's about generating cash."
+    },
+    {
+      "start_sec": 504,
+      "title_zh": "达美航空五千字的准入迷宫",
+      "summary_zh": "由于盈利渠道过多且需缓解人满为患，达美航空官网关于Sky Club准入规则的说明已膨胀至五千多字，涵盖停留时长、访问次数上限及合作伙伴限制。Brian指出这种连行业专家都难以厘清的复杂规则极易在门口引发旅客挫败感，长远来看必将反噬品牌。",
+      "quote_en": "When customers can't understand something or they've paid for something but they can't get in, I think they feel very frustrated."
+    },
+    {
+      "start_sec": 799,
+      "title_zh": "联名信用卡重塑贵宾室经济",
+      "summary_zh": "贵宾室繁荣的本质是航司向银行出售积分与准入权益、银行赚取高额刷卡手续费的闭环生意。部分高端卡（如运通白金卡）用贵宾室权益替代了高倍积分回报，让非高频出行的消费者产生“免费享受高端礼遇”的错觉并持续刷卡。",
+      "quote_en": "This is not about generating actual loyalty. This is about selling more benefits to the credit card companies and then, you know, reaping the benefits, making the cash out of it."
+    },
+    {
+      "start_sec": 929,
+      "title_zh": "主播激辩贵宾室真实价值",
+      "summary_zh": "针对贵宾室的实际体验，Jon认为面对航站楼动辄25美元的简餐和混乱环境，贵宾室为高频出差者提供了稳定的办公与喘息空间。Brett则持相反观点，表示自己毫不关心免费餐饮，宁愿卡点抵达机场或找个空闲登机口静坐。",
+      "quote_en": "People just have peace of mind when they walk into a lounge because the airport experience is so chaotic."
+    },
+    {
+      "start_sec": 1192,
+      "title_zh": "向往型客群与贵宾室分级",
+      "summary_zh": "西南航空CFO透露进军贵宾室源于低频“向往型旅客”对身份认同的强烈需求，而这也正是高端联名信用卡的目标客群。但随着基础贵宾室日益平民化和拥挤，航司不得不向上叠加Delta One、Polaris等仅限高价机票准入的高阶贵宾室以维持稀缺性。",
+      "quote_en": "there's an aspirational level of people who maybe fly less than we do. And to them, they feel like they've made it when they get lounge access."
+    },
+    {
+      "start_sec": 1435,
+      "title_zh": "高密度两舱冲击机场物理极限",
+      "summary_zh": "宽体机增加商务舱座位与集中航班波（Bank）叠加，正让贵宾室容量捉襟见肘。Jon举例称，美联航在洛杉矶机场同一小时内出发的4架787就带来192名Polaris商务舱旅客，未来换装高密度两舱构型后更将增至256人，远超现有场地承载力。",
+      "quote_en": "That means that there are 192 business class passengers on across those four aircraft trying to get into a lounge that doesn't have that many seats."
+    },
+    {
+      "start_sec": 1709,
+      "title_zh": "银行自建贵宾室的竞合博弈",
+      "summary_zh": "运通、摩根大通及Capital One纷纷自建高端贵宾室，与航司形成微妙的竞合关系：达美与运通实现了枢纽分流与国际航站楼互补，而美联航与摩根大通则偶有摩擦。此外，西南航空为快速推出高年费新卡而高度依赖摩根大通共建贵宾室，长期合约的经济账可能面临隐患。",
+      "quote_en": "outside of Delta and Amex, the relationships between banks and airlines can be a little trickier than it seems from the outside."
+    },
+    {
+      "start_sec": 2043,
+      "title_zh": "外带简餐新业态与机场地产红利",
+      "summary_zh": "针对航班波衔接紧凑或不愿久坐的旅客，达美、美联航和美航纷纷推出Grab-and-Go外带简餐站以进一步拓宽信用卡权益受众。与此同时，机场管理方也成为隐形大赢家，将昂贵的航站楼商业地产高价租给航司与银行贵宾室。",
+      "quote_en": "Basically, it's a place to grab prepared food and a coffee and be on your way. It's a free Starbucks."
+    },
+    {
+      "start_sec": 2241,
+      "title_zh": "监管风险与“体验劣化”终局",
+      "summary_zh": "展望这一模式的边界，Jon警告称除《信用卡竞争法案》可能冲击刷卡费率外，航司还面临类似互联网平台的“体验劣化（Enshittification）”风险。当用户被高转换成本锁定在信用卡生态后，市场饱和与权益缩水可能最终令消费者沦为输家。",
+      "quote_en": "What we're talking about here is effectively a prelude to aviation-branded enshittification. Like, this is really a risk here if airlines aren't careful."
+    }
+  ],
+  "transcript": [
+    {
+      "id": 1,
+      "start_sec": 2,
+      "speaker": "Jon Ostrower",
+      "en": "I'm Jon Ostrower, editor-in-chief of The Air Current.",
+      "zh": "我是 The Air Current 的主编 Jon Ostrower。"
+    },
+    {
+      "id": 2,
+      "start_sec": 4,
+      "speaker": "Brian Sumers",
+      "en": "I'm Brian Sumers, and I write The Airline Observer.",
+      "zh": "我是 Brian Sumers，The Airline Observer 的主笔。"
+    },
+    {
+      "id": 3,
+      "start_sec": 6,
+      "speaker": "Brett Snyder",
+      "en": "And I'm Brett Snyder, author of Cranky Flier. You're listening to The Air Show, the podcast where we talk about what happens in the business of the sky.",
+      "zh": "我是 Cranky Flier 的作者 Brett Snyder。欢迎收听 The Air Show，这是一档带您纵论民航商业风云的播客。"
+    },
+    {
+      "id": 4,
+      "start_sec": 14,
+      "speaker": "Brett Snyder",
+      "en": "Brought to you by the Alaska-Hawaiian Airlines pilots. This week's episode is also sponsored by SkyGo. Stay in the moment with your aviation curiosity.",
+      "zh": "本期节目由阿拉斯加-夏威夷航空飞行员联合呈现。本周节目也由 SkyGo 赞助播出。随时满足你的民航求知欲。"
+    },
+    {
+      "id": 5,
+      "start_sec": 23,
+      "speaker": "Brett Snyder",
+      "en": "Explore schedule data by airline, airport, route, and aircraft in seconds right from your phone. Currently in beta, learn more at theairshowpodcast.com/skygo.",
+      "zh": "在手机上数秒内即可按航司、机场、航线和机型探索时刻表数据。目前处于公测阶段，详情请访问 theairshowpodcast.com/skygo。"
+    },
+    {
+      "id": 6,
+      "start_sec": 34,
+      "speaker": "Brett Snyder",
+      "en": "And a special thanks to Plusgrade for being a sponsor of this podcast. Now, this week, I want to talk about how Jon is here. That's it.",
+      "zh": "特别感谢 Plusgrade 对本播客的赞助。这周呢，我想聊聊 Jon 终于归队了。没别的，"
+    },
+    {
+      "id": 7,
+      "start_sec": 41,
+      "speaker": "Brett Snyder",
+      "en": "Just one big episode about Jon's roaming life. So Jon, how was your, let's see, month-and-a-half break?",
+      "zh": "整整一期全讲 Jon 漫游世界的逍遥日子。所以 Jon，让我看看，你这一个半月的长假过得如何？"
+    },
+    {
+      "id": 8,
+      "start_sec": 51,
+      "speaker": "Jon Ostrower",
+      "en": "Let's just say it was a break from the show, it wasn't a break from everything else. But yeah, it actually really has been that long. It feels like longer, to be honest. I've missed you guys.",
+      "zh": "只能说这是录播客的休假，别的事我可一点没闲着。不过没错，居然真停了这么久，说实话感觉时间更长。我很想念你们两位。"
+    },
+    {
+      "id": 9,
+      "start_sec": 60,
+      "speaker": "Jon Ostrower",
+      "en": "It has been quite an adventure. I've covered about 22,000 miles in the air across three different continents, and I've got an embarrassingly full notebook to empty.",
+      "zh": "这确实是一场精彩的历险。我在空中飞了大约 22,000 英里，跨越了三个不同的大洲，采访笔记本记得满满当当，简直都快没地儿写了。"
+    },
+    {
+      "id": 10,
+      "start_sec": 70,
+      "speaker": "Jon Ostrower",
+      "en": "But there are some really fun stories coming, and it's really, really good to be back. I missed you guys a lot.",
+      "zh": "但接下来会有一批非常有趣的故事带给大家，能回归真的太棒了。我非常想念你们。"
+    },
+    {
+      "id": 11,
+      "start_sec": 74,
+      "speaker": "Brett Snyder",
+      "en": "Brian and I are glad you're back as well, and we missed you. But we are not talking about metal this week, I'm sorry to say.",
+      "zh": "我和 Brian 也很高兴你归队，我们也很想你。但很遗憾，我们这周不打算聊飞机大铁块了。"
+    },
+    {
+      "id": 12,
+      "start_sec": 81,
+      "speaker": "Brett Snyder",
+      "en": "Bummer. I guess that's not entirely true, because we're sort of talking about it if you count those fancy, heavy credit cards made of some kind of metal. But what we really want to talk about is lounges.",
+      "zh": "太扫兴了。不过这么说也不全对，要是算上那些用某种金属打造的沉甸甸的高端信用卡，也算沾点边。但我们真正要聊的是机场贵宾休息室。"
+    },
+    {
+      "id": 13,
+      "start_sec": 91,
+      "speaker": "Jon Ostrower",
+      "en": "There were some very excellent lounges that I visited in both Sydney and Hong Kong. Dare I say, I kind of had my true Brian Sumers moment, felt very fancy.",
+      "zh": "我在悉尼和香港确实体验了几家极棒的休息室。不得不说，我当时真体验到了 Brian Sumers 的奢华派头，感觉非常精致高端。"
+    },
+    {
+      "id": 14,
+      "start_sec": 99,
+      "speaker": "Brian Sumers",
+      "en": "Welcome to my world, Jon. Glad to have you, very excited to do a lounge show today. But Brett, are we really not going to talk about that LinkedIn message we received a few days ago?",
+      "zh": "欢迎来到我的世界，Jon。很高兴你能来，今天能做一期休息室专题我很兴奋。不过 Brett，前几天我们在 LinkedIn 上收到的那条留言，真就不提了吗？"
+    },
+    {
+      "id": 15,
+      "start_sec": 113,
+      "speaker": "Brian Sumers",
+      "en": "You seem to like making fun of me for my inability to pronounce major global cities. That's absolutely true. It seems like you're not that great at it either.",
+      "zh": "你平时好像很喜欢嘲笑我读不准全球各大城市的名字。确实如此。但看来你自己也没高明到哪去啊。"
+    },
+    {
+      "id": 16,
+      "start_sec": 124,
+      "speaker": "Brett Snyder",
+      "en": "Oh, well, I wouldn't go that far, sir. But fine, let's talk about it. We did have a listener who on LinkedIn did compliment me on my pronunciation,",
+      "zh": "噢，那我可不敢苟同，先生。不过行吧，那就聊聊这个。我们确实有位听众在 LinkedIn 上夸了我的发音，"
+    },
+    {
+      "id": 17,
+      "start_sec": 135,
+      "speaker": "Brett Snyder",
+      "en": "saying that we did a, quote, 'better job than most Americans would.' So we have that going for us.",
+      "zh": "说我们“比大多数美国人表现得都要好”。至少我们在这点上还算占优。"
+    },
+    {
+      "id": 18,
+      "start_sec": 141,
+      "speaker": "Brett Snyder",
+      "en": "But I am not content with that seemingly low bar here. He did say that I messed up two things. He said instead of Luxembourg, I should have said Luxembourg,",
+      "zh": "但我可不满足于这么低的评判标准。他确实指出我读错了两处。他说我不该按英语读卢森堡（Luxembourg），而应该按法语读成 Luxembourg；"
+    },
+    {
+      "id": 19,
+      "start_sec": 152,
+      "speaker": "Brett Snyder",
+      "en": "and the one I really messed up was Mulhouse is actually Mulhouse, rhymes with Toulouse, he said. So, this I did not know. So now the record has been corrected.",
+      "zh": "而我真正读错得离谱的是米卢斯（Mulhouse），实际发音应该是 Mulhouse，他说要跟图卢兹（Toulouse）押韵。这个我之前确实不知道。所以现在，勘误完毕。"
+    },
+    {
+      "id": 20,
+      "start_sec": 163,
+      "speaker": "Jon Ostrower",
+      "en": "No, and just to be clear, this is why people in aviation have three-letter codes for all the places in the world. It saves a whole lot of trouble with mispronouncing anything.",
+      "zh": "另外说明一下，这就是为什么航空界给世界上所有地方都分配了三字码。这样省去了发错音的各种麻烦。"
+    },
+    {
+      "id": 21,
+      "start_sec": 172,
+      "speaker": "Brett Snyder",
+      "en": "Yeah, but Brian doesn't know those either, so it doesn't help.",
+      "zh": "是啊，可 Brian 连三字码都记不全，所以这也没用。"
+    },
+    {
+      "id": 22,
+      "start_sec": 176,
+      "speaker": "Brian Sumers",
+      "en": "What I do know, guys, I know lounges.",
+      "zh": "朋友们，我虽然不懂那些，但我懂贵宾休息室。"
+    },
+    {
+      "id": 23,
+      "start_sec": 180,
+      "speaker": "Brian Sumers",
+      "en": "Maybe we'll talk a little bit today about which ones are more comfortable, but this is an airline business podcast, so let's talk about that. Brett, we know that lounges are part of the new loyalty. It's really the latest scheme for airlines to make money.",
+      "zh": "也许我们今天会聊聊哪家休息室更舒服，但毕竟这是一个航空商业类播客，所以我们还是从商业角度切入。Brett，我们知道休息室已经成了新常旅客忠诚度体系的一部分。这可以说是航司最新的赚钱手段了。"
+    },
+    {
+      "id": 24,
+      "start_sec": 197,
+      "speaker": "Brian Sumers",
+      "en": "As anybody knows who's either waited in a long line for a Delta Sky Club, this isn't necessarily about passenger comfort anymore. It's about generating cash.",
+      "zh": "只要是在达美航空飞凡贵宾室排过长队的人都知道，这事现在关乎的已经不一定是旅客舒适度了，而是关乎变现赚钱。"
+    },
+    {
+      "id": 25,
+      "start_sec": 209,
+      "speaker": "Brett Snyder",
+      "en": "Let's be clear, it's not about generating cash by selling tickets because your lounges are so great. That's how it used to be. Of course, long, long ago, when American had its first Admirals Club at LaGuardia in 1939, it was about rewarding those loyal customers.",
+      "zh": "我们说清楚点，这可不是靠休息室体验极佳来带动机票销售从而变现。以前确实是这样。当然，很久很久以前，当美航于1939年在拉瓜迪亚机场开设第一家爱德华贵宾室时，其初衷是回馈那些忠诚客户。"
+    },
+    {
+      "id": 26,
+      "start_sec": 226,
+      "speaker": "Brett Snyder",
+      "en": "It was free, but it was invite only. So if you were one of the world's greatest flyers, and you flew American, sorry, I just had to, then you had a shot at relaxing in peace. But did you guys know when they started charging for lounge access?",
+      "zh": "当时是免费的，但仅限受邀进入。所以如果你是所谓的全球顶级飞行常客，而且还飞美航——抱歉，我忍不住吐槽一下——那你才有机会进去清静放松。但你们知道他们是什么时候开始对休息室准入收费的吗？"
+    },
+    {
+      "id": 27,
+      "start_sec": 244,
+      "speaker": "Jon Ostrower",
+      "en": "Wait, hold on a second. American had lounges at LaGuardia in 1939? Like a DC-3 only had like 30 something seats. What level of exclusive do you have in an already incredibly expensive ability to access travel in the 1930s?",
+      "zh": "等等，先打住。美航在1939年就在拉瓜迪亚机场有休息室了？可一架DC-3也就大概三十来个座位啊。在1930年代坐飞机本就已经贵得离谱了，你还得有多高端、多尊贵才够格进休息室？"
+    },
+    {
+      "id": 28,
+      "start_sec": 260,
+      "speaker": "Brett Snyder",
+      "en": "There was this great article in The New Yorker that kind of dove into some of this history, and it talked about how people that were members of the Admirals Club used to just go on a Sunday and have a drink. You didn't even have to be flying. You were just part of this exclusive club here, part of the rich and powerful.",
+      "zh": "《纽约客》曾有一篇很棒的文章深入探讨过这段历史，里面讲到爱德华贵宾室的会员以前甚至会在周日专门跑去喝一杯。你甚至都不用坐飞机，仅仅因为你是这个顶级专属俱乐部的会员，属于有钱有势的阶层。"
+    },
+    {
+      "id": 29,
+      "start_sec": 278,
+      "speaker": "Brett Snyder",
+      "en": "But then apparently, there was a guy named Herbert Goldberger that in the '60s, he got mad because he could not come in for a drink because he was not a member. So he actually filed a complaint with the CAB.",
+      "zh": "但后来据说在60年代，有个叫Herbert Goldberger的人，因为不是会员被拒之门外不能进去喝酒，他恼羞成怒。于是他居然直接向民航局（CAB）提出了投诉。"
+    },
+    {
+      "id": 30,
+      "start_sec": 292,
+      "speaker": "Brett Snyder",
+      "en": "And eventually, they decided this was some form of discrimination, so they had to open up the lounges. So to do that, they started charging for them. So travelers could only come in and bust up the exclusive club if they were willing to pay for the privilege.",
+      "zh": "最终，监管机构认定这构成某种歧视，因此航司必须对外开放休息室。为了应对，他们开始实行收费制。这样一来，普通旅客只要愿意为这项特权掏钱，就能进来打破原本专属俱乐部的界限。"
+    },
+    {
+      "id": 31,
+      "start_sec": 307,
+      "speaker": "Brian Sumers",
+      "en": "And that's how it stayed pretty much for decades. People could buy an annual membership to these clubs, but I never got the feeling that this was a huge generator of revenue. Certainly wasn't as lucrative as it is today.",
+      "zh": "之后几十年基本上都维持着这种模式。大家可以购买这些休息室的年卡会籍，但我从来没觉得它是一个巨大的收入来源。肯定不像今天这么暴利。"
+    },
+    {
+      "id": 32,
+      "start_sec": 320,
+      "speaker": "Jon Ostrower",
+      "en": "Right, because it was there to support the core business of running an airline. Times have changed.",
+      "zh": "没错，因为当时它只是用来辅助航司运输这一核心业务的。如今时代已经变了。"
+    },
+    {
+      "id": 33,
+      "start_sec": 325,
+      "speaker": "Brett Snyder",
+      "en": "That's one way to put it. The core business is no longer running an airline. Oops. But this, it's been turned upside down, right?",
+      "zh": "你说得还挺委婉。现在的核心业务早就不是开航司跑航班了。哎呀，说漏嘴了。但总之，整个逻辑已经被彻底颠覆了，对吧？"
+    },
+    {
+      "id": 34,
+      "start_sec": 334,
+      "speaker": "Brett Snyder",
+      "en": "Now, these lounges, it's not even about paying for them. And I would say a lot of people probably aren't getting in by even buying a membership anymore anyway.",
+      "zh": "如今这些休息室，甚至都不再是靠直接买单进门了。而且我想很多人现在根本也不是靠买年卡会籍进去的。"
+    },
+    {
+      "id": 35,
+      "start_sec": 344,
+      "speaker": "Jon Ostrower",
+      "en": "Yeah, you can still do that, but it's not usually the smart way to play this game. And the prices really just keep going up and up. United charges $750 per year for an individual. If you want to bring any guests, it starts at $1,400 a year.",
+      "zh": "是的，虽然你现在依然可以买会籍，但这通常已经不是玩转休息室的精明方式了。而且价格确实在一路上涨。美联航个人年费要750美元；要是想带同行宾客，起步价就是每年1400美元。"
+    },
+    {
+      "id": 36,
+      "start_sec": 360,
+      "speaker": "Jon Ostrower",
+      "en": "For what it's worth, Alaska charges 695 for its lounges or 795 for its Lounge Plus, which gets you into all the Admirals Club and a bunch of others in the network. Or you can get it as a selected perk if you nab 125,000 status points, which is just shy of their Titanium top-level status tier.",
+      "zh": "顺便提一句，Alaska 的自营休息室收费 695 美元，包含其网络内所有 Admirals Club 及其他多家休息室的 Lounge Plus 则是 795 美元。或者，如果你攒够 125,000 点定级积分，也可以将其作为一项自选权益，这只差一点就能达到他们的 Titanium 最高会籍级别了。"
+    },
+    {
+      "id": 37,
+      "start_sec": 379,
+      "speaker": "Brian Sumers",
+      "en": "This is so complicated, Jon. Let's remember, there are some people who still buy day passes on some airlines, not apparently Delta, it doesn't have them anymore. And there are other airlines where you can get a day pass and then not be able to use it.",
+      "zh": "这太复杂了，Jon。别忘了，有些航司依然有人买单日通行证，显然 Delta 是没有了，他们已经取消了这项服务。还有些航司你就算买了单日证，可能到头来根本用不了。"
+    },
+    {
+      "id": 38,
+      "start_sec": 398,
+      "speaker": "Brian Sumers",
+      "en": "There are also people who get in because they bought the right premium ticket, maybe a long-haul ticket, though there's other lounges they can use, which I guess we can talk about later. And then the final big thing, they can be an elite member of certain partners. Did I ever tell you guys about that delightful year I had Air Berlin gold status? I never flew that airline, not even once.",
+      "zh": "还有些人能进是因为买了符合要求的高端舱位机票，比如长途航线机票，不过他们还可以去别的休息室，这我们稍后再聊。最后还有一大类，就是某些合作伙伴航司的高级会员。我跟你们讲过我拿到 Air Berlin 金卡的那美妙的一年吗？我一次都没坐过那家航司，一次都没有。"
+    },
+    {
+      "id": 39,
+      "start_sec": 425,
+      "speaker": "Jon Ostrower",
+      "en": "I actually once tallied up how much extra it would cost to just buy lounge access across the biggest airlines, compared to what I would spend being loyal to one, and any premium that I would just pay for just flying the cheap seats. Look, the math looked pretty good before the pandemic when it was like $499 per airline. Not so much anymore. That is a non-freaking starter.",
+      "zh": "我其实算过一笔账，直接购买各大航司的休息室准入权，比起只忠诚于一家航司、坐便宜座位时额外掏溢价，到底要多花多少钱。你看，疫情前每家航司大概 499 美元的时候，这笔账还算划得来。现在可完全不是这样了，根本不用考虑。"
+    },
+    {
+      "id": 40,
+      "start_sec": 448,
+      "speaker": "Brett Snyder",
+      "en": "This is possibly the geekiest conversation we've ever had, but I...",
+      "zh": "这可能是我们聊过最极客的话题了，但我……"
+    },
+    {
+      "id": 41,
+      "start_sec": 454,
+      "speaker": "Jon Ostrower",
+      "en": "Oh no, no. Were you here for the maximum takeoff weight episode?",
+      "zh": "哦不不不，聊最大起飞重量那一期你在场吗？"
+    },
+    {
+      "id": 42,
+      "start_sec": 457,
+      "speaker": "Brett Snyder",
+      "en": "Oh, there was some MTOW.",
+      "zh": "噢，那期确实聊了聊 MTOW（最大起飞重量）。"
+    },
+    {
+      "id": 43,
+      "start_sec": 459,
+      "speaker": "Jon Ostrower",
+      "en": "Yeah, yeah.",
+      "zh": "是啊，就是嘛。"
+    },
+    {
+      "id": 44,
+      "start_sec": 460,
+      "speaker": "Brett Snyder",
+      "en": "All right, fine. The thing about this is the options to get into a lounge have just ballooned, and it is pure madness to decipher these rules. Have you ever tried? Let's just pick one. Let's do Delta. We don't talk about them enough.",
+      "zh": "行吧，好吧。关键在于，进入休息室的门槛和途径大幅膨胀，要把这些规则理清楚简直是疯了。你试过吗？咱们就挑一家吧。就 Delta 好了，我们平时聊他们聊得还不够多。"
+    },
+    {
+      "id": 45,
+      "start_sec": 476,
+      "speaker": "Brian Sumers",
+      "en": "Brett, I'll get into Delta in a moment. But if you really want to see people among airlines in the same alliance fight with each other, you should ask them about reciprocal elite access for lounges. Because you have airlines taking care of another airline's customers, and there's a question of who's paying, and how much they're paying, and how much they contribute to the overcrowding at the lounge. It is absolutely nuts.",
+      "zh": "Brett，我等会儿就讲 Delta。但如果你真想看同一个航空联盟里的各家航司互相掐架，你就去问问他们关于贵宾室对等准入权益的事。因为这涉及到一家航司在招待另一家航司的客户，由此就引出了谁来买单、付多少钱、以及他们给休息室拥挤程度带来了多大负担等问题。这简直让人抓狂。"
+    },
+    {
+      "id": 46,
+      "start_sec": 504,
+      "speaker": "Brian Sumers",
+      "en": "But back to Delta right now. I think you want me to walk you through how you get into a Delta Sky Club, is that right, Brett?",
+      "zh": "但言归正传，回到 Delta。我想你是想让我梳理一下怎样才能进 Delta Sky Club，对吧，Brett？"
+    },
+    {
+      "id": 47,
+      "start_sec": 512,
+      "speaker": "Brett Snyder",
+      "en": "Yes, please do. I think our listeners will love it for the first 20 minutes.",
+      "zh": "没错，赶紧讲吧。我想我们的听众前 20 分钟肯定会听得津津有味。"
+    },
+    {
+      "id": 48,
+      "start_sec": 516,
+      "speaker": "Brian Sumers",
+      "en": "No, Brett, I'm just not going to do it. I went to a journalism school, this was in a different time, and we learned that we should do everything we can to not make mistakes, double-check everything.",
+      "zh": "别，Brett，我才不干呢。我以前念新闻学院的时候——那还是另一个时代了——我们学到的是必须竭尽所能避免出错，凡事都要反复核实。"
+    },
+    {
+      "id": 49,
+      "start_sec": 529,
+      "speaker": "Brian Sumers",
+      "en": "And so I went to the Delta Sky Club website, this is on delta.com, and I tried to get through all 5,000 words, actually a little...",
+      "zh": "所以我特意去了 Delta 官网上的 Delta Sky Club 页面，硬着头皮想把整整 5000 多字全看完，其实稍微……"
+    },
+    {
+      "id": 50,
+      "start_sec": 540,
+      "speaker": "Brian Sumers",
+      "en": "more than 5,000 words that told me who can and cannot use the Sky Club under all sorts of circumstances, and how long these people can stay in the club, and when they can arrive. And some people get unlimited visits, and some people get capped visits. Some partner customers can get in, some cannot.",
+      "zh": "足足超过五千字，事无巨细地罗列了各种情况下谁能进、谁不能进飞凡贵宾室（Sky Club），以及这些人能在里面呆多久、什么时候可以进去。有些人可以无限次出入，有些人有次数上限。有些合作航司的旅客能进，有些又不能。"
+    },
+    {
+      "id": 51,
+      "start_sec": 560,
+      "speaker": "Brian Sumers",
+      "en": "I realized very quickly that I could not summarize that for this podcast. I follow this stuff every day. As Jon mentioned, I love a lounge. Not even I can navigate this system.",
+      "zh": "我很快意识到，我根本没办法在播客里把这些给总结清楚。我天天都在跟进这些资讯，而且就像 Jon 说的，我非常喜欢逛休息室。连我都理不清这套规则。"
+    },
+    {
+      "id": 52,
+      "start_sec": 573,
+      "speaker": "Brian Sumers",
+      "en": "And frankly, I think this is going to catch up with Delta at some point. When customers can't understand something or they've paid for something but they can't get in, I think they feel very frustrated.",
+      "zh": "坦白讲，我认为达美航空总有一天要为这买单。当旅客搞不懂规则，或者花了钱却进不去时，他们会觉得极度受挫。"
+    },
+    {
+      "id": 53,
+      "start_sec": 587,
+      "speaker": "Brian Sumers",
+      "en": "Have you ever seen if you go to a lounge somebody standing there believing that they can get in and then they're told they can't get in? Is there like a worse feeling? Do you see the way their faces look?",
+      "zh": "你们在休息室见过那种场景吗？有人站在门口满心以为自己能进，结果却被告知无法入内？还有比这更糟糕的感觉吗？你们注意到他们脸上的表情了吗？"
+    },
+    {
+      "id": 54,
+      "start_sec": 598,
+      "speaker": "Jon Ostrower",
+      "en": "There's got to be like a 37-letter German word for how that feels.",
+      "zh": "德语里肯定有一个长达37个字母的复合词，专门用来形容这种心情。"
+    },
+    {
+      "id": 55,
+      "start_sec": 603,
+      "speaker": "Brett Snyder",
+      "en": "I understand that that will happen. I just don't know why Delta has to play the womp womp sound. It just seems mean.",
+      "zh": "我理解这种情况在所难免。我只是搞不懂达美为什么非得放那种“噔噔蹬”的扫兴音效，未免有点太损了。"
+    },
+    {
+      "id": 56,
+      "start_sec": 610,
+      "speaker": "Brett Snyder",
+      "en": "To be fair though, customers don't really have to understand the rules. They can just be told if they qualify or not. Like you scan, it'll tell you and or I don't know, probably shows on the website. But where I think it does get sticky is when someone's proactive in advance and they want to ensure they have access. Maybe their ticket doesn't grant it. Then they have to figure out how to understand it, and that is that's hard.",
+      "zh": "不过平心而论，旅客倒也不需要完全搞懂规则。他们只需被告知符不符合资格就行了，比如扫一下登机牌系统就会显示，或者官网大概也能查到。但我认为真正棘手的是，有人提前做功课想确保自己能进，而手里的机票本身又不包含准入权益。这时他们就得想方设法去研究规则，而那确实太费劲了。"
+    },
+    {
+      "id": 57,
+      "start_sec": 634,
+      "speaker": "Brian Sumers",
+      "en": "The question is, why has this become such a Frankenstein monster? And the problem is because the money is so darn good. So we pretty much think, correctly I suppose, that Delta understands it has a problem.",
+      "zh": "问题在于，这套规则怎么就演变成了这样一个科学怪人般的缝合怪物？症结就在于这里面的利润实在太丰厚了。所以大家普遍认为——我猜也是对的——达美其实心知肚明自己面临的问题。"
+    },
+    {
+      "id": 58,
+      "start_sec": 651,
+      "speaker": "Brian Sumers",
+      "en": "But there are so many different ways that the program is earning money from these lounges, so they just kind of keep changing the rules to try to hold everything together.",
+      "zh": "但由于这项计划从休息室变现的渠道实在太多，他们只能不断修改细则，勉强维持运转。"
+    },
+    {
+      "id": 59,
+      "start_sec": 662,
+      "speaker": "Jon Ostrower",
+      "en": "And this is before we even talking about credit card access, right?",
+      "zh": "这还甚至都没聊到信用卡准入权益呢，对吧？"
+    },
+    {
+      "id": 60,
+      "start_sec": 665,
+      "speaker": "Brian Sumers",
+      "en": "Yeah, the credit cards have pretty much changed the game. I don't think airlines expected the credit card business as far as lounges to be so popular. For a long time, a lot of people who had these co-brand cards or even American Express in Delta's case could go to the lounge an unlimited number of times.",
+      "zh": "没错，信用卡基本上彻底改变了行业格局。我觉得航司当初根本没料到信用卡关联休息室的业务会火到这个地步。在很长一段时间里，持有这些联名信用卡、或者在达美的案例中持有运通卡的用户，都可以无限次出入休息室。"
+    },
+    {
+      "id": 61,
+      "start_sec": 688,
+      "speaker": "Brian Sumers",
+      "en": "But that got a little hairy. People started getting there very, very early. They started going there for a very long time.",
+      "zh": "但这后来变得有些失控了。大家开始起得极早去休息室，一呆就是非常久。"
+    },
+    {
+      "id": 62,
+      "start_sec": 695,
+      "speaker": "Brian Sumers",
+      "en": "And so we just got into this position where airlines couldn't say no to the revenue, but they had to start saying no to some of the people that were coming in some of the time. So the basics of the Delta program, essentially if you spend a lot of money every year, you're going to get unlimited visits, but everybody else is capped.",
+      "zh": "于是就演变成了这样一种局面：航司既舍不得放弃这笔营收，又不得不开始在某些时段将一部分人拒之门外。所以达美计划的核心逻辑在于，如果你每年消费极高，就能享受无限次进入；而其他所有人都受到出入次数上限的限制。"
+    },
+    {
+      "id": 63,
+      "start_sec": 716,
+      "speaker": "Jon Ostrower",
+      "en": "All right. So the these are just broad strokes and it's already taken us what, 5 minutes?",
+      "zh": "好吧。这还只是粗线条地讲讲，就已经耗了我们差不多五分钟了？"
+    },
+    {
+      "id": 64,
+      "start_sec": 720,
+      "speaker": "Brett Snyder",
+      "en": "It's like if we actually get into this, this would take the entire 30 minutes, just explaining how to get in.",
+      "zh": "要是我们真去细抠这个，光是解释怎么进贵宾室就得花掉整整30分钟。"
+    },
+    {
+      "id": 65,
+      "start_sec": 726,
+      "speaker": "Brian Sumers",
+      "en": "Well, the easiest way to get in apparently Brett is a credit card that you you must have. I don't know, do you have a black card? Because if you do, I guess you get unlimited visits to the Delta Sky Club. But there are still a lot of other rules. Do not get there 3 hours and 1 minute before your flight.",
+      "zh": "好吧，Brett，显然最简单的准入方式就是一张你肯定有的信用卡。我不知道，你有一张黑卡吗？因为如果你有的话，我想你就可以无限次进出达美航空飞凡贵宾室（Delta Sky Club）。但依然还有很多其他限制。千万别在起飞前3小时零1分钟就跑过去。"
+    },
+    {
+      "id": 66,
+      "start_sec": 744,
+      "speaker": "Brett Snyder",
+      "en": "Yeah, also it's still only on Delta or Delta Connection-operated flights or if you're on a Delta-marketed flight operated by WestJet only. And don't buy basic. If you buy basic ticket, it doesn't matter what you spend, even the black card I think they're going to kick you out of there.",
+      "zh": "对，而且依然仅限乘坐达美或达美联运（Delta Connection）实际承运的航班，或者仅限西捷航空承运的达美挂牌航班。还有千万别买基础经济舱。要是买了基础经济舱机票，不管你花了多少钱，就算刷黑卡我估计他们也会把你轰出去。"
+    },
+    {
+      "id": 67,
+      "start_sec": 759,
+      "speaker": "Brian Sumers",
+      "en": "Brett, you usually pick on American so much, which actually has pretty liberal lounge access rules. Why are you getting so angry at Delta today?",
+      "zh": "Brett，你平时老爱揪着美航（American Airlines）不放，人家的贵宾室准入规则其实还挺宽容的。今天怎么冲着达美发这么大火？"
+    },
+    {
+      "id": 68,
+      "start_sec": 768,
+      "speaker": "Brett Snyder",
+      "en": "We never talk about Delta, but Delta's also the airline that has had the most visible issues with lounges and lines and all that. So seemed like the most obvious one to take a look at.",
+      "zh": "我们很少聊达美，但达美也是在贵宾室和排长队等问题上暴露得最明显的航司。所以拿它来开刀似乎最理所当然。"
+    },
+    {
+      "id": 69,
+      "start_sec": 780,
+      "speaker": "Brett Snyder",
+      "en": "We've been just kind of rambling all over the place. This boils down to three different things, right? You can either pay the ever-increasing annual membership fee, you can buy a premium ticket, or you can get a credit card.",
+      "zh": "我们刚才扯得有点散了。其实归结起来无非就三条途径，对吧？要么去交那水涨船高的年度会员费，要么买一张高端舱位机票，要么就办一张信用卡。"
+    },
+    {
+      "id": 70,
+      "start_sec": 794,
+      "speaker": "Brett Snyder",
+      "en": "Yeah, maybe there's some corner cases, but these are pretty much your options, right?",
+      "zh": "没错，可能还有少数极端特例，但基本上就这几样可选，对吧？"
+    },
+    {
+      "id": 71,
+      "start_sec": 798,
+      "speaker": "Brian Sumers",
+      "en": "Yeah, pretty much.",
+      "zh": "对，差不多就是这样。"
+    },
+    {
+      "id": 72,
+      "start_sec": 799,
+      "speaker": "Brett Snyder",
+      "en": "This brings us to the heart of this discussion, which is that this is not about generating actual loyalty. This is about selling more benefits to the credit card companies and then, you know, reaping the benefits, making the cash out of it.",
+      "zh": "这就触及了我们今天讨论的核心，那就是这根本无关培养真正的旅客忠诚度。这纯粹是为了向信用卡公司打包出售更多权益，进而坐收渔利、从中大捞一笔。"
+    },
+    {
+      "id": 73,
+      "start_sec": 812,
+      "speaker": "Brian Sumers",
+      "en": "Yeah, Brett, that's exactly it. Let's remember why you get so many sweeteners when you apply for a credit card. You get the sign-up bonus, and then you rack up points as you go along.",
+      "zh": "没错，Brett，一点都没错。咱们来回想一下，为什么你申请信用卡时会拿到那么多甜头。你会拿到开卡礼遇，然后一边消费一边不断攒积分。"
+    },
+    {
+      "id": 74,
+      "start_sec": 827,
+      "speaker": "Brian Sumers",
+      "en": "The idea to this is that you keep using the card. And if you keep using the card, everyone's going to be very happy. The airline is going to get paid for every point, and then the bank is going to earn money as well from those very lucrative swipe fees.",
+      "zh": "这么做的目的就是让你一直刷卡。只要你持续刷卡，大家就皆大欢喜。航司能从每个积分里抽成，而银行也能从极其丰厚的手续费（刷卡费）中大赚特赚。"
+    },
+    {
+      "id": 75,
+      "start_sec": 845,
+      "speaker": "Brian Sumers",
+      "en": "The thing that a lot of customers don't understand, because I think I've established that customers are entirely irrational, is that it's kind of one or the other. Either you can have a credit card that, say, gives you two points each on every dollar you spend—those are my favorite, by the way—or you can have an American Express Platinum card. You get access to all these wonderful lounges, but guess what? On most things that you buy, you're only getting one point per dollar.",
+      "zh": "很多客户不明白的一点是——我想我已经证明过客户往往完全是非理性的——这其实是一道单选题。要么你持有一张比如每消费一美元能返两点的信用卡——顺便说一句，这是我的最爱；要么你办一张运通白金卡，你能进出所有这些高端贵宾室，但你猜怎么着？大部分日常消费，你每美元只能积一分。"
+    },
+    {
+      "id": 76,
+      "start_sec": 877,
+      "speaker": "Brian Sumers",
+      "en": "So the airline is getting paid either way. They're either getting paid per point, or they're getting paid to let people into these lounges. But it's the same thing. You give people something \"for free\"—that's in air quotes—and they get very excited.",
+      "zh": "所以航司横竖都有钱赚。他们要么按积分收费，要么收钱让人进贵宾室。但本质上都是一码事。你给旅客一点所谓的“免费”甜头——这里打个双引号——他们就激动得不行。"
+    },
+    {
+      "id": 77,
+      "start_sec": 892,
+      "speaker": "Brett Snyder",
+      "en": "Yeah. And then they can go hang out in an entry-level lounge somewhere, maybe get a couple...",
+      "zh": "是啊。然后他们就能跑去某个入门级休息室泡着，也许还能喝上几杯……"
+    },
+    {
+      "id": 78,
+      "start_sec": 900,
+      "speaker": "Brian Sumers",
+      "en": "...crackers. Brett, are you suggesting that the underground bunker of a United Club that I was in at Dulles on Sunday isn't fancy?",
+      "zh": "……苏打饼干。Brett，难道你是想说，我周日在杜勒斯机场待过的那个美联航贵宾室地下掩体不够高级吗？"
+    },
+    {
+      "id": 79,
+      "start_sec": 909,
+      "speaker": "Brett Snyder",
+      "en": "No windows whatsoever! Could have been a bomb shelter.",
+      "zh": "连一扇窗户都没有！简直跟个防空洞似的。"
+    },
+    {
+      "id": 80,
+      "start_sec": 913,
+      "speaker": "Jon Ostrower",
+      "en": "The funny thing is, I actually spent a good amount of time in that bunker during my DC days. It's really good to know the experience there has not changed at all. Well, I think what this really gets to is also the idea that the airport experience is kind of horrible.",
+      "zh": "好笑的是，我以前常驻华盛顿时，在那个“掩体”里泡过很长时间。得知那里的体验一点没变，可真让人欣慰。不过，我认为这真正触及的核心问题是：机场的整体体验实在是有点糟糕。"
+    },
+    {
+      "id": 81,
+      "start_sec": 929,
+      "speaker": "Jon Ostrower",
+      "en": "And I'd say the airport experience from the perspective of like, do you really want to pay $12 for a very, very sad turkey sandwich?",
+      "zh": "我说的机场体验是从这种角度来看的：你真的愿意花12美元买一个惨不忍睹的火鸡三明治吗？"
+    },
+    {
+      "id": 82,
+      "start_sec": 936,
+      "speaker": "Brett Snyder",
+      "en": "Where are you going to get a $12 sandwich?",
+      "zh": "你去哪儿能买到才12块钱的三明治啊？"
+    },
+    {
+      "id": 83,
+      "start_sec": 937,
+      "speaker": "Brian Sumers",
+      "en": "Well, where is that? It's like 20.",
+      "zh": "就是，在哪儿能买到？现在都快20块了吧。"
+    },
+    {
+      "id": 84,
+      "start_sec": 939,
+      "speaker": "Jon Ostrower",
+      "en": "Oh, sorry, that's the discount bin.",
+      "zh": "噢，不好意思，我说的是特价打折区的价格。"
+    },
+    {
+      "id": 85,
+      "start_sec": 942,
+      "speaker": "Brian Sumers",
+      "en": "Oh.",
+      "zh": "噢。"
+    },
+    {
+      "id": 86,
+      "start_sec": 943,
+      "speaker": "Jon Ostrower",
+      "en": "No, but seriously, like it's a $15 turkey sandwich. By the way, that's before the $7 iced coffee, right? All of a sudden, you're up to $25 with tip.",
+      "zh": "不过说真的，比如一个火鸡三明治要15块。顺便说一句，这还没算上一杯7块钱的冰咖啡，对吧？转眼之间，加上小费你就要掏25美元了。"
+    },
+    {
+      "id": 87,
+      "start_sec": 953,
+      "speaker": "Jon Ostrower",
+      "en": "I'd rather go sit at a lounge where I have stable Wi-Fi. I don't need to worry about my luggage getting lifted. People just have peace of mind when they walk into a lounge because the airport experience is so chaotic. So, yes, it really does become a thing that people disproportionately weight relative to sitting in a terminal.",
+      "zh": "我宁愿去贵宾室坐着，那里有稳定的Wi-Fi，我也不用担心行李被顺手牵羊。大家走进休息室时心里会踏实得多，毕竟候机大厅的环境太混乱了。所以，相比坐在普通航站楼里，人们对休息室的偏好确实被极大地放大了。"
+    },
+    {
+      "id": 88,
+      "start_sec": 974,
+      "speaker": "Brian Sumers",
+      "en": "My favorite part about the lounge community is those people that try to either eat or drink alcohol on their way to break even. Have you guys ever seen that?",
+      "zh": "关于贵宾室这群人，我最喜欢看的就是那些拼命吃吃喝喝、非要把门票钱给吃回本的人。你们见过这种场面吗？"
+    },
+    {
+      "id": 89,
+      "start_sec": 985,
+      "speaker": "Jon Ostrower",
+      "en": "You get your liver's worth.",
+      "zh": "那可真是拿肝在回本啊。"
+    },
+    {
+      "id": 90,
+      "start_sec": 986,
+      "speaker": "Brian Sumers",
+      "en": "But the thing is, as you say, most of these lounges in the United States, especially the entry-level ones, are not particularly nice. They're fine. People think they're exclusive, they're not.",
+      "zh": "但问题在于，正如你所说，美国大多数机场休息室，特别是入门级的那些，其实也没多好。就还过得去吧。大家以为那里很尊贵专属，其实根本不是。"
+    },
+    {
+      "id": 91,
+      "start_sec": 999,
+      "speaker": "Brian Sumers",
+      "en": "Remember the old Groucho Marx quote, \"I refuse to join any club that would have me as a member\"? All these clubs would have me as a member, so not cool.",
+      "zh": "还记得格劳乔·马克斯的那句名言吗：“我拒绝加入任何愿意接纳我为会员的俱乐部。”既然所有这些俱乐部都愿意接纳我，那就说明它也没啥了不起的。"
+    },
+    {
+      "id": 92,
+      "start_sec": 1007,
+      "speaker": "Jon Ostrower",
+      "en": "I, too, refuse to join any club that would have you as a member.",
+      "zh": "我也拒绝加入任何愿意接纳你为会员的俱乐部。"
+    },
+    {
+      "id": 93,
+      "start_sec": 1011,
+      "speaker": "Brett Snyder",
+      "en": "I don't think this is a surprise to anybody, but I am not a fan of lounges at all. I have used them. Was it awesome that I got to board directly from the lounge that one time I flew Concorde? Hell yeah.",
+      "zh": "我想这对大家来说都不算意外，我向来对贵宾室毫无兴趣。我也用过它们。以前我坐协和超音速客机那次，直接从休息室登机爽不爽？那当然爽爆了。"
+    },
+    {
+      "id": 94,
+      "start_sec": 1023,
+      "speaker": "Brett Snyder",
+      "en": "But honestly, that's pretty much all I cared about. I don't care about the fancy food and drinks, if they are indeed fancy. I don't care about the made-to-order guacamole.",
+      "zh": "但老实讲，我也就只在乎这一点了。我根本不在乎什么高级餐饮——如果它们真算得上高级的话；我也对什么现做牛油果酱毫无兴趣。"
+    },
+    {
+      "id": 95,
+      "start_sec": 1032,
+      "speaker": "Brian Sumers",
+      "en": "Look, you just said something nice about American Airlines.",
+      "zh": "看吧，你刚才还夸了一句美国航空呢。"
+    },
+    {
+      "id": 96,
+      "start_sec": 1035,
+      "speaker": "Brett Snyder",
+      "en": "I said I don't care about it.",
+      "zh": "我说的是我根本不在乎！"
+    },
+    {
+      "id": 97,
+      "start_sec": 1036,
+      "speaker": "Brian Sumers",
+      "en": "Well, we all know what you mean.",
+      "zh": "行啦，大家都懂你的意思。"
+    },
+    {
+      "id": 98,
+      "start_sec": 1037,
+      "speaker": "Brett Snyder",
+      "en": "Okay, but I also don't care about the signature cocktails like the United Polaris Star. I don't care about any of this. I just want to go to the airport as late as possible so I can get on my flight and leave.",
+      "zh": "行，但我同样对美联航Polaris特调星空鸡尾酒之类的招牌饮品不感冒。所有这些我通通不在乎。我只想尽可能压哨赶到机场，直接登机走人。"
+    },
+    {
+      "id": 99,
+      "start_sec": 1046,
+      "speaker": "Jon Ostrower",
+      "en": "Are you sure you're a dad?",
+      "zh": "你确定你已经当爹了吗？"
+    },
+    {
+      "id": 100,
+      "start_sec": 1048,
+      "speaker": "Brett Snyder",
+      "en": "I don't...",
+      "zh": "我不……"
+    },
+    {
+      "id": 101,
+      "start_sec": 1049,
+      "speaker": "Jon Ostrower",
+      "en": "Just throwing that out there. But in all seriousness, I think it's about being able to walk through an area of the airport with food in your hands while you're not pulling your luggage along with it.",
+      "zh": "我就是随口调侃一下。但说正经的，我觉得核心在于你能手里拿着吃的在机场里走动，而且不用手忙脚乱地拖着行李箱到处转。"
+    },
+    {
+      "id": 102,
+      "start_sec": 1059,
+      "speaker": "Brian Sumers",
+      "en": "Brett, I don't hate lounges as much as you do, but I get the idea. If you're a road warrior, you're getting to these airports as late as possible, usually.",
+      "zh": "Brett，我没你那么反感休息室，但我理解你的想法。如果你是个经常出差的空中飞人，通常都会尽可能卡着点去机场。"
+    },
+    {
+      "id": 103,
+      "start_sec": 1068,
+      "speaker": "Brian Sumers",
+      "en": "When we talk to airline executives who fly for a living, aren't they always telling us, \"Oh, I got there 17 minutes before the flight, right? And I made it.\" That's kind of a street cred thing.",
+      "zh": "当我们跟那些常年在天上飞的航司高管聊天时，他们不也总是在吹嘘：“哎呀，我起飞前17分钟才赶到机场，依然赶上了飞机。”这简直成了他们彰显资深飞行资历的一种资本。"
+    },
+    {
+      "id": 104,
+      "start_sec": 1080,
+      "speaker": "Brian Sumers",
+      "en": "Uh it's only the amateurs that get there so early. All that said, I have access to a few lounges and, of course, I go. Sometimes I go because I did the timing uh wrong and I I get to the airport too early.",
+      "zh": "只有外行才会去那么早。话虽如此，我确实能进几家休息室，当然我也常去。有时去是因为我时间没算准，到机场太早了。"
+    },
+    {
+      "id": 105,
+      "start_sec": 1094,
+      "speaker": "Brian Sumers",
+      "en": "Sometimes I go because I get to the airport just 30 minutes before my flight, and I realize I can still dip into the United Club at LAX, get my free Illy coffee, and maybe some Greek yogurt, and just have that little snack and get right on the plane. Just another uh United-based side note, the Greek yogurt is the best thing you have going for you at the LAX lounge, and if you get rid of it, I'm never going to uh fly United again.",
+      "zh": "有时去则是因为我起飞前30分钟才到机场，但我发现自己还能顺道去一下洛杉矶机场的 United Club，拿杯免费的意利咖啡，再拿点希腊酸奶，吃点小零食就直接登机。顺便插一句关于美联航的话：希腊酸奶是洛杉矶休息室最棒的东西，要是你们敢撤掉，我就再也不坐美联航了。"
+    },
+    {
+      "id": 106,
+      "start_sec": 1119,
+      "speaker": "Jon Ostrower",
+      "en": "You hear that, United Airlines?",
+      "zh": "美联航，听到了吗？"
+    },
+    {
+      "id": 107,
+      "start_sec": 1121,
+      "speaker": "Brett Snyder",
+      "en": "You're not selling me on this. Cuz the greatest lounge thing I know of is Alaska's pancake machines. So, I am clearly in a different place than you are.",
+      "zh": "你这话可打动不了我。因为据我所知，休息室里最棒的配置是阿拉斯加航空的自动松饼机。显然我和你们不在一个层面上。"
+    },
+    {
+      "id": 108,
+      "start_sec": 1129,
+      "speaker": "Jon Ostrower",
+      "en": "My kids love that. I'm a big pancake machine fan.",
+      "zh": "我家孩子超喜欢那个。我也超喜欢那台松饼机。"
+    },
+    {
+      "id": 109,
+      "start_sec": 1133,
+      "speaker": "Brett Snyder",
+      "en": "But I still I don't care about any of this though. Like, I don't drink coffee anyway, whatever. I'll drink tea on an airplane, and yes, from the tank water, oh my god, like, I don't care.",
+      "zh": "但我依然不在乎这些东西。反正我也不喝咖啡，无所谓。我在飞机上会喝茶，没错，就是用机上水箱里的水泡的，我的天，但我真的不在乎。"
+    },
+    {
+      "id": 110,
+      "start_sec": 1145,
+      "speaker": "Jon Ostrower",
+      "en": "There's something floating in it.",
+      "zh": "里面还漂着东西呢。"
+    },
+    {
+      "id": 111,
+      "start_sec": 1146,
+      "speaker": "Brett Snyder",
+      "en": "That's Shh! Don't worry about it. It's flavor. I At an airport, though, I disagree with you on this, Jon. Like, my favorite thing to do at an airport, I don't think it sucks.",
+      "zh": "那……嘘！别在意，那是风味。不过在机场里，关于这点我不同意你的看法，Jon。我在机场最喜欢做的事，我觉得并没那么糟。"
+    },
+    {
+      "id": 112,
+      "start_sec": 1156,
+      "speaker": "Brett Snyder",
+      "en": "I think you just find a quiet corner at a gate that isn't being used, and just sit there. And maybe that's not possible at O'Hare, where everyone's trying to beat the crap out of each other, but",
+      "zh": "我觉得只要找一个没在使用的登机口安静角落，往那一坐就行。也许在奥黑尔机场做不到，毕竟那里每个人都像要打架似的，但是……"
+    },
+    {
+      "id": 113,
+      "start_sec": 1164,
+      "speaker": "Jon Ostrower",
+      "en": "Or Sea-Tac.",
+      "zh": "或者西雅图机场。"
+    },
+    {
+      "id": 114,
+      "start_sec": 1165,
+      "speaker": "Brett Snyder",
+      "en": "Maybe. But, right, you can usually find a gate where there's room to sit, and, you know, power outlet, there's Wi-Fi. I don't need anything else. It's not 100% guaranteed, but I don't need to go sit in a lounge which is overcrowded and I probably can't find a a seat anyway.",
+      "zh": "也许吧。但通常你总能找到一个有座位的登机口，有电源插座，有 Wi-Fi。我不需要别的东西。虽然不是百分之百能找到，但我真没必要非去挤休息室，里面人满为患，八成连个座位都找不到。"
+    },
+    {
+      "id": 115,
+      "start_sec": 1179,
+      "speaker": "Jon Ostrower",
+      "en": "I would just say I've done probably some of my best writing in airport lounges over the years. There's something There's something about free coffee and and a and a view of an airplane that just kind of I don't know, it gets the juices flowing.",
+      "zh": "我只想说，这些年来我写过的一些最好文章，大概就是在机场休息室里写出来的。免费的咖啡，再加上机坪机景，不知道为什么，就是能激发灵感。"
+    },
+    {
+      "id": 116,
+      "start_sec": 1189,
+      "speaker": "Brett Snyder",
+      "en": "Congratulations, Hemingway. Uh",
+      "zh": "恭喜你啊，海明威。"
+    },
+    {
+      "id": 117,
+      "start_sec": 1192,
+      "speaker": "Brian Sumers",
+      "en": "Guys, uh so uh there was a Morgan Stanley uh conference last week, and Tom Doxey of Southwest, the CFO, gave some interesting information about why Southwest is doing lounges. And we've poo-pooed them a little bit, but we fly so much, and we spend a lot of time in lounges, and we know really most of them are not that great.",
+      "zh": "各位，上周摩根士丹利开了一场投资会，西南航空的首席财务官 Tom Doxey 透露了一些非常有趣的信息，解释了西南航空为什么要建休息室。我们之前对此有点不屑一顾，但那是因为我们飞得太多了，在休息室待的时间太长，深知大多数休息室其实根本没那么好。"
+    },
+    {
+      "id": 118,
+      "start_sec": 1214,
+      "speaker": "Brian Sumers",
+      "en": "But what he said is there's an aspirational level of people who maybe fly less than we do. And to them, they feel like they've made it when they get lounge access. He said people were begging Southwest to add lounges.",
+      "zh": "但他说的是，对于那些飞行频率不如我们高的人来说，这是一种向往和身份象征。对他们而言，能进休息室就意味着自己“混得成功了”。他说旅客之前一直在恳求西南航空增设休息室。"
+    },
+    {
+      "id": 119,
+      "start_sec": 1230,
+      "speaker": "Brian Sumers",
+      "en": "And I know we can be skeptical of that, like who's going to ask an airline for something? But I kind of get it. If you look at these people that generally are uh applying for these cobrand credit cards with lounge access, they're moving up in their lives, and to them it means something to get in.",
+      "zh": "我知道我们可能会对此表示怀疑，比如谁会主动向航司要求什么呢？但我多少能理解。如果你观察一下那些通常申请带休息室权益联名信用卡的人群，他们正处于人生的上升期，能够进休息室对他们来说意义非凡。"
+    },
+    {
+      "id": 120,
+      "start_sec": 1250,
+      "speaker": "Brian Sumers",
+      "en": "And Doxey also said that this old thing where business travelers were wanted to go in and everything like that, it still exists, but not in the same way.",
+      "zh": "Doxey 还提到，以前那种商旅人士特别想进休息室的现象虽然依然存在，但性质已经不同了。"
+    },
+    {
+      "id": 121,
+      "start_sec": 1258,
+      "speaker": "Brett Snyder",
+      "en": "Yeah, but",
+      "zh": "没错，但是……"
+    },
+    {
+      "id": 122,
+      "start_sec": 1260,
+      "speaker": "Brett Snyder",
+      "en": "Southwest first of all is only doing it because the credit card money. But this...",
+      "zh": "首先，西南航空这么做纯粹是因为联名卡带来的收益。但……"
+    },
+    {
+      "id": 123,
+      "start_sec": 1265,
+      "speaker": "Brian Sumers",
+      "en": "But the—but the reason that the credit card money is there is because consumers want the access.",
+      "zh": "但是，联名卡能赚到这笔钱，正是因为消费者想要休息室的准入权益。"
+    },
+    {
+      "id": 124,
+      "start_sec": 1271,
+      "speaker": "Brett Snyder",
+      "en": "Right, because consumers—the people that you're talking about, not the road warriors, but these are people that, you know, they look on Instagram, and they see their favorite influencer hanging out in a lounge and making it seem all cool.",
+      "zh": "没错，因为你说的这类消费者并不是那些常旅客出差党，而是那些在 Instagram 上看到自己喜欢的网红在休息室打卡、显得格外光鲜的人群。"
+    },
+    {
+      "id": 125,
+      "start_sec": 1283,
+      "speaker": "Brett Snyder",
+      "en": "And that's great. But now, it's becoming too pedestrian even just for that. That's why you need these higher-level lounges, like the Delta One Lounge, or the Polaris Lounge, or the Flagship Lounge.",
+      "zh": "这本无可厚非。但现在连这种体验都变得太大众化了。这也是为什么航司需要推出更高级别的休息室，比如 Delta One 贵宾室、北极星休息室（Polaris Lounge）或 Flagship 贵宾室。"
+    },
+    {
+      "id": 126,
+      "start_sec": 1294,
+      "speaker": "Brett Snyder",
+      "en": "Because now those are higher-level, and you have to be even more special. Although those, to be fair, are mostly still meant for people who travel a lot or pay a lot of money to travel. Those are the only ones left that are kind of tied to the actual ticket.",
+      "zh": "因为这些休息室门槛更高，你必须更特别才能进。不过平心而论，这些休息室在很大程度上仍是为那些频繁出行的常客，或肯花大价钱买高端舱位的人准备的。它们也是仅存的几种与实际机票舱位直接挂钩的休息室了。"
+    },
+    {
+      "id": 127,
+      "start_sec": 1310,
+      "speaker": "Jon Ostrower",
+      "en": "I will just say that as someone who I think I travel the most out of all of us, like I am a bit of a road warrior. When you're grinding, having a place to sit that is comfortable and quiet, and you can have a free cup of coffee or a pancake, it really takes the edge off if you're flying 35 times a year.",
+      "zh": "我只想说，作为我们几个人里可能出差最频繁的人，我算是个标准的常旅客。当你在旅途中奔波劳顿，能有一个舒适、安静的角落坐下，喝杯免费咖啡或吃块松饼，对一年飞 35 次的人来说，确实能大大缓解疲惫。"
+    },
+    {
+      "id": 128,
+      "start_sec": 1328,
+      "speaker": "Brian Sumers",
+      "en": "I think you're right, Jon. And it's a very good product for airlines to have. It's one of those win-wins: consumers really like them, and they can be very lucrative for airlines.",
+      "zh": "我觉得你说得很对，Jon。对航司来说，这也是一款非常出色的产品。这是一个典型的双赢局面：消费者非常喜欢，而航司也能借此大赚一笔。"
+    },
+    {
+      "id": 129,
+      "start_sec": 1341,
+      "speaker": "Brett Snyder",
+      "en": "All right, well, I'm definitely the contrarian here again, but that doesn't really matter because we know people want this. We know that they are building ever larger lounges. And this is the way of the lounge world right now.",
+      "zh": "好吧，看来我又成了唱反调的那个人。但这并不重要，因为我们知道旅客确实有这个需求，也知道航司正在建造规模越来越大的休息室。这就是当下贵宾室领域的常态。"
+    },
+    {
+      "id": 130,
+      "start_sec": 1356,
+      "speaker": "Brett Snyder",
+      "en": "It's kind of funny. I was talking about this: on Tuesday, I did a post on Cranky Flier talking about the history of the Phoenix airport and the new expansion plan that they just announced for a new terminal. And people were talking in there about how it desperately needs new lounges.",
+      "zh": "说来挺有意思的，我周二在 Cranky Flier 上发了一篇文章，聊了聊菲尼克斯机场的历史以及他们刚公布的新航站楼扩建计划。评论区里大家都在讨论那里有多么迫切需要新建休息室。"
+    },
+    {
+      "id": 131,
+      "start_sec": 1371,
+      "speaker": "Brett Snyder",
+      "en": "And that's because when it was built, lounges were a small thing, literally physically a small thing. And so they didn't need all this space.",
+      "zh": "这是因为当年建航站楼时，休息室还只是个小众配套，字面意义上的物理面积也很小。所以当时根本不需要留出这么多空间。"
+    },
+    {
+      "id": 132,
+      "start_sec": 1379,
+      "speaker": "Brett Snyder",
+      "en": "And now it's about, okay, build another layer on top of the concourse so we can fill it with a gigantic lounge wherever you go. It has changed airport design. It's gotten to that point where people like it so much.",
+      "zh": "而现在的情况是，好吧，在候机厅上方再建一层，好让我们无论走到哪里都能塞进一个超大型贵宾室。它彻底改变了机场设计，因为旅客对它的狂热已经到了这种地步。"
+    },
+    {
+      "id": 133,
+      "start_sec": 1392,
+      "speaker": "Brett Snyder",
+      "en": "But at the same time, because so many people want it, then you end up having to dilute it to some extent. The experience is diluted, and that's when you start creating these higher-level lounges because the base-level lounge is diluted.",
+      "zh": "但与此同时，因为想进的人太多，你最终不得不进行一定程度的稀释。当服务体验被稀释后，航司就不得不去打造更高阶的休息室，因为基础休息室的体验已经大打折扣。"
+    },
+    {
+      "id": 134,
+      "start_sec": 1406,
+      "speaker": "Brett Snyder",
+      "en": "And then the higher-level lounges—well, this, you know, the more business class travelers you have, then you're going to have more people in the higher-level lounges. And then you're going to need a higher-level lounge within the higher-level lounge.",
+      "zh": "然后这些高阶休息室……你看，商务舱旅客越多，高阶休息室里的人也会越来越多。接着你又得在高阶休息室里再划出一个更顶级的休息室。"
+    },
+    {
+      "id": 135,
+      "start_sec": 1418,
+      "speaker": "Brian Sumers",
+      "en": "Brett, don't get me started on my favorite thing. Have you been to any of these Air France lounges where they have a roped-off couch for their Ultimate members, which is their highest frequent flyer level?",
+      "zh": "Brett，别引我聊我最爱吐槽的事了。你去过法航的休息室吗？他们用警戒绳专门隔出一套沙发，专供其常旅客最高等级的 Ultimate 会员使用。"
+    },
+    {
+      "id": 136,
+      "start_sec": 1430,
+      "speaker": "Brian Sumers",
+      "en": "So it'll be like a crappy lounge, but you get the couch and everybody sees you go inside the rope.",
+      "zh": "整个休息室可能很破旧，但你能坐进那个专属沙发区，所有人都能看着你跨过那道绳子走进去。"
+    },
+    {
+      "id": 137,
+      "start_sec": 1435,
+      "speaker": "Jon Ostrower",
+      "en": "Well, look, I think you're hitting on exactly the point, which is that there are the limits...",
+      "zh": "好了，你看，我觉得你正好切中了核心痛点，那就是……"
+    },
+    {
+      "id": 138,
+      "start_sec": 1440,
+      "speaker": "Jon Ostrower",
+      "en": "to growth. This is like a system level effect of like the of the spillover of aircraft that are now fully stacked with business class seats, each of which in in theory, comes with lounge access. And credit to Simple Flying on this one, they had an interesting article this week that that caught my eye, that there are 48 Polaris seats on each 787 departing LAX.",
+      "zh": "这种增长。这就像是一种系统层面的溢出效应：现在的飞机排满了商务舱座位，而理论上每个座位都享有休息室准入权。这里要称赞一下 Simple Flying，他们本周有一篇有趣的报道引起了我的注意，从 LAX 起飞的每架 787 客机上都配有 48 个 Polaris 商务舱座位。"
+    },
+    {
+      "id": 139,
+      "start_sec": 1461,
+      "speaker": "Jon Ostrower",
+      "en": "But within the same hour, give or take, Sydney, Melbourne, Hong Kong, and Beijing all leave at the same time. That means that there are 192 business class passengers on across those four aircraft trying to get into a lounge that doesn't have that many seats.",
+      "zh": "但在大约同一小时内，飞往悉尼、墨尔本、香港和北京的航班同时出港。这意味着这四架飞机上共有 192 名商务舱旅客试图进入一个根本没有那么多座位的休息室。"
+    },
+    {
+      "id": 140,
+      "start_sec": 1477,
+      "speaker": "Jon Ostrower",
+      "en": "You add connecting passengers and other membership status, and it's prohibitive. It doesn't work anymore. And by the way, that's before you you head toward the new high-J premium configurations, which are coming in with their dozens and dozens of of 787s, and that 192 jumps to 256.",
+      "zh": "再加上中转旅客和其他会员权益拥有者，情况就完全难以承受了，根本无法运转。顺便说一下，这还是在他们引入全新高密度商务舱（High-J）高级客舱布局之前，随着几十架新 787 的交付，这 192 人将直接跃升至 256 人。"
+    },
+    {
+      "id": 141,
+      "start_sec": 1495,
+      "speaker": "Jon Ostrower",
+      "en": "So, there's really no space to take advantage of the premium benefits, even if they're they're offered as part of the airline. And look, LAX is not getting any bigger.",
+      "zh": "所以，即使航司提供了这些高端权益，现场也根本没有空间供人享用。而且你看，LAX 的物理空间又不可能无限扩大。"
+    },
+    {
+      "id": 142,
+      "start_sec": 1504,
+      "speaker": "Brian Sumers",
+      "en": "Well, that is sort of true. They are rebuilding it, and they have put places for all these lounges now. But what you're talking about is is about the lounge within a lounge, just because of the number of premium travelers.",
+      "zh": "嗯，这话算对了一半。他们确实在翻建机场，也为这些休息室规划了场地。但你说的实际上是“休息室里的休息室”，纯粹是因为高端旅客的人数太多了。"
+    },
+    {
+      "id": 143,
+      "start_sec": 1519,
+      "speaker": "Brian Sumers",
+      "en": "But really, what's driving this whole thing is still credit cards, because you have so many more people with lounge access because of the credit cards. And that's what they want. That's what the airlines are are making money on, and so they want to keep pushing that forward, and they just have to figure out how can they accommodate all this.",
+      "zh": "但真正推动这整件事的依然是信用卡，因为通过信用卡获得休息室准入权的人实在太多了。而这正是他们想要的。航司就是靠这个赚钱，所以他们想继续推行，只是必须想办法解决如何容纳这一切。"
+    },
+    {
+      "id": 144,
+      "start_sec": 1540,
+      "speaker": "Jon Ostrower",
+      "en": "Yeah, and there is a limit. That's why the Delta example is clear as mud, right? The credit card companies used to get their way entirely since they were flooding billions into these airlines. But then the lounges were too crowded, and the benefits eroded.",
+      "zh": "没错，凡事都有极限。这就是为什么达美航空（Delta）的例子让人一头雾水，对吧？信用卡公司过去完全占主导地位，因为他们向这些航司注入了数十亿美元的资金。但随后休息室变得极度拥挤，权益大打折扣。"
+    },
+    {
+      "id": 145,
+      "start_sec": 1553,
+      "speaker": "Jon Ostrower",
+      "en": "So, Delta started putting limits in on the number of visits and all that. Credit cards are willing to go along to to an extent, but if the experience is that badly degraded, nobody is going to value the credit card. I mean, what do you get for your money here?",
+      "zh": "于是达美开始对到访次数等设定限制。信用卡公司在一定程度上愿意妥协，但如果体验下降得如此严重，就没有人会觉得这张信用卡有价值了。我的意思是，你花这些钱到底买到了什么？"
+    },
+    {
+      "id": 146,
+      "start_sec": 1566,
+      "speaker": "Jon Ostrower",
+      "en": "Delta had to find a happy medium, but now we have non-airline lounges, which add even more chaos here.",
+      "zh": "达美必须找到一个折中平衡点，但现在我们又有了非航司自营的休息室，这让情况变得更加混乱。"
+    },
+    {
+      "id": 147,
+      "start_sec": 1572,
+      "speaker": "Brian Sumers",
+      "en": "Okay, let's talk about that after the break.",
+      "zh": "好的，我们进段广告，休息回来后再聊这个话题。"
+    },
+    {
+      "id": 148,
+      "start_sec": 1578,
+      "speaker": "Guest",
+      "en": "Extra legroom, priority boarding, lounge access, all of it got unbundled and sold over the past decade. Personal space is the next frontier. The back of the plane is changing.",
+      "zh": "额外腿部空间、优先登机、休息室准入，过去十年里所有这些权益都被拆分并单独售卖。个人空间将是下一个竞争前沿。机舱后部的生态正在发生改变。"
+    },
+    {
+      "id": 149,
+      "start_sec": 1588,
+      "speaker": "Jon Ostrower",
+      "en": "Can we agree that an empty middle seat is one of the great luxuries of flying economy?",
+      "zh": "大家是否都认同：坐经济舱飞行时，旁边有个空着的中间座是莫大的奢求？"
+    },
+    {
+      "id": 150,
+      "start_sec": 1592,
+      "speaker": "Brian Sumers",
+      "en": "Yes, if I have to sit back there. There is no greater feeling than the rush of seeing the door closing and that seat staying empty.",
+      "zh": "是的，如果我不得不坐经济舱的话。没有什么感觉比舱门即将关闭、而那个座位依然空着更让人激动的了。"
+    },
+    {
+      "id": 151,
+      "start_sec": 1599,
+      "speaker": "Jon Ostrower",
+      "en": "Turns out airlines can monetize that experience, too, as they should.",
+      "zh": "事实证明，航空公司完全可以将这种体验变现，他们也确实应该这么做。"
+    },
+    {
+      "id": 152,
+      "start_sec": 1603,
+      "speaker": "Brian Sumers",
+      "en": "They can. And while I love the rush of getting that empty seat, I'd rather be able to pay for more certainty that it'll be blocked. And PlusGrade is helping airlines give customers that option.",
+      "zh": "确实可以。虽然我也享受那种捡到空座的兴奋感，但我更希望能花钱买一个确定的锁座保障。而 PlusGrade 正帮助航司向旅客提供这一选项。"
+    },
+    {
+      "id": 153,
+      "start_sec": 1612,
+      "speaker": "Jon Ostrower",
+      "en": "So, how does it work?",
+      "zh": "那么，这具体是怎么操作的呢？"
+    },
+    {
+      "id": 154,
+      "start_sec": 1614,
+      "speaker": "Brian Sumers",
+      "en": "It's called SeatBlocker. Passengers can pay for the chance to keep the seat beside them empty, or even secure a whole row.",
+      "zh": "它被称为“SeatBlocker”（锁座助手）。旅客可以付费锁定身旁的空位，甚至可以直接锁下一整排。"
+    },
+    {
+      "id": 155,
+      "start_sec": 1620,
+      "speaker": "Brian Sumers",
+      "en": "Here's the smart part. The airline can still sell the seat if demand shows up.",
+      "zh": "巧妙之处在于：如果后续出现购票需求，航司依然可以把这个座位卖出去。"
+    },
+    {
+      "id": 156,
+      "start_sec": 1624,
+      "speaker": "Brett Snyder",
+      "en": "Exactly. And if there's space at departure, the request clears, the passenger gets more room, and the airline earns incremental revenue from a seat that would otherwise fly empty.",
+      "zh": "没错。如果起飞时仍有空位，锁座请求就会生效，旅客获得了更大的空间，而航司则能从原本会空置起飞的座位上赚取增量收入。"
+    },
+    {
+      "id": 157,
+      "start_sec": 1633,
+      "speaker": "Brian Sumers",
+      "en": "No cabin changes, no hard product capital investments, no giving up sellable inventory too early.",
+      "zh": "无需改动客舱，无需在机上硬产品上进行重资本投入，也无需过早放弃可销售的库存。"
+    },
+    {
+      "id": 158,
+      "start_sec": 1638,
+      "speaker": "Brett Snyder",
+      "en": "And nearly 30 airlines are already doing it with Plusgrade. If your empty seats are flying without generating revenue, you're missing out on a great opportunity. See how SeatBlocker works at plusgrade.com.",
+      "zh": "目前已有近30家航司携手Plusgrade应用这项技术。如果您的航班仍有空座在未创造收益的情况下起飞，那您就错失了一大良机。欢迎访问 plusgrade.com 了解 SeatBlocker 的运作机制。"
+    },
+    {
+      "id": 159,
+      "start_sec": 1652,
+      "speaker": "Brett Snyder",
+      "en": "And we're back. So you mentioned non-airline lounges, Jon. There are a ton of different versions of that, too, because you have the basic Priority Pass lounges out there. Most fancy credit cards get you that lounge access, right? And it's sort of a nice backstop for those programs that don't have enough of their own lounges.",
+      "zh": "欢迎回来。Jon，你刚才提到了非航司自营休息室。这类休息室其实也有很多种形态，比如最基础的 Priority Pass（即机场贵宾室计划）休息室。大部分高端信用卡都会附赠这种休息室权益，对吧？对于那些自营休息室不够充足的信用卡计划来说，这也算是一个不错的托底保障。"
+    },
+    {
+      "id": 160,
+      "start_sec": 1672,
+      "speaker": "Brett Snyder",
+      "en": "I have, for the business, we have a Capital One Venture X card that gives that access. I almost never use it. I did have a layover in Puerto Vallarta during my Mexican adventure, so I stopped into the very crowded tiny room there, grabbed a ham sandwich that I wolfed down, and then left.",
+      "zh": "出于业务需要，我们办了一张 Capital One Venture X 信用卡，它就附带这种权益。我几乎没怎么用过。不过之前去墨西哥旅行在巴亚尔塔港转机时，我去过那里的一间休息室，地方极小且非常拥挤，我抓起一个火腿三明治狼吞虎咽吃完就走了。"
+    },
+    {
+      "id": 161,
+      "start_sec": 1689,
+      "speaker": "Brett Snyder",
+      "en": "Then I had a longer layover on a connection in Mazatlán on the return to the US. So there, I actually just sat down and worked because the chairs looked comfier than whatever was out in the food court. But they had soda and water, nothing else, not any food. So it's very basic.",
+      "zh": "后来在回美国的路上，我在马萨特兰转机停留的时间更长。在那里，我真就只是坐下来办公，因为里面的椅子看着比美食广场的舒服点。但他们只有汽水和水，别无他物，连一点吃的都没有。所以条件确实非常简陋。"
+    },
+    {
+      "id": 162,
+      "start_sec": 1705,
+      "speaker": "Brett Snyder",
+      "en": "But, you know, it's still a good backstop to have. It's something that can be offered.",
+      "zh": "不过不管怎么说，有这么个保底选择总归是好事，好歹算是一项能拿得出手提供的权益。"
+    },
+    {
+      "id": 163,
+      "start_sec": 1709,
+      "speaker": "Brian Sumers",
+      "en": "Yeah, but then you have the premium credit card lounges. Those are anything but basic, and they are also increasingly overcrowded. It started with the Amex Centurion Lounge, which is now in 17 or 18 US airports and another dozen outside the US.",
+      "zh": "是的，但除此以外还有高端信用卡自营休息室。那些可绝不是简陋的基础配置，而且它们现在也变得越来越拥挤。这股风潮始于 Amex（运通）的百夫长休息室（Centurion Lounge），如今它已进驻了 17 或 18 家美国机场，在海外还有十几家。"
+    },
+    {
+      "id": 164,
+      "start_sec": 1724,
+      "speaker": "Brian Sumers",
+      "en": "Like, this set up a race. So Chase created the Sapphire Reserve lounges, which are in eight or nine airports in the US, and Capital One has seven or eight. So these credit cards grow their lounge network, it takes some of the shine off of the airline lounges themselves.",
+      "zh": "这就引发了一场军备竞赛。Chase（大通）随即打造了 Sapphire Reserve（蓝宝石）休息室，目前覆盖了全美八九家机场，Capital One 也有七八家。随着这些信用卡不断扩张自己的休息室网络，航司自营休息室的风头在一定程度上也被盖过去了。"
+    },
+    {
+      "id": 165,
+      "start_sec": 1738,
+      "speaker": "Brett Snyder",
+      "en": "Yeah, but I do think they work together. If you think about Amex, right, they have their own lounges, but these work together with Delta, and they get reciprocal access. So I went and counted, it looks like Delta has 37 airports with lounges that Amex Platinums can use, and 14 of those are in airports with Amex lounges.",
+      "zh": "话虽如此，但我认为它们其实是相辅相成的。想想 Amex，对吧？他们虽然有自营休息室，但和达美航空（Delta）深度合作并实现了权益互通。我特意去数过，达美在 37 座机场设有 Amex 白金卡旅客可进入的休息室，其中有 14 座机场同时也建有 Amex 百夫长休息室。"
+    },
+    {
+      "id": 166,
+      "start_sec": 1760,
+      "speaker": "Brett Snyder",
+      "en": "In the Delta hubs, that takes pressure off the Sky Clubs, which is probably fine. But then look at the others. So DFW, for example, Delta's lounge is at its E gates, but the Amex lounge is in the International Terminal D, where all those SkyMiles loyalists are flying Delta's partners.",
+      "zh": "在达美航空的枢纽机场，这分流了 Sky Club 的客流压力，这当然是好事。但再看看其他机场。以达拉斯-沃斯堡机场（DFW）为例，达美自己的休息室在 E 区登机口，而 Amex 休息室则位于 D 航站楼（国际航站楼），达美飞凡里程常旅客（SkyMiles）若搭乘达美的伙伴航司航班，基本都在那里出发。"
+    },
+    {
+      "id": 167,
+      "start_sec": 1775,
+      "speaker": "Brett Snyder",
+      "en": "And in LA, Delta's lounges are in Terminals 2 and 3, which is Delta's terminal, and the Amex lounge is in the Bradley Terminal, the international terminal. So it helps Delta to have these lounges in the network, and, of course, it helps Amex, too.",
+      "zh": "在洛杉矶机场（LAX），达美自营休息室位于 2 号和 3 号航站楼（即达美的主基地航站楼），而 Amex 休息室则在布拉德利国际航站楼（TBIT）。因此，将这些休息室纳入航线网络对达美大有裨益，对 Amex 而言自然也是双赢。"
+    },
+    {
+      "id": 168,
+      "start_sec": 1789,
+      "speaker": "Brett Snyder",
+      "en": "So in the end, it's, again, about card acquisition for Amex, which is also how Delta gets rich.",
+      "zh": "所以归根结底，这依然是 Amex 获客拉新的手段，而这也正是达美赚得盆满钵满的秘诀。"
+    },
+    {
+      "id": 169,
+      "start_sec": 1795,
+      "speaker": "Brian Sumers",
+      "en": "Yeah, our friend Ed Bastian has been very clear that the Amex-Delta relationship is very tight, and...",
+      "zh": "没错，我们的老朋友 Ed Bastian（达美 CEO）早就明确表示过，Amex 与达美的关系极度紧密，而且……"
+    },
+    {
+      "id": 170,
+      "start_sec": 1800,
+      "speaker": "Brian Sumers",
+      "en": "I believe him, but it doesn't work like this for all the airlines as far as I understand. And every now and then we hear Scott Kirby on a United earnings call poke at Chase a little bit.",
+      "zh": "我相信他，但據我所知，並非所有航司都是這種情況。我們偶爾會聽到Scott Kirby在United的業績電話會上暗戳戳地挖苦一下Chase。"
+    },
+    {
+      "id": 171,
+      "start_sec": 1814,
+      "speaker": "Brian Sumers",
+      "en": "Remember, in all these cases, you have two companies that are negotiating with each other that share these customers. And I do hear in the background, especially at United, but maybe at some other airlines as well, that maybe one side, maybe the bank is taking too much advantage of the airline or vice versa.",
+      "zh": "別忘了，在所有這些案例中，都是兩家共享這些客戶的公司在相互博弈。我私下確實聽說，尤其是在United，可能其他航司也存在——某一方（也許是銀行）占了航司太多便宜，或者反過來。"
+    },
+    {
+      "id": 172,
+      "start_sec": 1834,
+      "speaker": "Brian Sumers",
+      "en": "And then these are long-term contracts. And so the economics might have worked in year one, two, and three, and by year eight, nine, 10, the airline wants to kill the bank or something like that. So it really comes and goes.",
+      "zh": "而且這些都是長期合同。商業模式可能在第一、二、三年運轉良好，但到了第八、九、十年，航司恨不得把銀行撕了，諸如此類。所以這種博弈確實是此消彼長的。"
+    },
+    {
+      "id": 173,
+      "start_sec": 1848,
+      "speaker": "Brian Sumers",
+      "en": "You know, remember that a lot of these bank lounge programs that Jon brought up in the beginning, they kind of compete with airlines. So Capital One has that nice lounge access, doesn't have a US co-brand, and so they go into a lot of airline hubs, and they try to maybe poach some customers that should have the airline premium co-brand.",
+      "zh": "別忘了，Jon一開始提到的很多銀行自建貴賓廳項目，實際上是在和航司競爭。比如Capital One有很棒的貴賓廳權益，但它沒有美國本土航司的聯名卡，所以他們進駐了大量航司樞紐，試圖從本該持有航司高端聯名卡的客戶中挖牆腳。"
+    },
+    {
+      "id": 174,
+      "start_sec": 1873,
+      "speaker": "Brian Sumers",
+      "en": "The banks aren't dumb. I love the Capital One idea—I've never been to one of their lounges, but we all know, or maybe we don't all know, but those of us that read the blogs too much, they have a cheesemonger. How much market research do you think went into that idea?",
+      "zh": "銀行可不傻。我很欣賞Capital One的創意——雖然我從沒去過他們的貴賓廳，但我們都知道（或者可能不是所有人都知道，除非像我們這樣經常刷博客），他們那裏配了專門的芝士品鑒師。你覺得他們為了這個點子做了多少市場調研？"
+    },
+    {
+      "id": 175,
+      "start_sec": 1888,
+      "speaker": "Brett Snyder",
+      "en": "I did not know that, for the record. Just want to put that out there.",
+      "zh": "鄭重聲明，我之前可不知道這點。就想澄清一下。"
+    },
+    {
+      "id": 176,
+      "start_sec": 1891,
+      "speaker": "Brian Sumers",
+      "en": "No, someone must have realized that putting a cheesemonger inside of a lounge was like the most cost-effective way to get people excited from the card. Look, this is a long way of saying that outside of Delta and Amex, the relationships between banks and airlines can be a little trickier than it seems from the outside.",
+      "zh": "不，肯定是有人意識到，在貴賓廳裏安排一個芝士品鑒師，是讓持卡人興奮起來最具成本效益的方式。說了這麼多，我想表達的是，除了Delta和Amex之外，銀行與航司之間的關係可能比外人看起來要微妙得多。"
+    },
+    {
+      "id": 177,
+      "start_sec": 1913,
+      "speaker": "Brian Sumers",
+      "en": "It's kind of like any deal: there can be winners, there can be losers.",
+      "zh": "這就像任何交易一樣：有贏家，就可能會有輸家。"
+    },
+    {
+      "id": 178,
+      "start_sec": 1917,
+      "speaker": "Brett Snyder",
+      "en": "Ah, they're all pretty much winners in one way or another here. I think we've learned that. That's why these deals keep growing.",
+      "zh": "哎，在某種程度上他們其實都是贏家。我想我們都看明白了這點。這就是為什麼這類交易規模一直在擴大。"
+    },
+    {
+      "id": 179,
+      "start_sec": 1923,
+      "speaker": "Brian Sumers",
+      "en": "Do you think Scott Kirby likes to lose a 51-49 advantage?",
+      "zh": "你覺得Scott Kirby會甘願處於49比51的劣勢嗎？"
+    },
+    {
+      "id": 180,
+      "start_sec": 1927,
+      "speaker": "Brett Snyder",
+      "en": "Of course not, but he's still winning. He's still better off than without the agreement, right? And some airlines feel differently about this. Look at Southwest—why are they working so closely with Chase?",
+      "zh": "當然不甘心，但他依然是獲益的。有這份協議總比沒有好，對吧？有些航司的看法則有所不同。看看Southwest——他們為什麼要和Chase展開如此緊密的合作？"
+    },
+    {
+      "id": 181,
+      "start_sec": 1937,
+      "speaker": "Brett Snyder",
+      "en": "The intro page for the lounges for Southwest says, quote, 'In partnership with Chase, we're introducing our first-ever airport lounge network,' end quote. That's the second line of the page: 'in partnership with Chase.'",
+      "zh": "Southwest貴賓廳的介紹頁面上寫道：“我們將與Chase攜手，推出首個機場貴賓室網絡。”頁面上的第二行字就是：“與Chase攜手”。"
+    },
+    {
+      "id": 182,
+      "start_sec": 1949,
+      "speaker": "Brett Snyder",
+      "en": "We don't know what access will look like for the Sapphire cards yet, if it happens at all. But we do know that Southwest is going to launch a new premium card—read: high annual fee—next year, and that's the one that's going to get people access into the lounge. So more annual fee money, more credit cards, more, more, more.",
+      "zh": "我們目前還不知道Sapphire卡是否能進、進入權益會是怎樣。但我們清楚的是，Southwest明年將推出一款新的高端信用卡（也就是高額年費卡），持卡人將憑此進入貴賓廳。所以，又是更多年費收入、更多信用卡、越多越好。"
+    },
+    {
+      "id": 183,
+      "start_sec": 1969,
+      "speaker": "Brian Sumers",
+      "en": "I hope that this lounge partnership goes very well for Southwest, and it very well might. But remember, this is an airline that promised—",
+      "zh": "我希望Southwest的這次貴賓廳合作能取得圓滿成功，而且很有可能確實會成功。但別忘了，這可是一家曾經承諾過——"
+    },
+    {
+      "id": 184,
+      "start_sec": 1980,
+      "speaker": "Brian Sumers",
+      "en": "investors that it would change things right away, and this premium card with the lounges was part of that. So Southwest is out there in a rush. It has two choices.",
+      "zh": "向投资者承诺会立刻扭转局势，而包含贵宾室权益的高端信用卡就是其中一部分。所以 Southwest（西南航空）现在非常着急。它面临两种选择："
+    },
+    {
+      "id": 185,
+      "start_sec": 1991,
+      "speaker": "Brian Sumers",
+      "en": "It can hire a ton of people internally and then create and build a massive lounge network from scratch, or it can do what it did: it can go to its credit card partner and say, \"Hey, you already do lounges. Can you help us?\"",
+      "zh": "要么在内部大规模招兵买马，从零开始打造庞大的自营休息室网络；要么就像他们实际做的那样：去找联名信用卡合作伙伴说：‘嘿，你们本来就运营贵宾室，能帮我们搭把手吗？’"
+    },
+    {
+      "id": 186,
+      "start_sec": 2007,
+      "speaker": "Brian Sumers",
+      "en": "I'm not surprised that Southwest chose option two, but to do that you have to rely on Chase, and you have to assume that Chase got very good economics to help out there.",
+      "zh": "Southwest 选了第二条路，我一点也不意外。但这么做就得受制于 Chase（大通银行），而且想必 Chase 在这笔交易中拿到了相当优厚的商业条款。"
+    },
+    {
+      "id": 187,
+      "start_sec": 2020,
+      "speaker": "Brian Sumers",
+      "en": "So, I want people to come back to me and tell me how Southwest feels about this decision in about nine, ten years. Maybe they will wish they had done it themselves.",
+      "zh": "所以，我很想看九到十年后 Southwest 对这个决定作何评价。也许到那时，他们会后悔当初没亲手自建。"
+    },
+    {
+      "id": 188,
+      "start_sec": 2030,
+      "speaker": "Brett Snyder",
+      "en": "And look, and and with Southwest lounges, you can't even buy access. So, there is no premium cabin, for now, but you do have the credit card. It makes it entirely clear that the credit card is really is the only reason to do this.",
+      "zh": "而且你看，Southwest 的贵宾室甚至不允许自费购买单次入场券。眼下他们还没有两舱，但确实有这张信用卡。这充分表明，推联名卡纯粹就是他们做贵宾室的唯一动机。"
+    },
+    {
+      "id": 189,
+      "start_sec": 2043,
+      "speaker": "Jon Ostrower",
+      "en": "So the question now is, what is the next frontier? And no, Frontier doesn't have lounges yet, but they probably will at some point. [laughter] But this is the thing that I think we're starting to see now, is the people that don't actually care about lounges, don't worry, we've got a product for you.",
+      "zh": "现在的悬念是，下一个前沿突破点在哪里？当然，Frontier（边疆航空）目前还没有贵宾室，但迟早也会搞起来的。[笑] 但我们现在开始见识到的新趋势是：针对那些根本不在乎进不进休息室的旅客，航司说‘别担心，我们为你准备了轻量化产品’。"
+    },
+    {
+      "id": 190,
+      "start_sec": 2061,
+      "speaker": "Jon Ostrower",
+      "en": "Delta calls it Grab and Go, Air Canada has Cafes, United has Club Fly locations, American has Provisions. Basically, it's a place to grab prepared food and a coffee and be on your way. It's a free Starbucks.",
+      "zh": "Delta（达美航空）叫 Grab and Go 即取即走，加航推出了 Cafe，United（美联航）设立了 Club Fly 极速驿站，American（美航）也有 Provisions 补给站。本质上就是个拿份预制餐食和咖啡就能赶路的站点。等于是一家免费的星巴克。"
+    },
+    {
+      "id": 191,
+      "start_sec": 2076,
+      "speaker": "Jon Ostrower",
+      "en": "It's not free. You have to get that expensive credit card. But this is trying to, again, broaden the appeal of the lounge idea here.",
+      "zh": "其实也不免费，你得办那张年费昂贵的联名信用卡才行。但这种模式正试图进一步拓宽‘贵宾室’这一概念的受众面。"
+    },
+    {
+      "id": 192,
+      "start_sec": 2086,
+      "speaker": "Brian Sumers",
+      "en": "Whatever it takes, right, Brett? Uh, people are going to stuff their bags full of crap that they may or may not eat. But if it gets the airline more card holders, it's a win for that airline.",
+      "zh": "管它用什么手段呢，对吧 Brett？旅客会把各种零食塞满包，最后吃不吃还不一定。但只要能帮航司吸收更多持卡人，对航司来说就是赢。"
+    },
+    {
+      "id": 193,
+      "start_sec": 2099,
+      "speaker": "Brian Sumers",
+      "en": "And customers do want this as well. We have some very tightly banked schedules at a lot of places. Uh, a lot of people don't have time to grab a real meal, and that snack can be nice to have.",
+      "zh": "而且旅客确实也买账。我们在很多枢纽机场都排布了极其密集的航班波（Bank）。很多人根本没时间正经坐下来吃顿饭，能随手抓点小食垫垫肚子再好不过了。"
+    },
+    {
+      "id": 194,
+      "start_sec": 2112,
+      "speaker": "Jon Ostrower",
+      "en": "We're being incentivized to spend more time in the airport. By the way, that's more also time with captive attention within the brand, but that's got to be a balance here for getting people quickly to their airplanes.",
+      "zh": "航司现在正千方百计诱导我们在机场逗留更久。顺便说一句，这也意味着航司品牌占领受众心智的时间变长了，但这必须与‘让旅客快速登机’之间做好平衡。"
+    },
+    {
+      "id": 195,
+      "start_sec": 2122,
+      "speaker": "Jon Ostrower",
+      "en": "Spending less time in the airport, which has required lounges, because the TSA and terminal experience was brutally degraded in the last two decades following 9/11 and the pandemic more recently, has been the goal.",
+      "zh": "‘尽量减少在机场的滞留时间’曾是长期的目标；正是由于‘9·11’以及近期疫情以来的这二十年里，安检和航站楼体验严重恶化，才催生了旅客对贵宾室的刚需。"
+    },
+    {
+      "id": 196,
+      "start_sec": 2134,
+      "speaker": "Jon Ostrower",
+      "en": "But like, hell, Boeing's original pitch for the 787 interior architecture was about being a respite from the chaos of the airport. This is not new. It's just really another way of psychologically finding a way for passengers to survive their time there. But again, I think moving people quickly through the airport is probably more complicated than trying to get them to spend more time there with lounges.",
+      "zh": "但回过头看，当年波音推介 787 客舱内饰时，卖点就是为旅客提供躲避机场混乱的避风港。这根本不是什么新鲜事。无非是在心理层面上帮旅客熬过机场候机时间的另一种手段罢了。但我依然认为，加速旅客流转、让他们尽快离开机场，往往比靠贵宾室哄着大家多耗时间要复杂得多。"
+    },
+    {
+      "id": 197,
+      "start_sec": 2154,
+      "speaker": "Brian Sumers",
+      "en": "Guys, I have enjoyed this discussion. We've talked about many of the winners here: the airlines,",
+      "zh": "各位，今天的讨论非常精彩。我们聊到了这场博弈中的各大赢家：航司、"
+    },
+    {
+      "id": 198,
+      "start_sec": 2160,
+      "speaker": "Brian Sumers",
+      "en": "Airlines, the card companies, and frankly, even the consumers. But before we go, I have to harp on one thing that we missed, and that's what this does for airports.",
+      "zh": "航司、信用卡公司，说实话甚至连消费者都深陷其中。但在我们结束前，我必须强调一个被遗漏的要点，那就是这对机场意味着什么。"
+    },
+    {
+      "id": 199,
+      "start_sec": 2170,
+      "speaker": "Brian Sumers",
+      "en": "This has been great for airports. Have you guys ever heard an airline executive talk about where you can find the most expensive real estate in the world? That would be at airports.",
+      "zh": "这对机场来说简直是天大的好事。你们听过航司高管谈论世界上最昂贵的地段在哪里吗？答案就是在机场。"
+    },
+    {
+      "id": 200,
+      "start_sec": 2183,
+      "speaker": "Brian Sumers",
+      "en": "If you want a lounge at an airport, you better be willing to pay up. And this has been happening at the biggest airports in the country for a very long time, but it is spilling over to some mid-size and even smaller airports.",
+      "zh": "如果你想在机场建休息室，最好做好大出血的准备。全国各大机场一直都是这种行情，如今这种势头正蔓延到部分中型甚至更小型的机场。"
+    },
+    {
+      "id": 201,
+      "start_sec": 2201,
+      "speaker": "Brian Sumers",
+      "en": "Those tend to be airports that might have an airline-branded lounge, but more likely going to be a Priority Pass lounge, that is a program funded by, you guessed it, the banks. And a lot of these airports are making quite a bit of money on this. I just don't see this trend dissipating anytime soon.",
+      "zh": "这些机场可能会有一间航司品牌的休息室，但更有可能的是Priority Pass贵宾厅，你没猜错，这项服务背后是由银行出资的。许多机场凭此赚得盆满钵满，我短期内看不到这种趋势有任何消退的迹象。"
+    },
+    {
+      "id": 202,
+      "start_sec": 2218,
+      "speaker": "Brett Snyder",
+      "en": "So here's the thing. You're saying airports love it, airlines love it, credit cards love it, consumers love it, everyone loves it. Where does this end?",
+      "zh": "那问题来了。照你所说，机场喜欢、航司喜欢、信用卡公司喜欢、消费者也喜欢，人人都爱。那这何时是个头？"
+    },
+    {
+      "id": 203,
+      "start_sec": 2227,
+      "speaker": "Brett Snyder",
+      "en": "Because it has to hit a wall. There has to be some loser here, something has to break at some point, it never works like this forever. So where does this end?",
+      "zh": "因为这一切总会碰壁。注定有人要吃亏，某处迟早会崩盘，事情不可能永远顺风顺水。所以这到底会如何收场？"
+    },
+    {
+      "id": 204,
+      "start_sec": 2236,
+      "speaker": "Brian Sumers",
+      "en": "Brett, haven't you been listening to earnings calls? Premium is forever.",
+      "zh": "Brett，难道你没听各大财报电话会吗？高端需求永远不灭。"
+    },
+    {
+      "id": 205,
+      "start_sec": 2241,
+      "speaker": "Jon Ostrower",
+      "en": "I think you're hitting on a great question. Number one, there is a regulatory risk within the credit card system around interchange fees and how that plays out with Credit Card Competition Act.",
+      "zh": "我觉得你切中了一个极好的问题。第一，信用卡体系面临着监管风险，主要围绕刷卡手续费，以及《信用卡竞争法案》带来的后续影响。"
+    },
+    {
+      "id": 206,
+      "start_sec": 2253,
+      "speaker": "Jon Ostrower",
+      "en": "But I think that it comes back to this other piece of it, which is that the airlines are also responding to the broader trends that are happening within the economy. A social network, ride-share service, food delivery service, all benefit from the network effects of getting people into an ecosystem at high benefit or low cost or both early on.",
+      "zh": "但我认为这还得归结到另一层因素上，即航司也是顺应整个大经济环境下的更广泛趋势。社交网络、网约车服务、外卖平台，前期都是靠高福利、低成本或两者兼备把用户拉进生态圈，享受网络效应红利。"
+    },
+    {
+      "id": 207,
+      "start_sec": 2274,
+      "speaker": "Jon Ostrower",
+      "en": "And then over time, as the switching costs rise and the barriers for competitors are prohibitive, all of this begins to pull the rug out for consumers as growth slows and the market saturates. What we're talking about here is effectively a prelude to aviation-branded enshittification. Like, this is really a risk here if airlines aren't careful.",
+      "zh": "随着时间推移，转换成本不断攀升，竞争对手的壁垒高不可攀，一旦增长放缓且市场饱和，平台就会开始对消费者“卸磨杀驴”。我们在此谈论的，实际上就是航空业品牌“平台劣化”（enshittification）的前奏。要是航司不够谨慎，这绝对是个巨大的隐患。"
+    },
+    {
+      "id": 208,
+      "start_sec": 2296,
+      "speaker": "Brian Sumers",
+      "en": "Yeah, as long as this gravy train keeps running, the big airlines are going to continue to invest in lounges and get richer, while they further distance themselves from many of the smaller carriers who are still trying to make money selling tickets. You can imagine that a lot of these larger airlines, they love this ecosystem and they certainly have a vested interest in making sure it continues.",
+      "zh": "没错，只要这棵摇钱树还在产出，大型航司就会继续投资休息室大赚特赚，同时进一步拉大与那些依然靠卖机票盈利的小型航司的差距。你可以想象，许多大型航司有多么迷恋这个生态系统，他们当然有既得利益要确保这门生意延续下去。"
+    },
+    {
+      "id": 209,
+      "start_sec": 2321,
+      "speaker": "Brett Snyder",
+      "en": "You've been listening to The Air Show, brought to you by the Alaska-Hawaiian Airlines pilots. Thanks to this week's additional sponsors, Plusgrade and SkyGo. If you have suggestions or questions for us, or if you're interested in sponsoring the podcast, email us at info@theairshowpodcast.com to get in touch. Leo Duran produced and edited this episode.",
+      "zh": "感谢收听由阿拉斯加-夏威夷航空飞行员赞助播出的《The Air Show》。同时也感谢本期节目的赞助商 Plusgrade 和 SkyGo。如果您有任何建议、疑问，或有赞助意向，请发送邮件至 info@theairshowpodcast.com 联系我们。本期节目由 Leo Duran 制作与剪辑。"
+    },
+    {
+      "id": 210,
+      "start_sec": 2340,
+      "speaker": "Brian Sumers",
+      "en": "Theme music is by Joshua Mosher. Thanks for listening, and we'll be back soon.",
+      "zh": "主题曲由 Joshua Mosher 创作。感谢收听，我们很快会再回来。"
+    },
+    {
+      "id": 211,
+      "start_sec": 2349,
+      "speaker": "Jon Ostrower",
+      "en": "My deepest apologies to the Mulhousians and the Luxembourgers.",
+      "zh": "向米卢斯和卢森堡的朋友们致以我最深切的歉意。"
+    }
+  ]
+}

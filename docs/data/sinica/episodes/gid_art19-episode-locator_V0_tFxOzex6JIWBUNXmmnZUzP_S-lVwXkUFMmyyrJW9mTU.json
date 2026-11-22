@@ -1,0 +1,2715 @@
+{
+  "schema_version": "3.0",
+  "show_id": "sinica",
+  "guid": "gid://art19-episode-locator/V0/tFxOzex6JIWBUNXmmnZUzP_S-lVwXkUFMmyyrJW9mTU",
+  "title": "Afra Wang on Liangzhu, China’s Vibe-Coding Capital, and the Anxious Optimism of the AI Boom",
+  "pub_date": "2026-10-09T10:00:00Z",
+  "duration_sec": 5927,
+  "audio_url": "https://rss.art19.com/episodes/1e69db0c-6666-465d-b880-3b4e012377e8.mp3?rss_browser=BAhJIgtDaHJvbWUGOgZFVA%3D%3D--d05363d83ce333c74f32188013892b2863ad051c",
+  "summary_zh": "本期节目中，主播 Kaiser Kuo 对话科技记者 Afra Wang，结合她在《The New Yorker》与《New York Magazine》的两篇实地报道，深入剖析中国AI热潮表象下的真实社会肌理。两人从杭州近郊的“氛围编程之都”良渚切入，探讨大厂裁员与经济承压如何催生出客厅共创、一人公司、AI八字算命以及庞大的“学AI致富”知识付费产业。针对盖洛普调查中93%中国受访者看好AI的数据，Afra Wang 指出这背后隐藏着唯恐掉队的焦虑与顺应，Kaiser Kuo 则补充了数十年技术进步改善生活所留下的乐观惯性，并就互联网监管的定性提出不同看法。节目最后探讨了地方政府追逐“新质生产力”对原生社区的收编，以及中国AI界对安全风险的务实态度。",
+  "key_takeaways_zh": [
+    "中国高达93%的AI乐观度调查数据背后，不仅是技术崇拜的惯性，更交织着民众在经济下行期唯恐错过“末班车”的生存焦虑与被动顺应。",
+    "杭州良渚之所以成为“氛围编程”与数字游民聚集地，是低成本宜居地产、极低的通勤时间比以及后疫情时代大厂裁员潮共同催生的产物。",
+    "在缺乏抗议技术寡头渠道但深受儒家“求学”与优绩主义影响的社会语境下，中国人的AI焦虑大规模转化为良莠不齐的“知识付费”与卖课经济。",
+    "中国国内C端软件付费意愿薄弱，迫使大量“一人公司”与独立开发者要么靠向国内焦虑人群卖课变现，要么全面转向出海赚取美元订阅费。",
+    "中国AI研究人员并非漠视AI安全风险，而是受限于算力与资本约束更专注于刷榜变现，并普遍默认宏观安全治理属于国家监管部门的职责。"
+  ],
+  "highlights": [
+    {
+      "start_sec": 454,
+      "title_zh": "良渚客厅与卖课变现真相",
+      "summary_zh": "Afra Wang 走访杭州良渚的客厅聚会时发现，尽管表面氛围酷似旧金山创客派对，但底层弥漫着青年失业与经济承压的严峻感。许多自称“一人公司”或氛围编程者的年轻人并无稳定软件收入，其核心财源实则是向其他焦虑的中国人售卖AI课程。",
+      "quote_en": "I realized a lot of their income source are not actually from vibe coding or not actually from selling software to other people, to the Westerners, but sell classes to other Chinese people."
+    },
+    {
+      "start_sec": 695,
+      "title_zh": "良渚乌托邦社区的形成",
+      "summary_zh": "良渚文化村早期由万科按低密度郊区乌托邦理念开发，租金低廉且拥有极低的“路饭比”，让步行串门与客厅办公成为常态。此外，习近平主政浙江时期对良渚新石器遗址的保护推动了当地申遗与文化复兴，赋予其独特的精神场域。",
+      "quote_en": "In Liangzhu, this road-food ratio is actually incredibly low. It's because you only need to walk 5 minutes to go to your friend's place to eat with them."
+    },
+    {
+      "start_sec": 1107,
+      "title_zh": "大厂裁员潮与行业幻灭",
+      "summary_zh": "两人探讨了良渚崛起与大厂裁员及DeepSeek热潮的关系，Afra Wang 形容疫情后中国科技业经历了从巅峰滑落的“自我消亡”（ego death）。Kaiser Kuo 则对西方媒体滥用“打压”一词提出异议，强调叫停蚂蚁集团IPO主要出于防范金融道德风险。",
+      "quote_en": "After COVID, the Chinese tech industry experienced this ego death, because, first, COVID gave this really harsh economic hit to the booming tech industry."
+    },
+    {
+      "start_sec": 1488,
+      "title_zh": "93%乐观率背后的焦虑",
+      "summary_zh": "面对盖洛普调查中93%中国受访者认为AI利大于弊的结果，Afra Wang 认为这并非盲目乐观，而是在无法对技术升级说“不”时的顺应与错失恐惧。Kaiser Kuo 认同这一视角，但补充指出过去四五十年技术进步与物质改善同步的历史经验仍留有强大的乐观惯性。",
+      "quote_en": "When people don't think they have much choice but adopting AI—because AI will be the force that take the nation to the next industrial upgrade—they need to be part of it."
+    },
+    {
+      "start_sec": 1866,
+      "title_zh": "“生财有道”与知识付费",
+      "summary_zh": "Afra Wang 深入探访了年费逾三千元的头部AI赚钱社群“生财有道”，剖析其类似传销与成功学福音的“龙珠”积分返现与进阶体系。尽管理媒批评知识付费乱象“割韭菜”，但对工厂老板甚至夜班保安而言，这些实操教程也确实充当了稀缺的向上流动阶梯。",
+      "quote_en": "I do think this self-salvation through AI is the strongest ethos in the company."
+    },
+    {
+      "start_sec": 2837,
+      "title_zh": "AIGC风口与草根逆袭",
+      "summary_zh": "来自黑龙江锈带的25岁青年小凯通过免费开源社区自学成才，趁着OpenAI放缓Sora而快手可灵、字节跳动等国产视频模型崛起之机创办AI影视公司。在各地政府竞相举办AIGC大赛与国企降本需求的推动下，他成功实现了年营收数百万的商业逆袭。",
+      "quote_en": "At the same time, Chinese companies really caught up and dominated the video generation industry."
+    },
+    {
+      "start_sec": 3580,
+      "title_zh": "AI八字算命与玄学热潮",
+      "summary_zh": "在不确定的经济环境下，塔罗牌、水晶疗愈与AI算命在年轻群体中悄然盛行，良渚甚至被比作中国的灵修小镇塞多纳。创业公司 FateTell 将大语言模型与传统八字命理结合，折射出当代青年试图借AI与玄学重新寻求掌控感的微妙心理。",
+      "quote_en": "One thing that's pretty shocking to me is the past two years when I go back to China and chat with my friends or younger people, I just realize this entire healing industry, this entire fortune-telling industry is just everywhere."
+    },
+    {
+      "start_sec": 4444,
+      "title_zh": "地方收编与AI安全务实观",
+      "summary_zh": "随着余杭等地方政府以“新质生产力”和算力补贴积极招揽“一人公司”，良渚的野生共创氛围正因体制化而逐渐消退。在AI安全问题上，中国实验室受限于算力与盈利压力更专注于优化模型跑分，并普遍认为防范灾难性风险属于政府的监管职权。",
+      "quote_en": "Many AI researchers I talked to worked in the Chinese AI labs, they don't think safety issues are on their lane. They believe certain safety issues are the responsibility for the government."
+    }
+  ],
+  "transcript": [
+    {
+      "id": 1,
+      "start_sec": 9,
+      "speaker": "Kaiser Kuo",
+      "en": "Welcome to the Sinica Podcast, a weekly discussion of current affairs in China. In this program, we look at books, ideas, new research, intellectual currents, and cultural trends that can help us better understand what's happening in China's politics, foreign relations, economics, and society.",
+      "zh": "欢迎收听 Sinica 播客，这是一档探讨中国时事议题的周播节目。在本节目中，我们关注新书、前沿观点、最新研究、思潮动态以及文化脉流，以期帮助大家更深入地理解中国的政治、对外关系、经济与社会发展。"
+    },
+    {
+      "id": 2,
+      "start_sec": 24,
+      "speaker": "Kaiser Kuo",
+      "en": "Join me each week for in-depth conversations that shed more light and bring less heat to how we think and talk about China. I'm Kaiser Kuo, coming to you this week from my home in Beijing.",
+      "zh": "欢迎每周与我一同进行深度对话，为我们思考和讨论中国的方式多增添些洞见，少带一些情绪。我是 Kaiser Kuo，本周在我的北京家中向大家问好。"
+    },
+    {
+      "id": 3,
+      "start_sec": 36,
+      "speaker": "Kaiser Kuo",
+      "en": "Listeners, please support my work by becoming a paying subscriber at sinicapodcast.com. I get how all these Substack subscriptions can really add up. I mean, they do for me, for sure.",
+      "zh": "听众朋友们，请前往 sinicapodcast.com 成为付费订阅会员，支持我的工作。我非常理解各类 Substack 订阅费用累积起来确实是笔不小的支出，对我个人来说也确实如此。"
+    },
+    {
+      "id": 4,
+      "start_sec": 47,
+      "speaker": "Kaiser Kuo",
+      "en": "So I try to offer a lot. You get not only the Sinica Podcast, but you get the Sinica Chinese Phrase of the Week from Andrew Methven. You get podcasts and roundups from the terrific folks at Trivium.",
+      "zh": "因此我尽量为大家提供丰厚的内容回报。除了 Sinica 播客之外，你还能读到 Andrew Methven 主笔的“Sinica 每周中文热词”，以及 Trivium 团队带来的播客与资讯汇编。"
+    },
+    {
+      "id": 5,
+      "start_sec": 58,
+      "speaker": "Kaiser Kuo",
+      "en": "You get my very favorite podcast, the indispensable China in the Global South podcast. And you get the historian James Carter's This Week in China's History, an outstanding column now publishing much more frequently.",
+      "zh": "你还能收听我最喜爱的、不可或缺的“中国与全球南方播客”（China in the Global South），以及历史学家 James Carter 撰写的“中国历史上的本周”（This Week in China's History）——这是一个极为出色的专栏，目前更新频率大幅提升。"
+    },
+    {
+      "id": 6,
+      "start_sec": 71,
+      "speaker": "Kaiser Kuo",
+      "en": "So please do subscribe so I can continue to bring you these conversations and a lot more. Over the past year and a half or so, and especially just these past several months, I've had the odd experience of watching a technological fever take hold in China in a way that I haven't really seen since the arrival of the mobile internet, maybe even the internet itself back in the mid-to-late '90s.",
+      "zh": "所以请务必订阅支持，好让我能继续为大家带来这些有价值的对话以及更多内容。在过去一年半左右的时间里，尤其是最近这几个月，我目睹了一场席卷中国的科技狂热，这种奇特景象自移动互联网兴起以来、甚至自90年代中后期互联网刚刚传入时起，我都未曾真正见过。"
+    },
+    {
+      "id": 7,
+      "start_sec": 95,
+      "speaker": "Kaiser Kuo",
+      "en": "Back in March, on a Friday afternoon, close to a thousand people were lined up outside Tencent's headquarters in Shenzhen. They had their laptops in hand so that Tencent cloud engineers could install OpenClaw for them, the open-source AI agent harness with the little red lobster logo.",
+      "zh": "早在三月份的一个周五下午，近千人在深圳腾讯总部外排起长队。他们手里拿着笔记本电脑，就为了让腾讯云工程师帮他们安装 OpenClaw——那款带有小红龙虾图标的开源 AI 智能体框架。"
+    },
+    {
+      "id": 8,
+      "start_sec": 113,
+      "speaker": "Kaiser Kuo",
+      "en": "Baidu did the same thing in Beijing a few days later. \"Raising a lobster\" became the phrase of the season. All these retirees were supposedly doing it, grade-schoolers were doing it, and AI engineers, of course, were doing brisk business installing this stuff.",
+      "zh": "几天后百度在接连也在北京做了同样的事。“养龙虾”成了当季流行语。据说无论是退休老人还是小学生都在跟风尝试，AI 工程师们自然也是接单到手软，忙着帮人安装部署。"
+    },
+    {
+      "id": 9,
+      "start_sec": 129,
+      "speaker": "Kaiser Kuo",
+      "en": "A Beijing software engineer actually told MIT Technology Review that his 77-year-old father had asked him to set up a lobster. A cottage industry just sprang up of guys who'd come to your apartment and install one for like 500 RMB.",
+      "zh": "一位北京的软件工程师曾告诉《麻省理工科技评论》（MIT Technology Review），连他77岁的父亲都让他帮忙搭一只“龙虾”。一时间应运而生出一个新兴产业，有人上门到你家里帮忙安装调试，一次收费大概500块钱。"
+    },
+    {
+      "id": 10,
+      "start_sec": 143,
+      "speaker": "Kaiser Kuo",
+      "en": "And a few months later, by early summer, according to some people, those same guys were fielding even more requests to uninstall them than to install them. But hey, so it goes.",
+      "zh": "然而几个月后，到了初夏时分，据一些人说，这批上门技术人员接到的卸载求助甚至比安装还要多。但嗨，世事大抵如此。"
+    },
+    {
+      "id": 11,
+      "start_sec": 154,
+      "speaker": "Kaiser Kuo",
+      "en": "AI agents got a mention in the Government Work Report. Hefei was handing out compute vouchers to one-person companies. It was a really giddy, a little unhinged time, and I confess it was a great deal of fun to watch.",
+      "zh": "AI 智能体被写入了《政府工作报告》，合肥市开始向“一人公司”发放算力券。那是一段令人目眩神迷、甚至略显癫狂的时期，我必须承认，旁观这一切非常有意思。"
+    },
+    {
+      "id": 12,
+      "start_sec": 167,
+      "speaker": "Kaiser Kuo",
+      "en": "The same basic Chinese techno-optimism that seems to underlie this AI fever seems to show up in all the available polling data.",
+      "zh": "支撑起这场 AI 狂热的底色，似乎依然是中国社会那种根深蒂固的技术乐观主义，而这一点在所有公开的民调数据中也得到了印证。"
+    },
+    {
+      "id": 13,
+      "start_sec": 180,
+      "speaker": "Kaiser Kuo",
+      "en": "Gallup AI adoption survey this year asked people whether AI would mostly help or mostly harm people in their country, and in China, I guess this shouldn't surprise too many people, 93% said \"help.\"",
+      "zh": "盖洛普今年关于AI普及率的调查询问了受访者：AI主要会造福还是危害本国人民？在中国——我想这并不会让太多人感到意外——93%的受访者回答是“造福”。"
+    },
+    {
+      "id": 14,
+      "start_sec": 192,
+      "speaker": "Kaiser Kuo",
+      "en": "First in the world. In the United States, it was only 36%. That put the U.S. in the bottom five, it was sandwiched between Afghanistan and Malawi.",
+      "zh": "这一比例位居全球第一。而在美国，这一数字仅为36%，这让美国沦落至倒数五位之内，夹在阿富汗和马拉维之间。"
+    },
+    {
+      "id": 15,
+      "start_sec": 203,
+      "speaker": "Kaiser Kuo",
+      "en": "So these numbers have fed a lot of chatter in the West about whether Chinese people are simply cavalier about AI, wondering whether they're just blind to the risks, or naive, or or worse. But honestly, there's not a lot of data behind that chatter, and what there is tends to be sort of secondhand anecdotes.",
+      "zh": "因此，这些数据在西方引发了大量热议，争论中国人是否对AI过于掉以轻心，好奇他们究竟是对风险视而不见、天真单纯，抑或更为严重。但坦白讲，这些闲言碎语背后并没有多少扎实的数据，现有的一些说法往往也不过是二手道听途说的轶事。"
+    },
+    {
+      "id": 16,
+      "start_sec": 221,
+      "speaker": "Kaiser Kuo",
+      "en": "What's really been missing is on-the-ground reportage, reporting with real color, with real texture, by someone who knows the tech worlds of both sides of the Pacific, who can read, you know, a co-working space or a living room hangout in Hangzhou and their counterparts in San Francisco with equal fluency, and who happens also, you know, to write really compellingly, really beautifully.",
+      "zh": "真正缺失的是实地调查报道——那种由兼通太平洋两岸科技界、笔触生动且极具质感的人所写出的报道。这样的人能以同等的敏锐度洞察杭州的共享办公空间或客厅沙龙，以及旧金山的同类场所，而且文字还写得极其引人入胜、优美动人。"
+    },
+    {
+      "id": 17,
+      "start_sec": 243,
+      "speaker": "Kaiser Kuo",
+      "en": "So thank God we have Afra Wang, who is easily among the most exciting of the crop of younger writers tackling China and technology, someone whose voice and judgment I've come to really implicitly trust and to rely on. Afra is a Bay Area-based journalist who writes the AI-focused newsletter, Concurrent. Definitely subscribe to that one.",
+      "zh": "谢天谢地，我们有Afra Wang。在聚焦中国与科技议题的新生代作家中，她无疑是最令人瞩目的一位，她的发声与判断力已经赢得了我由衷的信任与倚重。Afra常驻旧金山湾区，是一名记者，她主笔专注于人工智能的通讯刊物《Concurrent》，大家一定要去订阅。"
+    },
+    {
+      "id": 18,
+      "start_sec": 263,
+      "speaker": "Kaiser Kuo",
+      "en": "She was last on the show in January, I think it was, to talk about her Wired piece, which she was writing for Wired magazine for their big China issue. She wrote a great piece on The Morning Star of Lingao, the sprawling crowdsourced time-travel novel that serves as the kind of urtext, as we said on the show, of of China's Industrial Party, the Gōngyèdǎng.",
+      "zh": "她上次做客本节目大概是在一月份，当时聊的是她为《连线》（Wired）杂志中国特刊撰写的一篇文章。她针对《临高启明》写了一篇极为精彩的报道，这部篇幅浩瀚、集思广益的穿越小说，正如我们在节目中所说，堪称中国“工业党”的某种元典。"
+    },
+    {
+      "id": 19,
+      "start_sec": 283,
+      "speaker": "Kaiser Kuo",
+      "en": "The, the loose, online, ideological current, I guess, movement, I don't know, that that treats engineering capability and manufacturing-led growth not just as like the true source of national wealth and power, but as something close to a a creed. They make a fetish of getting the tech tree completely right.",
+      "zh": "这是一个松散的线上意识形态思潮，或者说某种运动吧，它不仅将工程技术能力与制造业驱动的增长视为国家财富和实力的真正源泉，更将其升华为近乎一种信条。他们对彻底点亮“科技树”有着一种近乎狂热的执念。"
+    },
+    {
+      "id": 20,
+      "start_sec": 305,
+      "speaker": "Kaiser Kuo",
+      "en": "That was one of my favorite conversations of the year so far, and it made her the obvious person to bring back for this. So she's here today with two pieces, actually, to talk about.",
+      "zh": "那是今年迄今为止我最喜欢的对谈之一，这也让她成了就当前话题返场对谈的不二人选。今天她带来了两篇近作来与我们深入探讨。"
+    },
+    {
+      "id": 21,
+      "start_sec": 315,
+      "speaker": "Kaiser Kuo",
+      "en": "The first ran in The New Yorker on September 23rd, it was titled, \"What China's Vibe-Coding Capital Can Tell Us About the A.I. Boom.\" And it takes us to a place called Liangzhu, a town on the northwest outskirts of Hangzhou, where burnt-out tech workers have gone to vibe-code, really, on their own terms, and where it turns out the AI and and BaZi fortune-telling thing have become strangely intimate.",
+      "zh": "第一篇于9月23日发表在《纽约客》，题为《中国“氛围编程之都”如何折射AI热潮》。文章带我们走进良渚——这个位于杭州西北郊的小镇，许多精疲力竭的科技大厂人来到这里，以完全属于自己的节奏尝试“氛围编程”（vibe coding）；而在那里，AI竟奇妙地与八字算命走在了一起。"
+    },
+    {
+      "id": 22,
+      "start_sec": 340,
+      "speaker": "Kaiser Kuo",
+      "en": "The second piece is actually forthcoming, maybe around the time that this this podcast drops, you guys will have access to it, it's in New York Magazine, and it's on China's AI education industry, the paid make-money-with-AI courses, you know, the self-organized vibe-coding tutorials that you find all over the place.",
+      "zh": "第二篇报道即将面世，大概就在这期播客上线的前后，大家就能读到了。该文将发表在《纽约杂志》，聚焦于中国庞大的AI培训教育产业，也就是那些“教你用AI搞钱”的付费课程，以及随处可见、自发组织的各种“氛围编程”教程。"
+    },
+    {
+      "id": 23,
+      "start_sec": 360,
+      "speaker": "Kaiser Kuo",
+      "en": "AI filmmakers, a guy from Dongbei who we're going to meet, and what she finds when she looks beneath the surface of all that apparent techno-optimism, which, as you will hear, isn't always simple optimism. Afra Wang, welcome back to Sinica.",
+      "zh": "AI电影制作者、一位我们稍后会聊到的东北小伙，以及当她撕开这层表面上看似全民狂热的技术乐观主义时所窥见的真相——正如大家即将听到的，这绝非单纯的乐观。Afra Wang，欢迎回到 Sinica。"
+    },
+    {
+      "id": 24,
+      "start_sec": 375,
+      "speaker": "Afra Wang",
+      "en": "Thank you so much. Thank you for this just generous introduction, Kaiser. I'm really flattered, really happy to be back to share my new pieces.",
+      "zh": "非常感谢你。谢谢你如此过奖的介绍，Kaiser。我真是受宠若惊，也非常开心能再次做客节目，分享我的这几篇新作。"
+    },
+    {
+      "id": 25,
+      "start_sec": 382,
+      "speaker": "Kaiser Kuo",
+      "en": "It's wonderful to have you. And as always, hit pause and check, you know, if it's after October 12th that you're listening to this, you should be able to get the New York Magazine piece. It doesn't have a title yet, but you'll find it, just look for Afra's name. And then the New Yorker piece, definitely, hit pause, read that, come back, and we'll jump right in.",
+      "zh": "太高兴你能来。照例，大家可以先按个暂停去看看——如果你收听本期节目时已经过了10月12日，应该就能读到那篇《纽约杂志》（New York Magazine）的报道了。目前题目还没定，但只要搜 Afra 的名字就能找到。还有《纽约客》（The New Yorker）的那篇，一定先暂停读一下再回来，我们这就切入正题。"
+    },
+    {
+      "id": 26,
+      "start_sec": 400,
+      "speaker": "Kaiser Kuo",
+      "en": "So, Afra, the last time you were on, we spent a good while on, you know, what it's like for you to be kind of a cultural in-betweener. Actually, not just cultural, but kind of a tech culture in-betweener. And this time, you really put that to the test.",
+      "zh": "Afra，上次你来的时候，我们花了相当长的时间探讨你作为某种文化“穿梭者”或“中间人”的体验。实际上，不仅是文化层面，更是一种科技文化层面的中间人。而这一次，你真正把这种特质发挥到了极致。"
+    },
+    {
+      "id": 27,
+      "start_sec": 414,
+      "speaker": "Kaiser Kuo",
+      "en": "You walked into these spaces, you know, in Liangzhu, into a living room with shoes lined up at the door, this being an Asian household, laptops all over the carpet, everybody just half-knowing everybody else. And you say your first reaction was deja vu.",
+      "zh": "你走进了良渚的这些空间，走进一间客厅，门口整整齐齐地码着一排鞋——毕竟是典型的亚洲家庭——地毯上摆满了笔记本电脑，大家彼此似熟非熟。你说你的第一反应是：这场景似曾相识（déjà vu）。"
+    },
+    {
+      "id": 28,
+      "start_sec": 429,
+      "speaker": "Kaiser Kuo",
+      "en": "It could have been a house party in San Francisco. I've had that exact same experience, where I've been in tech spaces in China and it's felt exactly like the Valley or the city.",
+      "zh": "这简直就像是旧金山的某场家庭派对。我也有过一模一样的经历：身处中国的某些科技圈空间，那种氛围感觉与硅谷或旧金山市区毫无二致。"
+    },
+    {
+      "id": 29,
+      "start_sec": 440,
+      "speaker": "Kaiser Kuo",
+      "en": "Then, there's the differences that started to register almost immediately as well. So maybe let's begin there. What did feel the same, and what turned out to be different? And what was illuminating about those differences especially?",
+      "zh": "但紧接着，那些差异也几乎在瞬间显现出来。所以或许我们可以从这里聊起：究竟哪些地方让你觉得如出一辙，又有哪些地方截然不同？尤其是，这些差异折射出了什么深层现实？"
+    },
+    {
+      "id": 30,
+      "start_sec": 454,
+      "speaker": "Afra Wang",
+      "en": "Yeah, the reason why I discovered this Chinese vibe-coding capital, Liangzhu, was really because some really contrarian, interesting programmers I know by going to this open-source meetups. And one of those strange people tells me, you know, Liangzhu is a place you need to check out.",
+      "zh": "是这样，我之所以发现良渚这个中国的“氛围编程之都”（vibe-coding capital），主要是通过参加一些开源聚会结识的几位反叛且有趣的程序员。其中一个挺怪咖的朋友跟我说：“良渚是个你必须去看看的地方。”"
+    },
+    {
+      "id": 31,
+      "start_sec": 472,
+      "speaker": "Afra Wang",
+      "en": "So that's why I trusted their judgment, because they're weird enough to tell me where the actual tech periphery is. So I went to Liangzhu and I hung out with a lot of vibe coders for many days, went to their living rooms, listened to the open sharings, participated their Crazy Thursdays, as well as just visiting different companies.",
+      "zh": "我非常相信他们的判断，因为他们足够离经叛道，才能精准指出真正的科技边缘地带在哪里。于是我去了良渚，和许多氛围程序员混在一起待了很多天，去他们的客厅串门，听他们的公开技术分享，参加他们的“疯狂星期四”，也去拜访了各种各样的小公司。"
+    },
+    {
+      "id": 32,
+      "start_sec": 496,
+      "speaker": "Afra Wang",
+      "en": "And each one of them are all, in a sense, very different from Alibaba or Tencent, not building super apps, but really building whimsical, interesting, little things. Yeah.",
+      "zh": "从某种意义上说，他们每一个人都与阿里巴巴或腾讯截然不同：他们不去做什么超级应用（super app），而是在捣鼓一些天马行空、充满奇思妙想、有趣的小玩意儿。是的。"
+    },
+    {
+      "id": 33,
+      "start_sec": 508,
+      "speaker": "Afra Wang",
+      "en": "And I think in a sense, sentiment-wise and on the ground, there is a lot of grimness. I think simply because China's economy is doing terribly bad.",
+      "zh": "而且我认为，在社会情绪以及现实层面上，底层其实笼罩着一层相当浓重的阴霾。最直接的原因就是，中国目前的宏观经济形势相当严峻。"
+    },
+    {
+      "id": 34,
+      "start_sec": 521,
+      "speaker": "Afra Wang",
+      "en": "So that's why you have this contradictory phenomenon where all the Western media, the Western discourse want to hear about this awesome stories of the technological optimism story from China, but all the journalists who are in China understand that the texture of the society just want to report about the youth...",
+      "zh": "所以你就会看到这样一种极其割裂的现象：所有西方媒体和西方话语体系都渴望听到来自中国的宏大叙事，即那种令人惊叹的技术乐观主义故事；然而，真正在中国实地感受着社会肌理的记者们，却只想报道年轻一代的迷茫……"
+    },
+    {
+      "id": 35,
+      "start_sec": 540,
+      "speaker": "Afra Wang",
+      "en": "Employment and, the, the grimness, the darkness, the desperation. So this is like the huge contrast I observed in those living rooms, where young people, first and foremost, they are teaching each other about AI.",
+      "zh": "还有失业，以及那种严峻、阴暗和绝望感。这就是我在那些客厅里观察到的巨大反差：那里的年轻人，首先是在互相教授AI技术。"
+    },
+    {
+      "id": 36,
+      "start_sec": 553,
+      "speaker": "Afra Wang",
+      "en": "And second, a lot of them are unemployed or, you know, call themselves OPC, you know, one-person company, call themselves influencers, call themselves vibe coders, which in nature is also true. There is some core that's genuine that's, I don't want to be cynical about that, but at the same time, many of them are in a situation where they don't have stable income.",
+      "zh": "其次，他们中的许多人处于失业状态，或者自称是OPC（即一人公司），自称是网红、自称是氛围程序员（vibe coders）——从本质上讲，这倒也没错。其中确实有一股真诚的核心力量，我不想对此冷嘲热讽，但与此同时，他们很多人确实没有稳定收入。"
+    },
+    {
+      "id": 37,
+      "start_sec": 572,
+      "speaker": "Afra Wang",
+      "en": "They're constantly worry about being left out. So that's why I discovered this vibe coding town, as well as this really interesting phenomenon about this lucrative and unregulated and sprawling AI education industry.",
+      "zh": "他们时刻都在担心被时代抛下。这就是为什么我发现了这个氛围编程小镇，同时也注意到了一个极其有趣的现象：一个利润丰厚、缺乏监管且野蛮生长的AI培训产业。"
+    },
+    {
+      "id": 38,
+      "start_sec": 586,
+      "speaker": "Afra Wang",
+      "en": "Because the vibe coders I met, when I was asking them about their financial source, a lot of them said, says, 'I sell class.' 我卖课. And, and then when I, when I, when I ask follow-up questions, I realized a lot of their income source are not actually from vibe coding or not actually from selling software to other people, to the Westerners, but sell classes to other Chinese people.",
+      "zh": "因为我遇到的那些氛围程序员，当我问及他们的收入来源时，许多人都说：'我卖课。'而当我进一步追问时，我意识到他们的很多收入其实并不来自氛围编程本身，也不是靠向其他人或西方客户卖软件，而是向其他中国人卖课。"
+    },
+    {
+      "id": 39,
+      "start_sec": 610,
+      "speaker": "Afra Wang",
+      "en": "And then themselves also register classes.",
+      "zh": "然后他们自己转头又去报别人的课。"
+    },
+    {
+      "id": 40,
+      "start_sec": 614,
+      "speaker": "Kaiser Kuo",
+      "en": "I mean, before we get too much further, I want to talk a little bit about this place, Liangzhu. I've never been there. Like I said, it's on the northwest suburbs of Hangzhou. Help us set the scene there.",
+      "zh": "在继续深聊之前，我想先谈谈良渚这个地方。我从没去过那里。正如我刚才所说，它位于杭州的西北郊。请先帮我们还原一下那里的环境。"
+    },
+    {
+      "id": 41,
+      "start_sec": 625,
+      "speaker": "Kaiser Kuo",
+      "en": "There are Neolithic ruins there. I know that there was this Liangzhu culture there and the, sort of, like, I don't know if people have been out to Banpo village or, so I imagine it's something like that. But there's also like this Tadao Ando designed building, a very famous Japanese architect, still living. It's called the Village Cultural Art Center. I, I looked at it, you know, I encourage you to check it out online. It's, it's, uh, it's quite a stunning building. The 'Big Roof,' I guess, he said. What's the Chinese, what do people call it in, in, in...?",
+      "zh": "那里有新石器时代遗址。我知道那里曾有良渚文化，有点像……我不知道大家去没去过半坡村遗址，我想象中可能类似。但那里还有一座安藤忠雄设计的建筑——他是一位极其著名的日本当代建筑大师。这栋建筑叫良渚文化艺术中心。我看过它的照片，建议大家上网查查，确实非常震撼。好像被称为'大屋顶'，中文里大家一般怎么称呼它？"
+    },
+    {
+      "id": 42,
+      "start_sec": 654,
+      "speaker": "Afra Wang",
+      "en": "They just called 'Dà Wūdǐng' (大屋顶). And then another one is, uh, yeah, uh, uh, another one is 'Dà Gǔ Cāng' (大谷仓), the, the big barn.",
+      "zh": "大家就叫它'大屋顶'。还有另外一个……对，另一个建筑叫'大谷仓'。"
+    },
+    {
+      "id": 43,
+      "start_sec": 661,
+      "speaker": "Kaiser Kuo",
+      "en": "Oh, yeah. The big barn, yeah.",
+      "zh": "噢对，大谷仓，是的。"
+    },
+    {
+      "id": 44,
+      "start_sec": 664,
+      "speaker": "Kaiser Kuo",
+      "en": "Uh, but there are like, you know, people sipping oat milk lattes and people actually lying on the grass, which is not something you typically do in Chinese cities cuz, you know, there's always little signs that say don't trample on the grass. And then, and then, you know, there's this back story involving apparently how Xi Jinping actually, uh, went there back in 2003.",
+      "zh": "但是那里有很多人在啜饮燕麦拿铁，人们居然还能躺在草坪上——这在中国城市里可不常见，因为通常到处都立着'请勿践踏草坪'的小牌子。而且这里还有一段渊源，据说习近平早在2003年就曾去过那里。"
+    },
+    {
+      "id": 45,
+      "start_sec": 684,
+      "speaker": "Kaiser Kuo",
+      "en": "But anyway, how did this place, I mean, it seems like sort of an unlikely place to become, you know, the vibe-coding capital, as you call it, of China? How much of that was planned and how much of it was just sort of spontaneous?",
+      "zh": "不过话说回来，这个地方怎么会变成——听起来很不搭界——你所说的中国'氛围编程之都'？这其中有多少是精心规划的，又有多少是自发形成的？"
+    },
+    {
+      "id": 46,
+      "start_sec": 695,
+      "speaker": "Afra Wang",
+      "en": "Mm. I want to break down a few components about the creation of Liangzhu, or how this vibe-coding capital became what it is today. There are, there are a few factors. One factor is, uh, it was essentially a real estate project.",
+      "zh": "嗯，我想把良渚的诞生，或者说这个氛围编程之都是如何演变成今天这副模样的过程拆解成几个维度。这里面有几个关键因素。其中一个因素是，它本质上是一个房地产项目。"
+    },
+    {
+      "id": 47,
+      "start_sec": 712,
+      "speaker": "Afra Wang",
+      "en": "Liangzhu Cultural Village (良渚文化村) was part of this infrastructure build-out in the real estate...",
+      "zh": "良渚文化村正是房地产基础设施扩张狂潮中的一部分……"
+    },
+    {
+      "id": 48,
+      "start_sec": 720,
+      "speaker": "Afra Wang",
+      "en": "Estate boom. So I think back then, you know, certain real estate developers like Vanke, the one that built Liangzhu, had this vision of this post-urban village, this utopia village. So they pretty much have this concept of xiangjian, you know, building the country in their mind.",
+      "zh": "房地产热潮。我想在那个时候，像开发良渚的万科这类房地产开发商，就设想过这样一种后都市乡村、一种乌托邦式的村落。他们脑海中基本上就有这种“乡建”的概念，也就是进行乡村建设。"
+    },
+    {
+      "id": 49,
+      "start_sec": 738,
+      "speaker": "Afra Wang",
+      "en": "So the way they built Liangzhu was not building, you know, 12-floor high-rise buildings to house people. Rather, in Liangzhu you don't see any high-rise buildings. Everyone, like the living condition really much resembles the Bay Area or Orange County if you know the American suburb.",
+      "zh": "所以他们建造良渚的方式，并不是盖那种12层的高楼大厦来安置居民。相反，在良渚你看不到任何高楼。每个人的居住条件，如果你熟悉美国郊区的话，其实非常像湾区或者橙县。"
+    },
+    {
+      "id": 50,
+      "start_sec": 762,
+      "speaker": "Kaiser Kuo",
+      "en": "Like detached housing? Detached housing as well? Wow.",
+      "zh": "比如独栋住宅？还有独栋住宅？哇。"
+    },
+    {
+      "id": 51,
+      "start_sec": 766,
+      "speaker": "Afra Wang",
+      "en": "Yeah, a lot of single-family houses. A lot of the buildings that you don't need an elevator because they're four or five floors tall. And the houses in Liangzhu are also spacious, right?",
+      "zh": "对，有很多独立住宅。还有很多不需要电梯的房子，因为它们只有四五层楼高。而且良渚的房子也很宽敞，对吧？"
+    },
+    {
+      "id": 52,
+      "start_sec": 781,
+      "speaker": "Afra Wang",
+      "en": "With 3,000 yuan, 4,000 yuan a month, you can rent a two-bed, two-bath. You can rent a three-bed, two-bath even. You can have an actual living room that you can house people.",
+      "zh": "一个月三四千块钱，你就能租下一套两室两卫，甚至能租到三室两卫。你可以拥有一个真正的客厅，能够招待朋友。"
+    },
+    {
+      "id": 53,
+      "start_sec": 793,
+      "speaker": "Afra Wang",
+      "en": "So, in Beijing, people are joking about this 'lu-fan bi', road-to-food ratio. It means like, if you eat your food for 2 hours, but if you spend 2 hours on the road as well, so your road-food ratio would be 1.",
+      "zh": "在北京，人们会拿“路饭比”，也就是在路上的时间与吃饭时间的比例开玩笑。意思是如果你吃顿饭花两小时，但在路上也花了两小时，那你的“路饭比”就是1。"
+    },
+    {
+      "id": 54,
+      "start_sec": 809,
+      "speaker": "Afra Wang",
+      "en": "But in Liangzhu, this road-food ratio is actually incredibly low. It's because you only need to walk 5 minutes to go to your friend's place to eat with them, and then walk another 5 minutes back to your own place. So in a sense, Liangzhu has a real community.",
+      "zh": "但在良渚，这个“路饭比”其实低得惊人。因为你只要走5分钟就能到朋友家一起吃饭，吃完再走5分钟就能回到自己家。所以从某种意义上说，良渚拥有真正的社区感。"
+    },
+    {
+      "id": 55,
+      "start_sec": 826,
+      "speaker": "Afra Wang",
+      "en": "Everyone has a nickname. People go to each other's living room to have dinner. People go to each other to co-work together. So there's like a really strong sense of community there.",
+      "zh": "每个人都有外号。大家会去彼此的客厅吃晚饭，大家会聚在一起协同办公。所以那里有一种非常强烈的社区归属感。"
+    },
+    {
+      "id": 56,
+      "start_sec": 839,
+      "speaker": "Kaiser Kuo",
+      "en": "I have to say, you're selling this really well. I want to move there now.",
+      "zh": "我得说，你宣传得太到位了。我现在都想搬过去了。"
+    },
+    {
+      "id": 57,
+      "start_sec": 843,
+      "speaker": "Afra Wang",
+      "en": "No, the thing is I want to, after visiting Liangzhu, that's why I'm constantly very drawn into this community. So, the first component is the real estate, right? And the second component is, of course, the historical legacy of Liangzhu, so the Liangzhu Neolithic ruins.",
+      "zh": "真的，去过良渚之后我也想搬去，这也是为什么我一直非常被这个社区所吸引。所以，第一个要素是房地产，对吧？而第二个要素，当然就是良渚的历史底蕴，也就是良渚新石器时代遗址。"
+    },
+    {
+      "id": 58,
+      "start_sec": 861,
+      "speaker": "Afra Wang",
+      "en": "So that's another interesting story because partially Xi Jinping contributed to the, quote-unquote, 'discovery' of Liangzhu. He basically contributed to the renaissance of Liangzhu.",
+      "zh": "这又是另一个有趣的故事了，因为部分上，习近平对良渚所谓的“发现”起到了推动作用。他基本上推动了良渚的复兴。"
+    },
+    {
+      "id": 59,
+      "start_sec": 874,
+      "speaker": "Afra Wang",
+      "en": "So when he was a Party Secretary of Zhejiang province, he watched a documentary about Liangzhu. Liangzhu is this Neolithic tombs being discovered a while ago, like more archaeologists came in in the 1910s, in the 1920s, and then later in the 1980s.",
+      "zh": "当年他担任中共浙江省委书记时，看了一部关于良渚的纪录片。良渚是早前就被发现的新石器时代墓葬群，在1910年代、1920年代，以及后来的1980年代，有更多考古学家介入发掘。"
+    },
+    {
+      "id": 60,
+      "start_sec": 894,
+      "speaker": "Afra Wang",
+      "en": "Everyone kind of sort of knew the significance of Liangzhu could be some material...",
+      "zh": "大家或多或少都知道，良渚的重要性可能会成为某种实证……"
+    },
+    {
+      "id": 61,
+      "start_sec": 900,
+      "speaker": "Afra Wang",
+      "en": "proving ground for China as this 5,000 years history, because Liangzhu had some strong signs of early...",
+      "zh": "作为中国拥有五千年文明史的实证之地，因为良渚具备了某些强有力的早期..."
+    },
+    {
+      "id": 62,
+      "start_sec": 908,
+      "speaker": "Kaiser Kuo",
+      "en": "markers of civilization.",
+      "zh": "文明标志。"
+    },
+    {
+      "id": 63,
+      "start_sec": 909,
+      "speaker": "Afra Wang",
+      "en": "Exactly. People were collectively farming rice. People were collectively building the dam, changing the geography. So there are a lot of strong signs in Liangzhu could show this.",
+      "zh": "没错。当时的人们已经在集体种植水稻，集体修筑水坝，改造地理地貌。所以良渚有非常多有力的证据能证明这一点。"
+    },
+    {
+      "id": 64,
+      "start_sec": 922,
+      "speaker": "Afra Wang",
+      "en": "So Xi Jinping himself watched this documentary, and he felt really concerned. Because back then, Liangzhu is a rapidly developing little village. It's, you know, desperately trying to catch up with China's, you know, double-digit growth.",
+      "zh": "于是习近平亲自看了这部纪录片，感到非常忧心。因为当时的良渚只是一个飞速发展的小村落，正拼命试图赶上中国两位数的经济增长步伐。"
+    },
+    {
+      "id": 65,
+      "start_sec": 935,
+      "speaker": "Afra Wang",
+      "en": "So when Xi Jinping visited Liangzhu himself, he saw this war-zone-like village where all those precious Neolithic ruins and those evidences are being destroyed and not being protected properly.",
+      "zh": "当习近平亲自视察良渚时，他看到这个村子搞得像战场一样，那些珍贵的新石器时代遗址和证据正遭到破坏，根本没有得到应有的保护。"
+    },
+    {
+      "id": 66,
+      "start_sec": 950,
+      "speaker": "Afra Wang",
+      "en": "And he personally actually shut down a few of them, you know. And then there was another official shut down most of them, but he was he himself personally shut down the rest, and and advocating for this place.",
+      "zh": "他甚至亲自关停了其中几处。后来虽然有另一位官员关停了大部分，但他本人也亲自取缔了其余的采石场，并大力呼吁保护这里。"
+    },
+    {
+      "id": 67,
+      "start_sec": 962,
+      "speaker": "Afra Wang",
+      "en": "So the Liangzhu theory started to begin to to build, and scholarly scholars start to study this place. And later, time goes by, in 2019, it finally became a UNESCO heritage site.",
+      "zh": "于是“良渚学说”开始逐步建立，学者们也开始深入研究这片遗址。随着时间推移，到了2019年，它终于被联合国教科文组织列入世界遗产名录。"
+    },
+    {
+      "id": 68,
+      "start_sec": 978,
+      "speaker": "Afra Wang",
+      "en": "It's it is a UNESCO-stamped place to to to indicate that Liangzhu has an evidence and enough enough artifacts to show that this place used to have, thousands and thousands of years ago, used to have a very strong hierarchy that's similar to a civilizational tribe.",
+      "zh": "这相当于获得了联合国的官方认证，表明良渚拥有充分的证据和文物，证明这里在几千年前就存在过一种高度森严的等级社会，堪比初具规模的早期文明或部落联盟。"
+    },
+    {
+      "id": 69,
+      "start_sec": 1004,
+      "speaker": "Afra Wang",
+      "en": "And and this tribe would use this jade artifact to indicate power and the the ruling mandate. And there are some very advanced sacrifices.",
+      "zh": "这个部族会使用玉器来彰显权力和统治合法性，并且已经有了非常发达的祭祀仪式。"
+    },
+    {
+      "id": 70,
+      "start_sec": 1015,
+      "speaker": "Afra Wang",
+      "en": "There are evidence that the Liangzhu civilians, the Liangzhu people thousands years ago figured out how to use star maps, how to, you know, they learned how to separate seasons from each other, like understand the rhythm of the nature and predict the nature.",
+      "zh": "有证据表明，几千年前的良渚先民就已经掌握了识读星图的技能，学会了划分四季，理解并顺应自然规律，甚至能预测时令节气。"
+    },
+    {
+      "id": 71,
+      "start_sec": 1031,
+      "speaker": "Afra Wang",
+      "en": "So this is a place that later became the place to prove that China has 5,000 years of history. And then, you know, since since 2020, Liangzhu has been hosting something called the Liangzhu Forum.",
+      "zh": "因此，这个地方后来成为了证明中国拥有五千年文明史的标志性圣地。而且自2020年起，良渚还开始定期举办所谓的“良渚论坛”。"
+    },
+    {
+      "id": 72,
+      "start_sec": 1044,
+      "speaker": "Afra Wang",
+      "en": "So this part is actually the part that's been cut off from my New Yorker piece, which I feel really sad about, but...",
+      "zh": "其实这部分内容最终在我的《纽约客》文章中被删掉了，我当时觉得挺可惜的，不过……"
+    },
+    {
+      "id": 73,
+      "start_sec": 1050,
+      "speaker": "Kaiser Kuo",
+      "en": "Well, that's why we're here, that's we can get all this stuff back in there.",
+      "zh": "这正是我们做这期播客的意义所在，可以把这些精彩内容全给补回来。"
+    },
+    {
+      "id": 74,
+      "start_sec": 1054,
+      "speaker": "Kaiser Kuo",
+      "en": "So you brought us all the way up to the era of COVID, but it's really in your piece, the part that was left in, you trace Liangzhu's rise as this vibe-coding hub to the post-zero-COVID crisis.",
+      "zh": "你刚才把背景一路讲到了疫情时期，但在你的文章里，那些保留下来的核心内容，是将良渚崛起为“氛围编程”（vibe coding）重镇的源头，追溯到了后动态清零时期的那场危机。"
+    },
+    {
+      "id": 75,
+      "start_sec": 1066,
+      "speaker": "Kaiser Kuo",
+      "en": "You know, when the major internet companies started shedding tons of jobs. I think there was like 40,000 jobs all gone in 2022 alone. Alibaba's stock dropped, you know, lost like 2/3 of its value.",
+      "zh": "当时各大互联网巨头开始大规模裁员。我记得仅在2022年一年内，就有大约4万个岗位蒸发。阿里巴巴的股价大幅暴跌，市值蒸发了近三分之二。"
+    },
+    {
+      "id": 76,
+      "start_sec": 1080,
+      "speaker": "Kaiser Kuo",
+      "en": "And of course, right in the heat of this moment, AI arrives. You know, LLMs become a thing. And then, in your words, you get this sort of sense of agency that comes from this.",
+      "zh": "当然，就在这个节骨眼上，AI横空出世。大语言模型成了焦点。用你的话说，人们从中获得了一种掌控感或能动性。"
+    },
+    {
+      "id": 77,
+      "start_sec": 1092,
+      "speaker": "Kaiser Kuo",
+      "en": "And the best remaining chance to build something is all about to use language models. So I'm curious, how would you put this? Is Liangzhu the child of the layoffs, or is it the child of DeepSeek?",
+      "zh": "而眼下想要做成点事情，最好的机会全押在大模型上了。所以我很好奇，你会怎么定性：良渚究竟是裁员潮的产物，还是DeepSeek的产物？"
+    },
+    {
+      "id": 78,
+      "start_sec": 1107,
+      "speaker": "Afra Wang",
+      "en": "I think both. It's also the child of Alibaba, to be honest. It's only 20 minutes from Alibaba's headquarters.",
+      "zh": "我觉得两者兼有。说实话，它也是阿里巴巴的产物。这里距离阿里巴巴总部只有20分钟路程。"
+    },
+    {
+      "id": 79,
+      "start_sec": 1117,
+      "speaker": "Afra Wang",
+      "en": "So, I think after COVID, the Chinese tech industry experienced this ego death, because, first, COVID gave this really harsh economic hit to the booming tech industry.",
+      "zh": "我认为疫情之后，中国科技行业经历了一场“自我的消亡”。首先，疫情给蓬勃发展的科技业带来了非常沉重的经济打击。"
+    },
+    {
+      "id": 80,
+      "start_sec": 1132,
+      "speaker": "Afra Wang",
+      "en": "And then also, plus the previous crackdown on the tech industry—you know, shutting down the IPO of Ant Financial, disappearing Jack Ma, as well as the overregulation of the education tech industry.",
+      "zh": "再加上此前对科技行业的整顿——比如叫停蚂蚁金服IPO、马云退隐，以及对在线教育行业的过度监管。"
+    },
+    {
+      "id": 81,
+      "start_sec": 1146,
+      "speaker": "Kaiser Kuo",
+      "en": "Let me push back on you a little bit here. I mean, it wasn't a crackdown on the tech industry, right? Stopping Ant Financial wasn't about 'I don't like the tech industry'; it was about 'I don't like moral hazard in the fintech sector', right?",
+      "zh": "这一点我得稍微反驳你一下。其实那并不是针对科技产业的全面打压，对吧？叫停蚂蚁金服上市并不是出于‘我不喜欢科技行业’，而是‘我不能容忍金融科技领域的道德风险’，对吧？"
+    },
+    {
+      "id": 82,
+      "start_sec": 1163,
+      "speaker": "Kaiser Kuo",
+      "en": "And then they didn't disappear Jack Ma, either. That implies that the government somehow put him in a dark cell somewhere. He decided not to stick his head up above the parapet because he'd made some very impolitic remarks to regulators—after, by the way, after the IPO had actually already been pulled.",
+      "zh": "而且他们也没有让马云‘被消失’。那种说法听起来好像政府把他关进了某个黑牢一样。是他自己选择不再抛头露面，因为他向监管部门发表了非常不妥当的言论——顺便提一句，那是在IPO实际上已经被叫停之后。"
+    },
+    {
+      "id": 83,
+      "start_sec": 1180,
+      "speaker": "Kaiser Kuo",
+      "en": "They had been told that the IPO was being pulled already before he made that speech. So I like to be careful about the way we use language on this.",
+      "zh": "在他发表演讲之前，他们就已经被告知IPO要被取消了。所以在这类用词上，我更倾向于审慎一些。"
+    },
+    {
+      "id": 84,
+      "start_sec": 1189,
+      "speaker": "Afra Wang",
+      "en": "All right. Thank you for the context. I do think this energy—where you used to be this celebratory industry, used to be bold, used to be very lucrative—like, this abundance energy is gone.",
+      "zh": "好的，谢谢你补充这些背景。但我确实觉得，科技行业过去那种充满欢庆、无所畏惧、极其吸金的充裕感已经不复存在了。"
+    },
+    {
+      "id": 85,
+      "start_sec": 1205,
+      "speaker": "Afra Wang",
+      "en": "This is the combined effect of COVID as well as, you know, the regulation of companies like Ant Financial and Alibaba. So, I think there are a few factors. And also, in Silicon Valley, ChatGPT came out.",
+      "zh": "这是疫情与针对蚂蚁、阿里等企业监管措施共同作用的结果。所以我觉得原因有多重。而且与此同时，硅谷推出了ChatGPT。"
+    },
+    {
+      "id": 86,
+      "start_sec": 1221,
+      "speaker": "Afra Wang",
+      "en": "But look at us, what do we have, right? So, I experienced these few months of darkness, this ego death, where on my WeChat, some friends working in Chinese tech started to post something that sounded just utterly desperate.",
+      "zh": "但看看我们自己，我们手里有什么呢？所以在随后的几个月里，我感受到了那种暗淡与‘自我幻灭’，微信朋友圈里一些在中国科技行业工作的朋友，开始发一些显得极其绝望的内容。"
+    },
+    {
+      "id": 87,
+      "start_sec": 1238,
+      "speaker": "Afra Wang",
+      "en": "It just sounds something like Lu Xun in 1930, you know, just utterly disappointed and thinking there's no way we can turn the table around.",
+      "zh": "读起来就像是1930年代鲁迅的文字，充满了彻底的失望，觉得我们再无翻盘的可能。"
+    },
+    {
+      "id": 88,
+      "start_sec": 1249,
+      "speaker": "Afra Wang",
+      "en": "But back then, around 2015, there was a decade of Chinese tech which drew a lot of envy from Silicon Valley.",
+      "zh": "但往前推到2015年前后，中国科技行业曾经历过让硅谷都艳羡不已的黄金十年。"
+    },
+    {
+      "id": 89,
+      "start_sec": 1260,
+      "speaker": "Afra Wang",
+      "en": "Uber left China because it was beaten up by Didi, and Elon Musk and Mark Zuckerberg, they all really envy WeChat because they wanted to build super apps. So there's this period of time where the Chinese mobile app industry, this mobile industry, this ByteDance mafia really took over the West.",
+      "zh": "优步败给滴滴后退出了中国，而埃隆·马斯克和马克·扎克伯格都非常羡慕微信，因为他们也想打造超级应用。所以曾有那么一段时间，中国移动应用行业、移动互联产业，也就是字节跳动系那帮人，确实横扫了西方市场。"
+    },
+    {
+      "id": 90,
+      "start_sec": 1287,
+      "speaker": "Afra Wang",
+      "en": "That's the moment when Kai-Fu Lee indicated this, you know, \"East is rising, West is falling.\" So that was the ground of the changing of the sentiment.",
+      "zh": "李开复也正是在那个时期指出了所谓的“东升西降”。正是这种背景，催生了情绪的转变。"
+    },
+    {
+      "id": 91,
+      "start_sec": 1303,
+      "speaker": "Kaiser Kuo",
+      "en": "Yeah, so I get it. So child of DeepSeek, but also child of the layoffs. So, Alibaba layoffs.",
+      "zh": "对，我明白了。所以它既是 DeepSeek 的产物，也是裁员潮的产物，也就是阿里的裁员潮。"
+    },
+    {
+      "id": 92,
+      "start_sec": 1308,
+      "speaker": "Afra Wang",
+      "en": "Yeah, child of layoffs of Alibaba, yeah.",
+      "zh": "是的，是阿里巴巴裁员潮的产物，没错。"
+    },
+    {
+      "id": 93,
+      "start_sec": 1310,
+      "speaker": "Kaiser Kuo",
+      "en": "Yeah, but there are also people who come not from Alibaba in Hangzhou, but come from the north. You introduce us to all these northern defectors, the people who were fleeing Beijing for the warmer climes of the south. A guy named Master Qi, who is this former PM, product manager. And his idea, he wanted to create a living room like the one on the set of everyone's favorite sitcom, Friends.",
+      "zh": "是的，但也有不少人并非来自杭州的阿里巴巴，而是从北方南下的。你在文中向我们介绍了所有这些来自北方的“出逃者”，那些逃离北京、前往温暖南方的人。比如有位叫“七爷”的人，他曾是位产品经理。他的想法是打造一个像大家最喜欢的经典情景喜剧《老友记》布景那样的客厅。"
+    },
+    {
+      "id": 94,
+      "start_sec": 1334,
+      "speaker": "Kaiser Kuo",
+      "en": "And he ends up putting together these events with hundreds of people, way too many for his living room. There's a lot of investors who were showing up because there's so many, you know, tech entrepreneurs there, and he starts to, you know, charge a cover at the door. I'm interested in this, like this living room as a social form.",
+      "zh": "结果他办的这些活动吸引了数百人参加，远超他家客厅的承载极限。许多投资人也纷纷到场，因为那里汇聚了大量的科技创业者，于是他开始在门口收门票。我对这种形式很感兴趣，即把客厅作为一种社交形态。"
+    },
+    {
+      "id": 95,
+      "start_sec": 1351,
+      "speaker": "Kaiser Kuo",
+      "en": "What does it do in Liangzhu that an office can't do, or that like a WeChat group can't really do?",
+      "zh": "在良渚，这种客厅能带来哪些办公室办不到、或者微信群做不到的体验？"
+    },
+    {
+      "id": 96,
+      "start_sec": 1359,
+      "speaker": "Afra Wang",
+      "en": "I think people like Master Qi is, especially in Silicon Valley, is a quite common existence. These are the people who can successfully pull some resource together, and in a sense like arbitrating the resource in a really good way, because often create a win-win situation by pulling entrepreneurs and investors together.",
+      "zh": "我认为像七爷这样的人，尤其在硅谷，其实相当普遍。这些人能成功汇集各方资源，从某种意义上说，能极好地协调并调配资源，因为他们把创业者和投资人撮合在一起，往往能促成双赢。"
+    },
+    {
+      "id": 97,
+      "start_sec": 1382,
+      "speaker": "Afra Wang",
+      "en": "Those are the people called professional community builders. In Silicon Valley, in San Francisco, I've seen a lot of those community builders. And I'm also just really struggling to find similar roles in the tech scene in Beijing or the tech scene in Hangzhou.",
+      "zh": "这些人就是所谓的“专业社群构建者”。在硅谷和旧金山，我见过很多这类社群构建者。而在北京或杭州的科技圈，我其实很难找到类似的角色。"
+    },
+    {
+      "id": 98,
+      "start_sec": 1397,
+      "speaker": "Afra Wang",
+      "en": "But I often just see those semi-official company-held events, rather than really organic, intimate events like the one that Master Qi did. So when I learned about Master Qi's work, when I learned about Master Qi's living room, I was like, \"Well, this is really, this is great. This is familiar.\"",
+      "zh": "我经常看到的都是那些由公司举办的半官方活动，而不是像七爷办的那种真正自然生长、充满亲密感的聚会。所以当我了解到七爷做的事情、了解到他的客厅时，心想：“这太棒了，这感觉太熟悉了。”"
+    },
+    {
+      "id": 99,
+      "start_sec": 1415,
+      "speaker": "Afra Wang",
+      "en": "He really made it work. Now I think this is his full-time job because I do think his talent is on organizing people together, on helping each other to find each other.",
+      "zh": "他确实做成了这件事。现在我觉得这成了他的全职工作，因为我认为他的才华恰恰在于把人组织起来，帮助大家找到彼此。"
+    },
+    {
+      "id": 100,
+      "start_sec": 1427,
+      "speaker": "Afra Wang",
+      "en": "And then certainly, because he has ADHD, he has dyslexia, and he's not the best programmer, he's not the best developer, but he's certainly one of the best community builders I met.",
+      "zh": "而且当然，尽管他有注意力缺陷多动障碍（ADHD）和阅读障碍，算不上顶尖的程序员或开发者，但他绝对是我见过的最出色的社群构建者之一。"
+    },
+    {
+      "id": 101,
+      "start_sec": 1440,
+      "speaker": "Afra Wang",
+      "en": "judgmental, like, very empathetic. And also has this energy of just just people just want to hang out with him. He's a He is a Liangzhu villager.",
+      "zh": "挑剔，非常通情达理。他身上还有一种独特的感染力，让人就是忍不住想和他呆在一起。他是一个地道的良渚村民。"
+    },
+    {
+      "id": 102,
+      "start_sec": 1450,
+      "speaker": "Kaiser Kuo",
+      "en": "Sounds like quite a character. You'll have to introduce him to me when I head down there myself to check it out. Let me ask you about something I flicked at in the beginning, the Gallup number: 93% of Chinese respondents saying AI is mostly going to help their lives, or not their lives, but the country, right, overall.",
+      "zh": "听起来真是个妙人。等我自己去那边探访的时候，你一定得引荐我认识一下。我想问问你在开头聊到的一件事，盖洛普的那项民调：93%的中国受访者表示AI在很大程度上会助力他们的生活，或者不单是个人生活，而是从整体上有利于这个国家，对吧？"
+    },
+    {
+      "id": 103,
+      "start_sec": 1469,
+      "speaker": "Kaiser Kuo",
+      "en": "So your New York Magazine piece argues pretty directly that, you know, what reads as optimism often is actually something else. You call it acceptance, or this recognition that either you board the last bus, as you say, or you get left behind. When people answer that question, what do you think they're actually telling us?",
+      "zh": "你在《纽约杂志》的那篇文章中相当直白地指出，表面上看似乐观的态度，其本质往往是另一回事。你将其称之为“接纳”，或者说是这样一种认知：正如你所言，你要么赶上这趟末班车，要么被时代抛下。那么，当人们回答那个民调问题时，你认为他们真正在表达什么？"
+    },
+    {
+      "id": 104,
+      "start_sec": 1488,
+      "speaker": "Afra Wang",
+      "en": "I've been thinking about this a lot actually, because everyone is trying to understand why China is so radically accepting AI or embracing AI, when, you know, many states in the U.S., people are protesting against data centers. Those are often the grassroots, a very authentic resentment against the tech oligarchs.",
+      "zh": "实际上我一直在深入琢磨这个问题。因为所有人都在试图弄明白，为什么中国会如此彻底地接纳或拥抱AI。而与此同时，在美国的许多州，人们都在游行抗议修建数据中心。那些往往是草根阶层对科技寡头自发产生的、最真实的积怨。"
+    },
+    {
+      "id": 105,
+      "start_sec": 1513,
+      "speaker": "Afra Wang",
+      "en": "So I I'm kind of looking for a similar story in China. Like, what is China's version of protesting against data centers? But you you cannot protest, basically. When you cannot say no, what are the options you have?",
+      "zh": "所以我也在试图在中国寻找类似的故事脉络。比如，中国版抗议数据中心的图景会是什么样？但问题在于，你根本无法去抗议。当你无法说“不”的时候，你又有什么选择呢？"
+    },
+    {
+      "id": 106,
+      "start_sec": 1531,
+      "speaker": "Afra Wang",
+      "en": "So I do think the sprawling education, the AI education industry, could be an answer. It's because when people don't think they have much choice but adopting AI—because AI will be the force that take the nation to the next industrial upgrade—they need to be part of it. Otherwise, they will left out, right?",
+      "zh": "所以我认为，这种野蛮生长的教育、这种AI培训产业，或许正是一种答案。因为当人们觉得自己别无选择只能拥抱AI时——因为AI将被视为引领国家迈向下一轮产业升级的核心力量——他们就必须跻身其中。否则就会被淘汰出局，不是吗？"
+    },
+    {
+      "id": 107,
+      "start_sec": 1554,
+      "speaker": "Afra Wang",
+      "en": "So that's why people are eager to, you know, install OpenClaw and register all this and pay money to all this available online AI classes to to be part of this trend.",
+      "zh": "所以这也是为什么大家争先恐后地去装OpenClaw，注册各种账号，花钱报名市面上能找得到的所有线上AI课程，唯恐自己落后于这股浪潮。"
+    },
+    {
+      "id": 108,
+      "start_sec": 1568,
+      "speaker": "Kaiser Kuo",
+      "en": "So it's a kind of FOMO, right? You write about this, right, that the same kind of anxiety wears completely different faces on the West Coast of the United States and on the eastern coast of China. So in the U.S.—and not just the West Coast, it's all over—AI anxiety has become like this really dominant emotion.",
+      "zh": "所以这其实是一种错失恐惧症（FOMO），对吧？你文里也写到了这点，同一种焦虑在美国西海岸和中国东部沿海呈现出了截然不同的面孔。在美国——不仅限于西海岸，而是全国各地——AI引发的焦虑已经演变成一种绝对主导的情绪。"
+    },
+    {
+      "id": 109,
+      "start_sec": 1589,
+      "speaker": "Kaiser Kuo",
+      "en": "You got the graduates who are booing all the commencement speakers anytime they so much as mentioned AI. I think I've seen stats that say like seven out of 10 people are opposed having data centers near them. But, yeah, in China you're suggesting that it it inverts.",
+      "zh": "你看那些大学毕业生，只要毕业典礼演讲嘉宾一提到AI，台下就会嘘声一片。我记得看过统计数据，大概有七成的人反对在自家附近建数据中心。但正如你所指出的，这种情况在中国完全倒转了过来。"
+    },
+    {
+      "id": 110,
+      "start_sec": 1605,
+      "speaker": "Kaiser Kuo",
+      "en": "Like that that same anxiety, because it can't be expressed in in direct opposition to data centers, or to, you know, the big internet companies, or to tech oligarchs, it it just becomes, 'Oh, no, I can't be left [behind].'",
+      "zh": "也就是同样一种焦虑，由于无法通过直接反对建数据中心，或是向大型互联网公司、科技寡头抗议来发泄，最终便演变成了一种‘天呐，我绝不能掉队’的心态。"
+    },
+    {
+      "id": 111,
+      "start_sec": 1620,
+      "speaker": "Kaiser Kuo",
+      "en": "part of this, so I better get on board.\" I feel like that that makes some sense to me, but I'm not sure it explains everything. I feel like there is still the fact that for so very long, Chinese material lives and the improvements in the technology they had to hand were in lockstep, they improved in lockstep.",
+      "zh": "“我可不能掉队，必须得跟上。”我觉得这种说法有些道理，但我不确定它能解释一切。我觉得还有一个事实，那就是在很长一段时间里，中国人物质生活的改善与他们手中科技的进步一直都是步调一致的，两者是同步提升的。"
+    },
+    {
+      "id": 112,
+      "start_sec": 1640,
+      "speaker": "Kaiser Kuo",
+      "en": "And even if that is no longer in perfect sync, even if, you know, one is moving too fast to to, you know, the other, and the other, you know, the material lives are not are no longer improving, that still has a kind of, you know, inertia. There there's still that residual sentiment of optimism about technology. Like, for so long, it's for 40, 50 years, it's been sort of beaten into them to believe that technology makes life better.",
+      "zh": "即使现在两者不再完美同步，即使某一方发展太快，而另一方——也就是物质生活水平——不再同步提升，但这股惯性依然存在。人们对科技依然抱有这种残存的乐观情绪。毕竟四五十年以来，这种“科技让生活更美好”的信念早已深深植入他们的观念中。"
+    },
+    {
+      "id": 113,
+      "start_sec": 1668,
+      "speaker": "Kaiser Kuo",
+      "en": "And so, I don't think it goes away or immediately just sort of manifests as as this kind of anxiety or FOMO. But hey, but I think you're yours is an interesting contribution to that that that debate.",
+      "zh": "所以，我认为它不会凭空消失，也不会立刻完全转化为这种焦虑或错失恐惧（FOMO）。不过，我觉得你为这场讨论提供了一个非常有趣的视角。"
+    },
+    {
+      "id": 114,
+      "start_sec": 1680,
+      "speaker": "Kaiser Kuo",
+      "en": "And we'll we'll get back into it later on.",
+      "zh": "我们稍后还会回过头来继续探讨这一点。"
+    },
+    {
+      "id": 115,
+      "start_sec": 1682,
+      "speaker": "Afra Wang",
+      "en": "Yeah, yeah, I I also think the genuine optimism is is is real. It is, I think it is a mixture of a lot of things. Uh you know, like, you Just, you know, like tiger mom taking their kids to a Shenzhen robotics show, it is a mixture of aspiration and sometimes fear, right? Like, those moms will want to urge the kids to to learn, to absorb, because this this this could be the future.",
+      "zh": "是的，我也认为那种发自内心的乐观是真实存在的。但我觉得这交织着很多复杂的因素。就像那些带着孩子去深圳看机器人展的虎妈一样，这种心理既包含着对未来的憧憬，有时也包含着恐惧，对吧？那些母亲极力敦促孩子去学习、去吸收，因为这可能就是未来。"
+    },
+    {
+      "id": 116,
+      "start_sec": 1709,
+      "speaker": "Afra Wang",
+      "en": "And I think I do think in the past being left out by the country is a very common experience shared by many Chinese people. When I was growing up, I think there's just the the the sentiment is is often, \"China is too big, China is growing too fast, you know, people need to to catch up.\" This is this is a sentiment.",
+      "zh": "而且我觉得，在过去，被国家发展的快车抛下是很多中国人普遍有过的经历。在我长大的过程中，经常能感受到这样一种情绪：“中国太大了，中国跑得太快了，人必须得拼命赶上。”就是这样一种心态。"
+    },
+    {
+      "id": 117,
+      "start_sec": 1731,
+      "speaker": "Kaiser Kuo",
+      "en": "So, no matter what the the situation is in the economy, whether it's booming or busting, it's still, you need to keep up, right? I I kind of tend to read it I mean, a long time ago, my good friend Damien Ma wrote a book called In Line Behind a Billion People, and it lens a lot of China through the the lens of scarcity.",
+      "zh": "所以，无论经济大环境如何，无论是繁荣还是萧条，核心逻辑依然是“你必须跟上”，对吧？我往往也是这么理解的——很久以前，我的好友 Damien Ma 写过一本书，叫《排在十亿人身后》（In Line Behind a Billion People），书中透过“匮乏”这一视角来解读中国。"
+    },
+    {
+      "id": 118,
+      "start_sec": 1749,
+      "speaker": "Kaiser Kuo",
+      "en": "And I often read it as as that still. There's only so many people who will, you know, score in the top of the Gaokao who will be able to go to the best universities. So, there's a lot of competition for this perceived scarce number of seats, you know? And that that's what what always seems to drive it.",
+      "zh": "我至今也常常从这个角度去看。能高考拔尖、考入顶尖大学的人数终究是有限的。因此，大家都在为了争夺心目中极为稀缺的名额而激烈竞争。这似乎就是一直以来的驱动力。"
+    },
+    {
+      "id": 119,
+      "start_sec": 1766,
+      "speaker": "Kaiser Kuo",
+      "en": "I mean, there's this meme that you wrote that I absolutely love. You said, \"Westerners get restless when they can't protest, and Chinese people get restless when they haven't found a teacher.\" So, it's funny how your your interpretation is that people, uh, you know, when they're experiencing this anxiety, they they their instinct is to go learn, to to catch up, to find the thing that they're supposed to all be learning.",
+      "zh": "你在文章里写过一个梗，我特别喜欢。你说：“西方人一不能抗议就抓狂，中国人一找不到老师就焦虑。”所以很有意思的是，你的解读是：人们在感到焦虑时，本能反应是去学习、去迎头赶上、去找到那个所有人都在学的“法宝”。"
+    },
+    {
+      "id": 120,
+      "start_sec": 1790,
+      "speaker": "Kaiser Kuo",
+      "en": "And you know, back in in the day, it was English. It's like English fluency was going to, you know, be the key, back in the '90s, and you had, you know, some pretty crazy English",
+      "zh": "在当年，那个法宝就是英语。上世纪90年代，英语流利似乎就是通往成功的钥匙，当时还催生了各种相当疯狂的“疯狂英语”现象。"
+    },
+    {
+      "id": 121,
+      "start_sec": 1800,
+      "speaker": "Kaiser Kuo",
+      "en": "Teachers, literally Crazy English, right? What is this? Is this like some, you know, echo of a deeply ingrained Confucian instinct? Is it like something that's the result of the Gaokao system? Is it something else entirely? Are you sympathetic to this? Do you feel it yourself?",
+      "zh": "老师，简直就是字面意义上的“疯狂英语”，对吧？这到底是什么现象？是某种根深蒂固的儒家本能的回响吗？还是高考制度催生的产物？抑或是完全不同的东西？你对此抱有同情吗？你自己会有这种共鸣吗？"
+    },
+    {
+      "id": 122,
+      "start_sec": 1822,
+      "speaker": "Afra Wang",
+      "en": "I think, okay, first of all, I do think there is this learning and meritocracy still religion in China, and I don't think people are cynical about this. I think it's actually deeply Confucian about it. If you learn something, it will change you. Learning will change you.",
+      "zh": "我想，首先，我确实认为在中国，学习和功绩主义依然像是一种信仰，而且我认为人们对此并不愤世嫉俗。我觉得骨子里其实有很深的儒家印记：只要你学到东西，它就会改变你，学习能改变你的命运。"
+    },
+    {
+      "id": 123,
+      "start_sec": 1843,
+      "speaker": "Afra Wang",
+      "en": "And then learning is—I really like this Chinese word, and then I really never know how to translate it into Western discourse—it's qiúxué. There is this sense of qiú, like this hard pursuit of something, the real knowledge, the real transformation is in hardship. Yeah, so I do think Chinese people are not cynical about this. So people who register for this class are very genuine.",
+      "zh": "而且这种学习——我非常喜欢一个中文词，但也从来不知道该怎么翻译到西方语境中——就是“求学”。有一种“求”的意味，就像是对某种东西的苦苦追寻，真正的知识、真正的蜕变都伴随着艰辛。所以我觉得中国人对此并不玩世不恭，去报这些班的人其实是非常真诚的。"
+    },
+    {
+      "id": 124,
+      "start_sec": 1866,
+      "speaker": "Afra Wang",
+      "en": "And I also just really want to tell about this: the majority part of my story happened in this company in Hangzhou. It's called Shēngcái Yǒudào. There's a \"art of getting rich,\" you know, that's the literal translation of this company.",
+      "zh": "而且我也很想讲讲这个：我报道的大部分故事都发生在杭州的一家公司，叫“生财有道”。字面意思就是“发财有门道”。"
+    },
+    {
+      "id": 125,
+      "start_sec": 1881,
+      "speaker": "Afra Wang",
+      "en": "So I went to this company because I learned that it is one of the largest, quote-unquote, \"get rich by learning AI\" community in China. And this community offers hundreds of hundreds of classes, from DeepSeek 101 to \"use AI to make dollars.\" All those classes are available in the community, but you need to pay 3,000 yuan per year to be a member.",
+      "zh": "我之所以去这家公司，是因为得知它是中国最大的“学AI致富”社群之一。这个社群提供成百上千门课程，从“DeepSeek入门”到“用AI赚美金”，应有尽有。但在社群里，你每年得交3000元才能成为会员。"
+    },
+    {
+      "id": 126,
+      "start_sec": 1908,
+      "speaker": "Kaiser Kuo",
+      "en": "That's half a month's salary for your average Hangzhou person, by the way, right?",
+      "zh": "顺便说一句，这相当于一个普通杭州人半个月的工资了，对吧？"
+    },
+    {
+      "id": 127,
+      "start_sec": 1912,
+      "speaker": "Afra Wang",
+      "en": "Yeah, yeah, it's not a trivial number. Liangzhu monthly rent is 3,000, 4,000 yuan. So I visited the headquarter of the Hangzhou, which is one of the largest offices in China. They have multiple offices in different cities in China. There's one in Chengdu, there's one in Wuhan, there's one in Beijing. I visited their headquarter in Hangzhou.",
+      "zh": "对，对，这不是一笔小数目。良渚一个月的房租也就三四千元。我去走访了他们在杭州的总部，那是他们在中国最大的办公室之一。他们在中国好几个城市都有办公点，成都、武汉、北京都有，我去的是杭州总部。"
+    },
+    {
+      "id": 128,
+      "start_sec": 1936,
+      "speaker": "Afra Wang",
+      "en": "It is actually near the Alibaba headquarter. Like, you can actually see the headquarter from the office.",
+      "zh": "它其实就在阿里巴巴总部附近。从他们的办公室甚至能直接看到阿里总部。"
+    },
+    {
+      "id": 129,
+      "start_sec": 1944,
+      "speaker": "Kaiser Kuo",
+      "en": "From the Shēngcái Yǒudào office, yeah.",
+      "zh": "从“生财有道”的办公室看过去，对。"
+    },
+    {
+      "id": 130,
+      "start_sec": 1946,
+      "speaker": "Afra Wang",
+      "en": "Yeah, Shēngcái Yǒudào's office is in Hangzhou Financial City. It's in the finance tech city, where many famous startups were there. And the company, if I remember correctly, is on the 26th floor. It's just a beautiful office setting.",
+      "zh": "对，“生财有道”的办公室就在杭州金融城，也就是科技金融城，那里聚集了许多知名初创公司。如果我没记错的话，这家公司在26楼，办公环境非常漂亮。"
+    },
+    {
+      "id": 131,
+      "start_sec": 1969,
+      "speaker": "Kaiser Kuo",
+      "en": "You gave us lots of great color on this with, like, the names of the conference rooms, just like the \"Prosperity Evangelist\" conference room and \"Apostle of the Method.\" I mean,",
+      "zh": "你在这方面提供了很多生动的细节，比如那些会议室的名字，像什么“生财布道者”会议室、“得道门徒”会议室。我是说，"
+    },
+    {
+      "id": 132,
+      "start_sec": 1980,
+      "speaker": "Kaiser Kuo",
+      "en": "The whole thing with like the ladder up from, you know, ordinary member up to 'navigator' and then the 'deep sea circle', it sounds like a couple of things to me. It sounds like multi-level marketing, like a pyramid scheme, but it also sounds like Scientology or some cult or something.",
+      "zh": "从普通会员一路往上晋升，到‘领航员’，再到‘深海圈’，这整套体系听起来有两层意味。它既像传销那种金字塔式的层级架构，又听着特别像山达基教之类的邪教组织。"
+    },
+    {
+      "id": 133,
+      "start_sec": 1996,
+      "speaker": "Kaiser Kuo",
+      "en": "I mean, it costs what, that what you said, 3,365 yuan a year against an average Hangzhou wage of about, you know, 7,600 a month. So what kind of people are paying for this? I mean, and is it... is it a cult? Is it like culty? Is it scammy?",
+      "zh": "我是说，它的收费正如你所说，一年要3365元，而杭州当地的人均月薪也就7600元左右。到底是什么样的人在为这买单？它究竟是不是个邪教？或者说它有没有邪教味，是不是骗局？"
+    },
+    {
+      "id": 134,
+      "start_sec": 2013,
+      "speaker": "Afra Wang",
+      "en": "It is very, it is very cultish in a good way. Just like in many corners of San Francisco, if you hang out with many people in San Francisco, they are extremely cultish, but in a great way.",
+      "zh": "它确实非常具有邪教感，但属于积极意义上的那种。就像旧金山的许多角落一样，如果你接触过那里的很多人，他们也极具邪教气质，但那是一种很棒的狂热氛围。"
+    },
+    {
+      "id": 135,
+      "start_sec": 2026,
+      "speaker": "Kaiser Kuo",
+      "en": "Yeah, EA or whatever, yeah.",
+      "zh": "是啊，比如有效利他主义（EA）之类的，对。"
+    },
+    {
+      "id": 136,
+      "start_sec": 2028,
+      "speaker": "Afra Wang",
+      "en": "Yeah, yeah, exactly. So the person who invited me to visit, his online name is Dashu, Mr. Tree, I call him Mr. Tree.",
+      "zh": "对，没错。邀请我去参观的那个人，网名叫‘大树’，Mr. Tree，我就叫他‘大树老师’吧。"
+    },
+    {
+      "id": 137,
+      "start_sec": 2041,
+      "speaker": "Afra Wang",
+      "en": "He is, you know, he branded himself as a tech influencer. He vowed to connect 100 entrepreneurs in the AI space and tell their stories to the world. He runs a short video platform. He is also teaching at Shengcai Youshu, and he's this sort of partner-level person in the company.",
+      "zh": "他把自己包装成一个科技网红，立志要链接100位AI领域的创业者，把他们的故事讲给全世界听。他运营着短视频账号，也在‘生财有术’讲课，算是这家公司的合伙人级别人物。"
+    },
+    {
+      "id": 138,
+      "start_sec": 2068,
+      "speaker": "Afra Wang",
+      "en": "And I often follow his social media updates. You know, he would just be teaching a 300-people class in a five-star hotel in Hilton. This is constantly his weekend, is him teaching a lot of CEOs on how to sort of using AI to transform your business.",
+      "zh": "我经常关注他的社交媒体动态。他动不动就在希尔顿这样的五星级酒店给三四百人讲课。他的周末基本上就是这么度过的，教一大群中小企业老总如何利用AI实现业务转型。"
+    },
+    {
+      "id": 139,
+      "start_sec": 2087,
+      "speaker": "Afra Wang",
+      "en": "So many people registered those class and joined this Shengcai Youshu community are... Okay, I want to break down the demographic.",
+      "zh": "所以报名这些课程并加入‘生财有术’社群的人……好的，我想拆解一下他们的人群画像。"
+    },
+    {
+      "id": 140,
+      "start_sec": 2096,
+      "speaker": "Afra Wang",
+      "en": "So there are some tech veterans or vibe coders who just want to be in the community and be in the office space because they need similar-minded people to co-work with. So these are the people I met in the office.",
+      "zh": "首先是一批科技大厂的老兵或氛围编码者，他们只想待在这个社群里，泡在这个办公空间，因为他们需要与志同道合的人一起协同办公。这些就是我在办公室里碰到的人。"
+    },
+    {
+      "id": 141,
+      "start_sec": 2113,
+      "speaker": "Afra Wang",
+      "en": "And many of them do have somewhat pretty elite background, you know, the former PM of Meituan, the Alibaba veterans, people who worked for Tencent. These are the very common demographic in this community.",
+      "zh": "他们当中不少人背景相当光鲜精英，比如美团的前产品经理、阿里老兵，或者在腾讯工作过的人。这在这个社群里是非常普遍的人群构成。"
+    },
+    {
+      "id": 142,
+      "start_sec": 2127,
+      "speaker": "Afra Wang",
+      "en": "And the second ones are the many Chinese manufacturers. So these are the people I didn't see in the office, but they are in Mr. Tree's videos, and then they are the members of Shengcai Youshu.",
+      "zh": "第二类人群是大量的中国制造业从业者。这类人我在办公室现场没怎么见到，但他们频繁出现在‘大树老师’的视频里，他们也是‘生财有术’的付费会员。"
+    },
+    {
+      "id": 143,
+      "start_sec": 2139,
+      "speaker": "Afra Wang",
+      "en": "But they're probably on the higher level, which I'm not high up enough to see. And these are the business owners of, maybe a factory in Zhejiang. They are somewhat accomplished people, but maybe less educated.",
+      "zh": "但他们可能身处更高的圈层，我还没达到那个级别去接触。这些人可能是浙江某家工厂的私营老板，他们某种程度上事业有成，但受教育程度可能相对不高。"
+    },
+    {
+      "id": 144,
+      "start_sec": 2156,
+      "speaker": "Afra Wang",
+      "en": "I'm speculating here, but they would have a hard time to, let's say...",
+      "zh": "我在这里也是推测，但对于他们来说，比如想要……"
+    },
+    {
+      "id": 145,
+      "start_sec": 2160,
+      "speaker": "Afra Wang",
+      "en": "write a beautiful copy copywriting for Amazon listings. So, you know, I think some of them are just traditional manufacturers are trying to use AI to to help them to run their business better.",
+      "zh": "写出漂亮的亚马逊商品文案。所以你看，我觉得他们中有些只是传统的制造商，试图利用 AI 来帮助自己更好地打理生意。"
+    },
+    {
+      "id": 146,
+      "start_sec": 2174,
+      "speaker": "Kaiser Kuo",
+      "en": "Yeah, they're answering the call of AI+, right?",
+      "zh": "没错，他们是在响应“人工智能+”的号召，对吧？"
+    },
+    {
+      "id": 147,
+      "start_sec": 2177,
+      "speaker": "Afra Wang",
+      "en": "Yeah, absolutely. And the other demographics are the the actual underdogs, some very desperate young people, or some very disadvantaged people. I think my assessment of Mr. Tree is probably belongs to one of those categories, because he would often promote those inspiring stories, those underdog, those people who never really get a proper education, doesn't have a college degree, or never went to Tsinghua or Beida.",
+      "zh": "是的，正是如此。而另一类人群则是真正的底层逆袭者——一些极其迫切的年轻人，或者境遇非常边缘的人。我认为，根据我对树先生的评估，他大概也属于这一类。因为他经常宣传那些励志故事，那些底层草根、从未真正受过良好教育、没有大学文凭、从未上过清华北大的人。"
+    },
+    {
+      "id": 148,
+      "start_sec": 2207,
+      "speaker": "Afra Wang",
+      "en": "They sort of transform themselves by taking all those AI classes and then doing all those practices in Shengcai Youdao, and they turn their lives around. And then I do think this self-salvation through AI is is a the strongest ethos in the company. This is a company myth I I've been getting.",
+      "zh": "他们似乎通过参加这些 AI 课程，并在“生财有道”里进行实操训练改变了自己，逆转了人生。我也确实认为，这种“通过 AI 实现自我救赎”是这家公司最强烈的精神内核。这就是我所了解到的企业神话。"
+    },
+    {
+      "id": 149,
+      "start_sec": 2228,
+      "speaker": "Afra Wang",
+      "en": "The founder himself, he's an Alibaba veteran. So back in 2017, I believe, he just started to write blogs on how to make money with the internet. And he writes a lot, he's just a very prolific blogger. Later he started to collect a bunch of devoted fans, and he turned this into a business. So you know, fufei, fufei, zhishi fufei, you know, the paid knowledge industry is a huge industry in China, and later he will successfully transform this business into this massive empire of AI education.",
+      "zh": "创始人本人是阿里巴巴的老兵。我相信早在2017年左右，他就开始写博客分享如何通过互联网赚钱。他写得非常多，是一位极其高产的博主。后来他开始积累起一批狂热的粉丝，并将其做成了一门生意。你知道的，“付费”、“知识付费”，在中国是一个极其庞大的产业，后来他成功地将这门生意转型成了这个庞大的 AI 培训帝国。"
+    },
+    {
+      "id": 150,
+      "start_sec": 2265,
+      "speaker": "Kaiser Kuo",
+      "en": "The state has started calling this whole paid knowledge economy a mess. They're seeing a lot of ordinary people getting cut like leeks, like onions, by courses that feed on this anxiety that they helped to manufacture.",
+      "zh": "官方已经开始将整个知识付费经济称为一种乱象。他们看到大量普通人被当成韭菜一样收割，这些课程不断贩卖并放大他们一手制造的焦虑。"
+    },
+    {
+      "id": 151,
+      "start_sec": 2280,
+      "speaker": "Kaiser Kuo",
+      "en": "And yet, when you went and actually read the free articles, you found them actually pretty good, right? There's one on pairing Claude with Obsidian for a seller in Yiwu, which is like the small manufactured goods center of the world, like you said, people who need Amazon product copy.",
+      "zh": "然而，当你亲自去读那些免费文章时，却发现它们其实写得相当不错，对吧？有一篇讲的是义乌的卖家如何将 Claude 与 Obsidian 搭配使用——义乌就像是全球的小商品制造中心——正如你所说，就是那些需要亚马逊商品文案的人。"
+    },
+    {
+      "id": 152,
+      "start_sec": 2300,
+      "speaker": "Kaiser Kuo",
+      "en": "And then Mr. Tree posts a thank-you note from one of his students, a security guard who's been running Claude code on his phone during his shifts and had just landed a job at a semiconductor packaging company. So, I mean, I guess you have to hold these two things at once, right? A course can be a scam, but then it's also somebody's only ladder up, you know, in this uncertain time, right?",
+      "zh": "接着，树先生晒出了一位学员的感谢信，那是一名保安，他在值班期间用手机运行 Claude 编写代码，刚刚在一家半导体封装公司找到了一份工作。所以，我的意思是，大家必须同时看到这两面，对吧？一门课可能是一个骗局，但在这个充满不确定性的时代，它也可能是某些人唯一的上升阶梯，对吧？"
+    },
+    {
+      "id": 153,
+      "start_sec": 2323,
+      "speaker": "Afra Wang",
+      "en": "Yeah, absolutely. I mean, People's Daily and some state media, since 2025, just being calling out those AI education classes. You know, there are many scammy ones out there. Some are—okay, usually those classes...",
+      "zh": "对，完全没错。《人民日报》和一些官方媒体从2025年起就一直在点名通报那些 AI 培训班。你知道，市面上确实有很多招摇撞骗的机构。有些是——通常这些课程……"
+    },
+    {
+      "id": 154,
+      "start_sec": 2340,
+      "speaker": "Afra Wang",
+      "en": "The format is usually that you pay a sum of money—could be 50 yuan, could be, you know, 3,000—and then you'll be invited into a WeChat group. In this WeChat group, you will receive class materials, sometimes a link to a lecture, and they'll host these classes weekly or on a regular schedule. At the same time, as a student, you're expected to share what you've learned with the world.",
+      "zh": "这种模式通常是你先付一笔钱——可能是50元，也可能是3000元——然后会被拉进一个微信群。在这个微信群里，你会收到课程资料，有时是一个听课链接，他们会按周或固定频率开课。与此同时，作为学员，你还需要将自己的所学心得分享出去。"
+    },
+    {
+      "id": 155,
+      "start_sec": 2368,
+      "speaker": "Afra Wang",
+      "en": "How Shengcai Youdao works is: when you become a paid member by paying 3,000 yuan a year, you are also encouraged to write posts to share the wisdom you've learned from studying AI. This includes what kinds of vibe-coding projects you've accomplished, how much efficiency you have improved, what things you've optimized with AI, or how you deployed your agent.",
+      "zh": "“生财有道”的运作逻辑是：当你每年交3000元成为付费会员后，他们会鼓励你发帖分享自己学习AI的心得。比如你完成了什么样的氛围写码项目，效率提升了多少，用AI优化了哪些环节，或者你是如何部署自己的智能体的。"
+    },
+    {
+      "id": 156,
+      "start_sec": 2402,
+      "speaker": "Afra Wang",
+      "en": "People are encouraged to write those posts to recruit more people. If someone becomes a paid member through your post, you will earn credits. In Shengcai Youdao, they call these credits 'Dragon Balls' (龙珠).",
+      "zh": "大家被鼓励发帖其实是为了招募更多新人。如果有人通过你的帖子付费入会，你就能拿到积分。在“生财有道”，他们把这种积分叫做“龙珠”。"
+    },
+    {
+      "id": 157,
+      "start_sec": 2415,
+      "speaker": "Kaiser Kuo",
+      "en": "Multi-level marketing, yeah.",
+      "zh": "传销那套呗，懂了。"
+    },
+    {
+      "id": 158,
+      "start_sec": 2417,
+      "speaker": "Afra Wang",
+      "en": "The more Dragon Balls you collect, a portion of your tuition will be refunded to you. At the same time, you can level up to the next tier. As Kaiser mentioned, there are multiple tiers: a Navigator class, a Deep Sea class, and eventually, you could be invited to the 'CEO class.'",
+      "zh": "你攒的龙珠越多，学费就会按比例返还给你。同时你还能晋升到下一个层级。就像Kaiser刚才提到的，这里分好几个级别：领航者班、深海班，最后你甚至可能受邀加入“总裁班”。"
+    },
+    {
+      "id": 159,
+      "start_sec": 2442,
+      "speaker": "Afra Wang",
+      "en": "Perhaps when you're in the CEO class, you will be invited to one of Mr. Tree's seminars held at a Hilton over the weekend—an immersive offline experience where you can meet other wealthy people who are thinking about using AI to create more economic opportunities. So this is the appeal.",
+      "zh": "进入总裁班后，你或许就能受邀参加亦仁周末在希尔顿酒店举办的闭门研讨会——这是一种沉浸式的线下体验，你能在这里结识其他同样想利用AI挖掘更多创富机会的有钱人。这就是它的吸引力所在。"
+    },
+    {
+      "id": 160,
+      "start_sec": 2463,
+      "speaker": "Kaiser Kuo",
+      "en": "I'm going to try not to be too cynical about this. But I have a question for you, because you live in Mountain View; you're as familiar with the Western tech scene in the Valley as you are with China. I guess I haven't been paying much attention to whether this has become a thing in the US as well.",
+      "zh": "我尽量不用太愤世嫉俗的眼光来看待这件事。不过我想问你一个问题：你住在山景城，对硅谷为代表的西方科技圈和对中国一样熟悉。我自己其实没太关注这类现象在美国是否也蔚然成风。"
+    },
+    {
+      "id": 161,
+      "start_sec": 2481,
+      "speaker": "Kaiser Kuo",
+      "en": "I mean, I see people selling online courses on how to vibe code, how to write great prompts, or how to become a prompt engineer. It's become a booming industry, I suppose, but is it similar to China? Is it also super scammy, or how would you compare the two?",
+      "zh": "我是说，我确实看到有人在网上卖课，教人怎么氛围写码、怎么写出神级提示词、怎么成为提示词工程师等等。这成了一个蓬勃发展的行当，但它跟中国的情况类似吗？也充斥着各种割韭菜的骗局吗？你会怎么比较两者？"
+    },
+    {
+      "id": 162,
+      "start_sec": 2500,
+      "speaker": "Afra Wang",
+      "en": "I do think tech-savvy people in China know that the best resources to learn about AI are actually on YouTube or X (formerly Twitter). The best resources are often free. The way I observe it in Silicon Valley is that there are many...",
+      "zh": "我认为中国受过良好教育的技术人群其实心里很清楚，学习AI最好的资源都在YouTube或Twitter（X）上。最好的资源往往是免费的。而在硅谷，据我的观察，有很多……"
+    },
+    {
+      "id": 163,
+      "start_sec": 2520,
+      "speaker": "Afra Wang",
+      "en": "great resource, just online for free. And then there are also some great Substackers could just release some extremely good high-quality content through their Substack, but it is just some amount of predictable subscription fee.",
+      "zh": "非常棒的资源，直接在网上免费提供。此外，还有一些很棒的 Substack 作者，可以通过他们的 Substack 发布极其优质的内容，但这只是一笔数额可预期的订阅费。"
+    },
+    {
+      "id": 164,
+      "start_sec": 2539,
+      "speaker": "Afra Wang",
+      "en": "So paying for subscription is a very common thing, just like how people in the U.S. and people in the West would pay for software. But paying for content seems to be somewhat less lucrative, unless you've packaged this into much more stuff, like much more opportunities.",
+      "zh": "所以按期订阅是很常见的事，就像欧美用户习惯为软件付费一样。但单纯为内容买单似乎没那么赚钱，除非你将其打包成包含更多内容、比如更多机会的产品。"
+    },
+    {
+      "id": 165,
+      "start_sec": 2561,
+      "speaker": "Afra Wang",
+      "en": "And then there's a certain, so just talking about Shengcai Youdao as a business, there's certainly this aspect of selling hopes, selling upward mobility.",
+      "zh": "再者，单就生财有术这家商业机构而言，它显然带有兜售希望、兜售向上流动性的色彩。"
+    },
+    {
+      "id": 166,
+      "start_sec": 2574,
+      "speaker": "Kaiser Kuo",
+      "en": "Yeah, yeah, yeah. I can see it. I can see how it would be, yeah, you would have not only a more structured kind of course environment, but it's gamified with the Dragon Balls, there's that upward mobility thing, and there's the promise of networking with other people who are potentially, you know, important business partners and customers. So, yeah, I can see how it would have a lot of appeal.",
+      "zh": "确实如此。我完全能理解它的运作逻辑——你不仅能获得更结构化的课程体系，它还用龙珠进行游戏化激励，画出了向上流动的愿景，还许诺让你结识潜在的重要商业伙伴和客户。所以，它确实极具吸引力。"
+    },
+    {
+      "id": 167,
+      "start_sec": 2604,
+      "speaker": "Afra Wang",
+      "en": "Yeah, and also, you know, when I was there, I also thought about this great piece written by Evan Osnos about Crazy English, where you have this victimized personhood, but through learning English or through learning AI, you eventually redeem yourself, you get back some dignity out of it.",
+      "zh": "没错。而且在参访时，我还联想到了 Evan Osnos 描写“疯狂英语”的那篇精彩报道：一个原本身处受害者境地的人，通过学习英语或学习 AI，最终实现了自我救赎，重新找回了自己的尊严。"
+    },
+    {
+      "id": 168,
+      "start_sec": 2627,
+      "speaker": "Afra Wang",
+      "en": "I think there's this ethos here. You know, it's somewhat very, to be honest, it's very meritocratic, but also pretty neoliberal to me, because often when I'm reading self-help books written by some capitalists, you can read something like this personal, beautiful heroic journey, right?",
+      "zh": "我觉得这里有一种底色。坦白讲，它既极度崇尚优绩主义，同时在我看来又相当新自由主义。因为我读资本家写的成功学励志书时，经常能看到这种唯美的个人英雄之旅，对吧？"
+    },
+    {
+      "id": 169,
+      "start_sec": 2652,
+      "speaker": "Afra Wang",
+      "en": "You start as an underdog, and then you become ambitious, you redeem yourself, and you learn, and you adapt, and then later you make money, you become rich, and you finish this hero's journey.",
+      "zh": "你起初只是个底层弱者，随后野心被唤醒，开始自我救赎，不断学习、适应，最终赚到大钱、走向暴富，完成了这趟英雄之旅。"
+    },
+    {
+      "id": 170,
+      "start_sec": 2665,
+      "speaker": "Afra Wang",
+      "en": "So when I was in the office, I saw just on this wall, there are many quotes from Yiren, who is the founder of Shengcai Youdao. He would say something like, 'Whatever saved you, you shall use it to save the world,' or, 'I want to devote my life to help those poor people just like me to make money, so they can gain their dignity.' You know, those quotes are on the wall everywhere.",
+      "zh": "所以在他们的办公室里，我看到墙上贴满了生财有术创始人亦仁的名言。他会说诸如“渡己者渡人，成己者成人”或者“我愿倾尽一生帮助像我一样的穷人赚钱，让他们重拾尊严”。诸如此类的语录在墙上随处可见。"
+    },
+    {
+      "id": 171,
+      "start_sec": 2694,
+      "speaker": "Kaiser Kuo",
+      "en": "I can see it. It's like the prosperity gospel with Chinese characteristics, there's all that messianic nonsense. Yeah, absolutely.",
+      "zh": "我完全明白了。这简直就是具有中国特色的“成功神学”，充斥着救世主式的狂热叙事。"
+    },
+    {
+      "id": 172,
+      "start_sec": 2700,
+      "speaker": "Kaiser Kuo",
+      "en": "So, there's this really weird moment in your piece where Mr. Tree, you know, Dàshù introduces you to a room full of strangers and somebody suddenly shouts out, you know, after, you know, it's found out you're from California, \"Take us to Silicon Valley!\" I guess he's saying, \"Dài wǒmen qù Guīgǔ!\" And the whole office just cracks up.",
+      "zh": "你的文章里有一个非常有意思的细节：大树把你介绍给一屋子的陌生人，当大家得知你来自加州时，突然有人喊了一句：“带我们去硅谷！”整个办公室顿时哄堂大笑。"
+    },
+    {
+      "id": 173,
+      "start_sec": 2718,
+      "speaker": "Kaiser Kuo",
+      "en": "I mean, what is Silicon Valley in the imagination of the people in this room? Is this said out of envy? Is it parody? Is it just a random outburst? What was going on there?",
+      "zh": "在这个房间里的人心中，硅谷究竟代表着什么？这句话是出于羡慕，是一种调侃，还是随口的一声感叹？当时到底是什么情况？"
+    },
+    {
+      "id": 174,
+      "start_sec": 2730,
+      "speaker": "Afra Wang",
+      "en": "It is a place where people are copying and learning and obsessed with almost every day. Simply because the room I was introduced into, I was taken into by Mr. Tree, is a coworking room where a lot of vibe coders and, you know, one-person companies, OPCs, are working there on certain things that they want to sell to Western consumers.",
+      "zh": "那是一个他们几乎每天都在模仿、学习和为之着迷的地方。这主要是因为大树带我进去的那个房间是一个联合办公空间，里面坐满了许多氛围程序员以及一人公司（OPC）。他们正在开发各种想卖给西方消费者的产品。"
+    },
+    {
+      "id": 175,
+      "start_sec": 2754,
+      "speaker": "Afra Wang",
+      "en": "Many of them are building apps. Many of them are building just like, you know, consumer stuff and hoping to list it on the U.S. App Store, and people can pay $9.99 per month to purchase the service offered by the app.",
+      "zh": "他们中很多人在做应用，开发各种面向C端的产品，希望能上架到美区App Store，让用户每月花9.99美元订阅他们的应用服务。"
+    },
+    {
+      "id": 176,
+      "start_sec": 2772,
+      "speaker": "Afra Wang",
+      "en": "So, many of them are eyeing the Westerners to pay for their services. That's why they study the market. They study the users. They pretty much revere the West because it's just incredibly wealthy.",
+      "zh": "所以，他们很多人都把目光投向西方付费群体。这也是为什么他们不断研究那个市场、研究那些用户。他们对西方抱有一种崇敬，仅仅因为那里极其富裕。"
+    },
+    {
+      "id": 177,
+      "start_sec": 2788,
+      "speaker": "Afra Wang",
+      "en": "So when I walked into the room and I was introduced by Mr. Tree that I live in California, I live in the Bay Area, some people were just like, \"Can you take us? Take us there!\" It was a really hilarious and real sentiment.",
+      "zh": "所以当我走进房间，大树介绍说我住在加州湾区时，就有人半开玩笑地喊：“能带我们去吗？带我们去那儿吧！”这种情绪既搞笑又无比真实。"
+    },
+    {
+      "id": 178,
+      "start_sec": 2805,
+      "speaker": "Afra Wang",
+      "en": "I think another reality is China does not have a booming SaaS industry. China does not have a booming to-C paid app culture. In many senses, software are taken for granted, software should be free. So Chinese people don't want to pay for things on App Store.",
+      "zh": "我认为另一个现实是中国并没有繁荣的SaaS产业，也没有繁荣的C端软件付费文化。在很多观念里，软件被视为理所当然应当免费的东西，中国用户往往不愿意在App Store里花钱买软件。"
+    },
+    {
+      "id": 179,
+      "start_sec": 2828,
+      "speaker": "Afra Wang",
+      "en": "So this true sea business, right, 'going out of sea' business is the business that most of the AI consumer companies are eyeing on.",
+      "zh": "因此，真正的“出海”业务，才是大多数AI消费端公司死死盯住的生财之道。"
+    },
+    {
+      "id": 180,
+      "start_sec": 2837,
+      "speaker": "Kaiser Kuo",
+      "en": "Yeah, yeah, for sure. So I want to talk about the character who you opened with, a guy named Xiaokai, who is an AI film director who you met near Hangzhou, probably in Liangzhu. He's, what, he's 25, he's from a Rust Belt city in Heilongjiang, he was raised by his grandfather and by the television, that just never stops playing, you know, Jackie Chan and Shaw Brothers, you know, martial arts movies.",
+      "zh": "确实如此。我想聊聊你文章开头写到的那个人物——一位名叫小凯的AI电影导演。你在杭州附近，大概就是良渚遇见了他。他大概25岁左右，来自黑龙江的一座锈带城市，由爷爷和电视机抚养长大，电视里永远在放成龙和邵氏兄弟的功夫武打片。"
+    },
+    {
+      "id": 181,
+      "start_sec": 2863,
+      "speaker": "Kaiser Kuo",
+      "en": "He's got a string of failed ventures behind him. But anyway, this guy's got a really booming business now. He's got like seven employees. He's got a, you know, several million dollars or yuan anyway in turnover. He's got work for Chinese Central Television. He's won an award from the Beijing International...",
+      "zh": "他经历过一系列失败的创业尝试。但不管怎样，他现在的生意红红火火，带了大概七名员工，年流水也能达到几百万——至少是几百万元人民币。他接过央视的活儿，还拿过北京国际电影节的奖项……"
+    },
+    {
+      "id": 182,
+      "start_sec": 2880,
+      "speaker": "Kaiser Kuo",
+      "en": "Film festival. Yeah. This is really interesting. You know, because he was telling you, on the one hand, that the ideal plot right now is a story that keeps losing people.",
+      "zh": "电影节。对。这真的很有意思。因为一方面他告诉你，目前最理想的情节是不断死人的故事。"
+    },
+    {
+      "id": 183,
+      "start_sec": 2891,
+      "speaker": "Kaiser Kuo",
+      "en": "Because characters dropping out means there are fewer faces for your AI model to keep consistent. Apparently, this is a problem, so he likes to do Agatha Christie-style murder mysteries, cuz people keep dying and the characters get fewer and fewer.",
+      "zh": "因为角色不断退出，意味着你的AI模型需要保持面部一致性的人物就变少了。显然这是个痛点，所以他喜欢拍阿加莎·克里斯蒂式的谋杀悬疑片，因为人接二连三死掉，角色也就越来越少。"
+    },
+    {
+      "id": 184,
+      "start_sec": 2906,
+      "speaker": "Kaiser Kuo",
+      "en": "I'm not sure I like where this is going, though, because when the limits of the tool that you're using, the limits of the technology start dictating your storytelling, dictating the narrative structure, I'm not sure that's a good thing. But anyway, I think it's kind of ironic.",
+      "zh": "但我不太确定自己喜不喜欢这种趋势。因为当你使用的工具局限、技术局限开始左右你的叙事、左右故事结构时，我真不觉得这是件好事。不过话说回来，这挺具讽刺意味的。"
+    },
+    {
+      "id": 185,
+      "start_sec": 2922,
+      "speaker": "Kaiser Kuo",
+      "en": "Because I always kind of thought AI was supposed to unlock imagination, unlock what you can do with a story. You're not impeded by these super expensive CGI budgets anymore, you can just write a few lines of prompt and it'll do it.",
+      "zh": "因为我总觉得AI本该是解放想象力的，拓宽你在故事创作上的边界。你不再受制于极其昂贵的CGI特效预算，只要写几行提示词它就能做出来。"
+    },
+    {
+      "id": 186,
+      "start_sec": 2936,
+      "speaker": "Kaiser Kuo",
+      "en": "But anyway, this character, tell me more about him. He wants to actually make, interestingly, a film about his own traumatic childhood. What did you make of all of that?",
+      "zh": "但不管怎么说，这个人物……再跟我多讲讲他吧。很有意思的是，他其实想拍一部关于自己童年创伤的电影。你怎么看这一切？"
+    },
+    {
+      "id": 187,
+      "start_sec": 2949,
+      "speaker": "Afra Wang",
+      "en": "I see Xiaokai is a very precious and unique existence. I think part of him has this... how to say, like he is trying to present himself into the world as a hustler, doesn't really care about morality, he's willing to do a lot of things.",
+      "zh": "我觉得小凯是一个非常珍贵且独特的存在。我觉得他身上有一部分……怎么说呢，就像他在努力向世界展示自己是一个敢拼敢闯、搞钱至上的人，不太在乎道德，什么事都愿意去尝试。"
+    },
+    {
+      "id": 188,
+      "start_sec": 2968,
+      "speaker": "Afra Wang",
+      "en": "But deep down, he wants to be an artist. He wants to be the next, you know, Jia Zhangke. He wants to be part of the 'Dongbei Renaissance' trend, be part of this serious discourse.",
+      "zh": "但在内心深处，他渴望成为一名艺术家。他想成为下一个贾樟柯。他希望能融入“东北文艺复兴”的浪潮，参与到这种严肃的叙事话语中去。"
+    },
+    {
+      "id": 189,
+      "start_sec": 2979,
+      "speaker": "Afra Wang",
+      "en": "And he's also graduated from a third-tier university, an art school in Jilin. Yeah, he has this background of someone who has zero prospect.",
+      "zh": "而且他是从一所三本院校毕业的，吉林的一所艺术学校。是的，他有着这种毫无前途与出路的人生背景。"
+    },
+    {
+      "id": 190,
+      "start_sec": 2993,
+      "speaker": "Afra Wang",
+      "en": "But he learned about AI through this largest AI community called WaytoAGI. It's actually one of the largest free online communities. So, in a sense, like if people who are paying for the AI classes know about this community, maybe they wouldn't.",
+      "zh": "但他通过国内最大的AI社群WaytoAGI学会了AI。这实际上是最大的免费线上社群之一。所以某种意义上，如果那些付费买AI课的人知道了这个社群，也许他们就不会花钱了。"
+    },
+    {
+      "id": 191,
+      "start_sec": 3007,
+      "speaker": "Afra Wang",
+      "en": "But, you know, things like this, this high-quality communities exist in China. So Xiaokai discovered the WaytoAGI community, and he started to learn how to create stories and videos with AI.",
+      "zh": "但无论如何，中国确实存在这种高质量的社群。于是小凯发现了WaytoAGI社群，并开始学习如何用AI创作故事和生成视频。"
+    },
+    {
+      "id": 192,
+      "start_sec": 3024,
+      "speaker": "Afra Wang",
+      "en": "It is also a moment where AIGC was a buzzword that's been chased by the local governments. So a lot of local governments are being very mimetic on adopting the trend, and then believing that AIGC could be a real industry.",
+      "zh": "当时恰逢AIGC成为地方政府竞相追捧的风口热词。因此，许多地方政府在上马这一趋势上极具跟风模仿性，坚信AIGC可以发展成一个货真价实的产业。"
+    },
+    {
+      "id": 193,
+      "start_sec": 3041,
+      "speaker": "Afra Wang",
+      "en": "So it was a moment when some local government in Shenzhen, some local government in Beijing—I believe it is the district government of Mentougou—there is a Hubei province...",
+      "zh": "所以正是在那个时期，深圳的某些地方政府，北京的某些地方政府——我记得是门头沟区政府——还有湖北省……"
+    },
+    {
+      "id": 194,
+      "start_sec": 3060,
+      "speaker": "Afra Wang",
+      "en": "provincial broadcasting bureau, including some Shanghai film corporation. Like, they simultaneously within two years announced a lot of the AIGC competitions.",
+      "zh": "省广电局，包括一些上海电影集团等机构。他们在短短两年内，纷纷密集发布了大量的AIGC（AI生成内容）大赛。"
+    },
+    {
+      "id": 195,
+      "start_sec": 3074,
+      "speaker": "Kaiser Kuo",
+      "en": "Is this why so many of the models, like two years ago if you were to look, like so many of the Chinese companies were really, really focused on this? I mean, I know that Tencent, for example, most of what they put out and most of what was landed with some success was all in AI graphics, right?",
+      "zh": "这就是为什么大约两年前去看的话，那么多中国公司都高度聚焦于这一领域吗？比如据我所知，腾讯推出的且取得一定成果的产品，大部分都在AI图形图像领域，对吧？"
+    },
+    {
+      "id": 196,
+      "start_sec": 3093,
+      "speaker": "Afra Wang",
+      "en": "Yeah. So, Kling, the video generation model developed by Kuaishou, is one of the very popular tools. And SeaDance 2.0, of course, by ByteDance is another one.",
+      "zh": "是的。快手开发的视频生成模型可灵（Kling）就是非常火爆的工具之一。当然，字节跳动推出的SeaDance 2.0也是其中之一。"
+    },
+    {
+      "id": 197,
+      "start_sec": 3107,
+      "speaker": "Afra Wang",
+      "en": "So it is also the moment where in Silicon Valley, ChatGPT, sorry, OpenAI, decided to no longer continue the development of Sora. So they gave up basically video generation.",
+      "zh": "而恰恰就在那个时候，在硅谷，OpenAI决定不再继续推进Sora的开发。他们基本上放弃了视频生成。"
+    },
+    {
+      "id": 198,
+      "start_sec": 3123,
+      "speaker": "Afra Wang",
+      "en": "And at the same time, Chinese companies really caught up and dominated the video generation industry.",
+      "zh": "与此同时间，中国公司迅速赶上，并几乎主导了视频生成行业。"
+    },
+    {
+      "id": 199,
+      "start_sec": 3131,
+      "speaker": "Kaiser Kuo",
+      "en": "Okay.",
+      "zh": "明白。"
+    },
+    {
+      "id": 200,
+      "start_sec": 3132,
+      "speaker": "Afra Wang",
+      "en": "So that was the moment this whole industry seems to be very optimistic, and then the local government became very mimetic on all those things. Bilibili also launched a AI creation competition. So local governments started to bet on it, and then cultivating talents out of it.",
+      "zh": "所以当时整个行业显得极其乐观，随后地方政府也开始在这类事情上纷纷效仿。B站也推出了AI创作大赛。地方政府开始押注于此，并从中选拔培养人才。"
+    },
+    {
+      "id": 201,
+      "start_sec": 3151,
+      "speaker": "Afra Wang",
+      "en": "So you will see some strange scenario where a city in Nanjing, if you, at some point in 2025, search for an AIGC role, you will see a couple dozen of job postings. And a city of Nanjing is this company has zero relationship to tech, if you're mapping the Chinese tech industry. But Nanjing wants to be part of it. Mentougou wants to be part of the AIGC trend, right? Part of Shenzhen wants to be this AIGC trend.",
+      "zh": "于是你会看到一些奇特的景象：在南京这样的城市，如果你在2025年的某个时间点去搜AIGC相关的岗位，会冒出几十个招聘启事。但如果按照中国科技版图来看，南京的这些企业跟高科技根本沾不上边。可南京想参与分一杯羹，门头沟也想赶上这股AIGC浪潮，对吧？深圳部分地区也想抢占AIGC风口。"
+    },
+    {
+      "id": 202,
+      "start_sec": 3182,
+      "speaker": "Afra Wang",
+      "en": "So Xiaokai is this star student in the Hangzhou trend where he self-learned AI, and he started his own company, hired six people, and started to take these business deals with variety of clients. Including the Chinese telecommunication company, China Mobile, including the Marco Polo tile company, including a district bureau in Shanghai where, you know, they want to put out a beautiful propaganda video about their economic development of this district to attract more people and business to be in their district.",
+      "zh": "小恺就是杭州这股潮流中的明星学员：他自学了AI，自己创办了公司，雇了六个人，开始接洽形形色色的客户业务。客户包括中国电信运营商中国移动、马可波罗瓷砖，以及上海某区的政府局处——他们想制作一部精美的宣传片，展示本区的经济发展成果，以吸引更多人才和企业入驻。"
+    },
+    {
+      "id": 203,
+      "start_sec": 3223,
+      "speaker": "Afra Wang",
+      "en": "So Xiaokai was helping them to create this beautiful aerial video to show the achievement, but using AI to generate it, it's because it will be much cheaper, right, if you...",
+      "zh": "于是小恺帮他们制作了一段展现建设成就的精美航拍视频，完全是用AI生成的，因为这样成本要低得多，对吧，要是你……"
+    },
+    {
+      "id": 204,
+      "start_sec": 3238,
+      "speaker": "Kaiser Kuo",
+      "en": "Yeah, because it's so hard to fly drones.",
+      "zh": "没错，因为放飞无人机太麻烦了。"
+    },
+    {
+      "id": 205,
+      "start_sec": 3240,
+      "speaker": "Kaiser Kuo",
+      "en": "...around now, right?",
+      "zh": "……对吧？"
+    },
+    {
+      "id": 206,
+      "start_sec": 3241,
+      "speaker": "Afra Wang",
+      "en": "Yeah, exactly. If you hire a professional team to fly drone to to really do those shots, it's expensive, but you can you can use AI to make it happen. So yeah, he was doing a lot of those variety of business deals. He has many clients, and he has been making a decent amount of money.",
+      "zh": "对，没错。如果你雇一个专业团队去飞无人机拍摄那些镜头，成本非常高，但现在用AI就能搞定。所以他接了很多这类五花八门的商业合作。他客户很多，也赚得盆满钵满。"
+    },
+    {
+      "id": 207,
+      "start_sec": 3261,
+      "speaker": "Afra Wang",
+      "en": "And he was also being seen as the first Gen Z director that turned AIGC into a proper business. So he's also very searchable. If you go on WeChat, search 'Xiao Kai', you will see a lot of articles about him, where he teaches other Gen Z—he's only 25, but he's teaching other Gen Zs to to to turn something into business. So he's really savvy on this.",
+      "zh": "而且他还被视作首位把AIGC做成正经生意的Z世代导演。所以他在网上的曝光度也很高，如果你去微信搜“小凯”，能看到很多关于他的文章，讲他怎么教其他Z世代——他自己才25岁，却在教同龄人如何把工具变现成商业。在这方面他确实非常精明。"
+    },
+    {
+      "id": 208,
+      "start_sec": 3286,
+      "speaker": "Kaiser Kuo",
+      "en": "So we've spent an hour now talking mostly about this piece from New York Magazine, and I really did want to turn now to the New Yorker piece. But one thing that you included in the New York Magazine piece that I do want to talk about, and that is the sociologist Lian Si, who who you bring in. He is, you know, a deputy party secretary of the Central School of the Communist Youth League, the CYL Central School. He's about, you know, as much of an insider as you can get.",
+      "zh": "我们已经聊了一个小时，主要都在谈《纽约杂志》的这篇报道，接下来我确实很想切入你在《纽约客》上的那篇文章。但在《纽约杂志》的那篇报道里，你提到了一位人物，我一定要聊一聊，那就是社会学家廉思。他是共青团中央团校的党委副书记，可以说是体制内核心学者了。"
+    },
+    {
+      "id": 209,
+      "start_sec": 3316,
+      "speaker": "Kaiser Kuo",
+      "en": "But he published a book earlier this year in the spring called Journey Without a Map. And you bring this up because what he's telling people is, you know, look, 'make peace with the ordinary'—is his own words—'shake hands with failure', sort of accept that this is a new normal. And your your reaction was interesting. It's like, wow, you know, a party-approved scholar is allowed to say this now.",
+      "zh": "但他今年春天出版了一本书，叫《无图之旅》。你之所以提到他，是因为他在书里对年轻人说，用他的原话说就是要“接纳平凡”、“与失败握手”，某种程度上是在让他们接受这就是新常态。你的反应很有意思，你会觉得：哇，体制认可的学者现在竟然可以公开讲这种话了。"
+    },
+    {
+      "id": 210,
+      "start_sec": 3339,
+      "speaker": "Kaiser Kuo",
+      "en": "What does this tell you that this is now sayable? Just that the boom times are over, the Party kind of knows it, want people to, you know, make peace with the ordinary? And how does that fit in with this whole 'learn AI or get left behind' anxiety? Because, you know, these sound like very opposite pieces of advice aimed at the same generation.",
+      "zh": "这种话现在能够摆上台面，究竟说明了什么？是繁荣时代彻底落幕了，党内高层心知肚明，希望大家学会“安于平凡”？这又该如何与“不学AI就被淘汰”的焦虑自洽呢？因为这两套说辞听起来完全是背道而驰的，却又都指向同一代年轻人。"
+    },
+    {
+      "id": 211,
+      "start_sec": 3358,
+      "speaker": "Kaiser Kuo",
+      "en": "One's telling you, okay, just you know, hey, this is the new normal. You're not going to necessarily lead a better life than your parents, but life is good, you know. You have waimai, you have you know lots of affordable things. And the other people are telling you, no, no, you still got to scramble to get ahead. You've got to keep up with the technology, and you better enroll in Shengcai Youdao, or you're screwed. It seems like two very different pieces of advice.",
+      "zh": "一种声音在告诉你：好吧，这就是新常态，你的生活未必能超越你的父辈，但当下日子也不差嘛，你有外卖，有各种物美价廉的消费品；而另一种声音却在对你大喊：不行不行，你必须拼命往前挤，必须跟上技术浪潮，赶紧报名“生财有道”，否则就全完了。这看起来完全是两种截然相反的人生建议。"
+    },
+    {
+      "id": 212,
+      "start_sec": 3387,
+      "speaker": "Afra Wang",
+      "en": "Yeah. So I got to know about Lian Si because he said he would say something like, our scholars, our job is no longer is no longer educate young people or encourage them to do things, but get closer to them and be sympathetic and be open. This is where he's coming from.",
+      "zh": "是的。我之所以关注到廉思，是因为他说过类似这样的话：作为学者，我们的工作已经不再是教育年轻人或给他们打鸡血，而是要走近他们、去共情他们，保持一种开放的心态。这就是他的立足点。"
+    },
+    {
+      "id": 213,
+      "start_sec": 3409,
+      "speaker": "Afra Wang",
+      "en": "So this Journey Without a Map, Wutu Zhi Lu, he interviewed 20 young people. It is essentially an ethnography for people who are...",
+      "zh": "在这本《无图之旅》中，他访谈了20位年轻人。这本质上是一部针对当下年轻人的民族志研究，记录那些正在……"
+    },
+    {
+      "id": 214,
+      "start_sec": 3420,
+      "speaker": "Afra Wang",
+      "en": "In different provinces, doing different occupations, you know, including tech workers, including a worker who are, you know, working in the traditional manufacturing, including workers who are, you know, driving Didi or doing gig work. Yeah,送外卖. And a big part of me got pretty shocked is because it just it just simply, I just no longer sense this this default, absolutely convicted upward mobility that used to exist in Chinese society, like the Chinese society when I was growing up.",
+      "zh": "分布在不同省份、从事不同职业的人，包括科技行业从业者、传统制造业工人，还有开滴滴或做零工的人。是的，比如送外卖。让我深感震惊的一大原因是，我完全感受不到过去中国社会中那种理所当然、深信不疑的向上流动性了——那种在我成长岁月里曾普遍存在的社会流动预期。"
+    },
+    {
+      "id": 215,
+      "start_sec": 3462,
+      "speaker": "Afra Wang",
+      "en": "When I was growing up, like, the kind of message I got is, you know, I will have a better life than my parents. I will definitely have a better life than my parents. But the message I got from 《无图之旅》, from *Journey Without a Map*, is this renowned sociologist, the scholar, is trying to tell his peers to be sympathetic to the young people, as well as delivering the message to the young people saying, \"You need to shake hands with failure, you need to make peace with the ordinary.\"",
+      "zh": "在我成长的过程中，我接收到的信息是：我的生活会比父母过得更好，绝对会比他们更好。但在《无图之旅》中，我读到的信息却是，这位著名的社会学学者一边呼吁同龄人理解包容年轻人，一边也在向年轻人喊话：“要学会与失败握手，学会甘于平凡。”"
+    },
+    {
+      "id": 216,
+      "start_sec": 3495,
+      "speaker": "Afra Wang",
+      "en": "So I think it is there's certainly there's this vibe shift in such speech, in such discourse, in the book. So I I almost, you know, trying to to discern like is this Lian Si trying to tell the young people like, \"It's okay to be doomed?\" And at the same time, like many young people I met in Liangzhu, I met in Hangzhou, who are trying to host some AI events in their living rooms, who are trying to learn AI, to learn those skills, they are saying, \"No, we don't want to listen to you.\"",
+      "zh": "我认为这本书里呈现的语调和话语体系确实发生了明显的风向转变。我甚至试图去探究：廉思是不是在委婉地告诉年轻人“认命也没关系”？但与此同时，我在良渚、在杭州遇到的很多年轻人，他们张罗着在客厅办 AI 沙龙、积极学习 AI 技能，他们会反驳说：“不，我们不想听你这一套。”"
+    },
+    {
+      "id": 217,
+      "start_sec": 3531,
+      "speaker": "Afra Wang",
+      "en": "\"You are, you know, the older generation who controls and monopolizes the resource, and you are the ones who prevented certain upward mobility that should belong to us.\" So, you know, I also sense this feeling where AI could be the tool for some true self-empowerment. And then I don't want to deny this sentiment.",
+      "zh": "“你们是掌控并垄断了资源的年长一代，正是你们阻碍了本该属于我们的向上流动空间。”所以，我也真切感受到了另一种情绪——AI 或许能够成为实现真正自我赋能的工具。我并不想否认这种信念的存在。"
+    },
+    {
+      "id": 218,
+      "start_sec": 3558,
+      "speaker": "Kaiser Kuo",
+      "en": "Yeah, yeah. So this piece ends on the kind of idea of choicelessness and and coping, on what you you describe as sort of this crippled sense of agency. And then the *New Yorker* piece, which we're going to talk about now, you know, talks about AI offering people kind of a sense of agency, right? So this is the two are really to be read together. It's it's very interesting.",
+      "zh": "是的。因此那篇文章结尾落脚在一种“别无选择”与“勉力应对”的状态，也就是你所描述的那种受挫的能动性。而我们接下来要聊的《纽约客》特稿，讲的恰恰是 AI 似乎又赋予了人们某种能动性，对吧？这两篇文章确实应该对照着读，非常有意思。"
+    },
+    {
+      "id": 219,
+      "start_sec": 3580,
+      "speaker": "Kaiser Kuo",
+      "en": "I don't see those two things as necessarily in tension. I think you've just explained how these are kind of, you know, reconciled. Fortune-telling is what you focus on. A company called FateTell, it's a company in Liangzhu, right? This is a question I've been meaning to ask.",
+      "zh": "我不觉得这两者必然是对立的，你刚才恰好解释了它们是如何交织在一起的。你在那篇报道里重点关注了占卜算命，一家叫 FateTell 的公司，就在良渚，对吧？我一直很想问这个问题。"
+    },
+    {
+      "id": 220,
+      "start_sec": 3600,
+      "speaker": "Kaiser Kuo",
+      "en": "I've really wanted to ask somebody for some time, because I've seen a lot of this happening now. What is the legal status of all this? Because for a long time, the party's been quite aggressive about so-called, you know, fēngjiàn míxìn, you know, feudal superstition online.",
+      "zh": "我其实一直想找人问问这个问题，因为我注意到最近这类现象层出不穷。这一切在法律层面上究竟算什么性质？毕竟长期以来，党对网络上所谓的“封建迷信”一直打击得相当严厉。"
+    },
+    {
+      "id": 221,
+      "start_sec": 3615,
+      "speaker": "Kaiser Kuo",
+      "en": "On Taobao, you can't search for fortune-telling. City governments have put out notices telling people not to seek comfort in fortune-telling. And just this year, there were new rules about clergy using AI, right?",
+      "zh": "在淘宝上你搜不到算命服务；各地市政府也纷纷发文，告诫大家不要通过算命寻求心理慰藉；就在今年，还出台了针对宗教神职人员使用AI的新规，对吧？"
+    },
+    {
+      "id": 222,
+      "start_sec": 3628,
+      "speaker": "Kaiser Kuo",
+      "en": "FateTell has hundreds of thousands of users, a paid tier. You cite an AI fortune-telling industry worth 120 billion yuan in your piece. How does a company like that operate out in the open?",
+      "zh": "但FateTell却拥有数十万用户，还推出了付费档次。你在文章中援引的数据显示，AI算命产业的产值高达1200亿元。这样一家公司是怎么做到公开展业的？"
+    },
+    {
+      "id": 223,
+      "start_sec": 3643,
+      "speaker": "Kaiser Kuo",
+      "en": "I mean, was something lifted? Is there a change of regulations that I'm not aware of? Is this a gray zone? Is there a framing that they can use, you know, calling it cultural heritage or Eastern wisdom that makes it somehow acceptable to the authorities, where just like Western horoscopes might not be? How does this work?",
+      "zh": "我的意思是，某些限制被放开了吗？还是有我不知道的法规变动？这算是一个灰色地带吗？他们是不是有一套话语包装，比如冠以“传统文化遗产”或“东方智慧”之名，从而让官方默许，而像西方星座占卜可能就享受不到这种待遇？这背后到底是怎么运作的？"
+    },
+    {
+      "id": 224,
+      "start_sec": 3663,
+      "speaker": "Afra Wang",
+      "en": "I do find this confusing as well. One thing that's pretty shocking to me is the past two years when I go back to China and chat with my friends or younger people, I just realize this entire healing industry, this entire fortune-telling industry is just everywhere.",
+      "zh": "我也觉得这挺让人看不懂的。过去两年里让我非常震惊的一点是，当我回到中国和朋友们或者年轻人聊天时，我才发现整个疗愈产业、整个算命行业简直无处不在。"
+    },
+    {
+      "id": 225,
+      "start_sec": 3684,
+      "speaker": "Afra Wang",
+      "en": "And all the younger girls, you know, I hang out with, let's say in Shanghai, are all using tarot cards to read about their career, to read about their finance, to read about their relationship. It is just so out there.",
+      "zh": "我在上海一起玩的所有年轻女孩，全都在用塔罗牌来测算她们的事业、财务和感情状况。这种现象简直太普遍、太公开了。"
+    },
+    {
+      "id": 226,
+      "start_sec": 3701,
+      "speaker": "Afra Wang",
+      "en": "I don't even know if it could be regulated. When I was visiting Shenzhen, for example, I was visiting this hardware store. Outside, there was this giant machine that plays... it almost like a slot machine you can see in Las Vegas, but much bigger.",
+      "zh": "我甚至不知道这到底能不能管得过来。比如我去深圳的时候，逛了一家五金店。外面放着一台巨大的机器，正在播放……它有点像你在拉斯维加斯能见到的老虎机，但体型要大得多。"
+    },
+    {
+      "id": 227,
+      "start_sec": 3720,
+      "speaker": "Afra Wang",
+      "en": "And then the screen just shows this tarot pattern and you can interact with the machine, and then many people are lining up to interact with the machine. So those things are just out there on the street.",
+      "zh": "屏幕上显示出塔罗牌的图案，你可以和这台机器互动，而且有很多人在排队等着玩。所以这类东西在大街上随处可见。"
+    },
+    {
+      "id": 228,
+      "start_sec": 3732,
+      "speaker": "Afra Wang",
+      "en": "And when I was visiting Liangzhu, it's a very similar feeling. You see a bunch of stores selling crystals. You see this tarot reading signs where it seems to be a proper business. You see many shops are providing the healing services.",
+      "zh": "我去良渚的时候也是非常相似的感觉。你会看到一堆卖水晶的店铺，能看到塔罗占卜的招牌，看起来完全是正规的营生，你还能看到很多店铺在提供疗愈服务。"
+    },
+    {
+      "id": 229,
+      "start_sec": 3752,
+      "speaker": "Afra Wang",
+      "en": "And when I was visiting in January, I went to the Jade Bird Land, which is the main commercial district in Liangzhu. They have this official village calendar, and many of those events have something to do with spirituality.",
+      "zh": "今年一月份我去走访时，去了玉鸟集，那是良渚的核心商业街区。他们有一份官方发布的村落活动日历，上面的很多活动都与灵修身心灵有关。"
+    },
+    {
+      "id": 230,
+      "start_sec": 3770,
+      "speaker": "Afra Wang",
+      "en": "For example, how to dress for luck according to the I Ching philosophy, the Heart Sutra reading session.",
+      "zh": "比如，如何根据《易经》哲学穿搭转运，还有《心经》诵读会等等。"
+    },
+    {
+      "id": 231,
+      "start_sec": 3780,
+      "speaker": "Afra Wang",
+      "en": "And many events are just like that. It's just really out there, so...",
+      "zh": "很多活动就是这种风格，真的很离奇超脱，所以……"
+    },
+    {
+      "id": 232,
+      "start_sec": 3785,
+      "speaker": "Kaiser Kuo",
+      "en": "This place is starting to sound like Sedona, Arizona, I don't know if you've ever been there.",
+      "zh": "这地方听起来越来越像亚利桑那州的塞多纳（Sedona）了，不知道你去过没有。"
+    },
+    {
+      "id": 233,
+      "start_sec": 3788,
+      "speaker": "Afra Wang",
+      "en": "Yeah, it is Sedona. It is China's Sedona! I was like, is this the New Age-y town in China, in Liangzhu? Because it makes a lot of sense, because Liangzhu has certain shamanic elements in it, right? Because the Liangzhu ruins was there, there are people practicing those worship to...",
+      "zh": "没错，它就是塞多纳，就是中国的塞多纳！我当时就想，良渚难道是中国的“新时代”（New Age）小镇吗？因为这完全说得通：良渚本身就带有某种萨满巫觋文化元素，对吧？毕竟良渚遗址就在那里，古代先民在那里进行祭祀崇拜……"
+    },
+    {
+      "id": 234,
+      "start_sec": 3809,
+      "speaker": "Kaiser Kuo",
+      "en": "Yeah. They were doing astrology, right? Yeah.",
+      "zh": "对，他们当时还会观星占星，对吧？是的。"
+    },
+    {
+      "id": 235,
+      "start_sec": 3812,
+      "speaker": "Afra Wang",
+      "en": "Yeah, they were doing astrology back then. There are a lot of mystical symbols on those jade artifacts that symbolizes the shamanic status of some ruler in the Liangzhu ancestral culture, yeah.",
+      "zh": "是的，他们那时候就懂得观象。在那些出土的玉器上有很多神秘符号，象征着良渚先祖文化中某些统治者的巫觋神权地位，确实如此。"
+    },
+    {
+      "id": 236,
+      "start_sec": 3829,
+      "speaker": "Kaiser Kuo",
+      "en": "Well, so let's talk about this company. And what's his name, is it Levi or Levy? How does he pronounce it?",
+      "zh": "好，那我们来聊聊这家公司。还有那个创始人的名字，是念 Levi 还是 Levy？他自己怎么发音？"
+    },
+    {
+      "id": 237,
+      "start_sec": 3834,
+      "speaker": "Afra Wang",
+      "en": "Levy. I think it's Levy, yeah. Okay, yeah.",
+      "zh": "Levy。我想是念 Levy，对。好的。"
+    },
+    {
+      "id": 238,
+      "start_sec": 3837,
+      "speaker": "Kaiser Kuo",
+      "en": "So let's talk about this guy, Levy. He was the founder of FateTell. It's based on the BaZi. BaZi are, literally the \"eight figures\", you know, the numbers of the date and time of your birth, right? So it's a fortune-telling app, it's at the center of your piece.",
+      "zh": "那我们就来聊聊这位叫 Levy 的人。他是 FateTell 的创始人，这款产品以“八字”为基础。八字字面意思就是八个字，也就是你出生的年月日时对应的天干地支，对吧？所以这是一款算命 App，也是你报道的核心。"
+    },
+    {
+      "id": 239,
+      "start_sec": 3854,
+      "speaker": "Kaiser Kuo",
+      "en": "This guy nearly became a Daoist monk, in his own telling. He worked at ByteDance. He actually almost—I guess he's a big sci-fi fan, he's a big Dune fan because he almost named his company Muad'Dib after Paul Atreides, you know, the guy that Timothée Chalamet plays in the Dune movies.",
+      "zh": "据他自己说，他差点出家当了道士。他曾在字节跳动工作过。实际上他差点——我猜他是个超级科幻迷，非常喜欢《沙丘》（Dune），因为他差点把公司命名为穆阿迪布（Muad'Dib），也就是保罗·厄崔迪的名字，就是甜茶在《沙丘》电影里演的那个角色。"
+    },
+    {
+      "id": 240,
+      "start_sec": 3871,
+      "speaker": "Kaiser Kuo",
+      "en": "He's cast the BaZi of all these famous Western tech leaders. So I guess you cite one, you say Sam Altman comes off as a mercenary accountant, which is kind of a funny thing.",
+      "zh": "他给西方所有著名的科技领袖都排过八字。你在文章里引用了一个，说山姆·奥特曼（Sam Altman）的八字排出来像个市侩的账房先生，这还挺搞笑的。"
+    },
+    {
+      "id": 241,
+      "start_sec": 3883,
+      "speaker": "Afra Wang",
+      "en": "Yeah.",
+      "zh": "是的。"
+    },
+    {
+      "id": 242,
+      "start_sec": 3884,
+      "speaker": "Kaiser Kuo",
+      "en": "But yeah, I'm wondering, do you have other—did he do one on Dario, or on Jensen, or...?",
+      "zh": "不过话说回来，我想知道你还知道别的吗——他有没有给 Dario（Anthropic 创始人）或者黄仁勋排过？"
+    },
+    {
+      "id": 243,
+      "start_sec": 3890,
+      "speaker": "Afra Wang",
+      "en": "Oh, he mentioned... So there's one thing that I didn't really reveal in the article is they actually has an in-house BaZi master who has this prophetic power to not just calculating other people's BaZi, but also, you know, trying to calculate the BaZi for the celebrities, for the US president, to predict the future financial trends.",
+      "zh": "噢，他提过……我在文章里其实没完全写出来的一点是，他们团队内部其实有一位常驻的八字大师。这位大师有一种预测神通，不仅能算普通人的八字，还会去推算各路名流、甚至美国总统的八字，以此来预测未来的宏观金融走势。"
+    },
+    {
+      "id": 244,
+      "start_sec": 3918,
+      "speaker": "Afra Wang",
+      "en": "Yeah, so he shared some with me, but I couldn't remember. But I just remember clearly that he thinks Sam Altman is a \"suànzhàng de\" (accountant), or someone like, you know, is one of those minor people...",
+      "zh": "对，他跟我分享过一些，但我记不太清了。我只清楚记得，他觉得山姆·奥特曼就是个“算账的”，或者类似于那种无足轻重的小角色……"
+    },
+    {
+      "id": 245,
+      "start_sec": 3931,
+      "speaker": "Kaiser Kuo",
+      "en": "A bean counter, yeah.",
+      "zh": "一个精打细算的账房先生，对。"
+    },
+    {
+      "id": 246,
+      "start_sec": 3933,
+      "speaker": "Afra Wang",
+      "en": "Yeah, a bean counter. Yeah, yeah, yeah. So it's really hilarious. And Levy is a founder, I think, has both this business savviness as well as a great storytelling abilities, but also he's deeply, deeply believed in the BaZi cosmology.",
+      "zh": "对，就是个账房先生，哈哈。所以真的特别搞笑。而 Levy 这个创始人，我认为他既有极高的商业精明度，又极擅长讲故事，但与此同时，他又打心底里深信八字的宇宙观。"
+    },
+    {
+      "id": 247,
+      "start_sec": 3950,
+      "speaker": "Afra Wang",
+      "en": "So I think one of the most surreal experiences I was hanging out with the FateTell team was we were in a dinner. So we were in a dinner together...",
+      "zh": "所以我觉得和 FateTell 团队相处时最超现实的经历之一，是有一次我们一起吃晚饭。当时我们一桌人正在聚餐……"
+    },
+    {
+      "id": 248,
+      "start_sec": 3960,
+      "speaker": "Afra Wang",
+      "en": "And their fortune-telling master was also among our dinner. And you just see the entire conversation was about how to optimize your BaZi with the year of Fire Horse elements. How do you avoid certain life atrocities? How do you maximize your luck?",
+      "zh": "他们的算命大师也和我们一起吃了晚饭。你会发现整场谈话都在讨论如何根据“丙午火马年”的五行来优化八字。怎样避开人生的大灾大难？怎样让自己的运势最大化？"
+    },
+    {
+      "id": 249,
+      "start_sec": 3986,
+      "speaker": "Afra Wang",
+      "en": "You know, the COO of FateTell, her name is Sally, she moved her house from one place to a community that's near the hospital, because the master kind of warned him that, \"You are going to the hospital a lot this year.\" And she indeed been going to the hospital a lot.",
+      "zh": "FateTell 的首席运营官 Sally，甚至把家从原来的地方搬到了医院附近的小区，因为大师警告她说：“你今年会频繁跑医院。”而事实证明，她确实经常去医院。"
+    },
+    {
+      "id": 250,
+      "start_sec": 4002,
+      "speaker": "Kaiser Kuo",
+      "en": "Oh, Christ. Yeah, self-fulfilling. Let me play the skeptic here for just a minute and tie this back to the other piece, because Levy will tell you—and he does in the piece, you quote him—saying that the I Ching is humanity's first statistical decision model, and a model that gets better at math and coding must therefore get better at reading fate.",
+      "zh": "天呐。是啊，自我实现的预言。让我在这里扮演一下怀疑论者，顺便把这个话题和你另一篇文章联系起来。因为 Levy 会告诉你——你在报道中也引用了他的话——他说《易经》是人类历史上第一个统计决策模型，既然模型越来越擅长数学和代码，那它必然也会越来越擅长算命。"
+    },
+    {
+      "id": 251,
+      "start_sec": 4027,
+      "speaker": "Kaiser Kuo",
+      "en": "But, come on. I wonder whether there isn't a certain cynicism underlying all of this stuff. Knowing there's a reporter writing about them for The New Yorker there, they're going to put on a big show. They're going to bring the BaZi master to dinner. They're going to talk only about that, they're going to seem earnest about it. But I wonder if there isn't a certain...",
+      "zh": "但是，拜托。我怀疑这一切背后是不是存在某种犬儒主义。知道现场有位《纽约客》的记者在写他们，他们当然得做足全套戏码。他们把八字大师请来共进晚餐，满嘴聊的都是这些，显得无比虔诚。但我怀疑这背后难道就没有某种……"
+    },
+    {
+      "id": 252,
+      "start_sec": 4045,
+      "speaker": "Kaiser Kuo",
+      "en": "I don't know, come on. The people building FateTell know perfectly well that augury and astrology have nothing whatsoever to do with the math and the engineering that make a large language model work, right? I mean, come on.",
+      "zh": "我都不知道该怎么说，算了吧。开发 FateTell 的人心里门儿清：占卜和星盘跟支撑大语言模型运转的数学和工程原理根本没有半毛钱关系，对吧？我是说，得了吧。"
+    },
+    {
+      "id": 253,
+      "start_sec": 4059,
+      "speaker": "Kaiser Kuo",
+      "en": "I'm pretty sure they do, though, have a very old understanding of human gullibility. You got a market of people who are deeply anxious about a future that, ironically, AI itself is making uncertain, right? The anxiety is coming from AI, so let's use that same thing, AI, to sell to them.",
+      "zh": "不过我敢肯定，他们非常懂得如何利用人类根深蒂固的盲信弱点。面前有一整个市场的受众，对未来充满极度焦虑，而讽刺的是，这恰恰是 AI 本身带来的不确定性，对吧？焦虑因 AI 而起，那干脆就用 AI 这个同款产品来收割他们。"
+    },
+    {
+      "id": 254,
+      "start_sec": 4081,
+      "speaker": "Kaiser Kuo",
+      "en": "I don't think it's that different from Mr. Tree selling 3,000-yuan memberships to a security guard. I mean, the I Ching being 3,000 years old doesn't change the nature of the transaction. I see lots of parallels to—and I think it's obvious, and you saw them, too...",
+      "zh": "我觉得这跟那个“树先生”向保安兜售 3000 元的会员课程没什么两样。《易经》哪怕有三千年历史，也改变不了这种交易的本质。我看到了很多相似之处——而且我觉得很明显，你也看出来了……"
+    },
+    {
+      "id": 255,
+      "start_sec": 4102,
+      "speaker": "Kaiser Kuo",
+      "en": "I don't know if you're familiar with the Bay Area where you live in in the early '70s, you know, the whole Whole Earth Catalog years, Stewart Brand. Ken Kesey, the Merry Pranksters, he's on the bus with them. He puts out this compendium, and it's very hippie in the same way, sort of high-tech hippie, right? Geodesic domes, and the I Ching.",
+      "zh": "我不知道你熟不熟悉你现在居住的湾区在 70 年代初的景象，就是《全球概览》（Whole Earth Catalog）风靡的年代，Stewart Brand。还有 Ken Kesey 和他的“快乐恶作剧者”，他和他们一起在巴士上巡游。他出版了那本大百科，同样充满了嬉皮色彩，属于某种“高科技嬉皮”，对吧？测地线穹顶，还有《易经》。"
+    },
+    {
+      "id": 256,
+      "start_sec": 4126,
+      "speaker": "Kaiser Kuo",
+      "en": "So I guess, aren't they kind of like too deliberately kind of recreating this same thing? And I don't know, it just, something feels wrong to me about this.",
+      "zh": "所以我觉得，他们是不是有点太刻意地在复刻同一套东西了？我不知道，这总让我感觉哪里有点不对劲。"
+    },
+    {
+      "id": 257,
+      "start_sec": 4137,
+      "speaker": "Afra Wang",
+      "en": "I think this New Age-y...",
+      "zh": "我觉得这种新时代（New Age）风格的……"
+    },
+    {
+      "id": 258,
+      "start_sec": 4140,
+      "speaker": "Afra Wang",
+      "en": "movement in Liangzhu is an imported New Age-y movement from part of the Western world. I think the version of I Ching, the version of fortune-telling, and the version of the Eastern philosophy is actually first sort of influenced, impacted the West in the counterculture age.",
+      "zh": "良渚的这股风潮，实际上是从西方世界某些地区输入进来的新时代运动（New Age）。我认为，那里的易经版本、算命版本以及东方哲学版本，最初是在反文化运动时期影响了西方。"
+    },
+    {
+      "id": 259,
+      "start_sec": 4166,
+      "speaker": "Afra Wang",
+      "en": "And then later, it was sort of repackaged and imported back to China. So the version of the Chinese New Age-y I saw in Liangzhu is actually a pretty much Westernized, changed New Age practice.",
+      "zh": "随后它被重新包装，又回流并逆向输入回了中国。所以我在良渚看到的这种中国式“新时代”风潮，本质上是高度西方化、被改造过的新时代实践。"
+    },
+    {
+      "id": 260,
+      "start_sec": 4178,
+      "speaker": "Afra Wang",
+      "en": "And then I do think Livvy himself is a great marketer. You know, he's absolutely very, very smart and then exactly knows how to tell his story. Initially, when I was hanging out with the Liangzhu vibe coders, with the Liangzhu tech people, I probably met like 50, 60 of them.",
+      "zh": "而且我认为Livvy本人是个极佳的营销高手。他非常非常聪明，深谙如何讲好自己的故事。起初，当我和良渚的“氛围编码”（vibe-coding）群体、那里的科技从业者打交道时，我大概接触了五六十个人。"
+    },
+    {
+      "id": 261,
+      "start_sec": 4196,
+      "speaker": "Afra Wang",
+      "en": "And Livvy was one of the last batch of people I got to know, but later he became my character just because he's really compelling, you know. He often tells me all these interesting practices he's doing.",
+      "zh": "Livvy是我认识的最后一批人之一，但他后来成了我文章里的主角，完全是因为他这个人太引人注目了。他经常跟我讲他正在做的那些有趣实践。"
+    },
+    {
+      "id": 262,
+      "start_sec": 4211,
+      "speaker": "Afra Wang",
+      "en": "And he's telling me this hardware he's trying to do is because, you know, if you wanted to have this fortune-telling to be more accurate, you need to build this psychic connection with actual objects. That's why he's building hardware.",
+      "zh": "他跟我说他想做硬件，是因为如果你想让算命更准确，就必须和实体物品建立某种通灵/心灵感应联结。这就是他做硬件的原因。"
+    },
+    {
+      "id": 263,
+      "start_sec": 4225,
+      "speaker": "Afra Wang",
+      "en": "So, you know, he has many ways of selling his company in a compelling way. And he's also a media figure that's been reported by many tech medias in China. So I don't want to deny that. I do think Livvy is also deeply, deeply infused in this BaZi cosmology.",
+      "zh": "所以你看，他有很多极具说服力的方式来包装推销自己的公司。他本身也是个媒体红人，被很多国内科技媒体报道过。所以我不否认这一点。我确实觉得Livvy自己也深深沉浸在这套八字宇宙观里。"
+    },
+    {
+      "id": 264,
+      "start_sec": 4244,
+      "speaker": "Afra Wang",
+      "en": "Like one, after the article published, Livvy posted on social media and he says, \"Liangzhu indeed has great feng shui. Our company became part of The New Yorker report.\" So I think this is maybe his genuine reaction.",
+      "zh": "比如，文章发表后，Livvy在社交媒体上发帖说：“良渚的风水确实好，我们公司都登上了《纽约客》的报道。”所以我觉得这也许就是他的真实反应。"
+    },
+    {
+      "id": 265,
+      "start_sec": 4263,
+      "speaker": "Afra Wang",
+      "en": "And then, not just Livvy is doing fortune-telling applications. It's like a lot of other people in Liangzhu I met are also doing some, you know, purple star map reading, tarot reading. They're all building these AI fortune-telling applications.",
+      "zh": "而且，不仅是Livvy在做算命应用。我在良渚遇到的很多其他人也都在做紫微斗数看盘、塔罗牌占卜。他们全都在开发这类AI算命应用。"
+    },
+    {
+      "id": 266,
+      "start_sec": 4285,
+      "speaker": "Kaiser Kuo",
+      "en": "So when you were, you know, you're in this room at FateTell party, the COO is reading your chart. Do you see around you in these people, people who believe this, people who've found a product, or people who've just stopped being able to tell the difference between belief and product? I mean, that's...",
+      "zh": "所以当你置身于FateTell聚会的那个房间里，COO在给你看命盘时，你看到身边的这些人，是真正坚信这一套的人，是找到了产品方向的人，还是已经彻底分不清信仰与产品之间区别的人？我的意思是，那简直……"
+    },
+    {
+      "id": 267,
+      "start_sec": 4305,
+      "speaker": "Afra Wang",
+      "en": "The thing is, one thing I do want to convince the readers is they do believe in it. It is no joke. Like during the opening day, it is also the beginning of certain Buddhist...",
+      "zh": "问题的关键在于，我非常想让读者明白的一点是：他们是真信。这不是开玩笑。比如在开幕日那天，正好也是某个佛教……"
+    },
+    {
+      "id": 268,
+      "start_sec": 4320,
+      "speaker": "Afra Wang",
+      "en": "spiritual month. And then, during this month, you can—it is a good opportunity to practice fasting, to prac—to to practice differ—different a variety of things. And, one of the hardware engineers—his name is Feicai. He's really funny guy. He loves to talk, he's extremely talkative.",
+      "zh": "灵修月。在这个月里，你可以……这是个辟谷的好机会，可以练习各种各样的事情。其中一位硬件工程师叫肥柴，他是个特别有意思的人，超级爱说话，非常健谈。"
+    },
+    {
+      "id": 269,
+      "start_sec": 4338,
+      "speaker": "Afra Wang",
+      "en": "And then, we were chatting so much the day before. And, during the office opening party, at the beginning of this Buddhist and spiritual month, he decided to do a speech fasting. It means he don't—he will not talk for two weeks.",
+      "zh": "我们前一天还聊得热火朝天。结果在办公室开业派对上，恰逢这个佛教灵修月的开始，他决定进行“禁语”。也就是说，他接下来的两周内都不会开口说话。"
+    },
+    {
+      "id": 270,
+      "start_sec": 4355,
+      "speaker": "Afra Wang",
+      "en": "And, and then, he was really serious about it. So, when I met him, he was excited to to to wave to me, but he typed it on the phone and showed it to me, said, \"Only ask me yes or no questions.\" You know, that was some real practice. And those people are genuinely convicted.",
+      "zh": "而且他是非常认真的。当我见到他时，他很兴奋地朝我招手，但他在手机上打字给我看，上面写着：“请只问我‘是’或‘否’的问题。”你看，这可是动真格的修行，这些人是真的深信不疑。"
+    },
+    {
+      "id": 271,
+      "start_sec": 4374,
+      "speaker": "Afra Wang",
+      "en": "And then, when they are hiring new people, they will do this compatibility. Um, they're not—I don't think they they they can fake the whole thing in front of me.",
+      "zh": "他们在招新人的时候，还会去合八字看是否契合。他们不是在……我觉得他们不可能在我面前把整套东西全演出来。"
+    },
+    {
+      "id": 272,
+      "start_sec": 4383,
+      "speaker": "Kaiser Kuo",
+      "en": "Is there—is that legal? Can you can you discriminate based on on superstition? I wonder. I mean, and and you know, what you just said is is kind of interesting. Yeah, let's let's chalk another one up for the Chinese syncretism.",
+      "zh": "这……这合法吗？你能根据这种迷信来搞歧视吗？我很好奇。不过，你刚才说的确实挺有意思的。得，这又得算在中国式融通的账上了。"
+    },
+    {
+      "id": 273,
+      "start_sec": 4396,
+      "speaker": "Kaiser Kuo",
+      "en": "Because, you know, the I Ching was compiled, what, 500 years, give or take, before the birth of of the Shakyamuni Gautama Buddha. Uh and, you know, so let's Yeah, let's throw in a mishmash of Buddhist spiritual months as well as I Ching practices as well as every grab bag of superstitious nonsense that we can lay hold of, but anyway.",
+      "zh": "因为《易经》成书大概比释迦牟尼佛祖降生还要早个五百年左右。所以干脆把佛教的灵修月、《易经》的玄学实践，再加上随手能抓来的一切迷信大杂烩全搅和在一起，但不管怎么说吧……"
+    },
+    {
+      "id": 274,
+      "start_sec": 4416,
+      "speaker": "Afra Wang",
+      "en": "Yeah. Yeah. I would randomly throw—I would randomly gave them some information about my bazi, and all of them just like listened so carefully and seriously. And like it's almost like they're trying to build a some mental model about me.",
+      "zh": "是的。我当时随口跟他们透露了一点我自己的八字信息，他们全都听得特别认真、格外严肃。就好像他们正试图在脑海中为我建立某种认知模型一样。"
+    },
+    {
+      "id": 275,
+      "start_sec": 4430,
+      "speaker": "Afra Wang",
+      "en": "And then, this random piece of information about my bazi became another important factor they're trying to to put in. So, yeah, they're they're quite serious about this. This is just That's why this this whole thing is really fascinating, right?",
+      "zh": "然后关于我八字的这一条零散信息，就成了他们试图纳入模型的另一个关键要素。所以说，他们对这套东西是非常当真的。正因如此，整件事情才显得格外耐人寻味，不是吗？"
+    },
+    {
+      "id": 276,
+      "start_sec": 4444,
+      "speaker": "Kaiser Kuo",
+      "en": "Yeah. I mean, I I can't I cannot contain my contempt for this. I'm sorry. Let's talk about what happens, though, when the local government falls in love with a scene like this.",
+      "zh": "确实。不过抱歉，我实在掩饰不住自己对这种事的鄙夷。但咱们还是聊聊看，当地方政府看中并介入这样一个生态时，会发生什么吧。"
+    },
+    {
+      "id": 277,
+      "start_sec": 4454,
+      "speaker": "Kaiser Kuo",
+      "en": "Because, you know, we've seen this happen before. You know, there's the Seeker 1 incubator with its \"new quality productive forces\" boilerplate that you talk about. There's Master Qi, you know, he's standing next to this party official at the ribbon cutting.",
+      "zh": "因为我们以前见过太多这种场景了。比如你文章里提到的“良渚寻客一号”孵化器，满嘴套用“新质生产力”的官方官样套话；还有七爷，在剪彩仪式上就并排站在党委干部身旁。"
+    },
+    {
+      "id": 278,
+      "start_sec": 4467,
+      "speaker": "Kaiser Kuo",
+      "en": "Uh there's this tech influencer that you talk about named Toolatrix uh who who runs a weekly gathering called Crazy Thursday. And I I'm glad that you noted the origins in KFC online promotions for Crazy Thursday.",
+      "zh": "还有你写到的那位网名叫“工具乐器”（Toolatrix）的科技网红，他每周组织一场名为“疯狂星期四”的聚会。我很欣慰你指出了“疯狂星期四”其实源自肯德基的线上促销文案。"
+    },
+    {
+      "id": 279,
+      "start_sec": 4480,
+      "speaker": "Kaiser Kuo",
+      "en": "Again, Chinese syncretism. You know, take it from anywhere you can, right? Even if it's fast food, Western fast food. But, you know, there's other people who are scouting the next town already because they think that that Liangzhu only has maybe a couple of years left. I I I've seen how this this happens, right? We've seen like, you know, 798 or Songzhuang.",
+      "zh": "这又是中国式的兼收并蓄——逮着什么用什么，哪怕是洋快餐的梗也不例外。但与此同时，已经有人在物色下一个落脚的小镇了，因为他们觉得良渚的好日子大概也就剩个一两年了。这种戏码我见得太多了，就像当年的798艺术区或者宋庄艺术村那样。"
+    },
+    {
+      "id": 280,
+      "start_sec": 4500,
+      "speaker": "Kaiser Kuo",
+      "en": "In Beijing or maybe Dali, I mean, they sort of become a fad for a little while. People all go there and then they, you know, it gets kind of enshittified somehow and then everyone leaves.",
+      "zh": "在北京，或者在大理。这类地方往往会风靡一时，大家都蜂拥而至，然后不知怎的就体验变差、走向劣化，接着所有人又都散了。"
+    },
+    {
+      "id": 281,
+      "start_sec": 4513,
+      "speaker": "Afra Wang",
+      "en": "Yeah. I mean, unfortunately, I think by the time the article is published, I think Liangzhu's peak is, in fact, over. It's because the place is already somewhat institutionalized.",
+      "zh": "是的。遗憾的是，我觉得等到这篇文章发表的时候，良渚的巅峰期其实已经过去了。因为这个地方在某种程度上已经被收编、体制化了。"
+    },
+    {
+      "id": 282,
+      "start_sec": 4524,
+      "speaker": "Afra Wang",
+      "en": "So when I was chatting with another friend in Shanghai, he's a tech company CEO, and I also mentioned I was like, \"I'm working on something about Liangzhu.\" He says, \"Oh, isn't this place is already like sort of boring? Became boring again?\"",
+      "zh": "之前我和上海的一位朋友聊天，他是一家科技公司的CEO。我随口提到：“我最近在写一篇关于良渚的稿子。”他直接说：“啊？那地方不是已经挺无聊的了吗？又变得没劲了吧？”"
+    },
+    {
+      "id": 283,
+      "start_sec": 4541,
+      "speaker": "Afra Wang",
+      "en": "You know, because the peak was the post-COVID two years. And now Liangzhu has been seen as a bunch of, you know, some people are more or less grifty, and some people are just... It's just not organic anymore, because the local government are trying to absorb and institutionalize this organic scene.",
+      "zh": "因为良渚最火的是疫情后的那两年。现在的良渚给人的感觉是，混进去了不少捞快钱的投机客，还有些人纯粹是……总之它不再有那种自发生长的野生感了。因为当地政府正试图把这种自发的民间生态收编并体制化。"
+    },
+    {
+      "id": 284,
+      "start_sec": 4561,
+      "speaker": "Afra Wang",
+      "en": "That's why there are district bureaus would go to the quote-unquote founder of \"Crazy Thursday\", this tech gathering event, saying, \"Can you change your location from gathering in a coffee shop to our newly built office space? We will provide this and that to you.\"",
+      "zh": "这也是为什么会有区级招商部门找上“疯狂星期四”这一科技沙龙的所谓发起人，跟他们说：“你们能不能别在咖啡馆聚了，搬到我们新建的办公园区去？我们给你们提供各种补贴和扶持。”"
+    },
+    {
+      "id": 285,
+      "start_sec": 4581,
+      "speaker": "Afra Wang",
+      "en": "And then, you know, he ended up refusing, because when you change the organic scene to somewhere else has some other purposes, the energy, this originality is gone.",
+      "zh": "结果他给拒绝了。因为一旦你把这种自发原生的小圈子搬到带着其他功利目的的地方，那种活力、那种原创的灵气就荡然无存了。"
+    },
+    {
+      "id": 286,
+      "start_sec": 4595,
+      "speaker": "Afra Wang",
+      "en": "And, you know, Liangzhu used to be the place where people in Shanghai, in Beijing, in Shenzhen, even Silicon Valley would fly over to to learn about things, to learn about this some new trends, especially during the first two years of of of AI boom, where the consumer apps was the point of growth.",
+      "zh": "要知道，良渚曾经是上海、北京、深圳甚至硅谷的人都会特地飞过来取经的地方，大家来这里捕捉新趋势，尤其是在这轮AI热潮最初的两年里，当时C端应用正是核心增长点。"
+    },
+    {
+      "id": 287,
+      "start_sec": 4615,
+      "speaker": "Afra Wang",
+      "en": "But now, unfortunately, I think Liangzhu became is not cool anymore, in a sense. And similar to some other local governments, like local government in Huangshan, local government in Anji, even the local government of, yeah, some like coastal cities, they are all trying to attract quote-unquote \"vibe coders\" or one-person companies.",
+      "zh": "但很遗憾，现在的良渚在某种意义上已经“不酷”了。而且国内其他一些地方政府，比如黄山、安吉，甚至某些沿海城市的政府，现在都在极力招揽所谓的“氛围写码”独立开发者或者超级个体、一人公司。"
+    },
+    {
+      "id": 288,
+      "start_sec": 4636,
+      "speaker": "Kaiser Kuo",
+      "en": "Of course they are. [laughter]",
+      "zh": "他们肯定会这么干。[笑]"
+    },
+    {
+      "id": 289,
+      "start_sec": 4638,
+      "speaker": "Afra Wang",
+      "en": "Yeah, this seems to be the slogan to attract and to correspond to the \"AI Plus\" plan, to correspond with the trend of attracting more people who are building things with the new quality productivity force, AI, right?",
+      "zh": "没错，这似乎成了招商引资的标准口号，用来呼应国家层面的“人工智能+”行动，顺应借由新质生产力——也就是AI——来吸引更多弄潮儿的浪潮，对吧？"
+    },
+    {
+      "id": 290,
+      "start_sec": 4660,
+      "speaker": "Afra Wang",
+      "en": "And then, you know, and all those local governments are trying to find the next new thing to attract more people. And then, Liangzhu government is one of the very, very tech-savvy governments. It's the Yuhang government, and the Yuhang government has many competitors around it. So, when I was visiting Liangzhu, those off...",
+      "zh": "所有这些地方政府都在试图寻找下一个新风口来聚拢人才。而良渚背后其实是一个对科技非常敏感的政府，也就是余杭区政府。余杭周边面临着很多强劲的竞争对手。所以当我去良渚走访时，那些官办……"
+    },
+    {
+      "id": 291,
+      "start_sec": 4680,
+      "speaker": "Afra Wang",
+      "en": "Official tech incubators, the recruiters are very savvy. You know, they got my WeChat, they invited me to the Liangzhu community, officially run community, and they're trying to ask me if I want to build a company there. When I was only chatting with them for 10 minutes, they immediately talked...",
+      "zh": "官方的科技孵化器，那些招商人员非常精明。他们加了我的微信，邀请我加入良渚的社群——官方运营的社群，还一直问我想不想在那儿开公司。我才跟他们聊了十分钟，他们就立刻开始谈……"
+    },
+    {
+      "id": 292,
+      "start_sec": 4698,
+      "speaker": "Kaiser Kuo",
+      "en": "Well, you're an OPC, right? You're running a Substack.",
+      "zh": "好吧，你就是个单人公司（OPC），对吧？你在运营自己的Substack专栏。"
+    },
+    {
+      "id": 293,
+      "start_sec": 4701,
+      "speaker": "Afra Wang",
+      "en": "I'm an OPC. I'm an OPC, yeah.",
+      "zh": "我就是一个单人公司。我就是，没错。"
+    },
+    {
+      "id": 294,
+      "start_sec": 4703,
+      "speaker": "Kaiser Kuo",
+      "en": "I'm an OPC. I've got a podcast.",
+      "zh": "我也是单人公司。我做着一档播客。"
+    },
+    {
+      "id": 295,
+      "start_sec": 4705,
+      "speaker": "Afra Wang",
+      "en": "We are all OPCs.",
+      "zh": "我们都是单人公司。"
+    },
+    {
+      "id": 296,
+      "start_sec": 4707,
+      "speaker": "Kaiser Kuo",
+      "en": "Yeah. I'm down with OPC.",
+      "zh": "对。我很赞同单人公司的概念。"
+    },
+    {
+      "id": 297,
+      "start_sec": 4709,
+      "speaker": "Afra Wang",
+      "en": "Yeah, I was immediately being given a lot of information of how to register a company there, how to pay this, you know, social security there, and what kind of benefits I can get from the Liangzhu government in terms of the amount of compute, the amount of token, and some sort of subsidies. So yeah, I was immediately being recruited, just simply because, you know, those governments, they crave growth, they crave young people, they crave...",
+      "zh": "对，我立刻就收到了大量信息，教我怎么在那儿注册公司，怎么在那儿交社保，以及能从良渚政府那里拿到什么样的优惠政策——比如多少算力额度、多少Token额度，还有各种补贴。所以说，我立刻就成了他们招揽的对象，纯粹就是因为当地政府极度渴求增长，极度渴求年轻人，极度渴求……"
+    },
+    {
+      "id": 298,
+      "start_sec": 4740,
+      "speaker": "Kaiser Kuo",
+      "en": "They probably cast your BaZi and figured you'd be a good fit.",
+      "zh": "他们可能还排了你的八字，觉得你特别合适。"
+    },
+    {
+      "id": 299,
+      "start_sec": 4743,
+      "speaker": "Afra Wang",
+      "en": "Yeah.",
+      "zh": "是啊。"
+    },
+    {
+      "id": 300,
+      "start_sec": 4745,
+      "speaker": "Kaiser Kuo",
+      "en": "Before we wind up here, let me put the big Western question to you very directly, because you are the person who can actually answer it. Is the idea that Chinese people are cavalier about AI safety, that they basically don't care about or don't believe in the existential risks—is that a fair characterization? What are people in these rooms that you've been in actually worried about when it comes to AI? Is risk being talked about at all, maybe just in a vocabulary that we're not listening for or attuned to?",
+      "zh": "在我们结束之前，让我非常直接地向你提出那个西方最为关注的核心问题，因为你正是那个能给出真正答案的人。有一种观点认为，中国人对人工智能安全不以为意，基本上不在乎甚至不相信所谓的存在性风险——这种定性公允吗？在人工智能方面，你所接触过的那些圈子里的人究竟在担忧什么？大家到底有没有在谈论风险，还是说只是用了一种我们未曾留心、或尚未习惯的语汇？"
+    },
+    {
+      "id": 301,
+      "start_sec": 4779,
+      "speaker": "Afra Wang",
+      "en": "This is a great question. My understanding is, many AI researchers I talked to worked in the Chinese AI labs, they don't think safety issues are on their lane. They believe certain safety issues are the responsibility for the government, and then they definitely don't want to take the job from the government. So this is like one dimension.",
+      "zh": "问得太好了。我的理解是，我接触过的许多在中国人工智能实验室工作的AI研究员，他们并不认为安全问题是自己的职责范畴。他们觉得某些安全问题属于政府的管辖责任，而且他们绝对不想去越俎代庖。所以这是其中的一个维度。"
+    },
+    {
+      "id": 302,
+      "start_sec": 4805,
+      "speaker": "Afra Wang",
+      "en": "And the second point is often that, so you know that Silicon Valley, for example OpenAI, they would do this experiment of trying to mobilize a lot of agents to tackle a very long and complex question, and that ended up causing something like the Hugging Face incident. Doing such experiment is very costly, and compared to the capital that the Silicon Valley AI labs have versus the capital of a Chinese AI lab could mobilize, the Chinese companies sometimes cannot really afford to do such frontier risky experiment to test out the capability.",
+      "zh": "第二点往往在于，你看硅谷那边，比如OpenAI，他们会去做这样的实验：调动大量智能体（Agent）去攻关一个极长、极其复杂的问题，结果引发了类似Hugging Face事件那样的情况。做这种实验成本极高，而且对比硅谷AI实验室所拥有的资本与中国AI实验室所能调动的资本，中国企业有时根本承担不起去做这种前沿且高风险的实验来测试模型的能力极限。"
+    },
+    {
+      "id": 303,
+      "start_sec": 4853,
+      "speaker": "Afra Wang",
+      "en": "So, I guess what I'm trying to say is, first, the Chinese AI companies, they do not really...",
+      "zh": "所以，我想表达的是，首先，中国的人工智能企业并没有真正……"
+    },
+    {
+      "id": 304,
+      "start_sec": 4860,
+      "speaker": "Afra Wang",
+      "en": "doing things that's as dangerous and frontier as their Silicon Valley counterpart. And second, they're just very practical about this. It's because doing such experiment is costly and they have scarce capital, they have scarce compute.",
+      "zh": "去做像硅谷同行那样危险且处于最前沿的事情。其次，他们在这方面非常务实。因为做这类实验成本高昂，而他们的资金很紧缺，算力也非常匮乏。"
+    },
+    {
+      "id": 305,
+      "start_sec": 4874,
+      "speaker": "Afra Wang",
+      "en": "And all they want to do is focus on improving the benchmarks, focus on improving the model capabilities so they can have relatively good return. Because those companies actually have a lot of pressure to generate wealth for the local economy.",
+      "zh": "他们真正想做的，就是集中精力刷榜提升基准测试表现，提升模型能力，从而获得相对不错的回报。因为这些公司实际上背负着为地方经济创造财富的巨大压力。"
+    },
+    {
+      "id": 306,
+      "start_sec": 4893,
+      "speaker": "Afra Wang",
+      "en": "They also, you know, in a sense, they are a bunch of very highly educated STEM people, the successors of gaokao. And improving benchmark is a very natural thing to them, because it is essentially an optimization problem rather than an open-ended question.",
+      "zh": "而且在某种程度上，他们是一群受过高等教育的理工科精英，是高考体系的胜出者。提升跑分基准对他们来说是一件顺理成章的事，因为这本质上是一个优化问题，而不是一个开放式命题。"
+    },
+    {
+      "id": 307,
+      "start_sec": 4916,
+      "speaker": "Afra Wang",
+      "en": "I guess the final reason why I would argue that Chinese AI labs are less concerned about AI safety is because dealing with AI safety is an endless, is a very complex and open-ended question, and it's costly.",
+      "zh": "我觉得中国AI实验室不太关注AI安全的最后一个原因，在于处理AI安全是一个无休止、极其复杂且开放性的问题，而且代价高昂。"
+    },
+    {
+      "id": 308,
+      "start_sec": 4934,
+      "speaker": "Afra Wang",
+      "en": "So many AI researchers are like, if Sam Altman, Elon Musk, and Dario are thinking about this, why am I here to worry about that? Or I can just adopt their methodology of safety practices to our company rather than figure this out from zero to one.",
+      "zh": "所以很多AI研究员的想法是：既然Sam Altman、Elon Musk和Dario都在思考这些，我又何必操心呢？或者我们直接把他们的安全实践方法套用到自己公司就行了，没必要从零到一去重新琢磨。"
+    },
+    {
+      "id": 309,
+      "start_sec": 4954,
+      "speaker": "Afra Wang",
+      "en": "Yeah, I think it is a mixture of pragmatism. There's a mixture of, you know, also the trust of state capacity, right? It's really hard for Chinese government to believe something lives in the computer could be potentially dangerous.",
+      "zh": "是的，我觉得这既是一种实用主义，同时也混杂着对国家治理能力的信任，对吧？中国政府其实很难相信存活在电脑里的东西会具有潜在危险。"
+    },
+    {
+      "id": 310,
+      "start_sec": 4967,
+      "speaker": "Afra Wang",
+      "en": "Of course, you know, I'm not saying Chinese government don't care about cybersecurity. But what I say is the government has a really strong control of the physical reality, of the physical world. So it's really hard to really convince them that this could be catastrophic.",
+      "zh": "当然，我不是说中国政府不在乎网络安全。但我想说的是，政府对物理现实、对实体世界有着极强的控制力。所以很难真正说服他们这可能会引发灾难性后果。"
+    },
+    {
+      "id": 311,
+      "start_sec": 4984,
+      "speaker": "Kaiser Kuo",
+      "en": "I got it. Yeah. So they don't think it's really their job because it's the government's job. I mean, worrying about things like AI safety, that's something they're happy to hand off to the government.",
+      "zh": "我懂了，是的。所以他们觉得这不是自己的本职工作，因为那是政府的事。我是说，操心AI安全这类事情，他们很乐意甩手推给政府。"
+    },
+    {
+      "id": 312,
+      "start_sec": 4995,
+      "speaker": "Kaiser Kuo",
+      "en": "They don't engage in these sorts of wild sandbox experiments where they sick tons of agents on very, very difficult problems, and then, you know, tell these agents they're going to be benchmarked and thus incentivize them to do naughty things.",
+      "zh": "他们不会去搞那种天马行空的沙盒实验，把大批智能体放出去解决极难的问题，然后告诉它们会进行评测，从而刺激它们做出越轨举动。"
+    },
+    {
+      "id": 313,
+      "start_sec": 5009,
+      "speaker": "Kaiser Kuo",
+      "en": "And yeah, and basically they think they can adopt whatever best practices come out of these labs that are thinking about this stuff, for the reasons that, you know, they are engaging in these risky practices. So, yeah, interesting.",
+      "zh": "而且基本上他们认为，那些正在琢磨这些问题的实验室之所以去研究，是因为它们本身就在开展高风险实践，所以直接借鉴对方的最佳实践就行了。这很有意思。"
+    },
+    {
+      "id": 314,
+      "start_sec": 5022,
+      "speaker": "Kaiser Kuo",
+      "en": "So it's not that they're cavalier, necessarily, it's just that they have their focus on on very different things. It's that they're really focused on, you know, just improving their models because they're still behind, getting around compute constraints, and, you know, eventually making a little bit of money.",
+      "zh": "所以倒不一定是他们漫不经心，只是关注点完全不同。他们真正专注的，就是因为还处于落后而不断提升模型性能、绕过算力限制，以及最终赚到点真金白银。"
+    },
+    {
+      "id": 315,
+      "start_sec": 5038,
+      "speaker": "Kaiser Kuo",
+      "en": "Sounds very Chinese to me.",
+      "zh": "在我看来，这非常符合中国的行事风格。"
+    },
+    {
+      "id": 316,
+      "start_sec": 5040,
+      "speaker": "Afra Wang",
+      "en": "Yeah, exactly. Another thing is about the whole Effective Altruism movement, which is essentially the group of people who advocated for the x-risk, the catastrophic risk that could be induced by AI.",
+      "zh": "是的，没错。另一件事与整个“有效利他主义”运动有关，这群人本质上一直在鼓吹由人工智能可能引发的“生存风险”或灾难性风险。"
+    },
+    {
+      "id": 317,
+      "start_sec": 5053,
+      "speaker": "Afra Wang",
+      "en": "They are the ones who are just using some first-principle logic to speculate the future, and sometimes they could be very wrong. For example, they are the ones who would predict all the white-collar jobs, or like at least 50%, will be gone by this year or that year.",
+      "zh": "他们往往只凭借某些第一性原理的逻辑来推测未来，有时错得非常离谱。比如，正是他们预言所有白领岗位——或者至少50%——将在某年某月彻底消失。"
+    },
+    {
+      "id": 318,
+      "start_sec": 5074,
+      "speaker": "Afra Wang",
+      "en": "This is a very sort of logical prediction, but it is completely out of context because they never really added the cultural aspect into it, and never really considered that human society is a relational society.",
+      "zh": "这种推断虽然看似符合逻辑，但完全脱离了现实语境，因为他们从不把文化维度考虑在内，也从未真正意识到人类社会是一个关系型社会。"
+    },
+    {
+      "id": 319,
+      "start_sec": 5088,
+      "speaker": "Afra Wang",
+      "en": "So, they have a lot of blindness in their methodology, in their mental framework. I know many of them in Berkeley. I have a lot of friends who are EA, and sometimes they could be terribly wrong, sometimes they could be right, but there are definitely some flaws in the fundamental way they think about the world.",
+      "zh": "因此，在他们的方法论和思维框架中存在着巨大的盲区。我在伯克利认识很多这样的人，也有不少朋友信奉有效利他主义。他们有时错得离谱，有时也能言中，但在看待这个世界的基本方式上，绝对存在某些硬伤。"
+    },
+    {
+      "id": 320,
+      "start_sec": 5111,
+      "speaker": "Kaiser Kuo",
+      "en": "What a surprise! Anyway, it's a wonderful couple of pieces, and I understand there's a third piece in the works in this trilogy now, and it's also going to be focused on Liangzhu, right? What is that one about?",
+      "zh": "毫不意外！不管怎么说，这两篇文章写得非常精彩。我知道这个三部曲中还有第三篇正在筹备，也是聚焦在良渚，对吧？那篇是关于什么的？"
+    },
+    {
+      "id": 321,
+      "start_sec": 5123,
+      "speaker": "Afra Wang",
+      "en": "Yeah, the third piece is not necessarily focused on Liangzhu, but it does focus on what I call the industrial AI slop industry. It is essentially a phenomenon of this overwhelming amount of AI mini-dramas that are in a lot of people's timeline and produced by those studios located in a variety of parts of China.",
+      "zh": "第三篇倒不一定只聚焦良渚，但重点探讨的是被我称为“AI垃圾工业化”的产业。它本质上是指当下充斥在很多人信息流里、由分布在全国各地的短剧工作室批量炮制的泛滥成灾的AI短剧现象。"
+    },
+    {
+      "id": 322,
+      "start_sec": 5148,
+      "speaker": "Afra Wang",
+      "en": "I just really want to figure out what are the practices in those industries. Can we really create some original Chinese arts in those practices? Because I can see some renaissance in the AI content creation.",
+      "zh": "我只是非常想弄清楚这些行业内部的具体运作模式。我们真能从这些实践中创造出具有原创性的中国艺术吗？因为在AI内容创作领域，我确实能看到某种复兴的火花。"
+    },
+    {
+      "id": 323,
+      "start_sec": 5168,
+      "speaker": "Afra Wang",
+      "en": "But the more I dig in, the more I got slightly disappointed. Some people could argue that the Chinese AI mini-dramas could be a soft power export, but at the end, I think I made my own verdict. I said, well, it is not really soft culture when it is just slop.",
+      "zh": "但越往深处挖，我就越感到有些失望。有人或许会辩称中国AI短剧可以作为一种软实力出海，但在最后，我想我给出了自己的定论：如果它充其量只是垃圾内容，那就根本谈不上什么软实力文化。"
+    },
+    {
+      "id": 324,
+      "start_sec": 5189,
+      "speaker": "Kaiser Kuo",
+      "en": "Pure slop. Anyway, dear listeners, you should definitely read these couple of pieces of Afra's, and then of course look out for the one on the AI slop industry that will be coming down the pipeline.",
+      "zh": "纯粹的垃圾。总之，各位听众，你们一定要去读一读Afra写的这几篇文章，当然也要密切关注她即将推出的关于AI垃圾产业的最新力作。"
+    },
+    {
+      "id": 325,
+      "start_sec": 5202,
+      "speaker": "Kaiser Kuo",
+      "en": "In these two pieces, she already introduces us to so many interesting folks. There's Casey, this kid barely out of his teens who's teaching his friends to vibe code in his living room there in Liangzhu. There's a woman called H who quit Tencent—she's like 27—to just explore ways of...",
+      "zh": "在这两篇文章中，她已经为我们引荐了许多极具特色的人物：比如刚满二十岁的年轻人Casey，他在良渚自家的客厅里教朋友们写“氛围代码”（vibe coding）；还有一位化名为H的女士，27岁就从腾讯离职，只为探索新的可能性……"
+    },
+    {
+      "id": 326,
+      "start_sec": 5220,
+      "speaker": "Kaiser Kuo",
+      "en": "not going to work, which is sort of how I live my life. Her feed is just all flying lessons and Muay Thai in Chiang Mai. There's Xiao Kai, of course, we talked about the AI filmmaker from Dongbei.",
+      "zh": "不去打卡上班，这其实也是我习惯的生活状态。她的社媒动态里全是清迈的飞行课和泰拳训练。当然还有小凯，我们之前聊过的那位来自东北的 AI 电影创作者。"
+    },
+    {
+      "id": 327,
+      "start_sec": 5231,
+      "speaker": "Kaiser Kuo",
+      "en": "You got that security guard, you got Levi, you got all these people in this piece, and that's one of the things that makes your writing so enjoyable is that there are these people who very much come to life in your prose, and I feel like I've met them as well.",
+      "zh": "你写到了那个保安，写到了 Levi，文章里充盈着这些鲜活的人物。这也正是你的文字读来引人入胜之处——这些人在你的笔下跃然纸上，仿佛我也与他们面对面交谈过一样。"
+    },
+    {
+      "id": 328,
+      "start_sec": 5246,
+      "speaker": "Afra Wang",
+      "en": "Oh, thank you. Thank you.",
+      "zh": "噢，谢谢，非常感谢！"
+    },
+    {
+      "id": 329,
+      "start_sec": 5248,
+      "speaker": "Kaiser Kuo",
+      "en": "Yeah, I really urge everyone to read these stories and to subscribe to Afra's Concurrent Substack for more great writing from her. Before we say goodbye, we've got paying it forward and recommendations.",
+      "zh": "是的，我非常推荐大家去读这几篇报道，并订阅 Afra 的 Substack 专栏《Concurrent》，阅读更多她的精彩文章。在说再见之前，我们照例要进行“爱心传递”致敬环节和好物推荐。"
+    },
+    {
+      "id": 330,
+      "start_sec": 5259,
+      "speaker": "Kaiser Kuo",
+      "en": "Afra, I think you're about to, you're vying with Kyle Chan for being the most paid forward person on the show already. So I'm really curious who you would nominate for paying it forward this week.",
+      "zh": "Afra，我觉得你现在都快赶上 Kyle Chan 了，成为节目里被别人致敬提及次数最多的嘉宾。所以这周我特别好奇，你想要向哪位同行致敬？"
+    },
+    {
+      "id": 331,
+      "start_sec": 5269,
+      "speaker": "Afra Wang",
+      "en": "The first name I want to mention is Zulan Qian. I think for those who are curious about the AI safety discourse in the US and China, I think Zulan is a must read.",
+      "zh": "我首先想提到的是 Zulan Qian。我觉得对于那些对中美两国的 AI 安全议题和话语体系感兴趣的人来说，Zulan 的文章是必读的。"
+    },
+    {
+      "id": 332,
+      "start_sec": 5284,
+      "speaker": "Afra Wang",
+      "en": "I think she has the ability to really map some of the semantics, some of the terminologies into the Chinese context. For example, what does loss control mean in the Chinese context?",
+      "zh": "她非常擅长将一些语义和专业术语准确映射到中文语境中。例如，“失控”（Loss of Control）在中文语境下到底意味着什么？"
+    },
+    {
+      "id": 333,
+      "start_sec": 5301,
+      "speaker": "Afra Wang",
+      "en": "Like, lost control by who, right? Like she would write a piece to explain that.",
+      "zh": "比如，究竟是谁的失控？对吧？她专门写过一篇文章来深入拆解这个概念。"
+    },
+    {
+      "id": 334,
+      "start_sec": 5307,
+      "speaker": "Kaiser Kuo",
+      "en": "Where does she write?",
+      "zh": "她在哪里发表文章？"
+    },
+    {
+      "id": 335,
+      "start_sec": 5309,
+      "speaker": "Afra Wang",
+      "en": "She has her Substack, and she's also GovAI fellow now, research about AI governance in China. She would write something like, the most memorable and well-spread piece is why the US builds AI girlfriend and China builds AI boyfriend.",
+      "zh": "她有自己的 Substack 专栏，目前也是 GovAI 的研究员，专注于中国 AI 治理研究。她写过很多深度文章，其中最令人印象深刻、传播最广的一篇是分析《为什么美国在做 AI 女友，而中国在做 AI 男友》。"
+    },
+    {
+      "id": 336,
+      "start_sec": 5326,
+      "speaker": "Afra Wang",
+      "en": "Yeah, it's a phenomenon piece. But later, China banned the practice of anthropomorphizing AI.",
+      "zh": "是的，那是一篇现象级的文章。不过后来中国出台规定，限制了对 AI 进行过度拟人化的做法。"
+    },
+    {
+      "id": 337,
+      "start_sec": 5333,
+      "speaker": "Kaiser Kuo",
+      "en": "Yeah. Zulan Qian, I'll definitely check her out. I don't think I've come across her stuff before. That sounds really great, right up my alley.",
+      "zh": "好的，Zulan Qian，我一定会去拜读她的作品。我之前好像还没拜读过她的文章，听上去非常棒，完全符合我的胃口。"
+    },
+    {
+      "id": 338,
+      "start_sec": 5340,
+      "speaker": "Kaiser Kuo",
+      "en": "All right. Let's move on to recommendations. What do you have for recommendations for us this week?",
+      "zh": "好，那我们进入好物推荐环节。本周你有什么想向大家推荐的吗？"
+    },
+    {
+      "id": 339,
+      "start_sec": 5346,
+      "speaker": "Afra Wang",
+      "en": "I've been reading Ken Liu recently, because I met him the past weekend at the CURVE conference.",
+      "zh": "我最近一直在读刘宇昆（Ken Liu）的作品，因为我上周末刚在 CURVE 大会上碰到了他。"
+    },
+    {
+      "id": 340,
+      "start_sec": 5357,
+      "speaker": "Kaiser Kuo",
+      "en": "Yeah, I heard you spent like 3 hours chatting away with him. Yeah.",
+      "zh": "对，我听说你跟他相谈甚欢，畅聊了大概三个小时。"
+    },
+    {
+      "id": 341,
+      "start_sec": 5360,
+      "speaker": "Afra Wang",
+      "en": "Yeah, I just spent some meaningful time chatting with Ken. Chatting a lot about the practice of AI art creation.",
+      "zh": "对，我和 Ken 进行了一次非常充实而有意义的交流。我们聊了很多关于 AI 艺术创作实践的内容。"
+    },
+    {
+      "id": 342,
+      "start_sec": 5370,
+      "speaker": "Afra Wang",
+      "en": "Ken is one of the most thoughtful writers or thinking about this subject when majority of the writers are not very even interested in thinking about this seriously, you know, like many of them just condescendingly say...",
+      "zh": "在大多数作家甚至都不屑于认真思考这个议题，或者只是居高临下地予以否定的时候，Ken 是极少数对这个话题有着极其深刻、周全思考的作家之一。"
+    },
+    {
+      "id": 343,
+      "start_sec": 5386,
+      "speaker": "Kaiser Kuo",
+      "en": "Let me quickly ID Ken for people who don't know who he is. He is a science fiction writer. He wrote an interesting series of books, a genre that he's called silkpunk.",
+      "zh": "我来向不熟悉 Ken 的听众快速介绍一下。他就是著名科幻作家刘宇昆。他创作了一部非常引人入胜的系列小说，开创了他称之为“丝绸朋克”（Silkpunk）的全新流派。"
+    },
+    {
+      "id": 344,
+      "start_sec": 5396,
+      "speaker": "Afra Wang",
+      "en": "Silkpunk.",
+      "zh": "丝绸朋克。"
+    },
+    {
+      "id": 345,
+      "start_sec": 5397,
+      "speaker": "Kaiser Kuo",
+      "en": "Yeah, and it's actually about the Chu-Han Contention.",
+      "zh": "是的，那部作品实际上是以楚汉相争的历史为灵感架构的。"
+    },
+    {
+      "id": 346,
+      "start_sec": 5400,
+      "speaker": "Kaiser Kuo",
+      "en": "an imagined universe based on silkpunk technology. And he is also, of course, the translator of Liu Cixin's Three-Body Problem trilogy—the first book, The Three-Body Problem itself, and the third book in that trilogy were his translations.",
+      "zh": "设定在一个基于“丝绸朋克”技术的虚构宇宙中。当然，他也是刘慈欣《三体》三部曲的译者——第一部《三体》和第三部都是由他翻译的。"
+    },
+    {
+      "id": 347,
+      "start_sec": 5420,
+      "speaker": "Kaiser Kuo",
+      "en": "They're excellent. I interviewed him on Sinica some years ago. Really interesting guy.",
+      "zh": "译本非常出色。几年前我在 Sinica 采访过他，他是个非常有意思的人。"
+    },
+    {
+      "id": 348,
+      "start_sec": 5427,
+      "speaker": "Afra Wang",
+      "en": "Yeah, he has a new anthology coming out called The Passing of the Dragon. And the dragon is actually a metaphor created by Ursula Le Guin, a renowned sci-fi writer both Ken and I seen as idol.",
+      "zh": "对，他最近有一部新的作品集即将出版，叫《飞龙之逝》（The Passing of the Dragon）。这里的“龙”实际上是一个隐喻，出自著名科幻作家 Ursula Le Guin，我和 Ken 都把她视为偶像。"
+    },
+    {
+      "id": 349,
+      "start_sec": 5445,
+      "speaker": "Afra Wang",
+      "en": "I personally paid some pilgrimage to Le Guin's old house when I was visiting Portland. I was walking on the beach that inspired her to write the Earthsea series. I was properly fangirling Ursula Le Guin, and walking on the road she walked before.",
+      "zh": "我去波特兰的时候，还特意去 Le Guin 的故居朝圣。我走在曾启发她创作《地海传奇》（Earthsea）系列的海滩上，简直就像个狂热的迷妹，走着她当年走过的路。"
+    },
+    {
+      "id": 350,
+      "start_sec": 5464,
+      "speaker": "Kaiser Kuo",
+      "en": "You might know her—I think grandson or grandnephew, Arthur Kroeber, the well-known economist of Gavekal Dragonomics. You've probably run into him, you know, as we run into so much folks.",
+      "zh": "你可能知道她的孙子或者侄孙，也就是龙洲经讯（Gavekal Dragonomics）的知名经济学家 Arthur Kroeber。你可能见过他，毕竟我们圈子里的人经常碰面。"
+    },
+    {
+      "id": 351,
+      "start_sec": 5477,
+      "speaker": "Afra Wang",
+      "en": "I recognized the last name because Le Guin's maiden name is Kroeber. So I asked Arthur, and Arthur nodded, and my mind just exploded at the moment. It's such a beautiful and interesting and magical connection in this world.",
+      "zh": "我认出了这个姓氏，因为 Le Guin 的娘家姓就是 Kroeber。我去问 Arthur，他点头确认了，我当时整个人都惊呆了。这在这个世界上真是一种美妙、有趣又神奇的缘分。"
+    },
+    {
+      "id": 352,
+      "start_sec": 5500,
+      "speaker": "Kaiser Kuo",
+      "en": "Yeah, she's... I know my brother is a diehard science fiction reader, and his favorite author is Ursula Le Guin, so. Yeah, Ken Liu though, back to Ken. That's interesting. So he's got a new anthology coming out, The Passing of the Dragon, and the dragon is a metaphor from Ursula Le Guin. A metaphor for what?",
+      "zh": "我哥哥也是个狂热的科幻小说迷，他最喜欢的作者就是 Ursula Le Guin。不过说回 Ken Liu，这很有意思，他要出一本新选集《飞龙之逝》，而“龙”是来自 Ursula Le Guin 的隐喻。它隐喻的是什么呢？"
+    },
+    {
+      "id": 353,
+      "start_sec": 5518,
+      "speaker": "Afra Wang",
+      "en": "It is a metaphor for... I guess it is a little bit abstract, but my understanding is it is a certain story or certain truth. It is pretty Daoism, to be honest. I do think Le Guin and Ken are very Daoist in terms of their storytelling.",
+      "zh": "它是对……我想这有点抽象，但在我看来，它指的是某种故事或某种真理。坦率地说，这非常具有道家思想的意味。我认为 Le Guin 和 Ken 在讲故事方面都非常具有道家风范。"
+    },
+    {
+      "id": 354,
+      "start_sec": 5536,
+      "speaker": "Afra Wang",
+      "en": "This dragon is something that's undescribable, some sublimity. But they're trying to use their words to lay down some prints, some trace, so the readers can have a sense of what the dragon might look like. I guess it is somewhat abstract, but it makes perfect sense to me because I'm also really into fictional writing.",
+      "zh": "这条“龙”是某种不可言说之物，某种崇高的存在。但他们试图用文字留下一些脚印、一些痕迹，让读者能感知到这条龙大概长什么样。我想这确实有点抽象，但对我来说完全能理解，因为我自己也沉迷于虚构写作。"
+    },
+    {
+      "id": 355,
+      "start_sec": 5558,
+      "speaker": "Afra Wang",
+      "en": "Ken described it much better in his interview, so go check out Ken's book talk. Yeah, he described it much better.",
+      "zh": "Ken 在他的访谈里阐述得好得多，大家可以去听听 Ken 的新书分享会。是的，他解释得透彻得多。"
+    },
+    {
+      "id": 356,
+      "start_sec": 5567,
+      "speaker": "Kaiser Kuo",
+      "en": "Fantastic. Okay, great recommendation. Mine for this week is the novel Home by Marilynne Robinson, which is the second book in the series of four that begins with the book Gilead.",
+      "zh": "太棒了。好的，非常棒的推荐。我本周的推荐是 Marilynne Robinson 的小说《家园》（Home），这是以《基列家书》（Gilead）为开篇的四部曲中的第二部。"
+    },
+    {
+      "id": 357,
+      "start_sec": 5580,
+      "speaker": "Kaiser Kuo",
+      "en": "That is a book I've talked about at length on this show before. Um, this actually, this book, *Home*, focuses on characters who are present in *Gilead*, the novel, as well as Gilead, the eponymous fictional town in Iowa.",
+      "zh": "这是我之前在节目里详聊过的一本书。其实这本《家》（Home）聚焦于小说《基列家书》（Gilead）中出现过的人物，背景同样设在爱荷华州那个同名虚构小镇基列。"
+    },
+    {
+      "id": 358,
+      "start_sec": 5593,
+      "speaker": "Kaiser Kuo",
+      "en": "The action takes place in the same time, the same few weeks as *Gilead*, but from a completely different perspective. So it's, you know, it's interesting, there's a little bit of *Rashomon* going on. It's a marvelous conceit, I actually think.",
+      "zh": "故事发生的时间与《基列家书》完全重合，就在相同的几周内，但视角截然不同。所以，你知道，这很有意思，有点《罗生门》的味道。我认为这是一个极其精妙的构思。"
+    },
+    {
+      "id": 359,
+      "start_sec": 5607,
+      "speaker": "Kaiser Kuo",
+      "en": "The main character is Glory Boughton. She's the youngest daughter—in a big family of eight kids—of the Presbyterian minister who is best friends with the protagonist of *Gilead*, the novel. So she's come home in her late 30s after a broken engagement with a married man who's been like siphoning money off her.",
+      "zh": "主角是 Glory Boughton。她是长老会牧师家八个孩子里最小的女儿，而这位牧师正是《基列家书》主角的挚友。她在三十大几岁时回到了家，之前刚解除婚约，对方是个已婚男人，一直在榨取她的钱财。"
+    },
+    {
+      "id": 360,
+      "start_sec": 5626,
+      "speaker": "Kaiser Kuo",
+      "en": "And it happens that her older brother Jack, who features very prominently in *Gilead*—this Jack has a troubled childhood, the prodigal son. He's left home for a long time, no one's heard from him.",
+      "zh": "巧合的是，在《基列家书》中极为显眼的长兄 Jack 也回来了——这个 Jack 童年坎坷，是个典型的浪子。他离家多年，杳无音讯。"
+    },
+    {
+      "id": 361,
+      "start_sec": 5639,
+      "speaker": "Kaiser Kuo",
+      "en": "He has a lot of charm. He's abundantly charming and quite erudite, but he's got a very bad reputation, which he's mostly earned. He's come home too. So it's the two of them.",
+      "zh": "他魅力十足，不仅风度翩翩而且颇为博学，但声名狼藉——而这多半也是他咎由自取。他也回到了家，于是家里就剩他们兄妹二人。"
+    },
+    {
+      "id": 362,
+      "start_sec": 5650,
+      "speaker": "Kaiser Kuo",
+      "en": "And it's set against, you know, the backdrop of the United States in the mid-1950s, 1956 specifically. So Eisenhower's America, the election of '56, the Suez Crisis, the Montgomery bus boycott, and the aftermath of the murder of Emmett Till—it's all in there in the backdrop.",
+      "zh": "小说的时代背景是20世纪50年代中期的美国，具体是1956年。也就是艾森豪威尔时期的美国，1956年大选、苏伊士运河危机、蒙哥马利巴士抵制运动，以及 Emmett Till 遇害案的余波——所有这些都构成了故事的时代底色。"
+    },
+    {
+      "id": 363,
+      "start_sec": 5670,
+      "speaker": "Kaiser Kuo",
+      "en": "And it turns out to matter really enormously, because Jack has a secret that the whole novel kind of circles around without quite naming it until nearly the end. Much of the book is just really the two siblings having coffee in their kitchen, you know, in this big, creaking house, tending to their dying father and trying to figure out how much they can trust each other and what they can say.",
+      "zh": "而这些背景其实至关重要，因为 Jack 身上藏着一个秘密，整部小说都在围绕它兜圈子，直到接近尾声才真正挑明。书里的大部分篇幅其实就是兄妹俩在这栋吱呀作响的老大宅厨房里喝咖啡，照顾奄奄一息的父亲，并试图探寻彼此能给予多少信任、能说出多少真话。"
+    },
+    {
+      "id": 364,
+      "start_sec": 5693,
+      "speaker": "Kaiser Kuo",
+      "en": "And it's really great. Marilynne Robinson is just one of those writers whose prose is luminous, but super plain. It's so unadorned. I just wish I could write like that.",
+      "zh": "这本书非常棒。Marilynne Robinson 就是那种文笔清澈如光芒流淌、却又极其质朴的作家。文字洗尽铅华。我真希望自己也能写出那样的文字。"
+    },
+    {
+      "id": 365,
+      "start_sec": 5708,
+      "speaker": "Kaiser Kuo",
+      "en": "It makes something so quotidian as, you know, eating pancakes at the old kitchen table and the conversation that happens, just feel like the most consequential thing in the world. And it's actually a sadder book than *Gilead*.",
+      "zh": "她能让围在旧厨房餐桌旁吃煎饼、闲聊这样无比日常的事情，显得像是全世界最生死攸关的大事。实际上，它比《基列家书》还要更伤感。"
+    },
+    {
+      "id": 366,
+      "start_sec": 5725,
+      "speaker": "Kaiser Kuo",
+      "en": "*Gilead* has got a lot of sadness in it, but this is really kind of pretty devastating in a lot of ways. But it really rewards if you read the two of them together. If you've read *Gilead*—I know a lot of my friends, for some reason, it was in the air, a lot of people started reading *Gilead* over the summer. So this is definitely the one to pick up next.",
+      "zh": "《基列家书》固然有很多悲凉，但这本在很多层面上简直让人心碎。不过两本书对照着读确实会获益良多。如果你已经读过《基列家书》——我知道身边的很多朋友不知怎的，好像赶上了某种潮流，夏天很多人都开始读《基列家书》。那么接下来的下一本绝对非它莫属。"
+    },
+    {
+      "id": 367,
+      "start_sec": 5744,
+      "speaker": "Afra Wang",
+      "en": "Hmm. Yeah. Reminds me of—J.G. Ballard has an essay talking about this importance of mediocrity and the invisible literature about this bureaucratic, using like this bureaucratic language.",
+      "zh": "嗯，对。这让我想起 J.G. Ballard 曾写过一篇散文，谈到平庸之物的重要性，以及运用这种官僚化语言所书写的隐形文学。"
+    },
+    {
+      "id": 368,
+      "start_sec": 5760,
+      "speaker": "Afra Wang",
+      "en": "To write stories, I think there is like this... It shows some craft, right? This quotidian description of the world, but like somewhat profound, it shows some powerful craft.",
+      "zh": "去写故事，我觉得有这样一种……这展现了一种笔力，对吧？这种对世界日常琐碎的白描，却能透出某种深刻，展现出非常强大的写作功力。"
+    },
+    {
+      "id": 369,
+      "start_sec": 5771,
+      "speaker": "Kaiser Kuo",
+      "en": "Oh, for sure. I mean, that's sort of been a theme for me this whole summer. I mean, that's how I fell in love with John Williams over the summer. And if you've read the book—I've talked about it so much—Stoner, it's these like small, seemingly low-stakes stories of ordinary, ordinary people.",
+      "zh": "噢，确实如此。这可以说是贯穿我整个夏天的阅读主题。我就是在这个夏天迷上了 John Williams。如果你读过那本我反复提起的《斯通纳》（Stoner），就会发现写的就是这些看似微不足道、微小的普通人故事。"
+    },
+    {
+      "id": 370,
+      "start_sec": 5793,
+      "speaker": "Kaiser Kuo",
+      "en": "They're not bureaucrats necessarily, but the language is never going to be, you know, soaring, and it's never going to be... there's not going to be a lot of action or anything like that. But somehow, yeah, it's the craft can make it feel emotionally enormous and of just such tremendous consequence. Anyway.",
+      "zh": "他们未必是官僚，但语言绝不会华丽浮夸，也不会有什么激烈的戏剧动作。然而不知何故，正是这种笔力让文字在情感上显得如此磅礴，具有撼动人心的分量。无论如何……"
+    },
+    {
+      "id": 371,
+      "start_sec": 5815,
+      "speaker": "Afra Wang",
+      "en": "I love it. I'm so...",
+      "zh": "我很喜欢。我非常……"
+    },
+    {
+      "id": 372,
+      "start_sec": 5816,
+      "speaker": "Kaiser Kuo",
+      "en": "Yeah, good suggestion. Send me a link to that J. G. Ballard essay, I would love to read that.",
+      "zh": "好建议。把 J. G. Ballard 那篇随笔的链接发给我吧，我很想读读看。"
+    },
+    {
+      "id": 373,
+      "start_sec": 5821,
+      "speaker": "Afra Wang",
+      "en": "Yeah, there's an essay and then I think there's also a story called Crash, which I think J. G. Ballard deliberately using this plain, like bureaucratic language to create a story. I haven't read it myself, but it is on my list.",
+      "zh": "好的，有一篇随笔，而且我想还有部小说叫《撞车》（Crash），J. G. Ballard 在里面特意使用了这种平淡、近乎公文式的语言来构筑故事。我自己还没读过，但已经在我的书单上了。"
+    },
+    {
+      "id": 374,
+      "start_sec": 5837,
+      "speaker": "Kaiser Kuo",
+      "en": "Well, you clearly are somebody who thinks about craft in your writing, and that shows through in these essays that we've talked about today. I really can't wait to see what you come out with next, so be sure to send me, you know, once a draft of that next one is ready. One thing I will say about you is that everything you write, not only teaches me something, it's, you know, shined a light often on stuff that's right under my nose, stuff happening right here in China that I wouldn't otherwise have noticed.",
+      "zh": "你显然是一位在写作中极度注重技巧与笔力的人，这在我们今天探讨的文章中展露无遗。我真的很期待你接下来的新作品，等下一篇初稿出来，一定要发给我看看。关于你的作品，我想说的是：你写下的每一篇不仅能让我学到新知，更时常点亮了那些就在我眼皮底下、发生在中国本土，若非你指出我绝不会注意到的细节。"
+    },
+    {
+      "id": 375,
+      "start_sec": 5865,
+      "speaker": "Kaiser Kuo",
+      "en": "But it's really gone on to explain and make me think about the significance of this stuff. So keep it up, you are amazing, and thank you.",
+      "zh": "而且你更进一步阐释了这些现象，促使我去思考其深层意义。所以请继续写下去，你太棒了，由衷感谢你。"
+    },
+    {
+      "id": 376,
+      "start_sec": 5872,
+      "speaker": "Afra Wang",
+      "en": "Thank you so much, Kaiser. Thank you, makes me really happy. Yeah, thank you.",
+      "zh": "非常感谢，Kaiser。谢谢你，这让我真的很开心。好的，谢谢。"
+    },
+    {
+      "id": 377,
+      "start_sec": 5877,
+      "speaker": "Kaiser Kuo",
+      "en": "You've been listening to the Sinica Podcast. The show is produced, recorded, engineered, edited, and mastered by me, Kaiser Kuo. Support the show through Substack at sinicapodcast.com where there is a growing offering of terrific original China-related writing and audio.",
+      "zh": "感谢收听 Sinica Podcast。本节目由我 Kaiser Kuo 制作、录音、工程、剪辑并混音。欢迎通过 Substack 订阅支持我们：sinicapodcast.com，这里提供不断丰富的高品质原创中国议题文章与音频节目。"
+    },
+    {
+      "id": 378,
+      "start_sec": 5892,
+      "speaker": "Kaiser Kuo",
+      "en": "Email me at sinicapod@gmail.com if you've got ideas on how you can help out with the show. Don't forget to leave a review on Apple Podcasts. Huge, huge thanks to my guest, Afra Wang. Thanks for listening, and we'll see you next week. Take care.",
+      "zh": "如果您对如何支持本节目有任何想法，欢迎发邮件至 sinicapod@gmail.com。别忘了在 Apple Podcasts 上留下您的好评。非常感谢本期嘉宾 Afra Wang。感谢大家的收听，我们下周再见。保重。"
+    }
+  ]
+}

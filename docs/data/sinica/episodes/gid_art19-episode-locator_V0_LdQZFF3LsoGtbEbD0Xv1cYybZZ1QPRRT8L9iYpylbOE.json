@@ -1,0 +1,2294 @@
+{
+  "schema_version": "3.0",
+  "show_id": "sinica",
+  "guid": "gid://art19-episode-locator/V0/LdQZFF3LsoGtbEbD0Xv1cYybZZ1QPRRT8L9iYpylbOE",
+  "title": "From Barefoot Doctors to Biologics: Dr. Ruby Wang on China's Healthcare Revolution",
+  "pub_date": "2026-09-29T04:00:00Z",
+  "duration_sec": 5108,
+  "audio_url": "https://rss.art19.com/episodes/4dd6f90b-e2f5-450b-932a-b16630f44db5.mp3?rss_browser=BAhJIgtDaHJvbWUGOgZFVA%3D%3D--d05363d83ce333c74f32188013892b2863ad051c",
+  "summary_zh": "本期节目中，主播 Kaiser Kuo 对话英国 NHS 执业医师、前英国驻华使馆卫生事务负责人 Ruby Wang，围绕其新书《China Cure》深度剖析中国医疗与生物医药产业的剧变。数十年间，中国从依赖“赤脚医生”与仿制药，跃升为全球前沿创新药重镇，去年对外授权交易额达1370亿美元，占全球近半。Ruby Wang 结合家族三代求医史指出，人口老龄化、危机倒逼监管改革、技术官僚主导的长期规划及家庭文化传统，共同推动了这一转型，并驳斥了“中国靠放松伦理换取研发速度”的偏见。此外，双方还探讨了美国《生物安全法案》对跨国药企与患者的反噬，以及中国数字医疗与AI医生应用领先的背后，老年数字鸿沟、公立医院医生过劳与“医闹”等深层困境。",
+  "key_takeaways_zh": [
+    "中国医药产业已实现从低端原料药与仿制药向源头创新生物药的跃迁，肿瘤与GLP-1等前沿管线成为跨国药企应对“专利悬崖”的核心采购来源。",
+    "中国医疗体系的演进并非偶然，而是人口未富先老与城乡失衡、公共卫生危机倒逼药监改革、技术官僚长期规划与家庭互助文化四重因素共振的结果。",
+    "中国临床试验的高效率并非源于西方舆论臆测的“伦理标准宽松”，而是依托庞大的患者基数、海归科学家回流以及高强度的科研与临床人力投入。",
+    "美国推动《生物安全法案》（BIOSECURE）等限制性立法不仅阻碍了中国药企的海外商业化，也反噬了急需优质管线的美国药企利益及本土患者的用药可及性。",
+    "尽管中国依托金融科技构建了全球最成熟的数字医疗生态与AI医生咨询分身，但老年数字鸿沟以及公立医院医生极度过劳与“医闹”暴力等结构性痛点依然严峻。"
+  ],
+  "highlights": [
+    {
+      "start_sec": 634,
+      "title_zh": "家族记忆与赤脚医生的双面遗产",
+      "summary_zh": "Ruby Wang 回顾了20世纪70年代浙江农村的家族往事：祖父因肝癌晚期无医可治去世，父亲骨折后被年轻的赤脚医生用歪树枝错误固定。她指出，尽管赤脚医生制度在疫苗接种与基础公共卫生普及上启发了《阿拉木图宣言》等全球初级保健运动，但其仅受训数月的专业局限也曾带来不少医疗伤害。",
+      "quote_en": "But at the same time, they were barely trained. These were teenagers, peasant doctors, farmer doctors who maybe had three months of basic training"
+    },
+    {
+      "start_sec": 990,
+      "title_zh": "老龄化压力与危机倒逼监管改革",
+      "summary_zh": "预计到2030年中国60岁以上人口将达3.2亿，伴随农村青壮年外流，城乡养老与慢病照护压力高度失衡。与此同时，2003年非典（SARS）、三聚氰胺事件及假疫苗风波等重大危机迫使政府重塑治理体系，推动疾控中心建设、国家药监局（NMPA）直属架构改革、加入国际人用药品注册技术协调会（ICH）以及严厉的医药反腐。",
+      "quote_en": "I think China was forced to do that. From a governance point of view, it recognized that there was no way that it could allow such risk of these crises occurring again, and so regulatory reform was a major part of this."
+    },
+    {
+      "start_sec": 1399,
+      "title_zh": "健康中国规划与技术官僚优势",
+      "summary_zh": "对比英美频繁更迭且往往缺乏医学背景的卫生部长，Ruby Wang 指出中国卫生主管部门负责人几乎清一色是从基层晋升的医学或公共卫生专家。这种技术官僚体制配合“五年规划”与长达15年的“健康中国2030”蓝图，使医疗产业政策具备高度的连续性与执行问责力。",
+      "quote_en": "China's ministers of health, how they are always doctors, public health experts who've worked their way from the ground up as technical experts, then regional leaders, then finally up to national-level health leaders."
+    },
+    {
+      "start_sec": 1666,
+      "title_zh": "家庭责任文化与健康数据治理",
+      "summary_zh": "在中国医院，由家属代清醒患者签署手术知情同意书十分普遍，这背后并非单纯抹杀个人独立，而是源于家庭成员共同承担风险的互助文化。双方还对比了疫情期间英国耗资十亿英镑却因自愿参与率过低而废弃的追踪应用，以及中国强制推行健康码在防疫效率与社会管控边界之间的张力。",
+      "quote_en": "Whereas in China, it's almost expected because it's not so much directly that we are a collective and there is no privacy between us as a family, but more a sense of responsibility mutually, so that we care for each other."
+    },
+    {
+      "start_sec": 2121,
+      "title_zh": "跨国寻药往事与创新药逆袭",
+      "summary_zh": "Ruby Wang 讲述了本世纪初外婆罹患罕见胃肠道间质瘤时，家人跨国艰难搜寻瑞士诺华靶向药格列卫（Gleevec）的经历，这一事件促使她投身医学。短短二十余年后，随着大量海归科学家回国建实验室及本土临床基础设施成熟，医药流向已发生历史性逆转，欧美患者未来或将广泛使用中国研发的创新药。",
+      "quote_en": "And somehow, a Chinese grandmother who needed a drug from Switzerland all those years ago, now maybe in a few years' time, you know, patients in the US, grandmothers in the UK might be getting drugs made in China."
+    },
+    {
+      "start_sec": 2531,
+      "title_zh": "破除偏见：中国新药研发为何快",
+      "summary_zh": "针对“中国新药推进快是因为伦理与监管宽松”的刻板印象，Ruby Wang 以顶级医学期刊临床数据及跨国药企真金白银的交易予以反驳。她指出中国目前在肿瘤药（如ADC与细胞疗法）和GLP-1代谢类药物上表现突出，免疫学领域仍在追赶，而研发速度主要归功于庞大的患者规模与科研临床人员的高强度投入。",
+      "quote_en": "We're seeing first-in-class, best-in-class assets that are beating current Western standards."
+    },
+    {
+      "start_sec": 3034,
+      "title_zh": "美国生物法案与跨国药企困境",
+      "summary_zh": "尽管中国对外授权交易激增，但其2024年占全球生物技术市场价值份额仅为4.8%，缺乏海外独立商业化能力使其高度依赖与西方大药企合作。美国推进《生物安全法案》及限制投资与授权的新提案，不仅打击面临2030年“专利悬崖”的美国药企，还可能阻断美国患者获取救命新药的渠道并催生赴华跨境医疗。",
+      "quote_en": "It just so happens that the very good science is now coming from China, so of course a greater proportion of their deals are coming from China."
+    },
+    {
+      "start_sec": 3516,
+      "title_zh": "数字医疗生态与AI医生分身",
+      "summary_zh": "相比受困于陈旧基础设施的英国NHS和高度割裂昂贵的美国体系，中国借助移动支付与医保打通建成了全球最成熟的数字医疗生态。逾千名知名专家在蚂蚁阿福等平台上线基于自身病历库训练的AI医生分身，年均响应数百万次咨询；由于监管严格禁止线上首诊，其医疗风险相对可控，但超半数老年人难以独立操作平台的问题也加剧了数字鸿沟。",
+      "quote_en": "So in China, you cannot get an initial diagnosis or initial treatment scenario online. It always has to be in person with a real doctor."
+    },
+    {
+      "start_sec": 4101,
+      "title_zh": "公立医院医生过劳与医闹困局",
+      "summary_zh": "Ruby Wang 以广州某公立三甲医院一位因极度过劳流产后次日仍返岗的内科医生为例，揭示了中国临床医生的沉重代价。日均接诊数百名患者导致医患沟通时间被极度压缩、信任瓦解，进而引发高达八成医护人员亲历过的职场暴力（“医闹”），而数字化工具在提升效率的同时也给医生带来了新的线上文书负担。",
+      "quote_en": "So these doctors in China, they're seeing hundreds of patients a day. And that volume and that pressure is really difficult."
+    }
+  ],
+  "transcript": [
+    {
+      "id": 1,
+      "start_sec": 9,
+      "speaker": "Kaiser Kuo",
+      "en": "Welcome to the Sinica Podcast, a weekly discussion of current affairs in China. In this program, we look at books, ideas, new research, intellectual currents, and cultural trends that can help us better understand what's happening in China's politics, foreign relations, economics, and society.",
+      "zh": "欢迎收听 Sinica 播客，这是一档每周探讨中国当下时事的节目。在这里，我们通过剖析书籍、观点、最新研究、思想流派以及文化思潮，带大家更深入地理解中国的政治、对外关系、经济与社会脉动。"
+    },
+    {
+      "id": 2,
+      "start_sec": 25,
+      "speaker": "Kaiser Kuo",
+      "en": "Join me each week for in-depth conversations that shed more light and bring less heat to how we think and talk about China. I'm Kaiser Kuo, coming to you this week from my home in Beijing.",
+      "zh": "每周请跟随我一起展开深度对话，为我们思考和讨论中国提供更多理性洞见，少一些情绪喧嚣。我是 Kaiser Kuo，本周在我的北京家中向大家播报。"
+    },
+    {
+      "id": 3,
+      "start_sec": 38,
+      "speaker": "Kaiser Kuo",
+      "en": "Listeners, please support my work by becoming a paying subscriber at sinicapodcast.com. I know there are a lot of Substacks out there, and yes, they do start to add up. It's a problem for me, too.",
+      "zh": "听众朋友们，欢迎访问 sinicapodcast.com 成为付费订阅会员，支持我的工作。我知道现在 Substack 平台上的专栏很多，订阅费确实容易积少成多，我自己也深有感触。"
+    },
+    {
+      "id": 4,
+      "start_sec": 50,
+      "speaker": "Kaiser Kuo",
+      "en": "But this is a very worthwhile subscription. In addition to Sinica itself, you also get great content from wonderful partners like Trivium, a strategic advisory that puts out the excellent Trivium China Podcast, part of the Sinica Podcast Network.",
+      "zh": "但这绝对是一份物超所值的订阅。除了 Sinica 本身的节目外，你还能获取我们优秀合作伙伴的精彩内容，比如战略咨询机构 Trivium 制作的 Trivium China Podcast，该节目也是 Sinica 播客网络的一部分。"
+    },
+    {
+      "id": 5,
+      "start_sec": 64,
+      "speaker": "Kaiser Kuo",
+      "en": "As well as, of course, The China-Global South Project and its fantastic podcast. It's really, literally my favorite podcast. And of course, James Carter's 'This Week in China's History.' So please do subscribe so I can continue to bring you these conversations and lots more.",
+      "zh": "当然，还有“中国与全球南方项目”（The China-Global South Project）及其精彩的播客，它真的是我个人最喜欢的节目。此外还有 James Carter 的“中国历史上的本周”专栏。所以请大家务必订阅，以便我能继续为大家带来这些对话及更多内容。"
+    },
+    {
+      "id": 6,
+      "start_sec": 81,
+      "speaker": "Kaiser Kuo",
+      "en": "I've been in and out of China since the 1980s, as many of you know, and living here for most of the years since. Of all the transformations I've watched in that time, healthcare maybe the one that's kind of hardest to convey to anyone who wasn't around for the early part of it.",
+      "zh": "很多听众都知道，我从20世纪80年代起就频繁往返于中国，之后的大部分岁月也都生活在这里。在目睹的所有沧桑巨变中，医疗卫生的变迁或许是最难向那些没经历过早期岁月的人讲清楚的。"
+    },
+    {
+      "id": 7,
+      "start_sec": 97,
+      "speaker": "Kaiser Kuo",
+      "en": "If you spent any time in a Chinese hospital — woe betide you — in the late '80s, say, or the '90s, you remember. You remember getting there before dawn to queue up for, you know, a registration ticket, and you remember the 'haofan'zi,' the ticket scalpers who had already bought up all the morning slots for whichever doctor you actually wanted to see.",
+      "zh": "如果你在80年代末或90年代去过中国医院——那可真是倒了大霉——你肯定还记得当时的场景。你记得天还没亮就得去排队挂号，也记得那些“号贩子”，他们早就把你真正想看的大夫当天的早间号源给搜刮一空了。"
+    },
+    {
+      "id": 8,
+      "start_sec": 117,
+      "speaker": "Kaiser Kuo",
+      "en": "You remember the cashier's windows at every single step: pay here, take a little slip, go do your thing, come back, pay again, get another slip. And you remember corridors that were really crowded with people who were being seen in them, IV drips for most of them for some reason, for more or less everything.",
+      "zh": "你肯定还记得每走一步都得去收费窗口：这里交费，拿着小票，去做检查，回来再交费，再拿另一张小票。你还记得拥挤不堪的走廊，甚至直接在走道里接诊病人，不知为何几乎人人都挂着静脉输液吊瓶，大病小病概莫能外。"
+    },
+    {
+      "id": 9,
+      "start_sec": 135,
+      "speaker": "Kaiser Kuo",
+      "en": "They were handing out antibiotics willy-nilly for even just, you know, a head cold. And underneath all of it, a kind of low-grade dread, the sense that if something genuinely serious were to happen to you, your outcome was going to depend on whether you knew somebody.",
+      "zh": "哪怕只是普通感冒，抗生素也会被随意滥用。而在这一切背后，始终笼罩着一种若隐若现的恐惧——你很清楚，一旦真得了大病，你的生死往往取决于你是否“有人脉、找得到熟人”。"
+    },
+    {
+      "id": 10,
+      "start_sec": 151,
+      "speaker": "Kaiser Kuo",
+      "en": "I've been lucky enough to mostly avoid it, though the many trips that I've taken with siblings and girlfriends and friends, and then of course the wife and kids, have etched the experience into me rather deeply. The world that I've described has not disappeared completely.",
+      "zh": "我很幸运大体上免受了这些困扰，不过陪兄弟姐妹、女友、朋友，当然还有后来的妻子和孩子去医院的种种经历，依然在我记忆深处刻下了极深的印记。我方才描述的那个世界其实并未彻底绝迹。"
+    },
+    {
+      "id": 11,
+      "start_sec": 166,
+      "speaker": "Kaiser Kuo",
+      "en": "I do want to be careful here because I live in Beijing, which is about as good as it gets in this country, and the distance between a Beijing even, like, tertiary hospital and a county hospital say in Guizhou, is still going to be enormous. Nobody—",
+      "zh": "不过我说话得留有分寸，因为我住在北京，这里的医疗水平在这个国家几乎是顶尖的，北京的三甲医院和贵州某家县级医院之间的差距依然判若云泥。没有人——"
+    },
+    {
+      "id": 12,
+      "start_sec": 180,
+      "speaker": "Kaiser Kuo",
+      "en": "nobody should come away from this episode thinking China has solved healthcare. It clearly hasn't. But even allowing for all of that, the change is still pretty hard to overstate.",
+      "zh": "听完这期节目，任何人都不该觉得中国已经彻底解决了医疗问题。显然并没有。但即便考虑到这一切，其发生的变化依然难以被夸大。"
+    },
+    {
+      "id": 13,
+      "start_sec": 190,
+      "speaker": "Kaiser Kuo",
+      "en": "I mean, I I book appointments now on my phone, payment and insurance settle inside the same app that you booked on, test results come back on your phone, prescriptions get delivered to your door. And there are hospitals in this country where a newly diagnosed cancer patient can go from genetic sequencing to a matched therapy in inside of a couple of days.",
+      "zh": "我是说，我现在直接在手机上预约挂号，在同一个 App 里就能完成缴费和医保结算，检查结果发回手机，处方药直接送货上门。在这个国家的一些医院里，新确诊的癌症患者从基因测序到获得匹配疗法，短短几天之内就能完成。"
+    },
+    {
+      "id": 14,
+      "start_sec": 211,
+      "speaker": "Kaiser Kuo",
+      "en": "There are people listening to this right now who have better digital continuity of care in Hangzhou than I could get from an American health system I've paid into for decades. And the delivery side isn't even the part that I find most striking.",
+      "zh": "正在收听本期节目的听众中，有人在杭州所享受的数字化连续诊疗体验，比我交了几十年医保的美国医疗系统所能提供的还要好。而且，医疗服务交付层面的提升甚至还不是最让我震撼的部分。"
+    },
+    {
+      "id": 15,
+      "start_sec": 225,
+      "speaker": "Kaiser Kuo",
+      "en": "It's actually what's happened to the drugs themselves. So, last week, if you heard my show last week in my little preamble, I was talking about how staying relevant in the discourse on China seems now to require unmanageable levels of familiarity with all sorts of different areas of of specialization, especially tech, AI and semiconductors, all the ins and outs of trade policy, rare earths, of course, which is what we talked about last week.",
+      "zh": "真正令人侧目的是药物研发本身的变化。如果大家听了上周的节目，在开篇前言里我就提到过：要想在当下的中国议题讨论中保持话语权，似乎得对各行各业的专业领域都有极其深入的了解——尤其是前沿科技、人工智能、半导体、贸易政策的方方面面，当然还有我们上周聊过的稀土。"
+    },
+    {
+      "id": 16,
+      "start_sec": 253,
+      "speaker": "Kaiser Kuo",
+      "en": "Add one more to the list, because the next thing is almost certainly going to be pharma and biopharma. Now, I am a complete neophyte to this, so do bear with me if you're somebody who knows this area much better than I do.",
+      "zh": "现在清单上又得添上一项了，因为下一个焦点几乎必然是制药与生物医药。坦白讲，在这一块我完全是个门外汉，如果听众里有懂行的专家，还请大家多多包涵。"
+    },
+    {
+      "id": 17,
+      "start_sec": 266,
+      "speaker": "Kaiser Kuo",
+      "en": "For a long time, China's role in the global pharmaceutical business was, you know, the the unglamorous end of it: active pharmaceutical ingredients, you know, the chemical building blocks that go into other people's medicines; plus, of course, generics, like India had done for a long time, copies of molecules that were invented somewhere else.",
+      "zh": "长期以来，中国在全球制药产业链中扮演的角色都处于附加值较低的苦力端：也就是原料药（API），即用来给别人的药物做配方的化学基础成分；当然还有仿制药，就像印度长期做的那样，复制在别处研发出的分子。"
+    },
+    {
+      "id": 18,
+      "start_sec": 285,
+      "speaker": "Kaiser Kuo",
+      "en": "That was the reputation, and mostly it was deserved. The work that companies like WuXi AppTec, which was still called WuXi PharmaTech back when I visited them 20 years ago as a reporter, was this kind of unglamorous work: screening compounds, you know, boring molecular assays, lots of pipette stuff.",
+      "zh": "这就是当年的行业印象，而且大体上名副其实。比如药明康德（WuXi AppTec），二十年前我作为记者去采访时它还叫无锡药明康德（WuXi PharmaTech），当时他们做的正是这类幕后苦力活：化合物筛选、枯燥的分子测定、无数次重复的移液管操作。"
+    },
+    {
+      "id": 19,
+      "start_sec": 305,
+      "speaker": "Kaiser Kuo",
+      "en": "We'll see before the conversation that follows is finished how far they've now come. What's happened over the last few years is just a different thing entirely. China has moved into biologics, you know, the really large complex molecules that are grown in living cells, the antibodies and antibody-drug conjugates, and cell therapies that represent the actual frontier of cancer medicine.",
+      "zh": "在接下来的对话结束前，大家就会看到他们如今走得有多远。过去几年里发生的变化完全是另一番天地。中国已经大步跨入生物药领域——也就是在活体细胞中培育的超大复杂分子，包括抗体、抗体偶联药物（ADC）以及代表着癌症诊疗最前沿的细胞疗法。"
+    },
+    {
+      "id": 20,
+      "start_sec": 330,
+      "speaker": "Kaiser Kuo",
+      "en": "In late 2024, a drug from the Chinese company Akeso—I guess, wait Ruby, what are they called? Akeso? Okay, Akeso, I'm going to say Akeso. Akeso.",
+      "zh": "在2024年末，中国药企康方生物（Akeso）的一款药物——呃，等等，Ruby，他们叫什么？Akeso？好的，康方生物（Akeso）。"
+    },
+    {
+      "id": 21,
+      "start_sec": 345,
+      "speaker": "Kaiser Kuo",
+      "en": "In late 2024, a drug from the Chinese company Akeso outperformed Merck's Keytruda, one of the best-selling cancer drugs in the world, in a Phase 3 trial. Last year, Chinese companies signed something like 186",
+      "zh": "2024年末，中国康方生物（Akeso）研发的一款药物在一项三期临床试验中击败了默沙东（Merck）的 Keytruda（K药）——后者可是全球最畅销的抗癌药之一。去年，中国企业达成了大约186项……"
+    },
+    {
+      "id": 22,
+      "start_sec": 360,
+      "speaker": "Kaiser Kuo",
+      "en": "Out-licensing deals with a disclosed value of around $137 billion. That is roughly half of all out-licensing value globally and close to 10 times what it was in 2021. Just think about that: five years, it's gone 10 times in value. Pfizer, Bristol Myers—again, Pfizer, Bristol Myers Squibb, AstraZeneca, GSK, Eli Lilly, they are all buying from China.",
+      "zh": "对外授权交易的披露总金额达到了约1370亿美元。这几乎占到了全球对外授权总价值的一半，是2021年水平的近十倍。想想看：短短五年内，其价值就增长了十倍。辉瑞、百时美施贵宝、阿斯利康、葛兰素史克、礼来，它们都在向中国采购。"
+    },
+    {
+      "id": 23,
+      "start_sec": 390,
+      "speaker": "Kaiser Kuo",
+      "en": "So, a country that within living memory sent, you know, barefoot doctors into the countryside with herbal remedies and Western antibiotics, uh, in, you know, the same kind of army-green satchels, is now the place where global pharma comes shopping for, for its, you know, its frontier assets. That is a genuinely extraordinary arc, and it has not so far been well explained to general audiences.",
+      "zh": "在人们尚存的记忆中，这个国家还曾让赤脚医生背着草绿色的药箱，带着草药和西药抗生素深入乡村；而如今，它已然成为跨国药企寻求前沿资产的采购地。这确实是一段非凡的历程，而在此之前，公众并未得到充分的解释。"
+    },
+    {
+      "id": 24,
+      "start_sec": 416,
+      "speaker": "Kaiser Kuo",
+      "en": "My guest today has written the book that explains it—tells the whole story and much more. I'm going to say that again; it was just kind of clumsy. My guest today has written the book that explains all of that and much more.",
+      "zh": "我今天的嘉宾写了一本书，不仅梳理了这一切，还展现了更多深层内幕。我重说一遍，刚才有点卡壳。我今天的嘉宾写了一本书，全面解读了这一切以及更多内容。"
+    },
+    {
+      "id": 25,
+      "start_sec": 430,
+      "speaker": "Kaiser Kuo",
+      "en": "Dr. Ruby Wang is, I think, a genuinely rare creature. I'm actually not aware of anyone else working in this space with her particular combination of vantage points. She's a practicing physician in Britain's NHS, the National Health Service; she's trained in surgery; she worked the London hospital wards through the first horrible, horrible wave of COVID.",
+      "zh": "我认为Ruby Wang医生是个极其难得的人才。在这一领域，我还没见过谁能像她一样，兼具如此独特的跨界视角。她是英国国家医疗服务体系（NHS）的执业医生，受过外科专科训练，并在可怕的第一波新冠疫情期间在伦敦的医院病房一线工作。"
+    },
+    {
+      "id": 26,
+      "start_sec": 451,
+      "speaker": "Kaiser Kuo",
+      "en": "She then moved to Beijing to lead the UK government's health engagement in China, and later served as a health adviser within the United Nations system. Before that, she'd been a medical adviser at AliHealth in Hangzhou, so she's seen the Chinese platform health world from the inside of one of the companies that's building it. She grew up between China and the UK; she now runs a strategy consultancy, Lintris Health, and writes the excellent *China Health Pulse* newsletter and hosts the podcast of the same name, both of which I would recommend to anyone trying to follow this space.",
+      "zh": "随后她前往北京，主管英国政府在华的卫生健康合作事务，此后又在联合国系统担任健康顾问。在此之前，她曾在杭州的阿里健康担任医疗顾问，因此从平台缔造者的内部见证了中国互联网医疗的发展。她成长于中英两国之间，如今创办了战略咨询公司Lintris Health，撰写优秀的《China Health Pulse》通讯并主持同名播客。对于任何想要关注该领域的人，我都极力推荐。"
+    },
+    {
+      "id": 27,
+      "start_sec": 484,
+      "speaker": "Kaiser Kuo",
+      "en": "So, clinician, diplomat, UN adviser, tech company insider, and \"China hand\"—most people working on Chinese healthcare maybe have been one of those things. She has all of them, and you can feel it in the book, which moves from, you know, a village in Zhejiang in the 1970s to licensing deals in European capitals, without ever losing the thread back to actual patients and to practitioners.",
+      "zh": "临床医生、外交官员、联合国顾问、科技大厂内部人士，再加上“中国通”——大多数从事中国医疗健康研究的人或许只具备其中一种身份，而她却兼具所有。这种厚度在书中体现得淋漓尽致：从20世纪70年代的浙江乡村，一路延伸到欧洲各国的授权许可交易，却始终紧扣具体患者与一线医者的现实命脉。"
+    },
+    {
+      "id": 28,
+      "start_sec": 510,
+      "speaker": "Kaiser Kuo",
+      "en": "Her new book is called *China Cure: The Rise of a Biotech, AI Medicine and Global Health Superpower*, published by Agenda Publishing, with a foreword by someone I very much admire, Kerry Brown, who's been on the show. It comes out next month, at the end of October, and it is sure to make quite a splash. Dr. Ruby Wang, welcome to Sinica.",
+      "zh": "她的新书名为《中国良方：生物科技、AI医疗与全球健康超级大国的崛起》（China Cure: The Rise of a Biotech, AI Medicine and Global Health Superpower），由Agenda Publishing出版，并由我非常敬佩的Kerry Brown撰写序言，他也曾做客过本节目。这本书将于下个月底（10月底）上市，想必会引发强烈反响。Ruby Wang医生，欢迎来到Sinica。"
+    },
+    {
+      "id": 29,
+      "start_sec": 531,
+      "speaker": "Ruby Wang",
+      "en": "Thank you so much for having me, Kaiser. It's such a pleasure to be here. I've been a longtime fan of your show.",
+      "zh": "非常感谢你的邀请，Kaiser。能来这里我感到非常高兴，我是你节目的长期听众了。"
+    },
+    {
+      "id": 30,
+      "start_sec": 536,
+      "speaker": "Kaiser Kuo",
+      "en": "Thank you. Thank you so much. Ruby, before we get started, I want to note",
+      "zh": "谢谢，非常感谢。Ruby，在正式开始之前，我想说明一下……"
+    },
+    {
+      "id": 31,
+      "start_sec": 540,
+      "speaker": "Kaiser Kuo",
+      "en": "You did a terrific interview with my friend Kyle Chan of Brookings on his High Capacity podcast back in the spring. And as anyone who knows Kyle's research interests would have expected from him, he asked you a whole bunch about, you know, the apps, the data flows, the clinical uses of AI, the internet hospitals, the device trends, and other stuff broadly, you know, in his wheelhouse.",
+      "zh": "今年春天，你接受了我朋友、布鲁金斯学会的 Kyle Chan 在他的播客 High Capacity 上做的一期非常精彩的专访。了解 Kyle 研究兴趣的人肯定能猜到，他向你问了很多关于应用软件、数据流、人工智能临床应用、互联网医院、医疗器械趋势等基本上属于他专长领域的问题。"
+    },
+    {
+      "id": 32,
+      "start_sec": 560,
+      "speaker": "Kaiser Kuo",
+      "en": "So, I'm kind of going to deliberately steer not completely clear of those things, but I'm going to focus on things that he didn't really center from his podcast interview with you about your very rich book. So, I'm going to ask you more stuff about, you know, your family, your own clinical life, and some of the issues that still bedevil the Chinese medical system, some of the multinational health institutions that you've been involved with, and stuff like that.",
+      "zh": "因此，我打算特意避开——倒也不是完全避开这些内容，而是把重心放在那次播客访谈中他没有重点探讨的部分，来聊聊你这本内容极为厚实的新作。我想多问问你的家庭背景、你自己的临床从业经历、目前仍困扰中国医疗体系的一些顽疾，以及你参与过的跨国卫生机构等等。"
+    },
+    {
+      "id": 33,
+      "start_sec": 583,
+      "speaker": "Kaiser Kuo",
+      "en": "Let me also note one thing here. This isn't a book or a conversation, for that matter, about TCM, about traditional Chinese medicine at all. I know that lots of my listeners will be disappointed to hear that. I know some people in my family will be disappointed, but that isn't the topic that we're going to cover in this conversation. All I can say is sorry, and maybe at some point I'll revisit that topic, but for now you're just going to have to wait.",
+      "zh": "我还想在此做一点说明：这本书，包括我们今天的对话，完全不涉及中医疗法（TCM）。我知道很多听众听到这里会感到失望，我家里也有人会失望，但今天确实不聊这个话题。对此我只能深表遗憾，也许未来某个时候我会重新讨论，但眼下只能请大家暂且按捺。"
+    },
+    {
+      "id": 34,
+      "start_sec": 608,
+      "speaker": "Kaiser Kuo",
+      "en": "So, with all that out of the way, and listeners, I do encourage you to go listen to Ruby on Kyle's podcast as well. Let's get going. Okay, so, Ruby, the book doesn't open with policy or with big numbers. It opens actually with your grandfather, who's a cargo ship deckhand in a fishing village on the Zhejiang coast in the '70s. Tell me about him and what it was that connects him to your story.",
+      "zh": "交代完这些背景——听众朋友们，我也非常推荐大家去听听 Ruby 在 Kyle 播客上的那期节目。那我们现在开始吧。Ruby，你的书开篇并没有大谈产业政策或宏观数据，而是从你的祖父讲起。20世纪70年代，他是浙江沿海一个小渔村的货船水手。能跟我们讲讲他的故事，以及他是如何串联起你的整部讲述的吗？"
+    },
+    {
+      "id": 35,
+      "start_sec": 634,
+      "speaker": "Ruby Wang",
+      "en": "It's a great place to start. I guess with my grandfather, I never met him. He died when my father was 14. But he was a cargo deckhand on a ship, ferrying packages from the coastline of Ninghai to Shanghai and to Ningbo all of his life. And he had liver cancer that was undiagnosed until it was far too late.",
+      "zh": "从这里切入很合适。关于我的祖父，其实我从未见过他。他在我父亲14岁时就过世了。他一辈子都在一艘货船上当水手，往返于宁海沿海与上海、宁波之间运送货物。他患上了肝癌，但确诊时已经太晚太晚了。"
+    },
+    {
+      "id": 36,
+      "start_sec": 658,
+      "speaker": "Ruby Wang",
+      "en": "He was jaundiced, and he was fatigued and unwell, and finally collapsed before he was taken to a hospital a long way away from his hometown through the ingenuity of my grandmother, his wife. Because at the time, the village only had a Chinese doctor who was maybe a TCM doctor with some knowledge of, you know, some access to Western medicines like painkillers. It was a long time ago, and it was a different world from, you know, what we've described today.",
+      "zh": "他当时出现了黄疸，浑身乏力、身体抱恙，最后终于体力不支倒下了。后来靠着我祖母，也就是他妻子的机智和想方设法，才辗转将他送到了离家乡很远的一家医院。因为在那个年代，村里只有一个医生，可能就是个通晓一点止痛药等西药知识的中医。那已经是很多年以前了，与我们今天所描述的世界截然不同。"
+    },
+    {
+      "id": 37,
+      "start_sec": 690,
+      "speaker": "Ruby Wang",
+      "en": "And by the time he got there, the doctors said it was far too late, the cancer has spread everywhere, and that the best thing to do was for him to come back home and just rest. And so it was something that perhaps in the West, even at that time, could have been treated. But because China was still developing, still rural where he was, then there was nothing to be done.",
+      "zh": "等他赶到那家医院时，医生说已经为时过晚，癌细胞已经全身转移，最好的办法就是回家静养。即使在那个年代的西方，这种病或许尚有一线救治生机；但由于当时的中国仍处于发展初期，他生活的地方又非常偏僻落后，最终无力回天。"
+    },
+    {
+      "id": 38,
+      "start_sec": 711,
+      "speaker": "Ruby Wang",
+      "en": "So, my father had the task of, you know, feeding him, looking after him as one of his sons, and then he finally passed. In the short decades since then,",
+      "zh": "于是，我父亲作为儿子之一，承担起了喂饭照料他的重任，不久后祖父便离世了。在此后的短短几十年间，"
+    },
+    {
+      "id": 39,
+      "start_sec": 720,
+      "speaker": "Ruby Wang",
+      "en": "We've seen China transform, and it's interesting for me as a doctor and someone who's lived between the UK and China, West and East, to think about how far someone in my family, how they would have very different care today.",
+      "zh": "我们见证了中国的蜕变。作为一名医生，也是一个穿梭于英中两国、往返于东西方之间的人，去回想我的家人在今天会得到多么截然不同的医疗照护，这种巨大的跨越让我感触颇深。"
+    },
+    {
+      "id": 40,
+      "start_sec": 737,
+      "speaker": "Kaiser Kuo",
+      "en": "Yeah, indeed. Before we come to the present, let's stay a little bit in the past, because the barefoot doctors, the chijiao yisheng, are one of the few things about Chinese healthcare with kind of a genuinely romantic international reputation.",
+      "zh": "是的，确实如此。在回到当下之前，我们先在过去稍作停留。因为赤脚医生是中国医疗体系中极少数在国际上享有某种真正浪漫化美誉的事物之一。"
+    },
+    {
+      "id": 41,
+      "start_sec": 755,
+      "speaker": "Kaiser Kuo",
+      "en": "I mean, there were two million of them within a decade, when this first started. And there's kind of a direct line between them and the Alma-Ata Declaration and the global primary care movement.",
+      "zh": "我是说，在赤脚医生制度刚兴起的那十年里，全国就涌现了200万名赤脚医生。他们与《阿拉木图宣言》以及全球初级卫生保健运动之间有着直接的渊源。"
+    },
+    {
+      "id": 42,
+      "start_sec": 767,
+      "speaker": "Kaiser Kuo",
+      "en": "Your father grew up with it, but his account, his story is not quite so romantic. Can you tell me about that, about your father's encounter with a barefoot doctor?",
+      "zh": "你的父亲就是伴随着这种医疗环境长大的，但他的亲身经历、他的故事却远没有那么浪漫。你能跟我讲讲吗？你父亲当年是怎样遇上赤脚医生的？"
+    },
+    {
+      "id": 43,
+      "start_sec": 778,
+      "speaker": "Ruby Wang",
+      "en": "Yeah, so when he was very young, less than 10, he fell in a ditch, broke his arm when he was playing with his friends. And then one of the barefoot doctors was called to see him, who was a teenager, not much older.",
+      "zh": "好的。在他还很小的时候，不到10岁，跟朋友们玩耍时不慎掉进了一条沟里摔断了胳膊。于是有人叫来了一位赤脚医生给他看病，那其实也是个十几岁的半大孩子，年纪并没大多少。"
+    },
+    {
+      "id": 44,
+      "start_sec": 794,
+      "speaker": "Ruby Wang",
+      "en": "And ended up finding a random branch from a tree nearby, which was probably wonky, and then tied it to his very broken arm with bits of rags, and then kind of just left him to it.",
+      "zh": "那人随手从附近的树上折了根树枝——多半还是弯的——然后用几块破布把它绑在我父亲严重骨折的胳膊上，之后就任由他去了。"
+    },
+    {
+      "id": 45,
+      "start_sec": 806,
+      "speaker": "Ruby Wang",
+      "en": "And as you know, bone heals, you know, however you set it. And because it was set crookedly, then his arm set crookedly, which is awful.",
+      "zh": "正如你所知，骨头你怎么固定它就怎么长。因为接骨时就是歪的，所以他的胳膊后来也就长歪了，这简直糟糕透顶。"
+    },
+    {
+      "id": 46,
+      "start_sec": 816,
+      "speaker": "Ruby Wang",
+      "en": "So, thankfully, again, my resourceful Nainai, his mother, took him to a hospital hours away by bus, whereas other families might have just left his arm to it, and was able to reset the arm so it was straight again. But because of that traumatic experience, I think my father still holds a very negative perception of barefoot doctors.",
+      "zh": "好在，又是多亏了我那位有办法的奶奶——也就是他的母亲——坐了几个小时的长途大巴把他带到了大医院（换作其他家庭可能就听之任之了），医生重新给他正骨，胳膊才恢复笔直。但因为这段痛苦的经历，我想我父亲至今对赤脚医生都抱有非常负面的看法。"
+    },
+    {
+      "id": 47,
+      "start_sec": 839,
+      "speaker": "Ruby Wang",
+      "en": "And it is interesting because you can say there are optimistic ways to view barefoot doctors, but there are also the practical realities. So they did change the landscape; they were able to help the fragmented, lacking health system reach patients at a basic level in many ways, providing vaccines, basic medicines, preventative public health education.",
+      "zh": "这很有意思，因为你可以用乐观的视角去看待赤脚医生，但现实情况同样客观存在。他们确实改变了当时的医疗面貌，在很多方面帮助原本支离破碎、资源匮乏的卫生体系将基础医疗覆盖到了基层患者，提供疫苗接种、基本药物以及预防性的公共卫生教育。"
+    },
+    {
+      "id": 48,
+      "start_sec": 865,
+      "speaker": "Ruby Wang",
+      "en": "But at the same time, they were barely trained. These were teenagers, peasant doctors, farmer doctors who maybe had three months of basic training, and then they were spread out across the country, left to their own devices, and in some cases might have caused more harm than good.",
+      "zh": "但与此同时，他们几乎没有受过专业训练。这些十几岁的青少年、农民医生，可能只接受过三个月的基础培训，就被派往全国各地各显神通，在某些情况下可能带来的弊大于利。"
+    },
+    {
+      "id": 49,
+      "start_sec": 884,
+      "speaker": "Ruby Wang",
+      "en": "But as you said, Kaiser, regardless of all of that, they became sort of a bastion of Chinese pride, even on the global health stage. So at the Alma-Ata conference in the early 1970s, China's...",
+      "zh": "不过正如你所说，Kaiser，抛开这一切不谈，他们确实一度成了中国人的骄傲象征，即便在全球卫生舞台上也是如此。因此在20世纪70年代初的阿拉木图会议上，中国的……"
+    },
+    {
+      "id": 50,
+      "start_sec": 900,
+      "speaker": "Ruby Wang",
+      "en": "barefoot doctor system was presented to the world as a way that primary care could be delivered very effectively in developing countries. So then, from that point forward, many other countries took lessons from what China did and implemented similar models in their own countries, including as far as Colombia in South America. So, really interesting history, and also global impact from as early on as the 1970s, 1960s, even though China was still developing itself.",
+      "zh": "赤脚医生制度被推向世界，成为发展中国家极其有效开展基层医疗的一种范例。因此，从那时起，许多其他国家纷纷借鉴中国的经验，在各自国内推行了类似模式，甚至远至南美的哥伦比亚。这段历史非常耐人寻味，尽管当时中国自身仍处于发展中阶段，但早在20世纪60、70年代就已产生了全球性影响。"
+    },
+    {
+      "id": 51,
+      "start_sec": 934,
+      "speaker": "Kaiser Kuo",
+      "en": "Indeed. So, let's talk about the meat of your of your book here. You argue that the transformation that you chronicle required four conditions really reinforcing each other, that not one of them would have been, you know, enough alone.",
+      "zh": "确实。那我们来聊聊你这本书的核心内容。你在书中论证，你所记录的这场深刻变革需要四个相互强化的条件同时具备，仅凭其中任何单一因素都是不够的。"
+    },
+    {
+      "id": 52,
+      "start_sec": 949,
+      "speaker": "Kaiser Kuo",
+      "en": "These four things that you you identify are demographic pressure, crises as catalysts, the long view that China tends to take on on healthcare issues, and then cultural factors. I want to try to go through each of these in order, if, you know, briefly. But starting with the demographics, China is often described as growing old before it grows rich.",
+      "zh": "你提炼出的这四个要素分别是：人口结构压力、作为催化剂的危机、中国在医疗议题上惯常采取的长远眼光，以及文化因素。我想按顺序逐一探讨一下，哪怕只是简要聊聊。首先从人口结构说起，外界常常形容中国是“未富先老”。"
+    },
+    {
+      "id": 53,
+      "start_sec": 970,
+      "speaker": "Kaiser Kuo",
+      "en": "Well, what does that actually constrain? You raised some of the effects that that hadn't really occurred to me, which which I found really fascinating. I mean, I think there's the usual things that we all think of, you know, the kind of 4-2-1 structure, but what is it that really put pressure on China's healthcare system because of demographics?",
+      "zh": "这究竟带来了哪些现实制约？你提出了一些我之前未曾想到的影响，我觉得非常耐人寻味。大家通常会想到“4-2-1”家庭结构这种常见现象，但究竟是什么因为人口结构问题给中国的医疗卫生体系带来了如此巨大的压力？"
+    },
+    {
+      "id": 54,
+      "start_sec": 990,
+      "speaker": "Ruby Wang",
+      "en": "Yeah, so I think, firstly, is the aging, as you mentioned. So, by 2030, almost a quarter of the population will be over 60. That's around 320 million people. That's, you know, the size of the population of the whole of the United States. That's a staggering number of people getting older.",
+      "zh": "是的，首先正如你提到的，是老龄化问题。到2030年，中国将有近四分之一的人口超过60岁。这大约是3.2亿人，相当于整个美国的人口规模。这是一个令人震惊的老年人口数字。"
+    },
+    {
+      "id": 55,
+      "start_sec": 1008,
+      "speaker": "Ruby Wang",
+      "en": "And, you know, as as we age, we get more sick. So, more likely to have diabetes, heart disease, dementia, cancer, and becoming more frail, having multiple conditions that make us even sicker and and frailer, and more dependent on others. And that changes what the health system must provide. It increases the burden on the government, on the state, on the nation, to support.",
+      "zh": "而且，随着年龄增长，人更容易生病。患糖尿病、心脏病、认知障碍、癌症的几率都会增加，身体也会愈发虚弱，往往伴随多种共病，让人更加脆弱、更依赖他人照料。这彻底改变了医疗系统需要提供的服务内容，加重了政府、国家在兜底保障上的整体负担。"
+    },
+    {
+      "id": 56,
+      "start_sec": 1032,
+      "speaker": "Ruby Wang",
+      "en": "It also, you know, you mentioned the 4-2-1 shrinking families, it also increases the burden on the fewer numbers of younger generations, okay, working-age people, supporting parents, as well as, you know, maybe their children as well. And then, exactly, you know, the the shrinking workforce, the smaller numbers of healthy population to maintain, stimulate the economic growth.",
+      "zh": "此外，正如你提到的“4-2-1”收缩型家庭结构，这也加重了人数更少的年轻一代、适龄劳动人口的重负，他们不仅要赡养父母，还得抚养自己的子女。随之而来的正是劳动力规模的萎缩，维持和拉动经济增长所需的健康人口比例在不断缩小。"
+    },
+    {
+      "id": 57,
+      "start_sec": 1057,
+      "speaker": "Ruby Wang",
+      "en": "Healthcare itself is very labor-intensive. We need lots of doctors, nurses, hospital providers, rehab staff, community workers, to address the massive health burden, so it's sort of a vicious cycle. And then, of course, China's geography, I think, as well. It's such a vast, continent-sized nation, the imbalance of demographics is really important.",
+      "zh": "医疗行业本身又高度依赖人力。我们需要大量的医生、护士、医院管理人员、康复人员和社区工作者来应对沉重的健康负担，这在某种程度上构成了一种恶性循环。当然，我认为中国的地理因素也不容忽视。作为一个幅员辽阔、宛如一整块大陆的国家，其内部的人口结构失衡问题尤为关键。"
+    },
+    {
+      "id": 58,
+      "start_sec": 1080,
+      "speaker": "Dr. Ruby Wang",
+      "en": "Because, generally speaking, as younger people migrate to urban areas to find better lives, they might be leaving behind older generations in the remoter areas, which are the areas that have the greatest health needs. So, very unbalanced ramifications of demographics.",
+      "zh": "因为大体上，随着年轻人为了追求更好的生活迁移到城市地区，他们可能会把老一辈留在更偏远的地区，而这些地区恰恰医疗需求最大。所以，人口结构带来了非常不均衡的深远影响。"
+    },
+    {
+      "id": 59,
+      "start_sec": 1098,
+      "speaker": "Kaiser Kuo",
+      "en": "Yeah, these were all really, really, really important variables and that's one that I hadn't really thought of is you know, the way that that patterns of you know, migrant workers have left more people needing more health care in places that can afford it even less and where health care services are rather impoverished. So yeah, that's a important one.",
+      "zh": "是的，这些都是非常非常重要的变量，而那正是我之前没有真正考虑到的——农民工的流动模式导致更多需要医疗救治的人留在了经济承受能力更差、医疗服务相对匮乏的地方。所以没错，这是个很重要的因素。"
+    },
+    {
+      "id": 60,
+      "start_sec": 1121,
+      "speaker": "Kaiser Kuo",
+      "en": "Let's go to the second: crisis. We have SARS in 2003, of course, I remember it, the melamine milk scandal when milk was adulterated in 2008 by a company named Sanlu, and adding melamine to to kind of juice the the apparent amount of protein. There were vaccine falsification cases in 2010 and again in 2018.",
+      "zh": "我们来谈谈第二个条件：危机。2003年暴发了非典（SARS），我当然记忆犹新；还有2008年的三聚氰胺毒奶粉丑闻，当时一家名叫三鹿的公司在牛奶中掺假，添加三聚氰胺来虚增蛋白质含量检测值。2010年和2018年又相继发生了假疫苗案。"
+    },
+    {
+      "id": 61,
+      "start_sec": 1147,
+      "speaker": "Kaiser Kuo",
+      "en": "What came out of these crises? And is China unusual in seeing crisis translate into progress or improvement? And please, for the love of God, do not say the Chinese word for crisis has the word for opportunity in it.",
+      "zh": "这些危机带来了什么？中国将危机转化为进步或改善的这种模式，是否异于寻常？还有，看在上帝的份上，千万别说中文里的“危机”包含了“机会”的意思。"
+    },
+    {
+      "id": 62,
+      "start_sec": 1162,
+      "speaker": "Dr. Ruby Wang",
+      "en": "Yeah, the Chinese character for criss... yeah, that's always the thing that's said. Yeah.",
+      "zh": "哈哈，对，中文里“危机”这两个字……大家老爱拿这个说事，没错。"
+    },
+    {
+      "id": 63,
+      "start_sec": 1168,
+      "speaker": "Kaiser Kuo",
+      "en": "God, yeah.",
+      "zh": "天呐，可不是嘛。"
+    },
+    {
+      "id": 64,
+      "start_sec": 1169,
+      "speaker": "Dr. Ruby Wang",
+      "en": "Yeah, you know, from my point of view, each of these crises drove significant change, not because China wanted to, but because it had to. China, as you mentioned, and you lived through each of these because you were based in China at those times, Kaiser, so I'd love if you have some anecdotes from your own point of view to share about the melamine scandals, the vaccine falsification scandals.",
+      "zh": "在我看来，每一次危机都推动了重大的变革，倒不是因为中国想变，而是它不得不变。正如你刚才提到的，Kaiser，而且由于你当时常驻中国，你亲身经历了其中的每一次事件，所以我很想听听你从亲历者角度分享关于三聚氰胺事件和假疫苗风波的见闻。"
+    },
+    {
+      "id": 65,
+      "start_sec": 1192,
+      "speaker": "Dr. Ruby Wang",
+      "en": "But, you know, from my analysis, each of these crises triggered and, you know, propagated reform and change necessary for China to iterate and improve.",
+      "zh": "但根据我的分析，每一次危机都触发并推动了中国迭代和改进所必需的改革与变迁。"
+    },
+    {
+      "id": 66,
+      "start_sec": 1205,
+      "speaker": "Dr. Ruby Wang",
+      "en": "Does China want to do that? I think China was forced to do that. From a governance point of view, it recognized that there was no way that it could allow such risk of these crises occurring again, and so regulatory reform was a major part of this.",
+      "zh": "中国是主动想这么做吗？我认为中国是被迫的。从国家治理的角度来看，高层意识到绝不能再冒此类危机重演的风险，因此监管改革成了其中的关键一环。"
+    },
+    {
+      "id": 67,
+      "start_sec": 1221,
+      "speaker": "Dr. Ruby Wang",
+      "en": "China's regulators, the medicines and health care, China's MHRA, which is its version of the Food and Drug Administration, was lacking in capacity and skill set for a long time as the country developed. It didn't really have the skill set to be able to regulate appropriately to global standards.",
+      "zh": "长期以来，随着国家的发展，中国的药品和医疗监管机构——也就是中国版的药监局（类似于英国的MHRA或美国的FDA）——在监管能力和专业技能上一直存在不足。它并不真正具备按照国际标准进行规范监管的专业能力。"
+    },
+    {
+      "id": 68,
+      "start_sec": 1242,
+      "speaker": "Dr. Ruby Wang",
+      "en": "But with each of these crises, it triggered massive change. It joined the ICH, rapidly iterated and improved its regulatory capacity and skill set, learning from other countries, bringing in expert regulators from the West to train their internal...",
+      "zh": "但每一次危机都触发了巨变。中国加入了人用药品技术要求国际协调理事会（ICH），迅速迭代并提升了自身的监管能力和专业水准，向其他国家虚心取经，并从西方聘请资深监管专家来培训内部人员……"
+    },
+    {
+      "id": 69,
+      "start_sec": 1260,
+      "speaker": "Ruby Wang",
+      "en": "technicians, also really clamping down on corruption, which was a major issue in this landscape, and that really helped to move progress forward.",
+      "zh": "技术专家，同时大力打击腐败——这在当时曾是一个极其严重的问题，这些举措确实有力地推动了行业进步。"
+    },
+    {
+      "id": 70,
+      "start_sec": 1271,
+      "speaker": "Kaiser Kuo",
+      "en": "So the sorts of changes that came, are they the ones that we would expect? For example, after SARS, presumably there would have been improvements in pandemic notifications, in contact tracing, and in things like that.",
+      "zh": "那么随之而来的这些变革，是否都在我们的预料之中？比如在非典之后，按理说疫情通报、密接追踪这类机制都会得到改善。"
+    },
+    {
+      "id": 71,
+      "start_sec": 1286,
+      "speaker": "Kaiser Kuo",
+      "en": "And we saw how effective those could be right after the early days of the COVID-19 pandemic, of course. Melamine, that scandal presumably improved food safety controls. What about some of these other ones?",
+      "zh": "当然，在新冠疫情初期过后，我们也见识到了这些机制的成效。三聚氰胺丑闻想必也加强了食品安全监管。那其他事件呢？"
+    },
+    {
+      "id": 72,
+      "start_sec": 1303,
+      "speaker": "Kaiser Kuo",
+      "en": "What, for example, there were these cases of fake vaccines that popped up a couple of times in the 2010s. What sorts of reforms did those precipitate?",
+      "zh": "比如在2010年代多次曝光的假疫苗事件，那些危机促成了怎样的改革？"
+    },
+    {
+      "id": 73,
+      "start_sec": 1315,
+      "speaker": "Ruby Wang",
+      "en": "Yeah, I think each of these crises triggered different types of changes. So for example, with SARS, as you said, triggered the initiation of China's Center for Disease Control, strengthening local to national pathway creation, so that theoretically an alarm of an infectious disease or a pandemic risk could be notified very quickly throughout the command chain to central level.",
+      "zh": "是的，我认为每一次危机都催生了不同层面的变革。比如正如你所说，非典推动了中国疾控中心的设立，打通并强化了从地方到国家的直报通道，从理论上讲，一旦出现传染病警报或大流行风险，就能沿着指挥链迅速通报至中央层面。"
+    },
+    {
+      "id": 74,
+      "start_sec": 1343,
+      "speaker": "Ruby Wang",
+      "en": "Secondly, regulatory reform and capacity building. So China's version of the US Food and Drug Administration, called the NMPA, was recreated, and its chain of command was prioritized so that it reported more directly to the State Council and didn't need as many levels of approval through the governance chain, allowing it greater control and accountability.",
+      "zh": "其次是监管改革与能力建设。相当于美国食品药品监督管理局（FDA）的中国国家药监局（NMPA）进行了重组，其指挥链层级得到提升，能够更直接地向国务院汇报，减少了行政治理体系中的繁冗报批，赋予了其更强的掌控力和问责权。"
+    },
+    {
+      "id": 75,
+      "start_sec": 1373,
+      "speaker": "Ruby Wang",
+      "en": "And also there was massive clampdown on corruption. You know, the food and drug world has always been one of the richest in terms of opportunity for things handed under the table.",
+      "zh": "此外还有对腐败的铁腕整治。要知道，食品药品领域向来是私下搞利益输送、权钱交易的高发地。"
+    },
+    {
+      "id": 76,
+      "start_sec": 1387,
+      "speaker": "Ruby Wang",
+      "en": "So, massive clampdown on those that were benefiting from favors and things, even death penalties for some of the leaders working at the head of the regulators.",
+      "zh": "因此官方大力惩治了那些通过利益交换牟利的人，甚至连某些药监监管机构的头号领导都被判处了死刑。"
+    },
+    {
+      "id": 77,
+      "start_sec": 1399,
+      "speaker": "Kaiser Kuo",
+      "en": "The third thing that you talk about is the time horizon, the long view. In China, you've had Healthy China 2030, you had Made in China 2025, which had a big life sciences component to it, and of course you have the Five-Year Plans always.",
+      "zh": "你谈到的第三点是时间跨度，也就是长远眼光。在中国，有“健康中国2030”，有包含重大生命科学布局的“中国制造2025”，当然还有一贯的“五年规划”。"
+    },
+    {
+      "id": 78,
+      "start_sec": 1416,
+      "speaker": "Kaiser Kuo",
+      "en": "You're a doctor in a system that's had five health secretaries in about as many years. I come from the US, where our current president has gutted the NIH, you've got RFK and his MAHA bunch governing healthcare.",
+      "zh": "你所执业的英国体系，大概五年里换了五任卫生大臣；而我来自美国，我们现任总统几乎掏空了美国国立卫生研究院（NIH），又有小肯尼迪及其“让美国再次健康”（MAHA）这帮人来执掌医疗政策。"
+    },
+    {
+      "id": 79,
+      "start_sec": 1433,
+      "speaker": "Kaiser Kuo",
+      "en": "But, you know, still, we managed to get in the first Trump administration the mRNA vaccines in, you know, pretty amazingly short time.",
+      "zh": "不过话说回来，在特朗普第一任期内，我们还是以惊人的神速研发出了mRNA疫苗。"
+    },
+    {
+      "id": 80,
+      "start_sec": 1440,
+      "speaker": "Kaiser Kuo",
+      "en": "What does a long horizon let you do? I mean, it seems obvious, I suppose, but what does a long horizon let you do that a short one doesn't? And what does it cost?",
+      "zh": "长远眼光能让人做到什么？我的意思是，这看似不言自明，但长远眼光究竟能做成哪些短期眼光做不到的事？它又需要付出什么代价？"
+    },
+    {
+      "id": 81,
+      "start_sec": 1451,
+      "speaker": "Ruby Wang",
+      "en": "It costs a lot. A lot of money, a lot of time, a lot of patience, I think, a lot of waste. Yeah, I think, you know, I'm always comparing an understanding of China and its health with what I know, having grown up in the UK and worked a lot in the US, too.",
+      "zh": "代价非常大。耗费大量的资金、大量的时间、极大的耐心，我认为还有大量的损耗。是的，我在理解中国及其医疗卫生时，总会拿它与我所熟悉的环境对比——毕竟我在英国长大，也在美国工作过很长时间。"
+    },
+    {
+      "id": 82,
+      "start_sec": 1468,
+      "speaker": "Ruby Wang",
+      "en": "And you know, the UK and the US both also have 10-year health plans. It's just that no one really knows about them, and no one really pays attention or acts by them, because I guess...",
+      "zh": "要知道，英国和美国其实也都有十年期的健康规划。只是几乎无人知晓，也没人真正去关注或照此执行，因为我想……"
+    },
+    {
+      "id": 83,
+      "start_sec": 1479,
+      "speaker": "Kaiser Kuo",
+      "en": "Yeah, I neither knew about them, nor paid attention to them.",
+      "zh": "是啊，我既不知道，也从没关注过。"
+    },
+    {
+      "id": 84,
+      "start_sec": 1482,
+      "speaker": "Ruby Wang",
+      "en": "And the reason is because we don't have to. There's no ramifications for not aligning with what the policy plans tell you to do or not, no penalties, no responsibility. And they were probably set out by a leader that's, you know, long gone by the time it should be implemented.",
+      "zh": "原因就在于我们根本不必去遵守。不配合政策规划的要求并不会有什么后果，没有惩罚，也无需承担责任。而且这些规划很可能是某位领导人制定的，等到了真正该落实的时候，那人早已离任了。"
+    },
+    {
+      "id": 85,
+      "start_sec": 1499,
+      "speaker": "Ruby Wang",
+      "en": "As you said, the UK has gone through so many health secretaries. The US health secretary, you know, is politically embroiled, whereas in China, the long-term, long-term planning has sort of been the blueprint of how things are done.",
+      "zh": "正如你所说，英国换了一任又一任卫生大臣；美国的卫生部长往往深陷政治漩涡。而在中国，长期规划可以说是各项事务推进的行动蓝图。"
+    },
+    {
+      "id": 86,
+      "start_sec": 1514,
+      "speaker": "Ruby Wang",
+      "en": "And, you know, we have the Five-Year Plans, which are set out, but then we also have the Healthy China 2030, for example, which was a 15-year plan, the longest of them all. It was initiated in 2016, and its timeline, you know, as its name says, goes on to 2030.",
+      "zh": "你看，中国不仅制定了“五年规划”，还出台了比如“健康中国2030”这样的规划，那可是一个跨度达15年的规划，是所有规划中最长的一个。它于2016年启动，正如其名，时间线一直延伸到2030年。"
+    },
+    {
+      "id": 87,
+      "start_sec": 1532,
+      "speaker": "Ruby Wang",
+      "en": "It's had various iterations, updates, but overall, it's served as a long-term blueprint for what the country sets out to do, which is strengthening the health system, improving access to care, improving quality, and thinking about costs as well.",
+      "zh": "虽然经历过多次迭代和更新，但总体而言，它构成了国家拟定目标的长期蓝图，即健全医疗卫生体系、提高就医可及性、提升服务质量，并统筹考虑控费问题。"
+    },
+    {
+      "id": 88,
+      "start_sec": 1551,
+      "speaker": "Ruby Wang",
+      "en": "And I think that's a very Chinese way of doing things. This is obviously not unique to the health sector. We've seen this across industrial planning; now we have long-term AI planning, even.",
+      "zh": "我认为这是一种非常中国式的做事方式。这显然不仅限于医疗卫生领域。我们在产业规划中屡见不鲜，甚至现在还有了长远的人工智能规划。"
+    },
+    {
+      "id": 89,
+      "start_sec": 1560,
+      "speaker": "Ruby Wang",
+      "en": "So this is the Chinese way of designing and delivering policy. But I would say that it's only possible because of China's politics, because it's got long-term vision implemented by leaders who sit there for a long time.",
+      "zh": "这就是中国制定和推行政策的方式。但我得说，这之所以行得通，完全得益于中国的政治体制——因为它拥有长远愿景，并由长期在任的领导层负责推进落实。"
+    },
+    {
+      "id": 90,
+      "start_sec": 1576,
+      "speaker": "Ruby Wang",
+      "en": "And also because the heads of ministries, the civil servants, are all technocrats. You know, I write about in my book how China's Ministry of Health, about China's ministers of health, how they are always doctors, public health experts who've worked their way from the ground up as technical experts, then regional leaders, then finally up to national-level health leaders.",
+      "zh": "而且各部委的一把手和公务员全都是技术官僚。我在书中就写过，中国的卫生部——中国历任卫生部长，几乎全都是医生或公共卫生专家出身，他们从基层技术专家做起，一步步升至地方领导，最终成为国家级卫生健康主管官员。"
+    },
+    {
+      "id": 91,
+      "start_sec": 1602,
+      "speaker": "Ruby Wang",
+      "en": "Whereas, you know, in the UK, and in the US, too, even though perhaps the civil servants within the departments of health are technical experts also, trained for a long time, their top leadership, the Health Secretary of State or the Health Minister in the UK, tend to be...",
+      "zh": "然而在英国以及美国，即便卫生部门内部的公务员同样是经过长期专业训练的技术专家，但最高领导层——无论是英国的卫生大臣还是美国的卫生部长——往往都是……"
+    },
+    {
+      "id": 92,
+      "start_sec": 1620,
+      "speaker": "Ruby Wang",
+      "en": "politically provided that position, and they often don't have the expertise. And also, they are more privy to the whims of the country's leaders. And so therefore, politics, economics, security tends to influence a little bit more often.",
+      "zh": "纯粹出于政治考量才坐上那个位子，往往缺乏专业素养。而且他们更容易受国家领导人个人意志的左右。因此，政治、经济和安全考量往往会产生更大的影响。"
+    },
+    {
+      "id": 93,
+      "start_sec": 1636,
+      "speaker": "Kaiser Kuo",
+      "en": "So in China, it's not likely you would be selected to be minister of health if your track record consists mostly of going onto conspiracy theory podcasts and barking about the specious links between autism and vaccines.",
+      "zh": "所以在当下中国，如果某人过往的主要履历只是四处上阴谋论播客、大声鼓吹自闭症与疫苗之间那些捕风捉影的牵强联系，那大概率是当不上卫生部长的。"
+    },
+    {
+      "id": 94,
+      "start_sec": 1651,
+      "speaker": "Ruby Wang",
+      "en": "Yeah, you could say that.",
+      "zh": "没错，确实可以这么说。"
+    },
+    {
+      "id": 95,
+      "start_sec": 1653,
+      "speaker": "Kaiser Kuo",
+      "en": "Wow, what a novel idea. The fourth thing that you talked about, and I think this is really an interesting one, is the cultural stuff. I want to spend a little bit of time on this because maybe something concrete first.",
+      "zh": "哇，真是个新奇的概念。你谈到的第四点我认为非常有意思，那就是文化层面的因素。我想在这上面多花一点时间，或许我们可以先从具体细节谈起。"
+    },
+    {
+      "id": 96,
+      "start_sec": 1666,
+      "speaker": "Kaiser Kuo",
+      "en": "In a Chinese hospital, it's still common for a family member to sign a consent form for a patient who's still perfectly capable of signing it himself or herself, who's conscious and of sound mind. In the NHS, that would be a pretty serious case, that wouldn't happen, nor the US.",
+      "zh": "在中国医院里，即便患者本人神志清醒、心智健全，完全有能力自己签字，但由家属代签知情同意书的现象依然很常见。在英国 NHS，这会构成极其严重的违规，绝不可能发生，在欧美也是如此。"
+    },
+    {
+      "id": 97,
+      "start_sec": 1686,
+      "speaker": "Kaiser Kuo",
+      "en": "Why isn't it a thing in China? More broadly, every health system will draw a line between what belongs to the individual and what belongs to something larger. Where does China draw this? Is it simply different in kind? Is it one of these East versus West things? Is there simply more of a sense of community or family? You know what I'm getting at. Where do you come down on this?",
+      "zh": "为什么在中国这不算个问题？从更广的视角来看，任何医疗体系都会划分个人权利与集体利益的界限。中国把这条界线划在了哪里？这纯粹是本质上的不同吗？是典型的“东方与西方”差异吗？还是说集体意识或家庭观念更强？你懂我的意思，你对此怎么看？"
+    },
+    {
+      "id": 98,
+      "start_sec": 1717,
+      "speaker": "Ruby Wang",
+      "en": "This is so interesting. I'm not an anthropologist, health is my background, but increasingly, I find myself drawn to want to keep learning about how culture and how society impacts healthcare because it, of course, does. Health is about lives, about families, about our loved ones, and it's so intimate.",
+      "zh": "这太有意思了。我不是人类学家，我的专业背景是医疗，但我越来越发现自己渴望去探索文化与社会究竟如何塑造医疗体系，因为影响显然是深远的。健康关乎生命、关乎家庭、关乎我们挚爱的人，它是如此私密。"
+    },
+    {
+      "id": 99,
+      "start_sec": 1740,
+      "speaker": "Ruby Wang",
+      "en": "So, of course, culture and people impact how we experience care, how we receive it, how we expect, what we want from it. And it's difficult to draw black-and-white comparisons between, \"Oh, in the West, we are individuals who appreciate our freedoms, and we consent for ourselves and our health and well-being. And in China, it's a mass, collective pool where no one has their own independence, and we don't think for ourselves at all.\"",
+      "zh": "因此，文化与人群自然会左右我们体验医疗、接受治疗的方式，以及我们对医疗的期待与诉求。我们很难做出非黑即白的简单对比，说什么“西方人重视个人自由，只为自己的身心健康做决定签署知情同意；而在中国，大家全在一个集体大池子里，毫无个人独立性，根本不会为自己思考”。"
+    },
+    {
+      "id": 100,
+      "start_sec": 1773,
+      "speaker": "Ruby Wang",
+      "en": "I don't think that's the case, of course. And as the world globalizes, as China becomes Westernized, as the West, too, is thinking about what the costs of being independence and privacy and so on, there are kind of certain interesting lines that we can compare against in the world of healthcare, especially when there are kind of rules and regulations.",
+      "zh": "事实显然并非如此。随着全球化的推进，中国在不断融入现代体系，而西方也在反思一味强调独立与隐私所带来的代价。在医疗卫生领域，尤其是面对具体的规章制度时，确实存在一些非常值得对比玩味的边界。"
+    },
+    {
+      "id": 101,
+      "start_sec": 1797,
+      "speaker": "Ruby Wang",
+      "en": "So, as you just mentioned, in",
+      "zh": "正如你刚才提到的，在"
+    },
+    {
+      "id": 102,
+      "start_sec": 1800,
+      "speaker": "Dr. Ruby Wang",
+      "en": "In China, when someone is sick, it tends to be that their relative signs the consent form, whether it's for surgery or for a treatment on their behalf, which I think in the West would be insane.",
+      "zh": "在中国，要是有人生病了，往往是亲属代签知情同意书，不管是做手术还是接受治疗，这在西方看来简直不可思议。"
+    },
+    {
+      "id": 103,
+      "start_sec": 1811,
+      "speaker": "Dr. Ruby Wang",
+      "en": "I mean, I remember, because I've grown up between East and West, so, you know, I've grown up knowing about Chinese culture, but then living in the UK, I remember actually when I was interviewing for medical school, one of the interviews, they asked me a question about confidentiality, which is a, you know, a bastion of medical ethics.",
+      "zh": "我记得很清楚，因为我成长于东西方之间，既了解中国文化，又生活在英国。在医学院面试时，有一场面试官问了我一个关于保密原则的问题，而这正是医学伦理的核心支柱。"
+    },
+    {
+      "id": 104,
+      "start_sec": 1830,
+      "speaker": "Dr. Ruby Wang",
+      "en": "And they said, you know, what would happen if a patient's family asked you whether the patient had cancer or not? Something like that. And I just, you know, responded, 'Oh, of course I'd tell them.' And then I didn't get into that medical school. You know, they gave me a failure because you can't do that in the West. That's, you know, illegal and not okay, maybe not illegal, that's just not an okay thing to do.",
+      "zh": "他们问：‘如果患者家属问你患者是否得了癌症，你会怎么做？’诸如此类。我很自然地回答：‘哦，我当然会告诉他们啊。’结果那所医学院没要我，给了我不及格。因为在西方绝不能这么做，这是违规且不可接受的，即便不违法，也是绝对行不通的。"
+    },
+    {
+      "id": 105,
+      "start_sec": 1852,
+      "speaker": "Dr. Ruby Wang",
+      "en": "Whereas in China, it's almost expected because it's not so much directly that we are a collective and there is no privacy between us as a family, but more a sense of responsibility mutually, so that we care for each other.",
+      "zh": "但在中国，这种做法几乎是理所应当的。这倒不完全是因为集体主义或者家人之间没有隐私，而更多源于一种相互照拂的责任感，大家彼此关怀照料。"
+    },
+    {
+      "id": 106,
+      "start_sec": 1869,
+      "speaker": "Dr. Ruby Wang",
+      "en": "And also this interesting idea that a person who is sick physically is also not perhaps of 100% sound mind and not able to look after themselves, then you take that responsibility to carry on to yourselves as the family, and then therefore you consent on their behalf.",
+      "zh": "此外还有一种有趣的观念：身体患病的人往往在心智上也不完全清醒，无法照顾好自己，于是家人便将这份责任担在自己肩上，替他们签字同意。"
+    },
+    {
+      "id": 107,
+      "start_sec": 1887,
+      "speaker": "Kaiser Kuo",
+      "en": "Ruby, you would argue, I think, that this inheritance, this cultural sort of inheritance, is part of why health data integration has met with less resistance in China perhaps than anywhere in the West. And we've all heard variations on this before, so how there's, you know, as you were saying before, less concern for privacy or surveillance or what have you.",
+      "zh": "Ruby，我想你会认为，正是这种文化上的传承，使得健康数据整合在中国遭遇的阻力远小于西方任何地方。这种论调我们之前都听过各种版本，比如大家常说的对隐私或监控不太在意等等。"
+    },
+    {
+      "id": 108,
+      "start_sec": 1907,
+      "speaker": "Kaiser Kuo",
+      "en": "Let me put the hard version of that to you because, you know, you raise it yourself in the book. Britain built its COVID app on entirely voluntary participation. It never really got the uptake that it needed to be effective, and they spent a billion pounds and then retired it.",
+      "zh": "让我提一个尖锐点的问题，因为你在书中自己也提到了：英国开发的防疫App完全依赖民众自愿参与，使用率始终未能达到形成有效防控的门槛，最终耗资十亿英镑却草草下线。"
+    },
+    {
+      "id": 109,
+      "start_sec": 1924,
+      "speaker": "Kaiser Kuo",
+      "en": "But China's health codes were not optional. And, you know, for however intrusive they were, they really worked, right? How do you disentangle the whole kind of cultural explanation from the simple structural one, the one that says, you know, one system had to persuade people, and the other didn't, it could just impose it?",
+      "zh": "但中国的健康码是强制性的。无论其介入程度有多深，它们确实发挥了作用，对吧？你该如何将文化层面的解释，与单纯的制度结构解释区分开来？毕竟后者认为，一种制度需要费力说服公众，而另一种制度无需说服，直接强制推行即可。"
+    },
+    {
+      "id": 110,
+      "start_sec": 1945,
+      "speaker": "Dr. Ruby Wang",
+      "en": "Yeah. You're asking me all the hard questions, Kaiser. This one is impossible to answer. For everything I say, I guess you can present an alternate argument. There are no definitive definitions here.",
+      "zh": "是的，Kaiser，你净挑最难的问题问。这个问题几乎没有标准答案。无论我说什么，你都能提出反驳论据。这里并不存在非黑即白的定义。"
+    },
+    {
+      "id": 111,
+      "start_sec": 1960,
+      "speaker": "Dr. Ruby Wang",
+      "en": "I guess I can just say that there are dangers and solutions in both sides. As you just said, China mandating health QR codes did allow a kind of social control and surveillance in a way that prevented COVID cases from propagating across the country for a long time, until it became...",
+      "zh": "我想说的是，双方都既有其风险，也有其解决方案。正如你刚才所言，中国强制推行健康码，确实实现了一种社会管控与监测机制，在相当长的时间内遏制了新冠疫情在全国范围的扩散，直到后来……"
+    },
+    {
+      "id": 112,
+      "start_sec": 1980,
+      "speaker": "Ruby Wang",
+      "en": "controllable. And there are obviously many examples of where that level of control had negative ramifications when it was not only used for health. We don't need to, you know, let's focus on the health bit here.",
+      "zh": "可控。显然有许多例子表明，当这种控制不仅用于医疗卫生时，会产生负面影响。我们不必……不过，咱们还是把重点放在医疗这块吧。"
+    },
+    {
+      "id": 113,
+      "start_sec": 1993,
+      "speaker": "Ruby Wang",
+      "en": "But then in the UK, the consequences of a society and a population that only had to opt in to, you know, be contact traced on the app meant that most people didn't opt in. And you need a threshold of the population to opt in and agree, you know, for their data to be provided so that we can properly, properly surveil.",
+      "zh": "但在英国，让整个社会和公众自主选择是否开启应用程序的密接追踪功能，其后果就是大多数人根本没有加入。而你需要达到一定比例的人口同意提供数据，我们才能真正有效地进行监测。"
+    },
+    {
+      "id": 114,
+      "start_sec": 2016,
+      "speaker": "Ruby Wang",
+      "en": "And not surveillance in the negative sense, but in a public health sense, to know what's going on, to know where the disease is going. And because we weren't able to do that in the UK, then that app was, you know, doomed. It was, you know, pushed away later, and billions of pounds were wasted, there was just no use to it. So, yeah, it's interesting.",
+      "zh": "这不是贬义上的监控，而是公共卫生层面的监测——去掌握疫情动态，了解病毒的扩散路径。正因为英国没能做到这一点，那款软件从一开始就注定失败，后来被束之高阁，白白浪费了数十亿英镑，毫无用处。所以，这确实耐人寻味。"
+    },
+    {
+      "id": 115,
+      "start_sec": 2038,
+      "speaker": "Kaiser Kuo",
+      "en": "I don't expect you to have the answers, but I think that's one of the lovely things about your book is that it does raise these questions, it does dare to go into, you know, these issues. Like, you know, how do social structures and culture affect the way that healthcare is administered and perceived and regulated?",
+      "zh": "我并不指望你给出终极答案，但我认为你这本书的妙处之一，恰恰在于它抛出了这些问题，敢于触及这些议题。比如，社会结构与文化如何影响医疗服务的推行、认知与监管？"
+    },
+    {
+      "id": 116,
+      "start_sec": 2057,
+      "speaker": "Kaiser Kuo",
+      "en": "Let's get into this next section that I had planned, which is, you know, about this whole sort of reversal in pharmaceuticals. It's interesting, before we get into the science of it, I noticed about a third of the way into your book that whenever you need to illustrate a point, there's a family member you can turn to and invoke.",
+      "zh": "接下来进入我计划的下一个章节，也就是医药领域所谓的大逆转。很有意思的是，在探讨背后的科学之前，我读到大约三分之一时发现，每当你需要论证一个观点时，总能找到一位具体的家庭成员作为佐证。"
+    },
+    {
+      "id": 117,
+      "start_sec": 2074,
+      "speaker": "Kaiser Kuo",
+      "en": "Your grandfather we talked about in the '70s, your father with the broken arm with the barefoot doctors, your mother for the difference between British and Chinese surgery, your grandmother comes up a bunch of times. Is your family unusually unwell or unusually useful?",
+      "zh": "我们刚才聊了70年代的水手爷爷；你父亲胳膊骨折找赤脚医生；你母亲经历过中英外科手术的差异；你奶奶也出场了好几次。你的家人是格外多病呢，还是格外好用？"
+    },
+    {
+      "id": 118,
+      "start_sec": 2090,
+      "speaker": "Ruby Wang",
+      "en": "No one's actually asked me that before. But, you know, I think if we all delve back into our families, you know, health and sickness is part of life. But you're right, yeah, I sourced a lot from my family. I'm very grateful to them.",
+      "zh": "之前还真没人这么问过我。不过我觉得，如果我们回顾自己的家族史，生老病死本就是人生的一部分。但你说得对，我确实从家人身上取材颇多，对此我非常感激。"
+    },
+    {
+      "id": 119,
+      "start_sec": 2104,
+      "speaker": "Kaiser Kuo",
+      "en": "Actually, I think that's part of what makes it work. It's super relatable. I mean, everyone's got this stuff.",
+      "zh": "其实我觉得这正是本书出彩的地方。它非常能引发共鸣，毕竟家家都有本难念的健康经。"
+    },
+    {
+      "id": 120,
+      "start_sec": 2110,
+      "speaker": "Kaiser Kuo",
+      "en": "And I do really want to ask you about your grandmother, I think it was at a wedding in 2003. When your grandmother—is this your nǎinai, also, right? Or waipo?",
+      "zh": "我特别想问问你祖母的事，好像是2003年在一场婚礼上。当时你的祖母——这也是你的奶奶，对吧？"
+    },
+    {
+      "id": 121,
+      "start_sec": 2119,
+      "speaker": "Ruby Wang",
+      "en": "Waipo, a different grandmother. Yes, maternal, yeah.",
+      "zh": "外婆，是另一位祖母辈，是外婆。"
+    },
+    {
+      "id": 122,
+      "start_sec": 2121,
+      "speaker": "Kaiser Kuo",
+      "en": "Oh, your wàipó. Okay, so your maternal grandmother. It turned out she had a gastrointestinal stromal tumor, which had already spread to the liver. And it set you guys off on this hunt for a drug.",
+      "zh": "哦，外婆。好吧，也就是你的外祖母。当时查出她患有胃肠道间质瘤，并且已经转移到了肝脏。这让你们全家开启了一场漫长的跨国寻药之旅。"
+    },
+    {
+      "id": 123,
+      "start_sec": 2137,
+      "speaker": "Kaiser Kuo",
+      "en": "It's a really great story. There was a drug at that point already, the generic name is imatinib, the brand name is Gleevec. It had just been approved in the United States, but it was prohibitively expensive.",
+      "zh": "这是个极为精彩的故事。当时市面上已经有一款药，通用名是伊马替尼，商品名是格列卫。该药刚在美国获批，但价格极其昂贵。"
+    },
+    {
+      "id": 124,
+      "start_sec": 2151,
+      "speaker": "Kaiser Kuo",
+      "en": "It was like $30,000 for a year of treatment and was basically inaccessible in China. So, how did she get it?",
+      "zh": "一年的治疗费用大概要三万美元，在中国大陆基本买不到。那么，她最终是怎么拿到药的？"
+    },
+    {
+      "id": 125,
+      "start_sec": 2160,
+      "speaker": "Kaiser Kuo",
+      "en": "I thought that was a fascinating story. This is just a set a baseline for where we were in 2003, right?",
+      "zh": "我觉得这是一个引人入胜的故事。这也为我们了解2003年当时的基准状况提供了一个参照，对吧？"
+    },
+    {
+      "id": 126,
+      "start_sec": 2166,
+      "speaker": "Dr. Ruby Wang",
+      "en": "Yeah. I do think, you know, the reason I'm a work in health today and I, you know, trained as a doctor is really because of my grandma's story. And I think this is the case for many medical professionals.",
+      "zh": "是的。我想，我今天从事医疗健康行业、受训成为一名医生，归根结底是因为我外婆的故事。我觉得对许多医务工作者来说都是如此。"
+    },
+    {
+      "id": 127,
+      "start_sec": 2178,
+      "speaker": "Dr. Ruby Wang",
+      "en": "There's often something that happens early on in life in your family that impacts you so profoundly. And for me, it was kind of the miracle journey of my grandma, she's still alive today, of her being able to be saved really by a medicine against all odds.",
+      "zh": "早年家庭里往往会发生一些事情，对你产生极其深远的影响。对我而言，那就是我外婆奇迹般的经历——她至今依然健在——在希望极其渺茫的情况下，她最终被一种药物拯救了。"
+    },
+    {
+      "id": 128,
+      "start_sec": 2195,
+      "speaker": "Dr. Ruby Wang",
+      "en": "That made me think, wow, you know, healthcare is really incredible. It changes lives, it changed my family's, you know, lives. And so I've kind of grown up knowing this story and being part of it.",
+      "zh": "那让我感叹：医疗真的很不可思议。它改变人生，改变了我一家的命运。我从小就知道这个故事，甚至可以说是置身其中。"
+    },
+    {
+      "id": 129,
+      "start_sec": 2208,
+      "speaker": "Dr. Ruby Wang",
+      "en": "And being able to tell it in the context of what's happening today in China's biotech transformation, I just felt like it was very fitting. So her journey to get the medicine was really against all odds, as I describe in the chapter.",
+      "zh": "而在当今中国生物医药转型的背景下讲述这段往事，我觉得再贴切不过了。正如我在书中那一章所写的，她寻求药物的过程真的是克服了千难万险。"
+    },
+    {
+      "id": 130,
+      "start_sec": 2223,
+      "speaker": "Dr. Ruby Wang",
+      "en": "She had this very rare cancer, for which, again, you know, similar to my grandfather's story, it was found too late. She collapsed, there was a blood vessel burst, the cancer was found to be everywhere, she underwent emergency surgery. This was in the very late '90s in China.",
+      "zh": "她得了一种非常罕见的癌症，跟我外公的遭遇类似，发现得太晚了。当时她突然昏厥，血管破裂，查出癌细胞已经广泛扩散，于是接受了急诊手术。那是90年代末的中国。"
+    },
+    {
+      "id": 131,
+      "start_sec": 2241,
+      "speaker": "Dr. Ruby Wang",
+      "en": "And her doctors told us that there were basically no options. She could have more surgery, but likely only had a few more months to live, because it had already spread everywhere. And for a cancer to spread to the liver, it's very bad news, usually.",
+      "zh": "医生告诉我们，基本已经无能为力了。她可以再做手术，但大概率也只剩几个月的生命，因为癌细胞已经全面转移。癌症一旦转移到肝脏，通常都是非常凶险的噩耗。"
+    },
+    {
+      "id": 132,
+      "start_sec": 2255,
+      "speaker": "Dr. Ruby Wang",
+      "en": "But then, the surgeon told my father that he'd heard of this drug out there in the distant West, which had been around for a while for a type of blood cancer, leukemia, but was recently found to be also effective for my grandmother's specific, rare type of cancer.",
+      "zh": "但随后，外科医生告诉我父亲，他听说远在西方有这么一种药，原本用于治疗一种血液肿瘤——白血病，已有一段时间，而最近刚被发现对外婆这种罕见的特定癌症同样有效。"
+    },
+    {
+      "id": 133,
+      "start_sec": 2274,
+      "speaker": "Dr. Ruby Wang",
+      "en": "And so, because my mother had already emigrated to the UK to do a PhD, and I was actually in the UK with her already too, then she started looking up forums in English, trying to research as much as she could in the early days of the internet.",
+      "zh": "那时我母亲已经移民英国读博，我也跟随她在英国生活，于是她便开始在英文论坛上四处搜寻，在互联网刚起步的年代拼尽全力做调研。"
+    },
+    {
+      "id": 134,
+      "start_sec": 2291,
+      "speaker": "Dr. Ruby Wang",
+      "en": "I wrote about how she had to go to university library's computers, we didn't have one at home, and to just search the internet, every page on Google to try to find if there was something in the English-speaking world that China could not access.",
+      "zh": "我写到了她不得不去大学图书馆用电脑——我们家里没有电脑——翻遍Google上的每一页，试图在英语世界里寻找中国当时还无法获得的信息。"
+    },
+    {
+      "id": 135,
+      "start_sec": 2306,
+      "speaker": "Dr. Ruby Wang",
+      "en": "And somehow, she came across a forum where a student was doing a PhD in Switzerland and also interning with Novartis, a Swiss pharmaceutical company, the very one that was making this drug, Gleevec.",
+      "zh": "不知怎的，她在一个论坛上偶然发现了一位在瑞士读博的学生，那人正好在瑞士制药巨头诺华（Novartis）实习，而诺华正是研发格列卫（Gleevec）这家药企。"
+    },
+    {
+      "id": 136,
+      "start_sec": 2321,
+      "speaker": "Dr. Ruby Wang",
+      "en": "And through a lot of hard work and a lot of paperwork, my parents together, you know, my mom in the UK, my dad in China, this unique cross-border family managed to make this miracle happen, which is get my grandmother the only lifesaving drug that could have...",
+      "zh": "经过无数努力和繁复的文件手续，我父母齐心协力——母亲在英国，父亲在中国——这个独特的跨国跨地域家庭最终创造了奇迹，为我外婆拿到了唯一能救命的药……"
+    },
+    {
+      "id": 137,
+      "start_sec": 2340,
+      "speaker": "Ruby Wang",
+      "en": "helped her in China for free, even though it was prohibitively expensive all around the world. So I was very young and I saw how hard they worked to make this happen, and I knew it was against all odds, really.",
+      "zh": "在中国免费帮助了她，尽管这种药物在全世界都昂贵得令人望而却步。那时我还很小，亲眼目睹了他们为促成这件事付出了多么艰辛的努力，我也深知这几乎是在挑战所有的不可能。"
+    },
+    {
+      "id": 138,
+      "start_sec": 2357,
+      "speaker": "Ruby Wang",
+      "en": "And it's sort of incredible to me that, you know, 20-odd years later, now that, you know, I'm working on biotech and China, the licensing deals, the numbers you mentioned at the start of the show, Kaiser, in such a short time, the world has transformed, the direction has reversed.",
+      "zh": "对我而言不可思议的是，二十多年后的今天，当我投身于中国生物科技领域时，正如你在节目开头提到的那些对外授权交易和数据，Kaiser，在如此短的时间里，世界彻底转变了，方向发生了逆转。"
+    },
+    {
+      "id": 139,
+      "start_sec": 2374,
+      "speaker": "Ruby Wang",
+      "en": "And somehow, a Chinese grandmother who needed a drug from Switzerland all those years ago, now maybe in a few years' time, you know, patients in the US, grandmothers in the UK might be getting drugs made in China. So it's yeah, incredible, what's happened.",
+      "zh": "当年那位急需来自瑞士药物的中国祖母，在短短几年后，美国患者、英国的祖母们可能就会用上中国制造的药物。整件事情的发展真是不可思议。"
+    },
+    {
+      "id": 140,
+      "start_sec": 2394,
+      "speaker": "Kaiser Kuo",
+      "en": "Yeah. I mean, you've said that just as recently as a year ago, you were still arguing with your own consulting clients against this perception that Chinese drugs were just copies, and that that argument is kind of settled now. It's astonishing how much has changed now. What are some examples that you've seen of this reversal that we're talking about in pharmacology?",
+      "zh": "是的。你曾提到，就在一年前，你还在跟自己的咨询客户据理力争，驳斥那种认为“中国研发的药物不过是仿制药”的偏见，而如今这场争论基本上已经尘埃落定。现在的变化幅度着实令人震惊。在药理学领域，你见证了哪些体现这种大逆转的典型例子？"
+    },
+    {
+      "id": 141,
+      "start_sec": 2417,
+      "speaker": "Ruby Wang",
+      "en": "Yeah, I think for those that work in biotech, they've seen this happen gradually over the years. So I write about how China's biotech rise has been decades in the making, even since Deng Xiaoping, putting capital into building industrial parks, tax rebates, land to encourage innovation and science and tech progress.",
+      "zh": "我认为对于深耕生物医药行业的人来说，他们见证了这一渐进式的转变。我在书中写道，中国生物科技的崛起历经数十年积淀，甚至可以追溯到邓小平时代，通过注资兴建产业园区、提供税收返还和土地支持，全力鼓励科技创新与进步。"
+    },
+    {
+      "id": 142,
+      "start_sec": 2445,
+      "speaker": "Ruby Wang",
+      "en": "And that synergy was gradual, but then it became exponential, especially as talent, haigui from abroad, came back. Scientists came home, built their own labs, started building drugs, and then also the presence of Western pharma companies in China manufacturing, enabling copycat, iteration to occur, building capacity.",
+      "zh": "这种协同效应起初是渐进的，但随后呈指数级爆发，尤其是海外“海归”人才回流。科学家们归国建立自己的实验室，开始自主研发新药；与此同时，西方跨国药企在中国设立生产基地，促成了从仿制到迭代创新的跨越，逐步构建起产业产能。"
+    },
+    {
+      "id": 143,
+      "start_sec": 2469,
+      "speaker": "Ruby Wang",
+      "en": "But, you know, all of that happening throughout decades. But then in the past 10 years, 15 years or so, as Chinese haigui, like scientists who were trained in the West, came back to China, and drawn back, too, by incentives, but came back and started building their labs, increasing the talent pool in China, that gradual synergy became exponential.",
+      "zh": "这一切在数十年间不断积蓄力量。而在过去十年、十五年左右的时间里，在西方受过专业训练的中国海归科学家们，受到政策激励的吸引纷纷回国，创立实验室并壮大了本土人才库，那种渐进的协同效应随即演变成爆发式增长。"
+    },
+    {
+      "id": 144,
+      "start_sec": 2496,
+      "speaker": "Ruby Wang",
+      "en": "And then, as Western multinationals began taking root in China, building factories, building manufacturing pipelines, that landscape allowing Chinese companies to learn, at first as copycats, but then building their own capacity as well. And alongside that, China's health system strengthening, clinical infrastructure progressing.",
+      "zh": "随着西方跨国公司在华扎根、建厂并搭建生产线，这一产业环境让中国企业得以学习借鉴，最初是作为模仿者，但随后便建立起自主研发能力。与此相伴随的，是中国医疗卫生体系的不断健全以及临床基础设施的持续进步。"
+    },
+    {
+      "id": 145,
+      "start_sec": 2520,
+      "speaker": "Ruby Wang",
+      "en": "You know, intense commercial competition in the landscape providing iteration and improvement. So all of that accelerating a landscape very gradually and then very quickly.",
+      "zh": "行业内激烈的商业竞争也推动了产品的快速迭代与改进。所有这些因素共同作用，推动整个行业经历了一个先慢后快、呈加速度发展的大转变。"
+    },
+    {
+      "id": 146,
+      "start_sec": 2531,
+      "speaker": "Kaiser Kuo",
+      "en": "Yeah, no, like so many of the other industries in China that we've seen. It's a very, very familiar story. But, you know, there's this sort of explanation that I think I still hear, I'm sure you've encountered as well, this kind of shortcut explanation.",
+      "zh": "是的，正如我们在中国许多其他行业所见到的那样，这完全是一个似曾相识的故事。但我依然经常听到一种解释，我相信你也遇到过，一种抄近道的归因方式。"
+    },
+    {
+      "id": 147,
+      "start_sec": 2544,
+      "speaker": "Kaiser Kuo",
+      "en": "It goes, \"China is fast because China is loose.\" Looser ethics, looser consent, patients in no position to refuse. And underneath that, I think that there's like this older, frankly orientalist idea that, you know, maybe life is worth less over there in China.",
+      "zh": "这种论调称：“中国之所以快，是因为中国监管松。”伦理审查松、知情同意松、患者根本无法拒绝。而在这背后，我认为潜藏着一种更陈旧、坦率地说是东方主义式的偏见，觉得在中国人的生命可能没那么值钱。"
+    },
+    {
+      "id": 148,
+      "start_sec": 2562,
+      "speaker": "Kaiser Kuo",
+      "en": "So, you know, you've given a much more, I think, comprehensive and much more nuanced explanation. But surely regulatory approaches have something to do with it, right? Is there anything to this idea that China's approval processes are faster because Chinese standards for clinical trials are lower? Is there anything to that at all?",
+      "zh": "我认为你给出的解释要全面得多、也细致入微得多。但监管方式肯定也脱不开干系，对吧？“中国审批快是因为临床试验标准低”这种说法，到底有没有哪怕一丁点事实依据？"
+    },
+    {
+      "id": 149,
+      "start_sec": 2586,
+      "speaker": "Ruby Wang",
+      "en": "Well, actually, let me answer your first question, which I didn't finish previously before. So the density and the synergy of the biotech industry, as you said, is the same as other Chinese industries.",
+      "zh": "其实，先让我把刚才还没回答完的第一个问题补充完。正如你所说，生物科技产业的集聚度与协同效应，与中国其他行业并无二致。"
+    },
+    {
+      "id": 150,
+      "start_sec": 2602,
+      "speaker": "Ruby Wang",
+      "en": "Biotech has been compared to the EV industry and now, globally being consequential, compared to semiconductors, compared to AI. But I would say that biotech and life sciences has been slower for the right reasons, because it's so technical and the risks are so high that it's heavily regulated in terms of trials and in terms of progress.",
+      "zh": "人们常将生物科技与如今在全球举足轻重的新能源汽车产业相提并论，也拿它比作半导体和人工智能。但我认为，生物科技与生命科学发展得相对较慢是合乎情理的，因为它的技术门槛极高、风险极大，以至于在临床试验和研发推进方面受到极其严苛的监管。"
+    },
+    {
+      "id": 151,
+      "start_sec": 2625,
+      "speaker": "Ruby Wang",
+      "en": "And that's why it's been coming up after the others, but now finally, because China is growing in power and capacity across all sectors, then biotech is also an area where it's finally coming to light.",
+      "zh": "正因如此，它才落后于其他行业起步。但如今，随着中国各行业综合实力与产能的全面跃升，生物科技这一领域终于也展现出强劲的锋芒。"
+    },
+    {
+      "id": 152,
+      "start_sec": 2639,
+      "speaker": "Ruby Wang",
+      "en": "And there's also a question of perception versus reality. So most people working, investing in biotech have known for a while that China's biotech is growing in capacity. But it's that perhaps the economists or the policymakers or the politicians and the media haven't realized that until the numbers were undeniable.",
+      "zh": "这里还有一个观念认知与客观事实脱节的问题。多数在生物科技领域从业或投资的人，其实早就清楚中国生物科技实力的提升。只是经济学家、政策制定者、政界人士以及媒体，直到面对无可辩驳的数据时才恍然大悟。"
+    },
+    {
+      "id": 153,
+      "start_sec": 2662,
+      "speaker": "Ruby Wang",
+      "en": "So that tenfold from 2021 to 2024 that you mentioned earlier, of the number of out-licensing deals from China over 50 million, from 5% to 50% in the first half of 2024, that's an incredible figure and that you can't deny. So even for skeptics who think, \"Oh, are China's drugs really good, or are they cheap and poor quality?\"",
+      "zh": "正如你刚才提到的，从2021年到2024年，中国对外授权交易数量增长了十倍，首付款超5000万美元的大单占比，从2021年的5%飙升到2024年上半年的50%。这是一个无可否认的惊人数据。即使是那些心存怀疑、猜测“中国的药物是真的好，还是只图便宜质劣”的人，也无法忽视这一点。"
+    },
+    {
+      "id": 154,
+      "start_sec": 2689,
+      "speaker": "Ruby Wang",
+      "en": "The fact that scientists and trials and medical journals, science journals are showing that drug efficacy is this much...",
+      "zh": "事实摆在眼前：科学家、临床试验以及顶级医学与科学期刊的数据都明确证实，这些药物的疗效确实过硬……"
+    },
+    {
+      "id": 155,
+      "start_sec": 2700,
+      "speaker": "Ruby Wang",
+      "en": "Effectiveness, that lack of side effects is this much. We're seeing first-in-class, best-in-class assets that are beating current Western standards.",
+      "zh": "药效如何，副作用减少了多少。我们看到越来越多的首创（first-in-class）和同类最优（best-in-class）药物资产正在超越现有的西方标准。"
+    },
+    {
+      "id": 156,
+      "start_sec": 2710,
+      "speaker": "Ruby Wang",
+      "en": "We're seeing investors put their money in. We're seeing pharma companies who aren't really in the business of making bets that don't work.",
+      "zh": "我们看到投资者正在真金白银地投入。跨国药企向来不做无谓的赌注，"
+    },
+    {
+      "id": 157,
+      "start_sec": 2719,
+      "speaker": "Ruby Wang",
+      "en": "They're only going to put their money in to where they think they're going to make more money in return. So, the most powerful technical indicators are showing that China's drugs are now really very good.",
+      "zh": "他们只会把钱投向预期能带来丰厚回报的地方。因此，最关键的技术指标都表明，中国的创新药如今确实非常出色。"
+    },
+    {
+      "id": 158,
+      "start_sec": 2733,
+      "speaker": "Kaiser Kuo",
+      "en": "Ruby, where, in what categories of drugs would you say China is moving up the chain fastest, and where does it still lag?",
+      "zh": "Ruby，在你看来，在哪些药物领域，中国沿着价值链向上攀升的速度最快？又在哪些领域依然相对滞后？"
+    },
+    {
+      "id": 159,
+      "start_sec": 2742,
+      "speaker": "Ruby Wang",
+      "en": "Yeah. So, currently, the strongest area I would say is probably cancer drugs, oncology.",
+      "zh": "好的。目前来看，最强势的领域大概是抗肿瘤药，也就是肿瘤学。"
+    },
+    {
+      "id": 160,
+      "start_sec": 2748,
+      "speaker": "Ruby Wang",
+      "en": "That's partly because there's a longer productive environment for it. The copycats I mentioned before, the skill set required to make certain types of cancer drugs, those skill sets have been developed for a longer time.",
+      "zh": "部分原因在于该领域拥有更悠久的产业积累。正如我之前提到的仿制药，研发特定抗癌药所需的技能体系，在中国已经磨练了相当长的时间。"
+    },
+    {
+      "id": 161,
+      "start_sec": 2768,
+      "speaker": "Ruby Wang",
+      "en": "There are certain categories within that, for example, ADCs, or cell therapies, or biologics, which are new challenges globally for scientists.",
+      "zh": "其中还包含一些细分赛道，比如抗体偶联药物（ADC）、细胞疗法或生物药，这些在全球范围内对科学家而言都是崭新的前沿课题。"
+    },
+    {
+      "id": 162,
+      "start_sec": 2781,
+      "speaker": "Ruby Wang",
+      "en": "So, using precision medicine, using human tissue to define more specific ways to target cells, and that is a difficult challenge, like unsolved, but China's working very hard to produce drugs that can tackle those mechanisms.",
+      "zh": "例如利用精准医疗和人体组织来确定更特异的细胞靶向机制。这本身就是极具挑战且尚未攻克的难题，但中国正竭力研发能够攻克这些靶点的药物。"
+    },
+    {
+      "id": 163,
+      "start_sec": 2799,
+      "speaker": "Ruby Wang",
+      "en": "I would say metabolic drugs, so like GLP-1s, you know, we know Ozempic, Mounjaro, that's a very exciting area.",
+      "zh": "此外还有代谢类药物，比如像司美格鲁肽（Ozempic）、替尔泊肽（Mounjaro）这类GLP-1受体激动剂，这是个非常令人兴奋的领域。"
+    },
+    {
+      "id": 164,
+      "start_sec": 2810,
+      "speaker": "Ruby Wang",
+      "en": "Still led by global competitors like Eli Lilly and Novo Nordisk, but China's producing very cheap GLP-1s and actively producing new types, dual-action, triple-action mechanisms, which are very exciting.",
+      "zh": "虽然目前仍由礼来（Eli Lilly）和诺和诺德（Novo Nordisk）等跨国巨头主导，但中国正在制造极具成本优势的GLP-1，并积极研发双靶点、三靶点等全新作用机制，前景非常值得期待。"
+    },
+    {
+      "id": 165,
+      "start_sec": 2828,
+      "speaker": "Ruby Wang",
+      "en": "And we see that being recognized because we've seen Eli Lilly, the world's leader in GLP-1s, sign massive multi-billion-dollar deals with Chinese companies to get access to Chinese versions.",
+      "zh": "这种突破已经得到了业界的认可——作为全球GLP-1领域的龙头，礼来已经与多家中国药企达成了数十亿美元的巨额对外授权合作，以获取中国管线的权益。"
+    },
+    {
+      "id": 166,
+      "start_sec": 2841,
+      "speaker": "Ruby Wang",
+      "en": "And then another area I would say is up-and-coming, but still progressing slower, is immunology, again because it's so difficult. It's so specific and needs such dense expertise that not only China, but the world is lacking in.",
+      "zh": "另一个正在兴起但进展相对较慢的领域是免疫学，这同样是因为研发难度极高。它高度特异，且需要极高密度的专业积累，这不仅是中国，也是全世界普遍欠缺的。"
+    },
+    {
+      "id": 167,
+      "start_sec": 2861,
+      "speaker": "Ruby Wang",
+      "en": "But, you know, we can predict that across all of these areas and others, as the world's science is progressing, then China will be actively progressing, too.",
+      "zh": "但可以预见的是，在所有这些甚至更多领域中，随着全球科学的推进，中国也必将积极并肩向前。"
+    },
+    {
+      "id": 168,
+      "start_sec": 2871,
+      "speaker": "Ruby Wang",
+      "en": "And then in terms of speed, I think this is such an interesting question, and I'm always very unsatisfied by the answer I get.",
+      "zh": "至于研发速度，我认为这是个极其耐人寻味的话题，而且我总觉得目前外界给出的答案并不能令人信服。"
+    },
+    {
+      "id": 169,
+      "start_sec": 2880,
+      "speaker": "Dr. Ruby Wang",
+      "en": "So, you know, as I consult and work with biotech companies, you know, do investor-facing analysis, you know, everyone's very interested in, what are the specific factors that are making China good and fast and efficient and scalable?",
+      "zh": "在我和生物科技公司合作提供咨询，或者做面向投资者的分析时，大家其实都非常好奇：究竟是哪些具体因素让中国能够做到既优质、快速、高效，又具备极强的可扩展性？"
+    },
+    {
+      "id": 170,
+      "start_sec": 2896,
+      "speaker": "Dr. Ruby Wang",
+      "en": "And some of that we can explain. You know, scale, there's population, there's lots of patients to test on, there's lots of scientists to work on this.",
+      "zh": "其中一部分是可以解释的。比如规模效应，中国人口庞大，有海量的临床试验患者资源，也有大批科研人员投入其中。"
+    },
+    {
+      "id": 171,
+      "start_sec": 2904,
+      "speaker": "Dr. Ruby Wang",
+      "en": "But in terms of the speed, when it comes down to it, what makes a trial run faster? What makes it more efficient? The answer that seems to come up is really something like, Chinese people work hard.",
+      "zh": "但在速度方面，追根究底的话，究竟是什么让临床试验跑得更快、效率更高？经常得到的答案听上去往往是：中国人干活拼命。"
+    },
+    {
+      "id": 172,
+      "start_sec": 2917,
+      "speaker": "Dr. Ruby Wang",
+      "en": "You know, and that that sounds very unsatisfying, because you can't really clamp down on it. Maybe you can find some data, maybe you can—",
+      "zh": "这种解释听上去很难让人满意，因为你无法真正量化和把握它。也许你能找到某些数据，也许你能——"
+    },
+    {
+      "id": 173,
+      "start_sec": 2926,
+      "speaker": "Kaiser Kuo",
+      "en": "Well, there there is. I mean, it's a labor-intensive process running a clinical trial, right? I mean, you need a lot of people working a lot of hours, you know, organizing a lot of participants, and I imagine that's just the sort of thing that China does well.",
+      "zh": "但确实存在这种因素。开展临床试验本来就是一项劳动密集型的工作，对吧？你需要大量人手投入超长工时，组织协调众多受试者，我想这恰好是中国非常擅长的领域。"
+    },
+    {
+      "id": 174,
+      "start_sec": 2940,
+      "speaker": "Dr. Ruby Wang",
+      "en": "Yes. But then, you know, the flip side of that is, are we really saying that Western people don't work hard? You know, are they being lazy in turn? And maybe that's not how we should frame it.",
+      "zh": "是的。但反过来看，难道我们是在说西方人工作不努力、在偷懒吗？或许我们不该这样去定性。"
+    },
+    {
+      "id": 175,
+      "start_sec": 2951,
+      "speaker": "Dr. Ruby Wang",
+      "en": "It's more like China's sort of optimized efficiency, whether its workers want to or not, putting in those hours, you know, doing things quickly. And somehow those human factors then condense to really, really solid returns and statistically relevant outcomes.",
+      "zh": "更确切地说，中国建立起了一种经过极致优化的效率体系，无论员工情愿与否，都会投入海量工时快速推进，而这些人为因素最终凝结成了极其扎实的回报和具备统计学意义的成果。"
+    },
+    {
+      "id": 176,
+      "start_sec": 2970,
+      "speaker": "Dr. Ruby Wang",
+      "en": "Obviously, we can talk about the role of technology as well, now that we have AI-enabled drug discovery, how much that is accelerating processes. But then I would caveat and say China's AI-enabled drug factors aren't superior to the West.",
+      "zh": "当然，我们也可以探讨技术的作用，比如现在有了人工智能赋能的药物研发，它在很大程度上加速了流程。但我必须提醒一句，中国在AI制药方面的能力并没有超越西方。"
+    },
+    {
+      "id": 177,
+      "start_sec": 2986,
+      "speaker": "Dr. Ruby Wang",
+      "en": "I think it's only doing in drug discovery using AI what the rest of the world is doing. It's not doing it better so far, so that doesn't quite explain the tech angle. But yeah, the human factor is interesting.",
+      "zh": "我认为它在AI药物研发上只是跟上了全球的步伐，目前并没有做得更好，所以单纯从技术角度解释不通。不过，人的因素确实非常耐人寻味。"
+    },
+    {
+      "id": 178,
+      "start_sec": 2999,
+      "speaker": "Kaiser Kuo",
+      "en": "Yeah. But despite the publications and the patents and the out-licensing deals, China still only has about 4.8% of the global biotech market, or it did in 2024, against what is like 35% for the United States.",
+      "zh": "确实。不过尽管发表了大量论文、拥有众多专利和对外授权交易，中国在2024年全球生物科技市场中的占比仍仅有4.8%左右，而美国则高达约35%。"
+    },
+    {
+      "id": 179,
+      "start_sec": 3014,
+      "speaker": "Kaiser Kuo",
+      "en": "So obviously something's still holding it back from capturing like the full value. I want to ask you about, despite the United States still having such a commanding share, what we're seeing in the United States is a lot of worry about China.",
+      "zh": "显然还有某些因素制约着中国获取完整的价值链。我想问的是，尽管美国仍占据如此绝对的主导地位，但我们在美国看到的却是对中国充满忧虑。"
+    },
+    {
+      "id": 180,
+      "start_sec": 3034,
+      "speaker": "Dr. Ruby Wang",
+      "en": "So Ruby, give me your honest read on BIOSECURE, the American legislation that would bar federal agencies and contractors from doing business with an actual named list of Chinese biotech firms, including BGI and WuXi AppTec, some of the really big ones.",
+      "zh": "Ruby，请坦率谈谈你对《生物安全法案》（BIOSECURE Act）的看法。这项美国立法旨在禁止联邦机构及承包商与一份点名的中国生物科技企业名单开展业务，其中包括华大基因（BGI）和药明康德（WuXi AppTec）等领军巨头。"
+    },
+    {
+      "id": 181,
+      "start_sec": 3051,
+      "speaker": "Kaiser Kuo",
+      "en": "Is it more about protecting the health of the American public, or is it more about protecting the American pharmaceutical industry, something like that?",
+      "zh": "这究竟更多是为了保护美国公众的健康，还是为了保护美国制药产业的利益？"
+    },
+    {
+      "id": 182,
+      "start_sec": 3060,
+      "speaker": "Kaiser Kuo",
+      "en": "And maybe more like national pride? What is driving a piece of legislation like BIOSECURE? Is it good-faith national security concerns, or something different?",
+      "zh": "还是说更多是出于某种民族自豪感？像《生物安全法案》（BIOSECURE Act）这样的立法背后驱动力到底是什么？是出于善意的国家安全考量，还是另有隐情？"
+    },
+    {
+      "id": 183,
+      "start_sec": 3072,
+      "speaker": "Ruby Wang",
+      "en": "Yeah, I would say definitely national security concerns. And it's another case where I think the politics of things are impacting the science. So BIOSECURE is all about reducing US federal dependence on specified Chinese suppliers, biotech suppliers, and that's ongoing.",
+      "zh": "是的，我认为绝对有国家安全方面的担忧。这又是政治干预科学的典型案例。《生物安全法案》的核心主旨就是减少美国联邦政府对特定中国供应商——即生物技术供应商——的依赖，而且这一进程还在持续。"
+    },
+    {
+      "id": 184,
+      "start_sec": 3097,
+      "speaker": "Ruby Wang",
+      "en": "But then now, you know, the COINS Act, which is separate and not health sector-specific, which looks at the broader outbound investments, covering semiconductors, quantum, and types of AI, and not specifically biotech.",
+      "zh": "但现在又出现了《COINS法案》（COINS Act），这是一项独立的法案，并非针对医疗健康领域，而是着眼于更广泛的对外投资限制，涵盖了半导体、量子技术以及部分人工智能，并非专门针对生物技术。"
+    },
+    {
+      "id": 185,
+      "start_sec": 3115,
+      "speaker": "Ruby Wang",
+      "en": "But then the new BINSA—I don't know if you pronounce it right, B-I-N-S-A proposal, would extend the COINS logic more directly into biotech and the out-licensing deals we were talking about.",
+      "zh": "但随后提出的新法案 BINSA（我不确定读音是否准确，拼作 B-I-N-S-A）则会将《COINS法案》的监管逻辑更直接地延伸至生物技术领域，以及我们刚才讨论的那些对外授权交易。"
+    },
+    {
+      "id": 186,
+      "start_sec": 3128,
+      "speaker": "Ruby Wang",
+      "en": "I think there are several implications. First is that it impacts American companies negatively. You know, we talked earlier about how, you know, Western pharmaceuticals, multinational companies, their business model is to source the best drug assets from around the world, integrate them into their own company, and then market them and make money from them.",
+      "zh": "我认为这会带来几重影响。首先，它会对美国本土企业产生负面冲击。我们之前聊到过，西方跨国药企的商业模式就是在全球范围内搜罗最优质的新药资产，纳入自家管线，然后推进商业化上市并从中获利。"
+    },
+    {
+      "id": 187,
+      "start_sec": 3154,
+      "speaker": "Ruby Wang",
+      "en": "It just so happens that the very good science is now coming from China, so of course a greater proportion of their deals are coming from China. But then because they've signed with China, if not able to make money from those deals, then they will lose out in the long term.",
+      "zh": "恰好现在许多极佳的前沿科研成果来自中国，因此他们自然有很大一部分交易转向了中国。但如果他们与中国达成合作后却无法从中变现，长远来看吃亏的将是他们自己。"
+    },
+    {
+      "id": 188,
+      "start_sec": 3169,
+      "speaker": "Ruby Wang",
+      "en": "And it's an urgent risk, because many of them have looming patent cliffs. And so they really need to make sure that they don't have massive drops in revenue when those patent cliffs come into play by 2030. So US companies will lose out from, you know, these acts.",
+      "zh": "而且这种风险迫在眉睫，因为许多药企即将迎来严峻的“专利悬崖”。因此，他们必须确保在2030年左右专利到期潮来临时，营业收入不至于出现断崖式下跌。所以从这些法案来看，美国企业反而是受害者。"
+    },
+    {
+      "id": 189,
+      "start_sec": 3190,
+      "speaker": "Ruby Wang",
+      "en": "But also Chinese companies, I think the risk is actually lesser. Because they might risk losing access to US markets, and a very valuable licensing partners that help them commercialize. They are currently getting extremely good at building drugs, but many of them are immature in terms of kind of market maturity, so they don't have the commercialization capacity in-house for the China market, let alone global markets.",
+      "zh": "而对于中国企业来说，我认为实际风险反而较小。虽然他们可能会面临失去美国市场的风险，并失去那些极具价值、能帮他们推进商业化的授权合作伙伴——目前中国企业在研发制药方面已极其擅长，但在市场成熟度方面大多尚显稚嫩，在本土市场都缺乏足够的自主商业化能力，更不用说全球市场了。"
+    },
+    {
+      "id": 190,
+      "start_sec": 3223,
+      "speaker": "Ruby Wang",
+      "en": "Where they don't have the networks, they don't have the regulatory expertise to know what the FDA wants in the USA, they don't, you know, know how to work with US hospital providers, and they really need to lean on Western multinationals who they've out-licensed to.",
+      "zh": "在海外，他们既没有现成的渠道网络，也缺乏熟谙美国 FDA 监管要求的合规经验，更不清楚如何与美国的医院及医疗机构打交道。他们确实需要严重依赖那些获得了其对外授权的西方跨国企业。"
+    },
+    {
+      "id": 191,
+      "start_sec": 3240,
+      "speaker": "Ruby Wang",
+      "en": "to get that market share. Even though, in those deals, they'll get a forward payment, and then their royalty percentage might actually be very low. But that was kind of the trade-off that they were willing to make.",
+      "zh": "为了拿到那部分市场份额。即便在这些交易中，他们会拿到一笔首付款，但后续的分成比例可能其实非常低。不过这也是他们愿意做出的某种妥协。"
+    },
+    {
+      "id": 192,
+      "start_sec": 3252,
+      "speaker": "Ruby Wang",
+      "en": "And then, of course, the most important impact, for me, is kind of for patients. Populations everywhere are the same, everyone is suffering from disease and illness.",
+      "zh": "当然，对我来说最重要的影响还是在于患者。各地的民众都是一样的，每个人都在遭受疾病和伤痛的折磨。"
+    },
+    {
+      "id": 193,
+      "start_sec": 3263,
+      "speaker": "Ruby Wang",
+      "en": "And if these acts might mean, in the future, that a Chinese drug is not allowed into the US because of political reasons, and that means a US patient can't get access to the life-saving drug they need in their own home country, what does that mean?",
+      "zh": "如果这些法案意味着，未来一款中国药物仅仅因为政治原因而无法进入美国，进而导致美国患者在自己的国家无法获得所需的救命药，那意味着什么？"
+    },
+    {
+      "id": 194,
+      "start_sec": 3283,
+      "speaker": "Ruby Wang",
+      "en": "It might mean they're going to travel to another country to get access to that care. And to be honest, we're seeing that already today. There was an article in the Wall Street Journal a few days ago about medical tourism into China.",
+      "zh": "这可能意味着他们不得不远赴他国去寻求这种治疗。老实说，我们现在就已经看到这种苗头了。《华尔街日报》几天前就发表过一篇关于前往中国进行医疗旅游的报道。"
+    },
+    {
+      "id": 195,
+      "start_sec": 3298,
+      "speaker": "Ruby Wang",
+      "en": "I mean, not because of what we're talking about, not because of these political reasons, but because China is producing really good healthcare that even Americans are willing to travel to to get. And we might see that trend increasing as different types of pressures are impacting US healthcare.",
+      "zh": "我的意思是，那倒不是因为我们刚才讨论的那些政治原因，而是因为中国正在提供非常优质的医疗服务，连美国人都愿意专程前往就医。随着各种压力对美国医疗体系产生冲击，我们可能会看到这种趋势进一步加剧。"
+    },
+    {
+      "id": 196,
+      "start_sec": 3314,
+      "speaker": "Kaiser Kuo",
+      "en": "Ruby, I want to talk about the digital system, because you spend quite a bit of your book talking about this. You've practiced in the NHS, obviously; you've worked inside a Chinese health platform. Take me through the state of digitization in three systems: in Britain, in the US, where you've spent some time, and in China. What's each getting right, and where does each seem to get stuck?",
+      "zh": "Ruby，我想聊聊数字化系统，因为你在书中花了不少篇幅讨论这个问题。你显然在英国 NHS 工作过，也在中国的医疗平台任职过。请为我梳理一下这三个体系的数字化现状：英国、你待过一段时间的美国，以及中国。各自做对了什么，又都在哪里卡了壳？"
+    },
+    {
+      "id": 197,
+      "start_sec": 3334,
+      "speaker": "Ruby Wang",
+      "en": "Maybe I'll start at home, so here in the UK. The NHS is really struggling to digitize. I think there's been a lot of good work done, but it's sort of, if you're trying to add on new shiny tools and clamp them to the side of a very rusty machine, then how far are you going to be able to get?",
+      "zh": "也许我可以先从英国本地谈起。NHS 在数字化转型方面步履维艰。我认为这里面已经做了不少扎实的工作，但这有点像：如果你试图把崭新光鲜的工具硬生生拼接到一台锈迹斑斑的老机器上，你究竟能走多远？"
+    },
+    {
+      "id": 198,
+      "start_sec": 3354,
+      "speaker": "Kaiser Kuo",
+      "en": "Yeah, so it's a really basic problem. It's the machine itself. It's the infrastructure that's really lacking.",
+      "zh": "是的，所以这是个很基础的问题。问题出在机器本身，真正匮乏的是基础设施。"
+    },
+    {
+      "id": 199,
+      "start_sec": 3360,
+      "speaker": "Ruby Wang",
+      "en": "Yeah, the infrastructure. How can you take it aside, break it down, and make it better? It's really, really difficult to do. Not to mention the fact that the NHS is a mostly public system model.",
+      "zh": "对，基础设施。你怎么可能把它拆开、分解然后再重新优化？这真的非常非常难做。更不用提 NHS 基本上是一个公立医疗体系模型了。"
+    },
+    {
+      "id": 200,
+      "start_sec": 3371,
+      "speaker": "Ruby Wang",
+      "en": "And so who is going to fund these innovative changes when you've got disease and death happening? The argument for injecting capital into the right parts of healthcare to make the necessary system changes is very difficult. There's lots of bureaucracy.",
+      "zh": "面对眼前不断的疾病与死亡，谁又来为这些创新变革买单呢？要主张把资金注入医疗体系的关键环节以完成必要的系统性改革，是非常困难的。体制内存在着繁文缛节。"
+    },
+    {
+      "id": 201,
+      "start_sec": 3389,
+      "speaker": "Ruby Wang",
+      "en": "The way the system is set up, it's very difficult to pilot digital tools at local level and then scale them. You have to do different contracts with different people. It's very, very complicated.",
+      "zh": "按照目前的体系架构，很难在地方层面试点数字化工具并予以规模化推广。你必须跟形形色色的人签不同的合同，情况极其复杂。"
+    },
+    {
+      "id": 202,
+      "start_sec": 3401,
+      "speaker": "Ruby Wang",
+      "en": "And that means that even though the digital health innovation ecosystem, because the UK's kind of science talent, the legacy of it is still so strong, you have a lot of cool stuff being built here, but then they go elsewhere because they can't grow. And so that takes us to the US system, where it's very...",
+      "zh": "这意味着，尽管数字医疗创新生态方面——英国由于雄厚的科研人才储备和历史底蕴——诞生了许多非常酷的技术，但由于无法在此壮大，它们最终都流向了他国。这也就引出了美国体系，在那里情况截然..."
+    },
+    {
+      "id": 203,
+      "start_sec": 3420,
+      "speaker": "Ruby Wang",
+      "en": "balanced. It's a very capitalist health system, which is certainly not a model that the rest of the world is looking to, you know, take on. But it works very well for the private sector actors that want to make money from it.",
+      "zh": "平衡。它是一个高度资本主义化的医疗体系，这绝对不是世界其他地方想要借鉴的模式。但对于那些想从中赚钱的私营部门参与者来说，它运转得非常好。"
+    },
+    {
+      "id": 204,
+      "start_sec": 3427,
+      "speaker": "Kaiser Kuo",
+      "en": "No, indeed.",
+      "zh": "确实如此。"
+    },
+    {
+      "id": 205,
+      "start_sec": 3433,
+      "speaker": "Ruby Wang",
+      "en": "People pay out of pocket exorbitant costs. You have private hospital chains. A digital health company can go to the US from the UK and grow really, really fast, have investor capital, have contracts, make money from patients and consumers.",
+      "zh": "人们自掏腰包支付高昂的费用。那里有私立连锁医院。一家数字医疗公司可以从英国去到美国并实现极快速的增长，获得投资资本、拿下合同，并从患者和消费者身上赚取利润。"
+    },
+    {
+      "id": 206,
+      "start_sec": 3449,
+      "speaker": "Ruby Wang",
+      "en": "So digital kind of health progress in the US moves very quickly, but it's very siloed because the public system, Medicare, Medicaid, there's many inequalities, and many patients won't be able to access.",
+      "zh": "因此，美国在数字医疗方面的进展非常迅速，但极其孤立割裂，因为公共系统（Medicare 与 Medicaid）存在诸多不平等，许多患者根本无法获得这些服务。"
+    },
+    {
+      "id": 207,
+      "start_sec": 3463,
+      "speaker": "Ruby Wang",
+      "en": "And also, I think in the US, as well as in the UK, what we talked about earlier, which is the consumers' attitude towards technology and privacy and data sensitivity is very strong. And so happiness to share, although I guess we can caveat with they're happy to share with big tech companies, so I don't know.",
+      "zh": "而且我认为，在美国以及英国，就像我们之前讨论过的，消费者对科技、隐私和数据敏感性的态度非常坚决。因此对于数据共享的意愿——尽管我认为可以补充一点，他们倒是乐意同科技巨头分享，所以我也说不准。"
+    },
+    {
+      "id": 208,
+      "start_sec": 3484,
+      "speaker": "Kaiser Kuo",
+      "en": "Sure.",
+      "zh": "确实。"
+    },
+    {
+      "id": 209,
+      "start_sec": 3485,
+      "speaker": "Ruby Wang",
+      "en": "Maybe maybe we don't talk about that so much. It's difficult. I'm like I'm not the best expert at explaining the nuances.",
+      "zh": "或许我们不用在这上面花太多篇幅。这很难说清，我可能并不是阐释这些细微差别的最佳专家。"
+    },
+    {
+      "id": 210,
+      "start_sec": 3490,
+      "speaker": "Kaiser Kuo",
+      "en": "Ruby, thus far, you have given us two very good microcosmic representations of the whole societies. The UK, I'm not surprised, and the US, I'm not surprised at all to hear that you have very well-funded, very innovative digital health initiatives in the United States that find purchase, that find a large market, but that it's terribly unequal and that access is not...",
+      "zh": "Ruby，到目前为止，你为我们提供了两个微缩版的全社会绝佳样本。英国的情况我不意外；而听到美国拥有资金极充沛、极具创新的数字医疗项目，并且找到了买家、打开了庞大市场，但我一点也不感到惊讶的是，它极其不平等，获取渠道也并不……"
+    },
+    {
+      "id": 211,
+      "start_sec": 3516,
+      "speaker": "Kaiser Kuo",
+      "en": "So, let's move on to China, which is of course what we're most interested in for our purposes on this show. Tell me how things are going with digital healthcare in China. So you worked at AliHealth. They're one of the leaders, at the very forefront of this. What's it like in China at this point?",
+      "zh": "那么，我们来聊聊中国吧，这当然是本期节目最关注的核心。请跟我讲讲中国的数字医疗现状如何。你曾就职于阿里健康，他们是该领域的领军者之一，处于最前沿。目前中国的情况是怎样的？"
+    },
+    {
+      "id": 212,
+      "start_sec": 3533,
+      "speaker": "Ruby Wang",
+      "en": "Yeah, in China, I would say it's probably the most mature digital health ecosystem in the world right now. That makes sense because every part of life is digital in China, so of course health is as well. Governance expects it, you know, the population expects it.",
+      "zh": "在中国，我认为它目前可能是全球最成熟的数字医疗生态系统。这完全说得通，因为在中国生活的方方面面都已实现数字化，医疗自然也不例外。政府治理有此预期，老百姓也有此预期。"
+    },
+    {
+      "id": 213,
+      "start_sec": 3551,
+      "speaker": "Ruby Wang",
+      "en": "So if you order deliveries on your app, you access tools on your app, you do everything online through WeChat or whatever, then you would expect to be able to access health services as another type of service in your daily life, too, through digital means.",
+      "zh": "所以，如果你在 App 上点外卖、使用各种工具，通过微信等平台在网上处理一切事务，那么你自然也会期望能通过数字化手段，像获取日常生活中其他服务一样获取医疗服务。"
+    },
+    {
+      "id": 214,
+      "start_sec": 3559,
+      "speaker": "Kaiser Kuo",
+      "en": "Sure.",
+      "zh": "当然。"
+    },
+    {
+      "id": 215,
+      "start_sec": 3568,
+      "speaker": "Ruby Wang",
+      "en": "And so almost every physical health provider would likely have an online version, whether that's a smart hospital, internet clinic, cloud clinic, or otherwise.",
+      "zh": "因此，几乎每家实体医疗机构都可能有线上版本，无论是智慧医院、互联网诊所、云诊所还是其他形式。"
+    },
+    {
+      "id": 216,
+      "start_sec": 3581,
+      "speaker": "Ruby Wang",
+      "en": "And you can certainly book onto it, get results from it, even order your drugs on it and have them delivered to you very quickly and get your insurance from it, too.",
+      "zh": "你完全可以在上面挂号、查看检查结果，甚至在上面开药并极速送达，还能直接走医保结算。"
+    },
+    {
+      "id": 217,
+      "start_sec": 3591,
+      "speaker": "Kaiser Kuo",
+      "en": "So, so far, all of that sounds extremely reasonable and just simply added efficiencies, right, in the delivery of health services. But it goes beyond that.",
+      "zh": "到目前为止，所有这些听起来都极其顺理成章，只是在医疗服务提供过程中提升了效率，对吧？但它的意义远不止于此。"
+    },
+    {
+      "id": 218,
+      "start_sec": 3597,
+      "speaker": "Ruby Wang",
+      "en": "Yeah.",
+      "zh": "是的。"
+    },
+    {
+      "id": 219,
+      "start_sec": 3600,
+      "speaker": "Kaiser Kuo",
+      "en": "In China, so you have this situation where you have more than a thousand senior Chinese clinicians who have licensed digital versions of themselves, these digital avatars, to this company, again, affiliated with Alibaba, Ant-afu.",
+      "zh": "在中国，目前出现了一种情况：超过一千名中国资深临床医生将自己的数字分身、数字化身授权给了这家同样隶属于阿里巴巴体系的公司——蚂蚁阿福。"
+    },
+    {
+      "id": 220,
+      "start_sec": 3615,
+      "speaker": "Kaiser Kuo",
+      "en": "So these avatars are trained on their own, the clinician's own records and their own practice, and then patients consult with them directly. You have like virtual, I imagine, appointments with with these avatars.",
+      "zh": "这些数字分身利用医生自己的病历记录和临床经验进行训练，然后患者可以直接向他们问诊。我猜患者就像是和这些数字人进行线上预约看诊。"
+    },
+    {
+      "id": 221,
+      "start_sec": 3627,
+      "speaker": "Kaiser Kuo",
+      "en": "And so you met a guy, a cardiologist, Dr. Li, who's in your book, and he's really gone all in on this, right? What's his reasoning? What actually happens in one of these consultations? Can you walk us through? I don't get a really clear sense of what that experience is like.",
+      "zh": "你在书里提到过你见过的一位心脏科医生李医生，他真的一头扎进了这套模式里，对吧？他的逻辑是什么？在这样的问诊中究竟会发生什么？你能带我们了解一下吗？我对那种就诊体验还没有特别清晰的画面感。"
+    },
+    {
+      "id": 222,
+      "start_sec": 3646,
+      "speaker": "Ruby Wang",
+      "en": "Yeah, it's so interesting. So, Ant-afu, which is the hottest digital health app now in China, and that's an incredible feat because there've been many digital health apps in China for almost a decade now. But for this company to come in as a newbie and then win so quickly within about a year is because it's doing pretty innovative things.",
+      "zh": "对，这非常耐人寻味。蚂蚁阿福是目前中国最火的数字医疗 App。这确实是个不可思议的成就，因为数字医疗类 App 在中国已经存在近十年了。但这家公司作为后来者入局，却在一年左右的时间里迅速拔得头筹，原因在于他们做的事情极具创新性。"
+    },
+    {
+      "id": 223,
+      "start_sec": 3666,
+      "speaker": "Ruby Wang",
+      "en": "So firstly, its strength is that it was built on China's fintech app, Ant Financial. And linking healthcare to money is what the secret is.",
+      "zh": "首先，它的核心优势在于它是构建在中国的金融科技应用——蚂蚁集团之上的。将医疗健康与支付端打通，这正是关键秘诀所在。"
+    },
+    {
+      "id": 224,
+      "start_sec": 3679,
+      "speaker": "Ruby Wang",
+      "en": "When you have the insurance flow through, when you have capital and money there to solidify any health service, then that's kind of the only way it can succeed. Whereas you can have any type of digital health app anywhere, no matter the quality of service it provides, if there isn't a paying point, then how are you going to win? So I think that's kind of the secret sauce there.",
+      "zh": "一旦打通了医保或商保的资金流，有了资本和资金支撑去夯实各项医疗服务，这几乎是唯一能跑通的商业闭环。否则，你在任何地方做任何数字健康应用，无论服务质量多好，要是没有变现和支付节点，你拿什么胜出？所以我觉得这是他们的一大秘方。"
+    },
+    {
+      "id": 225,
+      "start_sec": 3701,
+      "speaker": "Ruby Wang",
+      "en": "But then the other part that you just mentioned is so interesting. So Ant-afu, and it wasn't the first to do it, to try, but it's the first to do it at this scale and do it successfully, and do such successful PR around it, too.",
+      "zh": "但你刚才提到的另一点也极其有意思。蚂蚁阿福虽然不是第一个尝试这种模式的，但它是第一个把规模做到这么大、做得如此成功，并且品牌公关也打得极为响亮的一家。"
+    },
+    {
+      "id": 226,
+      "start_sec": 3714,
+      "speaker": "Ruby Wang",
+      "en": "So successfully getting China's most senior expert, renowned doctors in any specialty to sign on, in some cases, upload their own patient records anonymized as evidence of their expertise and training and decision-making onto the platform.",
+      "zh": "他们成功吸引了中国各专科领域最顶尖、最权威的专家名医签约入驻，有些医生甚至将经过脱敏处理的真实病历上传到平台，作为体现其专业知识、临床训练与决策能力的训练数据。"
+    },
+    {
+      "id": 227,
+      "start_sec": 3734,
+      "speaker": "Ruby Wang",
+      "en": "Or other of these doctors, they might be doctor influencers, and then they upload their videos and content onto the app. It's kind of like diversed the data input they put onto the platform. But then they do that and allow AI avatar versions of themselves to be created and utilized on the platform.",
+      "zh": "另外一些医生本身可能是医学大 V，他们会把科普视频和内容上传到应用中。这使得输入平台的数据来源非常多元。他们在完成这些数据注入的同时，授权平台生成自己的 AI 数字人分身并投入运营。"
+    },
+    {
+      "id": 228,
+      "start_sec": 3755,
+      "speaker": "Kaiser Kuo",
+      "en": "So the AI has been trained on this corpus of their own clinical practice. Fascinating.",
+      "zh": "所以这个 AI 是用他们个人的临床实践语料库训练出来的。太有意思了。"
+    },
+    {
+      "id": 229,
+      "start_sec": 3761,
+      "speaker": "Ruby Wang",
+      "en": "Yeah. And you can click through as a patient and consumer, you can click through to the AI chatbot doctor you want, and it'll come up with their photo, and their name, and you can talk to that AI bot who is the AI Dr. Li and get advice, which is...",
+      "zh": "是的。作为患者或用户，你可以点击进入你想咨询的 AI 聊天医生界面，上面会显示他们的照片和姓名，你可以直接与这位 AI 版的“李医生”对话并获取医疗建议，这……"
+    },
+    {
+      "id": 230,
+      "start_sec": 3780,
+      "speaker": "Ruby Wang",
+      "en": "Are they specific to their expertise as much as possible? And I think conceptually that whole concept is incredible to many of us because, you know, as a doctor myself, I know that none of my colleagues in the UK would ever agree to something like this.",
+      "zh": "它们是否尽可能贴合医生的专业领域？我认为从概念上讲，这种模式对我们很多人来说简直难以置信。因为我自己就是医生，我知道我在英国的同行绝不可能同意这样的事情。"
+    },
+    {
+      "id": 231,
+      "start_sec": 3797,
+      "speaker": "Kaiser Kuo",
+      "en": "Would you?",
+      "zh": "你会同意吗？"
+    },
+    {
+      "id": 232,
+      "start_sec": 3799,
+      "speaker": "Ruby Wang",
+      "en": "It's a good question. I, I perhaps would, and the reason is because I know that in reality the risks are so low. Because in some ways this whole endeavor is a massively successful PR strategy.",
+      "zh": "问得好。我……我也许会同意。原因在于，我知道实际上风险非常低。因为在某种程度上，这整套做法是一场极其成功的公关策略。"
+    },
+    {
+      "id": 233,
+      "start_sec": 3817,
+      "speaker": "Ruby Wang",
+      "en": "Because despite the risks that you can imagine, the regulations actually protect most of the risks. So in China, you cannot get an initial diagnosis or initial treatment scenario online. It always has to be in person with a real doctor.",
+      "zh": "因为尽管你能想象到种种风险，但监管规定实际上兜住了大部分隐患。在中国，你无法在网上完成初诊或初次治疗方案的制定，初诊必须由真人医生当面进行。"
+    },
+    {
+      "id": 234,
+      "start_sec": 3835,
+      "speaker": "Kaiser Kuo",
+      "en": "I see, I see. There are still hard limits drawn around.",
+      "zh": "明白了，懂了。周围依然划定了严格的红线。"
+    },
+    {
+      "id": 235,
+      "start_sec": 3838,
+      "speaker": "Ruby Wang",
+      "en": "Yeah, hard limits. So from the patient's side, you get the perception of, you know, expertise from a specialist that you're paying for more. From the platform's point of view, you're making a lot more money and building your brand. But from the doctor's point of view, you're protected by, you know, ongoing regulatory mechanisms.",
+      "zh": "对，严格的红线。所以从患者的角度来看，你感受到了多花钱挂号的专家所提供的专业服务；从平台的角度来看，既赚到了更多钱，又打造了品牌；而从医生的角度来看，又有现行的监管机制提供保护。"
+    },
+    {
+      "id": 236,
+      "start_sec": 3855,
+      "speaker": "Ruby Wang",
+      "en": "So it's really a glorified, you know, glorified ChatGPT, glorified DeepSeek with lower risks than you can imagine.",
+      "zh": "所以它本质上就是一个美化版的……美化版的ChatGPT，美化版的DeepSeek，其风险其实远比你想象的要低。"
+    },
+    {
+      "id": 237,
+      "start_sec": 3866,
+      "speaker": "Kaiser Kuo",
+      "en": "Okay, because I remember you talk about in your book a sleep specialist who is already seeing like 10,000 patients a year in person. That sounds like a lot to me. I don't know how it compares. But now he fields through his digital avatar on Ant Afu 3.7 million inquiries a year.",
+      "zh": "好的。因为我记得你在书中提到一位睡眠专科医生，他线下每年就已经要接诊大约一万名患者。这在我看来已经非常多了，我不太清楚横向对比如何。但现在，他通过在蚂蚁“安阿福”上的数字分身，每年要处理370万次问询。"
+    },
+    {
+      "id": 238,
+      "start_sec": 3886,
+      "speaker": "Kaiser Kuo",
+      "en": "So these are just inquiries. These are digital interactions that could be taking place simultaneously. They don't need to be in sequence, right? These are, though, inquiries. They're not actual consultations. He cannot then go and diagnose somebody with apnea and says, you need, you know, to get a CPAP or something like that, right?",
+      "zh": "所以这些仅仅是问询。这些是数字化交互，可以同时并发进行，不需要按顺序一个一个来，对吧？但这些终究只是问询，并不是真正的诊疗。他不能凭此去诊断某人患有呼吸暂停综合征，并说“你需要配一台睡眠呼吸机（CPAP）”之类的，对吧？"
+    },
+    {
+      "id": 239,
+      "start_sec": 3905,
+      "speaker": "Ruby Wang",
+      "en": "No.",
+      "zh": "不行。"
+    },
+    {
+      "id": 240,
+      "start_sec": 3906,
+      "speaker": "Kaiser Kuo",
+      "en": "He's not able to issue, for example, prescriptions. I mean, I know that in China it's pretty easy to get a prescription for non-prescription medicines, just even through Meituan, right?",
+      "zh": "比如，他无法开具处方。我的意思是，我知道在中国想开非处方药的方子其实相当容易，甚至直接通过美团就可以，对吧？"
+    },
+    {
+      "id": 241,
+      "start_sec": 3923,
+      "speaker": "Ruby Wang",
+      "en": "Yeah.",
+      "zh": "是的。"
+    },
+    {
+      "id": 242,
+      "start_sec": 3924,
+      "speaker": "Kaiser Kuo",
+      "en": "I can go onto a pharmacy and answer a couple of questions, and even for a medicine I know is a prescription-only medicine, they will often just simply issue it right there, just after you've answered a couple of simple questions. It's unbelievable, but I worry about that. This is why there are too many antibiotics out there in China.",
+      "zh": "我可以进一家药店回答几个问题，甚至有些我知道明确属于处方药的药品，只要你回答几个简单的问题，他们往往当场就能直接开出来。这真是不可思议，但我挺担心的。这也是为什么中国抗生素滥用比较严重的原因。"
+    },
+    {
+      "id": 243,
+      "start_sec": 3940,
+      "speaker": "Ruby Wang",
+      "en": "Yes. Yes.",
+      "zh": "是的。没错。"
+    },
+    {
+      "id": 244,
+      "start_sec": 3945,
+      "speaker": "Kaiser Kuo",
+      "en": "Yeah, anyway, that's interesting. I need to try this thing out. I need to get on and interact on Ant Afu with a... that'll be really interesting. I wonder if patients can keep up with this, though. I mean, because, you know, there are...",
+      "zh": "好吧，总之这挺有意思的。我得亲自试用一下这东西。我得上去在蚂蚁“安阿福”上互动一下……那肯定很有趣。不过我在想，患者能不能跟得上这种节奏？因为你知道……"
+    },
+    {
+      "id": 245,
+      "start_sec": 3960,
+      "speaker": "Kaiser Kuo",
+      "en": "20 million people in China over 60 we were talking about, right? And by your own account, fewer than half of these can actually use these platforms independently. I mean, your grandmother still calls London to be talked through the prompts, right?",
+      "zh": "我们刚才提到，中国有2000多万60岁以上的人口，对吧？而且据你所说，其中能独立使用这些平台的还不到一半。我是说，你奶奶至今还得给远在伦敦的你打电话，让你一步步指导她怎么操作，对吧？"
+    },
+    {
+      "id": 246,
+      "start_sec": 3973,
+      "speaker": "Kaiser Kuo",
+      "en": "What does it mean to build this sort of a system for an aging population when the aging population can't necessarily operate it very well? I mean, we've all had that experience of helping aging relatives. Can they keep up?",
+      "zh": "如果老年群体本身并不能很好地操作这些系统，那么为老龄化人口构建这样一套体系又意味着什么呢？我们都有过帮家里老人捣鼓电子设备的经历。他们跟得上吗？"
+    },
+    {
+      "id": 247,
+      "start_sec": 3988,
+      "speaker": "Ruby Wang",
+      "en": "I don't know, that's my answer. Digital literacy is a huge issue. We can generally say China's silver population are maybe a tiny bit more digitally savvy than in many other countries, because they've had to be, that's the way life is.",
+      "zh": "我的回答是：我不知道。数字素养是个巨大的难题。我们大体可以说，中国的“银发族”可能比很多其他国家的老人稍微懂一点数字科技，因为生活所迫，他们不得不学着去用。"
+    },
+    {
+      "id": 248,
+      "start_sec": 4005,
+      "speaker": "Kaiser Kuo",
+      "en": "Except my in-laws. Yeah, they're not. They're terrible. Yeah, they cause my blood pressure to rise every time I get a tech help question. Anyway...",
+      "zh": "我岳父母可除外。是的，他们完全不行，糟糕透顶。每次他们发消息让我帮忙解决技术问题，我的血压都蹭蹭往上涨。不过言归正传……"
+    },
+    {
+      "id": 249,
+      "start_sec": 4018,
+      "speaker": "Ruby Wang",
+      "en": "Yes, definitely. Broadly speaking, technology is creating new challenges, creating new inequalities in health service access and delivery, which is a massive policy and system challenge. So what can be done? It's difficult to say.",
+      "zh": "确实如此。概括来说，技术在带来便利的同时也在制造新的挑战，在医疗服务的获取和交付上拉开新的不平等差距，这是政策和体制层面面临的巨大课题。那该怎么办呢？现在很难下定论。"
+    },
+    {
+      "id": 250,
+      "start_sec": 4035,
+      "speaker": "Ruby Wang",
+      "en": "At the moment, as I anecdotally wrote about, and as your experience with your in-laws, you're probably the one helping them out, clicking on the right buttons on their phone. It's very labor-intensive for the family. What's going to happen later on?",
+      "zh": "目前来看，就像我书里记录的亲身经历，以及你帮岳父母的经历一样，通常得靠家人出手相助，在手机上帮他们点选正确的按键。这对家庭来说是极耗费精力的负担。未来会怎样呢？"
+    },
+    {
+      "id": 251,
+      "start_sec": 4048,
+      "speaker": "Ruby Wang",
+      "en": "Maybe we can see the market moving to address these issues, seeing them as an opportunity, creating elder-friendly tools, at-home care robots that do basic tasks and help out rather than, you know, assuming that the user can follow technical instructions.",
+      "zh": "或许我们会看到市场逐步转向并解决这些痛点，将其视为商机——去开发适老化工具，或是能够分担基础任务的居家看护机器人，而不是默认用户都能看懂复杂的技术操作指引。"
+    },
+    {
+      "id": 252,
+      "start_sec": 4072,
+      "speaker": "Ruby Wang",
+      "en": "But overall, the trend is that much of the population is using technology to access healthcare, and so in China scale often overrides and takes up much of the attention, rather than those lagging behind, and it's always really hard to cover and ensure that smaller proportion is taken care of. It's a good question.",
+      "zh": "但总的趋势是，大部分人口都在利用科技手段获取医疗服务。因此在中国，宏大的整体规模往往会掩盖个体的困境，吸走绝大部分关注，而那些掉队的人往往被忽视。要做到全面覆盖、确保少数群体得到照料，始终是一件极具挑战的事。这是一个非常深刻的问题。"
+    },
+    {
+      "id": 253,
+      "start_sec": 4101,
+      "speaker": "Kaiser Kuo",
+      "en": "So, I want to bring this back to you personally here, because you talk about in your book how your parents actually tried to talk you out of practicing medicine. They told you that it meant a whole lifetime of eating bitterness.",
+      "zh": "我想把话题拉回到你个人身上。你在书中提到，你的父母当年其实极力劝阻你学医，他们告诉你，行医就意味着要“吃一辈子的苦”。"
+    },
+    {
+      "id": 254,
+      "start_sec": 4115,
+      "speaker": "Kaiser Kuo",
+      "en": "And you have in your book a character who you call Dr. Wang, who has the same surname as you, she's about the same age, the same height if I remember correctly. And she's sort of like your own alter ego, sort of like \"there, but for the grace of God, go I.\" Somebody who is in medicine, she's an internist at a large Guangzhou public hospital.",
+      "zh": "你在书中描写了一位被称为“王医生”的人物，她和你同姓，年纪差不多，如果我没记错的话连身高都相仿。她就像是另一个你，一种“若非命运眷顾，我也可能如此”的镜像写照——一个真正在中国行医的人，她是广州一家大型公立医院的内科医生。"
+    },
+    {
+      "id": 255,
+      "start_sec": 4140,
+      "speaker": "Kaiser Kuo",
+      "en": "Tell me about her and her experience and what that told you about the practice of medicine in China today.",
+      "zh": "跟我讲讲她和她的经历吧，从她的身上，你看到了当今中国行医现状的哪些侧面？"
+    },
+    {
+      "id": 256,
+      "start_sec": 4147,
+      "speaker": "Ruby Wang",
+      "en": "Yeah, my parents didn't want me to become a doctor because what they know about doctors in China, since they grew up and lived there, was that it's sort of a terrible life: low wages, lack of respect, long hours, burnout, and really, you know, as you said, sacrificing on behalf of others, not really living life for yourself.",
+      "zh": "是的，我父母以前不希望我学医。因为他们在中国土生土长，在他们的认知里，当医生日子过得很苦：收入低、缺乏社会尊重、工作时间长、极度职业倦怠，而且真如你所说，完全是在为别人牺牲，根本没有属于自己的生活。"
+    },
+    {
+      "id": 257,
+      "start_sec": 4169,
+      "speaker": "Ruby Wang",
+      "en": "I think that's been the case for many decades because of the way the system could not help its workers in their welfare, in their in their professions. And it's perhaps improving, you know, with policy reform, with the role of technology, of course, but it still persists in in many ways.",
+      "zh": "我认为这种情况已经持续了几十年，体制在保障医护人员福祉和职业发展方面一直力不从心。当然，随着政策改革和科技的应用，情况或许在改善，但在许多方面这一困境依然存在。"
+    },
+    {
+      "id": 258,
+      "start_sec": 4187,
+      "speaker": "Ruby Wang",
+      "en": "So I wrote about Dr. Wang in Guangzhou, who I met when I was doing a research project there. And you know, as I wrote about, we I found many similarities personally with her, which was why I empathized so much. I was imagining myself in her place.",
+      "zh": "我在书中写到了广州的王医生，那是我在那边做一个研究项目时认识的。正如我在书中所写的，我发现自己在个人层面上和她有许多相似之处，这也是为什么我深感共情，总会设身处地代入她的处境。"
+    },
+    {
+      "id": 259,
+      "start_sec": 4205,
+      "speaker": "Ruby Wang",
+      "en": "And the burnout impacted her so much so that she ended up having a miscarriage, which is, you know, is such an awful tragedy. I wrote about her sacrificing her personal life for the benefit of patients. She went back to work the next day.",
+      "zh": "高强度的过劳对她造成了极大伤害，以至于她最后不幸流产，这是一场可怕的悲剧。我写下了她为了病人如何牺牲自己的个人生活：流产后第二天她就重返了工作岗位。"
+    },
+    {
+      "id": 260,
+      "start_sec": 4221,
+      "speaker": "Ruby Wang",
+      "en": "And she was such a resilient—she is such a resilient, strong person. It was very inspirational. And it made me think back to my times, especially training as a junior doctor, resident doctor in the UK. How, you know, we've all had sleepless nights, night shifts, no time to eat, on your feet all day. But being a doctor in China really takes it to the next level.",
+      "zh": "她是如此有韧性、坚强的一个人，令人非常钦佩。这也让我回想起了自己在英国作为初级医生、住院医师接受培训的岁月。我们都经历过彻夜不眠、连轴夜班、顾不上吃饭、整天脚不沾地，但在中国当医生，那种辛苦程度真的是更上一层楼。"
+    },
+    {
+      "id": 261,
+      "start_sec": 4245,
+      "speaker": "Ruby Wang",
+      "en": "Earlier, Kaiser, you were talking about the waiting list in hospital. You know, having one minute to perhaps see a doctor and then having someone else behind you queue up in a public health hospital in China. So these doctors in China, they're seeing hundreds of patients a day. And that volume and that pressure is really difficult.",
+      "zh": "刚才 Kaiser 你提到医院里的排队现象，在中国公立医院，看病往往只有一分钟时间，身后还紧挨着排队的下一位患者。中国的医生一天要看上百个病人。那种接诊量和心理压力，是非常难以承受的。"
+    },
+    {
+      "id": 262,
+      "start_sec": 4262,
+      "speaker": "Ruby Wang",
+      "en": "And not only creates problems for the doctor and for the patient, too, in terms of quality of care, but also creates relationship, communication breakdown. And so in the book, I talked about doctor violence, too, as this awful phenomenon.",
+      "zh": "这不仅给医生带来负担，也影响了患者的就医质量，更导致了医患沟通的断裂与关系恶化。因此在书中，我也讨论了暴力伤医这一极其恶劣的现象。"
+    },
+    {
+      "id": 263,
+      "start_sec": 4278,
+      "speaker": "Kaiser Kuo",
+      "en": "Yeah, yīnào, medical disturbances, yeah.",
+      "zh": "对，医闹。所谓“医疗纠纷滋事”。"
+    },
+    {
+      "id": 264,
+      "start_sec": 4282,
+      "speaker": "Ruby Wang",
+      "en": "Yeah. I wonder if you have any stories from your time in China.",
+      "zh": "是的。不知道你在中国生活时，有没有听说过类似的事情？"
+    },
+    {
+      "id": 265,
+      "start_sec": 4286,
+      "speaker": "Kaiser Kuo",
+      "en": "I haven't experienced it, or I haven't perpetrated it or experienced it myself, but it's common enough, you know, that we all know what this means when somebody says yīnào in China. I mean, I think in your book, you talk about 80% of medical professionals report having first-hand experience with workplace violence.",
+      "zh": "我自己倒没有亲历过，既没参与过也没碰上过。但在中国“医闹”这个词非常普遍，大家都心知肚明是什么意思。你在书中提到，有80%的医务人员自称亲身遭遇过职场暴力。"
+    },
+    {
+      "id": 266,
+      "start_sec": 4307,
+      "speaker": "Kaiser Kuo",
+      "en": "I mean, you have in, again in your, you describe how a hospital in Shenzhen put staff actually in body armor with helmets for ward rounds. I mean, how did the relationship get this bad? I mean,",
+      "zh": "而且你还在书中描述过，深圳一家医院的医护人员甚至要穿防弹衣、戴头盔去查房。医患关系怎么会恶化到如此地步？"
+    },
+    {
+      "id": 267,
+      "start_sec": 4320,
+      "speaker": "Kaiser Kuo",
+      "en": "It's the doctors, look, medicine used to be a very prestigious career in China, right? It's now like one of the least popular subjects at the top universities. I mean, this is not unrelated to what's happening with this violence.",
+      "zh": "医生……你看，学医在中国曾经是一门非常受人尊重的职业，对吧？现在它却成了顶尖高校中最不受欢迎的专业之一。我觉得这跟这种暴力事件频发并非毫无关联。"
+    },
+    {
+      "id": 268,
+      "start_sec": 4338,
+      "speaker": "Kaiser Kuo",
+      "en": "I mean, I don't want to leave this only on the grim side, because you know, I think there's been a lot of things that have improved life for clinicians, like this technology thing. I can imagine that somebody like your sleep specialist now is sleeping a little better. They're not necessarily having to see quite as many patients because their digital avatar is taking some of the workload off of them. I would hope that would be one of the effects of it, but tell me about that.",
+      "zh": "不过我也不想只停留在灰暗的一面，因为我觉得很多技术手段确实改善了临床医生的处境。比如科技赋能，我能想象像你提到的那位睡眠专家现在应该睡得稍微踏实些了。他们不一定非得看那么多病人，因为数字分身替他们分担了一部分工作负荷。我希望这能成为其积极影响之一，你能多聊聊这方面吗？"
+    },
+    {
+      "id": 269,
+      "start_sec": 4366,
+      "speaker": "Ruby Wang",
+      "en": "Yeah, I wrote about doctor violence and these phenomena occurring because patients and doctors don't have enough time to build a relationship, to build trust, and build understanding because medicine is such a vulnerable place. Being sick is so vulnerable, being unwell is to be very vulnerable.",
+      "zh": "是的，我在书里写到涉医暴力以及这些现象的发生，很大程度上是因为医患之间没有足够的时间建立关系、信任和相互理解。因为医疗关乎最脆弱的时刻，生病是人最脆弱的时候，身体抱恙会让人感到无依无靠。"
+    },
+    {
+      "id": 270,
+      "start_sec": 4394,
+      "speaker": "Ruby Wang",
+      "en": "Indeed, yeah. And so in those situations where you don't have enough time with your doctor, when they might be too tired to say an extra word of comfort, then oftentimes you can imagine trust breaks down.",
+      "zh": "确实如此。在那种情况下，你和医生接触的时间极短，而他们可能已经累得连一句宽慰的话都说不出来了，往往在这个时候，信任就会瓦解。"
+    },
+    {
+      "id": 271,
+      "start_sec": 4408,
+      "speaker": "Ruby Wang",
+      "en": "And then the system itself propagates, because there's no clear mechanism of responsibility and accountability. Everyone just keeps going, moves on to the next, and as the family member, perhaps you really want someone to explain, you want someone to blame.",
+      "zh": "接着这种机制会不断恶性蔓延，因为缺乏清晰的问责和追责渠道。所有人都在硬撑，紧接着看下一个病人；而作为患者家属，你可能极度渴望有人给个说法，甚至想找人泄愤。"
+    },
+    {
+      "id": 272,
+      "start_sec": 4425,
+      "speaker": "Ruby Wang",
+      "en": "And it can come out to this awful scenario of violence against doctors, even murder against doctors that we've seen in China, leading to the protective mechanisms. We've seen photos of doctors with helmets and bats and things to protect themselves. It's really incredible what it came to be.",
+      "zh": "这就可能激化为极端的暴力伤医，甚至是我们在中国见过的弑医惨案，以至于催生了各种防御手段。我们都见过医生戴着头盔、拿着钢叉或球棒防身的照片，演变成这种地步真是令人匪夷所思。"
+    },
+    {
+      "id": 273,
+      "start_sec": 4446,
+      "speaker": "Ruby Wang",
+      "en": "I think as you said, it's getting better, and I wrote about it in this book because I wanted to think about the role of technology in all of this. Hopefully, improving efficiency, improving access to healthcare, so that the burdens of numbers of patients seeing healthcare professionals can be reduced or streamlined in certain ways.",
+      "zh": "我觉得正如你所说，情况正在好转。我在书中着墨这一点，是想探讨技术在其中能扮演什么角色。它有望提高效率、扩大医疗服务的可及性，从而在一定程度上减轻医护人员接诊海量病患的负荷，或是优化就医流程。"
+    },
+    {
+      "id": 274,
+      "start_sec": 4468,
+      "speaker": "Ruby Wang",
+      "en": "But of course, technology is also adding new time burdens. A doctor is not trained in IT, not trained to use an app. If they've got, as you said, the sleep specialist having so many more patients channeled through to them via the platform because patients are allowed more efficient access to the doctor, then that means they have even more patients to see and to treat, and also they have more digital paperwork to do.",
+      "zh": "但当然，科技也在带来新的时间负担。医生并不是搞IT的，也没受过专门使用各种App的训练。如果就像你说的，那位睡眠专家通过平台导流来了多得多的患者——因为患者能更便捷地联系到医生——那就意味着他们要看诊和治疗的病人反而更多了，而且还得应付更多的数字化文书工作。"
+    },
+    {
+      "id": 275,
+      "start_sec": 4500,
+      "speaker": "Dr. Ruby Wang",
+      "en": "...instead of actually seeing patients.",
+      "zh": "……而不是真正在看病人。"
+    },
+    {
+      "id": 276,
+      "start_sec": 4502,
+      "speaker": "Kaiser Kuo",
+      "en": "Yeah, I remember you actually talk about how he's got two phones and a desktop, and he's between chat windows and charts. It's like, I don't know whether his life has gotten easier or harder at this point.",
+      "zh": "是的，我记得你还写到他手里拿着两部手机，面前摆着台式机，在各种聊天窗口和病历表之间反复横跳。我真不知道眼下他的生活到底是变轻松了还是更难了。"
+    },
+    {
+      "id": 277,
+      "start_sec": 4515,
+      "speaker": "Dr. Ruby Wang",
+      "en": "Yeah. Easier or harder, yeah.",
+      "zh": "是啊。变轻松了还是更难了，确实。"
+    },
+    {
+      "id": 278,
+      "start_sec": 4520,
+      "speaker": "Kaiser Kuo",
+      "en": "Yeah, yeah. So listen, there's still all sorts that I'd love to talk to you about. I mean, we haven't even really touched on sort of the Chinese healthcare system and the rest of the world.",
+      "zh": "对，对。话说回来，我还有很多方面特别想和你聊。比如我们都还没来得及真正探讨中国医疗体系与世界其他地区的关系。"
+    },
+    {
+      "id": 279,
+      "start_sec": 4531,
+      "speaker": "Kaiser Kuo",
+      "en": "But maybe we'll leave something for another conversation another time, because I have kept you for a very long time and you are a very, very busy person. But what a fantastic thing. I mean, before we get to recommendations, let me just say, who is somebody who's doing work on China, health-related ideally, who we should also be reading?",
+      "zh": "不过也许我们可以把这些留到下次再聊，因为我已经占用了你很长时间，而你又非常非常忙。但这期内容真的太棒了。在进入推荐环节之前我想先问问，在研究中国领域——最好是医疗健康相关的——还有哪些人的作品是我们应该拜读的？"
+    },
+    {
+      "id": 280,
+      "start_sec": 4552,
+      "speaker": "Kaiser Kuo",
+      "en": "I mean, is there somebody else writing a good healthcare Substack on China, some younger colleague of yours maybe, somebody who you know through your time at Schwarzman who you think we should be paying attention to for our paying-it-forward section?",
+      "zh": "比如有没有其他人在写关于中国医疗的高质量 Substack 专栏？或者是你的某位年轻同事，比如你在苏世民学者项目认识的、值得我们在“后浪推荐”环节关注的人？"
+    },
+    {
+      "id": 281,
+      "start_sec": 4566,
+      "speaker": "Dr. Ruby Wang",
+      "en": "I think for the health world and China, someone I respect so much and, you know, learn from so much is Professor Yanzhong Huang. He's a professor at Schwarzman Scholars, but also a professor at Seton University and at the Council on Foreign Relations.",
+      "zh": "我觉得在医疗健康与中国这个领域，有一位我极其尊敬并深感受益匪浅的学者，那就是黄严忠教授。他是苏世民学者项目的教授，同时也是西顿大学教授以及美国外交关系协会（CFR）的专家。"
+    },
+    {
+      "id": 282,
+      "start_sec": 4585,
+      "speaker": "Kaiser Kuo",
+      "en": "Yes, yeah. He was I think the first person I had on the show right after the COVID epidemic broke out.",
+      "zh": "对，是的。我记得新冠疫情刚爆发后，我请上节目的第一位嘉宾就是他。"
+    },
+    {
+      "id": 283,
+      "start_sec": 4593,
+      "speaker": "Dr. Ruby Wang",
+      "en": "Right. Yeah, his expertise is on the geopolitics of China and healthcare. So I really, you know, always follow his work.",
+      "zh": "没错。他的专业专长在于中国与医疗健康的地缘政治学。所以我一直非常密切地关注他的研究。"
+    },
+    {
+      "id": 284,
+      "start_sec": 4604,
+      "speaker": "Dr. Ruby Wang",
+      "en": "But I think there are also really great people working on non-health topics that I take a lot of inspiration from. I wanted to mention Afra Wang, who's a writer and journalist. She writes at the Concurrent newsletter.",
+      "zh": "但我觉得在非医疗领域，也有很多非常优秀的人，给了我很多启发。我想提一下王磬（Afra Wang），她是一位作家兼记者。她主笔《不合时宜》（The Concurrent）通讯专栏。"
+    },
+    {
+      "id": 285,
+      "start_sec": 4616,
+      "speaker": "Kaiser Kuo",
+      "en": "Oh, yeah. Wonderful writer, really. Wonderful, wonderful.",
+      "zh": "噢，对。极具才华的写作者，真的非常出色。"
+    },
+    {
+      "id": 286,
+      "start_sec": 4623,
+      "speaker": "Dr. Ruby Wang",
+      "en": "And a bit similar to how we were talking about the way culture impacts everything, including healthcare, the way she covers the cultural parts of technology and kind of the deeper comparisons with the rest of the world, thinking about human choices and incentives. So it's very thought-provoking for me to then take it to the health tech angle.",
+      "zh": "这有点像我们刚才聊到的，文化如何深刻影响包括医疗在内的一切。她对科技背后的文化层面以及与世界其他地区的深度对比有着独到观察，思考人的选择与激励机制。这对我从医疗科技角度进行延伸思考非常有启发性。"
+    },
+    {
+      "id": 287,
+      "start_sec": 4643,
+      "speaker": "Dr. Ruby Wang",
+      "en": "And then finally, also Olivia Plotnick, who's another Substacker too. She's based in Shanghai, does very interesting, like, on-the-ground work. I think she visited like 30 cities across China, especially the lower-tier cities.",
+      "zh": "最后还有 Olivia Plotnick，她也是一位 Substack 创作者。她常驻上海，做非常扎实的田野调查式一线研究。她走访了中国大约三十座城市，尤其是下沉市场与低线城市。"
+    },
+    {
+      "id": 288,
+      "start_sec": 4660,
+      "speaker": "Dr. Ruby Wang",
+      "en": "She looks at branding, you know, including health and wellness, but across kind of consumer behavior. And again, I think that's very relevant for me and my work on health.",
+      "zh": "她主要研究品牌塑造，涵盖大健康及各类消费行为。我觉得这对我以及我的健康领域研究非常有参考价值。"
+    },
+    {
+      "id": 289,
+      "start_sec": 4670,
+      "speaker": "Dr. Ruby Wang",
+      "en": "It's about the way China's changing, society's changing, how people are choosing, the way soft power impacts, you know, Chinese perspectives.",
+      "zh": "它关乎中国的变迁、社会的转型、人们的消费抉择，以及软实力如何深刻影响中国人的视角与观念。"
+    },
+    {
+      "id": 290,
+      "start_sec": 4680,
+      "speaker": "Ruby Wang",
+      "en": "options of the world, of how they use technology. Um, and I think she's really excellent at that. So lots of recommendations for people.",
+      "zh": "放眼全球视角去审视他们如何运用技术。我认为她在这方面非常出色。所以我为大家推荐了很多人。"
+    },
+    {
+      "id": 291,
+      "start_sec": 4689,
+      "speaker": "Kaiser Kuo",
+      "en": "Yeah, three great ones. I mean, Dr. Yanzhong Huang, of course. I think he's very well known, and, you know, he's, I follow him on Twitter, read a lot of his stuff. Of course, hardly somebody who needs more attention. I think he's the go-to guy for most people on public health policy when it comes to China.",
+      "zh": "是的，这三个推荐都很棒。黄严忠博士当然不用说，他知名度极高，我在推特上关注了他，也读过很多他的文章。他当然已经名声在外，无需额外引流了，我认为对大多数人来说，只要谈及中国的公共卫生政策，他都是首选权威专家。"
+    },
+    {
+      "id": 292,
+      "start_sec": 4707,
+      "speaker": "Kaiser Kuo",
+      "en": "And then, of course, Afra, who has been on the show as well. She's wonderful. When she came on to talk about a big piece she did for Wired magazine, which I would still love to talk to her more about because it's just fascinating. Yeah, and then Olivia Plotnick, who I've been in touch with, and I would love to actually have on the program as well.",
+      "zh": "当然还有王磬（Afra），她也上过我们的节目。她太棒了。当时她来聊了自己为《连线》（Wired）杂志写的一篇重磅报道，我其实还想找机会和她多聊聊，因为那篇报道确实引人入胜。还有 Olivia Plotnick，我也一直和她保持着联系，非常希望能邀请她上节目。"
+    },
+    {
+      "id": 293,
+      "start_sec": 4725,
+      "speaker": "Kaiser Kuo",
+      "en": "Fantastic. Thank you, Ruby. Now, what about for just good old recommendations? Is there a novel you've read, or a book, or anything that you've got for listeners?",
+      "zh": "太棒了，谢谢你，Ruby。那么在常规的内容推荐环节，你读过什么小说、书籍或其他作品想分享给听众吗？"
+    },
+    {
+      "id": 294,
+      "start_sec": 4733,
+      "speaker": "Ruby Wang",
+      "en": "Yeah. So, I wanted to recommend Professor Arthur Kleinman, um, who wrote Deep China: The Moral Life of the Person. So you can tell my theme is culture and anthropology, and how that relates to healthcare.",
+      "zh": "有的。我想推荐 Arthur Kleinman（凯博文）教授，他写了《深访中国：个体道德生活》（Deep China: The Moral Life of the Person）。你肯定看出来了，我的主题始终是文化与人类学，以及它们如何与医疗卫生相关联。"
+    },
+    {
+      "id": 295,
+      "start_sec": 4749,
+      "speaker": "Ruby Wang",
+      "en": "So that book is all about what being sick reveals about society and culture in China. So like psychiatry, caregiving, as China's changed socially, how its patients and families have evolved with the times, you know.",
+      "zh": "那本书全方位探讨了“生病”这件事折射出的中国社会与文化。例如精神医学、照护问题；随着中国社会的变迁，患者和家庭如何随时代演进。"
+    },
+    {
+      "id": 296,
+      "start_sec": 4770,
+      "speaker": "Ruby Wang",
+      "en": "As a country develops so quickly, how the family structures change, how that impacted illness and suffering. And it's an academic book, and different chapters are led by different groups.",
+      "zh": "随着国家如此迅猛地发展，家庭结构如何演变，这又如何影响了疾病与痛苦的体验。这是一本学术著作，不同的章节由不同的学者团队主笔。"
+    },
+    {
+      "id": 297,
+      "start_sec": 4780,
+      "speaker": "Ruby Wang",
+      "en": "But Professor Arthur Kleinman, who is based in Boston at Harvard, is, you know, so wonderful. I'm a huge fan of all of his work. He wrote another book called...",
+      "zh": "但在哈佛大学波士顿校区的 Arthur Kleinman 教授确实太杰出了。我是他所有作品的忠实粉丝。他还写过另一本书叫……"
+    },
+    {
+      "id": 298,
+      "start_sec": 4788,
+      "speaker": "Kaiser Kuo",
+      "en": "I'm going to buy this right now. It looks fantastic. Buying it on Kindle right now. Fantastic recommendation.",
+      "zh": "我马上就去买这本书。看起来太精彩了，我现在就在 Kindle 上下单。极力推荐！"
+    },
+    {
+      "id": 299,
+      "start_sec": 4790,
+      "speaker": "Ruby Wang",
+      "en": "Yes, it's really excellent, very thought-provoking. So that would be my recommendation.",
+      "zh": "是的，非常精彩，发人深省。这就是我的推荐。"
+    },
+    {
+      "id": 300,
+      "start_sec": 4800,
+      "speaker": "Kaiser Kuo",
+      "en": "All right. I am going to recommend a couple of things. Mine, first, is a novel this week, John Williams' novel, Augustus.",
+      "zh": "好的。我打算推荐两样东西。首先是本周的一部小说，John Williams 的《奥古斯都》（Augustus）。"
+    },
+    {
+      "id": 301,
+      "start_sec": 4811,
+      "speaker": "Kaiser Kuo",
+      "en": "I recommended John Williams' book, Butcher's Crossing, on the show not that very long ago. And a lot of people know him now for his novel, Stoner, which had a strange kind of second life as a rediscovered masterpiece, like 50 years after it came out.",
+      "zh": "不久前我才在节目里推荐过 John Williams 的《屠夫十字镇》（Butcher's Crossing）。现在很多人熟知他，是因为他的小说《斯通纳》（Stoner），那本书在出版约 50 年后奇迹般重获新生，被重新发现为传世杰作。"
+    },
+    {
+      "id": 302,
+      "start_sec": 4828,
+      "speaker": "Kaiser Kuo",
+      "en": "Augustus is the third novel of his now that I'm recommending. It won the National Book Award. Actually, it won it in combination with another—there was somebody else who won it as well that same year, which was the first time the National Book Award was given to two people.",
+      "zh": "《奥古斯都》是我推荐他的第三部小说了。它曾斩获美国国家图书奖。实际上，那一年是与另一部作品共享该奖项，那是国家图书奖历史上首次将奖项同时颁给两位作者。"
+    },
+    {
+      "id": 303,
+      "start_sec": 4844,
+      "speaker": "Kaiser Kuo",
+      "en": "It's an epistolary novel about, you know, the Roman Emperor Augustus, Octavian, who of course is known as Augustus. It's told entirely through a crazy quilt of letters and little fragments, letters of...",
+      "zh": "这是一部书信体小说，讲述的是罗马皇帝奥古斯都——也就是大家熟知的屋大维。全书完全由一幅由书信与零散片段拼贴而成的复杂画卷铺展开来，信件包括……"
+    },
+    {
+      "id": 304,
+      "start_sec": 4860,
+      "speaker": "Kaiser Kuo",
+      "en": "...from people who you would expect, like his family members and his close friends like Agrippa, but also from poets and playwrights of the time. Virgil is in there, and Strabo, and Horace, and all these other people.",
+      "zh": "……信件既来自那些你意料之中的人，比如他的家人和他像阿格里帕（Agrippa）这样的挚友；但也有来自当时的诗人和剧作家。维吉尔（Virgil）就在其中，还有斯特拉波（Strabo）、贺拉斯（Horace）以及所有其他人。"
+    },
+    {
+      "id": 305,
+      "start_sec": 4875,
+      "speaker": "Kaiser Kuo",
+      "en": "And it's amazing just how Williams is able to give these people such different voices. That's the thing that really amazes me about this guy, is his range. So, you know, you have this kind of quiet campus novel in Stoner about a very undistinguished, very normal English professor.",
+      "zh": "令人惊叹的是，Williams 居然能赋予这些人如此迥异的声音。这个作家真正让我折服的地方，正是他创作跨度之广。你看，他在《斯通纳》（Stoner）里写了一部克制内敛的校园小说，讲的是一位默默无闻、极为普通的英语教授。"
+    },
+    {
+      "id": 306,
+      "start_sec": 4895,
+      "speaker": "Kaiser Kuo",
+      "en": "And then you have this kind of anti-Western about buffalo hunters in Kansas. And now, you know, this novel about imperial Rome, and each one is really just so assured, and so completely different in subject, in tone, in structure.",
+      "zh": "然后他又写了一部关于堪萨斯州猎水牛人的反西部题材小说；如今又是这本关于罗马帝国的小说。每一部都驾轻就熟，在题材、语调和结构上完全不同。"
+    },
+    {
+      "id": 307,
+      "start_sec": 4913,
+      "speaker": "Kaiser Kuo",
+      "en": "And somehow he does all of this without really kind of showing off. It's just the language is... there's so much restraint in the way he writes, it's just really admirable.",
+      "zh": "而且不知怎么的，他做到了这一切，却毫无炫技之感。他的文字……他写作的那种极度克制，实在令人钦佩。"
+    },
+    {
+      "id": 308,
+      "start_sec": 4923,
+      "speaker": "Kaiser Kuo",
+      "en": "So if you've read Stoner, as many of you have, and wondered whether John Williams had anything else up his sleeve, the answer is yes, and it is Augustus, so check that out. And I want to make one more quick recommendation.",
+      "zh": "所以，如果你们很多人一样读过《斯通纳》，并好奇 John Williams 是否还有别的压箱之作，答案是肯定的，那就是《奥古斯都》（Augustus），大家不妨找来看看。另外我还想快速做个推荐。"
+    },
+    {
+      "id": 309,
+      "start_sec": 4937,
+      "speaker": "Kaiser Kuo",
+      "en": "If you haven't seen or listened to Ezra Klein's podcast with Carnegie's Matt Sheehan, Matthew Sheehan, make that the very next thing on your podcast playlist as soon as you're done listening to this. It is a masterclass in clarity and concision, but also like comprehensiveness and richness in information, density of information.",
+      "zh": "如果你还没看或听过 Ezra Klein 采访卡内基国际和平研究院的 Matt Sheehan（Matthew Sheehan）那期播客，听完我们这期之后，请立刻把它排进你的播放列表。那简直是一堂关于清晰、精炼，兼具全面性与高信息密度的示范课。"
+    },
+    {
+      "id": 310,
+      "start_sec": 4959,
+      "speaker": "Kaiser Kuo",
+      "en": "Matt just hits this interview out of the park, and it is, I think, the best thing that I've heard right now that one can listen to in this moment after Dario Amodei's, you know, pacing the frontier essay. At this moment where so many of us are trying to make sense of AI safety and how it's so bound up in the bilateral relationship, in the geopolitics between China and the United States.",
+      "zh": "Matt 在那次访谈中的表现堪称惊艳。我认为，这是在 Dario Amodei 发表了那篇关于前沿步伐的长文之后，当下最值得一听的对话。此时此刻，我们这么多人都在努力理解人工智能安全（AI Safety），以及它如何与中美双边关系和地缘政治紧密交织在一起。"
+    },
+    {
+      "id": 311,
+      "start_sec": 4985,
+      "speaker": "Kaiser Kuo",
+      "en": "So Matt has been on Sinica many a time. In fact, I think he was just telling me on Twitter, his first podcast appearance on any podcast was on Sinica way back in 2015, simpler, happier times when he was talking about the saga of Brother Orange.",
+      "zh": "Matt 之前多次做客过 Sinica。事实上，他刚才还在 Twitter 上跟我说，他人生第一次上播客就是 2015 年在 Sinica。那是段更单纯、更快乐的时光，当时他聊的是“橘子哥”的传奇故事。"
+    },
+    {
+      "id": 312,
+      "start_sec": 5001,
+      "speaker": "Kaiser Kuo",
+      "en": "How this guy had his phone stolen and it ended up in China, and because of, you know, the photo sharing thing, he was able to watch this guy who owned an orange grove in Fujian or something like that, just taking pictures of his oranges. Brother Orange became momentarily famous, and Matt wrote a marvelous piece about it and came on to talk about that.",
+      "zh": "讲的是有个美国小伙手机被偷后流落到了中国，由于照片流同步，他能看到一个在福建之类地方拥有橘子园的男人，天天给自己的橘子拍照。“橘子哥”一时间名声大噪，Matt 就此写了一篇非常棒的文章，并来节目里聊了这件事。"
+    },
+    {
+      "id": 313,
+      "start_sec": 5026,
+      "speaker": "Kaiser Kuo",
+      "en": "Anyway, Ruby, thank you once again. The book is called China Cure. It comes out October 31st, and it's really good. It's a short book, it's like 170 pages, but it's super dense.",
+      "zh": "言归正传，Ruby，再次感谢你。新书名为《中国良方》（China Cure），将于 10 月 31 日出版，非常精彩。虽然篇幅不长，大概 170 页，但信息密度极高。"
+    },
+    {
+      "id": 314,
+      "start_sec": 5040,
+      "speaker": "Kaiser Kuo",
+      "en": "Super well-written, really, really deeply informative, packed with stats and facts, and great personal stories. It's a real, it's a thrilling book to read, actually. I really, really loved it.",
+      "zh": "文笔极佳，信息量极其丰富，充满了翔实的数据与事实，还有精彩的个人故事。实际上，读起来非常扣人心弦。我真的很喜欢这本书。"
+    },
+    {
+      "id": 315,
+      "start_sec": 5053,
+      "speaker": "Kaiser Kuo",
+      "en": "So thank you, Ruby. It's really fantastic to have you on.",
+      "zh": "非常感谢你，Ruby。非常高兴能邀请你来做客。"
+    },
+    {
+      "id": 316,
+      "start_sec": 5058,
+      "speaker": "Kaiser Kuo",
+      "en": "You've been listening to the Sinica Podcast. The show is produced, recorded, engineered, edited, and mastered by me, Kaiser Kuo. Support the show through Substack at sinicapodcast.com, where you will find a growing offering of terrific original China-related writing and audio.",
+      "zh": "您收听的是 Sinica Podcast。本期节目由我——Kaiser Kuo 制作、录音、工程、剪辑并完成母带。欢迎在 Substack 上访问 sinicapodcast.com 支持本节目，在那里您可以获取越来越多的优质原创中国议题文字与音频内容。"
+    },
+    {
+      "id": 317,
+      "start_sec": 5073,
+      "speaker": "Kaiser Kuo",
+      "en": "Email me at sinicapod@gmail.com if you've got ideas on how you can help out with the show. Don't forget to leave a review on Apple Podcasts. Huge thanks to my guest, Dr. Ruby Wang. Thanks for listening, and we'll see you next week. Take care.",
+      "zh": "如果您对支持本节目有任何想法，欢迎发送邮件至 sinicapod@gmail.com。别忘了在 Apple Podcasts 上留下您的好评。非常感谢本期嘉宾 Ruby Wang 博士。感谢您的收听，我们下周再见。保重。"
+    }
+  ]
+}

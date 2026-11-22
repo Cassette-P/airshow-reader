@@ -3,7 +3,7 @@
   "show_id": "sinica",
   "podcast_title": "Sinica Podcast",
   "rss_url": "https://rss.art19.com/sinica",
-  "updated_at": "2026-11-21T13:28:01Z",
+  "updated_at": "2026-11-22T02:32:46Z",
   "episodes": [
     {
       "guid": "gid://art19-episode-locator/V0/NOjpq5Y0yw3rXM-ajgSwiv-2MjylOPDFws2QzBr3dJk",
@@ -75,6 +75,42 @@
       ],
       "highlights_count": 8,
       "transcript_count": 313
+    },
+    {
+      "guid": "gid://art19-episode-locator/V0/tFxOzex6JIWBUNXmmnZUzP_S-lVwXkUFMmyyrJW9mTU",
+      "title": "Afra Wang on Liangzhu, China’s Vibe-Coding Capital, and the Anxious Optimism of the AI Boom",
+      "pub_date": "2026-10-09T10:00:00Z",
+      "duration_sec": 5927,
+      "audio_url": "https://rss.art19.com/episodes/1e69db0c-6666-465d-b880-3b4e012377e8.mp3?rss_browser=BAhJIgtDaHJvbWUGOgZFVA%3D%3D--d05363d83ce333c74f32188013892b2863ad051c",
+      "file": "episodes/gid_art19-episode-locator_V0_tFxOzex6JIWBUNXmmnZUzP_S-lVwXkUFMmyyrJW9mTU.json",
+      "summary_zh": "本期节目中，主播 Kaiser Kuo 对话科技记者 Afra Wang，结合她在《The New Yorker》与《New York Magazine》的两篇实地报道，深入剖析中国AI热潮表象下的真实社会肌理。两人从杭州近郊的“氛围编程之都”良渚切入，探讨大厂裁员与经济承压如何催生出客厅共创、一人公司、AI八字算命以及庞大的“学AI致富”知识付费产业。针对盖洛普调查中93%中国受访者看好AI的数据，Afra Wang 指出这背后隐藏着唯恐掉队的焦虑与顺应，Kaiser Kuo 则补充了数十年技术进步改善生活所留下的乐观惯性，并就互联网监管的定性提出不同看法。节目最后探讨了地方政府追逐“新质生产力”对原生社区的收编，以及中国AI界对安全风险的务实态度。",
+      "key_takeaways_zh": [
+        "中国高达93%的AI乐观度调查数据背后，不仅是技术崇拜的惯性，更交织着民众在经济下行期唯恐错过“末班车”的生存焦虑与被动顺应。",
+        "杭州良渚之所以成为“氛围编程”与数字游民聚集地，是低成本宜居地产、极低的通勤时间比以及后疫情时代大厂裁员潮共同催生的产物。",
+        "在缺乏抗议技术寡头渠道但深受儒家“求学”与优绩主义影响的社会语境下，中国人的AI焦虑大规模转化为良莠不齐的“知识付费”与卖课经济。",
+        "中国国内C端软件付费意愿薄弱，迫使大量“一人公司”与独立开发者要么靠向国内焦虑人群卖课变现，要么全面转向出海赚取美元订阅费。",
+        "中国AI研究人员并非漠视AI安全风险，而是受限于算力与资本约束更专注于刷榜变现，并普遍默认宏观安全治理属于国家监管部门的职责。"
+      ],
+      "highlights_count": 8,
+      "transcript_count": 378
+    },
+    {
+      "guid": "gid://art19-episode-locator/V0/LdQZFF3LsoGtbEbD0Xv1cYybZZ1QPRRT8L9iYpylbOE",
+      "title": "From Barefoot Doctors to Biologics: Dr. Ruby Wang on China's Healthcare Revolution",
+      "pub_date": "2026-09-29T04:00:00Z",
+      "duration_sec": 5108,
+      "audio_url": "https://rss.art19.com/episodes/4dd6f90b-e2f5-450b-932a-b16630f44db5.mp3?rss_browser=BAhJIgtDaHJvbWUGOgZFVA%3D%3D--d05363d83ce333c74f32188013892b2863ad051c",
+      "file": "episodes/gid_art19-episode-locator_V0_LdQZFF3LsoGtbEbD0Xv1cYybZZ1QPRRT8L9iYpylbOE.json",
+      "summary_zh": "本期节目中，主播 Kaiser Kuo 对话英国 NHS 执业医师、前英国驻华使馆卫生事务负责人 Ruby Wang，围绕其新书《China Cure》深度剖析中国医疗与生物医药产业的剧变。数十年间，中国从依赖“赤脚医生”与仿制药，跃升为全球前沿创新药重镇，去年对外授权交易额达1370亿美元，占全球近半。Ruby Wang 结合家族三代求医史指出，人口老龄化、危机倒逼监管改革、技术官僚主导的长期规划及家庭文化传统，共同推动了这一转型，并驳斥了“中国靠放松伦理换取研发速度”的偏见。此外，双方还探讨了美国《生物安全法案》对跨国药企与患者的反噬，以及中国数字医疗与AI医生应用领先的背后，老年数字鸿沟、公立医院医生过劳与“医闹”等深层困境。",
+      "key_takeaways_zh": [
+        "中国医药产业已实现从低端原料药与仿制药向源头创新生物药的跃迁，肿瘤与GLP-1等前沿管线成为跨国药企应对“专利悬崖”的核心采购来源。",
+        "中国医疗体系的演进并非偶然，而是人口未富先老与城乡失衡、公共卫生危机倒逼药监改革、技术官僚长期规划与家庭互助文化四重因素共振的结果。",
+        "中国临床试验的高效率并非源于西方舆论臆测的“伦理标准宽松”，而是依托庞大的患者基数、海归科学家回流以及高强度的科研与临床人力投入。",
+        "美国推动《生物安全法案》（BIOSECURE）等限制性立法不仅阻碍了中国药企的海外商业化，也反噬了急需优质管线的美国药企利益及本土患者的用药可及性。",
+        "尽管中国依托金融科技构建了全球最成熟的数字医疗生态与AI医生咨询分身，但老年数字鸿沟以及公立医院医生极度过劳与“医闹”暴力等结构性痛点依然严峻。"
+      ],
+      "highlights_count": 9,
+      "transcript_count": 317
     }
   ]
 }

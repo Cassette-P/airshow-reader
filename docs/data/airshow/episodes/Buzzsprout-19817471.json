@@ -1,0 +1,1337 @@
+{
+  "schema_version": "3.0",
+  "show_id": "airshow",
+  "guid": "Buzzsprout-19817471",
+  "title": "An Extra Long Range Summer is Coming",
+  "pub_date": "2026-09-17T10:00:00Z",
+  "duration_sec": 2036,
+  "audio_url": "https://www.buzzsprout.com/2329718/episodes/19817471-an-extra-long-range-summer-is-coming.mp3",
+  "summary_zh": "本期节目中，Brian与Brett深入剖析了美联航、美国航空和加拿大航空围绕空客A321XLR展开的2027年夏季远程航线布局。美联航与加航依托跨大西洋航线联营（JV）默契分工，利用A321XLR积极开辟欧洲次级市场及高端休闲航点；相比之下，背负高债务且遭遇严重交付延误的美国航空策略保守，优先将该机型投入东西海岸跨大陆航线以替换老旧的A321T，并试图修补纽约市场短板。两人认为美航更应将运力投向其占主导地位的南美市场，同时指出达美航空缺乏远程窄体机订单，未来老旧767退役后或在欧洲面临挑战。此外，节目还评估了各航司在欧洲“连点成线”的宽体机增班计划，以及美联航借力全日空JV开拓冲绳、加航把握中美航权受限机遇新开广州等亚太新动向。",
+  "key_takeaways_zh": [
+    "美联航直接将A321XLR用于开辟欧洲新兴及高端休闲航点而非单纯替换老旧757，展现出极强的营收进取心与纽瓦克枢纽优势。",
+    "美国航空受困于盈利压力与新机交付缩水，保守地将A321XLR优先用于国内跨大陆航线替换A321T，错失了巩固南美核心优势的先机。",
+    "美联航与加拿大航空通过跨大西洋航线联营（JV）实现差异化互补，并根据各自客源结构定制了截然不同的A321XLR两舱与平躺座椅密度。",
+    "达美航空目前没有任何A321XLR储备订单，一旦低成本的老旧767宽体机队退役，其在欧洲次级市场的网络拓展可能面临机型断档挑战。",
+    "航司在需求旺盛期加密次级枢纽至欧洲成熟航点的宽体机直飞，既能提升中转衔接竞争力，又便于在下行周期灵活削减运力而不破坏网络广度。"
+  ],
+  "highlights": [
+    {
+      "start_sec": 180,
+      "title_zh": "三大航XLR欧洲新航线盘点",
+      "summary_zh": "随着空客A321XLR交付量逐步积累，美联航、美航和加航集中揭晓了2027年夏季跨大西洋航线计划。美联航将从纽瓦克新开伊维萨岛、瓦伦西亚、马赛、卢森堡及华盛顿至图卢兹航线；美航布局纽约至尼斯与阿姆斯特丹、费城至波尔图与维也纳；加航则新增多伦多至奥斯陆、香农以及蒙特利尔至巴塞尔等航点。",
+      "quote_en": "So, the big news this year is the A321XLR. All three of these airlines have finally amassed enough of them to start showing off what they can really do."
+    },
+    {
+      "start_sec": 382,
+      "title_zh": "美航XLR飞跨大陆航线争议",
+      "summary_zh": "美航计划用155座的A321XLR替换仅有102座的A321T子机队来执飞纽约至美西跨大陆航线，以追求机队简化与成本控制。Brian批评此举浪费了远程窄体机的航程潜力，而Brett指出虽然航程性能过剩，但美航此举避免了为跨大陆市场单独保留难以调配的微型子机队。",
+      "quote_en": "So the XLR is totally overkill for transcon, and I wouldn't have started it with that, but I can see how it got there."
+    },
+    {
+      "start_sec": 593,
+      "title_zh": "美联航与加航JV协同与客舱",
+      "summary_zh": "依托跨大西洋航线联营（JV），美联航主攻美国旅客青睐的南欧高端休闲市场，加航则聚焦北欧与法语区市场。在机型与客舱匹配上，美联航将150座的高端配置A321XLR与执飞短途海岛航线的MAX 8相结合，依靠旺盛的高端休闲需求与动态升舱销售填满前舱；加航则采用182座、仅设14个平躺公务舱的高密度布局。",
+      "quote_en": "United has decided to put the XLRs out there to expand the airline's reach this summer instead of replacing the old 75s."
+    },
+    {
+      "start_sec": 1042,
+      "title_zh": "航线试错率与美航南美布局",
+      "summary_zh": "美联航近年新开的国际航线绝大部分得以保留，Brian援引业内观点指出，稳健盈利的航司若没有10%的新航线失败率，说明网络团队冒险不足。相比之下，尚未实现稳健盈利的美航试错空间有限，且其纽约至阿姆斯特丹窄体机航线备受质疑；Brett强调美航应优先把A321XLR投向南美二线城市，以抵御LATAM与GOL的扩张。",
+      "quote_en": "One airline president told me recently that if 10% of routes at a solidly profitable airline aren't failing, the network team isn't taking enough chances."
+    },
+    {
+      "start_sec": 1387,
+      "title_zh": "达美缺席远程窄体机的隐忧",
+      "summary_zh": "与竞争对手不同，达美航空目前没有订购任何A321XLR，除冰岛外也未将757投入跨大西洋运营。Brian认为，一旦达美低成本的老旧767机队退役，仅靠A330neo和787宽体机在西欧次级市场可能面临挑战，不过以达美在空客的议价地位，未来仍有可能随时追加订单。",
+      "quote_en": "Delta has no XLRs or LRs on order, and it doesn't fly its 75s across the pond except to Iceland."
+    },
+    {
+      "start_sec": 1573,
+      "title_zh": "欧洲宽体机增班与弹性网络",
+      "summary_zh": "在宽体机方面，美联航新增丹佛至巴黎、华盛顿至米兰及纽瓦克至卢布尔雅那等航线，美航开通夏洛特至巴塞罗那，加航布局尼斯与杜布罗夫尼克。Brett高度评价这类跨枢纽“连点成线”的航线设计，认为它既为美西旅客提供了更优的航班波衔接选择，又能在未来需求回落时轻松削减运力而不伤及航线网络覆盖面。",
+      "quote_en": "I like a lot of these connecting-the-dots kind of markets."
+    },
+    {
+      "start_sec": 1714,
+      "title_zh": "亚太新航点：广州与冲绳",
+      "summary_zh": "亚太市场上，加航新开温哥华至广州航线，有望在中美双边航权运力受限的背景下吸纳美国中转客流；美联航则借助与全日空的JV合作新开大阪及旧金山至冲绳航线，充分挖掘驻日美军、冲绳侨民及日本旅游热潮的多重需求。节目最后透露，受交付延误拖累，美航原计划明年夏季投入的13架远程新机目前仅能到位5架。",
+      "quote_en": "Air Canada here is going to have more opportunity to pick up US travelers looking to go to Guangzhou, and of course, US carriers do not fly there."
+    }
+  ],
+  "transcript": [
+    {
+      "id": 1,
+      "start_sec": 2,
+      "speaker": "Brian Sumers",
+      "en": "I'm Brian Sumers and I write The Airline Observer.",
+      "zh": "我是 Brian Sumers，The Airline Observer 的主笔。"
+    },
+    {
+      "id": 2,
+      "start_sec": 4,
+      "speaker": "Brett Snyder",
+      "en": "And I'm Brett Snyder, author of Cranky Flier. You're listening to The Air Show, the podcast where we talk about what happens in the business of the sky.",
+      "zh": "我是 Brett Snyder，Cranky Flier 的创办人。欢迎收听 The Air Show，在这里我们畅聊航空业的台前幕后。"
+    },
+    {
+      "id": 3,
+      "start_sec": 12,
+      "speaker": "Brett Snyder",
+      "en": "And this week, I am pleased to announce that many of our episodes this fall, including this one, are brought to you by the Alaska-Hawaiian Airlines pilots. This episode is also sponsored by Upgrade, Inc. Learn more at upgrade.com/flex-pay.",
+      "zh": "本周我很荣幸地宣布，包括本期在内，我们今年秋季的许多节目都是由阿拉斯加航空与夏威夷航空飞行员联合赞助播出的。本期节目同样由 Upgrade, Inc. 赞助。欢迎访问 upgrade.com/flex-pay 了解更多详情。"
+    },
+    {
+      "id": 4,
+      "start_sec": 27,
+      "speaker": "Brett Snyder",
+      "en": "Now, we are back after our late summer break. Uh, well, two of us are back. We think Jon still works here, maybe, but he's like fighting a kangaroo in Australia or something?",
+      "zh": "告别夏末假期后，我们正式回归了。呃，好吧，其实就我们俩回来了。我们觉得 Jon 应该还在这儿工作，大概吧，但他现在好像正在澳大利亚跟袋鼠搏斗还是干嘛呢？"
+    },
+    {
+      "id": 5,
+      "start_sec": 39,
+      "speaker": "Brian Sumers",
+      "en": "Jon who? Is that the the guy that uh gives us professorial lessons and talks about airplanes a lot?",
+      "zh": "Jon 谁来着？就是那个老像教授讲课一样、成天把飞机挂在嘴边的家伙？"
+    },
+    {
+      "id": 6,
+      "start_sec": 45,
+      "speaker": "Brett Snyder",
+      "en": "Sometimes.",
+      "zh": "有时候是这样。"
+    },
+    {
+      "id": 7,
+      "start_sec": 46,
+      "speaker": "Brian Sumers",
+      "en": "Well, I'm told he's still with the show. And in fact, Brett, we actually have some good news about that. Uh, we're all going to be in Seattle on September 29th with our first live show. Jon lives in Seattle, and we think he's going to show up.",
+      "zh": "好吧，听说他还没离开节目。事实上，Brett，关于这事儿我们其实有个好消息。9 月 29 日，我们所有人都会去西雅图，举办我们的首场线下现场秀。Jon 就住在西雅图，我们觉得他应该会露面。"
+    },
+    {
+      "id": 8,
+      "start_sec": 60,
+      "speaker": "Brett Snyder",
+      "en": "We think he's going to show up! I'm feeling a little better about it than that, mostly because we are going to be there for Alaska's Media and Investor Day on September 29th, and then that night we are doing the live show.",
+      "zh": "“我们觉得他会来！”我对这事儿其实更有把握一些，主要是因为我们 9 月 29 日会去参加阿拉斯加航空的媒体与投资者日活动，紧接着当晚我们就会录制现场秀。"
+    },
+    {
+      "id": 9,
+      "start_sec": 77,
+      "speaker": "Brett Snyder",
+      "en": "We had 100 tickets available to the event, and as we're recording, 99 of those have been sold. So if anyone wants to get that last ticket, might be gone by now the time you listen to this, who knows? But, uh, you can go to theairshowpodcast.com/taslive.",
+      "zh": "这场活动我们一共提供了 100 张门票，就在我们录音的这会儿，已经卖掉了 99 张。所以要是有人想抢最后这张票，等听到这期播客时可能早就没了，谁知道呢？不过，大家可以登录 theairshowpodcast.com/taslive 看看。"
+    },
+    {
+      "id": 10,
+      "start_sec": 94,
+      "speaker": "Brett Snyder",
+      "en": "So this is going to be great. Uh, we are going to talk about what we learned, but also we're going to interview Alaska President Shane Tackett. He will be our special guest, and I do want to give the full disclosure here that Alaska is providing travel for this, um, as they do for any media able to accept it.",
+      "zh": "所以这绝对会是一场精彩的活动。我们不仅会复盘所了解到的干货，还将专访阿拉斯加航空总裁 Shane Tackett。他将作为我们的特邀嘉宾，另外我也要在此全盘声明，阿拉斯加航空为本次行程提供了差旅支持，这与他们面向所有符合受赠合规政策的媒体所提供的待遇一致。"
+    },
+    {
+      "id": 11,
+      "start_sec": 110,
+      "speaker": "Brian Sumers",
+      "en": "Okay, Brett, we do have to put on a podcast today about a uh germane topic. What are we going to talk about?",
+      "zh": "好的，Brett，我们今天还得录一期正儿八经的播客。我们今天要聊什么主题？"
+    },
+    {
+      "id": 12,
+      "start_sec": 116,
+      "speaker": "Brett Snyder",
+      "en": "We're going to talk about, summertime and the livin's easy. Bradley's on the microphone with Ras M.G. All the people in the dance will agree that we're... Never mind.",
+      "zh": "我们要聊的是，“夏日时光，惬意悠长。Bradley 拿着麦克风，还有 Ras M.G。舞池里的所有人都会同意，我们……”算了，当我没说。"
+    },
+    {
+      "id": 13,
+      "start_sec": 129,
+      "speaker": "Brian Sumers",
+      "en": "Do you not get a lot of uh hate emails from the people that listen to the show? Because whatever you just did was ridiculous, uh and I have no idea what it means.",
+      "zh": "你难道没收到过大把听众寄来的吐槽邮件吗？因为你刚才唱的那段简直太荒谬了，我完全没听懂是什么意思。"
+    },
+    {
+      "id": 14,
+      "start_sec": 138,
+      "speaker": "Brett Snyder",
+      "en": "Sublime, man. You don't know the song?",
+      "zh": "Sublime 乐队的歌啊，老兄！你没听过？"
+    },
+    {
+      "id": 15,
+      "start_sec": 140,
+      "speaker": "Brian Sumers",
+      "en": "Nope.",
+      "zh": "没有。"
+    },
+    {
+      "id": 16,
+      "start_sec": 141,
+      "speaker": "Brett Snyder",
+      "en": "You need to come visit the LBC more often.",
+      "zh": "你真该多来长滩走走。"
+    },
+    {
+      "id": 17,
+      "start_sec": 143,
+      "speaker": "Brian Sumers",
+      "en": "Why would I do that?",
+      "zh": "我干嘛要去那儿？"
+    },
+    {
+      "id": 18,
+      "start_sec": 144,
+      "speaker": "Brett Snyder",
+      "en": "But anyway, we are talking about summertime 2027 this week. It is never too early to talk about what next summer will bring. And Air Canada, American, United have all revealed their big long-haul plans with teaser videos, puzzles, and threats of a new reality show, actually.",
+      "zh": "但不管怎样，我们这周要聊的是 2027 年夏季航季。讨论明年夏天会发生什么永远都不算早。加拿大航空、美国航空和美联航都已经公布了各自重磅的远程航线规划，附带了预告视频、解谜小游戏，甚至还扬言要拍一部全新的真人秀。"
+    },
+    {
+      "id": 19,
+      "start_sec": 163,
+      "speaker": "Brian Sumers",
+      "en": "We have United to thank for that one. Maybe \"thanks\" isn't quite the right word. Tell us about this, though.",
+      "zh": "这还得“多亏”了美联航。或许用“多亏”这个词不太恰当。不过，快给我们讲讲是怎么回事吧。"
+    },
+    {
+      "id": 20,
+      "start_sec": 170,
+      "speaker": "Brett Snyder",
+      "en": "I could do without the reality show, but Patrick Quayle, who who runs the network there, he did suggest a Netflix documentary on United's new network choices would be coming, and that...",
+      "zh": "我对真人秀倒没啥兴趣，不过负责美联航航线网络规划的 Patrick Quayle 确实透露过，网飞可能会推出一部关于美联航新航线决策的纪录片，而且……"
+    },
+    {
+      "id": 21,
+      "start_sec": 180,
+      "speaker": "Brett Snyder",
+      "en": "is something I absolutely would watch. So, the big news this year is the A321XLR. All three of these airlines have finally amassed enough of them to start showing off what they can really do.",
+      "zh": "我绝对会看。今年最大的看点就是 A321XLR。这三家航司终于积累了足够数量的该机型，开始展现其实际能发挥的真正威力。"
+    },
+    {
+      "id": 22,
+      "start_sec": 194,
+      "speaker": "Brian Sumers",
+      "en": "Yeah, it's very interesting stuff, Brett. We've been waiting for this for a long time. Certainly, some of the routes that these airlines have announced are being flown by widebodies, or even other narrowbodies. We'll talk about that later.",
+      "zh": "是的，这非常有意思，Brett。我们期待这一刻已经很久了。当然，这些航司公布的部分航线原本是由宽体机执飞的，甚至还有其他窄体机执飞，我们稍后会聊到这点。"
+    },
+    {
+      "id": 23,
+      "start_sec": 208,
+      "speaker": "Brian Sumers",
+      "en": "But the XLR we know is supposed to be the game changer, especially for those longer, thinner routes. And each of these three airlines is doing things a little bit differently. Brett, I don't want to shock you here, but in order of taking chances, could you guess what the order is among these three airlines in terms of adding new routes?",
+      "zh": "但我们都知道 XLR 本该是颠覆格局的存在，特别是针对那些更长、客流更稀薄的航线。这三家航司的做法各不相同。Brett，我不是想吓你，但如果按冒险程度给它们新开航线的策略排个序，你能猜出这三家航司的排名吗？"
+    },
+    {
+      "id": 24,
+      "start_sec": 228,
+      "speaker": "Brett Snyder",
+      "en": "I'm going to say that United is probably at the top. But Air Canada's up there, too. And I think there was a third airline, but I can't remember which one it was now.",
+      "zh": "我猜 United 大概排在第一。但 Air Canada 也名列前茅。我记得还有第三家航司，但现在想不起来是哪家了。"
+    },
+    {
+      "id": 25,
+      "start_sec": 238,
+      "speaker": "Brian Sumers",
+      "en": "Well, that airline is using its XLRs to fly to Amsterdam from New York, which I would say is probably not a route for which that airplane was designed, except maybe in December and January.",
+      "zh": "那家航司正在用 XLR 执飞纽约到阿姆斯特丹的航线，我认为这根本不是该机型设计之初想跑的航线，大概除了十二月和一月这种淡季。"
+    },
+    {
+      "id": 26,
+      "start_sec": 251,
+      "speaker": "Brett Snyder",
+      "en": "Fair. But I think we all know how you feel about this. This is not a surprise. But let's just do a rundown of all the new XLR routes that have been announced, okay?",
+      "zh": "有道理。不过我想大家都知道你对此有何看法。这并不让人意外。我们还是来盘点一下目前已公布的所有新 XLR 航线吧，好吗？"
+    },
+    {
+      "id": 27,
+      "start_sec": 260,
+      "speaker": "Brian Sumers",
+      "en": "I want to hear you correctly pronounce every single city.",
+      "zh": "我想听你准确念出每一个城市的名字。"
+    },
+    {
+      "id": 28,
+      "start_sec": 264,
+      "speaker": "Brett Snyder",
+      "en": "Okay. Okay. It is very much a Europe airplane, so that's helpful. So, United is flying summer-only, starting, here we have Newark to Ibiza four times weekly. Is that right?",
+      "zh": "行，行。这机型非常契合欧洲市场，所以还算好念。首先 United 仅在夏季执飞，比如纽瓦克到伊维萨，每周四班。念对了吗？"
+    },
+    {
+      "id": 29,
+      "start_sec": 275,
+      "speaker": "Brian Sumers",
+      "en": "Look at you with that pronunciation. It's almost like you're like a Gen Z kid who goes there for some sort of DJ set. Is that you?",
+      "zh": "瞧瞧你这发音。简直像个专门去那里听 DJ 打碟演出的 Z 世代年轻人。说的是你吗？"
+    },
+    {
+      "id": 30,
+      "start_sec": 286,
+      "speaker": "Brett Snyder",
+      "en": "That's right. We also have Newark to Valencia three times weekly.",
+      "zh": "没错。另外还有纽瓦克到瓦伦西亚，每周三班。"
+    },
+    {
+      "id": 31,
+      "start_sec": 292,
+      "speaker": "Brian Sumers",
+      "en": "Well done.",
+      "zh": "读得不错。"
+    },
+    {
+      "id": 32,
+      "start_sec": 293,
+      "speaker": "Brett Snyder",
+      "en": "Thank you. And then there's Marseille daily. There are also two year-round routes that they're doing. We have Newark to Luxembourg, and Dulles will get flight 222 to Toulouse, also known as the Airbus corporate shuttle.",
+      "zh": "谢谢。接着是每天一班的马赛。他们还开通了两条通年运营的航线：纽瓦克至卢森堡，以及杜勒斯开往图卢兹的 222 号航班——也就是人尽皆知的空客企业班机。"
+    },
+    {
+      "id": 33,
+      "start_sec": 309,
+      "speaker": "Brett Snyder",
+      "en": "So, moving on to American. American will do daily JFK to Nice for the summer, and, as you said, Amsterdam, that one's year-round. It's also going to fly Philly to Porto in summer, and to Vienna for an extended summer to get some Christmas market traffic.",
+      "zh": "接着看 American。American 将在夏季提供每天一班的肯尼迪到尼斯航线，还有你提过的阿姆斯特丹，那是全年航线。此外他们还将在夏季执飞费城至波尔图航线，以及延长夏季运营期直飞维也纳，以吸引部分圣诞集市客流。"
+    },
+    {
+      "id": 34,
+      "start_sec": 326,
+      "speaker": "Brett Snyder",
+      "en": "And then lastly, Air Canada, we have Toronto to Oslo, and Montreal to the mighty EuroAirport serving Basel in Switzerland, Mulhouse in France, und Freiburg in Germany. That's four times a week. Plus Toronto to Shannon three times a week, and it will bring back the daylight flight from Toronto to Heathrow for the first time since the pandemic began.",
+      "zh": "最后是 Air Canada，有多伦多至奥斯陆，以及蒙特利尔至服务于瑞士巴塞尔、法国米卢斯和德国弗赖堡的宏伟欧洲机场。该航线每周四班。外加多伦多至香农每周三班，并且自疫情爆发以来首次恢复多伦多至希思罗的日间航班。"
+    },
+    {
+      "id": 35,
+      "start_sec": 350,
+      "speaker": "Brian Sumers",
+      "en": "So, this is a pretty big list. And we can't forget that American and Air Canada already have some other XLR routes for this summer and the coming winter. They are rapidly putting these airplanes",
+      "zh": "这份清单相当可观。我们也不能忘记，American 和 Air Canada 在今年夏季以及即将到来的冬季已经规划了其他一些 XLR 航线。他们正在迅速将这些飞机投入运营……"
+    },
+    {
+      "id": 36,
+      "start_sec": 360,
+      "speaker": "Brian Sumers",
+      "en": "planes into service after years of delivery delays, and still some delivery delays now, right?",
+      "zh": "在经历了数年的交付延误后终于投入运营，而且现在依然存在一些交付延误，对吧？"
+    },
+    {
+      "id": 37,
+      "start_sec": 366,
+      "speaker": "Brett Snyder",
+      "en": "Delivery delays will never end, but yes. It is another issue for this airplane, but there's enough now so we can talk about it. So there's still not really a ton of variety. Like I said, it's a Europe airplane, except American is doing transcon with it.",
+      "zh": "交付延误这事永远没完，但确实如此。这对该机型来说是另一个难题，不过现在数量已经足够让我们拿出来探讨了。所以目前航线变化其实还不是很多。就像我说的，它主要是一架飞欧洲的飞机，除了 American 打算用它来执飞跨大陆航线。"
+    },
+    {
+      "id": 38,
+      "start_sec": 382,
+      "speaker": "Brett Snyder",
+      "en": "That is all about retiring the A321T subfleet, which had the ridiculously low 102-seat configuration. Those airplanes will just become regular A321s, and now the XLR will carry the heavier load with 155 seats on a route that definitely does not need the range of that airplane.",
+      "zh": "这完全是为了退役 A321T 子机队，该机型采用了令人啼笑皆非的 102 座超低密度布局。那些飞机将直接转为常规客舱的 A321，而现在 XLR 将以 155 座的布局承担更重的载客任务，但这航线显然根本用不上该机型的超长航程。"
+    },
+    {
+      "id": 39,
+      "start_sec": 403,
+      "speaker": "Brett Snyder",
+      "en": "But staying at the high level here, Brian, what do you make of these? How would you describe the strategies of these airlines?",
+      "zh": "不过我们还是先从宏观层面来看，Brian，你对此怎么看？你会如何描述这几家航空公司的策略？"
+    },
+    {
+      "id": 40,
+      "start_sec": 410,
+      "speaker": "Brian Sumers",
+      "en": "Well, Brett, I think I'm contractually obligated to hit American on this.",
+      "zh": "好吧，Brett，我觉得我按合同也得在这件事上好好吐槽一下 American。"
+    },
+    {
+      "id": 41,
+      "start_sec": 413,
+      "speaker": "Brett Snyder",
+      "en": "Good. Yeah, glad to see you're back to your old self.",
+      "zh": "很好，对，很高兴看到你又恢复本色了。"
+    },
+    {
+      "id": 42,
+      "start_sec": 415,
+      "speaker": "Brian Sumers",
+      "en": "The fangs are out.",
+      "zh": "獠牙已经露出来了。"
+    },
+    {
+      "id": 43,
+      "start_sec": 416,
+      "speaker": "Brett Snyder",
+      "en": "That last American episode, I think it was unsettling for a lot of people. You had nice things to say.",
+      "zh": "上期聊 American 的节目，我觉得让很多人都挺不习惯的。你当时居然说了不少好话。"
+    },
+    {
+      "id": 44,
+      "start_sec": 421,
+      "speaker": "Brian Sumers",
+      "en": "Well, perhaps, and I was even nicer in my last newsletter because I flew them a couple times last week. They were pretty good. But anyways, let's talk about these new American routes.",
+      "zh": "嗯，也许吧，而且我在上期通讯里写得还要更客气，因为我上周刚坐了他们两次航班。体验确实挺不错的。但无论如何，我们来聊聊 American 的这些新航线吧。"
+    },
+    {
+      "id": 45,
+      "start_sec": 430,
+      "speaker": "Brian Sumers",
+      "en": "We know that American has a lot of debt, it doesn't have that many long-haul airplanes, it has eh East Coast hubs compared to the others, and American is very clear that it needs to play very conservatively. Doesn't want to lose too much money, doesn't want to take too many chances.",
+      "zh": "我们知道 American 负债累累，远程宽体机数量也没那么多，和其他航司相比，其东海岸枢纽也较为平庸，而且 American 非常明确自己必须采取极度保守的策略。既不想亏太多钱，也不想冒太大险。"
+    },
+    {
+      "id": 46,
+      "start_sec": 446,
+      "speaker": "Brian Sumers",
+      "en": "I think that that part is okay, even if I hit Amsterdam before, because it's kind of boring, but I don't understand, as you hinted at, why they're taking a potentially game-changing airplane and flying it between New York and the West Coast.",
+      "zh": "我认为保守这点无可厚非，尽管我刚才吐槽过阿姆斯特丹航线有点无聊，但我不能理解的是，正如你暗示的那样，他们为什么要拿一架可能具有颠覆意义的飞机去飞纽约和西海岸之间。"
+    },
+    {
+      "id": 47,
+      "start_sec": 463,
+      "speaker": "Brian Sumers",
+      "en": "Sure, the LOPA is probably right for that market, but I don't understand why you wouldn't just take the old A321Ts and retrofit them, or maybe just some other neos from your fleet? And then you could send the XLRs to places where the airline could open up new markets, not just in Europe, but maybe South America as well.",
+      "zh": "诚然，这种客舱布局对那个市场来说或许很合适，但我不明白为什么不直接把老款 A321T 拿去改装，或者哪怕改机队里的其他 Neo 呢？这样你就可以把 XLR 派去能开辟新市场的地方，不仅是在欧洲，或许还能拓展南美。"
+    },
+    {
+      "id": 48,
+      "start_sec": 485,
+      "speaker": "Brett Snyder",
+      "en": "Preach! This is what I'm talking about. But I think it's odd. I agree that American decided to use this long-haul airplane for transcon, but it did need to do something.",
+      "zh": "说得太对了！这也是我想说的。但我也觉得很蹊跷。我同意 American 决定把这种远程客机拿去飞跨大陆航线很奇怪，但他们确实也必须有所作为。"
+    },
+    {
+      "id": 49,
+      "start_sec": 497,
+      "speaker": "Brian Sumers",
+      "en": "Are you saying that American acted with urgency?",
+      "zh": "你是说 American 是出于紧迫感才采取行动的？"
+    },
+    {
+      "id": 50,
+      "start_sec": 500,
+      "speaker": "Brett Snyder",
+      "en": "I don't know that it was urgent. When did they order this airplane? I mean, I think this has been the plan for years.",
+      "zh": "我倒不觉得是急于求成。他们是什么时候订这飞机的？我觉得这计划都酝酿好多年了。"
+    },
+    {
+      "id": 51,
+      "start_sec": 506,
+      "speaker": "Brett Snyder",
+      "en": "But the 102-seat configuration on the T is absurd. It makes no sense today. I don't know that I would have made the same decision, but also, what do you really do?",
+      "zh": "但是 T 型机上的 102 座布局实在太荒谬了。放在今天完全讲不通。我不敢说自己会做出同样的选择，但话说回来，你又能怎么做呢？"
+    },
+    {
+      "id": 52,
+      "start_sec": 517,
+      "speaker": "Brett Snyder",
+      "en": "Because let's say they decide to outfit some neos instead, right, and put those in a transcon configuration. Where else do you fly them? Maybe some Western Europe's in range, but they wanted something that could more easily flow into the system and not just be a tiny subfleet.",
+      "zh": "因为假设他们决定改用部分 Neo，改成跨大陆高端布局。那你还能拿它们飞哪儿？也许部分西欧航点在航程之内，但他们想要的是能更容易融入整个运行网络、而不是仅仅形成一个微型子机队的机型。"
+    },
+    {
+      "id": 53,
+      "start_sec": 533,
+      "speaker": "Brett Snyder",
+      "en": "So the XLR is totally overkill for transcon, and I wouldn't have started it with that, but I can see how it got there.",
+      "zh": "所以把 XLR 用在跨大陆航线上完全是大材小用，换作是我绝不会一开始就这么用，但我能理解他们是怎么走到这一步的。"
+    },
+    {
+      "id": 54,
+      "start_sec": 540,
+      "speaker": "Brett Snyder",
+      "en": "Maybe you use the end of the fleet for that, and start with like the Latin America and all that... whatever.",
+      "zh": "也许你可以用最后交付的那批机队来飞这些航线，先从拉丁美洲之类的市场起步……算了，随便吧。"
+    },
+    {
+      "id": 55,
+      "start_sec": 548,
+      "speaker": "Brian Sumers",
+      "en": "Uh, Brett, I'm going to stop you there for a moment. I know how much the American people hate being compared with United.",
+      "zh": "Brett，我先打断你一下。我知道美航那帮人有多讨厌被拿来跟美联航比较。"
+    },
+    {
+      "id": 56,
+      "start_sec": 555,
+      "speaker": "Brian Sumers",
+      "en": "But you talk about a tiny sub-fleet only flying from say New York to Southern California and San Francisco. But the United Coastliner also has a very premium configuration.",
+      "zh": "但你说的是一支规模极小的子机队，只飞纽约到南加州以及旧金山。而美联航的 Coastliner 同样采用了高度高端化的客舱布局。"
+    },
+    {
+      "id": 57,
+      "start_sec": 569,
+      "speaker": "Brian Sumers",
+      "en": "And United says it's about to show us that you can have premium, flat beds and even premium economy on domestic routes that go well beyond New York to California. American's not going to do that.",
+      "zh": "而且美联航表示，他们即将证明，在远超出纽约到加州范围的国内航线上，同样可以配备高端平躺座椅甚至是超级经济舱。美航可不会这么干。"
+    },
+    {
+      "id": 58,
+      "start_sec": 582,
+      "speaker": "Brett Snyder",
+      "en": "No, they're... American is more interested in simplicity, which I suppose goes back to the cost issue, whereas United has the more revenue-focused view.",
+      "zh": "是的，美航更看重机队与运营的简化，我想这最终还是归结为成本问题；而美联航则采取了更偏重提升收益的视角。"
+    },
+    {
+      "id": 59,
+      "start_sec": 593,
+      "speaker": "Brian Sumers",
+      "en": "As for Air Canada and United, we know that they're in a transatlantic joint venture, so we have to look at them as one and the same. I'm going to oversimplify here, it's not 100% true.",
+      "zh": "至于加航和美联航，我们知道它们处于跨大西洋航线联营（JV）中，因此必须把它们视为一个整体来看待。我这里先做个高度概括，虽然不完全绝对。"
+    },
+    {
+      "id": 60,
+      "start_sec": 604,
+      "speaker": "Brian Sumers",
+      "en": "But it seems like Air Canada is the airline that's going to play to its own strengths in Northern Europe, and then those French markets where Canadian customers want to go. And then United does some of the sexier stuff, like Luxembourg.",
+      "zh": "但看起来加航将充分发挥自身优势，深耕北欧市场，以及加拿大旅客偏爱的法国各航点。而美联航则去开辟一些更具吸引力、更吸睛的航点，比如卢森堡。"
+    },
+    {
+      "id": 61,
+      "start_sec": 617,
+      "speaker": "Brian Sumers",
+      "en": "And then all those Southern European destinations that Americans can't get enough of. Including me, by the way, did some swimming in the Mediterranean this summer, fantastic.",
+      "zh": "还有所有那些让美国游客流连忘返的南欧目的地。顺便说一句，也包括我，今年夏天我就去地中海游了泳，太惬意了。"
+    },
+    {
+      "id": 62,
+      "start_sec": 627,
+      "speaker": "Brett Snyder",
+      "en": "This may be the first time I've heard someone call Luxembourg sexy, but okay, point taken. There are a couple things that stand out to me.",
+      "zh": "这大概是我头一次听人把卢森堡形容为‘性感吸睛’，不过好吧，我明白你的意思。有几点在我看来非常引人注目。"
+    },
+    {
+      "id": 63,
+      "start_sec": 637,
+      "speaker": "Brett Snyder",
+      "en": "For United, this is just a great Newark airplane. This goes back to you talking about having the right hubs. I mean, Newark is a great place for this airplane.",
+      "zh": "对美联航来说，这简直就是为纽瓦克量身定制的绝佳机型。这又回到了你之前谈到的拥有合适枢纽的话题。纽瓦克确实是这款飞机大显身手的宝地。"
+    },
+    {
+      "id": 64,
+      "start_sec": 645,
+      "speaker": "Brett Snyder",
+      "en": "And last summer, United sent planes across the Atlantic to 38 destinations, I'm defining that kind of loosely, I guess Nuuk is not really across the Atlantic, but until we invade Denmark and take it away, we'll count that as Europe.",
+      "zh": "去年夏天，美联航跨大西洋执飞了38个目的地，我这里的界定相对宽松，毕竟努克并不算真正横跨了大西洋，但只要我们还没从丹麦手里把它抢过来，就暂且算作欧洲吧。"
+    },
+    {
+      "id": 65,
+      "start_sec": 658,
+      "speaker": "Brian Sumers",
+      "en": "The listeners don't like the political jokes.",
+      "zh": "听众们可不爱听这种政治笑话。"
+    },
+    {
+      "id": 66,
+      "start_sec": 661,
+      "speaker": "Brett Snyder",
+      "en": "Anyway, United also, though, it has known the power of the narrowbodies across the Atlantic forever, since pre-merger Continental started doing the 75s on that mission, right?",
+      "zh": "不管怎么说，美联航其实早就深谙窄体机执飞跨大西洋航线的威力，早在合并前的大陆航空时期，他们就用波音757执行这类任务了，对吧？"
+    },
+    {
+      "id": 67,
+      "start_sec": 672,
+      "speaker": "Brett Snyder",
+      "en": "And next summer, it's still going to have 75s to eight destinations going in Europe, and that's secondary Spain and Portugal, Ireland, and Scotland, and there's Reykjavik in there too, but most of these will get replaced with XLRs eventually.",
+      "zh": "到了明年夏天，他们仍将用757执飞欧洲的8个目的地，主要是西班牙和葡萄牙的二线城市、爱尔兰、苏格兰，还有雷克雅未克，不过这些航线最终大多都会被A321XLR所取代。"
+    },
+    {
+      "id": 68,
+      "start_sec": 687,
+      "speaker": "Brett Snyder",
+      "en": "But I think it's really telling that United has decided to put the XLRs out there to expand the airline's reach this summer instead of replacing the old 75s. So it's the opposite of how American started the deployment.",
+      "zh": "但我觉得非常耐人寻味的是，美联航决定在今年夏天用 XLR 去开拓新航点、扩大航线网络版图，而不是直接替换老旧的757。这与美航当初的排布策略恰恰相反。"
+    },
+    {
+      "id": 69,
+      "start_sec": 700,
+      "speaker": "Brett Snyder",
+      "en": "Obviously, just replacing the 75s would work, it'd be the conservative route, but United is going full speed ahead on adding new dots to the map, which is going to further distance itself not just from American, but also from Delta.",
+      "zh": "显然，单纯替换757是行得通的，属于稳扎稳打的保守打法，但美联航却开足马力在航线网络图上增设新航点，这将进一步拉大它与美航乃至达美之间的差距。"
+    },
+    {
+      "id": 70,
+      "start_sec": 712,
+      "speaker": "Brett Snyder",
+      "en": "And then let's also not forget how it's already been using the MAX 8 to serve all those Atlantic island spots, anything within range, which includes...",
+      "zh": "另外也别忘了，他们此前已经开始利用 737 MAX 8 执飞所有那些大西洋岛屿航点，只要在航程覆盖范围内，包括……"
+    },
+    {
+      "id": 71,
+      "start_sec": 720,
+      "speaker": "Brett Snyder",
+      "en": "Got Terceira, which comes on next summer as a new route there in the Azores. And then it also does like some tertiary Spain, it goes to Scotland. United is really just using all of its weapons here.",
+      "zh": "还有特塞拉岛（Terceira），这是美联航明年夏天在亚速尔群岛开通的一条新航线。此外他们还飞西班牙的一些三线目的地，以及苏格兰。美联航这次可以说是倾巢出动、亮出了所有底牌。"
+    },
+    {
+      "id": 72,
+      "start_sec": 733,
+      "speaker": "Brett Snyder",
+      "en": "But Brian, I'm curious what you think about the product on these airplanes for United, because you are the product guy. You say that with such disdain. There's no disdain! I'm just explaining why I'm asking you instead of opining myself.",
+      "zh": "不过 Brian，我很想听听你怎么看美联航这些飞机上的客舱产品，毕竟你才是客舱产品专家。你这话听着怎么满满的嫌弃。哪有嫌弃！我只是说明为什么要请教你，而不是我自己在那夸夸其谈。"
+    },
+    {
+      "id": 73,
+      "start_sec": 747,
+      "speaker": "Brett Snyder",
+      "en": "I want to hear your thoughts on this. But the MAX 8, obviously a domestic product. But the XLR with which they're only selling 150 seats, is most certainly not domestic only, it is a full-fledged international product. Not asking for a product critique, just how do you think this fits with these routes? Is this going to work?",
+      "zh": "我想听听你的看法。MAX 8 显然是国内线配置的产品。但美联航仅设 150 座的 XLR 绝非仅供国内航线使用，它是一款名副其实的洲际全规格产品。我不是让你点评产品本身的优缺点，而是想问你觉得它与这些航线的契合度如何？这套打法行得通吗？"
+    },
+    {
+      "id": 74,
+      "start_sec": 767,
+      "speaker": "Brian Sumers",
+      "en": "Well, our old friend Glen Hauenstein, formerly of Delta and still an airline deity, once tweaked United by saying that Delta only uses premium interiors across the Atlantic. And maybe that consistency is good for Delta, or maybe just Delta made a mistake with its network plan.",
+      "zh": "我们熟知的老朋友、前达美航空高管，也是航空界殿堂级人物 Glen Hauenstein 曾暗讽过美联航，称达美在跨大西洋航线上全部采用高规格两舱内饰。或许这种产品一致性对达美是好事，又或许只是达美在航线网络规划上走错了路。"
+    },
+    {
+      "id": 75,
+      "start_sec": 788,
+      "speaker": "Brian Sumers",
+      "en": "But there are routes, some of them that you mentioned, that probably don't need flatbeds. They probably can't sustain the yields up front, and they're pretty short flights anyways. So, I think the MAX 8 is a fine airplane for some of these routes.",
+      "zh": "但确实有些航线——包括你刚才提到的一部分——根本不需要平躺公务舱。这些航线前端舱位的客公里收益大概率支撑不起高端硬件，而且飞行时间本身就很短。所以我觉得 MAX 8 执飞其中的某些航线是完全合理的。"
+    },
+    {
+      "id": 76,
+      "start_sec": 801,
+      "speaker": "Brian Sumers",
+      "en": "Also, I commend United because it's very methodical about where it sends these essentially domestic airplanes, because it knows it's helping customers in other ways. So, one of the places I like to go to in Europe is Madeira, an island off the coast of Portugal, very neat, child-friendly destination, I recommend it.",
+      "zh": "此外，我也很赞赏美联航在投放这些实质上的国内线客机时表现出的严谨规划，因为他们明白这能在其他维度为旅客带来价值。比如我在欧洲很喜欢去的一个地方是马德拉（Madeira），葡萄牙外海的一座岛屿，非常干净且适合带娃，我很推荐。"
+    },
+    {
+      "id": 77,
+      "start_sec": 821,
+      "speaker": "Brian Sumers",
+      "en": "Last time with the family, we connected through London. Look at a map, it is incredibly out of the way. So, why not just fly to Newark and save the time, even if the product is inferior?",
+      "zh": "上次我带家人去是在伦敦转机。但你看一下地图就会发现，那完全是在绕远路。所以，哪怕硬件产品差点，为什么不直接飞纽瓦克中转来节省时间呢？"
+    },
+    {
+      "id": 78,
+      "start_sec": 835,
+      "speaker": "Brian Sumers",
+      "en": "Finally, I think airlines can get into trouble when they try to fool customers. Remember that the MAX 8 premium cabin is sold as Premium Economy, and the seat is almost exactly the same as the PY seat on long-haul airplanes. So, people are getting exactly what they bought.",
+      "zh": "最后一点，我认为航司只有在企图糊弄旅客时才会惹祸上身。要知道，美联航 MAX 8 的前舱是作为超级经济舱来销售的，而那款座椅与远程宽体机上的超经座椅几乎完全一样。因此旅客买到什么就得到什么，并不存在货不对板。"
+    },
+    {
+      "id": 79,
+      "start_sec": 856,
+      "speaker": "Brian Sumers",
+      "en": "The XLR I think is for premium destinations and places that United projects it's going to sell a lot of Premium Economy and business class tickets.",
+      "zh": "至于 XLR，我认为它是面向高端目的地，以及美联航预计能售出大量超级经济舱和商务舱机票的市场。"
+    },
+    {
+      "id": 80,
+      "start_sec": 865,
+      "speaker": "Brett Snyder",
+      "en": "Yeah, I agree with you on the MAX 8. I think it's a nice tool in the tool chest here. XLR though, that's totally different. Do you think this is going to work on some of these places where they're putting them?",
+      "zh": "对，关于 MAX 8 我赞同你的观点。我认为它是航司工具箱里一件很趁手的工具。但 XLR 则是完全另一码事了。你觉得把它投放在目前规划的这些航线上真能奏效吗？"
+    },
+    {
+      "id": 81,
+      "start_sec": 877,
+      "speaker": "Brian Sumers",
+      "en": "I think it's very possible that it's going to work. Back in the day, you would only put an airplane with this many premium seats on your classic business destinations. But we know that premium leisure is still rocking.",
+      "zh": "我认为完全有成功的可能。搁在以前，你只会在传统的商旅目的地投放这种配备大量两舱座位的飞机。但大家都清楚，如今的高端休闲游需求依然火爆。"
+    },
+    {
+      "id": 82,
+      "start_sec": 891,
+      "speaker": "Brian Sumers",
+      "en": "So, at first you look at Marseille and, can I say it like an American, Ibiza? And you think, really, like...",
+      "zh": "所以初看马赛，还有——容我按美式发音来念——伊维萨（Ibiza）？你可能会犯嘀咕：真的假的……"
+    },
+    {
+      "id": 83,
+      "start_sec": 900,
+      "speaker": "Brian Sumers",
+      "en": "What are they doing there? But remember that United has used its high-J 767 to Naples and Nice and Marrakesh. So it understands these premium leisure markets, and I think it knows that there are certain places in Europe, especially during high season, where you can fill a lot of premium seats.",
+      "zh": "他们在那儿到底在谋划什么？但别忘了，United 曾经把高密度商务舱配置的 767 派往那不勒斯、尼斯和马拉喀什。所以它对这类高端休闲市场非常了解，也很清楚在欧洲的某些目的地，尤其是在旺季，是完全可以填满大量高端舱位座位的。"
+    },
+    {
+      "id": 84,
+      "start_sec": 919,
+      "speaker": "Brian Sumers",
+      "en": "And I'm going to reiterate one more thing, because I do get some crap for this about, 'Oh, some of these markets, you can't sell the seats in advance, whatever.' Remember, in this new world of merchandising, you can sell premium seats at any point, including an hour before departure. These seats, for the most part, they're going to be filled, either by people who paid in some way, or even by upgraders. Airlines, especially United, still care, they still want to give some upgrades.",
+      "zh": "我还想再重申一点，因为我经常因此被吐槽，有人会说：‘噢，在其中一些市场上，你根本没法提前把座位卖出去’之类的。别忘了，在如今这种全新的辅助产品零售模式下，高端舱位随时都能卖，哪怕是在起飞前一小时。这些座位绝大多数都会被填满，要么是通过某种付费方式购买的旅客，要么甚至是通过升舱补齐的。航司，尤其是 United，依然很看重这一点，他们还是愿意放出一部分升舱名额的。"
+    },
+    {
+      "id": 85,
+      "start_sec": 947,
+      "speaker": "Brett Snyder",
+      "en": "Sure. I think the question is whether there are enough coach seats to be sold to actually upgrade into all those premium seats. If the mix is not right, then you end up with something like the A321T, where you have like 10 coach seats and a sea of premium.",
+      "zh": "确实。我认为问题在于，是否有足够的经济舱座位能卖得出去，从而支撑旅客一路升舱填满所有那些高端舱位。如果舱位配比不对，最终就会搞得像 A321T 那样——只有大概 10 个经济舱座位，剩下全是一望无际的高端舱。"
+    },
+    {
+      "id": 86,
+      "start_sec": 963,
+      "speaker": "Brett Snyder",
+      "en": "So, the way it looks is that they've done a pretty good job. They've put a lot of seats on this airplane considering the product that's on board. That's just where my question is. And this is not the universal decision here. Air Canada has gone in the opposite direction. It's going to be more dense. It has 182 seats on board, just 14 flatbeds, that's it.",
+      "zh": "从目前的情况来看，他们做得相当不错。考虑到机上搭载的硬件产品，他们在这架飞机上塞进了相当多的座位。我的疑问仅仅在此。而且这并非业界的通用做法。Air Canada 就反其道而行之。他们的客舱密度会更高，机上配有 182 个座位，但平躺商务舱座位只有 14 个，仅此而已。"
+    },
+    {
+      "id": 87,
+      "start_sec": 983,
+      "speaker": "Brett Snyder",
+      "en": "But that's also the Canadian market, which is totally different. But Air Canada's basic idea is the same. It's trying to expand its reach, right? So, it had an already impressive number of Atlantic destinations, which I don't know that a lot of people realize. It this past summer flew to 35 destinations across the Atlantic. Eight of those were from Toronto only, 12 were from Montreal only, and that means 15 were served from both.",
+      "zh": "但加拿大市场毕竟完全不同。不过 Air Canada 的核心思路是一致的，那就是努力拓展自身的航网覆盖，对吧？很多人可能都没意识到，它跨大西洋的目的地数量其实已经非常惊人了。今年夏天，他们飞往了 35 个大西洋彼岸的目的地。其中 8 个仅从多伦多始发，12 个仅从蒙特利尔始发，这意味着有 15 个目的地是两地同时开航的。"
+    },
+    {
+      "id": 88,
+      "start_sec": 1008,
+      "speaker": "Brett Snyder",
+      "en": "So, it'll tackle the French-speaking diaspora with that Montreal-Basel flight and a whole bunch of other places that are already flown. And then from Toronto, it goes further into the English-speaking world and and it does the North, as you'd mentioned, places where United doesn't go, like Oslo, which is the new one next year.",
+      "zh": "因此，他们通过蒙特利尔至巴塞尔等现有航线，来锁定法语区侨民客群以及其他诸多已开通的目的地。而从多伦多出发，航线则进一步深入英语世界，并且正如你所提到的，去覆盖北欧市场——那些 United 尚未涉足的城市，比如明年新增的奥斯陆。"
+    },
+    {
+      "id": 89,
+      "start_sec": 1030,
+      "speaker": "Brian Sumers",
+      "en": "I like what United and Air Canada are doing here, Brett. Not having to deal with antitrust is kind of a wonderful thing. They can divvy up the market, they don't step on each other's toes.",
+      "zh": "Brett，我很看好 United 和 Air Canada 目前的这套打法。不用受反垄断审查的束缚真是件大好事。他们可以直接瓜分市场，彼此互不踩脚。"
+    },
+    {
+      "id": 90,
+      "start_sec": 1042,
+      "speaker": "Brian Sumers",
+      "en": "There is one thing I've noticed about United's routes. The vast majority of them are returning year after year. I think that means that United is making good money here. But I've noticed on some of these conference calls with Patrick Quayle, every year the airline does these things, and media and bloggers are allowed to ask questions.",
+      "zh": "关于 United 的航线，我注意到一件事：绝大多数航线年复一年地持续回归。我认为这意味着 United 在这方面赚得盆满钵满。但我注意到在与 Patrick Quayle 的电话会议上——航司每年都会办这类沟通会，允许媒体和博主提问——"
+    },
+    {
+      "id": 91,
+      "start_sec": 1068,
+      "speaker": "Brian Sumers",
+      "en": "And people ask this gotcha question to Patrick every year of, 'Oh, well, you have all these new routes. How many of them are not coming back?' As if it's a bad thing that they're not.",
+      "zh": "每年都有人试图用挑刺的问题刁难 Patrick：‘噢，你们开了这么多新航线，到底有几条不会再飞了？’搞得好像不续飞就是一件坏事一样。"
+    },
+    {
+      "id": 92,
+      "start_sec": 1080,
+      "speaker": "Brian Sumers",
+      "en": "...coming back. I wonder if the fact that almost all these routes keep coming back year after year, except Bergen, Norway, which was one big failure, might be a sign that, believe it or not, United is not taking enough chances.",
+      "zh": "……都在回归。除了挪威卑尔根那条线算是一次惨重溃败，几乎所有这些航线年复一年地被保留下来，这会不会其实表明——信不信由你——United冒的险还不够多？"
+    },
+    {
+      "id": 93,
+      "start_sec": 1096,
+      "speaker": "Brian Sumers",
+      "en": "One airline president told me recently that if 10% of routes at a solidly profitable airline aren't failing, the network team isn't taking enough chances. That's United.",
+      "zh": "最近有位航司总裁告诉我，如果一家稳定盈利的航司没有10%的航线面临失败，那就说明航线网络团队没有去充分试错。United现在就是这种情况。"
+    },
+    {
+      "id": 94,
+      "start_sec": 1111,
+      "speaker": "Brian Sumers",
+      "en": "You know what airline though, Brett, is not solidly profitable right now? American. It has profitable quarters, maybe it's on the upswing, but I wouldn't call it solidly profitable.",
+      "zh": "但Brett，你知道哪家航司现在算不上稳定盈利吗？American。它虽然有些季度能赚钱，或许也正在好转，但我绝不会称其为稳定盈利。"
+    },
+    {
+      "id": 95,
+      "start_sec": 1123,
+      "speaker": "Brian Sumers",
+      "en": "So it hasn't earned the right for 10% of its routes to fail, and I think that's why we see so much of this boring stuff, and then some attempts to fill those holes in New York. The industry people I talked to suggest that most of this stuff is going to work for American.",
+      "zh": "所以它根本没有资本去承受10%航线失败的代价。我认为这就是为什么我们看到这么多四平八稳的规划，以及试图填补纽约航线漏洞的举措。据我接触的业内人士透露，这些调整对American大多能奏效。"
+    },
+    {
+      "id": 96,
+      "start_sec": 1140,
+      "speaker": "Brian Sumers",
+      "en": "The one they're most skeptical of is the very saturated JFK to Amsterdam route. A lot of competition on that one, also a big summer tourist market.",
+      "zh": "他们最怀疑的是运力极度饱和的肯尼迪至阿姆斯特丹航线。这条航线上竞争异常激烈，而且也是个很大的夏季旅游市场。"
+    },
+    {
+      "id": 97,
+      "start_sec": 1149,
+      "speaker": "Brett Snyder",
+      "en": "It wants more relevance in New York, but I just, I don't know how 155-seat airplane to Amsterdam is going to work at all, as you said. But sure, Nice should be fine, and then the Philly network extension, that's good.",
+      "zh": "它想提升在纽约的存在感，但正如你所说，我实在想不通一架155座的飞机飞阿姆斯特丹怎么可能行得通。不过当然，尼斯航线应该没问题，费城网络的延伸也很不错。"
+    },
+    {
+      "id": 98,
+      "start_sec": 1162,
+      "speaker": "Brett Snyder",
+      "en": "Porto, fine. Vienna, fine, assuming it can actually make the westbound without a stop. That is a pretty long haul, actually. But this isn't about padding a lead, this is about catching up.",
+      "zh": "波尔图可以，维也纳也可以，前提是西行方向真能中途不经停。那段航程实际上相当长。但这根本不是在扩大领先优势，而是在苦苦追赶。"
+    },
+    {
+      "id": 99,
+      "start_sec": 1175,
+      "speaker": "Brian Sumers",
+      "en": "This, Brett, brings up that age-old question in the airline world. If you're number three in a market, do you try to add flights to competitive markets like an Amsterdam to become more relevant in, say, New York, not only to people who are buying tickets, but also credit card holders, and don't forget corporate customers?",
+      "zh": "Brett，这就引出了航空业那个由来已久的老问题。如果你在一个市场排在第三，你是否该向阿姆斯特丹这类竞争激烈的市场增投航班，以此提升自己在比如纽约的存在感？这不仅关乎购票旅客，还关乎联名信用卡持卡人，更别忘了还有商旅客户。"
+    },
+    {
+      "id": 100,
+      "start_sec": 1199,
+      "speaker": "Brian Sumers",
+      "en": "This seems to be the game that American is talking about in Los Angeles, New York, and Chicago. Side note, God help them if they go back into Los Angeles to Asia.",
+      "zh": "这似乎正是American在洛杉矶、纽约和芝加哥打的算盘。顺便说一句，如果他们真打算重开洛杉矶到亚洲的航线，那可真得自求多福了。"
+    },
+    {
+      "id": 101,
+      "start_sec": 1211,
+      "speaker": "Brett Snyder",
+      "en": "I saw that Singapore rumor, my god.",
+      "zh": "我看到那个关于新加坡的传闻了，天呐。"
+    },
+    {
+      "id": 102,
+      "start_sec": 1214,
+      "speaker": "Brian Sumers",
+      "en": "It is just a rumor. But then the other option is do you just say, 'Hey, kind of, we lost these markets, let's go play to our strengths and let's go try to make as much money as we can where we are a clear number one?'",
+      "zh": "目前还只是传闻。但另一种选择是，你干脆认栽说：'算了，这些市场我们认输，还是发挥自身长板，在我们稳坐头把交椅的地方尽量多赚钱吧。'"
+    },
+    {
+      "id": 103,
+      "start_sec": 1229,
+      "speaker": "Brian Sumers",
+      "en": "We hinted about this earlier when I brought up South America. Brett, you had a long piece on Cranky Flier recently where you said American should really go deeper into South America, put some of these XLRs down there. Why do you think that?",
+      "zh": "我前面提到南美时就暗示过这一点。Brett，你最近在Cranky Flier上发了篇长文，指出American真应该深耕南美，把一部分XLR派过去。你为什么会这么想？"
+    },
+    {
+      "id": 104,
+      "start_sec": 1246,
+      "speaker": "Brett Snyder",
+      "en": "Let me just start by saying that I don't think these Europe routes are bad. What I'm saying is that when you have a limited number of airplanes that have been delivered, you have to choose where to put them first.",
+      "zh": "首先我想说的是，我并不觉得这些欧洲航线不好。我的观点是，当你实际交付的飞机数量有限时，必须有所取舍、挑好首发的市场。"
+    },
+    {
+      "id": 105,
+      "start_sec": 1256,
+      "speaker": "Brett Snyder",
+      "en": "Now, American said transcon is most important, and it's following that...",
+      "zh": "目前American认定跨大陆航线最重要，并且正在贯彻这一……"
+    },
+    {
+      "id": 106,
+      "start_sec": 1260,
+      "speaker": "Brett Snyder",
+      "en": "For transatlantic, I still think Latin is the most important and should be because American is the leader there from a US carrier perspective, but it needs to bolster its position. And that's especially true with GOL getting widebodies, and then you have LATAM and SKY getting XLRs.",
+      "zh": "至于跨大西洋航线，我依然认为拉丁美洲市场最重要，也理应如此，因为从美国航司的角度看，American 是那里的霸主，但它需要巩固自己的阵地。特别是考虑到 GOL 正在引进宽体机，而 LATAM 和 SKY 又在接收 XLR。"
+    },
+    {
+      "id": 107,
+      "start_sec": 1279,
+      "speaker": "Brett Snyder",
+      "en": "I mean, imagine the new dots American could announce, like Córdoba, Manaus, Recife, all these places that they don't serve that they used to serve at one point.",
+      "zh": "想象一下 American 能新开辟的航点吧，比如科尔多瓦、玛瑙斯、累西腓，这些都是他们曾经飞过但目前尚未恢复服务的目的地。"
+    },
+    {
+      "id": 108,
+      "start_sec": 1288,
+      "speaker": "Brian Sumers",
+      "en": "Well, this isn't the first time American might be caught flat-footed in South America. Remember LATAM?",
+      "zh": "不过，这也不是 American 第一次在南美市场被打得措手不及了。还记得 LATAM 吗？"
+    },
+    {
+      "id": 109,
+      "start_sec": 1294,
+      "speaker": "Brett Snyder",
+      "en": "Think so. I've heard of them. They had a partnership once, didn't they?",
+      "zh": "好像是。我听说过他们，他们以前有过合作，对吧？"
+    },
+    {
+      "id": 110,
+      "start_sec": 1298,
+      "speaker": "Brian Sumers",
+      "en": "Uh as I recall. I agree with you that American should expand in South America. I suspect they will, if only because I know they listen to this podcast every week and they know that we have great ideas.",
+      "zh": "据我回忆确实如此。我同意你的看法，American 应该在南美扩张。我猜他们会这么做，哪怕仅仅是因为我知道他们每周都听我们的节目，也知道我们有很多好点子。"
+    },
+    {
+      "id": 111,
+      "start_sec": 1310,
+      "speaker": "Brian Sumers",
+      "en": "At the risk of putting a quarter into the jar, I know an airline CEO who believes if you're not first, you're last. This airline CEO, at a competitor, had some very nice things to say recently in a public forum about American's Miami hub.",
+      "zh": "冒着又要被罚款的风险，我认识某家航司的 CEO，他信奉“如果你不是第一，那你就是垫底”。这位来自竞争对手的航司 CEO，最近在一个公开论坛上对 American 的迈阿密枢纽大加赞赏。"
+    },
+    {
+      "id": 112,
+      "start_sec": 1327,
+      "speaker": "Brian Sumers",
+      "en": "Of course, also, this CEO is very, very strategic. I wonder, Brett, if he was giving a message to American's board that they should really prod their CEO into expanding in Latin America, and maybe leave this CEO's airline—it is United—alone elsewhere.",
+      "zh": "当然，这位 CEO 极具战略眼光。我在想，Brett，他是不是在向 American 的董事会传递信号，暗示他们真该督促自家的 CEO 往拉丁美洲扩张，而别在其他地方打扰这位 CEO 的航司——也就是 United。"
+    },
+    {
+      "id": 113,
+      "start_sec": 1345,
+      "speaker": "Brett Snyder",
+      "en": "You still have to put a quarter in the jar. Everyone knows what you're saying, Brian. So, I think the message to the board was more, \"Hey, you should really merge with me. And if you don't, well, I'm watching you.\" Do you like the Batman voice, you know?",
+      "zh": "你还是得往罐子里扔硬币。谁都知道你在说谁，Brian。所以，我觉得他给董事会传达的信号更像是：“嘿，你们真该和我合并。如果不合，那好吧，我盯着你们呢。”你喜欢我这蝙蝠侠嗓音吗？"
+    },
+    {
+      "id": 114,
+      "start_sec": 1360,
+      "speaker": "Brian Sumers",
+      "en": "We'll have to do another show on this merger. I I just can't see it.",
+      "zh": "关于这桩合并案，我们得改期单开一期聊了。我……我反正是完全看不到可行性。"
+    },
+    {
+      "id": 115,
+      "start_sec": 1364,
+      "speaker": "Brett Snyder",
+      "en": "Let's not even go there right now. But look, I mean, these decisions are not being made by us. We have the easy job. We just get to evaluate what's been done.",
+      "zh": "现在先别扯远了。但你看，这些决策又不是我们做的。我们的活儿很轻松，只需要评判已经发生的定局就行。"
+    },
+    {
+      "id": 116,
+      "start_sec": 1373,
+      "speaker": "Brett Snyder",
+      "en": "The real question is, will the airplane prove to be capable enough? Will they get the range? Will they get the fuel burn that they expect? All of that. I mean, I know we've already seen it flying to some extent, but there will be improvements over time, as there always are. So, we will see.",
+      "zh": "真正的问题在于，这款飞机的性能到底能不能经受住考验？航程能否达标？油耗能否达到预期？诸如此类。虽然我们已经看到它投入了一定规模的飞行，但随着时间推移肯定还会有改进，向来都是如此。所以，我们拭目以待吧。"
+    },
+    {
+      "id": 117,
+      "start_sec": 1387,
+      "speaker": "Brett Snyder",
+      "en": "One thing I will point out about this airplane is that while we haven't heard any of Delta's summer routes yet—I don't know what they're waiting for, something—but there is just about no chance any of them would be on a narrowbody, because Delta has no XLRs or LRs on order, and it doesn't fly its 75s across the pond except to Iceland.",
+      "zh": "关于这款飞机我必须指出的一点是，虽然我们还没听到 Delta 公布任何夏季航线规划——我不知道他们在等什么，可能在憋什么大招吧——但这些航线几乎不可能由窄体机来飞，因为 Delta 既没有订购 XLR 也没有订购 LR，而且除了飞冰岛，他们基本不用 757 执飞跨大西洋航线。"
+    },
+    {
+      "id": 118,
+      "start_sec": 1409,
+      "speaker": "Brett Snyder",
+      "en": "Is this a problem for Delta if it works for American and United? It seems like a problem for Delta.",
+      "zh": "如果 American 和 United 走这条路走通了，这对 Delta 会是个问题吗？看起来确实会对 Delta 构成挑战。"
+    },
+    {
+      "id": 119,
+      "start_sec": 1416,
+      "speaker": "Brian Sumers",
+      "en": "Well, Brett, I think you know the rules of the airline business: you're only allowed to criticize Delta in private. If you criticize Delta in public, it's not good, and then they never talk to you again.",
+      "zh": "这个嘛，Brett，我想你懂得民航业的行规：你只被允许私下批评 Delta。一旦你公开发表对 Delta 的批评，后果很严重，他们就再也不会理你了。"
+    },
+    {
+      "id": 120,
+      "start_sec": 1428,
+      "speaker": "Brett Snyder",
+      "en": "Yeah, I've heard they lock you in the Biscoff tunnel in Atlanta.",
+      "zh": "是啊，我听说他们会把你关进亚特兰大的焦糖饼干密道里。"
+    },
+    {
+      "id": 121,
+      "start_sec": 1433,
+      "speaker": "Brian Sumers",
+      "en": "The short answer about Delta is, I don't know. I suspect Delta will probably have a problem.",
+      "zh": "关于 Delta 的简短回答是：我不知道。但我推测 Delta 很可能会遇上麻烦。"
+    },
+    {
+      "id": 122,
+      "start_sec": 1440,
+      "speaker": "Brian Sumers",
+      "en": "A problem in Western Europe once it retires those very cheap 767s. That's the airplane that they've used for new markets. But all kidding aside, the Delta people are very smart.",
+      "zh": "一旦退役那些成本极低的 767，达美在西欧就会面临问题。那可是他们用来开辟新航线的机型。不过玩笑归玩笑，达美的那帮人确实非常聪明。"
+    },
+    {
+      "id": 123,
+      "start_sec": 1453,
+      "speaker": "Brian Sumers",
+      "en": "I doubt that they've forgotten to formulate a European strategy. I guess it's possible they think the 330neos and the 787s will be enough, or we've seen Delta put in late orders for all kinds of aircraft over the years.",
+      "zh": "我不认为他们会忘了制定欧洲战略。我想他们可能觉得 A330neo 和 787 就足够了；或者，正如我们多年来所见，达美经常在很晚的时候才追加各类机型的订单。"
+    },
+    {
+      "id": 124,
+      "start_sec": 1470,
+      "speaker": "Brian Sumers",
+      "en": "What was that thing that Ed Bastian said maybe last year or the year before about Delta delivery delays from Airbus? That there's an alarm bell that rings in Toulouse. I suspect that Delta can get XLRs if it wants them.",
+      "zh": "Ed Bastian 去年还是前年是怎么评价空客给达美延期交付来着？说图卢兹会为此拉响警报。我猜只要达美想要，他们完全拿得到 XLR。"
+    },
+    {
+      "id": 125,
+      "start_sec": 1483,
+      "speaker": "Brett Snyder",
+      "en": "Yeah, maybe. I just don't know how long it would take to get them delivered. But we have more than just XLRs to talk about, Brian. So let's do that after the break.",
+      "zh": "可能吧，我只是不知道交付要等多久。不过 Brian，我们今天要聊的可不止 XLR。我们进一段广告，稍后继续。"
+    },
+    {
+      "id": 126,
+      "start_sec": 1494,
+      "speaker": "Brett Snyder",
+      "en": "How do you feel when you go to book a flight and the price has jumped $200 since last week?",
+      "zh": "当你准备订机票时，发现价格比上周涨了 200 美元，你是什么心情？"
+    },
+    {
+      "id": 127,
+      "start_sec": 1499,
+      "speaker": "Brian Sumers",
+      "en": "It makes me mad! Then I have regret, some sadness. Really, I go through all the stages of grief.",
+      "zh": "气死我了！接着是后悔，还有点难过。真的，悲伤的各个阶段我都经历了一遍。"
+    },
+    {
+      "id": 128,
+      "start_sec": 1505,
+      "speaker": "Brett Snyder",
+      "en": "Same. But Flex Pay helps airlines navigate that.",
+      "zh": "我也一样。但 Flex Pay 可以帮助航空公司化解这个难题。"
+    },
+    {
+      "id": 129,
+      "start_sec": 1508,
+      "speaker": "Brian Sumers",
+      "en": "How so?",
+      "zh": "怎么说？"
+    },
+    {
+      "id": 130,
+      "start_sec": 1509,
+      "speaker": "Brett Snyder",
+      "en": "This is what I think of as the financial hedge angle. When fares spike, whether it's peak season, fuel cost, whatever, conversion rates typically drop because sticker shock kicks in.",
+      "zh": "我认为这是一种金融对冲视角。当票价暴涨时——无论是因为旺季、燃油成本还是其他原因——转化率通常都会下滑，因为旅客被标价吓退了。"
+    },
+    {
+      "id": 131,
+      "start_sec": 1519,
+      "speaker": "Brian Sumers",
+      "en": "Makes sense. People see $600 and close the tab a lot more than when they see $199.",
+      "zh": "有道理。看到 600 美元直接关掉网页的人，肯定比看到 199 美元的人多得多。"
+    },
+    {
+      "id": 132,
+      "start_sec": 1525,
+      "speaker": "Brett Snyder",
+      "en": "Exactly. But if that same fare is presented as a monthly price, then the higher fare feels more manageable, and people book.",
+      "zh": "没错。但如果把同样的票价拆分成按月分期展示，高票价就显得更容易承受，大家就会下单了。"
+    },
+    {
+      "id": 133,
+      "start_sec": 1531,
+      "speaker": "Brian Sumers",
+      "en": "So the airline doesn't have to discount to maintain conversion. They just reframe the price?",
+      "zh": "所以航司不必通过打折来维持转化率，只需换一种方式呈现价格？"
+    },
+    {
+      "id": 134,
+      "start_sec": 1536,
+      "speaker": "Brett Snyder",
+      "en": "Right. And Flex Pay by Upgrade actually has funnel conversion data showing that airlines maintain strong transaction rates even as fares increase, when Flex Pay is in the mix.",
+      "zh": "对。Upgrade 旗下的 Flex Pay 拥有漏斗转化数据表明，在引入 Flex Pay 之后，即使票价上涨，航司依然能保持强劲的成单率。"
+    },
+    {
+      "id": 135,
+      "start_sec": 1546,
+      "speaker": "Brian Sumers",
+      "en": "So it's like a seatbelt for revenue during turbulent fare environments.",
+      "zh": "所以它就像是票价剧烈波动环境下的收入安全带。"
+    },
+    {
+      "id": 136,
+      "start_sec": 1550,
+      "speaker": "Brett Snyder",
+      "en": "Your simile game is on point lately. I was going to say financial hedge, but this is way better.",
+      "zh": "你最近的比喻水准相当在线啊。我本来想说金融对冲，但这个比喻好多了。"
+    },
+    {
+      "id": 137,
+      "start_sec": 1556,
+      "speaker": "Brian Sumers",
+      "en": "Either way, it's a tool that helps airlines stay competitive without racing to the bottom on price.",
+      "zh": "不管怎么说，这是一个能帮助航司保持竞争力、避免陷入价格恶性竞争的工具。"
+    },
+    {
+      "id": 138,
+      "start_sec": 1561,
+      "speaker": "Brett Snyder",
+      "en": "That's exactly it. This is sponsored by Upgrade, Inc. Learn more at upgrade.com/flex-pay.",
+      "zh": "一点没错。本期节目由 Upgrade 公司赞助。详情请访问 upgrade.com/flex-pay。"
+    },
+    {
+      "id": 139,
+      "start_sec": 1573,
+      "speaker": "Brett Snyder",
+      "en": "And we're back. So Brian, you want to talk about the new widebody routes coming online next summer?",
+      "zh": "欢迎回来。Brian，你想聊聊明年夏天即将上线的新宽体机航线吗？"
+    },
+    {
+      "id": 140,
+      "start_sec": 1578,
+      "speaker": "Brian Sumers",
+      "en": "I will talk a few of them, Brett, but when it comes time to say some of these cities, I'm going to turn it over to you. Most of these new routes are in Europe, surprise, surprise.",
+      "zh": "我会挑几条聊聊，Brett，但说到其中一些城市的名字时，我就交给你念了。不出所料，大多数新航线都在欧洲。"
+    },
+    {
+      "id": 141,
+      "start_sec": 1589,
+      "speaker": "Brian Sumers",
+      "en": "Let's lay it out. United is adding a trio of widebodies from Newark. There's going to be four weekly flights to...",
+      "zh": "我们来盘点一下。美联航将在纽瓦克投入三组宽体机运力，每周将有四班飞往……"
+    },
+    {
+      "id": 142,
+      "start_sec": 1597,
+      "speaker": "Brett Snyder",
+      "en": "Ljubljana.",
+      "zh": "卢布尔雅那。"
+    },
+    {
+      "id": 143,
+      "start_sec": 1599,
+      "speaker": "Brian Sumers",
+      "en": "Thank you. And then one airplane that splits its week doing four weekly to Catania in Sicily and then three weekly to Olbia.",
+      "zh": "谢谢。还有一架飞机将拆分每周班次，每周四班飞往西西里岛的卡塔尼亚，每周三班飞往奥尔比亚。"
+    },
+    {
+      "id": 144,
+      "start_sec": 1608,
+      "speaker": "Brian Sumers",
+      "en": "It's also going to do three weekly from Dulles to Milan and go daily from Denver to Paris. San Francisco to Tel Aviv, which can really print money during good times, is coming back.",
+      "zh": "此外，杜勒斯到米兰每周三班，丹佛到巴黎改为每日一班。在行情好的时候简直就是印钞机的旧金山至特拉维夫航线也将复航。"
+    },
+    {
+      "id": 145,
+      "start_sec": 1620,
+      "speaker": "Brian Sumers",
+      "en": "American's going to do Charlotte to Barcelona once a day, that should be a moneymaker, and then add a fourth daily flight from JFK to London. That's all for American. And then we have Air Canada, and it's going to do a twice weekly Toronto to Nice and thrice weekly Montreal to Dubrovnik.",
+      "zh": "American 将开通夏洛特至巴塞罗那的每日一班航线，这肯定是个摇钱树，另外还在肯尼迪机场至伦敦航线上增加了第四班日间航班。American 的情况就是这些。接下来是 Air Canada，他们计划开通每周两班多伦多至尼斯，以及每周三班蒙特利尔至杜布罗夫尼克。"
+    },
+    {
+      "id": 146,
+      "start_sec": 1640,
+      "speaker": "Brett Snyder",
+      "en": "I like a lot of these connecting-the-dots kind of markets. Normally you don't want to overfly your hub, but when demand is really strong, as it is now, it's worth doing because it opens up new and better options that can help you win share in some of these places, and I'm talking good, premium share.",
+      "zh": "我很喜欢这种在航点之间连线的市场。正常情况下你不会想飞跃自己的枢纽，但当需求非常强劲时——就像当下这样——这完全值得一做，因为它开辟了更新、更好的选项，能帮你抢占这些市场的份额，我说的可是优质的高端份额。"
+    },
+    {
+      "id": 147,
+      "start_sec": 1657,
+      "speaker": "Brett Snyder",
+      "en": "Like look at Denver to Paris, for example, right? United can fly people from all around the West into the Denver hub, and yes, it already flies San Francisco-Paris, but this is going to be a better connection for a lot of cities. Plus, it creates another time option for people in the West.",
+      "zh": "比如拿丹佛到巴黎为例，对吧？United 可以把整个美西各地的旅客拉到丹佛枢纽。没错，他们已经有旧金山至巴黎的航线，但对很多城市来说，经由丹佛中转会更加顺畅。此外，这也为西部旅客创造了另一个时间段的选择。"
+    },
+    {
+      "id": 148,
+      "start_sec": 1672,
+      "speaker": "Brett Snyder",
+      "en": "So the San Francisco flight to Paris leaves at 2:40 p.m. This new Denver flight goes at 8:35 p.m. So now customers in the West have two time options to go through western hubs, which we all generally prefer, and then not have to brave JFK, Philly, Atlanta, whatever, on another airline. So that alone is a huge deal.",
+      "zh": "旧金山飞往巴黎的航班是下午 2:40 起飞，而这趟新的丹佛航班是晚上 8:35。所以现在美西的旅客有了两个通过西部枢纽中转的时间选择——我们通常也都更喜欢这样——而不必再去硬挤其他航司在肯尼迪、费城、亚特兰大等东部枢纽。单凭这一点就意义非凡。"
+    },
+    {
+      "id": 149,
+      "start_sec": 1694,
+      "speaker": "Brett Snyder",
+      "en": "But the best part of these routes is that when demand turns down, and it will, it has to someday, it's easy for United here to pull capacity and not really hurt its network connectivity. Same for American to Barcelona, wherever it may be. It doesn't really hurt the network connectivity. It hurts a lot less than if it had to wipe a dot off the map.",
+      "zh": "不过这些航线最妙的地方在于，一旦市场需求转弱——迟早会有这么一天——United 很容易在这里抽调运力，同时又不会真正伤及其网络的通达性。American 去巴塞罗那等航线也是同理。这不会实质性破坏网络连通性，比起从航线图上彻底抹掉一个航点，这种损失要小得多。"
+    },
+    {
+      "id": 150,
+      "start_sec": 1714,
+      "speaker": "Brian Sumers",
+      "en": "We've talked about Europe so far. Some of these airlines added some Asia flying as well. Do you know which airline didn't add any Asias?",
+      "zh": "我们目前聊的都是欧洲航线。其实这些航司中有些也增加了部分亚洲运力。你知道哪家航司完全没加亚洲航线吗？"
+    },
+    {
+      "id": 151,
+      "start_sec": 1725,
+      "speaker": "Brett Snyder",
+      "en": "Yes. It's the obvious one.",
+      "zh": "当然。最显而易见的那家呗。"
+    },
+    {
+      "id": 152,
+      "start_sec": 1728,
+      "speaker": "Brian Sumers",
+      "en": "That would be American, exclusively Atlantic. United and Air Canada had some Asia additions.",
+      "zh": "那就是 American，他们全押在大西洋航线上。而 United 和 Air Canada 则增加了一些亚洲航线。"
+    },
+    {
+      "id": 153,
+      "start_sec": 1734,
+      "speaker": "Brett Snyder",
+      "en": "Yeah, so Air Canada is going to start Vancouver to Guangzhou.",
+      "zh": "对，Air Canada 打算开通温哥华至广州的航线。"
+    },
+    {
+      "id": 154,
+      "start_sec": 1738,
+      "speaker": "Brian Sumers",
+      "en": "Brett, I like this one. China is interesting for North American airlines because the United States and China still have very restricted capacity. So Air Canada here is going to have more opportunity to pick up US travelers looking to go to Guangzhou, and of course, US carriers do not fly there.",
+      "zh": "Brett，我很看好这条线。对北美航司来说中国市场很有看点，因为中美之间的航权运力依然受到极大限制。因此 Air Canada 将有更多机会揽收前往广州的美国旅客，当然，美国本土航司根本不飞那里。"
+    },
+    {
+      "id": 155,
+      "start_sec": 1759,
+      "speaker": "Brett Snyder",
+      "en": "That is true. And also China and Canada have strengthening ties, since the US and Canada have weakening ties.",
+      "zh": "确实如此。而且中加关系正在回暖，毕竟美加关系正在走弱。"
+    },
+    {
+      "id": 156,
+      "start_sec": 1765,
+      "speaker": "Brian Sumers",
+      "en": "No politics, Brett.",
+      "zh": "别扯政治，Brett。"
+    },
+    {
+      "id": 157,
+      "start_sec": 1766,
+      "speaker": "Brett Snyder",
+      "en": "That's just the fact, sir. Now, I don't know how well this'll do. I just don't know how much business needs to happen in Guangzhou compared to like a Shanghai, but it's still worth a shot, and I like the idea, so A for effort there.",
+      "zh": "这只是阐述事实而已，先生。至于这条线表现会如何，我吃不准。我只是不知道相比上海等地，广州到底能催生出多少商旅需求，但这依然值得一试，我很赞赏这种思路，精神可嘉，值得给个好评。"
+    },
+    {
+      "id": 158,
+      "start_sec": 1780,
+      "speaker": "Brian Sumers",
+      "en": "Yeah, there's a couple on the United side as well. United's going to fly to Osaka, and then from San Francisco it is adding Okinawa. That's going to be a summer-only flight, three times a week. I think both of these routes say more about the ANA joint venture for United.",
+      "zh": "没错，United 边也有几条。United 将飞往大阪，另外还将从旧金山新开冲绳航线。那是一条仅限夏季运营的季节性航线，每周三班。我认为这两条航线更多反映出的是 United 与全日空（ANA）之间的航线联营合作。"
+    },
+    {
+      "id": 159,
+      "start_sec": 1800,
+      "speaker": "Brian Sumers",
+      "en": "United than anything else. We hear sometimes that the Lufthansa Group is very protective about the routes that it lets United fly. They like to see their metal in certain cities.",
+      "zh": "更偏向United。我们有时听说汉莎集团（Lufthansa Group）对自己允许United执飞的航线极为严苛，他们希望在某些城市只看到自家的飞机。"
+    },
+    {
+      "id": 160,
+      "start_sec": 1812,
+      "speaker": "Brian Sumers",
+      "en": "ANA seems to be more collaborative with United. Perhaps that's just because they don't have enough airplanes, but we know that Japan is very hot among Americans now, and so it's not just about Tokyo anymore.",
+      "zh": "全日空（ANA）似乎与United的合作更默契。这也许只是因为他们自己的飞机不够用，但我们知道日本目前在美籍旅客中热度极高，因此早已不只是东京一地了。"
+    },
+    {
+      "id": 161,
+      "start_sec": 1827,
+      "speaker": "Brian Sumers",
+      "en": "You can go skiing in Sapporo, and then you can have fun in Osaka year-round.",
+      "zh": "你可以去札幌滑雪，还可以一年四季在大阪畅玩。"
+    },
+    {
+      "id": 162,
+      "start_sec": 1832,
+      "speaker": "Brett Snyder",
+      "en": "And gateway to Kyoto. But for me, I love this Okinawa trip most of all, I think. It's so creative.",
+      "zh": "还能以此作为去往京都的门户。但对我而言，最让我拍手称赞的还是冲绳这条航线。这想法太有创意了。"
+    },
+    {
+      "id": 163,
+      "start_sec": 1839,
+      "speaker": "Brett Snyder",
+      "en": "Like it seems like it's out of left field, but you do have big US military bases over there, so that's helpful for filling especially the back of the plane probably. But you also have the largest Okinawan diaspora in the continental US in California.",
+      "zh": "虽然看似天马行空，但美军在那里设有大型军事基地，这对填满客舱后排极有帮助。而且在加利福尼亚，还拥有美国本土规模最大的冲绳裔社群。"
+    },
+    {
+      "id": 164,
+      "start_sec": 1855,
+      "speaker": "Brett Snyder",
+      "en": "And the joint venture, that's huge, right? Because that's how you get good access to Japan point of sale. And there's just a lot of reasons that something like this seems like it's worth trying.",
+      "zh": "再加上航线联营（JV），这非常关键，因为这能让你顺利接入日本本地的销售渠道（Point of Sale）。诸多理由都表明，这绝对值得一试。"
+    },
+    {
+      "id": 165,
+      "start_sec": 1865,
+      "speaker": "Brian Sumers",
+      "en": "Brett, I think you missed the most important part about Okinawa and the reason that you and I are going to go there someday: spring training for Japanese baseball.",
+      "zh": "Brett，我觉得你遗漏了冲绳最重要的一点，也是你我日后必定会去那里的原因：日本职棒的春训。"
+    },
+    {
+      "id": 166,
+      "start_sec": 1875,
+      "speaker": "Brett Snyder",
+      "en": "Oh, I thought you were going to say Mr. Miyagi's home, but okay. Yeah, that would be awesome to go.",
+      "zh": "噢，我还以为你要说是宫城先生（《龙威小子》角色）的老家呢，好吧。去那儿确实会很棒。"
+    },
+    {
+      "id": 167,
+      "start_sec": 1882,
+      "speaker": "Brian Sumers",
+      "en": "This is a big swing for United, pun intended, but I think it dovetails with what I said earlier. If you're making money, take some chances. We haven't seen that many routes fail.",
+      "zh": "这对United来说是一次大举出击（big swing，双关挥棒），但正好契合我之前所说的。只要你在赚钱，就大胆冒险吧。我们也没见多少新航线彻底折戟。"
+    },
+    {
+      "id": 168,
+      "start_sec": 1895,
+      "speaker": "Brett Snyder",
+      "en": "No, that's right. You mentioned Bergen. I think Tenerife is the only other one. It's a short list.",
+      "zh": "没错。你提到了卑尔根，我觉得另外就只有特内里费了，失败的名单其实很短。"
+    },
+    {
+      "id": 169,
+      "start_sec": 1900,
+      "speaker": "Brett Snyder",
+      "en": "So United should be taking more risk, and that sounds insane because look at the risks they've already been taking. But when everything is working, nothing's failing, it means you can just keep going deeper. It's a great problem to have.",
+      "zh": "所以United理应承担更多风险。这听起来有点疯狂，因为看看他们已经承担了多大风险。但当一切顺风顺水、毫无败绩时，就意味着你可以继续深耕。这是个令人羡慕的烦恼。"
+    },
+    {
+      "id": 170,
+      "start_sec": 1912,
+      "speaker": "Brian Sumers",
+      "en": "Yeah, I think Air Canada is also doing this in a smaller way, which makes sense because it's a smaller airline. And then, you know, American is American.",
+      "zh": "是的，我认为加拿大航空（Air Canada）也在以更小的规模践行这一逻辑，这合情合理，毕竟其体量相对较小。至于American，大家懂的，它还是那副老样子。"
+    },
+    {
+      "id": 171,
+      "start_sec": 1922,
+      "speaker": "Brett Snyder",
+      "en": "That is true, though American did get clipped a little for next summer because of those delivery delays. I don't know how much everyone else was impacted, but American told me it expected to have 13 new airplanes to place into next summer's Europe schedule or long-haul schedule, and it's now counting on only five showing up.",
+      "zh": "这倒不假，不过American明年夏季确实受交付延误的影响被泼了盆冷水。我不清楚其他航司受影响有多大，但American曾告诉我，他们原本预计有13架新飞机能投入明年夏天的欧洲或长途航线时刻表，而现在预计到位的只有5架。"
+    },
+    {
+      "id": 172,
+      "start_sec": 1941,
+      "speaker": "Brett Snyder",
+      "en": "So that's a lot of metal. Definitely does make it tougher for American to make a splash with its news.",
+      "zh": "这可是好大一批运力。这无疑让American更难凭借新动态掀起波澜。"
+    },
+    {
+      "id": 173,
+      "start_sec": 1947,
+      "speaker": "Brian Sumers",
+      "en": "It might have more opportunities, Brett, if it didn't waste so many XLRs on transcon. But we already talked about that.",
+      "zh": "Brett，如果他们不把那么多A321XLR浪费在跨大陆航线上，机会或许会更多。不过这事儿我们之前已经聊过了。"
+    },
+    {
+      "id": 174,
+      "start_sec": 1954,
+      "speaker": "Brett Snyder",
+      "en": "Fair enough. The point, I think, overall, is that these airlines are all growing their international footprint, which is pretty remarkable when you consider where the world stands today. High oil, insane crack spreads, war in Iran, war in Ukraine, maybe war in Saudi Arabia, Yemen, who knows what's coming next.",
+      "zh": "说得有理。我认为总的来看，核心在于这些航司都在扩张其国际航线网络。考虑到当今的世界局势，这其实相当惊人。高油价、离谱的裂解价差、伊朗的战事、乌克兰的战火，可能还有沙特与也门，谁都不知道接下来会发生什么。"
+    },
+    {
+      "id": 175,
+      "start_sec": 1973,
+      "speaker": "Brett Snyder",
+      "en": "It's bordering on shocking that demand continues to be as strong as it is right now. It is going to get",
+      "zh": "在当下，需求竟能持续保持如此强劲，简直令人匪夷所思。这种情况势必会……"
+    },
+    {
+      "id": 176,
+      "start_sec": 1980,
+      "speaker": "Brian Sumers",
+      "en": "Interesting at some point when these trends shift, it has to change someday. And that's when we'll see which airlines are truly clothed and then which ones are just standing there naked.",
+      "zh": "到某个时候当这些趋势发生转变时会很有趣，总有一天情况会变的。到那时我们就会看清楚，到底哪些航司真正穿了衣服，而哪些航司只是在裸泳。"
+    },
+    {
+      "id": 177,
+      "start_sec": 1990,
+      "speaker": "Brett Snyder",
+      "en": "You've been listening to The Air Show, brought to you by the Alaska-Hawaiian Airlines pilots. We'd also like to thank our sponsor, Upgrade, Inc. Learn more at upgrade.com/flex-pay.",
+      "zh": "您收听的是由阿拉斯加-夏威夷航空飞行员赞助播出的《The Air Show》。我们还要感谢赞助商 Upgrade, Inc.，欢迎访问 upgrade.com/flex-pay 了解更多详情。"
+    },
+    {
+      "id": 178,
+      "start_sec": 2005,
+      "speaker": "Brett Snyder",
+      "en": "If you have suggestions or questions for us, or if you're interested in sponsoring the podcast, email us at info@theairshowpodcast.com to get in touch.",
+      "zh": "如果您有任何建议或问题，或者有意赞助本节目，请发送邮件至 info@theairshowpodcast.com 与我们联系。"
+    },
+    {
+      "id": 179,
+      "start_sec": 2016,
+      "speaker": "Brian Sumers",
+      "en": "Leah Deren produced and edited this episode. Our theme music is by Joshua Mosier. Thanks for listening, and we'll be back soon.",
+      "zh": "本期节目由 Leah Deren 制作与剪辑。主题曲创作者为 Joshua Mosier。感谢您的收听，我们很快再见。"
+    },
+    {
+      "id": 180,
+      "start_sec": 2028,
+      "speaker": "Brian Sumers",
+      "en": "Flight 222 to Toulouse...",
+      "zh": "飞往图卢兹的 222 航班……"
+    },
+    {
+      "id": 181,
+      "start_sec": 2031,
+      "speaker": "Brett Snyder",
+      "en": "I don't really get it. Why is it not 321 or 220?",
+      "zh": "我不太理解。为什么不是 321 或者 220 呢？"
+    },
+    {
+      "id": 182,
+      "start_sec": 2034,
+      "speaker": "Brian Sumers",
+      "en": "I'm going to say it's ASMR...",
+      "zh": "我想说这是 ASMR 效果吧……"
+    }
+  ]
+}
