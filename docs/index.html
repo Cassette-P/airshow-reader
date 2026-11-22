@@ -15,7 +15,10 @@
        1. CSS Variables & Theme Configuration (Magazine Paper × OpenRouter Chrome)
        Light: Uncoated Warm Paper | Dark: Warm Obsidian Precision
        ========================================================================== */
-    :root {
+    :root,
+    [data-theme="light"] {
+      color-scheme: light;
+
       /* Typography Stacks (Requirement 三) */
       --font-editorial: "Newsreader", "Charter", "Georgia", "PingFang SC", "Noto Sans SC", "HarmonyOS Sans SC", "Microsoft YaHei", sans-serif;
       --font-serif: var(--font-editorial);
@@ -89,12 +92,13 @@
     }
 
     [data-theme="dark"] {
+      color-scheme: dark;
       --zh-body-weight: 460;
 
       /* Neutral Ramp: Warm Obsidian (Requirement 二) */
       --bg-page: #151412;
       --bg-surface: #1C1A17;
-      --bg-surface-header: rgba(28, 26, 23, 0.72);
+      --bg-surface-header: rgba(21, 20, 18, 0.54);
       --bg-surface-elevated: #1E1C19;
       --bg-subtle: #24211D;
       --bg-active-row: #28241F;
@@ -139,10 +143,25 @@
       --shadow-player: 0 -1px 0 var(--border-color);
     }
 
-    [data-theme="dark"] .app-header,
-    [data-theme="dark"] .audio-player-bar,
     [data-theme="dark"] .archive-drawer {
       box-shadow: inset 0 1px 0 rgba(255, 250, 240, 0.04);
+    }
+
+    /* Safari Edge-sampling Bypass Glass Layer */
+    .app-header::before,
+    .audio-player-bar::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      z-index: 0;
+      pointer-events: none;
+      background: var(--bg-surface-header);
+      backdrop-filter: saturate(180%) blur(20px);
+      -webkit-backdrop-filter: saturate(180%) blur(20px);
+    }
+    [data-theme="dark"] .app-header::before,
+    [data-theme="dark"] .audio-player-bar::before {
+      box-shadow: inset 0 1px 0 rgba(255, 250, 240, 0.05);
     }
 
     /* ==========================================================================
@@ -218,15 +237,13 @@
       top: 0;
       z-index: 80;
       height: var(--header-h);
-      background: var(--bg-surface-header);
+      background: transparent;
       border-bottom: 1px solid var(--border-header);
-      backdrop-filter: saturate(180%) blur(20px);
-      -webkit-backdrop-filter: saturate(180%) blur(20px);
-      will-change: backdrop-filter;
-      transform: translateZ(0);
     }
 
     .header-inner {
+      position: relative;
+      z-index: 1;
       max-width: var(--header-max-w);
       margin: 0 auto;
       height: 100%;
@@ -511,6 +528,7 @@
       -webkit-backdrop-filter: blur(2px);
       opacity: 0;
       visibility: hidden;
+      display: none;
       transition: opacity 0.2s ease, visibility 0.2s ease;
     }
     .archive-backdrop.visible {
@@ -529,7 +547,7 @@
       background: var(--bg-surface);
       border-right: 1px solid var(--border-color);
       box-shadow: var(--shadow-drawer);
-      display: flex;
+      display: none;
       flex-direction: column;
       transform: translateX(-100%);
       transition: transform 0.24s cubic-bezier(0.16, 1, 0.3, 1);
@@ -950,6 +968,7 @@
       display: flex;
       flex-direction: column;
       gap: 0;
+      border-top: none;
     }
 
     .transcript-item {
@@ -1081,15 +1100,15 @@
       height: auto;
       min-height: var(--player-h);
       z-index: 90;
-      background: var(--bg-surface-header);
+      background: transparent;
       border-top: 1px solid var(--border-color);
       box-shadow: var(--shadow-player);
       padding: 6px 12px calc(8px + env(safe-area-inset-bottom));
-      backdrop-filter: saturate(180%) blur(20px);
-      -webkit-backdrop-filter: saturate(180%) blur(20px);
     }
 
     .player-container {
+      position: relative;
+      z-index: 1;
       max-width: var(--content-max-w);
       margin: 0 auto;
       height: 100%;
@@ -1350,10 +1369,15 @@
        10. Responsive Breakpoints & Mobile Architecture (Requirement 五)
        ========================================================================== */
     @media (max-width: 960px) {
+      .header-inner {
+        gap: 10px;
+      }
       .brand-name {
         display: none;
       }
       .header-center {
+        flex: 1 1 160px;
+        min-width: 120px;
         max-width: 220px;
       }
       .search-input {
@@ -1577,8 +1601,8 @@
 
     /* Fallback for browsers without backdrop-filter support */
     @supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
-      .app-header,
-      .audio-player-bar,
+      .app-header::before,
+      .audio-player-bar::before,
       .search-box-wrap.mobile-expanded {
         background: var(--bg-surface);
       }
@@ -2241,9 +2265,19 @@
       // Issue Archive Drawer Controls
       // ======================================================================
 
+      let archiveCloseTimer = null;
+
       function openArchiveDrawer() {
-        archiveBackdrop.classList.add('visible');
-        archiveDrawer.classList.add('open');
+        if (archiveCloseTimer) {
+          clearTimeout(archiveCloseTimer);
+          archiveCloseTimer = null;
+        }
+        archiveBackdrop.style.display = 'block';
+        archiveDrawer.style.display = 'flex';
+        requestAnimationFrame(() => {
+          archiveBackdrop.classList.add('visible');
+          archiveDrawer.classList.add('open');
+        });
         btnOpenArchive.setAttribute('aria-expanded', 'true');
         if (mobileArchiveBtn) mobileArchiveBtn.setAttribute('aria-expanded', 'true');
         document.body.style.overflow = 'hidden';
@@ -2255,6 +2289,14 @@
         btnOpenArchive.setAttribute('aria-expanded', 'false');
         if (mobileArchiveBtn) mobileArchiveBtn.setAttribute('aria-expanded', 'false');
         document.body.style.overflow = '';
+        if (archiveCloseTimer) {
+          clearTimeout(archiveCloseTimer);
+        }
+        archiveCloseTimer = setTimeout(() => {
+          archiveBackdrop.style.display = 'none';
+          archiveDrawer.style.display = 'none';
+          archiveCloseTimer = null;
+        }, 250);
       }
 
       btnOpenArchive.addEventListener('click', () => {
