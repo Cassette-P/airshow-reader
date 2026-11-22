@@ -100,7 +100,7 @@
       --header-max-w: 1240px;
       --content-max-w: 760px;
       --header-h: 52px;
-      --player-h: 60px;
+      --player-h: 42px;
     }
 
     [data-theme="dark"] {
@@ -198,7 +198,7 @@
       min-height: 100vh;
       display: flex;
       flex-direction: column;
-      padding-bottom: calc(var(--player-h) + 80px + env(safe-area-inset-bottom));
+      padding-bottom: calc(var(--player-h) + 56px + env(safe-area-inset-bottom));
       transition: background-color 0.2s ease, color 0.2s ease;
     }
 
@@ -1144,7 +1144,7 @@
       right: 12px;
       bottom: calc(14px + env(safe-area-inset-bottom));
       height: auto;
-      min-height: var(--player-h);
+      min-height: 0;
       z-index: 90;
       background: transparent;
       border: none;
@@ -1160,11 +1160,11 @@
       margin: 0 auto;
       height: 100%;
       display: flex;
-      flex-direction: column;
-      justify-content: center;
-      gap: 4px;
-      border-radius: 14px;
-      padding: 8px 16px;
+      flex-direction: row;
+      align-items: center;
+      gap: 10px;
+      border-radius: 999px;
+      padding: 6px 14px;
       background: transparent;
       pointer-events: auto;
     }
@@ -1188,12 +1188,59 @@
       z-index: 1;
     }
 
-    /* Scrubber Track */
+    /* 1. Playback Buttons */
+    .player-main-btns {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      justify-content: center;
+      flex: 0 0 auto;
+    }
+    .ctrl-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--text-secondary);
+      border-radius: 999px;
+      transition: color 0.15s ease, background-color 0.15s ease;
+    }
+    .ctrl-btn:hover {
+      color: var(--text-primary);
+      background: var(--chrome-pill-hover);
+    }
+    .btn-step {
+      width: 24px;
+      height: 24px;
+    }
+    .btn-step svg {
+      width: 14px;
+      height: 14px;
+    }
+    .btn-play-pause {
+      width: 30px;
+      height: 30px;
+      background: var(--accent-primary);
+      color: var(--accent-contrast);
+      border-radius: 50%;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+    }
+    .btn-play-pause svg {
+      width: 13px;
+      height: 13px;
+    }
+    .btn-play-pause:hover {
+      opacity: 0.92;
+      background: var(--accent-primary);
+      color: var(--accent-contrast);
+    }
+
+    /* 2. Scrubber Track */
     .player-scrub-row {
       display: flex;
       align-items: center;
-      gap: 10px;
-      width: 100%;
+      gap: 8px;
+      flex: 1 1 0;
+      min-width: 0;
     }
     .player-time {
       font-family: var(--font-mono);
@@ -1201,6 +1248,7 @@
       font-weight: 500;
       color: var(--text-muted);
       min-width: 38px;
+      flex-shrink: 0;
     }
     .player-time.time-current {
       text-align: right;
@@ -1208,60 +1256,57 @@
     }
 
     .scrub-track-wrap {
-      flex: 1;
+      flex: 1 1 0;
+      min-width: 0;
       display: flex;
       align-items: center;
     }
     .scrub-slider {
       width: 100%;
-      height: 4px;
+      height: 3px;
       -webkit-appearance: none;
       appearance: none;
       background: var(--border-color);
-      border-radius: 2px;
+      border-radius: 999px;
       outline: none;
       cursor: pointer;
       transition: height 0.15s ease;
     }
     .scrub-slider:hover {
-      height: 6px;
+      height: 5px;
     }
     .scrub-slider::-webkit-slider-thumb {
       -webkit-appearance: none;
       appearance: none;
-      width: 12px;
-      height: 12px;
+      width: 10px;
+      height: 10px;
       border-radius: 50%;
       background: var(--accent-primary);
       cursor: pointer;
       box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
-      border: 2px solid var(--bg-surface);
+      border: 1.5px solid var(--bg-surface);
     }
     .scrub-slider::-moz-range-thumb {
-      width: 12px;
-      height: 12px;
+      width: 10px;
+      height: 10px;
       border-radius: 50%;
       background: var(--accent-primary);
       cursor: pointer;
-      border: 2px solid var(--bg-surface);
+      border: 1.5px solid var(--bg-surface);
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
     }
 
-    /* Controls & Track Metadata */
-    .player-controls-row {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 8px;
-    }
+    /* 3. Track Metadata (Desktop only >= 960px) */
     .player-info {
-      flex: 1 1 180px;
+      flex: 0 1 140px;
       min-width: 0;
       display: flex;
       align-items: center;
-      gap: 8px;
+      gap: 6px;
+      overflow: hidden;
     }
     .player-episode-title {
-      font-size: 0.78125rem;
+      font-size: 0.75rem;
       font-weight: 600;
       color: var(--text-primary);
       white-space: nowrap;
@@ -1270,60 +1315,25 @@
     }
     .player-speaker-wrap {
       font-family: var(--font-mono);
-      font-size: 0.6875rem;
+      font-size: 0.65rem;
       color: var(--text-muted);
       white-space: nowrap;
-    }
-
-    /* Playback Buttons */
-    .player-main-btns {
-      display: flex;
-      align-items: center;
-      gap: 8px;
-      justify-content: center;
       flex-shrink: 0;
     }
-    .ctrl-btn {
+
+    /* 4. Extra Buttons */
+    .player-extra-btns {
+      flex: 0 0 auto;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .btn-speed {
       display: inline-flex;
       align-items: center;
       justify-content: center;
-      color: var(--text-secondary);
-      border-radius: var(--radius-md);
-      transition: color 0.15s ease, background-color 0.15s ease;
-    }
-    .ctrl-btn:hover {
-      color: var(--text-primary);
-      background: var(--chrome-pill-hover);
-    }
-    .btn-step {
-      width: 28px;
-      height: 28px;
-    }
-    .btn-play-pause {
-      width: 34px;
-      height: 34px;
-      background: var(--accent-primary);
-      color: var(--accent-contrast);
-      border-radius: 50%;
-      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
-    }
-    .btn-play-pause:hover {
-      opacity: 0.92;
-      background: var(--accent-primary);
-      color: var(--accent-contrast);
-    }
-
-    .player-extra-btns {
-      flex: 1 1 180px;
-      display: flex;
-      align-items: center;
-      justify-content: flex-end;
-      gap: 6px;
-      flex-shrink: 0;
-    }
-    .btn-speed {
       padding: 2px 7px;
-      border-radius: var(--radius-md);
+      border-radius: 999px;
       border: 1px solid var(--chrome-pill-border);
       font-size: 0.6875rem;
       font-family: var(--font-mono);
@@ -1331,6 +1341,7 @@
       color: var(--text-secondary);
       background: var(--chrome-pill-bg);
       transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease;
+      white-space: nowrap;
     }
     .btn-speed:hover {
       border-color: var(--chrome-pill-border);
@@ -1340,15 +1351,17 @@
     .btn-autoscroll {
       display: inline-flex;
       align-items: center;
+      justify-content: center;
       gap: 4px;
       padding: 2px 8px;
-      border-radius: var(--radius-md);
+      border-radius: 999px;
       border: 1px solid var(--chrome-pill-border);
       font-size: 0.6875rem;
       font-weight: 500;
       color: var(--text-secondary);
       background: var(--chrome-pill-bg);
       transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
+      white-space: nowrap;
     }
     .btn-autoscroll:hover {
       border-color: var(--chrome-pill-border);
@@ -1360,6 +1373,11 @@
       color: var(--accent-primary);
       border-color: var(--accent-primary);
       box-shadow: var(--chrome-pill-rim);
+    }
+    .btn-autoscroll svg {
+      width: 13px;
+      height: 13px;
+      flex-shrink: 0;
     }
 
     /* ==========================================================================
@@ -1441,6 +1459,9 @@
        10. Responsive Breakpoints & Mobile Architecture (Requirement 五)
        ========================================================================== */
     @media (max-width: 960px) {
+      .player-info {
+        display: none !important;
+      }
       .header-inner {
         gap: 10px;
       }
@@ -1695,34 +1716,49 @@
       .transcript-item {
         padding: 16px 8px 16px 10px;
       }
-      .player-info {
-        flex: 1 1 0;
-        min-width: 0;
-      }
-      .player-speaker-wrap {
-        display: none;
-      }
-      .player-extra-btns {
-        flex: 0 0 auto;
-        gap: 4px;
-      }
-      .btn-speed {
-        padding: 2px 5px;
-        font-size: 0.65rem;
-      }
-      .btn-autoscroll {
-        padding: 2px 6px;
-        font-size: 0.65rem;
-      }
       .audio-player-bar {
         left: 10px;
         right: 10px;
-        bottom: calc(12px + env(safe-area-inset-bottom));
+        bottom: calc(8px + env(safe-area-inset-bottom));
       }
       .player-container {
         max-width: 100%;
-        border-radius: 14px;
-        padding: 6px 12px 8px;
+        padding: 5px 10px;
+        gap: 6px;
+        border-radius: 999px;
+      }
+      .btn-play-pause {
+        width: 28px;
+        height: 28px;
+      }
+      .btn-step {
+        width: 22px;
+        height: 22px;
+      }
+      .btn-step svg {
+        width: 14px;
+        height: 14px;
+      }
+      .player-scrub-row {
+        gap: 6px;
+      }
+      .player-time {
+        font-size: 0.625rem;
+        min-width: auto;
+      }
+      .autoscroll-label {
+        display: none;
+      }
+      #btn-autoscroll {
+        width: 26px;
+        height: 26px;
+        padding: 0;
+        justify-content: center;
+      }
+      #btn-speed {
+        height: 26px;
+        padding: 0 6px;
+        font-size: 0.625rem;
       }
       .archive-drawer {
         width: 100vw;
@@ -1752,15 +1788,11 @@
       .masthead-meta-row .meta-bullet {
         display: none;
       }
-      .player-info {
-        display: none !important;
-      }
-      .player-controls-row {
-        justify-content: space-between;
-        width: 100%;
-      }
-      .player-main-btns {
-        gap: 6px;
+    }
+
+    @media (max-width: 375px) {
+      #time-total {
+        display: none;
       }
     }
 
@@ -2042,6 +2074,30 @@
        ========================================================================== -->
   <footer class="audio-player-bar" id="audio-player-bar" style="display: none;">
     <div class="player-container">
+      <div class="player-main-btns">
+        <button type="button" class="ctrl-btn btn-step" id="btn-rewind" title="后退 15 秒" aria-label="后退 15 秒">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M11 17l-5-5 5-5M18 17l-5-5 5-5"/>
+          </svg>
+        </button>
+
+        <button type="button" class="ctrl-btn btn-play-pause" id="btn-play-pause" title="播放 / 暂停" aria-label="播放">
+          <svg id="icon-play" width="13" height="13" viewBox="0 0 24 24" fill="currentColor">
+            <polygon points="5 3 19 12 5 21 5 3"></polygon>
+          </svg>
+          <svg id="icon-pause" width="13" height="13" viewBox="0 0 24 24" fill="currentColor" style="display: none;">
+            <rect x="6" y="4" width="4" height="16"></rect>
+            <rect x="14" y="4" width="4" height="16"></rect>
+          </svg>
+        </button>
+
+        <button type="button" class="ctrl-btn btn-step" id="btn-forward" title="快进 15 秒" aria-label="快进 15 秒">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M13 17l5-5-5-5M6 17l5-5-5-5"/>
+          </svg>
+        </button>
+      </div>
+
       <div class="player-scrub-row">
         <span class="player-time time-current tnum" id="time-current">00:00</span>
         <div class="scrub-track-wrap">
@@ -2050,44 +2106,25 @@
         <span class="player-time tnum" id="time-total">00:00</span>
       </div>
 
-      <div class="player-controls-row">
-        <div class="player-info">
-          <span class="player-episode-title" id="player-ep-title">-</span>
-          <span class="player-speaker-wrap" id="player-speaker-name">就绪</span>
-        </div>
+      <div class="player-info">
+        <span class="player-episode-title" id="player-ep-title">-</span>
+        <span class="player-speaker-wrap" id="player-speaker-name">就绪</span>
+      </div>
 
-        <div class="player-main-btns">
-          <button type="button" class="ctrl-btn btn-step" id="btn-rewind" title="后退 15 秒" aria-label="后退 15 秒">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M11 17l-5-5 5-5M18 17l-5-5 5-5"/>
-            </svg>
-          </button>
-
-          <button type="button" class="ctrl-btn btn-play-pause" id="btn-play-pause" title="播放 / 暂停" aria-label="播放">
-            <svg id="icon-play" width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
-              <polygon points="5 3 19 12 5 21 5 3"></polygon>
-            </svg>
-            <svg id="icon-pause" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="display: none;">
-              <rect x="6" y="4" width="4" height="16"></rect>
-              <rect x="14" y="4" width="4" height="16"></rect>
-            </svg>
-          </button>
-
-          <button type="button" class="ctrl-btn btn-step" id="btn-forward" title="快进 15 秒" aria-label="快进 15 秒">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M13 17l5-5-5-5M6 17l5-5-5-5"/>
-            </svg>
-          </button>
-        </div>
-
-        <div class="player-extra-btns">
-          <button type="button" class="btn-speed tnum" id="btn-speed" title="切换播放速度 (1.0x / 1.25x / 1.5x / 2.0x)" aria-label="播放倍速 1.0x">
-            1.0x
-          </button>
-          <button type="button" class="btn-autoscroll" id="btn-autoscroll" title="跟随音频播放自动居中滚动" aria-label="开启跟随滚动">
-            跟随音频
-          </button>
-        </div>
+      <div class="player-extra-btns">
+        <button type="button" class="btn-speed tnum" id="btn-speed" title="切换播放速度 (1.0x / 1.25x / 1.5x / 2.0x)" aria-label="播放倍速 1.0x">
+          1.0x
+        </button>
+        <button type="button" class="btn-autoscroll" id="btn-autoscroll" title="跟随音频播放自动居中滚动" aria-label="开启跟随滚动">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="12" cy="12" r="10"></circle>
+            <line x1="22" y1="12" x2="18" y2="12"></line>
+            <line x1="6" y1="12" x2="2" y2="12"></line>
+            <line x1="12" y1="6" x2="12" y2="2"></line>
+            <line x1="12" y1="22" x2="12" y2="18"></line>
+          </svg>
+          <span class="autoscroll-label">跟随音频</span>
+        </button>
       </div>
     </div>
   </footer>
