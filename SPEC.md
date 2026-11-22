@@ -1,23 +1,24 @@
-# airshow-reader 技术规范与数据契约（SPEC.md · v3.0）
+# airshow-reader 技术规范与数据契约（SPEC.md · v3.2）
+
+> 数据契约严格保持 **v3.0 稳定版**（向后完全兼容）；前端视觉体系与交互规范已演进至 **v3.2**。
 
 ## 1. 项目定位与目录结构
 
-播客自动双语精读工具，支持多播客配置驱动与全自动化处理。抓取播客 RSS，提取嘉宾与章节 Show Notes，生成中文核心摘要、带时间戳 Highlight 与中英对照逐字稿，通过 GitHub Pages（`/docs`）发布。
-
-v3.0 架构升级为**多播客配置驱动 + 目录分层隔离 + 全局清单索引**：
+个人多播客全自动双语精读静态站，支持多播客配置驱动与全自动化处理。抓取播客 RSS，提取嘉宾与章节 Show Notes，生成中文核心摘要、带时间戳 Highlight 与中英对照逐字稿，通过 GitHub Pages（`/docs`）零构建发布。
 
 - `README.md`：项目简介、本地使用与云端运维指南
-- `SPEC.md`：核心架构、状态机与 v3.0 数据契约（本文件）
+- `SPEC.md`：核心架构、状态机、v3.0 数据契约与 v3.2 前端规范（本文件）
 - `podcasts.json`：多播客核心配置注册表（包含各节目 ID、标题、RSS、术语表路径、主题重音色与默认时效窗口）
-- `glossaries/<show_id>.md`：各播客专属常驻主播名单、行业术语表与翻译校对红线（例如 `glossaries/airshow.md`、`glossaries/sinica.md`）
+- `glossaries/<show_id>.md`：各播客专属常驻主播名单、行业术语表与翻译校对红线（如 `glossaries/airshow.md`、`glossaries/sinica.md`）
 - `ITERATION.md`：迭代里程碑总览、当前活跃工单与交接记录
 - `requirements.txt`：Python 依赖
 - `.gitignore`：本地缓存与临时预览文件忽略规则（覆盖 `docs/data/**/_smoke_preview.json` 与 `docs/data/**/*.tmp`）
 - `scripts/process.py`：主处理引擎（支持 `--show` 参数调度、v2→v3 幂等数据迁移、Show Notes 动态清洗注入与 Paid Tier 双通道流式抗断连）
+- `docs/favicon.svg`：「声波书页（Acoustic Folio）」静态矢量站点图标
 - `docs/data/shows.json`：全局播客清单（供前端动态渲染多节目切换栏与主题色）
 - `docs/data/<show_id>/index.json`：单节目轻量总目录（按 `pub_date` 降序，含核心摘要与要点，供前端首屏极速加载）
 - `docs/data/<show_id>/episodes/<safe_guid>.json`：按单集独立存储的完整精读数据（含 `highlights` 与全量 `transcript`，供前端按需懒加载）
-- `docs/index.html`：静态自适应双语阅读器（将在 M6-B 升级支持多节目切换）
+- `docs/index.html`：单文件零构建自适应双语阅读器（内联 CSS + 原生 Vanilla JS，v3.2 刊物与液态玻璃架构）
 - `.github/workflows/update.yml`：GitHub Actions 定时巡检与手动多节目触发工作流（超时设为 45 分钟）
 
 ---
@@ -97,11 +98,12 @@ v3.0 架构升级为**多播客配置驱动 + 目录分层隔离 + 全局清单�
 
 ### 统一日志格式
 
-所有标准输出统一前缀：`[<SHOW_ID_UPPER>][<STAGE>]`（例如 `[AIRSHOW][RSS]`、`[SINICA][DOWNLOAD]`、`[AIRSHOW][MIGRATE]` 等）。
+- 后端标准输出统一前缀：`[<SHOW_ID_UPPER>][<STAGE>]`（例如 `[AIRSHOW][RSS]`、`[SINICA][DOWNLOAD]`、`[AIRSHOW][MIGRATE]`）。
+- 前端控制台日志统一前缀：`[AIRSHOW][UI]`。
 
 ---
 
-## 4. v3.0 数据契约（Schema-First）
+## 4. v3.0 数据契约（Schema-First · 不可破坏）
 
 严格锁定以下 `snake_case` 键名，前后端禁止私自增删或改名。
 
@@ -116,7 +118,7 @@ v3.0 架构升级为**多播客配置驱动 + 目录分层隔离 + 全局清单�
 {
   "schema_version": "3.0",
   "site_title": "Podcast Bilingual Reader",
-  "updated_at": "2026-11-21T10:42:28Z",
+  "updated_at": "2026-11-22T10:00:00Z",
   "shows": [
     {
       "id": "airshow",
@@ -124,7 +126,7 @@ v3.0 架构升级为**多播客配置驱动 + 目录分层隔离 + 全局清单�
       "subtitle": "Aviation Business & Industry Analysis",
       "accent_color": "#0a2540",
       "index_file": "airshow/index.json",
-      "episode_count": 8,
+      "episode_count": 10,
       "latest_pub_date": "2026-11-19T11:00:00Z"
     },
     {
@@ -133,8 +135,8 @@ v3.0 架构升级为**多播客配置驱动 + 目录分层隔离 + 全局清单�
       "subtitle": "Current Affairs in China · Hosted by Kaiser Kuo",
       "accent_color": "#9b2226",
       "index_file": "sinica/index.json",
-      "episode_count": 0,
-      "latest_pub_date": ""
+      "episode_count": 6,
+      "latest_pub_date": "2026-11-20T08:00:00Z"
     }
   ]
 }
@@ -142,7 +144,7 @@ v3.0 架构升级为**多播客配置驱动 + 目录分层隔离 + 全局清单�
 
 ### 4.2 单播客轻量总目录：`docs/data/<show_id>/index.json`
 
-前端选定某一节目时拉取（例如 `fetch('./data/' + show.index_file)`）：
+前端选定某一节目时按相对路径拉取（`fetch('./data/' + show.index_file)`）：
 
 ```json
 {
@@ -150,7 +152,7 @@ v3.0 架构升级为**多播客配置驱动 + 目录分层隔离 + 全局清单�
   "show_id": "airshow",
   "podcast_title": "The Air Show",
   "rss_url": "https://feeds.buzzsprout.com/2329718.rss",
-  "updated_at": "2026-11-21T10:42:28Z",
+  "updated_at": "2026-11-22T10:00:00Z",
   "episodes": [
     {
       "guid": "Buzzsprout-20148830",
@@ -174,7 +176,7 @@ v3.0 架构升级为**多播客配置驱动 + 目录分层隔离 + 全局清单�
 
 ### 4.3 单集完整精读文件：`docs/data/<show_id>/episodes/<safe_guid>.json`
 
-前端选中某期单集时懒加载拉取：
+前端选中某期单集时按需懒加载（`fetch('./data/' + show.id + '/' + epMeta.file)`）：
 
 ```json
 {
@@ -222,54 +224,70 @@ v3.0 架构升级为**多播客配置驱动 + 目录分层隔离 + 全局清单�
 
 ---
 
-## 5. 前端视觉规范与 Unslop 刊物化架构（docs/index.html · v3.1）
+## 5. 前端视觉规范与交互架构（`docs/index.html` · v3.2）
 
-针对 AI 原型界面的“发光、药丸化、彩虹糖、机器文案、双层臃肿顶栏”等 Slop 异味，前端于 2026-11 实施 Unslopping 全量重塑，确立出版物级研读体验：
+前端遵循 **Magazine Paper（杂志纸面阅读）× OpenRouter Chrome（精密克制控件）× Liquid Glass（原生级透传玻璃外壳）** 三重设计语言，在零构建单文件下完成高质感阅读体验。
 
-### 5.1 空间布局与视口释放
-- **单层 52px 紧凑期刊顶栏**：
-  - 合并原双层 Header，消除对垂直视口的过度挤占；
-  - 顶栏容器宽 `--header-max-w: 1240px`，确保大屏下 Brand Monogram、Show Tabs、Issue Archive 按钮与右侧语言/搜索/主题控制栏呼吸舒展且互不遮挡；
-  - 正文排版宽度固定为 `--content-max-w: 880px`，贴合学术与财经期刊最佳阅读字频行长；
-  - 底部吸底音频播放器紧凑收缩为 60px（`--player-h: 60px`）。
+### 5.1 双模色彩体系（Warm Paper × Warm Obsidian）
 
-### 5.2 目录抽屉交互（Issue Archive Drawer · 方案 A）
-- **彻底移除原生 `<select>` 下拉菜单**：
-  - 改造为刊物式侧边抽屉（`#archive-drawer`），大屏最大宽度 440px，窄屏（<=640px）自适应 100vw 全屏展开；
-  - 列表以逆序（`#08` ~ `#01`）排布单集，每张单集卡片聚合期号徽章、发布日期、音频时长、句段数、英文标题与中文导读摘要；
-  - 当前收听单集呈现左侧 3px 品牌主题重音边框与微底色激活态；
-  - 交互支持 `Esc` 键监听、背景遮罩（`#archive-backdrop`）点击关闭与显式关闭按钮；
-  - 保留隐藏式 `<select id="episode-select">` 兼容垫片，确保任何历史选择器依赖 100% 安全。
+- **Light Mode（Uncoated Warm Paper）**：
+  - 纸面底色：`--bg-page: #FAF8F4`，次级便签/面板底：`--bg-surface-elevated: #F3EFE6`，悬停底：`--bg-subtle: #F2EDE3`，当前播放行高光：`--bg-active-row: #EFE9DC`。
+  - 墨色阶梯：`--text-primary: #1C1B18`，`--text-secondary: #57534E`，`--text-muted: #857F76`。
+  - 节目重音色：Air Show `#0A2540`；Sinica `#9B2226`（`--accent-tint` 与 `--accent-subtle` 随节目动态生成，杜绝跨节目串色）。
+  - 声明 `color-scheme: light`。
+- **Dark Mode（Warm Obsidian，低光晕长文夜读）**：
+  - 暖炭黑底色：`--bg-page: #151412`，浮层底：`--bg-surface: #1C1A17`，便签底：`--bg-surface-elevated: #1E1C19`，当前播放行：`--bg-active-row: #28241F`。
+  - 暖羊皮灰字阶（全员达标 WCAG AA）：`--text-primary: #E4E0D8`（杜绝纯白光晕），`--text-secondary: #9E988E`，`--text-muted: #928C82`（对比度 > 5.3:1），`--text-tertiary: #706B63`。
+  - 去荧光低饱和重音色：Air Show `#78B2DF`（航空钢蓝）；Sinica `#DF7A74`（沉稳暖陶红）。
+  - 声明 `color-scheme: dark`。
 
-### 5.3 亮/暗双模式品牌重音架构（Dynamic Contrast Tokens）
-- **清除硬编码 `--accent-blue`**：
-  - 全站动态透传 `--show-accent` 至 `--accent-primary`、`--accent-hover`、`--accent-subtle`，全面接管音频播放器滑轨与播放按钮、精选原声引用线、摘要卡片重音与搜索高亮；
-  - **双模式高可读性对比度规范**：
-    - **Air Show**：亮色模式墨蓝 `#0a2540`，暗色模式天青 `#38bdf8`；
-    - **Sinica Podcast**：亮色模式印泥朱红 `#9b2226`，暗色模式高对比珊瑚粉 `#f87171`（实测暗色石墨底对比度 > 5.2:1，杜绝深底暗红发黑看不清）。
+### 5.2 排印分工、声学标尺与动态图标
 
-### 5.4 说话人印刷体排版（Restrained Editorial Badges）
-- **杜绝全员 9999px 药丸与 8 色彩虹糖失控**：
-  - 说话人徽章半径收敛为 4px（`var(--radius-sm)`）；
-  - 摒弃高饱和荧光彩色背景，采用无底色或极浅中性微底（4%~6% 不透明度），搭配细致的 1px 印刷墨色边框；
-  - 说话人姓名右侧跟随 `tabular-nums` 时间戳，保证多人对谈时视线扫读极其沉静且易于辨识。
+- **西文衬线 + 中文无衬线复合标题字栈**：
+  - Google Fonts 异步引入 `Newsreader`（含斜体，负责英文刊头标题与原声引文）与 `Noto Sans SC:wght@400..700`（可变字重）。
+  - `--font-editorial: "Newsreader", "Charter", "Georgia", "PingFang SC", "Noto Sans SC", "HarmonyOS Sans SC", "Microsoft YaHei", sans-serif`（严禁回退 `Songti SC` / `SimSun`，消除中文字形割裂）。
+  - 中文正文字重变量：`--zh-body-weight` 浅色 `480` / 深色 `460`（防止暗底发胖），配合 `--content-max-w: 760px` 黄金单栏行长。
+- **动态五等分声学微刻度标尺**：`.masthead-scale` 按当前单集 `duration_sec` 动态渲染 0%、25%、50%、75%、100% 等宽（`tabular-nums`）时间标尺。
+- **「声波书页（Acoustic Folio）」Icon 与动态 Favicon**：内联顶栏 SVG 与 `docs/favicon.svg` 随深浅模式响应；`updateDynamicFavicon()` 通过 Data URI 实时同步浏览器标签页图标底色。
 
-### 5.5 字体排印分工策略（Typography Stack）与声学图标规范
-- **单集扉页（Masthead）与原声引文（Pull-quote）**：
-  - 采用经典出版物衬线体栈：`Charter, 'Bitstream Charter', 'Sitka Text', Cambria, serif`；
-- **双语逐字稿正文与中文可变字重（M7.1 精修）**：
-  - 异步加载 Google Fonts `Noto Sans SC:wght@400..700` 可变字体，无缝根治 4K 100% 缩放下中文细笔画发虚；
-  - 字体栈精修：`--font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans SC", "PingFang SC", "HarmonyOS Sans SC", "MiSans", "Hiragino Sans GB", "Microsoft YaHei", sans-serif`；
-  - 中文正文字重精细化变量：亮色模式 `--zh-body-weight: 480`，暗黑模式 `--zh-body-weight: 460`（杜绝暗底白字笔画发胖膨胀）；
-  - 精准覆盖阅读元素：`.transcript-zh`（`1.03125rem` / 16.5px，`font-weight: var(--zh-body-weight)`，`line-height: 1.78`）、`.summary-lead`（`1.03125rem`）、`.takeaway-item`、`.highlight-summary`（`0.875rem`）、`.archive-item-desc`；
-  - 次级文字对比度微调：亮色模式 `--text-secondary: #3f3f46`，暗色模式 `--text-secondary: #c4c4cc`。
-- **时间码、期号与数字**：
-  - 全站时间戳（`MM:SS`）、期号（`#08`）、时长与统计数字全面启用 `font-variant-numeric: tabular-nums` 等宽对齐；
-- **声学微刻度标尺（Pass 8 Signature）动态化**：
-  - 题头下方嵌入纯 CSS 绘制的声学时间微刻度标尺（`.masthead-scale`），纯依靠排版微细线条展现录音室音频工程质感；
-  - 在 `renderArticleMeta` 中按单集时长 `ep.duration_sec` 动态渲染 0%、25%、50%、75%、100% 五等分刻度，自适应 35 分钟短片与 97 分钟超长单集。
-- **「声波书页（Acoustic Folio）」标志性 Icon 与动态 Favicon**：
-  - 静态图标文件 `docs/favicon.svg`：32×32 viewBox，左侧 3 道等宽声波脉冲柱 + 右侧 3 行出版物印刷段落线，16×16px 极限视口下锐利不糊；
-  - 顶栏内联图标 `<svg class="brand-logo-svg">`：底色跟随 `var(--accent-primary)`，内部几何图形跟随 `var(--accent-contrast)`，平滑过渡无缝响应深浅主题；
-  - 浏览器标签页 Favicon 动态同步：通过 `updateDynamicFavicon(bgHex)` 动态生成带当前播客 lightAccent 主题色（Air Show `#0a2540` / Sinica `#9b2226`）的 SVG Data URI，实现浏览器标签页图标随选中节目实时变色。
+### 5.3 刊物化去卡片排版与嘉宾色标
 
+- **章节双栏线**：`.section-header` 使用上粗下细双栏线，顶线采用柔化变量 `--section-rule-top`（Light `rgba(28, 27, 24, 0.82)` / Dark `rgba(228, 224, 216, 0.26)`），避免暗黑模式下过亮白杠。
+- **导语与要点区**：摘要区（`.summary-card`）去盒化为杂志 Standfirst（透明底 + 左侧 `3px` 重音竖线）；关键洞察（`.takeaways-card`）使用轻纸面底 + 极细上下边线。
+- **Highlights 便签网格**：`repeat(auto-fill, minmax(min(100%, 330px), 1fr))`，保留微暖便签底色，原声引语使用 `var(--text-secondary)` 保证双模清晰度。
+- **逐字稿彻底去卡片化**：`.transcript-container` 移除顶部重复细线，`.transcript-item` 取消外框与圆角，改为纸面连续流式排版（仅底部分隔细线 + 激活态左侧 `2px` 重音竖线与暖米/暖炭高光）。
+- **印章式说话人色标**：4 位常驻主播（Jon Ostrower、Brian Sumers、Brett Snyder、Kaiser Kuo）固定低饱和墨色；流动嘉宾通过确定性字符串哈希映射至 **8 组**色板（`spk-dyn-0` ~ `spk-dyn-7`，取模 `% 8`）。
+
+### 5.4 液态玻璃外壳与 iOS/iPadOS 27 Safari 透传架构
+
+- **宿主与玻璃层分离（绕过 WebKit 边缘纯色锁定）**：
+  - `.app-header`（`position: sticky; top: 8px`）与 `.audio-player-bar`（`position: fixed; bottom: calc(14px + env(safe-area-inset-bottom))`，移动端 `8px + safe-area`）宿主容器本身严格维持 `background: transparent; pointer-events: none;`，严禁在宿主上声明 `backdrop-filter`、`transform` 或 `will-change`。
+  - 所有玻璃滤镜、高光边与投影统一由内部伪元素 `.header-inner::before` 与 `.player-container::before` 承载；内部交互控件恢复 `pointer-events: auto` 与半透明 `--chrome-pill-*` 材质。
+  - 根视口保护：仅在 `body` 声明 `overflow-x: clip`（不阻塞 `html` 根视口透传），`html` 声明 `background-color: var(--bg-page)` 保持弹性回弹色一致；`<head>` 不写静态 `<meta name="theme-color">`。
+  - 关闭态 `.archive-backdrop` 与 `.archive-drawer` 必须切换为 `display: none` 移出渲染树，防止隐藏 `fixed` 遮罩污染 Safari 顶部/底部采样。
+- **清透光学参数（匹配原生 Safari 柔焦轮廓）**：
+  - Light：`--bg-surface-header: rgba(250, 248, 244, 0.34)`，`--glass-filter: blur(2.5px) saturate(160%) brightness(1.08)`。
+  - Dark：`--bg-surface-header: rgba(18, 17, 15, 0.38)`，`--glass-filter: blur(2.5px) saturate(150%) brightness(0.74)`。
+  - 配备 `@supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px)))` 实色回退。
+
+### 5.5 响应式断点与超薄单行播放器（320px–1440px）
+
+- **宽屏与桌面（`>= 861px`）**：
+  - 顶栏悬浮玻璃胶囊（`52px`）：左侧固定显示站点名（不与当前节目 Tab 重复）+ 节目切换 Tab + 中间选集抽屉入口 + 右侧三段双语控件（带透明常驻边框防抖动）+ 带 `/` 提示的搜索框 + 主题键。
+  - 底部超薄单行播放胶囊（`--player-h: 42px`，`border-radius: 999px`）：`>= 1024px` 最大宽度放宽至 `900px`，进度条限制上限 `max-width: 260px`，充分展示单集标题（含 `title` 悬停全称）与当前说话人；「跟随音频」全端收拢为正圆图标按钮。
+- **平板中间态（`641px–860px`，覆盖 iPad Mini `744px`）**：
+  - 隐藏 `.show-tab-count` 与内联搜索框，启用 `#mobile-search-btn` 弹出式悬浮搜索条；`.podcast-nav-tabs` 启用动态溢出检测（`updateTabsOverflowMask()`），仅实际溢出时施加右侧 `.is-overflow-right` 渐隐遮罩。
+- **移动端（`<= 640px`，零溢出下探 `320px`）**：
+  - 顶栏保持单行紧凑悬浮胶囊（`44px`）：Brand Icon + 可横滑节目 Tab + 右侧 4 枚 `28×28` 图标按钮（选集抽屉、单字循环语言键 `双/中/英`、弹出式搜索、深浅主题）。
+  - 底部保持单行超薄悬浮胶囊（`~38–40px`），`<= 375px` 隐藏总时长 `#time-total` 确保 `320px` 下进度条仍具备充足拖拽热区。
+
+### 5.6 核心交互、防退化逻辑与快捷键
+
+- **数据与防竞态**：两级内存缓存（`showIndexCache` / `episodeCache`）+ `currentRequestSeq` + `currentLoadingShowId`；空节目（0 单集）安全隐藏正文与播放器并展示空状态卡片，Console 0 报错。
+- **音频精准控制**：`seekAndPlay()` 在 `audio.readyState < 1` 时挂载一次性 `loadedmetadata` 后再定位播放；`timeupdate` 内执行 $O(\log N)$ 二分查找同步高亮逐字稿与 Highlight。
+- **选集与书签**：Issue Archive 侧滑抽屉（保留隐藏 `<select id="episode-select">` 兼容垫片）；URL Hash 持久化 `#<show_id>/<encodeURIComponent(guid)>`（兼容 ART19 带斜杠 `gid://...` 与旧版书签）。
+- **键盘快捷键**：
+  - `/` 或 `Cmd/Ctrl + K`：聚焦/展开搜索栏（通过 `isCompactSearchActive()` 自适应桌面与紧凑态）。
+  - `Esc`：关闭选集抽屉，或清空并收起搜索框。
+  - `Space`：播放 / 暂停音频（严格避开输入框、下拉框、抽屉打开态与播放器外部按钮/链接，并阻止页面意外滚屏）。
+- **安全与性能**：全部外部 JSON 字段经 `textContent` 或 `escapeHtml()` 渲染杜绝 XSS；交互过渡限定离散 CSS 属性（禁止 `transition: all`），全局补齐 `:focus-visible` 焦点轮廓。
