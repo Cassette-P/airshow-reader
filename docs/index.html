@@ -7,75 +7,82 @@
   <meta name="description" content="深度播客中英双语研读与音频同步研习工具 - 商业、地缘政经与行业纵深解析。" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400..700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,500..600;1,6..72,400..500&family=Noto+Sans+SC:wght@400..700&display=swap" rel="stylesheet" />
   <link id="dynamic-favicon" rel="icon" type="image/svg+xml" href="./favicon.svg" />
 
   <style>
     /* ==========================================================================
-       1. CSS Variables & Theme Configuration (Unslopped Editorial Craft)
-       Neutral Ramp: Warm Book Ink (Light) & Deep Graphite (Dark)
+       1. CSS Variables & Theme Configuration (Magazine Paper × OpenRouter Chrome)
+       Light: Uncoated Warm Paper | Dark: Warm Obsidian Precision
        ========================================================================== */
     :root {
-      /* Typography Stacks */
-      --font-serif: "Charter", "Source Serif 4", "Newsreader", "Georgia", "Songti SC", "SimSun", serif;
-      --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans SC", "PingFang SC", "HarmonyOS Sans SC", "MiSans", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
-      --font-mono: "SF Mono", "Fira Code", "Roboto Mono", "Menlo", monospace;
+      /* Typography Stacks (Requirement 三) */
+      --font-editorial: "Newsreader", "Charter", "Georgia", "PingFang SC", "Noto Sans SC", "HarmonyOS Sans SC", "Microsoft YaHei", sans-serif;
+      --font-serif: var(--font-editorial);
+      --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Noto Sans SC", "HarmonyOS Sans SC", "Microsoft YaHei", sans-serif;
+      --font-mono: "SF Mono", "JetBrains Mono", "Fira Code", "Menlo", monospace;
       --zh-body-weight: 480;
 
-      /* Neutral Ramp (Warm Editorial Paper & Ink) */
-      --bg-page: #f7f7f5;
-      --bg-surface: #ffffff;
-      --bg-surface-elevated: #ffffff;
-      --bg-subtle: #f0f0ec;
-      --bg-active-row: #ecece7;
-      --bg-backdrop: rgba(24, 24, 27, 0.4);
+      /* Neutral Ramp: Uncoated Warm Paper (Requirement 二) */
+      --bg-page: #FAF8F4;
+      --bg-surface: #FAF8F4;
+      --bg-surface-header: rgba(250, 248, 244, 0.90);
+      --bg-surface-elevated: #F3EFE6;
+      --bg-subtle: #F2EDE3;
+      --bg-active-row: #EFE9DC;
+      --bg-backdrop: rgba(28, 27, 24, 0.45);
 
-      --border-color: rgba(24, 24, 27, 0.08);
-      --border-subtle: rgba(24, 24, 27, 0.05);
-      --border-hover: rgba(24, 24, 27, 0.16);
-      --border-active: rgba(24, 24, 27, 0.28);
+      --border-color: rgba(28, 27, 24, 0.10);
+      --border-subtle: rgba(28, 27, 24, 0.06);
+      --border-hover: rgba(28, 27, 24, 0.20);
+      --border-active: rgba(28, 27, 24, 0.34);
 
-      --text-primary: #18181b;
-      --text-secondary: #3f3f46;
-      --text-muted: #71717a;
-      --text-tertiary: #a1a1aa;
+      --text-primary: #1C1B18;
+      --text-secondary: #57534E;
+      --text-muted: #857F76;
+      --text-tertiary: #A8A29E;
+      --section-rule-top: rgba(28, 27, 24, 0.82);
 
-      /* Podcast Show Accents (Dynamic & High Contrast) */
-      --show-accent-light: #0a2540;
-      --show-accent-dark: #38bdf8;
+      /* Podcast Show Accents (Light) */
+      --show-accent-light: #0A2540;
+      --show-accent-dark: #78B2DF;
       --show-accent: var(--show-accent-light);
       --accent-primary: var(--show-accent-light);
       --accent-tint: rgba(10, 37, 64, 0.08);
       --accent-subtle: rgba(10, 37, 64, 0.04);
-      --accent-contrast: #ffffff;
+      --accent-contrast: #FAF8F4;
 
-      /* Speaker Editorial Inks (Subdued, Print-like, Non-Pill) */
-      --spk-jon-color: #2c5282;   --spk-jon-border: #bee3f8;  --spk-jon-bg: #f7fafc;
-      --spk-brian-color: #276749; --spk-brian-border: #c6f6d5;--spk-brian-bg: #f0fff4;
-      --spk-brett-color: #9c4221; --spk-brett-border: #feebc8;--spk-brett-bg: #fffaf0;
-      --spk-kaiser-color: #9b2c2c;--spk-kaiser-border: #fed7d7;--spk-kaiser-bg: #fff5f5;
+      /* Speaker Editorial Inks: Subdued Stamp / Print Inks (Requirement 一 & 四) */
+      --spk-jon-color: #244268;   --spk-jon-border: rgba(36, 66, 104, 0.22);  --spk-jon-bg: rgba(36, 66, 104, 0.05);
+      --spk-brian-color: #235940; --spk-brian-border: rgba(35, 89, 64, 0.22);--spk-brian-bg: rgba(35, 89, 64, 0.05);
+      --spk-brett-color: #853e1a; --spk-brett-border: rgba(133, 62, 26, 0.22);--spk-brett-bg: rgba(133, 62, 26, 0.05);
+      --spk-kaiser-color: #852226;--spk-kaiser-border: rgba(133, 34, 38, 0.22);--spk-kaiser-bg: rgba(133, 34, 38, 0.05);
 
-      --spk-dyn-0-color: #553c9a; --spk-dyn-0-border: #e9d8fd;--spk-dyn-0-bg: #faf5ff;
-      --spk-dyn-1-color: #285e61; --spk-dyn-1-border: #b2f5ea;--spk-dyn-1-bg: #e6fffa;
-      --spk-dyn-2-color: #744210; --spk-dyn-2-border: #fefcbf;--spk-dyn-2-bg: #fffff0;
-      --spk-dyn-3-color: #2b6cb0; --spk-dyn-3-border: #bee3f8;--spk-dyn-3-bg: #ebf8ff;
+      --spk-dyn-0-color: #553c7b; --spk-dyn-0-border: rgba(85, 60, 123, 0.22);--spk-dyn-0-bg: rgba(85, 60, 123, 0.05);
+      --spk-dyn-1-color: #1d5b5e; --spk-dyn-1-border: rgba(29, 91, 94, 0.22);--spk-dyn-1-bg: rgba(29, 91, 94, 0.05);
+      --spk-dyn-2-color: #6e4e1b; --spk-dyn-2-border: rgba(110, 78, 27, 0.22);--spk-dyn-2-bg: rgba(110, 78, 27, 0.05);
+      --spk-dyn-3-color: #275685; --spk-dyn-3-border: rgba(39, 86, 133, 0.22);--spk-dyn-3-bg: rgba(39, 86, 133, 0.05);
+      --spk-dyn-4-color: #633857; --spk-dyn-4-border: rgba(99, 56, 87, 0.22); --spk-dyn-4-bg: rgba(99, 56, 87, 0.05);
+      --spk-dyn-5-color: #3b5936; --spk-dyn-5-border: rgba(59, 89, 54, 0.22); --spk-dyn-5-bg: rgba(59, 89, 54, 0.05);
+      --spk-dyn-6-color: #79432a; --spk-dyn-6-border: rgba(121, 67, 42, 0.22);--spk-dyn-6-bg: rgba(121, 67, 42, 0.05);
+      --spk-dyn-7-color: #284c66; --spk-dyn-7-border: rgba(40, 76, 102, 0.22);--spk-dyn-7-bg: rgba(40, 76, 102, 0.05);
 
-      /* Nested Radii (Control 6px, Card 8px, Panel 12px) */
+      /* OpenRouter Precision Radii (6px controls) */
       --radius-xs: 3px;
       --radius-sm: 4px;
       --radius-md: 6px;
-      --radius-lg: 8px;
-      --radius-xl: 12px;
+      --radius-lg: 6px;
+      --radius-xl: 8px;
 
-      /* Shadows (Minimal Hairline Feel, No Glowing Orbs) */
-      --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.04);
-      --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.06);
-      --shadow-drawer: -4px 0 24px rgba(0, 0, 0, 0.08);
-      --shadow-player: 0 -2px 16px rgba(0, 0, 0, 0.05);
+      /* Subtle Shadows & Hairlines */
+      --shadow-sm: none;
+      --shadow-md: 0 4px 16px rgba(28, 27, 24, 0.06);
+      --shadow-drawer: -4px 0 24px rgba(28, 27, 24, 0.08);
+      --shadow-player: 0 -1px 0 var(--border-color);
 
       /* Layout Dimensions */
       --header-max-w: 1240px;
-      --content-max-w: 880px;
+      --content-max-w: 760px;
       --header-h: 52px;
       --player-h: 60px;
     }
@@ -83,54 +90,70 @@
     [data-theme="dark"] {
       --zh-body-weight: 460;
 
-      /* Neutral Ramp (Deep Archival Graphite) */
-      --bg-page: #121214;
-      --bg-surface: #18181b;
-      --bg-surface-elevated: #222226;
-      --bg-subtle: #202024;
-      --bg-active-row: #27272c;
-      --bg-backdrop: rgba(0, 0, 0, 0.65);
+      /* Neutral Ramp: Warm Obsidian (Requirement 二) */
+      --bg-page: #151412;
+      --bg-surface: #1C1A17;
+      --bg-surface-header: rgba(28, 26, 23, 0.90);
+      --bg-surface-elevated: #1E1C19;
+      --bg-subtle: #24211D;
+      --bg-active-row: #28241F;
+      --bg-backdrop: rgba(0, 0, 0, 0.72);
 
-      --border-color: rgba(255, 255, 255, 0.08);
-      --border-subtle: rgba(255, 255, 255, 0.05);
-      --border-hover: rgba(255, 255, 255, 0.16);
-      --border-active: rgba(255, 255, 255, 0.28);
+      --border-color: rgba(238, 232, 220, 0.10);
+      --border-subtle: rgba(238, 232, 220, 0.06);
+      --border-hover: rgba(238, 232, 220, 0.20);
+      --border-active: rgba(238, 232, 220, 0.34);
 
-      --text-primary: #f4f4f5;
-      --text-secondary: #c4c4cc;
-      --text-muted: #71717a;
-      --text-tertiary: #52525b;
+      --text-primary: #E4E0D8;
+      --text-secondary: #9E988E;
+      --text-muted: #928C82;
+      --text-tertiary: #706B63;
+      --section-rule-top: rgba(228, 224, 216, 0.26);
 
-      /* Accents (Clear and High Contrast on Dark Graphite) */
+      /* De-fluoresced Podcast Accents (Dark) */
       --accent-primary: var(--show-accent-dark);
-      --accent-tint: rgba(56, 189, 248, 0.12);
-      --accent-subtle: rgba(56, 189, 248, 0.06);
-      --accent-contrast: #121214;
+      --accent-tint: rgba(120, 178, 223, 0.12);
+      --accent-subtle: rgba(120, 178, 223, 0.06);
+      --accent-contrast: #151412;
 
       /* Speaker Editorial Inks (Dark Mode Toned) */
-      --spk-jon-color: #90cdf4;   --spk-jon-border: rgba(144, 205, 244, 0.2); --spk-jon-bg: rgba(144, 205, 244, 0.06);
-      --spk-brian-color: #9ae6b4; --spk-brian-border: rgba(154, 230, 180, 0.2); --spk-brian-bg: rgba(154, 230, 180, 0.06);
-      --spk-brett-color: #fbd38d; --spk-brett-border: rgba(251, 211, 141, 0.2); --spk-brett-bg: rgba(251, 211, 141, 0.06);
-      --spk-kaiser-color: #feb2b2;--spk-kaiser-border: rgba(254, 178, 178, 0.2); --spk-kaiser-bg: rgba(254, 178, 178, 0.06);
+      --spk-jon-color: #8cb0d6;   --spk-jon-border: rgba(140, 176, 214, 0.22); --spk-jon-bg: rgba(140, 176, 214, 0.08);
+      --spk-brian-color: #86be9c; --spk-brian-border: rgba(134, 190, 156, 0.22);--spk-brian-bg: rgba(134, 190, 156, 0.08);
+      --spk-brett-color: #df9e7c; --spk-brett-border: rgba(223, 158, 124, 0.22);--spk-brett-bg: rgba(223, 158, 124, 0.08);
+      --spk-kaiser-color: #df7a74;--spk-kaiser-border: rgba(223, 122, 116, 0.22);--spk-kaiser-bg: rgba(223, 122, 116, 0.08);
 
-      --spk-dyn-0-color: #d6bcfa; --spk-dyn-0-border: rgba(214, 188, 250, 0.2); --spk-dyn-0-bg: rgba(214, 188, 250, 0.06);
-      --spk-dyn-1-color: #81e6d9; --spk-dyn-1-border: rgba(129, 230, 217, 0.2); --spk-dyn-1-bg: rgba(129, 230, 217, 0.06);
-      --spk-dyn-2-color: #faf089; --spk-dyn-2-border: rgba(250, 240, 137, 0.2); --spk-dyn-2-bg: rgba(250, 240, 137, 0.06);
-      --spk-dyn-3-color: #90cdf4; --spk-dyn-3-border: rgba(144, 205, 244, 0.2); --spk-dyn-3-bg: rgba(144, 205, 244, 0.06);
+      --spk-dyn-0-color: #b59de0; --spk-dyn-0-border: rgba(181, 157, 224, 0.22);--spk-dyn-0-bg: rgba(181, 157, 224, 0.08);
+      --spk-dyn-1-color: #72babd; --spk-dyn-1-border: rgba(114, 186, 189, 0.22);--spk-dyn-1-bg: rgba(114, 186, 189, 0.08);
+      --spk-dyn-2-color: #d6ba75; --spk-dyn-2-border: rgba(214, 186, 117, 0.22);--spk-dyn-2-bg: rgba(214, 186, 117, 0.08);
+      --spk-dyn-3-color: #84aed4; --spk-dyn-3-border: rgba(132, 174, 212, 0.22);--spk-dyn-3-bg: rgba(132, 174, 212, 0.08);
+      --spk-dyn-4-color: #c48eb3; --spk-dyn-4-border: rgba(196, 142, 179, 0.22);--spk-dyn-4-bg: rgba(196, 142, 179, 0.08);
+      --spk-dyn-5-color: #9cb88f; --spk-dyn-5-border: rgba(156, 184, 143, 0.22);--spk-dyn-5-bg: rgba(156, 184, 143, 0.08);
+      --spk-dyn-6-color: #cf9376; --spk-dyn-6-border: rgba(207, 147, 118, 0.22);--spk-dyn-6-bg: rgba(207, 147, 118, 0.08);
+      --spk-dyn-7-color: #87a7c0; --spk-dyn-7-border: rgba(135, 167, 192, 0.22);--spk-dyn-7-bg: rgba(135, 167, 192, 0.08);
 
-      --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.2);
-      --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.3);
-      --shadow-drawer: -4px 0 24px rgba(0, 0, 0, 0.5);
-      --shadow-player: 0 -2px 16px rgba(0, 0, 0, 0.4);
+      --shadow-sm: none;
+      --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.4);
+      --shadow-drawer: -4px 0 24px rgba(0, 0, 0, 0.6);
+      --shadow-player: 0 -1px 0 var(--border-color);
+    }
+
+    [data-theme="dark"] .app-header,
+    [data-theme="dark"] .audio-player-bar,
+    [data-theme="dark"] .archive-drawer {
+      box-shadow: inset 0 1px 0 rgba(255, 250, 240, 0.04);
     }
 
     /* ==========================================================================
-       2. Reset & Base Typography
+       2. Reset & Base Typography (Requirement 三 & 五)
        ========================================================================== */
     *, *::before, *::after {
       box-sizing: border-box;
       margin: 0;
       padding: 0;
+    }
+
+    html, body {
+      overflow-x: clip;
     }
 
     html {
@@ -147,13 +170,17 @@
       min-height: 100vh;
       display: flex;
       flex-direction: column;
-      overflow-x: hidden;
-      padding-bottom: calc(var(--player-h) + 40px);
+      padding-bottom: calc(var(--player-h) + 56px + env(safe-area-inset-bottom));
       transition: background-color 0.2s ease, color 0.2s ease;
     }
 
+    :focus-visible {
+      outline: 2px solid var(--accent-primary);
+      outline-offset: 1px;
+    }
+
     h1, h2, h3, .masthead-font {
-      font-family: var(--font-serif);
+      font-family: var(--font-editorial);
       font-weight: 600;
       letter-spacing: -0.015em;
     }
@@ -182,17 +209,16 @@
     }
 
     /* ==========================================================================
-       3. Single Compact Sticky Header (Pass 6 Layout & Spacing)
-       Unified 52px Bar: Brand, Shows, Archive Drawer Button, Views, Search, Theme
+       3. Precision Sticky Header (OpenRouter Chrome)
+       Desktop: 52px single line | Mobile: 48px strict single line
        ========================================================================== */
     .app-header {
       position: sticky;
       top: 0;
       z-index: 80;
       height: var(--header-h);
-      background: var(--bg-surface);
+      background: var(--bg-surface-header);
       border-bottom: 1px solid var(--border-color);
-      box-shadow: var(--shadow-sm);
       backdrop-filter: blur(12px);
       -webkit-backdrop-filter: blur(12px);
     }
@@ -245,7 +271,7 @@
 
     .brand-name {
       font-size: 0.9375rem;
-      font-family: var(--font-serif);
+      font-family: var(--font-editorial);
       font-weight: 600;
       letter-spacing: -0.01em;
       white-space: nowrap;
@@ -265,13 +291,13 @@
       align-items: center;
       gap: 6px;
       padding: 4px 8px;
-      border-radius: var(--radius-sm);
+      border-radius: var(--radius-md);
       font-size: 0.8125rem;
       font-weight: 500;
       color: var(--text-muted);
       border: 1px solid transparent;
       white-space: nowrap;
-      transition: all 0.15s ease;
+      transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease;
     }
     .show-tab-btn:hover {
       color: var(--text-primary);
@@ -279,7 +305,7 @@
     }
     .show-tab-btn.active {
       color: var(--text-primary);
-      background: var(--bg-subtle);
+      background: var(--bg-surface-elevated);
       border-color: var(--border-color);
       font-weight: 600;
     }
@@ -289,7 +315,7 @@
       color: var(--text-muted);
     }
 
-    /* Center: Issue Archive Drawer Trigger */
+    /* Center: Issue Archive Drawer Trigger (Desktop) */
     .header-center {
       display: flex;
       align-items: center;
@@ -311,10 +337,10 @@
       border-radius: var(--radius-md);
       font-size: 0.8125rem;
       color: var(--text-secondary);
-      transition: all 0.15s ease;
+      transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease;
     }
     .issue-archive-btn:hover {
-      background: var(--bg-surface);
+      background: var(--bg-surface-elevated);
       border-color: var(--border-hover);
       color: var(--text-primary);
     }
@@ -365,19 +391,21 @@
       padding: 4px 10px;
       font-size: 0.75rem;
       font-weight: 500;
+      border: 1px solid transparent;
       border-radius: var(--radius-sm);
       color: var(--text-muted);
-      transition: all 0.15s ease;
+      transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
       white-space: nowrap;
     }
     .segment-btn:hover {
       color: var(--text-primary);
     }
     .segment-btn.active {
-      background: var(--bg-surface);
+      background: var(--bg-surface-elevated);
       color: var(--text-primary);
       font-weight: 600;
-      box-shadow: var(--shadow-sm);
+      border: 1px solid var(--border-subtle);
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
     }
 
     .search-box-wrap {
@@ -397,16 +425,37 @@
       background: var(--bg-subtle);
       border: 1px solid var(--border-color);
       border-radius: var(--radius-md);
-      padding: 0 24px 0 26px;
+      padding: 0 28px 0 26px;
       font-size: 0.75rem;
       color: var(--text-primary);
       outline: none;
-      transition: all 0.2s ease;
+      transition: width 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+    }
+    .search-input:focus-visible {
+      outline: 2px solid var(--accent-primary);
+      outline-offset: 1px;
     }
     .search-input:focus {
       width: 180px;
       border-color: var(--border-active);
-      background: var(--bg-surface);
+      background: var(--bg-surface-elevated);
+    }
+    .search-kbd-hint {
+      position: absolute;
+      right: 7px;
+      font-family: var(--font-mono);
+      font-size: 0.625rem;
+      padding: 1px 4px;
+      border-radius: 3px;
+      background: var(--bg-surface-elevated);
+      border: 1px solid var(--border-color);
+      color: var(--text-muted);
+      pointer-events: none;
+      line-height: 1.2;
+    }
+    .search-input:focus ~ .search-kbd-hint,
+    .search-input:not(:placeholder-shown) ~ .search-kbd-hint {
+      display: none;
     }
     .search-clear-btn {
       position: absolute;
@@ -433,16 +482,22 @@
       justify-content: center;
       background: var(--bg-subtle);
       color: var(--text-secondary);
-      transition: all 0.15s ease;
+      transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease;
+      flex-shrink: 0;
     }
     .theme-toggle-btn:hover {
-      background: var(--bg-surface);
+      background: var(--bg-surface-elevated);
       color: var(--text-primary);
       border-color: var(--border-hover);
     }
 
+    /* Mobile-only header controls */
+    .mobile-header-btn {
+      display: none;
+    }
+
     /* ==========================================================================
-       4. Issue Archive Drawer (Plan A: Elegant Slide-over Catalog)
+       4. Issue Archive Drawer (Slide-over Catalog)
        ========================================================================== */
     .archive-backdrop {
       position: fixed;
@@ -504,7 +559,7 @@
     .archive-title {
       font-size: 1.125rem;
       color: var(--text-primary);
-      font-family: var(--font-serif);
+      font-family: var(--font-editorial);
       font-weight: 600;
     }
     .archive-close-btn {
@@ -516,7 +571,7 @@
       border: 1px solid var(--border-color);
       color: var(--text-muted);
       font-size: 0.75rem;
-      transition: all 0.15s ease;
+      transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease;
     }
     .archive-close-btn:hover {
       background: var(--bg-subtle);
@@ -546,12 +601,12 @@
       padding: 12px 14px;
       border-radius: var(--radius-md);
       border: 1px solid var(--border-color);
-      background: var(--bg-surface);
+      background: var(--bg-surface-elevated);
       cursor: pointer;
       display: flex;
       flex-direction: column;
       gap: 6px;
-      transition: all 0.15s ease;
+      transition: background-color 0.15s ease, border-color 0.15s ease;
     }
     .archive-item:hover {
       background: var(--bg-subtle);
@@ -597,7 +652,8 @@
     }
 
     /* ==========================================================================
-       5. Main Layout & Editorial Article Elements
+       5. Main Layout & Magazine Elements (Requirement 三 & 四)
+       Content Width: 760px
        ========================================================================== */
     .main-content {
       max-width: var(--content-max-w);
@@ -609,8 +665,9 @@
 
     .search-stats-banner {
       display: none;
-      background: var(--accent-subtle);
+      background: var(--bg-surface-elevated);
       border: 1px solid var(--border-color);
+      border-left: 3px solid var(--accent-primary);
       color: var(--text-secondary);
       padding: 8px 14px;
       border-radius: var(--radius-md);
@@ -623,7 +680,7 @@
       display: flex;
     }
 
-    /* Article Masthead (Moment 1 & Signature) */
+    /* Article Masthead */
     .article-header {
       margin-bottom: 32px;
       padding-bottom: 20px;
@@ -651,8 +708,9 @@
       line-height: 1.25;
       margin-bottom: 16px;
       color: var(--text-primary);
-      font-family: var(--font-serif);
+      font-family: var(--font-editorial);
       font-weight: 600;
+      word-break: break-word;
     }
 
     /* Signature Micro-Tick Hairline Ruler */
@@ -681,7 +739,7 @@
       font-weight: 500;
     }
 
-    /* Section Styling */
+    /* Section Styling (Requirement 四: Dual-rule Magazine Divider) */
     .section-wrap {
       margin-bottom: 40px;
     }
@@ -689,51 +747,60 @@
       display: flex;
       align-items: baseline;
       justify-content: space-between;
-      margin-bottom: 16px;
+      margin-bottom: 18px;
+      border-top: 2px solid var(--section-rule-top);
       border-bottom: 1px solid var(--border-color);
-      padding-bottom: 8px;
+      padding: 10px 0 8px;
+      gap: 12px;
     }
     .section-title {
-      font-size: 1.2rem;
+      font-size: 1.1875rem;
       color: var(--text-primary);
-      font-family: var(--font-serif);
+      font-family: var(--font-editorial);
       font-weight: 600;
       display: flex;
       align-items: center;
       gap: 8px;
+      letter-spacing: -0.01em;
     }
     .section-badge {
       font-family: var(--font-mono);
       font-size: 0.6875rem;
       color: var(--text-muted);
       font-weight: 500;
+      white-space: nowrap;
+      flex-shrink: 0;
     }
 
-    /* Executive Summary Card */
+    /* Executive Summary Card: Standfirst Style (Requirement 四) */
     .summary-card {
-      background: var(--bg-surface);
-      border: 1px solid var(--border-color);
+      background: transparent;
+      border: none;
       border-left: 3px solid var(--accent-primary);
-      border-radius: var(--radius-lg);
-      padding: 20px 24px;
-      box-shadow: var(--shadow-sm);
-      margin-bottom: 16px;
+      border-radius: 0;
+      padding: 4px 0 4px 20px;
+      box-shadow: none;
+      margin-bottom: 20px;
     }
     .summary-lead {
-      font-size: 1.03125rem;
+      font-size: 1.0625rem;
       font-weight: var(--zh-body-weight);
-      line-height: 1.8;
+      line-height: 1.85;
       color: var(--text-primary);
       text-align: justify;
+      word-break: break-word;
     }
 
-    /* Key Takeaways Card */
+    /* Key Takeaways Card: Fine Top/Bottom Hairlines */
     .takeaways-card {
-      background: var(--bg-surface);
-      border: 1px solid var(--border-color);
-      border-radius: var(--radius-lg);
-      padding: 20px 24px;
-      box-shadow: var(--shadow-sm);
+      background: var(--bg-surface-elevated);
+      border-top: 1px solid var(--border-color);
+      border-bottom: 1px solid var(--border-color);
+      border-left: none;
+      border-right: none;
+      border-radius: 0;
+      padding: 18px 20px;
+      box-shadow: none;
     }
     .takeaways-heading {
       font-size: 0.8125rem;
@@ -754,11 +821,12 @@
     .takeaway-item {
       display: flex;
       align-items: baseline;
-      gap: 12px;
+      gap: 10px;
       font-size: 0.9375rem;
       font-weight: var(--zh-body-weight);
       line-height: 1.65;
       color: var(--text-primary);
+      word-break: break-word;
     }
     .takeaway-num {
       flex-shrink: 0;
@@ -769,20 +837,20 @@
     }
 
     /* ==========================================================================
-       6. Audio Highlights Grid (Moment 2: Pull-Quote Notes)
+       6. Audio Highlights Grid (Requirement 四: Note Fold Surface)
        ========================================================================== */
     .highlights-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+      grid-template-columns: repeat(auto-fill, minmax(min(100%, 330px), 1fr));
       gap: 16px;
     }
 
     .highlight-card {
-      background: var(--bg-surface);
+      background: var(--bg-surface-elevated);
       border: 1px solid var(--border-color);
-      border-radius: var(--radius-lg);
+      border-radius: var(--radius-md);
       padding: 16px 18px;
-      box-shadow: var(--shadow-sm);
+      box-shadow: none;
       display: flex;
       flex-direction: column;
       gap: 8px;
@@ -818,7 +886,7 @@
       font-family: var(--font-mono);
       font-size: 0.6875rem;
       font-weight: 600;
-      transition: all 0.15s ease;
+      transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease;
     }
     .highlight-card:hover .timestamp-badge {
       border-color: var(--accent-primary);
@@ -848,55 +916,60 @@
       font-weight: 600;
       color: var(--text-primary);
       line-height: 1.4;
+      word-break: break-word;
     }
     .highlight-summary {
       font-size: 0.875rem;
       font-weight: var(--zh-body-weight);
       color: var(--text-secondary);
       line-height: 1.6;
+      word-break: break-word;
     }
     .highlight-quote {
-      font-family: var(--font-serif);
+      font-family: var(--font-editorial);
       font-style: italic;
-      font-size: 0.8125rem;
+      font-size: 0.84375rem;
       line-height: 1.55;
-      color: var(--text-muted);
+      color: var(--text-secondary);
       padding: 6px 10px;
       background: var(--bg-subtle);
       border-left: 2px solid var(--accent-primary);
-      border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+      border-radius: 0 var(--radius-xs) var(--radius-xs) 0;
       margin-top: 4px;
+      word-break: break-word;
     }
 
     /* ==========================================================================
-       7. Bilingual Transcript Section (Clean Sans-Serif Body)
+       7. Bilingual Transcript: De-carded Editorial Stream (Requirement 四)
+       Continuous stream on warm paper with hairline separators
        ========================================================================== */
     .transcript-container {
       display: flex;
       flex-direction: column;
-      gap: 8px;
+      gap: 0;
     }
 
     .transcript-item {
-      background: var(--bg-surface);
-      border: 1px solid var(--border-color);
-      border-radius: var(--radius-lg);
-      padding: 14px 18px;
+      background: transparent;
+      border: none;
+      border-bottom: 1px solid var(--border-subtle);
+      border-left: 2px solid transparent;
+      border-radius: 0;
+      padding: 18px 14px;
+      box-shadow: none;
       display: flex;
       flex-direction: column;
-      gap: 6px;
+      gap: 8px;
       cursor: pointer;
       position: relative;
       transition: background-color 0.15s ease, border-color 0.15s ease;
     }
     .transcript-item:hover {
-      border-color: var(--border-hover);
       background: var(--bg-subtle);
     }
     .transcript-item.active {
-      border-left: 3px solid var(--accent-primary);
+      border-left-color: var(--accent-primary);
       background: var(--bg-active-row);
-      border-color: var(--border-hover);
     }
 
     .transcript-meta {
@@ -911,15 +984,16 @@
       gap: 8px;
     }
 
-    /* Speaker Badges (Subdued Low-Saturation Inks, No Pill Overkill) */
+    /* Speaker Badges: Stamp Ink Style (Requirement 一 & 四) */
     .speaker-badge {
-      font-size: 0.75rem;
+      font-size: 0.71875rem;
+      font-family: var(--font-mono);
       font-weight: 600;
       padding: 1px 6px;
-      border-radius: var(--radius-sm);
+      border-radius: var(--radius-xs);
       border: 1px solid var(--border-color);
       white-space: nowrap;
-      letter-spacing: 0.01em;
+      letter-spacing: 0.02em;
     }
     .spk-jon { color: var(--spk-jon-color); border-color: var(--spk-jon-border); background: var(--spk-jon-bg); }
     .spk-brian { color: var(--spk-brian-color); border-color: var(--spk-brian-border); background: var(--spk-brian-bg); }
@@ -930,6 +1004,10 @@
     .spk-dyn-1 { color: var(--spk-dyn-1-color); border-color: var(--spk-dyn-1-border); background: var(--spk-dyn-1-bg); }
     .spk-dyn-2 { color: var(--spk-dyn-2-color); border-color: var(--spk-dyn-2-border); background: var(--spk-dyn-2-bg); }
     .spk-dyn-3 { color: var(--spk-dyn-3-color); border-color: var(--spk-dyn-3-border); background: var(--spk-dyn-3-bg); }
+    .spk-dyn-4 { color: var(--spk-dyn-4-color); border-color: var(--spk-dyn-4-border); background: var(--spk-dyn-4-bg); }
+    .spk-dyn-5 { color: var(--spk-dyn-5-color); border-color: var(--spk-dyn-5-border); background: var(--spk-dyn-5-bg); }
+    .spk-dyn-6 { color: var(--spk-dyn-6-color); border-color: var(--spk-dyn-6-border); background: var(--spk-dyn-6-bg); }
+    .spk-dyn-7 { color: var(--spk-dyn-7-color); border-color: var(--spk-dyn-7-border); background: var(--spk-dyn-7-bg); }
 
     .time-seek-btn {
       font-family: var(--font-mono);
@@ -938,16 +1016,17 @@
       background: var(--bg-subtle);
       border: 1px solid var(--border-color);
       padding: 1px 6px;
-      border-radius: var(--radius-sm);
+      border-radius: var(--radius-xs);
       display: inline-flex;
       align-items: center;
       gap: 3px;
-      transition: all 0.15s ease;
+      transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease;
     }
     .time-seek-btn:hover,
     .transcript-item:hover .time-seek-btn {
       color: var(--accent-primary);
-      border-color: var(--accent-primary);
+      border-color: var(--border-hover);
+      background: var(--bg-surface-elevated);
     }
     .transcript-item.active .time-seek-btn {
       background: var(--accent-primary);
@@ -956,12 +1035,13 @@
       font-weight: 600;
     }
 
-    /* Paragraph Text Stacks (Constraint 4) */
+    /* Paragraph Text Stacks */
     .transcript-en {
       font-size: 0.9375rem;
-      line-height: 1.6;
+      line-height: 1.62;
       color: var(--text-secondary);
       font-family: var(--font-sans);
+      word-break: break-word;
     }
     .transcript-zh {
       font-size: 1.03125rem;
@@ -969,6 +1049,7 @@
       line-height: 1.78;
       color: var(--text-primary);
       font-family: var(--font-sans);
+      word-break: break-word;
     }
 
     /* View Mode Toggles */
@@ -987,19 +1068,20 @@
     .is-search-hidden { display: none !important; }
 
     /* ==========================================================================
-       8. Floating Sticky Audio Bar (Slim 60px Profile)
+       8. Floating Audio Player (OpenRouter Chrome)
        ========================================================================== */
     .audio-player-bar {
       position: fixed;
       bottom: 0;
       left: 0;
       right: 0;
-      height: var(--player-h);
+      height: auto;
+      min-height: var(--player-h);
       z-index: 90;
-      background: var(--bg-surface);
+      background: var(--bg-surface-header);
       border-top: 1px solid var(--border-color);
       box-shadow: var(--shadow-player);
-      padding: 0 16px;
+      padding: 6px 12px calc(8px + env(safe-area-inset-bottom));
       backdrop-filter: blur(16px);
       -webkit-backdrop-filter: blur(16px);
     }
@@ -1077,10 +1159,10 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
-      gap: 12px;
+      gap: 8px;
     }
     .player-info {
-      flex: 1 1 200px;
+      flex: 1 1 180px;
       min-width: 0;
       display: flex;
       align-items: center;
@@ -1107,6 +1189,7 @@
       align-items: center;
       gap: 8px;
       justify-content: center;
+      flex-shrink: 0;
     }
     .ctrl-btn {
       display: inline-flex;
@@ -1114,7 +1197,7 @@
       justify-content: center;
       color: var(--text-secondary);
       border-radius: var(--radius-md);
-      transition: all 0.15s ease;
+      transition: color 0.15s ease, background-color 0.15s ease;
     }
     .ctrl-btn:hover {
       color: var(--text-primary);
@@ -1130,7 +1213,7 @@
       background: var(--accent-primary);
       color: var(--accent-contrast);
       border-radius: 50%;
-      box-shadow: var(--shadow-sm);
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
     }
     .btn-play-pause:hover {
       opacity: 0.92;
@@ -1139,40 +1222,45 @@
     }
 
     .player-extra-btns {
-      flex: 1 1 200px;
+      flex: 1 1 180px;
       display: flex;
       align-items: center;
       justify-content: flex-end;
       gap: 6px;
+      flex-shrink: 0;
     }
     .btn-speed {
       padding: 2px 7px;
-      border-radius: var(--radius-sm);
+      border-radius: var(--radius-md);
       border: 1px solid var(--border-color);
       font-size: 0.6875rem;
       font-family: var(--font-mono);
       font-weight: 600;
       color: var(--text-secondary);
       background: var(--bg-subtle);
+      transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease;
     }
     .btn-speed:hover {
       border-color: var(--border-hover);
       color: var(--text-primary);
+      background: var(--bg-surface-elevated);
     }
     .btn-autoscroll {
       display: inline-flex;
       align-items: center;
       gap: 4px;
       padding: 2px 8px;
-      border-radius: var(--radius-sm);
+      border-radius: var(--radius-md);
       border: 1px solid var(--border-color);
       font-size: 0.6875rem;
       font-weight: 500;
       color: var(--text-secondary);
       background: var(--bg-subtle);
+      transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease;
     }
     .btn-autoscroll:hover {
       border-color: var(--border-hover);
+      background: var(--bg-surface-elevated);
     }
     .btn-autoscroll.active {
       background: var(--accent-tint);
@@ -1181,7 +1269,7 @@
     }
 
     /* ==========================================================================
-       9. State Views & Responsive Layout (< 640px)
+       9. State Views & Feedback
        ========================================================================== */
     .state-banner {
       display: flex;
@@ -1220,7 +1308,7 @@
       padding: 40px 24px;
       max-width: 520px;
       margin: 32px auto;
-      background: var(--bg-surface);
+      background: var(--bg-surface-elevated);
       border: 1px solid var(--border-color);
       border-radius: var(--radius-xl);
       text-align: center;
@@ -1255,6 +1343,9 @@
       color: var(--text-muted);
     }
 
+    /* ==========================================================================
+       10. Responsive Breakpoints & Mobile Architecture (Requirement 五)
+       ========================================================================== */
     @media (max-width: 960px) {
       .brand-name {
         display: none;
@@ -1263,10 +1354,10 @@
         max-width: 220px;
       }
       .search-input {
-        width: 80px;
+        width: 110px;
       }
       .search-input:focus {
-        width: 140px;
+        width: 150px;
       }
     }
 
@@ -1277,52 +1368,205 @@
       .issue-btn-text {
         font-size: 0.8125rem;
       }
-      .podcast-nav-tab {
-        padding: 4px 8px;
+      .show-tab-btn {
+        padding: 4px 7px;
         font-size: 0.75rem;
       }
     }
 
+    /* Mobile Single Line 48px Header & Player Protection */
     @media (max-width: 640px) {
+      :root {
+        --header-h: 48px;
+      }
+      .app-header {
+        height: 48px;
+      }
       .header-inner {
-        padding: 0 12px;
-        gap: 8px;
+        padding: 0 10px;
+        gap: 6px;
+        flex-wrap: nowrap;
+      }
+      .header-left {
+        flex: 1 1 0;
+        min-width: 0;
+        gap: 6px;
       }
       .brand-name {
-        display: none;
+        display: none !important;
+      }
+      .brand-link {
+        flex-shrink: 0;
       }
       .podcast-nav-tabs {
-        padding-left: 8px;
+        flex: 1 1 0;
+        min-width: 0;
+        overflow-x: auto;
+        scrollbar-width: none;
+        -ms-overflow-style: none;
         margin-left: 0;
+        padding-left: 6px;
+        border-left: 1px solid var(--border-color);
       }
-      .header-center {
-        max-width: 140px;
+      .podcast-nav-tabs::-webkit-scrollbar {
+        display: none;
       }
-      .issue-btn-text {
+      .show-tab-btn {
+        padding: 3px 6px;
         font-size: 0.75rem;
       }
-      .search-input {
-        width: 32px;
-        padding: 0 8px 0 24px;
+
+      .header-center {
+        display: none !important;
       }
-      .search-input:focus {
-        width: 110px;
+
+      .header-right {
+        flex-shrink: 0;
+        display: flex;
+        align-items: center;
+        gap: 4px;
       }
+
+      .segmented-control {
+        display: none !important;
+      }
+
+      .mobile-header-btn {
+        width: 30px;
+        height: 30px;
+        min-width: 30px;
+        display: inline-flex !important;
+        align-items: center;
+        justify-content: center;
+        border-radius: var(--radius-md);
+        border: 1px solid var(--border-color);
+        background: var(--bg-subtle);
+        color: var(--text-secondary);
+        font-size: 0.75rem;
+        font-weight: 600;
+        padding: 0;
+        transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease;
+      }
+      .mobile-header-btn:hover {
+        background: var(--bg-surface-elevated);
+        color: var(--text-primary);
+        border-color: var(--border-hover);
+      }
+      .mobile-header-btn.active {
+        background: var(--accent-tint);
+        color: var(--accent-primary);
+        border-color: var(--accent-primary);
+      }
+
+      .theme-toggle-btn {
+        width: 30px;
+        height: 30px;
+        min-width: 30px;
+      }
+
+      .search-box-wrap {
+        display: none;
+      }
+      .search-box-wrap.mobile-expanded {
+        display: flex !important;
+        position: fixed;
+        top: 48px;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: 44px;
+        background: var(--bg-surface);
+        border-bottom: 1px solid var(--border-color);
+        padding: 0 10px;
+        z-index: 79;
+        box-shadow: var(--shadow-md);
+      }
+      .search-box-wrap.mobile-expanded .search-icon {
+        left: 18px;
+      }
+      .search-box-wrap.mobile-expanded .search-input {
+        width: 100% !important;
+        height: 32px;
+      }
+      .search-box-wrap.mobile-expanded .search-kbd-hint {
+        display: none !important;
+      }
+      .search-box-wrap.mobile-expanded .search-clear-btn {
+        right: 16px;
+      }
+
       .article-title {
         font-size: 1.55rem;
+      }
+      .main-content {
+        padding: 24px 12px;
       }
       .highlights-grid {
         grid-template-columns: 1fr;
       }
+      .transcript-item {
+        padding: 16px 8px 16px 10px;
+      }
       .player-info {
-        flex: 1 1 100px;
+        flex: 1 1 0;
+        min-width: 0;
       }
       .player-speaker-wrap {
         display: none;
       }
+      .player-extra-btns {
+        flex: 0 0 auto;
+        gap: 4px;
+      }
+      .btn-speed {
+        padding: 2px 5px;
+        font-size: 0.65rem;
+      }
+      .btn-autoscroll {
+        padding: 2px 6px;
+        font-size: 0.65rem;
+      }
       .archive-drawer {
         width: 100vw;
         max-width: 100vw;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .show-tab-count {
+        display: none !important;
+      }
+      .podcast-nav-tabs {
+        -webkit-mask-image: linear-gradient(to right, #000 calc(100% - 16px), transparent 100%);
+        mask-image: linear-gradient(to right, #000 calc(100% - 16px), transparent 100%);
+      }
+      .masthead-ticks .tick-mark {
+        display: none !important;
+      }
+      .masthead-ticks {
+        font-size: 0.625rem;
+      }
+    }
+
+    @media (max-width: 420px) {
+      .section-title {
+        font-size: 1rem;
+      }
+      .masthead-meta-row {
+        gap: 6px 12px;
+      }
+      .masthead-meta-row .meta-bullet {
+        display: none;
+      }
+      .player-info {
+        display: none !important;
+      }
+      .player-controls-row {
+        justify-content: space-between;
+        width: 100%;
+      }
+      .player-main-btns {
+        gap: 6px;
       }
     }
   </style>
@@ -1330,7 +1574,7 @@
 <body data-lang-mode="bilingual">
 
   <!-- ==========================================================================
-       Header: Single Compact Editorial Header
+       Header: Single Compact Editorial Header (Desktop 52px | Mobile 48px)
        ========================================================================== -->
   <header class="app-header">
     <div class="header-inner">
@@ -1346,7 +1590,7 @@
             <rect x="19.2" y="14.8" width="7" height="2.4" rx="1.2" fill="var(--accent-contrast)" opacity="0.92" />
             <rect x="19.2" y="20.1" width="4.8" height="2.4" rx="1.2" fill="var(--accent-contrast)" opacity="0.78" />
           </svg>
-          <span class="brand-name" id="brand-show-title">The Air Show</span>
+          <span class="brand-name" id="brand-show-title">播客双语精读</span>
         </a>
 
         <nav class="podcast-nav-tabs" id="podcast-tabs" role="tablist" aria-label="播客节目切换">
@@ -1354,7 +1598,7 @@
         </nav>
       </div>
 
-      <!-- Center: Issue Archive Drawer Trigger -->
+      <!-- Center: Issue Archive Drawer Trigger (Desktop) -->
       <div class="header-center">
         <button type="button" class="issue-archive-btn" id="issue-archive-btn" aria-haspopup="dialog" aria-expanded="false" title="打开单集目录 (Issue Archive)">
           <div class="issue-btn-content">
@@ -1373,21 +1617,46 @@
 
       <!-- Right: Bilingual Control, Search & Theme Toggle -->
       <div class="header-right">
+        <!-- Mobile 1: Issue Archive Trigger Icon Button -->
+        <button type="button" class="mobile-header-btn" id="mobile-archive-btn" aria-label="往期选集目录" title="打开单集目录">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+            <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+          </svg>
+        </button>
+
+        <!-- Desktop Segmented Control -->
         <div class="segmented-control" role="group" aria-label="双语显示模式切换">
           <button type="button" class="segment-btn active" data-mode="bilingual">双语</button>
           <button type="button" class="segment-btn" data-mode="zh">中文</button>
           <button type="button" class="segment-btn" data-mode="en">英文</button>
         </div>
 
-        <div class="search-box-wrap">
+        <!-- Mobile 2: Language Single-char Cycle Button -->
+        <button type="button" class="mobile-header-btn" id="mobile-lang-btn" aria-label="切换双语/中文/英文" title="切换语言模式">
+          双
+        </button>
+
+        <!-- Mobile 3: Search Expand Toggle Button -->
+        <button type="button" class="mobile-header-btn" id="mobile-search-btn" aria-label="展开搜索" title="搜索">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+        </button>
+
+        <!-- Search Box (Desktop inline, Mobile expanded bar) -->
+        <div class="search-box-wrap" id="search-box-wrap">
           <svg class="search-icon" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
             <circle cx="11" cy="11" r="8"></circle>
             <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
           </svg>
           <input type="search" id="search-input" class="search-input" placeholder="搜索..." aria-label="搜索关键词过滤" />
+          <kbd class="search-kbd-hint" aria-hidden="true">/</kbd>
           <button type="button" id="search-clear-btn" class="search-clear-btn" aria-label="清除搜索">✕</button>
         </div>
 
+        <!-- Theme Toggle Button -->
         <button type="button" class="theme-toggle-btn" id="theme-toggle-btn" title="切换深浅主题" aria-label="切换主题">
           <svg class="icon-sun" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display: none;">
             <circle cx="12" cy="12" r="5"></circle>
@@ -1412,7 +1681,7 @@
   <select id="episode-select" style="display: none;" aria-hidden="true"></select>
 
   <!-- ==========================================================================
-       Issue Archive Drawer (Plan A Modal / Slide-over)
+       Issue Archive Drawer (Modal / Slide-over)
        ========================================================================== -->
   <div class="archive-backdrop" id="archive-backdrop" aria-hidden="true"></div>
   <aside class="archive-drawer" id="archive-drawer" role="dialog" aria-modal="true" aria-label="往期选集目录">
@@ -1541,7 +1810,7 @@
         </div>
       </section>
 
-      <!-- Section: Highlights (Moment 2: Pull-Quote Audio Cards) -->
+      <!-- Section: Highlights (Pull-Quote Audio Cards) -->
       <section class="section-wrap" aria-labelledby="heading-highlights">
         <div class="section-header">
           <h2 class="section-title" id="heading-highlights">精选原声 · Audio Highlights</h2>
@@ -1552,7 +1821,7 @@
         </div>
       </section>
 
-      <!-- Section: Full Bilingual Transcript -->
+      <!-- Section: Full Bilingual Transcript (De-carded continuous stream) -->
       <section class="section-wrap" aria-labelledby="heading-transcript">
         <div class="section-header">
           <h2 class="section-title" id="heading-transcript">中英双语逐字稿 · Transcript</h2>
@@ -1669,7 +1938,7 @@
       const btnRetry = document.getElementById('btn-retry');
 
       // Issue Archive Drawer Elements
-      const btnOpenArchive = document.getElementById('issue-archive-btn') || document.getElementById('btn-open-archive');
+      const btnOpenArchive = document.getElementById('issue-archive-btn');
       const headerIssueTitle = document.getElementById('header-issue-title');
       const headerIssueCount = document.getElementById('header-issue-count');
       const archiveBackdrop = document.getElementById('archive-backdrop');
@@ -1678,6 +1947,11 @@
       const archiveShowTag = document.getElementById('archive-show-tag');
       const archiveShowTitle = document.getElementById('archive-show-title');
       const archiveList = document.getElementById('archive-list');
+
+      // Mobile Header Controls
+      const mobileArchiveBtn = document.getElementById('mobile-archive-btn');
+      const mobileLangBtn = document.getElementById('mobile-lang-btn');
+      const mobileSearchBtn = document.getElementById('mobile-search-btn');
 
       // Article elements
       const metaPodcastTitle = document.getElementById('meta-podcast-title');
@@ -1694,6 +1968,7 @@
       const mastheadScaleEnd = document.getElementById('masthead-scale-end');
 
       // Search elements
+      const searchBoxWrap = document.getElementById('search-box-wrap');
       const searchInput = document.getElementById('search-input');
       const searchClearBtn = document.getElementById('search-clear-btn');
       const searchStatsBanner = document.getElementById('search-stats-banner');
@@ -1770,6 +2045,7 @@
         }
       }
 
+      // Requirement 一 & 四: 8 dynamic speaker groups with modulo % 8
       function getSpeakerCssClass(speaker) {
         if (!speaker) return 'spk-dyn-0';
         const s = speaker.toLowerCase().trim();
@@ -1783,7 +2059,7 @@
           hash = ((hash << 5) - hash) + s.charCodeAt(i);
           hash |= 0;
         }
-        const idx = Math.abs(hash) % 4;
+        const idx = Math.abs(hash) % 8;
         return `spk-dyn-${idx}`;
       }
 
@@ -1869,7 +2145,7 @@
       });
 
       // ======================================================================
-      // Language Display Mode Switcher
+      // Language Display Mode Switcher (Desktop segmented + Mobile cycle button)
       // ======================================================================
 
       function initLanguageMode() {
@@ -1882,6 +2158,15 @@
             setLanguageMode(mode);
           });
         });
+
+        if (mobileLangBtn) {
+          mobileLangBtn.addEventListener('click', () => {
+            const modes = ['bilingual', 'zh', 'en'];
+            const currentIndex = modes.indexOf(currentLangMode);
+            const nextIndex = (currentIndex + 1) % modes.length;
+            setLanguageMode(modes[nextIndex]);
+          });
+        }
       }
 
       function setLanguageMode(mode) {
@@ -1896,16 +2181,57 @@
             btn.classList.remove('active');
           }
         });
+
+        if (mobileLangBtn) {
+          const charMap = { bilingual: '双', zh: '中', en: '英' };
+          const titleMap = { bilingual: '双语模式', zh: '仅中文', en: '仅英文' };
+          mobileLangBtn.textContent = charMap[mode] || '双';
+          mobileLangBtn.setAttribute('title', `当前模式：${titleMap[mode] || mode} (点击切换)`);
+        }
       }
 
       // ======================================================================
-      // Issue Archive Drawer Controls (Plan A)
+      // Mobile Search Bar Expand / Collapse
+      // ======================================================================
+
+      function toggleMobileSearch(forceState) {
+        if (!searchBoxWrap) return;
+        const willExpand = forceState !== undefined ? forceState : !searchBoxWrap.classList.contains('mobile-expanded');
+        if (willExpand) {
+          searchBoxWrap.classList.add('mobile-expanded');
+          if (mobileSearchBtn) mobileSearchBtn.classList.add('active');
+          searchInput.focus();
+        } else {
+          searchBoxWrap.classList.remove('mobile-expanded');
+          if (mobileSearchBtn) mobileSearchBtn.classList.remove('active');
+          searchInput.blur();
+        }
+      }
+
+      if (mobileSearchBtn) {
+        mobileSearchBtn.addEventListener('click', () => {
+          toggleMobileSearch();
+        });
+      }
+
+      // Close mobile search when clicking outside
+      document.addEventListener('click', (e) => {
+        if (window.innerWidth <= 640 && searchBoxWrap && searchBoxWrap.classList.contains('mobile-expanded')) {
+          if (!searchBoxWrap.contains(e.target) && mobileSearchBtn && !mobileSearchBtn.contains(e.target)) {
+            toggleMobileSearch(false);
+          }
+        }
+      });
+
+      // ======================================================================
+      // Issue Archive Drawer Controls
       // ======================================================================
 
       function openArchiveDrawer() {
         archiveBackdrop.classList.add('visible');
         archiveDrawer.classList.add('open');
         btnOpenArchive.setAttribute('aria-expanded', 'true');
+        if (mobileArchiveBtn) mobileArchiveBtn.setAttribute('aria-expanded', 'true');
         document.body.style.overflow = 'hidden';
       }
 
@@ -1913,6 +2239,7 @@
         archiveBackdrop.classList.remove('visible');
         archiveDrawer.classList.remove('open');
         btnOpenArchive.setAttribute('aria-expanded', 'false');
+        if (mobileArchiveBtn) mobileArchiveBtn.setAttribute('aria-expanded', 'false');
         document.body.style.overflow = '';
       }
 
@@ -1924,24 +2251,59 @@
         }
       });
 
+      if (mobileArchiveBtn) {
+        mobileArchiveBtn.addEventListener('click', () => {
+          if (archiveDrawer.classList.contains('open')) {
+            closeArchiveDrawer();
+          } else {
+            openArchiveDrawer();
+          }
+        });
+      }
+
       archiveCloseBtn.addEventListener('click', closeArchiveDrawer);
       archiveBackdrop.addEventListener('click', closeArchiveDrawer);
 
+      // Keyboard shortcuts: Esc, '/' and Cmd/Ctrl+K
       window.addEventListener('keydown', (e) => {
-        if (e.key === 'Escape' && archiveDrawer.classList.contains('open')) {
-          closeArchiveDrawer();
+        if (e.key === 'Escape') {
+          if (archiveDrawer.classList.contains('open')) {
+            closeArchiveDrawer();
+            return;
+          }
+          if (document.activeElement === searchInput || searchInput.value || (searchBoxWrap && searchBoxWrap.classList.contains('mobile-expanded'))) {
+            searchInput.value = '';
+            applySearchFilter('');
+            searchInput.blur();
+            if (searchBoxWrap && searchBoxWrap.classList.contains('mobile-expanded')) {
+              toggleMobileSearch(false);
+            }
+            return;
+          }
+        }
+
+        if (
+          (e.key === '/' && !['INPUT', 'TEXTAREA'].includes(document.activeElement?.tagName) && !document.activeElement?.isContentEditable) ||
+          ((e.metaKey || e.ctrlKey) && (e.key === 'k' || e.key === 'K'))
+        ) {
+          e.preventDefault();
+          if (window.innerWidth <= 640 && searchBoxWrap) {
+            toggleMobileSearch(true);
+          }
+          searchInput.focus();
+          searchInput.select();
         }
       });
 
       // ======================================================================
-      // Dynamic Show Theming (Pass 2 Color & Theming)
+      // Dynamic Show Theming (Requirement 二: De-fluoresced Warm Accents)
       // ======================================================================
 
       function lightenHexColor(hex) {
         let c = hex.replace('#', '');
         if (c.length === 3) c = c.split('').map(x => x + x).join('');
         const num = parseInt(c, 16);
-        if (isNaN(num)) return '#38bdf8';
+        if (isNaN(num)) return '#78B2DF';
         let r = (num >> 16) & 255;
         let g = (num >> 8) & 255;
         let b = num & 255;
@@ -1988,15 +2350,15 @@
 
       function applyShowTheme(show) {
         const id = show ? show.id : 'airshow';
-        let lightAccent = '#0a2540';
-        let darkAccent = '#38bdf8';
+        let lightAccent = '#0A2540';
+        let darkAccent = '#78B2DF';
 
         if (id === 'sinica' || (show && show.accent_color && show.accent_color.toLowerCase().includes('9b2226'))) {
-          lightAccent = '#9b2226';
-          darkAccent = '#f87171';
+          lightAccent = '#9B2226';
+          darkAccent = '#DF7A74';
         } else if (id === 'airshow') {
-          lightAccent = '#0a2540';
-          darkAccent = '#38bdf8';
+          lightAccent = '#0A2540';
+          darkAccent = '#78B2DF';
         } else if (show && show.accent_color) {
           lightAccent = show.accent_color;
           darkAccent = lightenHexColor(show.accent_color);
@@ -2055,6 +2417,9 @@
           const isActive = tab.dataset.showId === showId;
           tab.classList.toggle('active', isActive);
           tab.setAttribute('aria-selected', isActive ? 'true' : 'false');
+          if (isActive) {
+            tab.scrollIntoView({ block: 'nearest', inline: 'nearest' });
+          }
         });
       }
 
@@ -2091,7 +2456,7 @@
         if (!currentShowsManifest || !currentShowsManifest.shows) return;
         const show = currentShowsManifest.shows.find(s => s.id === showId);
         if (!show) {
-          console.warn(`[UI] Show ${showId} not found in manifest`);
+          console.warn(`[AIRSHOW][UI] Show ${showId} not found in manifest`);
           return;
         }
 
@@ -2122,7 +2487,7 @@
         searchStatsBanner.classList.remove('visible');
 
         // Brand & title sync
-        brandShowTitle.textContent = show.title;
+        brandShowTitle.textContent = (currentShowsManifest && currentShowsManifest.site_title) || '播客双语精读';
         document.title = `${show.title} · ${currentShowsManifest.site_title || '播客双语精读'}`;
 
         // Cache hit branch
@@ -2154,7 +2519,7 @@
 
           handleShowIndexLoaded(show, indexData, targetGuid, thisSeq);
         } catch (err) {
-          console.error(`[UI] Failed to load index for show ${showId}:`, err);
+          console.error(`[AIRSHOW][UI] Failed to load index for show ${showId}:`, err);
           if (thisSeq !== currentRequestSeq || currentLoadingShowId !== showId) return;
 
           loadingState.style.display = 'none';
@@ -2183,6 +2548,7 @@
           headerIssueTitle.textContent = '暂无单集';
           headerIssueCount.textContent = '0期';
           btnOpenArchive.disabled = true;
+          if (mobileArchiveBtn) mobileArchiveBtn.disabled = true;
           searchInput.disabled = true;
 
           if (window.location.hash !== '#' + show.id) {
@@ -2195,6 +2561,7 @@
         emptyState.style.display = 'none';
         loadingState.style.display = 'none';
         btnOpenArchive.disabled = false;
+        if (mobileArchiveBtn) mobileArchiveBtn.disabled = false;
         searchInput.disabled = false;
 
         renderEpisodeArchive(show, episodes);
@@ -2218,6 +2585,9 @@
         headerIssueCount.textContent = `${episodes.length}期`;
         archiveShowTitle.textContent = `${show.title} · 往期选集`;
         archiveShowTag.textContent = `ISSUE ARCHIVE · ${show.id.toUpperCase()}`;
+        if (mobileArchiveBtn) {
+          mobileArchiveBtn.setAttribute('aria-label', `往期选集目录 (${episodes.length}期)`);
+        }
 
         // Keep fallback select synced
         episodeSelect.innerHTML = '';
@@ -2278,7 +2648,7 @@
         currentRequestSeq++;
         const thisSeq = currentRequestSeq;
 
-        console.log(`[UI] Selected episode: "${epMeta.title}" (${epMeta.guid}) in ${show.id}`);
+        console.log(`[AIRSHOW][UI] Selected episode: "${epMeta.title}" (${epMeta.guid}) in ${show.id}`);
 
         episodeSelect.value = epMeta.guid;
 
@@ -2378,7 +2748,7 @@
           const q = searchInput.value.trim();
           applySearchFilter(q);
         } catch (err) {
-          console.error(`[UI] Failed to load detail for ${cacheKey}:`, err);
+          console.error(`[AIRSHOW][UI] Failed to load detail for ${cacheKey}:`, err);
           if (currentLoadingGuid !== epMeta.guid || seq !== currentRequestSeq || currentLoadingShowId !== show.id) return;
 
           highlightsCountBadge.textContent = '加载失败';
@@ -2853,7 +3223,7 @@
       // ======================================================================
 
       async function initApp() {
-        console.log('[UI] Initializing application...');
+        console.log('[AIRSHOW][UI] Initializing application...');
         loadingState.style.display = 'flex';
         errorState.style.display = 'none';
         emptyState.style.display = 'none';
@@ -2877,7 +3247,7 @@
           const { showId, guid } = parseHash(showsData.shows);
           await switchShow(showId, guid);
         } catch (err) {
-          console.error('[UI] App initialization failed:', err);
+          console.error('[AIRSHOW][UI] App initialization failed:', err);
           loadingState.style.display = 'none';
           errorState.style.display = 'flex';
           errorMessage.textContent = `初始化失败：${err.message}。请确认已在 docs 目录下运行静态服务器。`;
