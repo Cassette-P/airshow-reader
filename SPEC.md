@@ -1,6 +1,6 @@
 # airshow-reader 技术规范与数据契约（SPEC.md · v3.2）
 
-> 数据契约严格保持 **v3.0 稳定版**（向后完全兼容）；前端视觉体系与交互规范已演进至 **v3.2**。
+> 数据契约严格保持 **v3.0 稳定版** 基线与 **v3.1 知识卡片向后兼容扩展**；前端视觉体系与交互规范已演进至 **v3.2**。
 
 ## 1. 项目定位与目录结构
 
@@ -69,6 +69,22 @@
 [退出码判定] 若本轮所有待处理单集全部失败，进程以非零退出码 1 退出；否则退出 0。
 ```
 
+### 增量补跑状态机（`scripts/process.py --enrich`）
+
+针对存量单集补跑知识卡片（`vocab_notes` 与 `references`）的轻量幂等通道：
+
+```text
+[ENRICH 增量补跑模式]
+   │
+   ├─► 扫描 docs/data/<show_id>/index.json 与 episodes/*.json（按 pub_date 降序）
+   ├─► 筛选缺失 vocab_notes 或 references 键的单集（两者键均已存在即跳过，受 --limit 截断限制）
+   ├─► 对有待补跑单集的节目，内存单次拉取 RSS 建立 {guid: show_notes} 字典（失败打 WARN 降级）
+   ├─► 拼装带 [MM:SS] 时间戳逐字稿、Show Notes 与术语表，调用轻量模型池（默认 gemini-3.8-flash / low thinking）
+   ├─► 流式生成 EnrichmentResponse (vocab_notes + references) 并做 start_sec 范围钳制
+   ├─► 追加合并写入原分集 JSON（.tmp → os.replace），原既有所有字段一字不改；index.json 保持轻量不扩充
+   └─► 若开启 --dry-run：打印候选清单、是否命中 Show Notes、预估字符数与模型池，不调 API 不落盘
+```
+
 ---
 
 ## 3. CLI 参数、环境变量与可观测性规范
@@ -82,10 +98,15 @@
 - `--dry-run`（flag，默认关闭）：演习模式。执行 `[1]→[4]` 后打印切片与 Show Notes 提取摘要，**不调用 Gemini API、不修改正式 JSON**，清理临时文件后退出。
 - `--max-chunks M`（int，默认 `0` 表示全部）：仅处理前 M 个切片；当 `M > 0` 时进入冒烟预览模式，结果仅写入 `docs/data/<show_id>/_smoke_preview.json`，绝不修改正式库。
 - `--migrate-only`（flag，默认关闭）：仅执行 v2→v3 本地数据拆分与清单初始化迁移，不访问网络、不调用 Gemini API，完成后退出 `0`。
+- `--enrich`（flag，默认关闭）：增量补跑模式。仅针对存量单集中缺失 `vocab_notes` 或 `references` 的单集，利用轻量模型池补跑知识卡片；原既有摘要、Highlights 与逐字稿字节级保持不变；可配合 `--show`、`--limit`（`0` 表示不截断全量扫描）与 `--dry-run` 使用。
 
 ### 环境变量与模型路由策略（Paid Tier 优先）
 
 - `GEMINI_API_KEY`：必填（在 `main()` 开头校验，仅非 `--dry-run` 且非 `--migrate-only` 时校验）。
+- **知识卡片增量补跑通道（Enrichment Channel）**：
+  - 默认候选模型池：`["gemini-3.8-flash", "gemini-4-hydrogen", "gemini-3.5-flash-lite"]`
+  - 环境变量覆盖：`GEMINI_MODEL_ENRICH`，非空时置顶并去重。
+  - 思考等级：`GEMINI_THINKING_ENRICH`（默认 `"low"`），若模型不支持自动降级剥离重试。
 - **通道 B（逐片转写与双语翻译）**：
   - 默认候选模型池：`["gemini-3.8-flash", "gemini-4-hydrogen", "gemini-3.5-flash-lite"]`
   - 环境变量覆盖：`GEMINI_MODEL_CH_B`（兼容 `GEMINI_MODEL`），非空时置顶并去重。
@@ -205,6 +226,23 @@
       "quote_en": "Short original English quote from this segment."
     }
   ],
+  "vocab_notes": [
+    {
+      "term": "fifth-freedom flight",
+      "meaning_zh": "第五航权航班（航空公司在第三国经停并上下客货的航线经营权）",
+      "note_zh": "民航界核心黑话，通常用于跨洲长途经停中转竞争，具有极高政策准入门槛",
+      "start_sec": 412
+    }
+  ],
+  "references": [
+    {
+      "title": "Flying Blind: The 737 MAX Tragedy and the Fall of Boeing",
+      "creator": "Peter Robison",
+      "category": "book",
+      "note_zh": "嘉宾引用此书论述波音安全管理与质量文化转型中的长期系统性教训",
+      "start_sec": 845
+    }
+  ],
   "transcript": [
     {
       "id": 1,
@@ -219,11 +257,14 @@
 
 ### 字段校验硬约束
 
-- `schema_version`：固定 `"3.0"`。
+- `schema_version`：固定 `"3.0"`（向后完全兼容）。
 - `show_id`：必须与对应节目在 `podcasts.json` 中的 `id` 一致。
 - `pub_date` / `updated_at`：ISO-8601 UTC（`YYYY-MM-DDTHH:MM:SSZ`）；`index.json` 的 `episodes` 按 `pub_date` **降序**排列。
-- `duration_sec` / `start_sec`：非负整数；所有 `start_sec` 不得超过 `duration_sec` 且保持**单调非递减**。
+- `duration_sec` / `start_sec`：非负整数；所有 `start_sec` 不得超过 `duration_sec` 且保持**单调非递减**（`transcript` 与 `highlights` 严格递增/非递减；`vocab_notes` 与 `references` 的 `start_sec` 落在有效时长区间内或 `references` 为 `null`）。
 - `highlights`：4–10 条（适配 60–95 分钟长篇深度单集）；`transcript`：按 2–4 句自然语义块分段，`id` 从 `1` 连续递增。
+- `vocab_notes`（可选扩展字段，向后兼容 v3.0）：6–10 条高价值英文词汇、习语或行业黑话。包含 `term`、`meaning_zh`、`note_zh` 与 `start_sec`（`0 <= start_sec <= duration_sec`）。
+- `references`（可选扩展字段，向后兼容 v3.0）：0–10 条书目、深度文章、研报、影视/播客或工具。包含 `title`、`creator`（未知填 `""`）、`category`（`"book" | "article" | "media" | "other"`）、`note_zh` 与 `start_sec`（`0 <= start_sec <= duration_sec`，或 `null`）。
+- `index.json`：保持轻量，**严禁**将 `vocab_notes` 与 `references` 写入 `index.json`。
 - `index.json` 中的 `highlights_count`、`transcript_count`、`summary_zh`、`key_takeaways_zh` 必须与对应单集 JSON 文件完全一致。
 
 ---

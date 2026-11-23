@@ -19,7 +19,7 @@ import subprocess
 import sys
 import tempfile
 import time
-from typing import Callable
+from typing import Callable, Literal, Optional
 
 import feedparser
 from google import genai
@@ -48,6 +48,7 @@ LEGACY_DOCS_EPISODES_FILE = DOCS_DATA_DIR / "episodes.json"
 MODEL_USAGE_STATS: dict[str, dict[str, int]] = {
     "CH-B": {},
     "CH-A": {},
+    "ENRICH": {},
 }
 
 DEFAULT_HEADERS = {
@@ -75,6 +76,19 @@ def get_env_stripped(key: str, default: str = "") -> str:
         if val:
             return val
     return default
+
+
+def format_sec_to_mmss(sec: int) -> str:
+    """Format seconds into MM:SS (or HH:MM:SS if >= 3600)."""
+    if sec < 0:
+        sec = 0
+    hrs = sec // 3600
+    rem = sec % 3600
+    mins = rem // 60
+    secs = rem % 60
+    if hrs > 0:
+        return f"{hrs:02d}:{mins:02d}:{secs:02d}"
+    return f"{mins:02d}:{secs:02d}"
 
 
 # --- Pydantic Structured Output Schemas ---
@@ -116,6 +130,52 @@ class HighlightItem(BaseModel):
     )
 
 
+class VocabNote(BaseModel):
+    term: str = Field(
+        description="Original English word, phrase, idiom, or industry jargon"
+    )
+    meaning_zh: str = Field(
+        description="Concise and accurate Chinese contextual definition"
+    )
+    note_zh: str = Field(
+        description="One-sentence note on idiomatic usage, policy/industry background, or difference from literal meaning"
+    )
+    start_sec: int = Field(
+        description="Integer seconds from episode start where this term first or most typically appears in the transcript (must fall within [0, duration_sec])"
+    )
+
+
+class ReferenceItem(BaseModel):
+    title: str = Field(
+        description="Title of book, article, research report, media/podcast, or tool (retain accurate English name; well-known Chinese title may be appended in parentheses; never invent translations)"
+    )
+    creator: str = Field(
+        default="",
+        description="Author, institution, director, or publisher (empty string '' if unknown)"
+    )
+    category: Literal["book", "article", "media", "other"] = Field(
+        description="Category: 'book', 'article', 'media', or 'other'"
+    )
+    note_zh: str = Field(
+        description="One-sentence explanation of why it was mentioned or recommended by hosts/guests"
+    )
+    start_sec: Optional[int] = Field(
+        default=None,
+        description="Approximate integer seconds where mentioned in transcript (within [0, duration_sec]), or null if from show notes only"
+    )
+
+
+class EnrichmentResponse(BaseModel):
+    vocab_notes: list[VocabNote] = Field(
+        default_factory=list,
+        description="6-10 selected high-value English vocabulary terms, idioms, or industry jargon with Chinese meaning, contextual usage note, and timestamp"
+    )
+    references: list[ReferenceItem] = Field(
+        default_factory=list,
+        description="0-10 external works, books, articles, media, or tools mentioned in the episode or show notes. Empty list if none explicitly referenced."
+    )
+
+
 class ChannelAOutput(BaseModel):
     summary_zh: str = Field(
         description="200-350 character Chinese core summary covering main issues, perspectives, and conclusions"
@@ -125,6 +185,14 @@ class ChannelAOutput(BaseModel):
     )
     highlights: list[HighlightItem] = Field(
         description="4-10 highlights chronologically ordered"
+    )
+    vocab_notes: list[VocabNote] = Field(
+        default_factory=list,
+        description="6-10 selected high-value English vocabulary terms, idioms, or industry jargon with Chinese meaning, contextual usage note, and timestamp"
+    )
+    references: list[ReferenceItem] = Field(
+        default_factory=list,
+        description="0-10 external works, books, articles, media, or tools mentioned in the episode or show notes. Empty list if none explicitly referenced."
     )
 
 
@@ -1215,12 +1283,13 @@ def run_channel_a(
 
     log("CH-A", f"Starting Channel A summarization for episode '{title}' (duration: {duration_sec}s)...", show_id=show_id)
 
-    lines = [f"[{item['start_sec']}] {item['speaker']}: {item['en']}" for item in transcript]
+    lines = [f"[{format_sec_to_mmss(item['start_sec'])}] ({item['start_sec']}s) {item['speaker']}: {item['en']}" for item in transcript]
     transcript_text = "\n".join(lines)
 
     system_instruction = (
         f"You are an executive podcast intelligence analyst and editor for '{show_title}' ({show_subtitle}).\n"
-        "Analyze the provided timestamped podcast transcript and produce a structured Chinese executive summary.\n\n"
+        "Analyze the provided timestamped podcast transcript and produce a structured Chinese executive summary, "
+        "along with selected vocabulary notes and referenced works.\n\n"
         "Requirements:\n"
         "1. summary_zh: A comprehensive core summary in Chinese (200-350 Chinese characters) covering main issues, perspectives, disagreements, and conclusions.\n"
         "2. key_takeaways_zh: Exactly 3 to 5 key takeaways in Chinese, each being a clear, sharp one-sentence conclusion.\n"
@@ -1228,7 +1297,18 @@ def run_channel_a(
         "   - start_sec: integer seconds where this key topic begins (must correspond to actual transcript timestamps and be within [0, duration_sec]).\n"
         "   - title_zh: concise Chinese topic title (strictly 15 Chinese characters or fewer).\n"
         "   - summary_zh: 2-3 sentence Chinese explanation of key arguments or data points.\n"
-        "   - quote_en: short direct English quote from the speaker in that segment.\n\n"
+        "   - quote_en: short direct English quote from the speaker in that segment.\n"
+        "4. vocab_notes: Select 6 to 10 high-value English vocabulary terms, idioms, colloquial expressions, or industry jargon that appear in this episode. For each item:\n"
+        "   - term: original English word, phrase, idiom, or industry jargon.\n"
+        "   - meaning_zh: concise and accurate Chinese contextual definition.\n"
+        "   - note_zh: one-sentence note on idiomatic usage, industry/policy background, or nuance differences.\n"
+        "   - start_sec: integer seconds where it is first or most typically uttered in the transcript (within [0, duration_sec]).\n"
+        "5. references: 0 to 10 books, articles, research reports, podcasts/media, or tools explicitly mentioned or recommended in the episode or show notes (quality over quantity; return empty list [] if none explicitly referenced). For each item:\n"
+        "   - title: title of the work, retaining accurate English original name (well-established Chinese translation may be added in parentheses; do not invent translations).\n"
+        "   - creator: author, institution, director, or publisher (empty string \"\" if unknown).\n"
+        "   - category: one of 'book', 'article', 'media', 'other'.\n"
+        "   - note_zh: one-sentence explanation of why it was mentioned or recommended.\n"
+        "   - start_sec: approximate integer seconds where it is mentioned in the transcript (within [0, duration_sec]), or null if only found in show notes and not located in audio.\n\n"
         "Terminology and Glossary Reference:\n"
         f"{glossary_text}"
     )
@@ -1244,7 +1324,7 @@ def run_channel_a(
         f"Total Duration (seconds): {duration_sec}\n\n"
         f"Timestamped Transcript:\n"
         f"{transcript_text}\n\n"
-        "Please provide the structured summary_zh, key_takeaways_zh, and highlights according to the schema."
+        "Please provide the structured summary_zh, key_takeaways_zh, highlights, vocab_notes, and references according to the schema."
     )
 
     parsed_resp: ChannelAOutput = generate_structured_with_retry(
@@ -1277,16 +1357,50 @@ def run_channel_a(
     if len(key_takeaways) > 5:
         key_takeaways = key_takeaways[:5]
 
+    vocab_notes = []
+    for v in parsed_resp.vocab_notes:
+        clamped_sec = max(0, min(int(v.start_sec), duration_sec))
+        vocab_notes.append({
+            "term": v.term.strip(),
+            "meaning_zh": v.meaning_zh.strip(),
+            "note_zh": v.note_zh.strip(),
+            "start_sec": clamped_sec,
+        })
+    if len(vocab_notes) > 10:
+        vocab_notes = vocab_notes[:10]
+
+    references = []
+    for r in parsed_resp.references:
+        st_sec = None
+        if r.start_sec is not None:
+            try:
+                st_sec = max(0, min(int(r.start_sec), duration_sec))
+            except (ValueError, TypeError):
+                st_sec = None
+        category = r.category if r.category in ("book", "article", "media", "other") else "other"
+        references.append({
+            "title": r.title.strip(),
+            "creator": r.creator.strip() if r.creator else "",
+            "category": category,
+            "note_zh": r.note_zh.strip(),
+            "start_sec": st_sec,
+        })
+    if len(references) > 10:
+        references = references[:10]
+
     result = {
         "summary_zh": parsed_resp.summary_zh.strip(),
         "key_takeaways_zh": key_takeaways,
         "highlights": highlights,
+        "vocab_notes": vocab_notes,
+        "references": references,
     }
 
     log(
         "CH-A",
         f"Channel A completed. Summary length: {len(result['summary_zh'])} chars, "
-        f"Key takeaways: {len(result['key_takeaways_zh'])}, Highlights: {len(result['highlights'])}.",
+        f"Key takeaways: {len(result['key_takeaways_zh'])}, Highlights: {len(result['highlights'])}, "
+        f"Vocab notes: {len(result['vocab_notes'])}, References: {len(result['references'])}.",
         show_id=show_id,
     )
     return result
@@ -1316,6 +1430,8 @@ def atomic_save_episode(show: dict, episode_record: dict) -> None:
         "summary_zh": episode_record.get("summary_zh", ""),
         "key_takeaways_zh": episode_record.get("key_takeaways_zh", []),
         "highlights": episode_record.get("highlights", []),
+        "vocab_notes": episode_record.get("vocab_notes", []),
+        "references": episode_record.get("references", []),
         "transcript": episode_record.get("transcript", []),
     }
 
@@ -1478,6 +1594,8 @@ def process_episode(entry, args, show: dict, glossary_text: str) -> None:
             "summary_zh": summary_info.get("summary_zh", ""),
             "key_takeaways_zh": summary_info.get("key_takeaways_zh", []),
             "highlights": summary_info.get("highlights", []),
+            "vocab_notes": summary_info.get("vocab_notes", []),
+            "references": summary_info.get("references", []),
             "transcript": transcript,
         }
 
@@ -1503,6 +1621,265 @@ def process_episode(entry, args, show: dict, glossary_text: str) -> None:
             log("CLEANUP", "Temporary directory cleaned up successfully.", show_id=show_id)
 
 
+def fetch_rss_show_notes_map(url: str, show_id: str = "") -> dict[str, str]:
+    """Fetch RSS feed and build memory mapping of {guid: show_notes}.
+
+    If fetch or parse fails, logs a WARN and returns an empty dict without crashing.
+    """
+    notes_map = {}
+    if not url:
+        return notes_map
+    log("ENRICH", f"Fetching RSS feed to extract show notes map from {url}...", show_id=show_id)
+    try:
+        resp = requests.get(url, headers=DEFAULT_HEADERS, timeout=30)
+        resp.raise_for_status()
+        feed = feedparser.parse(resp.content)
+        for entry in feed.entries:
+            guid = get_entry_guid(entry)
+            if guid:
+                notes = get_entry_show_notes(entry, max_chars=3000)
+                if notes:
+                    notes_map[guid] = notes
+        log("ENRICH", f"RSS cached show notes for {len(notes_map)} episode(s).", show_id=show_id)
+    except Exception as e:
+        log("WARN", f"Failed to fetch RSS show notes from {url}: {e}. Proceeding with empty show notes.", show_id=show_id)
+    return notes_map
+
+
+def run_enrichment_pipeline(args, config: dict) -> None:
+    """[ENRICH] Incremental backfill mode for vocab_notes and references using lightweight model pool."""
+    all_shows = config.get("shows", [])
+    valid_show_ids = {s["id"] for s in all_shows}
+
+    if args.show != "all" and args.show not in valid_show_ids:
+        log("ERROR", f"Unknown show_id: '{args.show}'. Valid configured shows: {sorted(list(valid_show_ids))}")
+        sys.exit(1)
+
+    if not args.dry_run:
+        api_key = get_env_stripped("GEMINI_API_KEY")
+        if not api_key:
+            log("ERROR", "GEMINI_API_KEY environment variable is required when not in --dry-run mode.")
+            sys.exit(1)
+        client = genai.Client(api_key=api_key)
+    else:
+        client = None
+
+    if args.show == "all":
+        target_shows = [s for s in all_shows if s.get("enabled", True)]
+    else:
+        target_shows = [s for s in all_shows if s["id"] == args.show]
+
+    if not target_shows:
+        log("FILTER", "No enabled shows found to process. Exiting cleanly.")
+        sys.exit(0)
+
+    # Resolve enrichment model pool and thinking level
+    default_enrich_pool = ["gemini-3.8-flash", "gemini-4-hydrogen", "gemini-3.5-flash-lite"]
+    env_enrich = get_env_stripped("GEMINI_MODEL_ENRICH")
+    if env_enrich:
+        enrich_model_pool = [env_enrich] + [m for m in default_enrich_pool if m != env_enrich]
+    else:
+        enrich_model_pool = list(default_enrich_pool)
+
+    enrich_thinking_level = get_env_stripped("GEMINI_THINKING_ENRICH", "low")
+
+    log("ENRICH", f"Enrichment model pool: {enrich_model_pool}")
+    log("ENRICH", f"Enrichment thinking level: '{enrich_thinking_level}'")
+    if args.dry_run:
+        log("ENRICH", "[DRY-RUN] Dry run enabled. No Gemini API calls will be made and no files will be written.")
+
+    total_attempted = 0
+    total_failed = 0
+    total_skipped = 0
+
+    for show in target_shows:
+        show_id = show["id"]
+        show_dir = DOCS_DATA_DIR / show_id
+        index_file = show_dir / "index.json"
+
+        if not index_file.exists():
+            log("ENRICH", f"No index.json found at {index_file}. Skipping show.", show_id=show_id)
+            continue
+
+        try:
+            with open(index_file, "r", encoding="utf-8") as f:
+                index_data = json.load(f)
+        except Exception as e:
+            log("ERROR", f"Failed to read index.json for '{show_id}': {e}", show_id=show_id)
+            continue
+
+        raw_episodes = index_data.get("episodes", [])
+        sorted_episodes = sorted(raw_episodes, key=lambda x: x.get("pub_date", ""), reverse=True)
+
+        candidates = []
+        for ep_meta in sorted_episodes:
+            guid = ep_meta.get("guid")
+            if not guid:
+                continue
+            safe_guid = make_safe_guid(guid)
+            ep_file_rel = ep_meta.get("file", f"episodes/{safe_guid}.json")
+            ep_file = show_dir / ep_file_rel
+            if not ep_file.exists():
+                log("WARN", f"Episode file {ep_file} referenced in index does not exist. Skipping.", show_id=show_id)
+                continue
+
+            try:
+                with open(ep_file, "r", encoding="utf-8") as f:
+                    ep_data = json.load(f)
+            except Exception as e:
+                log("ERROR", f"Failed to read {ep_file}: {e}", show_id=show_id)
+                continue
+
+            # Idempotency check: both keys must exist to skip
+            if "vocab_notes" in ep_data and "references" in ep_data:
+                total_skipped += 1
+                continue
+
+            candidates.append((ep_meta, ep_file, ep_data))
+
+        log("ENRICH", f"Found {len(candidates)} episode(s) needing enrichment (already enriched/skipped: {total_skipped}).", show_id=show_id)
+
+        if not candidates:
+            log("ENRICH", f"No episodes to enrich for show '{show_id}'.", show_id=show_id)
+            continue
+
+        if args.limit > 0:
+            candidates = candidates[:args.limit]
+            log("ENRICH", f"Selected {len(candidates)} episode(s) to enrich per --limit {args.limit}.", show_id=show_id)
+
+        # Fetch show notes from RSS once for this show
+        show_notes_map = fetch_rss_show_notes_map(show.get("rss_url", ""), show_id=show_id)
+        glossary_text = load_glossary_for_show(show)
+
+        for ep_meta, ep_file, ep_data in candidates:
+            total_attempted += 1
+            guid = ep_data.get("guid", ep_meta.get("guid", ""))
+            title = ep_data.get("title", ep_meta.get("title", "Untitled Episode"))
+            duration_sec = int(ep_data.get("duration_sec", ep_meta.get("duration_sec", 0)))
+            show_notes = show_notes_map.get(guid, "")
+            hit_show_notes = bool(show_notes)
+
+            transcript = ep_data.get("transcript", [])
+            transcript_lines = [
+                f"[{format_sec_to_mmss(item.get('start_sec', 0))}] {item.get('speaker', 'Unknown')}: {item.get('en', '')}"
+                for item in transcript
+            ]
+            transcript_text = "\n".join(transcript_lines)
+
+            est_chars = len(title) + len(show_notes) + len(glossary_text) + len(transcript_text)
+
+            log("ENRICH", f"--- Candidate: '{title}' ({guid}) ---", show_id=show_id)
+            log("ENRICH", f"  File: {ep_file.name}", show_id=show_id)
+            log("ENRICH", f"  Hit RSS Show Notes: {hit_show_notes} ({len(show_notes)} chars)", show_id=show_id)
+            log("ENRICH", f"  Transcript items: {len(transcript)} (formatted text: {len(transcript_text)} chars)", show_id=show_id)
+            log("ENRICH", f"  Estimated prompt text: ~{est_chars} chars", show_id=show_id)
+            log("ENRICH", f"  Target model pool: {enrich_model_pool}", show_id=show_id)
+            log("ENRICH", f"  Effective thinking level: '{enrich_thinking_level}'", show_id=show_id)
+
+            if args.dry_run:
+                log("ENRICH", f"[DRY-RUN] Would call Gemini API and enrich {ep_file.name}. Skipped.", show_id=show_id)
+                continue
+
+            # Non-dry-run: execute API call
+            try:
+                system_instruction = (
+                    f"You are an expert podcast knowledge curator and terminologist for '{show.get('title', '')}' ({show.get('subtitle', '')}).\n"
+                    "Analyze the provided timestamped podcast transcript, episode show notes, and terminology glossary to extract high-value vocabulary notes and referenced works/media.\n\n"
+                    "Requirements:\n"
+                    "1. vocab_notes: Select 6 to 10 high-value English vocabulary terms, idioms, colloquial expressions, or industry jargon that appear in this episode. For each item:\n"
+                    "   - term: original English word, phrase, idiom, or industry jargon.\n"
+                    "   - meaning_zh: concise and accurate Chinese contextual definition.\n"
+                    "   - note_zh: one-sentence note on idiomatic usage, industry/policy background, or nuance differences.\n"
+                    "   - start_sec: integer seconds where it is first or most typically uttered in the transcript (must fall within [0, duration_sec]). Timestamps in transcript are formatted as [MM:SS] or [HH:MM:SS]; convert to total seconds (e.g. [01:30] -> 90).\n"
+                    "2. references: 0 to 10 books, articles, research reports, podcasts/media, or tools explicitly mentioned or recommended in the episode or show notes (quality over quantity; return empty list [] if none explicitly referenced). For each item:\n"
+                    "   - title: title of the work, retaining accurate English original name (well-established Chinese translation may be added in parentheses; do not invent translations).\n"
+                    "   - creator: author, institution, director, or publisher (empty string \"\" if unknown).\n"
+                    "   - category: one of 'book', 'article', 'media', 'other'.\n"
+                    "   - note_zh: one-sentence explanation of why it was mentioned or recommended.\n"
+                    "   - start_sec: approximate integer seconds where it is mentioned in the transcript (within [0, duration_sec]), or null if only found in show notes and not located in audio.\n\n"
+                    "Terminology and Glossary Reference:\n"
+                    f"{glossary_text}"
+                )
+                if show_notes:
+                    system_instruction += (
+                        f"\n\nEpisode Show Notes (for guest names, topics, and context reference):\n"
+                        f"{show_notes}"
+                    )
+
+                user_prompt = (
+                    f"Podcast Episode Title: {title}\n"
+                    f"Podcast Show: {show.get('title', '')}\n"
+                    f"Total Duration (seconds): {duration_sec}\n\n"
+                    f"Timestamped Transcript:\n"
+                    f"{transcript_text}\n\n"
+                    "Please provide the structured vocab_notes and references according to the schema."
+                )
+
+                parsed_resp: EnrichmentResponse = generate_structured_with_retry(
+                    client=client,
+                    model_pool=enrich_model_pool,
+                    contents=[user_prompt],
+                    system_instruction=system_instruction,
+                    response_schema=EnrichmentResponse,
+                    stage="ENRICH",
+                    temperature=0.2,
+                    thinking_level=enrich_thinking_level,
+                    show_id=show_id,
+                )
+
+                vocab_notes = []
+                for v in parsed_resp.vocab_notes:
+                    clamped_sec = max(0, min(int(v.start_sec), duration_sec))
+                    vocab_notes.append({
+                        "term": v.term.strip(),
+                        "meaning_zh": v.meaning_zh.strip(),
+                        "note_zh": v.note_zh.strip(),
+                        "start_sec": clamped_sec,
+                    })
+                if len(vocab_notes) > 10:
+                    vocab_notes = vocab_notes[:10]
+
+                references = []
+                for r in parsed_resp.references:
+                    st_sec = None
+                    if r.start_sec is not None:
+                        try:
+                            st_sec = max(0, min(int(r.start_sec), duration_sec))
+                        except (ValueError, TypeError):
+                            st_sec = None
+                    category = r.category if r.category in ("book", "article", "media", "other") else "other"
+                    references.append({
+                        "title": r.title.strip(),
+                        "creator": r.creator.strip() if r.creator else "",
+                        "category": category,
+                        "note_zh": r.note_zh.strip(),
+                        "start_sec": st_sec,
+                    })
+                if len(references) > 10:
+                    references = references[:10]
+
+                # Merge ONLY vocab_notes and references into ep_data, leaving all existing fields untouched
+                ep_data["vocab_notes"] = vocab_notes
+                ep_data["references"] = references
+
+                tmp_ep = ep_file.with_suffix(".json.tmp")
+                with open(tmp_ep, "w", encoding="utf-8") as f:
+                    json.dump(ep_data, f, ensure_ascii=False, indent=2)
+                os.replace(tmp_ep, ep_file)
+
+                log("ENRICH", f"Successfully enriched {ep_file.name} (vocab_notes: {len(vocab_notes)}, references: {len(references)}).", show_id=show_id)
+
+            except Exception as e:
+                total_failed += 1
+                log("ERROR", f"Failed to enrich episode '{title}' ({guid}): {e}", show_id=show_id)
+
+    if total_attempted > 0 and total_failed == total_attempted and not args.dry_run:
+        log("ERROR", f"All {total_attempted} attempted enrichment(s) failed in this run.")
+        sys.exit(1)
+
+    log("ENRICH", f"Enrichment process finished. Attempted: {total_attempted}, Failed: {total_failed}, Skipped: {total_skipped}.")
+
+
 def main():
     parser = argparse.ArgumentParser(description="Podcast bilingual reading processor (v3.0).")
     parser.add_argument("--show", type=str, default="all", help="Target show ID to process, or 'all' (default: all)")
@@ -1512,6 +1889,7 @@ def main():
     parser.add_argument("--dry-run", action="store_true", default=False, help="演习模式，不调用 Gemini API、不修改 JSON")
     parser.add_argument("--max-chunks", type=int, default=0, help="仅处理前 M 个切片（0 表示全部，default: 0）")
     parser.add_argument("--migrate-only", action="store_true", default=False, help="仅执行 v2→v3 本地数据迁移，不访问网络、不调用 Gemini API，完成后退出 0")
+    parser.add_argument("--enrich", action="store_true", default=False, help="增量补跑模式：仅对存量单集补跑知识卡片（vocab_notes 与 references），低成本轻量模型")
     args = parser.parse_args()
 
     # Load registry
@@ -1532,6 +1910,11 @@ def main():
             log("MIGRATE", "Migration completed successfully. Exiting 0 as requested by --migrate-only.")
         else:
             log("MIGRATE", "Data already in v3 format or nothing to migrate. Exiting 0.")
+        sys.exit(0)
+
+    # [ENRICH INCREMENTAL BACKFILL]
+    if args.enrich:
+        run_enrichment_pipeline(args, config)
         sys.exit(0)
 
     # Automatic migration if needed before processing (skip in dry-run if manifest exists to keep formal JSONs untouched)
