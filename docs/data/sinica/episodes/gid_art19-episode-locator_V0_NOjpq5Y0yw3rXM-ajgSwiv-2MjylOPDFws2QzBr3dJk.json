@@ -2500,5 +2500,99 @@
       "en": "Don't forget to leave a review on Apple Podcasts. Huge thanks to my guest, Joe Studwell. Thanks for listening, and we'll see you next week. Take care.",
       "zh": "别忘了在 Apple Podcasts 上留下好评。非常感谢本期嘉宾 Joe Studwell。感谢您的收听，我们下周再见。保重。"
     }
+  ],
+  "vocab_notes": [
+    {
+      "term": "extension agents",
+      "meaning_zh": "农业推广员 / 农技推广员",
+      "note_zh": "指由政府派遣至农村基层，向小农推广良种、化肥施用技术和现代农耕技巧的专业技术指导员。",
+      "start_sec": 231
+    },
+    {
+      "term": "sui generis",
+      "meaning_zh": "自成一格的 / 独一无二的",
+      "note_zh": "拉丁文法律与学术借词，用于探讨中国发展模式是完全无法复制的特例，还是东亚发展模式规模化后的产物。",
+      "start_sec": 401
+    },
+    {
+      "term": "agglomeration economies",
+      "meaning_zh": "集聚经济 / 空间集聚效益",
+      "note_zh": "城市经济学核心概念，指企业与人口在空间上高度集中时带来的规模效应、更精细的劳动分工及基础设施人均成本的大幅摊薄。",
+      "start_sec": 1091
+    },
+    {
+      "term": "developmental state",
+      "meaning_zh": "发展型国家",
+      "note_zh": "东亚政经经典范式，特指政府以推动国家经济现代化为核心合法性来源，并通过产业政策与金融操纵积极干预经济的体制形态。",
+      "start_sec": 2479
+    },
+    {
+      "term": "performance legitimacy",
+      "meaning_zh": "政绩合法性",
+      "note_zh": "政治学概念，指执政政权不依赖多党普选授权，而是通过持续提供经济增长、改善民生等实际执政业绩来获取民众认受性。",
+      "start_sec": 2857
+    },
+    {
+      "term": "handbrake turn",
+      "meaning_zh": "拉手刹急转弯 / 政策方向的急剧掉头",
+      "note_zh": "形象的英式俚语比喻，形容最高领导层在毫无预警或极其突然的情况下彻底逆转长期推行的经济或政治战略路线。",
+      "start_sec": 4616
+    },
+    {
+      "term": "petrostate",
+      "meaning_zh": "石油国家 / 石油经济体",
+      "note_zh": "指财政收入高度依赖原油出口、往往易陷入资源诅咒、制度脆弱且寻租盛行的资源型国家（如安哥拉）。",
+      "start_sec": 5164
+    },
+    {
+      "term": "reciprocal tariffs",
+      "meaning_zh": "互惠关税 / 对等关税",
+      "note_zh": "国际贸易政策术语，在特朗普任内被用作反制外国贸易壁垒的惩罚性征税手段，曾波及享有关税优惠的非传统制造国。",
+      "start_sec": 5267
+    }
+  ],
+  "references": [
+    {
+      "title": "How Africa Works: Success and Failure on the World's Last Developmental Frontier",
+      "creator": "Joe Studwell",
+      "category": "book",
+      "note_zh": "Joe Studwell 于 2025 年出版的新作，深入探讨非洲因人口低密度与殖民遗产导致的增长阻碍及埃塞俄比亚等国的政策成败，为本期节目的核心主题。",
+      "start_sec": 140
+    },
+    {
+      "title": "How Asia Works: Success and Failure in the World's Most Dynamic Region (亚洲大趋势)",
+      "creator": "Joe Studwell",
+      "category": "book",
+      "note_zh": "Joe Studwell 2013 年出版的经典代表作，提炼出土地改革、出口导向型制造业和受控金融系统三大发展支柱。",
+      "start_sec": 95
+    },
+    {
+      "title": "Agriculture on the Road to Industrialization",
+      "creator": "John W. Mellor",
+      "category": "book",
+      "note_zh": "埃塞俄比亚前总理 Meles Zenawi 在丛林游击战期间随身研读的农业发展经济学名著，启发了其以小农为核心的发展战略。",
+      "start_sec": 2304
+    },
+    {
+      "title": "Made in Ethiopia",
+      "creator": "Max Duncan & Xinyan Yu",
+      "category": "media",
+      "note_zh": "Kaiser 极力推荐的 2024 年独立观察类纪录片，真实记录了埃塞俄比亚杜肯东方工业园一家中资工厂的日常运营与地缘/社会冲突。",
+      "start_sec": 3920
+    },
+    {
+      "title": "Earthly Powers (尘世权力)",
+      "creator": "Anthony Burgess",
+      "category": "book",
+      "note_zh": "Joe Studwell 在节目尾声推荐的一部涉及广泛跨国漫游题材的 1980 年宏大历史长篇小说。",
+      "start_sec": 5684
+    },
+    {
+      "title": "Competing for Soft Power: China’s Image-Making in Africa",
+      "creator": "Maria Repnikova",
+      "category": "book",
+      "note_zh": "探讨中国在非洲软实力构建与媒介形象塑造的学术新作，Kaiser 预告将邀请作者专门录制下一期节目。",
+      "start_sec": 435
+    }
   ]
 }
