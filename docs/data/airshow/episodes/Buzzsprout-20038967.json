@@ -1451,5 +1451,64 @@
       "zh": "我们来聊聊飞机吧！"
     }
   ],
-  "show_id": "airshow"
+  "show_id": "airshow",
+  "vocab_notes": [
+    {
+      "term": "clean-sheet airplane",
+      "meaning_zh": "从零全新设计的飞机",
+      "note_zh": "指不沿用旧有机体设计与认证架构、从一张白纸开始全新正向研发的飞机型号（与衍生改型 derivative 相对）。",
+      "start_sec": 171
+    },
+    {
+      "term": "upgauge",
+      "meaning_zh": "机型放大 / 换用更大座级飞机",
+      "note_zh": "航线网络规划术语，指航司在同一航线上用座位数更多、尺寸更大的机型替代较小机型以增加运力投放。",
+      "start_sec": 201
+    },
+    {
+      "term": "wetted area",
+      "meaning_zh": "浸润面积（飞机外表面积）",
+      "note_zh": "空气动力学概念，指飞机暴露在外部气流中的总表面积，面积越小通常意味着摩擦阻力越低。",
+      "start_sec": 738
+    },
+    {
+      "term": "rotation speed",
+      "meaning_zh": "抬轮速度（Vr）",
+      "note_zh": "飞行性能指标，指飞机在跑道滑跑达到可以拉杆抬起前轮离开地面的临界飞行速度。",
+      "start_sec": 1159
+    },
+    {
+      "term": "tail strike",
+      "meaning_zh": "擦尾 / 机尾触地",
+      "note_zh": "起飞或降落过程中因机头仰角过大导致机尾底部刮蹭跑道地面的严重不安全事件。",
+      "start_sec": 1215
+    },
+    {
+      "term": "levered gear",
+      "meaning_zh": "杠杆式起落架",
+      "note_zh": "一种起落架机械机构，起飞抬轮时通过杠杆下推延长起落架高度以增加机尾离地间隙防止擦尾，收起时又能缩回原轮舱。",
+      "start_sec": 1260
+    },
+    {
+      "term": "EICAS",
+      "meaning_zh": "发动机指示与机组成员警告系统",
+      "note_zh": "现代民用飞机集成的告警与仪表系统，将发动机参数与各种警告信息集中在电子显示屏上；737 早期衍生型因豁免沿用了旧式分离告警设计。",
+      "start_sec": 1860
+    },
+    {
+      "term": "stick shaker",
+      "meaning_zh": "抖杆器",
+      "note_zh": "民航客机用于防失速的人工告警装置，当迎角接近失速极限时会剧烈震动驾驶杆向飞行员发出触觉警告。",
+      "start_sec": 1973
+    }
+  ],
+  "references": [
+    {
+      "title": "Aircraft Certification, Safety, and Accountability Act (2020)",
+      "creator": "US Congress",
+      "category": "article",
+      "note_zh": "节目中深入讨论了该适航认证改革法案对波音 MAX 10 认证所带来的 EICAS 驾驶舱告警系统合规要求与豁免争议。",
+      "start_sec": 1877
+    }
+  ]
 }

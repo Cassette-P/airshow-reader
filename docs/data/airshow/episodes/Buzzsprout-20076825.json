@@ -1445,5 +1445,64 @@
       "zh": "……哦，真的是多得多。"
     }
   ],
-  "show_id": "airshow"
+  "show_id": "airshow",
+  "vocab_notes": [
+    {
+      "term": "loyalty bonds",
+      "meaning_zh": "常旅客计划质押债券",
+      "note_zh": "航司以旗下高现金流的常旅客会员计划（FFP）资产及未来收益权作为担保发行的有抵押债券，疫情后成为美系航司重要的低成本融资工具。",
+      "start_sec": 79
+    },
+    {
+      "term": "focus city",
+      "meaning_zh": "重点城市 / 次级枢纽",
+      "note_zh": "航司网络规划术语，指非核心主枢纽（Hub）但航班频次较高、拥有较多点对点或中转航线的基地城市，如捷蓝在劳德代尔堡、奥兰多和波士顿的布局。",
+      "start_sec": 169
+    },
+    {
+      "term": "ticking fee",
+      "meaning_zh": "计时等待费（并购延期补偿费）",
+      "note_zh": "指并购协议签署后至实际交割前，因监管审批等原因发生延迟，买方按天/月向卖方支付的补偿费用；捷蓝在收购精神航空漫长的反垄断审查期间持续支付该费用。",
+      "start_sec": 400
+    },
+    {
+      "term": "backfilling",
+      "meaning_zh": "回填（接盘空出运力/时刻）",
+      "note_zh": "在航线网络竞争中，指竞争对手削减航班或退场后，另一家航司迅速增加班次、填补市场空缺运力的策略。",
+      "start_sec": 780
+    },
+    {
+      "term": "stage length-adjusted",
+      "meaning_zh": "经平均航距调整的",
+      "note_zh": "民航收益管理术语；由于单位座英里收益（PRASM/Yield）会随航程拉长自然递减，剔除平均航距变动影响后的对比才能真实反映基础定价与运力收益能力。",
+      "start_sec": 1035
+    },
+    {
+      "term": "haircut",
+      "meaning_zh": "债务减免 / 折让率",
+      "note_zh": "金融与破产重组术语，指破产清算或债务重组中债权人所持债券或债权本金被强制核减的比例。",
+      "start_sec": 1394
+    },
+    {
+      "term": "unencumbered assets",
+      "meaning_zh": "无担保资产 / 未设定抵押资产",
+      "note_zh": "指企业资产负债表上未被用作贷款抵押或留置的资产（如全款拥有的飞机、发动机、航线时刻等），危急时可变现或用于新一轮抵押融资。",
+      "start_sec": 1839
+    },
+    {
+      "term": "burn furniture",
+      "meaning_zh": "拆东墙补西墙（变卖家底度日）",
+      "note_zh": "源自习语'burn the furniture to keep the house warm'，形象指企业为维持日常现金流而被迫出售核心资产或无担保资产的求生手段。",
+      "start_sec": 1842
+    }
+  ],
+  "references": [
+    {
+      "title": "Cheeky Pint",
+      "creator": "John Collison & Ben Thompson",
+      "category": "media",
+      "note_zh": "Jon Ostrower 提及美联航 CEO Scott Kirby 在该播客接受采访时谈及常旅客积分兑换的实际运载成本核算逻辑。",
+      "start_sec": 912
+    }
+  ]
 }

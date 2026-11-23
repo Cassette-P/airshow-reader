@@ -1822,5 +1822,71 @@
       "zh": "本期节目由 Leo Duran 制作和剪辑。我们的主题音乐由 Joshua Moser 创作。感谢您的收听，我们很快就会回来。"
     }
   ],
-  "show_id": "airshow"
+  "show_id": "airshow",
+  "vocab_notes": [
+    {
+      "term": "CPE",
+      "meaning_zh": "每登机旅客成本（Cost Per Enplanement）",
+      "note_zh": "美国机场衡量运营成本与航空公司费用的核心指标，由航司支付并分摊至每位登机旅客，不可与 CASM 混淆。",
+      "start_sec": 243
+    },
+    {
+      "term": "AIP",
+      "meaning_zh": "机场改善计划（Airport Improvement Program）",
+      "note_zh": "美国联邦航空管理局（FAA）资助国家航空系统内机场基础设施（如跑道、滑行道和安全系统）的关键拨款计划。",
+      "start_sec": 372
+    },
+    {
+      "term": "PFC",
+      "meaning_zh": "旅客设施费（Passenger Facility Charge）",
+      "note_zh": "直接附于商业机票中的联邦授权收费（目前上限为每航段 4.5 美元），专款用于受资助的机场改造扩建工程。",
+      "start_sec": 515
+    },
+    {
+      "term": "GARB",
+      "meaning_zh": "机场一般收益债券（General Airport Revenue Bonds）",
+      "note_zh": "美国机场大型航站楼基建常用的免税市政债券，完全依托机场未来的非航收入与航司缴纳费用偿还，不依赖地方市政税收抵押。",
+      "start_sec": 765
+    },
+    {
+      "term": "rate base",
+      "meaning_zh": "费率基数 / 计费资产基础",
+      "note_zh": "公共事业或机场财务中用于摊派债务与运营成本的计算基数，在机场运营中指分摊给各航司必须承担的总成本盘子。",
+      "start_sec": 933
+    },
+    {
+      "term": "moat",
+      "meaning_zh": "护城河 / 竞争壁垒",
+      "note_zh": "商业战略术语，指高昂的机场 CPE 构筑了天然准入门槛，使得低利润率的廉航（ULCC）难以承受而被迫撤出，间接保护了传统全服务航司的枢纽地位。",
+      "start_sec": 1200
+    },
+    {
+      "term": "upgauging",
+      "meaning_zh": "机型大型化 / 换大机型运营",
+      "note_zh": "航司在时刻或运力受限时，通过采用更大座位容量的飞机替代小机型以降低单座成本、优化单位时刻效益的运营策略。",
+      "start_sec": 1801
+    },
+    {
+      "term": "P3",
+      "meaning_zh": "政府与社会资本合作 / 公私合营（Public-Private Partnership）",
+      "note_zh": "在机场航站楼或配套设施（如 LAX 捷运 People Mover）中引入私营财团负责设计、建造、融资和运营的合作模式。",
+      "start_sec": 1978
+    }
+  ],
+  "references": [
+    {
+      "title": "DWU Consulting Airport CPE Dashboard",
+      "creator": "DWU Consulting",
+      "category": "other",
+      "note_zh": "播客中引用的行业咨询数据平台，汇总了全美主要机场历年及预测的每登机旅客成本（CPE）数据。",
+      "start_sec": 1293
+    },
+    {
+      "title": "Cirium Airline Schedules and Fleet Data",
+      "creator": "Cirium (睿思誉)",
+      "category": "other",
+      "note_zh": "航空数据分析机构，Brett 引用其历史航班计划数据对比了洛杉矶（LAX）和纽约（JFK）过去二十年短途航线的运力及机型变化。",
+      "start_sec": 1773
+    }
+  ]
 }

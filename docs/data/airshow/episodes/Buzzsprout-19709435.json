@@ -1514,5 +1514,70 @@
       "en": "We're American Airlines, something special in the air.",
       "zh": "我们是美国航空，空中非凡体验。"
     }
+  ],
+  "vocab_notes": [
+    {
+      "term": "refit",
+      "meaning_zh": "（客舱/机队）改装、翻新",
+      "note_zh": "航空业专指对现有飞机客舱的座椅布局、内饰或机上娱乐设施进行重构升级的工程。",
+      "start_sec": 282
+    },
+    {
+      "term": "premium leisure",
+      "meaning_zh": "高端休闲出行",
+      "note_zh": "指自费购买头等舱、商务舱或超经的非因公度假旅客群体，是疫后航司收入增长的核心动力。",
+      "start_sec": 428
+    },
+    {
+      "term": "coastal elitist",
+      "meaning_zh": "沿海精英主义者",
+      "note_zh": "美国政治与文化常用语，指居住在东西两岸大都市、轻视或脱离中部地区（Middle America）偏好的人士。",
+      "start_sec": 591
+    },
+    {
+      "term": "flyover states",
+      "meaning_zh": "直飞州 / 中部被忽略的州",
+      "note_zh": "美国口语中指从东海岸飞往西海岸时直接飞过的广袤中部州，常暗指非核心枢纽或非商旅核心的二三线市场。",
+      "start_sec": 642
+    },
+    {
+      "term": "holy grail",
+      "meaning_zh": "终极圣杯 / 最梦寐以求的终极目标",
+      "note_zh": "常用于商业或技术领域，形容大家孜孜以求、一旦做成能带来巨大回报的终极方案（如机载广告精准投放变现）。",
+      "start_sec": 952
+    },
+    {
+      "term": "title inflation",
+      "meaning_zh": "职衔通胀 / 头衔膨胀",
+      "note_zh": "职场术语，指企业内部滥发高大上的管理头衔（如向 CCO 汇报的 Chief Customer Officer），使 Chief 头衔贬值。",
+      "start_sec": 1772
+    },
+    {
+      "term": "serve two masters",
+      "meaning_zh": "伺候两位上司 / 双重汇报",
+      "note_zh": "典故出自《圣经》，企业语境中指员工或部门同时向两个汇报线上司汇报时面临的权责冲突与协调困境。",
+      "start_sec": 1787
+    },
+    {
+      "term": "throw someone for a loop",
+      "meaning_zh": "使某人措手不及 / 让人大吃一惊、陷入混乱",
+      "note_zh": "美式口语常用俚语，形容突如其来的巨变或消息让人始料不及、阵脚大乱。",
+      "start_sec": 1978
+    },
+    {
+      "term": "slow-roll",
+      "meaning_zh": "故意拖延节奏 / 缓慢推进",
+      "note_zh": "美式政商俚语，形容口头喊着紧急但实际操作中却分批次、慢条斯理地拖着推进改革或决策。",
+      "start_sec": 2025
+    }
+  ],
+  "references": [
+    {
+      "title": "Kinective Media",
+      "creator": "United Airlines",
+      "category": "other",
+      "note_zh": "美联航设立的机载屏幕与数字化个性化广告媒体网络，节目中讨论美航前 CCO Vasu Raja 离职后曾参与运营此项目以实现机上屏幕流量变现。",
+      "start_sec": 982
+    }
   ]
 }

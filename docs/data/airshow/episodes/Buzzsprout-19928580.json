@@ -1438,5 +1438,72 @@
       "zh": "本期节目由 Leo Duran 制作并剪辑。主题曲创作者为 Joshua Mosier。感谢大家的收听，我们下期再会！"
     }
   ],
-  "show_id": "airshow"
+  "show_id": "airshow",
+  "vocab_notes": [
+    {
+      "term": "antitrust immunity (ATI)",
+      "meaning_zh": "反垄断豁免",
+      "note_zh": "美国交通部（DOT）授予航司联合运营的关键法律许可，允许具有竞争关系的航司公开协调航班时刻、定价和运力，而免遭反垄断法制裁。",
+      "start_sec": 240
+    },
+    {
+      "term": "Open Skies policy",
+      "meaning_zh": "开放天空政策 / 天空开放协定",
+      "note_zh": "由美国倡导的双边或多边民航协定，取消两国间航线运营的政府运力与航点限制，是成立跨国免疫联营（Immunized JV）的前提条件。",
+      "start_sec": 439
+    },
+    {
+      "term": "Fifth Freedom",
+      "meaning_zh": "第五航权（第三国准入权）",
+      "note_zh": "指一国承运人获得在另外两个国家之间经停并上下客货的权利，如新加坡航空运营法兰克福至纽约航段。",
+      "start_sec": 631
+    },
+    {
+      "term": "revenue split",
+      "meaning_zh": "收入分成模式",
+      "note_zh": "联合运营（JV）中的一种清算结算机制，不同于考虑运营支出的成本分担（cost sharing），航司仅基于协商算法对特定地理范围内的票款收入进行拆分。",
+      "start_sec": 1287
+    },
+    {
+      "term": "carve-out",
+      "meaning_zh": "航线豁免例外条款 / 排除条款",
+      "note_zh": "监管机构批准航司联营时附加的竞争保护限制，强制将部分重叠度极高或缺乏竞争的特定航线排除在反垄断豁免之外。",
+      "start_sec": 1606
+    },
+    {
+      "term": "horse has left the barn",
+      "meaning_zh": "木已成舟 / 大局已定（悔之晚矣）",
+      "note_zh": "英语常用谚语，意指当前欧美跨大西洋市场已被三大联营牢固垄断的既成事实无法逆转，限制阿拉斯加航空加入已无现实意义。",
+      "start_sec": 1724
+    },
+    {
+      "term": "point of sale (POS)",
+      "meaning_zh": "机票出票地 / 销售发生地",
+      "note_zh": "航空销售与收益管理术语，指购买机票时旅客所在的地理市场；航司往往依靠本地联营伙伴获取出发地或目的地的境外客源。",
+      "start_sec": 1980
+    }
+  ],
+  "references": [
+    {
+      "title": "The Air Current",
+      "creator": "Jon Ostrower",
+      "category": "media",
+      "note_zh": "主播 Jon Ostrower 担任主编的航空商业与技术深度分析智库及媒体平台。",
+      "start_sec": 0
+    },
+    {
+      "title": "The Airline Observer",
+      "creator": "Brian Sumers",
+      "category": "media",
+      "note_zh": "主播 Brian Sumers 创办的航空业商业观察通讯及专栏平台。",
+      "start_sec": 4
+    },
+    {
+      "title": "Cranky Flier",
+      "creator": "Brett Snyder",
+      "category": "media",
+      "note_zh": "主播 Brett Snyder 创办并撰写的知名民航商业分析博客，在节目片头常态化介绍。",
+      "start_sec": 6
+    }
+  ]
 }

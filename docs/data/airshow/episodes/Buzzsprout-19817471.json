@@ -1333,5 +1333,71 @@
       "en": "I'm going to say it's ASMR...",
       "zh": "我想说这是 ASMR 效果吧……"
     }
+  ],
+  "vocab_notes": [
+    {
+      "term": "thinner routes",
+      "meaning_zh": "细分航线 / 客流较薄弱的航线",
+      "note_zh": "指旅客出行需求总量不大、无法支撑宽体客机（Widebody）运营的次级航线，常作为A321XLR等超远程窄体机的主要应用场景。",
+      "start_sec": 208
+    },
+    {
+      "term": "transcon",
+      "meaning_zh": "美国横贯大陆航线（跨大陆航班）",
+      "note_zh": "transcontinental flight 的航空业常见缩略语，特指连接美国东海岸（如纽约JFK/EWR）与西海岸（如洛杉矶LAX/旧金山SFO）的高端商务干线。",
+      "start_sec": 382
+    },
+    {
+      "term": "LOPA",
+      "meaning_zh": "客舱客席布局图（Layout of Passenger Accommodations）",
+      "note_zh": "航空业专业缩写，指机舱内座椅间距、商务舱/经济舱各舱位比例与配置规划的技术布局图纸。",
+      "start_sec": 463
+    },
+    {
+      "term": "premium leisure",
+      "meaning_zh": "高端休闲游市场 / 高端度假客群",
+      "note_zh": "指愿意自掏腰包购买商务舱（平躺座椅）或超级经济舱进行度假旅游的高净值休闲旅客，疫情后成为全服务航司利润的重要支柱。",
+      "start_sec": 891
+    },
+    {
+      "term": "high-J",
+      "meaning_zh": "高商务舱配比布局机型",
+      "note_zh": "航空代码中通常用字母 J 代表商务舱（Business Class），high-J 特指商务舱座椅数量占比极高的机型客舱布局（如美联航的部分B767-300ER机型）。",
+      "start_sec": 903
+    },
+    {
+      "term": "metal",
+      "meaning_zh": "自有/实际执飞飞机（实体运力）",
+      "note_zh": "航空行话常以 metal 指代实际运营的飞机，如 own metal 或 joint venture 语境下的 metal-neutral（机型与承运人中立）。",
+      "start_sec": 1812
+    },
+    {
+      "term": "point of sale (POS)",
+      "meaning_zh": "销售所在地 / 客源地",
+      "note_zh": "航司分销与收益管理术语，指机票出票和结算发生的物理或国家市场，对联运及航线联营（JV）中双方客源组织能力至关重要。",
+      "start_sec": 1855
+    },
+    {
+      "term": "crack spreads",
+      "meaning_zh": "裂解价差（炼油裂解利润率）",
+      "note_zh": "金融与能源行业术语，指原油被精炼为航煤、汽油等成品油的市场价差；航空业常用其衡量航空煤油精炼成本的异常波动。",
+      "start_sec": 1968
+    }
+  ],
+  "references": [
+    {
+      "title": "The Airline Observer",
+      "creator": "Brian Sumers",
+      "category": "article",
+      "note_zh": "主播 Brian Sumers 创办的航空业商业分析 Newsletter，节目中提到其最新一期简讯评价美航执飞体验。",
+      "start_sec": 421
+    },
+    {
+      "title": "Cranky Flier",
+      "creator": "Brett Snyder",
+      "category": "article",
+      "note_zh": "主播 Brett Snyder 的航空评论网站；节目中讨论了他近期撰写的分析美航（American Airlines）应优先利用 A321XLR 扩张南美航线网络的长文深度分析。",
+      "start_sec": 1246
+    }
   ]
 }

@@ -1548,5 +1548,85 @@
       "en": "My deepest apologies to the Mulhousians and the Luxembourgers.",
       "zh": "向米卢斯和卢森堡的朋友们致以我最深切的歉意。"
     }
+  ],
+  "vocab_notes": [
+    {
+      "term": "reciprocal access",
+      "meaning_zh": "互惠准入 / 相互开放权益",
+      "note_zh": "常指航司同盟内部或航司与信用卡公司之间，允许对方高端会员或持卡人相互使用各自休息室的权益机制。",
+      "start_sec": 484
+    },
+    {
+      "term": "swipe fees",
+      "meaning_zh": "刷卡手续费（交换费/interchange fee）",
+      "note_zh": "指商家在消费者刷卡消费时向发卡行和卡组织支付的处理费用，是银行发行高端联名信用卡的重要核心收益来源。",
+      "start_sec": 845
+    },
+    {
+      "term": "road warrior",
+      "meaning_zh": "常飞出差常客 / 商旅老手",
+      "note_zh": "航空和差旅行业常用俚语，形容一年中大量时间在旅途、对机场和航司运作极为熟悉的频繁商旅人士。",
+      "start_sec": 1066
+    },
+    {
+      "term": "high-J configuration",
+      "meaning_zh": "高密度商务舱客舱布局",
+      "note_zh": "民航代号中通常用字母 J 代表商务舱（Business Class），high-J 即指大幅增加两舱/商务舱座位比例的飞机内饰构型。",
+      "start_sec": 1485
+    },
+    {
+      "term": "unbundled",
+      "meaning_zh": "分拆销售 / 解绑计费",
+      "note_zh": "航空商业化关键模式，指将原本包含在全价机票内的选座、行李、贵宾室等权益剥离为单独按需购买的辅助收费项目。",
+      "start_sec": 1583
+    },
+    {
+      "term": "cheesemonger",
+      "meaning_zh": "奶酪品鉴师 / 奶酪商",
+      "note_zh": "指专业挑选、切割与侍奉精品奶酪的专员；节目中用来调侃高端银行休息室（如 Capital One Lounge）为吸引持卡人而打造的极致差异化噱头。",
+      "start_sec": 1883
+    },
+    {
+      "term": "Grab and Go",
+      "meaning_zh": "即拿即走式简餐驿站",
+      "note_zh": "航司为赶时间的商旅常客在枢纽设立的快速取餐点（如达美 Grab and Go、美联航 Club Fly），无需长时间驻留休息室。",
+      "start_sec": 2061
+    },
+    {
+      "term": "enshittification",
+      "meaning_zh": "平台劣质化 / 权益崩塌退化",
+      "note_zh": "由学者 Cory Doctorow 提出的数字经济学概念，指平台早期通过高补贴与优待圈占用户，随后逐步蚕食体验、榨取暴利的必然退化周期。",
+      "start_sec": 2293
+    }
+  ],
+  "references": [
+    {
+      "title": "The New Yorker",
+      "creator": "The New Yorker",
+      "category": "media",
+      "note_zh": "Brett 引用《纽约客》此前关于美航 Admirals Club 历史的文章，回顾休息室从1939年免费邀请制到因歧视诉讼被迫转变为收费制的演变过程。",
+      "start_sec": 260
+    },
+    {
+      "title": "Cranky Flier",
+      "creator": "Brett Snyder",
+      "category": "article",
+      "note_zh": "Brett 提到自己在 Cranky Flier 上发表关于菲尼克斯机场扩建新航站楼及休息室需求膨胀的行业分析博客文章。",
+      "start_sec": 1361
+    },
+    {
+      "title": "Simple Flying",
+      "creator": "Simple Flying",
+      "category": "media",
+      "note_zh": "Jon 提及 Simple Flying 关于美联航 LAX 枢纽四架波音 787 同一小时出港导致高密度商务舱旅客挤爆 Polaris 休息室的分析报道。",
+      "start_sec": 1456
+    },
+    {
+      "title": "Credit Card Competition Act",
+      "creator": "United States Congress",
+      "category": "other",
+      "note_zh": "Jon 提及美国国会正在推进的《信用卡竞争法案》，指出其对刷卡手续费（Interchange Fees）的监管将重创航司联名卡生态。",
+      "start_sec": 2251
+    }
   ]
 }

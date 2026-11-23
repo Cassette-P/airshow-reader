@@ -1362,5 +1362,71 @@
       "zh": "他们之前不也是飞了一段时间达拉斯吗，就排了一趟红眼航班，单纯为了表达对某些事的不满？"
     }
   ],
-  "show_id": "airshow"
+  "show_id": "airshow",
+  "vocab_notes": [
+    {
+      "term": "stretch goal",
+      "meaning_zh": "拔高目标，具有挑战性的愿景目标",
+      "note_zh": "指企业设立的超出常规能力范围、需要付出极大努力才可能实现的雄伟目标。",
+      "start_sec": 242
+    },
+    {
+      "term": "gauge",
+      "meaning_zh": "机型运力规格，飞机座位容量等级",
+      "note_zh": "在航空收益管理与网络规划中，gauge 指机型大小或单机座位容量（如 smaller gauge 指支线或小座位客机）。",
+      "start_sec": 471
+    },
+    {
+      "term": "lead time",
+      "meaning_zh": "前置期，交付周期",
+      "note_zh": "在飞机改装或新机交付语境下，指从下达订单/立项决策到实际交付客舱投入运营之间所需漫长的时间窗口。",
+      "start_sec": 711
+    },
+    {
+      "term": "chutzpah",
+      "meaning_zh": "胆量，厚脸皮，过人魄力",
+      "note_zh": "意第绪语来源词，口语中常指敢于冒天下之大不韪或不顾尴尬直接抛出尖锐问题的胆量。",
+      "start_sec": 883
+    },
+    {
+      "term": "soliloquy",
+      "meaning_zh": "独白，长篇大论",
+      "note_zh": "本义指戏剧中的独白，节目中调侃对方一口气发表的长篇吐槽或主观论述。",
+      "start_sec": 1381
+    },
+    {
+      "term": "armchair quarterback",
+      "meaning_zh": "纸上谈兵者，马后炮评论家",
+      "note_zh": "美式习语，源自美式橄榄球，指那些未亲自在场上指挥却坐在沙发上指点江山、批评专业操作的局外人。",
+      "start_sec": 1409
+    },
+    {
+      "term": "lose one's shirt",
+      "meaning_zh": "输得精光，血本无归",
+      "note_zh": "地道美式俚语，形容在商业投资或航线竞争中遭遇极其惨重的巨额亏损。",
+      "start_sec": 1466
+    },
+    {
+      "term": "spite flight",
+      "meaning_zh": "报复性航班，赌气航线",
+      "note_zh": "航空业黑话，指航司为了恶心或打击竞争对手而特意在重叠路线上投放的亏本抢客航班。",
+      "start_sec": 1813
+    }
+  ],
+  "references": [
+    {
+      "title": "Citizenship in a Republic (The Man in the Arena speech)",
+      "creator": "Theodore Roosevelt",
+      "category": "other",
+      "note_zh": "西捷航空前高管曾引用该著名演说中的“角斗场上的勇士”名句，回击主播对航司战略的纸上谈兵式批评。",
+      "start_sec": 1416
+    },
+    {
+      "title": "Origin and Destination Survey (O&D Data)",
+      "creator": "U.S. Department of Transportation (DOT)",
+      "category": "other",
+      "note_zh": "美国交通部发布的航空旅客始发与终到真实出行数据，被 Brett 用来分析洛杉矶机场国内本地客流市场份额。",
+      "start_sec": 1560
+    }
+  ]
 }

@@ -1284,5 +1284,64 @@
       "zh": "Brett，那音乐现在听起来是啥样？嘟嘟嘟嘟嘟嘟嘟嘟。"
     }
   ],
-  "show_id": "airshow"
+  "show_id": "airshow",
+  "vocab_notes": [
+    {
+      "term": "sunk cost fallacy",
+      "meaning_zh": "沉没成本谬论",
+      "note_zh": "经济学与决策理论术语，指人们因前期已投入不可收回的成本（如资金或时间）而继续坚持非理性项目的倾向；节目中用于调侃墨西哥总统果断废弃已投入50亿美元的新机场项目。",
+      "start_sec": 203
+    },
+    {
+      "term": "reliever airport",
+      "meaning_zh": "分流机场 / 疏解机场",
+      "note_zh": "指为缓解主枢纽机场空域与地面拥堵、分流部分客货运流量而设立的辅助性机场（如墨西哥城附近的 AIFA 机场）。",
+      "start_sec": 236
+    },
+    {
+      "term": "Category 1 / Category 2 status",
+      "meaning_zh": "（FAA 国际航空安全评估）1级与2级安全评级",
+      "note_zh": "FAA 对外国民航监管机构的评级；降为 2 级意味着民航安全监管不达标，该国航司将无法在美国新增航线、增加班次或与美方航司代码共享。",
+      "start_sec": 460
+    },
+    {
+      "term": "go rogue",
+      "meaning_zh": "不按常理出牌；擅自胡来；违规脱轨",
+      "note_zh": "口语习语，指某一方不顾国际通行规则或既定协议（如时刻分配标准）自行采取激进且不可预测的单边行动。",
+      "start_sec": 1130
+    },
+    {
+      "term": "belly cargo",
+      "meaning_zh": "腹舱货物 / 客机腹舱载货",
+      "note_zh": "利用客机下层货舱搭载的商业货物，与全货机（all-cargo freighter）相对，是全服务航司的重要辅助收入来源。",
+      "start_sec": 1213
+    },
+    {
+      "term": "call shenanigans",
+      "meaning_zh": "揭发搞鬼 / 谴责违规欺骗行为",
+      "note_zh": "美式口语表达，指公开指出并谴责对方不遵守规则、暗箱操作或玩弄欺诈手段。",
+      "start_sec": 1378
+    },
+    {
+      "term": "take one's foot off someone's neck",
+      "meaning_zh": "暂缓打压；稍微手下留情；给对方喘息之机",
+      "note_zh": "形象生动的生动俚语，比喻在施加严厉经济或行政制裁后，因对方让步而暂时放松极限施压。",
+      "start_sec": 1698
+    },
+    {
+      "term": "thawing",
+      "meaning_zh": "（双边关系）回暖 / 破冰 / 缓和",
+      "note_zh": "常用于外交与地缘政治语境，指经历漫长严峻对抗后的初步接触与关系解冻降温。",
+      "start_sec": 1738
+    }
+  ],
+  "references": [
+    {
+      "title": "Aviacionline",
+      "creator": "Aviacionline",
+      "category": "media",
+      "note_zh": "专注于拉丁美洲与全球航空业新闻资讯的知名专业航空媒体，节目中引用其关于 FAA 赴墨安全审计及降级时间表的最新报道。",
+      "start_sec": 1845
+    }
+  ]
 }
