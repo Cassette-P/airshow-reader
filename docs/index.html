@@ -1237,6 +1237,128 @@
     .is-search-hidden { display: none !important; }
 
     /* ==========================================================================
+       Blur Listening & Sentence Loop (M8-A)
+       ========================================================================== */
+    .transcript-section-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    .transcript-header-main {
+      display: flex;
+      align-items: baseline;
+      gap: 12px;
+    }
+    .transcript-toolbar {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .blur-segmented-control {
+      display: inline-flex;
+      align-items: center;
+      background: var(--chrome-pill-bg);
+      padding: 2px;
+      border-radius: var(--radius-md);
+      border: 1px solid var(--chrome-pill-border);
+      gap: 1px;
+    }
+    .blur-control-label {
+      font-size: 0.6875rem;
+      font-family: var(--font-mono);
+      color: var(--text-muted);
+      padding: 0 4px 0 6px;
+      user-select: none;
+    }
+    .blur-segment-btn {
+      padding: 3px 8px;
+      font-size: 0.71875rem;
+      font-weight: 500;
+      border: 1px solid transparent;
+      border-radius: var(--radius-sm);
+      color: var(--text-muted);
+      background: transparent;
+      cursor: pointer;
+      transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
+      white-space: nowrap;
+    }
+    .blur-segment-btn:hover {
+      color: var(--text-primary);
+    }
+    .blur-segment-btn.active {
+      background: var(--chrome-pill-active);
+      color: var(--text-primary);
+      font-weight: 600;
+      border: 1px solid var(--chrome-pill-border);
+      box-shadow: var(--chrome-pill-rim);
+    }
+
+    /* Blur Listening Mode Styles */
+    [data-blur-mode="zh"] .transcript-zh:not(.is-revealed),
+    [data-blur-mode="both"] .transcript-zh:not(.is-revealed),
+    [data-blur-mode="both"] .transcript-en:not(.is-revealed) {
+      filter: blur(5px);
+      user-select: none;
+      cursor: pointer;
+      transition: filter 0.2s ease, opacity 0.2s ease;
+    }
+
+    [data-blur-mode="zh"] .transcript-zh:not(.is-revealed):hover,
+    [data-blur-mode="both"] .transcript-zh:not(.is-revealed):hover,
+    [data-blur-mode="both"] .transcript-en:not(.is-revealed):hover {
+      filter: blur(2.5px);
+    }
+
+    /* Scratch-off Revealed Text Block */
+    .transcript-zh.is-revealed,
+    .transcript-en.is-revealed {
+      filter: none !important;
+      user-select: text !important;
+      cursor: text;
+    }
+
+    /* Keyword Search Hit: Auto-reveal matched items */
+    .transcript-item.has-search-match .transcript-zh,
+    .transcript-item.has-search-match .transcript-en {
+      filter: none !important;
+      user-select: text !important;
+    }
+
+    /* Single-Sentence Loop Highlighting (M8-A) */
+    .transcript-item.is-looping {
+      border-left-color: var(--accent-primary) !important;
+      background: var(--bg-active-row) !important;
+      box-shadow: 0 0 0 1px var(--accent-primary) inset;
+    }
+    .btn-sentence-loop {
+      font-family: var(--font-mono);
+      font-size: 0.6875rem;
+      color: var(--text-muted);
+      background: var(--bg-subtle);
+      border: 1px solid var(--border-color);
+      padding: 1px 5px;
+      border-radius: var(--radius-xs);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease;
+    }
+    .btn-sentence-loop:hover {
+      color: var(--accent-primary);
+      border-color: var(--border-hover);
+      background: var(--bg-surface-elevated);
+    }
+    .btn-sentence-loop.is-looping {
+      background: var(--accent-primary);
+      color: var(--accent-contrast);
+      border-color: var(--accent-primary);
+      font-weight: 600;
+    }
+
+    /* ==========================================================================
        8. Floating Audio Player (OpenRouter Chrome)
        ========================================================================== */
     .audio-player-bar {
@@ -1433,6 +1555,63 @@
     }
     .btn-resume-dismiss:hover {
       color: var(--text-primary);
+    }
+
+    /* Single-Sentence Loop Floating Banner (M8-A) */
+    .loop-banner {
+      position: relative;
+      max-width: var(--content-max-w);
+      margin: 0 auto 8px auto;
+      padding: 5px 12px;
+      border-radius: 999px;
+      background: var(--bg-surface-header);
+      backdrop-filter: var(--glass-filter);
+      -webkit-backdrop-filter: var(--glass-filter);
+      border: 1px solid var(--glass-border);
+      box-shadow: var(--glass-shadow);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      font-size: 0.72rem;
+      color: var(--text-secondary);
+      pointer-events: auto;
+      z-index: 91;
+    }
+    .loop-msg {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      color: var(--text-primary);
+      font-weight: 500;
+    }
+    .loop-msg svg {
+      color: var(--accent-primary);
+      flex-shrink: 0;
+    }
+    .loop-actions {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      flex-shrink: 0;
+    }
+    .btn-loop-exit {
+      padding: 2px 8px;
+      border-radius: var(--radius-xs);
+      font-size: 0.7rem;
+      font-weight: 600;
+      color: var(--accent-primary);
+      background: var(--chrome-pill-bg);
+      border: 1px solid var(--chrome-pill-border);
+      cursor: pointer;
+      transition: background 0.15s ease, border-color 0.15s ease;
+    }
+    .btn-loop-exit:hover {
+      background: var(--chrome-pill-hover);
+      border-color: var(--accent-primary);
     }
 
     .scrub-track-wrap {
@@ -1687,6 +1866,147 @@
       flex-shrink: 0;
     }
 
+    /* Keyboard Shortcuts Trigger Button (M8-A) */
+    .btn-keyboard-shortcuts {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 28px;
+      height: 28px;
+      padding: 0;
+      border-radius: 999px;
+      border: 1px solid var(--chrome-pill-border);
+      color: var(--text-secondary);
+      background: var(--chrome-pill-bg);
+      cursor: pointer;
+      transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
+      flex-shrink: 0;
+    }
+    .btn-keyboard-shortcuts:hover {
+      border-color: var(--chrome-pill-border);
+      background: var(--chrome-pill-hover);
+      color: var(--text-primary);
+    }
+    .btn-keyboard-shortcuts.active {
+      background: var(--accent-tint);
+      color: var(--accent-primary);
+      border-color: var(--accent-primary);
+      box-shadow: var(--chrome-pill-rim);
+    }
+    .btn-keyboard-shortcuts svg {
+      width: 13px;
+      height: 13px;
+      flex-shrink: 0;
+    }
+
+    /* Shortcuts Popover Dialog (M8-A) */
+    .shortcuts-backdrop {
+      position: fixed;
+      inset: 0;
+      background: var(--bg-backdrop);
+      backdrop-filter: blur(2px);
+      -webkit-backdrop-filter: blur(2px);
+      z-index: 998;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.2s ease;
+    }
+    .shortcuts-backdrop.visible {
+      opacity: 1;
+      pointer-events: auto;
+    }
+    .shortcuts-modal {
+      position: fixed;
+      bottom: 84px;
+      right: 20px;
+      width: 320px;
+      max-width: calc(100vw - 32px);
+      background: var(--bg-surface-elevated);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+      box-shadow: 0 12px 32px rgba(28, 27, 24, 0.18), 0 0 0 1px var(--glass-border);
+      backdrop-filter: var(--glass-filter);
+      -webkit-backdrop-filter: var(--glass-filter);
+      z-index: 999;
+      padding: 14px 16px;
+      display: none;
+      flex-direction: column;
+      gap: 10px;
+      animation: fadeInShortcuts 0.15s ease forwards;
+    }
+    .shortcuts-modal.visible {
+      display: flex;
+    }
+    @keyframes fadeInShortcuts {
+      from { opacity: 0; transform: translateY(6px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .shortcuts-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid var(--border-subtle);
+      padding-bottom: 8px;
+    }
+    .shortcuts-title {
+      font-size: 0.8125rem;
+      font-weight: 600;
+      color: var(--text-primary);
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .shortcuts-title svg {
+      color: var(--accent-primary);
+    }
+    .shortcuts-close-btn {
+      background: transparent;
+      border: none;
+      color: var(--text-muted);
+      cursor: pointer;
+      padding: 2px 6px;
+      font-size: 0.8125rem;
+      line-height: 1;
+      border-radius: var(--radius-xs);
+    }
+    .shortcuts-close-btn:hover {
+      color: var(--text-primary);
+      background: var(--bg-subtle);
+    }
+    .shortcuts-body {
+      display: flex;
+      flex-direction: column;
+      gap: 7px;
+    }
+    .shortcut-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 0.75rem;
+      gap: 8px;
+    }
+    .shortcut-desc {
+      color: var(--text-secondary);
+    }
+    .shortcut-keys {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+    }
+    .shortcut-kbd {
+      display: inline-block;
+      padding: 2px 6px;
+      font-family: var(--font-mono);
+      font-size: 0.6875rem;
+      font-weight: 600;
+      line-height: 1.2;
+      color: var(--text-primary);
+      background: var(--bg-page);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-xs);
+      box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08);
+    }
+
     /* ==========================================================================
        9. State Views & Feedback
        ========================================================================== */
@@ -1769,7 +2089,8 @@
       .player-container {
         max-width: 900px;
       }
-      .resume-banner {
+      .resume-banner,
+      .loop-banner {
         max-width: 900px;
       }
       .player-chapter-badge {
@@ -2070,11 +2391,17 @@
         bottom: 8px;
         padding-bottom: calc(0px + env(safe-area-inset-bottom, 0px));
       }
-      .resume-banner {
+      .resume-banner,
+      .loop-banner {
         max-width: 100%;
         font-size: 0.6875rem;
         padding: 4px 10px;
         margin-bottom: 6px;
+      }
+      .btn-keyboard-shortcuts,
+      .shortcuts-backdrop,
+      .shortcuts-modal {
+        display: none !important;
       }
       .player-container {
         max-width: 100%;
@@ -2520,9 +2847,19 @@
 
       <!-- Section: Full Bilingual Transcript (De-carded continuous stream) -->
       <section class="section-wrap" aria-labelledby="heading-transcript">
-        <div class="section-header">
-          <h2 class="section-title" id="heading-transcript">中英双语逐字稿 · Transcript</h2>
-          <span class="section-badge tnum" id="transcript-count-badge">- 段落</span>
+        <div class="section-header transcript-section-header">
+          <div class="transcript-header-main">
+            <h2 class="section-title" id="heading-transcript">中英双语逐字稿 · Transcript</h2>
+            <span class="section-badge tnum" id="transcript-count-badge">- 段落</span>
+          </div>
+          <div class="transcript-toolbar">
+            <div class="blur-segmented-control" role="group" aria-label="盲听精听模式选择">
+              <span class="blur-control-label" aria-hidden="true">盲听</span>
+              <button type="button" class="blur-segment-btn active" data-blur="off" title="清晰显示全部文本">清晰</button>
+              <button type="button" class="blur-segment-btn" data-blur="zh" title="高斯模糊遮挡中文译文，点击单句刮开显形">遮中文</button>
+              <button type="button" class="blur-segment-btn" data-blur="both" title="高斯模糊遮挡中英文全盲听，点击单句刮开显形">全盲听</button>
+            </div>
+          </div>
         </div>
         <div class="transcript-container" id="transcript-container">
           <!-- Dynamically populated -->
@@ -2542,6 +2879,22 @@
         <span class="resume-sep">·</span>
         <button type="button" class="btn-resume-restart" id="btn-resume-restart">从头播放</button>
         <button type="button" class="btn-resume-dismiss" id="btn-resume-close" aria-label="关闭提示">×</button>
+      </div>
+    </div>
+
+    <!-- Single-Sentence Loop Status Pill (M8-A) -->
+    <div class="loop-banner" id="loop-banner" style="display: none;">
+      <span class="loop-msg">
+        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <polyline points="17 1 21 5 17 9"></polyline>
+          <path d="M3 11V9a4 4 0 0 1 4-4h14"></path>
+          <polyline points="7 23 3 19 7 15"></polyline>
+          <path d="M21 13v2a4 4 0 0 1-4 4H3"></path>
+        </svg>
+        <strong class="tnum" id="loop-banner-text">复读中 #001 · 00:00–00:15</strong>
+      </span>
+      <div class="loop-actions">
+        <button type="button" class="btn-loop-exit" id="btn-loop-exit" title="退出单句复读">退出</button>
       </div>
     </div>
 
@@ -2602,9 +2955,72 @@
             <line x1="12" y1="22" x2="12" y2="18"></line>
           </svg>
         </button>
+        <button type="button" class="btn-keyboard-shortcuts" id="btn-keyboard-shortcuts" title="快捷键说明 (?)" aria-label="键盘快捷键说明">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <rect x="2" y="4" width="20" height="16" rx="2" ry="2"></rect>
+            <line x1="6" y1="8" x2="6" y2="8"></line>
+            <line x1="10" y1="8" x2="10" y2="8"></line>
+            <line x1="14" y1="8" x2="14" y2="8"></line>
+            <line x1="18" y1="8" x2="18" y2="8"></line>
+            <line x1="6" y1="12" x2="6" y2="12"></line>
+            <line x1="18" y1="12" x2="18" y2="12"></line>
+            <line x1="9" y1="16" x2="15" y2="16"></line>
+          </svg>
+        </button>
       </div>
     </div>
   </footer>
+
+  <!-- Shortcuts Modal Popover (Desktop M8-A) -->
+  <div class="shortcuts-backdrop" id="shortcuts-backdrop" aria-hidden="true"></div>
+  <div class="shortcuts-modal" id="shortcuts-modal" role="dialog" aria-modal="true" aria-label="键盘快捷键说明">
+    <div class="shortcuts-header">
+      <span class="shortcuts-title">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <rect x="2" y="4" width="20" height="16" rx="2" ry="2"></rect>
+          <line x1="6" y1="8" x2="6" y2="8"></line>
+          <line x1="10" y1="8" x2="10" y2="8"></line>
+          <line x1="14" y1="8" x2="14" y2="8"></line>
+          <line x1="18" y1="8" x2="18" y2="8"></line>
+          <line x1="6" y1="12" x2="6" y2="12"></line>
+          <line x1="18" y1="12" x2="18" y2="12"></line>
+          <line x1="9" y1="16" x2="15" y2="16"></line>
+        </svg>
+        桌面端快捷键说明
+      </span>
+      <button type="button" class="shortcuts-close-btn" id="shortcuts-close-btn" aria-label="关闭快捷键说明">✕</button>
+    </div>
+    <div class="shortcuts-body">
+      <div class="shortcut-row">
+        <span class="shortcut-desc">播放 / 暂停</span>
+        <kbd class="shortcut-kbd">Space</kbd>
+      </div>
+      <div class="shortcut-row">
+        <span class="shortcut-desc">后退 / 快进 5 秒</span>
+        <div class="shortcut-keys"><kbd class="shortcut-kbd">←</kbd> <kbd class="shortcut-kbd">→</kbd></div>
+      </div>
+      <div class="shortcut-row">
+        <span class="shortcut-desc">后退 / 快进 15 秒</span>
+        <div class="shortcut-keys"><kbd class="shortcut-kbd">Shift</kbd> + <kbd class="shortcut-kbd">←</kbd> / <kbd class="shortcut-kbd">→</kbd></div>
+      </div>
+      <div class="shortcut-row">
+        <span class="shortcut-desc">重听当前段落</span>
+        <kbd class="shortcut-kbd">R</kbd>
+      </div>
+      <div class="shortcut-row">
+        <span class="shortcut-desc">单句复读开关</span>
+        <kbd class="shortcut-kbd">L</kbd>
+      </div>
+      <div class="shortcut-row">
+        <span class="shortcut-desc">循环切换盲听模式</span>
+        <kbd class="shortcut-kbd">B</kbd>
+      </div>
+      <div class="shortcut-row">
+        <span class="shortcut-desc">快捷键帮助面板</span>
+        <kbd class="shortcut-kbd">?</kbd>
+      </div>
+    </div>
+  </div>
 
   <audio id="audio-engine" preload="metadata"></audio>
 
@@ -2778,6 +3194,25 @@
       const btnResumeRestart = document.getElementById('btn-resume-restart');
       const btnResumeClose = document.getElementById('btn-resume-close');
 
+      // M8-A: Blur Listening, Sentence Loop & Desktop Shortcuts Elements
+      const blurSegmentBtns = document.querySelectorAll('.blur-segment-btn');
+      const loopBanner = document.getElementById('loop-banner');
+      const loopBannerText = document.getElementById('loop-banner-text');
+      const btnLoopExit = document.getElementById('btn-loop-exit');
+      const btnKeyboardShortcuts = document.getElementById('btn-keyboard-shortcuts');
+      const shortcutsBackdrop = document.getElementById('shortcuts-backdrop');
+      const shortcutsModal = document.getElementById('shortcuts-modal');
+      const shortcutsCloseBtn = document.getElementById('shortcuts-close-btn');
+
+      const BLUR_STORAGE_KEY = 'airshow_blur_mode';
+      let currentBlurMode = 'off';
+      let loopState = {
+        active: false,
+        index: -1,
+        startSec: 0,
+        endSec: 0
+      };
+
       let highlightElements = [];
       let transcriptElements = [];
       let userInteractedSeek = false;
@@ -2872,6 +3307,14 @@
         targetSec = Math.max(0, Number(targetSec) || 0);
         userInteractedSeek = true;
         if (resumeBanner) resumeBanner.style.display = 'none';
+
+        // M8-A: If seeking outside of active sentence loop range, exit loop
+        if (loopState.active) {
+          if (targetSec < loopState.startSec - 0.5 || targetSec > loopState.endSec + 0.5) {
+            exitSentenceLoop();
+          }
+        }
+
         console.log(`[AIRSHOW][UI] Seeking to ${targetSec}s (readyState: ${audio.readyState})`);
 
         const executeSeekAndPlay = () => {
@@ -3355,9 +3798,14 @@
       archiveCloseBtn.addEventListener('click', closeArchiveDrawer);
       archiveBackdrop.addEventListener('click', closeArchiveDrawer);
 
-      // Keyboard shortcuts: Esc, Space, '/' and Cmd/Ctrl+K
+      // Desktop Keyboard shortcuts: Esc, Space, ArrowLeft/Right, R, L, B, '?', '/' and Cmd/Ctrl+K (M8-A)
       window.addEventListener('keydown', (e) => {
+        // 1. Esc: close modal/drawer or clear search
         if (e.key === 'Escape') {
+          if (shortcutsModal && shortcutsModal.classList.contains('visible')) {
+            closeShortcutsModal();
+            return;
+          }
           if (archiveDrawer.classList.contains('open')) {
             closeArchiveDrawer();
             return;
@@ -3373,30 +3821,69 @@
           }
         }
 
-        // Space shortcut: Toggle play/pause with conflict prevention guards
-        if (e.code === 'Space') {
-          if (e.ctrlKey || e.metaKey || e.altKey || e.repeat) {
+        // 2. Cmd/Ctrl+K search shortcut
+        if ((e.metaKey || e.ctrlKey) && (e.key === 'k' || e.key === 'K')) {
+          e.preventDefault();
+          if (isCompactSearchActive() && searchBoxWrap) {
+            toggleMobileSearch(true);
+          }
+          searchInput.focus();
+          searchInput.select();
+          return;
+        }
+
+        // 3. Strict editable elements guard
+        const activeEl = document.activeElement;
+        if (activeEl) {
+          const tagName = activeEl.tagName;
+          if (
+            tagName === 'TEXTAREA' ||
+            tagName === 'SELECT' ||
+            activeEl.isContentEditable ||
+            (tagName === 'INPUT' && activeEl.type !== 'range')
+          ) {
             return;
           }
-          if (playerBar.style.display === 'none' || !audio.src || archiveDrawer.classList.contains('open')) {
-            return;
+        }
+
+        // 4. Strict modifier keys filter (ctrl, meta, alt)
+        if (e.ctrlKey || e.metaKey || e.altKey) {
+          return;
+        }
+
+        // 5. '/' search shortcut
+        if (e.key === '/') {
+          e.preventDefault();
+          if (isCompactSearchActive() && searchBoxWrap) {
+            toggleMobileSearch(true);
           }
-          const activeEl = document.activeElement;
-          if (activeEl) {
-            const tagName = activeEl.tagName;
-            if (
-              tagName === 'TEXTAREA' ||
-              tagName === 'SELECT' ||
-              activeEl.isContentEditable ||
-              (tagName === 'INPUT' && activeEl.type !== 'range')
-            ) {
-              return;
-            }
-            const externalBtnOrLink = activeEl.closest('button, a');
-            if (externalBtnOrLink && !playerBar.contains(externalBtnOrLink)) {
-              return;
-            }
-          }
+          searchInput.focus();
+          searchInput.select();
+          return;
+        }
+
+        // 6. '?' toggle shortcuts help modal
+        if (e.key === '?' || (e.shiftKey && (e.key === '/' || e.code === 'Slash'))) {
+          e.preventDefault();
+          toggleShortcutsModal();
+          return;
+        }
+
+        // 7. KeyB: Cycle blur listening mode (清晰 -> 遮中文 -> 全盲听)
+        if (e.code === 'KeyB' || e.key === 'b' || e.key === 'B') {
+          e.preventDefault();
+          cycleBlurMode();
+          return;
+        }
+
+        // Playback control guards: empty state, hidden player bar, no audio loaded, or drawer open
+        if (playerBar.style.display === 'none' || !audio.src || !currentEpisode || archiveDrawer.classList.contains('open')) {
+          return;
+        }
+
+        // 8. Space: Toggle play/pause
+        if (e.code === 'Space' || e.key === ' ') {
+          if (e.repeat) return;
           e.preventDefault();
           if (audio.paused) {
             audio.play().catch(err => console.warn('[AIRSHOW][UI] Play rejected:', err));
@@ -3406,16 +3893,58 @@
           return;
         }
 
-        if (
-          (e.key === '/' && !['INPUT', 'TEXTAREA'].includes(document.activeElement?.tagName) && !document.activeElement?.isContentEditable) ||
-          ((e.metaKey || e.ctrlKey) && (e.key === 'k' || e.key === 'K'))
-        ) {
+        // 9. ArrowLeft / ArrowRight: Rewind / Fast-forward 5s (Shift for ±15s)
+        if (e.code === 'ArrowLeft') {
           e.preventDefault();
-          if (isCompactSearchActive() && searchBoxWrap) {
-            toggleMobileSearch(true);
+          const step = e.shiftKey ? 15 : 5;
+          const target = Math.max(0, audio.currentTime - step);
+          seekAndPlay(target);
+          return;
+        }
+        if (e.code === 'ArrowRight') {
+          e.preventDefault();
+          const step = e.shiftKey ? 15 : 5;
+          const maxSec = audio.duration || (currentEpisode ? currentEpisode.duration_sec : Infinity);
+          const target = Math.min(maxSec, audio.currentTime + step);
+          seekAndPlay(target);
+          return;
+        }
+
+        // 10. KeyR: Replay current active transcript item (jump back to start_sec or -5s)
+        if (e.code === 'KeyR' || e.key === 'r' || e.key === 'R') {
+          e.preventDefault();
+          let targetSec = -1;
+          if (lastActiveTranscriptIndex !== -1 && currentEpisode && currentEpisode.transcript && currentEpisode.transcript[lastActiveTranscriptIndex]) {
+            targetSec = currentEpisode.transcript[lastActiveTranscriptIndex].start_sec;
+          } else if (currentEpisode && currentEpisode.transcript && currentEpisode.transcript.length > 0) {
+            const foundIdx = binarySearchActiveIndex(currentEpisode.transcript, audio.currentTime);
+            if (foundIdx !== -1 && currentEpisode.transcript[foundIdx]) {
+              targetSec = currentEpisode.transcript[foundIdx].start_sec;
+            }
           }
-          searchInput.focus();
-          searchInput.select();
+          if (targetSec >= 0) {
+            seekAndPlay(targetSec);
+          } else {
+            seekAndPlay(Math.max(0, audio.currentTime - 5));
+          }
+          return;
+        }
+
+        // 11. KeyL: Toggle single-sentence loop for current active transcript item
+        if (e.code === 'KeyL' || e.key === 'l' || e.key === 'L') {
+          e.preventDefault();
+          if (loopState.active) {
+            exitSentenceLoop();
+          } else {
+            let targetIdx = lastActiveTranscriptIndex;
+            if (targetIdx === -1 && currentEpisode && currentEpisode.transcript && currentEpisode.transcript.length > 0) {
+              targetIdx = binarySearchActiveIndex(currentEpisode.transcript, audio.currentTime);
+            }
+            if (targetIdx !== -1) {
+              startSentenceLoop(targetIdx);
+            }
+          }
+          return;
         }
       });
 
@@ -3607,6 +4136,8 @@
 
         // Pause player and reset playback state
         throttleSaveProgress(true);
+        exitSentenceLoop();
+        clearRevealedStates();
         audio.pause();
         audio.removeAttribute('src');
         audio.load();
@@ -3805,6 +4336,8 @@
 
       function selectEpisode(show, epMeta) {
         throttleSaveProgress(true);
+        exitSentenceLoop();
+        clearRevealedStates();
         currentLoadingGuid = epMeta.guid;
         currentRequestSeq++;
         const thisSeq = currentRequestSeq;
@@ -4070,6 +4603,9 @@
           }
 
           card.addEventListener('click', () => {
+            if (loopState.active) {
+              exitSentenceLoop();
+            }
             seekAndPlay(hl.start_sec);
           });
 
@@ -4078,6 +4614,176 @@
         });
 
         renderChapterMarkers(highlights);
+      }
+
+      // ======================================================================
+      // M8-A: Blur Listening, Sentence Loop & Desktop Shortcuts Logic
+      // ======================================================================
+
+      function setBlurMode(mode, save = true) {
+        if (!['off', 'zh', 'both'].includes(mode)) mode = 'off';
+        currentBlurMode = mode;
+        if (save) {
+          try {
+            localStorage.setItem(BLUR_STORAGE_KEY, mode);
+          } catch (e) {
+            console.warn('[AIRSHOW][Blur] Failed to save to localStorage:', e);
+          }
+        }
+        document.body.setAttribute('data-blur-mode', mode);
+
+        blurSegmentBtns.forEach(btn => {
+          btn.classList.toggle('active', btn.dataset.blur === mode);
+        });
+
+        clearRevealedStates();
+      }
+
+      function cycleBlurMode() {
+        const modes = ['off', 'zh', 'both'];
+        const curIdx = modes.indexOf(currentBlurMode);
+        const nextMode = modes[(curIdx + 1) % modes.length];
+        setBlurMode(nextMode, true);
+      }
+
+      function clearRevealedStates() {
+        if (!transcriptContainer) return;
+        const revealedEls = transcriptContainer.querySelectorAll('.is-revealed');
+        revealedEls.forEach(el => el.classList.remove('is-revealed'));
+      }
+
+      function initBlurMode() {
+        let saved = 'off';
+        try {
+          saved = localStorage.getItem(BLUR_STORAGE_KEY) || 'off';
+        } catch (e) {
+          console.warn('[AIRSHOW][Blur] Failed to read localStorage:', e);
+        }
+        if (!['off', 'zh', 'both'].includes(saved)) {
+          saved = 'off';
+        }
+        setBlurMode(saved, false);
+
+        blurSegmentBtns.forEach(btn => {
+          btn.addEventListener('click', () => {
+            setBlurMode(btn.dataset.blur, true);
+          });
+        });
+      }
+
+      function handleTranscriptTextClick(e, lang) {
+        const row = this.closest('.transcript-item');
+        if (row && row.classList.contains('has-search-match')) {
+          return;
+        }
+        const isTargetBlurred = (currentBlurMode === 'both') || (currentBlurMode === 'zh' && lang === 'zh');
+        if (isTargetBlurred) {
+          e.stopPropagation();
+          this.classList.toggle('is-revealed');
+        }
+      }
+
+      function startSentenceLoop(idx) {
+        if (!currentEpisode || !currentEpisode.transcript || !currentEpisode.transcript[idx]) return;
+        const tr = currentEpisode.transcript;
+        const item = tr[idx];
+        const startSec = item.start_sec;
+        let endSec = (idx + 1 < tr.length) ? tr[idx + 1].start_sec : (audio.duration || currentEpisode.duration_sec || (startSec + 3));
+        if (!Number.isFinite(endSec) || (endSec - startSec < 1.5)) {
+          endSec = startSec + 3;
+        }
+
+        // Clear previous loop classes
+        transcriptElements.forEach((el) => {
+          el.classList.remove('is-looping');
+          const b = el.querySelector('.btn-sentence-loop');
+          if (b) b.classList.remove('is-looping');
+        });
+
+        loopState = {
+          active: true,
+          index: idx,
+          startSec: startSec,
+          endSec: endSec
+        };
+
+        if (transcriptElements[idx]) {
+          transcriptElements[idx].classList.add('is-looping');
+          const curBtn = transcriptElements[idx].querySelector('.btn-sentence-loop');
+          if (curBtn) curBtn.classList.add('is-looping');
+        }
+
+        if (loopBanner && loopBannerText) {
+          const idxStr = '#' + String(idx + 1).padStart(3, '0');
+          const rangeStr = `${formatTime(startSec)}–${formatTime(endSec)}`;
+          loopBannerText.textContent = `复读中 ${idxStr} · ${rangeStr}`;
+          loopBanner.style.display = 'flex';
+        }
+
+        seekAndPlay(startSec);
+      }
+
+      function exitSentenceLoop() {
+        if (!loopState.active) return;
+        loopState = {
+          active: false,
+          index: -1,
+          startSec: 0,
+          endSec: 0
+        };
+        transcriptElements.forEach((el) => {
+          el.classList.remove('is-looping');
+          const b = el.querySelector('.btn-sentence-loop');
+          if (b) b.classList.remove('is-looping');
+        });
+        if (loopBanner) {
+          loopBanner.style.display = 'none';
+        }
+      }
+
+      function toggleSentenceLoop(idx) {
+        if (loopState.active && loopState.index === idx) {
+          exitSentenceLoop();
+        } else {
+          startSentenceLoop(idx);
+        }
+      }
+
+      if (btnLoopExit) {
+        btnLoopExit.addEventListener('click', exitSentenceLoop);
+      }
+
+      function openShortcutsModal() {
+        if (shortcutsModal) shortcutsModal.classList.add('visible');
+        if (shortcutsBackdrop) shortcutsBackdrop.classList.add('visible');
+        if (btnKeyboardShortcuts) btnKeyboardShortcuts.classList.add('active');
+      }
+
+      function closeShortcutsModal() {
+        if (shortcutsModal) shortcutsModal.classList.remove('visible');
+        if (shortcutsBackdrop) shortcutsBackdrop.classList.remove('visible');
+        if (btnKeyboardShortcuts) btnKeyboardShortcuts.classList.remove('active');
+      }
+
+      function toggleShortcutsModal() {
+        if (shortcutsModal && shortcutsModal.classList.contains('visible')) {
+          closeShortcutsModal();
+        } else {
+          openShortcutsModal();
+        }
+      }
+
+      if (btnKeyboardShortcuts) {
+        btnKeyboardShortcuts.addEventListener('click', (e) => {
+          e.stopPropagation();
+          toggleShortcutsModal();
+        });
+      }
+      if (shortcutsCloseBtn) {
+        shortcutsCloseBtn.addEventListener('click', closeShortcutsModal);
+      }
+      if (shortcutsBackdrop) {
+        shortcutsBackdrop.addEventListener('click', closeShortcutsModal);
       }
 
       function renderTranscript(transcript) {
@@ -4115,23 +4821,62 @@
           `;
           timeBtn.addEventListener('click', (e) => {
             e.stopPropagation();
+            if (loopState.active && loopState.index !== idx) {
+              exitSentenceLoop();
+            }
             seekAndPlay(item.start_sec);
           });
           metaLeft.appendChild(timeBtn);
+
+          // M8-A Single-Sentence Loop Button
+          const loopBtn = document.createElement('button');
+          loopBtn.type = 'button';
+          loopBtn.className = 'btn-sentence-loop';
+          loopBtn.title = '单句复读';
+          loopBtn.setAttribute('aria-label', '单句复读');
+          loopBtn.innerHTML = `
+            <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <polyline points="17 1 21 5 17 9"></polyline>
+              <path d="M3 11V9a4 4 0 0 1 4-4h14"></path>
+              <polyline points="7 23 3 19 7 15"></polyline>
+              <path d="M21 13v2a4 4 0 0 1-4 4H3"></path>
+            </svg>
+          `;
+          loopBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            toggleSentenceLoop(idx);
+          });
+          metaLeft.appendChild(loopBtn);
+
           meta.appendChild(metaLeft);
           row.appendChild(meta);
 
           const enText = document.createElement('div');
           enText.className = 'transcript-en';
           enText.textContent = item.en || '';
+          enText.addEventListener('click', (e) => {
+            handleTranscriptTextClick.call(enText, e, 'en');
+          });
           row.appendChild(enText);
 
           const zhText = document.createElement('div');
           zhText.className = 'transcript-zh';
           zhText.textContent = item.zh || '';
+          zhText.addEventListener('click', (e) => {
+            handleTranscriptTextClick.call(zhText, e, 'zh');
+          });
           row.appendChild(zhText);
 
+          // Sync loop active state if re-rendered
+          if (loopState.active && loopState.index === idx) {
+            row.classList.add('is-looping');
+            loopBtn.classList.add('is-looping');
+          }
+
           row.addEventListener('click', () => {
+            if (loopState.active && loopState.index !== idx) {
+              exitSentenceLoop();
+            }
             seekAndPlay(item.start_sec);
           });
 
@@ -4225,6 +4970,16 @@
 
         throttleSaveProgress(false);
         updateMediaPositionState();
+
+        // M8-A: Single-Sentence Loop driving
+        if (loopState.active) {
+          if (curTime >= loopState.endSec - 0.15) {
+            audio.currentTime = loopState.startSec;
+            if (audio.paused) {
+              audio.play().catch(err => console.warn('[AIRSHOW][UI] Loop play rejected:', err));
+            }
+          }
+        }
 
         const activeTrIdx = binarySearchActiveIndex(currentEpisode.transcript, curTime);
         if (activeTrIdx !== lastActiveTranscriptIndex) {
@@ -4386,6 +5141,7 @@
 
           transcriptElements.forEach((el, idx) => {
             el.classList.remove('is-search-hidden');
+            el.classList.remove('has-search-match');
             const item = (currentEpisode.transcript || [])[idx];
             if (item) {
               const enEl = el.querySelector('.transcript-en');
@@ -4427,12 +5183,14 @@
           if (matchEn || matchZh || matchSpk) {
             transcriptMatchCount++;
             el.classList.remove('is-search-hidden');
+            el.classList.add('has-search-match');
             const enEl = el.querySelector('.transcript-en');
             const zhEl = el.querySelector('.transcript-zh');
             if (enEl) enEl.innerHTML = highlightTextMatches(item.en, query);
             if (zhEl) zhEl.innerHTML = highlightTextMatches(item.zh, query);
           } else {
             el.classList.add('is-search-hidden');
+            el.classList.remove('has-search-match');
           }
         });
 
@@ -4525,6 +5283,8 @@
 
       async function initApp() {
         console.log('[AIRSHOW][UI] Initializing application...');
+        exitSentenceLoop();
+        clearRevealedStates();
         loadingState.style.display = 'flex';
         errorState.style.display = 'none';
         emptyState.style.display = 'none';
@@ -4579,6 +5339,7 @@
 
       initTheme();
       initLanguageMode();
+      initBlurMode();
       initMediaSessionActionHandlers();
       registerServiceWorker();
       initApp();
