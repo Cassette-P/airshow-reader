@@ -1350,6 +1350,12 @@
   "show_id": "airshow",
   "vocab_notes": [
     {
+      "term": "shtick",
+      "meaning_zh": "招牌套路；人设标签；固定把戏（逐字稿误作 stick）",
+      "note_zh": "指某人一贯的独特风格或表演人设，节目中主播自嘲经常言辞尖锐、走夸张路线是自己的固定风格。",
+      "start_sec": 302
+    },
+    {
       "term": "dog and pony show",
       "meaning_zh": "精心策划的宣传噱头；做秀展示",
       "note_zh": "常用于带贬义地形容公司为推广新产品或吸引媒体关注而举办的华丽巡展或发布会。",
@@ -1374,28 +1380,22 @@
       "start_sec": 720
     },
     {
-      "term": "stick",
-      "meaning_zh": "招牌套路；人设标签（shtick 的异体字）",
-      "note_zh": "指某人一贯的独特风格或表演人设，节目中主播自嘲经常言辞尖锐、走夸张路线是自己的固定风格。",
-      "start_sec": 302
-    },
-    {
       "term": "Kangaroo route",
       "meaning_zh": "袋鼠航线",
       "note_zh": "航空业专有名词，特指连接英国/欧洲与澳大利亚之间的传统越洋航线，中途常在新加坡、中东等地中转。",
       "start_sec": 1464
     },
     {
-      "term": "super twin",
-      "meaning_zh": "超大型双发宽体客机",
-      "note_zh": "专指波音 777-9 等新一代双发远程大型宽体机，旨在逐步替代老旧的 A380 或 747 等四发巨无霸。",
-      "start_sec": 1878
-    },
-    {
       "term": "Fifth Freedom",
       "meaning_zh": "第五航权（第三国运输权）",
       "note_zh": "民航核心专业术语，允许某国航司在经停本国之外的两个外国城市之间上下客货（如新航运营的纽约-法兰克福航线）。",
       "start_sec": 1703
+    },
+    {
+      "term": "super twin",
+      "meaning_zh": "超大型双发宽体客机",
+      "note_zh": "专指波音 777-9 等新一代双发远程大型宽体机，旨在逐步替代老旧的 A380 或 747 等四发巨无霸。",
+      "start_sec": 1878
     }
   ],
   "references": [
@@ -1412,20 +1412,6 @@
       "category": "media",
       "note_zh": "Jon 参加的纽约航空行业论坛，期间多位航司高管对新航新客舱的设计不一致性表达了批评。",
       "start_sec": 400
-    },
-    {
-      "title": "SkyGo",
-      "creator": "SkyGo",
-      "category": "other",
-      "note_zh": "本期赞助商之一，一款集成数十年民航网络、机场航班时刻与机队分析数据的移动分析工具。",
-      "start_sec": 1269
-    },
-    {
-      "title": "Flex Pay",
-      "creator": "Upgrade Inc.",
-      "category": "other",
-      "note_zh": "本期赞助商之一，为航司提供分期付款支付方案以减缓旅客票价冲击并提升转化率的金融工具。",
-      "start_sec": 1324
     },
     {
       "title": "Cirium",

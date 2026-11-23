@@ -1298,12 +1298,12 @@ def run_channel_a(
         "   - title_zh: concise Chinese topic title (strictly 15 Chinese characters or fewer).\n"
         "   - summary_zh: 2-3 sentence Chinese explanation of key arguments or data points.\n"
         "   - quote_en: short direct English quote from the speaker in that segment.\n"
-        "4. vocab_notes: Select 6 to 10 high-value English vocabulary terms, idioms, colloquial expressions, or industry jargon that appear in this episode. For each item:\n"
-        "   - term: original English word, phrase, idiom, or industry jargon.\n"
+        "4. vocab_notes: Select 6 to 10 high-value English vocabulary terms, idioms, colloquial expressions, or industry jargon that appear in this episode. If there is an obvious ASR/transcription error in the transcript (e.g., 'stick' transcribed instead of 'shtick'), directly correct 'term' to the standard, proper English spelling. For each item:\n"
+        "   - term: original English word, phrase, idiom, or industry jargon (standardized spelling).\n"
         "   - meaning_zh: concise and accurate Chinese contextual definition.\n"
         "   - note_zh: one-sentence note on idiomatic usage, industry/policy background, or nuance differences.\n"
         "   - start_sec: integer seconds where it is first or most typically uttered in the transcript (within [0, duration_sec]).\n"
-        "5. references: 0 to 10 books, articles, research reports, podcasts/media, or tools explicitly mentioned or recommended in the episode or show notes (quality over quantity; return empty list [] if none explicitly referenced). For each item:\n"
+        "5. references: 0 to 10 books, articles, research reports, podcasts/media, or data platforms/tools genuinely discussed, cited, or recommended by hosts or guests (quality over quantity; return empty list [] if none explicitly referenced). CRITICAL REDLINE: STRICTLY PROHIBITED from including podcast sponsors, commercial ads, or paid sponsor reads (sponsor / ad read / promo discounts). Only include works, media, reports, or tools organically discussed in the actual conversation or end-of-episode recommendations. For each item:\n"
         "   - title: title of the work, retaining accurate English original name (well-established Chinese translation may be added in parentheses; do not invent translations).\n"
         "   - creator: author, institution, director, or publisher (empty string \"\" if unknown).\n"
         "   - category: one of 'book', 'article', 'media', 'other'.\n"
@@ -1368,6 +1368,7 @@ def run_channel_a(
         })
     if len(vocab_notes) > 10:
         vocab_notes = vocab_notes[:10]
+    vocab_notes.sort(key=lambda x: x["start_sec"])
 
     references = []
     for r in parsed_resp.references:
@@ -1387,6 +1388,7 @@ def run_channel_a(
         })
     if len(references) > 10:
         references = references[:10]
+    references.sort(key=lambda x: (x["start_sec"] is None, x["start_sec"] if x["start_sec"] is not None else 0))
 
     result = {
         "summary_zh": parsed_resp.summary_zh.strip(),
@@ -1786,12 +1788,12 @@ def run_enrichment_pipeline(args, config: dict) -> None:
                     f"You are an expert podcast knowledge curator and terminologist for '{show.get('title', '')}' ({show.get('subtitle', '')}).\n"
                     "Analyze the provided timestamped podcast transcript, episode show notes, and terminology glossary to extract high-value vocabulary notes and referenced works/media.\n\n"
                     "Requirements:\n"
-                    "1. vocab_notes: Select 6 to 10 high-value English vocabulary terms, idioms, colloquial expressions, or industry jargon that appear in this episode. For each item:\n"
-                    "   - term: original English word, phrase, idiom, or industry jargon.\n"
+                    "1. vocab_notes: Select 6 to 10 high-value English vocabulary terms, idioms, colloquial expressions, or industry jargon that appear in this episode. If there is an obvious ASR/transcription error in the transcript (e.g., 'stick' transcribed instead of 'shtick'), directly correct 'term' to the standard, proper English spelling. For each item:\n"
+                    "   - term: original English word, phrase, idiom, or industry jargon (standardized spelling).\n"
                     "   - meaning_zh: concise and accurate Chinese contextual definition.\n"
                     "   - note_zh: one-sentence note on idiomatic usage, industry/policy background, or nuance differences.\n"
                     "   - start_sec: integer seconds where it is first or most typically uttered in the transcript (must fall within [0, duration_sec]). Timestamps in transcript are formatted as [MM:SS] or [HH:MM:SS]; convert to total seconds (e.g. [01:30] -> 90).\n"
-                    "2. references: 0 to 10 books, articles, research reports, podcasts/media, or tools explicitly mentioned or recommended in the episode or show notes (quality over quantity; return empty list [] if none explicitly referenced). For each item:\n"
+                    "2. references: 0 to 10 books, articles, research reports, podcasts/media, or data platforms/tools genuinely discussed, cited, or recommended by hosts or guests (quality over quantity; return empty list [] if none explicitly referenced). CRITICAL REDLINE: STRICTLY PROHIBITED from including podcast sponsors, commercial ads, or paid sponsor reads (sponsor / ad read / promo discounts). Only include works, media, reports, or tools organically discussed in the actual conversation or end-of-episode recommendations. For each item:\n"
                     "   - title: title of the work, retaining accurate English original name (well-established Chinese translation may be added in parentheses; do not invent translations).\n"
                     "   - creator: author, institution, director, or publisher (empty string \"\" if unknown).\n"
                     "   - category: one of 'book', 'article', 'media', 'other'.\n"
@@ -1838,6 +1840,7 @@ def run_enrichment_pipeline(args, config: dict) -> None:
                     })
                 if len(vocab_notes) > 10:
                     vocab_notes = vocab_notes[:10]
+                vocab_notes.sort(key=lambda x: x["start_sec"])
 
                 references = []
                 for r in parsed_resp.references:
@@ -1857,6 +1860,7 @@ def run_enrichment_pipeline(args, config: dict) -> None:
                     })
                 if len(references) > 10:
                     references = references[:10]
+                references.sort(key=lambda x: (x["start_sec"] is None, x["start_sec"] if x["start_sec"] is not None else 0))
 
                 # Merge ONLY vocab_notes and references into ep_data, leaving all existing fields untouched
                 ep_data["vocab_notes"] = vocab_notes
