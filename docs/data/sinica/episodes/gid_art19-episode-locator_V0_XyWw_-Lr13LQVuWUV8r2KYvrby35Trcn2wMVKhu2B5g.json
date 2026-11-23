@@ -2024,5 +2024,113 @@
       "en": "Welcome to the Sinica Podcast, a weekly discussion of current affairs in China, produced by The China Project. I'm Kaiser Kuo, coming to you from Chapel Hill, North Carolina.",
       "zh": "欢迎收听 Sinica 播客，这是一档由 The China Project 制作的关于中国时事的周播节目。我是 Kaiser Kuo，在北卡罗来纳州教堂山向大家致意。"
     }
+  ],
+  "vocab_notes": [
+    {
+      "term": "action-reaction spiral",
+      "meaning_zh": "行动-反应螺旋 / 互动升级螺旋",
+      "note_zh": "国际关系理论中用于描述双方因误解或安全困境而针锋相对、不断升级对抗的动态机制。",
+      "start_sec": 416
+    },
+    {
+      "term": "threat inflation",
+      "meaning_zh": "威胁夸大 / 威胁通胀",
+      "note_zh": "指战略决策圈将外部对手的意图和能力过度夸张、将其动机过度恶意化以服务内部政策议程的现象。",
+      "start_sec": 768
+    },
+    {
+      "term": "de rigueur",
+      "meaning_zh": "司空见惯的；社交或圈子中不可或缺的",
+      "note_zh": "源自法语，常用于形容华盛顿政策圈某种几乎成为默认共识、人人挂在嘴边的言论或态度。",
+      "start_sec": 940
+    },
+    {
+      "term": "cabbage and dirt",
+      "meaning_zh": "白菜价和泥土价（贱卖）",
+      "note_zh": "国内稀土产业早期恶性竞争、低价出口战略资源时的形象自嘲表达（‘稀土卖出白菜价’）。",
+      "start_sec": 1095
+    },
+    {
+      "term": "bureaucratic pile-up",
+      "meaning_zh": "官僚机构连环拥堵 / 行政积压瘫痪",
+      "note_zh": "形容政策骤然收紧后审批部门由于人手严重短缺、大量许可证申请挤压造成的行政系统性停摆。",
+      "start_sec": 2724
+    },
+    {
+      "term": "extraterritorial regime",
+      "meaning_zh": "域外管辖机制（长臂管辖体系）",
+      "note_zh": "指一国将本国出口管制或安全法规扩展适用于全球其他国家实体与交易的法律制度框架。",
+      "start_sec": 2914
+    },
+    {
+      "term": "mutually assured disruption",
+      "meaning_zh": "相互保证中断 / 相互保证扰乱",
+      "note_zh": "化用冷战核威慑术语‘相互保证毁灭’（MAD），形容中美在供应链和关键技术上互相握有卡脖子筹码的威慑均势。",
+      "start_sec": 3240
+    },
+    {
+      "term": "positive reciprocity",
+      "meaning_zh": "正向互惠 / 积极对等",
+      "note_zh": "区别于报复性反制，主张通过双向市场开放、技术许可与互利合作来稳定双边经贸关系。",
+      "start_sec": 3765
+    }
+  ],
+  "references": [
+    {
+      "title": "Rare Earth Frontiers: From Terrestrial Subsoils to Lunar Landscapes",
+      "creator": "Julie Michelle Klinger",
+      "category": "book",
+      "note_zh": "关于稀土开采历史与全球地缘环境政治的开创性学术专著，节目中多处引用其一手调研。",
+      "start_sec": 337
+    },
+    {
+      "title": "How China Found Its Most Potent Weapon: The Real History of Beijing's Rare Earth Dominance",
+      "creator": "Gloria Xiong & Jessica Chen Weiss",
+      "category": "article",
+      "note_zh": "本期节目的核心讨论论文，重新审视中国在稀土领域的主导地位形成史与地缘政治互动。",
+      "start_sec": 546
+    },
+    {
+      "title": "Powerful Patriots: Nationalist Protest in China's Foreign Relations",
+      "creator": "Jessica Chen Weiss",
+      "category": "book",
+      "note_zh": "Jessica Chen Weiss 的第一本专著，探讨中国政府如何管理并利用自下而上的民族主义抗议情绪。",
+      "start_sec": 1740
+    },
+    {
+      "title": "Politicizing Business: How Firms Are Made to Serve the Party-State in China",
+      "creator": "Ning Leng",
+      "category": "book",
+      "note_zh": "Gloria Xiong 在薪火相传环节推荐的关于中国企业与党国体制关系的获奖专著。",
+      "start_sec": 4195
+    },
+    {
+      "title": "Healing the Heart of Democracy: The Courage to Create a Politics Worthy of the Human Spirit",
+      "creator": "Parker J. Palmer",
+      "category": "book",
+      "note_zh": "Gloria Xiong 推荐的探讨社区精神与民主政治人文本质的经典著作。",
+      "start_sec": 4350
+    },
+    {
+      "title": "The Scientist and the Spy: A True Story of China, the FBI, and Industrial Espionage",
+      "creator": "Mara Hvistendahl",
+      "category": "book",
+      "note_zh": "Jessica Chen Weiss 推荐的关于中美产业间谍案及美国过度反应与比例原则反思的纪实作品。",
+      "start_sec": 4403
+    },
+    {
+      "title": "The Whistlers",
+      "creator": "Ann Patchett",
+      "category": "book",
+      "note_zh": "Jessica Chen Weiss 推荐的虚构文学作品。",
+      "start_sec": 4450
+    },
+    {
+      "title": "Angle of Repose",
+      "creator": "Wallace Stegner",
+      "category": "book",
+      "note_zh": "Kaiser Kuo 推荐的1972年普利策奖获奖小说，借19世纪西部采矿背景刻画复杂人性与历史记忆。",
+      "start_sec": 4492
+    }
   ]
 }

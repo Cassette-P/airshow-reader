@@ -2290,5 +2290,100 @@
       "en": "Email me at sinicapod@gmail.com if you've got ideas on how you can help out with the show. Don't forget to leave a review on Apple Podcasts. Huge thanks to my guest, Dr. Ruby Wang. Thanks for listening, and we'll see you next week. Take care.",
       "zh": "如果您对支持本节目有任何想法，欢迎发送邮件至 sinicapod@gmail.com。别忘了在 Apple Podcasts 上留下您的好评。非常感谢本期嘉宾 Ruby Wang 博士。感谢您的收听，我们下周再见。保重。"
     }
+  ],
+  "vocab_notes": [
+    {
+      "term": "biologics",
+      "meaning_zh": "生物制剂",
+      "note_zh": "利用活细胞等生物技术制成的大分子复杂药物（如单抗、ADC、细胞疗法等），与传统化学小分子药物相对。",
+      "start_sec": 305
+    },
+    {
+      "term": "out-licensing",
+      "meaning_zh": "对外授权许可",
+      "note_zh": "指医药研发企业将自主研发的新药或候选分子的商业化、临床开发等权益授权给跨国药企，中国生物科技企业近年来在该领域交易额激增。",
+      "start_sec": 360
+    },
+    {
+      "term": "first-in-class",
+      "meaning_zh": "首创药 / 同类首创",
+      "note_zh": "指具备全新独特作用机制或全新靶点的开创性新药，是衡量制药创新力而非模仿（copycat）的核心指标。",
+      "start_sec": 2710
+    },
+    {
+      "term": "patent cliff",
+      "meaning_zh": "专利悬崖",
+      "note_zh": "指原研重磅药物专利到期后，仿制药迅速涌入市场导致原研药企收入出现断崖式下跌的行业现象。",
+      "start_sec": 3169
+    },
+    {
+      "term": "medical tourism",
+      "meaning_zh": "医疗旅游 / 跨国就医",
+      "note_zh": "患者为了寻求更高性价比、更快审批或先进疗法而跨国看病的现象；本集提及部分美国患者开始前往中国接受高水平医疗服务。",
+      "start_sec": 3298
+    },
+    {
+      "term": "eating bitterness",
+      "meaning_zh": "吃苦",
+      "note_zh": "直译自中文“吃苦”，指承受极度的艰辛与自我牺牲，用于形容中国公立医院临床医生的职业处境。",
+      "start_sec": 4115
+    },
+    {
+      "term": "ward round",
+      "meaning_zh": "查房",
+      "note_zh": "临床医学术语，指主治医生带领医护团队在住院部病房巡视并评估患者病情的日常工作。",
+      "start_sec": 4310
+    }
+  ],
+  "references": [
+    {
+      "title": "China Health Pulse",
+      "creator": "Ruby Wang",
+      "category": "media",
+      "note_zh": "Ruby Wang 创办的中国医疗健康领域专业 Substack 通讯与播客。",
+      "start_sec": 476
+    },
+    {
+      "title": "China Cure: The Rise of a Biotech, AI Medicine and Global Health Superpower",
+      "creator": "Ruby Wang",
+      "category": "book",
+      "note_zh": "本期嘉宾 Ruby Wang 撰写的新书，全面梳理中国从赤脚医生到生物医药、医疗AI与全球卫生超级大国的跃迁历程。",
+      "start_sec": 510
+    },
+    {
+      "title": "High Capacity",
+      "creator": "Kyle Chan",
+      "category": "media",
+      "note_zh": "Kyle Chan 主持的技术与产业播客，曾邀请 Ruby Wang 深入探讨中国的互联网医院、医疗数据与临床AI。",
+      "start_sec": 540
+    },
+    {
+      "title": "The Concurrent",
+      "creator": "Afra Wang",
+      "category": "other",
+      "note_zh": "独立记者 Afra Wang 撰写的 Substack 通讯，从人文与文化维度剖析科技趋势与社会议题。",
+      "start_sec": 4616
+    },
+    {
+      "title": "Deep China: The Moral Life of the Person: What Anthropology and Psychiatry Tell Us about China Today",
+      "creator": "Arthur Kleinman 等",
+      "category": "book",
+      "note_zh": "Ruby Wang 推荐的人类学著作，探讨中国急剧社会变迁中疾病、精神健康与道德自我的演变。",
+      "start_sec": 4740
+    },
+    {
+      "title": "Augustus",
+      "creator": "John Williams",
+      "category": "book",
+      "note_zh": "Kaiser Kuo 推荐的历史书信体小说，以克制而多声部的笔法勾勒罗马帝国开国皇帝奥古斯都的生平。",
+      "start_sec": 4811
+    },
+    {
+      "title": "The Ezra Klein Show (Episode with Matt Sheehan)",
+      "creator": "Ezra Klein & Matt Sheehan",
+      "category": "media",
+      "note_zh": "Kaiser Kuo 强烈推荐的播客单集，深入解析AI安全前沿以及中美双边地缘政治博弈。",
+      "start_sec": 4937
+    }
   ]
 }

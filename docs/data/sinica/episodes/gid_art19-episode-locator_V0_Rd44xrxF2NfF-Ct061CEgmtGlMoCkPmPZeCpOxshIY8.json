@@ -2255,5 +2255,106 @@
       "en": "You've been listening to the Sinica Podcast. The show is produced, recorded, engineered, edited, and mastered by me, Kaiser Kuo. Support the show through Substack at sinicapodcast.com, where you will find a growing offering of terrific original China-related writing and audio. Email me at sinicapod@gmail.com if you've got ideas on how you can help out with the show. Don't forget to leave a review on Apple Podcasts. Huge thanks to my guest, Tim Clissold, 'Mr. China' himself. Thanks for listening, and we'll see you next week. Take care.",
       "zh": "您收听的是 Sinica Podcast。本节目由我 Kaiser Kuo 制作、录音、工程、剪辑并完成母带处理。欢迎通过 Substack 平台访问 sinicapodcast.com 支持本节目，在那里您可以获取越来越多优质的涉华原创图文及音频内容。如果您对协助节目的发展有任何想法，欢迎发邮件至 sinicapod@gmail.com。别忘了在 Apple Podcasts 上留下好评。非常感谢今天的嘉宾，《中国通》的作者 Tim Clissold 本人。感谢收听，我们下周再见，保重。"
     }
+  ],
+  "vocab_notes": [
+    {
+      "term": "tragicomedy",
+      "meaning_zh": "悲喜剧",
+      "note_zh": "用于形容兼具滑稽讽刺与残酷挫折感的经历或作品，常指外企早期在华投资遭遇的荒诞现实。",
+      "start_sec": 99
+    },
+    {
+      "term": "incuriosity",
+      "meaning_zh": "缺乏好奇心；漠不关心",
+      "note_zh": "指大国或优势地位一方往往因自满而对外部或较弱一方缺乏探索和了解的动力。",
+      "start_sec": 577
+    },
+    {
+      "term": "over-egg",
+      "meaning_zh": "夸大；渲染过度；做过头",
+      "note_zh": "源自英式习语'over-egg the pudding'，意为添枝加叶反而坏事，在此指不应过分生硬类比历史。",
+      "start_sec": 651
+    },
+    {
+      "term": "forcing function",
+      "meaning_zh": "驱动因素；强约束驱动机制",
+      "note_zh": "原为工程与交互设计术语，现广泛用于地缘政治和战略分析中指代逼迫各方必须采取行动的决定性事件。",
+      "start_sec": 1090
+    },
+    {
+      "term": "procedural democracy",
+      "meaning_zh": "程序性民主",
+      "note_zh": "政治学概念，指侧重选举、制衡与法定程序的民主运作模式，与强调实质绩效的治理形成对比。",
+      "start_sec": 1244
+    },
+    {
+      "term": "co-terminus",
+      "meaning_zh": "相一致的；相重合的；同步演进的",
+      "note_zh": "通常拼写作coterminous，在商业投资中指企业发展方向与政府长远产业规划或五年规划步调高度契合。",
+      "start_sec": 1746
+    },
+    {
+      "term": "pushing water uphill",
+      "meaning_zh": "逆水行舟；徒劳无功的事",
+      "note_zh": "英国常用生动比喻，形容在缺乏制度或社会土壤的情况下推行某项举措极其艰难、收效甚微。",
+      "start_sec": 2399
+    },
+    {
+      "term": "on the nose",
+      "meaning_zh": "过于直白；直截了当；不含蓄",
+      "note_zh": "文学与文艺批评常用语，指隐喻或象征手法表达得太直白刻意、缺乏微妙感。",
+      "start_sec": 4119
+    }
+  ],
+  "references": [
+    {
+      "title": "Mr. China (中国通)",
+      "creator": "Tim Clissold",
+      "category": "book",
+      "note_zh": "Tim Clissold畅销经典之作，记录了20世纪90年代管理数亿美元外资与中国合资企业打交道的商业历程。",
+      "start_sec": 84
+    },
+    {
+      "title": "Teach the People: How to Narrow the Knowledge Gap Between China and the West",
+      "creator": "Tim Clissold",
+      "category": "book",
+      "note_zh": "嘉宾Tim Clissold即将出版的新书，论述西方与中国之间的认知差距及其对国家安全和长期竞争的影响。",
+      "start_sec": 192
+    },
+    {
+      "title": "The Theory of Moral Sentiments (道德情操论)",
+      "creator": "Adam Smith",
+      "category": "book",
+      "note_zh": "温家宝访英时曾引用的亚当·斯密伦理学著作，节目借此论证中国高层对西方思想的涉猎深于西方对中国的了解。",
+      "start_sec": 384
+    },
+    {
+      "title": "The Great Reckoning",
+      "creator": "Kaiser Kuo",
+      "category": "article",
+      "note_zh": "主播Kaiser撰写的深度长文，探讨当西方不再主导现代性时所面临的系统性认知冲击。",
+      "start_sec": 746
+    },
+    {
+      "title": "Bleak House (荒凉山庄)",
+      "creator": "Charles Dickens",
+      "category": "book",
+      "note_zh": "Tim Clissold推荐的狄更斯小说，借荒唐漫长且耗尽当事人财富的诉讼戏谑繁琐司法体系。",
+      "start_sec": 3935
+    },
+    {
+      "title": "The Reluctant Fundamentalist (拉合尔茶馆的陌生人)",
+      "creator": "Mohsin Hamid",
+      "category": "book",
+      "note_zh": "Kaiser推荐的小说，以拉合尔茶馆里的独白形式探讨9·11后巴基斯坦精英对美国身份与价值观的审视与背离。",
+      "start_sec": 4041
+    },
+    {
+      "title": "Exit West (西退)",
+      "creator": "Mohsin Hamid",
+      "category": "book",
+      "note_zh": "Kaiser推荐的布克奖入围小说，采用魔幻现实主义的任意门意象描绘当代难民危机与流散体验。",
+      "start_sec": 4128
+    }
   ]
 }

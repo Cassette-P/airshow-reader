@@ -1381,5 +1381,85 @@
       "en": "Huge thanks to all the people who allowed me to stick a mic in their face and chat with them. Thanks for listening, and we'll see you next week. Take care.",
       "zh": "非常感谢所有愿意让我把麦克风递到面前并与我畅谈的朋友们。感谢您的收听，我们下周见。保重！"
     }
+  ],
+  "vocab_notes": [
+    {
+      "term": "raise hackles",
+      "meaning_zh": "令人不快；激怒；引人反感",
+      "note_zh": "源自动物颈部毛发立起的生理反应，常用于指某种观点、言论或行为触碰敏感神经、引发受众的抵触与反感。",
+      "start_sec": 180
+    },
+    {
+      "term": "BIPV (building-integrated photovoltaics)",
+      "meaning_zh": "光伏建筑一体化",
+      "note_zh": "清洁能源与建筑工程术语，指将太阳能光伏发电产品直接集成或整合为建筑物外立面、屋顶等建材的一部分。",
+      "start_sec": 584
+    },
+    {
+      "term": "terroir",
+      "meaning_zh": "风土条件；特定产区微气候与土壤特征",
+      "note_zh": "源自法语，原本专门用于葡萄酒品鉴，形容土壤、气候、日照等自然环境对作物品质风味的影响，后被延伸至精酿威士忌等烈酒领域。",
+      "start_sec": 932
+    },
+    {
+      "term": "third space",
+      "meaning_zh": "第三空间",
+      "note_zh": "社会学概念，指家庭（第一空间）和工作场所（第二空间）之外，供人们社交聚会、放松交流的公共或半公共场所（如酒吧、咖啡馆）。",
+      "start_sec": 1057
+    },
+    {
+      "term": "weaponized interdependence",
+      "meaning_zh": "武器化相互依赖",
+      "note_zh": "国际政治经济学前沿概念，指大国利用全球化网络中的不对称枢纽节点（如金融支付体系、关键技术供应链），将其转变为施加地缘政治强制力的工具。",
+      "start_sec": 1770
+    },
+    {
+      "term": "K-shaped economy",
+      "meaning_zh": "K型经济（分化）",
+      "note_zh": "宏观经济学术语，用来描述经济衰退或复苏过程中不同阶层、行业或群体走向极度分化（一部分快速上升、一部分持续下挫）。",
+      "start_sec": 1898
+    },
+    {
+      "term": "Three Red Lines",
+      "meaning_zh": "三道红线",
+      "note_zh": "中国央行和住建部于2020年出台的房企融资监管政策指标（剔除预收款后的资产负债率、净负债率、现金短债比），旨在防范房地产金融化泡沫风险。",
+      "start_sec": 2070
+    },
+    {
+      "term": "doorstop",
+      "meaning_zh": "大部头厚重书籍（俚语，字面意为‘门挡’）",
+      "note_zh": "英语出版与文学圈常用俗语，幽默地形容那些厚重、篇幅极其庞大的书，甚至重得可以拿来顶门挡风。",
+      "start_sec": 2613
+    }
+  ],
+  "references": [
+    {
+      "title": "How Africa Works",
+      "creator": "Joe Studwell",
+      "category": "book",
+      "note_zh": "Kaiser 为准备对 Joe Studwell 的专访而在北京咖啡馆研读该书，探讨非洲经济发展路径。",
+      "start_sec": 702
+    },
+    {
+      "title": "China's Millennials: The Want Generation",
+      "creator": "Eric Fish",
+      "category": "book",
+      "note_zh": "Kaiser 在午餐时提及前驻京记者 Eric Fish 此前撰写的关于中国千禧一代青年的代表性著作。",
+      "start_sec": 2340
+    },
+    {
+      "title": "The Master and Margarita (大师与玛格丽特)",
+      "creator": "Mikhail Bulgakov",
+      "category": "book",
+      "note_zh": "Kaiser 在结尾重磅推荐的俄罗斯经典讽刺奇幻小说，兼具深刻哲学思辨与滑稽幽默。",
+      "start_sec": 2560
+    },
+    {
+      "title": "Stalingrad",
+      "creator": "Vasily Grossman",
+      "category": "book",
+      "note_zh": "Kaiser 提到此前读过的一部关于斯大林格勒战役的厚重俄罗斯历史长篇巨作。",
+      "start_sec": 2616
+    }
   ]
 }

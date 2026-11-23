@@ -1052,5 +1052,92 @@
       "en": "Welcome to Sinica, a weekly discussion of current affairs in China, produced by Sinica Media.",
       "zh": "欢迎收听《Sinica》，这是一档由 Sinica Media 制作的中国时政周播访谈节目。"
     }
+  ],
+  "vocab_notes": [
+    {
+      "term": "condominium",
+      "meaning_zh": "共管；大国共治",
+      "note_zh": "地缘政治概念，特指美中两国共同主导或瓜分地区乃至全球事务的权力格局（类似于所谓的 G2 构想）。",
+      "start_sec": 845
+    },
+    {
+      "term": "first mover",
+      "meaning_zh": "先行者；率先行动国",
+      "note_zh": "指在跨太平洋伙伴关系协定（TPP）或数字经济协议（DEPA）等规则制定中，先于大国推动制度创新的中等强国。",
+      "start_sec": 948
+    },
+    {
+      "term": "strategic narcissist",
+      "meaning_zh": "战略自恋者",
+      "note_zh": "国际关系术语，形容大国往往从自身视角出发，将外部世界的一切动态都折射为与主要对手的竞争，忽视其他国家的主体性与诉求。",
+      "start_sec": 1150
+    },
+    {
+      "term": "securitize",
+      "meaning_zh": "安全化；泛安全化",
+      "note_zh": "指将原本属于经贸、投资、技术交流或人才流动的领域，全部提升并折射至国家安全层面的政策倾向。",
+      "start_sec": 1222
+    },
+    {
+      "term": "dual-use",
+      "meaning_zh": "军民两用",
+      "note_zh": "出口管制与高科技竞争的核心概念，指人工智能、生物技术或先进制程等既有民用商业价值又具军事战略潜力的技术。",
+      "start_sec": 1346
+    },
+    {
+      "term": "indigenize",
+      "meaning_zh": "本土化；自主化替代",
+      "note_zh": "特指面对外部出口管制与技术卡脖子时，中国加快关键核心技术国内自主研发与供应链国产替代的本能反应。",
+      "start_sec": 1427
+    },
+    {
+      "term": "middle power",
+      "meaning_zh": "中等强国",
+      "note_zh": "指加拿大、澳大利亚、日本等在国际舞台上不具备超级大国霸权，但拥有强大专业能力和议题引领潜力的国家。",
+      "start_sec": 2160
+    },
+    {
+      "term": "holding action",
+      "meaning_zh": "缓兵之计；拖延战术；防御性维稳行动",
+      "note_zh": "军事与外交术语，指在整体形势不利或陷入僵局时，通过维持现有机制与规则防止局面进一步恶化的维稳之举。",
+      "start_sec": 2577
+    }
+  ],
+  "references": [
+    {
+      "title": "Canada's Indo-Pacific Strategy",
+      "creator": "Government of Canada",
+      "category": "other",
+      "note_zh": "加拿大政府于2022年发布的印太战略文件，本集演讲即在此战略更新与落实的讨论背景下展开。",
+      "start_sec": 118
+    },
+    {
+      "title": "Trans-Pacific Partnership (TPP / CPTPP)",
+      "creator": "Comprehensive and Progressive Agreement for Trans-Pacific Partnership",
+      "category": "other",
+      "note_zh": "奥巴马时代力推、后由日本与澳大利亚等11国促成并扩展的跨太平洋多边自贸协定，常被用作中等强国主导规则制定的范例。",
+      "start_sec": 688
+    },
+    {
+      "title": "National Security Strategy of the United States",
+      "creator": "The White House",
+      "category": "other",
+      "note_zh": "Evan Feigenbaum 在演讲中引用的美国国家安全战略报告，指出其中高频强调美国在印太的“首要地位（primacy）”。",
+      "start_sec": 720
+    },
+    {
+      "title": "Hong Kong National Security Law (香港国安法)",
+      "creator": "Standing Committee of the National People's Congress",
+      "category": "other",
+      "note_zh": "Evan Feigenbaum 援引该法第29条第4款，说明中国如何将其长臂管辖与反制域外制裁写入法律。",
+      "start_sec": 2115
+    },
+    {
+      "title": "Digital Economy Partnership Agreement (DEPA)",
+      "creator": "Chile, New Zealand, Singapore",
+      "category": "other",
+      "note_zh": "智利、新西兰和新加坡率先发起的数字经济伙伴关系协定，被作为中小国家聚焦“功能”而非“形式”树立规则的典范。",
+      "start_sec": 2354
+    }
   ]
 }

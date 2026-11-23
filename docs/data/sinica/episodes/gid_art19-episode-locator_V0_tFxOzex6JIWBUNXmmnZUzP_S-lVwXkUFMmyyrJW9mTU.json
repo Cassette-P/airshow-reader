@@ -2711,5 +2711,106 @@
       "en": "Email me at sinicapod@gmail.com if you've got ideas on how you can help out with the show. Don't forget to leave a review on Apple Podcasts. Huge, huge thanks to my guest, Afra Wang. Thanks for listening, and we'll see you next week. Take care.",
       "zh": "如果您对如何支持本节目有任何想法，欢迎发邮件至 sinicapod@gmail.com。别忘了在 Apple Podcasts 上留下您的好评。非常感谢本期嘉宾 Afra Wang。感谢大家的收听，我们下周再见。保重。"
     }
+  ],
+  "vocab_notes": [
+    {
+      "term": "cottage industry",
+      "meaning_zh": "家庭式手工作坊；小规模新兴行业",
+      "note_zh": "原指小规模手工业，在科技语境中常指伴随新技术突然涌现、由个体或小团队承揽的小本营生或服务生态（如上门安装 AI 客户端）。",
+      "start_sec": 129
+    },
+    {
+      "term": "urtext",
+      "meaning_zh": "原始文本；鼻祖文献",
+      "note_zh": "源自德语，在人文社科中指奠定某一思潮、学派或文化运动基础的开山之作。",
+      "start_sec": 263
+    },
+    {
+      "term": "vibe coding",
+      "meaning_zh": "感觉流编程；氛围编程",
+      "note_zh": "指借由大语言模型与 AI 智能体自动生成代码，开发者主要负责提示词调优和把握产品整体感觉与方向的新兴轻量化编程形态。",
+      "start_sec": 315
+    },
+    {
+      "term": "ego death",
+      "meaning_zh": "自我消解；幻灭重生",
+      "note_zh": "原为心理学与精神体验术语，在此比喻中国大厂科技从业者在经历裁员潮、整顿及增长神话破灭后，那种盲目自负与优越感的彻底崩解。",
+      "start_sec": 1117
+    },
+    {
+      "term": "stick one's head above the parapet",
+      "meaning_zh": "出风头；当出头鸟（承担被枪打的风险）",
+      "note_zh": "英国军事习语，指在战壕女儿墙上探头，常引申指在敏感政治或商业气候下公开发表异见从而招致打击风险。",
+      "start_sec": 1163
+    },
+    {
+      "term": "syncretism",
+      "meaning_zh": "文化交融；调和主义",
+      "note_zh": "指不同宗教、哲学流派或世俗文化在历史与社会中杂糅并蓄的现象，节目中用来调侃中国科技从业者将 AI、易经八字、佛家斋戒甚至肯德基促销等无缝拼接的独特心态。",
+      "start_sec": 4396
+    },
+    {
+      "term": "enshittification",
+      "meaning_zh": "平台劣化；平台溃败",
+      "note_zh": "由科技作家 Cory Doctorow 提出的知名科技流行语，形容一个平台或社区在走红、商业化和过度介入后，品质迅速变差、逐渐让人无法忍受的过程。",
+      "start_sec": 4513
+    },
+    {
+      "term": "AI slop",
+      "meaning_zh": "AI 垃圾内容；低质生成式废料",
+      "note_zh": "指利用生成式人工智能流水线大批量炮制、缺乏艺术与信息价值的劣质短剧、视频或图文垃圾信息。",
+      "start_sec": 5123
+    }
+  ],
+  "references": [
+    {
+      "title": "What China’s Vibe-Coding Capital Can Tell Us About the A.I. Boom",
+      "creator": "Afra Wang (The New Yorker)",
+      "category": "article",
+      "note_zh": "Afra Wang 深入杭州良渚文化村的特写报道，讲述中国失意大厂技术人员如何通过 AI 编程和八字命理抱团探寻新出路。",
+      "start_sec": 315
+    },
+    {
+      "title": "In Line Behind a Billion People: How Scarcity Will Define China’s Ascent in the Next Decade",
+      "creator": "Damien Ma, William Adams",
+      "category": "book",
+      "note_zh": "探讨“资源与机会稀缺”如何塑造中国竞争心态与社会焦虑的经典著作，Kaiser 在讨论中国人普遍害怕被时代甩下的焦虑感时提及。",
+      "start_sec": 1749
+    },
+    {
+      "title": "Crazy English",
+      "creator": "Evan Osnos (The New Yorker)",
+      "category": "article",
+      "note_zh": "Evan Osnos 报道李阳“疯狂英语”的经典非虚构特写，被嘉宾用来类比当下“知识付费”社群中那种通过学习 AI 重获尊严的个人救赎叙事。",
+      "start_sec": 2624
+    },
+    {
+      "title": "无图之旅：一代青年的自我寻路 (Journey Without a Map)",
+      "creator": "廉思 (Lian Si)",
+      "category": "book",
+      "note_zh": "中央团校学者廉思撰写的青年田野调查之作，提出“与平凡和解、与失败握手”的时代信号，被本期播客作为观察中国青年心态变迁的关键文本深入讨论。",
+      "start_sec": 3316
+    },
+    {
+      "title": "Whole Earth Catalog",
+      "creator": "Stewart Brand",
+      "category": "other",
+      "note_zh": "20世纪六七十年代旧金山湾区反主流文化与高科技嬉皮士的圣经式出版物，Kaiser 借此对比良渚将前沿科技与神秘主义混搭的类似风貌。",
+      "start_sec": 4122
+    },
+    {
+      "title": "The Passing of the Dragon",
+      "creator": "Ken Liu (刘宇昆)",
+      "category": "book",
+      "note_zh": "刘宇昆即将出版的新选集，其书名灵感源自 Ursula Le Guin 关于真理与不可言说之道的文学隐喻，由 Afra Wang 重点推荐。",
+      "start_sec": 5427
+    },
+    {
+      "title": "Home",
+      "creator": "Marilynne Robinson",
+      "category": "book",
+      "note_zh": "普利策奖得主 Marilynne Robinson “基列四部曲”中的第二部，以极度质朴但内力深沉的文学技艺展现普通人的日常与情感重负，为 Kaiser Kuo 的本周诚意推荐。",
+      "start_sec": 5567
+    }
   ]
 }
