@@ -112,6 +112,10 @@ def filter_new_episodes(
     max_age_days: int | None = None,
 ) -> list:
     """[2. FILTER_NEW] 对比 docs/data/<show_id>/index.json 已有 guid，筛选最新未处理的 N 集."""
+    if show.get("scraper_hook") == "tal":
+        from pipeline.hooks_tal import filter_tal_episodes
+        return filter_tal_episodes(feed_entries, show=show, limit=limit, max_age_days=max_age_days)
+
     show_id = show["id"]
     index_file = DOCS_DATA_DIR / show_id / "index.json"
     log("FILTER", f"Checking existing episodes in {index_file}...", show_id=show_id)

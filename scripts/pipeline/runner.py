@@ -21,6 +21,7 @@ from pipeline.config import (
     log,
 )
 from pipeline.gemini import (
+    create_genai_client,
     generate_structured_with_retry,
     run_channel_a,
     run_channel_b,
@@ -46,8 +47,11 @@ from pipeline.rss import (
 )
 from pipeline.storage import (
     atomic_save_episode,
+    delete_ch_b_cache,
     format_sec_to_mmss,
+    load_ch_b_cache,
     make_safe_guid,
+    save_ch_b_cache,
     save_smoke_preview,
 )
 
@@ -67,47 +71,89 @@ def process_episode(entry, args, show: dict, glossary_text: str) -> None:
     show_notes = get_entry_show_notes(entry, max_chars=3000)
     log("SHOW-NOTES", f"Extracted show notes ({len(show_notes)} chars):\n{show_notes[:500]}...", show_id=show_id)
 
+    speaker_roster = []
+    if show.get("scraper_hook") == "tal":
+        from pipeline.hooks_tal import hook_tal_preprocess
+        tal_data = hook_tal_preprocess(entry, show)
+        if tal_data.get("audio_url"):
+            audio_url = tal_data["audio_url"]
+        if tal_data.get("show_notes"):
+            show_notes = tal_data["show_notes"]
+        speaker_roster = tal_data.get("speaker_roster", [])
+        log("SHOW-NOTES", f"[TAL-HOOK] Injected clean acts show notes ({len(show_notes)} chars).", show_id=show_id)
+        if speaker_roster:
+            log("TAL-HOOK", f"Injected {len(speaker_roster)} speaker(s) into dynamic context.", show_id=show_id)
+
+    can_use_cache = (
+        not getattr(args, "no_cache", False)
+        and not args.dry_run
+        and args.max_chunks == 0
+    )
+    cached_data = None
+    if can_use_cache:
+        cached_data = load_ch_b_cache(show_id, guid, args.chunk_sec)
+
     temp_dir = None
     try:
-        temp_dir = Path(tempfile.mkdtemp(prefix=f"{show_id}_"))
+        if cached_data:
+            log("CACHE", "Hit Channel B cache, skipping download/chunk/CH-B", show_id=show_id)
+            transcript = cached_data["transcript"]
+            duration_sec = int(cached_data.get("duration_sec", 0))
+            if cached_data.get("audio_url"):
+                audio_url = cached_data["audio_url"]
+        else:
+            temp_dir = Path(tempfile.mkdtemp(prefix=f"{show_id}_"))
 
-        # [3. DOWNLOAD_AUDIO]
-        original_audio = temp_dir / "original.mp3"
-        download_audio_file(audio_url, original_audio, show_id=show_id)
-        duration_sec = get_audio_duration_sec(original_audio, show_id=show_id)
+            # [3. DOWNLOAD_AUDIO]
+            original_audio = temp_dir / "original.mp3"
+            download_audio_file(audio_url, original_audio, show_id=show_id)
+            duration_sec = get_audio_duration_sec(original_audio, show_id=show_id)
 
-        # [4. CHUNK_AUDIO]
-        chunks = chunk_audio(original_audio, temp_dir, args.chunk_sec, show_id=show_id)
+            # [4. CHUNK_AUDIO]
+            chunks = chunk_audio(original_audio, temp_dir, args.chunk_sec, show_id=show_id)
 
-        for chunk in chunks:
-            size_bytes = chunk.stat().st_size
-            size_mb = size_bytes / (1024 * 1024)
-            log("FFMPEG", f"  - {chunk.name}: {size_mb:.2f} MB ({size_bytes} bytes)", show_id=show_id)
+            for chunk in chunks:
+                size_bytes = chunk.stat().st_size
+                size_mb = size_bytes / (1024 * 1024)
+                log("FFMPEG", f"  - {chunk.name}: {size_mb:.2f} MB ({size_bytes} bytes)", show_id=show_id)
 
-        log("FFMPEG", "[EPISODE_SUMMARY]", show_id=show_id)
-        log("FFMPEG", f"  guid: {guid}", show_id=show_id)
-        log("FFMPEG", f"  title: {title}", show_id=show_id)
-        log("FFMPEG", f"  pub_date: {pub_date}", show_id=show_id)
-        log("FFMPEG", f"  duration_sec: {duration_sec}", show_id=show_id)
-        log("FFMPEG", f"  audio_url: {audio_url}", show_id=show_id)
-        log("FFMPEG", f"  chunks_count: {len(chunks)}", show_id=show_id)
+            log("FFMPEG", "[EPISODE_SUMMARY]", show_id=show_id)
+            log("FFMPEG", f"  guid: {guid}", show_id=show_id)
+            log("FFMPEG", f"  title: {title}", show_id=show_id)
+            log("FFMPEG", f"  pub_date: {pub_date}", show_id=show_id)
+            log("FFMPEG", f"  duration_sec: {duration_sec}", show_id=show_id)
+            log("FFMPEG", f"  audio_url: {audio_url}", show_id=show_id)
+            log("FFMPEG", f"  chunks_count: {len(chunks)}", show_id=show_id)
 
-        if args.dry_run:
-            log("FFMPEG", "[DRY-RUN] Dry run enabled. Slicing verified. Skipping Gemini processing and atomic save.", show_id=show_id)
-            return
+            if args.dry_run:
+                log("FFMPEG", "[DRY-RUN] Dry run enabled. Slicing verified. Skipping Gemini processing and atomic save.", show_id=show_id)
+                return
 
-        # [5. CHANNEL_B]
-        log("CH-B", "Calling Channel B for transcription and translation...", show_id=show_id)
-        transcript = run_channel_b(
-            chunks=chunks,
-            glossary_text=glossary_text,
-            duration_sec=duration_sec,
-            max_chunks=args.max_chunks,
-            show_notes=show_notes,
-            show_title=show.get("title", ""),
-            show_subtitle=show.get("subtitle", ""),
-            show_id=show_id,
-        )
+            # [5. CHANNEL_B]
+            log("CH-B", "Calling Channel B for transcription and translation...", show_id=show_id)
+            transcript = run_channel_b(
+                chunks=chunks,
+                glossary_text=glossary_text,
+                duration_sec=duration_sec,
+                max_chunks=args.max_chunks,
+                show_notes=show_notes,
+                show_title=show.get("title", ""),
+                show_subtitle=show.get("subtitle", ""),
+                show_id=show_id,
+                content_style=show.get("content_style", "analytical"),
+                speaker_roster=speaker_roster,
+            )
+
+            # Write cache ONLY in formal full mode (--max-chunks == 0 and not --dry-run)
+            if not args.dry_run and args.max_chunks == 0:
+                save_ch_b_cache(
+                    show_id=show_id,
+                    guid=guid,
+                    chunk_sec=args.chunk_sec,
+                    duration_sec=duration_sec,
+                    audio_url=audio_url,
+                    transcript=transcript,
+                )
 
         # [6. CHANNEL_A]
         log("CH-A", "Calling Channel A for summarization and highlights...", show_id=show_id)
@@ -120,6 +166,7 @@ def process_episode(entry, args, show: dict, glossary_text: str) -> None:
             show_title=show.get("title", ""),
             show_subtitle=show.get("subtitle", ""),
             show_id=show_id,
+            content_style=show.get("content_style", "analytical"),
         )
 
         episode_record = {
@@ -148,6 +195,7 @@ def process_episode(entry, args, show: dict, glossary_text: str) -> None:
                 except Exception:
                     pass
             atomic_save_episode(show, episode_record)
+            delete_ch_b_cache(show_id, guid)
             log("SAVE", f"Model usage statistics: {MODEL_USAGE_STATS}", show_id=show_id)
 
     finally:
@@ -172,7 +220,7 @@ def run_enrichment_pipeline(args, config: dict) -> None:
         if not api_key:
             log("ERROR", "GEMINI_API_KEY environment variable is required when not in --dry-run mode.")
             sys.exit(1)
-        client = genai.Client(api_key=api_key)
+        client = create_genai_client(api_key=api_key)
     else:
         client = None
 
@@ -293,6 +341,7 @@ def run_enrichment_pipeline(args, config: dict) -> None:
                     show_subtitle=show.get("subtitle", ""),
                     glossary_text=glossary_text,
                     show_notes=show_notes,
+                    content_style=show.get("content_style", "analytical"),
                 )
                 user_prompt = build_enrich_user_prompt(
                     title=title,
@@ -311,6 +360,7 @@ def run_enrichment_pipeline(args, config: dict) -> None:
                     temperature=0.2,
                     thinking_level=enrich_thinking_level,
                     show_id=show_id,
+                    client_factory=lambda: create_genai_client(api_key=api_key),
                 )
 
                 vocab_notes = clamp_and_sort_vocab_notes(parsed_resp.vocab_notes, duration_sec)
@@ -330,6 +380,12 @@ def run_enrichment_pipeline(args, config: dict) -> None:
             except Exception as e:
                 total_failed += 1
                 log("ERROR", f"Failed to enrich episode '{title}' ({guid}): {e}", show_id=show_id)
+
+    if client and hasattr(client, "close"):
+        try:
+            client.close()
+        except Exception:
+            pass
 
     if total_attempted > 0 and total_failed == total_attempted and not args.dry_run:
         log("ERROR", f"All {total_attempted} attempted enrichment(s) failed in this run.")

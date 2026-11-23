@@ -40,6 +40,47 @@ from pipeline.storage import (
 )
 
 
+def create_genai_client(api_key: Optional[str] = None) -> genai.Client:
+    """Create a new genai.Client instance with 300-second request timeout.
+
+    In google-genai SDK, types.HttpOptions.timeout is in milliseconds: 300s = 300,000ms.
+    """
+    key = api_key or get_env_stripped("GEMINI_API_KEY")
+    http_opts = types.HttpOptions(timeout=300000)
+    return genai.Client(api_key=key, http_options=http_opts)
+
+
+def is_transport_disconnect_or_timeout(exc: Exception) -> bool:
+    """Identify transport-level disconnect and timeout exceptions."""
+    known_types = {
+        "RemoteProtocolError",
+        "ReadTimeout",
+        "ConnectTimeout",
+        "ConnectionError",
+        "ConnectError",
+        "ReadError",
+        "WriteError",
+        "PoolTimeout",
+        "NetworkError",
+    }
+    for cls in type(exc).__mro__:
+        if cls.__name__ in known_types:
+            return True
+
+    err_str = str(exc).lower()
+    disconnect_keywords = [
+        "server disconnected",
+        "connection reset",
+        "timed out",
+        "timeout",
+        "remote protocol error",
+        "connection closed",
+        "broken pipe",
+        "connection aborted",
+    ]
+    return any(kw in err_str for kw in disconnect_keywords)
+
+
 def generate_structured_with_retry(
     client: genai.Client,
     model_pool: list[str],
@@ -52,10 +93,14 @@ def generate_structured_with_retry(
     thinking_level: Optional[str] = None,
     thinking_level_resolver: Optional[Callable[[str], Optional[str]]] = None,
     show_id: str = "",
+    client_factory: Optional[Callable[[], genai.Client]] = None,
 ) -> BaseModel:
     """Execute structured generation using streaming response with 5-retry backoff across model_pool."""
     backoff_delays = [15, 20, 25, 30]
     last_exception = None
+
+    if client_factory is None:
+        client_factory = lambda: create_genai_client()
 
     for m_idx, current_model in enumerate(model_pool):
         if callable(thinking_level_resolver):
@@ -70,6 +115,7 @@ def generate_structured_with_retry(
             show_id=show_id,
         )
         skipped_404 = False
+        consecutive_disconnects = 0
 
         for attempt in range(1, max_retries + 1):
             try:
@@ -164,7 +210,7 @@ def generate_structured_with_retry(
                                     "thought",
                                 ]
                             )
-                            if is_thinking_err:
+                            if is_thinking_err and not is_transport_disconnect_or_timeout(api_err):
                                 next_lvl = get_next_fallback_thinking_level(current_thinking_level)
                                 log(
                                     stage,
@@ -210,6 +256,33 @@ def generate_structured_with_retry(
                     skipped_404 = True
                     break
 
+                if is_transport_disconnect_or_timeout(e):
+                    consecutive_disconnects += 1
+                    try:
+                        if hasattr(client, "close"):
+                            client.close()
+                    except Exception:
+                        pass
+                    if callable(client_factory):
+                        try:
+                            client = client_factory()
+                            log(stage, "Rebuilt Gemini client after transport disconnect/timeout.", show_id=show_id)
+                        except Exception as rebuild_err:
+                            log("WARN", f"Failed to rebuild Gemini client: {rebuild_err}", show_id=show_id)
+
+                    if consecutive_disconnects >= 2:
+                        if current_thinking_level is not None:
+                            next_lvl = get_next_fallback_thinking_level(current_thinking_level)
+                            log(
+                                stage,
+                                f"2 consecutive disconnects at thinking_level='{current_thinking_level}', stepping down to {_format_level(next_lvl)}",
+                                show_id=show_id,
+                            )
+                            current_thinking_level = next_lvl
+                        consecutive_disconnects = 0
+                else:
+                    consecutive_disconnects = 0
+
                 if attempt < max_retries:
                     delay = backoff_delays[attempt - 1] if (attempt - 1) < len(backoff_delays) else 30
                     log(stage, f"Retrying model '{current_model}' after {delay}s backoff (attempt {attempt}/{max_retries})...", show_id=show_id)
@@ -236,124 +309,136 @@ def run_channel_b(
     show_title: str = "",
     show_subtitle: str = "",
     show_id: str = "",
+    content_style: str = "analytical",
+    speaker_roster: Optional[list[str]] = None,
 ) -> list[dict]:
     """[5. CHANNEL_B] 逐片上传 Gemini File API → 注入术语与 Show Notes 转写+翻译 → 立即删除云端文件."""
     api_key = get_env_stripped("GEMINI_API_KEY")
-    client = genai.Client(api_key=api_key)
+    client = create_genai_client(api_key=api_key)
 
-    model_pool = get_ch_b_model_pool()
-    log("CH-B", f"Channel B model pool configured: {model_pool}", show_id=show_id)
-
-    thinking_level = get_env_stripped("GEMINI_THINKING_CH_B", "low")
-    log("CH-B", f"Channel B thinking level configured: '{thinking_level}'", show_id=show_id)
-
-    chunk_sleep_raw = get_env_stripped("CHUNK_SLEEP_SEC", "2.0")
     try:
-        chunk_sleep_sec = float(chunk_sleep_raw)
-    except ValueError:
-        chunk_sleep_sec = 2.0
-    log("CH-B", f"Channel B chunk sleep configured: {chunk_sleep_sec}s", show_id=show_id)
+        model_pool = get_ch_b_model_pool()
+        log("CH-B", f"Channel B model pool configured: {model_pool}", show_id=show_id)
 
-    chunks_to_process = chunks[:max_chunks] if max_chunks > 0 else chunks
-    log("CH-B", f"Starting Channel B processing for {len(chunks_to_process)} chunk(s) (total chunks: {len(chunks)})...", show_id=show_id)
+        thinking_level = get_env_stripped("GEMINI_THINKING_CH_B", "low")
+        log("CH-B", f"Channel B thinking level configured: '{thinking_level}'", show_id=show_id)
 
-    system_instruction = build_channel_b_system_instruction(
-        show_title=show_title,
-        show_subtitle=show_subtitle,
-        glossary_text=glossary_text,
-        show_notes=show_notes,
-    )
-
-    all_raw_segments = []
-    accumulated_chunk_start_sec = 0
-
-    for idx, chunk_path in enumerate(chunks_to_process):
-        log("CH-B", f"--- Processing chunk [{idx + 1}/{len(chunks_to_process)}]: {chunk_path.name} ---", show_id=show_id)
-        chunk_dur = get_audio_duration_sec(chunk_path, show_id=show_id)
-        log("CH-B", f"Chunk duration via ffprobe: {chunk_dur}s (accumulated base: {accumulated_chunk_start_sec}s).", show_id=show_id)
-
-        log("CH-B", f"Uploading {chunk_path.name} to Gemini File API...", show_id=show_id)
-        uploaded = None
-        for up_attempt in range(1, 4):
-            try:
-                uploaded = client.files.upload(file=str(chunk_path))
-                break
-            except Exception as up_err:
-                if up_attempt == 3:
-                    raise
-                log("CH-B", f"Upload attempt {up_attempt} failed: {up_err}. Retrying in 5s...", show_id=show_id)
-                time.sleep(5)
-
-        log("CH-B", f"Uploaded cloud file: {uploaded.name}. Polling for ACTIVE state...", show_id=show_id)
+        chunk_sleep_raw = get_env_stripped("CHUNK_SLEEP_SEC", "2.0")
         try:
-            file_info = client.files.get(name=uploaded.name)
-            while not str(file_info.state).endswith("ACTIVE"):
-                if str(file_info.state).endswith("FAILED"):
-                    raise RuntimeError(f"Cloud file {uploaded.name} entered FAILED state.")
-                time.sleep(2)
-                file_info = client.files.get(name=uploaded.name)
-            log("CH-B", f"Cloud file {uploaded.name} is ACTIVE.", show_id=show_id)
+            chunk_sleep_sec = float(chunk_sleep_raw)
+        except ValueError:
+            chunk_sleep_sec = 2.0
+        log("CH-B", f"Channel B chunk sleep configured: {chunk_sleep_sec}s", show_id=show_id)
 
-            contents = [file_info, CHANNEL_B_USER_PROMPT]
+        chunks_to_process = chunks[:max_chunks] if max_chunks > 0 else chunks
+        log("CH-B", f"Starting Channel B processing for {len(chunks_to_process)} chunk(s) (total chunks: {len(chunks)})...", show_id=show_id)
 
-            parsed_resp: ChannelBOutput = generate_structured_with_retry(
-                client=client,
-                model_pool=model_pool,
-                contents=contents,
-                system_instruction=system_instruction,
-                response_schema=ChannelBOutput,
-                stage="CH-B",
-                temperature=0.2,
-                thinking_level=thinking_level,
-                show_id=show_id,
-            )
+        system_instruction = build_channel_b_system_instruction(
+            show_title=show_title,
+            show_subtitle=show_subtitle,
+            glossary_text=glossary_text,
+            show_notes=show_notes,
+            content_style=content_style,
+            speaker_roster=speaker_roster,
+        )
 
-            chunk_segments = parsed_resp.segments
-            log("CH-B", f"Chunk [{idx + 1}/{len(chunks_to_process)}] produced {len(chunk_segments)} segment(s).", show_id=show_id)
-            for seg in chunk_segments:
-                offset = parse_mmss_to_sec(seg.timestamp, fallback_sec=0)
-                clamped_offset = max(0, min(offset, chunk_dur))
-                global_start = accumulated_chunk_start_sec + clamped_offset
-                clamped_start = max(0, min(global_start, duration_sec))
-                all_raw_segments.append({
-                    "start_sec": clamped_start,
-                    "speaker": normalize_speaker(seg.speaker),
-                    "en": seg.en.strip(),
-                    "zh": seg.zh.strip(),
-                })
+        all_raw_segments = []
+        accumulated_chunk_start_sec = 0
 
-        finally:
+        for idx, chunk_path in enumerate(chunks_to_process):
+            log("CH-B", f"--- Processing chunk [{idx + 1}/{len(chunks_to_process)}]: {chunk_path.name} ---", show_id=show_id)
+            chunk_dur = get_audio_duration_sec(chunk_path, show_id=show_id)
+            log("CH-B", f"Chunk duration via ffprobe: {chunk_dur}s (accumulated base: {accumulated_chunk_start_sec}s).", show_id=show_id)
+
+            log("CH-B", f"Uploading {chunk_path.name} to Gemini File API...", show_id=show_id)
+            uploaded = None
+            for up_attempt in range(1, 4):
+                try:
+                    uploaded = client.files.upload(file=str(chunk_path))
+                    break
+                except Exception as up_err:
+                    if up_attempt == 3:
+                        raise
+                    log("CH-B", f"Upload attempt {up_attempt} failed: {up_err}. Retrying in 5s...", show_id=show_id)
+                    time.sleep(5)
+
+            log("CH-B", f"Uploaded cloud file: {uploaded.name}. Polling for ACTIVE state...", show_id=show_id)
             try:
-                client.files.delete(name=uploaded.name)
-                log("CH-B", f"Deleted cloud file {uploaded.name}.", show_id=show_id)
-            except Exception as del_err:
-                log("CH-B", f"Warning: Failed to delete cloud file {uploaded.name}: {del_err}", show_id=show_id)
+                file_info = client.files.get(name=uploaded.name)
+                while not str(file_info.state).endswith("ACTIVE"):
+                    if str(file_info.state).endswith("FAILED"):
+                        raise RuntimeError(f"Cloud file {uploaded.name} entered FAILED state.")
+                    time.sleep(2)
+                    file_info = client.files.get(name=uploaded.name)
+                log("CH-B", f"Cloud file {uploaded.name} is ACTIVE.", show_id=show_id)
 
-        accumulated_chunk_start_sec += chunk_dur
+                contents = [file_info, CHANNEL_B_USER_PROMPT]
 
-        if idx < len(chunks_to_process) - 1:
-            log("CH-B", f"Sleeping {chunk_sleep_sec}s between chunks as per rate-limiting policy...", show_id=show_id)
-            time.sleep(chunk_sleep_sec)
+                parsed_resp: ChannelBOutput = generate_structured_with_retry(
+                    client=client,
+                    model_pool=model_pool,
+                    contents=contents,
+                    system_instruction=system_instruction,
+                    response_schema=ChannelBOutput,
+                    stage="CH-B",
+                    temperature=0.2,
+                    thinking_level=thinking_level,
+                    show_id=show_id,
+                    client_factory=lambda: create_genai_client(api_key=api_key),
+                )
 
-    final_transcript = []
-    prev_start_sec = 0
-    for i, seg in enumerate(all_raw_segments):
-        start_sec = seg["start_sec"]
-        if start_sec < prev_start_sec:
-            start_sec = prev_start_sec
-        else:
-            prev_start_sec = start_sec
+                chunk_segments = parsed_resp.segments
+                log("CH-B", f"Chunk [{idx + 1}/{len(chunks_to_process)}] produced {len(chunk_segments)} segment(s).", show_id=show_id)
+                for seg in chunk_segments:
+                    offset = parse_mmss_to_sec(seg.timestamp, fallback_sec=0)
+                    clamped_offset = max(0, min(offset, chunk_dur))
+                    global_start = accumulated_chunk_start_sec + clamped_offset
+                    clamped_start = max(0, min(global_start, duration_sec))
+                    all_raw_segments.append({
+                        "start_sec": clamped_start,
+                        "speaker": normalize_speaker(seg.speaker),
+                        "en": seg.en.strip(),
+                        "zh": seg.zh.strip(),
+                    })
 
-        final_transcript.append({
-            "id": i + 1,
-            "start_sec": start_sec,
-            "speaker": normalize_speaker(seg["speaker"]),
-            "en": seg["en"],
-            "zh": seg["zh"],
-        })
+            finally:
+                try:
+                    client.files.delete(name=uploaded.name)
+                    log("CH-B", f"Deleted cloud file {uploaded.name}.", show_id=show_id)
+                except Exception as del_err:
+                    log("CH-B", f"Warning: Failed to delete cloud file {uploaded.name}: {del_err}", show_id=show_id)
 
-    log("CH-B", f"Channel B completed successfully. Total transcript items: {len(final_transcript)}.", show_id=show_id)
-    return final_transcript
+            accumulated_chunk_start_sec += chunk_dur
+
+            if idx < len(chunks_to_process) - 1:
+                log("CH-B", f"Sleeping {chunk_sleep_sec}s between chunks as per rate-limiting policy...", show_id=show_id)
+                time.sleep(chunk_sleep_sec)
+
+        final_transcript = []
+        prev_start_sec = 0
+        for i, seg in enumerate(all_raw_segments):
+            start_sec = seg["start_sec"]
+            if start_sec < prev_start_sec:
+                start_sec = prev_start_sec
+            else:
+                prev_start_sec = start_sec
+
+            final_transcript.append({
+                "id": i + 1,
+                "start_sec": start_sec,
+                "speaker": normalize_speaker(seg["speaker"]),
+                "en": seg["en"],
+                "zh": seg["zh"],
+            })
+
+        log("CH-B", f"Channel B completed successfully. Total transcript items: {len(final_transcript)}.", show_id=show_id)
+        return final_transcript
+    finally:
+        try:
+            if hasattr(client, "close"):
+                client.close()
+        except Exception:
+            pass
 
 
 def run_channel_a(
@@ -365,54 +450,92 @@ def run_channel_a(
     show_title: str = "",
     show_subtitle: str = "",
     show_id: str = "",
+    content_style: str = "analytical",
 ) -> dict:
     """[6. CHANNEL_A] 将拼合的纯文本带时间戳逐字稿单次发给 Gemini，生成摘要与 Highlights."""
     api_key = get_env_stripped("GEMINI_API_KEY")
-    client = genai.Client(api_key=api_key)
+    client = create_genai_client(api_key=api_key)
 
-    model_pool = get_ch_a_model_pool()
-    log("CH-A", f"Channel A model pool configured: {model_pool}", show_id=show_id)
+    try:
+        model_pool = get_ch_a_model_pool()
+        log("CH-A", f"Channel A model pool configured: {model_pool}", show_id=show_id)
 
-    env_thinking_ch_a = get_env_stripped("GEMINI_THINKING_CH_A")
-    if env_thinking_ch_a:
-        log("CH-A", f"Channel A thinking level env override: '{env_thinking_ch_a}'", show_id=show_id)
-    else:
-        log("CH-A", "Channel A thinking level: model-adaptive (no GEMINI_THINKING_CH_A override)", show_id=show_id)
+        env_thinking_ch_a = get_env_stripped("GEMINI_THINKING_CH_A")
+        if env_thinking_ch_a:
+            log("CH-A", f"Channel A thinking level env override: '{env_thinking_ch_a}'", show_id=show_id)
+        else:
+            log("CH-A", "Channel A thinking level: model-adaptive (no GEMINI_THINKING_CH_A override)", show_id=show_id)
 
-    for m in model_pool:
-        res_lvl = resolve_ch_a_thinking_level(m, env_thinking_ch_a)
-        log("CH-A", f"  - Model '{m}': initial thinking_level='{res_lvl}'", show_id=show_id)
+        for m in model_pool:
+            res_lvl = resolve_ch_a_thinking_level(m, env_thinking_ch_a)
+            log("CH-A", f"  - Model '{m}': initial thinking_level='{res_lvl}'", show_id=show_id)
 
-    log("CH-A", f"Starting Channel A summarization for episode '{title}' (duration: {duration_sec}s)...", show_id=show_id)
+        lines = [f"[{format_sec_to_mmss(item['start_sec'])}] {item['speaker']}: {item['en']}" for item in transcript]
+        transcript_text = "\n".join(lines)
 
-    lines = [f"[{format_sec_to_mmss(item['start_sec'])}] ({item['start_sec']}s) {item['speaker']}: {item['en']}" for item in transcript]
-    transcript_text = "\n".join(lines)
+        system_instruction = build_channel_a_system_instruction(
+            show_title=show_title,
+            show_subtitle=show_subtitle,
+            glossary_text=glossary_text,
+            show_notes=show_notes,
+            content_style=content_style,
+        )
+        user_prompt = build_channel_a_user_prompt(
+            title=title,
+            show_title=show_title,
+            duration_sec=duration_sec,
+            transcript_text=transcript_text,
+        )
 
-    system_instruction = build_channel_a_system_instruction(
-        show_title=show_title,
-        show_subtitle=show_subtitle,
-        glossary_text=glossary_text,
-        show_notes=show_notes,
-    )
-    user_prompt = build_channel_a_user_prompt(
-        title=title,
-        show_title=show_title,
-        duration_sec=duration_sec,
-        transcript_text=transcript_text,
-    )
+        input_chars = len(user_prompt)
+        log(
+            "CH-A",
+            f"Prepared Channel A input: input_chars={input_chars}, transcript_lines={len(lines)}",
+            show_id=show_id,
+        )
+        log("CH-A", f"Starting Channel A summarization for episode '{title}' (duration: {duration_sec}s, content_style: {content_style})...", show_id=show_id)
 
-    parsed_resp: ChannelAOutput = generate_structured_with_retry(
-        client=client,
-        model_pool=model_pool,
-        contents=[user_prompt],
-        system_instruction=system_instruction,
-        response_schema=ChannelAOutput,
-        stage="CH-A",
-        temperature=0.2,
-        thinking_level=None,
-        thinking_level_resolver=lambda m: resolve_ch_a_thinking_level(m, env_thinking_ch_a),
-        show_id=show_id,
-    )
+        parsed_resp: ChannelAOutput = generate_structured_with_retry(
+            client=client,
+            model_pool=model_pool,
+            contents=[user_prompt],
+            system_instruction=system_instruction,
+            response_schema=ChannelAOutput,
+            stage="CH-A",
+            temperature=0.2,
+            thinking_level=None,
+            thinking_level_resolver=lambda m: resolve_ch_a_thinking_level(m, env_thinking_ch_a),
+            show_id=show_id,
+            client_factory=lambda: create_genai_client(api_key=api_key),
+        )
+
+        highlights = clamp_and_sort_highlights(parsed_resp.highlights, duration_sec)
+        key_takeaways = clamp_key_takeaways(parsed_resp.key_takeaways_zh)
+        vocab_notes = clamp_and_sort_vocab_notes(parsed_resp.vocab_notes, duration_sec)
+        references = clamp_and_sort_references(parsed_resp.references, duration_sec)
+
+        result = {
+            "summary_zh": parsed_resp.summary_zh.strip(),
+            "key_takeaways_zh": key_takeaways,
+            "highlights": highlights,
+            "vocab_notes": vocab_notes,
+            "references": references,
+        }
+
+        log(
+            "CH-A",
+            f"Channel A completed. Summary length: {len(result['summary_zh'])} chars, "
+            f"Key takeaways: {len(result['key_takeaways_zh'])}, Highlights: {len(result['highlights'])}, "
+            f"Vocab notes: {len(result['vocab_notes'])}, References: {len(result['references'])}.",
+            show_id=show_id,
+        )
+        return result
+    finally:
+        try:
+            if hasattr(client, "close"):
+                client.close()
+        except Exception:
+            pass
 
     highlights = clamp_and_sort_highlights(parsed_resp.highlights, duration_sec)
     key_takeaways = clamp_key_takeaways(parsed_resp.key_takeaways_zh)

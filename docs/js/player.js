@@ -25,7 +25,9 @@ export function updateMediaSession(show, epMeta) {
       ? new URL('./artwork-airshow-512.png', window.location.href).href
       : (show.id === 'sinica')
         ? new URL('./artwork-sinica-512.png', window.location.href).href
-        : icon512Url;
+        : (show.id === 'tal')
+          ? new URL('./artwork-tal-512.png', window.location.href).href
+          : icon512Url;
 
     navigator.mediaSession.metadata = new MediaMetadata({
       title: epMeta.title || '',

@@ -27,3 +27,7 @@ Desktop.ini
 venv/
 .venv/
 env/
+
+# Breakpoint cache
+.cache/
+

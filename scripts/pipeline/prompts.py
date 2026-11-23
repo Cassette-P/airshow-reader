@@ -16,7 +16,7 @@ CHANNEL_B_USER_PROMPT = (
 
 def load_glossary_for_show(show: dict) -> str:
     """Load glossary file specified by show config."""
-    glossary_rel = show.get("glossary_file", "")
+    glossary_rel = show.get("glossary_path") or show.get("glossary_file", "")
     if not glossary_rel:
         return ""
     glossary_path = PROJECT_ROOT / glossary_rel
@@ -41,8 +41,37 @@ def build_channel_b_system_instruction(
     show_subtitle: str,
     glossary_text: str,
     show_notes: str = "",
+    content_style: str = "analytical",
+    speaker_roster: list[str] | None = None,
 ) -> str:
-    """Build Channel B system instruction prompt."""
+    """Build Channel B system instruction prompt with content_style routing."""
+    if content_style == "narrative":
+        system_instruction = (
+            f"You are an expert bilingual podcast transcriptionist and narrative journalism translator for '{show_title}' ({show_subtitle}).\n"
+            "Your task is to transcribe and translate the provided podcast audio chunk into Chinese and English bilingual segments.\n\n"
+            "Rules:\n"
+            "1. Segment into natural semantic blocks of 2-4 sentences each.\n"
+            "2. For each block, provide:\n"
+            "   - timestamp: string timestamp relative to the beginning of this audio chunk, strictly formatted as 'MM:SS' (e.g., '00:02', '01:06', '02:55'). Never omit the colon.\n"
+            "   - speaker: speaker full English name. Priority reference to the provided Speaker Roster and Show Notes to accurately spell names of interviewees and reporters (all speakers will be normalized; use 'Guest' only if completely unidentifiable). For multi-lingual voiceover interpretations, label as '<Name> (via translator)'. For archival audio recordings, briefly indicate provenance if mentioned.\n"
+            "   - en: the original English spoken text (2-4 sentences per block). Skip pure transitional background music, interlude score, and sponsor / commercial sponsor credits (skip sponsor credits and promo reads).\n"
+            "   - zh: natural, lively, and idiomatic Chinese spoken translation capturing narrative tension, humor, emotions, and colloquial rhythm, avoiding overly rigid academic or written phrasing.\n"
+            "3. Adhere strictly to the following speaker and terminology glossary:\n\n"
+            f"{glossary_text}"
+        )
+        if speaker_roster:
+            system_instruction += (
+                f"\n\nOfficial Speaker Roster (from verified transcript, for spelling and voice calibration):\n"
+                f"{', '.join(speaker_roster)}"
+            )
+        if show_notes:
+            system_instruction += (
+                f"\n\nEpisode Show Notes & Act Structure (for guest names, topics, and story context):\n"
+                f"{show_notes}"
+            )
+        return system_instruction
+
+    # Default "analytical" style (airshow, sinica)
     system_instruction = (
         f"You are an expert bilingual podcast transcriptionist and translator for '{show_title}' ({show_subtitle}).\n"
         "Your task is to transcribe and translate the provided podcast audio chunk into Chinese and English bilingual segments.\n\n"
@@ -69,8 +98,44 @@ def build_channel_a_system_instruction(
     show_subtitle: str,
     glossary_text: str,
     show_notes: str = "",
+    content_style: str = "analytical",
 ) -> str:
-    """Build Channel A executive summarization system instruction prompt."""
+    """Build Channel A executive summarization system instruction prompt with content_style routing."""
+    if content_style == "narrative":
+        system_instruction = (
+            f"You are a narrative podcast story editor and literary curator for '{show_title}' ({show_subtitle}).\n"
+            "Analyze the provided timestamped podcast transcript and produce a structured Chinese narrative summary, "
+            "along with an Act Guide, chapter highlights, selected vocabulary notes, and referenced works.\n\n"
+            "Requirements:\n"
+            "1. summary_zh: A comprehensive narrative core summary in Chinese (200-350 Chinese characters) capturing the central theme (母主题/Theme) of this episode, how the Prologue introduces it, and how the various acts/stories illustrate or echo this theme.\n"
+            "2. key_takeaways_zh: Act Guide (分幕导读). Exactly 3 to 5 items (one for Prologue, Act One, Act Two, etc.), each clearly indicating the act label (e.g. 'Prologue', 'Act One'), reporter/host name, and a one-sentence story synopsis/premise (记者与一句话故事梗概).\n"
+            "3. highlights: 4 to 10 narrative highlights and chapter points from the episode, sorted chronologically by start_sec. MANDATORY REDLINE: You MUST anchor the exact opening start_sec of Prologue and every Act (Act One, Act Two, etc.) based on actual transcript timestamps, so these act markers serve directly as frontend chapter navigation. Remaining highlight slots (up to 10 total) should be allocated to key narrative turning points, emotional peaks, and memorable quotes. Each highlight must include:\n"
+            "   - start_sec: integer seconds where this act or narrative turning point begins (must correspond to actual transcript timestamps and be within [0, duration_sec]).\n"
+            "   - title_zh: concise Chinese topic/act title (strictly 15 Chinese characters or fewer, e.g. 'Prologue: 引子故事', 'Act One: 第一幕标题').\n"
+            "   - summary_zh: 2-3 sentence Chinese explanation of key narrative developments or turning points.\n"
+            "   - quote_en: short direct English quote from the speaker in that segment.\n"
+            "4. vocab_notes: Select 6 to 10 high-value English vocabulary terms, authentic American colloquialisms, idioms, puns/wordplay, narrative rhetoric, or American cultural/societal references that appear in this episode. If there is an obvious ASR/transcription error in the transcript, directly correct 'term' to the standard, proper English spelling. For each item:\n"
+            "   - term: original English word, phrase, idiom, or rhetorical expression (standardized spelling).\n"
+            "   - meaning_zh: concise and accurate Chinese contextual definition.\n"
+            "   - note_zh: one-sentence note on colloquial nuance, cultural background, or narrative rhetoric.\n"
+            "   - start_sec: integer seconds where it is first or most typically uttered in the transcript (within [0, duration_sec]).\n"
+            "5. references: 0 to 10 books, investigative articles, research reports, documentaries/podcasts, or featured music albums genuinely discussed, cited, or recommended in the episode or show notes. Natural empty list [] is completely acceptable if none are explicitly referenced (NEVER hallucinate or fabricate titles). CRITICAL REDLINE: STRICTLY PROHIBITED from including podcast sponsors, commercial ads, or paid sponsor reads (sponsor / ad read / promo discounts). Only include works or media organically mentioned in the narrative or end-of-episode credits. For each item:\n"
+            "   - title: title of the work, retaining accurate English original name (well-established Chinese translation may be added in parentheses; do not invent translations).\n"
+            "   - creator: author, institution, director, or publisher (empty string \"\" if unknown).\n"
+            "   - category: one of 'book', 'article', 'media', 'other'.\n"
+            "   - note_zh: one-sentence explanation of why it was mentioned or recommended.\n"
+            "   - start_sec: approximate integer seconds where it is mentioned in the transcript (within [0, duration_sec]), or null if only found in show notes and not located in audio.\n\n"
+            "Terminology and Glossary Reference:\n"
+            f"{glossary_text}"
+        )
+        if show_notes:
+            system_instruction += (
+                f"\n\nEpisode Show Notes & Act Structure (for guest names, topics, and story context):\n"
+                f"{show_notes}"
+            )
+        return system_instruction
+
+    # Default "analytical" style (airshow, sinica)
     system_instruction = (
         f"You are an executive podcast intelligence analyst and editor for '{show_title}' ({show_subtitle}).\n"
         "Analyze the provided timestamped podcast transcript and produce a structured Chinese executive summary, "
@@ -127,8 +192,36 @@ def build_enrich_system_instruction(
     show_subtitle: str,
     glossary_text: str,
     show_notes: str = "",
+    content_style: str = "analytical",
 ) -> str:
-    """Build Enrichment system instruction prompt."""
+    """Build Enrichment system instruction prompt with content_style routing."""
+    if content_style == "narrative":
+        system_instruction = (
+            f"You are an expert podcast narrative knowledge curator and terminologist for '{show_title}' ({show_subtitle}).\n"
+            "Analyze the provided timestamped podcast transcript, episode show notes, and terminology glossary to extract high-value vocabulary notes and referenced works/media.\n\n"
+            "Requirements:\n"
+            "1. vocab_notes: Select 6 to 10 high-value English vocabulary terms, authentic American colloquialisms, idioms, puns/wordplay, narrative rhetoric, or American cultural/societal references that appear in this episode. If there is an obvious ASR/transcription error in the transcript, directly correct 'term' to the standard, proper English spelling. For each item:\n"
+            "   - term: original English word, phrase, idiom, or rhetorical expression (standardized spelling).\n"
+            "   - meaning_zh: concise and accurate Chinese contextual definition.\n"
+            "   - note_zh: one-sentence note on colloquial nuance, cultural background, or narrative rhetoric.\n"
+            "   - start_sec: integer seconds where it is first or most typically uttered in the transcript (must fall within [0, duration_sec]). Timestamps in transcript are formatted as [MM:SS] or [HH:MM:SS]; convert to total seconds (e.g. [01:30] -> 90).\n"
+            "2. references: 0 to 10 books, investigative articles, research reports, documentaries/podcasts, or featured music albums genuinely discussed, cited, or recommended in the episode or show notes. Natural empty list [] is completely acceptable if none are explicitly referenced (NEVER hallucinate or fabricate titles). CRITICAL REDLINE: STRICTLY PROHIBITED from including podcast sponsors, commercial ads, or paid sponsor reads (sponsor / ad read / promo discounts). Only include works or media organically mentioned in the narrative or end-of-episode credits. For each item:\n"
+            "   - title: title of the work, retaining accurate English original name (well-established Chinese translation may be added in parentheses; do not invent translations).\n"
+            "   - creator: author, institution, director, or publisher (empty string \"\" if unknown).\n"
+            "   - category: one of 'book', 'article', 'media', 'other'.\n"
+            "   - note_zh: one-sentence explanation of why it was mentioned or recommended.\n"
+            "   - start_sec: approximate integer seconds where it is mentioned in the transcript (within [0, duration_sec]), or null if only found in show notes and not located in audio.\n\n"
+            "Terminology and Glossary Reference:\n"
+            f"{glossary_text}"
+        )
+        if show_notes:
+            system_instruction += (
+                f"\n\nEpisode Show Notes & Act Structure (for guest names, topics, and story context):\n"
+                f"{show_notes}"
+            )
+        return system_instruction
+
+    # Default "analytical" style (airshow, sinica)
     system_instruction = (
         f"You are an expert podcast knowledge curator and terminologist for '{show_title}' ({show_subtitle}).\n"
         "Analyze the provided timestamped podcast transcript, episode show notes, and terminology glossary to extract high-value vocabulary notes and referenced works/media.\n\n"

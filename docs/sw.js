@@ -2,7 +2,7 @@
    airshow-reader Service Worker (PWA Shell & Network-Direct Data Engine)
    ========================================================================== */
 
-const CACHE_NAME = 'airshow-reader-v2';
+const CACHE_NAME = 'airshow-reader-v3';
 
 const SHELL_ASSETS = [
   './',
@@ -11,6 +11,7 @@ const SHELL_ASSETS = [
   './favicon.svg',
   './artwork-airshow-512.png',
   './artwork-sinica-512.png',
+  './artwork-tal-512.png',
   './icons/icon-192.png',
   './icons/icon-512.png',
   './css/tokens.css',

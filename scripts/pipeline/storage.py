@@ -6,18 +6,92 @@ import os
 from pathlib import Path
 import re
 import sys
+from typing import Optional
 
 from pipeline.config import (
     DOCS_DATA_DIR,
+    PROJECT_ROOT,
     SHOWS_MANIFEST_FILE,
     load_podcasts_config,
     log,
 )
 
+CH_B_CACHE_DIR = PROJECT_ROOT / ".cache" / "ch_b"
+
 
 def make_safe_guid(guid: str) -> str:
     """Normalize GUID to a safe filename string: [^A-Za-z0-9._-]+ -> _."""
     return re.sub(r"[^A-Za-z0-9._-]+", "_", guid).strip("_")
+
+
+def get_ch_b_cache_path(show_id: str, guid: str) -> Path:
+    """Return path to Channel B cache file: .cache/ch_b/<show_id>__<safe_guid>.json."""
+    safe_guid = make_safe_guid(guid)
+    return CH_B_CACHE_DIR / f"{show_id}__{safe_guid}.json"
+
+
+def save_ch_b_cache(
+    show_id: str,
+    guid: str,
+    chunk_sec: int,
+    duration_sec: int,
+    audio_url: str,
+    transcript: list[dict],
+) -> Path:
+    """Atomically save Channel B intermediate result to cache using .tmp -> os.replace."""
+    CH_B_CACHE_DIR.mkdir(parents=True, exist_ok=True)
+    cache_file = get_ch_b_cache_path(show_id, guid)
+    tmp_file = cache_file.with_suffix(".json.tmp")
+    payload = {
+        "show_id": show_id,
+        "guid": guid,
+        "chunk_sec": chunk_sec,
+        "duration_sec": duration_sec,
+        "audio_url": audio_url,
+        "transcript": transcript,
+    }
+    with open(tmp_file, "w", encoding="utf-8") as f:
+        json.dump(payload, f, ensure_ascii=False, indent=2)
+    os.replace(tmp_file, cache_file)
+    log("CACHE", f"Saved Channel B cache to {cache_file} ({len(transcript)} segments).", show_id=show_id)
+    return cache_file
+
+
+def load_ch_b_cache(
+    show_id: str,
+    guid: str,
+    chunk_sec: int,
+) -> Optional[dict]:
+    """Load Channel B cache if show_id, guid, chunk_sec match and transcript is non-empty."""
+    cache_file = get_ch_b_cache_path(show_id, guid)
+    if not cache_file.exists():
+        return None
+    try:
+        with open(cache_file, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        if (
+            data.get("show_id") == show_id
+            and data.get("guid") == guid
+            and data.get("chunk_sec") == chunk_sec
+            and bool(data.get("transcript"))
+        ):
+            return data
+    except Exception as e:
+        log("WARN", f"Failed to read Channel B cache {cache_file}: {e}", show_id=show_id)
+    return None
+
+
+def delete_ch_b_cache(show_id: str, guid: str) -> bool:
+    """Delete Channel B cache file upon successful formal atomic save."""
+    cache_file = get_ch_b_cache_path(show_id, guid)
+    if cache_file.exists():
+        try:
+            cache_file.unlink()
+            log("CACHE", f"Cleaned up Channel B cache: {cache_file}", show_id=show_id)
+            return True
+        except Exception as e:
+            log("WARN", f"Failed to remove Channel B cache {cache_file}: {e}", show_id=show_id)
+    return False
 
 
 def normalize_speaker(name: str) -> str:

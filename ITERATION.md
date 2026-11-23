@@ -22,18 +22,27 @@
 - [x] **M9-B**：后端流水线分包解耦（2026-11-23 通过，将 1400+ 行单文件重构拆分为 `scripts/pipeline/` 9 个职责单一的模块，主入口 `process.py` 精简至 200 行，100% 保持 CLI 参数与环境变量向前兼容）
 - [x] **M9-C**：前端零构建原生 ES Modules + CSS 拆分（2026-11-23 通过，将 212 KB 单文件拆分为 3 个原生 CSS 文件与 10 个原生 ES Modules，彻底清除内联事件处理，升级 `sw.js` 缓存版本至 `airshow-reader-v2`，Headless 浏览器 CDP 真实 E2E 验证全量通过）
 - [x] **M9-D**：全量文档收口与规范对齐（2026-11-23 通过，`README.md`、`SPEC.md` 与 `ITERATION.md` 全面对齐 v3.3 最新工程基线，同步真实目录树、校验门禁与 Media Session artwork 规范）
+- [x] **M10**：第 3 档播客 *This American Life* 接入与后端长音频抗断连加固（2026-11-24 通过）
+  - **后端稳定性 3 项加固**：
+    1. **Channel B 断点缓存**：全量转写完成后原子落盘至 `.cache/ch_b/<show_id>__<safe_guid>.json`，重试命中直接跳过下载、切片与 CH-B，原子落盘成功后自动清理；支持 `--no-cache` 与冒烟隔离。
+    2. **Channel A 逐字稿瘦身**：严格仅向旗舰模型传递 `[MM:SS] <speaker>: <en>` 英文原声，剔除 `zh` 译文削减近半 Token 并记录 `input_chars` 观测。
+    3. **传输断连容灾与连续断连降级**：显式配置 300 秒超时（300,000ms），断连/超时立即重建 `genai.Client` 杜绝复用半关 Socket；同一思考档位连续 2 次断连触发平滑降级链（`xhigh` → `high` → `low` → `None`）。
+  - **This American Life 叙事特稿体接入**：
+    - `podcasts.json` 注册表扩展 `content_style: "narrative"` 与 `scraper_hook: "tal"`；
+    - `scripts/pipeline/hooks_tal.py` 实现官网无广告归档 MP3 替换、多幕纯净 Show Notes 与官网 Transcript 27 位嘉宾花名册注入，配合 GUID + 期号双重去重机制；
+    - `glossaries/tal.md` 编制常驻主持 Ira Glass 及特稿翻译红线；
+    - 前端浅深色主题（`#2D6A4F` / `#74C69D`）、`Ira Glass` 专属印章色标（`spk-ira`）、高清封面 `artwork-tal-512.png` 与带空格/URL 的 Hash 路由深度支持；
+  - **验收落地**：第 436 期 *The Psychopath Test* 全量入库，19 期单集严格通过 `validate_data.py --strict` 门禁，13 项稳定性单元测试全通，Browser Agent 多端质检 Console 0 报错。
 
 ---
 
-## 当前稳定基线：v3.3 工程减负与全量里程碑（M1–M9）均已验收通过
+## 当前稳定基线：v3.4 3 档播客全面上线与长音频高稳定基线
 
-- **当前线上资产规模**：2 档活跃播客（*The Air Show* 11 期 + *Sinica Podcast* 7 期，共 18 期），全量完成 v3.1 知识卡片补跑与术语质检，CI 门禁与定时巡检每 6 小时自动运行。
+- **当前线上资产规模**：3 档活跃播客（*The Air Show* 11 期 + *Sinica Podcast* 7 期 + *This American Life* 1 期，共 19 期），全量覆盖 v3.1 知识卡片与分幕导读，CI 门禁与定时巡检持续自动运行。
 - **架构演进成果**：
-  - 后端模块化：`scripts/process.py` + `scripts/pipeline/`，逻辑解耦，高内聚低耦合；
-  - 自动化门禁：`scripts/validate_data.py` 保障每次自动落盘数据 100% 契约保真；
-  - 前端零构建：`docs/css/` + `docs/js/`，完全保持原生 Zero-Build 特性，开箱即用，消灭单文件维护负担。
-- **运维备忘**：2026-12-01 起可在 GitHub Actions Variables 新增 `GEMINI_MODEL_CH_A=gemini-4-neon`（`GEMINI_THINKING_CH_A` 留空自动适配 `xhigh` 并带降级保护），零代码无缝切换新旗舰。
+  - 断点防丢：Channel B 中间结果自动落盘，彻底解决长音频在 Channel A 断连导致的重复转写 Token 与时间浪费；
+  - 弹性容灾：300s 超时、Socket 断连重建与思考档位平滑降级，确保大单集在各种网络波动下稳定收敛；
+  - 风格自适应：`analytical` 深度分析体与 `narrative` 特稿分幕体双引擎并存驱动。
 - **后续可选演进池（Backlog，按需排期）**：
   1. **跨单集全局检索**：直接索引全部 `index.json`，支持跨播客、跨期一键搜话题直达；
-  2. **金句剪藏与笔记导出**：单句收藏与批注持久化，支持一键导出带时间戳的中英 Markdown 至 Obsidian / Notion；
-  3. **接入第 3 档播客**：在 `podcasts.json`、`glossaries/` 与 `update.yml` 零代码扩展新节目。
+  2. **金句剪藏与笔记导出**：单句收藏与批注持久化，支持一键导出带时间戳的中英 Markdown 至 Obsidian / Notion。

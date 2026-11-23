@@ -59,6 +59,7 @@ export function getSpeakerCssClass(speaker) {
   if (s.includes('brian') || s.includes('sumers')) return 'spk-brian';
   if (s.includes('brett') || s.includes('snyder')) return 'spk-brett';
   if (s.includes('kaiser') || s.includes('kuo')) return 'spk-kaiser';
+  if (s.includes('ira') || s.includes('glass')) return 'spk-ira';
 
   let hash = 0;
   for (let i = 0; i < s.length; i++) {

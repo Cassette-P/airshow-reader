@@ -39,6 +39,7 @@ def main():
     parser.add_argument("--max-chunks", type=int, default=0, help="仅处理前 M 个切片（0 表示全部，default: 0）")
     parser.add_argument("--migrate-only", action="store_true", default=False, help="仅执行 v2→v3 本地数据迁移，不访问网络、不调用 Gemini API，完成后退出 0")
     parser.add_argument("--enrich", action="store_true", default=False, help="增量补跑模式：仅对存量单集补跑知识卡片（vocab_notes 与 references），低成本轻量模型")
+    parser.add_argument("--no-cache", action="store_true", default=False, help="忽略已有 Channel B 缓存并强制重跑")
     args = parser.parse_args()
 
     # Load registry

@@ -1,7 +1,7 @@
 {
   "schema_version": "3.0",
   "site_title": "Podcast Bilingual Reader",
-  "updated_at": "2026-11-23T17:03:10Z",
+  "updated_at": "2026-11-23T23:39:42Z",
   "shows": [
     {
       "id": "airshow",
@@ -20,6 +20,15 @@
       "index_file": "sinica/index.json",
       "episode_count": 7,
       "latest_pub_date": "2026-11-20T05:00:00Z"
+    },
+    {
+      "id": "tal",
+      "title": "This American Life",
+      "subtitle": "Narrative Journalism & Stories · Hosted by Ira Glass",
+      "accent_color": "#2D6A4F",
+      "index_file": "tal/index.json",
+      "episode_count": 1,
+      "latest_pub_date": "2026-11-23T01:00:00Z"
     }
   ]
 }

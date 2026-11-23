@@ -2,7 +2,7 @@
 
 多播客全自动中英双语精读器（静态站发布于 https://cassette-p.github.io/airshow-reader/）。
 
-当前已内置接入 **The Air Show**（航空商业与行业纵深）与 **Sinica Podcast**（中国议题与地缘政经深度访谈），支持通过 `podcasts.json` 零代码扩展更多播客。每当播客更新时，GitHub Actions 自动抓取 RSS 并清洗 Show Notes，调用 Gemini Paid Tier 双通道生成**中文核心摘要、关键洞察、带时间戳的精选原声（Highlights）、知识卡片（地道表达与参考资源）以及术语对齐的中英双语逐字稿**，经 `scripts/validate_data.py` 自动化契约校验后，零构建发布为支持桌面、iPad 与手机 PWA 体验的刊物级精听静态站。
+当前已内置接入 **The Air Show**（航空商业与行业纵深）、**Sinica Podcast**（中国议题与地缘政经深度访谈）与 **This American Life**（传奇非虚构叙事特稿与分幕导读），支持通过 `podcasts.json` 零代码扩展更多播客。每当播客更新时，GitHub Actions 自动抓取 RSS 并清洗 Show Notes，调用 Gemini Paid Tier 双通道生成**中文核心摘要、关键洞察、带时间戳的精选原声（Highlights）、知识卡片（地道表达与参考资源）以及术语对齐的中英双语逐字稿**，经 `scripts/validate_data.py` 自动化契约校验后，零构建发布为支持桌面、iPad 与手机 PWA 体验的刊物级精听静态站。
 
 ---
 
@@ -39,8 +39,12 @@ airshow-reader/
 ├── podcasts.json                         # 多播客核心配置注册表
 ├── glossaries/                           # 各播客专属常驻主播名单与术语校对表
 │   ├── airshow.md
-│   └── sinica.md
+│   ├── sinica.md
+│   └── tal.md
 ├── requirements.txt                      # Python 依赖
+├── tests/                                # 稳定性加固单元测试（断点缓存、瘦身与断连降级）
+│   ├── __init__.py
+│   └── test_stability.py
 ├── scripts/
 │   ├── process.py                        # 主处理命令行入口（参数解析与流程调度）
 │   ├── validate_data.py                  # 数据契约与内容完整性校验门禁
@@ -52,6 +56,7 @@ airshow-reader/
 │       ├── audio.py                      # 抗 403 下载、ffprobe 检测与 180s 切片
 │       ├── gemini.py                     # SDK 初始化、流式调用与指数退避重试
 │       ├── prompts.py                    # 通道 A/B 与 Enrich 专用 Prompt 模板生成
+│       ├── hooks_tal.py                  # TAL 专属钩子（期号提取、无广告音频与花名册）
 │       ├── rss.py                        # RSS 抓取解析与 Show Notes 结构化清洗
 │       ├── runner.py                     # 单集全流程驱动、通道 A/B 调度与补跑引擎
 │       └── migrate.py                    # v2→v3 数据目录幂等迁移与新节目脚手架
@@ -62,6 +67,7 @@ airshow-reader/
 │   ├── favicon.svg                       # 「声波书页」矢量站点图标
 │   ├── artwork-airshow-512.png           # The Air Show 专属 512px 专辑封面
 │   ├── artwork-sinica-512.png            # Sinica Podcast 专属 512px 专辑封面
+│   ├── artwork-tal-512.png               # This American Life 专属 512px 专辑封面
 │   ├── icons/                            # PWA 桌面通用标准图标
 │   │   ├── icon-192.png
 │   │   └── icon-512.png

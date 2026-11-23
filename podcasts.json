@@ -15,11 +15,23 @@
     {
       "id": "sinica",
       "title": "Sinica Podcast",
-      "subtitle": "Current Affairs in China ¡¤ Hosted by Kaiser Kuo",
+      "subtitle": "Current Affairs in China Â· Hosted by Kaiser Kuo",
       "rss_url": "https://rss.art19.com/sinica",
       "glossary_file": "glossaries/sinica.md",
       "accent_color": "#9b2226",
       "default_max_age_days": 7,
+      "enabled": true
+    },
+    {
+      "id": "tal",
+      "title": "This American Life",
+      "subtitle": "Narrative Journalism & Stories Â· Hosted by Ira Glass",
+      "rss_url": "https://www.thisamericanlife.org/podcast/rss.xml",
+      "glossary_path": "glossaries/tal.md",
+      "accent_color": "#2D6A4F",
+      "default_max_age_days": 14,
+      "content_style": "narrative",
+      "scraper_hook": "tal",
       "enabled": true
     }
   ]

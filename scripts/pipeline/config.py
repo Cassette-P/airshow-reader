@@ -98,12 +98,14 @@ def resolve_ch_a_thinking_level(model_name: str, env_override: str = "") -> Opti
 
 
 def get_next_fallback_thinking_level(current_level: Optional[str]) -> Optional[str]:
-    """Return next fallback level in chain: xhigh -> high -> None."""
+    """Return next fallback level in chain: xhigh -> high -> low -> None."""
     if not current_level:
         return None
     lvl = current_level.strip().lower()
     if lvl == "xhigh":
         return "high"
+    elif lvl == "high":
+        return "low"
     return None
 
 

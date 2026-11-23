@@ -25,6 +25,7 @@
   - `prompts.py`：通道 A、通道 B 与 Enrich 提示词生成
   - `rss.py`：RSS 抓取解析与 Show Notes 结构化清洗
   - `runner.py`：单集生命周期驱动、通道调度与补跑引擎
+  - `hooks_tal.py`：This American Life 专属预处理钩子（期号提取、无广告归档音频替换、多幕分段与官网逐字稿花名册注入）
   - `migrate.py`：v2→v3 数据目录幂等迁移与新节目脚手架
 - `docs/favicon.svg`：「声波书页（Acoustic Folio）」静态矢量站点图标
 - `docs/manifest.json`：PWA 应用清单（相对路径 `start_url: "./"`、`scope: "./"`、`display: "standalone"`）
@@ -32,6 +33,7 @@
 - `docs/icons/icon-192.png`、`docs/icons/icon-512.png`：PWA 桌面标准 PNG 图标
 - `docs/artwork-airshow-512.png`：The Air Show 专属 512px 节目封面
 - `docs/artwork-sinica-512.png`：Sinica Podcast 专属 512px 节目封面
+- `docs/artwork-tal-512.png`：This American Life 专属 512px 节目封面
 - `docs/css/`：原生 CSS 分层架构（Zero-Build，禁止使用 `@import`）
   - `tokens.css`：主题色彩变量（浅色/深色）、字栈、节目品牌重音色
   - `layout.css`：液态玻璃顶栏/底栏宿主、PWA 安全区、响应式布局断点
@@ -77,8 +79,13 @@
    ├─► [2. FILTER_NEW] 对比 docs/data/<show_id>/index.json 已有 guid，按 --max-age-days 筛选未入库单集（--limit）
    │      │ (当前节目无新单集：记录日志并流转至下一个节目)
    │      ▼
-   ├─► [2.5 EXTRACT_SHOW_NOTES] 提取 RSS entry 的 content/summary/description，做 HTML 实体与标签清洗
-   │      │ 保留嘉宾姓名、头衔与章节时间戳，供通道 B/A 动态注入识别流动嘉宾
+   ├─► [2.5 EXTRACT_SHOW_NOTES & HOOKS] 提取 RSS entry 的 content/summary/description，做 HTML 实体与标签清洗；
+   │      │ 若配置了 scraper_hook（如 tal）：触发专属钩子抓取官网单集页解析 Act 分幕与纯净无赞助 Show Notes，
+   │      │ 替换动态插播音频为官网永久无广告归档 MP3，并抓取官网 Transcript 提取 speaker_roster 花名册注入上下文
+   │      ▼
+   ├─► [2.8 CHECK_CH_B_CACHE] 检查断点缓存（.cache/ch_b/<show_id>__<safe_guid>.json）：
+   │      │ 非 --dry-run 且 --max-chunks == 0 且无 --no-cache 时，若命中且 transcript 非空，
+   │      │ 打印 [CACHE] Hit Channel B cache, skipping download/chunk/CH-B，直接跳过 [3]、[4] 与 [5]，直达 [6. CHANNEL_A]
    │      ▼
    ├─► [3. DOWNLOAD_AUDIO] 四级抗 403 下载器（Apple Podcasts UA → Overcast UA → curl_cffi → curl）下载 MP3 至临时目录；ffprobe 获取 duration_sec
    │      ▼
@@ -88,16 +95,20 @@
    ├─► [5. CHANNEL_B] 逐片上传 Gemini File API → 流式调用（低思考模式 + 注入专属术语表与 Show Notes）转写与翻译 → 立即删除云端文件
    │      │ (受 --max-chunks 限制；按 "MM:SS" 输出片内时间戳并做单片钳位，严禁跨片 sort()；
    │      │  所有 speaker 经 normalize_speaker() 剥离 Dr./Prof./Ambassador 等头衔前缀；片间休眠 CHUNK_SLEEP_SEC)
+   │      │ (正式全量模式下转写全部完成后立即原子写盘缓存：.cache/ch_b/<show_id>__<safe_guid>.json)
    │      │ (单集内任一切片在候选池重试耗尽后仍失败：中止本集，跳转 [8. CLEANUP])
    │      ▼
-   ├─► [6. CHANNEL_A] 将带时间戳逐字稿流式发给旗舰模型（自动适配思考等级与平滑降级），一体生成摘要、要点、4-10 条 Highlights、
-   │      │ 6-10 条 vocab_notes（自动纠偏 ASR 拼写）与 0-10 条 references（严禁收录商业赞助广告）；
+   ├─► [6. CHANNEL_A] 输入序列化瘦身（严格仅传 [MM:SS] <speaker>: <en> 英文原声，剔除 zh 译文削减近半 Token 并记录 input_chars）；
+   │      │ 显式延长 SDK 超时至 300 秒（300,000ms），遇到传输断连或超时立即关闭并重建 genai.Client；
+   │      │ 在同一思考档位连续 2 次断连时自动顺降一级（xhigh → high → low → None），平滑容灾并一体生成摘要、要点、
+   │      │ 4-10 条 Highlights、6-10 条 vocab_notes（自动纠偏 ASR 拼写）与 0-10 条 references（严禁收录商业赞助广告）；
    │      │ 落盘前完成 start_sec 范围钳制与升序排序（references 中 start_sec=None 稳定排在最末）
    │      ▼
-   ├─► [7. ATOMIC_SAVE] 若 --max-chunks > 0：写入 docs/data/<show_id>/_smoke_preview.json（不碰正式库）
+   ├─► [7. ATOMIC_SAVE] 若 --max-chunks > 0：写入 docs/data/<show_id>/_smoke_preview.json（不碰正式库与缓存）
    │      │ 否则：原子写入 docs/data/<show_id>/episodes/<safe_guid>.json（.tmp → os.replace）
    │      │      原子更新 docs/data/<show_id>/index.json（按 pub_date 降序，不含知识卡片以保持轻量）
    │      │      原子同步 docs/data/shows.json（更新 episode_count 与 latest_pub_date）
+   │      │      成功落盘后立即删除对应 .cache/ch_b/ 缓存文件（CH-A 失败则保留供无缝续跑）
    │      ▼
    └─► [8. CLEANUP] finally 块强制删除本地临时目录与残留云端文件
 
@@ -137,10 +148,20 @@
 - `--max-chunks M`（int，默认 `0` 表示全部）：仅处理前 M 个切片；当 `M > 0` 时进入冒烟预览模式，结果仅写入 `docs/data/<show_id>/_smoke_preview.json`，绝不修改正式库。
 - `--migrate-only`（flag，默认关闭）：仅执行 v2→v3 本地数据拆分与清单初始化迁移，不访问网络、不调用 Gemini API，完成后退出 `0`。
 - `--enrich`（flag，默认关闭）：增量补跑模式。仅针对存量单集中缺失 `vocab_notes` 或 `references` 的单集，利用轻量模型池补跑知识卡片；原既有摘要、Highlights 与逐字稿字节级保持不变。
+- `--no-cache`（flag，默认关闭）：忽略已有 Channel B 断点缓存并强制重跑下载、切片与转写。
+
+### 播客注册表扩展规范（`podcasts.json`）
+
+- `content_style`（str，可选，默认 `"analytical"`）：
+  - `"analytical"`：政经产业深度分析体（Air Show、Sinica），聚焦核心议题、观点分歧、数据与行业黑话；
+  - `"narrative"`：非虚构叙事特稿体（This American Life），`summary_zh` 聚焦单集母主题与分幕展开，`key_takeaways_zh` 输出分幕导读（Act Guide），`vocab_notes` 聚焦美式口语与文化梗，`references` 输出叙事中引用的真实作品与报道。
+- `scraper_hook`（str，可选）：
+  - `"tal"`：This American Life 专属解耦钩子。从单集页抓取多幕结构化 Show Notes，提取官网无广告原版归档 MP3（绕过 CDN 动态插入商业广告），并抓取官网 Transcript 解析 `speaker_roster` 注入上下文；实施 GUID + 期号双重去重机制，自动识别并过滤重播节目。
 
 ### 环境变量与模型路由策略（Paid Tier 优先）
 
 - `GEMINI_API_KEY`：必填（在 `main()` 开头校验，仅非 `--dry-run` 且非 `--migrate-only` 时校验）。
+- **请求超时与连接复原**：SDK 初始化显式配置 `types.HttpOptions(timeout=300000)`（300 秒）。识别传输层断连与超时异常（`RemoteProtocolError`、`ReadTimeout`、`ConnectTimeout`、`ConnectionError`、`Server disconnected` 等），命中时立即关闭并重建 `genai.Client` 实例，严禁复用半关闭 Socket。
 - **知识卡片增量补跑通道（Enrichment Channel）**：
   - 默认候选模型池：`["gemini-3.8-flash", "gemini-4-hydrogen", "gemini-3.5-flash-lite"]`
   - 环境变量覆盖：`GEMINI_MODEL_ENRICH`，非空时置顶并去重。
@@ -149,13 +170,16 @@
   - 默认候选模型池：`["gemini-3.8-flash", "gemini-4-hydrogen", "gemini-3.5-flash-lite"]`
   - 环境变量覆盖：`GEMINI_MODEL_CH_B`（兼容 `GEMINI_MODEL`），非空时置顶并去重。
   - 思考等级：`GEMINI_THINKING_CH_B`（默认 `"low"`），若模型不支持自动降级剥离重试。
+  - **断点缓存机制**：正式全量模式（`--max-chunks == 0` 且非 `--dry-run`）转写完成后落盘至 `.cache/ch_b/<show_id>__<safe_guid>.json`；单集入库前命中缓存可跳过下载与 CH-B，仅在 `[7. ATOMIC_SAVE]` 成功后删除缓存。
 - **通道 A（全局摘要、Highlights 与知识卡片）**：
   - 默认候选模型池：`["gemini-4-carbon", "gemini-4-neon", "gemini-3.8-flash"]`
   - 环境变量覆盖：`GEMINI_MODEL_CH_A`，非空时置顶并去重。
+  - **输入逐字稿瘦身**：严格仅向通道 A 传递 `[MM:SS] <speaker>: <en>`（英文原声文本），剔除 `zh` 中文译文以削减近半输入 Token、缩短首字节思考静默时间，调用前记录 `input_chars` 字符数。
   - 思考等级与自动适配：`GEMINI_THINKING_CH_A`（可选）。
     - 显式覆盖：若环境变量非空（`.strip()` 判空），返回其小写值（若显式设为 `"default"` 或 `"none"` 则返回 `None` 走模型默认）；
     - 模型默认适配：若未设置环境变量，按模型自动匹配：`gemini-4-neon` 返回 `"xhigh"`，`gemini-4-carbon` 返回 `"high"`，其他模型默认返回 `"high"`；
-    - 容错与平滑降级链：若本地 SDK 校验或远端 API 调用因不支持该档位报错，按 **`xhigh` → `high` → `None`（移除 `thinking_config`）** 逐级降级并打印降级日志后立即重试（不消耗模型退避重试配额）。
+    - 容错与平滑降级链：若本地 SDK 校验或远端 API 调用因不支持该档位报错，按 **`xhigh` → `high` → `low` → `None`（移除 `thinking_config`）** 逐级降级并打印降级日志后立即重试；
+    - 连续断连降级策略：在同一候选模型的重试循环中，当同一思考档位连续发生 2 次传输断连/超时时，自动将思考档位顺降一级（降级链：`xhigh` → `high` → `low` → `None`），重置断连计数并打印日志继续重试。
 - **片间休眠**：`CHUNK_SLEEP_SEC`（默认 `"2.0"` 秒）。
 - **容灾与长退避策略**：候选模型池顺序容灾，单模型最多连续重试 **5 次**，退避间隔 **`15s → 20s → 25s → 30s`**；遇 `404` / `NOT_FOUND` 立即跳过；切换下一模型前休眠 `10s`。
 
@@ -330,12 +354,12 @@
 - **Light Mode（Uncoated Warm Paper）**：
   - 纸面底色：`--bg-page: #FAF8F4`，次级便签/面板底：`--bg-surface-elevated: #F3EFE6`，悬停底：`--bg-subtle: #F2EDE3`，当前播放行高光：`--bg-active-row: #EFE9DC`。
   - 墨色阶梯：`--text-primary: #1C1B18`，`--text-secondary: #57534E`，`--text-muted: #857F76`。
-  - 节目重音色：Air Show `#0A2540`；Sinica `#9B2226`（`--accent-tint` 与 `--accent-subtle` 随节目动态生成，杜绝跨节目串色）。
+  - 节目重音色：Air Show `#0A2540`；Sinica `#9B2226`；This American Life `#2D6A4F`（`--accent-tint` 与 `--accent-subtle` 随节目动态生成，杜绝跨节目串色）。
   - 声明 `color-scheme: light`。
 - **Dark Mode（Warm Obsidian，低光晕长文夜读）**：
   - 暖炭黑底色：`--bg-page: #151412`，浮层底：`--bg-surface: #1C1A17`，便签底：`--bg-surface-elevated: #1E1C19`，当前播放行：`--bg-active-row: #28241F`。
   - 暖羊皮灰字阶（全员达标 WCAG AA）：`--text-primary: #E4E0D8`（杜绝纯白光晕），`--text-secondary: #9E988E`，`--text-muted: #928C82`（对比度 > 5.3:1），`--text-tertiary: #706B63`。
-  - 去荧光低饱和重音色：Air Show `#78B2DF`（航空钢蓝）；Sinica `#DF7A74`（沉稳暖陶红）。
+  - 去荧光低饱和重音色：Air Show `#78B2DF`（航空钢蓝）；Sinica `#DF7A74`（沉稳暖陶红）；This American Life `#74C69D`（薄荷青绿）。
   - 声明 `color-scheme: dark`。
 
 ### 5.2 排印分工、声学标尺与动态图标
@@ -359,7 +383,7 @@
   - **参考资源卡（`references`）**：等宽分类徽章（`book`→`书籍`、`article`→`文章/报告`、`media`→`影音/播客`、`other`→`其他`）+ 加粗 `title` + 可选 `creator` + `note_zh` + 合法有效数字 `start_sec` 时才渲染的时间戳跳转胶囊。
   - 点击卡片时间戳调用 `seekAndPlay()` 并主动调用 `exitSentenceLoop()` 安全退出单句复读。
 - **逐字稿彻底去卡片化**：`.transcript-item` 取消外框与圆角，改为纸面连续流式排版（底部分隔细线 + 激活态左侧 `2px` 重音竖线与暖米/暖炭高光）。
-- **印章式说话人色标**：4 位常驻主播（Jon Ostrower、Brian Sumers、Brett Snyder、Kaiser Kuo）固定低饱和墨色；流动嘉宾通过确定性字符串哈希映射至 **8 组**色板（`spk-dyn-0` ~ `spk-dyn-7`，取模 `% 8`）。
+- **印章式说话人色标**：5 位常驻主播（Jon Ostrower、Brian Sumers、Brett Snyder、Kaiser Kuo、Ira Glass）固定低饱和墨色；Ira Glass 配备专属印章色标 `spk-ira`（Light `#2D6A4F` / Dark `#74C69D`）；流动嘉宾通过确定性字符串哈希映射至 **8 组**色板（`spk-dyn-0` ~ `spk-dyn-7`，取模 `% 8`）。
 
 ### 5.4 液态玻璃外壳与 iOS Safari / PWA 安全区透传架构
 
@@ -391,7 +415,7 @@
 
 - **进度条章节打点**：按 `(hl.start_sec / duration) * 100%` 在 `.scrub-track-wrap` 叠加 `.chapter-marker`（容器 `pointer-events: none`、刻度点 `pointer-events: auto` 不阻挡拖拽），桌面端悬停展示 `MM:SS · title_zh` Tooltip，点击直接跳播。
 - **断点续播与进度记忆**：使用 `localStorage['airshow_reader_progress_v1']` 按 `${showId}::${guid}` 存储 `{ position, duration, completed, updatedAt }`；播放期间 3 秒节流写入，并在 `pause` / `ended` / `visibilitychange` / `beforeunload` / 切集前即时落盘。进度 `>= 95%` 或剩余 `< 30s`（总长 `> 60s`）自动标为 `completed: true`；加载未完成单集（`position >= 5`）时弹出浮动续播提示条（支持「继续收听」与「从头播放」），并设 `userInteractedSeek` 门禁防止覆盖用户主动跳转；选集下拉框与 Issue Archive 抽屉实时同步 `[▶ xx%]` / `[✓ 已听完]` 状态标。
-- **Media Session API**：写入 `metadata`（`artwork` 注册包含通用 `192x192` 与 `512x512` 图标，并根据当前节目动态注入专属 512px 封面 `new URL('./artwork-airshow-512.png', location.href).href` 或 `artwork-sinica-512.png` 保证锁屏高清渲染）；注册 `play`、`pause`、`seekbackward`（默认 10s）、`seekforward`（默认 10s）、`seekto`；`setPositionState` 经有限正数边界校验并包在 `try/catch` 中执行。
+- **Media Session API**：写入 `metadata`（`artwork` 注册包含通用 `192x192` 与 `512x512` 图标，并根据当前节目动态注入专属 512px 封面 `artwork-airshow-512.png`、`artwork-sinica-512.png` 或 `artwork-tal-512.png` 保证锁屏高清渲染）；注册 `play`、`pause`、`seekbackward`（默认 10s）、`seekforward`（默认 10s）、`seekto`；`setPositionState` 经有限正数边界校验并包在 `try/catch` 中执行。
 - **Service Worker（`docs/sw.js`）**：仅在 `https:` 或 `localhost`/`127.0.0.1` 注册；对 `./data/**` 与音频媒体请求严格采用 **Network-Only**，确保定时更新的新单集与补跑数据即时生效。
 
 ### 5.7 主动精听套件、防竞态与快捷键规范（M8-A）

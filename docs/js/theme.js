@@ -42,7 +42,10 @@ export function applyShowTheme(show) {
   let lightAccent = '#0A2540';
   let darkAccent = '#78B2DF';
 
-  if (id === 'sinica' || (show && show.accent_color && show.accent_color.toLowerCase().includes('9b2226'))) {
+  if (id === 'tal' || (show && show.accent_color && show.accent_color.toLowerCase().includes('2d6a4f'))) {
+    lightAccent = '#2D6A4F';
+    darkAccent = '#74C69D';
+  } else if (id === 'sinica' || (show && show.accent_color && show.accent_color.toLowerCase().includes('9b2226'))) {
     lightAccent = '#9B2226';
     darkAccent = '#DF7A74';
   } else if (id === 'airshow') {

@@ -1,0 +1,2757 @@
+{
+  "schema_version": "3.0",
+  "show_id": "tal",
+  "guid": "37237 at https://www.thisamericanlife.org",
+  "title": "436: The Psychopath Test",
+  "pub_date": "2026-11-23T01:00:00Z",
+  "duration_sec": 3582,
+  "audio_url": "https://www.thisamericanlife.org/sites/default/files/audio/436/skm6CBw0vYaZsn465bfSaNuBe9xSgsLZ5jKP0auvXGE/436.mp3",
+  "summary_zh": "本期节目围绕“精神变态测试”（PCL-R，即修订版精神变态核查表）展开，探讨这一旨在量化人类极端冷酷特质的心理学工具，在现实世界中究竟揭示了什么，又带来了怎样的误用与伦理困境。Prologue中，Ira Glass带领节目组全员亲身接受测试，在互相猜忌谁得分最高的幽默氛围中引出母主题。Act One里，Alix Spiegel深入加州重刑犯监狱，讲述服刑26年、在亲友眼中早已洗心革面的Robert Dixon，如何因过往履历在测试中获高分而屡遭假释拒绝，连测试发明者Robert Hare也对其在司法系统中的滥用深感忧虑。Act Two中，Jon Ronson探访以冷血裁员闻名的前Sunbeam首席执行官Al Dunlap，审视商界领袖如何将冷酷、无悔等精神变态特质重新包装为“卓越领导力”。最终在Act Three揭晓节目组全员零分的结局，幽默而深刻地印证了真正的精神变态者与常人之间存在着难以逾越的本质鸿沟。",
+  "key_takeaways_zh": [
+    "Prologue（Ira Glass）：《This American Life》节目组全员接受精神变态测试，大家纷纷猜测曾有叛逆青春的Robyn、Jane或性格疏离的Ira会拿下最高分。",
+    "Act One（Alix Spiegel）：服刑26年的囚犯Robert Dixon虽在亲友眼中彻底悔改，却因PCL-R测试高分难以获得假释，测试发明者Robert Hare亦坦言担忧该工具在司法实践中被滥用。",
+    "Act Two（Jon Ronson）：记者Jon Ronson拜访以大规模裁员闻名的前企业高管Al Dunlap，探究精神变态特质在商业世界中如何被美化为果断的领导力。",
+    "Act Three（Ira Glass）：法医心理学家David Bernstein揭晓测试结果，节目组全员因过度神经质且富含同理心而统统得零分，展现出常人与真正精神变态者的本质差异。"
+  ],
+  "highlights": [
+    {
+      "start_sec": 0,
+      "title_zh": "Prologue: 节目组全员测精神变态",
+      "summary_zh": "Ira Glass介绍节目组请来法医心理学家David Bernstein为全体成员做简版精神变态测试。在等待结果期间，大家互相打趣猜忌，一致认为青少年时期叛逆的Robyn、Jane或是Ira本人最可能拿高分。",
+      "quote_en": "A few months ago, all of us here at This American Life heard that there's this test that they give to determine if somebody is a psychopath. And we thought, we want to take that."
+    },
+    {
+      "start_sec": 338,
+      "title_zh": "Act One: 困在分数里的囚犯",
+      "summary_zh": "Alix Spiegel开启第一幕，讲述加州重刑犯Robert Dixon因年轻时做抢劫望风者而入狱26年的故事。尽管父亲与挚友都见证了他十余年来的深刻蜕变，但州立心理学家的PCL-R高分评估却认定他本性冷酷危险，导致假释被拒。",
+      "quote_en": "The psychopath test that we're talking about all this hour is used by prisons and by courtrooms."
+    },
+    {
+      "start_sec": 1069,
+      "title_zh": "测试发明者的色盲比喻与初衷",
+      "summary_zh": "加拿大心理学家Robert Hare回顾自上世纪60年代起的实验室研究，指出精神变态者在生理上“情感失聪”，如同无法理解红色的色盲。为推进基础科学测量，他在1980年制定了包含20项人格特征的核查表PCL-R。",
+      "quote_en": "It's sort of like trying to explain to a colorblind person what the color red is."
+    },
+    {
+      "start_sec": 1442,
+      "title_zh": "高达80%再犯率引发司法争抢",
+      "summary_zh": "一项追踪研究意外发现PCL-R高分者出狱后再犯率高达80%，令原本忽视人格因素的刑事司法界大为震惊。加拿大国家假释委员会甚至希望将分数用大红字印在每个囚犯档案封面上，令研发团队深感恐惧。",
+      "quote_en": "They said quite literally, what we want to do is give everybody this test and then have the test score written in big red numbers on the front of the file."
+    },
+    {
+      "start_sec": 1730,
+      "title_zh": "立场偏差与发明者的失眠隐忧",
+      "summary_zh": "研究显示检方与辩方聘请的心理学家对同一囚犯的打分竟相差多达10至20分，且测试在缺乏监管的现实中常被外行滥用。发明者Robert Hare坦言自己不得不压抑内心的不安，否则想到工具误伤无辜便夜不能寐。",
+      "quote_en": "If I thought of every potential use or misuse of the instrument, I probably wouldn't sleep at all."
+    },
+    {
+      "start_sec": 2064,
+      "title_zh": "Act Two: 商界森林之王的掠食哲学",
+      "summary_zh": "Jon Ronson开启第二幕，探访曾因大肆关厂裁员推高股价而获称冷血高管的前Sunbeam首席执行官Al Dunlap。在其遍布猛兽雕塑与黄金装饰的佛罗里达豪宅中，Dunlap毫不掩饰对“掠食者精神”的崇拜。",
+      "quote_en": "We have arrived at Act Two of our show. Act Two, King of the Forest."
+    },
+    {
+      "start_sec": 2719,
+      "title_zh": "把变态特质重新定义为领导力",
+      "summary_zh": "当Jon Ronson硬着头皮拿出核查表逐项提问时，Al Dunlap不仅没翻脸，反而自豪地将“操纵欲”解释为领导力、将“冲动”定义为快速分析、将“缺乏悔意”视为摆脱无谓情绪的成功秘诀。",
+      "quote_en": "I think you could describe that as leadership, inspire. I think it's called leadership."
+    },
+    {
+      "start_sec": 3080,
+      "title_zh": "Act Three: 揭晓谁是编辑部疯子",
+      "summary_zh": "回到编辑部，Ira Glass坦承自己现实中在社交与情感表达上的疏离与笨拙，随后团队进行终极投票，Robyn与Jane票数领先，Nancy甚至好胜地投了自己一票。",
+      "quote_en": "Act Three: The Results Are In. Who is the psycho?"
+    },
+    {
+      "start_sec": 3340,
+      "title_zh": "全员零分：过度神经质的同理心",
+      "summary_zh": "David Bernstein宣布节目组全员得分均为0，并幽默指出有一半人在受访时差点落泪，实在太过神经质且充满悔意与同理心。就连曾偷过教师手册的Robyn，当年也是为了免费分享答案让大家考好，彻底与精神变态绝缘。",
+      "quote_en": "Well, this will be very easy, because you all scored a 0. Every one of you."
+    }
+  ],
+  "vocab_notes": [
+    {
+      "term": "dark horse",
+      "meaning_zh": "黑马；出人意料的获胜者",
+      "note_zh": "源自赛马术语，Ira在此处幽默地指代编辑部里尚未被提名、却可能在精神变态测试中意外拿高分的隐藏人选。",
+      "start_sec": 319
+    },
+    {
+      "term": "sugarcoat",
+      "meaning_zh": "粉饰；美化（残酷或不快的事实）",
+      "note_zh": "字面意为“裹上糖衣”，常用于否定句（no way to sugarcoat this），表示无法掩饰Robert Dixon青少年时期劣迹斑斑的犯罪事实。",
+      "start_sec": 480
+    },
+    {
+      "term": "above and beyond",
+      "meaning_zh": "超越分内要求；加倍努力",
+      "note_zh": "地道美式口语习语，常搭配go或do，形容Dixon为了争取假释和自我救赎，必须付出远超常人的自律与行动。",
+      "start_sec": 615
+    },
+    {
+      "term": "what makes someone tick",
+      "meaning_zh": "驱使某人行事的内在动机或心理机制",
+      "note_zh": "以钟表滴答运转作比喻，指心理学家Robert Hare早年做基础研究时纯粹想弄懂精神变态者大脑与行为背后的运作逻辑。",
+      "start_sec": 960
+    },
+    {
+      "term": "zeitgeist",
+      "meaning_zh": "时代精神；时代思潮",
+      "note_zh": "源自德语的英语高频人文词汇，文中指上世纪七八十年代犯罪学界普遍认为“罪犯完全由社会环境塑造而非天生”的主流思潮。",
+      "start_sec": 1314
+    },
+    {
+      "term": "intraocular effect",
+      "meaning_zh": "一眼可见的显著效应（字面：直击两眼之间的效应）",
+      "note_zh": "心理统计学家Jacob Cohen提出的幽默学术俚语，形容统计结果差异极其悬殊明显，无需复杂计算就能“迎面击中眼球”。",
+      "start_sec": 1401
+    },
+    {
+      "term": "soft on crime",
+      "meaning_zh": "对犯罪心慈手软；打击犯罪不力",
+      "note_zh": "美国政治与选举语境中的经典负面标签，政客（如加州州长）因害怕承担这一骂名而极少批准高风险终身监禁者的假释。",
+      "start_sec": 1608
+    },
+    {
+      "term": "in over my head",
+      "meaning_zh": "力不从心；深陷超出自己能力范围的困境",
+      "note_zh": "以水深没过头顶作比喻，生动刻画出Jon Ronson在Al Dunlap的客厅里当面说出“精神变态”一词后进退两难的恐慌感。",
+      "start_sec": 2565
+    },
+    {
+      "term": "line in the sand",
+      "meaning_zh": "明确的界限；不可逾越的底线或临界标准",
+      "note_zh": "意指在沙地上画出的分界线，文中指PCL-R量表中29或30分这一判定是否属于临床精神变态的硬性分界线。",
+      "start_sec": 2973
+    }
+  ],
+  "references": [
+    {
+      "title": "PCL-R (Psychopathy Checklist-Revised)",
+      "creator": "Robert Hare",
+      "category": "other",
+      "note_zh": "整期节目探讨的核心心理评估工具，由加拿大心理学家Robert Hare于1980年研发并被全球法院与监狱广泛采用。",
+      "start_sec": 360
+    },
+    {
+      "title": "The Psychopath Test",
+      "creator": "Jon Ronson",
+      "category": "book",
+      "note_zh": "记者Jon Ronson撰写的非虚构著作，本期节目Act Two直接节选自该书，同时也是整期节目的灵感来源之一。",
+      "start_sec": 2064
+    },
+    {
+      "title": "Fast Company",
+      "creator": "",
+      "category": "media",
+      "note_zh": "美国知名商业杂志，曾刊文探讨商界潜在的精神变态CEO，并在其他案例皆已去世或入狱的情况下大胆将Al Dunlap列入其中。",
+      "start_sec": 2176
+    },
+    {
+      "title": "If I Were King of the Forest",
+      "creator": "Bert Lahr (from The Wizard of Oz)",
+      "category": "media",
+      "note_zh": "电影《绿野仙踪》中胆小狮的经典插曲，不仅呼应了Act Two的分幕标题，还在第二幕结尾作为极具反讽意味的过场配乐播放。",
+      "start_sec": 3022
+    },
+    {
+      "title": "All Things Considered",
+      "creator": "NPR",
+      "category": "media",
+      "note_zh": "NPR旗舰新闻广播节目，Show Notes中说明Alix Spiegel报道的Act One故事曾在该节目播出过另一版本。",
+      "start_sec": null
+    }
+  ],
+  "transcript": [
+    {
+      "id": 1,
+      "start_sec": 0,
+      "speaker": "Ira Glass",
+      "en": "A few months ago, all of us here at This American Life heard that there's this test that they give to determine if somebody is a psychopath. And we thought, we want to take that.",
+      "zh": "几个月前，我们《This American Life》栏目组的所有人听说有这么一种测试，专门用来测定一个人是不是精神病态者。当时我们心想：我们也想测测看！"
+    },
+    {
+      "id": 2,
+      "start_sec": 10,
+      "speaker": "Ira Glass",
+      "en": "And so we asked a forensic psychologist, David Bernstein, who gives this test all the time, to administer the test to us. He took us each into a room, gave us about an hour of questions.",
+      "zh": "于是，我们请来了法医心理学专家 David Bernstein——他平时经常主持这种测试——来对我们进行评测。他把我们一个个叫进房间，足足盘问了大约一个小时。"
+    },
+    {
+      "id": 3,
+      "start_sec": 22,
+      "speaker": "David Bernstein",
+      "en": "As a child, did you get into a lot of fights?",
+      "zh": "你小的时候，经常跟人打架吗？"
+    },
+    {
+      "id": 4,
+      "start_sec": 27,
+      "speaker": "Ben Calhoun",
+      "en": "Uh, I would say beat up more than got into. [LAUGHTER]",
+      "zh": "呃，与其说打架，不如说是经常挨揍吧。[笑声]"
+    },
+    {
+      "id": 5,
+      "start_sec": 32,
+      "speaker": "David Bernstein",
+      "en": "So you were typically the-- When you were young, did you ever do rowdy things outside of school, like vandalize, break windows, you know, set fires, hurt animals, or young children, anything like that? Steal?",
+      "zh": "所以你通常是那个——你年轻的时候，有没有在校外干过什么出格的混账事，比如搞破坏、砸窗户，比如放火、虐待动物或幼童，诸如此类的？或者偷窃？"
+    },
+    {
+      "id": 6,
+      "start_sec": 46,
+      "speaker": "Jonathan Menjivar",
+      "en": "Um, no. There was a video that we watched in school that really warned me against it. The one thing that I did do--",
+      "zh": "呃，没有。我们上学时看过一个警示片，狠狠警告过我别干这些。我唯一干过的一件事——"
+    },
+    {
+      "id": 7,
+      "start_sec": 54,
+      "speaker": "David Bernstein",
+      "en": "Um, and you graduated high school?",
+      "zh": "嗯，你高中毕业了吗？"
+    },
+    {
+      "id": 8,
+      "start_sec": 56,
+      "speaker": "Nancy Updike",
+      "en": "Yes.",
+      "zh": "毕业了。"
+    },
+    {
+      "id": 9,
+      "start_sec": 58,
+      "speaker": "David Bernstein",
+      "en": "And what did you do after leaving high school?",
+      "zh": "高中毕业后你做了什么？"
+    },
+    {
+      "id": 10,
+      "start_sec": 61,
+      "speaker": "Nancy Updike",
+      "en": "I did an internship, actually, at National Public Radio, like all budding psychopaths.",
+      "zh": "我去 NPR 实习了，就像所有初露头角的变态狂一样。"
+    },
+    {
+      "id": 11,
+      "start_sec": 74,
+      "speaker": "Ira Glass",
+      "en": "Now to be clear, David Bernstein gave us the shorter version of the psychopath test, and he was not as rigorous as he would have been with real potential psychopaths. For instance, he didn't check police records to independently verify everything that each one of us said, because, of course, we did not expect to find a psychopath on our staff.",
+      "zh": "先说明一下，David Bernstein 给我们做的是简易版精神病态测试，并没有像对付真正的潜在精神病态者那样严苛。比如，他并没有去查警方的档案来逐一核实我们说的每句话，毕竟，我们本就没指望真能从组里揪出个精神病态狂。"
+    },
+    {
+      "id": 12,
+      "start_sec": 92,
+      "speaker": "Ira Glass",
+      "en": "Though, to be honest, it wasn't until David Bernstein actually arrived at our office and started administering this thing that we really, I think, all fully understood just how far gone a true psychopath is.",
+      "zh": "不过坦白讲，直到 David Bernstein 真正走进办公室开始测试，我想大家才真正透彻地明白，一个纯粹的精神病态者究竟病入膏肓到了何种地步。"
+    },
+    {
+      "id": 13,
+      "start_sec": 102,
+      "speaker": "Ira Glass",
+      "en": "He explained to us, a psychopath has no empathy at all. No sense of mercy, no conscience, they don't experience love.",
+      "zh": "他向我们解释，精神病态者根本没有任何共情能力。他们不知怜悯，没有良知，体会不到爱。"
+    },
+    {
+      "id": 14,
+      "start_sec": 110,
+      "speaker": "David Bernstein",
+      "en": "They could tell you what these things mean, and particularly the smarter ones, the brighter ones. They could even-- the brighter ones will learn to fake it. But they could not experience it.",
+      "zh": "他们可以跟你头头是道地解释这些词是什么意思，尤其是聪明绝顶的那一批。他们甚至——那些聪明人能学会伪装出这些情感。但他们绝不可能感同身受。"
+    },
+    {
+      "id": 15,
+      "start_sec": 126,
+      "speaker": "Ira Glass",
+      "en": "But you know, you work with people all the time. Think of any group of people that you know well, okay? Friends, relatives, your state's congressional delegation.",
+      "zh": "但大家也知道，平时我们每天都和同事朝夕相处。想想任何你熟悉的人群，对吧？朋友、亲戚，哪怕是你所在州的国会代表团。"
+    },
+    {
+      "id": 16,
+      "start_sec": 136,
+      "speaker": "Ira Glass",
+      "en": "And you know, sometimes you see them, and a thought crosses your mind. Okay, this person isn't a psychopath, but there's tendencies, you know? There's a little note of something.",
+      "zh": "有时候看着他们，脑海里难免会闪过一丝念头：好吧，这个人虽然不至于真是个精神病态，但肯定有些苗头，对吧？总能隐隐嗅出那么一点味道。"
+    },
+    {
+      "id": 17,
+      "start_sec": 146,
+      "speaker": "Ira Glass",
+      "en": "And of the people in the staff who took the test-- that's Julie, Jonathan, me, Sarah, Jane, Ben, Robyn, and Nancy-- we all did have our suspicions.",
+      "zh": "在组里接受测试的这帮人当中——也就是 Julie、Jonathan、我、Sarah、Jane、Ben、Robyn 以及 Nancy——我们私下里其实都各有怀疑。"
+    },
+    {
+      "id": 18,
+      "start_sec": 155,
+      "speaker": "Ben Calhoun",
+      "en": "So why were you in there for two hours, Robyn?",
+      "zh": "话说 Robyn，你在里面呆了两个小时是干嘛呢？"
+    },
+    {
+      "id": 19,
+      "start_sec": 158,
+      "speaker": "Jonathan Menjivar",
+      "en": "Yeah, why were you in there for two hours?",
+      "zh": "对啊，你怎么呆了两个小时？"
+    },
+    {
+      "id": 20,
+      "start_sec": 160,
+      "speaker": "Robyn Semien",
+      "en": "I don't know! There's a lot of questions. There's so many questions.",
+      "zh": "我哪知道！问题很多啊，有好多问题要问。"
+    },
+    {
+      "id": 21,
+      "start_sec": 163,
+      "speaker": "Julie Snyder",
+      "en": "He told me that you were actually a bit transgressive, more than others.",
+      "zh": "他跟我说，你其实比其他人更有越轨倾向。"
+    },
+    {
+      "id": 22,
+      "start_sec": 167,
+      "speaker": "Sarah Koenig",
+      "en": "Really?",
+      "zh": "真的吗？"
+    },
+    {
+      "id": 23,
+      "start_sec": 168,
+      "speaker": "Julie Snyder",
+      "en": "Yes. He said that coming out--",
+      "zh": "真的。他出来时就这么说的——"
+    },
+    {
+      "id": 24,
+      "start_sec": 169,
+      "speaker": "Nancy Updike",
+      "en": "Wait, you? Robyn?",
+      "zh": "等等，说你？Robyn？"
+    },
+    {
+      "id": 25,
+      "start_sec": 171,
+      "speaker": "Julie Snyder",
+      "en": "Robyn. Yes, Robyn. Robyn--",
+      "zh": "Robyn。没错，就是 Robyn。Robyn——"
+    },
+    {
+      "id": 26,
+      "start_sec": 173,
+      "speaker": "Jane Feltes",
+      "en": "Oh, rebellious. Rebellious.",
+      "zh": "噢，一身反骨。叛逆得很。"
+    },
+    {
+      "id": 27,
+      "start_sec": 174,
+      "speaker": "Julie Snyder",
+      "en": "Robyn was is more-- yes, was more rebellious than the rest. Yes.",
+      "zh": "Robyn 确实更——没错，比我们其他人都叛逆。是的。"
+    },
+    {
+      "id": 28,
+      "start_sec": 177,
+      "speaker": "Sarah Koenig",
+      "en": "Really? Oh yeah, he did say that.",
+      "zh": "真的假的？噢对，他确实说过。"
+    },
+    {
+      "id": 29,
+      "start_sec": 179,
+      "speaker": "Jane Feltes",
+      "en": "Wow, Robyn!",
+      "zh": "哇哦，Robyn！"
+    },
+    {
+      "id": 30,
+      "start_sec": 180,
+      "speaker": "Robyn Semien",
+      "en": "Yeah, he did say that, but um...",
+      "zh": "对，他确实那么说过，但是……"
+    },
+    {
+      "id": 31,
+      "start_sec": 182,
+      "speaker": "Ira Glass",
+      "en": "The test, if you want to know, asks about your family, whether you've been in love, your favorite and least favorite things about love, what kind of employee you are, plus these general questions that really make you think about what a psychopath is.",
+      "zh": "如果你想了解的话，这份测试会问到你的家庭，你是否谈过恋爱，你在爱情中最喜欢和最讨厌什么，你是个怎样的员工，此外还有一些普遍性的问题，真会让你琢磨到底什么才是精神病态。"
+    },
+    {
+      "id": 32,
+      "start_sec": 194,
+      "speaker": "Ira Glass",
+      "en": "Like, have you done crazy or dangerous things for fun? Do you think people are easy to con or manipulate? Do people tell you—this one sort of is scary—do people tell you that you have a bad temper?",
+      "zh": "比如，你有没有为了寻开心做过疯狂或危险的事？你是否觉得别人很容易被欺骗或操纵？别人有没有对你说过——这题挺吓人的——别人有没有说过你脾气很暴躁？"
+    },
+    {
+      "id": 33,
+      "start_sec": 205,
+      "speaker": "Ira Glass",
+      "en": "But a surprisingly large part of the questionnaire is about things that you did when you were a kid, when you were a teenager. So Robyn, with the stuff that she did in high school, seemed like she might score at least a couple of points, and so did Jane.",
+      "zh": "不过问卷中出人意料有很大一部分，是关于你小时候、青少年时期的所作所为。所以从 Robyn 高中时的那些经历来看，她似乎至少能拿上几分，Jane 也是。"
+    },
+    {
+      "id": 34,
+      "start_sec": 216,
+      "speaker": "Ira Glass",
+      "en": "Jane had run-ins with the law as a teenager. Here's how she answered Dr. Bernstein when he asked, \"How would your teachers describe your behavior in high school?\"",
+      "zh": "Jane 青少年时期曾跟警察打过交道。当 Bernstein 医生问她“你的老师会怎么形容你在高中的表现”时，她是这么回答的。"
+    },
+    {
+      "id": 35,
+      "start_sec": 225,
+      "speaker": "Jane Feltes",
+      "en": "Rebellious, um, irresponsible, uh...",
+      "zh": "叛逆，呃，不负责任，呃……"
+    },
+    {
+      "id": 36,
+      "start_sec": 229,
+      "speaker": "David Bernstein",
+      "en": "Underachiever?",
+      "zh": "没有发挥潜力的差生？"
+    },
+    {
+      "id": 37,
+      "start_sec": 230,
+      "speaker": "Jane Feltes",
+      "en": "Yeah. Mhm. Because I could have done a lot better. I'm sure they thought that.",
+      "zh": "对，嗯哼。因为我本来可以表现得好得多。我敢肯定他们是这么想的。"
+    },
+    {
+      "id": 38,
+      "start_sec": 235,
+      "speaker": "David Bernstein",
+      "en": "What kind of grades did you get?",
+      "zh": "你当时成绩怎么样？"
+    },
+    {
+      "id": 39,
+      "start_sec": 237,
+      "speaker": "Jane Feltes",
+      "en": "A's, and then over time, D's.",
+      "zh": "先是全拿 A，后来慢慢就全变成 D 了。"
+    },
+    {
+      "id": 40,
+      "start_sec": 241,
+      "speaker": "David Bernstein",
+      "en": "Okay.",
+      "zh": "好的。"
+    },
+    {
+      "id": 41,
+      "start_sec": 243,
+      "speaker": "Jane Feltes",
+      "en": "Yeah, to where I quit, basically, because I was failing all my classes, and I didn't want to be there anyway.",
+      "zh": "对，最后基本就退学了，因为我所有科目都不及格，而且我本来也不想待在那儿。"
+    },
+    {
+      "id": 42,
+      "start_sec": 250,
+      "speaker": "Ira Glass",
+      "en": "So when we were all sitting around talking after we took the test, still waiting to get our scores, talking about whether we had been nervous taking it, there was one more person, besides Jane and Robyn, that everybody thought might score at least a couple points on the psychopath scale.",
+      "zh": "所以做完测试后，大家围坐在一起闲聊，还在等成绩，讨论做题时有没有紧张。除了 Jane 和 Robyn 之外，大家一致认为还有一个人，在精神病态量表上至少能拿个几分。"
+    },
+    {
+      "id": 43,
+      "start_sec": 267,
+      "speaker": "Ira Glass",
+      "en": "Who do you guys think is going to have the highest score?",
+      "zh": "你们觉得谁的分数会最高？"
+    },
+    {
+      "id": 44,
+      "start_sec": 269,
+      "speaker": "Nancy Updike",
+      "en": "You.",
+      "zh": "你。"
+    },
+    {
+      "id": 45,
+      "start_sec": 269,
+      "speaker": "Sarah Koenig",
+      "en": "You.",
+      "zh": "你。"
+    },
+    {
+      "id": 46,
+      "start_sec": 270,
+      "speaker": "Ira Glass",
+      "en": "Really?",
+      "zh": "真的假的？"
+    },
+    {
+      "id": 47,
+      "start_sec": 270,
+      "speaker": "Robyn Semien",
+      "en": "Yeah.",
+      "zh": "真的。"
+    },
+    {
+      "id": 48,
+      "start_sec": 271,
+      "speaker": "Ben Calhoun",
+      "en": "Yes.",
+      "zh": "没错。"
+    },
+    {
+      "id": 49,
+      "start_sec": 273,
+      "speaker": "Jane Feltes",
+      "en": "Oh, wait. So, Ira, wait. Were you nervous?",
+      "zh": "噢，等等。所以，Ira，等等。你当时紧张吗？"
+    },
+    {
+      "id": 50,
+      "start_sec": 276,
+      "speaker": "Ira Glass",
+      "en": "I was very nervous, yeah. Yeah, yeah, I was. Yeah.",
+      "zh": "我超级紧张，真的。对，对，我很紧张。是的。"
+    },
+    {
+      "id": 51,
+      "start_sec": 279,
+      "speaker": "Julie Snyder",
+      "en": "Are you still, after taking it?",
+      "zh": "做完之后现在还紧张吗？"
+    },
+    {
+      "id": 52,
+      "start_sec": 283,
+      "speaker": "Ira Glass",
+      "en": "A little.",
+      "zh": "有一点。"
+    },
+    {
+      "id": 53,
+      "start_sec": 285,
+      "speaker": "Julie Snyder",
+      "en": "Yeah.",
+      "zh": "看吧。"
+    },
+    {
+      "id": 54,
+      "start_sec": 286,
+      "speaker": "Robyn Semien",
+      "en": "I'm nervous for you.",
+      "zh": "我都替你感到紧张。"
+    },
+    {
+      "id": 55,
+      "start_sec": 288,
+      "speaker": "Ira Glass",
+      "en": "Thank you.",
+      "zh": "谢谢你啊。"
+    },
+    {
+      "id": 56,
+      "start_sec": 289,
+      "speaker": "Jane Feltes",
+      "en": "Yeah, I think I'd be nervous.",
+      "zh": "对，我觉得换我我也会紧张。"
+    },
+    {
+      "id": 57,
+      "start_sec": 295,
+      "speaker": "Ira Glass",
+      "en": "Well, today on our radio show, what it is in me that the people I work with see as possibly psychopathic. And two of our favorite contributors, Alix Spiegel and the very funny Jon Ronson, each has been spending lots of time investigating the psychopath test, figuring out what it can tell us and what it cannot tell us.",
+      "zh": "好了，在今天的节目里，我们要聊聊和我共事的这帮同事到底在我身上看到了什么，会觉得我可能是个精神病态。另外，我们最喜爱的两位撰稿人——Alix Spiegel 和非常幽默的 Jon Ronson，这段时间都在深入调查这个精神病态测试，弄清楚它究竟能说明什么，又有哪些局限。"
+    },
+    {
+      "id": 58,
+      "start_sec": 312,
+      "speaker": "Ira Glass",
+      "en": "It's a test that's used in criminal justice systems all over the world. They explain why that may be worrisome.",
+      "zh": "这是一个全球刑事司法系统都在使用的测试。他们将解释为什么这种现状可能令人担忧。"
+    },
+    {
+      "id": 59,
+      "start_sec": 319,
+      "speaker": "Ira Glass",
+      "en": "That, and of course our scores. Who on our staff scored the highest on the psychopath test: me, Jane, Robyn, or some yet-to-be-named dark horse? Stay with us.",
+      "zh": "不仅如此，当然还有我们的测试得分。我们团队里谁在精神病态测试中得分最高：是我、Jane、Robyn，还是某匹尚未浮出水面的黑马？请不要走开。"
+    },
+    {
+      "id": 60,
+      "start_sec": 338,
+      "speaker": "Ira Glass",
+      "en": "Act One: Underachievement Test.",
+      "zh": "第一幕：表现不佳测试。"
+    },
+    {
+      "id": 61,
+      "start_sec": 341,
+      "speaker": "Ira Glass",
+      "en": "The psychopath test that we're talking about all this hour is used by prisons and by courtrooms. And the questions on the test are supposed to measure whether you have any of the traits on this checklist of 20 traits that scientists have observed in psychopaths: lack of remorse, impulsivity, failure to take responsibility for your actions, pathological lying, sexual promiscuity...",
+      "zh": "我们这一整小时都在聊的精神病态测试，广泛应用于监狱和法庭中。测试中的各项提问，旨在衡量你是否具备科学家在精神病态者身上观察到的这份清单里的 20 种特质：毫无悔意、冲动任性、拒绝对自己的行为负责、病态撒谎、性关系混乱……"
+    },
+    {
+      "id": 62,
+      "start_sec": 360,
+      "speaker": "Ira Glass",
+      "en": "Because it's a checklist, sometimes people just call the test The Checklist, though sometimes they call it by its formal name, the PCL-R, which stands for Psychopathy Checklist-Revised.",
+      "zh": "正因为它是一份核对清单，有时大家就直接管这测试叫“清单”，不过有时他们也会用它的正式学名：PCL-R，代表“精神病态核对清单修订版”。"
+    },
+    {
+      "id": 63,
+      "start_sec": 372,
+      "speaker": "Ira Glass",
+      "en": "And to give you a sense of how the test is normally used, we have this story from Alix Spiegel.",
+      "zh": "为了让大家了解这项测试在现实中是如何被使用的，我们请 Alix Spiegel 带来接下来的这个故事。"
+    },
+    {
+      "id": 64,
+      "start_sec": 379,
+      "speaker": "Alix Spiegel",
+      "en": "The day that sealed Robert Dixon's fate began with a bike ride. Robert says it was still early morning when he asked his friend, a guy named John, to give him a ride home on the handlebars of his bike.",
+      "zh": "彻底注定了 Robert Dixon 命运的那一天，是从一次骑车开始的。Robert 说，那天还是清晨，他碰到了一个叫 John 的朋友，便让他用自行车的车把载自己回家。"
+    },
+    {
+      "id": 65,
+      "start_sec": 390,
+      "speaker": "Alix Spiegel",
+      "en": "But he says John was already upset. John had gotten into a fight with his girlfriend. He was jumpy and in a bad mood.",
+      "zh": "但他回忆说，当时 John 情绪就很不好。John 刚跟女朋友大吵了一架，整个人神经紧绷，火气很大。"
+    },
+    {
+      "id": 66,
+      "start_sec": 396,
+      "speaker": "Alix Spiegel",
+      "en": "So when they passed a young man headed in the opposite direction, Dixon says John made a proposal: 'Let's rob him.'",
+      "zh": "所以，当他们迎面走过一个年轻男子时，Dixon 记得 John 提议说：“抢了他。”"
+    },
+    {
+      "id": 67,
+      "start_sec": 403,
+      "speaker": "Robert Dixon",
+      "en": "He said to me, he says, 'Hey, let's let's see what this guy got.' I said, 'No, come on, man. Just take me home.'",
+      "zh": "他跟我说，他说：‘嘿，咱们去看看这家伙身上有啥。’我说：‘别闹了，哥们儿，直接送我回家吧。’"
+    },
+    {
+      "id": 68,
+      "start_sec": 411,
+      "speaker": "Robert Dixon",
+      "en": "He says, 'No, come on. Let's just This ain't going to take that long.' So he turns the bike, and I'm sitting on the handlebars.",
+      "zh": "他说：‘不行，来吧，耽误不了多久。’于是他调转车头，我还坐在自行车车把上。"
+    },
+    {
+      "id": 69,
+      "start_sec": 416,
+      "speaker": "Alix Spiegel",
+      "en": "They caught up with the man, and Dixon jumped off the bike to act as lookout, while John approached him, pulled out his gun, and asked for the guy's necklace. Dixon could hear them arguing. The man didn't want to give it up. He said it was a gift.",
+      "zh": "他们追上了那个男人，Dixon 跳下车去放哨，而 John 走上前，拔出枪，索要那人脖子上的项链。Dixon 能听到两人在争吵。对方不肯交出来，说那是别人送的礼物。"
+    },
+    {
+      "id": 70,
+      "start_sec": 429,
+      "speaker": "Robert Dixon",
+      "en": "Now, my main concern at this time is that I don't want to get caught doing what we're doing. So I'm looking around. I look at them. He's talking to him. I look uh again, I'm looking around to see if, you know, the cops or anybody see us out there doing what we're doing. And bow! The gun goes off.",
+      "zh": "当时我最担心的就是被逮个正着。所以我四处张望。我看了看他们俩，他还在跟那人理论。我回过头，继续四下巡视，看看有没有警察或者其他人撞见我们在干什么。突然，砰的一声！枪响了。"
+    },
+    {
+      "id": 71,
+      "start_sec": 451,
+      "speaker": "Robert Dixon",
+      "en": "What I saw when I looked at my co-defendant was shock. That he was in shock that he had just pulled that trigger. And so, you know, I said, 'What happened?' He looked at me, and he didn't answer me. He just ran.",
+      "zh": "我转头看同案犯的脸，上面写满了震惊。他自己都吓傻了，震惊于自己竟然真的扣动了扳机。我问他：‘怎么了？！’他看了我一眼，什么也没说，拔腿就跑。"
+    },
+    {
+      "id": 72,
+      "start_sec": 473,
+      "speaker": "Alix Spiegel",
+      "en": "In December of 1985, Robert Dixon got 15 years to life with the possibility of parole for acting as an accessory to murder. Now, this was not Robert Dixon's first crime. There is no way to sugarcoat this. Robert Dixon was a delinquent.",
+      "zh": "1985 年 12 月，Robert Dixon 因作为谋杀案的从犯，被判处 15 年至终身监禁，具备假释可能。这并不是 Robert Dixon 第一次犯罪。没必要为他粉饰，Robert Dixon 当时确实劣迹斑斑。"
+    },
+    {
+      "id": 73,
+      "start_sec": 488,
+      "speaker": "Alix Spiegel",
+      "en": "As a teen, he was convicted of raping one woman and beating another. Since childhood, in fact, Dixon's life had been deeply disturbed. He tried to commit suicide at 10, and at 12 threatened to kill himself and his father, who according to records, often beat him.",
+      "zh": "青少年时期，他曾因强奸一名女性和殴打另一名女性而被定罪。事实上，从孩提时代起，Dixon 的生活就已极度扭曲失衡。他 10 岁时就试图自杀，12 岁时威胁要杀了自己和父亲，而卷宗记录显示，父亲经常痛打他。"
+    },
+    {
+      "id": 74,
+      "start_sec": 504,
+      "speaker": "Alix Spiegel",
+      "en": "He was in and out of detention for the rest of his teens. That was his life before the crime.",
+      "zh": "整个青春期，他在少管所进进出出。这就是他犯下那起大罪之前的人生。"
+    },
+    {
+      "id": 75,
+      "start_sec": 509,
+      "speaker": "Robert Dixon",
+      "en": "I'm just living day for day. You know, I don't have a job. I've been kicked out of my home by my dad. He and I really not getting along. I'm ripping and running the streets. I was delinquent. I was a lost person.",
+      "zh": "我那时候就是混日子，过一天算一天。没有工作，被我爸赶出了家门。我和他水火不容。我在街头瞎混鬼混。我成了不良少年，成了一个彻底迷失的人。"
+    },
+    {
+      "id": 76,
+      "start_sec": 530,
+      "speaker": "Alix Spiegel",
+      "en": "I went to interview Robert Dixon in a maximum-security prison in Vacaville, California. 26 years later, he is still in prison for his crime. I went to see him because I want--",
+      "zh": "我前往加利福尼亚州瓦卡维尔的一所最高戒备级别监狱采访 Robert Dixon。26 年过去了，他依然在为当年的罪行服刑。我去见他，是因为我想——"
+    },
+    {
+      "id": 77,
+      "start_sec": 540,
+      "speaker": "Alix Spiegel",
+      "en": "wanted to understand who Robert Dixon is today. In the days before our meeting, I talked to a small army of his friends and family, all of whom felt, deep in their hearts, that they knew Robert Dixon, and that the man they knew was completely changed, that he was no longer a threat to anyone and was ready for parole.",
+      "zh": "想了解如今的 Robert Dixon 究竟是个怎样的人。在见面前的几天里，我和他的一大群亲朋好友聊过，他们发自肺腑地坚信自己了解 Robert Dixon，他们认识的那个他已经脱胎换骨，不再对任何人构成威胁，已经做好了假释的准备。"
+    },
+    {
+      "id": 78,
+      "start_sec": 557,
+      "speaker": "Alix Spiegel",
+      "en": "Here's Dixon's father, the man Robert once threatened to kill.",
+      "zh": "这位是 Dixon 的父亲，也就是当年 Robert 扬言要杀害的人。"
+    },
+    {
+      "id": 79,
+      "start_sec": 561,
+      "speaker": "Robert Dixon Senior",
+      "en": "I've seen him change in the last 10 years, drastic change in him, especially with me. He got older, and he kind of slowed down, and I got older, and I slowed down. Age changed everybody.",
+      "zh": "在过去的十年里，我看着他变了，变化非常彻底，尤其是对我。他年纪大了，性子慢了下来；我也上了岁数，节奏慢了下来。岁月改变了所有人。"
+    },
+    {
+      "id": 80,
+      "start_sec": 579,
+      "speaker": "Alix Spiegel",
+      "en": "Now Dixon Sr. says this transformation didn't happen quickly. He says for a time, even after his son went to prison, he was still impulsive, still hard. Robert's early years behind bars were riddled with 115s-- that's prison-speak for rules violations. And the stories he would hear from Robert were always about fights.",
+      "zh": "老 Dixon 说，这种转变并非一朝一夕。他说哪怕在儿子入狱后的一段时间里，性子依然冲动、狠硬。Robert 刚服刑的那几年满是“115记录”——也就是监狱里指代违纪的黑话。父亲从 Robert 那里听到的事也总是跟打架有关。"
+    },
+    {
+      "id": 81,
+      "start_sec": 598,
+      "speaker": "Alix Spiegel",
+      "en": "But about 12 years ago, he says, the narrative began to shift.",
+      "zh": "但老父亲说，大约在12年前，事情开始有了转机。"
+    },
+    {
+      "id": 82,
+      "start_sec": 602,
+      "speaker": "Robert Dixon Senior",
+      "en": "You know, he'd tell me about a lot of incidents that would come up, and he would avoid them. You know, just, \"You can have it your way,\" and walk away.",
+      "zh": "他会跟我讲遇到的很多冲突，他都避开了。就是那种，“行，随你便，”然后转身走开。"
+    },
+    {
+      "id": 83,
+      "start_sec": 615,
+      "speaker": "Bob Stuart",
+      "en": "He knows that if he's going to get there, he's got to be twice as disciplined. He's got to do things above and beyond, and, quite frankly, he has.",
+      "zh": "他心里清楚，如果想要走出去，他就必须拿出常人双倍的自律。他必须做得比任何标准都好，坦白讲，他也确实做到了。"
+    },
+    {
+      "id": 84,
+      "start_sec": 625,
+      "speaker": "Alix Spiegel",
+      "en": "This is Dixon's best friend, Bob Stuart. Like Dixon's father, when I went to visit Bob, he regaled me with stories of Dixon's transformation. And this change, Bob said, wasn't simply a matter of getting older and mellowing. Dixon, he said, had worked at it, worked at it hard.",
+      "zh": "这位是 Dixon 最要好的朋友 Bob Stuart。和 Dixon 的父亲一样，我去拜访 Bob 时，他也滔滔不绝地讲起了 Dixon 的转变。Bob 说，这种改变绝不仅仅是年纪变大、性子变圆润那么简单。他说，Dixon 为此下了苦功，付出了极大的努力。"
+    },
+    {
+      "id": 85,
+      "start_sec": 642,
+      "speaker": "Alix Spiegel",
+      "en": "Bob brought out a folder with copies of Dixon's various certificates, from business courses, from self-help seminars, a thick stack documenting hours logged in a quest for change. Stuart comes from a very different background than Dixon.",
+      "zh": "Bob 拿出了一个文件夹，里面装满了 Dixon 的各种证书复印件，有商业课程的，有自助研讨班的，厚厚的一叠，记录着他在寻求改变的路上付出的漫长时间。Stuart 的背景与 Dixon 截然不同。"
+    },
+    {
+      "id": 86,
+      "start_sec": 656,
+      "speaker": "Alix Spiegel",
+      "en": "He's a successful engineer who was introduced by a friend who met Dixon in prison and thought that Dixon could use a mentor. And at first, Stuart was just that, a mentor. But 16 years later, it's clear that that has changed.",
+      "zh": "他是一位成功的工程师，是由一位在狱中结识 Dixon 的朋友引荐认识的，那位朋友觉得 Dixon 需要一位导师。起初，Stuart 确实就是导师。但16年过去，两人的关系显然已经不同了。"
+    },
+    {
+      "id": 87,
+      "start_sec": 669,
+      "speaker": "Bob Stuart",
+      "en": "I mean, I consider him my best friend, and likewise. And hard to believe that somebody inside prison would be, and I have, you know, good friends, but he's a person I trust absolutely, yeah.",
+      "zh": "我是说，我把他当成我最好的朋友，他也一样。很难想象一个高墙之内的人能成为挚友，我也有其他不错的朋友，但他是我绝对信任的人，真的。"
+    },
+    {
+      "id": 88,
+      "start_sec": 681,
+      "speaker": "Alix Spiegel",
+      "en": "Dixon's goal, Stuart told me, was not just to get out of prison, but once out, to do good. Dixon says the same.",
+      "zh": "Stuart 告诉我，Dixon 的目标不仅是走出监狱，更是出去之后做点好事。Dixon 自己也是这么说的。"
+    },
+    {
+      "id": 89,
+      "start_sec": 688,
+      "speaker": "Robert Dixon",
+      "en": "I'm not proud of my life, you know. I've hurt people. I've disappointed myself. I've ruined, I've ruined my life, and I'm doing everything that I can to salvage some part of the second half of my life, you know. So, yeah, I'm trying to turn it around.",
+      "zh": "我对自己的过去一点也不感到骄傲。我伤害过别人，让自己失望透顶。我毁了，我毁了自己的一生，我现在正在倾尽所能，去挽救我后半生的哪怕一点点碎片。所以，是的，我正在努力扭转乾坤。"
+    },
+    {
+      "id": 90,
+      "start_sec": 709,
+      "speaker": "Alix Spiegel",
+      "en": "So that's the way that Robert Dixon's friends and family see him-- a man once bad, deeply reformed. But there's another view of Robert Dixon.",
+      "zh": "这就是 Robert Dixon 的亲友看待他的方式——一个曾经走入歧途、如今彻底悔改的人。然而，关于 Robert Dixon，还有截然相反的另一种看法。"
+    },
+    {
+      "id": 91,
+      "start_sec": 720,
+      "speaker": "Peter Bradley",
+      "en": "Okay. Assessment for Risk of Violence.",
+      "zh": "好的。《暴力风险评估报告》。"
+    },
+    {
+      "id": 92,
+      "start_sec": 724,
+      "speaker": "Alix Spiegel",
+      "en": "Peter Bradley is a psychologist in California who does forensic evaluations. And when I went to visit him, he showed me a stapled report with Dixon's name on top.",
+      "zh": "Peter Bradley 是加利福尼亚州的一名法医心理学家，专门做司法评估。我去拜访他时，他拿出一份订在一起的报告，上面写着 Dixon 的名字。"
+    },
+    {
+      "id": 93,
+      "start_sec": 733,
+      "speaker": "Alix Spiegel",
+      "en": "The report was a psychological evaluation done by another psychologist, a psychologist employed by the state.",
+      "zh": "这份报告是另一位心理学家做的心理评估，那位是州政府雇用的心理学家。"
+    },
+    {
+      "id": 94,
+      "start_sec": 739,
+      "speaker": "Peter Bradley",
+      "en": "Okay. This is the main report that was done through the prison system.",
+      "zh": "好，这就是监狱系统出具的那份主要报告。"
+    },
+    {
+      "id": 95,
+      "start_sec": 745,
+      "speaker": "Alix Spiegel",
+      "en": "You see, in California, before a lifer like Dixon goes in front of a parole board, they're given a psychological evaluation by a state psychologist.",
+      "zh": "你看，在加州，像 Dixon 这样的无期徒刑犯在出席假释听证会之前，都得接受州政府心理学家的心理评估。"
+    },
+    {
+      "id": 96,
+      "start_sec": 753,
+      "speaker": "Alix Spiegel",
+      "en": "And as part of these evaluations, the prisoner is given a test to determine if they're a psychopath. All lifers up for parole in California are given the PCL-R.",
+      "zh": "作为这些评估的一部分，囚犯要接受一项测试，以判定他们是否是精神病态。在加州，所有争取假释的无期徒刑犯都要接受 PCL-R 测试。"
+    },
+    {
+      "id": 97,
+      "start_sec": 763,
+      "speaker": "Peter Bradley",
+      "en": "The Psychopathy Checklist-Revised.",
+      "zh": "也就是《精神病态核查表修订版》。"
+    },
+    {
+      "id": 98,
+      "start_sec": 766,
+      "speaker": "Alix Spiegel",
+      "en": "Now I want to say here that I did ask the California Department of Corrections to talk to me about Dixon's test, but they said no. Peter Bradley, however, had reviewed Dixon's testing and read to me from the report.",
+      "zh": "我想在这里说明一下，我确实联系过加州惩教署，想就 Dixon 的测试聊聊，但他们拒绝了。不过，Peter Bradley 仔细审查过 Dixon 的测试材料，并向我朗读了报告内容。"
+    },
+    {
+      "id": 99,
+      "start_sec": 778,
+      "speaker": "Peter Bradley",
+      "en": "Mr. Dixon obtained a total score on the PCL-R which placed him in the high range of the clinical construct of psychopathy. He scored higher than 73% of those offenders on this instrument.",
+      "zh": "“Dixon 先生在 PCL-R 测试中的总分，使他在精神病态的临床构念中处于高危区间。在这项评估工具中，他的得分高于 73% 的罪犯。”"
+    },
+    {
+      "id": 100,
+      "start_sec": 794,
+      "speaker": "Alix Spiegel",
+      "en": "That's very technical, probably hard to understand. What it means is this, that the psychologist saw Dixon not as a man reformed, but basically as a psychopath.",
+      "zh": "这些术语非常专业，可能不太好懂。它其实意味着：在那位心理学家眼里，Dixon 并不是一个洗心革面的人，而彻头彻尾就是个精神病态者。"
+    },
+    {
+      "id": 101,
+      "start_sec": 804,
+      "speaker": "Alix Spiegel",
+      "en": "As someone cold and remorseless, incapable of empathy, manipulative, narcissistic, impulsive, and therefore as a person likely bound by his very nature to do further violence.",
+      "zh": "他冷酷无情、毫无悔意、缺乏共情能力，擅长操纵人心，自恋又冲动——因此，从天性上讲，他极有可能再次诉诸暴力。"
+    },
+    {
+      "id": 102,
+      "start_sec": 817,
+      "speaker": "Alix Spiegel",
+      "en": "And it was really in large part because of his score on this test that Dixon was determined to be too high a risk, and was denied parole at his last hearing.",
+      "zh": "很大程度上正是因为他在这次测试中的得分，Dixon 被认定风险过高，在上次听证会上假释申请遭到了驳回。"
+    },
+    {
+      "id": 103,
+      "start_sec": 834,
+      "speaker": "Alix Spiegel",
+      "en": "So which Robert Dixon is the real Robert Dixon? The one the test sees, or the ones that his friends and family see? To answer that question, you need to understand more about the test, the man who created it, and how it came to have so much power.",
+      "zh": "那么，哪一个 Robert Dixon 才是真实的？是测试所呈现的那个人，还是家人朋友眼中的那个他？要回答这个问题，你需要深入了解这项测试、了解创造它的人，以及它究竟是如何拥有如此巨大的生杀大权的。"
+    },
+    {
+      "id": 104,
+      "start_sec": 849,
+      "speaker": "Archival Recording",
+      "en": "Cause I can hear the bullfrog calling me...",
+      "zh": "“因为我能听见牛蛙在呼唤我……”"
+    },
+    {
+      "id": 105,
+      "start_sec": 856,
+      "speaker": "Man 2",
+      "en": "So what, a classroom of people watches this video?",
+      "zh": "所以呢，会有一整个教室的人看这盘录像？"
+    },
+    {
+      "id": 106,
+      "start_sec": 859,
+      "speaker": "Robert Hare",
+      "en": "No, it'd be a couple of...",
+      "zh": "不，也就几个人……"
+    },
+    {
+      "id": 107,
+      "start_sec": 861,
+      "speaker": "Alix Spiegel",
+      "en": "This is tape from one of more than a thousand interviews collected by the creator of the PCL-R, the Canadian psychologist Robert Hare. All of the interviews are with prisoners, many of whom, like this man, are psychopaths.",
+      "zh": "这是 PCL-R 的编制者、加拿大心理学家 Robert Hare 收集的一千多段访谈录音中的一段。所有的访谈对象都是犯人，其中很多人，就像视频里的这个男人，都是精神病态者。"
+    },
+    {
+      "id": 108,
+      "start_sec": 873,
+      "speaker": "Archival Recording",
+      "en": "Anyway, I was going on about justifiable murder. Someone rapes your wife, molests your kid, and then a guy's got to do that, or if he doesn't— that's, you know, that's just the way it goes. An eye for an eye, a tooth for a tooth. Yea, though I walk through the valley of the shadow of death, I will fear no evil, for I pack a .357 Magnum.",
+      "zh": "“反正我刚才一直在讲有正当理由的谋杀。要是有人强奸了你老婆，猥亵了你孩子，那你就必须出手，不然的话——你知道的，事情就是这样。以眼还眼，以牙还牙。我虽然行过死荫的幽谷，也不怕遭害，因为我随身带了把点357马格南手枪。”"
+    },
+    {
+      "id": 109,
+      "start_sec": 894,
+      "speaker": "Alix Spiegel",
+      "en": "I visited Hare at his home in Canada, and together we watched videos like this for hours.",
+      "zh": "我拜访了 Hare 在加拿大的家，我们一起看了好几个小时这样的录像。"
+    },
+    {
+      "id": 110,
+      "start_sec": 900,
+      "speaker": "Alix Spiegel",
+      "en": "Psychopath after psychopath, one after another.",
+      "zh": "一个接一个的精神变态，轮番登场。"
+    },
+    {
+      "id": 111,
+      "start_sec": 903,
+      "speaker": "Robert Hare",
+      "en": "I've got so much great stuff in here. Ah, this guy is terrific. He's part of the New York mob.",
+      "zh": "我这儿有好多绝妙的素材。啊，这家伙太绝了，他是纽约黑帮的一员。"
+    },
+    {
+      "id": 112,
+      "start_sec": 908,
+      "speaker": "Archival Recording",
+      "en": "I was upset that he didn't want to pay me the money. He had the nerve.",
+      "zh": "他居然不想把钱还给我，我很火大。他真有种。"
+    },
+    {
+      "id": 113,
+      "start_sec": 912,
+      "speaker": "Alix Spiegel",
+      "en": "Hare would play some tape, then stop and talk about language use in psychopaths, or pain in psychopaths. And as he watched, there was always this glimmer in his eye. It was impossible to ignore the pleasure he got from watching them.",
+      "zh": "Hare会放上一段录音，然后停下来，讲解精神变态者的语言模式，或是他们对痛苦的感知。当他看着录像时，眼里总闪烁着光芒。你根本无法忽视他在观察他们时所获得的乐趣。"
+    },
+    {
+      "id": 114,
+      "start_sec": 925,
+      "speaker": "Alix Spiegel",
+      "en": "Like there's a smile on your face.",
+      "zh": "看，你脸上正挂着笑呢。"
+    },
+    {
+      "id": 115,
+      "start_sec": 927,
+      "speaker": "Robert Hare",
+      "en": "Oh, that's gas pains. In spite of the fact that I've been in this game for a long time, I'm still— it's a source of amazement.",
+      "zh": "噢，那是因为肚子胀气。尽管我在这个领域摸爬滚打这么多年，我依然——这依然让我感到惊叹不已。"
+    },
+    {
+      "id": 116,
+      "start_sec": 938,
+      "speaker": "Alix Spiegel",
+      "en": "Hare has been in this game a long time. He began studying psychopaths in the 1960s. And it's easy to forget now, in part because Hare's work has made the idea of the psychopath so commonplace. But back then, research on psychopaths was totally obscure. And no one, least of all Bob Hare, thought that this work on psychopaths would ever have any practical applications.",
+      "zh": "Hare在这个领域深耕已久。他早在20世纪60年代就开始研究精神变态者。如今人们很容易忘记当时的情形，部分原因正是Hare的研究让“精神变态”这个概念变得妇孺皆知。但放在当年，针对精神变态者的研究完全属于偏门冷门。当时没有人——尤其是Bob Hare自己——会想到这项研究有朝一日能有任何实际应用价值。"
+    },
+    {
+      "id": 117,
+      "start_sec": 960,
+      "speaker": "Alix Spiegel",
+      "en": "What Bob was interested in was basic science. He wanted to understand what made psychopaths tick.",
+      "zh": "Bob真正感兴趣的是基础科学。他想探究究竟是什么驱使精神变态者做出那些行为。"
+    },
+    {
+      "id": 118,
+      "start_sec": 967,
+      "speaker": "Alix Spiegel",
+      "en": "To figure this out, he went to a place he figured he'd find at least some psychopaths: a prison 30 miles away from his office at the University of British Columbia, and he asked the prisoners for their help.",
+      "zh": "为了弄清这一点，他去了一个自认至少能找到一些精神变态者的地方：离他在不列颠哥伦比亚大学的办公室30英里外的一座监狱，他向狱中的犯人们寻求帮助。"
+    },
+    {
+      "id": 119,
+      "start_sec": 977,
+      "speaker": "Robert Hare",
+      "en": "And the offenders in those days had hardly ever been studied. They're very interested in what I was doing and they would all volunteer. In fact, the head— one of the head inmates there, the one at the very top of the heap, actually held a public address.",
+      "zh": "在那个年代，那些犯人几乎从未被当作研究对象。他们对我正在做的事情非常好奇，全都自愿报名。事实上，那里的牢头狱霸之一，也就是站在权力顶峰的人物，还专门做了一次公开动员。"
+    },
+    {
+      "id": 120,
+      "start_sec": 993,
+      "speaker": "Robert Hare",
+      "en": "In those days, they could congregate in groups of 400 or 500, and said, look, this sounds interesting, I'm in, and everybody else then said, we're in, too.",
+      "zh": "在当时，他们可以四五百人聚在一起，牢头说：听着，这事儿听起来挺有意思，我参加。于是其他所有人都跟着附和说：我们也参加。"
+    },
+    {
+      "id": 121,
+      "start_sec": 1002,
+      "speaker": "Alix Spiegel",
+      "en": "So Hare set up a lab and started pumping out studies. For example, Hare would place the prisoners in a chair, tell them that in 30 seconds he was going to zap them with an electrical shock, then measure their heart rate to see if that information bothered them.",
+      "zh": "于是Hare建立了一个实验室，开始大量产出研究成果。例如，Hare会安排犯人坐在一把椅子上，告诉他们30秒后会遭遇一次电击，然后测量他们的心率，看看这个预告是否会引起他们的心理波动。"
+    },
+    {
+      "id": 122,
+      "start_sec": 1014,
+      "speaker": "Robert Hare",
+      "en": "Most show lots of emotional arousal, anticipatory fear, anxiety, while they're waiting for the shock to occur. Psychopaths hardly any.",
+      "zh": "大多数人在等待电击来临时，都会表现出极强的情绪唤醒，伴随着预期性的恐惧和焦虑。而精神变态者几乎毫无波澜。"
+    },
+    {
+      "id": 123,
+      "start_sec": 1024,
+      "speaker": "Alix Spiegel",
+      "en": "In another experiment, Hare showed the prisoners both highly emotional and totally neutral pictures: a picture of a rape, say, versus the picture of a chair, and again, measured their physical response. He found that for most prisoners, the emotional pictures prompted a very different reaction than the pictures of a table or chair.",
+      "zh": "在另一项实验中，Hare向犯人们展示了带有强烈情绪刺激和完全中性的图片：比方说强奸场景的画面，对比一把椅子的画面，并再次测量他们的生理反应。他发现，对绝大多数犯人来说，情绪化图片所引发的反应，与看到一张桌子或椅子的反应截然不同。"
+    },
+    {
+      "id": 124,
+      "start_sec": 1043,
+      "speaker": "Robert Hare",
+      "en": "But with psychopaths, there's no difference. They treat these horrific pictures as if they were neutral pictures. No difference whatsoever between them.",
+      "zh": "但对精神变态者而言，两者毫无分别。他们对待这些恐怖骇人的画面，就像看普通中性图片一样平静。对他们来说两者没有任何差别。"
+    },
+    {
+      "id": 125,
+      "start_sec": 1052,
+      "speaker": "Alix Spiegel",
+      "en": "And over the course of these experiments, Hare developed a theory. He believed that the psychopaths he saw were, essentially, emotionally deaf— simply did not have the capacity to feel in a firsthand way emotions like empathy, remorse, and love.",
+      "zh": "在这一连串实验的过程中，Hare逐渐形成了一套理论。他认为，他见过的这些精神变态者在本质上是“情绪失聪”的——他们根本不具备亲身体会同理心、懊悔和爱意等情感的能力。"
+    },
+    {
+      "id": 126,
+      "start_sec": 1069,
+      "speaker": "Robert Hare",
+      "en": "It's sort of like trying to explain to a colorblind person what the color red is. Can we teach a colorblind person how to see red, what red is? You can have all the dictionary definitions you—",
+      "zh": "这有点像是在向一个色盲解释什么是红色。我们能教会一个色盲怎么去看见红色、感受什么是红色吗？就算你把字典里所有的定义都搬出来——"
+    },
+    {
+      "id": 127,
+      "start_sec": 1080,
+      "speaker": "Robert Hare",
+      "en": "want, but this person will never quite get it.",
+      "zh": "但这辈子可能都理解不了。"
+    },
+    {
+      "id": 128,
+      "start_sec": 1087,
+      "speaker": "Alix Spiegel",
+      "en": "Now, this work was basically well received, but Hare says there was still a huge amount of skepticism. Part of the problem stemmed from the fact that this field of research, psychopathy research, was lacking one very important ingredient.",
+      "zh": "当时这项研究整体上反响不错，但 Robert Hare 表示，外界依然抱有极大的怀疑态度。部分问题在于，变态心理学研究这个领域，一直缺少一样至关重要的核心要素。"
+    },
+    {
+      "id": 129,
+      "start_sec": 1101,
+      "speaker": "Alix Spiegel",
+      "en": "You see, in science, before you can do practically anything, there is one thing you absolutely, positively have to get straight.",
+      "zh": "因为在科学界，展开任何实质性工作之前，有一样东西是你必须彻彻底底搞明白的。"
+    },
+    {
+      "id": 130,
+      "start_sec": 1108,
+      "speaker": "Robert Hare",
+      "en": "The key is measurement. Science, you-- science cannot progress without reliable and accurate measurement of what it is they're trying to study. Simple as that.",
+      "zh": "关键就在于测量。科学——如果不先对研究对象进行可靠而精准的测量，科学就根本无法推进。道理就这么简单。"
+    },
+    {
+      "id": 131,
+      "start_sec": 1120,
+      "speaker": "Alix Spiegel",
+      "en": "To understand this, consider for a moment the blood pressure cuff. Hare says, before the blood pressure cuff was invented in 1881, doctors had no good way of figuring out if someone had high blood pressure or low blood pressure.",
+      "zh": "为了理解这一点，不妨想想血压计。Robert Hare 说，在 1881 年血压计发明之前，医生根本没办法准确判断一个人的血压到底是偏高还是偏低。"
+    },
+    {
+      "id": 132,
+      "start_sec": 1133,
+      "speaker": "Alix Spiegel",
+      "en": "Which meant they couldn't figure out that high blood pressure was related to heart attacks and all sorts of seriously unfortunate things. Here, Hare concluded, was the problem with his field as well. There was simply no way to measure.",
+      "zh": "这也意味着他们无法发现高血压会诱发心脏病，以及各种严重的致命问题。Robert Hare 意识到，他所在的领域也面临同样的困境：根本没有任何测量工具。"
+    },
+    {
+      "id": 133,
+      "start_sec": 1146,
+      "speaker": "Robert Hare",
+      "en": "We did not have the psychiatric equivalent of the blood pressure cuff.",
+      "zh": "精神病学领域当时根本没有相当于‘血压计’的诊断工具。"
+    },
+    {
+      "id": 134,
+      "start_sec": 1154,
+      "speaker": "Alix Spiegel",
+      "en": "And so, Hare decided to make one. He sat down with his long-term research assistant, and together, they wrote down all of the personality traits that they and other scientists had consistently seen in the psychopaths they studied.",
+      "zh": "于是，Robert Hare 决定自己造一个。他和长期共事的科研助理坐下来，共同把他们与其他科学家在被研究的心理变态者身上反复观察到的所有性格特质逐一记录下来。"
+    },
+    {
+      "id": 135,
+      "start_sec": 1167,
+      "speaker": "Alix Spiegel",
+      "en": "Traits like, well, like these, read by Hare and a former student of his, Steve Hart, who's now a leader in the field.",
+      "zh": "这些特质包括——比如接下来由 Robert Hare 和他当年的学生 Steve Hart 念出的这几条，Steve 现在也是该领域的领军人物了。"
+    },
+    {
+      "id": 136,
+      "start_sec": 1174,
+      "speaker": "Robert Hare",
+      "en": "Egocentricity, grandiose sense of self-worth.",
+      "zh": "极度自我中心、极度夸大的自我价值感。"
+    },
+    {
+      "id": 137,
+      "start_sec": 1177,
+      "speaker": "Steve Hart",
+      "en": "Pathological lying, conning, manipulative.",
+      "zh": "病理性撒谎、善于欺诈与心理操纵。"
+    },
+    {
+      "id": 138,
+      "start_sec": 1180,
+      "speaker": "Robert Hare",
+      "en": "Lack of sincerity, lack of remorse or guilt, lack of empathy.",
+      "zh": "缺乏真诚、毫无懊悔或内疚感、冷酷无情缺乏共情。"
+    },
+    {
+      "id": 139,
+      "start_sec": 1185,
+      "speaker": "Steve Hart",
+      "en": "Sensation seeking or proneness to boredom. Um, failure to accept responsibility for own actions, and so forth.",
+      "zh": "追求刺激、极易感到厌倦，呃……拒绝为自己的行为承担责任，诸如此类。"
+    },
+    {
+      "id": 140,
+      "start_sec": 1193,
+      "speaker": "Alix Spiegel",
+      "en": "Now, for each of these traits, Hare wrote up a little description so that people would know what he meant by, say, lack of empathy. Psychologists using the test were supposed to ask the interview subject a series of questions about their criminal history, their family, to determine whether the person had that quality.",
+      "zh": "针对这些特质，Robert Hare 都写了一段详细说明，以便大家准确理解比如‘缺乏共情’到底指什么。使用该量表的心理学家需要针对受测者的犯罪前科、家庭背景提问一系列问题，以此判定受测者是否具备这项特质。"
+    },
+    {
+      "id": 141,
+      "start_sec": 1210,
+      "speaker": "Robert Hare",
+      "en": "Parasitic lifestyle.",
+      "zh": "寄生式的生活方式。"
+    },
+    {
+      "id": 142,
+      "start_sec": 1212,
+      "speaker": "Alix Spiegel",
+      "en": "If the trait was present, they got a two. Absent, they got a zero. And if it wasn't really clear, they got a one. There were 20 traits to check, which is why Hare calls it the \"checklist,\" and at the end of the test, your score was totaled.",
+      "zh": "如果符合该特质，计 2 分；完全不符合，计 0 分；如果模棱两可，计 1 分。一共需要核对 20 种特质，这也是为什么 Robert Hare 把它称作‘核查表’。测试结束时，会汇总出总分。"
+    },
+    {
+      "id": 143,
+      "start_sec": 1225,
+      "speaker": "Alix Spiegel",
+      "en": "40 was the highest you could get, but anything over 30 certified you as a psychopath. Voila, the PCL-R was born. It was 1980.",
+      "zh": "满分是 40 分，但只要超过 30 分，你就会被盖棺定论为精神病态。瞧，PCL-R 心理变态核查表就此诞生，那一年是 1980 年。"
+    },
+    {
+      "id": 144,
+      "start_sec": 1234,
+      "speaker": "Alix Spiegel",
+      "en": "At his house, Hare pulled out an ancient-looking document.",
+      "zh": "在 Robert Hare 家中，他拿出一份泛黄的文件。"
+    },
+    {
+      "id": 145,
+      "start_sec": 1240,
+      "speaker": "Alix Spiegel",
+      "en": "So-- so this is, literally-- this is, literally, it.",
+      "zh": "所以——眼前这个真的就是初版原件了。"
+    },
+    {
+      "id": 146,
+      "start_sec": 1243,
+      "speaker": "Robert Hare",
+      "en": "This is it. This is the first thing that people saw. 17 pages, double-spaced.",
+      "zh": "就是它。这是世人最初看到的样子，17 页，双倍行距。"
+    },
+    {
+      "id": 147,
+      "start_sec": 1250,
+      "speaker": "Alix Spiegel",
+      "en": "A certified diagnostic test, which, at least, appeared to be remarkably reliable. When two different testers gave the test to the same person, they usually got the same results.",
+      "zh": "这是一套标准化的诊断测试，而且在当时看来，其信度高得惊人。两个不同的测试人员哪怕分别独立评估同一个人，通常也能得出一致的结果。"
+    },
+    {
+      "id": 148,
+      "start_sec": 1260,
+      "speaker": "Alix Spiegel",
+      "en": "The PCL-R was on its way, kinda. Actually, the only people really interested in his test at this point in the early '80s were other academic researchers.",
+      "zh": "PCL-R量表算是慢慢有了起色，算是有吧。其实在80年代初那会儿，唯一对他这项测试真正感兴趣的，只有其他高校的研究人员。"
+    },
+    {
+      "id": 149,
+      "start_sec": 1270,
+      "speaker": "Alix Spiegel",
+      "en": "People in the criminal justice community still saw the study of psychopaths as marginal, irrelevant to understanding crime. You see, at the time, criminal justice people thought about where crime came from in a very specific way. Criminals were made, not born.",
+      "zh": "司法界的人仍然认为对变态人格的研究纯属边缘课题，对理解犯罪毫无帮助。因为在当时，司法界对犯罪根源的看法非常统一：罪犯是后天造成的，而非天生注定。"
+    },
+    {
+      "id": 150,
+      "start_sec": 1289,
+      "speaker": "Robert Hare",
+      "en": "Criminologists, sociologists intended to explain crime in terms of environmental factors—where you were raised, who your family was, who your peer group. So in those days, social factors, environmental factors were the explanation for all crime.",
+      "zh": "犯罪学家和社会学家倾向于用环境因素来解释犯罪——你在哪里长大、你的家庭背景、你的同龄人圈子。所以在那个年代，一切犯罪都可以用社会因素和环境因素来解释。"
+    },
+    {
+      "id": 151,
+      "start_sec": 1305,
+      "speaker": "Alix Spiegel",
+      "en": "The idea was that anybody could be bad or good. It was all the environment, and Hare's focus on personality didn't really fit this zeitgeist.",
+      "zh": "当时的理念是，任何人都可能变好或变坏，全看后天环境。而Robert Hare对人格特质的专注，显然与那个时代的风向格格不入。"
+    },
+    {
+      "id": 152,
+      "start_sec": 1314,
+      "speaker": "Alix Spiegel",
+      "en": "But the disinterest of the criminal justice community changed almost overnight after one of Hare's students, an undergrad, proposed to do a study. What the student wanted to do was see what happened to prisoners who had been tested after they were released from prison.",
+      "zh": "但司法界冷淡的态度几乎是一夜之间发生了逆转，起因是Robert Hare的一名本科生提议做一项研究。这名学生想追踪那些接受过测试的囚犯在刑满释放后的表现。"
+    },
+    {
+      "id": 153,
+      "start_sec": 1330,
+      "speaker": "Alix Spiegel",
+      "en": "Was a person with a high score on the PCL-R more likely to commit a crime than a person with a low score? Turns out they were. Bob Hare.",
+      "zh": "在PCL-R测试中拿高分的人，会比低分的人更容易再次犯罪吗？事实证明，确实如此。Bob Hare说道："
+    },
+    {
+      "id": 154,
+      "start_sec": 1340,
+      "speaker": "Robert Hare",
+      "en": "Those who had low scores on the PCL-R, about 20 or 25% would be reconvicted within four or five years. The high group, it was 80%.",
+      "zh": "在PCL-R上得分较低的人群中，大约有20%到25%的人会在四到五年内再次被定罪。而高分组，这一比例高达80%。"
+    },
+    {
+      "id": 155,
+      "start_sec": 1354,
+      "speaker": "Alix Spiegel",
+      "en": "So score high, and there was an 80% chance you would reoffend. Score low, 20%. In other words—",
+      "zh": "也就是说，如果得了高分，有80%的几率会再次犯罪；如果是低分，几率只有20%。换句话说——"
+    },
+    {
+      "id": 156,
+      "start_sec": 1362,
+      "speaker": "Robert Hare",
+      "en": "The checklist did an excellent job of predicting who would commit another offense within the next couple of years.",
+      "zh": "这份量表在预测谁会在未来几年内再次犯罪方面，表现极其出色。"
+    },
+    {
+      "id": 157,
+      "start_sec": 1369,
+      "speaker": "Alix Spiegel",
+      "en": "How excellent a job?",
+      "zh": "到底有多出色？"
+    },
+    {
+      "id": 158,
+      "start_sec": 1371,
+      "speaker": "Robert Hare",
+      "en": "As good as one could get.",
+      "zh": "能达到的最好水平。"
+    },
+    {
+      "id": 159,
+      "start_sec": 1377,
+      "speaker": "Alix Spiegel",
+      "en": "This was a huge finding. For years, criminologists had labored to dissect the environmental causes of crime. Then suddenly, here was the PCL-R, a personality test used for marginal academic research that appeared to identify the world's most serious chronic criminals, the people we really needed to worry about.",
+      "zh": "这是一个重磅发现。多年来，犯罪学家一直煞费苦心剖析犯罪的环境诱因。可突然之间，PCL-R横空出世——一份原本只用于边缘学术研究的人格量表，似乎能精准揪出世界上最危险的惯犯，那些我们真正该提防的人。"
+    },
+    {
+      "id": 160,
+      "start_sec": 1397,
+      "speaker": "Alix Spiegel",
+      "en": "Steve Hart, Bob's former student, says that everybody was shocked.",
+      "zh": "Bob过去的学生Steve Hart表示，当时所有人都惊呆了。"
+    },
+    {
+      "id": 161,
+      "start_sec": 1401,
+      "speaker": "Steve Hart",
+      "en": "Here we are using a diagnosis of personality disorder to predict criminal behavior, and it's working. And it's working in a way that's obvious. You could see the differences. An old psychologist, Jacob Cohen, called this the intraocular effect, like it just really hit you between the eyes.",
+      "zh": "我们竟然可以用人格障碍的诊断来预测犯罪行为，而且居然灵验了。效果极其直观，差别肉眼可见。老派心理学家Jacob Cohen称之为‘撞眼效应’，就好像一记重拳迎面砸在你两眼之间，避无可避。"
+    },
+    {
+      "id": 162,
+      "start_sec": 1426,
+      "speaker": "Alix Spiegel",
+      "en": "The paper was first publicized in the mid-'80s, and people in the criminal justice community quickly came calling. For example, Steve Hart remembers that shortly after the paper went public, the lab got a visit from Canada's National Parole Board.",
+      "zh": "这篇论文在80年代中期首次发表，司法界人士很快便闻风而来。比如Steve Hart回忆道，论文刚公开不久，实验室就迎来了加拿大国家假释委员会的来访。"
+    },
+    {
+      "id": 163,
+      "start_sec": 1440,
+      "speaker": "Alix Spiegel",
+      "en": "They wanted the test.",
+      "zh": "他们看中了这项测试。"
+    },
+    {
+      "id": 164,
+      "start_sec": 1442,
+      "speaker": "Steve Hart",
+      "en": "They said quite literally, what we want to do is give everybody this test and then have the test score written in big red numbers on the front of the file. No parole board should be able to make a decision without having some knowledge about whether or not somebody is psychopathic.",
+      "zh": "他们当时原话就是这么说的：我们想给每个人都做这个测试，然后把测试得分用大大的红字写在档案封面上。假释委员会在做出决定前，必须知晓这个人到底是不是精神病态。"
+    },
+    {
+      "id": 165,
+      "start_sec": 1459,
+      "speaker": "Adelle Forth",
+      "en": "I think most of the researchers in the room were horrified, right? That no, we don't want that.",
+      "zh": "我觉得屋里大多数研究人员当时都被吓坏了，心想：不，我们可不想变成那样。"
+    },
+    {
+      "id": 166,
+      "start_sec": 1465,
+      "speaker": "Alix Spiegel",
+      "en": "Adelle Forth is another researcher who worked in the lab.",
+      "zh": "Adelle Forth 是当年在这个实验室工作的另一位研究人员。"
+    },
+    {
+      "id": 167,
+      "start_sec": 1468,
+      "speaker": "Adelle Forth",
+      "en": "The idea that you would just stamp something on someone's file would be horrific. Because this this label, someone is a psychopath, right, this will stay with this individual. This is not something that will go away.",
+      "zh": "在别人的档案上直接盖章定论，这种想法实在太可怕了。因为一旦贴上“某某是精神病态”这个标签，就会跟这个人一辈子，永远也洗不掉。"
+    },
+    {
+      "id": 168,
+      "start_sec": 1483,
+      "speaker": "Alix Spiegel",
+      "en": "In fact, every researcher that I spoke to who was there, at first found this idea of parole boards using the test deeply disturbing. Including the guy who invented the thing, Robert Hare.",
+      "zh": "事实上，我采访过的所有当年在场的研究人员，起初都觉得让假释委员会使用这项测试让人深感不安。就连这项测试的发明者 Robert Hare 本人也是如此。"
+    },
+    {
+      "id": 169,
+      "start_sec": 1494,
+      "speaker": "Robert Hare",
+      "en": "The potential for misuse of an instrument that has solid scientific credentials is very great. And the reason is, people say, well, it's got solid scientific credentials. It's really, really good. It must be good.",
+      "zh": "一个具有坚实科学背景的工具，其被滥用的可能性反而是极大的。原因在于人们会说：既然有坚实的科学背书，那肯定极其靠谱，错不了。"
+    },
+    {
+      "id": 170,
+      "start_sec": 1506,
+      "speaker": "Robert Hare",
+      "en": "So my apprehensions were there from the very, very beginning about the potential for misuse.",
+      "zh": "所以从一开始，我就对它可能遭到滥用抱有深深的忧虑。"
+    },
+    {
+      "id": 171,
+      "start_sec": 1511,
+      "speaker": "Alix Spiegel",
+      "en": "And so, at least initially after the criminal justice people came calling, Hare was clear. Hare said they weren't getting his test. Steve Hart.",
+      "zh": "因此，至少在司法系统的人找上门来的最初阶段，Hare 的态度非常明确。他说绝不会把测试交给他们。Steve Hart 回忆道："
+    },
+    {
+      "id": 172,
+      "start_sec": 1520,
+      "speaker": "Steve Hart",
+      "en": "I'm never giving the checklist to somebody who works in the criminal justice system. I'm just going to give it to scientists who do nothing, as opposed to people who actually try to make decisions.",
+      "zh": "“我绝不会把量表交给任何司法系统里工作的人。我只会把它给那些只做学术研究的科学家，绝不给那些手握生杀予夺裁决权的人。”"
+    },
+    {
+      "id": 173,
+      "start_sec": 1530,
+      "speaker": "Steve Hart",
+      "en": "And we actually had a lot of value or moral discussions about that. About, would it be appropriate to withhold the information from people who might try to use it?",
+      "zh": "我们当时围绕这个问题进行过很多价值观或道德层面的探讨。关于是否有权对那些试图使用它的人隐瞒这些科学信息？"
+    },
+    {
+      "id": 174,
+      "start_sec": 1540,
+      "speaker": "Alix Spiegel",
+      "en": "And so for many years, Hare refused requests from the criminal justice system. But Hart says Hare's students argued with him, told him that this was simply not his choice to make, that scientists don't really have a right to withhold knowledge once that knowledge exists.",
+      "zh": "所以很多年来，Hare 一直回绝司法系统的请求。但 Hart 说，Hare 的学生们一直在劝说他，告诉他这根本不是由他说了算的，一旦知识被创造出来，科学家并没有权利将其藏匿。"
+    },
+    {
+      "id": 175,
+      "start_sec": 1554,
+      "speaker": "Steve Hart",
+      "en": "Like, you know, come on, buddy, free it up. If you've got something important, then let's let's let everybody take a look at this.",
+      "zh": "就像在说：“行了吧老兄，放手吧。要是你真研究出了重大成果，那就让大家都来看看。”"
+    },
+    {
+      "id": 176,
+      "start_sec": 1561,
+      "speaker": "Alix Spiegel",
+      "en": "Eventually, Hare agreed. And in 1991, he published the PCLR officially so that anyone could use it, including people in the criminal justice system. Which is how the test ended up being used in America on people like Robert Dixon.",
+      "zh": "最终，Hare 妥协了。1991年，他正式出版了 PCLR 量表，让所有人都能使用，包括司法系统里的人。这项测试就是这样传入美国，最终用在了像 Robert Dixon 这样的人身上。"
+    },
+    {
+      "id": 177,
+      "start_sec": 1576,
+      "speaker": "Charles Carbone",
+      "en": "I remember reading the report and feeling heartbroken.",
+      "zh": "我记得当时看完报告，整个人心都碎了。"
+    },
+    {
+      "id": 178,
+      "start_sec": 1580,
+      "speaker": "Alix Spiegel",
+      "en": "This is Charles Carbone, Robert Dixon's lawyer, talking about a day two years ago when Robert's psychological report arrived in the mail.",
+      "zh": "这是 Robert Dixon 的律师 Charles Carbone，他在讲述两年前收到寄来的 Robert 心理评估报告的那一天。"
+    },
+    {
+      "id": 179,
+      "start_sec": 1588,
+      "speaker": "Charles Carbone",
+      "en": "I knew no matter how hard I worked from that day forward, that when I brought him back to the board, we were going to get denied.",
+      "zh": "我知道，从那天起无论我怎么拼命努力，只要带他回到假释委员会面前，我们都注定会被否决。"
+    },
+    {
+      "id": 180,
+      "start_sec": 1597,
+      "speaker": "Alix Spiegel",
+      "en": "The political reality, Carbone says, is this. In California, not only the board, but the governor must sign off on every parole granted. And there's just no benefit to being seen as soft on crime.",
+      "zh": "Carbone 说，残酷的政治现实就在于：在加州，不仅是假释委员会，州长也必须对每一桩批准的假释签字背书。而在政界，“对犯罪心慈手软”没有任何政治利益可言。"
+    },
+    {
+      "id": 181,
+      "start_sec": 1608,
+      "speaker": "Alix Spiegel",
+      "en": "So if a psychologist gives a bad report because of a high score on the psychopath test, even if the board or the governor wanted to set that person free, there is, as Carbone points out,",
+      "zh": "所以，一旦心理学家因为精神病态测试的高分给出了一份负面报告，就算委员会或州长心里想放这个人出去，正如 Carbone 指出的那样——"
+    },
+    {
+      "id": 182,
+      "start_sec": 1620,
+      "speaker": "Alix Spiegel",
+      "en": "No political cover if the prisoner reoffends.",
+      "zh": "万一犯人再次作案，官方根本没有任何政治挡箭牌。"
+    },
+    {
+      "id": 183,
+      "start_sec": 1623,
+      "speaker": "Charles Carbone",
+      "en": "The headline will be, well, the psychologist told you so. There is no political upside. They only have something to lose by allowing these lifers to go home.",
+      "zh": "新闻头条肯定会写：‘看吧，心理学家早就提醒过你们了。’这没有任何政治利益可言。放这些终身监禁犯回家，当局承担的只有风险。"
+    },
+    {
+      "id": 184,
+      "start_sec": 1634,
+      "speaker": "Alix Spiegel",
+      "en": "Which is why so few people with Robert Dixon's test scores ever do go home. Still, Carbone is trying to fight it.",
+      "zh": "正因如此，像 Robert Dixon 这种测验得分的人几乎不可能重获自由。不过，Carbone 仍在努力争取。"
+    },
+    {
+      "id": 185,
+      "start_sec": 1642,
+      "speaker": "Alix Spiegel",
+      "en": "He hired Dr. Peter Bradley, the forensic psychologist you heard from earlier, who evaluated Dixon, and like his friends and family, concluded that he is not a psychopath.",
+      "zh": "他聘请了前面出现过的法医心理学家 Peter Bradley 对 Dixon 进行评估。与 Dixon 的亲友一样，Bradley 也认定他绝不是变态人格。"
+    },
+    {
+      "id": 186,
+      "start_sec": 1651,
+      "speaker": "Peter Bradley",
+      "en": "That he has developed, among other things, a sense of caring and an ability to be compassionate with other people, that he's matured in that way.",
+      "zh": "他逐渐培养出了关心他人的能力，能够体恤旁人，他在心智上确实成熟了。"
+    },
+    {
+      "id": 187,
+      "start_sec": 1663,
+      "speaker": "Alix Spiegel",
+      "en": "Dr. Bradley says, in general, he doesn't like to use the PCL-R, because he feels the scoring of the test is determined too much by events in the past that prisoners can't change-- by juvenile delinquency, and things that happened in school, and inmates' criminal past, not who they are today.",
+      "zh": "Bradley 医生表示，他通常不喜欢用 PCL-R 量表，因为他觉得这个测试的评分很大程度上取决于那些犯人根本无法改变的前科往事——比如青少年时期的叛逆劣迹、在学校犯下的过错、过去的犯罪记录，而不是看他们如今变成了怎样的人。"
+    },
+    {
+      "id": 188,
+      "start_sec": 1680,
+      "speaker": "Peter Bradley",
+      "en": "It's weighted more towards the historical factors. It's not able to look at factors that can change and that do tend to change with a lot of people.",
+      "zh": "这个测试更偏重历史因素，根本无法考量那些能够改变、而且在许多人身上确实会发生转变的特质。"
+    },
+    {
+      "id": 189,
+      "start_sec": 1691,
+      "speaker": "Alix Spiegel",
+      "en": "This is what Dr. Bradley thinks has happened to Robert Dixon. He thinks Dixon's changed substantially, but will always get a high score because Dixon had a long criminal record before he went to prison.",
+      "zh": "Bradley 医生认为 Robert Dixon 就是这种情况。他坚信 Dixon 已经洗心革面，但因为入狱前的长串犯罪前科，测试得分注定永远居高不下。"
+    },
+    {
+      "id": 190,
+      "start_sec": 1703,
+      "speaker": "Alix Spiegel",
+      "en": "As for Dixon, he doesn't know why he's doing so badly. He says his friends and family don't understand, either. They keep asking him what's happening.",
+      "zh": "至于 Dixon 本人，他也不明白为什么测验结果会这么糟。他说身边的亲友也完全无法理解，总在追问他到底出了什么岔子。"
+    },
+    {
+      "id": 191,
+      "start_sec": 1711,
+      "speaker": "Robert Dixon",
+      "en": "You know, what are you going in here saying to these people? Are you, you know-- I said, hey, I'm talking to them just like I'm talking to you. You know, I'm not switching up here. You know, this is not Dr. Jekyll and Mr. Hyde. This is-- I don't know what's going on.",
+      "zh": "他们会问：‘你进去到底跟那些人说了什么啊？’我说：‘嘿，我和他们说话就跟和你们聊天一模一样，我又没搞双重人格。’我可不是什么双面怪医化身博士，我真不知道是怎么回事。"
+    },
+    {
+      "id": 192,
+      "start_sec": 1730,
+      "speaker": "Alix Spiegel",
+      "en": "Now obviously, Dixon's friends and family could be wrong. Robert Dixon could be a psychopath. But I will tell you that, in recent years, use of the test in the criminal justice system has come under criticism.",
+      "zh": "显而易见，Dixon 的亲友也可能会看走眼。Robert Dixon 确实有可能是个变态人格者。但我必须指出，近年来该测试在刑事司法系统中的应用正遭到越来越多的质疑。"
+    },
+    {
+      "id": 193,
+      "start_sec": 1742,
+      "speaker": "Alix Spiegel",
+      "en": "And you know who's one of the people criticizing? Robert Hare. He tells me that some of his initial fears about how the test might be misused have actually come to pass.",
+      "zh": "而你知道其中一位提出批评的人是谁吗？正是其创始人 Robert Hare。他告诉我，他当初最担心的那些测试被滥用的情况，如今居然真真切切地发生了。"
+    },
+    {
+      "id": 194,
+      "start_sec": 1753,
+      "speaker": "Robert Hare",
+      "en": "I I feel ambivalent about it.",
+      "zh": "我……我对当下的局面感到极其矛盾复杂。"
+    },
+    {
+      "id": 195,
+      "start_sec": 1758,
+      "speaker": "Alix Spiegel",
+      "en": "You see, while Hare is a strong believer that his test works well for the kind of basic lab research that it was originally designed for, he, like others, has begun to wonder if the test does as good a job outside the lab.",
+      "zh": "你看，虽然 Hare 坚信这套量表在当初设计的实验室基础科研中非常有效，但他和其他人一样，开始怀疑走出实验室后，这套量表是否还能保持同样的水准。"
+    },
+    {
+      "id": 196,
+      "start_sec": 1770,
+      "speaker": "Daniel Murray",
+      "en": "Once you get into the real world, there does seem to be some lessening of reliability.",
+      "zh": "一旦涉足真实世界，它的可靠性似乎确实出现了下滑。"
+    },
+    {
+      "id": 197,
+      "start_sec": 1776,
+      "speaker": "Alix Spiegel",
+      "en": "This is Daniel Murray, a professor at the University of Virginia. About four years ago, Murray did a study, which looked at what happened when a psychologist hired by the prosecution gave the test to the same prisoner as a psychologist hired by the defense.",
+      "zh": "这位是弗吉尼亚大学教授 Daniel Murray。大约四年前，Murray 开展了一项研究，专门观察当检方聘请的心理学家和辩方聘请的心理学家对同一名犯人进行测验时会发生什么。"
+    },
+    {
+      "id": 198,
+      "start_sec": 1791,
+      "speaker": "Alix Spiegel",
+      "en": "Did those two psychologists give the same score to the same person? The answer-- definitively no.",
+      "zh": "这两名心理学家给同一个人打出的分数会一样吗？答案是——绝对不会。"
+    },
+    {
+      "id": 199,
+      "start_sec": 1798,
+      "speaker": "Daniel Murray",
+      "en": "10, 15--",
+      "zh": "10分、15分……"
+    },
+    {
+      "id": 200,
+      "start_sec": 1800,
+      "speaker": "Daniel Murray",
+      "en": "even 20 point score differences, we found. And overall there was about an eight point difference in scores.",
+      "zh": "我们甚至发现了相差20分的情况。总体而言，得分大约有8分的差距。"
+    },
+    {
+      "id": 201,
+      "start_sec": 1807,
+      "speaker": "Alix Spiegel",
+      "en": "In fact, in two-thirds of the cases, the scores were substantially different. And the differences were not random. Psychologists hired by the prosecution consistently scored people higher, found more psychopaths. Psychologists hired by the defense scored people lower, found fewer psychopaths, as you might expect.",
+      "zh": "事实上，在三分之二的案件中，分值差异都相当显著。而且这种差异并非随机出现。正如你所预料的那样，控方雇用的心理学家给出的分数普遍偏高，认定了更多精神病态；而辩方雇用的心理学家给分则偏低，认定的精神病态较少。"
+    },
+    {
+      "id": 202,
+      "start_sec": 1826,
+      "speaker": "Alix Spiegel",
+      "en": "But there's something else which might explain these differences that Murray found. There's no regulation of who can administer this test. Hare tells me that he often does training in America, and says he frequently sees things that, frankly, horrify him. People without degrees in psychology using the test. Poorly trained people using the test.",
+      "zh": "但还有另一个原因，或许能解释Murray发现的这些偏差。目前对于谁有资格主持这项测试，没有任何规范。Hare告诉我，他经常在美国做培训，并表示自己屡屡目睹一些坦白说令他毛骨悚然的乱象：没有心理学学位的人在使用这项测试；受训不足的人在使用这项测试。"
+    },
+    {
+      "id": 203,
+      "start_sec": 1846,
+      "speaker": "Robert Hare",
+      "en": "Many of these people have really no business doing this. It'd be sort of like asking a nurse now to go out and start performing surgery. You know, this it it it doesn't work this way. It shouldn't work that way. So I'm very concerned about the inappropriate, unprofessional use of this instrument for purposes that have serious implications for the individual and for society.",
+      "zh": "这些人中的很多根本就没资格干这个。这就好比让一名护士直接上台动手术。你知道的，这根本行不通，也绝不该是这样。所以我非常担心，这个量表被不当且不专业地滥用，而其用途对个人以及整个社会都关乎重大。"
+    },
+    {
+      "id": 204,
+      "start_sec": 1871,
+      "speaker": "Alix Spiegel",
+      "en": "Do you think that on an emotional level, like it's hard for you emotionally to think about your instrument having hurt somebody?",
+      "zh": "你觉得在情感层面上，去设想自己的量表可能伤害了某个人，这对你来说是不是很难接受？"
+    },
+    {
+      "id": 205,
+      "start_sec": 1882,
+      "speaker": "Robert Hare",
+      "en": "Oh, yeah. Interesting question. Notice I didn't see that's a good question. [LAUGHS] Interesting question. Um, almost certainly.",
+      "zh": "噢，是的。很有意思的问题。请注意我没说这是个好问题。[笑] 很有意思的问题。嗯，几乎可以肯定。"
+    },
+    {
+      "id": 206,
+      "start_sec": 1893,
+      "speaker": "Robert Hare",
+      "en": "I mean if if if I I think about this periodically. And I I probably try to suppress it. Or, yeah, I I dissociate myself from it. If I thought of every potential use or misuse of the instrument, I probably wouldn't sleep at all.",
+      "zh": "我是说，我时不时也会琢磨这件事。我可能也试图压抑这种念头。或者说，是的，我会让自己抽离出来。如果我要去考虑这个量表每一种潜在的应用或滥用，我大概整夜整夜都睡不着觉了。"
+    },
+    {
+      "id": 207,
+      "start_sec": 1924,
+      "speaker": "Robert Dixon Senior",
+      "en": "Okay. We're going to the bedroom where he'll stay.",
+      "zh": "好，我们去他以后住的卧室。"
+    },
+    {
+      "id": 208,
+      "start_sec": 1927,
+      "speaker": "Alix Spiegel",
+      "en": "Of course, the friends and family of Robert Dixon are convinced that there's been a misuse of the test. And convinced, too, that that error will somehow miraculously be corrected. When I went to visit Robert's father at his home, he took me down a hallway, and showed me a neatly prepared, fully equipped, second bedroom. It was, he told me, for Robert.",
+      "zh": "当然，Robert Dixon的亲友们坚信这项测试被滥用了。他们也坚信，这个错误奇迹般地终将得到纠正。当我前往Robert父亲家中探访时，他领着我穿过走廊，向我展示了一间收拾得井井有条、一应俱全的次卧。他告诉我，这是给Robert留的。"
+    },
+    {
+      "id": 209,
+      "start_sec": 1949,
+      "speaker": "Robert Dixon Senior",
+      "en": "Okay. This is his room. There's a bed. There's a closet. This would be his dresser.",
+      "zh": "好了。这就是他的房间。这儿有张床，有个壁橱。这个会是他的梳妆台。"
+    },
+    {
+      "id": 210,
+      "start_sec": 1957,
+      "speaker": "Alix Spiegel",
+      "en": "As I said before, for most of their lives, these two men had grave difficulties. But now, every other Sunday, Dixon Senior goes to visit Dixon Junior in prison. They talk about what they're going to do when Robert gets out. They want to go fishing together. Dixon Senior already bought the gear.",
+      "zh": "正如我之前提到的，在他们人生的大半时光里，这对父子关系极度紧张。但现在，每隔一个周日，老Dixon都会去监狱探望小Dixon。他们聊着等Robert出狱后要一起做些什么。他们想一起去钓鱼。老Dixon甚至已经买好了渔具。"
+    },
+    {
+      "id": 211,
+      "start_sec": 1974,
+      "speaker": "Alix Spiegel",
+      "en": "And as I listened to them talk about these conversations and the relationship they have, it's hard to believe that it's a",
+      "zh": "而当我听着他们谈论这些对话以及他们如今的关系时，实在很难相信这是一段……"
+    },
+    {
+      "id": 212,
+      "start_sec": 1980,
+      "speaker": "Alix Spiegel",
+      "en": "on, that it's cold-blooded manipulation. They seemed very close. Just as Robert seemed very close to his best friend. And I found myself wondering if a true psychopath could really have relationships like this.",
+      "zh": "那不过是冷酷的算计操弄。他们看上去非常亲近，就像 Robert 和他最好的朋友看上去也很铁一样。我不禁开始怀疑，一个真正的精神病态者，真的能拥有这样的关系吗？"
+    },
+    {
+      "id": 213,
+      "start_sec": 1993,
+      "speaker": "Alix Spiegel",
+      "en": "Do you think you're going to get out of here?",
+      "zh": "你觉得自己能从这里出去吗？"
+    },
+    {
+      "id": 214,
+      "start_sec": 1996,
+      "speaker": "Robert Dixon",
+      "en": "I hope so. I, yeah, I'd hope so. And I hope I'd get out before my dad pass away.",
+      "zh": "我希望可以。我，是的，我希望能出去。我希望能在父亲去世前出去。"
+    },
+    {
+      "id": 215,
+      "start_sec": 2003,
+      "speaker": "Robert Dixon Senior",
+      "en": "Yeah, well, better hurry up. And I'll be here waiting for him.",
+      "zh": "是啊，那可得抓紧了。我会一直在这里等着他。"
+    },
+    {
+      "id": 216,
+      "start_sec": 2011,
+      "speaker": "Alix Spiegel",
+      "en": "Robert Dixon Jr. has been incarcerated for being an accessory to murder for 26 years. In 2014, he will have a new parole hearing.",
+      "zh": "Robert Dixon Jr. 因协助谋杀已被关押了26年。2014年，他将迎来新一轮假释听证会。"
+    },
+    {
+      "id": 217,
+      "start_sec": 2019,
+      "speaker": "Alix Spiegel",
+      "en": "If he goes to that hearing with his current score on the psychopath test, which he is slated to do, it's very likely that Robert Dixon will be denied.",
+      "zh": "如果他拿着目前在精神病态量表上的测试分数去参加听证会——而按目前安排他就是如此——Robert Dixon 极有可能会再次被驳回。"
+    },
+    {
+      "id": 218,
+      "start_sec": 2034,
+      "speaker": "Ira Glass",
+      "en": "Alix Spiegel, she's a science correspondent for NPR News. Coming up, the positive side of being a psychopath.",
+      "zh": "Alix Spiegel，NPR新闻的科学条线记者。接下来是：成为精神病态者积极的一面。"
+    },
+    {
+      "id": 219,
+      "start_sec": 2040,
+      "speaker": "Ira Glass",
+      "en": "Jon Ronson on how being a psychopath can help you in your business. That's in a minute from WBEZ Chicago and Public Radio International when our program continues.",
+      "zh": "Jon Ronson 将讲述精神病态特质如何在商业中助你一臂之力。稍后回来，节目来自 WBEZ 芝加哥与国际公共电台，敬请继续收听。"
+    },
+    {
+      "id": 220,
+      "start_sec": 2053,
+      "speaker": "Ira Glass",
+      "en": "It's This American Life, I'm Ira Glass. Today's show is all about the psychopath test created by Bob Hare, used around the world by courtrooms and prisons, and this week by us, as well. We took the test.",
+      "zh": "这里是 This American Life，我是 Ira Glass。今天的节目全部围绕由 Bob Hare 编制的“精神病态测试”展开，它被世界各地的法庭和监狱广泛使用，而这周我们也测了。我们全体员工都做了测试。"
+    },
+    {
+      "id": 221,
+      "start_sec": 2064,
+      "speaker": "Ira Glass",
+      "en": "We have arrived at Act Two of our show. Act Two, King of the Forest. Jon Ronson has a new book out about the psychopath test. In fact, that's the name of the book. It's called The Psychopath Test.",
+      "zh": "现在进入节目的第二幕。第二幕：百兽之王。Jon Ronson 出了一本关于精神病态测试的新书。其实书名就叫这个，叫《精神病态测试》（The Psychopath Test）。"
+    },
+    {
+      "id": 222,
+      "start_sec": 2074,
+      "speaker": "Ira Glass",
+      "en": "In his research, Jon met with Bob Hare, who created the test. He also went to a seminar to learn to administer the test himself, which had an unfortunate effect on Jon. He started seeing all kinds of people as psychopaths. It really is everywhere if you start to look for it.",
+      "zh": "在调研期间，Jon 见到了量表的创始人 Bob Hare。他还参加了一场培训研讨会，学习亲自施测该量表，但这在 Jon 身上产生了一个不幸的副作用：他开始把身边的各种人都看成精神病态。一旦你开始对号入座，真的会觉得满大街都是。"
+    },
+    {
+      "id": 223,
+      "start_sec": 2090,
+      "speaker": "Ira Glass",
+      "en": "Jon saw this statistic: 1% of the general population tests as psychopath, 25% of the US prison population, which makes sense, I guess, and 4%, 4% of business leaders.",
+      "zh": "Jon 注意到一组数据：普通人群中有1%测出精神病态；美国囚犯人群中占25%，这倒还说得通；而在商界领袖中，居然占到了4%，整整4%。"
+    },
+    {
+      "id": 224,
+      "start_sec": 2103,
+      "speaker": "Ira Glass",
+      "en": "Ronson wondered if that could possibly be true, that so many business leaders might have psychopathic traits, and so he tried to find a business leader who might prove this true or false. And then he learned about a former chief executive of Sunbeam, the toaster and appliance company.",
+      "zh": "Ronson 心想，这怎么可能是真的？真有那么多商界领袖带有精神病态特征吗？于是他试图找一位商业高管来验证真伪。随后，他打听到了生产烤面包机和家电的 Sunbeam 公司前首席执行官。"
+    },
+    {
+      "id": 225,
+      "start_sec": 2118,
+      "speaker": "Jon Ronson",
+      "en": "In the mid-1990s, Sunbeam was a mess. The board of directors needed a merciless cost cutter, and so they offered the job to someone quite unique, a man who seemed to actually, unlike most humans, enjoy firing people.",
+      "zh": "在1990年代中期，Sunbeam 公司乱成了一锅粥。董事会急需一位冷酷无情的成本削减专家，于是他们把这个职位提供给了一个非同寻常的人——一个似乎不像大多数人那样同情弱者，反而真正享受解雇员工的男人。"
+    },
+    {
+      "id": 226,
+      "start_sec": 2134,
+      "speaker": "Jon Ronson",
+      "en": "His name was Al Dunlap, and he'd made his reputation closing down plants on behalf of Scott, America's oldest toilet paper manufacturer. There were countless stories of him going from Scott plant to Scott plant firing people in amusing, sometimes eerie ways.",
+      "zh": "他名叫 Al Dunlap，此前代表美国历史最悠久的卫生纸生产商 Scott 到处关闭工厂而名声大噪。关于他从一家 Scott 工厂转战另一家工厂，用各种荒唐可笑、有时甚至毛骨悚然的方式裁员的故事不胜枚举。"
+    },
+    {
+      "id": 227,
+      "start_sec": 2151,
+      "speaker": "Jon Ronson",
+      "en": "At a plant in Mobile, Alabama, for instance, he asked a man how long he'd worked there. \"30 years,\" the man proudly replied.",
+      "zh": "比如在阿拉巴马州莫比尔的一家工厂，他问一个员工在那里干了多久。“30年了，”那名员工骄傲地回答道。"
+    },
+    {
+      "id": 228,
+      "start_sec": 2160,
+      "speaker": "Jon Ronson",
+      "en": "\"Why would you want to stay at a company for 30 years?\" Dunlap said, looking genuinely perplexed. A few weeks later, he closed the Mobile plant down, firing everyone.",
+      "zh": "“你干嘛想在一家公司待上30年呢？”Dunlap说道，脸上写满了由衷的困惑。几周后，他关闭了莫比尔工厂，解雇了所有人。"
+    },
+    {
+      "id": 229,
+      "start_sec": 2176,
+      "speaker": "Jon Ronson",
+      "en": "He fired people with such apparent glee that the business magazine Fast Company included him in an article about potentially psychopathic CEOs. All the other CEOs cited were dead or in prison and therefore unlikely to sue, but they took the plunge with Dunlap anyway.",
+      "zh": "他裁员时的欣喜表现得如此露骨，以至于商业杂志《Fast Company》将他列入了一篇关于潜在精神病态CEO的文章。文中提到的其他CEO要么已经去世，要么身陷囹圄，因此不太可能提起诉讼，但杂志社依然咬咬牙，把Dunlap写了进去。"
+    },
+    {
+      "id": 230,
+      "start_sec": 2195,
+      "speaker": "Jon Ronson",
+      "en": "They referred to his poor behavioral controls. His first wife charged in her divorce papers that he once threatened her with a knife and muttered that he always wondered what human flesh tasted like. Then there was his lack of empathy. Even though he was always telling journalists about his wise and supportive parents, he didn't turn up at either of their funerals.",
+      "zh": "他们提到了他的行为自控力极差。他的第一任妻子在离婚文件中指控称，他曾拿着刀威胁她，并喃喃自语说自己一直想知道人肉是什么味道。此外，他极度缺乏同理心。尽管他总是对记者夸耀自己的父母多么睿智开明、全力支持他，但他连两人的葬礼都没去参加。"
+    },
+    {
+      "id": 231,
+      "start_sec": 2222,
+      "speaker": "Jon Ronson",
+      "en": "On the July 1996 day that Sunbeam's board of directors revealed the name of their new CEO, their share price skyrocketed from $12.50 to $18.63.",
+      "zh": "1996年7月的那一天，当Sunbeam董事会公布他们的新CEO人选时，股价从12.50美元一路飙升到了18.63美元。"
+    },
+    {
+      "id": 232,
+      "start_sec": 2236,
+      "speaker": "Jon Ronson",
+      "en": "Dunlap went on a year-long rampage across rural America, firing 12,000 employees and closing plants in Shubuta, and Bay Springs, and Laurel, Mississippi, and Cookeville, Tennessee, and Coushatta, Louisiana, and on and on, turning communities across the American South into ghost towns.",
+      "zh": "Dunlap在全美各地的乡村地区展开了长达一年的疯狂扫荡，裁撤了1.2万名员工，关闭了位于密西西比州舒布塔、贝斯普林斯和劳雷尔，田纳西州库克维尔，路易斯安那州库沙塔等地的工厂，接连不断地将美国南部的一个个社区变成了鬼城。"
+    },
+    {
+      "id": 233,
+      "start_sec": 2257,
+      "speaker": "Jon Ronson",
+      "en": "With each plant closure, the Sunbeam share price soared, reaching an incredible $51.",
+      "zh": "每关闭一家工厂，Sunbeam的股价就暴涨一波，最终达到了令人瞠目的51美元。"
+    },
+    {
+      "id": 234,
+      "start_sec": 2264,
+      "speaker": "Jon Ronson",
+      "en": "I emailed his personal assistant-cum-bodyguard, Shaun Thornton. I said there's a theory, shared by neurologists all over the world, that the brains of certain highly successful people literally work differently to ordinary people's brains.",
+      "zh": "我发邮件联系了他的兼职保镖的私人助理Shaun Thornton。我说全球的神经学家中流传着一种理论，认为某些极度成功人士的大脑运转方式，确实与普通人的大脑截然不同。"
+    },
+    {
+      "id": 235,
+      "start_sec": 2281,
+      "speaker": "Jon Ronson",
+      "en": "It's basically all to do with the amygdala shooting signals of fear down to the central nervous system. The theory goes that very highly successful people, like Mr. Dunlap, are literally fearless because the amygdala doesn't shoot those signals.",
+      "zh": "这基本上全跟杏仁核向中枢神经系统发射恐惧信号有关。该理论认为，像Dunlap先生这样极其成功的人士之所以真正无所畏惧，是因为他们的杏仁核不会发射这些信号。"
+    },
+    {
+      "id": 236,
+      "start_sec": 2297,
+      "speaker": "Jon Ronson",
+      "en": "I didn't mention in the email that psychiatrists called that brain anomaly psychopathy. They said I was welcome to come over.",
+      "zh": "我在邮件里并没提精神病学家把这种大脑异常称作‘精神病态’。他们回复说欢迎我登门拜访。"
+    },
+    {
+      "id": 237,
+      "start_sec": 2312,
+      "speaker": "Jon Ronson",
+      "en": "The first obviously strange thing about Al Dunlap's grand Florida mansion and lavish manicured lawns was the unusually large number of ferocious sculptures there were of predatory animals.",
+      "zh": "关于Al Dunlap在佛罗里达的豪华庄园和修剪整齐的奢华草坪，第一个明显透着诡异的地方，就是这里陈列着异乎寻常之多的凶残掠食动物雕塑。"
+    },
+    {
+      "id": 238,
+      "start_sec": 2324,
+      "speaker": "Jon Ronson",
+      "en": "They were everywhere. Stone lions and panthers with teeth bared, eagles soaring downward, hawks with fish in their talons, and on and on, across the grounds, around the lake, in the swimming pool health club complex, in the many rooms.",
+      "zh": "它们无处不在。龇牙咧嘴的石雕雄狮和猎豹、俯冲而下的雄鹰、爪里抓着鱼的苍鹰，数不胜数，散布在庄园各处、湖畔周围、泳池健身俱乐部综合体里，以及各个房间之中。"
+    },
+    {
+      "id": 239,
+      "start_sec": 2340,
+      "speaker": "Jon Ronson",
+      "en": "There were crystal lions, and onyx lions, and iron lions, and iron panthers, and paintings of lions, and sculptures of human skulls.",
+      "zh": "屋里到处都是水晶狮、玛瑙狮、铁狮子，还有铁黑豹、狮子油画，以及人类头骨的雕塑。"
+    },
+    {
+      "id": 240,
+      "start_sec": 2350,
+      "speaker": "Jon Ronson",
+      "en": "\"Lions,\" said Al Dunlap, showing me around. He was wearing a casual jacket and slacks and looking tanned, healthy. His teeth were very white.",
+      "zh": "“狮子，”Al Dunlap 带着我四处参观时说道。他身穿休闲夹克和便裤，皮肤晒成了健康的小麦色，牙齿雪白。"
+    },
+    {
+      "id": 241,
+      "start_sec": 2361,
+      "speaker": "Jon Ronson",
+      "en": "\"Lions, jaguars, lions. Always predators. Predators, predators, predators. I have a great belief in, and a great respect for predators. Everything I did, I had to go make happen.\"",
+      "zh": "“狮子、美洲豹、狮子。全是掠食者。掠食者、掠食者、掠食者。我对掠食者深信不疑，也怀有极大的敬意。我所做的一切，都得靠自己去拼出来。”"
+    },
+    {
+      "id": 242,
+      "start_sec": 2374,
+      "speaker": "Jon Ronson",
+      "en": "\"Cunning/manipulative,\" I wrote in my reporter's notepad. This was item five on the Bob Hare Psychopathy Checklist. Al's statements may reveal a belief that the world is made up of \"predators and prey, and that it would be foolish not to exploit weaknesses in others.\"",
+      "zh": "我在记者的记事本上写下了“狡诈/善于操纵”。这是 Bob Hare 心理变态核对表上的第五项。Al 的言论或许印证了一种观念，即世界是由“掠食者与猎物”组成的，“不去利用别人的弱点简直就是愚蠢”。"
+    },
+    {
+      "id": 243,
+      "start_sec": 2394,
+      "speaker": "Jon Ronson",
+      "en": "\"Gold, too,\" I said. \"There's a lot of gold here, too.\" I'd been prepared for the gold, having recently seen a portrait of him sitting on a gold chair, wearing a gold tie, with a gold suit of armor by the door and a gold crucifix on the mantelpiece.",
+      "zh": "“还有金子，”我说，“这里也有很多金子。”我早就料到会有金子，因为最近刚见过一张他的肖像：坐在金椅子上，系着金领带，门边立着一副金色盔甲，壁炉架上还放着一个金十字架。"
+    },
+    {
+      "id": 244,
+      "start_sec": 2409,
+      "speaker": "Jon Ronson",
+      "en": "\"Well,\" said Al. \"Gold is shiny.\" \"Sharks,\" he pointed at a sculpture of four sharks encircling the planet. \"I believe in predators,\" he said. \"Their spirit will enable you to succeed. Over there you've got falcons, alligators, alligators, more alligators, tigers.\"",
+      "zh": "“嗯，”Al 说，“金子闪亮嘛。”“鲨鱼，”他指着一座四条鲨鱼环绕地球的雕塑。“我相信掠食者的力量，”他说，“它们的精神能让你走向成功。那边还有猎鹰、短吻鳄、短吻鳄、更多的短吻鳄，还有老虎。”"
+    },
+    {
+      "id": 245,
+      "start_sec": 2433,
+      "speaker": "Jon Ronson",
+      "en": "\"It is as if both Midas and also the Queen of Narnia were here,\" I said. \"And the Queen of Narnia flew above a particularly fierce zoo and turned everything there to stone, and then transported everything here.\"",
+      "zh": "“感觉就像迈达斯王和纳尼亚女王都来过这儿一样，”我说，“纳尼亚女王飞过一个格外凶猛的动物园，把里面的一切都变成了石头，然后把它们全都搬到了这里。”"
+    },
+    {
+      "id": 246,
+      "start_sec": 2445,
+      "speaker": "Jon Ronson",
+      "en": "\"What?\" said Al. \"Nothing,\" I said. \"No,\" he said. \"What did you just say?\"",
+      "zh": "“什么？”Al 问。“没什么，”我说。“不，”他说，“你刚才说什么来着？”"
+    },
+    {
+      "id": 247,
+      "start_sec": 2453,
+      "speaker": "Jon Ronson",
+      "en": "He shot me a steely, blue-eyed stare, which I found quite debilitating. \"It was just a jumble of words,\" I said. \"I was trying to make a funny comment, but it all became confused in my mouth.\"",
+      "zh": "他那双蓝眼睛射出钢铁般冰冷的目光，盯得我浑身发毛。“我就是随口胡诌的，”我说，“本来想开个玩笑，结果舌头打结没说明白。”"
+    },
+    {
+      "id": 248,
+      "start_sec": 2464,
+      "speaker": "Jon Ronson",
+      "en": "\"Oh,\" said Al. \"Should we get some iced tea?\" he said. We gathered in the kitchen-- Al, his wife, Judy, and Sean, the bodyguard.",
+      "zh": "“哦，”Al 说。“咱们喝点冰茶吧？”他说。我们聚在厨房里——Al、他的妻子 Judy，还有保镖 Sean。"
+    },
+    {
+      "id": 249,
+      "start_sec": 2476,
+      "speaker": "Jon Ronson",
+      "en": "I cleared my throat. \"You know how I said in my email that your amygdala might not shoot the requisite signals of fear to your central nervous system, and that's perhaps why you've been so successful and so interested in the predatory spirit?\" I said.",
+      "zh": "我清了清嗓子。“还记得我在邮件里说的吗？你的杏仁核可能不会向中枢神经系统发送必要的恐惧信号，这或许就是你如此成功、并且对掠食者精神如此着迷的原因？”我说。"
+    },
+    {
+      "id": 250,
+      "start_sec": 2490,
+      "speaker": "Jon Ronson",
+      "en": "\"Yes,\" he said. \"It's a fascinating theory. It's like Star Trek. You're going where no man has gone before.",
+      "zh": "“没错，”他说，“这个理论很有意思。就像《星际迷航》一样，你正在勇踏前人未至之境。"
+    },
+    {
+      "id": 251,
+      "start_sec": 2498,
+      "speaker": "Jon Ronson",
+      "en": "Why are some people enormously successful and others not at all? The kids I went to school with had a lot more privileges than me, but they're not successful. Why? What's different? Something's different. It's a question that's been on people's minds for generations.",
+      "zh": "为什么有些人能取得巨大的成功，而另一些人却一事无成？当年和我一起上学的孩子享有的特权比我多得多，但他们并不成功。为什么？有什么不同？肯定有哪里不一样。这是困扰了人们好几代的问题。"
+    },
+    {
+      "id": 252,
+      "start_sec": 2515,
+      "speaker": "Jon Ronson",
+      "en": "And that's why when you mentioned this amygdala thing, I thought, 'Hmm, that's very",
+      "zh": "所以当你提到这个杏仁核的事时，我想，‘嗯，这非常……’"
+    },
+    {
+      "id": 253,
+      "start_sec": 2520,
+      "speaker": "Jon Ronson",
+      "en": "\"Interesting. I'll talk to this fellow.\" \"I have to tell you that some psychologists say that if this part of your brain doesn't work properly, it can actually make you--\" \"Mhm?\" he said.",
+      "zh": "“有意思。我倒要跟这家伙聊聊。”“我得先告诉你，有些心理学家说，如果大脑的这个部位功能失常，实际上会让人……”“嗯？”他说。"
+    },
+    {
+      "id": 254,
+      "start_sec": 2533,
+      "speaker": "Jon Ronson",
+      "en": "\"Dangerous,\" I mumbled inaudibly. I suddenly felt incredibly nervous. \"Sorry?\" he said. \"I can't hear you.\"",
+      "zh": "“变得危险。”我含糊不清地嘟囔道。我突然感到无比紧张。“你说什么？”他说，“我听不清。”"
+    },
+    {
+      "id": 255,
+      "start_sec": 2544,
+      "speaker": "Jon Ronson",
+      "en": "\"Dangerous,\" I said. There was a short silence. \"In what respect?\" he said thinly.",
+      "zh": "“变得危险。”我说。现场陷入了短暂的沉默。“哪方面危险？”他冷冷地问道。"
+    },
+    {
+      "id": 256,
+      "start_sec": 2554,
+      "speaker": "Jon Ronson",
+      "en": "\"It can make you--\" I took a breath, \"--a psychopath.\" Al, Judy, and Sean, the bodyguard, stared at me for a long time.",
+      "zh": "“会让人变成……”我深吸了一口气，“……精神病态。”Al、Judy还有保镖Sean，全都死死地盯着我，盯了好久。"
+    },
+    {
+      "id": 257,
+      "start_sec": 2565,
+      "speaker": "Jon Ronson",
+      "en": "I was in over my head. What did I think I was doing? I'm not a licensed medical professional or a scientist. Nor, if I'm being honest with myself, am I actually a detective.",
+      "zh": "我真是自不量力。我到底以为自己在干嘛？我又不是持证的医疗专业人员，也不是科学家。说实话，我也根本不是什么侦探。"
+    },
+    {
+      "id": 258,
+      "start_sec": 2577,
+      "speaker": "Jon Ronson",
+      "en": "I blamed Bob Hare. He hadn't told me to do this, but I never would have, had I not met him. His checklist gave me false confidence that I could make my way in this land of psychopaths.",
+      "zh": "全怪Bob Hare。他倒没叫我这么干，但要不是认识他，我绝不会跑到这里来。是他那份核对表给了我盲目的自信，以为自己能在精神病态者的世界里游刃有余。"
+    },
+    {
+      "id": 259,
+      "start_sec": 2589,
+      "speaker": "Jon Ronson",
+      "en": "They looked at me at once deeply angry, befuddled, and disappointed. \"I've got a list of personality traits written down here that define psychopathy,\" I said, pointing at my pocket.",
+      "zh": "他们看着我，眼神里同时交织着强烈的愤怒、困惑和失望。“我兜里写着一张性格特质清单，专门用来界定精神病态，”我指着口袋说。"
+    },
+    {
+      "id": 260,
+      "start_sec": 2602,
+      "speaker": "Jon Ronson",
+      "en": "\"Who the hell are the people who make the list?\" said Al. \"What are their names? I bet I've never heard of them.\"",
+      "zh": "“列这破清单的到底是什么人？”Al说，“叫什么名字？我敢打赌我压根没听说过。”"
+    },
+    {
+      "id": 261,
+      "start_sec": 2609,
+      "speaker": "Jon Ronson",
+      "en": "At this, I realized I could turn the situation around to make Bob Hare take the blame in absentia for the unpleasantness. \"Bob Hare,\" I said. I pronounced his name quite clearly, \"Bob Hare.\"",
+      "zh": "听到这话，我意识到自己可以顺水推舟，把这尴尬不快的场面全推给不在场的Bob Hare背锅。“Bob Hare，”我说。我把他的名字念得字字分明，“Bob Hare。”"
+    },
+    {
+      "id": 262,
+      "start_sec": 2625,
+      "speaker": "Jon Ronson",
+      "en": "\"I never heard of him,\" said Al, a triumphant glint in his eye. \"Never heard of him,\" Judy agreed. \"He's a psychologist,\" I said.",
+      "zh": "“从没听说过，”Al说，眼神里闪过一丝胜利的得意。“我也没听过，”Judy附和道。“他是个心理学家，”我说。"
+    },
+    {
+      "id": 263,
+      "start_sec": 2636,
+      "speaker": "Jon Ronson",
+      "en": "I exhaled to indicate that I felt the same way he presumably did about psychologists. \"So that list,\" said Al. He suddenly looked intrigued. \"Go ahead,\" he said, \"let's do it.\"",
+      "zh": "我叹了口气，摆出一副自认为跟他一样对心理学家嗤之以鼻的姿态。“说说那份清单吧，”Al说。他突然来了兴致。“来吧，”他说，“咱们测测看。”"
+    },
+    {
+      "id": 264,
+      "start_sec": 2651,
+      "speaker": "Jon Ronson",
+      "en": "\"Okay,\" I said. I pulled it out of my pocket. \"Are you sure?\" \"Yeah. Let's do it.\"",
+      "zh": "“行，”我说。我从兜里掏出清单。“你确定要测？”“确定，来吧。”"
+    },
+    {
+      "id": 265,
+      "start_sec": 2661,
+      "speaker": "Jon Ronson",
+      "en": "\"Okay. Item one, superficial charm.\" \"I'm totally charming,\" he replied. \"I am totally charming.\"",
+      "zh": "“好。第一条，表面具有迷人魅力。”“我魅力十足，”他回答道，“我绝对是魅力非凡。”"
+    },
+    {
+      "id": 266,
+      "start_sec": 2672,
+      "speaker": "Jon Ronson",
+      "en": "He, Judy, and Sean laughed, easing the tension. \"Grandiose sense of self-worth?\" I asked. This was item two on the psychopath checklist.",
+      "zh": "他和Judy还有Sean都笑了起来，气氛顿时轻松了不少。“夸大自负的自我价值感？”我问。这是精神病态核对表的第二项。"
+    },
+    {
+      "id": 267,
+      "start_sec": 2683,
+      "speaker": "Jon Ronson",
+      "en": "It would have been a hard one for him to deny, standing, as he was, below a giant oil painting of himself. \"No question,\" said Al. \"If you don't believe in yourself, nobody else will. You've got to believe in you.\"",
+      "zh": "这项他想否认可就难了，毕竟他就站在一幅巨大的个人全身油画像正下方。“毫无疑问，”Al说，“连你自己都不信自己，还指望谁信你？你必须相信你自己。”"
+    },
+    {
+      "id": 268,
+      "start_sec": 2698,
+      "speaker": "Jon Ronson",
+      "en": "\"Is there another list of good--\"",
+      "zh": "“那有没有另外一份好品质的清单——”"
+    },
+    {
+      "id": 269,
+      "start_sec": 2700,
+      "speaker": "Jon Ronson",
+      "en": "Things, said Judy, quite sharply. \"Well,\" I said. We all fell silent.",
+      "zh": "“去干点事，”Judy语气相当严厉地补充道。“好吧，”我说。我们都沉默了下来。"
+    },
+    {
+      "id": 270,
+      "start_sec": 2708,
+      "speaker": "Jon Ronson",
+      "en": "\"Need for stimulation, proneness to boredom?\" I said. \"Yeah,\" said Al. \"I'm very prone to boredom. I've got to go do something. Yeah, that's a fair statement.\"",
+      "zh": "“需要刺激、容易感到无聊？”我念道。“没错，”Al说，“我非常容易无聊，非得找点事做不可。是的，这条说得很贴切。”"
+    },
+    {
+      "id": 271,
+      "start_sec": 2719,
+      "speaker": "Jon Ronson",
+      "en": "\"Manipulative?\" I said. \"I think you could describe that as leadership,\" he said, \"inspire. I think it's called leadership.\"",
+      "zh": "“善于操纵他人？”我问。“我觉得你可以把它解释为领导力，”他说，“去激励别人。我认为这应该叫领导力。”"
+    },
+    {
+      "id": 272,
+      "start_sec": 2729,
+      "speaker": "Jon Ronson",
+      "en": "\"Are you okay with this list?\" I asked. \"Yeah, sure. Why not?\" he said.",
+      "zh": "“你觉得念这份清单没问题吗？”我问。“行啊，当然，有啥不行的？”他说。"
+    },
+    {
+      "id": 273,
+      "start_sec": 2736,
+      "speaker": "Jon Ronson",
+      "en": "And so the morning continued, with Al redefining a great many psychopathic traits as leadership positives.",
+      "zh": "于是整个上午就这样继续下去，Al把清单上绝大部分精神病态特征，都重新定义成了领导者的优秀品质。"
+    },
+    {
+      "id": 274,
+      "start_sec": 2744,
+      "speaker": "Jon Ronson",
+      "en": "Impulsivity was, he said, just another way of saying quick analysis. \"Some people spend a week weighing up the pros and cons. Me, I look at it for 10 minutes. If the pros outweigh the cons, go!\"",
+      "zh": "他说，冲动只是快速分析的另一种说法。“有些人花一个星期权衡利弊。我呢，看上十分钟，只要利大于弊，就干！”"
+    },
+    {
+      "id": 275,
+      "start_sec": 2757,
+      "speaker": "Jon Ronson",
+      "en": "Shallow affect, an inability to feel a deep range of emotions, stops you from feeling what he called \"some nonsense emotions\".",
+      "zh": "情感淡漠，也就是无法体会丰富的情感，却能让你免受他所谓“那些莫名其妙的情绪”的困扰。"
+    },
+    {
+      "id": 276,
+      "start_sec": 2766,
+      "speaker": "Jon Ronson",
+      "en": "And then there's a lack of remorse. \"A lack of remorse,\" Al says, \"frees you up to move forward and achieve more great things. What's the point of drowning yourself in sorrow?\"",
+      "zh": "接下来是缺乏内疚感。“缺乏悔意，”Al说，“能让你卸下包袱向前看，成就更多大事。把自己泡在悲伤里有什么意义呢？”"
+    },
+    {
+      "id": 277,
+      "start_sec": 2783,
+      "speaker": "Jon Ronson",
+      "en": "It felt great. I congratulated myself on being a genius, on cracking him open. I'd found one.",
+      "zh": "这种感觉爽极了。我暗自夸奖自己是个天才，竟然撬开了他的嘴。我可算逮着一个了。"
+    },
+    {
+      "id": 278,
+      "start_sec": 2792,
+      "speaker": "Jon Ronson",
+      "en": "But when I got home to London from his house, and I listened back to the tape of my interview with him, I could hear how disappointed I sounded whenever he said things to me that didn't seem psychopathic.",
+      "zh": "但当我从他家回到伦敦，重新回听采访他的录音带时，我才听出每当他说出一些听起来不像精神病态的话时，我的声音有多么失落。"
+    },
+    {
+      "id": 279,
+      "start_sec": 2804,
+      "speaker": "Jon Ronson",
+      "en": "There'd been a moment, for instance, when I'd asked him about items 12 and 18, early behavior problems and juvenile delinquency. He told me, \"No.",
+      "zh": "比如有一刻，我向他问起第12项和第18项——早期行为问题和青少年犯罪。他回答我说：“没有。"
+    },
+    {
+      "id": 280,
+      "start_sec": 2815,
+      "speaker": "Jon Ronson",
+      "en": "I was a focused, serious kid. I was very determined. I was a good kid. In school, I was always trying to achieve. I was always working hard. That saps your energy. You don't have enough time to troublemake.\"",
+      "zh": "我小时候是个专注、严肃的孩子，目标极其明确。我是个好孩子。在学校里，我总是力争上游，拼命用功。那把精力都榨干了，你根本没时间惹是生非。”"
+    },
+    {
+      "id": 281,
+      "start_sec": 2830,
+      "speaker": "Jon Ronson",
+      "en": "\"You never got into trouble with the authorities?\" I said. \"Nope,\" he said, \"and remember, I got accepted into West Point.",
+      "zh": "“你从来没惹过官方或警察的麻烦？”我问。“从来没有，”他说，“而且别忘了，我当年可是被西点军校录取的。"
+    },
+    {
+      "id": 282,
+      "start_sec": 2840,
+      "speaker": "Jon Ronson",
+      "en": "Listen, the psychopath thing is rubbish. You can't be successful unless you have certain—\" He pointed at his head. \"Controls. It won't happen. How do you get through school? How do you get through your first and second job when you're formulating yourself?\"",
+      "zh": "听着，所谓精神病态那一套纯属扯淡。除非你拥有某种——”他指了指自己的脑袋，“自我控制力，否则你根本不可能成功。那绝不可能。不然你怎么念得完书？在人格塑造期你怎么挺得过第一份、第二份工作？”"
+    },
+    {
+      "id": 283,
+      "start_sec": 2858,
+      "speaker": "Jon Ronson",
+      "en": "It was a terribly persuasive point, and I'd felt disappointed when he said it.",
+      "zh": "这番话极有说服力，而他讲出来的时候，我心里却感到无比失落。"
+    },
+    {
+      "id": 284,
+      "start_sec": 2864,
+      "speaker": "Jon Ronson",
+      "en": "Also, he denied being a liar. \"If I think you're a schmuck,\" he said, \"I'll tell you you're a schmuck.\" And I believed him. He denied having a parasitic lifestyle. \"I'll go get my own meal,\" he said.",
+      "zh": "此外，他否认自己爱撒谎。“如果我觉得你是个蠢蛋，”他说，“我就会直接骂你是个蠢蛋。”我确实信他这话。他也否认自己过着寄生生活。“我自己去张罗饭吃，”他说。"
+    },
+    {
+      "id": 285,
+      "start_sec": 2877,
+      "speaker": "Jon Ronson",
+      "en": "And he did have a loyal wife of 41 years.",
+      "zh": "而且，他确实有一位相濡以沫了41年的忠诚妻子。"
+    },
+    {
+      "id": 286,
+      "start_sec": 2880,
+      "speaker": "Jon Ronson",
+      "en": "There were no rumors of affairs. This would score him a zero on items 17 and 11, many short-term marital relationships and promiscuous sexual behavior.",
+      "zh": "没有任何关于他出轨的流言。这让他在第17项和第11项——“多次短暂的婚姻关系”和“滥交行为”上，都只能得零分。"
+    },
+    {
+      "id": 287,
+      "start_sec": 2900,
+      "speaker": "Jon Ronson",
+      "en": "We'd had lunch before I left his house. Al had seemed in surprisingly high spirits for a man who'd just been questioned on which psychopathic traits most applied to him.",
+      "zh": "在我离开他家之前，我们一起吃了午饭。对于一个刚被盘问哪条精神变态特征最符合自己的人来说，Al 的兴致出奇地高。"
+    },
+    {
+      "id": 288,
+      "start_sec": 2910,
+      "speaker": "Jon Ronson",
+      "en": "As we ate, he told me funny stories about firing people. Each was essentially the same: someone was lazy, and he fired them with an amusing quip.",
+      "zh": "吃饭时，他给我讲了些开除员工的趣事。每个故事的情节大同小异：某个人偷懒，然后他用一句妙语把对方炒了。"
+    },
+    {
+      "id": 289,
+      "start_sec": 2920,
+      "speaker": "Jon Ronson",
+      "en": "For instance, one lazy Sunbeam executive mentioned to him that he'd just bought himself a fabulous sports car. \"You may have a fancy sports car,\" Al replied, \"but I tell you what you don't have: a job.\"",
+      "zh": "比如，Sunbeam 有个偷懒的高管跟他说自己刚买了辆超棒的跑车。“你可能买了辆拉风的跑车，”Al 回道，“但我告诉你，你现在没有的是：一份工作。”"
+    },
+    {
+      "id": 290,
+      "start_sec": 2934,
+      "speaker": "Jon Ronson",
+      "en": "\"You do feel good about yourself?\" I asked. \"Oh, I do,\" he replied. \"Oh, I do.\"",
+      "zh": "“你自我感觉真的很不错？”我问。“哦，那当然，”他回答，“哦，感觉棒极了。”"
+    },
+    {
+      "id": 291,
+      "start_sec": 2942,
+      "speaker": "Jon Ronson",
+      "en": "\"Looking back at my life is like going to a movie about a person who did all this stuff. My gosh, I did that. And through it all, I did it my way.\"",
+      "zh": "“回看我的一生，就像在电影院看一个干了这么多大事的人的电影。天哪，那是我干的。而且这一路走来，我都按我自己的方式做到了。”"
+    },
+    {
+      "id": 292,
+      "start_sec": 2954,
+      "speaker": "Jon Ronson",
+      "en": "Suddenly, I felt a little envious of him. I am the neurological opposite of a psychopath, in that I feel anxious almost all the time.",
+      "zh": "突然间，我对他竟生出了一丝羡慕。在神经层面上，我完全是精神变态的反面，因为我几乎时时刻刻都在焦虑。"
+    },
+    {
+      "id": 293,
+      "start_sec": 2964,
+      "speaker": "Jon Ronson",
+      "en": "It must be great to not constantly feel like you've got someone living inside of your face, shooting you with a mini Taser.",
+      "zh": "不用整天觉得有人住在你的脑袋里、拿着迷你电击枪不停电你，那种感觉一定棒极了。"
+    },
+    {
+      "id": 294,
+      "start_sec": 2973,
+      "speaker": "Jon Ronson",
+      "en": "Sure, Al confessed to 16 out of the 40 possible points on the checklist, and you could reasonably give him another six points, which would put him in the 20s, which is high, but not the 29 or 30 which is the clinical line in the sand for psychopathy.",
+      "zh": "诚然，量表上的40分满分里，Al 承认了16分；你客观上还可以再给他加6分，这让他能拿到20多分，这确实很高，但还没达到29或30分——那条判定精神变态的临床警戒线。"
+    },
+    {
+      "id": 295,
+      "start_sec": 2990,
+      "speaker": "Jon Ronson",
+      "en": "And wouldn't it be nice to just be a little more like him? Someone with no regrets about the past, no remorse, just kind of relaxed and happy?",
+      "zh": "而且，稍微像他一点难道不好吗？一个对过去毫无遗憾、毫无悔恨的人，就那么从容、快活地活着。"
+    },
+    {
+      "id": 296,
+      "start_sec": 3008,
+      "speaker": "Ira Glass",
+      "en": "Jon Ronson, reading an excerpt from his new book, which is one of the inspirations for today's program, called The Psychopath Test.",
+      "zh": "这是 Jon Ronson，朗读了他新书中的节选。这本书也是我们今天这期节目的灵感来源之一，书名叫《精神变态测试》。"
+    },
+    {
+      "id": 297,
+      "start_sec": 3022,
+      "speaker": "Archival Recording",
+      "en": "If I were king of the forest, not queen, not duke, not prince. My regal robes of the forest would be satin and not cotton and not chintz.",
+      "zh": "（电影《绿野仙踪》唱段）假如我是这片森林的国王，不是王后，不是公爵，也不是王子。我威风的森林华袍该是丝缎，而不是棉布，也不是粗布印花。"
+    },
+    {
+      "id": 298,
+      "start_sec": 3045,
+      "speaker": "Archival Recording",
+      "en": "I'd command each thing, be it fish or fowl, with a \"woof\" and a \"woof\" and a royal growl. As I click my heels, all the trees would kneel.",
+      "zh": "（电影《绿野仙踪》唱段）我将号令万物，无论游鱼还是飞鸟，吼一声，再吼一声，发出威严的咆哮。只要我后脚一跺，所有的树木都得跪倒。"
+    },
+    {
+      "id": 299,
+      "start_sec": 3080,
+      "speaker": "Ira Glass",
+      "en": "Act Three: The Results Are In. Who is the psycho? Thank you for that music cue.",
+      "zh": "第三幕：结果揭晓。谁才是那个精神变态？感谢这段配乐铺垫。"
+    },
+    {
+      "id": 300,
+      "start_sec": 3090,
+      "speaker": "Ira Glass",
+      "en": "So if you heard at the beginning of today's program, you heard that I and my fellow producers here at This American Life decided to take the psychopath test ourselves for this week's program. And just to quickly repeat our caveats about that, we did this for entertainment and education purposes only, which meant that we took the short version of the test.",
+      "zh": "如果你听了今天节目的开头，就会知道我和《This American Life》的同事们为了本周的节目，决定亲自测一测这个精神变态测试。再快速重申一下我们的免责声明：我们做这个纯粹是为了娱乐和科普，这也意味着我们测的只是简化版。"
+    },
+    {
+      "id": 301,
+      "start_sec": 3106,
+      "speaker": "Ira Glass",
+      "en": "The doctor who administered the test didn't do the kinds of painstaking follow-ups that he normally does. For instance, he didn't look into court records to verify our stories. He took our word for all kinds of things, which he normally would not do if he was facing a real potential psychopath.",
+      "zh": "负责测试的医生并没有像平时那样做严苛细致的背景核实。比如，他没有去查法院记录来验证我们的陈述。他在很多事上都直接听信了我们的一面之词，要是面对真正的潜在精神变态，他绝不可能这么做。"
+    },
+    {
+      "id": 302,
+      "start_sec": 3130,
+      "speaker": "Ira Glass",
+      "en": "That's because, um, we assume that none of us was even close to scoring at psychopath levels on the test. We figured that, uh, we would each, you know, score a couple points here, a couple points there, and then we wanted to see who would rack up the most points.",
+      "zh": "这是因为我们都认定，组里没人的分数会接近真正的精神变态水平。我们原本以为大家也就是这里得两分、那里扣两分，纯粹是想看看谁攒的分数最高。"
+    },
+    {
+      "id": 303,
+      "start_sec": 3142,
+      "speaker": "Ira Glass",
+      "en": "Robyn and Jane, if you remember the beginning of our show, were favorites because of, uh, trouble that they got into as teenagers. Uh, teenage life is a lot of questions on the test. And then there was, uh, one more candidate for scoring points.",
+      "zh": "如果你还记得节目的开头，Robyn 和 Jane 是大家押注的热门，因为她们青春期时惹过不少麻烦——而这个测试里有很多关于青少年时期的问题。另外，还有一个热门候选人。"
+    },
+    {
+      "id": 304,
+      "start_sec": 3155,
+      "speaker": "Jonathan Menjivar",
+      "en": "I just, I thought if you have the ego to say like, \"I'm going to start my own radio show,\" like, that somehow like you, you, there's, like you just are concentrated more on yourself in a way that would mean that, that you would lean that way.",
+      "zh": "我只是觉得，能有那么大自我膨胀到说“我要做属于自己的广播节目”，那多多少少……就说明你在某种程度上极度以自我为中心，意味着你很可能会往那个方向靠。"
+    },
+    {
+      "id": 305,
+      "start_sec": 3171,
+      "speaker": "Robyn Semien",
+      "en": "I thought, I was going to say, you just like are more on the like, feelings stuff.",
+      "zh": "我还以为……我想说的是，你明明更看重“情感共鸣”那一套。"
+    },
+    {
+      "id": 306,
+      "start_sec": 3176,
+      "speaker": "Ira Glass",
+      "en": "Yeah, the feelings stuff. Yeah, the feelings stuff.",
+      "zh": "对，情感共鸣。是啊，情感共鸣那一套。"
+    },
+    {
+      "id": 307,
+      "start_sec": 3179,
+      "speaker": "Ira Glass",
+      "en": "Okay, this is going to come as news to anybody who only knows me over the radio, but not news to anybody who knows me in real life. As you might suspect about somebody who designed and created an entire radio show built around very personal conversations and moments where people really connect with each other, the only kind of person who would go to the trouble to invent a show like that would be somebody who, in real life, struggles with every one of those things, which I do.",
+      "zh": "好，对于只通过广播认识我的人来说，接下来的话可能会让人吃惊；但凡是在现实中认识我的人，绝对见怪不怪。正如你对某些人的推测那样——一个精心设计并打造了一整档以极具私密性的深度对话、人与人之间真挚连结为核心的广播节目的人，费尽心机做这事儿的唯一原因，就是他在现实生活中完全搞不定这些事情。而我就是这样。"
+    },
+    {
+      "id": 308,
+      "start_sec": 3206,
+      "speaker": "Ira Glass",
+      "en": "I can fake my way through social situations, of course. But people who really know me, like my coworkers do, know how, um, detached and anxious and, um, awkward I can be, which is why they said at the top of the program...",
+      "zh": "在社交场合我当然可以逢场作戏。但真正了解我的人，比如我的同事们，都知道我有时是多么疏离、焦虑和局促，所以他们才会在节目开头那么说……"
+    },
+    {
+      "id": 309,
+      "start_sec": 3221,
+      "speaker": "Ben Calhoun",
+      "en": "Who do you guys think is going to have the highest score?",
+      "zh": "你们觉得谁得分最高？"
+    },
+    {
+      "id": 310,
+      "start_sec": 3223,
+      "speaker": "Nancy Updike",
+      "en": "You.",
+      "zh": "你。"
+    },
+    {
+      "id": 311,
+      "start_sec": 3223,
+      "speaker": "Julie Snyder",
+      "en": "You.",
+      "zh": "你。"
+    },
+    {
+      "id": 312,
+      "start_sec": 3224,
+      "speaker": "Ira Glass",
+      "en": "Really?",
+      "zh": "真的吗？"
+    },
+    {
+      "id": 313,
+      "start_sec": 3225,
+      "speaker": "Julie Snyder",
+      "en": "Yeah.",
+      "zh": "对。"
+    },
+    {
+      "id": 314,
+      "start_sec": 3226,
+      "speaker": "Sarah Koenig",
+      "en": "Yes.",
+      "zh": "没错。"
+    },
+    {
+      "id": 315,
+      "start_sec": 3227,
+      "speaker": "Robyn Semien",
+      "en": "I, it's a toss-up for me.",
+      "zh": "我……我觉得说不准。"
+    },
+    {
+      "id": 316,
+      "start_sec": 3230,
+      "speaker": "Ira Glass",
+      "en": "This is Robyn.",
+      "zh": "这是 Robyn。"
+    },
+    {
+      "id": 317,
+      "start_sec": 3231,
+      "speaker": "Robyn Semien",
+      "en": "As I was answering the questions, I kept thinking Jane is going to have such better answers than I am.",
+      "zh": "答题的时候我一直在想，Jane 的答案肯定比我精彩得多。"
+    },
+    {
+      "id": 318,
+      "start_sec": 3236,
+      "speaker": "Jane Feltes",
+      "en": "That's what I thought, too, because Jane had kind of a more rough-and-tumble...",
+      "zh": "我也这么觉得，因为 Jane 当年的经历要野得多……"
+    },
+    {
+      "id": 319,
+      "start_sec": 3240,
+      "speaker": "Robyn Semien",
+      "en": "Law, um... Yeah, like attendance in school and...",
+      "zh": "触犯法律之类的，嗯……对啊，比如学校出勤率还有……"
+    },
+    {
+      "id": 320,
+      "start_sec": 3244,
+      "speaker": "Julie Snyder",
+      "en": "Oh, I think yeah. I think my money's going on to Jane now. Yeah, yeah.",
+      "zh": "噢，我觉得也是。我现在的赌注全压在 Jane 身上了。是的，没错。"
+    },
+    {
+      "id": 321,
+      "start_sec": 3247,
+      "speaker": "Ira Glass",
+      "en": "This by the way is our show's senior producer, Julie Snyder.",
+      "zh": "顺便说一句，说话的是我们节目的资深制作人 Julie Snyder。"
+    },
+    {
+      "id": 322,
+      "start_sec": 3250,
+      "speaker": "Julie Snyder",
+      "en": "So now I know more about like Jane's run-ins, I don't know so much about Robyn. I don't know, I like Robyn.",
+      "zh": "所以现在我更了解 Jane 的劣迹了，我对 Robyn 知道得不多。我不知道，我挺看好 Robyn 的。"
+    },
+    {
+      "id": 323,
+      "start_sec": 3255,
+      "speaker": "Ira Glass",
+      "en": "Robyn, Robyn, what do you got?",
+      "zh": "Robyn，Robyn，你有什么料？"
+    },
+    {
+      "id": 324,
+      "start_sec": 3257,
+      "speaker": "Julie Snyder",
+      "en": "Now I guess I got it between the two of you.",
+      "zh": "现在我想我的选择就在你们俩之间了。"
+    },
+    {
+      "id": 325,
+      "start_sec": 3258,
+      "speaker": "Ira Glass",
+      "en": "Problems with the law? Let's go to Robyn, Robyn.",
+      "zh": "触犯过法律吗？来听听 Robyn 的吧。"
+    },
+    {
+      "id": 326,
+      "start_sec": 3260,
+      "speaker": "Robyn Semien",
+      "en": "No, I have no problems with the law. I have none. I had like one cheating story, which who didn't?",
+      "zh": "没有，我可没触犯过法律。一次都没有。我倒是有过一次作弊经历，但谁还没作弊过呢？"
+    },
+    {
+      "id": 327,
+      "start_sec": 3266,
+      "speaker": "Julie Snyder",
+      "en": "Cheating story?",
+      "zh": "作弊？"
+    },
+    {
+      "id": 328,
+      "start_sec": 3267,
+      "speaker": "Ira Glass",
+      "en": "Cheating on-- you mean on a test?",
+      "zh": "作弊——你是说考试作弊？"
+    },
+    {
+      "id": 329,
+      "start_sec": 3269,
+      "speaker": "Robyn Semien",
+      "en": "Um, in school, like, stealing a teacher's manual and lying about it. What? You guys didn't do that?",
+      "zh": "嗯，上学的时候，偷过教师用书还撒谎不承认。怎么，你们都没干过这事？"
+    },
+    {
+      "id": 330,
+      "start_sec": 3277,
+      "speaker": "Ira Glass",
+      "en": "Okay. So, let's go around and make our votes.",
+      "zh": "好吧。那我们轮流投个票吧。"
+    },
+    {
+      "id": 331,
+      "start_sec": 3279,
+      "speaker": "Jane Feltes",
+      "en": "Oh, my god, do we have to?",
+      "zh": "天呐，一定要这样吗？"
+    },
+    {
+      "id": 332,
+      "start_sec": 3281,
+      "speaker": "Ira Glass",
+      "en": "That's Jane, who didn't want to be number one.",
+      "zh": "那是 Jane，她一点也不想当第一名。"
+    },
+    {
+      "id": 333,
+      "start_sec": 3284,
+      "speaker": "Jonathan Menjivar",
+      "en": "Um, I'm going to go Robyn.",
+      "zh": "呃，我投 Robyn。"
+    },
+    {
+      "id": 334,
+      "start_sec": 3287,
+      "speaker": "Ira Glass",
+      "en": "Julie?",
+      "zh": "Julie 呢？"
+    },
+    {
+      "id": 335,
+      "start_sec": 3288,
+      "speaker": "Julie Snyder",
+      "en": "Jane.",
+      "zh": "Jane。"
+    },
+    {
+      "id": 336,
+      "start_sec": 3289,
+      "speaker": "Robyn Semien",
+      "en": "I'm going to go with Jane.",
+      "zh": "我投 Jane。"
+    },
+    {
+      "id": 337,
+      "start_sec": 3291,
+      "speaker": "Ira Glass",
+      "en": "I think I think I'm going with Jane.",
+      "zh": "我想我想我也投 Jane。"
+    },
+    {
+      "id": 338,
+      "start_sec": 3294,
+      "speaker": "Jane Feltes",
+      "en": "If I start crying while you guys are doing this, does that mean I'm not a psychopath?",
+      "zh": "要是你们在这儿投票的时候我哭出来了，是不是就证明我不是精神变态了？"
+    },
+    {
+      "id": 339,
+      "start_sec": 3298,
+      "speaker": "Julie Snyder",
+      "en": "Yes.",
+      "zh": "是的。"
+    },
+    {
+      "id": 340,
+      "start_sec": 3300,
+      "speaker": "Ira Glass",
+      "en": "In the end, the final tally was Robyn with 4 votes, Jane with 3, I had 1, and, Nancy, in a surprise move, I have to say, voted for herself.",
+      "zh": "最终的计票结果是：Robyn 拿了4票，Jane 拿了3票，我拿了1票。不得不说，Nancy 出了个奇招，她投给了自己。"
+    },
+    {
+      "id": 341,
+      "start_sec": 3310,
+      "speaker": "Nancy Updike",
+      "en": "I'm in this to win it, I just want to tell you all that. I don't know what game we're playing here, but I'm going to win.",
+      "zh": "我参战就是为了赢，我就想告诉大家这一点。我不知道我们到底在玩什么游戏，但我一定要赢。"
+    },
+    {
+      "id": 342,
+      "start_sec": 3320,
+      "speaker": "Ira Glass",
+      "en": "Then our forensic psychologist, David Bernstein, joined us. He had actually heard us talking about how worried we were about our scores from the other room.",
+      "zh": "随后，司法心理学家 David Bernstein 加入了我们。他其实在隔壁房间就听到了我们在讨论有多担心自己的得分。"
+    },
+    {
+      "id": 343,
+      "start_sec": 3328,
+      "speaker": "Ira Glass",
+      "en": "Okay. So you have there like a stack of actually very official looking papers and your notes with all of our scores. Before we get to the actual scores, are there any patterns that you feel like you noticed in the group?",
+      "zh": "好的。你看上去拿了一摞非常正式的报告和手记，上面有我们所有人的分数。在我们揭晓具体分数之前，你觉得你在我们这群人身上有发现什么共同模式吗？"
+    },
+    {
+      "id": 344,
+      "start_sec": 3340,
+      "speaker": "David Bernstein",
+      "en": "Yeah. See, you guys are way too neurotic to really be psychopaths. Interestingly, half of you almost cried as I was asking some of the questions, by the way.",
+      "zh": "是的。看吧，你们都太神经过敏、太焦虑了，根本不可能真是什么变态狂。顺便说一句，有意思的是，在我问某些问题的时候，你们有一半人差点哭出来。"
+    },
+    {
+      "id": 345,
+      "start_sec": 3352,
+      "speaker": "Ira Glass",
+      "en": "What?",
+      "zh": "什么？"
+    },
+    {
+      "id": 346,
+      "start_sec": 3353,
+      "speaker": "David Bernstein",
+      "en": "That probably disqualified you from being a psychopath right there.",
+      "zh": "光凭这一点，大概就能直接取消你们当精神变态的资格了。"
+    },
+    {
+      "id": 347,
+      "start_sec": 3358,
+      "speaker": "Ira Glass",
+      "en": "David Bernstein explained to us that the way the test is scored, for each of the possible psychopathic traits that you could have, you could get a 0, a 1, or a 2.",
+      "zh": "David Bernstein 向我们解释了这个测试的计分机制：针对每一项可能存在的精神变态特质，受试者都会被评为0分、1分或2分。"
+    },
+    {
+      "id": 348,
+      "start_sec": 3367,
+      "speaker": "David Bernstein",
+      "en": "2 means you really have it. 1 means you have it, it's there, but maybe not to the same magnitude. And 0 means it might have been something that occurred, but it's not nearly enough to reach the level of being scored. It's just it doesn't reach that level.",
+      "zh": "2分代表你确实严重具备这项特质；1分代表你有，它确实存在，但可能没那么强烈；0分则意味着即使偶有发生，也远远够不上计分标准。也就是说根本达不到那个严重程度。"
+    },
+    {
+      "id": 349,
+      "start_sec": 3384,
+      "speaker": "David Bernstein",
+      "en": "And do you guys want to know what your scores were?",
+      "zh": "那么，你们想知道自己的得分了吗？"
+    },
+    {
+      "id": 350,
+      "start_sec": 3388,
+      "speaker": "Ira Glass",
+      "en": "Yeah. Maybe we should start with the lowest scores first and then go to the highest.",
+      "zh": "想。也许我们应该从最低分开始，然后再报最高分。"
+    },
+    {
+      "id": 351,
+      "start_sec": 3391,
+      "speaker": "David Bernstein",
+      "en": "Well, this will be very easy, because you all scored a 0. Every one of you.",
+      "zh": "哎呀，那这事可太简单了，因为你们所有人都得了0分。每个人都是。"
+    },
+    {
+      "id": 352,
+      "start_sec": 3400,
+      "speaker": "Julie Snyder",
+      "en": "Wow. Even Robyn?",
+      "zh": "哇，连 Robyn 也是？"
+    },
+    {
+      "id": 353,
+      "start_sec": 3401,
+      "speaker": "David Bernstein",
+      "en": "Even Robyn.",
+      "zh": "连 Robyn 也是。"
+    },
+    {
+      "id": 354,
+      "start_sec": 3404,
+      "speaker": "David Bernstein",
+      "en": "You know, and this is because none of you really did anything maliciously. You never set out to predate, to hurt anyone. And even those of you who've done things, when I asked, how do you feel about it, most of you thought back on it with regret and remorse.",
+      "zh": "你看，这是因为你们谁也没有真正恶意地做过什么。你们从未主动想要去掠夺、去伤害任何人。甚至那些确实做过错事的人，当我问及感受时，大多数人回想起来也充满了后悔与愧疚。"
+    },
+    {
+      "id": 355,
+      "start_sec": 3420,
+      "speaker": "David Bernstein",
+      "en": "You're empathic is what you all are, which is the opposite of psychopathy.",
+      "zh": "你们其实都很有同理心，而这恰恰与变态心理背道而驰。"
+    },
+    {
+      "id": 356,
+      "start_sec": 3430,
+      "speaker": "Ira Glass",
+      "en": "This is the thing I think we wouldn't have understood as well if we hadn't actually gone through the trouble of taking the test ourselves, is just how categorically different psychopaths are from the rest of us. Dr. Bernstein joked that it's a lifelong commitment.",
+      "zh": "我觉得要不是我们自己费劲亲自做了这套测试，恐怕很难真正理解这一点：那就是变态人格与我们普通人之间，究竟存在着怎样不可逾越的鸿沟。Bernstein 医生还打趣说，那可是一辈子的“执念”。"
+    },
+    {
+      "id": 357,
+      "start_sec": 3443,
+      "speaker": "Ira Glass",
+      "en": "Even the person who we thought would be the most likely to score a few points on the psychopath test, Robyn, at her most antisocial moment, stealing the teachers manual in junior high school, apparently failed to do what any self-respecting, lacking-in-empathy psychopath would do. This next recording is from when Robyn took the test.",
+      "zh": "就连我们觉得最有可能在测试中拿几分的 Robyn，在她最“反社会”的初中时期偷拿教师用书那次，也完全没做到任何一个有骨气、缺乏同理心的心理变态该做的事。接下来这段录音就是 Robyn 测验时的实况。"
+    },
+    {
+      "id": 358,
+      "start_sec": 3461,
+      "speaker": "David Bernstein",
+      "en": "So here's a question. Now, you said you stole you guys stole the manual, and you gave out the answers.",
+      "zh": "那我问你一个问题。你刚才说你们偷了教师用书，然后把答案分发了出去。"
+    },
+    {
+      "id": 359,
+      "start_sec": 3468,
+      "speaker": "Robyn Semien",
+      "en": "Yeah. Yeah.",
+      "zh": "对。是的。"
+    },
+    {
+      "id": 360,
+      "start_sec": 3468,
+      "speaker": "David Bernstein",
+      "en": "Did you sell the answers?",
+      "zh": "那你卖答案收钱了吗？"
+    },
+    {
+      "id": 361,
+      "start_sec": 3469,
+      "speaker": "Robyn Semien",
+      "en": "No.",
+      "zh": "没有。"
+    },
+    {
+      "id": 362,
+      "start_sec": 3470,
+      "speaker": "David Bernstein",
+      "en": "Why'd you give them away?",
+      "zh": "那你干嘛白送人？"
+    },
+    {
+      "id": 363,
+      "start_sec": 3472,
+      "speaker": "Robyn Semien",
+      "en": "Just because we wanted everyone to do well.",
+      "zh": "纯粹就是希望大家都能考出好成绩嘛。"
+    },
+    {
+      "id": 364,
+      "start_sec": 3476,
+      "speaker": "David Bernstein",
+      "en": "Mhm.",
+      "zh": "嗯哼。"
+    },
+    {
+      "id": 365,
+      "start_sec": 3478,
+      "speaker": "Ira Glass",
+      "en": "That is the \"mhm\" of \"I am bored.\" That's the \"mhm\" that you say when you're thinking, \"You people are not psychopaths.\"",
+      "zh": "这一声“嗯哼”，分明写着“真无聊”。那是当你心里嘀咕“你们这帮人根本不配叫变态”时，才会发出的鼻音。"
+    },
+    {
+      "id": 366,
+      "start_sec": 3520,
+      "speaker": "Ira Glass",
+      "en": "Well, our program was produced today by Jane Feltes with the zero-scoring staff of Alex Blumberg, Ben Calhoun, Sarah Koenig, Jonathan Menjivar, Lisa Pollak, Robyn Semien, Alissa Shipp, and Nancy Updike. Our senior producer is Julie Snyder.",
+      "zh": "今天的节目由 Jane Feltes 制作，全员得零分的幕后团队包括 Alex Blumberg、Ben Calhoun、Sarah Koenig、Jonathan Menjivar、Lisa Pollak、Robyn Semien、Alissa Shipp 和 Nancy Updike。我们的资深制作人是 Julie Snyder。"
+    },
+    {
+      "id": 367,
+      "start_sec": 3530,
+      "speaker": "Ira Glass",
+      "en": "Production help from Eric Mennel. Seth Lind is our production manager. Emily Condon's our office manager. Jen Berman's filling in as our West Coast producer. Thanks today to Dr. David Bernstein of Forensic Consultants, to Anne Gudencauf and Sean Edens, and to NPR News.",
+      "zh": "制作协助来自 Eric Mennel。Seth Lind 担任制作经理。Emily Condon 是办公室主管。Jen Berman 暂代西海岸制作人。特别鸣谢 Forensic Consultants 的 David Bernstein 医生、Anne Gudencauf、Sean Edens 以及 NPR News。"
+    },
+    {
+      "id": 368,
+      "start_sec": 3544,
+      "speaker": "Ira Glass",
+      "en": "Our website, which has all kinds of new features right now, thisamericanlife.org. This American Life is distributed by Public Radio International. WBEZ management oversight for our program by our boss, Mr. Torey Malatia, who wants to move the show, can you believe it, to Louisiana for just one reason.",
+      "zh": "我们的官方网站最近上线了各种新功能，欢迎访问 thisamericanlife.org。《This American Life》由 Public Radio International 发行。来自 WBEZ 的管理监督由我们的大老板 Torey Malatia 负责——你能相信吗？他居然想把节目搬到路易斯安那州去，原因只有一个："
+    },
+    {
+      "id": 369,
+      "start_sec": 3561,
+      "speaker": "Jon Ronson",
+      "en": "Alligators. Alligators. More alligators.",
+      "zh": "鳄鱼。全是短吻鳄。成群结队的短吻鳄。"
+    },
+    {
+      "id": 370,
+      "start_sec": 3566,
+      "speaker": "Ira Glass",
+      "en": "I'm Ira Glass. Back next week with more stories of This American Life.",
+      "zh": "我是 Ira Glass。下周同一时间，带给你更多《This American Life》的故事。"
+    }
+  ]
+}

@@ -2553,6 +2553,13 @@
   ],
   "references": [
     {
+      "title": "How Asia Works: Success and Failure in the World's Most Dynamic Region (亚洲大趋势)",
+      "creator": "Joe Studwell",
+      "category": "book",
+      "note_zh": "Joe Studwell 2013 年出版的经典代表作，提炼出土地改革、出口导向型制造业和受控金融系统三大发展支柱。",
+      "start_sec": 95
+    },
+    {
       "title": "How Africa Works: Success and Failure on the World's Last Developmental Frontier",
       "creator": "Joe Studwell",
       "category": "book",
@@ -2560,11 +2567,11 @@
       "start_sec": 140
     },
     {
-      "title": "How Asia Works: Success and Failure in the World's Most Dynamic Region (亚洲大趋势)",
-      "creator": "Joe Studwell",
+      "title": "Competing for Soft Power: China’s Image-Making in Africa",
+      "creator": "Maria Repnikova",
       "category": "book",
-      "note_zh": "Joe Studwell 2013 年出版的经典代表作，提炼出土地改革、出口导向型制造业和受控金融系统三大发展支柱。",
-      "start_sec": 95
+      "note_zh": "探讨中国在非洲软实力构建与媒介形象塑造的学术新作，Kaiser 预告将邀请作者专门录制下一期节目。",
+      "start_sec": 435
     },
     {
       "title": "Agriculture on the Road to Industrialization",
@@ -2586,13 +2593,6 @@
       "category": "book",
       "note_zh": "Joe Studwell 在节目尾声推荐的一部涉及广泛跨国漫游题材的 1980 年宏大历史长篇小说。",
       "start_sec": 5684
-    },
-    {
-      "title": "Competing for Soft Power: China’s Image-Making in Africa",
-      "creator": "Maria Repnikova",
-      "category": "book",
-      "note_zh": "探讨中国在非洲软实力构建与媒介形象塑造的学术新作，Kaiser 预告将邀请作者专门录制下一期节目。",
-      "start_sec": 435
     }
   ]
 }
