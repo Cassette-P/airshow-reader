@@ -5,9 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
   <title>The Air Show · 播客双语精读</title>
   <meta name="description" content="深度播客中英双语研读与音频同步研习工具 - 商业、地缘政经与行业纵深解析。" />
-  <meta name="theme-color" content="#0a2540" />
+  <meta name="theme-color" content="#FAF8F4" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
   <meta name="apple-mobile-web-app-title" content="AirShow Reader" />
   <link rel="manifest" href="./manifest.json" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -217,7 +217,7 @@
       display: flex;
       flex-direction: column;
       padding-top: 8px;
-      padding-bottom: calc(var(--player-h) + 56px + env(safe-area-inset-bottom));
+      padding-bottom: calc(var(--player-h) + 56px + env(safe-area-inset-bottom, 0px));
       transition: background-color 0.2s ease, color 0.2s ease;
     }
 
@@ -265,6 +265,7 @@
       z-index: 80;
       height: auto;
       padding: 0 12px;
+      padding-top: calc(0px + env(safe-area-inset-top, 0px));
       background: transparent;
       border: none;
       pointer-events: none;
@@ -844,6 +845,7 @@
 
     /* Article Masthead */
     .article-header {
+      scroll-margin-top: calc(var(--header-h) + 20px + env(safe-area-inset-top, 0px));
       margin-bottom: 32px;
       padding-bottom: 20px;
     }
@@ -903,6 +905,7 @@
 
     /* Section Styling (Requirement 四: Dual-rule Magazine Divider) */
     .section-wrap {
+      scroll-margin-top: calc(var(--header-h) + 20px + env(safe-area-inset-top, 0px));
       margin-bottom: 40px;
     }
     .section-header {
@@ -1008,6 +1011,7 @@
     }
 
     .highlight-card {
+      scroll-margin-top: calc(var(--header-h) + 16px + env(safe-area-inset-top, 0px));
       background: var(--bg-surface-elevated);
       border: 1px solid var(--border-color);
       border-radius: var(--radius-md);
@@ -1113,6 +1117,7 @@
     }
 
     .transcript-item {
+      scroll-margin-top: calc(var(--header-h) + 16px + env(safe-area-inset-top, 0px));
       background: transparent;
       border: none;
       border-bottom: 1px solid var(--border-subtle);
@@ -1237,7 +1242,7 @@
       position: fixed;
       left: 12px;
       right: 12px;
-      bottom: calc(14px + env(safe-area-inset-bottom));
+      bottom: 14px;
       height: auto;
       min-height: 0;
       z-index: 90;
@@ -1245,6 +1250,7 @@
       border: none;
       box-shadow: none;
       padding: 0;
+      padding-bottom: calc(0px + env(safe-area-inset-bottom, 0px));
       pointer-events: none;
     }
 
@@ -1887,7 +1893,7 @@
       .search-box-wrap.mobile-expanded {
         display: flex !important;
         position: fixed;
-        top: calc(var(--header-h) + 14px);
+        top: calc(var(--header-h) + 14px + env(safe-area-inset-top, 0px));
         left: 12px;
         right: 12px;
         width: auto;
@@ -1949,6 +1955,7 @@
         top: 8px;
         height: auto;
         padding: 0 8px;
+        padding-top: calc(0px + env(safe-area-inset-top, 0px));
         pointer-events: none;
       }
       .header-inner {
@@ -1959,7 +1966,7 @@
         flex-wrap: nowrap;
       }
       .search-box-wrap.mobile-expanded {
-        top: calc(var(--header-h) + 14px);
+        top: calc(var(--header-h) + 14px + env(safe-area-inset-top, 0px));
         left: 8px;
         right: 8px;
       }
@@ -2059,7 +2066,8 @@
       .audio-player-bar {
         left: 10px;
         right: 10px;
-        bottom: calc(8px + env(safe-area-inset-bottom));
+        bottom: 8px;
+        padding-bottom: calc(0px + env(safe-area-inset-bottom, 0px));
       }
       .resume-banner {
         max-width: 100%;
@@ -2113,10 +2121,10 @@
         top: auto;
         left: 8px;
         right: 8px;
-        bottom: calc(8px + env(safe-area-inset-bottom));
+        bottom: calc(8px + env(safe-area-inset-bottom, 0px));
         width: auto;
         max-width: none;
-        height: min(82dvh, calc(100dvh - env(safe-area-inset-top) - 64px));
+        height: min(82dvh, calc(100dvh - env(safe-area-inset-top, 0px) - 64px));
         border-radius: 26px;
         transform: translateY(calc(100% + 28px));
         transition: transform 0.28s cubic-bezier(0.22, 1, 0.36, 1);
@@ -2157,7 +2165,7 @@
         border: 1px solid var(--chrome-pill-border);
       }
       .archive-body {
-        padding: 4px 10px calc(68px + env(safe-area-inset-bottom));
+        padding: 4px 10px calc(68px + env(safe-area-inset-bottom, 0px));
       }
     }
 
@@ -2855,11 +2863,11 @@
             }
           },
           seekbackward: (details) => {
-            const skip = (details && details.seekOffset) || 15;
+            const skip = (details && details.seekOffset) || 10;
             seekAndPlay(Math.max(0, audio.currentTime - skip));
           },
           seekforward: (details) => {
-            const skip = (details && details.seekOffset) || 15;
+            const skip = (details && details.seekOffset) || 10;
             const maxSec = audio.duration || (currentActiveEpisodeMeta ? currentActiveEpisodeMeta.duration_sec : Infinity);
             seekAndPlay(Math.min(maxSec, audio.currentTime + skip));
           },
@@ -3057,16 +3065,25 @@
       // Theme & Preference Management
       // ======================================================================
 
+      function updateThemeColorMeta(theme) {
+        const themeColor = theme === 'dark' ? '#151412' : '#FAF8F4';
+        const themeColorMeta = document.querySelector('meta[name="theme-color"]');
+        if (themeColorMeta) {
+          themeColorMeta.setAttribute('content', themeColor);
+        }
+      }
+
       function initTheme() {
         const savedTheme = localStorage.getItem('airshow_theme');
         const systemPrefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
         const theme = savedTheme || (systemPrefersDark ? 'dark' : 'light');
-        applyTheme(theme);
+        setTheme(theme);
       }
 
-      function applyTheme(theme) {
+      function setTheme(theme) {
         document.documentElement.setAttribute('data-theme', theme);
         localStorage.setItem('airshow_theme', theme);
+        updateThemeColorMeta(theme);
         if (theme === 'dark') {
           iconSun.style.display = 'block';
           iconMoon.style.display = 'none';
@@ -3079,10 +3096,14 @@
         }
       }
 
+      function applyTheme(theme) {
+        setTheme(theme);
+      }
+
       themeToggleBtn.addEventListener('click', () => {
         const currentTheme = document.documentElement.getAttribute('data-theme') || 'light';
         const nextTheme = currentTheme === 'dark' ? 'light' : 'dark';
-        applyTheme(nextTheme);
+        setTheme(nextTheme);
       });
 
       // ======================================================================
