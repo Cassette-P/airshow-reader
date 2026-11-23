@@ -93,6 +93,10 @@ jobs:
             python scripts/process.py --show "$SHOW" --limit "$LIMIT" --max-age-days "$MAX_AGE" $EXTRA_ARGS
           fi
 
+      - name: Validate data contract
+        run: |
+          python scripts/validate_data.py
+
       - name: Commit and push changes if updated
         run: |
           if [ -n "$(git status --porcelain docs/data)" ]; then
