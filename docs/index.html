@@ -5,11 +5,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
   <title>The Air Show · 播客双语精读</title>
   <meta name="description" content="深度播客中英双语研读与音频同步研习工具 - 商业、地缘政经与行业纵深解析。" />
+  <meta name="theme-color" content="#0a2540" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="AirShow Reader" />
+  <link rel="manifest" href="./manifest.json" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,500..600;1,6..72,400..500&family=Noto+Sans+SC:wght@400..700&display=swap" rel="stylesheet" />
   <link id="dynamic-favicon" rel="icon" type="image/svg+xml" href="./favicon.svg" />
-  <link rel="apple-touch-icon" sizes="512x512" href="./artwork-airshow-512.png" />
+  <link rel="apple-touch-icon" href="./icons/icon-192.png" />
+  <link rel="apple-touch-icon" sizes="512x512" href="./icons/icon-512.png" />
 
   <style>
     /* ==========================================================================
@@ -1344,11 +1350,210 @@
       color: var(--text-secondary);
     }
 
+    /* Resume Banner (Breakpoint Persistence) */
+    .resume-banner {
+      position: relative;
+      max-width: var(--content-max-w);
+      margin: 0 auto 8px auto;
+      padding: 5px 12px;
+      border-radius: 999px;
+      background: var(--bg-surface-header);
+      backdrop-filter: var(--glass-filter);
+      -webkit-backdrop-filter: var(--glass-filter);
+      border: 1px solid var(--glass-border);
+      box-shadow: var(--glass-shadow);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      font-size: 0.72rem;
+      color: var(--text-secondary);
+      pointer-events: auto;
+      z-index: 91;
+    }
+    .resume-msg {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+    .resume-msg strong {
+      color: var(--text-primary);
+      font-family: var(--font-mono);
+      font-weight: 600;
+    }
+    .resume-actions {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      flex-shrink: 0;
+    }
+    .btn-resume-play {
+      color: var(--accent-primary);
+      background: var(--accent-tint);
+      border-radius: var(--radius-xs);
+      padding: 2px 8px;
+      font-size: 0.7rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: opacity 0.15s ease, background-color 0.15s ease;
+    }
+    .btn-resume-play:hover {
+      opacity: 0.85;
+    }
+    .btn-resume-restart {
+      color: var(--text-muted);
+      font-size: 0.6875rem;
+      cursor: pointer;
+      transition: color 0.15s ease;
+    }
+    .btn-resume-restart:hover {
+      color: var(--text-primary);
+      text-decoration: underline;
+    }
+    .resume-sep {
+      color: var(--border-color);
+      font-size: 0.65rem;
+    }
+    .btn-resume-dismiss {
+      color: var(--text-tertiary);
+      font-size: 0.95rem;
+      line-height: 1;
+      padding: 0 4px;
+      cursor: pointer;
+    }
+    .btn-resume-dismiss:hover {
+      color: var(--text-primary);
+    }
+
     .scrub-track-wrap {
       flex: 1 1 0;
       min-width: 0;
       display: flex;
       align-items: center;
+      position: relative;
+    }
+    .chapter-markers-container {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      pointer-events: none;
+      z-index: 2;
+    }
+    .chapter-marker {
+      position: absolute;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      width: 4px;
+      height: 7px;
+      border-radius: 2px;
+      background: var(--accent-primary);
+      opacity: 0.65;
+      cursor: pointer;
+      pointer-events: auto;
+      transition: transform 0.15s ease, opacity 0.15s ease, height 0.15s ease;
+    }
+    .chapter-marker:hover {
+      opacity: 1;
+      height: 11px;
+      transform: translate(-50%, -50%) scale(1.3);
+      box-shadow: 0 0 4px var(--accent-primary);
+    }
+    .marker-tooltip {
+      position: absolute;
+      bottom: calc(100% + 8px);
+      transform: translateX(-50%);
+      background: var(--bg-surface-elevated);
+      color: var(--text-primary);
+      font-family: var(--font-sans);
+      font-size: 0.6875rem;
+      font-weight: 500;
+      padding: 3px 8px;
+      border-radius: var(--radius-sm);
+      border: 1px solid var(--border-color);
+      box-shadow: var(--shadow-md);
+      white-space: nowrap;
+      pointer-events: none;
+      z-index: 99;
+      opacity: 0;
+      transition: opacity 0.15s ease;
+    }
+    .marker-tooltip::after {
+      content: "";
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      transform: translateX(-50%);
+      border-width: 4px;
+      border-style: solid;
+      border-color: var(--border-color) transparent transparent transparent;
+    }
+
+    /* Realtime Chapter Display Badge */
+    .player-chapter-badge {
+      flex: 0 1 auto;
+      max-width: 170px;
+      display: inline-flex;
+      align-items: center;
+      gap: 3px;
+      font-size: 0.72rem;
+      color: var(--text-secondary);
+      background: var(--chrome-pill-bg);
+      border: 1px solid var(--chrome-pill-border);
+      border-radius: 999px;
+      padding: 2px 8px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      cursor: pointer;
+      user-select: none;
+      transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease;
+    }
+    .player-chapter-badge:hover {
+      color: var(--accent-primary);
+      background: var(--chrome-pill-hover);
+      border-color: var(--border-hover);
+    }
+    .player-chapter-prefix {
+      color: var(--text-muted);
+      font-weight: 400;
+      flex-shrink: 0;
+    }
+    .player-chapter-title {
+      font-weight: 500;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    /* Archive Progress Tag & Flash effect */
+    .archive-progress-tag {
+      display: inline-flex;
+      align-items: center;
+      font-family: var(--font-mono);
+      font-size: 0.625rem;
+      font-weight: 600;
+      padding: 1px 6px;
+      border-radius: var(--radius-xs);
+      line-height: 1.3;
+    }
+    .archive-progress-tag.completed {
+      color: #10b981;
+      background: rgba(16, 185, 129, 0.08);
+      border: 1px solid rgba(16, 185, 129, 0.22);
+    }
+    .archive-progress-tag.in-progress {
+      color: var(--accent-primary);
+      background: var(--accent-tint);
+      border: 1px solid var(--chrome-pill-border);
+    }
+    .highlight-card.flash-focus {
+      outline: 2px solid var(--accent-primary);
+      outline-offset: 2px;
     }
     .scrub-slider {
       width: 100%;
@@ -1556,6 +1761,12 @@
     @media (min-width: 1024px) {
       .player-container {
         max-width: 900px;
+      }
+      .resume-banner {
+        max-width: 900px;
+      }
+      .player-chapter-badge {
+        max-width: 220px;
       }
     }
 
@@ -1850,11 +2061,20 @@
         right: 10px;
         bottom: calc(8px + env(safe-area-inset-bottom));
       }
+      .resume-banner {
+        max-width: 100%;
+        font-size: 0.6875rem;
+        padding: 4px 10px;
+        margin-bottom: 6px;
+      }
       .player-container {
         max-width: 100%;
         padding: 5px 10px;
         gap: 6px;
         border-radius: 999px;
+      }
+      .player-chapter-badge {
+        display: none !important;
       }
       .btn-play-pause {
         width: 28px;
@@ -2262,6 +2482,16 @@
        Floating Sticky Audio Player
        ========================================================================== -->
   <footer class="audio-player-bar" id="audio-player-bar" style="display: none;">
+    <div class="resume-banner" id="resume-banner" style="display: none;">
+      <span class="resume-msg">上次收听到 <strong class="tnum" id="resume-time">00:00</strong></span>
+      <div class="resume-actions">
+        <button type="button" class="btn-resume-play" id="btn-resume-play">继续收听</button>
+        <span class="resume-sep">·</span>
+        <button type="button" class="btn-resume-restart" id="btn-resume-restart">从头播放</button>
+        <button type="button" class="btn-resume-dismiss" id="btn-resume-close" aria-label="关闭提示">×</button>
+      </div>
+    </div>
+
     <div class="player-container">
       <div class="player-main-btns">
         <button type="button" class="ctrl-btn btn-step" id="btn-rewind" title="后退 15 秒" aria-label="后退 15 秒">
@@ -2291,8 +2521,14 @@
         <span class="player-time time-current tnum" id="time-current">00:00</span>
         <div class="scrub-track-wrap">
           <input type="range" id="seek-slider" class="scrub-slider" min="0" max="100" value="0" step="0.1" aria-label="音频播放进度" />
+          <div class="chapter-markers-container" id="chapter-markers"></div>
+          <div class="marker-tooltip" id="marker-tooltip" style="display: none;"></div>
         </div>
         <span class="player-time tnum" id="time-total">00:00</span>
+      </div>
+
+      <div class="player-chapter-badge" id="player-chapter-badge" style="display: none;" role="button" tabindex="0" title="点击滚动到对应重点片段">
+        <span class="player-chapter-prefix">当前章节：</span><span class="player-chapter-title" id="player-chapter-title">-</span>
       </div>
 
       <div class="player-info">
@@ -2343,27 +2579,22 @@
       const PLAYBACK_RATES = [1.0, 1.25, 1.5, 2.0];
       let currentRateIndex = 0;
 
-      // Media Session Artwork Mapping & Updaters
-      const SHOW_ARTWORK_MAP = {
-        'airshow': './artwork-airshow-512.png',
-        'sinica': './artwork-sinica-512.png'
-      };
-
       function updateMediaSession(show, epMeta) {
         if (!('mediaSession' in navigator) || !show || !epMeta) return;
         try {
           currentActiveShow = show;
           currentActiveEpisodeMeta = epMeta;
 
-          const relPath = SHOW_ARTWORK_MAP[show.id] || './artwork-airshow-512.png';
-          const absArtworkUrl = new URL(relPath, window.location.href).href;
+          const icon512Url = new URL('./icons/icon-512.png', window.location.href).href;
+          const icon192Url = new URL('./icons/icon-192.png', window.location.href).href;
 
           navigator.mediaSession.metadata = new MediaMetadata({
             title: epMeta.title || '',
             artist: show.title || 'Podcast Bilingual Reader',
-            album: (currentShowsManifest && currentShowsManifest.site_title) || '播客双语精读',
+            album: show.subtitle || (currentShowsManifest && currentShowsManifest.site_title) || '播客双语精读',
             artwork: [
-              { src: absArtworkUrl, sizes: '512x512', type: 'image/png' }
+              { src: icon192Url, sizes: '192x192', type: 'image/png' },
+              { src: icon512Url, sizes: '512x512', type: 'image/png' }
             ]
           });
         } catch (err) {
@@ -2374,11 +2605,19 @@
       function updateMediaPositionState() {
         if (!('mediaSession' in navigator) || !navigator.mediaSession.setPositionState) return;
         try {
-          if (isFinite(audio.duration) && audio.duration > 0) {
+          const duration = audio.duration;
+          const position = audio.currentTime;
+          if (
+            Number.isFinite(duration) &&
+            duration > 0 &&
+            Number.isFinite(position) &&
+            position >= 0 &&
+            position <= duration
+          ) {
             navigator.mediaSession.setPositionState({
-              duration: audio.duration,
+              duration: duration,
               playbackRate: audio.playbackRate || 1,
-              position: Math.min(Math.max(0, audio.currentTime), audio.duration)
+              position: position
             });
           }
         } catch (e) {
@@ -2465,8 +2704,21 @@
       const iconSun = themeToggleBtn.querySelector('.icon-sun');
       const iconMoon = themeToggleBtn.querySelector('.icon-moon');
 
+      // M7 Chapter & Resume elements
+      const chapterMarkers = document.getElementById('chapter-markers');
+      const markerTooltip = document.getElementById('marker-tooltip');
+      const playerChapterBadge = document.getElementById('player-chapter-badge');
+      const playerChapterTitle = document.getElementById('player-chapter-title');
+      const resumeBanner = document.getElementById('resume-banner');
+      const resumeTimeEl = document.getElementById('resume-time');
+      const btnResumePlay = document.getElementById('btn-resume-play');
+      const btnResumeRestart = document.getElementById('btn-resume-restart');
+      const btnResumeClose = document.getElementById('btn-resume-close');
+
       let highlightElements = [];
       let transcriptElements = [];
+      let userInteractedSeek = false;
+      let lastProgressWriteTime = 0;
 
       // ======================================================================
       // Utility Functions
@@ -2555,6 +2807,8 @@
 
       function seekAndPlay(targetSec) {
         targetSec = Math.max(0, Number(targetSec) || 0);
+        userInteractedSeek = true;
+        if (resumeBanner) resumeBanner.style.display = 'none';
         console.log(`[AIRSHOW][UI] Seeking to ${targetSec}s (readyState: ${audio.readyState})`);
 
         const executeSeekAndPlay = () => {
@@ -2623,6 +2877,180 @@
             console.warn(`[AIRSHOW][MediaSession] Failed to register handler for ${action}:`, e);
           }
         }
+      }
+
+      // ======================================================================
+      // M7: Chapter Markers & Breakpoint Persistence (airshow_reader_progress_v1)
+      // ======================================================================
+
+      const PROGRESS_STORAGE_KEY = 'airshow_reader_progress_v1';
+
+      function getStoredProgressMap() {
+        try {
+          const raw = localStorage.getItem(PROGRESS_STORAGE_KEY);
+          return raw ? JSON.parse(raw) : {};
+        } catch (e) {
+          console.warn('[AIRSHOW][Progress] Failed to read localStorage:', e);
+          return {};
+        }
+      }
+
+      function getEpisodeProgress(showId, guid) {
+        if (!showId || !guid) return null;
+        const map = getStoredProgressMap();
+        return map[`${showId}::${guid}`] || null;
+      }
+
+      function saveEpisodeProgress(showId, guid, position, duration, forceCompleted = false) {
+        if (!showId || !guid || !Number.isFinite(position) || position < 0) return;
+        try {
+          const map = getStoredProgressMap();
+          const key = `${showId}::${guid}`;
+          const prev = map[key] || {};
+          const dur = (Number.isFinite(duration) && duration > 0) ? duration : (prev.duration || 0);
+
+          let isDone = forceCompleted || prev.completed || false;
+          if (!isDone && dur > 0) {
+            if ((position / dur) >= 0.95 || (dur > 60 && (dur - position) < 30)) {
+              isDone = true;
+            }
+          }
+
+          map[key] = {
+            position: Math.round(position * 10) / 10,
+            duration: Math.round(dur * 10) / 10,
+            completed: isDone,
+            updatedAt: Date.now()
+          };
+          localStorage.setItem(PROGRESS_STORAGE_KEY, JSON.stringify(map));
+          updateEpisodeProgressIndicators(showId, guid);
+        } catch (e) {
+          console.warn('[AIRSHOW][Progress] Failed to save progress:', e);
+        }
+      }
+
+      function throttleSaveProgress(force = false) {
+        if (!currentShow || !currentActiveEpisodeMeta) return;
+        const now = Date.now();
+        if (!force && (now - lastProgressWriteTime < 3000)) {
+          return;
+        }
+        lastProgressWriteTime = now;
+        const pos = audio.currentTime;
+        const dur = (Number.isFinite(audio.duration) && audio.duration > 0) ? audio.duration : (currentActiveEpisodeMeta.duration_sec || 0);
+        saveEpisodeProgress(currentShow.id, currentActiveEpisodeMeta.guid, pos, dur);
+      }
+
+      function formatOptionText(ep, record) {
+        let tag = '';
+        if (record) {
+          if (record.completed) {
+            tag = ' [✓ 已听完]';
+          } else if (record.position >= 5) {
+            const dur = record.duration || ep.duration_sec || 0;
+            if (dur > 0) {
+              const pct = Math.min(99, Math.round((record.position / dur) * 100));
+              tag = ` [▶ ${pct}%]`;
+            }
+          }
+        }
+        return `${formatDateZh(ep.pub_date)} | ${ep.title}${tag}`;
+      }
+
+      function updateEpisodeProgressIndicators(showId, guid) {
+        if (!showId || !guid) return;
+        const record = getEpisodeProgress(showId, guid);
+
+        // 1. Fallback select option sync
+        if (episodeSelect) {
+          const options = episodeSelect.querySelectorAll('option');
+          for (const opt of options) {
+            if (opt.value === guid) {
+              const ep = currentEpisodesList.find(e => e.guid === guid);
+              if (ep) {
+                opt.textContent = formatOptionText(ep, record);
+              }
+              break;
+            }
+          }
+        }
+
+        // 2. Archive Drawer card sync
+        if (archiveList) {
+          const card = archiveList.querySelector(`.archive-item[data-guid="${CSS.escape(guid)}"]`);
+          if (card) {
+            let progressBadge = card.querySelector('.archive-progress-tag');
+            if (!progressBadge) {
+              progressBadge = document.createElement('span');
+              progressBadge.className = 'archive-progress-tag';
+              const topRow = card.querySelector('.archive-item-top');
+              if (topRow) topRow.appendChild(progressBadge);
+            }
+            if (record && record.completed) {
+              progressBadge.className = 'archive-progress-tag completed';
+              progressBadge.textContent = '✓ 已听完';
+              progressBadge.style.display = 'inline-flex';
+            } else if (record && record.position >= 5) {
+              const ep = currentEpisodesList.find(e => e.guid === guid);
+              const dur = record.duration || (ep && ep.duration_sec) || 0;
+              const pct = dur > 0 ? Math.min(99, Math.round((record.position / dur) * 100)) : 0;
+              progressBadge.className = 'archive-progress-tag in-progress';
+              progressBadge.textContent = `▶ ${pct}%`;
+              progressBadge.style.display = 'inline-flex';
+            } else {
+              progressBadge.style.display = 'none';
+            }
+          }
+        }
+      }
+
+      function renderChapterMarkers(highlights) {
+        if (!chapterMarkers) return;
+        chapterMarkers.innerHTML = '';
+        if (!highlights || highlights.length === 0) return;
+
+        const duration = (currentEpisode && currentEpisode.duration_sec) || (currentActiveEpisodeMeta && currentActiveEpisodeMeta.duration_sec) || (audio && audio.duration) || 0;
+        if (!duration || duration <= 0) return;
+
+        highlights.forEach((hl) => {
+          if (hl.start_sec == null || hl.start_sec < 0) return;
+          const pct = Math.min(100, Math.max(0, (hl.start_sec / duration) * 100));
+          const marker = document.createElement('div');
+          marker.className = 'chapter-marker';
+          marker.style.left = `${pct}%`;
+          marker.dataset.startSec = hl.start_sec;
+
+          marker.addEventListener('mouseenter', () => {
+            showMarkerTooltip(pct, hl);
+          });
+          marker.addEventListener('mouseleave', () => {
+            hideMarkerTooltip();
+          });
+          marker.addEventListener('click', (e) => {
+            e.stopPropagation();
+            userInteractedSeek = true;
+            if (resumeBanner) resumeBanner.style.display = 'none';
+            seekAndPlay(hl.start_sec);
+          });
+
+          chapterMarkers.appendChild(marker);
+        });
+      }
+
+      function showMarkerTooltip(pct, hl) {
+        if (!markerTooltip) return;
+        markerTooltip.textContent = `${formatTime(hl.start_sec)} · ${hl.title_zh || ''}`;
+        markerTooltip.style.left = `${pct}%`;
+        markerTooltip.style.display = 'block';
+        requestAnimationFrame(() => {
+          if (markerTooltip) markerTooltip.style.opacity = '1';
+        });
+      }
+
+      function hideMarkerTooltip() {
+        if (!markerTooltip) return;
+        markerTooltip.style.opacity = '0';
+        markerTooltip.style.display = 'none';
       }
 
       // ======================================================================
@@ -3102,6 +3530,7 @@
         updatePodcastTabsActive(showId);
 
         // Pause player and reset playback state
+        throttleSaveProgress(true);
         audio.pause();
         audio.removeAttribute('src');
         audio.load();
@@ -3113,6 +3542,12 @@
         playerEpTitle.textContent = show.title;
         playerSpeakerName.textContent = '未在播放';
         updatePlayPauseIcons(false);
+
+        // Clear chapter and resume indicators
+        if (chapterMarkers) chapterMarkers.innerHTML = '';
+        if (playerChapterBadge) playerChapterBadge.style.display = 'none';
+        if (playerChapterTitle) playerChapterTitle.textContent = '-';
+        if (resumeBanner) resumeBanner.style.display = 'none';
 
         // Reset search filter
         searchInput.value = '';
@@ -3226,10 +3661,12 @@
         episodeSelect.innerHTML = '';
 
         episodes.forEach((ep, idx) => {
+          const record = getEpisodeProgress(show.id, ep.guid);
+
           // Fallback select option
           const opt = document.createElement('option');
           opt.value = ep.guid;
-          opt.textContent = `${formatDateZh(ep.pub_date)} | ${ep.title}`;
+          opt.textContent = formatOptionText(ep, record);
           episodeSelect.appendChild(opt);
 
           // Archive Drawer Item
@@ -3254,6 +3691,20 @@
           topRow.appendChild(issueBadge);
           topRow.appendChild(metaSpan);
 
+          if (record && record.completed) {
+            const progressBadge = document.createElement('span');
+            progressBadge.className = 'archive-progress-tag completed';
+            progressBadge.textContent = '✓ 已听完';
+            topRow.appendChild(progressBadge);
+          } else if (record && record.position >= 5) {
+            const dur = record.duration || ep.duration_sec || 0;
+            const pct = dur > 0 ? Math.min(99, Math.round((record.position / dur) * 100)) : 0;
+            const progressBadge = document.createElement('span');
+            progressBadge.className = 'archive-progress-tag in-progress';
+            progressBadge.textContent = `▶ ${pct}%`;
+            topRow.appendChild(progressBadge);
+          }
+
           const titleEl = document.createElement('h4');
           titleEl.className = 'archive-item-title';
           titleEl.textContent = ep.title;
@@ -3277,6 +3728,7 @@
       }
 
       function selectEpisode(show, epMeta) {
+        throttleSaveProgress(true);
         currentLoadingGuid = epMeta.guid;
         currentRequestSeq++;
         const thisSeq = currentRequestSeq;
@@ -3309,14 +3761,51 @@
         updateMediaSession(show, epMeta);
         lastActiveTranscriptIndex = -1;
         lastActiveHighlightIndex = -1;
-        timeCurrent.textContent = '00:00';
         timeTotal.textContent = formatTime(epMeta.duration_sec || 0);
-        seekSlider.value = 0;
         seekSlider.max = epMeta.duration_sec || 100;
         playerEpTitle.textContent = epMeta.title || '';
         playerEpTitle.title = epMeta.title || '';
         playerSpeakerName.textContent = '未在播放';
         updatePlayPauseIcons(false);
+
+        // Clear chapter indicators
+        if (chapterMarkers) chapterMarkers.innerHTML = '';
+        if (playerChapterBadge) playerChapterBadge.style.display = 'none';
+        if (playerChapterTitle) playerChapterTitle.textContent = '-';
+        if (resumeBanner) resumeBanner.style.display = 'none';
+
+        // Breakpoint resume restore
+        userInteractedSeek = false;
+        const record = getEpisodeProgress(show.id, epMeta.guid);
+        if (record && !record.completed && record.position >= 5) {
+          const resumePos = record.position;
+          const restorePos = () => {
+            if (userInteractedSeek) return;
+            try {
+              audio.currentTime = resumePos;
+              seekSlider.value = resumePos;
+              timeCurrent.textContent = formatTime(resumePos);
+            } catch (err) {
+              console.warn('[AIRSHOW][Progress] Error setting resume position:', err);
+            }
+            if (resumeBanner && !userInteractedSeek) {
+              resumeTimeEl.textContent = formatTime(resumePos);
+              resumeBanner.style.display = 'flex';
+            }
+          };
+
+          if (audio.readyState >= 1) {
+            restorePos();
+          } else {
+            audio.addEventListener('loadedmetadata', function onLoadedMeta() {
+              audio.removeEventListener('loadedmetadata', onLoadedMeta);
+              restorePos();
+            }, { once: true });
+          }
+        } else {
+          timeCurrent.textContent = '00:00';
+          seekSlider.value = 0;
+        }
 
         renderArticleMeta(show, epMeta);
         renderExecutiveSummary(epMeta);
@@ -3511,6 +4000,8 @@
           highlightsGrid.appendChild(card);
           highlightElements.push(card);
         });
+
+        renderChapterMarkers(highlights);
       }
 
       function renderTranscript(transcript) {
@@ -3615,6 +4106,7 @@
           navigator.mediaSession.playbackState = 'paused';
         }
         updateMediaPositionState();
+        throttleSaveProgress(true);
       });
 
       audio.addEventListener('ended', () => {
@@ -3622,6 +4114,13 @@
         if ('mediaSession' in navigator) {
           navigator.mediaSession.playbackState = 'paused';
         }
+        updateMediaPositionState();
+        if (currentShow && currentActiveEpisodeMeta) {
+          saveEpisodeProgress(currentShow.id, currentActiveEpisodeMeta.guid, audio.currentTime, audio.duration, true);
+        }
+      });
+
+      audio.addEventListener('ratechange', () => {
         updateMediaPositionState();
       });
 
@@ -3633,6 +4132,9 @@
           updateMediaSession(currentActiveShow, currentActiveEpisodeMeta);
         }
         updateMediaPositionState();
+        if (currentEpisode && currentEpisode.highlights && currentEpisode.highlights.length > 0) {
+          renderChapterMarkers(currentEpisode.highlights);
+        }
       });
 
       audio.addEventListener('timeupdate', () => {
@@ -3644,6 +4146,9 @@
           seekSlider.value = curTime;
           timeCurrent.textContent = formatTime(curTime);
         }
+
+        throttleSaveProgress(false);
+        updateMediaPositionState();
 
         const activeTrIdx = binarySearchActiveIndex(currentEpisode.transcript, curTime);
         if (activeTrIdx !== lastActiveTranscriptIndex) {
@@ -3673,6 +4178,16 @@
             highlightElements[activeHlIdx].classList.add('active');
           }
           lastActiveHighlightIndex = activeHlIdx;
+        }
+
+        // Realtime chapter badge update
+        const activeHl = (currentEpisode.highlights && activeHlIdx !== -1) ? currentEpisode.highlights[activeHlIdx] : null;
+        if (activeHl && activeHl.title_zh) {
+          playerChapterTitle.textContent = activeHl.title_zh;
+          playerChapterBadge.style.display = 'inline-flex';
+          playerChapterBadge.title = `当前章节：${activeHl.title_zh} (点击跳转)`;
+        } else {
+          playerChapterBadge.style.display = 'none';
         }
       });
 
@@ -3713,6 +4228,60 @@
         if (isAutoScrollEnabled && lastActiveTranscriptIndex !== -1 && transcriptElements[lastActiveTranscriptIndex]) {
           transcriptElements[lastActiveTranscriptIndex].scrollIntoView({ behavior: 'smooth', block: 'center' });
         }
+      });
+
+      // M7 Realtime Chapter Badge Interaction
+      if (playerChapterBadge) {
+        playerChapterBadge.addEventListener('click', () => {
+          if (lastActiveHighlightIndex !== -1 && highlightElements[lastActiveHighlightIndex]) {
+            const el = highlightElements[lastActiveHighlightIndex];
+            el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            el.classList.add('flash-focus');
+            setTimeout(() => el.classList.remove('flash-focus'), 1200);
+          }
+        });
+        playerChapterBadge.addEventListener('keydown', (e) => {
+          if (e.key === 'Enter' || e.key === ' ') {
+            e.preventDefault();
+            playerChapterBadge.click();
+          }
+        });
+      }
+
+      // M7 Resume Banner Actions
+      if (btnResumePlay) {
+        btnResumePlay.addEventListener('click', () => {
+          if (resumeBanner) resumeBanner.style.display = 'none';
+          audio.play().catch(err => console.warn('[AIRSHOW][UI] Play rejected:', err));
+        });
+      }
+
+      if (btnResumeRestart) {
+        btnResumeRestart.addEventListener('click', () => {
+          if (resumeBanner) resumeBanner.style.display = 'none';
+          userInteractedSeek = true;
+          seekAndPlay(0);
+          if (currentShow && currentActiveEpisodeMeta) {
+            saveEpisodeProgress(currentShow.id, currentActiveEpisodeMeta.guid, 0, currentActiveEpisodeMeta.duration_sec, false);
+          }
+        });
+      }
+
+      if (btnResumeClose) {
+        btnResumeClose.addEventListener('click', () => {
+          if (resumeBanner) resumeBanner.style.display = 'none';
+        });
+      }
+
+      // M7 Progress Persistence Flush Triggers
+      document.addEventListener('visibilitychange', () => {
+        if (document.visibilityState === 'hidden') {
+          throttleSaveProgress(true);
+        }
+      });
+
+      window.addEventListener('beforeunload', () => {
+        throttleSaveProgress(true);
       });
 
       // ======================================================================
@@ -3910,11 +4479,32 @@
         }
       }
 
+      function registerServiceWorker() {
+        if (!('serviceWorker' in navigator)) return;
+        const isLocalhost = Boolean(
+          window.location.hostname === 'localhost' ||
+          window.location.hostname === '127.0.0.1' ||
+          window.location.hostname === '[::1]'
+        );
+        if (window.location.protocol === 'https:' || isLocalhost) {
+          window.addEventListener('load', () => {
+            navigator.serviceWorker.register('./sw.js')
+              .then(reg => {
+                console.log('[AIRSHOW][UI] ServiceWorker registered with scope:', reg.scope);
+              })
+              .catch(err => {
+                console.warn('[AIRSHOW][UI] ServiceWorker registration failed:', err);
+              });
+          });
+        }
+      }
+
       btnRetry.addEventListener('click', initApp);
 
       initTheme();
       initLanguageMode();
       initMediaSessionActionHandlers();
+      registerServiceWorker();
       initApp();
 
     })();

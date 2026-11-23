@@ -1,0 +1,25 @@
+{
+  "name": "播客双语精读 · AirShow Reader",
+  "short_name": "AirShow",
+  "description": "深度播客中英双语研读与音频同步研习工具 - 商业、地缘政经与行业纵深解析。",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "theme_color": "#0a2540",
+  "background_color": "#f8fafc",
+  "icons": [
+    {
+      "src": "./icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
