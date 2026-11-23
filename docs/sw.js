@@ -2,15 +2,30 @@
    airshow-reader Service Worker (PWA Shell & Network-Direct Data Engine)
    ========================================================================== */
 
-const CACHE_NAME = 'airshow-reader-v1';
+const CACHE_NAME = 'airshow-reader-v2';
 
 const SHELL_ASSETS = [
   './',
   './index.html',
   './manifest.json',
   './favicon.svg',
+  './artwork-airshow-512.png',
+  './artwork-sinica-512.png',
   './icons/icon-192.png',
-  './icons/icon-512.png'
+  './icons/icon-512.png',
+  './css/tokens.css',
+  './css/layout.css',
+  './css/components.css',
+  './js/main.js',
+  './js/state.js',
+  './js/storage.js',
+  './js/api.js',
+  './js/theme.js',
+  './js/player.js',
+  './js/reader.js',
+  './js/archive.js',
+  './js/shortcuts.js',
+  './js/utils.js'
 ];
 
 self.addEventListener('install', (event) => {
