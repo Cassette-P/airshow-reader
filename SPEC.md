@@ -93,6 +93,10 @@
 - **通道 A（全局摘要与 Highlights）**：
   - 默认候选模型池：`["gemini-4-carbon", "gemini-4-neon", "gemini-3.8-flash"]`
   - 环境变量覆盖：`GEMINI_MODEL_CH_A`，非空时置顶并去重。
+  - 思考等级与自动适配：`GEMINI_THINKING_CH_A`（可选）。
+    - 显式覆盖：若环境变量非空（`.strip()` 判空），返回其小写值（若显式设为 `"default"` 或 `"none"` 则返回 `None` 走模型默认）；
+    - 模型默认适配：若未设置环境变量，按模型自动匹配：`gemini-4-neon` 返回 `"xhigh"`，`gemini-4-carbon` 返回 `"high"`，其他模型默认返回 `"high"`；
+    - 容错与平滑降级链：若本地 SDK 校验或远端 API 调用因不支持该档位报错，按 **`xhigh` → `high` → `None`（移除 `thinking_config`）** 逐级降级并打印 `[AIRSHOW][STAGE]` 降级日志后立即重试，确保主模型与回退模型稳定运行。
 - **片间休眠**：`CHUNK_SLEEP_SEC`（默认 `"2.0"` 秒）。
 - **容灾与长退避策略**：候选模型池顺序容灾，单模型最多连续重试 **5 次**，退避间隔 **`15s → 20s → 25s → 30s`**；遇 `404` / `NOT_FOUND` 立即跳过；切换下一模型前休眠 `10s`。
 

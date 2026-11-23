@@ -19,6 +19,7 @@ import subprocess
 import sys
 import tempfile
 import time
+from typing import Callable
 
 import feedparser
 from google import genai
@@ -810,6 +811,39 @@ def chunk_audio(audio_path: Path, output_dir: Path, chunk_sec: int, show_id: str
     return chunks
 
 
+def resolve_ch_a_thinking_level(model_name: str, env_override: str = "") -> str | None:
+    """Resolve thinking level for Channel A based on env var override or model defaults."""
+    override = env_override.strip() if env_override and env_override.strip() else get_env_stripped("GEMINI_THINKING_CH_A")
+    if override:
+        val = override.lower()
+        if val in ("default", "none"):
+            return None
+        return val
+
+    m = model_name.lower().strip()
+    if "gemini-4-neon" in m:
+        return "xhigh"
+    elif "gemini-4-carbon" in m:
+        return "high"
+    else:
+        return "high"
+
+
+def get_next_fallback_thinking_level(current_level: str | None) -> str | None:
+    """Return next fallback level in chain: xhigh -> high -> None."""
+    if not current_level:
+        return None
+    lvl = current_level.strip().lower()
+    if lvl == "xhigh":
+        return "high"
+    return None
+
+
+def _format_level(lvl: str | None) -> str:
+    """Format thinking level for logging."""
+    return f"'{lvl}'" if lvl else "None"
+
+
 def generate_structured_with_retry(
     client: genai.Client,
     model_pool: list[str],
@@ -820,6 +854,7 @@ def generate_structured_with_retry(
     temperature: float = 0.2,
     max_retries: int = 5,
     thinking_level: str | None = None,
+    thinking_level_resolver: Callable[[str], str | None] | None = None,
     show_id: str = "",
 ) -> BaseModel:
     """Execute structured generation using streaming response with 5-retry backoff across model_pool."""
@@ -827,56 +862,123 @@ def generate_structured_with_retry(
     last_exception = None
 
     for m_idx, current_model in enumerate(model_pool):
-        log(stage, f"Using model candidate [{m_idx + 1}/{len(model_pool)}]: '{current_model}'...", show_id=show_id)
+        if callable(thinking_level_resolver):
+            resolved_thinking_level = thinking_level_resolver(current_model)
+        else:
+            resolved_thinking_level = thinking_level
+
+        current_thinking_level = resolved_thinking_level
+        log(
+            stage,
+            f"Using model candidate [{m_idx + 1}/{len(model_pool)}]: '{current_model}' (initial thinking_level='{current_thinking_level}')...",
+            show_id=show_id,
+        )
         skipped_404 = False
-        current_thinking_level = thinking_level
 
         for attempt in range(1, max_retries + 1):
             try:
-                config_kwargs = {
-                    "system_instruction": system_instruction,
-                    "response_mime_type": "application/json",
-                    "response_schema": response_schema,
-                    "temperature": temperature,
-                }
-                if current_thinking_level:
-                    try:
-                        config_kwargs["thinking_config"] = types.ThinkingConfig(thinking_level=current_thinking_level)
-                    except Exception as t_init_err:
-                        log("ERROR", f"[{stage}] Failed to instantiate ThinkingConfig({current_thinking_level}): {t_init_err}. Disabling thinking_config.", show_id=show_id)
-                        current_thinking_level = None
-
-                thinking_desc = f"thinking={current_thinking_level}" if current_thinking_level else "thinking=default"
-                log(stage, f"Calling Gemini model '{current_model}' via streaming (attempt {attempt}/{max_retries}, {thinking_desc})...", show_id=show_id)
-
-                try:
-                    response = client.models.generate_content_stream(
-                        model=current_model,
-                        contents=contents,
-                        config=types.GenerateContentConfig(**config_kwargs),
-                    )
-                except Exception as api_err:
-                    if current_thinking_level:
-                        err_lower = str(api_err).lower()
-                        if any(kw in err_lower for kw in ["thinking", "unsupported", "unknown field", "invalid argument", "not supported"]):
-                            log("ERROR", f"[{stage}] Model '{current_model}' does not support thinking_config ({api_err}). Retrying immediately without thinking_config...", show_id=show_id)
-                            current_thinking_level = None
-                            config_kwargs.pop("thinking_config", None)
-                            response = client.models.generate_content_stream(
-                                model=current_model,
-                                contents=contents,
-                                config=types.GenerateContentConfig(**config_kwargs),
+                full_text = ""
+                while True:
+                    # 1. Instantiate thinking_config, degrading on local SDK validation errors
+                    while current_thinking_level:
+                        try:
+                            _ = types.ThinkingConfig(thinking_level=current_thinking_level)
+                            break
+                        except Exception as t_init_err:
+                            next_lvl = get_next_fallback_thinking_level(current_thinking_level)
+                            log(
+                                stage,
+                                f"Local SDK does not support thinking_level='{current_thinking_level}' ({t_init_err}). "
+                                f"Degrading: '{current_thinking_level}' -> {_format_level(next_lvl)}.",
+                                show_id=show_id,
                             )
-                        else:
-                            raise api_err
-                    else:
-                        raise api_err
+                            current_thinking_level = next_lvl
 
-                chunks_text = []
-                for chunk in response:
-                    if chunk.text:
-                        chunks_text.append(chunk.text)
-                full_text = "".join(chunks_text).strip()
+                    config_kwargs = {
+                        "system_instruction": system_instruction,
+                        "response_mime_type": "application/json",
+                        "response_schema": response_schema,
+                        "temperature": temperature,
+                    }
+                    if current_thinking_level:
+                        try:
+                            config_kwargs["thinking_config"] = types.ThinkingConfig(thinking_level=current_thinking_level)
+                        except Exception as t_init_err:
+                            next_lvl = get_next_fallback_thinking_level(current_thinking_level)
+                            log(
+                                stage,
+                                f"Local SDK does not support thinking_level='{current_thinking_level}' ({t_init_err}). "
+                                f"Degrading: '{current_thinking_level}' -> {_format_level(next_lvl)}.",
+                                show_id=show_id,
+                            )
+                            current_thinking_level = next_lvl
+                            continue
+
+                    try:
+                        gen_config = types.GenerateContentConfig(**config_kwargs)
+                    except Exception as cfg_err:
+                        if current_thinking_level:
+                            next_lvl = get_next_fallback_thinking_level(current_thinking_level)
+                            log(
+                                stage,
+                                f"GenerateContentConfig validation failed with thinking_level='{current_thinking_level}' ({cfg_err}). "
+                                f"Degrading: '{current_thinking_level}' -> {_format_level(next_lvl)}.",
+                                show_id=show_id,
+                            )
+                            current_thinking_level = next_lvl
+                            continue
+                        raise cfg_err
+
+                    thinking_desc = (
+                        f"effective thinking_level='{current_thinking_level}'"
+                        if current_thinking_level
+                        else "effective thinking_level=None"
+                    )
+                    log(
+                        stage,
+                        f"Calling Gemini model '{current_model}' via streaming (attempt {attempt}/{max_retries}, {thinking_desc})...",
+                        show_id=show_id,
+                    )
+
+                    try:
+                        response = client.models.generate_content_stream(
+                            model=current_model,
+                            contents=contents,
+                            config=gen_config,
+                        )
+                        chunks_text = []
+                        for chunk in response:
+                            if chunk.text:
+                                chunks_text.append(chunk.text)
+                        full_text = "".join(chunks_text).strip()
+                        break  # Streaming succeeded, exit thinking degradation loop
+                    except Exception as api_err:
+                        if current_thinking_level:
+                            err_lower = str(api_err).lower()
+                            is_thinking_err = any(
+                                kw in err_lower
+                                for kw in [
+                                    "thinking",
+                                    "unsupported",
+                                    "unknown field",
+                                    "invalid argument",
+                                    "not supported",
+                                    "thinking_level",
+                                    "thinking_config",
+                                    "thought",
+                                ]
+                            )
+                            if is_thinking_err:
+                                next_lvl = get_next_fallback_thinking_level(current_thinking_level)
+                                log(
+                                    stage,
+                                    f"Model '{current_model}' call failed with thinking_level='{current_thinking_level}' ({api_err}). "
+                                    f"Degrading: '{current_thinking_level}' -> {_format_level(next_lvl)} and retrying immediately...",
+                                    show_id=show_id,
+                                )
+                                current_thinking_level = next_lvl
+                                continue
+                        raise api_err
 
                 if not full_text:
                     raise ValueError(f"Received empty streamed response from model '{current_model}'.")
@@ -891,7 +993,12 @@ def generate_structured_with_retry(
                 cleaned_text = cleaned_text.strip()
 
                 parsed = response_schema.model_validate_json(cleaned_text)
-                log(stage, f"Successfully received and parsed response using model '{current_model}' on attempt {attempt}.", show_id=show_id)
+                log(
+                    stage,
+                    f"Successfully received and parsed response using model '{current_model}' on attempt {attempt} "
+                    f"(effective thinking_level='{current_thinking_level}').",
+                    show_id=show_id,
+                )
                 if stage in MODEL_USAGE_STATS:
                     MODEL_USAGE_STATS[stage][current_model] = MODEL_USAGE_STATS[stage].get(current_model, 0) + 1
                 return parsed
@@ -1096,6 +1203,16 @@ def run_channel_a(
         model_pool = list(default_ch_a_pool)
     log("CH-A", f"Channel A model pool configured: {model_pool}", show_id=show_id)
 
+    env_thinking_ch_a = get_env_stripped("GEMINI_THINKING_CH_A")
+    if env_thinking_ch_a:
+        log("CH-A", f"Channel A thinking level env override: '{env_thinking_ch_a}'", show_id=show_id)
+    else:
+        log("CH-A", "Channel A thinking level: model-adaptive (no GEMINI_THINKING_CH_A override)", show_id=show_id)
+
+    for m in model_pool:
+        res_lvl = resolve_ch_a_thinking_level(m, env_thinking_ch_a)
+        log("CH-A", f"  - Model '{m}': initial thinking_level='{res_lvl}'", show_id=show_id)
+
     log("CH-A", f"Starting Channel A summarization for episode '{title}' (duration: {duration_sec}s)...", show_id=show_id)
 
     lines = [f"[{item['start_sec']}] {item['speaker']}: {item['en']}" for item in transcript]
@@ -1139,6 +1256,7 @@ def run_channel_a(
         stage="CH-A",
         temperature=0.2,
         thinking_level=None,
+        thinking_level_resolver=lambda m: resolve_ch_a_thinking_level(m, env_thinking_ch_a),
         show_id=show_id,
     )
 
@@ -1416,8 +1534,9 @@ def main():
             log("MIGRATE", "Data already in v3 format or nothing to migrate. Exiting 0.")
         sys.exit(0)
 
-    # Automatic migration if needed before processing
-    migrate_to_v3_if_needed()
+    # Automatic migration if needed before processing (skip in dry-run if manifest exists to keep formal JSONs untouched)
+    if not args.dry_run or not SHOWS_MANIFEST_FILE.exists():
+        migrate_to_v3_if_needed()
 
     if not args.dry_run:
         api_key = get_env_stripped("GEMINI_API_KEY")

@@ -62,6 +62,7 @@ jobs:
           GEMINI_MODEL_CH_B: ${{ vars.GEMINI_MODEL_CH_B }}
           GEMINI_MODEL_CH_A: ${{ vars.GEMINI_MODEL_CH_A }}
           GEMINI_THINKING_CH_B: ${{ vars.GEMINI_THINKING_CH_B }}
+          GEMINI_THINKING_CH_A: ${{ vars.GEMINI_THINKING_CH_A }}
           CHUNK_SLEEP_SEC: ${{ vars.CHUNK_SLEEP_SEC }}
           EVENT_NAME: ${{ github.event_name }}
           INPUT_SHOW: ${{ inputs.show }}
