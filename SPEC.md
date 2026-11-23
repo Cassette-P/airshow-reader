@@ -4,25 +4,54 @@
 
 ## 1. 项目定位与目录结构
 
-个人多播客全自动双语精读静态站，支持多播客配置驱动与全自动化处理。抓取播客 RSS，提取嘉宾与章节 Show Notes，生成中文核心摘要、带时间戳 Highlight、知识卡片（地道表达与参考资源）及中英对照逐字稿，通过 GitHub Pages（`/docs`）零构建发布并支持 PWA 原生体验。
+个人多播客全自动双语精读静态站，支持多播客配置驱动与全自动化处理。抓取播客 RSS，提取嘉宾与章节 Show Notes，生成中文核心摘要、带时间戳 Highlight、知识卡片（地道表达与参考资源）及中英对照逐字稿，通过 GitHub Pages（`/docs`）零构建原生 ES Modules 与 CSS 架构发布并支持 PWA 原生体验。
 
 - `README.md`：项目简介、本地使用与云端运维指南
-- `SPEC.md`：核心架构、状态机、v3.0/v3.1 数据契约与 v3.3 前端规范（本文件）
+- `SPEC.md`：核心架构、状态机、v3.0/v3.1 数据契约、校验门禁与 v3.3 前端规范（本文件）
 - `podcasts.json`：多播客核心配置注册表（包含各节目 ID、标题、RSS、术语表路径、主题重音色与默认时效窗口）
 - `glossaries/<show_id>.md`：各播客专属常驻主播名单、行业术语表与翻译校对红线（如 `glossaries/airshow.md`、`glossaries/sinica.md`）
 - `ITERATION.md`：迭代里程碑总览、验收记录与后续规划
 - `requirements.txt`：Python 依赖
 - `.gitignore`：本地缓存与临时预览文件忽略规则（覆盖 `docs/data/**/_smoke_preview.json` 与 `docs/data/**/*.tmp`）
-- `scripts/process.py`：主处理引擎（支持 `--show` 调度、v2→v3 幂等迁移、Show Notes 动态清洗注入、Speaker 去头衔归一化、Paid Tier 双通道流式抗断连、Channel A 思考等级自动适配与 `--enrich` 低成本补跑）
+- `scripts/process.py`：主处理命令行入口（参数解析与流程调度分发）
+- `scripts/validate_data.py`：数据契约与完整性校验门禁（集成于 GitHub Actions CI）
+- `scripts/pipeline/`：后端流水线解耦模块目录
+  - `__init__.py`
+  - `config.py`：全局常量、目录路径与环境变量读取
+  - `models.py`：Pydantic 数据契约与结构体模型
+  - `storage.py`：JSON 原子读写、内存缓存与 Shows 清单同步
+  - `audio.py`：四级抗 403 下载、ffprobe 检测与 180s 切片
+  - `gemini.py`：Gemini SDK 客户端初始化、流式调用与长退避重试
+  - `prompts.py`：通道 A、通道 B 与 Enrich 提示词生成
+  - `rss.py`：RSS 抓取解析与 Show Notes 结构化清洗
+  - `runner.py`：单集生命周期驱动、通道调度与补跑引擎
+  - `migrate.py`：v2→v3 数据目录幂等迁移与新节目脚手架
 - `docs/favicon.svg`：「声波书页（Acoustic Folio）」静态矢量站点图标
 - `docs/manifest.json`：PWA 应用清单（相对路径 `start_url: "./"`、`scope: "./"`、`display: "standalone"`）
-- `docs/sw.js`：PWA Service Worker（`./data/**` 与媒体请求严格走 Network-Only，保障新单集零延迟可见）
-- `docs/icons/icon-192.png`、`docs/icons/icon-512.png`：PWA 桌面与 Media Session 锁屏标准 PNG 图标
+- `docs/sw.js`：PWA Service Worker（静态资源 `airshow-reader-v2` 缓存；`./data/**` 与媒体请求严格走 Network-Only）
+- `docs/icons/icon-192.png`、`docs/icons/icon-512.png`：PWA 桌面标准 PNG 图标
+- `docs/artwork-airshow-512.png`：The Air Show 专属 512px 节目封面
+- `docs/artwork-sinica-512.png`：Sinica Podcast 专属 512px 节目封面
+- `docs/css/`：原生 CSS 分层架构（Zero-Build，禁止使用 `@import`）
+  - `tokens.css`：主题色彩变量（浅色/深色）、字栈、节目品牌重音色
+  - `layout.css`：液态玻璃顶栏/底栏宿主、PWA 安全区、响应式布局断点
+  - `components.css`：刊物排版、知识扩展卡片、逐字稿流式排版、刮刮乐盲听、复读胶囊与抽屉
+- `docs/js/`：原生 ES Modules 业务模块
+  - `main.js`：启动引导、SW 注册、URL Hash 路由监听、顶层事件绑定
+  - `state.js`：共享运行时状态、DOM 引用与防竞态锁
+  - `storage.js`：localStorage 播放记忆、盲听档位读写
+  - `api.js`：shows / index / episode 三级懒加载与缓存
+  - `theme.js`：浅/深主题切换、Favicon 动态同步、PWA 探测
+  - `player.js`：音频播放引擎、章节打点、单句复读、Media Session
+  - `reader.js`：摘要/要点/卡片/逐字稿渲染、搜索高亮、刮刮乐显形
+  - `archive.js`：节目 Tab、选集抽屉渲染与已听进度标记
+  - `shortcuts.js`：全局键盘快捷键与帮助面板
+  - `utils.js`：escapeHtml、时间格式化、二分查找、嘉宾哈希
 - `docs/data/shows.json`：全局播客清单（供前端动态渲染多节目切换栏与主题色）
 - `docs/data/<show_id>/index.json`：单节目轻量总目录（按 `pub_date` 降序，含核心摘要与要点，供前端首屏极速加载）
 - `docs/data/<show_id>/episodes/<safe_guid>.json`：按单集独立存储的完整精读数据（含 `highlights`、`vocab_notes`、`references` 与全量 `transcript`，供前端按需懒加载）
-- `docs/index.html`：单文件零构建自适应双语阅读器（内联 CSS + 原生 Vanilla JS，v3.3 刊物、液态玻璃 PWA 与精听架构）
-- `.github/workflows/update.yml`：GitHub Actions 定时巡检、手动多节目触发与 `enrich_only` 增量补跑工作流（超时设为 45 分钟）
+- `docs/index.html`：零构建原生 ES Modules 双语精读器（`<link rel="stylesheet">` + `<script type="module" src="./js/main.js">`）
+- `.github/workflows/update.yml`：GitHub Actions 定时巡检、Schema 校验与手动触发工作流
 
 ---
 
@@ -278,11 +307,23 @@
 - `index.json`：保持轻量，**严禁**将 `vocab_notes` 与 `references` 写入 `index.json`。
 - `index.json` 中的 `highlights_count`、`transcript_count`、`summary_zh`、`key_takeaways_zh` 必须与对应单集 JSON 文件完全一致。
 
+### 4.4 数据契约校验门禁规范（`scripts/validate_data.py`）
+
+为确保后端 AI 生成数据与前端渲染契约绝对一致，设立严格的自动化质量门禁：
+
+- **校验范围**：
+  - `podcasts.json` 与 `docs/data/shows.json` 节目元数据一致性与单集计数对齐；
+  - 各节目 `index.json` 的字段完整性、GUID 唯一性、按 `pub_date` 降序排序、以及轻量化约束（严禁泄漏 `vocab_notes` / `references`）；
+  - 各分集 `episodes/<safe_guid>.json` 的 Schema 合法性、单集引用对应一致性、`summary_zh` 字数下限、`highlights` 与 `transcript` 时间戳区间单调非递减性；
+  - `vocab_notes`（`term`、`meaning_zh`、`note_zh`、`start_sec` 升序）与 `references`（`title`、`creator`、`category` 枚举合法性、`note_zh`、`start_sec` 升序且 `null` 排在最末）；
+  - `index.json` 与分集 JSON 间 `summary_zh`、`key_takeaways_zh`、`highlights_count`、`transcript_count` 的双向完全对齐。
+- **门禁执行**：本地执行 `python scripts/validate_data.py`；GitHub Actions 在每次处理完数据落盘后、执行 git commit 之前自动运行，若校验不通过立即抛出非零退出码阻断提交流程。
+
 ---
 
 ## 5. 前端视觉规范与交互架构（`docs/index.html` · v3.3）
 
-前端遵循 **Magazine Paper（杂志纸面阅读）× OpenRouter Chrome（精密克制控件）× Liquid Glass（原生级透传玻璃外壳）** 三重设计语言，在零构建单文件下完成多播客精读、PWA 通勤播放与主动听力训练。
+前端遵循 **Magazine Paper（杂志纸面阅读）× OpenRouter Chrome（精密克制控件）× Liquid Glass（原生级透传玻璃外壳）** 三重设计语言，在零构建原生 CSS 与 ES Modules 架构下完成多播客精读、PWA 通勤播放与主动听力训练。
 
 ### 5.1 双模色彩体系（Warm Paper × Warm Obsidian）
 
@@ -350,7 +391,7 @@
 
 - **进度条章节打点**：按 `(hl.start_sec / duration) * 100%` 在 `.scrub-track-wrap` 叠加 `.chapter-marker`（容器 `pointer-events: none`、刻度点 `pointer-events: auto` 不阻挡拖拽），桌面端悬停展示 `MM:SS · title_zh` Tooltip，点击直接跳播。
 - **断点续播与进度记忆**：使用 `localStorage['airshow_reader_progress_v1']` 按 `${showId}::${guid}` 存储 `{ position, duration, completed, updatedAt }`；播放期间 3 秒节流写入，并在 `pause` / `ended` / `visibilitychange` / `beforeunload` / 切集前即时落盘。进度 `>= 95%` 或剩余 `< 30s`（总长 `> 60s`）自动标为 `completed: true`；加载未完成单集（`position >= 5`）时弹出浮动续播提示条（支持「继续收听」与「从头播放」），并设 `userInteractedSeek` 门禁防止覆盖用户主动跳转；选集下拉框与 Issue Archive 抽屉实时同步 `[▶ xx%]` / `[✓ 已听完]` 状态标。
-- **Media Session API**：写入 `metadata`（`artwork` 使用 `new URL('./icons/icon-512.png', location.href).href` 绝对路径 PNG）；注册 `play`、`pause`、`seekbackward`（默认 10s）、`seekforward`（默认 10s）、`seekto`；`setPositionState` 经有限正数边界校验并包在 `try/catch` 中执行。
+- **Media Session API**：写入 `metadata`（`artwork` 注册包含通用 `192x192` 与 `512x512` 图标，并根据当前节目动态注入专属 512px 封面 `new URL('./artwork-airshow-512.png', location.href).href` 或 `artwork-sinica-512.png` 保证锁屏高清渲染）；注册 `play`、`pause`、`seekbackward`（默认 10s）、`seekforward`（默认 10s）、`seekto`；`setPositionState` 经有限正数边界校验并包在 `try/catch` 中执行。
 - **Service Worker（`docs/sw.js`）**：仅在 `https:` 或 `localhost`/`127.0.0.1` 注册；对 `./data/**` 与音频媒体请求严格采用 **Network-Only**，确保定时更新的新单集与补跑数据即时生效。
 
 ### 5.7 主动精听套件、防竞态与快捷键规范（M8-A）
