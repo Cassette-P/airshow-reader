@@ -384,7 +384,7 @@
       "start_sec": 243,
       "speaker": "Jon Ostrower",
       "en": "They do, and I think the $15 number is right. They don't report CPE uh cost per employment the way we do in the US. But yeah, funding comes from a completely different place and has many different options. There are big subsidies, and they also have the ability to shift more onto the passenger themselves uh directly as opposed to the US.",
-      "zh": "确实如此，而且我觉得15美元这个数字是准确的。它们不像我们在美国那样报告单位座英里成本（CPE）这类指标。但话又说回来，资金来源完全不同，而且有很多不同的选项。不仅有大笔补贴，它们还将更多成本直接转嫁给旅客，这与美国有所不同。"
+      "zh": "确实如此，而且我觉得15美元这个数字是准确的。它们不像我们在美国那样报告每登机旅客成本（CPE）这类指标。但话又说回来，资金来源完全不同，而且有很多不同的选项。不仅有大笔补贴，它们还将更多成本直接转嫁给旅客，这与美国有所不同。"
     },
     {
       "id": 48,
@@ -1539,14 +1539,14 @@
       "start_sec": 1734,
       "speaker": "Brett Snyder",
       "en": "Back to work here. Uh let's talk about short haul. That seems to be a place where high CPE really hurts you.",
-      "zh": "言归正传。我们来谈谈短途航线。那似乎是一个高CASM（单位座英里成本）真正伤害你的领域。"
+      "zh": "言归正传。我们来谈谈短途航线。那似乎是一个高CPE（每登机旅客成本）真正伤害你的领域。"
     },
     {
       "id": 213,
       "start_sec": 1742,
       "speaker": "Jon Ostrower",
       "en": "So, let's say you have a fare of like $79 for an intra-California route. That LAX CPE, it's got to be a big problem.",
-      "zh": "所以，假设你有一条加州内部航线的票价是79美元左右。那个LAX的CASM，肯定是个大问题。"
+      "zh": "所以，假设你有一条加州内部航线的票价是79美元左右。那个LAX的CPE，肯定是个大问题。"
     },
     {
       "id": 214,

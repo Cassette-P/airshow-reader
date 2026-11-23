@@ -130,6 +130,16 @@ class ChannelAOutput(BaseModel):
 # --- Observability & Utilities ---
 
 
+def normalize_speaker(name: str) -> str:
+    """Normalize speaker name by stripping whitespace and title prefixes (Dr., Prof., etc.)."""
+    if not name:
+        return "Guest"
+    s = str(name).strip()
+    title_pattern = r"^(?:Dr\.?|Prof\.?|Professor|Ambassador|Mr\.?|Ms\.?|Mrs\.?|Sen\.?|Rep\.?)\s+"
+    cleaned = re.sub(title_pattern, "", s, flags=re.IGNORECASE).strip()
+    return cleaned if cleaned else s
+
+
 def log(stage: str, message: str, show_id: str = "") -> None:
     """Print formatted log message conforming to [TAG][STAGE] standard."""
     tag = show_id.upper() if show_id else "AIRSHOW"
@@ -1025,7 +1035,7 @@ def run_channel_b(
                 clamped_start = max(0, min(global_start, duration_sec))
                 all_raw_segments.append({
                     "start_sec": clamped_start,
-                    "speaker": seg.speaker.strip(),
+                    "speaker": normalize_speaker(seg.speaker),
                     "en": seg.en.strip(),
                     "zh": seg.zh.strip(),
                 })
@@ -1055,7 +1065,7 @@ def run_channel_b(
         final_transcript.append({
             "id": i + 1,
             "start_sec": start_sec,
-            "speaker": seg["speaker"],
+            "speaker": normalize_speaker(seg["speaker"]),
             "en": seg["en"],
             "zh": seg["zh"],
         })
