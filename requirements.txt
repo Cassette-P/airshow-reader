@@ -3,3 +3,4 @@ requests
 pydantic
 google-genai>=3.6.1
 curl_cffi
+beautifulsoup4
