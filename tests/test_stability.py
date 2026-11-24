@@ -24,6 +24,7 @@ from pipeline.config import (
 )
 from pipeline.gemini import (
     create_genai_client,
+    generate_channel_a_structured_with_retry,
     generate_structured_with_retry,
     is_transport_disconnect_or_timeout,
     run_channel_a,
@@ -295,7 +296,7 @@ class TestPipelineCacheIntegration(unittest.TestCase):
 class TestChannelATranscriptSlimming(unittest.TestCase):
     """Test Channel A input transcript serialization strictly contains only [MM:SS] <speaker>: <en>."""
 
-    @patch("pipeline.gemini.generate_structured_with_retry")
+    @patch("pipeline.gemini.generate_channel_a_structured_with_retry")
     def test_channel_a_serialization_no_zh_and_format(self, mock_gen):
         mock_output = ChannelAOutput(
             summary_zh="测试中文总结",
@@ -496,6 +497,305 @@ class TestTransportDisasterRecovery(unittest.TestCase):
             for lvl in captured_thinking_levels
         ]
         self.assertEqual(normalized_levels, ["low", "low", None])
+
+
+class TestChannelADualTransport(unittest.TestCase):
+    """Test Channel A dual-transport architecture:
+    1. interactions_bg submit -> multiple in_progress polling -> completed parsed JSON
+    2. Polling phase handles transient network errors (RemoteProtocolError) by rebuilding client without re-creating interaction
+    3. Missing interactions attribute or unsupported error seamlessly falls back to stream_with_thoughts with include_thoughts=True, skipping thought parts
+    4. Terminal incomplete or timeout in interactions enters outer candidate retry loop
+    """
+
+    @patch("time.sleep")
+    def test_interactions_bg_submit_polling_completed(self, mock_sleep):
+        """Test happy path: interactions.create(background=True) -> 2 in_progress polls -> completed."""
+        mock_client = MagicMock()
+        mock_interaction = MagicMock(id="test_interaction_001")
+        mock_client.interactions.create.return_value = mock_interaction
+
+        poll_resps = [
+            MagicMock(status="in_progress"),
+            MagicMock(status="in_progress"),
+            MagicMock(
+                status="completed",
+                output_text='{"summary_zh": "成功摘要", "key_takeaways_zh": ["要点1"], "highlights": []}',
+                usage=MagicMock(total_input_tokens=120, total_thought_tokens=240, total_output_tokens=60),
+            ),
+        ]
+        mock_client.interactions.get.side_effect = poll_resps
+
+        result = generate_channel_a_structured_with_retry(
+            client=mock_client,
+            model_pool=["gemini-4-carbon"],
+            user_prompt="Summarize this podcast",
+            system_instruction="System prompt",
+            response_schema=ChannelAOutput,
+            temperature=0.2,
+            thinking_level_resolver=lambda m: "high",
+            show_id="TEST",
+            client_factory=lambda: mock_client,
+        )
+
+        self.assertEqual(result.summary_zh, "成功摘要")
+        self.assertEqual(result.key_takeaways_zh, ["要点1"])
+
+        # Verify create parameters
+        mock_client.interactions.create.assert_called_once()
+        create_kwargs = mock_client.interactions.create.call_args[1]
+        self.assertEqual(create_kwargs["model"], "gemini-4-carbon")
+        self.assertTrue(create_kwargs["background"])
+        self.assertTrue(create_kwargs.get("store", True))
+        self.assertNotIn("response_mime_type", create_kwargs)
+        self.assertEqual(create_kwargs["generation_config"]["max_output_tokens"], 65536)
+        self.assertEqual(create_kwargs["generation_config"]["thinking_level"], "high")
+        self.assertEqual(create_kwargs["response_format"]["type"], "text")
+        self.assertEqual(create_kwargs["response_format"]["mime_type"], "application/json")
+        self.assertIn("schema", create_kwargs["response_format"])
+
+        # Verify polling calls
+        self.assertEqual(mock_client.interactions.get.call_count, 3)
+        mock_client.interactions.get.assert_called_with(id="test_interaction_001")
+
+    @patch("time.sleep")
+    def test_interactions_bg_polling_network_jitter_rebuilds_client_without_recreate(self, mock_sleep):
+        """Test network disconnect during polling rebuilds client and resumes polling the same interaction id without re-creating."""
+        client1 = MagicMock()
+        client2 = MagicMock()
+
+        mock_interaction = MagicMock(id="test_interaction_jitter")
+        client1.interactions.create.return_value = mock_interaction
+        # First poll on client1 raises RemoteProtocolError
+        client1.interactions.get.side_effect = Exception("RemoteProtocolError: Server disconnected")
+
+        # Second poll on client2 succeeds
+        client2.interactions.get.return_value = MagicMock(
+            status="completed",
+            output_text='{"summary_zh": "抖动恢复成功", "key_takeaways_zh": ["恢复要点"], "highlights": []}',
+            usage=MagicMock(total_input_tokens=150, total_thought_tokens=300, total_output_tokens=70),
+        )
+
+        client_list = [client1, client2]
+
+        def test_client_factory():
+            if client_list:
+                return client_list.pop(0)
+            return MagicMock()
+
+        initial_client = test_client_factory()
+
+        result = generate_channel_a_structured_with_retry(
+            client=initial_client,
+            model_pool=["gemini-4-carbon"],
+            user_prompt="Summarize this podcast",
+            system_instruction="System prompt",
+            response_schema=ChannelAOutput,
+            temperature=0.2,
+            thinking_level_resolver=lambda m: "high",
+            show_id="TEST",
+            client_factory=test_client_factory,
+        )
+
+        self.assertEqual(result.summary_zh, "抖动恢复成功")
+        # client1 submitted the background job
+        client1.interactions.create.assert_called_once()
+        # client2 MUST NOT submit a duplicate job!
+        client2.interactions.create.assert_not_called()
+        # client1 closed upon disconnect
+        client1.close.assert_called_once()
+        # client2 resumed polling the exact same id
+        client2.interactions.get.assert_called_once_with(id="test_interaction_jitter")
+
+    @patch("time.sleep")
+    def test_interactions_unsupported_falls_back_to_stream_with_thoughts(self, mock_sleep):
+        """Test unsupported Interactions API seamlessly falls back to stream_with_thoughts with include_thoughts=True and filters thought chunks."""
+        mock_client = MagicMock()
+        # Interactions create raises unsupported error
+        mock_client.interactions.create.side_effect = Exception("Interactions not supported for model gemini-4-carbon (404 Not Found)")
+
+        # Generate stream with mixed thought and text chunks
+        class FakePart:
+            def __init__(self, text, thought):
+                self.text = text
+                self.thought = thought
+
+        class FakeChunk:
+            def __init__(self, parts, usage=None):
+                self.candidates = [MagicMock(content=MagicMock(parts=parts))]
+                self.text = None
+                self.usage_metadata = usage
+
+        chunks = [
+            FakeChunk([FakePart("Thinking: Step 1 analyzing transcript...", thought=True)]),
+            FakeChunk([FakePart('{"summary_zh": "流式思维回退成功", ', thought=False)]),
+            FakeChunk([FakePart("Thinking: Step 2 synthesizing takeaways...", thought=True)]),
+            FakeChunk(
+                [FakePart('"key_takeaways_zh": ["回退要点"], "highlights": []}', thought=False)],
+                usage=MagicMock(prompt_token_count=180, thoughts_token_count=450, candidates_token_count=90),
+            ),
+        ]
+        mock_client.models.generate_content_stream.return_value = chunks
+
+        result = generate_channel_a_structured_with_retry(
+            client=mock_client,
+            model_pool=["gemini-4-carbon"],
+            user_prompt="Summarize this podcast",
+            system_instruction="System prompt",
+            response_schema=ChannelAOutput,
+            temperature=0.2,
+            thinking_level_resolver=lambda m: "high",
+            show_id="TEST",
+            client_factory=lambda: mock_client,
+        )
+
+        self.assertEqual(result.summary_zh, "流式思维回退成功")
+        self.assertEqual(result.key_takeaways_zh, ["回退要点"])
+
+        # Verify fallback stream configuration
+        mock_client.models.generate_content_stream.assert_called_once()
+        stream_call_args = mock_client.models.generate_content_stream.call_args[1]
+        cfg = stream_call_args["config"]
+        self.assertTrue(getattr(cfg.thinking_config, "include_thoughts", False))
+        self.assertEqual(cfg.max_output_tokens, 65536)
+
+    @patch("time.sleep")
+    def test_non_thinking_400_triggers_fast_fallback_without_retry(self, mock_sleep):
+        """Test non-thinking HTTP 400 error fast-falls back to stream_with_thoughts without wasting retries."""
+        mock_client = MagicMock()
+        # Simulate HTTP 400 with invalid field like response_mime_type in v1
+        mock_client.interactions.create.side_effect = Exception(
+            "400 - The field 'response_mime_type' is only available in v1beta"
+        )
+
+        class FakeChunk:
+            def __init__(self, text):
+                self.candidates = [MagicMock(content=MagicMock(parts=[MagicMock(thought=False, text=text)]))]
+                self.text = None
+                self.usage_metadata = MagicMock(prompt_token_count=100, thoughts_token_count=50, candidates_token_count=50)
+
+        mock_client.models.generate_content_stream.return_value = [
+            FakeChunk('{"summary_zh": "400快速回退成功", "key_takeaways_zh": ["无需重试"], "highlights": []}')
+        ]
+
+        result = generate_channel_a_structured_with_retry(
+            client=mock_client,
+            model_pool=["gemini-4-carbon"],
+            user_prompt="Summarize this podcast",
+            system_instruction="System prompt",
+            response_schema=ChannelAOutput,
+            temperature=0.2,
+            max_retries=5,
+            thinking_level_resolver=lambda m: "high",
+            show_id="TEST",
+            client_factory=lambda: mock_client,
+        )
+
+        self.assertEqual(result.summary_zh, "400快速回退成功")
+        # Ensure interactions.create was called only ONCE (did NOT retry 5 times!)
+        self.assertEqual(mock_client.interactions.create.call_count, 1)
+        # Ensure fallback stream was executed directly
+        mock_client.models.generate_content_stream.assert_called_once()
+        # Ensure no retry backoff delays were waited
+        mock_sleep.assert_not_called()
+
+    @patch("time.sleep")
+    def test_interactions_incomplete_triggers_outer_candidate_retry(self, mock_sleep):
+        """Test terminal 'incomplete' status causes model failure and triggers candidate retry to next model."""
+        mock_client = MagicMock()
+
+        # Model 1 (gemini-4-carbon) returns incomplete
+        carbon_interaction = MagicMock(id="carbon_fail_id")
+        carbon_poll = MagicMock(status="incomplete", errors=[{"message": "Max output tokens exceeded"}])
+
+        # Model 2 (gemini-4-neon) succeeds
+        neon_interaction = MagicMock(id="neon_ok_id")
+        neon_poll = MagicMock(
+            status="completed",
+            output_text='{"summary_zh": "第二候选模型成功", "key_takeaways_zh": ["备用要点"], "highlights": []}',
+            usage=MagicMock(total_input_tokens=200, total_thought_tokens=400, total_output_tokens=100),
+        )
+
+        def fake_create(*args, **kwargs):
+            if kwargs.get("model") == "gemini-4-carbon":
+                return carbon_interaction
+            return neon_interaction
+
+        def fake_get(id):
+            if id == "carbon_fail_id":
+                return carbon_poll
+            return neon_poll
+
+        mock_client.interactions.create.side_effect = fake_create
+        mock_client.interactions.get.side_effect = fake_get
+
+        result = generate_channel_a_structured_with_retry(
+            client=mock_client,
+            model_pool=["gemini-4-carbon", "gemini-4-neon"],
+            user_prompt="Summarize this podcast",
+            system_instruction="System prompt",
+            response_schema=ChannelAOutput,
+            temperature=0.2,
+            max_retries=1,  # 1 attempt per model for fast test
+            thinking_level_resolver=lambda m: "high",
+            show_id="TEST",
+            client_factory=lambda: mock_client,
+        )
+
+        self.assertEqual(result.summary_zh, "第二候选模型成功")
+        self.assertEqual(result.key_takeaways_zh, ["备用要点"])
+
+    @patch("time.sleep")
+    @patch.dict("os.environ", {"CH_A_BG_TIMEOUT_SEC": "1.0"})
+    def test_interactions_timeout_triggers_outer_retry(self, mock_sleep):
+        """Test interaction polling exceeding timeout triggers outer retry and succeeds on next attempt."""
+        mock_client = MagicMock()
+
+        attempt_count = 0
+
+        def fake_create(*args, **kwargs):
+            nonlocal attempt_count
+            attempt_count += 1
+            return MagicMock(id=f"timeout_id_{attempt_count}")
+
+        mock_client.interactions.create.side_effect = fake_create
+
+        # Attempt 1: poll advances time by 5.0s > 1.0s timeout -> TimeoutError
+        # Attempt 2: poll advances time by 0.1s -> succeeds
+        curr_time = 100.0
+
+        def fake_time():
+            nonlocal curr_time
+            if attempt_count == 1:
+                curr_time += 5.0
+            else:
+                curr_time += 0.1
+            return curr_time
+
+        def fake_get(id):
+            if id == "timeout_id_1":
+                return MagicMock(status="in_progress")
+            return MagicMock(
+                status="completed",
+                output_text='{"summary_zh": "超时重试成功", "key_takeaways_zh": ["重试要点"], "highlights": []}',
+                usage=MagicMock(total_input_tokens=100, total_thought_tokens=200, total_output_tokens=50),
+            )
+
+        mock_client.interactions.get.side_effect = fake_get
+
+        with patch("time.time", side_effect=fake_time):
+            result = generate_channel_a_structured_with_retry(
+                client=mock_client,
+                model_pool=["gemini-4-carbon"],
+                user_prompt="Summarize",
+                system_instruction="System",
+                response_schema=ChannelAOutput,
+                max_retries=2,
+                show_id="TEST",
+                client_factory=lambda: mock_client,
+            )
+
+        self.assertEqual(result.summary_zh, "超时重试成功")
+        self.assertEqual(mock_client.interactions.create.call_count, 2)
 
 
 if __name__ == "__main__":

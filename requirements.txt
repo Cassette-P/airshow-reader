@@ -1,5 +1,5 @@
 feedparser
 requests
 pydantic
-google-genai
+google-genai>=3.6.1
 curl_cffi

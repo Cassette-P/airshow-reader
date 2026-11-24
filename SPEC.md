@@ -99,9 +99,11 @@
    │      │ (单集内任一切片在候选池重试耗尽后仍失败：中止本集，跳转 [8. CLEANUP])
    │      ▼
    ├─► [6. CHANNEL_A] 输入序列化瘦身（严格仅传 [MM:SS] <speaker>: <en> 英文原声，剔除 zh 译文削减近半 Token 并记录 input_chars）；
-   │      │ 显式延长 SDK 超时至 300 秒（300,000ms），遇到传输断连或超时立即关闭并重建 genai.Client；
-   │      │ 在同一思考档位连续 2 次断连时自动顺降一级（xhigh → high → low → None），平滑容灾并一体生成摘要、要点、
-   │      │ 4-10 条 Highlights、6-10 条 vocab_notes（自动纠偏 ASR 拼写）与 0-10 条 references（严禁收录商业赞助广告）；
+   │      │ 双模传输架构升级：默认锁定 gemini-4-carbon @ high，主路径走 Interactions API background=True 异步提交 + 短连接轮询（默认 10s 间隔，上限 900s 可由 CH_A_BG_TIMEOUT_SEC 覆盖）；
+   │      │ 采用 v1 规范多态 response_format={"type": "text", "mime_type": "application/json", "schema": ...}，彻底剥离顶层 response_mime_type；
+   │      │ 轮询阶段若遇偶发网络抖动断连，仅重建 genai.Client 继续轮询原 interaction.id（最多允许连续 5 次），不丢弃任务、不重复提交计费；
+   │      │ 若 SDK 缺失 interactions 或返回非 thinking 类 400 invalid_request / 不支持错误，立即快速回退至 stream_with_thoughts（generate_content_stream + include_thoughts=True）流式思维心跳保活；
+   │      │ 严禁在 GitHub Actions 或本地代理环境下断流回退 gemini-3.8-flash；一体生成摘要、要点、4-10 条 Highlights、6-10 条 vocab_notes 与 0-10 条 references；
    │      │ 落盘前完成 start_sec 范围钳制与升序排序（references 中 start_sec=None 稳定排在最末）
    │      ▼
    ├─► [7. ATOMIC_SAVE] 若 --max-chunks > 0：写入 docs/data/<show_id>/_smoke_preview.json（不碰正式库与缓存）
@@ -172,8 +174,12 @@
   - 思考等级：`GEMINI_THINKING_CH_B`（默认 `"low"`），若模型不支持自动降级剥离重试。
   - **断点缓存机制**：正式全量模式（`--max-chunks == 0` 且非 `--dry-run`）转写完成后落盘至 `.cache/ch_b/<show_id>__<safe_guid>.json`；单集入库前命中缓存可跳过下载与 CH-B，仅在 `[7. ATOMIC_SAVE]` 成功后删除缓存。
 - **通道 A（全局摘要、Highlights 与知识卡片）**：
-  - 默认候选模型池：`["gemini-4-carbon", "gemini-4-neon", "gemini-3.8-flash"]`
+  - 默认候选模型池：`["gemini-4-carbon", "gemini-4-neon", "gemini-3.8-flash"]`（默认锁定 `gemini-4-carbon`）。
   - 环境变量覆盖：`GEMINI_MODEL_CH_A`，非空时置顶并去重。
+  - **双模传输调度架构**：
+    - **主路径（`interactions_bg`）**：调用 Interactions API `client.interactions.create(background=True, store=True)`，传入 `max_output_tokens=65536` 与 `v1` 多态 `response_format={"type": "text", "mime_type": "application/json", "schema": ...}`（无顶层 `response_mime_type` 参数）；通过 `interaction.id` 每 10s 短连接轮询一次（超时默认 900s，可通过 `CH_A_BG_TIMEOUT_SEC` 覆盖）；轮询中遭遇网络断连/抖动时仅重建 Client 并继续轮询原 ID（最多连续容忍 5 次网络异常），不丢弃任务、不重复计费；
+    - **自动回退路径（`stream_with_thoughts`）**：SDK 缺失 interactions 或返回非 thinking 类 400 `invalid_request` / 不支持错误时，打 WARN 日志并零耗时快速回退至 `generate_content_stream`（显式开启 `include_thoughts=True` 与 `max_output_tokens=65536`），利用思维摘要分片作为长思考心跳保活；遍历分片时严格跳过 `thought=True`，仅拼接正文解析为 JSON。
+    - **可观测性规范**：每次调用日志显式打印 `transport=interactions_bg` 或 `transport=stream_with_thoughts`、模型名、思考档位、轮询/总耗时及真实 token 统计（`input` / `thought` / `output`）。
   - **输入逐字稿瘦身**：严格仅向通道 A 传递 `[MM:SS] <speaker>: <en>`（英文原声文本），剔除 `zh` 中文译文以削减近半输入 Token、缩短首字节思考静默时间，调用前记录 `input_chars` 字符数。
   - 思考等级与自动适配：`GEMINI_THINKING_CH_A`（可选）。
     - 显式覆盖：若环境变量非空（`.strip()` 判空），返回其小写值（若显式设为 `"default"` 或 `"none"` 则返回 `None` 走模型默认）；

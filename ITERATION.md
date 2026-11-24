@@ -34,13 +34,27 @@
     - 前端浅深色主题（`#2D6A4F` / `#74C69D`）、`Ira Glass` 专属印章色标（`spk-ira`）、高清封面 `artwork-tal-512.png` 与带空格/URL 的 Hash 路由深度支持；
   - **验收落地**：第 436 期 *The Psychopath Test* 全量入库，19 期单集严格通过 `validate_data.py --strict` 门禁，13 项稳定性单元测试全通，Browser Agent 多端质检 Console 0 报错。
 
+- [x] **M11**：Channel A 传输层升级与 Interactions API 异步轮询加固（2026-11-24 通过）
+  - **双模传输架构**：
+    1. **主路径（`interactions_bg`）**：默认锁定 `gemini-4-carbon @ high`，采用 `client.interactions.create(background=True, store=True)` 异步提交 + 短连接轮询（默认 10s 间隔，上限 900s 可由 `CH_A_BG_TIMEOUT_SEC` 覆盖）；
+    2. **入参严格对齐 v1 规范**：彻底移除顶层 `response_mime_type`，采用 `v1` 多态 `response_format={"type": "text", "mime_type": "application/json", "schema": ...}`，保留 `max_output_tokens=65536` 防止长思考挤占输出；
+    3. **轮询局部容错**：轮询遇偶发网络断连仅重建 Client 继续轮询原 `interaction.id`（最多容忍 5 次连续异常），绝不重交计费；
+    4. **非 thinking 类 400 快速失败回退**：遇到无效参数/不支持等错误立即打 WARN 日志并快速回退至 `stream_with_thoughts`（`include_thoughts=True` 心跳保活），杜绝无效空转重试；
+  - **验收落地**：
+    - `requirements.txt` 升级 `google-genai>=3.6.1`；
+    - 19 项稳定性单元测试 100% 通过（涵盖 Interactions 提交/轮询/完成、轮询断连 Client 重建、思维分片跳过、超时外层重试与 400 快速回退）；
+    - `validate_data.py --strict` 零报错通过；
+    - 真实冒烟实测一次性命中 `gemini-4-carbon @ high`，`transport=interactions_bg`，根除 GitHub Actions 与本地代理断流回退 `gemini-3.8-flash` 隐患。
+
 ---
 
-## 当前稳定基线：v3.4 3 档播客全面上线与长音频高稳定基线
+## 当前稳定基线：v3.5 Channel A 旗舰异步轮询与双模长思考保活基线
 
 - **当前线上资产规模**：3 档活跃播客（*The Air Show* 11 期 + *Sinica Podcast* 7 期 + *This American Life* 1 期，共 19 期），全量覆盖 v3.1 知识卡片与分幕导读，CI 门禁与定时巡检持续自动运行。
 - **架构演进成果**：
   - 断点防丢：Channel B 中间结果自动落盘，彻底解决长音频在 Channel A 断连导致的重复转写 Token 与时间浪费；
+  - 异步轮询：Channel A 默认锁定 `gemini-4-carbon @ high`，基于 Interactions API 后台执行与短连接轮询，根本消除流式长静默超时；
+  - 思维心跳保活回退：无缝兜底 `stream_with_thoughts`，在 SDK 不支持时自动启用思维分片保活并纯净过滤；
   - 弹性容灾：300s 超时、Socket 断连重建与思考档位平滑降级，确保大单集在各种网络波动下稳定收敛；
   - 风格自适应：`analytical` 深度分析体与 `narrative` 特稿分幕体双引擎并存驱动。
 - **后续可选演进池（Backlog，按需排期）**：
