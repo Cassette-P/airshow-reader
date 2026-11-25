@@ -1,0 +1,2568 @@
+{
+  "schema_version": "3.0",
+  "show_id": "tal",
+  "guid": "46259 at https://www.thisamericanlife.org",
+  "title": "902: The Missing Minutes",
+  "pub_date": "2026-11-16T01:00:00Z",
+  "duration_sec": 3426,
+  "audio_url": "https://www.thisamericanlife.org/sites/default/files/audio/upload/archive/902.mp3",
+  "summary_zh": "本期围绕人生的“记忆空白与未解之谜”展开：当我们苦寻多年终于获知真相，或某天一切困惑突然得到解答时，我们会走向何处？代班主持人 Aviva DeKornfeld 在 Prologue 中切入温哥华机场酒吧的卧底现场，身藏录音器的 Vienna Luke 等待十余年未见的姐夫 Justin，追问二十岁那晚失落的记忆。Act One 呈现了这场惊心动魄的对峙：Vienna 冷静套出姐夫下药与偷拍的罪证，虽将其送入监狱、解开十四年心结，却未能唤回偏袒丈夫的大姐 Sunny。Act Two 由 Miranda July 朗读短篇小说，从“已知的未知”转向“未知的未知”：主人公突然被告知过往苦难只是一场测试，所有人都在野餐会上等着爱她，但她却逃回浴缸与床榻，在熟悉而遗憾的孤独中安然入睡。",
+  "key_takeaways_zh": [
+    "Prologue（主持人 Aviva DeKornfeld）：在温哥华机场酒店酒吧的警方卧底现场，身藏两个隐秘录音器的 Vienna Luke 等待十年未见的姐夫 Justin 现身，准备揭开困扰她十余年的记忆空白。",
+    "Act One: Known Unknowns（记者 Aviva DeKornfeld）：Vienna Luke 在事发十四年后孤身对峙曾给自己下药性侵的姐夫 Justin 并套出全部罪证，最终将其送入联邦监狱并获得精神解脱，却依然未能唤回执迷不悟的大姐 Sunny。",
+    "Act Two: Unknown Unknowns（作者与朗读 Miranda July）：一篇超现实短篇小说设想某天主人公突然得知过往人生的所有伤痛与遗憾都只是一场“测试”，但在众人盛大的爱意面前，她却本能地逃回孤独而熟悉的日常悲剧中。"
+  ],
+  "highlights": [
+    {
+      "start_sec": 11,
+      "title_zh": "Prologue: 卧底赴约",
+      "summary_zh": "温哥华机场酒店酒吧里，Vienna Luke 在手提包和内衣里各藏了一个录音器，在便衣警察的暗中包围下等待十年未见的姐夫 Justin。面对十多年前那晚记忆断片的长期折磨，她终于迎来了当面质问所有真相的时刻。",
+      "quote_en": "So what's it like to actually get all the answers you spent so long wondering about? And where's that leave you?"
+    },
+    {
+      "start_sec": 238,
+      "title_zh": "Act One: 已知的未知",
+      "summary_zh": "故事回溯到十四年前，二十岁的福音派女孩 Vienna 在大姐 Sunny 外出时，听信教会领袖姐夫 Justin“在安全环境体验醉酒”的提议喝下调酒。她很快双腿失去知觉昏迷，醒来时只残留一段姐夫脱下她内裤的离体记忆，而全家为了维持表面和睦选择了沉默。",
+      "quote_en": "Oh, do you want to, like, get drunk, to experience what it's like to be drunk in a safe place?"
+    },
+    {
+      "start_sec": 795,
+      "title_zh": "前同事揭开下药与偷拍",
+      "summary_zh": "事发十二年后，Vienna 决定彻查真相，二姐 Shaughnessy 协助联系了 Justin 兽医诊所的前员工。前员工不仅证实 Justin 曾询问如何给人类下药使其彻底昏迷，还透露诊所电脑里曾发现他与昏迷裸女的自拍照，这促成警方启动正式卧底调查。",
+      "quote_en": "And she says, 'I know why you're calling. He drugged your sister.'"
+    },
+    {
+      "start_sec": 1114,
+      "title_zh": "检察官式的当面审讯",
+      "summary_zh": "经过卧底警察的训练，Vienna 带着问题清单在机场酒吧与 Justin 正面交锋。每当 Justin 试图用戒除性瘾学来的心理学术语或“社会物化女性”等空泛借口推卸责任时，Vienna 都异常坚定而敏锐地将对话拉回那晚的具体事实上。",
+      "quote_en": "Okay, but you're not actually telling me what happened."
+    },
+    {
+      "start_sec": 1461,
+      "title_zh": "冷血供述与荒谬底线",
+      "summary_zh": "在 Vienna 的步步紧逼下，Justin 承认在酒里下药、拍下三十张裸照并在她身上自慰，甚至在谈话尾声顺带供出曾多次在窗外偷拍她。令人震惊的是，他始终用一套自欺欺人的“行为底线”为自己开脱，在一个半小时的对峙中未曾说过一句抱歉。",
+      "quote_en": "He's come up with a story he can tell himself so that he's still a good person, because there are lines he drew and rules he set that he stayed on the right side of."
+    },
+    {
+      "start_sec": 2414,
+      "title_zh": "解开心结与大姐的曲奇",
+      "summary_zh": "对峙结束后，强撑许久的 Vienna 冲进洗手间迎来生理性的情绪释放；这份录音铁证最终将 Justin 送进联邦监狱，也让她彻底摆脱了十四年的精神囚禁。然而大姐 Sunny 始终站在丈夫一边未曾听过录音，Vienna 最终吃掉了大姐托 Justin 捎来的曲奇，心底仍留有一丝期盼。",
+      "quote_en": "It's kind of crazy how captive I was to everything that was done to me, the not knowing, and how much it, yeah, dictated so much of my life."
+    },
+    {
+      "start_sec": 2848,
+      "title_zh": "Act Two: 未知的未知",
+      "summary_zh": "第二幕转向生活中那些难以名状的缺失感，作家 Miranda July 朗读了一篇短篇小说。故事中主人公突然收到通知：她通过了测试，过往人生中所有的冷漠老师、混蛋前任与困顿境遇都只是为了检验她有多坚强而演的戏，所有人都在公园野餐会等待拥抱她。",
+      "quote_en": "It was all just a test. We were only kidding. Real life is so much better than that."
+    },
+    {
+      "start_sec": 3126,
+      "title_zh": "逃离完美野餐躲进浴缸",
+      "summary_zh": "身处被所有人无条件深爱的奇幻野餐会中，主人公却借口去查邮政信箱，随后径直开车回家泡进浴缸。她放了全世界鸽子，搞砸了被所有人接纳的唯一机会，却在这场自我制造的遗憾重压下感受到一种近乎体温的踏实感，安然入睡。",
+      "quote_en": "As this person climbs into bed, the weight of this tragedy seems to bear down upon this person's chest. And it is a comforting weight, almost human in heft."
+    }
+  ],
+  "vocab_notes": [
+    {
+      "term": "wired for sound",
+      "meaning_zh": "身上暗藏窃听或录音设备",
+      "note_zh": "源自刑侦与影视俚语（常简作 wear a wire），指卧底或线人在衣物下隐藏麦克风和录音器以秘密取证。",
+      "start_sec": 36
+    },
+    {
+      "term": "known unknowns",
+      "meaning_zh": "已知的未知（明确知道自己缺失却尚未查明的真相）",
+      "note_zh": "源自美国前国防部长 Donald Rumsfeld 著名的认识论修辞，本期借“已知的未知”与“未知的未知”巧妙串联起两幕关于记忆空白与人生谜团的故事。",
+      "start_sec": 238
+    },
+    {
+      "term": "two-stepping",
+      "meaning_zh": "跳乡村两步舞",
+      "note_zh": "Country two-step 是北美乡村音乐场景中非常普及的双人社交舞，此处勾勒出加拿大北部小镇的日常家庭生活氛围。",
+      "start_sec": 364
+    },
+    {
+      "term": "operating on autopilot",
+      "meaning_zh": "麻木机械地应付日常；处于自动驾驶状态",
+      "note_zh": "借用航空自动驾驶概念的常见口语隐喻，生动形容人在遭受心理创伤或抑郁时灵魂抽离、仅靠惯性维持生活的状态。",
+      "start_sec": 665
+    },
+    {
+      "term": "see-no-evil Switzerland",
+      "meaning_zh": "装聋作哑的“中立国瑞士”",
+      "note_zh": "融合了谚语“非礼勿视”（see no evil）与永久中立国瑞士的文化代称，讽刺父母在家庭性侵裂痕面前逃避表态的伪中立姿态。",
+      "start_sec": 761
+    },
+    {
+      "term": "secret sauce",
+      "meaning_zh": "独门秘诀；核心制胜法宝",
+      "note_zh": "原指快餐汉堡里的秘制酱料，在美式口语中广泛引申为某人之所以脱颖而出、卓有成效的关键特质。",
+      "start_sec": 913
+    },
+    {
+      "term": "therapy-speak",
+      "meaning_zh": "心理咨询腔；滥用的心理学术语套话",
+      "note_zh": "当代北美流行文化热词，多含贬义，指将“创伤”“披露”“疗愈”等心理治疗词汇工具化，用以包装自私行为或逃避道德责任。",
+      "start_sec": 1162
+    },
+    {
+      "term": "come clean",
+      "meaning_zh": "全盘招认；坦白交代",
+      "note_zh": "地道英语习语，指把隐瞒已久的秘密、谎言或罪责彻底坦白出来。",
+      "start_sec": 2262
+    },
+    {
+      "term": "blow off",
+      "meaning_zh": "放鸽子；刻意爽约或无视某人",
+      "note_zh": "美式日常口语高频短语，指不把既定约会或他人的期待当回事而随意缺席。",
+      "start_sec": 3186
+    }
+  ],
+  "references": [
+    {
+      "title": "Personally: Agent Layla",
+      "creator": "CBC",
+      "category": "media",
+      "note_zh": "加拿大广播公司（CBC）出品的四集叙事播客系列，深度追踪了 Vienna Luke 卧底调查姐夫一案的完整始末，也是本期第一幕故事的最初来源。",
+      "start_sec": 2794
+    },
+    {
+      "title": "All Fours",
+      "creator": "Miranda July",
+      "category": "book",
+      "note_zh": "主持人 Aviva DeKornfeld 在节目尾声强烈推荐的 Miranda July 长篇小说，称这是自己唯一一本读完后立刻翻回第一页重读的书。",
+      "start_sec": 3295
+    },
+    {
+      "title": "Miranda July (Substack newsletter_publication)",
+      "creator": "Miranda July",
+      "category": "media",
+      "note_zh": "节目与简介中共同推荐的作家 Miranda July 个人 Substack 专栏，收录了她的更多文学创作与随笔。",
+      "start_sec": 3307
+    }
+  ],
+  "transcript": [
+    {
+      "id": 1,
+      "start_sec": 0,
+      "speaker": "Ira Glass",
+      "en": "A quick warning, there are curse words that are un-beeped in today's episode of the show. If you prefer a beeped version, you can find that at our website, thisamericanlife.org.",
+      "zh": "先做个提醒，今天的节目中包含未被消音的粗口脏话。如果你想收听经过消音处理的版本，请登录我们的官网 thisamericanlife.org。"
+    },
+    {
+      "id": 2,
+      "start_sec": 11,
+      "speaker": "Aviva DeKornfeld",
+      "en": "It's This American Life. I'm Aviva DeKornfeld, sitting in for Ira Glass. So there's this recording I heard a couple months ago. And when I heard it, I could not believe it existed. I'd never heard anything like it.",
+      "zh": "这里是 This American Life。我是 Aviva DeKornfeld，代班 Ira Glass。几个月前，我听到了一段录音。听到的时候，我简直不敢相信世上居然会有这种录音存在。我以前从未听过类似的东西。"
+    },
+    {
+      "id": 3,
+      "start_sec": 25,
+      "speaker": "Aviva DeKornfeld",
+      "en": "It was recorded at a hotel bar at the Vancouver Airport by this woman named Vienna Luke. She'd arranged to meet with this guy, Justin, who she hadn't seen in almost a decade.",
+      "zh": "那是温哥华机场一家酒店的酒吧里录下的，录音者名叫 Vienna Luke。她约了一个叫 Justin 的男人见面，两人已经有将近十年没见了。"
+    },
+    {
+      "id": 4,
+      "start_sec": 36,
+      "speaker": "Aviva DeKornfeld",
+      "en": "She's sitting at a table. She orders a tea, sipping it slowly while she waits for him to arrive. She's wired for sound.",
+      "zh": "她坐在桌子旁，点了一杯茶，一边小口抿着，一边等他来。她身上绑着窃听录音设备。"
+    },
+    {
+      "id": 5,
+      "start_sec": 45,
+      "speaker": "Vienna Luke",
+      "en": "Every so often I'm kind of glancing towards the toward the hostess desk is, and then I see Justin walk in across the restaurant, and he's asking the hostess where I'm sitting, or like, or he's saying like I'm meeting someone here.",
+      "zh": "我不时往迎宾台那边瞟一眼。接着我看到 Justin 走了进来，穿过餐厅，他向领位员询问我坐哪儿，或者是在说‘我和别人约在这儿碰头’之类的话。"
+    },
+    {
+      "id": 6,
+      "start_sec": 64,
+      "speaker": "Vienna Luke",
+      "en": "Oh, I think the guy is here. Dang, looks exactly the same.",
+      "zh": "噢，他人好像到了。该死，长得跟当年一模一样。"
+    },
+    {
+      "id": 7,
+      "start_sec": 70,
+      "speaker": "Vienna Luke",
+      "en": "And I say, \"Dang, he looks exactly the same.\" Like he is exactly who he has always been. He has not changed, and he has no idea what's coming, because he doesn't know I'm different.",
+      "zh": "我心里暗骂：‘该死，他简直一点都没变。’他还是原来那个他，没有丝毫改变，而且他根本不知道接下来会面对什么，因为他不知道如今的我已经脱胎换骨了。"
+    },
+    {
+      "id": 8,
+      "start_sec": 88,
+      "speaker": "Aviva DeKornfeld",
+      "en": "Vienna's got a hidden recorder in her purse sitting on the table, and another recorder hidden in her bra. There are three cops in plain clothes sitting at tables around her, and a bunch more upstairs in a hotel room.",
+      "zh": "Vienna 把一支录音笔藏在桌上的手提包里，另一支则藏在文胸内。四周的桌子旁坐着三名便衣警察，楼上的酒店客房里还埋伏着好几个。"
+    },
+    {
+      "id": 9,
+      "start_sec": 101,
+      "speaker": "Aviva DeKornfeld",
+      "en": "Justin spots Vienna, walks over to her table, and Vienna jumps right in with a nervous preamble.",
+      "zh": "Justin 发现了 Vienna，朝她的桌子走过来。Vienna 开门见山，带着紧张的语气做了开场白。"
+    },
+    {
+      "id": 10,
+      "start_sec": 108,
+      "speaker": "Vienna Luke",
+      "en": "Okay. So, yeah, obviously haven't really wanted to do this for quite some time. And, but I actually have a notebook today, and I wrote notes because I want to make sure that I cover off everything that I want to.",
+      "zh": "好吧。那个……很显然，在很长一段时间里我都不是很想做这件事。不过，我今天其实带了个笔记本，上面记了笔记，因为我想确保把我想说的事情都过一遍。"
+    },
+    {
+      "id": 11,
+      "start_sec": 131,
+      "speaker": "Vienna Luke",
+      "en": "Phew, and we're going to take this at my pace. And--",
+      "zh": "呼，咱们就按我的节奏来聊。还有——"
+    },
+    {
+      "id": 12,
+      "start_sec": 136,
+      "speaker": "Justin",
+      "en": "Can I just ask, before we start, are you recording this?",
+      "zh": "在我们开始之前，我能问一句吗，你在录音吗？"
+    },
+    {
+      "id": 13,
+      "start_sec": 139,
+      "speaker": "Vienna Luke",
+      "en": "No.",
+      "zh": "没有。"
+    },
+    {
+      "id": 14,
+      "start_sec": 141,
+      "speaker": "Justin",
+      "en": "It wouldn't matter to me, because I feel this is your conversation and you do with it whatever you want.",
+      "zh": "我其实无所谓的，因为我觉得这是你的谈话，你想怎么样都可以。"
+    },
+    {
+      "id": 15,
+      "start_sec": 150,
+      "speaker": "Aviva DeKornfeld",
+      "en": "Vienna is secretly recording because she's pretty sure that, years ago, Justin assaulted her. But she doesn't know for sure. She has big gaps in her memory from that night.",
+      "zh": "Vienna 在秘密录音，因为她几乎断定，多年前 Justin 侵犯了她。但她不敢百分之百肯定。那一晚她的记忆存在巨大的空白断层。"
+    },
+    {
+      "id": 16,
+      "start_sec": 163,
+      "speaker": "Aviva DeKornfeld",
+      "en": "Memory gaps are pretty common in cases of sexual assault, which makes for a horrible situation, because the one person who could clear things up and tell you what happened, the person who assaulted you, is the least likely person to talk to you and tell you the truth.",
+      "zh": "在性侵案件中，记忆断层非常普遍，这造成了一种极其残酷的局面：因为那个唯一能帮你解开谜团、告诉你究竟发生了什么的人——也就是侵犯你的那个人——偏偏是全天下最不可能坐下来跟你谈、跟你说实话的人。"
+    },
+    {
+      "id": 17,
+      "start_sec": 180,
+      "speaker": "Aviva DeKornfeld",
+      "en": "Because why would they? In Vienna's case, though, the man, Justin, actually agreed to sit down with her and talk about everything, to answer all of her questions in detail.",
+      "zh": "毕竟他们凭什么答应呢？但在 Vienna 这个案子里，那个叫 Justin 的男人竟然真的同意坐下来跟她谈，从头到尾回答她的所有问题，事无巨细。"
+    },
+    {
+      "id": 18,
+      "start_sec": 194,
+      "speaker": "Aviva DeKornfeld",
+      "en": "I think most of us walk around with blank spots in our lives, small ones, big ones. And a lot of the time, you just give up on trying to get answers, accepting that you're just going to wonder forever.",
+      "zh": "我想我们大多数人的生活里都带着空白和谜团，有的微不足道，有的重若千钧。很多时候，大家索性放弃了追寻答案，认命地接受自己这辈子只能在困惑中度过。"
+    },
+    {
+      "id": 19,
+      "start_sec": 207,
+      "speaker": "Aviva DeKornfeld",
+      "en": "So what's it like to actually get all the answers you spent so long wondering about? And where's that leave you? Most of our show today is going to be the story of this recording. It's really remarkable. Stay with us.",
+      "zh": "那么，如果你苦苦琢磨了这么久的疑问，真的全都得到了确切的答案，会是怎样一种体验？这又会把你带向何方？今天节目的绝大部分内容，都是围绕这盘录音展开的。这段对话非同寻常。请不要走开。"
+    },
+    {
+      "id": 20,
+      "start_sec": 238,
+      "speaker": "Aviva DeKornfeld",
+      "en": "It's This American Life. Act One, \"Known Unknowns.\" So Vienna is at this hotel bar at the Vancouver Airport, wearing that hidden recorder.",
+      "zh": "这里是 This American Life。第一幕，“已知的未知”。此时 Vienna 正坐在温哥华机场的一家酒店酒吧里，身上带着那台隐藏式录音机。"
+    },
+    {
+      "id": 21,
+      "start_sec": 248,
+      "speaker": "Aviva DeKornfeld",
+      "en": "And just a heads up before we start, this story includes a bunch of explicit details and references to sexual assault.",
+      "zh": "在开始之前先提醒一下大家，本期故事包含不少露骨细节，并涉及性侵话题。"
+    },
+    {
+      "id": 22,
+      "start_sec": 256,
+      "speaker": "Aviva DeKornfeld",
+      "en": "The man in the recording, which we'll get to in a minute, his name is Justin. He's a father of four boys, a veterinarian, though he has a sort of finance guy look about him, close-cropped hair, symmetrical face, wouldn't look out of place in a Patagonia vest.",
+      "zh": "录音里的那个男人，我们马上就会听到，他叫 Justin。他是四个男孩的父亲，一名兽医，但他身上却有种金融男的气质——寸头、五官端正对称，穿一件巴塔哥尼亚背心也毫无违和感。"
+    },
+    {
+      "id": 23,
+      "start_sec": 270,
+      "speaker": "Aviva DeKornfeld",
+      "en": "Vienna is a fitness instructor, a mom to two kids. She's warm and sensitive and loves an inspirational quote. She and Justin are actually related. Justin is Vienna's brother-in-law, her oldest sister Sunny's husband.",
+      "zh": "Vienna 是一名健身教练，也是两个孩子的母亲。她热情细腻，特别喜欢看那些励志名言。她和 Justin 实际上是亲戚。Justin 是 Vienna 的姐夫，也是她大姐 Sunny 的丈夫。"
+    },
+    {
+      "id": 24,
+      "start_sec": 285,
+      "speaker": "Vienna Luke",
+      "en": "I met him when I was 10. And, yeah, he felt like an older brother. And I'd only had sisters. So having a brother was exciting. And I thought he was charming.",
+      "zh": "我认识他时才十岁。而且，是啊，感觉他就像个亲哥哥。我身边只有姐妹，所以有个哥哥特别令人兴奋。当时我觉得他挺有魅力的。"
+    },
+    {
+      "id": 25,
+      "start_sec": 304,
+      "speaker": "Vienna Luke",
+      "en": "I mean, he was very self-assured. And I I guess I thought that was cool.",
+      "zh": "我的意思是，他身上那股自信很足。我想我当时觉得那样挺酷的。"
+    },
+    {
+      "id": 26,
+      "start_sec": 311,
+      "speaker": "Aviva DeKornfeld",
+      "en": "For 14 years, Vienna has wanted to ask Justin about one night from when she was 20 and he was 31. She was living with Sunny and Justin up in their small, northern Canadian town where they'd moved after they got married.",
+      "zh": "整整十四年来，Vienna 都一直想找 Justin 问个清楚——关于她二十岁、他三十一岁时发生的那一晚。当时她借住在 Sunny 和 Justin 家，就在他们婚后搬去的加拿大北部小镇上。"
+    },
+    {
+      "id": 27,
+      "start_sec": 325,
+      "speaker": "Aviva DeKornfeld",
+      "en": "And one day, when Sunny was away, Justin asked Vienna—",
+      "zh": "有一天，趁着 Sunny 不在，Justin 问了 Vienna 一句——"
+    },
+    {
+      "id": 28,
+      "start_sec": 329,
+      "speaker": "Vienna Luke",
+      "en": "\"Oh, do you want to, like, get drunk, to experience what it's like to be drunk in a safe place?\" Like that was the promise.",
+      "zh": "“你想不想喝个烂醉，在一个安全的地方体验一下喝醉到底是什么感觉？”他当时就是这么保证的。"
+    },
+    {
+      "id": 29,
+      "start_sec": 338,
+      "speaker": "Aviva DeKornfeld",
+      "en": "Which sounded reasonable to Vienna. She and her family were evangelical Christians. She went to church every Sunday. Justin was part of the leadership.",
+      "zh": "这在 Vienna 听来很合情理。她和家人都是福音派基督徒，她每个礼拜天都去教堂，而 Justin 还是教会的骨干。"
+    },
+    {
+      "id": 30,
+      "start_sec": 346,
+      "speaker": "Aviva DeKornfeld",
+      "en": "And she'd had friends in the church who'd gotten drunk for the first time under a similar arrangement. So Justin makes Vienna a few mixed drinks to try, a strawberry daiquiri, a pina colada, some kind of Kahlua thing.",
+      "zh": "教会里有些朋友也是在类似的安全照应下第一次尝试喝醉的。于是 Justin 给 Vienna 调了几款鸡尾酒尝鲜：草莓德基利、椰林飘香，还有某种加了甘露咖啡利口酒的饮品。"
+    },
+    {
+      "id": 31,
+      "start_sec": 359,
+      "speaker": "Aviva DeKornfeld",
+      "en": "Exactly the kind of drinks you might make for an abstinent 20-year-old trying to develop a taste for booze.",
+      "zh": "简直就是一个二十岁滴酒不沾、刚开始学着尝酒滋味的人会喝的典型饮料。"
+    },
+    {
+      "id": 32,
+      "start_sec": 360,
+      "speaker": "Aviva DeKornfeld",
+      "en": "would order for yourself if you were 20 and didn't like the taste of alcohol.",
+      "zh": "你要是才二十岁又受不了酒精味，准会给自己点的那种。"
+    },
+    {
+      "id": 33,
+      "start_sec": 364,
+      "speaker": "Vienna Luke",
+      "en": "He's got music playing, like country music, and after I had a couple sips, he was, like, dancing with me, like two-stepping with me. And I feel like already then I was starting to feel a little bit, like, woozy.",
+      "zh": "他放着音乐，好像是乡村音乐。我喝了几小口后，他就拉着我跳舞，跳那种双步舞。我感觉就在那个时候，我已经开始觉得有点晕晕乎乎了。"
+    },
+    {
+      "id": 34,
+      "start_sec": 384,
+      "speaker": "Vienna Luke",
+      "en": "And then I basically lose feeling in my legs and collapse on the ottoman. And I'm like, oh my goodness, if this is what it feels like to be drunk, this is rough. Like, why do people-- why do people do this?",
+      "zh": "紧接着我的双腿基本上就没知觉了，整个人瘫倒在脚凳上。我心里想：天呐，要是喝醉了就是这感觉，那也太难受了吧。大家为什么——为什么还要喝酒啊？"
+    },
+    {
+      "id": 35,
+      "start_sec": 404,
+      "speaker": "Aviva DeKornfeld",
+      "en": "Vienna passes out. A little while later, she comes to in her bedroom, which is in the basement. She has no clue how she got there from the living room upstairs.",
+      "zh": "Vienna晕了过去。过了一会儿，她在地下室的卧室里醒了过来。她根本不知道自己是怎么从楼上的客厅到这里的。"
+    },
+    {
+      "id": 36,
+      "start_sec": 413,
+      "speaker": "Aviva DeKornfeld",
+      "en": "And she only has one more brief memory from the evening. Warning for the listeners, this next detail might be upsetting.",
+      "zh": "对那个夜晚，她只剩下最后一段短暂的记忆。在此提醒听众，接下来的细节可能会让人感到不适。"
+    },
+    {
+      "id": 37,
+      "start_sec": 422,
+      "speaker": "Aviva DeKornfeld",
+      "en": "The one moment Vienna woke up, she remembers having an out-of-body experience, looking down at herself, seeing Justin taking off her underwear.",
+      "zh": "Vienna唯一醒来的那个瞬间，她记得自己有一种灵魂出窍的感觉，低头看着自己，看到Justin正在脱她的内裤。"
+    },
+    {
+      "id": 38,
+      "start_sec": 431,
+      "speaker": "Aviva DeKornfeld",
+      "en": "The next morning, Vienna wakes up with a stomachache and a bad feeling. She tells Justin that she's not sure exactly what happened, but that she thinks he should tell Sunny.",
+      "zh": "第二天早上，Vienna醒来时肚子疼，心里也笼罩着一种不祥的预感。她告诉Justin，自己记不清到底发生了什么，但觉得他应该告诉Sunny。"
+    },
+    {
+      "id": 39,
+      "start_sec": 441,
+      "speaker": "Aviva DeKornfeld",
+      "en": "He brushes her off, saying there's no need to tell her. It'll just trouble her. And besides, nothing happened anyway.",
+      "zh": "他对此不以为意，说没必要告诉她，说了只会让她平添烦恼。况且，本来就什么都没发生。"
+    },
+    {
+      "id": 40,
+      "start_sec": 449,
+      "speaker": "Vienna Luke",
+      "en": "I'm like, okay, yeah, that's what I've been trying to tell myself too, like as this memory comes back.",
+      "zh": "我当时就想：行吧，也是，这段记忆涌上来的时候，我也一直试图这么说服自己。"
+    },
+    {
+      "id": 41,
+      "start_sec": 454,
+      "speaker": "Aviva DeKornfeld",
+      "en": "You were, like, almost hoping for that answer to be like, okay, it's nothing, right? It's nothing.",
+      "zh": "你几乎是在期盼得到这样的回答，好让自己觉得：行，没事，对吧？什么都没发生。"
+    },
+    {
+      "id": 42,
+      "start_sec": 459,
+      "speaker": "Vienna Luke",
+      "en": "Yeah, it's nothing. I mean, even in the moment, I remember telling myself, he's taking off my underwear because, like, I must have vomited. I must have gotten, like--",
+      "zh": "对，什么都没发生。我是说，甚至在那个当下，我都记得自己在心里开脱：他脱我内裤是因为……我肯定是吐了，我肯定是弄脏了……"
+    },
+    {
+      "id": 43,
+      "start_sec": 472,
+      "speaker": "Aviva DeKornfeld",
+      "en": "Like it, this must be a brotherly, familial act.",
+      "zh": "觉得这肯定是一个哥哥出于家人的照料举动。"
+    },
+    {
+      "id": 44,
+      "start_sec": 476,
+      "speaker": "Vienna Luke",
+      "en": "Yeah. Like, oh, he's just-- he's just changing my clothes because I threw up on myself. So I'd say things like that to myself. And then I'd be like, but why would he have to change my underwear?",
+      "zh": "对。就觉得，哦，他只是——他只是帮我换衣服，因为我吐在自己身上了。我当时就会用这些话安慰自己。可转念我又会想：但他凭什么要换我的内裤啊？"
+    },
+    {
+      "id": 45,
+      "start_sec": 493,
+      "speaker": "Aviva DeKornfeld",
+      "en": "So this night happens. And Vienna has to decide, does she tell her family? And if she does, what exactly is she even telling them if she doesn't know any of the details?",
+      "zh": "那一夜就这样过去了。Vienna不得不做出抉择：要不要告诉家人？可要是说，在自己对细节一无所知的情况下，她到底又能跟他们说些什么？"
+    },
+    {
+      "id": 46,
+      "start_sec": 504,
+      "speaker": "Aviva DeKornfeld",
+      "en": "Vienna's family is one that makes a point to spend a lot of time all together-- Vienna's parents, her two sisters, and her. Vienna is the baby.",
+      "zh": "Vienna的家是一个特别看重全家团聚的家庭——她的父母、两个姐姐，还有她。Vienna是家里最小的孩子。"
+    },
+    {
+      "id": 47,
+      "start_sec": 513,
+      "speaker": "Aviva DeKornfeld",
+      "en": "She grew up particularly close with her oldest sister, Sunny, Justin's wife. Sunny is 10 years older than Vienna, so she was more like a second mom to her.",
+      "zh": "她从小跟大姐Sunny（也就是Justin的妻子）感情尤为深厚。Sunny比Vienna大十岁，对她来说更像是第二个妈妈。"
+    },
+    {
+      "id": 48,
+      "start_sec": 521,
+      "speaker": "Aviva DeKornfeld",
+      "en": "Sunny would dote on her, read \"Junie B. Jones\" to her at night. She painted a mural of farm animals on her bedroom wall. When Vienna got older, they'd bake chocolate chip cookies together.",
+      "zh": "Sunny对她呵护备至，晚上会给她读《小屁孩日记之朱妮·琼斯》，还在她卧室墙上画过农场小动物的壁画。等Vienna长大些后，两人还会一起烤巧克力曲奇。"
+    },
+    {
+      "id": 49,
+      "start_sec": 532,
+      "speaker": "Aviva DeKornfeld",
+      "en": "But for months after that night, Vienna doesn't tell anyone about what happened. Until, at the end of a family",
+      "zh": "但在那一晚之后的几个月里，Vienna对所发生的事守口如瓶，没跟任何人提起过。直到后来在一次家庭……"
+    },
+    {
+      "id": 50,
+      "start_sec": 540,
+      "speaker": "Aviva DeKornfeld",
+      "en": "Vienna's middle sister, Shaunessey, notices Justin pull Vienna into this long hug. A hug that looked too intimate to her eye. So, Shaunessey, being the loud, confrontational one in the family, corners Vienna and badgers the truth out of her.",
+      "zh": "Vienna的二姐Shaunessey注意到Justin把Vienna拉过去，抱了很久。在她看来，那个拥抱显得过于亲昵了。于是，性格火爆、直来直去的Shaunessey把Vienna堵在角落，硬生生把真相逼问了出来。"
+    },
+    {
+      "id": 51,
+      "start_sec": 558,
+      "speaker": "Aviva DeKornfeld",
+      "en": "Vienna stumbles through a partial explanation, saying Justin gave her alcohol, but she can't bring herself to mention the one thing she remembers about the night, about him taking off her underwear. But even without that detail, something about the way Vienna was talking, her body language, Shaunessey thought Justin must have done something inappropriate.",
+      "zh": "Vienna结结巴巴地只说了一部分，说Justin灌了她酒，但她实在说不出口那天晚上她唯一记得的事——他脱了她的内裤。不过，即便少了那个细节，从Vienna说话的语气和肢体语言里，Shaunessey还是断定，Justin肯定干了什么出格的事。"
+    },
+    {
+      "id": 52,
+      "start_sec": 579,
+      "speaker": "Aviva DeKornfeld",
+      "en": "So she convinces Vienna to tell their parents, and Vienna tells them what she told Shaunessey. Vienna's parents are very surprised she got drunk. Vienna's dad calls Justin to get answers about what exactly happened. Justin, of course, downplays everything, saying Vienna just drank too much, that's all.",
+      "zh": "于是她说服Vienna告诉父母，Vienna就把跟Shaunessey讲的那套告诉了父母。父母对她喝醉感到非常震惊。Vienna的父亲给Justin打电话，想问清楚到底发生了什么。当然，Justin把事情描得轻描淡写，说Vienna只是喝多了，仅此而已。"
+    },
+    {
+      "id": 53,
+      "start_sec": 599,
+      "speaker": "Aviva DeKornfeld",
+      "en": "When Justin's wife, Sunny, hears about all this, she shuts down entirely. Sunny's not her real name, by the way.",
+      "zh": "当Justin的妻子Sunny听说这一切时，整个人彻底封闭了。顺便提一下，Sunny并不是她的真名。"
+    },
+    {
+      "id": 54,
+      "start_sec": 607,
+      "speaker": "Vienna Luke",
+      "en": "My sister didn't want to know anything, and like, basically pretended like it didn't happen. I think everyone was just so confused. They didn't know what to do with it.",
+      "zh": "我姐姐什么都不想知道，基本上就假装这事从来没发生过。我觉得大家当时都懵了，不知道该怎么处理。"
+    },
+    {
+      "id": 55,
+      "start_sec": 618,
+      "speaker": "Vienna Luke",
+      "en": "And at the end of the day, people just, like they just want the family to be together. So pretty much it was just like life as usual after that. And I would have had to see him at the next family thing.",
+      "zh": "到头来，大家只是……他们只是希望一家人能整整齐齐的。所以基本上，在那之后日子就照旧过了。到了下一次家庭聚会，我又不得不面对他。"
+    },
+    {
+      "id": 56,
+      "start_sec": 638,
+      "speaker": "Aviva DeKornfeld",
+      "en": "There's a terrible ordinariness to sexual violence. I don't know any woman who hasn't, at some point, wondered if a man was going to hurt her. What's extraordinary about Vienna's story, though, is how she chose to respond to what happened to her.",
+      "zh": "性暴力有一种可怕的普遍性。我认识的女性里，几乎没有谁未曾某一刻担心过自己会不会被男人伤害。然而，Vienna的故事之所以与众不同，在于她最终选择如何回应降临在自己身上的伤害。"
+    },
+    {
+      "id": 57,
+      "start_sec": 652,
+      "speaker": "Aviva DeKornfeld",
+      "en": "But that doesn't happen for years, because for almost a decade, Vienna tried to continue on like normal. She's naturally a peacemaker, and pushing the issue with Justin just seemed like it would cause problems for everyone.",
+      "zh": "但这并不是立刻发生的，因为在将近十年的时间里，Vienna都试图若无其事地生活。她生来就是个和事佬，觉得紧咬着Justin不放只会给大家找麻烦。"
+    },
+    {
+      "id": 58,
+      "start_sec": 665,
+      "speaker": "Aviva DeKornfeld",
+      "en": "Plus, at this point, Vienna is depressed, operating on autopilot, and didn't have the wherewithal to force her family to confront a thing she wasn't ready to deal with herself. So, instead, she went to university, spent time with her family, tried to figure out what she wanted to do with her life.",
+      "zh": "况且，那时的Vienna抑郁缠身，整个人全凭本能机械地活着，根本没有心力逼家人去直面一件连她自己都还没准备好面对的事。所以，她照常去上大学，陪伴家人，努力摸索自己的人生方向。"
+    },
+    {
+      "id": 59,
+      "start_sec": 682,
+      "speaker": "Aviva DeKornfeld",
+      "en": "But she couldn't shake the unsettled feeling she'd had ever since the night Justin gave her alcohol. And eventually, the uncertainty about what happened to her that night became this kind of torture, just question marks looping non-stop in the back of her brain as she went about daily life.",
+      "zh": "但自从Justin给她倒酒的那晚之后，那股不安的感觉就如影随形，挥之不去。久而久之，对当晚遭遇的茫然未解变成了一种折磨，在她过着日常生活的同时，无数个问号在脑海深处永无止境地盘旋打转。"
+    },
+    {
+      "id": 60,
+      "start_sec": 699,
+      "speaker": "Aviva DeKornfeld",
+      "en": "Then, in 2014, seven years after the night Justin assaulted her, Vienna's oldest sister, Sunny, discovered that Justin was having an affair. Multiple affairs, actually. This news rocked their community.",
+      "zh": "后来，到了2014年——也就是Justin侵犯她整整七年后——Vienna的大姐Sunny发现Justin出轨了。事实上，是出轨了多个人。这个消息在他们的圈子里掀起了轩然大波。"
+    },
+    {
+      "id": 61,
+      "start_sec": 713,
+      "speaker": "Aviva DeKornfeld",
+      "en": "Everyone had seen him as this wholesome family man, an elder in the church. Sunny ended up taking...",
+      "zh": "之前大家都把他看作顾家的好男人，还是教会里的长老。Sunny最终决定……"
+    },
+    {
+      "id": 62,
+      "start_sec": 720,
+      "speaker": "Aviva DeKornfeld",
+      "en": "Justin back after a couple of months. But for Vienna--",
+      "zh": "几个月后让 Justin 回到了家里。但对 Vienna 来说——"
+    },
+    {
+      "id": 63,
+      "start_sec": 724,
+      "speaker": "Vienna Luke",
+      "en": "It was this affirmation that he was capable of not being a nice guy. I finally like believed myself.",
+      "zh": "这成了一种证实，证明他骨子里绝不是什么好人。我终于……开始相信自己的判断了。"
+    },
+    {
+      "id": 64,
+      "start_sec": 737,
+      "speaker": "Aviva DeKornfeld",
+      "en": "And what was it exactly that you believed?",
+      "zh": "那你具体相信了什么？"
+    },
+    {
+      "id": 65,
+      "start_sec": 739,
+      "speaker": "Vienna Luke",
+      "en": "That he had done something to me, that something had happened.",
+      "zh": "相信他确实对我动过手脚，那一晚绝对发生了什么事。"
+    },
+    {
+      "id": 66,
+      "start_sec": 745,
+      "speaker": "Aviva DeKornfeld",
+      "en": "So Vienna cut Justin out. Shaughnessy did as well. She'd always believed Justin had done something to Vienna, even though at this point, Vienna still hadn't told her the detail about the underwear. Both refused to be in the same room as Justin.",
+      "zh": "于是 Vienna 与 Justin 断绝了往来。Shaughnessy 也同样如此。她一直坚信 Justin 伤害过 Vienna，尽管此时，Vienna 仍未把关于内裤的细节告诉她。姐妹俩都拒绝与 Justin 同处一室。"
+    },
+    {
+      "id": 67,
+      "start_sec": 761,
+      "speaker": "Aviva DeKornfeld",
+      "en": "Vienna's parents positioned themselves as a kind of 'see no evil' Switzerland in the middle of this newfound estrangement, with Vienna and Shaughnessy on one side, and Justin and Sunny on the other. They felt uneasy about what they knew, but they didn't know how else to handle it.",
+      "zh": "面对这突如其来的隔阂，Vienna 的父母选择像“看不见邪恶”的中立国瑞士一样作壁上观：一边站着 Vienna 和 Shaughnessy，另一边是 Justin 和 Sunny。父母对所知道的情况隐隐感到不安，但他们不知道该如何处理。"
+    },
+    {
+      "id": 68,
+      "start_sec": 776,
+      "speaker": "Aviva DeKornfeld",
+      "en": "And so the entire family structure was reorganized to accommodate this vague, undiscussed thing that happened. For a family that loves spending time together, this meant no more holidays, no more family vacations. They all settled into a painful, awkward, strange new normal for a few years.",
+      "zh": "就这样，整个家庭的相处模式都被重构，以容纳这件模糊隐晦、心照不宣发生过的事。对于一个原本热衷于聚在一起的家庭来说，这意味着节假日泡汤，家庭度假取消。几年里，大家都困在了一种令人痛苦、尴尬而古怪的“新常态”中。"
+    },
+    {
+      "id": 69,
+      "start_sec": 795,
+      "speaker": "Aviva DeKornfeld",
+      "en": "Until one night, Vienna called her middle sister, Shaughnessy, and said, 'I'm finally ready to figure out what happened to me.' It had been 12 years since the night.",
+      "zh": "直到某个深夜，Vienna 打电话给二姐 Shaughnessy 说：“我终于做好准备，去查明我身上到底发生过什么了。”距那个夜晚，已经过去了整整十二年。"
+    },
+    {
+      "id": 70,
+      "start_sec": 807,
+      "speaker": "Aviva DeKornfeld",
+      "en": "In order to go to the police, Vienna and Shaughnessy figured they need more evidence than Vienna's one memory of the night. So together, they make a list of everyone they knew Justin had been close with at the time of the assault, but wasn't close to anymore-- old coworkers, former friends. They figured maybe he had talked to someone about what he'd done.",
+      "zh": "要想报警，Vienna 和 Shaughnessy 清楚，单凭 Vienna 对当晚仅存的那点记忆，证据远远不够。于是她们联手列了一份名单，把所有在案发时与 Justin 走得很近、但如今已断了联系的人都记了下来——包括以前的同事、昔日的朋友。她们琢磨着，或许他曾对谁说漏嘴提起过自己的所作所为。"
+    },
+    {
+      "id": 71,
+      "start_sec": 828,
+      "speaker": "Aviva DeKornfeld",
+      "en": "Vienna didn't want to talk to any of these people herself, so Shaughnessy calls roughly a dozen people, including one of Justin's former employees at the vet clinic he ran.",
+      "zh": "Vienna 自己不想出面去接触这些人中的任何一个，于是 Shaughnessy 给大约十几个人打了电话，其中包括 Justin 曾经开办的宠物诊所的一名前雇员。"
+    },
+    {
+      "id": 72,
+      "start_sec": 839,
+      "speaker": "Vienna Luke",
+      "en": "And she says, 'I know why you're calling. He drugged your sister.' And continues to tell my sister everything she-- like, what she knows, that they were working in the back one day, um, in the clinic. And he says, like, 'If you were giving whatever drug it was to a human, how much would you give them to make sure they were out?'",
+      "zh": "那人直接说：‘我知道你为什么打电话来。他给你妹妹下了药。’接着便把她所知道的一切全盘告诉了我姐姐。她说有一天，他们在诊所后屋干活。他突然问：‘如果要给一个人喂某种药（不管是哪种），得下多大剂量才能确保对方完全昏死过去？’"
+    },
+    {
+      "id": 73,
+      "start_sec": 872,
+      "speaker": "Aviva DeKornfeld",
+      "en": "Another former employee told Shaughnessy that one day, the receptionist at the clinic was looking for something on the work computer and accidentally came across pictures of Justin with a naked woman who may have been Vienna. The woman's face wasn't visible. Some of the pictures were selfies Justin took, leaning against the woman's body.",
+      "zh": "另一名前雇员则告诉 Shaughnessy，有一天，诊所的前台在工作电脑上找文件，无意间翻到了 Justin 与一名赤裸女子的合照，那女子很可能就是 Vienna。照片里女人的脸看不清。其中有几张是 Justin 拍的自拍，整个人斜靠在那具女人的躯体上。"
+    },
+    {
+      "id": 74,
+      "start_sec": 892,
+      "speaker": "Aviva DeKornfeld",
+      "en": "With those two pieces of information about the drugs and the pictures, Vienna and Shaughnessy go to the police. Most--",
+      "zh": "握着这两条关键线索——迷药的传闻与电脑里的照片，Vienna 和 Shaughnessy 走向了警局。大多数……"
+    },
+    {
+      "id": 75,
+      "start_sec": 900,
+      "speaker": "Aviva DeKornfeld",
+      "en": "Sexual assault allegations that get reported, they never go anywhere. But Vienna gets extraordinarily lucky by getting the ear of a cop named Joelle Lachance, who's made tricky sexual assault cases her life's work.",
+      "zh": "很多被报案的性侵指控，最终都石沉大海。但 Vienna 却极其幸运，因为她遇上了一位名叫 Joelle Lachance 的警官，这位警官毕生都在攻克复杂的性侵案件。"
+    },
+    {
+      "id": 76,
+      "start_sec": 913,
+      "speaker": "Aviva DeKornfeld",
+      "en": "She's like one of those cops on a TV show whose secret sauce comes down to, she just really gives a shit. She used her vacation days to fly places for this case.",
+      "zh": "她就像电视剧里那种警察，破案的秘诀说到底就一条——她是真的把案子放在心上。为了这个案子，她甚至搭上了自己的年假自费坐飞机到处跑。"
+    },
+    {
+      "id": 77,
+      "start_sec": 923,
+      "speaker": "Aviva DeKornfeld",
+      "en": "She was late to her own sister's funeral because she was helping set up Vienna's Vancouver recording. The idea of going to the police more than a decade after an assault with only one memory of what happened and hearsay from a couple former acquaintances, and being taken seriously seems unimaginable.",
+      "zh": "她连自己亲妹妹的葬礼都迟到了，因为当时她正忙着帮 Vienna 筹划温哥华的那场录音。在一场侵害发生十多年后才去报警，手里仅有一段模糊的记忆和几个旧相识的传言，这种情况下居然还能被警方重视，简直让人难以置信。"
+    },
+    {
+      "id": 78,
+      "start_sec": 942,
+      "speaker": "Aviva DeKornfeld",
+      "en": "But that is what happened. Joelle ropes the undercover police team in to work with Vienna on her case. And they come up with a plan.",
+      "zh": "但事实就是如此。Joelle 把便衣卧底警察团队拉了进来，协助 Vienna 处理案子。他们一起制定了一个方案。"
+    },
+    {
+      "id": 79,
+      "start_sec": 951,
+      "speaker": "Aviva DeKornfeld",
+      "en": "For years, since Vienna first distanced herself from Justin, he had been emailing her periodically, asking her to return to the family. Vienna never responded to those emails.",
+      "zh": "这些年里，自从 Vienna 开始与 Justin 保持距离，他就经常隔三差五给她发邮件，求她回归家庭。Vienna 从来没有回过这些邮件。"
+    },
+    {
+      "id": 80,
+      "start_sec": 962,
+      "speaker": "Aviva DeKornfeld",
+      "en": "But now, with the help of the police, she crafted a response saying, basically, 'I'm willing to move past this, but in order for me to do that, I need you to tell me what happened that night.'",
+      "zh": "但这一次，在警方的指导下，她精心起草了一封回信，大意是说：“我愿意把这事翻篇，但前提是，你必须亲口告诉我那天晚上到底发生了什么。”"
+    },
+    {
+      "id": 81,
+      "start_sec": 974,
+      "speaker": "Aviva DeKornfeld",
+      "en": "Justin writes back and says, very clearly, that he sexually assaulted her. Vienna thinks, 'Okay, that was easy. We got him.'",
+      "zh": "Justin 回信了，白纸黑字写得清清楚楚：他确实性侵了她。Vienna 当时心想：“行啊，这也太容易了吧。抓到他的把柄了。”"
+    },
+    {
+      "id": 82,
+      "start_sec": 985,
+      "speaker": "Aviva DeKornfeld",
+      "en": "But the police say they need more concrete evidence, something undeniable. A lawyer in court could argue that someone other than Justin had written that email to Vienna.",
+      "zh": "但警方表示，他们需要更铁证如山的证据，必须无可辩驳。因为在法庭上，辩护律师完全可以辩称这封邮件根本不是 Justin 本人写的。"
+    },
+    {
+      "id": 83,
+      "start_sec": 995,
+      "speaker": "Aviva DeKornfeld",
+      "en": "And they needed specifics about what exactly he did. So Vienna writes Justin again, saying, 'We need to meet in person, and you need to tell me the details of what happened. That's the only way I'll be able to move forward.'",
+      "zh": "而且，他们需要弄清他具体做了什么的细节。于是 Vienna 再次给 Justin 写信，说：“我们得见一面，你必须当面告诉我当时的细节。只有这样，我才能彻底放下过去。”"
+    },
+    {
+      "id": 84,
+      "start_sec": 1010,
+      "speaker": "Aviva DeKornfeld",
+      "en": "Justin, miraculously, agrees. Vienna thinks it's because he figured he would get to be the hero if he could be the one to reunite the family.",
+      "zh": "奇迹般地，Justin 答应了。Vienna 觉得，这是因为他自以为只要能促成家庭团聚，自己就能成为拯救一切的“大英雄”。"
+    },
+    {
+      "id": 85,
+      "start_sec": 1020,
+      "speaker": "Aviva DeKornfeld",
+      "en": "Justin offers to fly to Vancouver, where Vienna lives, so they decide to meet at the airport. The cops picked the airport because, even though they figured Justin wasn't likely an active threat to Vienna, they knew that if he had just walked off an airplane, there was no way he could have a weapon on him.",
+      "zh": "Justin 主动提出飞到 Vienna 居住的温哥华，于是他们把见面地点定在了机场。警方之所以选在机场，是因为他们推断 Justin 应该不会对 Vienna 构成即时的人身威胁，而且刚下飞机的乘客绝不可能随身携带武器。"
+    },
+    {
+      "id": 86,
+      "start_sec": 1037,
+      "speaker": "Aviva DeKornfeld",
+      "en": "And Vienna liked the airport idea, too. It felt comfortingly anonymous. In preparation for the meeting, the lead undercover cop spent a couple days training Vienna on how to get usable information out of Justin.",
+      "zh": "Vienna 也很赞成在机场见面。那种人来人往的环境带有一种令人安心的匿名感。为了准备这次会面，卧底行动的带头警官花了几天时间对 Vienna 进行专项培训，教她如何从 Justin 口中套出法庭可采信的有效口供。"
+    },
+    {
+      "id": 87,
+      "start_sec": 1050,
+      "speaker": "Vienna Luke",
+      "en": "So the day I did training, I brought in my notebook, and he was like, 'Whoa, this is so weird. You have a notebook? Like nobody brings a notebook.' Because usually—",
+      "zh": "去培训的那天，我带了个笔记本。他当时就愣了：“哇，这太稀奇了。你居然还带了笔记本？从来没人会带笔记本来的。”因为通常——"
+    },
+    {
+      "id": 88,
+      "start_sec": 1062,
+      "speaker": "Aviva DeKornfeld",
+      "en": "Wait, why not?",
+      "zh": "等一下，为什么不带？"
+    },
+    {
+      "id": 89,
+      "start_sec": 1063,
+      "speaker": "Vienna Luke",
+      "en": "Because usually, he's like working with— um, he's like, 'You are very different than the undercover people I usually work with.' Which, not to like stereotype, but many of them were like criminals that he's like—",
+      "zh": "因为平时他接触的那些……他说：“你跟我平时合作的那些卧底线人简直天差地别。”倒不是我有意刻板印象，但他平时接触的很多都是罪犯，那些被他……"
+    },
+    {
+      "id": 90,
+      "start_sec": 1078,
+      "speaker": "Aviva DeKornfeld",
+      "en": "Like he's flipped them, and then they're—",
+      "zh": "就是被他策反过来充当线人的那种……"
+    },
+    {
+      "id": 91,
+      "start_sec": 1080,
+      "speaker": "Aviva DeKornfeld",
+      "en": "...gonna work against their former...",
+      "zh": "……反过来对付他们的前同伙……"
+    },
+    {
+      "id": 92,
+      "start_sec": 1081,
+      "speaker": "Vienna Luke",
+      "en": "Yes! Yeah. So like a bunch of the stuff we were going through in this contract, he's like, \"This isn't going to apply to you, but like, you can't commit any other crimes throughout this operation.\" He's like that.",
+      "zh": "对！是的。所以当时合同里过的一大堆条款，他就说：“这些不适用于你，不过行动期间你不能犯任何其他罪行。”他是那个意思。"
+    },
+    {
+      "id": 93,
+      "start_sec": 1092,
+      "speaker": "Aviva DeKornfeld",
+      "en": "You're like, \"No problem.\"",
+      "zh": "你心想：“没问题。”"
+    },
+    {
+      "id": 94,
+      "start_sec": 1093,
+      "speaker": "Vienna Luke",
+      "en": "Yeah.",
+      "zh": "对啊。"
+    },
+    {
+      "id": 95,
+      "start_sec": 1095,
+      "speaker": "Aviva DeKornfeld",
+      "en": "So Vienna, A-plus student with her little notebook, writes down everything she needs to get from Justin. And then she and the undercover cop role-play so she can practice pressing Justin when he tries to give her evasive non-answers.",
+      "zh": "于是 Vienna 这个揣着小笔记本的优等生，把她需要从 Justin 那里套出的所有信息全记了下来。接着，她和卧底警察进行了模拟演练，专门练习在 Justin 试图回避、给出含糊其辞的回答时，如何步步紧逼。"
+    },
+    {
+      "id": 96,
+      "start_sec": 1109,
+      "speaker": "Aviva DeKornfeld",
+      "en": "And a few weeks later, Vienna heads to the Vancouver Airport.",
+      "zh": "几周后，Vienna 前往温哥华机场。"
+    },
+    {
+      "id": 97,
+      "start_sec": 1114,
+      "speaker": "Vienna Luke",
+      "en": "I feel like I came here today, or I know I came here today wanting you to give me details on what happened. So, I hope that you're ready to tell me the actual facts today.",
+      "zh": "我觉得我今天来这里……或者说我很清楚我今天来，就是想让你告诉我那一晚发生的细节。所以我希望你今天准备好告诉我真正的实情。"
+    },
+    {
+      "id": 98,
+      "start_sec": 1133,
+      "speaker": "Justin",
+      "en": "Well, the thing is that if this disclosure is traumatic, the best way is to have it all out in the open. So I don't want there to be any amount of information that has to be disclosed at a different point in time. This is the time.",
+      "zh": "嗯，问题在于，如果这种坦白会带来心理创伤，那最好的办法就是一次性全说清楚。我不希望还有任何信息留在日后不同的时间点再去吐露。现在就是说清楚的时候。"
+    },
+    {
+      "id": 99,
+      "start_sec": 1153,
+      "speaker": "Vienna Luke",
+      "en": "Okay.",
+      "zh": "好。"
+    },
+    {
+      "id": 100,
+      "start_sec": 1153,
+      "speaker": "Justin",
+      "en": "So you will get everything you need from me today.",
+      "zh": "所以你今天能从我这儿得到你想要的一切。"
+    },
+    {
+      "id": 101,
+      "start_sec": 1156,
+      "speaker": "Vienna Luke",
+      "en": "Okay.",
+      "zh": "好。"
+    },
+    {
+      "id": 102,
+      "start_sec": 1157,
+      "speaker": "Justin",
+      "en": "Because it would be more traumatic for you if you have to do it again.",
+      "zh": "因为要是你不得不重来一次，对你的创伤会更大。"
+    },
+    {
+      "id": 103,
+      "start_sec": 1162,
+      "speaker": "Aviva DeKornfeld",
+      "en": "Justin uses this bizarre therapy-speak all throughout their conversation. Several years before this meeting, Justin went to counseling for sex addiction, and it seems like that's where he picked this up.",
+      "zh": "在整场对话中，Justin 满口都是这种古怪的心理咨询黑话。在这次会面几年前，Justin 曾因性瘾问题接受过心理咨询，看来他就是从那儿学来这套说辞的。"
+    },
+    {
+      "id": 104,
+      "start_sec": 1175,
+      "speaker": "Aviva DeKornfeld",
+      "en": "This language that allows him to simultaneously acknowledge that something happened to Vienna, while also distancing himself from it. It's like he's saying, \"I can help you heal from this,\" while totally ignoring the fact that he's the reason she needs to heal in the first place.",
+      "zh": "这种话术让他既能承认 Vienna 确实遭遇了不测，同时又能把自己撇得干干净净。这感觉就像在说：“我能帮你治愈伤痛”，却全然忽视了正是他一手造成了 Vienna 需要被治愈的事实。"
+    },
+    {
+      "id": 105,
+      "start_sec": 1191,
+      "speaker": "Justin",
+      "en": "So, um, throughout that night, and I don't mean to go into other things, like this whole objectification of women in our culture right now is kind of happening for me at that time.",
+      "zh": "所以，嗯，那一整晚，我不是想扯远去谈别的事，但当时我们文化中那种物化女性的风气，我那时也深陷其中。"
+    },
+    {
+      "id": 106,
+      "start_sec": 1211,
+      "speaker": "Justin",
+      "en": "And for some reason, I had a line drawn that wasn't going to touch you in a sexual way.",
+      "zh": "出于某种原因，我当时划定了一条底线，绝不能以带有性意味的方式触碰你。"
+    },
+    {
+      "id": 107,
+      "start_sec": 1224,
+      "speaker": "Vienna Luke",
+      "en": "Okay, but you're not actually telling me what happened.",
+      "zh": "好，但你根本没告诉我到底发生了什么。"
+    },
+    {
+      "id": 108,
+      "start_sec": 1227,
+      "speaker": "Justin",
+      "en": "No, I know. Oh, sorry. And it's just sort of the, what the rules before I started, seem like the rules for myself. Like everything that happened was on this side of that line for me.",
+      "zh": "不，我知道。噢，抱歉。这只是……在我动手前立下的规矩，就像是我给自己定的规矩。就好像发生的每一件事，对我来说都在那条底线的这一侧。"
+    },
+    {
+      "id": 109,
+      "start_sec": 1240,
+      "speaker": "Vienna Luke",
+      "en": "The rules before you started what?",
+      "zh": "在你开始干什么之前的规矩？"
+    },
+    {
+      "id": 110,
+      "start_sec": 1242,
+      "speaker": "Justin",
+      "en": "Before that night started. And I wouldn't say that they were even like pre-thought-out rules.",
+      "zh": "在那一晚开始之前。我也不能说这些是早就深思熟虑好的规矩。"
+    },
+    {
+      "id": 111,
+      "start_sec": 1248,
+      "speaker": "Vienna Luke",
+      "en": "Yeah. Okay, let's get back to the night and what actually, tell me what happened.",
+      "zh": "行，好吧，我们还是回到那一晚，回到究竟……告诉我到底发生了什么。"
+    },
+    {
+      "id": 112,
+      "start_sec": 1253,
+      "speaker": "Justin",
+      "en": "Okay.",
+      "zh": "好的。"
+    },
+    {
+      "id": 113,
+      "start_sec": 1254,
+      "speaker": "Aviva DeKornfeld",
+      "en": "You're so impressively uncompromising in the tape, and every time he tries to stray and talk about...",
+      "zh": "录音里的你立场极其坚定，寸步不让，每次他试图东拉西扯、扯去什么……"
+    },
+    {
+      "id": 114,
+      "start_sec": 1260,
+      "speaker": "Aviva DeKornfeld",
+      "en": "the broader issue of objectification of women, you force him right back to the topic at hand.",
+      "zh": "把话题扯到物化女性这种宏大议题上时，你立刻把他拽回了眼前这件事。"
+    },
+    {
+      "id": 115,
+      "start_sec": 1266,
+      "speaker": "Vienna Luke",
+      "en": "I feel like I went into it with a mentality of like, I cannot fail. Like I can't this is my one chance, I can't mess this up. Like it wasn't even an option.",
+      "zh": "我觉得我当时是抱着‘我绝不能失败’的心态去的。这是我唯一的机会，我绝不能搞砸。失败根本不在我的考虑范围内。"
+    },
+    {
+      "id": 116,
+      "start_sec": 1278,
+      "speaker": "Vienna Luke",
+      "en": "Like I remember my coach, my undercover cop saying like, you know, he's going to try to make light of this. He's going to kind of try to pull you off track and you just have to keep bringing the focus back.",
+      "zh": "我记得指导我的那位卧底警察跟我说过：‘他肯定会试图轻描淡写，想方设法把你带偏，你只要不断把焦点拉回来就行。’"
+    },
+    {
+      "id": 117,
+      "start_sec": 1293,
+      "speaker": "Vienna Luke",
+      "en": "Tell me what happened.",
+      "zh": "告诉我到底发生了什么。"
+    },
+    {
+      "id": 118,
+      "start_sec": 1294,
+      "speaker": "Justin",
+      "en": "Okay. Um, I encouraged you to drink alcohol.",
+      "zh": "好。呃，我劝你喝了酒。"
+    },
+    {
+      "id": 119,
+      "start_sec": 1300,
+      "speaker": "Vienna Luke",
+      "en": "Yeah.",
+      "zh": "对。"
+    },
+    {
+      "id": 120,
+      "start_sec": 1301,
+      "speaker": "Justin",
+      "en": "You had never been drunk?",
+      "zh": "你以前从来没喝醉过？"
+    },
+    {
+      "id": 121,
+      "start_sec": 1302,
+      "speaker": "Vienna Luke",
+      "en": "Were you drinking with me?",
+      "zh": "你当时陪我一起喝了吗？"
+    },
+    {
+      "id": 122,
+      "start_sec": 1304,
+      "speaker": "Justin",
+      "en": "Yes.",
+      "zh": "喝了。"
+    },
+    {
+      "id": 123,
+      "start_sec": 1305,
+      "speaker": "Vienna Luke",
+      "en": "I don't I don't remember that.",
+      "zh": "我……我不记得这个了。"
+    },
+    {
+      "id": 124,
+      "start_sec": 1309,
+      "speaker": "Justin",
+      "en": "I didn't drink very much. Saying one. I didn't want to be drunk.",
+      "zh": "我没喝多少。好像就一杯吧。我不想喝醉。"
+    },
+    {
+      "id": 125,
+      "start_sec": 1319,
+      "speaker": "Vienna Luke",
+      "en": "Uh-huh.",
+      "zh": "嗯哼。"
+    },
+    {
+      "id": 126,
+      "start_sec": 1321,
+      "speaker": "Justin",
+      "en": "Um, I had done that in advance, setting this up as an opportunity for you to see what it was like to be drunk.",
+      "zh": "呃，我事先做了安排，把这当作一个让你体会喝醉是什么感觉的机会。"
+    },
+    {
+      "id": 127,
+      "start_sec": 1330,
+      "speaker": "Vienna Luke",
+      "en": "Well, yes, that's what you told me, but that's not what happened.",
+      "zh": "对，你当时是这么跟我说的，但实际发生的根本不是那么回事。"
+    },
+    {
+      "id": 128,
+      "start_sec": 1334,
+      "speaker": "Justin",
+      "en": "Right.",
+      "zh": "是。"
+    },
+    {
+      "id": 129,
+      "start_sec": 1337,
+      "speaker": "Justin",
+      "en": "I remember that you laid down on the ottoman on your back.",
+      "zh": "我记得你仰面躺在脚凳上。"
+    },
+    {
+      "id": 130,
+      "start_sec": 1344,
+      "speaker": "Vienna Luke",
+      "en": "Well, I didn't lay down. I lost feeling in my legs. And that's not what happens when someone gets drunk.",
+      "zh": "我不是自己躺下的，我是双腿失去了知觉。喝醉可不会让人这样。"
+    },
+    {
+      "id": 131,
+      "start_sec": 1354,
+      "speaker": "Justin",
+      "en": "Um...",
+      "zh": "呃……"
+    },
+    {
+      "id": 132,
+      "start_sec": 1357,
+      "speaker": "Vienna Luke",
+      "en": "So are you going to tell me what you did? Or am I-- yeah, I didn't just lose feeling in my legs for nothing. And I've been drunk since.",
+      "zh": "所以你打算告诉我你做了什么吗？还是说……我双腿不可能无缘无故失去知觉。而且那之后我也喝醉过。"
+    },
+    {
+      "id": 133,
+      "start_sec": 1369,
+      "speaker": "Justin",
+      "en": "Right. Um, I put something in one of the drinks. I was nervous about it, and I didn't know how much.",
+      "zh": "是。呃，我在其中一杯酒里下了药。我当时很紧张，也不知道该放多少。"
+    },
+    {
+      "id": 134,
+      "start_sec": 1378,
+      "speaker": "Justin",
+      "en": "And so I was cautious, and it was I can't imagine that it did anything to you. But maybe the combination. It shouldn't have, but I did put something in the drinks.",
+      "zh": "所以我很小心，我本以为那对你起不了什么作用。但可能是药物和酒精混合的缘故。按理说不应该的，但我确实在酒里下了药。"
+    },
+    {
+      "id": 135,
+      "start_sec": 1389,
+      "speaker": "Vienna Luke",
+      "en": "And what was it?",
+      "zh": "下的是什么药？"
+    },
+    {
+      "id": 136,
+      "start_sec": 1391,
+      "speaker": "Justin",
+      "en": "I'm not sure if it was Valium or if it was Tylenol.",
+      "zh": "我不确定是安定还是泰诺。"
+    },
+    {
+      "id": 137,
+      "start_sec": 1394,
+      "speaker": "Vienna Luke",
+      "en": "You're not sure? Well, that doesn't make me feel, you know, like...",
+      "zh": "你不确定？这可一点都没让我觉得……你懂的……"
+    },
+    {
+      "id": 138,
+      "start_sec": 1399,
+      "speaker": "Justin",
+      "en": "I know that I had both there.",
+      "zh": "我只知道我当时两样都有。"
+    },
+    {
+      "id": 139,
+      "start_sec": 1401,
+      "speaker": "Vienna Luke",
+      "en": "Do you know how much you gave me?",
+      "zh": "你知道你给我下了多大剂量吗？"
+    },
+    {
+      "id": 140,
+      "start_sec": 1403,
+      "speaker": "Justin",
+      "en": "Um, no, I don't. It wasn't something that I had done before, so I didn't know how much was appropriate, and I certainly didn't want to hurt anybody, didn't want to hurt you.",
+      "zh": "呃，不知道。我以前从没干过这种事，所以不知道多少合适，而且我当然不想伤害任何人，不想伤害你。"
+    },
+    {
+      "id": 141,
+      "start_sec": 1413,
+      "speaker": "Justin",
+      "en": "You lay on your back on the ottoman, and you started...",
+      "zh": "你仰面躺在脚凳上，然后你开始……"
+    },
+    {
+      "id": 142,
+      "start_sec": 1417,
+      "speaker": "Waiter",
+      "en": "You guys okay for the moment?",
+      "zh": "二位现在还需要别的吗？"
+    },
+    {
+      "id": 143,
+      "start_sec": 1418,
+      "speaker": "Justin",
+      "en": "We're good, thank you.",
+      "zh": "不用了，谢谢。"
+    },
+    {
+      "id": 144,
+      "start_sec": 1420,
+      "speaker": "Aviva DeKornfeld",
+      "en": "Justin's talking to a waiter here, who's asking if they have everything they need. I don't have anything smart to say about this.",
+      "zh": "Justin正在和一名服务员说话，对方过来询问他们需不需要添点什么。对于这一幕，我真不知道该作何评价。"
+    },
+    {
+      "id": 145,
+      "start_sec": 1427,
+      "speaker": "Aviva DeKornfeld",
+      "en": "I just think it's insane to have to interact with a waiter while in the middle of a conversation like this.",
+      "zh": "我只是觉得，在进行这样一场对话的过程中还得应付服务员，简直荒唐至极。"
+    },
+    {
+      "id": 146,
+      "start_sec": 1433,
+      "speaker": "Justin",
+      "en": "You were throwing up. So, I helped you down the stairs.",
+      "zh": "你在呕吐。所以，我扶你下了楼。"
+    },
+    {
+      "id": 147,
+      "start_sec": 1440,
+      "speaker": "Justin",
+      "en": "To your bedroom, there was clothing, throw on your clothing. And so, I helped you out of her clothing. And it was not my first time.",
+      "zh": "到你卧室的时候，你身上有衣服，扔在你身上的那些。于是，我帮你把她的衣服脱了下来。这也不是我第一次这么做了。"
+    },
+    {
+      "id": 148,
+      "start_sec": 1461,
+      "speaker": "Justin",
+      "en": "And the pictures that I took during that time were of you on the bed.",
+      "zh": "而在那段时间里，我拍的照片都是你在床上的样子。"
+    },
+    {
+      "id": 149,
+      "start_sec": 1471,
+      "speaker": "Aviva DeKornfeld",
+      "en": "Vienna now presses Justin for specifics about the pictures, just as the undercover cop instructed. She needs to get Justin to corroborate the fact that he gave her drugs, took off her clothes, and took pictures of her, with as many details as possible.",
+      "zh": "Vienna 这时开始追问 Justin 那些照片的具体细节，正如便衣警察之前交代的那样。她需要让 Justin 亲口证实他给她下了药、脱光了她的衣服，并拍下了她的照片——细节越详尽越好。"
+    },
+    {
+      "id": 150,
+      "start_sec": 1487,
+      "speaker": "Vienna Luke",
+      "en": "How many photos did you take?",
+      "zh": "你拍了多少张照片？"
+    },
+    {
+      "id": 151,
+      "start_sec": 1490,
+      "speaker": "Justin",
+      "en": "30.",
+      "zh": "30张。"
+    },
+    {
+      "id": 152,
+      "start_sec": 1492,
+      "speaker": "Vienna Luke",
+      "en": "Was I wearing anything in any of them?",
+      "zh": "照片里我有穿着衣服吗？"
+    },
+    {
+      "id": 153,
+      "start_sec": 1495,
+      "speaker": "Justin",
+      "en": "No.",
+      "zh": "没有。"
+    },
+    {
+      "id": 154,
+      "start_sec": 1497,
+      "speaker": "Vienna Luke",
+      "en": "Can you describe them for me?",
+      "zh": "你能给我描述一下吗？"
+    },
+    {
+      "id": 155,
+      "start_sec": 1498,
+      "speaker": "Justin",
+      "en": "I, there's a picture of you on your stomach from above. There's a picture of you on your back showing your chest.",
+      "zh": "我……有一张是从上方拍的你趴着的照片。有一张是你仰躺着、露着胸脯的照片。"
+    },
+    {
+      "id": 156,
+      "start_sec": 1511,
+      "speaker": "Justin",
+      "en": "There's a full-body picture of you from above with you laying on your back. Um, I took a picture of us, like a selfie at the time, of you on your back with me, with my head down close to your chest.",
+      "zh": "有一张从上面拍的你仰面躺着的全身照。呃，我还拍了一张我们俩的合影，算是当时的那种自拍吧，你仰躺着，我和你在一起，我的头紧挨着你的胸口。"
+    },
+    {
+      "id": 157,
+      "start_sec": 1531,
+      "speaker": "Justin",
+      "en": "I took a picture of you on your side with my penis close to your face. I didn't actually touch you with it. But there again, none of the pictures, I don't know if these details are important to you, your legs were never open for any of the shots, or any pictures of your genitalia.",
+      "zh": "我还拍了一张你侧躺着、我的阴茎靠近你脸部的照片。但我实际上并没有用它碰到你。不过还有一点，所有的照片里——我不知道这些细节对你重不重要——在任何镜头里你的腿都从没张开过，也没有拍到过你的私处。"
+    },
+    {
+      "id": 158,
+      "start_sec": 1557,
+      "speaker": "Vienna Luke",
+      "en": "So the pictures were like from the belly button up?",
+      "zh": "所以那些照片大概都是肚脐以上的？"
+    },
+    {
+      "id": 159,
+      "start_sec": 1561,
+      "speaker": "Justin",
+      "en": "No, from the waist down as well, but only from the front and closed-leg.",
+      "zh": "不，也有腰部以下的，但都是正面且双腿合拢的。"
+    },
+    {
+      "id": 160,
+      "start_sec": 1566,
+      "speaker": "Vienna Luke",
+      "en": "Only from the front, because you had a line drawn?",
+      "zh": "只从正面拍，是因为你给自己划了底线？"
+    },
+    {
+      "id": 161,
+      "start_sec": 1569,
+      "speaker": "Justin",
+      "en": "I wasn't going to position you--",
+      "zh": "我绝不可能去摆弄你的姿势——"
+    },
+    {
+      "id": 162,
+      "start_sec": 1571,
+      "speaker": "Vienna Luke",
+      "en": "With my legs open.",
+      "zh": "把我的腿掰开。"
+    },
+    {
+      "id": 163,
+      "start_sec": 1572,
+      "speaker": "Justin",
+      "en": "Right. I had those pictures for a while afterwards. Right. I was always disappointed that I didn't have a picture of your vagina. But I was never willing to position you to get one.",
+      "zh": "对。那之后这些照片我留了挺长一段时间。是的。我一直很遗憾没能拍到你下体的照片。但我无论如何都不愿意为了拍到而刻意摆弄你的身体。"
+    },
+    {
+      "id": 164,
+      "start_sec": 1586,
+      "speaker": "Aviva DeKornfeld",
+      "en": "If we take Justin at his word, it tells us something interesting, which is how he lives with what he's done. He's come up with a story he can tell himself so that he's still a good person, because there are lines he drew and rules he set that he stayed on the right side of.",
+      "zh": "如果我们把 Justin 的话当真，倒能看出一些耐人寻味的东西：他是如何与自己的所作所为心安理得共存的。他编织了一套自圆其说的说法，让自己依然能算作一个好人，因为他划定了底线、立下了规矩，并且自认为从没越雷池一步。"
+    },
+    {
+      "id": 165,
+      "start_sec": 1603,
+      "speaker": "Aviva DeKornfeld",
+      "en": "I suspect that's why he agreed to talk to Vienna at all, and why there isn't a shred of remorse in his voice. Because he doesn't really think of himself as a guy who did anything worth apologizing for. Of course, just to say, for the rest of us who live in the real world--",
+      "zh": "我猜这正是他当初之所以答应和 Vienna 面谈的原因，也是为什么他的声音里听不出一丝一毫的懊悔。因为他打心眼里觉得自己没做过任何需要道歉的事。当然，不得不说，对于生活在现实世界中的其他人来说——"
+    },
+    {
+      "id": 166,
+      "start_sec": 1620,
+      "speaker": "Aviva DeKornfeld",
+      "en": "Drugging your sister-in-law, stripping off all her clothes, and taking naked pictures of her for later use—none of that is anywhere close to being on the right side of any line.",
+      "zh": "给自己的小姨子下药，剥光她所有的衣服，拍下她的裸照留作日后消遣——这种种行径，无论按哪条道德底线来衡量，都错得离谱。"
+    },
+    {
+      "id": 167,
+      "start_sec": 1640,
+      "speaker": "Aviva DeKornfeld",
+      "en": "So Justin has his justifications. But then there's some stuff that he has a really hard time explaining, try as he might. Listen to how he dodges this very simple question.",
+      "zh": "Justin 有他一套自圆其说的托辞。可有些事情，任凭他百般狡辩，也是怎么都解释不通的。听听他是怎么回避这个再简单不过的问题的。"
+    },
+    {
+      "id": 168,
+      "start_sec": 1651,
+      "speaker": "Vienna Luke",
+      "en": "What was your intent? Why did you take the pictures?",
+      "zh": "你当时的意图是什么？你为什么要拍那些照片？"
+    },
+    {
+      "id": 169,
+      "start_sec": 1657,
+      "speaker": "Justin",
+      "en": "It's really tough time talking about it. It makes you stay able to talk, but going into the greater issue with pornography.",
+      "zh": "这事儿真的很难启齿。能这么开诚布公地谈挺好，但深入探讨色情作品这个大问题……"
+    },
+    {
+      "id": 170,
+      "start_sec": 1664,
+      "speaker": "Vienna Luke",
+      "en": "Yeah, but it's about you, and it's about me. So, stick to it as much as you can.",
+      "zh": "对，但现在谈的是你和我之间的事。所以，尽量别跑题。"
+    },
+    {
+      "id": 171,
+      "start_sec": 1670,
+      "speaker": "Justin",
+      "en": "Right.",
+      "zh": "好的。"
+    },
+    {
+      "id": 172,
+      "start_sec": 1672,
+      "speaker": "Vienna Luke",
+      "en": "Because it was you that looked at them, not like the greater world that has problems with pornography.",
+      "zh": "因为看那些照片的人是你，而不是什么整个世界面临的色情制品泛滥问题。"
+    },
+    {
+      "id": 173,
+      "start_sec": 1676,
+      "speaker": "Justin",
+      "en": "No, I know, but it's the issue with pornography is having pornography, right? Like if you go around to computers, go door-to-door and start pulling computers apart, you'll find pornography on most of them.",
+      "zh": "不，我知道，但色情片的问题就在于大家都有色情片，对吧？就像你随便挨家挨户去查电脑，拆开来看，绝大多数电脑里都能翻出色情片。"
+    },
+    {
+      "id": 174,
+      "start_sec": 1687,
+      "speaker": "Vienna Luke",
+      "en": "Yeah, hopefully not a person's sister-in-law, but, you know.",
+      "zh": "是啊，但愿电脑里存的不是自个儿小姨子的裸照吧，你懂我意思吧。"
+    },
+    {
+      "id": 175,
+      "start_sec": 1690,
+      "speaker": "Justin",
+      "en": "Right.",
+      "zh": "对。"
+    },
+    {
+      "id": 176,
+      "start_sec": 1692,
+      "speaker": "Aviva DeKornfeld",
+      "en": "This is what got me in the recording. The way Vienna is like a prosecutor, quick and sharp and relentless. Except she's cross-examining her own perpetrator.",
+      "zh": "录音中最打动我的是这里。Vienna 的表现简直就像一名公诉人，反应敏捷、言辞犀利、毫不退让。只不过，她盘问的对象正是侵害自己的加害者。"
+    },
+    {
+      "id": 177,
+      "start_sec": 1703,
+      "speaker": "Aviva DeKornfeld",
+      "en": "Like so many survivors, it took Vienna a long time to classify what happened to her as sexual assault. And that's in part because of who the perpetrator was—her cool, charming, churchgoing brother-in-law. Family.",
+      "zh": "和许多幸存者一样，Vienna 花了很长时间才敢将自己的遭遇归类为性侵。一部分原因正是因为施害者是谁——那是她那位酷帅、迷人又虔诚信教的姐夫。是自家人。"
+    },
+    {
+      "id": 178,
+      "start_sec": 1718,
+      "speaker": "Aviva DeKornfeld",
+      "en": "But one of the reasons she's putting herself through this meeting with Justin is also family. The way she sees it, recording this conversation is her best chance at getting through to her sister, Sunny.",
+      "zh": "然而，她之所以逼着自己去和 Justin 见这一面，同样也是为了家人。在她看来，把这次对话录下来，是让她姐姐 Sunny 认清现实的唯一希望。"
+    },
+    {
+      "id": 179,
+      "start_sec": 1731,
+      "speaker": "Aviva DeKornfeld",
+      "en": "Vienna hates how distant she and Sunny have become, how estranged. Sunny and her kids will visit Vienna in Shawnigan once or twice a year, but there's none of the intimacy they used to have.",
+      "zh": "Vienna 痛心于自己和 Sunny 如今变得如此疏远、形同陌路。Sunny 和孩子们每年会来 Shawnigan 探望 Vienna 一两次，但昔日无话不谈的亲密却荡然无存。"
+    },
+    {
+      "id": 180,
+      "start_sec": 1742,
+      "speaker": "Aviva DeKornfeld",
+      "en": "Because Vienna's never gotten to have an open, honest conversation with Sunny about what happened to her. The one time they came close was back when Sunny discovered Justin's affairs.",
+      "zh": "因为 Vienna 从没机会和 Sunny 敞开心扉，坦诚谈一谈自己当年的遭遇。两人唯一一次接近开诚布公，还是在 Sunny 发现 Justin 婚外情的那阵子。"
+    },
+    {
+      "id": 181,
+      "start_sec": 1754,
+      "speaker": "Aviva DeKornfeld",
+      "en": "She finally called Vienna and asked her about the night Justin got her drunk. And Vienna tried to tell her. But she said pretty quickly she realized Sunny didn't really want to understand.",
+      "zh": "Sunny 终于打电话给 Vienna，问起 Justin 把她灌醉的那一晚。Vienna 试着如实相告。但她说很快就发现，Sunny 根本不是真心想弄明白。"
+    },
+    {
+      "id": 182,
+      "start_sec": 1766,
+      "speaker": "Aviva DeKornfeld",
+      "en": "She was more there on behalf of Justin, as a kind of spokesperson. She kept defending him, saying things like, you don't understand, he was exposed to pornography when he was a kid, he had a sex addiction, he's a victim himself. It went nowhere.",
+      "zh": "Sunny 更像是在替 Justin 出面，充当他的发言人。她不停地为他辩解，嘴里说着诸如：你不懂，他从小就接触色情片，他有性瘾，他自己也是受害者。那次谈话无疾而终。"
+    },
+    {
+      "id": 183,
+      "start_sec": 1783,
+      "speaker": "Aviva DeKornfeld",
+      "en": "But with this recording, Sunny would finally hear the truth about what happened. And then she might leave Justin once and for all. That was Vienna's hope.",
+      "zh": "但有了这段录音，Sunny 终于能亲耳听到当晚发生的一切真相。那样一来，她或许就能彻底离开 Justin 了。这就是 Vienna 的期盼。"
+    },
+    {
+      "id": 184,
+      "start_sec": 1793,
+      "speaker": "Vienna Luke",
+      "en": "Who saw that? I mean you...",
+      "zh": "还有谁看过？我是说你……"
+    },
+    {
+      "id": 185,
+      "start_sec": 1795,
+      "speaker": "Aviva DeKornfeld",
+      "en": "So Vienna's now about an hour into her hour and a half long conversation with Justin.",
+      "zh": "此时 Vienna 和 Justin 长达一个半小时的对质，已经进行了一小时左右。"
+    },
+    {
+      "id": 186,
+      "start_sec": 1800,
+      "speaker": "Aviva DeKornfeld",
+      "en": "And you can hear, the way Justin is speaking to her, that he's still playing this knowing authority. And Vienna is sitting across from him like, I'm not who you think I am. I don't defer to you.",
+      "zh": "从 Justin 跟她说话的语气里你就能听出来，他依然在摆那副洞悉一切的长者架子。而对面的 Vienna 却仿佛在说：我已经不是你以为的那个人了，我也绝不会再顺从你。"
+    },
+    {
+      "id": 187,
+      "start_sec": 1813,
+      "speaker": "Vienna Luke",
+      "en": "I kind of don't believe that you just took pictures of me naked.",
+      "zh": "我不太相信你只是拍了我裸照而已。"
+    },
+    {
+      "id": 188,
+      "start_sec": 1819,
+      "speaker": "Justin",
+      "en": "So, I guess the reason that I wanted to draw a distinction between sexual contact and non-sexual contact, is because there was contact that I felt was, I don't know, I felt really close to you at that time.",
+      "zh": "这么说吧，我想把接触分为“性的”和“非性的”，原因在于……当时确实有过接触，那种我觉得……怎么说呢，在那个时候，我觉得自己跟你特别亲近。"
+    },
+    {
+      "id": 189,
+      "start_sec": 1841,
+      "speaker": "Justin",
+      "en": "So, I lay down beside you, and I put my arm around you. But I, I was careful that I didn't touch your breasts when I put my arm around you because that would be sexual.",
+      "zh": "所以，我躺在你身边，把胳膊搂着你。但我……我当时很小心，搂你的时候没碰你的胸，因为碰了那就算是性骚扰了。"
+    },
+    {
+      "id": 190,
+      "start_sec": 1855,
+      "speaker": "Vienna Luke",
+      "en": "But you you wrote in the email that you sexually assaulted me, which, yeah, so I so at what point--",
+      "zh": "可你……你在邮件里写过，你对我实施了性侵害，这……所以，在哪个环节——"
+    },
+    {
+      "id": 191,
+      "start_sec": 1866,
+      "speaker": "Justin",
+      "en": "I think taking pictures of you was sexual assault.",
+      "zh": "我认为偷拍你的照片就算是性侵害。"
+    },
+    {
+      "id": 192,
+      "start_sec": 1868,
+      "speaker": "Vienna Luke",
+      "en": "Okay. But--",
+      "zh": "好吧。但是——"
+    },
+    {
+      "id": 193,
+      "start_sec": 1870,
+      "speaker": "Justin",
+      "en": "I, right, I masturbated twice. And it was between that I lay down with you.",
+      "zh": "我，是的，我手淫了两次。而躺在你身边，就是在这两次之间。"
+    },
+    {
+      "id": 194,
+      "start_sec": 1881,
+      "speaker": "Justin",
+      "en": "And so, I was not, after you have sex, there's a window of time where you're not ready to have sex again. And so, it was during that time that I lay beside you, spooning with you, but just holding you.",
+      "zh": "所以，我当时并没有……人在有了性冲动释放之后，会有一段时间根本不想再来一次。所以就是在那段时间里，我躺在你身边，从后面抱着你，但就只是搂着你。"
+    },
+    {
+      "id": 195,
+      "start_sec": 1900,
+      "speaker": "Justin",
+      "en": "And so, I may have been up against you, and my penis may have been in, around your rear end, around your legs, but it wasn't, like I've always worried that there would have been some degree of this, and you would have thought that potentially I had raped you.",
+      "zh": "所以，我整个人可能贴着你，我的生殖器也可能贴在、靠着你的臀部或者腿边，但我没有……我一直担心会留下这样的痕迹，让你以为我可能强暴了你。"
+    },
+    {
+      "id": 196,
+      "start_sec": 1925,
+      "speaker": "Vienna Luke",
+      "en": "K. When you, after you masturbated, where did you, um--",
+      "zh": "好。当你……你手淫之后，你把东西……嗯……"
+    },
+    {
+      "id": 197,
+      "start_sec": 1934,
+      "speaker": "Justin",
+      "en": "On you.",
+      "zh": "弄在你身上了。"
+    },
+    {
+      "id": 198,
+      "start_sec": 1935,
+      "speaker": "Vienna Luke",
+      "en": "Okay, so that would be in the pictures.",
+      "zh": "好的，所以那些照片里拍到了。"
+    },
+    {
+      "id": 199,
+      "start_sec": 1939,
+      "speaker": "Justin",
+      "en": "Yeah.",
+      "zh": "对。"
+    },
+    {
+      "id": 200,
+      "start_sec": 1940,
+      "speaker": "Aviva DeKornfeld",
+      "en": "Did you have to ask any questions as part of the investigation that you personally would rather not know?",
+      "zh": "在这场调查配合中，有没有哪些问题是你个人其实宁愿不知道答案的？"
+    },
+    {
+      "id": 201,
+      "start_sec": 1947,
+      "speaker": "Vienna Luke",
+      "en": "No, I was, yeah, I wanted to hear everything. Like, not wanted to, but I think when you spend so many years not knowing, yeah, it feels like just being unsettled for years and years and years.",
+      "zh": "没有，我……对，我想知道一切。不是说我乐意去听，而是我觉得，当你一无所知地熬过了那么多年，真的，那种感觉就是经年累月、没完没了的悬心与煎熬。"
+    },
+    {
+      "id": 202,
+      "start_sec": 1966,
+      "speaker": "Vienna Luke",
+      "en": "And the unknowns plague you. And I I believed that if I had the pieces, that things would make sense to me.",
+      "zh": "那些未知会日夜折磨你。而且我相信，只要我把所有的碎片都拼凑齐，一切就终于能说得通了。"
+    },
+    {
+      "id": 203,
+      "start_sec": 1980,
+      "speaker": "Aviva DeKornfeld",
+      "en": "Is that what happened?",
+      "zh": "事情是这样的吗？"
+    },
+    {
+      "id": 204,
+      "start_sec": 1981,
+      "speaker": "Vienna Luke",
+      "en": "Yeah. I mean, ultimately, when I say \"makes sense,\" I mean, that night changed who I was, fundamentally, down to my core. It changed me as a person.",
+      "zh": "是的。我是说，归根结底，我说“说得通”的意思是，那一晚彻底改变了我，从根本上触及了我的灵魂。它改变了我整个人。"
+    },
+    {
+      "id": 205,
+      "start_sec": 1996,
+      "speaker": "Vienna Luke",
+      "en": "Um, so, actually getting some details on what happened made me realize that I wasn't crazy. Um, that feeling so low that that that was normal based on what had happened.",
+      "zh": "所以，终于弄清楚那晚发生的一些细节，让我意识到自己并没有疯。那种痛苦消沉到极点的感觉，在经历过那一切之后，完全是正常的。"
+    },
+    {
+      "id": 206,
+      "start_sec": 2023,
+      "speaker": "Aviva DeKornfeld",
+      "en": "The one memory Vienna has from the night, of Justin taking off her underwear, it'd taken years for her to tell anyone about it. It felt too shameful, too private. But now, she brings it up with Justin directly.",
+      "zh": "关于那一晚，Vienna 脑海中唯一的记忆，就是 Justin 脱掉她的内裤。她用了好几年才敢把这件事告诉别人。那感觉太羞耻、太私密了。但现在，她直接向 Justin 提起这事。"
+    },
+    {
+      "id": 207,
+      "start_sec": 2038,
+      "speaker": "Vienna Luke",
+      "en": "Did you do anything else to me? Like, did you go down on me?",
+      "zh": "你还对我做过别的吗？比如，你有没有对我……口交？"
+    },
+    {
+      "id": 208,
+      "start_sec": 2044,
+      "speaker": "Justin",
+      "en": "I did not touch or see your genitalia.",
+      "zh": "我没有碰过，也没看过你的生殖器。"
+    },
+    {
+      "id": 209,
+      "start_sec": 2049,
+      "speaker": "Vienna Luke",
+      "en": "Well you did see it, because you took off my underwear.",
+      "zh": "你肯定看过了，因为你脱了我的内裤。"
+    },
+    {
+      "id": 210,
+      "start_sec": 2053,
+      "speaker": "Justin",
+      "en": "No, I--",
+      "zh": "不，我——"
+    },
+    {
+      "id": 211,
+      "start_sec": 2054,
+      "speaker": "Vienna Luke",
+      "en": "You removed my underwear.",
+      "zh": "你脱掉了我的内裤。"
+    },
+    {
+      "id": 212,
+      "start_sec": 2056,
+      "speaker": "Justin",
+      "en": "I know, but that was a closed-leg sliding down. That wasn't a-- I never positioned you in a way that I could see.",
+      "zh": "我知道，但那是并着腿往下褪的。那不是……我从来没有把你的姿势摆弄成让我能看到的角度。"
+    },
+    {
+      "id": 213,
+      "start_sec": 2062,
+      "speaker": "Vienna Luke",
+      "en": "Because I definitely came to with my shorts and underwear coming off. And wondered why, if I was vomiting, I would need my underwear taken off.",
+      "zh": "因为我醒来时，清清楚楚记得自己的短裤和内裤正在被脱下来。当时我就纳闷，如果我只是在呕吐，为什么需要脱掉内裤。"
+    },
+    {
+      "id": 214,
+      "start_sec": 2078,
+      "speaker": "Vienna Luke",
+      "en": "So, yeah, I feel like you didn't just-- you didn't just stop there.",
+      "zh": "所以，我觉得你不可能只是……你不可能就到此为止了。"
+    },
+    {
+      "id": 215,
+      "start_sec": 2085,
+      "speaker": "Justin",
+      "en": "There was no contact. I-- I-- I want-- You know that line that I talked about that I didn't want to cross, that I wasn't willing to cross?",
+      "zh": "没有任何接触。我……我……我想说……你知道我之前提过的那条我不想跨越、也不愿意跨越的底线吧？"
+    },
+    {
+      "id": 216,
+      "start_sec": 2094,
+      "speaker": "Vienna Luke",
+      "en": "Yeah, but you did cross it.",
+      "zh": "是啊，可你已经越界了。"
+    },
+    {
+      "id": 217,
+      "start_sec": 2095,
+      "speaker": "Justin",
+      "en": "This is-- I know. I know.",
+      "zh": "这……我知道。我知道。"
+    },
+    {
+      "id": 218,
+      "start_sec": 2097,
+      "speaker": "Vienna Luke",
+      "en": "You-- you absolutely crossed it. So I just, I feel like it's really important for me to know if you if you did have sex with me for the first time, because, obviously, you know I was a virgin.",
+      "zh": "你绝对越界了。所以我觉得……对我来说弄清楚非常重要：你到底有没有夺走我的第一次？因为你显然知道我当时还是个处女。"
+    },
+    {
+      "id": 219,
+      "start_sec": 2111,
+      "speaker": "Justin",
+      "en": "The only time my penis came anywhere near your vagina was when I was soft.",
+      "zh": "我的阴茎唯一一次靠近你阴部的时候，还是软的。"
+    },
+    {
+      "id": 220,
+      "start_sec": 2117,
+      "speaker": "Vienna Luke",
+      "en": "Jordan's just calling me.",
+      "zh": "Jordan 给我打电话了。"
+    },
+    {
+      "id": 221,
+      "start_sec": 2119,
+      "speaker": "Justin",
+      "en": "Sure.",
+      "zh": "好。"
+    },
+    {
+      "id": 222,
+      "start_sec": 2122,
+      "speaker": "Vienna Luke",
+      "en": "Hey. So when I say \"Jordan's just calling me,\" it's not Jordan.",
+      "zh": "喂。我说“Jordan 给我打电话了”，但其实根本不是 Jordan。"
+    },
+    {
+      "id": 223,
+      "start_sec": 2127,
+      "speaker": "Aviva DeKornfeld",
+      "en": "Jordan is Vienna's partner.",
+      "zh": "Jordan 是 Vienna 的伴侣。"
+    },
+    {
+      "id": 224,
+      "start_sec": 2129,
+      "speaker": "Vienna Luke",
+      "en": "It's actually RCMP upstairs calling me.",
+      "zh": "实际上是楼上的加拿大皇家骑警打来的。"
+    },
+    {
+      "id": 225,
+      "start_sec": 2133,
+      "speaker": "Aviva DeKornfeld",
+      "en": "RCMP, Royal Canadian Mounted Police. Something was wrong with the transmission, and they'd missed large chunks of the conversation.",
+      "zh": "RCMP，也就是加拿大皇家骑警。无线传输出了故障，他们漏听了大段大段的对话。"
+    },
+    {
+      "id": 226,
+      "start_sec": 2142,
+      "speaker": "Aviva DeKornfeld",
+      "en": "So while Vienna was dutifully working through her checklist of questions, the cops upstairs were on edge. But Vienna didn't know that at the time.",
+      "zh": "所以，当 Vienna 恪尽职守地照着问题清单一一询问时，楼上的警察们早已如坐针毡。不过 Vienna 当时对此一无所知。"
+    },
+    {
+      "id": 227,
+      "start_sec": 2151,
+      "speaker": "Vienna Luke",
+      "en": "And I like take the call and I just like, go a couple steps away, like there's a fireplace there in the restaurant and I kind of like, step over closer to this.",
+      "zh": "我接起电话，往旁边挪了几步，餐厅里正好有个壁炉，我就往壁炉那边靠了靠。"
+    },
+    {
+      "id": 228,
+      "start_sec": 2160,
+      "speaker": "Vienna Luke",
+      "en": "Fireplace, and I'm kind of like, \"Oh hey, what's up?\" And upstairs is like, \"Like have you got everything? Like, how are you doing down there?\" And I'm like, \"I think I've got everything, like, but maybe I'm not going hard enough for like some details, so you want me to kind of like push push in, go a little harder?\"",
+      "zh": "壁炉那儿，我便问，‘嗨，怎么了？’楼上的警察问，‘你把所有细节都问到了吗？你在下面进展如何？’我说，‘我觉得我都问到了，但可能有些细节我还逼得不够紧，你们要我再施加点压力、再深入逼问一下吗？’"
+    },
+    {
+      "id": 229,
+      "start_sec": 2181,
+      "speaker": "Vienna Luke",
+      "en": "I'm going to give you a chance to tell me the truth.",
+      "zh": "我现在给你一个对我说真话的机会。"
+    },
+    {
+      "id": 230,
+      "start_sec": 2183,
+      "speaker": "Justin",
+      "en": "I did not touch you sexually. I guarantee you 100% that did not happen.",
+      "zh": "我绝没有侵犯过你。我百分之百向你保证，这事绝没发生过。"
+    },
+    {
+      "id": 231,
+      "start_sec": 2188,
+      "speaker": "Vienna Luke",
+      "en": "You were already going there. Yeah, I just don't know why you would have stopped, you know? So.",
+      "zh": "你当时都已经迈出那一步了。是啊，我只是想不通你当时怎么可能会停下来，你懂吧？所以。"
+    },
+    {
+      "id": 232,
+      "start_sec": 2195,
+      "speaker": "Justin",
+      "en": "I could have done anything I wanted.",
+      "zh": "我本来可以为所欲为的。"
+    },
+    {
+      "id": 233,
+      "start_sec": 2197,
+      "speaker": "Vienna Luke",
+      "en": "Yeah, exactly.",
+      "zh": "对，没错啊。"
+    },
+    {
+      "id": 234,
+      "start_sec": 2199,
+      "speaker": "Justin",
+      "en": "Why would I admit that I took that I put drugs in your drink and then not admit that I had sex with you if I had?",
+      "zh": "要是我真做了，为什么我都承认在你的饮料里下了药，却不承认和你发生了关系呢？"
+    },
+    {
+      "id": 235,
+      "start_sec": 2208,
+      "speaker": "Vienna Luke",
+      "en": "Mmm, because you can like justify that to yourself? I don't know.",
+      "zh": "嗯，因为那样你心里还能开脱过去？我不知道。"
+    },
+    {
+      "id": 236,
+      "start_sec": 2213,
+      "speaker": "Justin",
+      "en": "So, in in my in my...",
+      "zh": "所以，按我的……按我的想法……"
+    },
+    {
+      "id": 237,
+      "start_sec": 2215,
+      "speaker": "Vienna Luke",
+      "en": "Because it makes you feel better? Even though you think maybe drugs are really bad, but it's like, you know, less of an evil in your mind, to be like, 'Oh, just drugs,' but rape is like, you know?",
+      "zh": "因为这样能让你好受点？就算你觉得下药也很恶劣，但在你看来，这算两害相权取其轻，心想‘哦，只是下了药而已’，可强奸却……你懂吧？"
+    },
+    {
+      "id": 238,
+      "start_sec": 2229,
+      "speaker": "Justin",
+      "en": "I wanted you to not even know that anything had happened.",
+      "zh": "我当时希望你甚至不知道发生过任何事。"
+    },
+    {
+      "id": 239,
+      "start_sec": 2236,
+      "speaker": "Vienna Luke",
+      "en": "Say that again?",
+      "zh": "你再说一遍？"
+    },
+    {
+      "id": 240,
+      "start_sec": 2237,
+      "speaker": "Justin",
+      "en": "Does that Does that make sense? Can you understand that I would walk into that, and hope that I could take pictures of you, go through the evening, and have you wake up the next day and never have known that any of it happened?",
+      "zh": "这么说……这么说能理解吗？你能理解我当时抱着的想法吗：我希望自己能给你拍下那些照片，混过那一晚，然后你第二天醒来，对发生过的一切一无所知？"
+    },
+    {
+      "id": 241,
+      "start_sec": 2248,
+      "speaker": "Vienna Luke",
+      "en": "Well, of course, you'd want that.",
+      "zh": "呵，你当然巴不得这样了。"
+    },
+    {
+      "id": 242,
+      "start_sec": 2251,
+      "speaker": "Justin",
+      "en": "See? When I look at the future, when I look at your family, and my family, and my parents, and all that, that's what's at stake here right now.",
+      "zh": "懂了吧？当我想到未来，想到你的家庭、我的家庭、我的父母，想到这一切——这才是眼下最要命的关口。"
+    },
+    {
+      "id": 243,
+      "start_sec": 2261,
+      "speaker": "Vienna Luke",
+      "en": "Yeah.",
+      "zh": "对。"
+    },
+    {
+      "id": 244,
+      "start_sec": 2262,
+      "speaker": "Justin",
+      "en": "Why would I not come clean on that if it wasn't?",
+      "zh": "如果真有其事，我为什么不彻底交代清楚呢？"
+    },
+    {
+      "id": 245,
+      "start_sec": 2265,
+      "speaker": "Vienna Luke",
+      "en": "Well, maybe you feel like you can get it without giving that up. For me, that's what I need you I need you to admit to that.",
+      "zh": "也许你觉得，你能逃过这一切而不用付出这种代价。可对我来说，这正是我需要你……我需要你亲口承认的。"
+    },
+    {
+      "id": 246,
+      "start_sec": 2280,
+      "speaker": "Vienna Luke",
+      "en": "You're not going to.",
+      "zh": "你就是不肯承认。"
+    },
+    {
+      "id": 247,
+      "start_sec": 2282,
+      "speaker": "Justin",
+      "en": "I can't, V, that's that's a lie. It really would be a lie. If I told you right now that I had done that, it would be a lie.",
+      "zh": "我没法承认，V，那……那是撒谎。那真的会是句谎话。如果我此刻告诉你我做过，那才是在撒谎。"
+    },
+    {
+      "id": 248,
+      "start_sec": 2291,
+      "speaker": "Aviva DeKornfeld",
+      "en": "Vienna's made it through her whole checklist of questions. So she asks Justin one last thing before she wraps up.",
+      "zh": "Vienna 已经把清单上的所有问题问了个遍。于是在结束对话前，她问了 Justin 最后一个问题。"
+    },
+    {
+      "id": 249,
+      "start_sec": 2298,
+      "speaker": "Vienna Luke",
+      "en": "Is there anything that I'm not asking and you're not disclosing?",
+      "zh": "还有什么是我没问，而你没有主动坦白的事吗？"
+    },
+    {
+      "id": 250,
+      "start_sec": 2303,
+      "speaker": "Justin",
+      "en": "No reason for me to disclose this, but I took pictures of you at other times.",
+      "zh": "我其实本没理由坦白这事，但我还在其他时候偷拍过你。"
+    },
+    {
+      "id": 251,
+      "start_sec": 2309,
+      "speaker": "Vienna Luke",
+      "en": "Okay.",
+      "zh": "好的。"
+    },
+    {
+      "id": 252,
+      "start_sec": 2310,
+      "speaker": "Justin",
+      "en": "But it wasn't so with you. It was through your window.",
+      "zh": "但那次我没有和你共处一室。是通过你的窗户偷拍的。"
+    },
+    {
+      "id": 253,
+      "start_sec": 2314,
+      "speaker": "Aviva DeKornfeld",
+      "en": "Justin's saying he took pictures of Vienna at other times too, through her window.",
+      "zh": "Justin 坦白说，他还在别的场合偷拍过 Vienna，是从窗户外偷拍的。"
+    },
+    {
+      "id": 254,
+      "start_sec": 2319,
+      "speaker": "Vienna Luke",
+      "en": "Okay. Which window?",
+      "zh": "好的。哪扇窗户？"
+    },
+    {
+      "id": 255,
+      "start_sec": 2322,
+      "speaker": "Justin",
+      "en": "Near downstairs.",
+      "zh": "一楼那儿。"
+    },
+    {
+      "id": 256,
+      "start_sec": 2323,
+      "speaker": "Vienna Luke",
+      "en": "The Well, I lived with you at two separate locations. So, both of them? So how many pictures of me have you or did you have?",
+      "zh": "那……我和你一起在两个不同的地方住过。所以是两边都偷拍了？那你手里现在或曾经有过多少张我的照片？"
+    },
+    {
+      "id": 257,
+      "start_sec": 2334,
+      "speaker": "Justin",
+      "en": "8, 10 pictures? They were blurry. They weren't good quality.",
+      "zh": "八到十张？照片很模糊。画质并不清楚。"
+    },
+    {
+      "id": 258,
+      "start_sec": 2338,
+      "speaker": "Vienna Luke",
+      "en": "How many occasions did you do",
+      "zh": "你偷拍过多少次"
+    },
+    {
+      "id": 259,
+      "start_sec": 2340,
+      "speaker": "Vienna Luke",
+      "en": "On this on. Sure, floor.",
+      "zh": "放这上面。行，放地板上也行。"
+    },
+    {
+      "id": 260,
+      "start_sec": 2343,
+      "speaker": "Aviva DeKornfeld",
+      "en": "Justin just admitted to a whole other crime that Vienna and the cops hadn't even intended to get out of him. And he does it in his detached, neutral, unapologetic way.",
+      "zh": "Justin竟然又承认了一桩完全不同的罪行，而这根本不在Vienna和警方的预料之中。他就用那种超然、中立、毫无歉意的方式全招了。"
+    },
+    {
+      "id": 261,
+      "start_sec": 2356,
+      "speaker": "Aviva DeKornfeld",
+      "en": "It's glaring that in the whole hour and a half long conversation you guys had, he never says, sorry.",
+      "zh": "很刺眼的是，在你们长达一个半小时的谈话里，他自始至终连一句“对不起”都没说过。"
+    },
+    {
+      "id": 262,
+      "start_sec": 2361,
+      "speaker": "Vienna Luke",
+      "en": "No, absolutely. There's definitely, like, yeah, no remorse.",
+      "zh": "完全没有。绝对是，是的，毫无悔意。"
+    },
+    {
+      "id": 263,
+      "start_sec": 2366,
+      "speaker": "Aviva DeKornfeld",
+      "en": "Would it have meant anything to you for him to apologize? I mean, if he was capable of apologizing and if it actually meant something, then, yeah, I would have taken it. But I don't believe he's capable.",
+      "zh": "如果他道歉，对你来说会有意义吗？我是说，如果他有道歉的能力，如果道歉真有意义，那我会接受。但我认为他根本没这个能力。"
+    },
+    {
+      "id": 264,
+      "start_sec": 2380,
+      "speaker": "Vienna Luke",
+      "en": "I guess thank you, um, for coming down here and for meeting with me, and for I feel like, well, for finally being honest, because let's face it. You've had 14 years.",
+      "zh": "我想还是谢谢你，能特意过来见我，而且……怎么说呢，谢谢你终于肯说实话。毕竟面对现实吧，你已经逃避整整14年了。"
+    },
+    {
+      "id": 265,
+      "start_sec": 2396,
+      "speaker": "Aviva DeKornfeld",
+      "en": "Vienna spends an excruciating few minutes trying to flag down a waiter to pay for her tea. Before he leaves, Justin hands Vienna a goody bag of cookies that Sunny had baked for her, along with a bunch of carrots from their garden.",
+      "zh": "Vienna经历了极其难熬的几分钟，拼命招手叫服务员结清茶钱。临走前，Justin递给Vienna一袋饼干，那是Sunny特意为她烤的，还附带了一把自家菜园里种的胡萝卜。"
+    },
+    {
+      "id": 266,
+      "start_sec": 2410,
+      "speaker": "Aviva DeKornfeld",
+      "en": "They say goodbye, and Vienna runs to the bathroom.",
+      "zh": "两人道别后，Vienna一路小跑冲进了洗手间。"
+    },
+    {
+      "id": 267,
+      "start_sec": 2414,
+      "speaker": "Vienna Luke",
+      "en": "And I think that's where it all hit my body. And it's almost like I'd been holding my breath the whole time.",
+      "zh": "我觉得所有感觉就是在那一刻狠狠击中了我的身体。就好比我整整一路都一直在屏着呼吸。"
+    },
+    {
+      "id": 268,
+      "start_sec": 2423,
+      "speaker": "Aviva DeKornfeld",
+      "en": "Yeah. What's it like when it's hitting your body? What's it feel like?",
+      "zh": "是啊。身体受到冲击时是什么感觉？具体感受如何？"
+    },
+    {
+      "id": 269,
+      "start_sec": 2427,
+      "speaker": "Vienna Luke",
+      "en": "The stress of all the detail was almost being like downloaded to my body. Oh, dear. Oh, dear. Oh, dear.",
+      "zh": "那些所有细节带来的压力，仿佛一下子全被灌进了我的身体里。天哪……天哪……天啊……"
+    },
+    {
+      "id": 270,
+      "start_sec": 2446,
+      "speaker": "Aviva DeKornfeld",
+      "en": "Vienna waits a minute to make sure Justin's really gone, and then heads upstairs to the hotel room to meet up with her sister Shaughnessy and the undercover team.",
+      "zh": "Vienna等了一会儿，确保Justin真的走远了，然后上楼回到酒店房间，与姐姐Shaughnessy和便衣行动小组汇合。"
+    },
+    {
+      "id": 271,
+      "start_sec": 2455,
+      "speaker": "Vienna Luke",
+      "en": "I knock on the door. Somebody opens it. And they're all like, practically at the door. They're as close as the door as they physically all could be, and it was so visible on everyone.",
+      "zh": "我敲了敲门。有人把门打开。他们所有人都几乎挤在门口。一个个紧贴着门站着，能站多近就站多近，每个人脸上的神情都显露无遗。"
+    },
+    {
+      "id": 272,
+      "start_sec": 2471,
+      "speaker": "Aviva DeKornfeld",
+      "en": "What did their faces look like? Yeah.",
+      "zh": "他们脸上是什么表情？对。"
+    },
+    {
+      "id": 273,
+      "start_sec": 2474,
+      "speaker": "Vienna Luke",
+      "en": "Like it's like celebration, like shock and awe and like, whoa, you did it.",
+      "zh": "就像在庆祝，又夹杂着震惊与不可思议，仿佛在说：天哪，你真做到了。"
+    },
+    {
+      "id": 274,
+      "start_sec": 2482,
+      "speaker": "Aviva DeKornfeld",
+      "en": "Vienna pulled it off. The meeting really couldn't have been more of a success. This wire recording ended up being the central piece of evidence used in court.",
+      "zh": "Vienna成功了。这场碰面简直大获全胜。这段秘密录音最终成了法庭上最核心的呈堂证供。"
+    },
+    {
+      "id": 275,
+      "start_sec": 2492,
+      "speaker": "Aviva DeKornfeld",
+      "en": "Justin is charged with one count of sexual assault, two counts of voyeurism, and one count of administering a stupefying drug. He pleads guilty to all but the drug charge.",
+      "zh": "Justin被指控犯有一项性侵犯亲属罪、两项窥阴罪以及一项施用麻醉药物罪。除了下药指控外，他对其他罪名全部认罪。"
+    },
+    {
+      "id": 276,
+      "start_sec": 2503,
+      "speaker": "Aviva DeKornfeld",
+      "en": "Vienna assumes he did this to try to avoid losing his vet license. Justin ended up getting a sentence of two years minus a day of house arrest, where he was still allowed to leave the house for work and church and errands.",
+      "zh": "Vienna推测他这么做是为了保住兽医执照。Justin最终被判处两年差一天的居家监禁，在此期间，他仍然被允许外出工作、去教堂做礼拜以及处理日常杂务。"
+    },
+    {
+      "id": 277,
+      "start_sec": 2516,
+      "speaker": "Aviva DeKornfeld",
+      "en": "The Crown counsel appealed. The Court of Appeal",
+      "zh": "检方随即提起上诉。上诉法院……"
+    },
+    {
+      "id": 278,
+      "start_sec": 2520,
+      "speaker": "Aviva DeKornfeld",
+      "en": "actually overruled the original sentence, and Justin had to serve out his term in federal prison. Though after just six months in prison, Justin was granted parole. Whatever you think of his sentence, this result is exceptionally rare.",
+      "zh": "推翻了原先的判决，Justin 必须去联邦监狱服刑。不过，在监狱待了区区六个月后，Justin 就获得了假释。不论你怎么看待他的量刑，这样的结果都极其罕见。"
+    },
+    {
+      "id": 279,
+      "start_sec": 2536,
+      "speaker": "Aviva DeKornfeld",
+      "en": "The vast majority of sexual assaults are, of course, never reported to the police. And in Canada, of the cases that are reported and make it to court, only about 6% result in jail time for the perpetrator. So those are the sort of satisfying legal consequences.",
+      "zh": "绝大多数性侵案件当然根本不会向警方报案。而在加拿大，报案且走到起诉庭审阶段的案件中，只有大约6%会导致施害者入狱服刑。所以，从法律后果来看，这算得上差强人意了。"
+    },
+    {
+      "id": 280,
+      "start_sec": 2556,
+      "speaker": "Aviva DeKornfeld",
+      "en": "But remember, Vienna went into this because ever since Justin assaulted her, she'd had this unsettled feeling, this itch to know what happened to her. And now that she knows, Vienna says that for the first time since that night, she's able to not think about what happened to her. She used to think about it all the time.",
+      "zh": "但别忘了，Vienna 最初之所以做这一切，是因为自从被 Justin 侵犯后，她心里一直悬着、像有根刺一样，非要弄清楚那晚到底发生了什么。如今她全知道了。Vienna 说，自那晚以来，她第一次可以不再去想发生在她身上的事了。过去她几乎无时无刻不在琢磨。"
+    },
+    {
+      "id": 281,
+      "start_sec": 2576,
+      "speaker": "Vienna Luke",
+      "en": "It's kind of crazy how captive I was to everything that was done to me, the not knowing, and how much it, yeah, dictated so much of my life. And now, I don't have to worry about it anymore. I'm tired, and I'm just going to let the rest like, be.",
+      "zh": "想想还挺不可思议的，我之前居然被遭遇的那一切彻底囚禁住了，那种未知，那种……是的，它掌控了我生活的大部分。而现在，我再也不用为此担惊受怕了。我累了，接下来的事，就随它去吧。"
+    },
+    {
+      "id": 282,
+      "start_sec": 2603,
+      "speaker": "Aviva DeKornfeld",
+      "en": "And then there's the last thing Vienna was hoping to get out of all of this. In some ways, it was the thing she wanted most, and that's getting her sister, Sonny, back. After the trial, once Vienna's parents learned the full extent of what Justin did to her, they cut Justin out.",
+      "zh": "此外，还有 Vienna 曾希望从这整件事中得到的最后一样东西。在某种程度上，那是她最渴望的——那就是挽回她的姐姐 Sonny。审判之后，一旦 Vienna 的父母得知了 Justin 对她所作所为的全部真相，他们就跟 Justin 断绝了往来。"
+    },
+    {
+      "id": 283,
+      "start_sec": 2620,
+      "speaker": "Aviva DeKornfeld",
+      "en": "But Sonny is still married to him. Vienna had thought that if she could get Justin to lay out exactly what he did to her with all the graphic details, and if Sonny could hear that version of the story...",
+      "zh": "但 Sonny 依然维系着跟他的婚姻。Vienna 原本以为，如果自己能让 Justin 和盘托出所有的不堪细节、亲口讲出他是怎么侵犯她的，而 Sonny 也能听到这个版本的故事……"
+    },
+    {
+      "id": 284,
+      "start_sec": 2633,
+      "speaker": "Vienna Luke",
+      "en": "My hope is that she would be able to empathize, be able to be my sister instead of being his wife. I thought if she knew the truth, it would change everything.",
+      "zh": "我原本希望能唤起她的同理心，希望她能做回我的姐姐，而不是做他的妻子。我以为只要她知道了真相，一切都会改变。"
+    },
+    {
+      "id": 285,
+      "start_sec": 2648,
+      "speaker": "Aviva DeKornfeld",
+      "en": "But as far as Vienna knows, Sonny never heard the tape. She served as a witness for Justin in the trial, and so was kept out of the courtroom until it was her time to be called to the stand, which meant she missed all the wiretape that Vienna's lawyers played in court. I reached out to Sonny and Justin multiple times and never heard back.",
+      "zh": "但据 Vienna 所知，Sonny 从没听过那盘录音。她在庭审中担任 Justin 的辩方证人，因此在被传唤出庭作证之前，一直被隔离在法庭之外，这意味着她错过了 Vienna 的律师在庭上播放的所有窃听录音。我曾多次联系 Sonny 和 Justin，但从未收到回复。"
+    },
+    {
+      "id": 286,
+      "start_sec": 2669,
+      "speaker": "Aviva DeKornfeld",
+      "en": "It must be frustrating to do such a good job at getting the facts of what happened that night, and then for the facts to do nothing to persuade the person you're trying to convince the most that something did happen.",
+      "zh": "费了这么大劲把那晚的真相查得一清二楚，结果这些事实却丝毫说服不了你最想说服的人相信事情确实发生过，这一定让人很受挫吧。"
+    },
+    {
+      "id": 287,
+      "start_sec": 2684,
+      "speaker": "Vienna Luke",
+      "en": "Yeah. Yeah, it's really, it's, it's really hard in terms of, you know, \"Look at, look at, I did this for you, and you don't want to see it.\" Um, but I also, I mean, I can't have a relationship",
+      "zh": "是的。是啊，真的很……真的很难受，心想，“你看啊，你看，我这都是为了你做的，可你却偏偏不愿睁眼看。”嗯，但我也不……我的意思是，我没法维持这样一段关系"
+    },
+    {
+      "id": 288,
+      "start_sec": 2700,
+      "speaker": "Vienna Luke",
+      "en": "If she can't recognize what happened, or what was done to me, like it's- it's- I, of course, I want a relationship with my sister. I love her deeply, but I also, I'm not okay with her staying married to him.",
+      "zh": "如果她不能承认发生了什么，不能承认我对受到的伤害，那……当然，我很想和我姐姐保持联系。我深深爱着她，但我也无法接受她继续和那个男人维持婚姻。"
+    },
+    {
+      "id": 289,
+      "start_sec": 2720,
+      "speaker": "Aviva DeKornfeld",
+      "en": "Yeah. They would need to break up in order for you to have a meaningfully close relationship with her again.",
+      "zh": "是的。要想重新恢复真正亲密的关系，他们俩必须得分开。"
+    },
+    {
+      "id": 290,
+      "start_sec": 2727,
+      "speaker": "Vienna Luke",
+      "en": "Yes.",
+      "zh": "对。"
+    },
+    {
+      "id": 291,
+      "start_sec": 2729,
+      "speaker": "Aviva DeKornfeld",
+      "en": "Do you hold out any hope of that happening?",
+      "zh": "你对这一天的到来还抱有希望吗？"
+    },
+    {
+      "id": 292,
+      "start_sec": 2732,
+      "speaker": "Vienna Luke",
+      "en": "Um, yeah. Like as much as I need to like move on and find peace, um, I always hold on to a little bit of hope.",
+      "zh": "嗯，有的。尽管我必须向前看、寻找内心的平静，但我心里始终保留着一丝希望。"
+    },
+    {
+      "id": 293,
+      "start_sec": 2746,
+      "speaker": "Aviva DeKornfeld",
+      "en": "After Vienna's conversation with Justin, she drove home, exhaustion taking over as the adrenaline started to recede. She still had the goody bag from Sunny.",
+      "zh": "和 Justin 谈完后，Vienna 开车回了家。随着肾上腺素逐渐消退，巨大的疲惫感席卷而来。她手里还拿着 Sunny 给她的那个小礼袋。"
+    },
+    {
+      "id": 294,
+      "start_sec": 2757,
+      "speaker": "Aviva DeKornfeld",
+      "en": "Vienna's partner, Jordam, thought she should get rid of it, throw the stuff away. But she didn't want to. She used to love baking cookies with Sunny.",
+      "zh": "Vienna 的伴侣 Jordam 觉得她应该扔掉它，把里面的东西通通处理掉。但她不想扔。她过去最喜欢和 Sunny 一起烤饼干了。"
+    },
+    {
+      "id": 295,
+      "start_sec": 2767,
+      "speaker": "Aviva DeKornfeld",
+      "en": "Maybe this was Sunny's oblique way of saying, \"I know everything is messed up. I know I chose Justin over you. I know things won't ever be the same. But I'm still here, and I still love you.\"",
+      "zh": "也许这是 Sunny 一种隐晦的表达：“我知道一切都被搞得一团糟。我知道我选了 Justin 没选你。我知道再也回不到从前了。但我依然在，我也依然爱你。”"
+    },
+    {
+      "id": 296,
+      "start_sec": 2780,
+      "speaker": "Aviva DeKornfeld",
+      "en": "That's what Vienna would like to believe, anyway. So she unwrapped the cookies and ate them.",
+      "zh": "至少 Vienna 宁愿去这样相信。于是，她拆开包装，吃掉了那些饼干。"
+    },
+    {
+      "id": 297,
+      "start_sec": 2794,
+      "speaker": "Aviva DeKornfeld",
+      "en": "This story first came to us from the CBC. They made a whole four-part series about Vienna, called \"Personally: Agent Layla.\" Their story goes far beyond the tape you heard today.",
+      "zh": "这个故事最初来自加拿大广播公司（CBC）。他们围绕 Vienna 制作了一部四集系列节目，名为《Personally: Agent Layla》。他们讲述的细节远比大家今天听到的录音更丰富。"
+    },
+    {
+      "id": 298,
+      "start_sec": 2806,
+      "speaker": "Aviva DeKornfeld",
+      "en": "There's a link to their series on our website. So go take a listen. If you've experienced sexual assault and want to talk to somebody, you can reach out to the National Sexual Assault Hotline, 1-800-656-HOPE.",
+      "zh": "我们的官网上有该节目的链接，欢迎大家去听听。如果你曾遭受过性侵犯并希望找人倾诉，可以拨打全美性侵救援热线：1-800-656-HOPE。"
+    },
+    {
+      "id": 299,
+      "start_sec": 2828,
+      "speaker": "Aviva DeKornfeld",
+      "en": "Coming up, a person passes a test they had no idea they were taking. That's in a minute, from Chicago Public Radio, when our program continues.",
+      "zh": "稍后，有人通过了一场自己完全不知情的测试。一分钟后请继续收听芝加哥公共电台的精彩节目。"
+    },
+    {
+      "id": 300,
+      "start_sec": 2841,
+      "speaker": "Aviva DeKornfeld",
+      "en": "It's This American Life. I'm Aviva DeKornfeld, sitting in for Ira Glass. Today's show, \"The Missing Minutes.\"",
+      "zh": "欢迎收听 This American Life。我是 Aviva DeKornfeld，代班 Ira Glass。今天的节目主题是《遗落的时光》。"
+    },
+    {
+      "id": 301,
+      "start_sec": 2848,
+      "speaker": "Aviva DeKornfeld",
+      "en": "We've arrived at Act Two of our show. Act Two, Unknown Unknowns.",
+      "zh": "接下来进入第二幕。第二幕：未知的未知。"
+    },
+    {
+      "id": 302,
+      "start_sec": 2854,
+      "speaker": "Aviva DeKornfeld",
+      "en": "So there's information you know you don't know, but then there's all the other stuff. Stuff that just doesn't quite make sense, but you don't know why. You feel like you're missing something.",
+      "zh": "世上有些信息，是你明知道自己不了解的；但还有另一类事情——那些说不清哪里不对劲、却又不知道缘由的事。你总觉得漏掉了关键拼图。"
+    },
+    {
+      "id": 303,
+      "start_sec": 2865,
+      "speaker": "Aviva DeKornfeld",
+      "en": "So you hope that one day it'll all be explained and finally made clear. This last story is a short piece of fiction about what that day might be like. It's by Miranda July. Here she is.",
+      "zh": "于是你盼望着有朝一日，一切都能得到解答，真相大白。我们最后的这个故事是一则虚构短篇，描绘了真相揭晓的那一天可能会是怎样。作者是 Miranda July。请听她带来的朗读。"
+    },
+    {
+      "id": 304,
+      "start_sec": 2880,
+      "speaker": "Miranda July",
+      "en": "Getting excited. Somebody somewhere is shaking with excitement because something tremendous is about to happen to this person.",
+      "zh": "兴奋正在蔓延。不知道在哪里的某个人，正因为激动而浑身发颤，因为一件极其了不得的大事即将降临在TA身上。"
+    },
+    {
+      "id": 305,
+      "start_sec": 2888,
+      "speaker": "Miranda July",
+      "en": "This person has dressed for the occasion. This person's hoped and dreamed. And now it is really happening, and this person can hardly believe it.",
+      "zh": "TA为这一刻盛装打扮。TA曾满怀期盼、做过无数次梦。而现在，一切真的在发生，TA甚至不敢相信。"
+    },
+    {
+      "id": 306,
+      "start_sec": 2898,
+      "speaker": "Miranda July",
+      "en": "But believing is not an issue here. It is really, really happening.",
+      "zh": "但这已经无关相不相信了。因为这确确实实、真真切切地在发生着。"
+    },
+    {
+      "id": 307,
+      "start_sec": 2904,
+      "speaker": "Miranda July",
+      "en": "It involves stepping forward and bowing. Possibly, there is some kneeling, such as when one is knighted. One is almost never knighted.",
+      "zh": "这需要TA向前迈步、鞠躬致意。可能还要单膝下跪，就像被册封为骑士那样。虽然现实中几乎没人会被封为骑士。"
+    },
+    {
+      "id": 308,
+      "start_sec": 2914,
+      "speaker": "Miranda July",
+      "en": "But this person may kneel and receive a tap on each shoulder with a sword. Or, more likely, this person will be in a car, or a store, or under a vinyl canopy when it happens.",
+      "zh": "但这个人也许真会跪下，感受剑身在两肩各轻点一下。或者更可能的是，发生这事的时候，TA正坐在车里、身处便利店，或是躲在塑料雨棚下。"
+    },
+    {
+      "id": 309,
+      "start_sec": 2926,
+      "speaker": "Miranda July",
+      "en": "Or online, or on the phone. It could be an email, \"re: your knighthood,\" or a long, laughing, rambling phone message in which every person this person has ever known is talking on a speakerphone, and they are all saying, \"You have passed the test.",
+      "zh": "也可能是在网上，或在通话中。可能是一封邮件，标题写着“关于您的骑士封号”；又或是一通很长、笑声不断、东拉西扯的电话留言，里面TA认识的所有人正开着免提，齐声说道：“你通过测试了。"
+    },
+    {
+      "id": 310,
+      "start_sec": 2941,
+      "speaker": "Miranda July",
+      "en": "It was all just a test. We were only kidding. Real life is so much better than that.\"",
+      "zh": "那一切都只是一场测试。我们开玩笑的。真实的生活比那好太多了。”"
+    },
+    {
+      "id": 311,
+      "start_sec": 2947,
+      "speaker": "Miranda July",
+      "en": "This person is laughing out loud with relief and playing the message back to get the address of the place where every person this person has ever known is waiting to hug this person and bring her into the fold of life. It is really exciting, and it's not just a dream. It's real.",
+      "zh": "这个人如释重负地大笑出声，倒回去重放那条留言，想要听清集合地址——在那里，TA此生认识的所有人都正等待着拥抱TA，将她迎入生活的温暖怀抱。这实在太令人激动了，而且这绝不是一场梦。它是真的。"
+    },
+    {
+      "id": 312,
+      "start_sec": 2975,
+      "speaker": "Miranda July",
+      "en": "They're all waiting by a picnic table in a park this person has driven past many times before. There they are. It's everyone.",
+      "zh": "他们全都在公园的一张野餐桌旁等候，而这个人以前曾无数次开车路过那座公园。他们就在那儿。所有人都在。"
+    },
+    {
+      "id": 313,
+      "start_sec": 2986,
+      "speaker": "Miranda July",
+      "en": "There are balloons taped to the benches, and the girl this person used to stand next to at the bus stop is waving a streamer. Everyone is smiling.",
+      "zh": "长椅上用胶带绑着气球，曾经在公交站总站在TA身旁的那个女孩正挥舞着彩带。每个人脸上都洋溢着笑容。"
+    },
+    {
+      "id": 314,
+      "start_sec": 2996,
+      "speaker": "Miranda July",
+      "en": "For a moment, this person is almost creeped out by the scene. But it would be so like this person to become depressed on the happiest day ever. So this person bucks up and joins the crowd.",
+      "zh": "有那么一瞬间，这幅景象几乎让TA有点毛骨悚然。但如果在这有生以来最幸福的一天突然消沉下去，那也太像TA的作风了。于是这个人振作起来，走进了人群之中。"
+    },
+    {
+      "id": 315,
+      "start_sec": 3008,
+      "speaker": "Miranda July",
+      "en": "Teachers of subjects that this person wasn't even good at are kissing this person and renouncing the very subjects they taught. Math teachers are saying that math was just a funny way of saying, \"I love you.\" But now they are simply saying it, \"I love you.\"",
+      "zh": "TA甚至根本不擅长的那些科目的老师，正亲吻着TA，并当场宣布放弃自己教过的那门课。数学老师们说，以前教数学只是用一种滑稽的方式来表达“我爱你”。但现在他们直接坦白了，“我爱你”。"
+    },
+    {
+      "id": 316,
+      "start_sec": 3026,
+      "speaker": "Miranda July",
+      "en": "And the chemistry and PE teachers are also saying it. And this person can tell they really mean it. It's totally amazing.",
+      "zh": "化学老师和体育老师也这么说着。这个人能听得出，他们全都是发自真心的。这简直太不可思议了。"
+    },
+    {
+      "id": 317,
+      "start_sec": 3036,
+      "speaker": "Miranda July",
+      "en": "Certain jerks and idiots and assholes appear from time to time, and it's as if they've had plastic surgery. Their faces are disfigured with love.",
+      "zh": "从前那些混球、白痴和讨厌鬼时不时冒出来，一个个就像整了容似的。他们的脸都被爱意扭曲得变了形。"
+    },
+    {
+      "id": 318,
+      "start_sec": 3047,
+      "speaker": "Miranda July",
+      "en": "The handsome assholes are plain and kind, and the ugly jerks are sweet, and they are folding this person's sweater and putting it somewhere where it won't get dirty. Best of all, every--",
+      "zh": "英俊的混蛋变得朴素善良，丑陋的讨厌鬼变得温和体贴，他们正叠好这个人的毛衣，小心翼翼地放到不会弄脏的地方。最棒的是，每一位——"
+    },
+    {
+      "id": 319,
+      "start_sec": 3060,
+      "speaker": "Miranda July",
+      "en": "Person this person has ever loved is there, even the ones who got away. They hold this person's hand and tell this person how hard it was to pretend to get mad and drive off and never come back.",
+      "zh": "这个人爱过的每一个人都在场，甚至是那些最终离开的人。他们牵着这个人的手，诉说当初假装发火、开车离去并再也不回来是有多么艰难。"
+    },
+    {
+      "id": 320,
+      "start_sec": 3075,
+      "speaker": "Miranda July",
+      "en": "This person almost can't believe it. It seemed so real. This person's heart was broken and has healed and now this person hardly knows what to think.",
+      "zh": "这个人简直不敢相信。当时的一切显得那么真实。这个人的心曾碎过，如今又愈合了，现在这个人几乎不知道该作何感想。"
+    },
+    {
+      "id": 321,
+      "start_sec": 3086,
+      "speaker": "Miranda July",
+      "en": "This person is almost mad. But everyone soothes this person. Everyone explains that it was absolutely necessary to know how strong this person was.",
+      "zh": "这个人差点要生气了。但大家都来安抚。每个人都解释说，这绝对是必要的，他们必须知道这个人到底有多坚强。"
+    },
+    {
+      "id": 322,
+      "start_sec": 3097,
+      "speaker": "Miranda July",
+      "en": "Oh, look, there's the doctor who prescribed the medicine that made this person temporarily blind. And the man who paid this person $2,000 to have sex with him three times when this person was very broke.",
+      "zh": "哦，看，那个开错药导致这个人暂时失明的医生也在。还有在那个人穷困潦倒时，花两千美元让这个人陪睡了三次的男人也在。"
+    },
+    {
+      "id": 323,
+      "start_sec": 3110,
+      "speaker": "Miranda July",
+      "en": "Both these men are in attendance. They seem to know each other. They both have little medals that they're pinning on this person.",
+      "zh": "这两个男人都出席了。他们似乎还互相认识。他们手里都拿着小奖章，正往这个人身上别。"
+    },
+    {
+      "id": 324,
+      "start_sec": 3118,
+      "speaker": "Miranda July",
+      "en": "They are badges of great honor and strength. The badges sparkle in the sunlight, and everyone cheers.",
+      "zh": "那是代表巨大荣誉与坚韧的勋章。勋章在阳光下闪闪发光，众人都欢呼起来。"
+    },
+    {
+      "id": 325,
+      "start_sec": 3126,
+      "speaker": "Miranda July",
+      "en": "This person suddenly feels the need to check her post office box. It is an old habit, and even if everything's going to be terrific from now on, this person still wants mail.",
+      "zh": "这个人突然觉得该去看看自己的邮政信箱了。这是个老习惯了，就算从今往后一切都会好得不得了，这个人还是想收信。"
+    },
+    {
+      "id": 326,
+      "start_sec": 3140,
+      "speaker": "Miranda July",
+      "en": "This person says she'll be right back, and everyone this person has ever known says, fine, take your time.",
+      "zh": "这个人说去去就回，而这个人认识的每一个人都说：行，慢慢来，别着急。"
+    },
+    {
+      "id": 327,
+      "start_sec": 3146,
+      "speaker": "Miranda July",
+      "en": "This person gets in her car and drives to the post office and opens the box, and there is nothing, even though it is Tuesday, which is a famously good day for mail.",
+      "zh": "这个人上了车，开到邮局打开信箱，里面空空如也，尽管今天是周二——众所周知周二向来是个收信的好日子。"
+    },
+    {
+      "id": 328,
+      "start_sec": 3158,
+      "speaker": "Miranda July",
+      "en": "This person is so disappointed. This person gets back in the car, and having completely forgotten about the picnic, drives home and checks the voicemail, and there are no new messages, just the old one about passing the test and life being better.",
+      "zh": "这个人失望透顶。这个人回到车里，把野餐的事忘得一干二净，直接开车回家去查语音信箱。没有新留言，只有那条旧的，说着通过了测试、生活会变好。"
+    },
+    {
+      "id": 329,
+      "start_sec": 3176,
+      "speaker": "Miranda July",
+      "en": "There are no emails, either, probably because everyone is at the picnic. This person can't seem to go back to the picnic.",
+      "zh": "也没有新邮件，大概是因为所有人都还在野餐聚会上。这个人似乎没法再回野餐会去了。"
+    },
+    {
+      "id": 330,
+      "start_sec": 3186,
+      "speaker": "Miranda July",
+      "en": "This person realizes that staying home means blowing off everyone this person has ever known. But the desire to stay in is very strong.",
+      "zh": "这个人意识到，呆在家里就意味着放了这个人生平所认识的所有人的鸽子。但想足不出户的念头极其强烈。"
+    },
+    {
+      "id": 331,
+      "start_sec": 3196,
+      "speaker": "Miranda July",
+      "en": "This person wants to run a bath and then read in bed. In the bathtub, this person pushes the bubbles around and listens to the sound of millions of them popping at once.",
+      "zh": "这个人想放水泡个澡，然后躺在床上看书。泡在浴缸里，这个人拨弄着身边的泡沫，听着成千上万个气泡同时破裂的噼啪声。"
+    },
+    {
+      "id": 332,
+      "start_sec": 3209,
+      "speaker": "Miranda July",
+      "en": "This person pushes the bubbles onto their breasts and makes weird shapes with the foam. By now, everyone must have realized that this person is not coming back to the picnic.",
+      "zh": "这个人把泡泡抹在胸口，用泡沫堆出各种怪异的形状。这会儿，大家肯定都已经意识到这个人不会回野餐会了。"
+    },
+    {
+      "id": 333,
+      "start_sec": 3220,
+      "speaker": "Miranda July",
+      "en": "Everyone was wrong. This person is not who they thought this person was.",
+      "zh": "大家都想错了。这个人根本就不是他们以为的那副模样。"
+    },
+    {
+      "id": 334,
+      "start_sec": 3226,
+      "speaker": "Miranda July",
+      "en": "This person plunges underwater. This person can stay underwater for an impressively long time, but only in a bathtub. This person wonders if there will ever be an Olympic contest for holding your breath under",
+      "zh": "这个人一头扎进水里。这个人能在水下憋很久很久，久得令人惊叹，但仅限于在浴缸里。这个人琢磨着，奥运会不知会不会办一场水下憋气……"
+    },
+    {
+      "id": 335,
+      "start_sec": 3240,
+      "speaker": "Miranda July",
+      "en": "bath water. If there were such a contest, this person would surely win it. An Olympic medal might redeem this person in the eyes of everyone this person has ever known.",
+      "zh": "洗澡水。如果有这样的比赛，这个人肯定能赢。一枚奥运奖牌或许能在她认识的所有人眼中挽回她的形象。"
+    },
+    {
+      "id": 336,
+      "start_sec": 3252,
+      "speaker": "Miranda July",
+      "en": "But no such contest exists, so there will be no redeeming. This person mourns the fact that she has ruined her one chance to be loved by everyone.",
+      "zh": "但根本没有这种比赛，所以也不可能有什么救赎。这个人哀叹着自己毁掉了被所有人深爱的唯一机会。"
+    },
+    {
+      "id": 337,
+      "start_sec": 3264,
+      "speaker": "Miranda July",
+      "en": "As this person climbs into bed, the weight of this tragedy seems to bear down upon this person's chest. And it is a comforting weight, almost human in heft.",
+      "zh": "当这个人爬上床时，那场悲剧的沉重感仿佛压在了胸口。那是一种令人安心的重量，几乎有着活人般的份量。"
+    },
+    {
+      "id": 338,
+      "start_sec": 3277,
+      "speaker": "Miranda July",
+      "en": "This person sighs. This person's eyes begin to close. This person sleeps.",
+      "zh": "这个人叹了口气。闭上双眼。这个人睡着了。"
+    },
+    {
+      "id": 339,
+      "start_sec": 3295,
+      "speaker": "Aviva DeKornfeld",
+      "en": "Miranda July, she's the author of the book, All Fours, which is the only book that I, upon completing, flipped over and immediately started reading again. I can't recommend it enough.",
+      "zh": "那是 Miranda July。她是小说《四足朝天》（All Fours）的作者——这也是唯一一本我刚读完就立刻翻回第一页重读的书。怎么推荐都不为过。"
+    },
+    {
+      "id": 340,
+      "start_sec": 3307,
+      "speaker": "Aviva DeKornfeld",
+      "en": "Miranda also has a Substack called, appropriately, Miranda July. Check it out.",
+      "zh": "Miranda 在 Substack 也有专栏，名字也很贴切，就叫《Miranda July》，大家不妨去看看。"
+    },
+    {
+      "id": 341,
+      "start_sec": 3351,
+      "speaker": "Aviva DeKornfeld",
+      "en": "Our program today was produced by me and edited by Ira Glass. The people who put together today's show include: Mica McCammon, Cassie Howley, Chana Joffe-Walt, Adrienne Lily, Seth Lind, Miki Meek, Katherine Rae Mondo, Stowe Nelson, Nadia Reiman, Marisa Robertson-Textor, Anthony Roman, Ryan Rumery, Ruby Schwartz, Alyssa Shipp, and Diane Wu.",
+      "zh": "今天的节目由我制作，Ira Glass 负责编辑。参与本期节目制作的团队成员包括：Mica McCammon、Cassie Howley、Chana Joffe-Walt、Adrienne Lily、Seth Lind、Miki Meek、Katherine Rae Mondo、Stowe Nelson、Nadia Reiman、Marisa Robertson-Textor、Anthony Roman、Ryan Rumery、Ruby Schwartz、Alyssa Shipp 以及 Diane Wu。"
+    },
+    {
+      "id": 342,
+      "start_sec": 3370,
+      "speaker": "Aviva DeKornfeld",
+      "en": "Our managing editor is Sarah Abdurrahman. Our senior editors are David Kestenbaum and Nancy Updike. Our executive editor is Emanuele Berry.",
+      "zh": "我们的执行主编是 Sarah Abdurrahman。资深编辑是 David Kestenbaum 和 Nancy Updike。执行总监是 Emanuele Berry。"
+    },
+    {
+      "id": 343,
+      "start_sec": 3394,
+      "speaker": "Aviva DeKornfeld",
+      "en": "This American Life is delivered to public radio stations by PRX, the Public Radio Exchange. Thanks as always to my boss, Ira Glass. You know, he finally told me this week why every time he has to go to a meeting with our colleagues here at the show, he locks all his valuables in his office.",
+      "zh": "《This American Life》由公共广播交流机构 PRX 联合制作发行。照例感谢我的老板 Ira Glass。你知道吗，这周他终于跟我吐露了心声——为什么每次要和台里的同事们开会，他都得把所有值钱的东西锁在办公室里。"
+    },
+    {
+      "id": 344,
+      "start_sec": 3411,
+      "speaker": "Justin",
+      "en": "Not to like stereotype, but many of them were like criminals.",
+      "zh": "倒不是想搞刻板印象，但他们当中好多人简直像罪犯一样。"
+    },
+    {
+      "id": 345,
+      "start_sec": 3416,
+      "speaker": "Aviva DeKornfeld",
+      "en": "I'm Aviva DeKornfeld. Ira Glass will be back next week with more stories.",
+      "zh": "我是 Aviva DeKornfeld。下周 Ira Glass 将回归，继续为大家带来更多精彩故事。"
+    },
+    {
+      "id": 346,
+      "start_sec": 3420,
+      "speaker": "Miranda July",
+      "en": "...of This American Life.",
+      "zh": "……来自 This American Life。"
+    }
+  ]
+}

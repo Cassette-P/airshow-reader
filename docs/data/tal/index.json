@@ -3,7 +3,7 @@
   "show_id": "tal",
   "podcast_title": "This American Life",
   "rss_url": "https://www.thisamericanlife.org/podcast/rss.xml",
-  "updated_at": "2026-11-23T18:15:37Z",
+  "updated_at": "2026-11-25T16:46:49Z",
   "episodes": [
     {
       "guid": "37237 at https://www.thisamericanlife.org",
@@ -21,6 +21,22 @@
       ],
       "highlights_count": 9,
       "transcript_count": 370
+    },
+    {
+      "guid": "46259 at https://www.thisamericanlife.org",
+      "title": "902: The Missing Minutes",
+      "pub_date": "2026-11-16T01:00:00Z",
+      "duration_sec": 3426,
+      "audio_url": "https://www.thisamericanlife.org/sites/default/files/audio/upload/archive/902.mp3",
+      "file": "episodes/46259_at_https_www.thisamericanlife.org.json",
+      "summary_zh": "本期围绕人生的“记忆空白与未解之谜”展开：当我们苦寻多年终于获知真相，或某天一切困惑突然得到解答时，我们会走向何处？代班主持人 Aviva DeKornfeld 在 Prologue 中切入温哥华机场酒吧的卧底现场，身藏录音器的 Vienna Luke 等待十余年未见的姐夫 Justin，追问二十岁那晚失落的记忆。Act One 呈现了这场惊心动魄的对峙：Vienna 冷静套出姐夫下药与偷拍的罪证，虽将其送入监狱、解开十四年心结，却未能唤回偏袒丈夫的大姐 Sunny。Act Two 由 Miranda July 朗读短篇小说，从“已知的未知”转向“未知的未知”：主人公突然被告知过往苦难只是一场测试，所有人都在野餐会上等着爱她，但她却逃回浴缸与床榻，在熟悉而遗憾的孤独中安然入睡。",
+      "key_takeaways_zh": [
+        "Prologue（主持人 Aviva DeKornfeld）：在温哥华机场酒店酒吧的警方卧底现场，身藏两个隐秘录音器的 Vienna Luke 等待十年未见的姐夫 Justin 现身，准备揭开困扰她十余年的记忆空白。",
+        "Act One: Known Unknowns（记者 Aviva DeKornfeld）：Vienna Luke 在事发十四年后孤身对峙曾给自己下药性侵的姐夫 Justin 并套出全部罪证，最终将其送入联邦监狱并获得精神解脱，却依然未能唤回执迷不悟的大姐 Sunny。",
+        "Act Two: Unknown Unknowns（作者与朗读 Miranda July）：一篇超现实短篇小说设想某天主人公突然得知过往人生的所有伤痛与遗憾都只是一场“测试”，但在众人盛大的爱意面前，她却本能地逃回孤独而熟悉的日常悲剧中。"
+      ],
+      "highlights_count": 8,
+      "transcript_count": 346
     }
   ]
 }
