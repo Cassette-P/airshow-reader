@@ -5,7 +5,6 @@ from datetime import datetime, timedelta, timezone
 import html
 import json
 import re
-import sys
 
 import feedparser
 import requests
@@ -57,12 +56,13 @@ def fetch_rss(url: str, show_id: str = ""):
         resp.raise_for_status()
     except Exception as e:
         log("ERROR", f"Failed to fetch RSS: {e}", show_id=show_id)
-        sys.exit(1)
+        raise RuntimeError(f"Failed to fetch RSS from {url}: {e}") from e
 
     feed = feedparser.parse(resp.content)
     if feed.bozo and not feed.entries:
-        log("ERROR", f"Failed to parse RSS feed: {feed.get('bozo_exception', 'Unknown error')}", show_id=show_id)
-        sys.exit(1)
+        bozo_exc = feed.get("bozo_exception", "Unknown error")
+        log("ERROR", f"Failed to parse RSS feed: {bozo_exc}", show_id=show_id)
+        raise RuntimeError(f"Failed to parse RSS feed from {url}: {bozo_exc}")
 
     log("RSS", f"Successfully fetched feed with {len(feed.entries)} episode(s).", show_id=show_id)
     return feed
@@ -128,7 +128,7 @@ def filter_new_episodes(
                 existing_guids = {ep["guid"] for ep in data.get("episodes", []) if "guid" in ep}
         except Exception as e:
             log("ERROR", f"Failed to read existing {index_file}: {e}", show_id=show_id)
-            sys.exit(1)
+            raise
 
     new_entries = [e for e in feed_entries if get_entry_guid(e) not in existing_guids]
     log("FILTER", f"Found {len(new_entries)} unhandled episode(s) (existing in DB: {len(existing_guids)}).", show_id=show_id)

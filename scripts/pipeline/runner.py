@@ -1,12 +1,11 @@
 """Main episode processing pipeline and incremental enrichment orchestrator."""
 
 import json
+import os
 from pathlib import Path
 import shutil
 import sys
 import tempfile
-
-from google import genai
 
 from pipeline.audio import (
     chunk_audio,
@@ -99,7 +98,7 @@ def process_episode(entry, args, show: dict, glossary_text: str) -> None:
             log("CACHE", "Hit Channel B cache, skipping download/chunk/CH-B", show_id=show_id)
             transcript = cached_data["transcript"]
             duration_sec = int(cached_data.get("duration_sec", 0))
-            if cached_data.get("audio_url"):
+            if not audio_url and cached_data.get("audio_url"):
                 audio_url = cached_data["audio_url"]
         else:
             temp_dir = Path(tempfile.mkdtemp(prefix=f"{show_id}_"))
@@ -143,6 +142,9 @@ def process_episode(entry, args, show: dict, glossary_text: str) -> None:
                 content_style=show.get("content_style", "analytical"),
                 speaker_roster=speaker_roster,
             )
+
+            if not transcript:
+                raise RuntimeError(f"Channel B returned empty transcript for episode '{title}' ({guid}).")
 
             # Write cache ONLY in formal full mode (--max-chunks == 0 and not --dry-run)
             if not args.dry_run and args.max_chunks == 0:
@@ -403,15 +405,21 @@ def run_main_pipeline(args, config: dict, target_shows: list[dict]) -> tuple[int
         show_id = show["id"]
         log("RSS", f"Processing show '{show.get('title')}' ({show_id})...", show_id=show_id)
 
-        glossary_text = load_glossary_for_show(show)
-        feed = fetch_rss(show["rss_url"], show_id=show_id)
+        try:
+            glossary_text = load_glossary_for_show(show)
+            feed = fetch_rss(show["rss_url"], show_id=show_id)
 
-        episodes_to_process = filter_new_episodes(
-            feed.entries,
-            show=show,
-            limit=args.limit,
-            max_age_days=args.max_age_days,
-        )
+            episodes_to_process = filter_new_episodes(
+                feed.entries,
+                show=show,
+                limit=args.limit,
+                max_age_days=args.max_age_days,
+            )
+        except Exception as e:
+            total_episodes_attempted += 1
+            total_episodes_failed += 1
+            log("ERROR", f"Show '{show.get('title')}' ({show_id}) failed during RSS/filter stage: {e}", show_id=show_id)
+            continue
 
         if not episodes_to_process:
             log("FILTER", f"No new episodes to process for '{show.get('title')}'.", show_id=show_id)

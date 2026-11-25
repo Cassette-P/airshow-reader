@@ -28,6 +28,7 @@ venv/
 .venv/
 env/
 
-# Breakpoint cache
+# Breakpoint cache & local benchmark scripts
 .cache/
+scripts/_bench_*.py
 

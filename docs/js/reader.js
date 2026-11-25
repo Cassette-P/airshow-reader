@@ -12,7 +12,10 @@ export function renderArticleMeta(show, ep) {
   if (elements.metaPodcastTitle) elements.metaPodcastTitle.textContent = (show && show.title) || '播客精读';
   if (elements.metaPubDate) elements.metaPubDate.textContent = formatDateZh(ep.pub_date);
   if (elements.metaDuration) elements.metaDuration.textContent = formatDurationZh(ep.duration_sec);
-  if (elements.metaAudioLink) elements.metaAudioLink.href = ep.audio_url || '#';
+  if (elements.metaAudioLink) {
+    const rawAudioUrl = typeof ep.audio_url === 'string' ? ep.audio_url.trim() : '';
+    elements.metaAudioLink.href = /^https?:\/\//i.test(rawAudioUrl) ? rawAudioUrl : '#';
+  }
   if (elements.episodeTitle) elements.episodeTitle.textContent = ep.title || '';
 
   const dur = Number(ep.duration_sec) || 0;

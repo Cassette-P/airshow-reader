@@ -3,7 +3,7 @@
  * Bootstraps modules, registers Service Worker, manages URL Hash routing & top-level events
  */
 
-import { state, elements, initElements, showIndexCache } from './state.js';
+import { state, elements, initElements, showIndexCache, episodeCache } from './state.js';
 import { getEpisodeProgress } from './storage.js';
 import { fetchShows, fetchShowIndex, fetchEpisodeDetail } from './api.js';
 import { detectPwaMode, initTheme, initLanguageMode, applyShowTheme, toggleTheme } from './theme.js';
@@ -12,7 +12,6 @@ import {
   initMediaSessionActionHandlers,
   updateMediaSession,
   updatePlayPauseIcons,
-  seekAndPlay,
   exitSentenceLoop,
   throttleSaveProgress,
   setProgressUpdateCallback
@@ -255,8 +254,8 @@ export function selectEpisode(show, epMeta) {
   renderExecutiveSummary(epMeta);
 
   const cacheKey = `${show.id}::${epMeta.guid}`;
-  if (showIndexCache.has(cacheKey)) {
-    const detail = showIndexCache.get(cacheKey);
+  if (episodeCache.has(cacheKey)) {
+    const detail = episodeCache.get(cacheKey);
     state.currentEpisode = detail;
     renderHighlights(detail.highlights || []);
     renderKnowledgeCards(detail);

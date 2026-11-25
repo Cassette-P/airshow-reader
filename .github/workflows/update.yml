@@ -21,9 +21,9 @@ name: Scheduled Update and Ingestion
         default: '1'
         type: string
       max_age_days:
-        description: 'Max age of episodes in days (0 for no limit)'
+        description: 'Max age of episodes in days (blank = per-show default, 0 = no limit)'
         required: false
-        default: '7'
+        default: ''
         type: string
       dry_run:
         description: 'Dry run mode (do not call Gemini API or save data)'
@@ -46,7 +46,7 @@ concurrency:
 jobs:
   update-episodes:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 90
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -72,6 +72,7 @@ jobs:
           GEMINI_THINKING_CH_A: ${{ vars.GEMINI_THINKING_CH_A }}
           GEMINI_THINKING_ENRICH: ${{ vars.GEMINI_THINKING_ENRICH }}
           CHUNK_SLEEP_SEC: ${{ vars.CHUNK_SLEEP_SEC }}
+          CH_A_BG_TIMEOUT_SEC: ${{ vars.CH_A_BG_TIMEOUT_SEC }}
           EVENT_NAME: ${{ github.event_name }}
           INPUT_SHOW: ${{ inputs.show }}
           INPUT_LIMIT: ${{ inputs.limit }}
@@ -81,22 +82,21 @@ jobs:
         run: |
           SHOW="${INPUT_SHOW:-all}"
           LIMIT="${INPUT_LIMIT:-1}"
-          MAX_AGE="${INPUT_MAX_AGE_DAYS:-7}"
-          EXTRA_ARGS=""
+          ARGS=(--show "$SHOW" --limit "$LIMIT")
           if [ "$INPUT_DRY_RUN" = "true" ]; then
-            EXTRA_ARGS="$EXTRA_ARGS --dry-run"
+            ARGS+=(--dry-run)
           fi
           if [ "$INPUT_ENRICH_ONLY" = "true" ]; then
-            echo "Running process.py with --enrich --show $SHOW --limit $LIMIT $EXTRA_ARGS"
-            python scripts/process.py --enrich --show "$SHOW" --limit "$LIMIT" $EXTRA_ARGS
-          else
-            echo "Running process.py with --show $SHOW --limit $LIMIT --max-age-days $MAX_AGE $EXTRA_ARGS"
-            python scripts/process.py --show "$SHOW" --limit "$LIMIT" --max-age-days "$MAX_AGE" $EXTRA_ARGS
+            ARGS=(--enrich "${ARGS[@]}")
+          elif [ -n "$INPUT_MAX_AGE_DAYS" ]; then
+            ARGS+=(--max-age-days "$INPUT_MAX_AGE_DAYS")
           fi
+          echo "Running process.py with ${ARGS[*]}"
+          python scripts/process.py "${ARGS[@]}"
 
       - name: Validate data contract
         run: |
-          python scripts/validate_data.py
+          python scripts/validate_data.py --strict
 
       - name: Commit and push changes if updated
         run: |

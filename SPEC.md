@@ -9,19 +9,22 @@
 - `README.md`：项目简介、本地使用与云端运维指南
 - `SPEC.md`：核心架构、状态机、v3.0/v3.1 数据契约、校验门禁与 v3.3 前端规范（本文件）
 - `podcasts.json`：多播客核心配置注册表（包含各节目 ID、标题、RSS、术语表路径、主题重音色与默认时效窗口）
-- `glossaries/<show_id>.md`：各播客专属常驻主播名单、行业术语表与翻译校对红线（如 `glossaries/airshow.md`、`glossaries/sinica.md`）
+- `glossaries/<show_id>.md`：各播客专属常驻主播名单、行业术语表与翻译校对红线（如 `glossaries/airshow.md`、`glossaries/sinica.md`、`glossaries/tal.md`）
 - `ITERATION.md`：迭代里程碑总览、验收记录与后续规划
 - `requirements.txt`：Python 依赖
-- `.gitignore`：本地缓存与临时预览文件忽略规则（覆盖 `docs/data/**/_smoke_preview.json` 与 `docs/data/**/*.tmp`）
+- `.gitignore`：本地缓存、盲测脚本与临时预览文件忽略规则（覆盖 `.cache/`、`scripts/_bench_*.py`、`docs/data/**/_smoke_preview.json` 与 `docs/data/**/*.tmp`）
+- `tests/`：后端管线稳定性与契约回归单元测试目录
+  - `__init__.py`
+  - `test_stability.py`：断点缓存、逐字稿瘦身、Interactions API 双模容灾、`--enrich`、TAL 钩子与多节目隔离测试
 - `scripts/process.py`：主处理命令行入口（参数解析与流程调度分发）
-- `scripts/validate_data.py`：数据契约与完整性校验门禁（集成于 GitHub Actions CI）
+- `scripts/validate_data.py`：数据契约与完整性校验门禁（集成于 GitHub Actions CI，`--strict` 模式）
 - `scripts/pipeline/`：后端流水线解耦模块目录
   - `__init__.py`
   - `config.py`：全局常量、目录路径与环境变量读取
   - `models.py`：Pydantic 数据契约与结构体模型
-  - `storage.py`：JSON 原子读写、内存缓存与 Shows 清单同步
+  - `storage.py`：JSON 原子读写、CH-B 磁盘断点缓存（`.cache/ch_b/`）与 Shows 清单同步
   - `audio.py`：四级抗 403 下载、ffprobe 检测与 180s 切片
-  - `gemini.py`：Gemini SDK 客户端初始化、流式调用与长退避重试
+  - `gemini.py`：Gemini SDK 客户端初始化、CH-A Interactions API 异步轮询与 `stream_with_thoughts` 双模容灾、CH-B/Enrich 流式调用与长退避重试
   - `prompts.py`：通道 A、通道 B 与 Enrich 提示词生成
   - `rss.py`：RSS 抓取解析与 Show Notes 结构化清洗
   - `runner.py`：单集生命周期驱动、通道调度与补跑引擎
@@ -29,7 +32,7 @@
   - `migrate.py`：v2→v3 数据目录幂等迁移与新节目脚手架
 - `docs/favicon.svg`：「声波书页（Acoustic Folio）」静态矢量站点图标
 - `docs/manifest.json`：PWA 应用清单（相对路径 `start_url: "./"`、`scope: "./"`、`display: "standalone"`）
-- `docs/sw.js`：PWA Service Worker（静态资源 `airshow-reader-v2` 缓存；`./data/**` 与媒体请求严格走 Network-Only）
+- `docs/sw.js`：PWA Service Worker（静态资源 `airshow-reader-v3` 缓存；`./data/**` 与媒体请求严格走 Network-Only）
 - `docs/icons/icon-192.png`、`docs/icons/icon-512.png`：PWA 桌面标准 PNG 图标
 - `docs/artwork-airshow-512.png`：The Air Show 专属 512px 节目封面
 - `docs/artwork-sinica-512.png`：Sinica Podcast 专属 512px 节目封面
@@ -74,7 +77,7 @@
 [遍历目标节目列表 (target_shows)]
    │
    ├─► [1. FETCH_RSS] 抓取当前节目的 rss_url
-   │      │ (失败：记录 ERROR 并以非零码退出)
+   │      │ (失败：记录 ERROR 并隔离单节目故障，继续流转至下一个节目；仅全部尝试项均失败时非零码退出)
    │      ▼
    ├─► [2. FILTER_NEW] 对比 docs/data/<show_id>/index.json 已有 guid，按 --max-age-days 筛选未入库单集（--limit）
    │      │ (当前节目无新单集：记录日志并流转至下一个节目)
@@ -142,7 +145,7 @@
 
 ### 命令行参数
 
-- `--show SHOW_ID`（str，默认 `"all"`）：指定处理的节目 ID（如 `airshow`、`sinica`），或 `"all"`（顺序处理全部 `enabled: true` 的节目）。若传入未知 `show_id` 立即报错退出。
+- `--show SHOW_ID`（str，默认 `"all"`）：指定处理的节目 ID（如 `airshow`、`sinica`、`tal`），或 `"all"`（顺序处理全部 `enabled: true` 的节目）。若传入未知 `show_id` 立即报错退出。
 - `--limit N`（int，默认 `1`）：每个节目单次最多处理的新单集数量（`--enrich` 模式下传 `0` 表示不截断全量扫描）。
 - `--chunk-sec S`（int，默认 `180`）：音频切片时长（秒）；建议保持 `180`（最多 `240`），确保时间锚点高精度。
 - `--max-age-days D`（int，可选）：仅处理最近 D 天内发布的未入库新单集；`0` 表示不限制发布时间；未显式指定时自动读取该节目在 `podcasts.json` 中的 `default_max_age_days`（默认 7 天）。
@@ -154,6 +157,7 @@
 
 ### 播客注册表扩展规范（`podcasts.json`）
 
+- `glossary_file`（str，推荐，向后兼容旧键 `glossary_path`）：相对于仓库根目录的专属术语表路径（如 `"glossaries/tal.md"`）。
 - `content_style`（str，可选，默认 `"analytical"`）：
   - `"analytical"`：政经产业深度分析体（Air Show、Sinica），聚焦核心议题、观点分歧、数据与行业黑话；
   - `"narrative"`：非虚构叙事特稿体（This American Life），`summary_zh` 聚焦单集母主题与分幕展开，`key_takeaways_zh` 输出分幕导读（Act Guide），`vocab_notes` 聚焦美式口语与文化梗，`references` 输出叙事中引用的真实作品与报道。
@@ -183,7 +187,7 @@
   - **输入逐字稿瘦身**：严格仅向通道 A 传递 `[MM:SS] <speaker>: <en>`（英文原声文本），剔除 `zh` 中文译文以削减近半输入 Token、缩短首字节思考静默时间，调用前记录 `input_chars` 字符数。
   - 思考等级与自动适配：`GEMINI_THINKING_CH_A`（可选）。
     - 显式覆盖：若环境变量非空（`.strip()` 判空），返回其小写值（若显式设为 `"default"` 或 `"none"` 则返回 `None` 走模型默认）；
-    - 模型默认适配：若未设置环境变量，按模型自动匹配：`gemini-4-neon` 返回 `"xhigh"`，`gemini-4-carbon` 返回 `"high"`，其他模型默认返回 `"high"`；
+    - 模型默认适配：若未设置环境变量，候选池三档模型统一默认 `"high"`（主模型 `gemini-4-carbon @ high`，回退 `gemini-4-neon @ high`、`gemini-3.8-flash @ high`；如需 `xhigh` 可通过 `GEMINI_THINKING_CH_A=xhigh` 显式开启）；
     - 容错与平滑降级链：若本地 SDK 校验或远端 API 调用因不支持该档位报错，按 **`xhigh` → `high` → `low` → `None`（移除 `thinking_config`）** 逐级降级并打印降级日志后立即重试；
     - 连续断连降级策略：在同一候选模型的重试循环中，当同一思考档位连续发生 2 次传输断连/超时时，自动将思考档位顺降一级（降级链：`xhigh` → `high` → `low` → `None`），重置断连计数并打印日志继续重试。
 - **片间休眠**：`CHUNK_SLEEP_SEC`（默认 `"2.0"` 秒）。
@@ -232,6 +236,15 @@
       "index_file": "sinica/index.json",
       "episode_count": 7,
       "latest_pub_date": "2026-11-20T05:00:00Z"
+    },
+    {
+      "id": "tal",
+      "title": "This American Life",
+      "subtitle": "Narrative Journalism & Stories · Hosted by Ira Glass",
+      "accent_color": "#2D6A4F",
+      "index_file": "tal/index.json",
+      "episode_count": 1,
+      "latest_pub_date": "2026-11-23T01:00:00Z"
     }
   ]
 }
@@ -246,7 +259,7 @@
   "schema_version": "3.0",
   "show_id": "airshow",
   "podcast_title": "The Air Show",
-  "rss_url": "[https://feeds.buzzsprout.com/2329718.rss](https://feeds.buzzsprout.com/2329718.rss)",
+  "rss_url": "https://feeds.buzzsprout.com/2329718.rss",
   "updated_at": "2026-11-23T10:00:00Z",
   "episodes": [
     {
@@ -254,7 +267,7 @@
       "title": "Singapore's Brand and Network Struggles",
       "pub_date": "2026-11-19T11:00:00Z",
       "duration_sec": 2120,
-      "audio_url": "[https://www.buzzsprout.com/2329718/episodes/20148830-singapore-s-brand-and-network-struggles.mp3](https://www.buzzsprout.com/2329718/episodes/20148830-singapore-s-brand-and-network-struggles.mp3)",
+      "audio_url": "https://www.buzzsprout.com/2329718/episodes/20148830-singapore-s-brand-and-network-struggles.mp3",
       "file": "episodes/Buzzsprout-20148830.json",
       "summary_zh": "200-350 字中文核心摘要，概括核心议题、观点分歧与行业结论。",
       "key_takeaways_zh": [
@@ -281,7 +294,7 @@
   "title": "Singapore's Brand and Network Struggles",
   "pub_date": "2026-11-19T11:00:00Z",
   "duration_sec": 2120,
-  "audio_url": "[https://www.buzzsprout.com/2329718/episodes/20148830-singapore-s-brand-and-network-struggles.mp3](https://www.buzzsprout.com/2329718/episodes/20148830-singapore-s-brand-and-network-struggles.mp3)",
+  "audio_url": "https://www.buzzsprout.com/2329718/episodes/20148830-singapore-s-brand-and-network-struggles.mp3",
   "summary_zh": "200-350 字中文核心摘要，概括核心议题、观点分歧与行业结论。",
   "key_takeaways_zh": [
     "核心要点 1（一句话结论）",
@@ -344,10 +357,10 @@
 - **校验范围**：
   - `podcasts.json` 与 `docs/data/shows.json` 节目元数据一致性与单集计数对齐；
   - 各节目 `index.json` 的字段完整性、GUID 唯一性、按 `pub_date` 降序排序、以及轻量化约束（严禁泄漏 `vocab_notes` / `references`）；
-  - 各分集 `episodes/<safe_guid>.json` 的 Schema 合法性、单集引用对应一致性、`summary_zh` 字数下限、`highlights` 与 `transcript` 时间戳区间单调非递减性；
+  - 各分集 `episodes/<safe_guid>.json` 的 Schema 合法性、单集引用与孤立文件检测、`highlights` 与 `transcript` 时间戳区间及单调非递减性、说话人残留头衔检测；
   - `vocab_notes`（`term`、`meaning_zh`、`note_zh`、`start_sec` 升序）与 `references`（`title`、`creator`、`category` 枚举合法性、`note_zh`、`start_sec` 升序且 `null` 排在最末）；
   - `index.json` 与分集 JSON 间 `summary_zh`、`key_takeaways_zh`、`highlights_count`、`transcript_count` 的双向完全对齐。
-- **门禁执行**：本地执行 `python scripts/validate_data.py`；GitHub Actions 在每次处理完数据落盘后、执行 git commit 之前自动运行，若校验不通过立即抛出非零退出码阻断提交流程。
+- **门禁执行**：本地执行 `python scripts/validate_data.py --strict`（默认模式仅阻断硬错误，`--strict` 模式将所有软告警升级为致命错误）；GitHub Actions 在每次处理完数据落盘后、执行 git commit 之前自动运行 `validate_data.py --strict`，若校验不通过立即抛出非零退出码阻断提交流程。
 
 ---
 
@@ -421,7 +434,7 @@
 
 - **进度条章节打点**：按 `(hl.start_sec / duration) * 100%` 在 `.scrub-track-wrap` 叠加 `.chapter-marker`（容器 `pointer-events: none`、刻度点 `pointer-events: auto` 不阻挡拖拽），桌面端悬停展示 `MM:SS · title_zh` Tooltip，点击直接跳播。
 - **断点续播与进度记忆**：使用 `localStorage['airshow_reader_progress_v1']` 按 `${showId}::${guid}` 存储 `{ position, duration, completed, updatedAt }`；播放期间 3 秒节流写入，并在 `pause` / `ended` / `visibilitychange` / `beforeunload` / 切集前即时落盘。进度 `>= 95%` 或剩余 `< 30s`（总长 `> 60s`）自动标为 `completed: true`；加载未完成单集（`position >= 5`）时弹出浮动续播提示条（支持「继续收听」与「从头播放」），并设 `userInteractedSeek` 门禁防止覆盖用户主动跳转；选集下拉框与 Issue Archive 抽屉实时同步 `[▶ xx%]` / `[✓ 已听完]` 状态标。
-- **Media Session API**：写入 `metadata`（`artwork` 注册包含通用 `192x192` 与 `512x512` 图标，并根据当前节目动态注入专属 512px 封面 `artwork-airshow-512.png`、`artwork-sinica-512.png` 或 `artwork-tal-512.png` 保证锁屏高清渲染）；注册 `play`、`pause`、`seekbackward`（默认 10s）、`seekforward`（默认 10s）、`seekto`；`setPositionState` 经有限正数边界校验并包在 `try/catch` 中执行。
+- **Media Session API**：写入 `metadata`（`artwork` 优先置顶当前节目专属 512px 封面 `artwork-airshow-512.png`、`artwork-sinica-512.png` 或 `artwork-tal-512.png`，并附带通用 `192x192` 图标兜底，确保锁屏高清渲染）；注册 `play`、`pause`、`seekbackward`（默认 10s）、`seekforward`（默认 10s）、`seekto`；`setPositionState` 经有限正数边界校验并包在 `try/catch` 中执行。
 - **Service Worker（`docs/sw.js`）**：仅在 `https:` 或 `localhost`/`127.0.0.1` 注册；对 `./data/**` 与音频媒体请求严格采用 **Network-Only**，确保定时更新的新单集与补跑数据即时生效。
 
 ### 5.7 主动精听套件、防竞态与快捷键规范（M8-A）
@@ -438,6 +451,6 @@
   - `L`：对当前激活段落一键开启 / 退出单句复读。
   - `B`：循环切换盲听模式（`清晰 → 遮中文 → 全盲听`）。
   - `/` 或 `Cmd/Ctrl + K`：聚焦 / 展开搜索栏。
-  - `?`：打开 / 关闭快捷键说明弹窗（移动端 `<= 768px` 隐藏入口）。
+  - `?`：打开 / 关闭快捷键说明弹窗（移动端 `<= 640px` 隐藏入口）。
   - `Esc`：按优先级关闭快捷键弹窗、选集抽屉或清空收起搜索框。
 - **安全与性能**：全部外部 JSON 字段经 `textContent` 或 `escapeHtml()` 渲染杜绝 XSS；交互过渡限定离散 CSS 属性（禁止 `transition: all`），全局补齐 `:focus-visible` 焦点轮廓。

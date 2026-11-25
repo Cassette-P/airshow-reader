@@ -73,6 +73,8 @@ def load_ch_b_cache(
             data.get("show_id") == show_id
             and data.get("guid") == guid
             and data.get("chunk_sec") == chunk_sec
+            and isinstance(data.get("duration_sec"), int)
+            and data["duration_sec"] > 0
             and bool(data.get("transcript"))
         ):
             return data

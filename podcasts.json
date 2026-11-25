@@ -27,7 +27,7 @@
       "title": "This American Life",
       "subtitle": "Narrative Journalism & Stories · Hosted by Ira Glass",
       "rss_url": "https://www.thisamericanlife.org/podcast/rss.xml",
-      "glossary_path": "glossaries/tal.md",
+      "glossary_file": "glossaries/tal.md",
       "accent_color": "#2D6A4F",
       "default_max_age_days": 14,
       "content_style": "narrative",

@@ -55,11 +55,11 @@ export function formatDateZh(isoStr) {
 export function getSpeakerCssClass(speaker) {
   if (!speaker) return 'spk-dyn-0';
   const s = speaker.toLowerCase().trim();
-  if (s.includes('jon') || s.includes('ostrower')) return 'spk-jon';
-  if (s.includes('brian') || s.includes('sumers')) return 'spk-brian';
-  if (s.includes('brett') || s.includes('snyder')) return 'spk-brett';
-  if (s.includes('kaiser') || s.includes('kuo')) return 'spk-kaiser';
-  if (s.includes('ira') || s.includes('glass')) return 'spk-ira';
+  if (/^jon\s+ostrower$|\bostrower\b/.test(s) || s === 'jon') return 'spk-jon';
+  if (/^brian\s+sumers$|\bsumers\b/.test(s) || s === 'brian') return 'spk-brian';
+  if (/^brett\s+snyder$/.test(s) || s === 'brett') return 'spk-brett';
+  if (/^kaiser\s+kuo$|\bkaiser\b/.test(s)) return 'spk-kaiser';
+  if (/^ira\s+glass$/.test(s) || s === 'ira') return 'spk-ira';
 
   let hash = 0;
   for (let i = 0; i < s.length; i++) {

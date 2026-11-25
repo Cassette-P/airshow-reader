@@ -10,10 +10,8 @@ Triggered strictly when show.get("scraper_hook") == "tal".
 
 from datetime import datetime, timedelta, timezone
 import json
-from pathlib import Path
 import re
-from typing import Any, Optional
-from urllib.parse import urlparse
+from typing import Optional
 
 from bs4 import BeautifulSoup
 import requests
@@ -31,9 +29,9 @@ from pipeline.rss import (
 )
 from pipeline.storage import normalize_speaker
 
-# Regex for extracting episode number from title or link
+# Regex for extracting episode number from title, episode page link, or archive MP3 URL
 TITLE_EP_REGEX = re.compile(r"^\s*(\d+)\s*:\s*(.+)$")
-LINK_EP_REGEX = re.compile(r"thisamericanlife\.org/(\d+)(?:/|$)")
+LINK_EP_REGEX = re.compile(r"thisamericanlife\.org/(?:sites/default/files/audio/)?(\d+)(?:/|$)")
 
 
 def extract_tal_episode_number(title: str = "", link: str = "") -> Optional[int]:
@@ -111,6 +109,7 @@ def filter_tal_episodes(
 
     # Filter out existing GUIDs and rerun episode numbers while strictly preserving feed pub_date order
     candidates = []
+    seen_ep_nums = set(existing_ep_nums)
     for entry in feed_entries:
         guid = get_entry_guid(entry)
         title = entry.get("title", "")
@@ -120,15 +119,17 @@ def filter_tal_episodes(
         if guid in existing_guids:
             continue
 
-        # 2. Episode number rerun check
+        # 2. Episode number rerun / in-feed duplicate check
         ep_num = extract_tal_episode_number(title=title, link=link)
-        if ep_num is not None and ep_num in existing_ep_nums:
+        if ep_num is not None and ep_num in seen_ep_nums:
             log(
                 "FILTER",
-                f"[TAL-HOOK] Skipping rerun episode #{ep_num}: '{title}' (GUID: {guid}, already in index).",
+                f"[TAL-HOOK] Skipping rerun episode #{ep_num}: '{title}' (GUID: {guid}, already in index or earlier in feed).",
                 show_id=show_id,
             )
             continue
+        if ep_num is not None:
+            seen_ep_nums.add(ep_num)
 
         candidates.append(entry)
 
@@ -190,15 +191,16 @@ def fetch_tal_episode_page(slug_url: str, show_id: str = "tal") -> tuple[str, st
         log("WARN", f"[TAL-HOOK] Failed to request episode page {slug_url}: {e}.", show_id=show_id)
         return "", "", []
 
-    soup = BeautifulSoup(resp.text, "html.parser")
+    soup = BeautifulSoup(resp.content, "html.parser")
 
     # 1. Parse ad-free archive audio URL from <script id="playlist-data">
     archive_url = ""
     playlist_script = soup.find("script", id="playlist-data")
-    if playlist_script and playlist_script.string:
+    playlist_raw = playlist_script.get_text(strip=True) if playlist_script else ""
+    if playlist_raw:
         try:
-            pl_data = json.loads(playlist_script.string)
-            raw_arch = pl_data.get("archive", "").strip()
+            pl_data = json.loads(playlist_raw)
+            raw_arch = (pl_data.get("archive") or "").strip() if isinstance(pl_data, dict) else ""
             if raw_arch:
                 if raw_arch.startswith("//"):
                     archive_url = "https:" + raw_arch
@@ -292,11 +294,15 @@ def fetch_tal_transcript_page(episode_number: int, show_id: str = "tal") -> tupl
         return [], []
 
     try:
-        soup = BeautifulSoup(resp.text, "html.parser")
+        soup = BeautifulSoup(resp.content, "html.parser")
         act_headings = []
         speaker_turns = []
 
-        for elem in soup.find_all(["h3", "h4"]):
+        transcript_root = (
+            soup.select_one("article.node-transcript, .transcript-content, #transcript, main, article")
+            or soup
+        )
+        for elem in transcript_root.find_all(["h3", "h4"]):
             txt = elem.get_text(strip=True)
             if not txt:
                 continue

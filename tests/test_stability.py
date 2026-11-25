@@ -5,6 +5,7 @@
 """
 
 import argparse
+import json
 from pathlib import Path
 import shutil
 import sys
@@ -19,18 +20,26 @@ if str(_SCRIPTS_DIR) not in sys.path:
 from pydantic import BaseModel
 
 from pipeline.config import (
+    DEFAULT_CH_A_POOL,
     get_next_fallback_thinking_level,
     resolve_ch_a_thinking_level,
 )
 from pipeline.gemini import (
     create_genai_client,
+    extract_interaction_text,
     generate_channel_a_structured_with_retry,
     generate_structured_with_retry,
     is_transport_disconnect_or_timeout,
     run_channel_a,
 )
-from pipeline.models import ChannelAOutput
-from pipeline.runner import process_episode
+from pipeline.hooks_tal import (
+    extract_tal_episode_number,
+    fetch_tal_episode_page,
+    fetch_tal_transcript_page,
+    filter_tal_episodes,
+)
+from pipeline.models import ChannelAOutput, EnrichmentResponse, ReferenceItem, VocabNote
+from pipeline.runner import process_episode, run_enrichment_pipeline, run_main_pipeline
 from pipeline.storage import (
     CH_B_CACHE_DIR,
     delete_ch_b_cache,
@@ -796,6 +805,437 @@ class TestChannelADualTransport(unittest.TestCase):
 
         self.assertEqual(result.summary_zh, "超时重试成功")
         self.assertEqual(mock_client.interactions.create.call_count, 2)
+        # Verify timed-out interaction was cancelled best-effort
+        mock_client.interactions.cancel.assert_called_once_with(id="timeout_id_1")
+
+    @patch("time.sleep")
+    def test_interactions_thinking_error_steps_down_without_consuming_attempt(self, mock_sleep):
+        """Test thinking_level rejection in interactions.create steps down within the same attempt (even max_retries=1)."""
+        mock_client = MagicMock()
+        seen_levels = []
+
+        def fake_create(*args, **kwargs):
+            lvl = kwargs["generation_config"].get("thinking_level")
+            seen_levels.append(lvl)
+            if lvl == "high":
+                raise Exception("Unsupported thinking_level 'high' for this endpoint")
+            return MagicMock(id="stepped_down_id")
+
+        mock_client.interactions.create.side_effect = fake_create
+        mock_client.interactions.get.return_value = MagicMock(
+            status="completed",
+            output_text='{"summary_zh": "降级成功", "key_takeaways_zh": ["要点1"], "highlights": []}',
+            usage=MagicMock(total_input_tokens=100, total_thought_tokens=50, total_output_tokens=40),
+        )
+
+        result = generate_channel_a_structured_with_retry(
+            client=mock_client,
+            model_pool=["gemini-4-carbon"],
+            user_prompt="Summarize",
+            system_instruction="System",
+            response_schema=ChannelAOutput,
+            max_retries=1,
+            thinking_level_resolver=lambda m: "high",
+            show_id="TEST",
+            client_factory=lambda: mock_client,
+        )
+
+        self.assertEqual(result.summary_zh, "降级成功")
+        self.assertEqual(seen_levels, ["high", "low"])
+        # Only the single 10s polling sleep occurred; zero retry backoff sleeps
+        mock_sleep.assert_called_once_with(10)
+
+    @patch("time.sleep")
+    def test_interactions_requires_action_terminates_without_waiting_for_timeout(self, mock_sleep):
+        """Test 'requires_action' status is treated as terminal error immediately."""
+        mock_client = MagicMock()
+        mock_client.interactions.create.return_value = MagicMock(id="req_action_id")
+        mock_client.interactions.get.return_value = MagicMock(status="requires_action", errors=None)
+
+        with self.assertRaises(RuntimeError) as ctx:
+            generate_channel_a_structured_with_retry(
+                client=mock_client,
+                model_pool=["gemini-4-carbon"],
+                user_prompt="Summarize",
+                system_instruction="System",
+                response_schema=ChannelAOutput,
+                max_retries=1,
+                show_id="TEST",
+                client_factory=lambda: mock_client,
+            )
+
+        self.assertIn("requires_action", str(ctx.exception))
+        self.assertEqual(mock_client.interactions.get.call_count, 1)
+
+    @patch("time.sleep")
+    def test_stream_fallback_degrades_remote_thinking_error(self, mock_sleep):
+        """Test stream_with_thoughts fallback degrades remote thinking error within the same attempt."""
+        mock_client = MagicMock(spec=["models", "close"])
+        seen_levels = []
+
+        class FakeChunk:
+            def __init__(self, text):
+                self.candidates = [MagicMock(content=MagicMock(parts=[MagicMock(thought=False, text=text)]))]
+                self.text = None
+                self.usage_metadata = MagicMock(prompt_token_count=100, thoughts_token_count=20, candidates_token_count=30)
+
+        def fake_stream(*args, **kwargs):
+            cfg = kwargs["config"]
+            th_cfg = getattr(cfg, "thinking_config", None)
+            lvl = getattr(th_cfg, "thinking_level", None) if th_cfg else None
+            lvl_str = (lvl.value if hasattr(lvl, "value") else str(lvl)).lower() if lvl is not None else None
+            seen_levels.append(lvl_str)
+            if lvl_str == "high":
+                raise Exception("Invalid thinking_level parameter in generate_content_stream")
+            return [FakeChunk('{"summary_zh": "流式降级成功", "key_takeaways_zh": ["要点"], "highlights": []}')]
+
+        mock_client.models.generate_content_stream.side_effect = fake_stream
+
+        result = generate_channel_a_structured_with_retry(
+            client=mock_client,
+            model_pool=["gemini-3.8-flash"],
+            user_prompt="Summarize",
+            system_instruction="System",
+            response_schema=ChannelAOutput,
+            max_retries=1,
+            thinking_level_resolver=lambda m: "high",
+            show_id="TEST",
+            client_factory=lambda: mock_client,
+        )
+
+        self.assertEqual(result.summary_zh, "流式降级成功")
+        self.assertEqual(seen_levels, ["high", "low"])
+
+    def test_extract_interaction_text_steps_and_outputs_fallback(self):
+        """Test extract_interaction_text handles output_text, steps (model_output), and legacy outputs."""
+        # 1. steps fallback (dict shape)
+        inter_steps = MagicMock(
+            output_text="",
+            steps=[
+                {"type": "user_input", "content": [{"type": "text", "text": "prompt"}]},
+                {"type": "thought", "content": [{"type": "text", "text": "thinking..."}]},
+                {"type": "model_output", "content": [{"type": "text", "text": '{"a": 1}'}]},
+            ],
+            outputs=None,
+        )
+        self.assertEqual(extract_interaction_text(inter_steps), '{"a": 1}')
+
+        # 2. legacy outputs fallback
+        inter_outputs = MagicMock(
+            output_text=None,
+            steps=None,
+            outputs=[MagicMock(text='{"b": 2}')],
+        )
+        self.assertEqual(extract_interaction_text(inter_outputs), '{"b": 2}')
+
+    def test_ch_a_model_pool_and_default_thinking_levels(self):
+        """Verify CH-A model pool and default high thinking policy across Carbon, Neon, and Flash."""
+        self.assertEqual(DEFAULT_CH_A_POOL, ["gemini-4-carbon", "gemini-4-neon", "gemini-3.8-flash"])
+        with patch.dict("os.environ", {}, clear=False):
+            self.assertEqual(resolve_ch_a_thinking_level("gemini-4-carbon", ""), "high")
+            self.assertEqual(resolve_ch_a_thinking_level("gemini-4-neon", ""), "high")
+            self.assertEqual(resolve_ch_a_thinking_level("gemini-3.8-flash", ""), "high")
+            self.assertEqual(resolve_ch_a_thinking_level("gemini-4-neon", "xhigh"), "xhigh")
+
+
+class TestCacheEdgeGuards(unittest.TestCase):
+    """Test cache edge guards (P1-7): fresh audio_url preservation & empty transcript rejection."""
+
+    def setUp(self):
+        self.test_dir = Path(tempfile.mkdtemp(prefix="test_cache_edge_"))
+        self.patcher = patch("pipeline.storage.CH_B_CACHE_DIR", self.test_dir)
+        self.patcher.start()
+
+    def tearDown(self):
+        self.patcher.stop()
+        shutil.rmtree(self.test_dir, ignore_errors=True)
+
+    @patch("pipeline.runner.atomic_save_episode")
+    @patch("pipeline.runner.run_channel_a")
+    @patch("pipeline.hooks_tal.hook_tal_preprocess")
+    def test_cache_hit_preserves_fresh_tal_archive_audio_url(self, mock_tal_hook, mock_ch_a, mock_save):
+        guid = "tal_ep_436"
+        save_ch_b_cache(
+            show_id="tal",
+            guid=guid,
+            chunk_sec=180,
+            duration_sec=3582,
+            audio_url="https://stale-rss-ad-url.example.com/436.mp3",
+            transcript=[{"id": 1, "start_sec": 0, "speaker": "Ira Glass", "en": "Hi", "zh": "你好"}],
+        )
+        mock_tal_hook.return_value = {
+            "audio_url": "https://www.thisamericanlife.org/sites/default/files/audio/436/hash/436.mp3",
+            "show_notes": "Clean acts",
+            "speaker_roster": ["Ira Glass"],
+        }
+        mock_ch_a.return_value = {"summary_zh": "ok", "key_takeaways_zh": [], "highlights": [], "vocab_notes": [], "references": []}
+
+        entry = {
+            "id": guid,
+            "guid": guid,
+            "title": "436: The Psychopath Test",
+            "published": "Mon, 23 Nov 2026 01:00:00 GMT",
+            "enclosures": [{"href": "https://stale-rss-ad-url.example.com/436.mp3"}],
+        }
+        show = {"id": "tal", "title": "This American Life", "subtitle": "Narrative", "scraper_hook": "tal", "content_style": "narrative"}
+        args = argparse.Namespace(chunk_sec=180, max_chunks=0, dry_run=False, no_cache=False)
+
+        process_episode(entry, args, show, glossary_text="")
+
+        saved_record = mock_save.call_args[0][1]
+        self.assertEqual(
+            saved_record["audio_url"],
+            "https://www.thisamericanlife.org/sites/default/files/audio/436/hash/436.mp3",
+        )
+
+    @patch("pipeline.runner.run_channel_a")
+    @patch("pipeline.runner.run_channel_b")
+    @patch("pipeline.runner.chunk_audio")
+    @patch("pipeline.runner.download_audio_file")
+    @patch("pipeline.runner.get_audio_duration_sec")
+    def test_empty_ch_b_transcript_aborts_before_cache_and_ch_a(
+        self, mock_duration, mock_download, mock_chunk, mock_ch_b, mock_ch_a
+    ):
+        mock_duration.return_value = 600
+        mock_file = MagicMock(spec=Path)
+        mock_file.name = "chunk_000.mp3"
+        mock_file.stat.return_value.st_size = 1024
+        mock_chunk.return_value = [mock_file]
+        mock_ch_b.return_value = []
+
+        entry = {
+            "id": "ep_empty",
+            "guid": "ep_empty",
+            "title": "Empty Transcript Ep",
+            "published": "Mon, 23 Nov 2026 01:00:00 GMT",
+            "enclosures": [{"href": "https://example.com/ep.mp3"}],
+        }
+        show = {"id": "airshow", "title": "The Air Show", "subtitle": "Aviation"}
+        args = argparse.Namespace(chunk_sec=180, max_chunks=0, dry_run=False, no_cache=False)
+
+        with self.assertRaises(RuntimeError):
+            process_episode(entry, args, show, glossary_text="")
+
+        mock_ch_a.assert_not_called()
+        self.assertFalse(get_ch_b_cache_path("airshow", "ep_empty").exists())
+
+
+class TestEnrichmentPipeline(unittest.TestCase):
+    """Test --enrich incremental backfill pipeline (regression for P0-1 os.replace & idempotency)."""
+
+    def setUp(self):
+        self.temp_docs_data = Path(tempfile.mkdtemp(prefix="test_enrich_data_"))
+        self.show_dir = self.temp_docs_data / "airshow"
+        self.ep_dir = self.show_dir / "episodes"
+        self.ep_dir.mkdir(parents=True, exist_ok=True)
+
+        self.ep_file = self.ep_dir / "Buzzsprout-100.json"
+        self.ep_doc = {
+            "schema_version": "3.0",
+            "show_id": "airshow",
+            "guid": "Buzzsprout-100",
+            "title": "Test Enrich Episode",
+            "pub_date": "2026-11-20T00:00:00Z",
+            "duration_sec": 1200,
+            "audio_url": "https://example.com/100.mp3",
+            "summary_zh": "原始摘要不可改变",
+            "key_takeaways_zh": ["原始要点1"],
+            "highlights": [],
+            "transcript": [
+                {"id": 1, "start_sec": 15, "speaker": "Jon Ostrower", "en": "Fifth-freedom flight.", "zh": "第五航权航班。"}
+            ],
+        }
+        self.ep_file.write_text(json.dumps(self.ep_doc, ensure_ascii=False, indent=2), encoding="utf-8")
+
+        index_doc = {
+            "schema_version": "3.0",
+            "show_id": "airshow",
+            "podcast_title": "The Air Show",
+            "rss_url": "https://example.com/rss",
+            "updated_at": "2026-11-20T00:00:00Z",
+            "episodes": [
+                {
+                    "guid": "Buzzsprout-100",
+                    "title": "Test Enrich Episode",
+                    "pub_date": "2026-11-20T00:00:00Z",
+                    "duration_sec": 1200,
+                    "audio_url": "https://example.com/100.mp3",
+                    "file": "episodes/Buzzsprout-100.json",
+                    "summary_zh": "原始摘要不可改变",
+                    "key_takeaways_zh": ["原始要点1"],
+                    "highlights_count": 0,
+                    "transcript_count": 1,
+                }
+            ],
+        }
+        (self.show_dir / "index.json").write_text(json.dumps(index_doc, ensure_ascii=False, indent=2), encoding="utf-8")
+
+        self.config = {
+            "shows": [
+                {
+                    "id": "airshow",
+                    "title": "The Air Show",
+                    "subtitle": "Aviation",
+                    "rss_url": "https://example.com/rss",
+                    "enabled": True,
+                }
+            ]
+        }
+
+    def tearDown(self):
+        shutil.rmtree(self.temp_docs_data, ignore_errors=True)
+
+    @patch("pipeline.runner.generate_structured_with_retry")
+    @patch("pipeline.runner.load_glossary_for_show", return_value="Glossary")
+    @patch("pipeline.runner.fetch_rss_show_notes_map", return_value={"Buzzsprout-100": "Show notes"})
+    @patch("pipeline.runner.create_genai_client")
+    def test_enrich_writes_atomically_and_is_idempotent(
+        self, mock_client_factory, mock_notes, mock_glossary, mock_gen
+    ):
+        mock_client_factory.return_value = MagicMock()
+        mock_gen.return_value = EnrichmentResponse(
+            vocab_notes=[
+                VocabNote(term="fifth-freedom flight", meaning_zh="第五航权航班", note_zh="航空术语", start_sec=15)
+            ],
+            references=[
+                ReferenceItem(title="Flying Blind", creator="Peter Robison", category="book", note_zh="提及书目", start_sec=None)
+            ],
+        )
+
+        args = argparse.Namespace(show="airshow", limit=0, dry_run=False)
+        with patch("pipeline.runner.DOCS_DATA_DIR", self.temp_docs_data), \
+             patch.dict("os.environ", {"GEMINI_API_KEY": "fake_key"}):
+            run_enrichment_pipeline(args, self.config)
+
+        # Verify atomic write succeeded, no .tmp leftover, original fields preserved
+        self.assertFalse(self.ep_file.with_suffix(".json.tmp").exists())
+        updated = json.loads(self.ep_file.read_text(encoding="utf-8"))
+        self.assertEqual(updated["summary_zh"], "原始摘要不可改变")
+        self.assertEqual(len(updated["vocab_notes"]), 1)
+        self.assertEqual(updated["vocab_notes"][0]["term"], "fifth-freedom flight")
+        self.assertEqual(len(updated["references"]), 1)
+        self.assertEqual(updated["references"][0]["title"], "Flying Blind")
+        self.assertEqual(mock_gen.call_count, 1)
+
+        # Re-running enrich should skip already-enriched episode
+        with patch("pipeline.runner.DOCS_DATA_DIR", self.temp_docs_data), \
+             patch.dict("os.environ", {"GEMINI_API_KEY": "fake_key"}):
+            run_enrichment_pipeline(args, self.config)
+        self.assertEqual(mock_gen.call_count, 1)
+
+
+class TestHooksTalAndRssIsolation(unittest.TestCase):
+    """Test TAL scraper hooks (P1-8) and multi-show RSS fault isolation (P1-4)."""
+
+    def test_extract_tal_episode_number_supports_title_page_and_archive_mp3(self):
+        self.assertEqual(extract_tal_episode_number(title="436: The Psychopath Test"), 436)
+        self.assertEqual(extract_tal_episode_number(link="https://www.thisamericanlife.org/850/some-slug"), 850)
+        self.assertEqual(
+            extract_tal_episode_number(
+                link="https://www.thisamericanlife.org/sites/default/files/audio/436/skm6CBw0vYa/436.mp3"
+            ),
+            436,
+        )
+        self.assertIsNone(extract_tal_episode_number(title="Special Bonus Episode", link="https://example.com/audio.mp3"))
+
+    def test_filter_tal_episodes_deduplicates_reruns_via_archive_url_and_in_feed(self):
+        temp_data = Path(tempfile.mkdtemp(prefix="test_tal_filter_"))
+        try:
+            tal_dir = temp_data / "tal"
+            tal_dir.mkdir(parents=True, exist_ok=True)
+            index_doc = {
+                "episodes": [
+                    {
+                        "guid": "old_guid_436",
+                        "title": "Special Title Without Prefix",
+                        "audio_url": "https://www.thisamericanlife.org/sites/default/files/audio/436/abc/436.mp3",
+                    }
+                ]
+            }
+            (tal_dir / "index.json").write_text(json.dumps(index_doc), encoding="utf-8")
+
+            entries = [
+                {"id": "new_rerun_guid", "title": "436: The Psychopath Test", "link": "https://www.thisamericanlife.org/436/psychopath"},
+                {"id": "ep_851_a", "title": "851: Fresh Story", "link": "https://www.thisamericanlife.org/851/fresh"},
+                {"id": "ep_851_dup", "title": "851: Fresh Story (Duplicate)", "link": "https://www.thisamericanlife.org/851/fresh"},
+            ]
+            show = {"id": "tal", "default_max_age_days": 0}
+            with patch("pipeline.hooks_tal.DOCS_DATA_DIR", temp_data):
+                selected = filter_tal_episodes(entries, show=show, limit=5, max_age_days=0)
+
+            self.assertEqual(len(selected), 1)
+            self.assertEqual(selected[0]["id"], "ep_851_a")
+        finally:
+            shutil.rmtree(temp_data, ignore_errors=True)
+
+    @patch("pipeline.hooks_tal.requests.get")
+    def test_fetch_tal_episode_page_handles_null_archive_and_utf8_bytes(self, mock_get):
+        html_bytes = (
+            '<html><head><meta charset="utf-8"></head><body>'
+            '<script id="playlist-data">{"archive": null}</script>'
+            '<article class="node-act view-episode">'
+            '<div class="field-name-field-act-label">Act One</div>'
+            '<h2 class="act-header">Café Story</h2>'
+            '<div class="field-name-body">By café reporter</div>'
+            '<div class="byline"><a href="/archive?contributor=1">Dr. Jane Doe</a></div>'
+            '</article></body></html>'
+        ).encode("utf-8")
+        mock_resp = MagicMock(status_code=200, content=html_bytes)
+        mock_get.return_value = mock_resp
+
+        archive_url, notes, acts = fetch_tal_episode_page("https://www.thisamericanlife.org/851/test")
+        self.assertEqual(archive_url, "")
+        self.assertEqual(len(acts), 1)
+        self.assertEqual(acts[0]["title"], "Café Story")
+        self.assertEqual(acts[0]["reporters"], ["Jane Doe"])
+        self.assertIn("### Act One: Café Story", notes)
+
+    @patch("pipeline.hooks_tal.requests.get")
+    def test_fetch_tal_transcript_page_scopes_to_main_and_handles_404(self, mock_get):
+        html_bytes = (
+            '<html><body>'
+            '<nav><h4>Site Navigation</h4></nav>'
+            '<main><article class="node-transcript">'
+            '<h3>Prologue</h3><h4>Ira Glass</h4><h4>Dr. Robert Hare</h4>'
+            '<h3>Subscribe to newsletter</h3>'
+            '</article></main>'
+            '<footer><h4>Footer Legal Heading</h4></footer>'
+            '</body></html>'
+        ).encode("utf-8")
+        mock_get.return_value = MagicMock(status_code=200, content=html_bytes)
+        roster, headings = fetch_tal_transcript_page(436)
+        self.assertEqual(roster, ["Ira Glass", "Robert Hare"])
+        self.assertEqual(headings, ["Prologue"])
+
+        # 404 graceful fallback
+        mock_get.return_value = MagicMock(status_code=404, content=b"Not Found")
+        self.assertEqual(fetch_tal_transcript_page(999), ([], []))
+
+    @patch("pipeline.runner.process_episode")
+    @patch("pipeline.runner.filter_new_episodes")
+    @patch("pipeline.runner.fetch_rss")
+    @patch("pipeline.runner.load_glossary_for_show", return_value="Glossary")
+    def test_run_main_pipeline_isolates_single_show_rss_failure(
+        self, mock_glossary, mock_fetch_rss, mock_filter, mock_process
+    ):
+        def fake_fetch(url, show_id=""):
+            if show_id == "airshow":
+                raise RuntimeError("503 Service Unavailable")
+            return MagicMock(entries=[{"id": "sinica_ep1", "title": "Sinica Ep 1"}])
+
+        mock_fetch_rss.side_effect = fake_fetch
+        mock_filter.return_value = [{"id": "sinica_ep1", "title": "Sinica Ep 1"}]
+
+        args = argparse.Namespace(limit=1, max_age_days=None, chunk_sec=180, dry_run=False, max_chunks=0, no_cache=False)
+        shows = [
+            {"id": "airshow", "title": "The Air Show", "rss_url": "https://a.example/rss"},
+            {"id": "sinica", "title": "Sinica Podcast", "rss_url": "https://b.example/rss"},
+        ]
+
+        attempted, failed = run_main_pipeline(args, {"shows": shows}, shows)
+        self.assertEqual(attempted, 2)
+        self.assertEqual(failed, 1)
+        mock_process.assert_called_once()
 
 
 if __name__ == "__main__":

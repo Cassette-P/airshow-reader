@@ -407,12 +407,14 @@ def generate_channel_a_structured_with_retry(
     for m_idx, current_model in enumerate(model_pool):
         if callable(thinking_level_resolver):
             resolved_thinking_level = thinking_level_resolver(current_model)
+        elif thinking_level is not None:
+            resolved_thinking_level = thinking_level
         else:
             resolved_thinking_level = resolve_ch_a_thinking_level(current_model)
 
         current_thinking_level = resolved_thinking_level
         log(
-            "CH-A",
+            stage,
             f"Using Channel A model candidate [{m_idx + 1}/{len(model_pool)}]: '{current_model}' "
             f"(initial thinking_level='{current_thinking_level}')...",
             show_id=show_id,
@@ -420,6 +422,7 @@ def generate_channel_a_structured_with_retry(
 
         skipped_404 = False
         consecutive_disconnects = 0
+        consecutive_bg_timeouts = 0
         force_fallback_stream = not hasattr(client, "interactions")
         if force_fallback_stream:
             log(
@@ -433,68 +436,71 @@ def generate_channel_a_structured_with_retry(
             try:
                 # Mode 1: Primary interactions_bg
                 if not force_fallback_stream:
-                    log(
-                        "CH-A",
-                        f"Attempting Channel A via transport=interactions_bg (attempt {attempt}/{max_retries}, "
-                        f"model='{current_model}', thinking_level='{current_thinking_level}')...",
-                        show_id=show_id,
-                    )
-                    gen_config: dict[str, object] = {
-                        "max_output_tokens": 65536,
-                        "temperature": temperature,
-                    }
-                    if current_thinking_level:
-                        gen_config["thinking_level"] = current_thinking_level
-
-                    resp_format = {
-                        "type": "text",
-                        "mime_type": "application/json",
-                        "schema": response_schema.model_json_schema(),
-                    }
-
-                    try:
-                        interaction = client.interactions.create(
-                            model=current_model,
-                            input=user_prompt,
-                            system_instruction=system_instruction,
-                            background=True,
-                            store=True,
-                            generation_config=gen_config,
-                            response_format=resp_format,
+                    interaction = None
+                    while not force_fallback_stream:
+                        log(
+                            "CH-A",
+                            f"Attempting Channel A via transport=interactions_bg (attempt {attempt}/{max_retries}, "
+                            f"model='{current_model}', thinking_level='{current_thinking_level}')...",
+                            show_id=show_id,
                         )
-                    except Exception as create_err:
-                        err_str = str(create_err).lower()
-                        is_thinking_err = (
-                            current_thinking_level is not None
-                            and any(kw in err_str for kw in ["thinking_level", "thinking_config", "thought"])
-                            and not any(kw in err_str for kw in ["response_format", "response_mime_type", "only available in", "invalid_request"])
-                        )
-                        if is_thinking_err:
-                            next_lvl = get_next_fallback_thinking_level(current_thinking_level)
-                            log(
-                                "CH-A",
-                                f"Interactions API call rejected thinking_level='{current_thinking_level}' ({create_err}). "
-                                f"Stepping down: '{current_thinking_level}' -> {_format_level(next_lvl)} and retrying...",
-                                show_id=show_id,
+                        gen_config: dict[str, object] = {
+                            "max_output_tokens": 65536,
+                            "temperature": temperature,
+                        }
+                        if current_thinking_level:
+                            gen_config["thinking_level"] = current_thinking_level
+
+                        resp_format = {
+                            "type": "text",
+                            "mime_type": "application/json",
+                            "schema": response_schema.model_json_schema(),
+                        }
+
+                        try:
+                            interaction = client.interactions.create(
+                                model=current_model,
+                                input=user_prompt,
+                                system_instruction=system_instruction,
+                                background=True,
+                                store=True,
+                                generation_config=gen_config,
+                                response_format=resp_format,
                             )
-                            current_thinking_level = next_lvl
-                            continue
-
-                        is_fast_fallback = (
-                            is_interactions_unsupported_error(create_err)
-                            or "400" in err_str
-                            or "invalid_request" in err_str
-                            or "invalid argument" in err_str
-                        )
-                        if is_fast_fallback:
-                            log(
-                                "WARN",
-                                f"Interactions API request invalid or unsupported for model '{current_model}' ({create_err}). "
-                                f"Fast-falling back to stream_with_thoughts immediately...",
-                                show_id=show_id,
+                            break
+                        except Exception as create_err:
+                            err_str = str(create_err).lower()
+                            is_thinking_err = (
+                                current_thinking_level is not None
+                                and any(kw in err_str for kw in ["thinking_level", "thinking_config", "thought"])
+                                and not any(kw in err_str for kw in ["response_format", "response_mime_type", "only available in", "invalid_request"])
                             )
-                            force_fallback_stream = True
-                        else:
+                            if is_thinking_err:
+                                next_lvl = get_next_fallback_thinking_level(current_thinking_level)
+                                log(
+                                    "CH-A",
+                                    f"Interactions API call rejected thinking_level='{current_thinking_level}' ({create_err}). "
+                                    f"Stepping down: '{current_thinking_level}' -> {_format_level(next_lvl)} and retrying...",
+                                    show_id=show_id,
+                                )
+                                current_thinking_level = next_lvl
+                                continue
+
+                            is_fast_fallback = (
+                                is_interactions_unsupported_error(create_err)
+                                or "400" in err_str
+                                or "invalid_request" in err_str
+                                or "invalid argument" in err_str
+                            )
+                            if is_fast_fallback:
+                                log(
+                                    "WARN",
+                                    f"Interactions API request invalid or unsupported for model '{current_model}' ({create_err}). "
+                                    f"Fast-falling back to stream_with_thoughts immediately...",
+                                    show_id=show_id,
+                                )
+                                force_fallback_stream = True
+                                break
                             raise create_err
 
                     if not force_fallback_stream:
@@ -516,6 +522,20 @@ def generate_channel_a_structured_with_retry(
                         while True:
                             elapsed = time.time() - poll_start_time
                             if elapsed > bg_timeout_sec:
+                                try:
+                                    if hasattr(client.interactions, "cancel"):
+                                        client.interactions.cancel(id=interaction_id)
+                                        log(
+                                            "CH-A",
+                                            f"Cancelled timed-out interaction '{interaction_id}'.",
+                                            show_id=show_id,
+                                        )
+                                except Exception as cancel_err:
+                                    log(
+                                        "WARN",
+                                        f"Failed to cancel timed-out interaction '{interaction_id}': {cancel_err}",
+                                        show_id=show_id,
+                                    )
                                 raise TimeoutError(
                                     f"Channel A background interaction '{interaction_id}' timed out after {elapsed:.1f}s (timeout={bg_timeout_sec}s)."
                                 )
@@ -562,7 +582,7 @@ def generate_channel_a_structured_with_retry(
                             elif status == "completed":
                                 final_interaction = poll_obj
                                 break
-                            elif status in ("failed", "incomplete", "cancelled", "budget_exceeded"):
+                            elif status in ("failed", "incomplete", "cancelled", "budget_exceeded", "requires_action"):
                                 errs = getattr(poll_obj, "errors", None)
                                 raise RuntimeError(
                                     f"Channel A interaction '{interaction_id}' terminated with non-completed status='{status}'. Details: {errs}"
@@ -599,79 +619,141 @@ def generate_channel_a_structured_with_retry(
                             f"tokens=(input={input_tokens}, thought={thought_tokens}, output={output_tokens}).",
                             show_id=show_id,
                         )
-                        if "CH-A" in MODEL_USAGE_STATS:
-                            MODEL_USAGE_STATS["CH-A"][current_model] = MODEL_USAGE_STATS["CH-A"].get(current_model, 0) + 1
+                        if stage in MODEL_USAGE_STATS:
+                            MODEL_USAGE_STATS[stage][current_model] = MODEL_USAGE_STATS[stage].get(current_model, 0) + 1
                         return parsed
 
                 # Mode 2: Fallback stream_with_thoughts
                 if force_fallback_stream:
-                    while current_thinking_level:
-                        try:
-                            _ = types.ThinkingConfig(thinking_level=current_thinking_level, include_thoughts=True)
-                            break
-                        except Exception as t_init_err:
-                            next_lvl = get_next_fallback_thinking_level(current_thinking_level)
-                            log(
-                                "CH-A",
-                                f"Local SDK does not support thinking_level='{current_thinking_level}' with include_thoughts=True ({t_init_err}). "
-                                f"Degrading: '{current_thinking_level}' -> {_format_level(next_lvl)}.",
-                                show_id=show_id,
-                            )
-                            current_thinking_level = next_lvl
-
-                    config_kwargs = {
-                        "system_instruction": system_instruction,
-                        "response_mime_type": "application/json",
-                        "response_schema": response_schema,
-                        "temperature": temperature,
-                        "max_output_tokens": 65536,
-                    }
-                    if current_thinking_level:
-                        config_kwargs["thinking_config"] = types.ThinkingConfig(
-                            thinking_level=current_thinking_level,
-                            include_thoughts=True,
-                        )
-                    else:
-                        try:
-                            config_kwargs["thinking_config"] = types.ThinkingConfig(include_thoughts=True)
-                        except Exception:
-                            pass
-
-                    gen_config_obj = types.GenerateContentConfig(**config_kwargs)
-
-                    log(
-                        "CH-A",
-                        f"Calling Gemini model '{current_model}' via transport=stream_with_thoughts "
-                        f"(attempt {attempt}/{max_retries}, thinking_level='{current_thinking_level}', max_output_tokens=65536)...",
-                        show_id=show_id,
-                    )
-
-                    response = client.models.generate_content_stream(
-                        model=current_model,
-                        contents=[user_prompt],
-                        config=gen_config_obj,
-                    )
-
-                    chunks_text = []
+                    use_include_thoughts = True
+                    full_text = ""
                     usage_meta = None
-                    for chunk in response:
-                        if getattr(chunk, "usage_metadata", None):
-                            usage_meta = chunk.usage_metadata
-                        has_parts = False
-                        if hasattr(chunk, "candidates") and chunk.candidates:
-                            cand = chunk.candidates[0]
-                            if hasattr(cand, "content") and cand.content and hasattr(cand.content, "parts") and cand.content.parts:
-                                has_parts = True
-                                for part in cand.content.parts:
-                                    if getattr(part, "thought", False):
-                                        continue
-                                    p_text = getattr(part, "text", "")
-                                    if p_text:
-                                        chunks_text.append(p_text)
-                        if not has_parts and getattr(chunk, "text", None):
-                            chunks_text.append(chunk.text)
+                    while True:
+                        while current_thinking_level:
+                            try:
+                                _ = types.ThinkingConfig(
+                                    thinking_level=current_thinking_level,
+                                    include_thoughts=use_include_thoughts,
+                                )
+                                break
+                            except Exception as t_init_err:
+                                next_lvl = get_next_fallback_thinking_level(current_thinking_level)
+                                log(
+                                    "CH-A",
+                                    f"Local SDK does not support thinking_level='{current_thinking_level}' with include_thoughts={use_include_thoughts} ({t_init_err}). "
+                                    f"Degrading: '{current_thinking_level}' -> {_format_level(next_lvl)}.",
+                                    show_id=show_id,
+                                )
+                                current_thinking_level = next_lvl
 
-                    full_text = "".join(chunks_text).strip()
+                        config_kwargs = {
+                            "system_instruction": system_instruction,
+                            "response_mime_type": "application/json",
+                            "response_schema": response_schema,
+                            "temperature": temperature,
+                            "max_output_tokens": 65536,
+                        }
+                        if current_thinking_level:
+                            config_kwargs["thinking_config"] = types.ThinkingConfig(
+                                thinking_level=current_thinking_level,
+                                include_thoughts=use_include_thoughts,
+                            )
+                        elif use_include_thoughts:
+                            try:
+                                config_kwargs["thinking_config"] = types.ThinkingConfig(include_thoughts=True)
+                            except Exception:
+                                use_include_thoughts = False
+
+                        try:
+                            gen_config_obj = types.GenerateContentConfig(**config_kwargs)
+                        except Exception as cfg_err:
+                            if current_thinking_level:
+                                next_lvl = get_next_fallback_thinking_level(current_thinking_level)
+                                log(
+                                    "CH-A",
+                                    f"GenerateContentConfig validation failed with thinking_level='{current_thinking_level}' ({cfg_err}). "
+                                    f"Degrading: '{current_thinking_level}' -> {_format_level(next_lvl)}.",
+                                    show_id=show_id,
+                                )
+                                current_thinking_level = next_lvl
+                                continue
+                            if use_include_thoughts:
+                                log(
+                                    "CH-A",
+                                    f"GenerateContentConfig validation failed with include_thoughts=True ({cfg_err}). Disabling include_thoughts.",
+                                    show_id=show_id,
+                                )
+                                use_include_thoughts = False
+                                continue
+                            raise cfg_err
+
+                        log(
+                            "CH-A",
+                            f"Calling Gemini model '{current_model}' via transport=stream_with_thoughts "
+                            f"(attempt {attempt}/{max_retries}, thinking_level='{current_thinking_level}', max_output_tokens=65536)...",
+                            show_id=show_id,
+                        )
+
+                        try:
+                            response = client.models.generate_content_stream(
+                                model=current_model,
+                                contents=[user_prompt],
+                                config=gen_config_obj,
+                            )
+
+                            chunks_text = []
+                            usage_meta = None
+                            for chunk in response:
+                                if getattr(chunk, "usage_metadata", None):
+                                    usage_meta = chunk.usage_metadata
+                                has_parts = False
+                                if hasattr(chunk, "candidates") and chunk.candidates:
+                                    cand = chunk.candidates[0]
+                                    if hasattr(cand, "content") and cand.content and hasattr(cand.content, "parts") and cand.content.parts:
+                                        has_parts = True
+                                        for part in cand.content.parts:
+                                            if getattr(part, "thought", False):
+                                                continue
+                                            p_text = getattr(part, "text", "")
+                                            if p_text:
+                                                chunks_text.append(p_text)
+                                if not has_parts and getattr(chunk, "text", None):
+                                    chunks_text.append(chunk.text)
+
+                            full_text = "".join(chunks_text).strip()
+                            break
+                        except Exception as stream_err:
+                            err_lower = str(stream_err).lower()
+                            is_thinking_err = any(
+                                kw in err_lower
+                                for kw in [
+                                    "thinking",
+                                    "thinking_level",
+                                    "thinking_config",
+                                    "include_thoughts",
+                                    "thought",
+                                ]
+                            ) and not is_transport_disconnect_or_timeout(stream_err)
+                            if is_thinking_err and current_thinking_level:
+                                next_lvl = get_next_fallback_thinking_level(current_thinking_level)
+                                log(
+                                    "CH-A",
+                                    f"Stream fallback rejected thinking_level='{current_thinking_level}' ({stream_err}). "
+                                    f"Degrading: '{current_thinking_level}' -> {_format_level(next_lvl)} and retrying immediately...",
+                                    show_id=show_id,
+                                )
+                                current_thinking_level = next_lvl
+                                continue
+                            if is_thinking_err and use_include_thoughts:
+                                log(
+                                    "CH-A",
+                                    f"Stream fallback rejected include_thoughts=True ({stream_err}). Disabling include_thoughts and retrying immediately...",
+                                    show_id=show_id,
+                                )
+                                use_include_thoughts = False
+                                continue
+                            raise stream_err
+
                     if not full_text:
                         raise ValueError(f"Received empty streamed response from model '{current_model}'.")
 
@@ -690,8 +772,8 @@ def generate_channel_a_structured_with_retry(
                         f"tokens=(input={input_tokens}, thought={thought_tokens}, output={output_tokens}).",
                         show_id=show_id,
                     )
-                    if "CH-A" in MODEL_USAGE_STATS:
-                        MODEL_USAGE_STATS["CH-A"][current_model] = MODEL_USAGE_STATS["CH-A"].get(current_model, 0) + 1
+                    if stage in MODEL_USAGE_STATS:
+                        MODEL_USAGE_STATS[stage][current_model] = MODEL_USAGE_STATS[stage].get(current_model, 0) + 1
                     return parsed
 
             except Exception as e:
@@ -704,6 +786,18 @@ def generate_channel_a_structured_with_retry(
                     log("ERROR", f"[CH-A] Model '{current_model}' returned 404/NOT_FOUND. Skipping model immediately.", show_id=show_id)
                     skipped_404 = True
                     break
+
+                if isinstance(e, TimeoutError):
+                    consecutive_bg_timeouts += 1
+                    if consecutive_bg_timeouts >= 2:
+                        log(
+                            "ERROR",
+                            f"[CH-A] Model '{current_model}' reached {consecutive_bg_timeouts} consecutive background timeouts. Moving to next candidate model.",
+                            show_id=show_id,
+                        )
+                        break
+                else:
+                    consecutive_bg_timeouts = 0
 
                 if is_transport_disconnect_or_timeout(e):
                     consecutive_disconnects += 1

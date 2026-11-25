@@ -90,7 +90,7 @@ def resolve_ch_a_thinking_level(model_name: str, env_override: str = "") -> Opti
 
     m = model_name.lower().strip()
     if "gemini-4-neon" in m:
-        return "xhigh"
+        return "high"
     elif "gemini-4-carbon" in m:
         return "high"
     else:

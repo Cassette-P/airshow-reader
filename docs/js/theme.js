@@ -25,8 +25,11 @@ export function updateThemeColorMeta(theme) {
 export function updateDynamicFavicon(bgHex) {
   const faviconEl = document.getElementById('dynamic-favicon');
   if (!faviconEl) return;
+  const safeHex = (typeof bgHex === 'string' && /^#[0-9a-fA-F]{3,8}$/.test(bgHex.trim()))
+    ? bgHex.trim()
+    : '#0A2540';
   const svgXml = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-  <rect width="32" height="32" rx="7" fill="${bgHex}" />
+  <rect width="32" height="32" rx="7" fill="${safeHex}" />
   <rect x="6" y="12" width="2.6" height="8" rx="1.3" fill="#ffffff" />
   <rect x="10.2" y="8" width="2.6" height="16" rx="1.3" fill="#ffffff" />
   <rect x="14.4" y="10.5" width="2.6" height="11" rx="1.3" fill="#ffffff" />

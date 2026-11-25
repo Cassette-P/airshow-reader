@@ -20,7 +20,7 @@
 - [x] **M8-B2**：前端知识卡片展示与深度研读联动（2026-11-23 通过，完成杂志风原生 `<details>` 折叠面板、地道表达双列网格与时间戳跳转、书单/参考资源分类徽章渲染、切集重置与平滑空态降级）
 - [x] **M9-A**：Schema 校验器与 CI 门禁（2026-11-23 通过，完成 `scripts/validate_data.py`，全量覆盖 `shows.json`、`index.json` 与全部 18 期 `episodes/*.json` 的 Schema 合法性、时间戳单调性与双向对齐校验，集成进 GitHub Actions 工作流作为发布阻断门禁）
 - [x] **M9-B**：后端流水线分包解耦（2026-11-23 通过，将 1400+ 行单文件重构拆分为 `scripts/pipeline/` 9 个职责单一的模块，主入口 `process.py` 精简至 200 行，100% 保持 CLI 参数与环境变量向前兼容）
-- [x] **M9-C**：前端零构建原生 ES Modules + CSS 拆分（2026-11-23 通过，将 212 KB 单文件拆分为 3 个原生 CSS 文件与 10 个原生 ES Modules，彻底清除内联事件处理，升级 `sw.js` 缓存版本至 `airshow-reader-v2`，Headless 浏览器 CDP 真实 E2E 验证全量通过）
+- [x] **M9-C**：前端零构建原生 ES Modules + CSS 拆分（2026-11-23 通过，将 212 KB 单文件拆分为 3 个原生 CSS 文件与 10 个原生 ES Modules，彻底清除内联事件处理，升级 `sw.js` 缓存版本至 `airshow-reader-v2`（后续 M10 接入 TAL 封面已升级为 `airshow-reader-v3`），Headless 浏览器 CDP 真实 E2E 验证全量通过）
 - [x] **M9-D**：全量文档收口与规范对齐（2026-11-23 通过，`README.md`、`SPEC.md` 与 `ITERATION.md` 全面对齐 v3.3 最新工程基线，同步真实目录树、校验门禁与 Media Session artwork 规范）
 - [x] **M10**：第 3 档播客 *This American Life* 接入与后端长音频抗断连加固（2026-11-24 通过）
   - **后端稳定性 3 项加固**：

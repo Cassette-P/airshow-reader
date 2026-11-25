@@ -11,17 +11,17 @@
 - **多播客配置驱动与全自动巡检（v3.0）**
   - 通过 `podcasts.json` 统一管理节目元信息、RSS 源、默认抓取窗口、主题重音色与专属术语表（`glossaries/<show_id>.md`）。
   - GitHub Actions 每 6 小时自动巡检并增量入库；内置四级抗 403 音频下载器、RSS Show Notes 结构化清洗注入与说话人去头衔归一化。
-- **Paid Tier 分级模型路由与增量补跑（v3.1）**
-  - **通道 B（逐片转写 + 术语对齐翻译）**：180 秒音频切片锚定时间轴，默认 `gemini-3.8-flash`（低思考模式）流式转写，防止长音频时间漂移。
-  - **通道 A（全局摘要 + Highlights + 知识卡片）**：默认旗舰模型池（`gemini-4-carbon` / `gemini-4-neon`）支持思考等级自动适配与平滑降级，一体生成摘要、要点、4–10 条 Highlights、6–10 条地道表达（`vocab_notes`）与参考资源（`references`，自动过滤商业赞助与广告口播）。
+- **Paid Tier 分级模型路由、断点缓存与双模传输（v3.5）**
+  - **通道 B（逐片转写 + 术语对齐翻译）**：180 秒音频切片锚定时间轴，默认 `gemini-3.8-flash`（低思考模式）流式转写，完成后原子落盘断点缓存至 `.cache/ch_b/`（支持 `--no-cache` 强制重跑），防止长音频时间漂移与重复消耗。
+  - **通道 A（全局摘要 + Highlights + 知识卡片）**：默认锁定 `gemini-4-carbon @ high`（回退 `gemini-4-neon @ high`、`gemini-3.8-flash @ high`），主路径走 Interactions API `background=True` 异步轮询（超时默认 `900s`，可由 `CH_A_BG_TIMEOUT_SEC` 覆盖），不可用时零耗时回退 `stream_with_thoughts` 心跳保活；一体生成摘要、要点、4–10 条 Highlights、6–10 条地道表达（`vocab_notes`）与参考资源（`references`，自动过滤商业赞助与广告口播）。
   - **补跑通道（`--enrich`）**：支持对存量单集按需低成本补齐知识卡片，既有摘要与逐字稿字节级不变。
-- **严格 Schema 契约校验与 CI 门禁（`scripts/validate_data.py`）**
+- **严格 Schema 契约校验与 CI 门禁（`scripts/validate_data.py --strict`）**
   - 内置基于 JSON Schema 与业务完整性的双层自动化校验器。
-  - 严格校验 `shows.json`、`index.json` 与各单集 JSON 间的元数据引用一致性、时间戳单调性、字段范围钳制与分类合法性，已集成进 GitHub Actions 工作流作为发布前的阻断式门禁。
+  - 严格校验 `shows.json`、`index.json` 与各单集 JSON 间的元数据引用一致性、时间戳单调性、字段范围钳制与分类合法性，已以 `--strict` 模式集成进 GitHub Actions 工作流作为发布前的阻断式门禁。
 - **零构建原生模块化架构与 PWA 体验（v3.3）**
   - **Zero-Build 原生解耦**：前端彻底告别单文件堆砌，分为语义 HTML 骨架、3 个独立原生 CSS 与 10 个 ES 模块，无 npm、无 Webpack/Vite 打包依赖，直接被浏览器原生解析运行。
   - **三级懒加载**：首屏仅拉取 `shows.json` 与当前节目的轻量 `index.json`，选中单集后按需懒加载单集完整 JSON；音频直链原站 MP3。
-  - **PWA 原生化**：内置 `manifest.json` 与 `sw.js`（`./data/**` 与音频流严格走 Network-Only，保障新单集零延迟可见），升级 `airshow-reader-v2` 静态缓存策略，深度适配 iOS/iPadOS Safari 液态玻璃透传与安全区。
+  - **PWA 原生化**：内置 `manifest.json` 与 `sw.js`（`./data/**` 与音频流严格走 Network-Only，保障新单集零延迟可见），采用 `airshow-reader-v3` 静态缓存策略，深度适配 iOS/iPadOS Safari 液态玻璃透传与安全区。
 - **刊物级视觉与主动精听套件（M7 / M8-A）**
   - **双模排印**：浅色暖纸（`#FAF8F4`）× 深色暖炭黑（`#151412`），`Newsreader` 西文衬线与 `Noto Sans SC` 复合字栈，可折叠知识卡片与 8 组确定性哈希嘉宾色标。
   - **进度与锁屏控制**：进度条章节打点、`localStorage` 断点续播记忆、选集抽屉已听进度标，以及支持节目专属 512px 封面与 10s 步长的 Media Session 锁屏播放控制。
@@ -54,7 +54,7 @@ airshow-reader/
 │       ├── models.py                     # Pydantic 数据契约与响应模型定义
 │       ├── storage.py                    # JSON 文件原子读写、缓存与 Shows 清单同步
 │       ├── audio.py                      # 抗 403 下载、ffprobe 检测与 180s 切片
-│       ├── gemini.py                     # SDK 初始化、流式调用与指数退避重试
+│       ├── gemini.py                     # SDK 初始化、CH-A Interactions 异步轮询与双模容灾
 │       ├── prompts.py                    # 通道 A/B 与 Enrich 专用 Prompt 模板生成
 │       ├── hooks_tal.py                  # TAL 专属钩子（期号提取、无广告音频与花名册）
 │       ├── rss.py                        # RSS 抓取解析与 Show Notes 结构化清洗
@@ -63,7 +63,7 @@ airshow-reader/
 ├── docs/                                 # GitHub Pages 静态发布根目录
 │   ├── index.html                        # 语义化骨架（按序引用 CSS 与 ES Modules 入口）
 │   ├── manifest.json                     # PWA 应用清单（独立显示模式）
-│   ├── sw.js                             # PWA Service Worker（airshow-reader-v2 缓存）
+│   ├── sw.js                             # PWA Service Worker（airshow-reader-v3 缓存）
 │   ├── favicon.svg                       # 「声波书页」矢量站点图标
 │   ├── artwork-airshow-512.png           # The Air Show 专属 512px 专辑封面
 │   ├── artwork-sinica-512.png            # Sinica Podcast 专属 512px 专辑封面
@@ -118,10 +118,11 @@ pip install -r requirements.txt
 $env:GEMINI_API_KEY = "你的_Gemini_API_Key"
 
 # 可选覆盖项
-# $env:GEMINI_MODEL_CH_B = "gemini-3.8-flash"
+# $env:GEMINI_MODEL_CH_B = "gemini-3.8-flash"    # 亦向后兼容 GEMINI_MODEL
 # $env:GEMINI_THINKING_CH_B = "low"
 # $env:GEMINI_MODEL_CH_A = "gemini-4-carbon"
-# $env:GEMINI_THINKING_CH_A = "high"      # 留空则按模型自动适配并平滑降级
+# $env:GEMINI_THINKING_CH_A = "high"             # 留空默认 Carbon/Neon/Flash 均为 high
+# $env:CH_A_BG_TIMEOUT_SEC = "900"               # CH-A Interactions 异步轮询超时秒数
 # $env:GEMINI_MODEL_ENRICH = "gemini-3.8-flash"
 # $env:GEMINI_THINKING_ENRICH = "low"
 # $env:CHUNK_SLEEP_SEC = "2.0"
@@ -136,7 +137,7 @@ python scripts/process.py --show sinica --dry-run --limit 1
 # 2) 单切片冒烟预览（仅输出 _smoke_preview.json，不修改正式库）
 python scripts/process.py --show airshow --limit 1 --max-chunks 1
 
-# 3) 处理全部已启用播客的最新 1 期未入库单集
+# 3) 处理全部已启用播客的最新 1 期未入库单集（可加 --no-cache 忽略 CH-B 断点缓存重跑）
 python scripts/process.py --show all --limit 1
 
 # 4) 仅对存量缺失知识卡片的单集执行增量补跑（--limit 0 表示全量扫描）
@@ -148,10 +149,13 @@ python scripts/process.py --show all --enrich --limit 0 --dry-run
 # 6) 仅执行 v2→v3 目录迁移与新节目初始化
 python scripts/process.py --migrate-only
 
-# 7) 运行本地数据契约与 Schema 完整性校验门禁
-python scripts/validate_data.py
+# 7) 运行本地严格数据契约与 Schema 完整性校验门禁（与 CI 一致）
+python scripts/validate_data.py --strict
 
-# 8) 启动本地静态预览服务（访问 http://127.0.0.1:8000）
+# 8) 运行后端稳定性单元测试
+python -m unittest discover -s tests -v
+
+# 9) 启动本地静态预览服务（访问 http://127.0.0.1:8000）
 python -m http.server 8000 --directory docs
 ```
 
@@ -167,7 +171,8 @@ python -m http.server 8000 --directory docs
 | :--- | :--- | :--- | :--- |
 | **Secret** | `GEMINI_API_KEY` | 是 | Google AI Studio API Key（建议绑定 Paid Tier） |
 | **Variable** | `GEMINI_MODEL_CH_A` | 否 | 置顶覆盖通道 A 模型（默认 `gemini-4-carbon`） |
-| **Variable** | `GEMINI_THINKING_CH_A` | 否 | 通道 A 思考等级（留空自动适配：`4-neon`→`xhigh`、`4-carbon`→`high`） |
+| **Variable** | `GEMINI_THINKING_CH_A` | 否 | 通道 A 思考等级（留空默认 `carbon`/`neon`/`flash` 均为 `high`） |
+| **Variable** | `CH_A_BG_TIMEOUT_SEC` | 否 | 通道 A Interactions 后台轮询超时秒数（默认 `900`） |
 | **Variable** | `GEMINI_MODEL_CH_B` | 否 | 置顶覆盖通道 B 转写模型（默认 `gemini-3.8-flash`） |
 | **Variable** | `GEMINI_THINKING_CH_B` | 否 | 通道 B 思考等级（默认 `low`） |
 | **Variable** | `GEMINI_MODEL_ENRICH` | 否 | 置顶覆盖增量补跑模型（默认 `gemini-3.8-flash`） |
@@ -178,7 +183,7 @@ python -m http.server 8000 --directory docs
 
 进入 **Actions → Scheduled Update and Ingestion → Run workflow**：
 
-- **补抓往期单集**：选择 `show`（具体 ID 如 `airshow`、`sinica` 或 `all`），设置 `limit`（建议 `1`–`3`），将 `max_age_days` 设为 **`0`**（不限制发布天数）。
+- **补抓往期单集**：选择 `show`（具体 ID 如 `airshow`、`sinica`、`tal` 或 `all`），设置 `limit`（建议 `1`–`3`），将 `max_age_days` 设为 **`0`**（不限制发布天数；留空则自动按 `podcasts.json` 各节目默认窗口）。
 - **增量补跑知识卡片**：勾选 `enrich_only: true`，配合 `show` 与 `limit` 仅对缺失 `vocab_notes` / `references` 的单集补跑。
 - **演习运行**：勾选 `dry_run: true`，测试抓取解析与下载切片逻辑，不消耗 API 配额。
 

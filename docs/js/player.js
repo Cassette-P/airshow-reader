@@ -34,9 +34,8 @@ export function updateMediaSession(show, epMeta) {
       artist: show.title || 'Podcast Bilingual Reader',
       album: show.subtitle || (state.currentShowsManifest && state.currentShowsManifest.site_title) || '播客双语精读',
       artwork: [
-        { src: icon192Url, sizes: '192x192', type: 'image/png' },
-        { src: icon512Url, sizes: '512x512', type: 'image/png' },
-        { src: showArtworkUrl, sizes: '512x512', type: 'image/png' }
+        { src: showArtworkUrl, sizes: '512x512', type: 'image/png' },
+        { src: icon192Url, sizes: '192x192', type: 'image/png' }
       ]
     });
   } catch (err) {
