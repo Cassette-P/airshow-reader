@@ -7,6 +7,8 @@ export const PROGRESS_STORAGE_KEY = 'airshow_reader_progress_v1';
 export const BLUR_STORAGE_KEY = 'airshow_blur_mode';
 export const THEME_STORAGE_KEY = 'airshow_theme';
 export const LANG_STORAGE_KEY = 'airshow_lang_mode';
+export const FONT_SCALE_STORAGE_KEY = 'airshow_font_scale';
+export const FONT_WEIGHT_STORAGE_KEY = 'airshow_font_weight';
 
 export function getStoredProgressMap() {
   try {
@@ -106,4 +108,44 @@ export function setStoredLangMode(mode) {
   } catch (e) {
     console.warn('[AIRSHOW][Lang] Failed to save localStorage:', e);
   }
+}
+
+export function getStoredFontScale() {
+  try {
+    const saved = localStorage.getItem(FONT_SCALE_STORAGE_KEY);
+    return ['standard', 'large', 'xlarge'].includes(saved) ? saved : 'standard';
+  } catch (e) {
+    console.warn('[AIRSHOW][Prefs] Failed to read font scale:', e);
+    return 'standard';
+  }
+}
+
+export function setStoredFontScale(scale) {
+  if (!['standard', 'large', 'xlarge'].includes(scale)) scale = 'standard';
+  try {
+    localStorage.setItem(FONT_SCALE_STORAGE_KEY, scale);
+  } catch (e) {
+    console.warn('[AIRSHOW][Prefs] Failed to save font scale:', e);
+  }
+  return scale;
+}
+
+export function getStoredFontWeight() {
+  try {
+    const saved = localStorage.getItem(FONT_WEIGHT_STORAGE_KEY);
+    return ['standard', 'crisp'].includes(saved) ? saved : null;
+  } catch (e) {
+    console.warn('[AIRSHOW][Prefs] Failed to read font weight:', e);
+    return null;
+  }
+}
+
+export function setStoredFontWeight(weight) {
+  if (!['standard', 'crisp'].includes(weight)) return null;
+  try {
+    localStorage.setItem(FONT_WEIGHT_STORAGE_KEY, weight);
+  } catch (e) {
+    console.warn('[AIRSHOW][Prefs] Failed to save font weight:', e);
+  }
+  return weight;
 }

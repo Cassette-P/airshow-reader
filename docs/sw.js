@@ -2,7 +2,7 @@
    airshow-reader Service Worker (PWA Shell & Network-Direct Data Engine)
    ========================================================================== */
 
-const CACHE_NAME = 'airshow-reader-v7';
+const CACHE_NAME = 'airshow-reader-v9';
 
 const SHELL_ASSETS = [
   './',
@@ -83,7 +83,15 @@ self.addEventListener('fetch', (event) => {
     return;
   }
 
-  // 3. Static shell assets: Cache-First with Network fallback
+  // 3. Static shell assets: Network-First on localhost dev; Cache-First on production
+  const isLocalDev = url.hostname === 'localhost' || url.hostname === '127.0.0.1' || url.hostname === '[::1]';
+  if (isLocalDev) {
+    event.respondWith(
+      fetch(request).catch(() => caches.match(request))
+    );
+    return;
+  }
+
   event.respondWith(
     caches.match(request).then((cachedResponse) => {
       if (cachedResponse) {

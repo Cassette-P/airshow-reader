@@ -8,6 +8,7 @@ import { binarySearchActiveIndex } from './utils.js';
 import { seekAndPlay, togglePlayPause, rewind, fastForward, startSentenceLoop, exitSentenceLoop } from './player.js';
 import { applySearchFilter, isCompactSearchActive, toggleMobileSearch, cycleBlurMode } from './reader.js';
 import { closeArchiveDrawer } from './archive.js';
+import { closeReaderPrefs } from './theme.js';
 
 export function openShortcutsModal() {
   const { shortcutsModal, shortcutsBackdrop, btnKeyboardShortcuts } = elements;
@@ -51,6 +52,10 @@ export function initShortcuts() {
   window.addEventListener('keydown', (e) => {
     // 1. Esc: close modal/drawer or clear search
     if (e.key === 'Escape') {
+      if (elements.readerPrefsPopover && elements.readerPrefsPopover.classList.contains('visible')) {
+        closeReaderPrefs();
+        return;
+      }
       if (shortcutsModal && shortcutsModal.classList.contains('visible')) {
         closeShortcutsModal();
         return;

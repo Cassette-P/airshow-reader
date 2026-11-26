@@ -6,6 +6,7 @@
 import { state, elements } from './state.js';
 import { getEpisodeProgress } from './storage.js';
 import { formatDateZh, formatDurationZh } from './utils.js';
+import { closeReaderPrefs } from './theme.js';
 
 let archiveCloseTimer = null;
 
@@ -20,52 +21,100 @@ export function updateTabsOverflowMask() {
 }
 
 export function renderPodcastTabs(shows, onSelectShow) {
-  const { podcastTabs } = elements;
-  if (!podcastTabs) return;
-  podcastTabs.innerHTML = '';
+  const { podcastTabs, archiveShowSwitcher } = elements;
+  if (podcastTabs) {
+    podcastTabs.innerHTML = '';
 
-  shows.forEach((show) => {
-    const btn = document.createElement('button');
-    btn.type = 'button';
-    btn.className = 'show-tab-btn';
-    btn.dataset.showId = show.id;
-    btn.setAttribute('role', 'tab');
-    btn.setAttribute('aria-selected', 'false');
-    btn.setAttribute('title', `${show.title} · ${show.subtitle || ''}`);
+    shows.forEach((show) => {
+      const btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = 'show-tab-btn';
+      btn.dataset.showId = show.id;
+      btn.setAttribute('role', 'tab');
+      btn.setAttribute('aria-selected', 'false');
+      btn.setAttribute('title', `${show.title} · ${show.subtitle || ''}`);
 
-    const titleSpan = document.createElement('span');
-    titleSpan.textContent = show.title;
+      const titleSpan = document.createElement('span');
+      titleSpan.textContent = show.title;
 
-    const countSpan = document.createElement('span');
-    countSpan.className = 'show-tab-count tnum';
-    countSpan.textContent = `${show.episode_count != null ? show.episode_count : '0'}`;
+      const countSpan = document.createElement('span');
+      countSpan.className = 'show-tab-count tnum';
+      countSpan.textContent = `${show.episode_count != null ? show.episode_count : '0'}`;
 
-    btn.appendChild(titleSpan);
-    btn.appendChild(countSpan);
+      btn.appendChild(titleSpan);
+      btn.appendChild(countSpan);
 
-    btn.addEventListener('click', () => {
-      if (state.currentShow && state.currentShow.id === show.id) return;
-      if (onSelectShow) onSelectShow(show.id);
+      btn.addEventListener('click', () => {
+        if (state.currentShow && state.currentShow.id === show.id) return;
+        if (onSelectShow) onSelectShow(show.id);
+      });
+
+      podcastTabs.appendChild(btn);
     });
+    updateTabsOverflowMask();
+  }
 
-    podcastTabs.appendChild(btn);
-  });
-  updateTabsOverflowMask();
+  if (archiveShowSwitcher) {
+    archiveShowSwitcher.innerHTML = '';
+
+    shows.forEach((show) => {
+      const btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = 'drawer-show-btn';
+      btn.dataset.showId = show.id;
+      btn.setAttribute('role', 'tab');
+      btn.setAttribute('aria-selected', 'false');
+
+      const titleSpan = document.createElement('span');
+      titleSpan.textContent = show.title;
+
+      const countSpan = document.createElement('span');
+      countSpan.className = 'drawer-show-count tnum';
+      countSpan.textContent = `${show.episode_count != null ? show.episode_count : '0'}`;
+
+      btn.appendChild(titleSpan);
+      btn.appendChild(countSpan);
+
+      btn.addEventListener('click', () => {
+        if (state.currentShow && state.currentShow.id === show.id) return;
+        if (onSelectShow) onSelectShow(show.id);
+      });
+
+      archiveShowSwitcher.appendChild(btn);
+    });
+  }
 }
 
 export function updatePodcastTabsActive(showId) {
-  const { podcastTabs } = elements;
-  if (!podcastTabs) return;
-  const tabs = podcastTabs.querySelectorAll('.show-tab-btn');
-  tabs.forEach((tab) => {
-    const isActive = tab.dataset.showId === showId;
-    tab.classList.toggle('active', isActive);
-    tab.setAttribute('aria-selected', isActive ? 'true' : 'false');
-    if (isActive) {
-      tab.scrollIntoView({ block: 'nearest', inline: 'nearest' });
-    }
-  });
-  updateTabsOverflowMask();
+  const { podcastTabs, archiveShowSwitcher, mobileCatalogShow } = elements;
+  if (podcastTabs) {
+    const tabs = podcastTabs.querySelectorAll('.show-tab-btn');
+    tabs.forEach((tab) => {
+      const isActive = tab.dataset.showId === showId;
+      tab.classList.toggle('active', isActive);
+      tab.setAttribute('aria-selected', isActive ? 'true' : 'false');
+      if (isActive) {
+        tab.scrollIntoView({ block: 'nearest', inline: 'nearest' });
+      }
+    });
+    updateTabsOverflowMask();
+  }
+
+  if (archiveShowSwitcher) {
+    const drawerTabs = archiveShowSwitcher.querySelectorAll('.drawer-show-btn');
+    drawerTabs.forEach((tab) => {
+      const isActive = tab.dataset.showId === showId;
+      tab.classList.toggle('active', isActive);
+      tab.setAttribute('aria-selected', isActive ? 'true' : 'false');
+      if (isActive) {
+        tab.scrollIntoView({ block: 'nearest', inline: 'nearest' });
+      }
+    });
+  }
+
+  if (mobileCatalogShow && state.currentShow && state.currentShow.id === showId) {
+    mobileCatalogShow.textContent = state.currentShow.title || '播客选集';
+  }
 }
 
 export function formatOptionText(ep, record) {
@@ -85,13 +134,15 @@ export function formatOptionText(ep, record) {
 }
 
 export function renderEpisodeArchive(show, episodes, onSelectEpisode) {
-  const { archiveList, headerIssueCount, archiveShowTitle, archiveShowTag, mobileArchiveBtn, episodeSelect } = elements;
+  const { archiveList, headerIssueCount, archiveShowTitle, archiveShowTag, mobileArchiveBtn, mobileCatalogShow, mobileCatalogCount, episodeSelect } = elements;
   if (!archiveList) return;
 
   archiveList.innerHTML = '';
   if (headerIssueCount) headerIssueCount.textContent = `${episodes.length} 期`;
   if (archiveShowTitle) archiveShowTitle.textContent = `${show.title} · 往期选集`;
   if (archiveShowTag) archiveShowTag.textContent = show.subtitle || '往期选集';
+  if (mobileCatalogShow) mobileCatalogShow.textContent = show.title || '播客选集';
+  if (mobileCatalogCount) mobileCatalogCount.textContent = `${episodes.length}期`;
   if (mobileArchiveBtn) {
     mobileArchiveBtn.setAttribute('aria-label', `往期选集目录 (${episodes.length} 期)`);
   }
@@ -219,8 +270,9 @@ export function updateEpisodeProgressIndicators(showId, guid) {
 }
 
 export function openArchiveDrawer() {
-  const { archiveDrawer, archiveBackdrop, btnOpenArchive, mobileArchiveBtn } = elements;
+  const { archiveDrawer, archiveBackdrop, btnOpenArchive, mobileArchiveBtn, mobileCatalogBtn } = elements;
   if (!archiveDrawer || !archiveBackdrop) return;
+  closeReaderPrefs();
 
   if (archiveCloseTimer) {
     clearTimeout(archiveCloseTimer);
@@ -236,11 +288,12 @@ export function openArchiveDrawer() {
   });
   if (btnOpenArchive) btnOpenArchive.setAttribute('aria-expanded', 'true');
   if (mobileArchiveBtn) mobileArchiveBtn.setAttribute('aria-expanded', 'true');
+  if (mobileCatalogBtn) mobileCatalogBtn.setAttribute('aria-expanded', 'true');
   document.body.style.overflow = 'hidden';
 }
 
 export function closeArchiveDrawer() {
-  const { archiveDrawer, archiveBackdrop, btnOpenArchive, mobileArchiveBtn } = elements;
+  const { archiveDrawer, archiveBackdrop, btnOpenArchive, mobileArchiveBtn, mobileCatalogBtn } = elements;
   if (!archiveDrawer || !archiveBackdrop) return;
 
   archiveDrawer.style.transform = '';
@@ -248,6 +301,7 @@ export function closeArchiveDrawer() {
   archiveDrawer.classList.remove('open');
   if (btnOpenArchive) btnOpenArchive.setAttribute('aria-expanded', 'false');
   if (mobileArchiveBtn) mobileArchiveBtn.setAttribute('aria-expanded', 'false');
+  if (mobileCatalogBtn) mobileCatalogBtn.setAttribute('aria-expanded', 'false');
   document.body.style.overflow = '';
   if (archiveCloseTimer) {
     clearTimeout(archiveCloseTimer);
@@ -269,7 +323,7 @@ export function toggleArchiveDrawer() {
 }
 
 export function initArchiveEvents() {
-  const { podcastTabs, btnOpenArchive, mobileArchiveBtn, archiveCloseBtn, archiveBackdrop, archiveGrabber, archiveHeader } = elements;
+  const { podcastTabs, btnOpenArchive, mobileArchiveBtn, mobileCatalogBtn, archiveCloseBtn, archiveBackdrop, archiveGrabber, archiveHeader } = elements;
 
   if (podcastTabs) {
     podcastTabs.addEventListener('scroll', updateTabsOverflowMask, { passive: true });
@@ -281,6 +335,9 @@ export function initArchiveEvents() {
   }
   if (mobileArchiveBtn) {
     mobileArchiveBtn.addEventListener('click', toggleArchiveDrawer);
+  }
+  if (mobileCatalogBtn) {
+    mobileCatalogBtn.addEventListener('click', toggleArchiveDrawer);
   }
   if (archiveCloseBtn) {
     archiveCloseBtn.addEventListener('click', closeArchiveDrawer);

@@ -47,7 +47,32 @@
         <nav class="podcast-nav-tabs" id="podcast-tabs" role="tablist" aria-label="播客节目切换">
           <!-- Dynamically populated from shows.json -->
         </nav>
+
+        <!-- Compact/Mobile Unified Show + Episode Selector Trigger -->
+        <button type="button" class="mobile-catalog-btn" id="mobile-catalog-btn" aria-haspopup="dialog" aria-expanded="false" aria-label="切换播客与单集目录" title="切换节目与选集">
+          <span class="mobile-catalog-show" id="mobile-catalog-show">The Air Show</span>
+          <span class="mobile-catalog-count tnum" id="mobile-catalog-count"></span>
+          <svg class="mobile-catalog-chevron" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <polyline points="6 9 12 15 18 9"></polyline>
+          </svg>
+        </button>
       </div>
+
+      <!-- Compact Wide / Landscape Center Liquid Glass Tab Island -->
+      <nav class="header-compact-tabs" id="header-compact-tabs" role="tablist" aria-label="单集阅读视图切换">
+        <button type="button" class="mobile-tab-btn active" role="tab" aria-selected="true" data-tab="overview">
+          <span>导读</span>
+          <span class="mobile-tab-badge tnum" data-badge-for="overview"></span>
+        </button>
+        <button type="button" class="mobile-tab-btn" role="tab" aria-selected="false" data-tab="transcript">
+          <span>逐字稿</span>
+          <span class="mobile-tab-badge tnum" data-badge-for="transcript"></span>
+        </button>
+        <button type="button" class="mobile-tab-btn" role="tab" aria-selected="false" data-tab="notes">
+          <span>笔记</span>
+          <span class="mobile-tab-badge tnum" data-badge-for="notes"></span>
+        </button>
+      </nav>
 
       <!-- Center: Issue Archive Drawer Trigger (Desktop) -->
       <div class="header-center">
@@ -114,7 +139,12 @@
           </button>
         </div>
 
-        <!-- Theme Toggle Button -->
+        <!-- Reader Typography & Appearance Button (Aa) -->
+        <button type="button" class="reader-prefs-btn" id="reader-prefs-btn" aria-haspopup="dialog" aria-expanded="false" title="阅读排版与外观设置" aria-label="阅读排版与外观设置">
+          <span class="aa-glyph" aria-hidden="true">Aa</span>
+        </button>
+
+        <!-- Theme Toggle Button (Desktop quick toggle) -->
         <button type="button" class="theme-toggle-btn" id="theme-toggle-btn" title="切换深浅主题" aria-label="切换主题">
           <svg class="icon-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="display: none;" aria-hidden="true">
             <circle cx="12" cy="12" r="5"></circle>
@@ -157,12 +187,45 @@
         </svg>
       </button>
     </div>
+    <!-- Compact/Mobile Unified Show Switcher inside Drawer -->
+    <div class="archive-show-switcher" id="archive-show-switcher" role="tablist" aria-label="切换播客节目">
+      <!-- Dynamically populated from shows.json -->
+    </div>
     <div class="archive-body" id="archive-body">
       <div class="archive-list" id="archive-list" role="list">
         <!-- Dynamically rendered episode cards -->
       </div>
     </div>
   </aside>
+
+  <!-- ==========================================================================
+       Reader Typography & Appearance Popover (Aa — Liquid Glass)
+       ========================================================================== -->
+  <div class="reader-prefs-backdrop" id="reader-prefs-backdrop" aria-hidden="true"></div>
+  <div class="reader-prefs-popover" id="reader-prefs-popover" role="dialog" aria-modal="false" aria-label="阅读排版与外观设置">
+    <div class="prefs-row">
+      <span class="prefs-label">字号</span>
+      <div class="prefs-segmented" role="group" aria-label="正文字号">
+        <button type="button" class="prefs-seg-btn" data-font-scale="standard">标准</button>
+        <button type="button" class="prefs-seg-btn" data-font-scale="large">偏大</button>
+        <button type="button" class="prefs-seg-btn" data-font-scale="xlarge">大号</button>
+      </div>
+    </div>
+    <div class="prefs-row">
+      <span class="prefs-label">字重</span>
+      <div class="prefs-segmented" role="group" aria-label="正文字重">
+        <button type="button" class="prefs-seg-btn" data-font-weight="standard">标准</button>
+        <button type="button" class="prefs-seg-btn" data-font-weight="crisp">清晰</button>
+      </div>
+    </div>
+    <div class="prefs-row">
+      <span class="prefs-label">外观</span>
+      <div class="prefs-segmented" role="group" aria-label="浅色或深色主题">
+        <button type="button" class="prefs-seg-btn" data-theme-choice="light">浅色</button>
+        <button type="button" class="prefs-seg-btn" data-theme-choice="dark">深色</button>
+      </div>
+    </div>
+  </div>
 
   <!-- ==========================================================================
        Main Content Container
@@ -198,7 +261,7 @@
     </div>
 
     <!-- Episode Render Container -->
-    <div id="episode-content" style="display: none;">
+    <div id="episode-content" data-active-tab="overview" style="display: none;">
       <!-- Search Banner -->
       <div id="search-stats-banner" class="search-stats-banner">
         <span id="search-stats-text">找到 0 处匹配</span>
@@ -245,9 +308,27 @@
         </div>
       </article>
 
+      <!-- Compact/Mobile In-Flow Liquid Glass Section Switcher (Portrait) -->
+      <nav class="mobile-section-tabs" id="mobile-section-tabs" role="tablist" aria-label="单集阅读视图切换">
+        <div class="mobile-section-tabs-inner">
+          <button type="button" class="mobile-tab-btn active" role="tab" aria-selected="true" data-tab="overview" id="tab-btn-overview">
+            <span>导读</span>
+            <span class="mobile-tab-badge tnum" id="tab-badge-overview" data-badge-for="overview"></span>
+          </button>
+          <button type="button" class="mobile-tab-btn" role="tab" aria-selected="false" data-tab="transcript" id="tab-btn-transcript">
+            <span>逐字稿</span>
+            <span class="mobile-tab-badge tnum" id="tab-badge-transcript" data-badge-for="transcript"></span>
+          </button>
+          <button type="button" class="mobile-tab-btn" role="tab" aria-selected="false" data-tab="notes" id="tab-btn-notes">
+            <span>笔记</span>
+            <span class="mobile-tab-badge tnum" id="tab-badge-notes" data-badge-for="notes"></span>
+          </button>
+        </div>
+      </nav>
+
       <!-- Section: Executive Summary & Takeaways -->
-      <section class="section-wrap" aria-labelledby="heading-summary">
-        <div class="section-header">
+      <section class="section-wrap" data-tab-panel="overview" aria-labelledby="heading-summary">
+        <div class="section-header tab-redundant-header">
           <h2 class="section-title" id="heading-summary">导读摘要 · Executive Summary</h2>
           <span class="section-badge tnum" id="takeaways-count-badge"></span>
         </div>
@@ -265,7 +346,7 @@
       </section>
 
       <!-- Section: Highlights (Pull-Quote Audio Cards) -->
-      <section class="section-wrap" aria-labelledby="heading-highlights">
+      <section class="section-wrap section-highlights" data-tab-panel="overview" aria-labelledby="heading-highlights">
         <div class="section-header">
           <h2 class="section-title" id="heading-highlights">精选原声 · Audio Highlights</h2>
           <span class="section-badge tnum" id="highlights-count-badge">- 个片段</span>
@@ -276,8 +357,8 @@
       </section>
 
       <!-- Section: Knowledge Cards (Collapsible Notes & References) -->
-      <section class="section-wrap" id="knowledge-section" aria-labelledby="heading-knowledge" style="display: none;">
-        <div class="section-header">
+      <section class="section-wrap" id="knowledge-section" data-tab-panel="notes" aria-labelledby="heading-knowledge" style="display: none;">
+        <div class="section-header tab-redundant-header">
           <h2 class="section-title" id="heading-knowledge">知识扩展 · Knowledge Cards</h2>
           <span class="section-badge tnum" id="knowledge-total-badge">- 项内容</span>
         </div>
@@ -325,13 +406,18 @@
       </section>
 
       <!-- Section: Full Bilingual Transcript (De-carded continuous stream) -->
-      <section class="section-wrap" aria-labelledby="heading-transcript">
+      <section class="section-wrap" data-tab-panel="transcript" aria-labelledby="heading-transcript">
         <div class="section-header transcript-section-header">
           <div class="transcript-header-main">
             <h2 class="section-title" id="heading-transcript">中英双语逐字稿 · Transcript</h2>
             <span class="section-badge tnum" id="transcript-count-badge">- 段落</span>
           </div>
           <div class="transcript-toolbar">
+            <div class="transcript-lang-control" role="group" aria-label="双语显示模式切换">
+              <button type="button" class="segment-btn active" data-mode="bilingual">双语</button>
+              <button type="button" class="segment-btn" data-mode="zh">中文</button>
+              <button type="button" class="segment-btn" data-mode="en">英文</button>
+            </div>
             <div class="blur-segmented-control" role="group" aria-label="盲听精听模式选择">
               <span class="blur-control-label" aria-hidden="true">盲听</span>
               <button type="button" class="blur-segment-btn active" data-blur="off" title="清晰显示全部文本">清晰</button>

@@ -2,8 +2,17 @@
  * theme.js - Theme toggle, dynamic favicon, theme-color meta & PWA detection
  */
 
-import { state, elements } from './state.js';
-import { getStoredTheme, setStoredTheme, getStoredLangMode, setStoredLangMode } from './storage.js';
+import { state, elements, COMPACT_LAYOUT_QUERY, isCompactLayout } from './state.js';
+import {
+  getStoredTheme,
+  setStoredTheme,
+  getStoredLangMode,
+  setStoredLangMode,
+  getStoredFontScale,
+  setStoredFontScale,
+  getStoredFontWeight,
+  setStoredFontWeight
+} from './storage.js';
 import { lightenHexColor, colorToRgba } from './utils.js';
 
 export function detectPwaMode() {
@@ -94,6 +103,7 @@ export function setTheme(theme) {
   if (state.currentShow) {
     applyShowTheme(state.currentShow);
   }
+  syncReaderPrefsUI();
 }
 
 export function toggleTheme() {
@@ -150,5 +160,126 @@ export function initLanguageMode() {
 
   if (elements.mobileLangBtn) {
     elements.mobileLangBtn.addEventListener('click', cycleLanguageMode);
+  }
+}
+
+/* ==========================================================================
+   Reader Typography & Appearance Popover (Aa: Font Size, Weight, Theme)
+   ========================================================================== */
+export function getEffectiveFontWeight() {
+  if (state.currentFontWeight === 'standard' || state.currentFontWeight === 'crisp') {
+    return state.currentFontWeight;
+  }
+  return isCompactLayout() ? 'crisp' : 'standard';
+}
+
+export function syncReaderPrefsUI() {
+  const { readerPrefsPopover } = elements;
+  if (!readerPrefsPopover) return;
+
+  const activeScale = state.currentFontScale || 'standard';
+  const activeWeight = getEffectiveFontWeight();
+  const activeTheme = document.documentElement.getAttribute('data-theme') || 'light';
+
+  readerPrefsPopover.querySelectorAll('[data-font-scale]').forEach(btn => {
+    btn.classList.toggle('active', btn.dataset.fontScale === activeScale);
+  });
+  readerPrefsPopover.querySelectorAll('[data-font-weight]').forEach(btn => {
+    btn.classList.toggle('active', btn.dataset.fontWeight === activeWeight);
+  });
+  readerPrefsPopover.querySelectorAll('[data-theme-choice]').forEach(btn => {
+    btn.classList.toggle('active', btn.dataset.themeChoice === activeTheme);
+  });
+}
+
+export function setFontScale(scale, save = true) {
+  if (!['standard', 'large', 'xlarge'].includes(scale)) scale = 'standard';
+  state.currentFontScale = scale;
+  document.documentElement.setAttribute('data-font-scale', scale);
+  if (save) setStoredFontScale(scale);
+  syncReaderPrefsUI();
+}
+
+export function setFontWeight(weight, save = true) {
+  if (weight === 'standard' || weight === 'crisp') {
+    state.currentFontWeight = weight;
+    document.documentElement.setAttribute('data-font-weight', weight);
+    if (save) setStoredFontWeight(weight);
+  } else {
+    state.currentFontWeight = null;
+    document.documentElement.removeAttribute('data-font-weight');
+  }
+  syncReaderPrefsUI();
+}
+
+export function openReaderPrefs() {
+  const { readerPrefsPopover, readerPrefsBackdrop, readerPrefsBtn } = elements;
+  if (!readerPrefsPopover) return;
+  syncReaderPrefsUI();
+  readerPrefsPopover.classList.add('visible');
+  if (readerPrefsBackdrop) readerPrefsBackdrop.classList.add('visible');
+  if (readerPrefsBtn) {
+    readerPrefsBtn.classList.add('active');
+    readerPrefsBtn.setAttribute('aria-expanded', 'true');
+  }
+}
+
+export function closeReaderPrefs() {
+  const { readerPrefsPopover, readerPrefsBackdrop, readerPrefsBtn } = elements;
+  if (readerPrefsPopover) readerPrefsPopover.classList.remove('visible');
+  if (readerPrefsBackdrop) readerPrefsBackdrop.classList.remove('visible');
+  if (readerPrefsBtn) {
+    readerPrefsBtn.classList.remove('active');
+    readerPrefsBtn.setAttribute('aria-expanded', 'false');
+  }
+}
+
+export function toggleReaderPrefs() {
+  const { readerPrefsPopover } = elements;
+  if (readerPrefsPopover && readerPrefsPopover.classList.contains('visible')) {
+    closeReaderPrefs();
+  } else {
+    openReaderPrefs();
+  }
+}
+
+export function initReaderPrefs() {
+  const savedScale = getStoredFontScale();
+  const savedWeight = getStoredFontWeight();
+  setFontScale(savedScale, false);
+  setFontWeight(savedWeight, false);
+
+  const { readerPrefsBtn, readerPrefsBackdrop, readerPrefsPopover } = elements;
+  if (readerPrefsBtn) {
+    readerPrefsBtn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      toggleReaderPrefs();
+    });
+  }
+  if (readerPrefsBackdrop) {
+    readerPrefsBackdrop.addEventListener('click', closeReaderPrefs);
+  }
+  if (readerPrefsPopover) {
+    readerPrefsPopover.querySelectorAll('[data-font-scale]').forEach(btn => {
+      btn.addEventListener('click', () => setFontScale(btn.dataset.fontScale, true));
+    });
+    readerPrefsPopover.querySelectorAll('[data-font-weight]').forEach(btn => {
+      btn.addEventListener('click', () => setFontWeight(btn.dataset.fontWeight, true));
+    });
+    readerPrefsPopover.querySelectorAll('[data-theme-choice]').forEach(btn => {
+      btn.addEventListener('click', () => setTheme(btn.dataset.themeChoice));
+    });
+  }
+
+  if (window.matchMedia) {
+    const mq = window.matchMedia(COMPACT_LAYOUT_QUERY);
+    const onMqChange = () => {
+      if (!state.currentFontWeight) {
+        syncReaderPrefsUI();
+      }
+    };
+    if (mq.addEventListener) {
+      mq.addEventListener('change', onMqChange);
+    }
   }
 }

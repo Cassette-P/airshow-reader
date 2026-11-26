@@ -3,14 +3,19 @@
  *             sentence loop, progress memory, and Media Session integration
  */
 
-import { state, elements, PLAYBACK_RATES } from './state.js';
+import { state, elements, PLAYBACK_RATES, isCompactLayout } from './state.js';
 import { saveEpisodeProgress } from './storage.js';
 import { formatTime, binarySearchActiveIndex } from './utils.js';
 
 let updateEpisodeProgressCallback = null;
+let ensureTranscriptTabCallback = null;
 
 export function setProgressUpdateCallback(cb) {
   updateEpisodeProgressCallback = cb;
+}
+
+export function setEnsureTranscriptTabCallback(cb) {
+  ensureTranscriptTabCallback = cb;
 }
 
 export function updateMediaSession(show, epMeta) {
@@ -402,8 +407,31 @@ export function toggleAutoScroll() {
   if (!elements.btnAutoscroll) return;
   state.isAutoScrollEnabled = !state.isAutoScrollEnabled;
   elements.btnAutoscroll.classList.toggle('active', state.isAutoScrollEnabled);
-  if (state.isAutoScrollEnabled && state.lastActiveTranscriptIndex !== -1 && state.transcriptElements[state.lastActiveTranscriptIndex]) {
-    state.transcriptElements[state.lastActiveTranscriptIndex].scrollIntoView({ behavior: 'smooth', block: 'center' });
+  elements.btnAutoscroll.setAttribute('aria-pressed', state.isAutoScrollEnabled ? 'true' : 'false');
+  if (state.isAutoScrollEnabled) {
+    if (isCompactLayout() && state.activeMobileTab !== 'transcript' && ensureTranscriptTabCallback) {
+      ensureTranscriptTabCallback();
+    }
+    let targetIdx = state.lastActiveTranscriptIndex;
+    if (
+      targetIdx === -1 &&
+      state.currentEpisode &&
+      state.currentEpisode.transcript &&
+      state.currentEpisode.transcript.length > 0 &&
+      elements.audio
+    ) {
+      const curTime = elements.audio.currentTime || (elements.seekSlider ? Number(elements.seekSlider.value) : 0);
+      targetIdx = binarySearchActiveIndex(state.currentEpisode.transcript, curTime);
+      if (targetIdx !== -1 && state.transcriptElements[targetIdx]) {
+        state.transcriptElements[targetIdx].classList.add('active');
+        state.lastActiveTranscriptIndex = targetIdx;
+      }
+    }
+    if (targetIdx !== -1 && state.transcriptElements[targetIdx]) {
+      requestAnimationFrame(() => {
+        state.transcriptElements[targetIdx].scrollIntoView({ behavior: 'smooth', block: 'center' });
+      });
+    }
   }
 }
 

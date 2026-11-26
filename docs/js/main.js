@@ -6,7 +6,7 @@
 import { state, elements, initElements, showIndexCache, episodeCache } from './state.js';
 import { getEpisodeProgress } from './storage.js';
 import { fetchShows, fetchShowIndex, fetchEpisodeDetail } from './api.js';
-import { detectPwaMode, initTheme, initLanguageMode, applyShowTheme, toggleTheme } from './theme.js';
+import { detectPwaMode, initTheme, initLanguageMode, initReaderPrefs, applyShowTheme, toggleTheme } from './theme.js';
 import {
   initPlayerEvents,
   initMediaSessionActionHandlers,
@@ -15,6 +15,7 @@ import {
   exitSentenceLoop,
   throttleSaveProgress,
   setProgressUpdateCallback,
+  setEnsureTranscriptTabCallback,
   updateMastheadPlayhead
 } from './player.js';
 import {
@@ -27,6 +28,8 @@ import {
   initBlurMode,
   clearRevealedStates,
   applySearchFilter,
+  setActiveMobileTab,
+  resetMobileTabs,
   initReaderEvents
 } from './reader.js';
 import {
@@ -219,6 +222,7 @@ export function selectEpisode(show, epMeta) {
   if (playerChapterTitle) playerChapterTitle.textContent = '-';
   if (resumeBanner) resumeBanner.style.display = 'none';
   resetKnowledgeCards();
+  resetMobileTabs('overview');
 
   // Breakpoint resume restore
   state.userInteractedSeek = false;
@@ -311,6 +315,8 @@ export function handleShowIndexLoaded(show, indexData, targetGuid, seq) {
 
     if (headerIssueTitle) headerIssueTitle.textContent = '暂无单集';
     if (headerIssueCount) headerIssueCount.textContent = '0 期';
+    if (elements.mobileCatalogShow) elements.mobileCatalogShow.textContent = show.title || '播客选集';
+    if (elements.mobileCatalogCount) elements.mobileCatalogCount.textContent = '0期';
     if (btnOpenArchive) btnOpenArchive.disabled = true;
     if (mobileArchiveBtn) mobileArchiveBtn.disabled = true;
     if (searchInput) searchInput.disabled = true;
@@ -410,6 +416,7 @@ export async function switchShow(showId, targetGuid = null) {
   if (playerChapterTitle) playerChapterTitle.textContent = '-';
   if (resumeBanner) resumeBanner.style.display = 'none';
   resetKnowledgeCards();
+  resetMobileTabs('overview');
 
   // Reset search filter
   if (searchInput) searchInput.value = '';
@@ -510,9 +517,11 @@ export function registerServiceWorker() {
 function bootstrap() {
   initElements();
   setProgressUpdateCallback(updateEpisodeProgressIndicators);
+  setEnsureTranscriptTabCallback(() => setActiveMobileTab('transcript', { restoreScroll: false }));
 
   detectPwaMode();
   initTheme();
+  initReaderPrefs();
   initLanguageMode();
   initBlurMode();
   initMediaSessionActionHandlers();

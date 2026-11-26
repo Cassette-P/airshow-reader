@@ -3,6 +3,11 @@
  */
 
 export const PLAYBACK_RATES = [1.0, 1.25, 1.5, 2.0];
+export const COMPACT_LAYOUT_QUERY = '(max-width: 768px), (max-height: 500px) and (pointer: coarse)';
+
+export function isCompactLayout() {
+  return Boolean(window.matchMedia && window.matchMedia(COMPACT_LAYOUT_QUERY).matches);
+}
 
 export const showIndexCache = new Map();
 export const episodeCache = new Map();
@@ -16,6 +21,15 @@ export const state = {
   currentActiveEpisodeMeta: null,
   currentLangMode: 'bilingual',
   currentBlurMode: 'off',
+  currentFontScale: 'standard',
+  currentFontWeight: null,
+  activeMobileTab: 'overview',
+  tabScrollPositions: {
+    overview: 0,
+    transcript: 0,
+    notes: 0
+  },
+  hasKnowledgeNotes: false,
   loopState: {
     active: false,
     index: -1,
@@ -69,10 +83,31 @@ export function initElements() {
   elements.archiveGrabber = elements.archiveDrawer ? elements.archiveDrawer.querySelector('.archive-grabber') : null;
   elements.archiveHeader = elements.archiveDrawer ? elements.archiveDrawer.querySelector('.archive-header') : null;
 
-  // Mobile Header Controls
+  // Mobile Header Controls & Reader Prefs (Aa)
+  elements.mobileCatalogBtn = document.getElementById('mobile-catalog-btn');
+  elements.mobileCatalogShow = document.getElementById('mobile-catalog-show');
+  elements.mobileCatalogCount = document.getElementById('mobile-catalog-count');
+  elements.archiveShowSwitcher = document.getElementById('archive-show-switcher');
   elements.mobileArchiveBtn = document.getElementById('mobile-archive-btn');
   elements.mobileLangBtn = document.getElementById('mobile-lang-btn');
   elements.mobileSearchBtn = document.getElementById('mobile-search-btn');
+  elements.readerPrefsBtn = document.getElementById('reader-prefs-btn');
+  elements.readerPrefsPopover = document.getElementById('reader-prefs-popover');
+  elements.readerPrefsBackdrop = document.getElementById('reader-prefs-backdrop');
+
+  // Compact/Mobile Section Tabs (both header center island & portrait in-flow bar)
+  elements.mobileSectionTabs = document.getElementById('mobile-section-tabs');
+  elements.headerCompactTabs = document.getElementById('header-compact-tabs');
+  elements.mobileTabBtns = document.querySelectorAll('.mobile-tab-btn');
+  elements.tabNotesBtns = document.querySelectorAll('.mobile-tab-btn[data-tab="notes"]');
+  elements.tabOverviewBadges = document.querySelectorAll('.mobile-tab-badge[data-badge-for="overview"]');
+  elements.tabTranscriptBadges = document.querySelectorAll('.mobile-tab-badge[data-badge-for="transcript"]');
+  elements.tabBtnOverview = document.getElementById('tab-btn-overview');
+  elements.tabBtnTranscript = document.getElementById('tab-btn-transcript');
+  elements.tabBtnNotes = document.getElementById('tab-btn-notes');
+  elements.tabBadgeOverview = document.getElementById('tab-badge-overview');
+  elements.tabBadgeTranscript = document.getElementById('tab-badge-transcript');
+  elements.tabBadgeNotes = document.getElementById('tab-badge-notes');
 
   // Article Elements
   elements.metaPodcastTitle = document.getElementById('meta-podcast-title');

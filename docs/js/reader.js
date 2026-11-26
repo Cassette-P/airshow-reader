@@ -3,10 +3,121 @@
  *             knowledge cards, bilingual transcript, search filter & blur listening
  */
 
-import { state, elements } from './state.js';
+import { state, elements, isCompactLayout } from './state.js';
 import { getStoredBlurMode, setStoredBlurMode } from './storage.js';
-import { escapeHtml, formatTime, formatDurationZh, formatDateZh, getSpeakerCssClass } from './utils.js';
+import { escapeHtml, formatTime, formatDurationZh, formatDateZh, getSpeakerCssClass, binarySearchActiveIndex } from './utils.js';
 import { seekAndPlay, exitSentenceLoop, toggleSentenceLoop, renderChapterMarkers } from './player.js';
+import { closeReaderPrefs } from './theme.js';
+
+/* ==========================================================================
+   Compact / Mobile 3-Tab View Controller (overview | transcript | notes)
+   ========================================================================== */
+export function expandCompactKnowledgeAccordions() {
+  if (!isCompactLayout()) return;
+  const { vocabAccordion, referencesAccordion } = elements;
+  if (vocabAccordion && vocabAccordion.style.display !== 'none') {
+    vocabAccordion.open = true;
+  }
+  if (referencesAccordion && referencesAccordion.style.display !== 'none') {
+    referencesAccordion.open = true;
+  }
+}
+
+export function updateMobileTabBadges(overviewCount = 0, transcriptCount = 0) {
+  const { tabOverviewBadges, tabTranscriptBadges } = elements;
+  if (tabOverviewBadges) {
+    tabOverviewBadges.forEach(badge => {
+      badge.textContent = overviewCount > 0 ? String(overviewCount) : '';
+      badge.classList.toggle('has-count', overviewCount > 0);
+    });
+  }
+  if (tabTranscriptBadges) {
+    tabTranscriptBadges.forEach(badge => {
+      badge.textContent = transcriptCount > 0 ? String(transcriptCount) : '';
+      badge.classList.toggle('has-count', transcriptCount > 0);
+    });
+  }
+}
+
+export function getAvailableMobileTabs() {
+  return state.hasKnowledgeNotes ? ['overview', 'transcript', 'notes'] : ['overview', 'transcript'];
+}
+
+export function setActiveMobileTab(tab, options = {}) {
+  const { restoreScroll = true, scrollTop = false, swipeDirection = null } = options;
+  let targetTab = ['overview', 'transcript', 'notes'].includes(tab) ? tab : 'overview';
+  if (targetTab === 'notes' && !state.hasKnowledgeNotes) {
+    targetTab = 'overview';
+  }
+
+  const prevTab = state.activeMobileTab;
+  if (isCompactLayout() && prevTab && prevTab !== targetTab) {
+    state.tabScrollPositions[prevTab] = window.scrollY;
+  }
+
+  state.activeMobileTab = targetTab;
+  if (elements.episodeContent) {
+    elements.episodeContent.setAttribute('data-active-tab', targetTab);
+  }
+  if (elements.mobileTabBtns) {
+    elements.mobileTabBtns.forEach(btn => {
+      const isActive = btn.dataset.tab === targetTab;
+      btn.classList.toggle('active', isActive);
+      btn.setAttribute('aria-selected', isActive ? 'true' : 'false');
+    });
+  }
+
+  if (targetTab === 'notes') {
+    expandCompactKnowledgeAccordions();
+  }
+
+  if (isCompactLayout() && prevTab !== targetTab) {
+    if (swipeDirection && elements.episodeContent) {
+      const animClass = swipeDirection === 'next' ? 'tab-enter-from-right' : 'tab-enter-from-left';
+      const panels = elements.episodeContent.querySelectorAll(`[data-tab-panel="${targetTab}"]`);
+      panels.forEach(panel => {
+        panel.classList.remove('tab-enter-from-right', 'tab-enter-from-left');
+        void panel.offsetWidth;
+        panel.classList.add(animClass);
+        panel.addEventListener('animationend', () => {
+          panel.classList.remove('tab-enter-from-right', 'tab-enter-from-left');
+        }, { once: true });
+      });
+    }
+
+    if (scrollTop) {
+      window.scrollTo({ top: 0, behavior: 'auto' });
+    } else if (restoreScroll) {
+      const savedY = state.tabScrollPositions[targetTab] || 0;
+      requestAnimationFrame(() => {
+        window.scrollTo({ top: savedY, behavior: 'auto' });
+      });
+    }
+  }
+}
+
+export function resetMobileTabs(defaultTab = 'overview') {
+  state.tabScrollPositions = { overview: 0, transcript: 0, notes: 0 };
+  setActiveMobileTab(defaultTab, { restoreScroll: false, scrollTop: false });
+}
+
+export function jumpToTranscriptAt(startSec) {
+  if (state.loopState.active) {
+    exitSentenceLoop();
+  }
+  if (isCompactLayout()) {
+    setActiveMobileTab('transcript', { restoreScroll: false });
+  }
+  seekAndPlay(startSec);
+
+  const tr = (state.currentEpisode && state.currentEpisode.transcript) || [];
+  const idx = binarySearchActiveIndex(tr, Number(startSec) || 0);
+  if (idx !== -1 && state.transcriptElements[idx]) {
+    requestAnimationFrame(() => {
+      state.transcriptElements[idx].scrollIntoView({ behavior: 'smooth', block: 'center' });
+    });
+  }
+}
 
 export function renderArticleMeta(show, ep) {
   if (elements.metaPodcastTitle) elements.metaPodcastTitle.textContent = (show && show.title) || '播客精读';
@@ -131,6 +242,16 @@ export function renderHighlights(highlights) {
       card.appendChild(quote);
     }
 
+    const jumpBtn = document.createElement('button');
+    jumpBtn.type = 'button';
+    jumpBtn.className = 'highlight-jump-btn';
+    jumpBtn.textContent = '定位逐字稿 →';
+    jumpBtn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      jumpToTranscriptAt(hl.start_sec);
+    });
+    card.appendChild(jumpBtn);
+
     card.addEventListener('click', () => {
       if (state.loopState.active) {
         exitSentenceLoop();
@@ -157,6 +278,11 @@ export function getCategoryLabel(category) {
 }
 
 export function resetKnowledgeCards() {
+  state.hasKnowledgeNotes = false;
+  document.body.setAttribute('data-has-notes', 'false');
+  if (state.activeMobileTab === 'notes') {
+    setActiveMobileTab('overview', { restoreScroll: false });
+  }
   if (!elements.knowledgeSection) return;
   elements.knowledgeSection.style.display = 'none';
   if (elements.vocabAccordion) {
@@ -185,6 +311,8 @@ export function renderKnowledgeCards(detail) {
     return;
   }
 
+  state.hasKnowledgeNotes = true;
+  document.body.setAttribute('data-has-notes', 'true');
   elements.knowledgeSection.style.display = 'block';
 
   // Update Vocab Notes Accordion
@@ -353,6 +481,10 @@ export function renderKnowledgeCards(detail) {
     } else {
       elements.knowledgeTotalBadge.textContent = `${references.length} 项资源`;
     }
+  }
+
+  if (state.activeMobileTab === 'notes') {
+    expandCompactKnowledgeAccordions();
   }
 }
 
@@ -534,6 +666,7 @@ export function applySearchFilter(query) {
   if (!query) {
     if (searchClearBtn) searchClearBtn.style.display = 'none';
     if (searchStatsBanner) searchStatsBanner.classList.remove('visible');
+    updateMobileTabBadges(0, 0);
 
     state.transcriptElements.forEach((el, idx) => {
       el.classList.remove('is-search-hidden');
@@ -617,6 +750,17 @@ export function applySearchFilter(query) {
     searchStatsText.textContent = `关键词 “${query}”：匹配 ${transcriptMatchCount} 段逐字稿，${highlightMatchCount} 条精选重点`;
     searchStatsBanner.classList.add('visible');
   }
+  updateMobileTabBadges(highlightMatchCount, transcriptMatchCount);
+  if (isCompactLayout()) {
+    if (state.activeMobileTab === 'notes') {
+      if (transcriptMatchCount > 0) setActiveMobileTab('transcript', { restoreScroll: false });
+      else if (highlightMatchCount > 0) setActiveMobileTab('overview', { restoreScroll: false });
+    } else if (state.activeMobileTab === 'overview' && highlightMatchCount === 0 && transcriptMatchCount > 0) {
+      setActiveMobileTab('transcript', { restoreScroll: false });
+    } else if (state.activeMobileTab === 'transcript' && transcriptMatchCount === 0 && highlightMatchCount > 0) {
+      setActiveMobileTab('overview', { restoreScroll: false });
+    }
+  }
 }
 
 export function isCompactSearchActive() {
@@ -629,6 +773,7 @@ export function toggleMobileSearch(forceState) {
   if (!searchBoxWrap) return;
   const willExpand = forceState !== undefined ? forceState : !searchBoxWrap.classList.contains('mobile-expanded');
   if (willExpand) {
+    closeReaderPrefs();
     searchBoxWrap.classList.add('mobile-expanded');
     if (mobileSearchBtn) mobileSearchBtn.classList.add('active');
     if (searchInput) {
@@ -643,7 +788,17 @@ export function toggleMobileSearch(forceState) {
 }
 
 export function initReaderEvents() {
-  const { searchInput, searchClearBtn, searchResetLink, mobileSearchBtn, searchBoxWrap } = elements;
+  const { searchInput, searchClearBtn, searchResetLink, mobileSearchBtn, searchBoxWrap, mobileTabBtns } = elements;
+
+  if (mobileTabBtns) {
+    mobileTabBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        if (btn.dataset.tab) {
+          setActiveMobileTab(btn.dataset.tab, { restoreScroll: true });
+        }
+      });
+    });
+  }
 
   let searchDebounceTimer = null;
   if (searchInput) {
@@ -688,4 +843,134 @@ export function initReaderEvents() {
       }
     }
   });
+
+  // Compact/Mobile Horizontal Swipe Gesture for 3-Tab Switching
+  // Preserves iOS Safari edge back/forward swipes, vertical scroll & text selection
+  const swipeTarget = elements.episodeContent;
+  if (swipeTarget) {
+    let startX = 0;
+    let startY = 0;
+    let startTime = 0;
+    let isTracking = false;
+    let swipeAxis = null; // 'x' | 'y' | null
+    let activePanels = [];
+
+    const resetPanelsTransform = (animateBack = false) => {
+      activePanels.forEach(panel => {
+        if (animateBack) {
+          panel.style.transition = 'transform 160ms var(--ease-out)';
+          panel.style.transform = '';
+          setTimeout(() => {
+            panel.style.transition = '';
+          }, 170);
+        } else {
+          panel.style.transition = '';
+          panel.style.transform = '';
+        }
+      });
+      activePanels = [];
+    };
+
+    swipeTarget.addEventListener('touchstart', (e) => {
+      if (!isCompactLayout() || !e.touches || e.touches.length !== 1) return;
+      if (elements.archiveDrawer && elements.archiveDrawer.classList.contains('open')) return;
+      if (elements.readerPrefsPopover && elements.readerPrefsPopover.classList.contains('visible')) return;
+
+      const touch = e.touches[0];
+      const vw = window.innerWidth || 390;
+      // Leave 28px on both edges for iOS Safari native swipe-back/forward
+      if (touch.clientX < 28 || touch.clientX > vw - 28) return;
+
+      const t = e.target;
+      if (t && t.closest('input, textarea, select, .scrub-track-wrap, .audio-player-bar, .app-header, .archive-drawer, .reader-prefs-popover, .podcast-nav-tabs, .archive-show-switcher')) {
+        return;
+      }
+
+      const sel = window.getSelection && window.getSelection();
+      if (sel && sel.toString().length > 0) return;
+
+      startX = touch.clientX;
+      startY = touch.clientY;
+      startTime = Date.now();
+      isTracking = true;
+      swipeAxis = null;
+      activePanels = Array.from(
+        swipeTarget.querySelectorAll(`[data-tab-panel="${state.activeMobileTab}"]`)
+      );
+    }, { passive: true });
+
+    swipeTarget.addEventListener('touchmove', (e) => {
+      if (!isTracking || !e.touches || e.touches.length !== 1) return;
+      const touch = e.touches[0];
+      const dx = touch.clientX - startX;
+      const dy = touch.clientY - startY;
+
+      if (!swipeAxis) {
+        if (Math.abs(dx) < 10 && Math.abs(dy) < 10) return;
+        if (Math.abs(dx) > Math.abs(dy) * 1.35) {
+          swipeAxis = 'x';
+        } else {
+          swipeAxis = 'y';
+          isTracking = false;
+          resetPanelsTransform(false);
+          return;
+        }
+      }
+
+      if (swipeAxis === 'x') {
+        const tabs = getAvailableMobileTabs();
+        const curIdx = tabs.indexOf(state.activeMobileTab);
+        const isAtBoundary = (dx > 0 && curIdx <= 0) || (dx < 0 && curIdx >= tabs.length - 1);
+        const damped = isAtBoundary
+          ? Math.max(-18, Math.min(18, dx * 0.09))
+          : Math.max(-52, Math.min(52, dx * 0.26));
+        activePanels.forEach(panel => {
+          panel.style.transition = 'none';
+          panel.style.transform = `translateX(${damped}px)`;
+        });
+      }
+    }, { passive: true });
+
+    const finishSwipe = (e) => {
+      if (!isTracking) return;
+      isTracking = false;
+
+      if (swipeAxis !== 'x') {
+        resetPanelsTransform(false);
+        return;
+      }
+
+      const touch = e.changedTouches && e.changedTouches[0];
+      if (!touch) {
+        resetPanelsTransform(true);
+        return;
+      }
+
+      const dx = touch.clientX - startX;
+      const dy = touch.clientY - startY;
+      const dt = Date.now() - startTime;
+      const isValidSwipe = (Math.abs(dx) >= 56 || (Math.abs(dx) >= 34 && dt < 260)) &&
+        Math.abs(dx) > Math.abs(dy) * 1.3;
+
+      const tabs = getAvailableMobileTabs();
+      const curIdx = tabs.indexOf(state.activeMobileTab);
+
+      if (isValidSwipe && dx < 0 && curIdx < tabs.length - 1) {
+        resetPanelsTransform(false);
+        setActiveMobileTab(tabs[curIdx + 1], { restoreScroll: true, swipeDirection: 'next' });
+      } else if (isValidSwipe && dx > 0 && curIdx > 0) {
+        resetPanelsTransform(false);
+        setActiveMobileTab(tabs[curIdx - 1], { restoreScroll: true, swipeDirection: 'prev' });
+      } else {
+        resetPanelsTransform(true);
+      }
+    };
+
+    swipeTarget.addEventListener('touchend', finishSwipe, { passive: true });
+    swipeTarget.addEventListener('touchcancel', () => {
+      isTracking = false;
+      swipeAxis = null;
+      resetPanelsTransform(true);
+    }, { passive: true });
+  }
 }
