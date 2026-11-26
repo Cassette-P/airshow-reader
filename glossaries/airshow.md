@@ -16,7 +16,7 @@
 - 运力与财务：ASM（可用座英里）、RPM（收入客英里）、RASM（座公里收益/单位可用座英里收入）、PRASM（客运单位收入）、TRASM（总单位收入）、CASM（单位座英里成本）、CASM-ex（剔除燃油后的单位成本）、Load Factor（客座率）、Yield（收益率/客公里收益）、Stage Length（平均航距）
 - 机队与制造：Widebody（宽体机）、Narrowbody（窄体机）、Single-aisle（单通道飞机）、OEM（主机厂，指波音/空客等）、Type Certificate / TC（型号合格证）、Entry into Service / EIS（投入商业运营）、Delivery Slot（交付机位）、Backlog（储备订单）、Power-by-the-Hour（按飞行小时计费维保）、MRO（维修、大修与翻修）、GTF（普惠齿轮传动涡扇发动机）、Dry Lease / Wet Lease / ACMI（干租 / 湿租）
 - 网络与运行：Hub-and-Spoke（枢纽辐射式网络）、Point-to-Point（点对点航线）、Bank / Wave（航班波）、Slot（起降时刻）、Slot-controlled（时刻受限）、Turnaround Time（过站时间，注：商业语境下 Turnaround 译为企业扭亏/重组转型）、OTP（准点率）、Completion Factor（航班执行率）、Fifth Freedom（第五航权）、Bilateral Agreement（双边航权协定）、Codeshare（代码共享）、Joint Venture / JV（航线联营）、Antitrust Immunity / ATI（反垄断豁免）、ULCC（超低成本航司）、Legacy Carrier（传统全服务航司）、Regional Carrier（支线航司）、Scope Clause（飞行员范围条款）
-- 商业与常旅客：FFP（常旅客计划）、Co-branded Credit Card（联名信用卡）、Basic Economy（基础经济舱）、Premium Economy（超级经济舱）、Ancillary Revenue（辅助收入）、Distribution / NDC（分销 / 新分销能力）、Corporate Travel（商旅市场）
+- 商业与常旅客：FFP（常旅客计划）、Co-branded Credit Card（联名信用卡）、Loyalty Bonds（常旅客计划质押债券）、Basic Economy（基础经济舱）、Premium Economy（超级经济舱）、High-J（高商务舱配比客舱构型）、LOPA（客舱客座布局图）、Ancillary Revenue（辅助收入）、Distribution / NDC（分销 / 新分销能力）、ARC/BSP（航空票务结算数据，**严禁误听为 `ARBSP`**）、O&D（始发地与目的地真实客流）、Point of Sale / POS（出票地 / 销售发生地）、Upgauge / Upgauging（机型大型化 / 换大机型）、Corporate Travel（商旅市场）
 
 ## 航司与机型专有词规范
 
@@ -68,6 +68,6 @@
 ## 翻译与校对红线
 
 - 全文强制使用规范简体中文输出，**严禁繁简混杂或局部繁体输出**。
-- 主播人名在中文译文中直接保留英文（如 `Jon`、`Brian`、`Brett`），不要音译成中文名。
-- 严禁出现模型幻觉乱码、拼凑字或生僻字符（如严禁出现“并韞是毅业构有航司”、“客厥内遰”等异常乱码）。
-- 严禁同音错别字（如“点缀”误写为“点赞”）；英文机型代号保持规范格式（如 `A350-900` 而非 `350900`，`MAX 10` 而非 `MAX10`）。
+- 主播人名在中文译文中直接保留英文（如 `Jon`、`Brian`、`Brett`），不要音译成中文名；注意 `Jon Ostrower` 拼写为 **`Jon`**（严禁误作 `John`），美航 CCO 为 **`Nat Pieper`**（严禁误作 `Nat Peaper`）。
+- 严禁出现模型幻觉乱码、拼凑字或生僻字符（如严禁出现“并韞是毅业构有航司”、“客厥内遰”、“羀航”、“阁玛玛叵”等异常乱码）。
+- 严禁同音错别字（如“点缀”误写为“点赞”）及生硬字面直译（如 `sticker shock` 译为“高价冲击”而非“价格标签带来的冲击”）；英文机型代号保持规范格式（如 `A350-900` 而非 `350900`，`MAX 10` 而非 `MAX10`）。

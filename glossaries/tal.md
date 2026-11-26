@@ -24,6 +24,10 @@
 - `Elna Baker`
 - `Chris Benderev`
 - `Stephanie Foo`
+- `Julie Snyder`
+- `Sarah Koenig`
+- `Ben Calhoun`
+- `Robyn Semien`
 
 ### 说话人归一化与标注红线
 - **去除头衔前缀**：必须剥离 `Dr.`、`Prof.`、`Mr.`、`Ms.`、`Mrs.` 等头衔（如统一为 `David Kestenbaum`，不得标记为 `Dr. David Kestenbaum`）。
@@ -44,3 +48,7 @@
   - 对标《纽约客》特稿、非虚构文学与高质量纪录片叙事风格：生动、自然、极具口语节奏感。
   - 捕捉受访者与记者的口吻、反讽、幽默、自嘲、犹豫与真情实感，切忌将生活化口语翻译成冰冷死板的学术报告或公文体。
   - 涉及美国日常生活、社区、法律裁判、教育医疗与文化习俗的情景词汇，按当代语境地道传达，兼顾双关语与叙事修辞。
+- **书名、学术术语与参考资源校对红线**：
+  - 尚无官方简体中文版的英文书名与专栏名直接保留英文原名，**严禁望文生义或反义误译**（如 *All Fours* 切勿误译为“四足朝天”）。
+  - 涉及心理学、统计学、法学等专业典故时须核对词源并纠偏 ASR 误听（如 `interocular effect` 两眼之间效应，严禁误写作医学词 `intraocular effect`）。
+  - `references[].title` 仅保留公开作品/专栏名（如 `Miranda July (Substack)`），严禁混入 `newsletter_publication` 等内部类型标签或程序蛇形命名。

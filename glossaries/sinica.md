@@ -11,10 +11,10 @@
 
 本节目讨论大量中国政治、经济、科技与社会议题，英文口播中的中国固有概念与高频地缘词汇必须**精准还原为地道中文原词**，严禁逐字机翻：
 
-- **宏观经济与产业**：Involution（内卷）、Lying Flat（躺平）、Common Prosperity（共同富裕）、Dual Circulation（双循环）、New Quality Productive Forces（新质生产力）、Overcapacity（产能过剩）、De-risking（去风险）、Decoupling（脱钩）、SOE（国有企业 / 国企）、LGFV（地方政府融资平台 / 城投平台）、Industrial Policy（产业政策）、Industrial Party（工业党）、Supply Chain Resilience（供应链韧性）、EV（新能源汽车 / 电动车）、Made in China 2025（“中国制造2025”）、Belt and Road Initiative / BRI（“一带一路”倡议）、Biologics（生物制剂）、VBP（集中带量采购 / 集采）
-- **关键资源、科技与管制**：Rare Earth Elements / REE（稀土元素）、Export Control（出口管制）、Chokepoint（卡脖子）、BIS（美国商务部工业与安全局）、AIGC（生成式AI）
-- **发展与经济体制**：Developmental State（发展型国家）、Washington Consensus（华盛顿共识）
-- **地缘政治与印太安全**：CPTPP、CFIUS（美国外国投资委员会）、Quad（四方安全对话）、AUKUS、ASEAN Centrality（东盟中心地位）、Strategic Autonomy（战略自主）、Global South（全球南方）、Wolf Warrior Diplomacy（战狼外交）
+- **宏观经济与产业**：Involution（内卷）、Lying Flat（躺平）、Common Prosperity（共同富裕）、Dual Circulation（双循环）、New Quality Productive Forces（新质生产力）、Overcapacity（产能过剩）、De-risking（去风险）、Decoupling（脱钩）、SOE（国有企业 / 国企）、LGFV（地方政府融资平台 / 城投平台）、Industrial Policy（产业政策）、Industrial Party（工业党）、Supply Chain Resilience（供应链韧性）、EV（新能源汽车 / 电动车）、Made in China 2025（“中国制造2025”）、Belt and Road Initiative / BRI（“一带一路”倡议）、Three Red Lines（三道红线）、K-shaped Economy（K型经济 / K型分化）、Biologics（生物制剂）、Out-licensing（对外授权许可）、Patent Cliff（专利悬崖）、VBP（集中带量采购 / 集采）
+- **关键资源、科技与管制**：Rare Earth Elements / REE（稀土元素）、Export Control（出口管制）、Chokepoint（卡脖子）、BIS（美国商务部工业与安全局）、AIGC（生成式AI）、Vibe Coding（氛围编程）
+- **发展与经济体制**：Developmental State（发展型国家）、Washington Consensus（华盛顿共识）、Performance Legitimacy（政绩合法性）
+- **地缘政治与印太安全**：CPTPP、CFIUS（美国外国投资委员会）、Quad（四方安全对话）、AUKUS、ASEAN Centrality（东盟中心地位）、Strategic Autonomy（战略自主）、Middle Power（中等强国）、Weaponized Interdependence（武器化相互依赖）、Global South（全球南方）、Wolf Warrior Diplomacy（战狼外交）
 - **政治与机构**：PRC（中华人民共和国 / 中国大陆）、CPC / CCP（中国共产党 / 中共）、PLA（中国人民解放军）、Third Plenum（三中全会）、Two Sessions（两会）、14th / 15th Five-Year Plan（“十四五” / “十五五”规划）、NDRC（国家发改委）、PBOC（中国人民银行 / 央行）、MOFCOM（商务部）、NPC（全国人大）、CPPCC（全国政协）、Politburo Standing Committee（中央政治局常委会）
 - **社会与文化**：Hukou（户籍制度 / 户口）、Danwei（单位）、Gaokao（高考）、Guochao（国潮）、Shanzhai（山寨）、Netizen（网民）、Little Pink（小粉红）、Soft Power（软实力）、Think Tank（智库）
 
@@ -22,5 +22,5 @@
 
 - 文风对标《财新》/《经济学人·商论》的深度政经访谈：冷静、克制、保留原话的思辨层次与学术/政策细微差别，不夸大、不添油加醋。
 - **单集缩写一致性红线**：单集内高频出现的商业/科技缩写词（如 `OPC` 一人公司），全篇译名必须前后统一（统一使用“一人公司”），不得中途切换（如忽而“一人公司”忽而“单人公司”）。
-- 节目中提及的书籍、论文、智库报告与专栏名，保留英文原名或加注公认官方中文书名，切勿胡乱自造译名。
+- 节目中提及的书籍、论文、智库报告与专栏名，保留英文原名或加注公认官方中文书名，**严禁胡乱自造译名或与同集译文自相矛盾**（如 *Exit West* 统一采用公认译名《离开西方》，严禁自造“西退”）；同步校对 ASR 书名冠词/单复数误差（如 Ann Patchett 小说为 *Whistler* 而非 *The Whistlers*），并在 `vocab_notes.term` 中直接纠偏拼写误差（如 `coterminous` 而非 `co-terminus`）。
 - 英文缩写与专有概念保持规范格式，全篇统一采用规范简体中文，严禁同音错别字。
