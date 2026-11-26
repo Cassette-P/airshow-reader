@@ -16,12 +16,12 @@ html {
 }
 
 body {
-  overflow-x: clip;
   background-color: var(--bg-page);
   color: var(--text-primary);
   font-family: var(--font-sans);
   line-height: 1.6;
   min-height: 100vh;
+  min-height: 100dvh;
   display: flex;
   flex-direction: column;
   padding-top: 8px;
@@ -423,6 +423,7 @@ button {
   padding: 32px 16px;
   width: 100%;
   flex: 1;
+  overflow-x: clip;
 }
 
 /* ==========================================================================
@@ -720,7 +721,7 @@ button {
     gap: 8px;
   }
   .header-left {
-    flex: 0 1 auto;
+    flex: 0 1 46%;
     min-width: 0;
     gap: 8px;
   }
@@ -1038,33 +1039,57 @@ button {
 }
 
 /* Compact chrome for landscape phones (short viewport height + touch) */
-/* Keep top/bottom >= 8px so Safari's <=4px edge-sampler never turns status bar opaque */
+/* Keep top/bottom >= 10px & slim 36px chrome to stay clear of iOS Safari's edge-sampler & occlusion threshold */
 @media (max-height: 500px) and (pointer: coarse) {
   :root {
-    --header-h: 40px;
-    --player-h: 40px;
+    --header-h: 36px;
+    --player-h: 36px;
   }
   .app-header {
-    top: 8px;
+    top: 10px;
   }
   .header-inner {
     border-radius: var(--radius-lg);
+    padding: 0 8px;
+  }
+  .brand-logo-svg {
+    width: 22px;
+    height: 22px;
+  }
+  .show-tab-btn,
+  .issue-archive-btn,
+  .segmented-control,
+  #mobile-search-btn,
+  .theme-toggle-btn {
+    height: 28px;
+  }
+  #mobile-search-btn,
+  .theme-toggle-btn {
+    width: 28px;
+  }
+  .segment-btn {
+    height: 22px;
   }
   .audio-player-bar {
-    bottom: 8px;
+    bottom: 10px;
   }
   .player-container {
-    min-height: 40px;
+    min-height: 36px;
     padding: 4px 10px;
     border-radius: var(--radius-lg);
   }
-  .btn-play-pause {
-    width: 28px;
-    height: 28px;
+  .btn-play-pause,
+  #btn-autoscroll,
+  #btn-speed {
+    height: 26px;
+  }
+  .btn-play-pause,
+  #btn-autoscroll {
+    width: 26px;
   }
   .btn-play-pause svg {
-    width: 13px;
-    height: 13px;
+    width: 12px;
+    height: 12px;
   }
 }
 
