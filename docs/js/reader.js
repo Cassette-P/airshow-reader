@@ -631,7 +631,10 @@ export function toggleMobileSearch(forceState) {
   if (willExpand) {
     searchBoxWrap.classList.add('mobile-expanded');
     if (mobileSearchBtn) mobileSearchBtn.classList.add('active');
-    if (searchInput) searchInput.focus();
+    if (searchInput) {
+      void searchBoxWrap.offsetWidth;
+      searchInput.focus({ preventScroll: true });
+    }
   } else {
     searchBoxWrap.classList.remove('mobile-expanded');
     if (mobileSearchBtn) mobileSearchBtn.classList.remove('active');

@@ -72,8 +72,10 @@ button {
   top: 8px;
   z-index: 80;
   height: auto;
-  padding: 0 12px;
   padding-top: calc(0px + env(safe-area-inset-top, 0px));
+  padding-right: calc(12px + env(safe-area-inset-right, 0px));
+  padding-bottom: 0;
+  padding-left: calc(12px + env(safe-area-inset-left, 0px));
   background: transparent;
   border: none;
   pointer-events: none;
@@ -428,8 +430,8 @@ button {
    ========================================================================== */
 .audio-player-bar {
   position: fixed;
-  left: 12px;
-  right: 12px;
+  left: calc(12px + env(safe-area-inset-left, 0px));
+  right: calc(12px + env(safe-area-inset-right, 0px));
   bottom: 12px;
   height: auto;
   min-height: 0;
@@ -708,25 +710,11 @@ button {
   }
 }
 
+/* Tablet & Landscape Phone Adaptive Header (641px–960px, covers all iPhones in landscape) */
 @media (max-width: 960px) {
   .player-info {
     display: none !important;
   }
-  .header-inner {
-    gap: 8px;
-  }
-  .header-center {
-    flex: 1 1 160px;
-    min-width: 120px;
-    max-width: 240px;
-  }
-  .search-input {
-    width: 112px;
-  }
-}
-
-/* Tablet Header & Adaptive Controls (iPad Mini 744px / 641px–860px) */
-@media (max-width: 860px) {
   .header-inner {
     padding: 0 12px;
     gap: 8px;
@@ -755,9 +743,9 @@ button {
     font-size: var(--text-xs);
   }
   .header-center {
-    flex: 1 1 120px;
-    min-width: 96px;
-    max-width: 240px;
+    flex: 1 1 140px;
+    min-width: 100px;
+    max-width: 280px;
   }
   .segment-btn {
     padding: 0 8px;
@@ -798,11 +786,11 @@ button {
   .search-box-wrap.mobile-expanded {
     display: flex !important;
     position: fixed;
-    top: calc(var(--header-h) + 16px + env(safe-area-inset-top, 0px) + var(--pwa-top-extra));
-    left: 12px;
-    right: 12px;
+    top: calc(var(--header-h) + 12px + env(safe-area-inset-top, 0px) + var(--pwa-top-extra));
+    left: calc(12px + env(safe-area-inset-left, 0px));
+    right: calc(12px + env(safe-area-inset-right, 0px));
     width: auto;
-    height: 48px;
+    height: 44px;
     background: var(--bg-surface-header);
     border-radius: var(--radius-lg);
     border: 1px solid var(--glass-border);
@@ -824,7 +812,7 @@ button {
   .search-box-wrap.mobile-expanded .search-input {
     width: 100% !important;
     height: 36px;
-    font-size: 16px;
+    font-size: 16px !important;
     line-height: 1.25;
     padding: 0 32px 0 32px;
     background: transparent;
@@ -835,6 +823,7 @@ button {
   .search-box-wrap.mobile-expanded .search-input:focus,
   .search-box-wrap.mobile-expanded .search-input:focus-visible {
     width: 100% !important;
+    font-size: 16px !important;
     background: transparent;
     border: none;
     box-shadow: none;
@@ -850,13 +839,14 @@ button {
   }
 }
 
-/* Mobile Single Line 48px Header & Accessible Touch Targets */
+/* Mobile Portrait Compact 40px Capsules + Expanded Invisible Touch Hit Areas */
 @media (max-width: 640px) {
   :root {
-    --header-h: 48px;
+    --header-h: 40px;
+    --player-h: 40px;
   }
   .app-header {
-    top: 8px;
+    top: 6px;
     height: auto;
     padding: 0 8px;
     padding-top: calc(0px + env(safe-area-inset-top, 0px));
@@ -864,26 +854,30 @@ button {
   }
   .header-inner {
     height: var(--header-h);
-    border-radius: var(--radius-xl);
-    padding: 0 8px;
-    gap: 8px;
+    border-radius: var(--radius-lg);
+    padding: 0 6px;
+    gap: 6px;
     flex-wrap: nowrap;
   }
   .search-box-wrap.mobile-expanded {
-    top: calc(var(--header-h) + 16px + env(safe-area-inset-top, 0px) + var(--pwa-top-extra));
+    top: calc(var(--header-h) + 12px + env(safe-area-inset-top, 0px) + var(--pwa-top-extra));
     left: 8px;
     right: 8px;
   }
   .header-left {
     flex: 1 1 0;
     min-width: 0;
-    gap: 8px;
+    gap: 6px;
   }
   .brand-name {
     display: none !important;
   }
   .brand-link {
     flex-shrink: 0;
+  }
+  .brand-logo-svg {
+    width: 22px;
+    height: 22px;
   }
   .podcast-nav-tabs {
     flex: 1 1 0;
@@ -892,14 +886,14 @@ button {
     scrollbar-width: none;
     -ms-overflow-style: none;
     margin-left: 0;
-    padding-left: 8px;
+    padding-left: 6px;
     border-left: 1px solid var(--border-color);
   }
   .podcast-nav-tabs::-webkit-scrollbar {
     display: none;
   }
   .show-tab-btn {
-    height: 32px;
+    height: 28px;
     padding: 0 8px;
     font-size: var(--text-xs);
   }
@@ -923,22 +917,28 @@ button {
   #mobile-search-btn,
   .theme-toggle-btn {
     position: relative;
-    width: 36px;
-    height: 36px;
-    min-width: 36px;
+    width: 28px;
+    height: 28px;
+    min-width: 28px;
+    border-radius: var(--radius-md);
   }
   .mobile-header-btn::after,
   #mobile-search-btn::after,
   .theme-toggle-btn::after {
     content: "";
     position: absolute;
-    inset: -4px;
+    inset: -6px;
+  }
+  .mobile-header-btn svg,
+  #mobile-search-btn svg,
+  .theme-toggle-btn svg {
+    width: 14px;
+    height: 14px;
   }
   .mobile-header-btn {
     display: inline-flex !important;
     align-items: center;
     justify-content: center;
-    border-radius: var(--radius-md);
     border: 1px solid var(--chrome-pill-border);
     background: var(--chrome-pill-bg);
     color: var(--text-secondary);
@@ -960,40 +960,60 @@ button {
   }
 
   .main-content {
-    padding: 24px 12px;
+    padding: 20px 12px;
   }
 
   .audio-player-bar {
     left: 8px;
     right: 8px;
-    bottom: 8px;
+    bottom: 6px;
     padding-bottom: calc(0px + env(safe-area-inset-bottom, 0px));
   }
   .player-container {
     max-width: 100%;
-    padding: 8px 12px;
-    gap: 8px;
-    border-radius: var(--radius-xl);
+    min-height: var(--player-h);
+    padding: 4px 8px;
+    gap: 6px;
+    border-radius: var(--radius-lg);
   }
   .btn-play-pause {
     position: relative;
-    width: 36px;
-    height: 36px;
+    width: 28px;
+    height: 28px;
+    border-radius: var(--radius-md);
+  }
+  .btn-play-pause::after {
+    content: "";
+    position: absolute;
+    inset: -6px;
+  }
+  .btn-play-pause svg {
+    width: 13px;
+    height: 13px;
   }
   .btn-step {
     position: relative;
-    width: 32px;
-    height: 32px;
+    width: 24px;
+    height: 24px;
   }
-  .btn-step::after,
+  .btn-step svg,
+  #btn-autoscroll svg {
+    width: 14px;
+    height: 14px;
+  }
+  .btn-step::after {
+    content: "";
+    position: absolute;
+    inset: -8px;
+  }
   #btn-autoscroll::after,
   #btn-speed::after {
     content: "";
     position: absolute;
-    inset: -4px;
+    inset: -6px;
   }
   .player-scrub-row {
-    gap: 8px;
+    gap: 6px;
   }
   .player-time {
     font-size: var(--text-xs);
@@ -1004,16 +1024,46 @@ button {
   }
   #btn-autoscroll {
     position: relative;
-    width: 32px;
-    height: 32px;
+    width: 28px;
+    height: 28px;
     padding: 0;
     justify-content: center;
   }
   #btn-speed {
     position: relative;
-    height: 32px;
-    padding: 0 8px;
+    height: 28px;
+    padding: 0 6px;
     font-size: var(--text-xs);
+  }
+}
+
+/* Compact chrome for landscape phones (short viewport height + touch) */
+@media (max-height: 500px) and (pointer: coarse) {
+  :root {
+    --header-h: 40px;
+    --player-h: 40px;
+  }
+  .app-header {
+    top: 4px;
+  }
+  .header-inner {
+    border-radius: var(--radius-lg);
+  }
+  .audio-player-bar {
+    bottom: 4px;
+  }
+  .player-container {
+    min-height: 40px;
+    padding: 4px 10px;
+    border-radius: var(--radius-lg);
+  }
+  .btn-play-pause {
+    width: 28px;
+    height: 28px;
+  }
+  .btn-play-pause svg {
+    width: 13px;
+    height: 13px;
   }
 }
 
@@ -1029,14 +1079,22 @@ button {
   }
 }
 
-/* Prevent iOS/iPadOS Safari auto-zoom on inline & expanded search input */
-@media (hover: none), (pointer: coarse) {
-  .search-input {
-    font-size: 16px;
+/* Strictly prevent iOS/iPadOS Safari auto-zoom on search input across portrait & landscape */
+@media (hover: none), (pointer: coarse), (max-width: 1024px) {
+  .search-input,
+  .search-input:focus,
+  .search-box-wrap.mobile-expanded .search-input,
+  .search-box-wrap.mobile-expanded .search-input:focus {
+    font-size: 16px !important;
     line-height: 1.25;
-    padding-right: 28px;
   }
   .search-kbd-hint {
+    display: none !important;
+  }
+}
+
+@media (hover: none), (pointer: coarse) {
+  .btn-keyboard-shortcuts {
     display: none !important;
   }
 }
