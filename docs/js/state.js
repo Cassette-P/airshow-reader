@@ -81,12 +81,19 @@ export function initElements() {
   elements.metaAudioLink = document.getElementById('meta-audio-link');
   elements.episodeTitle = document.getElementById('episode-title');
   elements.summaryZhText = document.getElementById('summary-zh-text');
+  elements.takeawaysCountBadge = document.getElementById('takeaways-count-badge');
   elements.takeawaysList = document.getElementById('takeaways-list');
   elements.highlightsGrid = document.getElementById('highlights-grid');
   elements.highlightsCountBadge = document.getElementById('highlights-count-badge');
   elements.transcriptContainer = document.getElementById('transcript-container');
   elements.transcriptCountBadge = document.getElementById('transcript-count-badge');
   elements.mastheadScaleEnd = document.getElementById('masthead-scale-end');
+  elements.mastheadRulerTrack = document.getElementById('masthead-ruler-track');
+  elements.mastheadRulerProgress = document.getElementById('masthead-ruler-progress');
+  elements.mastheadMicroTicks = document.getElementById('masthead-micro-ticks');
+  elements.mastheadChapterTicks = document.getElementById('masthead-chapter-ticks');
+  elements.mastheadPlayhead = document.getElementById('masthead-playhead');
+  elements.mastheadRulerTooltip = document.getElementById('masthead-ruler-tooltip');
 
   // Knowledge Cards Elements
   elements.knowledgeSection = document.getElementById('knowledge-section');

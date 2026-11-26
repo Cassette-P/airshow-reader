@@ -19,20 +19,30 @@ export function renderArticleMeta(show, ep) {
   if (elements.episodeTitle) elements.episodeTitle.textContent = ep.title || '';
 
   const dur = Number(ep.duration_sec) || 0;
+  if (elements.mastheadMicroTicks) {
+    const tickCount = 21;
+    let html = '';
+    for (let i = 0; i < tickCount; i++) {
+      const isMajor = i % 5 === 0;
+      html += `<span class="ruler-tick${isMajor ? ' major' : ''}"></span>`;
+    }
+    elements.mastheadMicroTicks.innerHTML = html;
+  }
+  if (elements.mastheadRulerProgress) {
+    elements.mastheadRulerProgress.style.transform = 'translateY(-50%) scaleX(0)';
+  }
+  if (elements.mastheadPlayhead) {
+    elements.mastheadPlayhead.style.left = '0%';
+    elements.mastheadPlayhead.classList.remove('visible');
+  }
+
   const ticksEl = document.getElementById('masthead-ticks') || document.querySelector('.masthead-ticks');
   if (ticksEl) {
     ticksEl.innerHTML = `
       <span class="tick-label">${formatTime(0)}</span>
-      <span class="tick-mark"></span>
-      <span class="tick-mark"></span>
       <span class="tick-label">${formatTime(dur * 0.25)}</span>
-      <span class="tick-mark"></span>
-      <span class="tick-mark"></span>
       <span class="tick-label">${formatTime(dur * 0.5)}</span>
-      <span class="tick-mark"></span>
-      <span class="tick-mark"></span>
       <span class="tick-label">${formatTime(dur * 0.75)}</span>
-      <span class="tick-mark"></span>
       <span class="tick-label" id="masthead-scale-end">${formatTime(dur)}</span>
     `;
   } else if (elements.mastheadScaleEnd) {
@@ -45,16 +55,20 @@ export function renderExecutiveSummary(ep) {
     elements.summaryZhText.textContent = ep.summary_zh || '暂无摘要';
   }
 
+  const takeaways = ep.key_takeaways_zh || [];
+  if (elements.takeawaysCountBadge) {
+    elements.takeawaysCountBadge.textContent = takeaways.length > 0 ? `${takeaways.length} 条洞察` : '';
+  }
+
   if (elements.takeawaysList) {
     elements.takeawaysList.innerHTML = '';
-    const takeaways = ep.key_takeaways_zh || [];
     takeaways.forEach((item, idx) => {
       const li = document.createElement('li');
       li.className = 'takeaway-item';
 
       const num = document.createElement('span');
       num.className = 'takeaway-num tnum';
-      num.textContent = `${String(idx + 1).padStart(2, '0')} ·`;
+      num.textContent = `${idx + 1}.`;
 
       const text = document.createElement('span');
       text.textContent = item;
@@ -86,8 +100,8 @@ export function renderHighlights(highlights) {
     const timeBadge = document.createElement('span');
     timeBadge.className = 'timestamp-badge tnum';
     timeBadge.innerHTML = `
-      <svg width="8" height="8" viewBox="0 0 24 24" fill="currentColor">
-        <polygon points="5 3 19 12 5 21 5 3"></polygon>
+      <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+        <polygon points="6 4 20 12 6 20 6 4"></polygon>
       </svg>
       ${formatTime(hl.start_sec)}
     `;
@@ -202,8 +216,8 @@ export function renderKnowledgeCards(detail) {
           btn.title = `定位至 ${timeStr} 播放`;
           btn.setAttribute('aria-label', `定位至 ${timeStr} 播放`);
           btn.innerHTML = `
-            <svg width="8" height="8" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-              <polygon points="5 3 19 12 5 21 5 3"></polygon>
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <polygon points="6 4 20 12 6 20 6 4"></polygon>
             </svg>
             ${timeStr}
           `;
@@ -297,8 +311,8 @@ export function renderKnowledgeCards(detail) {
           btn.title = `定位至 ${timeStr} 播放`;
           btn.setAttribute('aria-label', `定位至 ${timeStr} 播放`);
           btn.innerHTML = `
-            <svg width="8" height="8" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-              <polygon points="5 3 19 12 5 21 5 3"></polygon>
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <polygon points="6 4 20 12 6 20 6 4"></polygon>
             </svg>
             ${timeStr}
           `;
@@ -428,8 +442,8 @@ export function renderTranscript(transcript) {
     timeBtn.className = 'time-seek-btn tnum';
     timeBtn.title = `跳转至 ${formatTime(item.start_sec)}`;
     timeBtn.innerHTML = `
-      <svg width="8" height="8" viewBox="0 0 24 24" fill="currentColor">
-        <polygon points="5 3 19 12 5 21 5 3"></polygon>
+      <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+        <polygon points="6 4 20 12 6 20 6 4"></polygon>
       </svg>
       ${formatTime(item.start_sec)}
     `;
@@ -442,27 +456,28 @@ export function renderTranscript(transcript) {
     });
     metaLeft.appendChild(timeBtn);
 
-    // M8-A Single-Sentence Loop Button
+    // Single-Sentence Loop Button (positioned on right side of meta row)
     const loopBtn = document.createElement('button');
     loopBtn.type = 'button';
     loopBtn.className = 'btn-sentence-loop';
     loopBtn.title = '单句复读';
     loopBtn.setAttribute('aria-label', '单句复读');
     loopBtn.innerHTML = `
-      <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
         <polyline points="17 1 21 5 17 9"></polyline>
         <path d="M3 11V9a4 4 0 0 1 4-4h14"></path>
         <polyline points="7 23 3 19 7 15"></polyline>
         <path d="M21 13v2a4 4 0 0 1-4 4H3"></path>
       </svg>
+      <span>复读</span>
     `;
     loopBtn.addEventListener('click', (e) => {
       e.stopPropagation();
       toggleSentenceLoop(idx);
     });
-    metaLeft.appendChild(loopBtn);
 
     meta.appendChild(metaLeft);
+    meta.appendChild(loopBtn);
     row.appendChild(meta);
 
     const enText = document.createElement('div');

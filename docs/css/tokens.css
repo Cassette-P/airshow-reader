@@ -1,19 +1,27 @@
 /* ==========================================================================
-   1. CSS Variables & Theme Configuration (Magazine Paper × OpenRouter Chrome)
+   1. CSS Variables & Theme Configuration (Uncoated Warm Paper × Liquid Glass Chrome)
    Light: Uncoated Warm Paper | Dark: Warm Obsidian Precision
    ========================================================================== */
 :root,
 [data-theme="light"] {
   color-scheme: light;
 
-  /* Typography Stacks (Requirement 三) */
+  /* Typography Stacks */
   --font-editorial: "Newsreader", "Charter", "Georgia", "PingFang SC", "Noto Sans SC", "HarmonyOS Sans SC", "Microsoft YaHei", sans-serif;
   --font-serif: var(--font-editorial);
   --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Noto Sans SC", "HarmonyOS Sans SC", "Microsoft YaHei", sans-serif;
   --font-mono: "SF Mono", "JetBrains Mono", "Fira Code", "Menlo", monospace;
-  --zh-body-weight: 480;
+  --zh-body-weight: 400;
 
-  /* Neutral Ramp: Uncoated Warm Paper (Requirement 二) */
+  /* Unified Type Scale (6 steps, min 12px) */
+  --text-xs: 0.75rem;      /* 12px: meta, counts, timestamps, keycaps */
+  --text-sm: 0.8125rem;    /* 13px: compact UI labels, tabs, captions, notes */
+  --text-base: 0.875rem;   /* 14px: EN transcript, highlight summaries, body */
+  --text-md: 1rem;         /* 16px: ZH transcript, summary lead, card titles */
+  --text-lg: 1.25rem;      /* 20px: section headings, drawer title */
+  --text-xl: 2rem;         /* 32px: article masthead title */
+
+  /* Neutral Ramp: Uncoated Warm Paper */
   --bg-page: #FAF8F4;
   --bg-surface: #FAF8F4;
   --bg-surface-header: rgba(250, 248, 244, 0.34);
@@ -22,12 +30,12 @@
   --bg-active-row: #EFE9DC;
   --bg-backdrop: rgba(28, 27, 24, 0.07);
 
-  /* Liquid Glass Optics (Light) */
+  /* Liquid Glass Optics (Light — preserved) */
   --glass-filter: blur(2.5px) saturate(160%) brightness(1.08);
   --glass-border: rgba(255, 255, 255, 0.58);
   --glass-shadow: 0 4px 20px rgba(28, 27, 24, 0.06), 0 0 0 0.5px rgba(28, 27, 24, 0.08), inset 0 1px 0 rgba(255, 255, 255, 0.85), inset 0 -1px 0 rgba(255, 255, 255, 0.35);
 
-  /* Liquid Glass Archive Drawer Optics (Light) */
+  /* Liquid Glass Archive Drawer Optics (Light — preserved) */
   --glass-drawer-bg: linear-gradient(180deg, rgba(255, 254, 251, 0.52) 0%, rgba(250, 248, 244, 0.40) 100%);
   --glass-drawer-filter: blur(11px) saturate(185%) brightness(1.06);
   --glass-drawer-border: rgba(255, 255, 255, 0.80);
@@ -35,24 +43,31 @@
   --glass-drawer-active-bg: linear-gradient(180deg, rgba(255, 255, 255, 0.62) 0%, rgba(255, 255, 255, 0.44) 100%);
   --glass-drawer-active-border: rgba(255, 255, 255, 0.78);
 
-  /* iPadOS Chrome Pill Glass Variables (Light) */
+  /* Chrome Control Glass Variables (Light — preserved) */
   --chrome-pill-bg: rgba(28, 27, 24, 0.04);
   --chrome-pill-hover: rgba(28, 27, 24, 0.08);
   --chrome-pill-active: rgba(255, 255, 255, 0.52);
   --chrome-pill-border: rgba(28, 27, 24, 0.09);
   --chrome-pill-rim: inset 0 1px 0 rgba(255, 255, 255, 0.75);
 
+  /* Hairlines */
   --border-color: rgba(28, 27, 24, 0.10);
   --border-subtle: rgba(28, 27, 24, 0.06);
   --border-header: rgba(28, 27, 24, 0.08);
   --border-hover: rgba(28, 27, 24, 0.20);
   --border-active: rgba(28, 27, 24, 0.34);
 
+  /* Strict 3 Text Roles (all >= 4.5:1 on warm paper surfaces) */
   --text-primary: #1C1B18;
-  --text-secondary: #57534E;
-  --text-muted: #857F76;
-  --text-tertiary: #A8A29E;
+  --text-secondary: #4E4A44;
+  --text-muted: #6B655D;
   --section-rule-top: rgba(28, 27, 24, 0.82);
+
+  /* Toned Semantic Colors (Light) */
+  --color-positive: #16794B;
+  --color-positive-bg: rgba(22, 121, 75, 0.08);
+  --color-positive-border: rgba(22, 121, 75, 0.22);
+  --color-negative: #B91C1C;
 
   /* Podcast Show Accents (Light) */
   --show-accent-light: #0A2540;
@@ -63,48 +78,55 @@
   --accent-subtle: rgba(10, 37, 64, 0.04);
   --accent-contrast: #FAF8F4;
 
-  /* Speaker Editorial Inks: Subdued Stamp / Print Inks (Requirement 一 & 四) */
-  --spk-jon-color: #244268;   --spk-jon-border: rgba(36, 66, 104, 0.22);  --spk-jon-bg: rgba(36, 66, 104, 0.05);
-  --spk-brian-color: #235940; --spk-brian-border: rgba(35, 89, 64, 0.22);--spk-brian-bg: rgba(35, 89, 64, 0.05);
-  --spk-brett-color: #853e1a; --spk-brett-border: rgba(133, 62, 26, 0.22);--spk-brett-bg: rgba(133, 62, 26, 0.05);
-  --spk-kaiser-color: #852226;--spk-kaiser-border: rgba(133, 34, 38, 0.22);--spk-kaiser-bg: rgba(133, 34, 38, 0.05);
-  --spk-ira-color: #2d6a4f;   --spk-ira-border: rgba(45, 106, 79, 0.22);  --spk-ira-bg: rgba(45, 106, 79, 0.05);
+  /* Speaker Editorial Inks (Subdued Stamp Inks for inline dots) */
+  --spk-jon-color: #244268;
+  --spk-brian-color: #235940;
+  --spk-brett-color: #853E1A;
+  --spk-kaiser-color: #852226;
+  --spk-ira-color: #2D6A4F;
 
-  --spk-dyn-0-color: #553c7b; --spk-dyn-0-border: rgba(85, 60, 123, 0.22);--spk-dyn-0-bg: rgba(85, 60, 123, 0.05);
-  --spk-dyn-1-color: #1d5b5e; --spk-dyn-1-border: rgba(29, 91, 94, 0.22);--spk-dyn-1-bg: rgba(29, 91, 94, 0.05);
-  --spk-dyn-2-color: #6e4e1b; --spk-dyn-2-border: rgba(110, 78, 27, 0.22);--spk-dyn-2-bg: rgba(110, 78, 27, 0.05);
-  --spk-dyn-3-color: #275685; --spk-dyn-3-border: rgba(39, 86, 133, 0.22);--spk-dyn-3-bg: rgba(39, 86, 133, 0.05);
-  --spk-dyn-4-color: #633857; --spk-dyn-4-border: rgba(99, 56, 87, 0.22); --spk-dyn-4-bg: rgba(99, 56, 87, 0.05);
-  --spk-dyn-5-color: #3b5936; --spk-dyn-5-border: rgba(59, 89, 54, 0.22); --spk-dyn-5-bg: rgba(59, 89, 54, 0.05);
-  --spk-dyn-6-color: #79432a; --spk-dyn-6-border: rgba(121, 67, 42, 0.22);--spk-dyn-6-bg: rgba(121, 67, 42, 0.05);
-  --spk-dyn-7-color: #284c66; --spk-dyn-7-border: rgba(40, 76, 102, 0.22);--spk-dyn-7-bg: rgba(40, 76, 102, 0.05);
+  --spk-dyn-0-color: #553C7B;
+  --spk-dyn-1-color: #1D5B5E;
+  --spk-dyn-2-color: #6E4E1B;
+  --spk-dyn-3-color: #275685;
+  --spk-dyn-4-color: #633857;
+  --spk-dyn-5-color: #3B5936;
+  --spk-dyn-6-color: #79432A;
+  --spk-dyn-7-color: #284C66;
 
-  /* OpenRouter Precision Radii (6px controls) */
-  --radius-xs: 3px;
-  --radius-sm: 4px;
-  --radius-md: 6px;
-  --radius-lg: 6px;
-  --radius-xl: 8px;
+  /* Unified Nested Radius Scale (inner = outer - padding) */
+  --radius-xs: 4px;     /* keycaps, micro tags, timestamps */
+  --radius-sm: 6px;     /* segmented active items inside 8px track (8 - 2) */
+  --radius-md: 8px;     /* controls, buttons, inputs, inner cards (16 - 8) */
+  --radius-lg: 12px;    /* cards, banners, archive items (20 - 8) */
+  --radius-xl: 16px;    /* floating chrome bars, modals */
+  --radius-panel: 20px; /* slide-over archive drawer */
 
-  /* Subtle Shadows & Hairlines */
+  /* Unified Motion Tokens */
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --dur-fast: 150ms;
+  --dur-mid: 200ms;
+  --dur-slow: 320ms;
+
+  /* Subtle Neutral Shadows */
   --shadow-sm: none;
   --shadow-md: 0 4px 16px rgba(28, 27, 24, 0.06);
   --shadow-drawer: -4px 0 24px rgba(28, 27, 24, 0.08);
   --shadow-player: 0 -1px 0 var(--border-color);
 
-  /* Layout Dimensions */
-  --header-max-w: 1240px;
+  /* Layout Dimensions (strict 4px grid) */
+  --header-max-w: 1320px;
   --content-max-w: 760px;
   --header-h: 52px;
-  --player-h: 42px;
+  --player-h: 48px;
   --pwa-top-extra: 0px;
 }
 
 [data-theme="dark"] {
   color-scheme: dark;
-  --zh-body-weight: 460;
+  --zh-body-weight: 400;
 
-  /* Neutral Ramp: Warm Obsidian (Requirement 二) */
+  /* Neutral Ramp: Warm Obsidian */
   --bg-page: #151412;
   --bg-surface: #1C1A17;
   --bg-surface-header: rgba(18, 17, 15, 0.38);
@@ -113,12 +135,12 @@
   --bg-active-row: #28241F;
   --bg-backdrop: rgba(0, 0, 0, 0.22);
 
-  /* Liquid Glass Optics (Dark) */
+  /* Liquid Glass Optics (Dark — preserved) */
   --glass-filter: blur(2.5px) saturate(150%) brightness(0.74);
   --glass-border: rgba(255, 250, 240, 0.14);
   --glass-shadow: 0 6px 24px rgba(0, 0, 0, 0.32), inset 0 1px 0 rgba(255, 255, 255, 0.18), inset 0 -1px 0 rgba(255, 255, 255, 0.05);
 
-  /* Liquid Glass Archive Drawer Optics (Dark) */
+  /* Liquid Glass Archive Drawer Optics (Dark — preserved) */
   --glass-drawer-bg: linear-gradient(180deg, rgba(34, 31, 28, 0.44) 0%, rgba(22, 20, 18, 0.34) 100%);
   --glass-drawer-filter: blur(10px) saturate(175%) brightness(0.98);
   --glass-drawer-border: rgba(255, 250, 240, 0.20);
@@ -126,24 +148,31 @@
   --glass-drawer-active-bg: rgba(255, 250, 240, 0.11);
   --glass-drawer-active-border: rgba(255, 250, 240, 0.18);
 
-  /* iPadOS Chrome Pill Glass Variables (Dark) */
+  /* Chrome Control Glass Variables (Dark — preserved) */
   --chrome-pill-bg: rgba(255, 250, 240, 0.06);
   --chrome-pill-hover: rgba(255, 250, 240, 0.12);
   --chrome-pill-active: rgba(255, 250, 240, 0.14);
   --chrome-pill-border: rgba(255, 250, 240, 0.12);
   --chrome-pill-rim: inset 0 1px 0 rgba(255, 255, 255, 0.14);
 
+  /* Hairlines */
   --border-color: rgba(238, 232, 220, 0.10);
   --border-subtle: rgba(238, 232, 220, 0.06);
   --border-header: rgba(238, 232, 220, 0.09);
   --border-hover: rgba(238, 232, 220, 0.20);
   --border-active: rgba(238, 232, 220, 0.34);
 
+  /* Strict 3 Text Roles (all >= 4.5:1 on warm obsidian surfaces) */
   --text-primary: #E4E0D8;
-  --text-secondary: #9E988E;
+  --text-secondary: #A7A196;
   --text-muted: #928C82;
-  --text-tertiary: #706B63;
   --section-rule-top: rgba(228, 224, 216, 0.26);
+
+  /* Toned Semantic Colors (Dark) */
+  --color-positive: #4CC38A;
+  --color-positive-bg: rgba(76, 195, 138, 0.12);
+  --color-positive-border: rgba(76, 195, 138, 0.24);
+  --color-negative: #E56B6F;
 
   /* De-fluoresced Podcast Accents (Dark) */
   --accent-primary: var(--show-accent-dark);
@@ -152,20 +181,20 @@
   --accent-contrast: #151412;
 
   /* Speaker Editorial Inks (Dark Mode Toned) */
-  --spk-jon-color: #8cb0d6;   --spk-jon-border: rgba(140, 176, 214, 0.22); --spk-jon-bg: rgba(140, 176, 214, 0.08);
-  --spk-brian-color: #86be9c; --spk-brian-border: rgba(134, 190, 156, 0.22);--spk-brian-bg: rgba(134, 190, 156, 0.08);
-  --spk-brett-color: #df9e7c; --spk-brett-border: rgba(223, 158, 124, 0.22);--spk-brett-bg: rgba(223, 158, 124, 0.08);
-  --spk-kaiser-color: #df7a74;--spk-kaiser-border: rgba(223, 122, 116, 0.22);--spk-kaiser-bg: rgba(223, 122, 116, 0.08);
-  --spk-ira-color: #74c69d;   --spk-ira-border: rgba(116, 198, 157, 0.22); --spk-ira-bg: rgba(116, 198, 157, 0.08);
+  --spk-jon-color: #8CB0D6;
+  --spk-brian-color: #86BE9C;
+  --spk-brett-color: #DF9E7C;
+  --spk-kaiser-color: #DF7A74;
+  --spk-ira-color: #74C69D;
 
-  --spk-dyn-0-color: #b59de0; --spk-dyn-0-border: rgba(181, 157, 224, 0.22);--spk-dyn-0-bg: rgba(181, 157, 224, 0.08);
-  --spk-dyn-1-color: #72babd; --spk-dyn-1-border: rgba(114, 186, 189, 0.22);--spk-dyn-1-bg: rgba(114, 186, 189, 0.08);
-  --spk-dyn-2-color: #d6ba75; --spk-dyn-2-border: rgba(214, 186, 117, 0.22);--spk-dyn-2-bg: rgba(214, 186, 117, 0.08);
-  --spk-dyn-3-color: #84aed4; --spk-dyn-3-border: rgba(132, 174, 212, 0.22);--spk-dyn-3-bg: rgba(132, 174, 212, 0.08);
-  --spk-dyn-4-color: #c48eb3; --spk-dyn-4-border: rgba(196, 142, 179, 0.22);--spk-dyn-4-bg: rgba(196, 142, 179, 0.08);
-  --spk-dyn-5-color: #9cb88f; --spk-dyn-5-border: rgba(156, 184, 143, 0.22);--spk-dyn-5-bg: rgba(156, 184, 143, 0.08);
-  --spk-dyn-6-color: #cf9376; --spk-dyn-6-border: rgba(207, 147, 118, 0.22);--spk-dyn-6-bg: rgba(207, 147, 118, 0.08);
-  --spk-dyn-7-color: #87a7c0; --spk-dyn-7-border: rgba(135, 167, 192, 0.22);--spk-dyn-7-bg: rgba(135, 167, 192, 0.08);
+  --spk-dyn-0-color: #B59DE0;
+  --spk-dyn-1-color: #72BABD;
+  --spk-dyn-2-color: #D6BA75;
+  --spk-dyn-3-color: #84AED4;
+  --spk-dyn-4-color: #C48EB3;
+  --spk-dyn-5-color: #9CB88F;
+  --spk-dyn-6-color: #CF9376;
+  --spk-dyn-7-color: #87A7C0;
 
   --shadow-sm: none;
   --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.4);

@@ -12,7 +12,7 @@
   <link rel="manifest" href="./manifest.json" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,500..600;1,6..72,400..500&family=Noto+Sans+SC:wght@400..700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400..600&family=Noto+Sans+SC:wght@400;500;600&display=swap" rel="stylesheet" />
   <link id="dynamic-favicon" rel="icon" type="image/svg+xml" href="./favicon.svg" />
   <link rel="apple-touch-icon" href="./icons/icon-192.png" />
   <link rel="apple-touch-icon" sizes="512x512" href="./icons/icon-512.png" />
@@ -51,18 +51,20 @@
 
       <!-- Center: Issue Archive Drawer Trigger (Desktop) -->
       <div class="header-center">
-        <button type="button" class="issue-archive-btn" id="issue-archive-btn" aria-haspopup="dialog" aria-expanded="false" title="打开单集目录 (Issue Archive)">
+        <button type="button" class="issue-archive-btn" id="issue-archive-btn" aria-haspopup="dialog" aria-expanded="false" title="打开单集目录">
           <div class="issue-btn-content">
-            <svg class="issue-archive-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <svg class="issue-archive-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
               <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
               <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
             </svg>
             <span class="issue-btn-text" id="header-issue-title">选集目录</span>
           </div>
-          <span class="issue-count-pill" id="header-issue-count">-</span>
-          <svg class="issue-chevron" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <polyline points="6 9 12 15 18 9"></polyline>
-          </svg>
+          <span class="issue-btn-meta">
+            <span class="issue-count-pill tnum" id="header-issue-count">-</span>
+            <svg class="issue-chevron" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </span>
         </button>
       </div>
 
@@ -70,7 +72,7 @@
       <div class="header-right">
         <!-- Mobile 1: Issue Archive Trigger Icon Button -->
         <button type="button" class="mobile-header-btn" id="mobile-archive-btn" aria-label="往期选集目录" title="打开单集目录">
-          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
             <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
             <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
           </svg>
@@ -90,7 +92,7 @@
 
         <!-- Mobile 3: Search Expand Toggle Button -->
         <button type="button" class="mobile-header-btn" id="mobile-search-btn" aria-label="展开搜索" title="搜索">
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
             <circle cx="11" cy="11" r="8"></circle>
             <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
           </svg>
@@ -98,18 +100,23 @@
 
         <!-- Search Box (Desktop inline, Mobile expanded bar) -->
         <div class="search-box-wrap" id="search-box-wrap">
-          <svg class="search-icon" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <svg class="search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
             <circle cx="11" cy="11" r="8"></circle>
             <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
           </svg>
-          <input type="search" id="search-input" class="search-input" placeholder="搜索..." aria-label="搜索关键词过滤" />
+          <input type="search" id="search-input" class="search-input" placeholder="搜索" aria-label="搜索关键词过滤" />
           <kbd class="search-kbd-hint" aria-hidden="true">/</kbd>
-          <button type="button" id="search-clear-btn" class="search-clear-btn" aria-label="清除搜索">✕</button>
+          <button type="button" id="search-clear-btn" class="search-clear-btn" aria-label="清除搜索">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <line x1="18" y1="6" x2="6" y2="18"></line>
+              <line x1="6" y1="6" x2="18" y2="18"></line>
+            </svg>
+          </button>
         </div>
 
         <!-- Theme Toggle Button -->
         <button type="button" class="theme-toggle-btn" id="theme-toggle-btn" title="切换深浅主题" aria-label="切换主题">
-          <svg class="icon-sun" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display: none;">
+          <svg class="icon-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="display: none;" aria-hidden="true">
             <circle cx="12" cy="12" r="5"></circle>
             <line x1="12" y1="1" x2="12" y2="3"></line>
             <line x1="12" y1="21" x2="12" y2="23"></line>
@@ -120,7 +127,7 @@
             <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
             <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
           </svg>
-          <svg class="icon-moon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <svg class="icon-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
             <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
           </svg>
         </button>
@@ -139,12 +146,12 @@
     <div class="archive-grabber" aria-hidden="true"><span></span></div>
     <div class="archive-header">
       <div class="archive-header-info">
-        <span class="archive-badge" id="archive-show-tag">ISSUE ARCHIVE</span>
+        <span class="archive-badge" id="archive-show-tag">往期选集</span>
         <h3 class="archive-title" id="archive-show-title">往期选集目录</h3>
       </div>
       <button type="button" class="archive-close-btn" id="archive-close-btn" title="关闭目录 (Esc)" aria-label="关闭选集目录">
-        <span class="esc-kbd">ESC</span>
-        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <span class="esc-kbd">Esc</span>
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
           <line x1="18" y1="6" x2="6" y2="18"></line>
           <line x1="6" y1="6" x2="18" y2="18"></line>
         </svg>
@@ -161,30 +168,30 @@
        Main Content Container
        ========================================================================== -->
   <main class="main-content" id="main-content">
-    
+
     <!-- Loading State -->
     <div id="loading-state" class="state-banner">
       <div class="spinner"></div>
-      <p style="color: var(--text-secondary); font-size: 0.875rem;">正在加载单集总目录...</p>
+      <p class="state-desc">正在加载单集目录</p>
     </div>
 
     <!-- Error State -->
     <div id="error-state" class="state-banner" style="display: none;">
-      <h3 style="color: #ef4444; font-size: 1.125rem;">数据加载失败</h3>
-      <p id="error-message" style="color: var(--text-secondary); max-width: 440px; font-size: 0.875rem;"></p>
+      <h3 class="error-title">数据加载失败</h3>
+      <p id="error-message" class="state-desc"></p>
       <button type="button" class="btn-retry" id="btn-retry">重新加载</button>
     </div>
 
     <!-- Empty State -->
     <div id="empty-state" class="state-banner empty-state-card" style="display: none;">
       <div class="empty-icon-wrap">
-        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
           <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
           <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
         </svg>
       </div>
       <h3 class="empty-title" id="empty-show-title">该播客暂未收录单集</h3>
-      <p class="empty-desc" id="empty-show-desc">该播客已完成配置入库，但暂未收录已转写的精读单集。可通过工作流调度抓取，或等待定时巡检自动更新。</p>
+      <p class="empty-desc" id="empty-show-desc">该播客暂未收录已转写的精读单集，最新一期整理完成后会自动出现在这里。</p>
       <div class="empty-meta-box">
         <span id="empty-rss-link">RSS: -</span>
       </div>
@@ -195,10 +202,10 @@
       <!-- Search Banner -->
       <div id="search-stats-banner" class="search-stats-banner">
         <span id="search-stats-text">找到 0 处匹配</span>
-        <button type="button" id="search-reset-link" style="color: inherit; text-decoration: underline; font-weight: 500; font-size: 0.75rem;">清除过滤</button>
+        <button type="button" id="search-reset-link" class="search-reset-btn">清除过滤</button>
       </div>
 
-      <!-- Masthead Header (Moment 1 & Signature) -->
+      <!-- Masthead Header (Moment 1 & Live Acoustic Ruler Signature) -->
       <article class="article-header">
         <div class="masthead-meta-row tnum">
           <span class="masthead-tag" id="meta-podcast-title">The Air Show</span>
@@ -207,9 +214,9 @@
           <span class="meta-bullet">•</span>
           <span id="meta-duration">35分20秒</span>
           <span class="meta-bullet">•</span>
-          <a id="meta-audio-link" href="#" target="_blank" rel="noopener noreferrer" style="display: inline-flex; align-items: center; gap: 3px;">
+          <a id="meta-audio-link" class="meta-audio-link" href="#" target="_blank" rel="noopener noreferrer">
             原声 MP3
-            <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
               <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
               <polyline points="15 3 21 3 21 9"></polyline>
               <line x1="10" y1="14" x2="21" y2="3"></line>
@@ -218,20 +225,21 @@
         </div>
         <h1 class="article-title" id="episode-title">Singapore's Brand and Network Struggles</h1>
 
-        <!-- Acoustic Micro-Tick Hairline Ruler -->
-        <div class="masthead-scale" aria-hidden="true">
+        <!-- Live Interactive Acoustic Micro-Tick Ruler -->
+        <div class="masthead-scale" id="masthead-scale" role="region" aria-label="单集时间码标尺">
+          <div class="masthead-ruler-track" id="masthead-ruler-track" title="点击标尺跳转播放位置">
+            <div class="masthead-ruler-rail"></div>
+            <div class="masthead-ruler-progress" id="masthead-ruler-progress"></div>
+            <div class="masthead-micro-ticks" id="masthead-micro-ticks" aria-hidden="true"></div>
+            <div class="masthead-chapter-ticks" id="masthead-chapter-ticks"></div>
+            <div class="masthead-playhead" id="masthead-playhead" aria-hidden="true"></div>
+            <div class="masthead-ruler-tooltip" id="masthead-ruler-tooltip" style="display: none;"></div>
+          </div>
           <div class="masthead-ticks tnum" id="masthead-ticks">
             <span class="tick-label">00:00</span>
-            <span class="tick-mark"></span>
-            <span class="tick-mark"></span>
-            <span class="tick-label">10:00</span>
-            <span class="tick-mark"></span>
-            <span class="tick-mark"></span>
-            <span class="tick-label">20:00</span>
-            <span class="tick-mark"></span>
-            <span class="tick-mark"></span>
-            <span class="tick-label">30:00</span>
-            <span class="tick-mark"></span>
+            <span class="tick-label">08:50</span>
+            <span class="tick-label">17:40</span>
+            <span class="tick-label">26:30</span>
             <span class="tick-label" id="masthead-scale-end">35:20</span>
           </div>
         </div>
@@ -241,21 +249,15 @@
       <section class="section-wrap" aria-labelledby="heading-summary">
         <div class="section-header">
           <h2 class="section-title" id="heading-summary">导读摘要 · Executive Summary</h2>
-          <span class="section-badge">核心提要</span>
+          <span class="section-badge tnum" id="takeaways-count-badge"></span>
         </div>
 
         <div class="summary-card">
-          <p class="summary-lead" id="summary-zh-text">正在加载核心摘要...</p>
+          <p class="summary-lead" id="summary-zh-text">正在加载摘要</p>
         </div>
 
         <div class="takeaways-card">
-          <div class="takeaways-heading">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <polyline points="9 11 12 14 22 4"></polyline>
-              <path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"></path>
-            </svg>
-            关键洞察 · Key Takeaways
-          </div>
+          <div class="takeaways-heading">关键洞察 · Key Takeaways</div>
           <ul class="takeaways-list" id="takeaways-list">
             <!-- Dynamically populated -->
           </ul>
@@ -273,16 +275,10 @@
         </div>
       </section>
 
-      <!-- Section: Knowledge Cards (Collapsible Notes & References - M8-B2) -->
+      <!-- Section: Knowledge Cards (Collapsible Notes & References) -->
       <section class="section-wrap" id="knowledge-section" aria-labelledby="heading-knowledge" style="display: none;">
         <div class="section-header">
-          <h2 class="section-title" id="heading-knowledge">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-              <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
-              <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
-            </svg>
-            知识扩展 · Knowledge Cards
-          </h2>
+          <h2 class="section-title" id="heading-knowledge">知识扩展 · Knowledge Cards</h2>
           <span class="section-badge tnum" id="knowledge-total-badge">- 项内容</span>
         </div>
         <div class="knowledge-cards-wrap" id="knowledge-cards-wrap">
@@ -290,14 +286,14 @@
           <details class="knowledge-accordion" id="vocab-accordion" style="display: none;">
             <summary class="knowledge-summary" id="vocab-summary">
               <div class="summary-label-group">
-                <svg class="summary-chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <svg class="summary-chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
                   <polyline points="9 18 15 12 9 6"></polyline>
                 </svg>
                 <span class="summary-heading">地道表达与行业语料</span>
                 <span class="summary-divider">·</span>
                 <span class="summary-count tnum" id="vocab-count-text">0 条</span>
               </div>
-              <span class="summary-status-pill tnum"></span>
+              <span class="summary-status-pill"></span>
             </summary>
             <div class="knowledge-content-pane">
               <div class="vocab-grid" id="vocab-grid">
@@ -310,14 +306,14 @@
           <details class="knowledge-accordion" id="references-accordion" style="display: none;">
             <summary class="knowledge-summary" id="references-summary">
               <div class="summary-label-group">
-                <svg class="summary-chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <svg class="summary-chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
                   <polyline points="9 18 15 12 9 6"></polyline>
                 </svg>
                 <span class="summary-heading">提及书单与参考资源</span>
                 <span class="summary-divider">·</span>
                 <span class="summary-count tnum" id="references-count-text">0 项</span>
               </div>
-              <span class="summary-status-pill tnum"></span>
+              <span class="summary-status-pill"></span>
             </summary>
             <div class="knowledge-content-pane">
               <div class="references-list" id="references-list">
@@ -339,8 +335,8 @@
             <div class="blur-segmented-control" role="group" aria-label="盲听精听模式选择">
               <span class="blur-control-label" aria-hidden="true">盲听</span>
               <button type="button" class="blur-segment-btn active" data-blur="off" title="清晰显示全部文本">清晰</button>
-              <button type="button" class="blur-segment-btn" data-blur="zh" title="高斯模糊遮挡中文译文，点击单句刮开显形">遮中文</button>
-              <button type="button" class="blur-segment-btn" data-blur="both" title="高斯模糊遮挡中英文全盲听，点击单句刮开显形">全盲听</button>
+              <button type="button" class="blur-segment-btn" data-blur="zh" title="模糊遮挡中文译文，点击单句显形">遮中文</button>
+              <button type="button" class="blur-segment-btn" data-blur="both" title="模糊遮挡中英文全盲听，点击单句显形">全盲听</button>
             </div>
           </div>
         </div>
@@ -361,20 +357,25 @@
         <button type="button" class="btn-resume-play" id="btn-resume-play">继续收听</button>
         <span class="resume-sep">·</span>
         <button type="button" class="btn-resume-restart" id="btn-resume-restart">从头播放</button>
-        <button type="button" class="btn-resume-dismiss" id="btn-resume-close" aria-label="关闭提示">×</button>
+        <button type="button" class="btn-resume-dismiss" id="btn-resume-close" aria-label="关闭提示">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
       </div>
     </div>
 
-    <!-- Single-Sentence Loop Status Pill (M8-A) -->
+    <!-- Single-Sentence Loop Status Banner -->
     <div class="loop-banner" id="loop-banner" style="display: none;">
       <span class="loop-msg">
-        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
           <polyline points="17 1 21 5 17 9"></polyline>
           <path d="M3 11V9a4 4 0 0 1 4-4h14"></path>
           <polyline points="7 23 3 19 7 15"></polyline>
           <path d="M21 13v2a4 4 0 0 1-4 4H3"></path>
         </svg>
-        <strong class="tnum" id="loop-banner-text">复读中 #001 · 00:00–00:15</strong>
+        <strong class="tnum" id="loop-banner-text">复读中 #1 · 00:00–00:15</strong>
       </span>
       <div class="loop-actions">
         <button type="button" class="btn-loop-exit" id="btn-loop-exit" title="退出单句复读">退出</button>
@@ -384,23 +385,23 @@
     <div class="player-container">
       <div class="player-main-btns">
         <button type="button" class="ctrl-btn btn-step" id="btn-rewind" title="后退 15 秒" aria-label="后退 15 秒">
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
             <path d="M11 17l-5-5 5-5M18 17l-5-5 5-5"/>
           </svg>
         </button>
 
         <button type="button" class="ctrl-btn btn-play-pause" id="btn-play-pause" title="播放 / 暂停" aria-label="播放">
-          <svg id="icon-play" width="13" height="13" viewBox="0 0 24 24" fill="currentColor">
-            <polygon points="5 3 19 12 5 21 5 3"></polygon>
+          <svg id="icon-play" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <polygon points="6 4 20 12 6 20 6 4"></polygon>
           </svg>
-          <svg id="icon-pause" width="13" height="13" viewBox="0 0 24 24" fill="currentColor" style="display: none;">
+          <svg id="icon-pause" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="display: none;" aria-hidden="true">
             <rect x="6" y="4" width="4" height="16"></rect>
             <rect x="14" y="4" width="4" height="16"></rect>
           </svg>
         </button>
 
         <button type="button" class="ctrl-btn btn-step" id="btn-forward" title="快进 15 秒" aria-label="快进 15 秒">
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
             <path d="M13 17l5-5-5-5M6 17l5-5-5-5"/>
           </svg>
         </button>
@@ -430,8 +431,8 @@
           1.0x
         </button>
         <button type="button" class="btn-autoscroll" id="btn-autoscroll" title="跟随音频播放自动居中滚动" aria-label="开启跟随滚动">
-          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-            <circle cx="12" cy="12" r="10"></circle>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="12" cy="12" r="9"></circle>
             <line x1="22" y1="12" x2="18" y2="12"></line>
             <line x1="6" y1="12" x2="2" y2="12"></line>
             <line x1="12" y1="6" x2="12" y2="2"></line>
@@ -439,7 +440,7 @@
           </svg>
         </button>
         <button type="button" class="btn-keyboard-shortcuts" id="btn-keyboard-shortcuts" title="快捷键说明 (?)" aria-label="键盘快捷键说明">
-          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
             <rect x="2" y="4" width="20" height="16" rx="2" ry="2"></rect>
             <line x1="6" y1="8" x2="6" y2="8"></line>
             <line x1="10" y1="8" x2="10" y2="8"></line>
@@ -454,12 +455,12 @@
     </div>
   </footer>
 
-  <!-- Shortcuts Modal Popover (Desktop M8-A) -->
+  <!-- Shortcuts Modal Popover (Desktop) -->
   <div class="shortcuts-backdrop" id="shortcuts-backdrop" aria-hidden="true"></div>
   <div class="shortcuts-modal" id="shortcuts-modal" role="dialog" aria-modal="true" aria-label="键盘快捷键说明">
     <div class="shortcuts-header">
       <span class="shortcuts-title">
-        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
           <rect x="2" y="4" width="20" height="16" rx="2" ry="2"></rect>
           <line x1="6" y1="8" x2="6" y2="8"></line>
           <line x1="10" y1="8" x2="10" y2="8"></line>
@@ -469,9 +470,14 @@
           <line x1="18" y1="12" x2="18" y2="12"></line>
           <line x1="9" y1="16" x2="15" y2="16"></line>
         </svg>
-        桌面端快捷键说明
+        桌面端快捷键
       </span>
-      <button type="button" class="shortcuts-close-btn" id="shortcuts-close-btn" aria-label="关闭快捷键说明">✕</button>
+      <button type="button" class="shortcuts-close-btn" id="shortcuts-close-btn" aria-label="关闭快捷键说明">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
     </div>
     <div class="shortcuts-body">
       <div class="shortcut-row">

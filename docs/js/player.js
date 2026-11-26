@@ -184,7 +184,7 @@ export function startSentenceLoop(idx) {
   }
 
   if (elements.loopBanner && elements.loopBannerText) {
-    const idxStr = '#' + String(idx + 1).padStart(3, '0');
+    const idxStr = '#' + String(idx + 1);
     const rangeStr = `${formatTime(startSec)}–${formatTime(endSec)}`;
     elements.loopBannerText.textContent = `复读中 ${idxStr} · ${rangeStr}`;
     elements.loopBanner.style.display = 'flex';
@@ -219,9 +219,42 @@ export function toggleSentenceLoop(idx) {
   }
 }
 
+export function updateMastheadPlayhead(currentTime, duration) {
+  const { mastheadRulerProgress, mastheadPlayhead } = elements;
+  const dur = Number(duration) || 0;
+  const cur = Number(currentTime) || 0;
+  const ratio = dur > 0 ? Math.min(1, Math.max(0, cur / dur)) : 0;
+
+  if (mastheadRulerProgress) {
+    mastheadRulerProgress.style.transform = `translateY(-50%) scaleX(${ratio})`;
+  }
+  if (mastheadPlayhead) {
+    mastheadPlayhead.style.left = `${ratio * 100}%`;
+    mastheadPlayhead.classList.toggle('visible', ratio > 0);
+  }
+}
+
+export function showMastheadRulerTooltip(pct, hl) {
+  const { mastheadRulerTooltip } = elements;
+  if (!mastheadRulerTooltip) return;
+  mastheadRulerTooltip.textContent = `${formatTime(hl.start_sec)} · ${hl.title_zh || ''}`;
+  mastheadRulerTooltip.style.left = `${Math.min(92, Math.max(8, pct))}%`;
+  mastheadRulerTooltip.style.display = 'block';
+  requestAnimationFrame(() => {
+    if (mastheadRulerTooltip) mastheadRulerTooltip.style.opacity = '1';
+  });
+}
+
+export function hideMastheadRulerTooltip() {
+  const { mastheadRulerTooltip } = elements;
+  if (!mastheadRulerTooltip) return;
+  mastheadRulerTooltip.style.opacity = '0';
+  mastheadRulerTooltip.style.display = 'none';
+}
+
 export function renderChapterMarkers(highlights) {
-  if (!elements.chapterMarkers) return;
-  elements.chapterMarkers.innerHTML = '';
+  if (elements.chapterMarkers) elements.chapterMarkers.innerHTML = '';
+  if (elements.mastheadChapterTicks) elements.mastheadChapterTicks.innerHTML = '';
   if (!highlights || highlights.length === 0) return;
 
   const duration = (state.currentEpisode && state.currentEpisode.duration_sec) ||
@@ -229,28 +262,59 @@ export function renderChapterMarkers(highlights) {
     (elements.audio && elements.audio.duration) || 0;
   if (!duration || duration <= 0) return;
 
-  highlights.forEach((hl) => {
+  highlights.forEach((hl, idx) => {
     if (hl.start_sec == null || hl.start_sec < 0) return;
     const pct = Math.min(100, Math.max(0, (hl.start_sec / duration) * 100));
-    const marker = document.createElement('div');
-    marker.className = 'chapter-marker';
-    marker.style.left = `${pct}%`;
-    marker.dataset.startSec = hl.start_sec;
 
-    marker.addEventListener('mouseenter', () => {
-      showMarkerTooltip(pct, hl);
-    });
-    marker.addEventListener('mouseleave', () => {
-      hideMarkerTooltip();
-    });
-    marker.addEventListener('click', (e) => {
-      e.stopPropagation();
-      state.userInteractedSeek = true;
-      if (elements.resumeBanner) elements.resumeBanner.style.display = 'none';
-      seekAndPlay(hl.start_sec);
-    });
+    // 1. Floating player scrubber marker
+    if (elements.chapterMarkers) {
+      const marker = document.createElement('div');
+      marker.className = 'chapter-marker';
+      marker.style.left = `${pct}%`;
+      marker.dataset.startSec = hl.start_sec;
 
-    elements.chapterMarkers.appendChild(marker);
+      marker.addEventListener('mouseenter', () => {
+        showMarkerTooltip(pct, hl);
+      });
+      marker.addEventListener('mouseleave', () => {
+        hideMarkerTooltip();
+      });
+      marker.addEventListener('click', (e) => {
+        e.stopPropagation();
+        state.userInteractedSeek = true;
+        if (elements.resumeBanner) elements.resumeBanner.style.display = 'none';
+        seekAndPlay(hl.start_sec);
+      });
+
+      elements.chapterMarkers.appendChild(marker);
+    }
+
+    // 2. Live Masthead acoustic ruler chapter anchor tick
+    if (elements.mastheadChapterTicks) {
+      const tick = document.createElement('button');
+      tick.type = 'button';
+      tick.className = 'masthead-chapter-tick';
+      tick.style.left = `${pct}%`;
+      tick.dataset.index = idx;
+      tick.dataset.startSec = hl.start_sec;
+      tick.setAttribute('aria-label', `跳转至 ${formatTime(hl.start_sec)} ${hl.title_zh || ''}`);
+
+      tick.addEventListener('mouseenter', () => showMastheadRulerTooltip(pct, hl));
+      tick.addEventListener('mouseleave', hideMastheadRulerTooltip);
+      tick.addEventListener('focus', () => showMastheadRulerTooltip(pct, hl));
+      tick.addEventListener('blur', hideMastheadRulerTooltip);
+      tick.addEventListener('click', (e) => {
+        e.stopPropagation();
+        if (state.loopState.active) {
+          exitSentenceLoop();
+        }
+        state.userInteractedSeek = true;
+        if (elements.resumeBanner) elements.resumeBanner.style.display = 'none';
+        seekAndPlay(hl.start_sec);
+      });
+
+      elements.mastheadChapterTicks.appendChild(tick);
+    }
   });
 }
 
@@ -328,8 +392,9 @@ export function cyclePlaybackRate() {
   state.currentRateIndex = (state.currentRateIndex + 1) % PLAYBACK_RATES.length;
   const newRate = PLAYBACK_RATES[state.currentRateIndex];
   elements.audio.playbackRate = newRate;
-  elements.btnSpeed.textContent = `${newRate.toFixed(1)}x`;
-  elements.btnSpeed.setAttribute('aria-label', `播放倍速 ${newRate.toFixed(1)}x`);
+  const rateText = Number.isInteger(newRate) ? `${newRate.toFixed(1)}x` : `${newRate}x`;
+  elements.btnSpeed.textContent = rateText;
+  elements.btnSpeed.setAttribute('aria-label', `播放倍速 ${rateText}`);
   updateMediaPositionState();
 }
 
@@ -413,10 +478,14 @@ export function initPlayerEvents() {
     if (!state.currentEpisode) return;
 
     const curTime = audio.currentTime;
+    const totalDur = (Number.isFinite(audio.duration) && audio.duration > 0)
+      ? audio.duration
+      : (state.currentEpisode.duration_sec || 0);
 
     if (!state.isScrubbing) {
       seekSlider.value = curTime;
       timeCurrent.textContent = formatTime(curTime);
+      updateMastheadPlayhead(curTime, totalDur);
     }
 
     throttleSaveProgress(false);
@@ -459,6 +528,10 @@ export function initPlayerEvents() {
       if (activeHlIdx !== -1 && state.highlightElements[activeHlIdx]) {
         state.highlightElements[activeHlIdx].classList.add('active');
       }
+      if (elements.mastheadChapterTicks) {
+        const ticks = elements.mastheadChapterTicks.querySelectorAll('.masthead-chapter-tick');
+        ticks.forEach((tick, i) => tick.classList.toggle('active', i === activeHlIdx));
+      }
       state.lastActiveHighlightIndex = activeHlIdx;
     }
 
@@ -475,7 +548,12 @@ export function initPlayerEvents() {
 
   seekSlider.addEventListener('input', () => {
     state.isScrubbing = true;
-    timeCurrent.textContent = formatTime(Number(seekSlider.value));
+    const val = Number(seekSlider.value);
+    timeCurrent.textContent = formatTime(val);
+    const dur = (Number.isFinite(audio.duration) && audio.duration > 0)
+      ? audio.duration
+      : (state.currentEpisode ? state.currentEpisode.duration_sec : 0);
+    updateMastheadPlayhead(val, dur);
   });
 
   seekSlider.addEventListener('change', () => {
@@ -483,6 +561,24 @@ export function initPlayerEvents() {
     seekAndPlay(Number(seekSlider.value));
     updateMediaPositionState();
   });
+
+  // Live Masthead Acoustic Ruler Click-to-Seek
+  if (elements.mastheadRulerTrack) {
+    elements.mastheadRulerTrack.addEventListener('click', (e) => {
+      const rect = elements.mastheadRulerTrack.getBoundingClientRect();
+      if (!rect.width) return;
+      const ratio = Math.min(1, Math.max(0, (e.clientX - rect.left) / rect.width));
+      const dur = (Number.isFinite(audio.duration) && audio.duration > 0)
+        ? audio.duration
+        : (state.currentEpisode && state.currentEpisode.duration_sec) ||
+          (state.currentActiveEpisodeMeta && state.currentActiveEpisodeMeta.duration_sec) || 0;
+      if (dur > 0) {
+        const targetSec = ratio * dur;
+        updateMastheadPlayhead(targetSec, dur);
+        seekAndPlay(targetSec);
+      }
+    });
+  }
 
   // M7 Realtime Chapter Badge Interaction
   if (playerChapterBadge) {

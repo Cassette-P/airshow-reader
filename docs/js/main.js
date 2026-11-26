@@ -14,7 +14,8 @@ import {
   updatePlayPauseIcons,
   exitSentenceLoop,
   throttleSaveProgress,
-  setProgressUpdateCallback
+  setProgressUpdateCallback,
+  updateMastheadPlayhead
 } from './player.js';
 import {
   renderArticleMeta,
@@ -83,25 +84,25 @@ export async function loadEpisodeDetail(show, epMeta, seq) {
   const { highlightsCountBadge, transcriptCountBadge, highlightsGrid, transcriptContainer, searchInput } = elements;
 
   if (highlightsCountBadge) {
-    highlightsCountBadge.textContent = epMeta.highlights_count != null ? `${epMeta.highlights_count} 个片段 (加载中)` : '加载中...';
+    highlightsCountBadge.textContent = epMeta.highlights_count != null ? `${epMeta.highlights_count} 个片段` : '加载中';
   }
   if (transcriptCountBadge) {
-    transcriptCountBadge.textContent = epMeta.transcript_count != null ? `${epMeta.transcript_count} 段落 (加载中)` : '加载中...';
+    transcriptCountBadge.textContent = epMeta.transcript_count != null ? `${epMeta.transcript_count} 段落` : '加载中';
   }
 
   if (highlightsGrid) {
     highlightsGrid.innerHTML = `
-      <div class="state-banner" style="grid-column: 1 / -1; min-height: 100px; padding: 20px 0;">
-        <div class="spinner" style="width: 24px; height: 24px;"></div>
-        <p style="color: var(--text-secondary); font-size: 0.8125rem;">正在按需加载精选原声重点...</p>
+      <div class="state-banner state-banner-compact">
+        <div class="spinner spinner-sm"></div>
+        <p class="state-desc">正在加载精选原声</p>
       </div>
     `;
   }
   if (transcriptContainer) {
     transcriptContainer.innerHTML = `
-      <div class="state-banner" style="min-height: 120px; padding: 24px 0;">
-        <div class="spinner" style="width: 24px; height: 24px;"></div>
-        <p style="color: var(--text-secondary); font-size: 0.8125rem;">正在按需加载双语逐字稿...</p>
+      <div class="state-banner state-banner-compact">
+        <div class="spinner spinner-sm"></div>
+        <p class="state-desc">正在加载双语逐字稿</p>
       </div>
     `;
   }
@@ -130,10 +131,10 @@ export async function loadEpisodeDetail(show, epMeta, seq) {
     resetKnowledgeCards();
     if (transcriptContainer) {
       transcriptContainer.innerHTML = `
-        <div class="state-banner" style="min-height: 140px; gap: 10px; padding: 20px 0;">
-          <h4 style="color: #ef4444; font-size: 0.9375rem;">单集详情加载失败</h4>
-          <p style="color: var(--text-secondary); font-size: 0.8125rem;">${escapeHtml(err.message)}</p>
-          <button type="button" class="btn-retry" id="btn-retry-detail" style="padding: 4px 14px; font-size: 0.75rem;">重试加载详情</button>
+        <div class="state-banner state-banner-compact">
+          <h4 class="error-title">单集详情加载失败</h4>
+          <p class="state-desc">${escapeHtml(err.message)}</p>
+          <button type="button" class="btn-retry" id="btn-retry-detail">重试加载详情</button>
         </div>
       `;
       const btnRetryDetail = document.getElementById('btn-retry-detail');
@@ -212,6 +213,8 @@ export function selectEpisode(show, epMeta) {
 
   // Clear chapter indicators
   if (chapterMarkers) chapterMarkers.innerHTML = '';
+  if (elements.mastheadChapterTicks) elements.mastheadChapterTicks.innerHTML = '';
+  updateMastheadPlayhead(0, epMeta.duration_sec || 0);
   if (playerChapterBadge) playerChapterBadge.style.display = 'none';
   if (playerChapterTitle) playerChapterTitle.textContent = '-';
   if (resumeBanner) resumeBanner.style.display = 'none';
@@ -228,6 +231,7 @@ export function selectEpisode(show, epMeta) {
         audio.currentTime = resumePos;
         if (seekSlider) seekSlider.value = resumePos;
         if (timeCurrent) timeCurrent.textContent = formatTime(resumePos);
+        updateMastheadPlayhead(resumePos, audio.duration || epMeta.duration_sec || 0);
       } catch (err) {
         console.warn('[AIRSHOW][Progress] Error setting resume position:', err);
       }
@@ -301,12 +305,12 @@ export function handleShowIndexLoaded(show, indexData, targetGuid, seq) {
 
     if (emptyShowTitle) emptyShowTitle.textContent = `${show.title} · 暂无收录单集`;
     if (emptyShowDesc) {
-      emptyShowDesc.textContent = `该播客已成功配置入库（${show.subtitle || ''}），但暂未生成双语精读单集。可通过 GitHub Actions 工作流手动调度抓取，或等待定时巡检自动更新。`;
+      emptyShowDesc.textContent = `该播客暂未收录已转写的精读单集，最新一期整理完成后会自动出现在这里。`;
     }
     if (emptyRssLink) emptyRssLink.textContent = `RSS: ${show.rss_url || indexData.rss_url || '-'}`;
 
     if (headerIssueTitle) headerIssueTitle.textContent = '暂无单集';
-    if (headerIssueCount) headerIssueCount.textContent = '0期';
+    if (headerIssueCount) headerIssueCount.textContent = '0 期';
     if (btnOpenArchive) btnOpenArchive.disabled = true;
     if (mobileArchiveBtn) mobileArchiveBtn.disabled = true;
     if (searchInput) searchInput.disabled = true;
@@ -400,6 +404,8 @@ export async function switchShow(showId, targetGuid = null) {
 
   // Clear chapter and resume indicators
   if (chapterMarkers) chapterMarkers.innerHTML = '';
+  if (elements.mastheadChapterTicks) elements.mastheadChapterTicks.innerHTML = '';
+  updateMastheadPlayhead(0, 0);
   if (playerChapterBadge) playerChapterBadge.style.display = 'none';
   if (playerChapterTitle) playerChapterTitle.textContent = '-';
   if (resumeBanner) resumeBanner.style.display = 'none';

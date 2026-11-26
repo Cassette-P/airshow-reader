@@ -9,6 +9,9 @@ import { formatDateZh, formatDurationZh } from './utils.js';
 
 let archiveCloseTimer = null;
 
+const PROGRESS_ICON_CHECK = `<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"></polyline></svg>`;
+const PROGRESS_ICON_PLAY = `<svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><polygon points="6 4 20 12 6 20 6 4"></polygon></svg>`;
+
 export function updateTabsOverflowMask() {
   const { podcastTabs } = elements;
   if (!podcastTabs) return;
@@ -35,7 +38,7 @@ export function renderPodcastTabs(shows, onSelectShow) {
 
     const countSpan = document.createElement('span');
     countSpan.className = 'show-tab-count tnum';
-    countSpan.textContent = `(${show.episode_count != null ? show.episode_count : '0'})`;
+    countSpan.textContent = `${show.episode_count != null ? show.episode_count : '0'}`;
 
     btn.appendChild(titleSpan);
     btn.appendChild(countSpan);
@@ -86,11 +89,11 @@ export function renderEpisodeArchive(show, episodes, onSelectEpisode) {
   if (!archiveList) return;
 
   archiveList.innerHTML = '';
-  if (headerIssueCount) headerIssueCount.textContent = `${episodes.length}期`;
+  if (headerIssueCount) headerIssueCount.textContent = `${episodes.length} 期`;
   if (archiveShowTitle) archiveShowTitle.textContent = `${show.title} · 往期选集`;
-  if (archiveShowTag) archiveShowTag.textContent = `ISSUE ARCHIVE · ${show.id.toUpperCase()}`;
+  if (archiveShowTag) archiveShowTag.textContent = show.subtitle || '往期选集';
   if (mobileArchiveBtn) {
-    mobileArchiveBtn.setAttribute('aria-label', `往期选集目录 (${episodes.length}期)`);
+    mobileArchiveBtn.setAttribute('aria-label', `往期选集目录 (${episodes.length} 期)`);
   }
 
   // Fallback select sync
@@ -122,11 +125,11 @@ export function renderEpisodeArchive(show, episodes, onSelectEpisode) {
 
     const issueBadge = document.createElement('span');
     issueBadge.className = 'archive-issue-badge tnum';
-    issueBadge.textContent = `#${String(episodes.length - idx).padStart(2, '0')}`;
+    issueBadge.textContent = `#${episodes.length - idx}`;
 
     const metaSpan = document.createElement('span');
     metaSpan.className = 'archive-item-meta tnum';
-    metaSpan.textContent = `${formatDateZh(ep.pub_date)} · ${formatDurationZh(ep.duration_sec)} · ${ep.transcript_count || 0}段`;
+    metaSpan.textContent = `${formatDateZh(ep.pub_date)} · ${formatDurationZh(ep.duration_sec)} · ${ep.transcript_count || 0} 段`;
 
     topRow.appendChild(issueBadge);
     topRow.appendChild(metaSpan);
@@ -134,14 +137,14 @@ export function renderEpisodeArchive(show, episodes, onSelectEpisode) {
     if (record && record.completed) {
       const progressBadge = document.createElement('span');
       progressBadge.className = 'archive-progress-tag completed';
-      progressBadge.textContent = '✓ 已听完';
+      progressBadge.innerHTML = `${PROGRESS_ICON_CHECK}已听完`;
       topRow.appendChild(progressBadge);
     } else if (record && record.position >= 5) {
       const dur = record.duration || ep.duration_sec || 0;
       const pct = dur > 0 ? Math.min(99, Math.round((record.position / dur) * 100)) : 0;
       const progressBadge = document.createElement('span');
       progressBadge.className = 'archive-progress-tag in-progress';
-      progressBadge.textContent = `▶ ${pct}%`;
+      progressBadge.innerHTML = `${PROGRESS_ICON_PLAY}${pct}%`;
       topRow.appendChild(progressBadge);
     }
 
@@ -199,14 +202,14 @@ export function updateEpisodeProgressIndicators(showId, guid) {
       }
       if (record && record.completed) {
         progressBadge.className = 'archive-progress-tag completed';
-        progressBadge.textContent = '✓ 已听完';
+        progressBadge.innerHTML = `${PROGRESS_ICON_CHECK}已听完`;
         progressBadge.style.display = 'inline-flex';
       } else if (record && record.position >= 5) {
         const ep = state.currentEpisodesList.find(e => e.guid === guid);
         const dur = record.duration || (ep && ep.duration_sec) || 0;
         const pct = dur > 0 ? Math.min(99, Math.round((record.position / dur) * 100)) : 0;
         progressBadge.className = 'archive-progress-tag in-progress';
-        progressBadge.textContent = `▶ ${pct}%`;
+        progressBadge.innerHTML = `${PROGRESS_ICON_PLAY}${pct}%`;
         progressBadge.style.display = 'inline-flex';
       } else {
         progressBadge.style.display = 'none';
