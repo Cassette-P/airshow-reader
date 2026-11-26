@@ -1500,11 +1500,13 @@ mark.search-match {
   backdrop-filter: blur(2px);
   -webkit-backdrop-filter: blur(2px);
   z-index: 998;
+  display: none;
   opacity: 0;
   pointer-events: none;
   transition: opacity var(--dur-mid) var(--ease-out);
 }
 .shortcuts-backdrop.visible {
+  display: block;
   opacity: 1;
   pointer-events: auto;
 }

@@ -846,7 +846,7 @@ button {
     --player-h: 40px;
   }
   .app-header {
-    top: 6px;
+    top: 8px;
     height: auto;
     padding: 0 8px;
     padding-top: calc(0px + env(safe-area-inset-top, 0px));
@@ -966,7 +966,7 @@ button {
   .audio-player-bar {
     left: 8px;
     right: 8px;
-    bottom: 6px;
+    bottom: 8px;
     padding-bottom: calc(0px + env(safe-area-inset-bottom, 0px));
   }
   .player-container {
@@ -1038,19 +1038,20 @@ button {
 }
 
 /* Compact chrome for landscape phones (short viewport height + touch) */
+/* Keep top/bottom >= 8px so Safari's <=4px edge-sampler never turns status bar opaque */
 @media (max-height: 500px) and (pointer: coarse) {
   :root {
     --header-h: 40px;
     --player-h: 40px;
   }
   .app-header {
-    top: 4px;
+    top: 8px;
   }
   .header-inner {
     border-radius: var(--radius-lg);
   }
   .audio-player-bar {
-    bottom: 4px;
+    bottom: 8px;
   }
   .player-container {
     min-height: 40px;
@@ -1094,7 +1095,9 @@ button {
 }
 
 @media (hover: none), (pointer: coarse) {
-  .btn-keyboard-shortcuts {
+  .btn-keyboard-shortcuts,
+  .shortcuts-backdrop,
+  .shortcuts-modal {
     display: none !important;
   }
 }
