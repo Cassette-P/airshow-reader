@@ -1438,28 +1438,71 @@
       "creator": "Joe Studwell",
       "category": "book",
       "note_zh": "Kaiser 为准备对 Joe Studwell 的专访而在北京咖啡馆研读该书，探讨非洲经济发展路径。",
-      "start_sec": 702
+      "start_sec": 702,
+      "links": [
+        {
+          "source": "goodreads",
+          "label": "Goodreads",
+          "url": "https://www.goodreads.com/book/show/197239502-how-africa-works"
+        }
+      ]
     },
     {
       "title": "China's Millennials: The Want Generation",
       "creator": "Eric Fish",
       "category": "book",
       "note_zh": "Kaiser 在午餐时提及前驻京记者 Eric Fish 此前撰写的关于中国千禧一代青年的代表性著作。",
-      "start_sec": 2340
+      "start_sec": 2340,
+      "links": [
+        {
+          "source": "goodreads",
+          "label": "Goodreads",
+          "url": "https://www.goodreads.com/book/show/25906427-china-s-millennials"
+        }
+      ]
     },
     {
       "title": "The Master and Margarita (大师与玛格丽特)",
       "creator": "Mikhail Bulgakov",
       "category": "book",
       "note_zh": "Kaiser 在结尾重磅推荐的俄罗斯经典讽刺奇幻小说，兼具深刻哲学思辨与滑稽幽默。",
-      "start_sec": 2560
+      "start_sec": 2560,
+      "links": [
+        {
+          "source": "wikipedia",
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/The_Master_and_Margarita"
+        },
+        {
+          "source": "goodreads",
+          "label": "Goodreads",
+          "url": "https://www.goodreads.com/book/show/117833.The_Master_and_Margarita"
+        },
+        {
+          "source": "douban",
+          "label": "豆瓣",
+          "url": "https://book.douban.com/subject/27069991/"
+        }
+      ]
     },
     {
       "title": "Stalingrad",
       "creator": "Vasily Grossman",
       "category": "book",
       "note_zh": "Kaiser 提到此前读过的一部关于斯大林格勒战役的厚重俄罗斯历史长篇巨作。",
-      "start_sec": 2616
+      "start_sec": 2616,
+      "links": [
+        {
+          "source": "wikipedia",
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Stalingrad_(Grossman_novel)"
+        },
+        {
+          "source": "goodreads",
+          "label": "Goodreads",
+          "url": "https://www.goodreads.com/book/show/42194293-stalingrad"
+        }
+      ]
     }
   ]
 }

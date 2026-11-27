@@ -11,19 +11,19 @@
 - **多播客配置驱动与全自动巡检（v3.0）**
   - 通过 `podcasts.json` 统一管理节目元信息、RSS 源、默认抓取窗口、主题重音色与专属术语表（`glossaries/<show_id>.md`）。
   - GitHub Actions 每 6 小时自动巡检并增量入库；内置四级抗 403 音频下载器、RSS Show Notes 结构化清洗注入与说话人去头衔归一化。
-- **Paid Tier 分级模型路由、断点缓存与双模传输（v3.5）**
-  - **通道 B（逐片转写 + 术语对齐翻译）**：180 秒音频切片锚定时间轴，默认 `gemini-3.8-flash`（低思考模式）流式转写，完成后原子落盘断点缓存至 `.cache/ch_b/`（支持 `--no-cache` 强制重跑），防止长音频时间漂移与重复消耗。
-  - **通道 A（全局摘要 + Highlights + 知识卡片）**：默认锁定 `gemini-4-carbon @ high`（回退 `gemini-4-neon @ high`、`gemini-3.8-flash @ high`），主路径走 Interactions API `background=True` 异步轮询（超时默认 `900s`，可由 `CH_A_BG_TIMEOUT_SEC` 覆盖），不可用时零耗时回退 `stream_with_thoughts` 心跳保活；一体生成摘要、要点、4–10 条 Highlights、6–10 条地道表达（`vocab_notes`）与参考资源（`references`，自动过滤商业赞助与广告口播）。
-  - **补跑通道（`--enrich`）**：支持对存量单集按需低成本补齐知识卡片，既有摘要与逐字稿字节级不变。
+- **Paid Tier 分级模型路由、断点缓存与双模传输（v3.6 / Schema v3.2）**
+  - **通道 B（逐片转写 + 术语对齐翻译）**：180 秒音频切片锚定时间轴，默认 `gemini-4-hydrogen`（低思考模式，回退 `gemini-3.8-flash`、`gemini-3.5-flash-lite`）流式转写，完成后原子落盘断点缓存至 `.cache/ch_b/`（支持 `--no-cache` 强制重跑），防止长音频时间漂移与重复消耗。
+  - **通道 A（全局摘要 + Highlights + 知识卡片与多源直达外链）**：默认锁定 `gemini-4-carbon @ high`（回退 `gemini-4-neon @ high`、`gemini-3.8-flash @ high`），主路径走 Interactions API `background=True` 异步轮询（超时默认 `900s`，可由 `CH_A_BG_TIMEOUT_SEC` 覆盖），不可用时零耗时回退 `stream_with_thoughts` 心跳保活；一体生成摘要、要点、4–10 条 Highlights、6–10 条地道表达（`vocab_notes`）与参考资源（`references`，自动过滤商业赞助与广告口播），并经确定性外链解析层（`scripts/pipeline/links.py`）自动挂载经校验的直达外链（`Wikipedia`、`豆瓣`、`Goodreads`、`Apple Podcasts`、`播客官网`、`原文`、`官网`）。
+  - **增量补跑通道（`--enrich` / `--enrich-links`）**：支持对存量单集按需低成本补齐知识卡片（`--enrich`），或单独对已有参考资源幂等回填/刷新多源直达外链（`--enrich-links`），既有摘要与逐字稿字节级不变。
 - **严格 Schema 契约校验与 CI 门禁（`scripts/validate_data.py --strict`）**
   - 内置基于 JSON Schema 与业务完整性的双层自动化校验器。
-  - 严格校验 `shows.json`、`index.json` 与各单集 JSON 间的元数据引用一致性、时间戳单调性、字段范围钳制与分类合法性，已以 `--strict` 模式集成进 GitHub Actions 工作流作为发布前的阻断式门禁。
-- **零构建原生模块化架构与 PWA 体验（v3.3）**
+  - 严格校验 `shows.json`、`index.json` 与各单集 JSON 间的元数据引用一致性、时间戳单调性、字段范围钳制、分类合法性以及参考资源外链规范（强拦截站内搜索结果页、短链跳转与域名伪造），已以 `--strict` 模式集成进 GitHub Actions 工作流作为发布前的阻断式门禁。
+- **零构建原生模块化架构与 PWA 体验（v3.6）**
   - **Zero-Build 原生解耦**：前端彻底告别单文件堆砌，分为语义 HTML 骨架、3 个独立原生 CSS 与 10 个 ES 模块，无 npm、无 Webpack/Vite 打包依赖，直接被浏览器原生解析运行。
   - **三级懒加载**：首屏仅拉取 `shows.json` 与当前节目的轻量 `index.json`，选中单集后按需懒加载单集完整 JSON；音频直链原站 MP3。
-  - **PWA 原生化**：内置 `manifest.json` 与 `sw.js`（`./data/**` 与音频流严格走 Network-Only，保障新单集零延迟可见），采用 `airshow-reader-v3` 静态缓存策略，深度适配 iOS/iPadOS Safari 液态玻璃透传与安全区。
-- **刊物级视觉与主动精听套件（M7 / M8-A）**
-  - **双模排印**：浅色暖纸（`#FAF8F4`）× 深色暖炭黑（`#151412`），`Newsreader` 西文衬线与 `Noto Sans SC` 复合字栈，可折叠知识卡片与 8 组确定性哈希嘉宾色标。
+  - **PWA 原生化**：内置 `manifest.json` 与 `sw.js`（`./data/**` 与音频流严格走 Network-Only，保障新单集零延迟可见），采用静态外壳缓存版本递增策略（`airshow-reader-v10`），深度适配桌面宽屏与 iOS/iPadOS Safari 液态玻璃透传、移动端三栏视图（`导读 / 逐字稿 / 笔记`）与安全区。
+- **刊物级视觉与主动精听套件（M7 / M8 / M12）**
+  - **双模排印与直达外链胶囊**：浅色暖纸（`#FAF8F4`）× 深色暖炭黑（`#151412`），`Newsreader` 西文衬线与 `Noto Sans SC` 复合字栈，可折叠知识卡片、书单/影视/播客直达外链胶囊与 8 组确定性哈希嘉宾色标。
   - **进度与锁屏控制**：进度条章节打点、`localStorage` 断点续播记忆、选集抽屉已听进度标，以及支持节目专属 512px 封面与 10s 步长的 Media Session 锁屏播放控制。
   - **精听训练**：三档“刮刮乐”盲听模式（清晰 / 遮中文 / 全盲听，点击单段刮开显形且不跳播）、单句区间自动复读与状态胶囊、URL Hash 直达书签，以及全套键盘快捷键（`Space` 播停、`←/→` ±5s、`Shift+←/→` ±15s、`R` 重听本段、`L` 单句复读、`B` 切换盲听、`/` 或 `⌘K` 搜索、`?` 帮助、`Esc` 退出）。
 
@@ -34,7 +34,7 @@
 ```text
 airshow-reader/
 ├── README.md                             # 项目说明与运维指南（本文件）
-├── SPEC.md                               # v3.3 技术规范、状态机、数据契约与前端规范
+├── SPEC.md                               # v3.6 技术规范、状态机、数据契约与前端规范
 ├── ITERATION.md                          # 迭代里程碑总览与验收记录
 ├── podcasts.json                         # 多播客核心配置注册表
 ├── glossaries/                           # 各播客专属常驻主播名单与术语校对表
@@ -42,9 +42,10 @@ airshow-reader/
 │   ├── sinica.md
 │   └── tal.md
 ├── requirements.txt                      # Python 依赖
-├── tests/                                # 稳定性加固单元测试（断点缓存、瘦身与断连降级）
+├── tests/                                # 后端管线稳定性与外链契约单元测试
 │   ├── __init__.py
-│   └── test_stability.py
+│   ├── test_stability.py
+│   └── test_reference_links.py
 ├── scripts/
 │   ├── process.py                        # 主处理命令行入口（参数解析与流程调度）
 │   ├── validate_data.py                  # 数据契约与内容完整性校验门禁
@@ -57,13 +58,14 @@ airshow-reader/
 │       ├── gemini.py                     # SDK 初始化、CH-A Interactions 异步轮询与双模容灾
 │       ├── prompts.py                    # 通道 A/B 与 Enrich 专用 Prompt 模板生成
 │       ├── hooks_tal.py                  # TAL 专属钩子（期号提取、无广告音频与花名册）
-│       ├── rss.py                        # RSS 抓取解析与 Show Notes 结构化清洗
-│       ├── runner.py                     # 单集全流程驱动、通道 A/B 调度与补跑引擎
+│       ├── rss.py                        # RSS 抓取解析与保留超链接的 Show Notes 清洗
+│       ├── links.py                      # 参考资源多源直达外链解析、实体消歧与可达性校验
+│       ├── runner.py                     # 单集全流程驱动、通道调度与补跑/补链引擎
 │       └── migrate.py                    # v2→v3 数据目录幂等迁移与新节目脚手架
 ├── docs/                                 # GitHub Pages 静态发布根目录
 │   ├── index.html                        # 语义化骨架（按序引用 CSS 与 ES Modules 入口）
 │   ├── manifest.json                     # PWA 应用清单（独立显示模式）
-│   ├── sw.js                             # PWA Service Worker（airshow-reader-v3 缓存）
+│   ├── sw.js                             # PWA Service Worker（静态外壳缓存 + 数据直连）
 │   ├── favicon.svg                       # 「声波书页」矢量站点图标
 │   ├── artwork-airshow-512.png           # The Air Show 专属 512px 专辑封面
 │   ├── artwork-sinica-512.png            # Sinica Podcast 专属 512px 专辑封面
@@ -114,11 +116,11 @@ pip install -r requirements.txt
 ### 2. 环境变量配置
 
 ```powershell
-# 必填（--dry-run、--migrate-only 与 validate_data.py 除外）
+# 必填（--dry-run、--migrate-only、--enrich-links 与 validate_data.py 除外）
 $env:GEMINI_API_KEY = "你的_Gemini_API_Key"
 
 # 可选覆盖项
-# $env:GEMINI_MODEL_CH_B = "gemini-3.8-flash"    # 亦向后兼容 GEMINI_MODEL
+# $env:GEMINI_MODEL_CH_B = "gemini-4-hydrogen"   # 亦向后兼容 GEMINI_MODEL
 # $env:GEMINI_THINKING_CH_B = "low"
 # $env:GEMINI_MODEL_CH_A = "gemini-4-carbon"
 # $env:GEMINI_THINKING_CH_A = "high"             # 留空默认 Carbon/Neon/Flash 均为 high
@@ -146,16 +148,22 @@ python scripts/process.py --show all --enrich --limit 0
 # 5) 演习查看待补跑清单（不调 API、不写盘）
 python scripts/process.py --show all --enrich --limit 0 --dry-run
 
-# 6) 仅执行 v2→v3 目录迁移与新节目初始化
+# 6) 仅对存量已有参考资源但缺失外链的单集执行多源直达外链回填（加 --force-links 可强制重刷已有外链）
+python scripts/process.py --show all --enrich-links --limit 0
+
+# 7) 演习查看待补外链单集清单（不发起外部检索、不写盘）
+python scripts/process.py --show all --enrich-links --limit 0 --dry-run
+
+# 8) 仅执行 v2→v3 目录迁移与新节目初始化
 python scripts/process.py --migrate-only
 
-# 7) 运行本地严格数据契约与 Schema 完整性校验门禁（与 CI 一致）
+# 9) 运行本地严格数据契约与 Schema 完整性校验门禁（与 CI 一致）
 python scripts/validate_data.py --strict
 
-# 8) 运行后端稳定性单元测试
+# 10) 运行后端稳定性与外链契约单元测试
 python -m unittest discover -s tests -v
 
-# 9) 启动本地静态预览服务（访问 http://127.0.0.1:8000）
+# 11) 启动本地静态预览服务（访问 http://127.0.0.1:8000）
 python -m http.server 8000 --directory docs
 ```
 
@@ -173,7 +181,7 @@ python -m http.server 8000 --directory docs
 | **Variable** | `GEMINI_MODEL_CH_A` | 否 | 置顶覆盖通道 A 模型（默认 `gemini-4-carbon`） |
 | **Variable** | `GEMINI_THINKING_CH_A` | 否 | 通道 A 思考等级（留空默认 `carbon`/`neon`/`flash` 均为 `high`） |
 | **Variable** | `CH_A_BG_TIMEOUT_SEC` | 否 | 通道 A Interactions 后台轮询超时秒数（默认 `900`） |
-| **Variable** | `GEMINI_MODEL_CH_B` | 否 | 置顶覆盖通道 B 转写模型（默认 `gemini-3.8-flash`） |
+| **Variable** | `GEMINI_MODEL_CH_B` | 否 | 置顶覆盖通道 B 转写模型（默认 `gemini-4-hydrogen`） |
 | **Variable** | `GEMINI_THINKING_CH_B` | 否 | 通道 B 思考等级（默认 `low`） |
 | **Variable** | `GEMINI_MODEL_ENRICH` | 否 | 置顶覆盖增量补跑模型（默认 `gemini-3.8-flash`） |
 | **Variable** | `GEMINI_THINKING_ENRICH` | 否 | 增量补跑思考等级（默认 `low`） |

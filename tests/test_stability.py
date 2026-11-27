@@ -1085,12 +1085,13 @@ class TestEnrichmentPipeline(unittest.TestCase):
     def tearDown(self):
         shutil.rmtree(self.temp_docs_data, ignore_errors=True)
 
+    @patch("pipeline.runner.resolve_references_links", side_effect=lambda refs, **kw: [{**r, "links": []} for r in refs])
     @patch("pipeline.runner.generate_structured_with_retry")
     @patch("pipeline.runner.load_glossary_for_show", return_value="Glossary")
     @patch("pipeline.runner.fetch_rss_show_notes_map", return_value={"Buzzsprout-100": "Show notes"})
     @patch("pipeline.runner.create_genai_client")
     def test_enrich_writes_atomically_and_is_idempotent(
-        self, mock_client_factory, mock_notes, mock_glossary, mock_gen
+        self, mock_client_factory, mock_notes, mock_glossary, mock_gen, mock_links
     ):
         mock_client_factory.return_value = MagicMock()
         mock_gen.return_value = EnrichmentResponse(

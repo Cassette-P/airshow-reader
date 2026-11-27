@@ -2557,42 +2557,104 @@
       "creator": "Joe Studwell",
       "category": "book",
       "note_zh": "Joe Studwell 2013 年出版的经典代表作，提炼出土地改革、出口导向型制造业和受控金融系统三大发展支柱。",
-      "start_sec": 95
+      "start_sec": 95,
+      "links": [
+        {
+          "source": "goodreads",
+          "label": "Goodreads",
+          "url": "https://www.goodreads.com/book/show/16144575-how-asia-works"
+        },
+        {
+          "source": "douban",
+          "label": "豆瓣",
+          "url": "https://book.douban.com/subject/25893995/"
+        }
+      ]
     },
     {
       "title": "How Africa Works: Success and Failure on the World's Last Developmental Frontier",
       "creator": "Joe Studwell",
       "category": "book",
       "note_zh": "Joe Studwell 于 2025 年出版的新作，深入探讨非洲因人口低密度与殖民遗产导致的增长阻碍及埃塞俄比亚等国的政策成败，为本期节目的核心主题。",
-      "start_sec": 140
+      "start_sec": 140,
+      "links": [
+        {
+          "source": "goodreads",
+          "label": "Goodreads",
+          "url": "https://www.goodreads.com/book/show/197239502-how-africa-works"
+        }
+      ]
     },
     {
       "title": "Competing for Soft Power: China’s Image-Making in Africa",
       "creator": "Maria Repnikova",
       "category": "book",
       "note_zh": "探讨中国在非洲软实力构建与媒介形象塑造的学术新作，Kaiser 预告将邀请作者专门录制下一期节目。",
-      "start_sec": 435
+      "start_sec": 435,
+      "links": [
+        {
+          "source": "goodreads",
+          "label": "Goodreads",
+          "url": "https://www.goodreads.com/book/show/245073775-competing-for-soft-power"
+        }
+      ]
     },
     {
       "title": "Agriculture on the Road to Industrialization",
       "creator": "John W. Mellor",
       "category": "book",
       "note_zh": "埃塞俄比亚前总理 Meles Zenawi 在丛林游击战期间随身研读的农业发展经济学名著，启发了其以小农为核心的发展战略。",
-      "start_sec": 2304
+      "start_sec": 2304,
+      "links": [
+        {
+          "source": "goodreads",
+          "label": "Goodreads",
+          "url": "https://www.goodreads.com/book/show/2450330.Agriculture_on_the_Road_to_Industrialization"
+        }
+      ]
     },
     {
       "title": "Made in Ethiopia",
       "creator": "Max Duncan & Xinyan Yu",
       "category": "media",
       "note_zh": "Kaiser 极力推荐的 2024 年独立观察类纪录片，真实记录了埃塞俄比亚杜肯东方工业园一家中资工厂的日常运营与地缘/社会冲突。",
-      "start_sec": 3920
+      "start_sec": 3920,
+      "links": [
+        {
+          "source": "wikipedia",
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Made_in_Ethiopia_(film)"
+        },
+        {
+          "source": "douban",
+          "label": "豆瓣",
+          "url": "https://movie.douban.com/subject/36858619/"
+        }
+      ]
     },
     {
       "title": "Earthly Powers (尘世权力)",
       "creator": "Anthony Burgess",
       "category": "book",
       "note_zh": "Joe Studwell 在节目尾声推荐的一部涉及广泛跨国漫游题材的 1980 年宏大历史长篇小说。",
-      "start_sec": 5684
+      "start_sec": 5684,
+      "links": [
+        {
+          "source": "wikipedia",
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Earthly_Powers"
+        },
+        {
+          "source": "goodreads",
+          "label": "Goodreads",
+          "url": "https://www.goodreads.com/book/show/8822.Earthly_Powers"
+        },
+        {
+          "source": "douban",
+          "label": "豆瓣",
+          "url": "https://book.douban.com/subject/2266777/"
+        }
+      ]
     }
   ]
 }

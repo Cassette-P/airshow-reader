@@ -2768,49 +2768,108 @@
       "creator": "Afra Wang (The New Yorker)",
       "category": "article",
       "note_zh": "Afra Wang 深入杭州良渚文化村的特写报道，讲述中国失意大厂技术人员如何通过 AI 编程和八字命理抱团探寻新出路。",
-      "start_sec": 315
+      "start_sec": 315,
+      "links": [
+        {
+          "source": "article",
+          "label": "原文",
+          "url": "https://www.newyorker.com/news/the-lede/what-chinas-vibe-coding-capital-can-tell-us-about-the-ai-boom"
+        }
+      ]
     },
     {
       "title": "In Line Behind a Billion People: How Scarcity Will Define China’s Ascent in the Next Decade",
       "creator": "Damien Ma, William Adams",
       "category": "book",
       "note_zh": "探讨“资源与机会稀缺”如何塑造中国竞争心态与社会焦虑的经典著作，Kaiser 在讨论中国人普遍害怕被时代甩下的焦虑感时提及。",
-      "start_sec": 1749
+      "start_sec": 1749,
+      "links": [
+        {
+          "source": "goodreads",
+          "label": "Goodreads",
+          "url": "https://www.goodreads.com/book/show/18431567-in-line-behind-a-billion-people"
+        }
+      ]
     },
     {
       "title": "Crazy English",
       "creator": "Evan Osnos (The New Yorker)",
       "category": "article",
       "note_zh": "Evan Osnos 报道李阳“疯狂英语”的经典非虚构特写，被嘉宾用来类比当下“知识付费”社群中那种通过学习 AI 重获尊严的个人救赎叙事。",
-      "start_sec": 2624
+      "start_sec": 2624,
+      "links": [
+        {
+          "source": "article",
+          "label": "原文",
+          "url": "https://www.newyorker.com/magazine/2008/04/28/crazy-english"
+        },
+        {
+          "source": "wikipedia",
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Crazy_English"
+        }
+      ]
     },
     {
       "title": "无图之旅：一代青年的自我寻路 (Journey Without a Map)",
       "creator": "廉思 (Lian Si)",
       "category": "book",
       "note_zh": "中央团校学者廉思撰写的青年田野调查之作，提出“与平凡和解、与失败握手”的时代信号，被本期播客作为观察中国青年心态变迁的关键文本深入讨论。",
-      "start_sec": 3316
+      "start_sec": 3316,
+      "links": [
+        {
+          "source": "douban",
+          "label": "豆瓣",
+          "url": "https://book.douban.com/subject/38395594/"
+        }
+      ]
     },
     {
       "title": "Whole Earth Catalog",
       "creator": "Stewart Brand",
       "category": "other",
       "note_zh": "20世纪六七十年代旧金山湾区反主流文化与高科技嬉皮士的圣经式出版物，Kaiser 借此对比良渚将前沿科技与神秘主义混搭的类似风貌。",
-      "start_sec": 4122
+      "start_sec": 4122,
+      "links": [
+        {
+          "source": "wikipedia",
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Whole_Earth_Catalog"
+        }
+      ]
     },
     {
       "title": "The Passing of the Dragon",
       "creator": "Ken Liu (刘宇昆)",
       "category": "book",
       "note_zh": "刘宇昆即将出版的新选集，其书名灵感源自 Ursula Le Guin 关于真理与不可言说之道的文学隐喻，由 Afra Wang 重点推荐。",
-      "start_sec": 5427
+      "start_sec": 5427,
+      "links": [
+        {
+          "source": "goodreads",
+          "label": "Goodreads",
+          "url": "https://www.goodreads.com/book/show/197351497-the-passing-of-the-dragon"
+        }
+      ]
     },
     {
       "title": "Home",
       "creator": "Marilynne Robinson",
       "category": "book",
       "note_zh": "普利策奖得主 Marilynne Robinson “基列四部曲”中的第二部，以极度质朴但内力深沉的文学技艺展现普通人的日常与情感重负，为 Kaiser Kuo 的本周诚意推荐。",
-      "start_sec": 5567
+      "start_sec": 5567,
+      "links": [
+        {
+          "source": "wikipedia",
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Home_(Robinson_novel)"
+        },
+        {
+          "source": "goodreads",
+          "label": "Goodreads",
+          "url": "https://www.goodreads.com/book/show/2924318-home"
+        }
+      ]
     }
   ]
 }

@@ -1419,14 +1419,28 @@
       "creator": "Theodore Roosevelt",
       "category": "other",
       "note_zh": "西捷航空前高管曾引用该著名演说中的“角斗场上的勇士”名句，回击主播对航司战略的纸上谈兵式批评。",
-      "start_sec": 1416
+      "start_sec": 1416,
+      "links": [
+        {
+          "source": "wikipedia",
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Citizenship_in_a_Republic"
+        }
+      ]
     },
     {
       "title": "Origin and Destination Survey (O&D Data)",
       "creator": "U.S. Department of Transportation (DOT)",
       "category": "other",
       "note_zh": "美国交通部发布的航空旅客始发与终到真实出行数据，被 Brett 用来分析洛杉矶机场国内本地客流市场份额。",
-      "start_sec": 1560
+      "start_sec": 1560,
+      "links": [
+        {
+          "source": "official",
+          "label": "官网",
+          "url": "https://www.transtats.bts.gov/Tables.asp?QO_VQ=EFI"
+        }
+      ]
     }
   ]
 }

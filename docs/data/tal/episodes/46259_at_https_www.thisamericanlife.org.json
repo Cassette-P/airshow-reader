@@ -124,21 +124,47 @@
       "creator": "CBC",
       "category": "media",
       "note_zh": "加拿大广播公司（CBC）出品的四集叙事播客系列，深度追踪了 Vienna Luke 卧底调查姐夫一案的完整始末，也是本期第一幕故事的最初来源。",
-      "start_sec": 2794
+      "start_sec": 2794,
+      "links": [
+        {
+          "source": "apple_podcasts",
+          "label": "Apple Podcasts",
+          "url": "https://podcasts.apple.com/us/podcast/personally-agent-layla/id1651894021"
+        }
+      ]
     },
     {
       "title": "All Fours",
       "creator": "Miranda July",
       "category": "book",
       "note_zh": "主持人 Aviva DeKornfeld 在节目尾声强烈推荐的 Miranda July 长篇小说，称这是自己唯一一本读完后立刻翻回第一页重读的书。",
-      "start_sec": 3295
+      "start_sec": 3295,
+      "links": [
+        {
+          "source": "wikipedia",
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/All_Fours_(novel)"
+        },
+        {
+          "source": "goodreads",
+          "label": "Goodreads",
+          "url": "https://www.goodreads.com/book/show/197798168-all-fours"
+        }
+      ]
     },
     {
       "title": "Miranda July (Substack)",
       "creator": "Miranda July",
       "category": "media",
       "note_zh": "节目与简介中共同推荐的作家 Miranda July 个人 Substack 专栏，收录了她的更多文学创作与随笔。",
-      "start_sec": 3307
+      "start_sec": 3307,
+      "links": [
+        {
+          "source": "official",
+          "label": "官网",
+          "url": "https://mirandajuly.substack.com/"
+        }
+      ]
     }
   ],
   "transcript": [

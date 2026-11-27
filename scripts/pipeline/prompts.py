@@ -124,7 +124,8 @@ def build_channel_a_system_instruction(
             "   - creator: author, institution, director, or publisher (empty string \"\" if unknown).\n"
             "   - category: one of 'book', 'article', 'media', 'other'.\n"
             "   - note_zh: one-sentence explanation of why it was mentioned or recommended.\n"
-            "   - start_sec: approximate integer seconds where it is mentioned in the transcript (within [0, duration_sec]), or null if only found in show notes and not located in audio.\n\n"
+            "   - start_sec: approximate integer seconds where it is mentioned in the transcript (within [0, duration_sec]), or null if only found in show notes and not located in audio.\n"
+            "   - Do NOT fabricate or guess external URLs or platform IDs; verified direct links are resolved deterministically downstream.\n\n"
             "Terminology and Glossary Reference:\n"
             f"{glossary_text}"
         )
@@ -158,7 +159,8 @@ def build_channel_a_system_instruction(
         "   - creator: author, institution, director, or publisher (empty string \"\" if unknown).\n"
         "   - category: one of 'book', 'article', 'media', 'other'.\n"
         "   - note_zh: one-sentence explanation of why it was mentioned or recommended.\n"
-        "   - start_sec: approximate integer seconds where it is mentioned in the transcript (within [0, duration_sec]), or null if only found in show notes and not located in audio.\n\n"
+        "   - start_sec: approximate integer seconds where it is mentioned in the transcript (within [0, duration_sec]), or null if only found in show notes and not located in audio.\n"
+        "   - Do NOT fabricate or guess external URLs or platform IDs; verified direct links are resolved deterministically downstream.\n\n"
         "Terminology and Glossary Reference:\n"
         f"{glossary_text}"
     )
@@ -210,7 +212,8 @@ def build_enrich_system_instruction(
             "   - creator: author, institution, director, or publisher (empty string \"\" if unknown).\n"
             "   - category: one of 'book', 'article', 'media', 'other'.\n"
             "   - note_zh: one-sentence explanation of why it was mentioned or recommended.\n"
-            "   - start_sec: approximate integer seconds where it is mentioned in the transcript (within [0, duration_sec]), or null if only found in show notes and not located in audio.\n\n"
+            "   - start_sec: approximate integer seconds where it is mentioned in the transcript (within [0, duration_sec]), or null if only found in show notes and not located in audio.\n"
+            "   - Do NOT fabricate or guess external URLs or platform IDs; verified direct links are resolved deterministically downstream.\n\n"
             "Terminology and Glossary Reference:\n"
             f"{glossary_text}"
         )
@@ -236,7 +239,8 @@ def build_enrich_system_instruction(
         "   - creator: author, institution, director, or publisher (empty string \"\" if unknown).\n"
         "   - category: one of 'book', 'article', 'media', 'other'.\n"
         "   - note_zh: one-sentence explanation of why it was mentioned or recommended.\n"
-        "   - start_sec: approximate integer seconds where it is mentioned in the transcript (within [0, duration_sec]), or null if only found in show notes and not located in audio.\n\n"
+        "   - start_sec: approximate integer seconds where it is mentioned in the transcript (within [0, duration_sec]), or null if only found in show notes and not located in audio.\n"
+        "   - Do NOT fabricate or guess external URLs or platform IDs; verified direct links are resolved deterministically downstream.\n\n"
         "Terminology and Glossary Reference:\n"
         f"{glossary_text}"
     )

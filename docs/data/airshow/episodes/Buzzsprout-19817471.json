@@ -1390,14 +1390,28 @@
       "creator": "Brian Sumers",
       "category": "article",
       "note_zh": "主播 Brian Sumers 创办的航空业商业分析 Newsletter，节目中提到其最新一期简讯评价美航执飞体验。",
-      "start_sec": 421
+      "start_sec": 421,
+      "links": [
+        {
+          "source": "official",
+          "label": "官网",
+          "url": "https://www.theairlineobserver.com/"
+        }
+      ]
     },
     {
       "title": "Cranky Flier",
       "creator": "Brett Snyder",
       "category": "article",
       "note_zh": "主播 Brett Snyder 的航空评论网站；节目中讨论了他近期撰写的分析美航（American Airlines）应优先利用 A321XLR 扩张南美航线网络的长文深度分析。",
-      "start_sec": 1246
+      "start_sec": 1246,
+      "links": [
+        {
+          "source": "official",
+          "label": "官网",
+          "url": "https://crankyflier.com/"
+        }
+      ]
     }
   ]
 }

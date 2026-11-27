@@ -2081,56 +2081,122 @@
       "creator": "Julie Michelle Klinger",
       "category": "book",
       "note_zh": "关于稀土开采历史与全球地缘环境政治的开创性学术专著，节目中多处引用其一手调研。",
-      "start_sec": 337
+      "start_sec": 337,
+      "links": [
+        {
+          "source": "goodreads",
+          "label": "Goodreads",
+          "url": "https://www.goodreads.com/book/show/34692015-rare-earth-frontiers"
+        }
+      ]
     },
     {
       "title": "How China Found Its Most Potent Weapon: The Real History of Beijing's Rare Earth Dominance",
       "creator": "Gloria Xiong & Jessica Chen Weiss",
       "category": "article",
       "note_zh": "本期节目的核心讨论论文，重新审视中国在稀土领域的主导地位形成史与地缘政治互动。",
-      "start_sec": 546
+      "start_sec": 546,
+      "links": [
+        {
+          "source": "article",
+          "label": "原文",
+          "url": "https://www.foreignaffairs.com/china/how-china-found-most-potent-weapon-xiong-weiss"
+        }
+      ]
     },
     {
       "title": "Powerful Patriots: Nationalist Protest in China's Foreign Relations",
       "creator": "Jessica Chen Weiss",
       "category": "book",
       "note_zh": "Jessica Chen Weiss 的第一本专著，探讨中国政府如何管理并利用自下而上的民族主义抗议情绪。",
-      "start_sec": 1740
+      "start_sec": 1740,
+      "links": [
+        {
+          "source": "wikipedia",
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Powerful_Patriots:_Nationalist_Protest_in_China%27s_Foreign_Relations"
+        },
+        {
+          "source": "goodreads",
+          "label": "Goodreads",
+          "url": "https://www.goodreads.com/book/show/22638042-powerful-patriots"
+        }
+      ]
     },
     {
       "title": "Politicizing Business: How Firms Are Made to Serve the Party-State in China",
       "creator": "Ning Leng",
       "category": "book",
       "note_zh": "Gloria Xiong 在薪火相传环节推荐的关于中国企业与党国体制关系的获奖专著。",
-      "start_sec": 4195
+      "start_sec": 4195,
+      "links": [
+        {
+          "source": "goodreads",
+          "label": "Goodreads",
+          "url": "https://www.goodreads.com/book/show/228483377-politicizing-business"
+        }
+      ]
     },
     {
       "title": "Healing the Heart of Democracy: The Courage to Create a Politics Worthy of the Human Spirit",
       "creator": "Parker J. Palmer",
       "category": "book",
       "note_zh": "Gloria Xiong 推荐的探讨社区精神与民主政治人文本质的经典著作。",
-      "start_sec": 4350
+      "start_sec": 4350,
+      "links": [
+        {
+          "source": "goodreads",
+          "label": "Goodreads",
+          "url": "https://www.goodreads.com/book/show/10836406-healing-the-heart-of-democracy"
+        }
+      ]
     },
     {
       "title": "The Scientist and the Spy: A True Story of China, the FBI, and Industrial Espionage",
       "creator": "Mara Hvistendahl",
       "category": "book",
       "note_zh": "Jessica Chen Weiss 推荐的关于中美产业间谍案及美国过度反应与比例原则反思的纪实作品。",
-      "start_sec": 4403
+      "start_sec": 4403,
+      "links": [
+        {
+          "source": "goodreads",
+          "label": "Goodreads",
+          "url": "https://www.goodreads.com/book/show/46064390-the-scientist-and-the-spy"
+        }
+      ]
     },
     {
       "title": "Whistler",
       "creator": "Ann Patchett",
       "category": "book",
       "note_zh": "Jessica Chen Weiss 推荐的虚构文学作品。",
-      "start_sec": 4450
+      "start_sec": 4450,
+      "links": [
+        {
+          "source": "goodreads",
+          "label": "Goodreads",
+          "url": "https://www.goodreads.com/book/show/242693052-whistler"
+        }
+      ]
     },
     {
       "title": "Angle of Repose",
       "creator": "Wallace Stegner",
       "category": "book",
       "note_zh": "Kaiser Kuo 推荐的1972年普利策奖获奖小说，借19世纪西部采矿背景刻画复杂人性与历史记忆。",
-      "start_sec": 4492
+      "start_sec": 4492,
+      "links": [
+        {
+          "source": "wikipedia",
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Angle_of_Repose"
+        },
+        {
+          "source": "goodreads",
+          "label": "Goodreads",
+          "url": "https://www.goodreads.com/book/show/292408.Angle_of_Repose"
+        }
+      ]
     }
   ]
 }

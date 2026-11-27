@@ -26,6 +26,7 @@ from pipeline.rss import (
     get_entry_guid,
     get_entry_pub_date,
     get_entry_show_notes,
+    html_to_markdown_show_notes,
 )
 from pipeline.storage import normalize_speaker
 
@@ -226,7 +227,11 @@ def fetch_tal_episode_page(slug_url: str, show_id: str = "tal") -> tuple[str, st
 
         label = label_el.get_text(strip=True) if label_el else f"Act {i}"
         header = header_el.get_text(strip=True) if header_el else ""
-        body = body_el.get_text(strip=True) if body_el else ""
+        body = (
+            html_to_markdown_show_notes(str(body_el), max_chars=0, base_url="https://www.thisamericanlife.org")
+            if body_el
+            else ""
+        )
 
         # Contributor extraction
         reporters = [
@@ -375,3 +380,24 @@ def hook_tal_preprocess(entry, show: dict) -> dict:
         "parsed_acts": parsed_acts,
         "episode_number": ep_num,
     }
+
+
+def fetch_tal_show_notes_by_episode_meta(
+    ep_data: dict,
+    show_id: str = "tal",
+    entry_link: str = "",
+) -> str:
+    """Fetch clean Markdown Show Notes (preserving inline links) for an existing TAL episode."""
+    if entry_link and entry_link.startswith(("http://", "https://")):
+        _, notes, _ = fetch_tal_episode_page(entry_link, show_id=show_id)
+        if notes:
+            return notes
+    ep_num = extract_tal_episode_number(
+        title=str(ep_data.get("title") or ""),
+        link=str(ep_data.get("audio_url") or ""),
+    )
+    if ep_num is None:
+        return ""
+    ep_url = f"https://www.thisamericanlife.org/{ep_num}"
+    _, notes, _ = fetch_tal_episode_page(ep_url, show_id=show_id)
+    return notes

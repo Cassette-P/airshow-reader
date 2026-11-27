@@ -131,35 +131,95 @@
       "creator": "Robert Hare",
       "category": "other",
       "note_zh": "整期节目探讨的核心心理评估工具，由加拿大心理学家Robert Hare于1980年研发并被全球法院与监狱广泛采用。",
-      "start_sec": 360
+      "start_sec": 360,
+      "links": [
+        {
+          "source": "wikipedia",
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Psychopathy_Checklist"
+        }
+      ]
     },
     {
       "title": "The Psychopath Test",
       "creator": "Jon Ronson",
       "category": "book",
       "note_zh": "记者Jon Ronson撰写的非虚构著作，本期节目Act Two直接节选自该书，同时也是整期节目的灵感来源之一。",
-      "start_sec": 2064
+      "start_sec": 2064,
+      "links": [
+        {
+          "source": "wikipedia",
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/The_Psychopath_Test"
+        },
+        {
+          "source": "goodreads",
+          "label": "Goodreads",
+          "url": "https://www.goodreads.com/book/show/12391521-the-psychopath-test"
+        },
+        {
+          "source": "douban",
+          "label": "豆瓣",
+          "url": "https://book.douban.com/subject/6402666/"
+        }
+      ]
     },
     {
       "title": "Fast Company",
       "creator": "",
       "category": "media",
       "note_zh": "美国知名商业杂志，曾刊文探讨商界潜在的精神变态CEO，并在其他案例皆已去世或入狱的情况下大胆将Al Dunlap列入其中。",
-      "start_sec": 2176
+      "start_sec": 2176,
+      "links": [
+        {
+          "source": "official",
+          "label": "官网",
+          "url": "https://www.fastcompany.com/"
+        },
+        {
+          "source": "wikipedia",
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Fast_Company"
+        }
+      ]
     },
     {
       "title": "If I Were King of the Forest",
       "creator": "Bert Lahr (from The Wizard of Oz)",
       "category": "media",
       "note_zh": "电影《绿野仙踪》中胆小狮的经典插曲，不仅呼应了Act Two的分幕标题，还在第二幕结尾作为极具反讽意味的过场配乐播放。",
-      "start_sec": 3022
+      "start_sec": 3022,
+      "links": [
+        {
+          "source": "wikipedia",
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/If_I_Were_King_of_the_Forest"
+        }
+      ]
     },
     {
       "title": "All Things Considered",
       "creator": "NPR",
       "category": "media",
       "note_zh": "NPR旗舰新闻广播节目，Show Notes中说明Alix Spiegel报道的Act One故事曾在该节目播出过另一版本。",
-      "start_sec": null
+      "start_sec": null,
+      "links": [
+        {
+          "source": "article",
+          "label": "原文",
+          "url": "https://www.npr.org/2011/05/26/136619689/can-a-test-really-tell-whos-a-psychopath"
+        },
+        {
+          "source": "podcast_site",
+          "label": "播客官网",
+          "url": "https://www.npr.org/programs/all-things-considered/"
+        },
+        {
+          "source": "wikipedia",
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/All_Things_Considered"
+        }
+      ]
     }
   ],
   "transcript": [

@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 """
-scripts/validate_data.py - Data Contract Validator for airshow-reader (v3.0 / v3.1)
+scripts/validate_data.py - Data Contract Validator for airshow-reader (v3.0 / v3.1 / v3.2)
 
 Validates:
 1. Global manifest (docs/data/shows.json)
 2. Show indices (docs/data/<show_id>/index.json)
 3. Episode files (docs/data/<show_id>/episodes/<safe_guid>.json)
-4. Knowledge cards (vocab_notes, references) and speaker normalizations
+4. Knowledge cards (vocab_notes, references, v3.2 references[].links) and speaker normalizations
 
 Standard library only. Exits with 0 on success, 1 on validation error (or on warning in --strict mode).
 """
@@ -19,6 +19,7 @@ from pathlib import Path
 import re
 import sys
 from typing import Any, Dict, List, Optional, Set, Tuple
+from urllib.parse import urlparse
 
 # Project root and data directories
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
@@ -36,6 +37,189 @@ TITLE_PREFIX_PATTERN = re.compile(
 
 # Reference categories allowed by v3.1 contract
 VALID_REFERENCE_CATEGORIES = {"book", "article", "media", "other"}
+
+# Reference link contract (v3.2)
+VALID_LINK_SOURCE_LABELS: Dict[str, str] = {
+    "wikipedia": "Wikipedia",
+    "douban": "豆瓣",
+    "goodreads": "Goodreads",
+    "apple_podcasts": "Apple Podcasts",
+    "podcast_site": "播客官网",
+    "article": "原文",
+    "official": "官网",
+}
+
+PLATFORM_DIRECT_URL_PATTERNS: Dict[str, re.Pattern] = {
+    "wikipedia": re.compile(
+        r"^https?://(?:en|zh)\.wikipedia\.org/wiki/(?!Special:)[^\s?]+$",
+        re.IGNORECASE,
+    ),
+    "douban": re.compile(
+        r"^https?://(?:book|movie|music)\.douban\.com/subject/\d+/?$",
+        re.IGNORECASE,
+    ),
+    "goodreads": re.compile(
+        r"^https?://(?:www\.)?goodreads\.com/book/show/\d+(?:[.-][^\s/?#]+)?/?$",
+        re.IGNORECASE,
+    ),
+    "apple_podcasts": re.compile(
+        r"^https?://podcasts\.apple\.com/(?:[a-z]{2}/)?podcast/(?:[^/\s]+/)?id\d+(?:\?i=\d+)?$",
+        re.IGNORECASE,
+    ),
+}
+
+PROHIBITED_SEARCH_URL_PATTERNS: List[re.Pattern] = [
+    re.compile(r"/w/index\.php\?[^#]*\bsearch=", re.IGNORECASE),
+    re.compile(r"/wiki/Special:Search", re.IGNORECASE),
+    re.compile(r"://search\.douban\.com(?:/|$)", re.IGNORECASE),
+    re.compile(r"douban\.com/subject_search", re.IGNORECASE),
+    re.compile(r"goodreads\.com/search(?:/|\?|$)", re.IGNORECASE),
+    re.compile(r"://(?:www\.)?google\.[a-z.]+/search(?:/|\?|$)", re.IGNORECASE),
+    re.compile(r"://(?:www\.)?bing\.com/search(?:/|\?|$)", re.IGNORECASE),
+    re.compile(r"://(?:www\.)?duckduckgo\.com/\?[^#]*\bq=", re.IGNORECASE),
+    re.compile(r"://search\.yahoo\.com(?:/|$)", re.IGNORECASE),
+]
+
+PROHIBITED_SHORTLINK_DOMAINS: Set[str] = {
+    "bit.ly",
+    "tinyurl.com",
+    "amzn.to",
+    "t.co",
+    "ow.ly",
+    "buff.ly",
+    "goo.gl",
+    "rb.gy",
+    "is.gd",
+    "podtrac.com",
+    "dts.podtrac.com",
+    "chartable.com",
+    "chtbl.com",
+    "link.chtbl.com",
+    "pdst.fm",
+    "pscrb.fm",
+    "arttrk.com",
+    "swap.fm",
+}
+
+BARE_RSS_HOST_DOMAINS: Set[str] = {
+    "feeds.buzzsprout.com",
+    "rss.art19.com",
+    "feeds.megaphone.fm",
+    "feeds.simplecast.com",
+    "feeds.transistor.fm",
+    "feeds.acast.com",
+    "feeds.libsyn.com",
+    "feeds.fireside.fm",
+    "feeds.captivate.fm",
+    "feeds.podbean.com",
+    "omnycontent.com",
+    "feeds.npr.org",
+}
+
+
+def validate_reference_links(
+    ep_tag: str,
+    r_idx: int,
+    ref: Dict[str, Any],
+    reporter: "ValidationReporter",
+) -> None:
+    """Validate Schema v3.2 references[].links contract."""
+    if "links" not in ref:
+        reporter.warn(f"{ep_tag} references #{r_idx} missing v3.2 'links' array field")
+        return
+
+    links = ref["links"]
+    if not isinstance(links, list):
+        reporter.error(f"{ep_tag} references #{r_idx} 'links' must be a list")
+        return
+
+    if len(links) > 4:
+        reporter.error(f"{ep_tag} references #{r_idx} 'links' count {len(links)} exceeds maximum 4")
+
+    seen_sources: Set[str] = set()
+    seen_urls: Set[str] = set()
+
+    for l_idx, link in enumerate(links):
+        l_tag = f"{ep_tag} references #{r_idx} links #{l_idx}"
+        if not isinstance(link, dict):
+            reporter.error(f"{l_tag} must be an object")
+            continue
+
+        source = link.get("source")
+        label = link.get("label")
+        url = link.get("url")
+
+        if not isinstance(source, str) or not source.strip():
+            reporter.error(f"{l_tag} missing non-empty string 'source'")
+            continue
+        if not isinstance(label, str) or not label.strip():
+            reporter.error(f"{l_tag} missing non-empty string 'label'")
+            continue
+        if not isinstance(url, str) or not url.strip():
+            reporter.error(f"{l_tag} missing non-empty string 'url'")
+            continue
+
+        if source not in VALID_LINK_SOURCE_LABELS:
+            reporter.error(
+                f"{l_tag} invalid source '{source}'; must be one of {sorted(list(VALID_LINK_SOURCE_LABELS.keys()))}"
+            )
+            continue
+
+        expected_label = VALID_LINK_SOURCE_LABELS[source]
+        if label != expected_label:
+            reporter.error(
+                f"{l_tag} label '{label}' does not match canonical label '{expected_label}' for source '{source}'"
+            )
+
+        if source in seen_sources:
+            reporter.error(f"{l_tag} duplicate source '{source}' within the same reference item")
+        seen_sources.add(source)
+
+        if len(url) > 1024 or any(ch.isspace() for ch in url):
+            reporter.error(f"{l_tag} url exceeds 1024 chars or contains whitespace: {repr(url)}")
+            continue
+
+        if not (url.startswith("https://") or url.startswith("http://")):
+            reporter.error(f"{l_tag} url must start with https:// or http://, got {repr(url)}")
+            continue
+
+        parsed = urlparse(url)
+        host = parsed.netloc.lower().strip()
+        if not host:
+            reporter.error(f"{l_tag} url missing host: {repr(url)}")
+            continue
+
+        # Normalize for duplicate URL check
+        norm_url = f"{parsed.scheme.lower()}://{host}{parsed.path.rstrip('/')}"
+        if parsed.query:
+            norm_url += f"?{parsed.query}"
+        if norm_url in seen_urls:
+            reporter.error(f"{l_tag} duplicate url '{url}' within the same reference item")
+        seen_urls.add(norm_url)
+
+        # Hard-blocked shortlinks / ad redirectors
+        bare_host = host[4:] if host.startswith("www.") else host
+        if bare_host in PROHIBITED_SHORTLINK_DOMAINS or any(
+            bare_host.endswith("." + d) for d in PROHIBITED_SHORTLINK_DOMAINS
+        ):
+            reporter.error(f"{l_tag} prohibited shortlink/ad-redirect domain in url: {url}")
+            continue
+
+        # Hard-blocked search result URLs
+        if any(pat.search(url) for pat in PROHIBITED_SEARCH_URL_PATTERNS):
+            reporter.error(f"{l_tag} prohibited search-result page url: {url}")
+            continue
+
+        # Platform-specific direct URL format check
+        plat_pat = PLATFORM_DIRECT_URL_PATTERNS.get(source)
+        if plat_pat is not None and not plat_pat.match(url):
+            reporter.error(f"{l_tag} url does not conform to '{source}' direct URL contract: {url}")
+
+        # Podcast site must not be raw RSS XML address
+        if source == "podcast_site":
+            path_l = parsed.path.lower()
+            if host in BARE_RSS_HOST_DOMAINS or path_l.endswith((".rss", ".xml", "/rss", "/feed", "/feed/")):
+                reporter.error(f"{l_tag} podcast_site must not point to bare RSS feed URL: {url}")
 
 
 def is_valid_iso8601_utc(dt_str: Any) -> bool:
@@ -612,6 +796,8 @@ def validate_episode_file(
                         f"{ep_tag} references #{r_idx} start_sec must be non-negative integer or null, got {repr(sec)}"
                     )
 
+                validate_reference_links(ep_tag, r_idx, ref, reporter)
+
             if not ref_order_correct:
                 ref_secs = [r.get("start_sec") for r in ref_list if isinstance(r, dict)]
                 reporter.warn(
@@ -624,7 +810,7 @@ def run_validation(target_show: str = "all", strict: bool = False) -> int:
     reporter = ValidationReporter(strict=strict)
 
     print("=" * 68)
-    print("           AIRSHOW-READER DATA CONTRACT VALIDATOR (v3.0 / v3.1)       ")
+    print("        AIRSHOW-READER DATA CONTRACT VALIDATOR (v3.0 / v3.1 / v3.2) ")
     print("=" * 68)
     print(f"Target show:  {target_show}")
     print(f"Strict mode:  {strict}")

@@ -1341,7 +1341,14 @@
       "creator": "Aviacionline",
       "category": "media",
       "note_zh": "专注于拉丁美洲与全球航空业新闻资讯的知名专业航空媒体，节目中引用其关于 FAA 赴墨安全审计及降级时间表的最新报道。",
-      "start_sec": 1845
+      "start_sec": 1845,
+      "links": [
+        {
+          "source": "official",
+          "label": "官网",
+          "url": "https://www.aviacionline.com/"
+        }
+      ]
     }
   ]
 }

@@ -24,6 +24,7 @@ from pipeline.config import (
 )
 from pipeline.migrate import migrate_to_v3_if_needed
 from pipeline.runner import (
+    run_enrich_links_pipeline,
     run_enrichment_pipeline,
     run_main_pipeline,
 )
@@ -39,6 +40,8 @@ def main():
     parser.add_argument("--max-chunks", type=int, default=0, help="仅处理前 M 个切片（0 表示全部，default: 0）")
     parser.add_argument("--migrate-only", action="store_true", default=False, help="仅执行 v2→v3 本地数据迁移，不访问网络、不调用 Gemini API，完成后退出 0")
     parser.add_argument("--enrich", action="store_true", default=False, help="增量补跑模式：仅对存量单集补跑知识卡片（vocab_notes 与 references），低成本轻量模型")
+    parser.add_argument("--enrich-links", action="store_true", default=False, help="参考资源外链增量补跑模式：仅对存量含 references 但缺失 links 的单集确定性补齐直达外链（无需 GEMINI_API_KEY）")
+    parser.add_argument("--force-links", action="store_true", default=False, help="配合 --enrich-links 使用，忽略已有 links 键并强制重新解析刷新")
     parser.add_argument("--no-cache", action="store_true", default=False, help="忽略已有 Channel B 缓存并强制重跑")
     args = parser.parse_args()
 
@@ -60,6 +63,11 @@ def main():
             log("MIGRATE", "Migration completed successfully. Exiting 0 as requested by --migrate-only.")
         else:
             log("MIGRATE", "Data already in v3 format or nothing to migrate. Exiting 0.")
+        sys.exit(0)
+
+    # [ENRICH-LINKS DETERMINISTIC BACKFILL - NO GEMINI API KEY REQUIRED]
+    if args.enrich_links:
+        run_enrich_links_pipeline(args, config)
         sys.exit(0)
 
     # [ENRICH INCREMENTAL BACKFILL]

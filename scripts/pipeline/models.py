@@ -1,7 +1,44 @@
 """Pydantic data schemas and field clamping/sorting logic."""
 
 from typing import Any, Literal, Optional
+from urllib.parse import urlparse
 from pydantic import BaseModel, Field
+
+VALID_LINK_SOURCES: tuple[str, ...] = (
+    "article",
+    "official",
+    "apple_podcasts",
+    "podcast_site",
+    "wikipedia",
+    "goodreads",
+    "douban",
+)
+
+SOURCE_LABEL_MAP: dict[str, str] = {
+    "wikipedia": "Wikipedia",
+    "douban": "豆瓣",
+    "goodreads": "Goodreads",
+    "apple_podcasts": "Apple Podcasts",
+    "podcast_site": "播客官网",
+    "article": "原文",
+    "official": "官网",
+}
+
+SOURCE_PRIORITY: dict[str, int] = {src: idx for idx, src in enumerate(VALID_LINK_SOURCES)}
+
+
+class ReferenceLink(BaseModel):
+    source: Literal[
+        "wikipedia",
+        "douban",
+        "goodreads",
+        "apple_podcasts",
+        "podcast_site",
+        "article",
+        "official",
+    ] = Field(description="Platform/source identifier for this verified direct link")
+    label: str = Field(description="Canonical display label mapped strictly from source")
+    url: str = Field(description="Verified direct canonical URL (http/https)")
 
 
 class TranscriptSegment(BaseModel):
@@ -159,8 +196,58 @@ def clamp_and_sort_vocab_notes(raw_vocab_notes: list[Any], duration_sec: int) ->
     return vocab_notes
 
 
+def normalize_reference_links(raw_links: Any, max_links: int = 4) -> list[dict]:
+    """Normalize, deduplicate (by source and canonical url), sort by fixed priority, and cap ReferenceLink items."""
+    if not isinstance(raw_links, list):
+        return []
+
+    seen_sources: set[str] = set()
+    seen_urls: set[str] = set()
+    normalized: list[dict] = []
+
+    for item in raw_links:
+        if hasattr(item, "source"):
+            source = str(item.source or "").strip().lower()
+            url = str(item.url or "").strip()
+        elif isinstance(item, dict):
+            source = str(item.get("source") or "").strip().lower()
+            url = str(item.get("url") or "").strip()
+        else:
+            continue
+
+        if source not in SOURCE_LABEL_MAP:
+            continue
+        if not url or len(url) > 1024 or any(ch.isspace() for ch in url):
+            continue
+        if not (url.startswith("https://") or url.startswith("http://")):
+            continue
+
+        parsed = urlparse(url)
+        if not parsed.netloc:
+            continue
+        dedup_url = f"{parsed.scheme.lower()}://{parsed.netloc.lower()}{parsed.path.rstrip('/')}"
+        if parsed.query:
+            dedup_url += f"?{parsed.query}"
+
+        if source in seen_sources or dedup_url in seen_urls:
+            continue
+
+        seen_sources.add(source)
+        seen_urls.add(dedup_url)
+        normalized.append({
+            "source": source,
+            "label": SOURCE_LABEL_MAP[source],
+            "url": url,
+        })
+
+    normalized.sort(key=lambda x: SOURCE_PRIORITY.get(x["source"], 999))
+    if len(normalized) > max_links:
+        normalized = normalized[:max_links]
+    return normalized
+
+
 def clamp_and_sort_references(raw_references: list[Any], duration_sec: int) -> list[dict]:
-    """Clamp references start_sec into [0, duration_sec], validate category, truncate to max 10, sort with None at end."""
+    """Clamp references start_sec into [0, duration_sec], validate category, normalize links, truncate to max 10, sort with None at end."""
     references = []
     for r in raw_references:
         title = r.title if hasattr(r, "title") else r["title"]
@@ -168,6 +255,7 @@ def clamp_and_sort_references(raw_references: list[Any], duration_sec: int) -> l
         category = r.category if hasattr(r, "category") else r.get("category", "other")
         note_zh = r.note_zh if hasattr(r, "note_zh") else r["note_zh"]
         start_sec = r.start_sec if hasattr(r, "start_sec") else r.get("start_sec")
+        raw_links = r.links if hasattr(r, "links") else (r.get("links", []) if isinstance(r, dict) else [])
 
         st_sec = None
         if start_sec is not None:
@@ -182,6 +270,7 @@ def clamp_and_sort_references(raw_references: list[Any], duration_sec: int) -> l
             "category": cat,
             "note_zh": note_zh.strip(),
             "start_sec": st_sec,
+            "links": normalize_reference_links(raw_links),
         })
     if len(references) > 10:
         references = references[:10]

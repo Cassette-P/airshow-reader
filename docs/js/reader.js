@@ -463,6 +463,53 @@ export function renderKnowledgeCards(detail) {
           row.appendChild(note);
         }
 
+        if (Array.isArray(item.links) && item.links.length > 0) {
+          const validLinks = item.links.filter(
+            (lnk) => lnk && typeof lnk.url === 'string' && /^https?:\/\//i.test(lnk.url.trim())
+          );
+          if (validLinks.length > 0) {
+            const linksRow = document.createElement('div');
+            linksRow.className = 'ref-links-row';
+            const refTitleText = String(item.title || '').trim();
+
+            validLinks.forEach((lnk) => {
+              const cleanUrl = lnk.url.trim();
+              const labelText = String(lnk.label || lnk.source || '链接').trim();
+              const sourceKey = String(lnk.source || '').trim();
+
+              const pill = document.createElement('a');
+              pill.className = 'ref-link-pill';
+              pill.href = cleanUrl;
+              pill.target = '_blank';
+              pill.rel = 'noopener noreferrer';
+              if (sourceKey) {
+                pill.dataset.source = sourceKey;
+              }
+              const ariaPrefix = ['article', 'official', 'podcast_site'].includes(sourceKey)
+                ? `打开《${refTitleText}》${labelText}`
+                : `在${labelText}查看《${refTitleText}》`;
+              pill.setAttribute('aria-label', `${ariaPrefix}（新窗口打开）`);
+
+              const labelSpan = document.createElement('span');
+              labelSpan.textContent = labelText;
+              pill.appendChild(labelSpan);
+
+              pill.insertAdjacentHTML(
+                'beforeend',
+                '<svg class="ref-link-icon" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>'
+              );
+
+              pill.addEventListener('click', (e) => {
+                e.stopPropagation();
+              });
+
+              linksRow.appendChild(pill);
+            });
+
+            row.appendChild(linksRow);
+          }
+        }
+
         elements.referencesList.appendChild(row);
       });
     } else {

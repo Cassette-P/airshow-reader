@@ -1605,28 +1605,61 @@
       "creator": "The New Yorker",
       "category": "media",
       "note_zh": "Brett 引用《纽约客》此前关于美航 Admirals Club 历史的文章，回顾休息室从1939年免费邀请制到因歧视诉讼被迫转变为收费制的演变过程。",
-      "start_sec": 260
+      "start_sec": 260,
+      "links": [
+        {
+          "source": "official",
+          "label": "官网",
+          "url": "https://www.newyorker.com/"
+        },
+        {
+          "source": "wikipedia",
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/The_New_Yorker"
+        }
+      ]
     },
     {
       "title": "Cranky Flier",
       "creator": "Brett Snyder",
       "category": "article",
       "note_zh": "Brett 提到自己在 Cranky Flier 上发表关于菲尼克斯机场扩建新航站楼及休息室需求膨胀的行业分析博客文章。",
-      "start_sec": 1361
+      "start_sec": 1361,
+      "links": [
+        {
+          "source": "official",
+          "label": "官网",
+          "url": "https://crankyflier.com/"
+        }
+      ]
     },
     {
       "title": "Simple Flying",
       "creator": "Simple Flying",
       "category": "media",
       "note_zh": "Jon 提及 Simple Flying 关于美联航 LAX 枢纽四架波音 787 同一小时出港导致高密度商务舱旅客挤爆 Polaris 休息室的分析报道。",
-      "start_sec": 1456
+      "start_sec": 1456,
+      "links": [
+        {
+          "source": "official",
+          "label": "官网",
+          "url": "https://simpleflying.com/"
+        }
+      ]
     },
     {
       "title": "Credit Card Competition Act",
       "creator": "United States Congress",
       "category": "other",
       "note_zh": "Jon 提及美国国会正在推进的《信用卡竞争法案》，指出其对刷卡手续费（Interchange Fees）的监管将重创航司联名卡生态。",
-      "start_sec": 2251
+      "start_sec": 2251,
+      "links": [
+        {
+          "source": "official",
+          "label": "官网",
+          "url": "https://www.durbin.senate.gov/newsroom/press-releases/durbin-marshall-reintroduce-the-credit-card-competition-act"
+        }
+      ]
     }
   ]
 }

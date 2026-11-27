@@ -46,16 +46,29 @@
     - `validate_data.py --strict` 零报错通过；
     - 真实冒烟实测一次性命中 `gemini-4-carbon @ high`，`transport=interactions_bg`，根除 GitHub Actions 与本地代理断流回退 `gemini-3.8-flash` 隐患。
 
+- [x] **M12**：参考资源多源直达外链、存量全量回填与 Channel B 模型升级（2026-11-27 通过，Schema v3.2）
+  - **后端确定性解析层与 `--enrich-links`**：
+    1. `rss.py` 与 `hooks_tal.py` 清洗 HTML 时保留正文有效超链接为 Markdown `[锚文本](URL)`，自动剥离 `utm_*` 等追踪参数并过滤商业赞助/短链；
+    2. 新增 `scripts/pipeline/links.py`，按内容细类与语种路由对接 MediaWiki Action API、Goodreads `book/auto_complete`、豆瓣 `j/subject_suggest`、Apple iTunes Search API 与 RSS `<channel><link>`，内置同名实体主创/体裁强消歧、防维基消歧义页及反搜索页/反短链红线；
+    3. 扩展 `models.py`（`ReferenceLink` 与 `normalize_reference_links` 固定优先级排序、去重、上限 4 条）、`prompts.py` 与 `runner.py` / `process.py`（接入主流程 `[6.5]`、`--enrich` 与免 `GEMINI_API_KEY` 的 `--enrich-links` / `--force-links` 幂等补链通道）；
+    4. Channel B 默认首选模型升级至 `gemini-4-hydrogen`（候选池 `["gemini-4-hydrogen", "gemini-3.8-flash", "gemini-3.5-flash-lite"]`）。
+  - **校验门禁、单元测试与前端呈现**：
+    - `scripts/validate_data.py` 升级至 v3.2 门禁（强校验 `source`/`label` 映射、平台直达路径正则、上限 4 条、反重复、硬阻断搜索页/短链，`--strict` 下缺失 `links` 升级阻断）；
+    - 新增 `tests/test_reference_links.py`，全量 **47 项单元测试** 100% 通过；
+    - `docs/js/reader.js` 与 `docs/css/components.css` 落地刊物风 `.ref-links-row` / `a.ref-link-pill` 外链胶囊（`target="_blank"`、`rel="noopener noreferrer"`、11×11 箭头 SVG、空数组零空容器），`docs/sw.js` 升级至 `airshow-reader-v10`。
+  - **存量 20 期全量补链、人工级质检与验收**：
+    - 全程零 Gemini API 调用完成存量 20 期 / 72 条参考资源补链与逐条人工级 HTTP/标题核验（命中 **70/72 条、103 枚** 真实直达外链，2 条不可达站点依宁缺毋滥留 `[]`，零同名误配/搜索页/死链），二次执行 `--enrich-links` 严格幂等（`Attempted: 0, Skipped: 20`）；
+    - `validate_data.py --strict`（0 错 0 告警）与桌面 1280px / 移动 375px / 窄屏 320px 浅深双模浏览器验证全通（Console 0 报错、零横向溢出）。
+
 ---
 
-## 当前稳定基线：v3.5 Channel A 旗舰异步轮询与双模长思考保活基线
+## 当前稳定基线：v3.6 参考资源多源直达外链与 Gemini 4 双通道基线
 
-- **当前线上资产规模**：3 档活跃播客（*The Air Show* 11 期 + *Sinica Podcast* 7 期 + *This American Life* 1 期，共 19 期），全量覆盖 v3.1 知识卡片与分幕导读，CI 门禁与定时巡检持续自动运行。
+- **当前线上资产规模**：3 档活跃播客（*The Air Show* 11 期 + *Sinica Podcast* 7 期 + *This American Life* 2 期，共 20 期 / 72 条参考资源 / 103 枚核验直达外链），全量覆盖 v3.2 参考资源多源外链、v3.1 知识卡片与分幕导读，CI 门禁与定时巡检持续自动运行。
 - **架构演进成果**：
-  - 断点防丢：Channel B 中间结果自动落盘，彻底解决长音频在 Channel A 断连导致的重复转写 Token 与时间浪费；
-  - 异步轮询：Channel A 默认锁定 `gemini-4-carbon @ high`，基于 Interactions API 后台执行与短连接轮询，根本消除流式长静默超时；
-  - 思维心跳保活回退：无缝兜底 `stream_with_thoughts`，在 SDK 不支持时自动启用思维分片保活并纯净过滤；
-  - 弹性容灾：300s 超时、Socket 断连重建与思考档位平滑降级，确保大单集在各种网络波动下稳定收敛；
+  - 双通道 Gemini 4 升级：Channel A 默认 `gemini-4-carbon @ high`（Interactions API 异步轮询 + `stream_with_thoughts` 心跳回退），Channel B 默认升级 `gemini-4-hydrogen`（低思考模式 + 断点缓存 `.cache/ch_b/`）；
+  - 确定性多源外链引擎：`scripts/pipeline/links.py` 联合 Show Notes 一手链接、MediaWiki / Goodreads / 豆瓣 / iTunes 公开接口与主创消歧规则自动挂链，严禁 LLM 凭记忆盲猜数字 ID；
+  - 弹性容灾与门禁：300s 超时、Socket 断连重建、思考档位平滑降级与 `validate_data.py --strict` 发布阻断门禁；
   - 风格自适应：`analytical` 深度分析体与 `narrative` 特稿分幕体双引擎并存驱动。
 - **后续可选演进池（Backlog，按需排期）**：
   1. **跨单集全局检索**：直接索引全部 `index.json`，支持跨播客、跨期一键搜话题直达；

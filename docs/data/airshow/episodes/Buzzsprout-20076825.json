@@ -1502,7 +1502,19 @@
       "creator": "John Collison & Ben Thompson",
       "category": "media",
       "note_zh": "Jon Ostrower 提及美联航 CEO Scott Kirby 在该播客接受采访时谈及常旅客积分兑换的实际运载成本核算逻辑。",
-      "start_sec": 912
+      "start_sec": 912,
+      "links": [
+        {
+          "source": "apple_podcasts",
+          "label": "Apple Podcasts",
+          "url": "https://podcasts.apple.com/us/podcast/cheeky-pint/id1821055332"
+        },
+        {
+          "source": "podcast_site",
+          "label": "播客官网",
+          "url": "https://cheekypint.substack.com/"
+        }
+      ]
     }
   ]
 }

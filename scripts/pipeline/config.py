@@ -40,7 +40,7 @@ DEFAULT_HEADERS = {
 }
 
 # Default model pools
-DEFAULT_CH_B_POOL = ["gemini-3.8-flash", "gemini-4-hydrogen", "gemini-3.5-flash-lite"]
+DEFAULT_CH_B_POOL = ["gemini-4-hydrogen", "gemini-3.8-flash", "gemini-3.5-flash-lite"]
 DEFAULT_CH_A_POOL = ["gemini-4-carbon", "gemini-4-neon", "gemini-3.8-flash"]
 DEFAULT_ENRICH_POOL = ["gemini-3.8-flash", "gemini-4-hydrogen", "gemini-3.5-flash-lite"]
 

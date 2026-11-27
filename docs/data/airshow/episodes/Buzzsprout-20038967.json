@@ -1508,7 +1508,14 @@
       "creator": "US Congress",
       "category": "article",
       "note_zh": "节目中深入讨论了该适航认证改革法案对波音 MAX 10 认证所带来的 EICAS 驾驶舱告警系统合规要求与豁免争议。",
-      "start_sec": 1877
+      "start_sec": 1877,
+      "links": [
+        {
+          "source": "article",
+          "label": "原文",
+          "url": "https://democrats-transportation.house.gov/imo/media/doc/2020-12-20%20Aircraft%20Certification,%20Safety,%20and%20Accountability%20Act%20-%20Summary1.pdf"
+        }
+      ]
     }
   ]
 }

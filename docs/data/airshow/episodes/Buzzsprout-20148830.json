@@ -1404,21 +1404,42 @@
       "creator": "Jon Ostrower",
       "category": "article",
       "note_zh": "Jon 提及旗下记者 Julie Johnson 飞往新加坡实地考察新航新客舱后发布的深度调查报道。",
-      "start_sec": 360
+      "start_sec": 360,
+      "links": [
+        {
+          "source": "official",
+          "label": "官网",
+          "url": "https://theaircurrent.com/"
+        }
+      ]
     },
     {
       "title": "Skift Aviation Forum",
       "creator": "Skift",
       "category": "media",
       "note_zh": "Jon 参加的纽约航空行业论坛，期间多位航司高管对新航新客舱的设计不一致性表达了批评。",
-      "start_sec": 400
+      "start_sec": 400,
+      "links": [
+        {
+          "source": "official",
+          "label": "官网",
+          "url": "https://live.skift.com/skift-aviation-forum/"
+        }
+      ]
     },
     {
       "title": "Cirium",
       "creator": "Cirium",
       "category": "other",
       "note_zh": "Brett 引用该航空数据分析平台中的 ARC/BSP 数据，分析新加坡航空美国航线的本地与中转旅客流向。",
-      "start_sec": 1800
+      "start_sec": 1800,
+      "links": [
+        {
+          "source": "official",
+          "label": "官网",
+          "url": "https://www.cirium.com/"
+        }
+      ]
     }
   ]
 }

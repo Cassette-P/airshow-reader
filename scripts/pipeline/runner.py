@@ -25,6 +25,7 @@ from pipeline.gemini import (
     run_channel_a,
     run_channel_b,
 )
+from pipeline.links import resolve_references_links
 from pipeline.models import (
     EnrichmentResponse,
     clamp_and_sort_references,
@@ -37,6 +38,7 @@ from pipeline.prompts import (
 )
 from pipeline.rss import (
     fetch_rss,
+    fetch_rss_show_notes_and_links_map,
     fetch_rss_show_notes_map,
     filter_new_episodes,
     get_entry_audio_url,
@@ -171,6 +173,13 @@ def process_episode(entry, args, show: dict, glossary_text: str) -> None:
             content_style=show.get("content_style", "analytical"),
         )
 
+        # [6.5 RESOLVE_REFERENCE_LINKS]
+        resolved_references = resolve_references_links(
+            summary_info.get("references", []),
+            show_notes=show_notes,
+            show_id=show_id,
+        )
+
         episode_record = {
             "guid": guid,
             "title": title,
@@ -181,7 +190,7 @@ def process_episode(entry, args, show: dict, glossary_text: str) -> None:
             "key_takeaways_zh": summary_info.get("key_takeaways_zh", []),
             "highlights": summary_info.get("highlights", []),
             "vocab_notes": summary_info.get("vocab_notes", []),
-            "references": summary_info.get("references", []),
+            "references": resolved_references,
             "transcript": transcript,
         }
 
@@ -367,6 +376,11 @@ def run_enrichment_pipeline(args, config: dict) -> None:
 
                 vocab_notes = clamp_and_sort_vocab_notes(parsed_resp.vocab_notes, duration_sec)
                 references = clamp_and_sort_references(parsed_resp.references, duration_sec)
+                references = resolve_references_links(
+                    references,
+                    show_notes=show_notes,
+                    show_id=show_id,
+                )
 
                 # Merge ONLY vocab_notes and references into ep_data, leaving all existing fields untouched
                 ep_data["vocab_notes"] = vocab_notes
@@ -394,6 +408,162 @@ def run_enrichment_pipeline(args, config: dict) -> None:
         sys.exit(1)
 
     log("ENRICH", f"Enrichment process finished. Attempted: {total_attempted}, Failed: {total_failed}, Skipped: {total_skipped}.")
+
+
+def run_enrich_links_pipeline(args, config: dict) -> None:
+    """[ENRICH-LINKS] Deterministic, idempotent reference link backfill without calling Gemini API."""
+    all_shows = config.get("shows", [])
+    valid_show_ids = {s["id"] for s in all_shows}
+
+    if args.show != "all" and args.show not in valid_show_ids:
+        log("ERROR", f"Unknown show_id: '{args.show}'. Valid configured shows: {sorted(list(valid_show_ids))}")
+        sys.exit(1)
+
+    if args.show == "all":
+        target_shows = [s for s in all_shows if s.get("enabled", True)]
+    else:
+        target_shows = [s for s in all_shows if s["id"] == args.show]
+
+    if not target_shows:
+        log("FILTER", "No enabled shows found to process. Exiting cleanly.")
+        sys.exit(0)
+
+    force_links = bool(getattr(args, "force_links", False))
+    if args.dry_run:
+        log("LINKS", "[DRY-RUN] Dry run enabled. No external link verification requests or file writes will be performed.")
+
+    total_attempted = 0
+    total_failed = 0
+    total_skipped = 0
+
+    for show in target_shows:
+        show_id = show["id"]
+        show_dir = DOCS_DATA_DIR / show_id
+        index_file = show_dir / "index.json"
+
+        if not index_file.exists():
+            log("LINKS", f"No index.json found at {index_file}. Skipping show.", show_id=show_id)
+            continue
+
+        try:
+            with open(index_file, "r", encoding="utf-8") as f:
+                index_data = json.load(f)
+        except Exception as e:
+            log("ERROR", f"Failed to read index.json for '{show_id}': {e}", show_id=show_id)
+            continue
+
+        raw_episodes = index_data.get("episodes", [])
+        sorted_episodes = sorted(raw_episodes, key=lambda x: x.get("pub_date", ""), reverse=True)
+
+        candidates = []
+        show_skipped = 0
+        for ep_meta in sorted_episodes:
+            guid = ep_meta.get("guid")
+            if not guid:
+                continue
+            safe_guid = make_safe_guid(guid)
+            ep_file_rel = ep_meta.get("file", f"episodes/{safe_guid}.json")
+            ep_file = show_dir / ep_file_rel
+            if not ep_file.exists():
+                log("WARN", f"Episode file {ep_file} referenced in index does not exist. Skipping.", show_id=show_id)
+                continue
+
+            try:
+                with open(ep_file, "r", encoding="utf-8") as f:
+                    ep_data = json.load(f)
+            except Exception as e:
+                log("ERROR", f"Failed to read {ep_file}: {e}", show_id=show_id)
+                continue
+
+            refs = ep_data.get("references")
+            if not isinstance(refs, list) or len(refs) == 0:
+                show_skipped += 1
+                total_skipped += 1
+                continue
+
+            if not force_links and all(isinstance(r, dict) and isinstance(r.get("links"), list) for r in refs):
+                show_skipped += 1
+                total_skipped += 1
+                continue
+
+            candidates.append((ep_meta, ep_file, ep_data))
+
+        log(
+            "LINKS",
+            f"Found {len(candidates)} episode(s) needing reference links (skipped: {show_skipped}, force={force_links}).",
+            show_id=show_id,
+        )
+
+        if not candidates:
+            continue
+
+        if args.limit > 0:
+            candidates = candidates[:args.limit]
+            log("LINKS", f"Selected {len(candidates)} episode(s) per --limit {args.limit}.", show_id=show_id)
+
+        show_notes_map: dict[str, str] = {}
+        entry_links_map: dict[str, str] = {}
+        if not args.dry_run:
+            if show.get("scraper_hook") == "tal":
+                show_notes_map, entry_links_map = fetch_rss_show_notes_and_links_map(
+                    show.get("rss_url", ""), show_id=show_id, max_chars=8000
+                )
+            else:
+                show_notes_map = fetch_rss_show_notes_map(show.get("rss_url", ""), show_id=show_id, max_chars=8000)
+
+        for ep_meta, ep_file, ep_data in candidates:
+            total_attempted += 1
+            guid = ep_data.get("guid", ep_meta.get("guid", ""))
+            title = ep_data.get("title", ep_meta.get("title", "Untitled Episode"))
+            refs = ep_data.get("references", [])
+            show_notes = show_notes_map.get(guid, "")
+
+            log("LINKS", f"--- Candidate: '{title}' ({guid}) ---", show_id=show_id)
+            log(
+                "LINKS",
+                f"  File: {ep_file.name} | References: {len(refs)} | Hit RSS Show Notes: {bool(show_notes)}",
+                show_id=show_id,
+            )
+
+            if args.dry_run:
+                log("LINKS", f"[DRY-RUN] Would resolve links for {len(refs)} reference(s) in {ep_file.name}. Skipped.", show_id=show_id)
+                continue
+
+            try:
+                if show.get("scraper_hook") == "tal":
+                    from pipeline.hooks_tal import fetch_tal_show_notes_by_episode_meta
+                    tal_notes = fetch_tal_show_notes_by_episode_meta(
+                        ep_data, show_id=show_id, entry_link=entry_links_map.get(guid, "")
+                    )
+                    if tal_notes:
+                        show_notes = f"{tal_notes}\n\n{show_notes}".strip() if show_notes else tal_notes
+
+                resolved_refs = resolve_references_links(
+                    refs,
+                    show_notes=show_notes,
+                    show_id=show_id,
+                )
+
+                # Update ONLY the 'links' field in-place on each existing ReferenceItem
+                for orig_ref, res_ref in zip(ep_data["references"], resolved_refs):
+                    orig_ref["links"] = res_ref.get("links", [])
+
+                tmp_ep = ep_file.with_suffix(".json.tmp")
+                with open(tmp_ep, "w", encoding="utf-8") as f:
+                    json.dump(ep_data, f, ensure_ascii=False, indent=2)
+                os.replace(tmp_ep, ep_file)
+
+                link_count = sum(len(r.get("links", [])) for r in ep_data["references"])
+                log("LINKS", f"Saved {ep_file.name} ({len(refs)} references, {link_count} total links).", show_id=show_id)
+            except Exception as e:
+                total_failed += 1
+                log("ERROR", f"Failed to enrich links for episode '{title}' ({guid}): {e}", show_id=show_id)
+
+    if total_attempted > 0 and total_failed == total_attempted and not args.dry_run:
+        log("ERROR", f"All {total_attempted} attempted link-enrichment episode(s) failed in this run.")
+        sys.exit(1)
+
+    log("LINKS", f"Enrich-links process finished. Attempted: {total_attempted}, Failed: {total_failed}, Skipped: {total_skipped}.")
 
 
 def run_main_pipeline(args, config: dict, target_shows: list[dict]) -> tuple[int, int]:

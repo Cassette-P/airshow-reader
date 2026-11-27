@@ -1879,14 +1879,28 @@
       "creator": "DWU Consulting",
       "category": "other",
       "note_zh": "播客中引用的行业咨询数据平台，汇总了全美主要机场历年及预测的每登机旅客成本（CPE）数据。",
-      "start_sec": 1293
+      "start_sec": 1293,
+      "links": [
+        {
+          "source": "official",
+          "label": "官网",
+          "url": "https://dwuconsulting.com/"
+        }
+      ]
     },
     {
       "title": "Cirium Airline Schedules and Fleet Data",
       "creator": "Cirium (睿思誉)",
       "category": "other",
       "note_zh": "航空数据分析机构，Brett 引用其历史航班计划数据对比了洛杉矶（LAX）和纽约（JFK）过去二十年短途航线的运力及机型变化。",
-      "start_sec": 1773
+      "start_sec": 1773,
+      "links": [
+        {
+          "source": "official",
+          "label": "官网",
+          "url": "https://www.cirium.com/"
+        }
+      ]
     }
   ]
 }

@@ -1489,21 +1489,42 @@
       "creator": "Jon Ostrower",
       "category": "media",
       "note_zh": "主播 Jon Ostrower 担任主编的航空商业与技术深度分析智库及媒体平台。",
-      "start_sec": 0
+      "start_sec": 0,
+      "links": [
+        {
+          "source": "official",
+          "label": "官网",
+          "url": "https://theaircurrent.com/"
+        }
+      ]
     },
     {
       "title": "The Airline Observer",
       "creator": "Brian Sumers",
       "category": "media",
       "note_zh": "主播 Brian Sumers 创办的航空业商业观察通讯及专栏平台。",
-      "start_sec": 4
+      "start_sec": 4,
+      "links": [
+        {
+          "source": "official",
+          "label": "官网",
+          "url": "https://www.theairlineobserver.com/"
+        }
+      ]
     },
     {
       "title": "Cranky Flier",
       "creator": "Brett Snyder",
       "category": "media",
       "note_zh": "主播 Brett Snyder 创办并撰写的知名民航商业分析博客，在节目片头常态化介绍。",
-      "start_sec": 6
+      "start_sec": 6,
+      "links": [
+        {
+          "source": "official",
+          "label": "官网",
+          "url": "https://crankyflier.com/"
+        }
+      ]
     }
   ]
 }

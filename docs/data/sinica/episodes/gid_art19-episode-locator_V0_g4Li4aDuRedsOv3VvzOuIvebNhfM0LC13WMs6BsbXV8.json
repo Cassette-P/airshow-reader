@@ -1109,35 +1109,70 @@
       "creator": "Government of Canada",
       "category": "other",
       "note_zh": "加拿大政府于2022年发布的印太战略文件，本集演讲即在此战略更新与落实的讨论背景下展开。",
-      "start_sec": 118
+      "start_sec": 118,
+      "links": [
+        {
+          "source": "official",
+          "label": "官网",
+          "url": "https://www.international.gc.ca/transparency-transparence/indo-pacific-indo-pacifique/index.aspx?lang=eng"
+        }
+      ]
     },
     {
       "title": "Trans-Pacific Partnership (TPP / CPTPP)",
       "creator": "Comprehensive and Progressive Agreement for Trans-Pacific Partnership",
       "category": "other",
       "note_zh": "奥巴马时代力推、后由日本与澳大利亚等11国促成并扩展的跨太平洋多边自贸协定，常被用作中等强国主导规则制定的范例。",
-      "start_sec": 688
+      "start_sec": 688,
+      "links": [
+        {
+          "source": "wikipedia",
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Comprehensive_and_Progressive_Agreement_for_Trans-Pacific_Partnership"
+        }
+      ]
     },
     {
       "title": "National Security Strategy of the United States",
       "creator": "The White House",
       "category": "other",
       "note_zh": "Evan Feigenbaum 在演讲中引用的美国国家安全战略报告，指出其中高频强调美国在印太的“首要地位（primacy）”。",
-      "start_sec": 720
+      "start_sec": 720,
+      "links": [
+        {
+          "source": "wikipedia",
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/National_Security_Strategy_(United_States)"
+        }
+      ]
     },
     {
       "title": "Hong Kong National Security Law (香港国安法)",
       "creator": "Standing Committee of the National People's Congress",
       "category": "other",
       "note_zh": "Evan Feigenbaum 援引该法第29条第4款，说明中国如何将其长臂管辖与反制域外制裁写入法律。",
-      "start_sec": 2115
+      "start_sec": 2115,
+      "links": [
+        {
+          "source": "wikipedia",
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2020_Hong_Kong_national_security_law"
+        }
+      ]
     },
     {
       "title": "Digital Economy Partnership Agreement (DEPA)",
       "creator": "Chile, New Zealand, Singapore",
       "category": "other",
       "note_zh": "智利、新西兰和新加坡率先发起的数字经济伙伴关系协定，被作为中小国家聚焦“功能”而非“形式”树立规则的典范。",
-      "start_sec": 2354
+      "start_sec": 2354,
+      "links": [
+        {
+          "source": "wikipedia",
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Digital_Economy_Partnership_Agreement"
+        }
+      ]
     }
   ]
 }
