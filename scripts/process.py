@@ -18,6 +18,7 @@ if str(_SCRIPTS_DIR) not in sys.path:
 from pipeline.config import (
     SHOWS_MANIFEST_FILE,
     ensure_tools_in_path,
+    get_ch_b_chunk_sec,
     get_env_stripped,
     load_podcasts_config,
     log,
@@ -35,7 +36,7 @@ def main():
     parser.add_argument("--show", type=str, default="all", help="Target show ID to process, or 'all' (default: all)")
     parser.add_argument("--limit", type=int, default=1, help="单次最多处理的新单集数量 (default: 1)")
     parser.add_argument("--max-age-days", type=int, default=None, help="仅处理发布时间距当前 UTC 不超过 N 天的单集（0 表示不限制；未设置时使用各节目配置的 default_max_age_days）")
-    parser.add_argument("--chunk-sec", type=int, default=180, help="音频切片时长（秒） (default: 180)")
+    parser.add_argument("--chunk-sec", type=int, default=get_ch_b_chunk_sec(), help="音频切片时长（秒） (default: 300 or CH_B_CHUNK_SEC)")
     parser.add_argument("--dry-run", action="store_true", default=False, help="演习模式，不调用 Gemini API、不修改 JSON")
     parser.add_argument("--max-chunks", type=int, default=0, help="仅处理前 M 个切片（0 表示全部，default: 0）")
     parser.add_argument("--migrate-only", action="store_true", default=False, help="仅执行 v2→v3 本地数据迁移，不访问网络、不调用 Gemini API，完成后退出 0")

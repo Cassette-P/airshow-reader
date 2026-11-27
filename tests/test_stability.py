@@ -21,16 +21,31 @@ from pydantic import BaseModel
 
 from pipeline.config import (
     DEFAULT_CH_A_POOL,
+    get_ch_b_api_keys,
+    get_ch_b_chunk_sec,
+    get_ch_b_free_rpd,
+    get_ch_b_free_rpm,
+    get_ch_b_overflow_to_paid,
     get_next_fallback_thinking_level,
     resolve_ch_a_thinking_level,
 )
 from pipeline.gemini import (
+    CH_B_QUOTA_STATE,
+    QuotaExhaustedRPDError,
+    SlidingWindowRateLimiter,
     create_genai_client,
     extract_interaction_text,
     generate_channel_a_structured_with_retry,
     generate_structured_with_retry,
+    is_api_key_auth_error,
+    is_rate_limit_error,
+    is_rpd_exhausted_error,
+    is_service_unavailable_error,
     is_transport_disconnect_or_timeout,
+    parse_retry_delay_sec,
+    reset_ch_b_quota_state,
     run_channel_a,
+    run_channel_b,
 )
 from pipeline.hooks_tal import (
     extract_tal_episode_number,
@@ -1237,6 +1252,406 @@ class TestHooksTalAndRssIsolation(unittest.TestCase):
         self.assertEqual(attempted, 2)
         self.assertEqual(failed, 1)
         mock_process.assert_called_once()
+
+
+class TestChannelBFreeTierRouting(unittest.TestCase):
+    """Test Channel B Free-First + Paid-Overflow dual-key routing, 5 RPM guard, and 429 RPM/RPD classification."""
+
+    def setUp(self):
+        reset_ch_b_quota_state()
+
+    def tearDown(self):
+        reset_ch_b_quota_state()
+
+    def test_config_defaults_and_dual_key_resolution(self):
+        with patch.dict("os.environ", {"GEMINI_API_KEY": "paid_k"}, clear=True):
+            self.assertEqual(get_ch_b_api_keys(), ("", "paid_k"))
+            self.assertEqual(get_ch_b_chunk_sec(), 300)
+            self.assertEqual(get_ch_b_free_rpm(), 5)
+            self.assertEqual(get_ch_b_free_rpd(), 20)
+            self.assertTrue(get_ch_b_overflow_to_paid())
+
+        # Same key for both -> treated as single-key Paid mode
+        with patch.dict("os.environ", {"GEMINI_API_KEY": "same_k", "GEMINI_API_KEY_CH_B": "same_k"}, clear=True):
+            self.assertEqual(get_ch_b_api_keys(), ("", "same_k"))
+
+        # Distinct Free key + custom overrides
+        with patch.dict(
+            "os.environ",
+            {
+                "GEMINI_API_KEY": "paid_k",
+                "GEMINI_API_KEY_CH_B": "free_k",
+                "CH_B_CHUNK_SEC": "240",
+                "CH_B_FREE_RPM": "4",
+                "CH_B_FREE_RPD": "50",
+                "CH_B_FREE_OVERFLOW_TO_PAID": "false",
+            },
+            clear=True,
+        ):
+            self.assertEqual(get_ch_b_api_keys(), ("free_k", "paid_k"))
+            self.assertEqual(get_ch_b_chunk_sec(), 240)
+            self.assertEqual(get_ch_b_free_rpm(), 4)
+            self.assertEqual(get_ch_b_free_rpd(), 50)
+            self.assertFalse(get_ch_b_overflow_to_paid())
+
+    def test_rate_limit_classification_and_retry_delay_parsing(self):
+        rpd_err = Exception(
+            "429 RESOURCE_EXHAUSTED: Quota exceeded for metric: "
+            "generativelanguage.googleapis.com/generate_content_free_tier_requests, "
+            "quotaId: GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+        )
+        zero_limit_err = Exception("429 RESOURCE_EXHAUSTED: Quota exceeded, limit: 0 for model gemini-4-hydrogen")
+        rpm_err = Exception(
+            "429 RESOURCE_EXHAUSTED: Quota exceeded for metric: "
+            "GenerateRequestsPerMinutePerProjectPerModel-FreeTier. Please retry in 38.45s."
+        )
+        rpm_json_err = Exception("429 Too Many Requests {'retryDelay': '42s'} TokensPerMinute exceeded")
+        auth_err = Exception("403 PERMISSION_DENIED: API_KEY_INVALID or Free tier unavailable")
+
+        self.assertTrue(is_rate_limit_error(rpd_err))
+        self.assertTrue(is_rpd_exhausted_error(rpd_err))
+        self.assertTrue(is_rpd_exhausted_error(zero_limit_err))
+
+        self.assertTrue(is_rate_limit_error(rpm_err))
+        self.assertFalse(is_rpd_exhausted_error(rpm_err))
+        self.assertAlmostEqual(parse_retry_delay_sec(rpm_err), 38.45, places=2)
+
+        self.assertTrue(is_rate_limit_error(rpm_json_err))
+        self.assertFalse(is_rpd_exhausted_error(rpm_json_err))
+        self.assertAlmostEqual(parse_retry_delay_sec(rpm_json_err), 42.0, places=2)
+
+        self.assertTrue(is_api_key_auth_error(auth_err))
+        self.assertFalse(is_rate_limit_error(ValueError("Invalid JSON")))
+
+    def test_sliding_window_rate_limiter_enforces_5_rpm_and_smooth_spacing(self):
+        fake_now = [0.0]
+        sleeps = []
+
+        def fake_clock():
+            return fake_now[0]
+
+        def fake_sleep(sec):
+            sleeps.append(sec)
+            fake_now[0] += sec
+
+        limiter = SlidingWindowRateLimiter(
+            max_requests=5,
+            window_sec=65.0,
+            clock=fake_clock,
+            sleeper=fake_sleep,
+        )
+        self.assertAlmostEqual(limiter.min_interval_sec, 12.4, places=2)
+
+        # Call 1 at t=0.0 -> immediate
+        self.assertEqual(limiter.acquire(), 0.0)
+        # Call 2 at t=4.0 (4s after call 1) -> sleeps 8.4s to maintain 12.4s spacing (t=12.4)
+        fake_now[0] += 4.0
+        self.assertAlmostEqual(limiter.acquire(), 8.4, places=2)
+        # Calls 3, 4, 5 each 4s later -> paced at 24.8, 37.2, 49.6
+        for _ in range(3):
+            fake_now[0] += 4.0
+            limiter.acquire()
+        self.assertAlmostEqual(fake_now[0], 49.6, places=2)
+
+        # Call 6 arrives at t=53.6 -> rolling window has 5 entries starting at 0.0; must wait until t=65.0 (11.4s)
+        fake_now[0] += 4.0
+        slept_6 = limiter.acquire()
+        self.assertAlmostEqual(slept_6, 11.4, places=2)
+        self.assertAlmostEqual(fake_now[0], 65.0, places=2)
+
+        # Call 7 arrives at t=85.0 (20s later, > 12.4s spacing and old entry popped) -> 0s sleep
+        fake_now[0] += 20.0
+        self.assertEqual(limiter.acquire(), 0.0)
+
+    def _make_fake_chunk_file(self, name: str) -> Path:
+        p = MagicMock(spec=Path)
+        p.name = name
+        p.__str__.return_value = f"/tmp/{name}"
+        return p
+
+    def _make_mock_client(self, tag: str, stream_side_effect):
+        client = MagicMock()
+        upload_counter = [0]
+
+        def fake_upload(file):
+            upload_counter[0] += 1
+            return MagicMock(name=f"files/{tag}_{upload_counter[0]}")
+
+        client.files.upload.side_effect = fake_upload
+        client.files.get.side_effect = lambda name: MagicMock(name=name, state="FileState.ACTIVE")
+        client.models.generate_content_stream.side_effect = stream_side_effect
+        return client
+
+    @patch("time.sleep")
+    @patch("pipeline.gemini.get_audio_duration_sec", return_value=300)
+    def test_run_channel_b_free_first_happy_path_never_touches_paid(self, mock_dur, mock_sleep):
+        payload = '{"segments": [{"timestamp": "00:05", "speaker": "Jon Ostrower", "en": "Hello", "zh": "你好"}]}'
+        free_client = self._make_mock_client("free", lambda **kw: [MagicMock(text=payload)])
+        paid_client = self._make_mock_client("paid", lambda **kw: [MagicMock(text=payload)])
+
+        created_keys = []
+
+        def fake_factory(api_key=None):
+            created_keys.append(api_key)
+            return free_client if api_key == "free_key" else paid_client
+
+        chunks = [self._make_fake_chunk_file("chunk_000.mp3"), self._make_fake_chunk_file("chunk_001.mp3")]
+        with patch.dict(
+            "os.environ",
+            {
+                "GEMINI_API_KEY": "paid_key",
+                "GEMINI_API_KEY_CH_B": "free_key",
+                "CH_B_FREE_RPM": "5",
+                "CH_B_FREE_RPD": "20",
+                "CHUNK_SLEEP_SEC": "0",
+            },
+            clear=True,
+        ), patch("pipeline.gemini.create_genai_client", side_effect=fake_factory):
+            transcript = run_channel_b(chunks=chunks, glossary_text="", duration_sec=600, show_id="airshow")
+
+        self.assertEqual(len(transcript), 2)
+        self.assertEqual(created_keys, ["free_key"])
+        self.assertEqual(free_client.files.upload.call_count, 2)
+        self.assertEqual(free_client.files.delete.call_count, 2)
+        self.assertEqual(paid_client.files.upload.call_count, 0)
+        self.assertEqual(CH_B_QUOTA_STATE.free_rpd_used.get("gemini-4-hydrogen"), 2)
+
+    @patch("time.sleep")
+    @patch("pipeline.gemini.get_audio_duration_sec", return_value=300)
+    def test_run_channel_b_rpd_429_immediately_overflows_to_paid_with_reupload(self, mock_dur, mock_sleep):
+        payload = '{"segments": [{"timestamp": "00:10", "speaker": "Kaiser Kuo", "en": "Welcome", "zh": "欢迎"}]}'
+        paid_models_called = []
+
+        def free_stream(**kw):
+            raise Exception(
+                "429 RESOURCE_EXHAUSTED: Quota exceeded for GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+            )
+
+        def paid_stream(**kw):
+            paid_models_called.append(kw["model"])
+            return [MagicMock(text=payload)]
+
+        free_client = self._make_mock_client("free", free_stream)
+        paid_client = self._make_mock_client("paid", paid_stream)
+
+        def fake_factory(api_key=None):
+            return free_client if api_key == "free_key" else paid_client
+
+        chunks = [self._make_fake_chunk_file("chunk_000.mp3"), self._make_fake_chunk_file("chunk_001.mp3")]
+        with patch.dict(
+            "os.environ",
+            {
+                "GEMINI_API_KEY": "paid_key",
+                "GEMINI_API_KEY_CH_B": "free_key",
+                "CH_B_FREE_RPM": "0",
+                "CH_B_FREE_RPD": "20",
+                "CH_B_FREE_OVERFLOW_TO_PAID": "true",
+                "CHUNK_SLEEP_SEC": "0",
+            },
+            clear=True,
+        ), patch("pipeline.gemini.create_genai_client", side_effect=fake_factory):
+            transcript = run_channel_b(chunks=chunks, glossary_text="", duration_sec=600, show_id="sinica")
+
+        self.assertEqual(len(transcript), 2)
+        # Chunk 1 tried Free once (0 retries!), deleted Free file, then re-uploaded to Paid;
+        # Chunk 2 saw Free RPD exhausted and went straight to Paid (NO second Free upload!)
+        self.assertEqual(free_client.files.upload.call_count, 1)
+        self.assertEqual(free_client.files.delete.call_count, 1)
+        self.assertEqual(free_client.models.generate_content_stream.call_count, 1)
+        self.assertEqual(paid_client.files.upload.call_count, 2)
+        self.assertEqual(paid_client.files.delete.call_count, 2)
+        self.assertEqual(paid_models_called, ["gemini-4-hydrogen", "gemini-4-hydrogen"])
+        mock_sleep.assert_not_called()
+
+    @patch("time.sleep")
+    @patch("pipeline.gemini.get_audio_duration_sec", return_value=300)
+    def test_run_channel_b_proactive_rpd_budget_switches_to_paid(self, mock_dur, mock_sleep):
+        payload = '{"segments": [{"timestamp": "00:05", "speaker": "Ira Glass", "en": "Act one", "zh": "第一幕"}]}'
+        free_client = self._make_mock_client("free", lambda **kw: [MagicMock(text=payload)])
+        paid_client = self._make_mock_client("paid", lambda **kw: [MagicMock(text=payload)])
+
+        def fake_factory(api_key=None):
+            return free_client if api_key == "free_key" else paid_client
+
+        chunks = [self._make_fake_chunk_file(f"chunk_00{i}.mp3") for i in range(3)]
+        with patch.dict(
+            "os.environ",
+            {
+                "GEMINI_API_KEY": "paid_key",
+                "GEMINI_API_KEY_CH_B": "free_key",
+                "CH_B_FREE_RPM": "0",
+                "CH_B_FREE_RPD": "2",
+                "CH_B_FREE_OVERFLOW_TO_PAID": "true",
+                "CHUNK_SLEEP_SEC": "0",
+            },
+            clear=True,
+        ), patch("pipeline.gemini.create_genai_client", side_effect=fake_factory):
+            transcript = run_channel_b(chunks=chunks, glossary_text="", duration_sec=900, show_id="tal")
+
+        self.assertEqual(len(transcript), 3)
+        # First 2 chunks on Free, 3rd chunk routed straight to Paid without Free upload
+        self.assertEqual(free_client.files.upload.call_count, 2)
+        self.assertEqual(paid_client.files.upload.call_count, 1)
+
+    @patch("time.sleep")
+    @patch("pipeline.gemini.get_audio_duration_sec", return_value=300)
+    def test_run_channel_b_transient_rpm_429_retries_on_free_with_server_delay(self, mock_dur, mock_sleep):
+        payload = '{"segments": [{"timestamp": "00:05", "speaker": "Jon Ostrower", "en": "Ok", "zh": "好"}]}'
+        attempts = [0]
+
+        def free_stream(**kw):
+            attempts[0] += 1
+            if attempts[0] == 1:
+                raise Exception(
+                    "429 RESOURCE_EXHAUSTED: GenerateRequestsPerMinutePerProjectPerModel-FreeTier. Please retry in 25.0s."
+                )
+            return [MagicMock(text=payload)]
+
+        free_client = self._make_mock_client("free", free_stream)
+        paid_client = self._make_mock_client("paid", lambda **kw: [MagicMock(text=payload)])
+
+        def fake_factory(api_key=None):
+            return free_client if api_key == "free_key" else paid_client
+
+        chunks = [self._make_fake_chunk_file("chunk_000.mp3")]
+        with patch.dict(
+            "os.environ",
+            {
+                "GEMINI_API_KEY": "paid_key",
+                "GEMINI_API_KEY_CH_B": "free_key",
+                "CH_B_FREE_RPM": "0",
+                "CH_B_FREE_RPD": "20",
+                "CHUNK_SLEEP_SEC": "0",
+            },
+            clear=True,
+        ), patch("pipeline.gemini.create_genai_client", side_effect=fake_factory):
+            transcript = run_channel_b(chunks=chunks, glossary_text="", duration_sec=300, show_id="airshow")
+
+        self.assertEqual(len(transcript), 1)
+        # Retried on Free Key (25.0 + 2.0 buffer = 27.0s) and never fell back to Paid
+        self.assertEqual(attempts[0], 2)
+        self.assertEqual(paid_client.files.upload.call_count, 0)
+        mock_sleep.assert_any_call(27.0)
+
+    @patch("time.sleep")
+    @patch("pipeline.gemini.get_audio_duration_sec", return_value=300)
+    def test_run_channel_b_single_key_backward_compatible(self, mock_dur, mock_sleep):
+        payload = '{"segments": [{"timestamp": "00:05", "speaker": "Jon Ostrower", "en": "Hi", "zh": "嗨"}]}'
+        paid_client = self._make_mock_client("paid", lambda **kw: [MagicMock(text=payload)])
+
+        chunks = [self._make_fake_chunk_file("chunk_000.mp3"), self._make_fake_chunk_file("chunk_001.mp3")]
+        with patch.dict(
+            "os.environ",
+            {"GEMINI_API_KEY": "paid_only_key", "CHUNK_SLEEP_SEC": "0"},
+            clear=True,
+        ), patch("pipeline.gemini.create_genai_client", return_value=paid_client) as mock_factory:
+            transcript = run_channel_b(chunks=chunks, glossary_text="", duration_sec=600, show_id="airshow")
+
+        self.assertEqual(len(transcript), 2)
+        mock_factory.assert_called_once_with(api_key="paid_only_key")
+        # Single-key Paid mode should not invoke Free Tier RPM guard sleeps
+        mock_sleep.assert_not_called()
+
+    def test_service_unavailable_error_detection(self):
+        err_503 = Exception(
+            "503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand.', 'status': 'UNAVAILABLE'}}"
+        )
+        err_429 = Exception("429 RESOURCE_EXHAUSTED: GenerateRequestsPerMinutePerProjectPerModel-FreeTier")
+        self.assertTrue(is_service_unavailable_error(err_503))
+        self.assertFalse(is_service_unavailable_error(err_429))
+        self.assertFalse(is_service_unavailable_error(ValueError("Malformed JSON")))
+
+    @patch("time.sleep")
+    @patch("pipeline.gemini.get_audio_duration_sec", return_value=300)
+    def test_run_channel_b_free_fast_3_retries_and_503_circuit_breaker(self, mock_dur, mock_sleep):
+        payload = '{"segments": [{"timestamp": "00:05", "speaker": "Jon Ostrower", "en": "Ok", "zh": "好"}]}'
+        err_503 = Exception(
+            "503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand.', 'status': 'UNAVAILABLE'}}"
+        )
+
+        free_client = self._make_mock_client("free", lambda **kw: (_ for _ in ()).throw(err_503))
+        paid_client = self._make_mock_client("paid", lambda **kw: [MagicMock(text=payload)])
+
+        def fake_factory(api_key=None):
+            return free_client if api_key == "free_key" else paid_client
+
+        chunks = [self._make_fake_chunk_file(f"chunk_00{i}.mp3") for i in range(3)]
+        with patch.dict(
+            "os.environ",
+            {
+                "GEMINI_API_KEY": "paid_key",
+                "GEMINI_API_KEY_CH_B": "free_key",
+                "CH_B_FREE_RPM": "0",
+                "CH_B_FREE_RPD": "20",
+                "CH_B_FREE_OVERFLOW_TO_PAID": "true",
+                "CHUNK_SLEEP_SEC": "0",
+            },
+            clear=True,
+        ), patch("pipeline.gemini.create_genai_client", side_effect=fake_factory):
+            transcript = run_channel_b(chunks=chunks, glossary_text="", duration_sec=900, show_id="airshow")
+
+        self.assertEqual(len(transcript), 3)
+        # Chunk 1: 3 Free attempts (15s, 20s) -> Paid
+        # Chunk 2: 3 Free attempts (15s, 20s) -> 2nd consecutive 503 trips circuit breaker -> Paid
+        # Chunk 3: skips Free completely -> Paid directly!
+        self.assertEqual(free_client.files.upload.call_count, 2)
+        self.assertEqual(free_client.files.delete.call_count, 2)
+        self.assertEqual(free_client.models.generate_content_stream.call_count, 6)
+        self.assertEqual(paid_client.files.upload.call_count, 3)
+        self.assertEqual(paid_client.files.delete.call_count, 3)
+        self.assertIn("gemini-4-hydrogen", CH_B_QUOTA_STATE.free_503_tripped_models)
+        # Verify fast-retry backoff sequence (only 15.0, 20.0 per chunk, never 25.0 or 30.0)
+        sleep_args = [call.args[0] for call in mock_sleep.call_args_list]
+        self.assertEqual(sleep_args, [15.0, 20.0, 15.0, 20.0])
+
+    @patch("time.sleep")
+    @patch("pipeline.gemini.get_audio_duration_sec", return_value=300)
+    def test_run_channel_b_free_success_resets_consecutive_503_counter(self, mock_dur, mock_sleep):
+        payload = '{"segments": [{"timestamp": "00:05", "speaker": "Jon Ostrower", "en": "Ok", "zh": "好"}]}'
+        err_503 = Exception("503 UNAVAILABLE: high demand")
+        free_upload_idx = [0]
+
+        def fake_free_upload(file):
+            free_upload_idx[0] += 1
+            return MagicMock(name=f"files/free_{free_upload_idx[0]}")
+
+        def free_stream(**kw):
+            # Upload #1 (chunk 1) fails 503; Upload #2 (chunk 2) succeeds; Upload #3 (chunk 3) fails 503; Upload #4 (chunk 4) succeeds
+            if free_upload_idx[0] in (1, 3):
+                raise err_503
+            return [MagicMock(text=payload)]
+
+        free_client = MagicMock()
+        free_client.files.upload.side_effect = fake_free_upload
+        free_client.files.get.side_effect = lambda name: MagicMock(name=name, state="FileState.ACTIVE")
+        free_client.models.generate_content_stream.side_effect = free_stream
+
+        paid_client = self._make_mock_client("paid", lambda **kw: [MagicMock(text=payload)])
+
+        def fake_factory(api_key=None):
+            return free_client if api_key == "free_key" else paid_client
+
+        chunks = [self._make_fake_chunk_file(f"chunk_00{i}.mp3") for i in range(4)]
+        with patch.dict(
+            "os.environ",
+            {
+                "GEMINI_API_KEY": "paid_key",
+                "GEMINI_API_KEY_CH_B": "free_key",
+                "CH_B_FREE_RPM": "0",
+                "CH_B_FREE_RPD": "20",
+                "CH_B_FREE_OVERFLOW_TO_PAID": "true",
+                "CHUNK_SLEEP_SEC": "0",
+            },
+            clear=True,
+        ), patch("pipeline.gemini.create_genai_client", side_effect=fake_factory):
+            transcript = run_channel_b(chunks=chunks, glossary_text="", duration_sec=1200, show_id="airshow")
+
+        self.assertEqual(len(transcript), 4)
+        # Circuit breaker MUST NOT have tripped because chunk 2 succeeded between chunk 1 and chunk 3 503s
+        self.assertEqual(free_client.files.upload.call_count, 4)
+        self.assertEqual(paid_client.files.upload.call_count, 2)
+        self.assertNotIn("gemini-4-hydrogen", CH_B_QUOTA_STATE.free_503_tripped_models)
+        self.assertEqual(CH_B_QUOTA_STATE.consecutive_503_chunks.get("gemini-4-hydrogen"), 0)
 
 
 if __name__ == "__main__":

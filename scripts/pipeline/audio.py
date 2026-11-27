@@ -155,7 +155,7 @@ def get_audio_duration_sec(audio_path: Path, show_id: str = "") -> int:
 
 
 def chunk_audio(audio_path: Path, output_dir: Path, chunk_sec: int, show_id: str = "") -> list[Path]:
-    """[4. CHUNK_AUDIO] ffmpeg 转为单声道 64k mp3 并按 --chunk-sec（默认 180s）切片."""
+    """[4. CHUNK_AUDIO] ffmpeg 转为单声道 64k mp3 并按 --chunk-sec（默认 300s）切片."""
     output_pattern = output_dir / "chunk_%03d.mp3"
     log("FFMPEG", f"Transcoding and slicing audio: mono, 64kbps, segment_time={chunk_sec}s...", show_id=show_id)
     cmd = [

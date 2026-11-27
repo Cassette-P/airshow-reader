@@ -44,6 +44,11 @@ DEFAULT_CH_B_POOL = ["gemini-4-hydrogen", "gemini-3.8-flash", "gemini-3.5-flash-
 DEFAULT_CH_A_POOL = ["gemini-4-carbon", "gemini-4-neon", "gemini-3.8-flash"]
 DEFAULT_ENRICH_POOL = ["gemini-3.8-flash", "gemini-4-hydrogen", "gemini-3.5-flash-lite"]
 
+# Channel B Free Tier & chunking defaults
+DEFAULT_CH_B_CHUNK_SEC = 300
+DEFAULT_CH_B_FREE_RPM = 5
+DEFAULT_CH_B_FREE_RPD = 20
+
 
 def get_env_stripped(key: str, default: str = "") -> str:
     """Read environment variable with .strip() and empty-string fallback."""
@@ -53,6 +58,63 @@ def get_env_stripped(key: str, default: str = "") -> str:
         if val:
             return val
     return default
+
+
+def get_env_int(key: str, default: int, min_val: int = 0) -> int:
+    """Read integer environment variable with lower-bound clamping and fallback."""
+    raw = get_env_stripped(key)
+    if not raw:
+        return default
+    try:
+        return max(min_val, int(raw))
+    except ValueError:
+        return default
+
+
+def get_env_bool(key: str, default: bool = True) -> bool:
+    """Read boolean environment variable with sensible fallback."""
+    raw = get_env_stripped(key)
+    if not raw:
+        return default
+    lowered = raw.lower()
+    if lowered in ("1", "true", "yes", "on"):
+        return True
+    if lowered in ("0", "false", "no", "off"):
+        return False
+    return default
+
+
+def get_ch_b_chunk_sec() -> int:
+    """Get default Channel B audio chunk duration in seconds (default: 300s)."""
+    return get_env_int("CH_B_CHUNK_SEC", DEFAULT_CH_B_CHUNK_SEC, min_val=60)
+
+
+def get_ch_b_api_keys() -> tuple[str, str]:
+    """Return (free_api_key, paid_api_key) for Channel B dual-key routing.
+
+    If GEMINI_API_KEY_CH_B is unset or identical to GEMINI_API_KEY, free_api_key
+    is returned as empty string so Channel B runs directly in single-key Paid mode.
+    """
+    paid_key = get_env_stripped("GEMINI_API_KEY")
+    ch_b_key = get_env_stripped("GEMINI_API_KEY_CH_B")
+    if ch_b_key and ch_b_key != paid_key:
+        return ch_b_key, paid_key
+    return "", paid_key or ch_b_key
+
+
+def get_ch_b_free_rpm() -> int:
+    """Get Channel B Free Tier RPM ceiling (default: 5; 0 disables client-side RPM limiter)."""
+    return get_env_int("CH_B_FREE_RPM", DEFAULT_CH_B_FREE_RPM, min_val=0)
+
+
+def get_ch_b_free_rpd() -> int:
+    """Get Channel B Free Tier soft RPD budget per run (default: 20; 0 disables soft cap)."""
+    return get_env_int("CH_B_FREE_RPD", DEFAULT_CH_B_FREE_RPD, min_val=0)
+
+
+def get_ch_b_overflow_to_paid() -> bool:
+    """Whether Channel B overflows to Paid GEMINI_API_KEY when Free Tier RPD is exhausted."""
+    return get_env_bool("CH_B_FREE_OVERFLOW_TO_PAID", default=True)
 
 
 def get_ch_b_model_pool() -> list[str]:

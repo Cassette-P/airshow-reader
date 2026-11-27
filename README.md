@@ -11,8 +11,8 @@
 - **多播客配置驱动与全自动巡检（v3.0）**
   - 通过 `podcasts.json` 统一管理节目元信息、RSS 源、默认抓取窗口、主题重音色与专属术语表（`glossaries/<show_id>.md`）。
   - GitHub Actions 每 6 小时自动巡检并增量入库；内置四级抗 403 音频下载器、RSS Show Notes 结构化清洗注入与说话人去头衔归一化。
-- **Paid Tier 分级模型路由、断点缓存与双模传输（v3.6 / Schema v3.2）**
-  - **通道 B（逐片转写 + 术语对齐翻译）**：180 秒音频切片锚定时间轴，默认 `gemini-4-hydrogen`（低思考模式，回退 `gemini-3.8-flash`、`gemini-3.5-flash-lite`）流式转写，完成后原子落盘断点缓存至 `.cache/ch_b/`（支持 `--no-cache` 强制重跑），防止长音频时间漂移与重复消耗。
+- **Free/Paid 双 Key 分级模型路由、断点缓存与双模传输（v3.7 / Schema v3.2）**
+  - **通道 B（逐片转写 + 术语对齐翻译）**：默认 `300s`（5 分钟，可由 `CH_B_CHUNK_SEC` 或 `--chunk-sec` 覆盖）音频切片锚定时间轴，默认 `gemini-4-hydrogen`（低思考模式、`max_output_tokens=32768`，回退 `gemini-3.8-flash`、`gemini-3.5-flash-lite`）流式转写。支持配置独立无绑卡项目的 **`GEMINI_API_KEY_CH_B`（Free Tier 优先 + Paid 同模型溢出兜底）**，内置 **5 RPM 滑动窗口 + 平滑间隔双保险限速器** 与 **429 RPM/RPD 智能分类**（命中 `PerDay` 零重试立即重传至 Paid Key 续跑同模型，不中断长节目）；完成后原子落盘断点缓存至 `.cache/ch_b/`（支持 `--no-cache` 强制重跑）。
   - **通道 A（全局摘要 + Highlights + 知识卡片与多源直达外链）**：默认锁定 `gemini-4-carbon @ high`（回退 `gemini-4-neon @ high`、`gemini-3.8-flash @ high`），主路径走 Interactions API `background=True` 异步轮询（超时默认 `900s`，可由 `CH_A_BG_TIMEOUT_SEC` 覆盖），不可用时零耗时回退 `stream_with_thoughts` 心跳保活；一体生成摘要、要点、4–10 条 Highlights、6–10 条地道表达（`vocab_notes`）与参考资源（`references`，自动过滤商业赞助与广告口播），并经确定性外链解析层（`scripts/pipeline/links.py`）自动挂载经校验的直达外链（`Wikipedia`、`豆瓣`、`Goodreads`、`Apple Podcasts`、`播客官网`、`原文`、`官网`）。
   - **增量补跑通道（`--enrich` / `--enrich-links`）**：支持对存量单集按需低成本补齐知识卡片（`--enrich`），或单独对已有参考资源幂等回填/刷新多源直达外链（`--enrich-links`），既有摘要与逐字稿字节级不变。
 - **严格 Schema 契约校验与 CI 门禁（`scripts/validate_data.py --strict`）**
@@ -117,7 +117,14 @@ pip install -r requirements.txt
 
 ```powershell
 # 必填（--dry-run、--migrate-only、--enrich-links 与 validate_data.py 除外）
-$env:GEMINI_API_KEY = "你的_Gemini_API_Key"
+$env:GEMINI_API_KEY = "你的_Paid_Tier_Gemini_API_Key"
+
+# 可选：Channel B 独立 Free Tier API Key（须来自未绑卡的独立 GCP 项目；留空则全部走 GEMINI_API_KEY）
+# $env:GEMINI_API_KEY_CH_B = "你的_Free_Tier_Gemini_API_Key"
+# $env:CH_B_CHUNK_SEC = "300"                    # 切片时长（默认 300s，使单集切片数落入 20 RPD 内）
+# $env:CH_B_FREE_RPM = "5"                       # Free Tier 滑动窗口 RPM 上限（0 表示关闭客户端限速）
+# $env:CH_B_FREE_RPD = "20"                      # Free Tier 单轮软 RPD 预算（0 表示纯依赖实时 429 RPD 识别）
+# $env:CH_B_FREE_OVERFLOW_TO_PAID = "true"       # RPD 耗尽时自动溢出至 GEMINI_API_KEY 续跑同模型
 
 # 可选覆盖项
 # $env:GEMINI_MODEL_CH_B = "gemini-4-hydrogen"   # 亦向后兼容 GEMINI_MODEL
@@ -177,7 +184,12 @@ python -m http.server 8000 --directory docs
 
 | **类型** | **名称** | **必填** | **说明** |
 | :--- | :--- | :--- | :--- |
-| **Secret** | `GEMINI_API_KEY` | 是 | Google AI Studio API Key（建议绑定 Paid Tier） |
+| **Secret** | `GEMINI_API_KEY` | 是 | Google AI Studio Paid Tier API Key（Channel A / Enrich 及 Channel B 溢出兜底） |
+| **Secret** | `GEMINI_API_KEY_CH_B` | 否 | Channel B 专用 Free Tier API Key（须来自未绑卡的独立 GCP 项目；不配则直走 `GEMINI_API_KEY`） |
+| **Variable** | `CH_B_CHUNK_SEC` | 否 | Channel B 默认音频切片时长（秒，默认 `300`） |
+| **Variable** | `CH_B_FREE_RPM` | 否 | Channel B Free Tier RPM 限速上限（默认 `5`；`0` 关闭客户端限速） |
+| **Variable** | `CH_B_FREE_RPD` | 否 | Channel B Free Tier 单轮软 RPD 预算（默认 `20`；`0` 仅依赖实时 429 RPD 检测） |
+| **Variable** | `CH_B_FREE_OVERFLOW_TO_PAID` | 否 | Free Tier RPD 耗尽后是否自动溢出至 Paid Key 同模型续跑（默认 `true`） |
 | **Variable** | `GEMINI_MODEL_CH_A` | 否 | 置顶覆盖通道 A 模型（默认 `gemini-4-carbon`） |
 | **Variable** | `GEMINI_THINKING_CH_A` | 否 | 通道 A 思考等级（留空默认 `carbon`/`neon`/`flash` 均为 `high`） |
 | **Variable** | `CH_A_BG_TIMEOUT_SEC` | 否 | 通道 A Interactions 后台轮询超时秒数（默认 `900`） |

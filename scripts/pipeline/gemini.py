@@ -1,6 +1,8 @@
 """Gemini File API integration, streaming structured generation, thinking level adaptation, and disaster recovery backoff."""
 
+from collections import deque
 from pathlib import Path
+import re
 import time
 from typing import Callable, Optional
 
@@ -13,7 +15,11 @@ from pipeline.config import (
     MODEL_USAGE_STATS,
     _format_level,
     get_ch_a_model_pool,
+    get_ch_b_api_keys,
+    get_ch_b_free_rpd,
+    get_ch_b_free_rpm,
     get_ch_b_model_pool,
+    get_ch_b_overflow_to_paid,
     get_env_stripped,
     get_next_fallback_thinking_level,
     log,
@@ -79,6 +85,271 @@ def is_transport_disconnect_or_timeout(exc: Exception) -> bool:
         "connection aborted",
     ]
     return any(kw in err_str for kw in disconnect_keywords)
+
+
+class QuotaExhaustedRPDError(RuntimeError):
+    """Raised immediately when Free Tier daily quota (RPD) or key access is exhausted."""
+
+    def __init__(self, model: str, message: str, auth_error: bool = False):
+        super().__init__(message)
+        self.model = model
+        self.auth_error = auth_error
+
+
+def is_rate_limit_error(exc: Exception) -> bool:
+    """Identify HTTP 429 / RESOURCE_EXHAUSTED rate limit exceptions."""
+    for cls in type(exc).__mro__:
+        cls_name = cls.__name__.lower()
+        if "toomanyrequests" in cls_name or "resourceexhausted" in cls_name:
+            return True
+    err_str = str(exc).lower()
+    return any(
+        kw in err_str
+        for kw in [
+            "429",
+            "resource_exhausted",
+            "resource exhausted",
+            "too many requests",
+            "quota exceeded",
+            "rate limit",
+        ]
+    )
+
+
+def is_rpd_exhausted_error(exc: Exception) -> bool:
+    """Distinguish daily quota exhaustion (RPD / limit: 0) from transient RPM/TPM 429s."""
+    if not is_rate_limit_error(exc):
+        return False
+    err_str = str(exc).lower()
+    if "limit: 0" in err_str or "limit=0" in err_str or "quota_value: 0" in err_str:
+        return True
+    rpd_keywords = [
+        "perday",
+        "per_day",
+        "per day",
+        "requestsperday",
+        "requests_per_day",
+        "daily",
+    ]
+    rpm_keywords = [
+        "perminute",
+        "per_minute",
+        "per minute",
+        "requestsperminute",
+        "tokensperminute",
+    ]
+    has_rpd = any(kw in err_str for kw in rpd_keywords)
+    has_rpm = any(kw in err_str for kw in rpm_keywords)
+    return has_rpd and not has_rpm
+
+
+def is_api_key_auth_error(exc: Exception) -> bool:
+    """Identify invalid/revoked API key or restricted project errors (401/403)."""
+    if is_transport_disconnect_or_timeout(exc):
+        return False
+    err_str = str(exc).lower()
+    return any(
+        kw in err_str
+        for kw in [
+            "api_key_invalid",
+            "api key not valid",
+            "invalid api key",
+            "401",
+            "403",
+            "permission_denied",
+            "permission denied",
+            "unauthenticated",
+            "free tier unavailable",
+            "access restricted",
+        ]
+    )
+
+
+def is_service_unavailable_error(exc: Exception) -> bool:
+    """Identify HTTP 503 / UNAVAILABLE / high-demand congestion errors."""
+    if is_rate_limit_error(exc):
+        return False
+    for cls in type(exc).__mro__:
+        if "serviceunavailable" in cls.__name__.lower():
+            return True
+    err_str = str(exc).lower()
+    return any(
+        kw in err_str
+        for kw in [
+            "503",
+            "unavailable",
+            "high demand",
+            "overloaded",
+            "temporarily unavailable",
+        ]
+    )
+
+
+def parse_retry_delay_sec(exc: Exception) -> Optional[float]:
+    """Extract server-suggested retry delay in seconds from a Gemini 429 error message."""
+    err_str = str(exc)
+    patterns = [
+        r"retry\s+in\s+(\d+(?:\.\d+)?)\s*s",
+        r"retry_?delay['\"]?\s*[:=]\s*['\"]?(\d+(?:\.\d+)?)s?",
+        r"retry\s+after\s+(\d+(?:\.\d+)?)\s*s?",
+    ]
+    for pattern in patterns:
+        match = re.search(pattern, err_str, flags=re.IGNORECASE)
+        if match:
+            try:
+                val = float(match.group(1))
+                if val > 0:
+                    return val
+            except ValueError:
+                continue
+    return None
+
+
+class SlidingWindowRateLimiter:
+    """Dual-guard RPM limiter: enforces both rolling window cap and smooth minimum spacing.
+
+    For 5 RPM:
+    - Rolling window: at most 5 request starts within any 65.0s window (60s + 5s clock/RTT margin).
+    - Smooth spacing: at least 62.0 / 5 = 12.4s between consecutive request starts to prevent burst 429s.
+    """
+
+    def __init__(
+        self,
+        max_requests: int = 5,
+        window_sec: float = 65.0,
+        min_interval_sec: Optional[float] = None,
+        clock: Optional[Callable[[], float]] = None,
+        sleeper: Optional[Callable[[float], None]] = None,
+    ):
+        self.max_requests = max(0, int(max_requests))
+        self.window_sec = float(window_sec)
+        if min_interval_sec is not None:
+            self.min_interval_sec = max(0.0, float(min_interval_sec))
+        elif self.max_requests > 0:
+            self.min_interval_sec = round(62.0 / self.max_requests, 2)
+        else:
+            self.min_interval_sec = 0.0
+        self._timestamps: deque[float] = deque()
+        self._clock = clock
+        self._sleeper = sleeper
+
+    def _now(self) -> float:
+        return self._clock() if self._clock is not None else time.monotonic()
+
+    def _sleep(self, sec: float) -> None:
+        if self._sleeper is not None:
+            self._sleeper(sec)
+        else:
+            time.sleep(sec)
+
+    def acquire(self, stage: str = "CH-B", show_id: str = "") -> float:
+        """Wait if needed to satisfy RPM limits, then record this request's start timestamp.
+
+        Returns seconds slept.
+        """
+        if self.max_requests <= 0:
+            return 0.0
+
+        now = self._now()
+        while self._timestamps and (now - self._timestamps[0]) >= self.window_sec:
+            self._timestamps.popleft()
+
+        wait_window = 0.0
+        if len(self._timestamps) >= self.max_requests:
+            wait_window = self.window_sec - (now - self._timestamps[0])
+
+        wait_spacing = 0.0
+        if self._timestamps and self.min_interval_sec > 0:
+            elapsed_since_last = now - self._timestamps[-1]
+            if elapsed_since_last < self.min_interval_sec:
+                wait_spacing = self.min_interval_sec - elapsed_since_last
+
+        wait_sec = max(wait_window, wait_spacing)
+        slept = 0.0
+        if wait_sec > 0.01:
+            reason = (
+                f"rolling window ({len(self._timestamps)}/{self.max_requests} in {self.window_sec:.0f}s)"
+                if wait_window >= wait_spacing
+                else f"smooth spacing (min {self.min_interval_sec:.1f}s for {self.max_requests} RPM)"
+            )
+            log(
+                stage,
+                f"[RATE-LIMIT] Free Tier {self.max_requests} RPM guard: sleeping {wait_sec:.1f}s ({reason})...",
+                show_id=show_id,
+            )
+            self._sleep(wait_sec)
+            slept = wait_sec
+
+        now_after = max(self._now(), now + slept)
+        while self._timestamps and (now_after - self._timestamps[0]) >= self.window_sec:
+            self._timestamps.popleft()
+        self._timestamps.append(now_after)
+        return slept
+
+
+class ChannelBQuotaState:
+    """Process-wide Free Tier quota & RPM pacing state shared across episodes in one run."""
+
+    def __init__(self) -> None:
+        self.reset()
+
+    def reset(self) -> None:
+        self.rate_limiter: Optional[SlidingWindowRateLimiter] = None
+        self.rate_limiter_rpm: int = -1
+        self.free_rpd_used: dict[str, int] = {}
+        self.free_rpd_exhausted_models: set[str] = set()
+        self.consecutive_503_chunks: dict[str, int] = {}
+        self.free_503_tripped_models: set[str] = set()
+        self.free_key_disabled: bool = False
+
+    def get_rate_limiter(self, rpm: int) -> Optional[SlidingWindowRateLimiter]:
+        if rpm <= 0:
+            return None
+        if self.rate_limiter is None or self.rate_limiter_rpm != rpm:
+            self.rate_limiter = SlidingWindowRateLimiter(max_requests=rpm)
+            self.rate_limiter_rpm = rpm
+        return self.rate_limiter
+
+    def can_use_free_for_model(self, model: str, rpd_budget: int) -> tuple[bool, str]:
+        if self.free_key_disabled:
+            return False, "free_key_disabled"
+        if model in self.free_rpd_exhausted_models:
+            return False, "rpd_429_exhausted"
+        if model in self.free_503_tripped_models:
+            return False, "free_503_circuit_breaker"
+        used = self.free_rpd_used.get(model, 0)
+        if rpd_budget > 0 and used >= rpd_budget:
+            return False, f"rpd_budget_reached ({used}/{rpd_budget})"
+        return True, "ok"
+
+    def record_free_success(self, model: str) -> int:
+        self.consecutive_503_chunks[model] = 0
+        self.free_rpd_used[model] = self.free_rpd_used.get(model, 0) + 1
+        return self.free_rpd_used[model]
+
+    def record_free_503_chunk_failure(self, model: str, threshold: int = 2) -> tuple[int, bool]:
+        count = self.consecutive_503_chunks.get(model, 0) + 1
+        self.consecutive_503_chunks[model] = count
+        tripped = count >= threshold
+        if tripped:
+            self.free_503_tripped_models.add(model)
+        return count, tripped
+
+    def reset_consecutive_503(self, model: str) -> None:
+        self.consecutive_503_chunks[model] = 0
+
+    def mark_free_rpd_exhausted(self, model: str, disable_key: bool = False) -> None:
+        self.free_rpd_exhausted_models.add(model)
+        if disable_key:
+            self.free_key_disabled = True
+
+
+CH_B_QUOTA_STATE = ChannelBQuotaState()
+
+
+def reset_ch_b_quota_state() -> None:
+    """Reset process-wide Channel B Free Tier quota state (primarily for tests)."""
+    CH_B_QUOTA_STATE.reset()
 
 
 def clean_json_markdown(text: str) -> str:
@@ -170,6 +441,11 @@ def generate_structured_with_retry(
     thinking_level_resolver: Optional[Callable[[str], Optional[str]]] = None,
     show_id: str = "",
     client_factory: Optional[Callable[[], genai.Client]] = None,
+    max_output_tokens: Optional[int] = None,
+    rate_limiter: Optional[SlidingWindowRateLimiter] = None,
+    fail_fast_on_rpd: bool = False,
+    is_free_tier: bool = False,
+    usage_tier_tag: str = "",
 ) -> BaseModel:
     """Execute structured generation using streaming response with 5-retry backoff across model_pool."""
     backoff_delays = [15, 20, 25, 30]
@@ -218,6 +494,8 @@ def generate_structured_with_retry(
                         "response_schema": response_schema,
                         "temperature": temperature,
                     }
+                    if max_output_tokens is not None:
+                        config_kwargs["max_output_tokens"] = max_output_tokens
                     if current_thinking_level:
                         try:
                             config_kwargs["thinking_config"] = types.ThinkingConfig(thinking_level=current_thinking_level)
@@ -259,6 +537,8 @@ def generate_structured_with_retry(
                     )
 
                     try:
+                        if rate_limiter is not None:
+                            rate_limiter.acquire(stage=stage, show_id=show_id)
                         response = client.models.generate_content_stream(
                             model=current_model,
                             contents=contents,
@@ -311,13 +591,38 @@ def generate_structured_with_retry(
                     show_id=show_id,
                 )
                 if stage in MODEL_USAGE_STATS:
-                    MODEL_USAGE_STATS[stage][current_model] = MODEL_USAGE_STATS[stage].get(current_model, 0) + 1
+                    stat_key = f"{current_model} ({usage_tier_tag})" if usage_tier_tag else current_model
+                    MODEL_USAGE_STATS[stage][stat_key] = MODEL_USAGE_STATS[stage].get(stat_key, 0) + 1
                 return parsed
 
             except Exception as e:
                 last_exception = e
                 err_str = str(e)
                 log("ERROR", f"[{stage}] Attempt {attempt}/{max_retries} with model '{current_model}' failed: {e}", show_id=show_id)
+
+                if fail_fast_on_rpd and is_api_key_auth_error(e):
+                    log(
+                        "WARN",
+                        f"[{stage}] Free Tier API key authentication/access error on model '{current_model}'. Failing fast for fallback...",
+                        show_id=show_id,
+                    )
+                    raise QuotaExhaustedRPDError(current_model, err_str, auth_error=True) from e
+
+                if is_rpd_exhausted_error(e):
+                    if fail_fast_on_rpd:
+                        log(
+                            "WARN",
+                            f"[{stage}] Free Tier daily quota (RPD) exhausted for model '{current_model}'. Failing fast for overflow/fallback...",
+                            show_id=show_id,
+                        )
+                        raise QuotaExhaustedRPDError(current_model, err_str) from e
+                    log(
+                        "WARN",
+                        f"[{stage}] Daily quota (RPD) exhausted for model '{current_model}'. Skipping remaining retries for this model.",
+                        show_id=show_id,
+                    )
+                    skipped_404 = True
+                    break
 
                 is_404 = "404" in err_str or "NOT_FOUND" in err_str or "NotFound" in type(e).__name__
                 if is_404:
@@ -353,8 +658,29 @@ def generate_structured_with_retry(
                     consecutive_disconnects = 0
 
                 if attempt < max_retries:
-                    delay = backoff_delays[attempt - 1] if (attempt - 1) < len(backoff_delays) else 30
-                    log(stage, f"Retrying model '{current_model}' after {delay}s backoff (attempt {attempt}/{max_retries})...", show_id=show_id)
+                    delay: float = float(backoff_delays[attempt - 1] if (attempt - 1) < len(backoff_delays) else 30)
+                    if is_rate_limit_error(e):
+                        suggested_delay = parse_retry_delay_sec(e)
+                        if suggested_delay is not None:
+                            delay = min(max(suggested_delay + 2.0, 15.0), 75.0)
+                            log(
+                                stage,
+                                f"[RATE-LIMIT] Transient 429 RPM/TPM hit on '{current_model}'. "
+                                f"Honoring server retryDelay (+2s buffer): sleeping {delay:.1f}s (attempt {attempt}/{max_retries})...",
+                                show_id=show_id,
+                            )
+                        elif is_free_tier:
+                            delay = max(delay, 65.0)
+                            log(
+                                stage,
+                                f"[RATE-LIMIT] Transient 429 RPM/TPM hit on Free Tier '{current_model}'. "
+                                f"Sleeping {delay:.1f}s for rolling minute window reset (attempt {attempt}/{max_retries})...",
+                                show_id=show_id,
+                            )
+                        else:
+                            log(stage, f"Retrying model '{current_model}' after {delay:.1f}s backoff (attempt {attempt}/{max_retries})...", show_id=show_id)
+                    else:
+                        log(stage, f"Retrying model '{current_model}' after {delay:.1f}s backoff (attempt {attempt}/{max_retries})...", show_id=show_id)
                     time.sleep(delay)
                 else:
                     log("ERROR", f"[{stage}] All {max_retries} attempts exhausted for model '{current_model}'.", show_id=show_id)
@@ -843,6 +1169,74 @@ def generate_channel_a_structured_with_retry(
     raise RuntimeError(f"All Channel A models in pool {model_pool} exhausted without returning a valid response.")
 
 
+def _transcribe_single_chunk(
+    client: genai.Client,
+    api_key: str,
+    chunk_path: Path,
+    model_pool: list[str],
+    system_instruction: str,
+    thinking_level: str,
+    show_id: str = "",
+    max_retries: int = 5,
+    rate_limiter: Optional[SlidingWindowRateLimiter] = None,
+    fail_fast_on_rpd: bool = False,
+    is_free_tier: bool = False,
+    usage_tier_tag: str = "",
+) -> ChannelBOutput:
+    """Upload one audio chunk to the client's project File API, transcribe, and clean up cloud file."""
+    tier_prefix = f"[{usage_tier_tag.upper()}] " if usage_tier_tag else ""
+    log("CH-B", f"{tier_prefix}Uploading {chunk_path.name} to Gemini File API...", show_id=show_id)
+    uploaded = None
+    for up_attempt in range(1, 4):
+        try:
+            uploaded = client.files.upload(file=str(chunk_path))
+            break
+        except Exception as up_err:
+            if fail_fast_on_rpd and is_api_key_auth_error(up_err):
+                raise QuotaExhaustedRPDError(model_pool[0], str(up_err), auth_error=True) from up_err
+            if up_attempt == 3:
+                raise
+            log("CH-B", f"{tier_prefix}Upload attempt {up_attempt} failed: {up_err}. Retrying in 5s...", show_id=show_id)
+            time.sleep(5)
+
+    log("CH-B", f"{tier_prefix}Uploaded cloud file: {uploaded.name}. Polling for ACTIVE state...", show_id=show_id)
+    try:
+        file_info = client.files.get(name=uploaded.name)
+        while not str(file_info.state).endswith("ACTIVE"):
+            if str(file_info.state).endswith("FAILED"):
+                raise RuntimeError(f"Cloud file {uploaded.name} entered FAILED state.")
+            time.sleep(2)
+            file_info = client.files.get(name=uploaded.name)
+        log("CH-B", f"{tier_prefix}Cloud file {uploaded.name} is ACTIVE.", show_id=show_id)
+
+        contents = [file_info, CHANNEL_B_USER_PROMPT]
+
+        return generate_structured_with_retry(
+            client=client,
+            model_pool=model_pool,
+            contents=contents,
+            system_instruction=system_instruction,
+            response_schema=ChannelBOutput,
+            stage="CH-B",
+            temperature=0.2,
+            max_retries=max_retries,
+            thinking_level=thinking_level,
+            show_id=show_id,
+            client_factory=lambda: create_genai_client(api_key=api_key),
+            max_output_tokens=32768,
+            rate_limiter=rate_limiter,
+            fail_fast_on_rpd=fail_fast_on_rpd,
+            is_free_tier=is_free_tier,
+            usage_tier_tag=usage_tier_tag,
+        )
+    finally:
+        try:
+            client.files.delete(name=uploaded.name)
+            log("CH-B", f"{tier_prefix}Deleted cloud file {uploaded.name}.", show_id=show_id)
+        except Exception as del_err:
+            log("CH-B", f"{tier_prefix}Warning: Failed to delete cloud file {uploaded.name}: {del_err}", show_id=show_id)
+
+
 def run_channel_b(
     chunks: list[Path],
     glossary_text: str,
@@ -855,13 +1249,49 @@ def run_channel_b(
     content_style: str = "analytical",
     speaker_roster: Optional[list[str]] = None,
 ) -> list[dict]:
-    """[5. CHANNEL_B] 逐片上传 Gemini File API → 注入术语与 Show Notes 转写+翻译 → 立即删除云端文件."""
-    api_key = get_env_stripped("GEMINI_API_KEY")
-    client = create_genai_client(api_key=api_key)
+    """[5. CHANNEL_B] 逐片上传 Gemini File API → 注入术语与 Show Notes 转写+翻译 → 立即删除云端文件.
+
+    Supports Free-First + Paid-Overflow dual-key routing when GEMINI_API_KEY_CH_B is configured:
+    - Uses GEMINI_API_KEY_CH_B (Free Tier) with strict 5 RPM sliding-window + smooth-spacing limiter
+    - Tracks RPD budget & detects 429 PerDay exhaustion immediately (zero wasted retries)
+    - On RPD exhaustion, re-uploads the chunk using Paid GEMINI_API_KEY (project-isolated File API)
+      and seamlessly continues with the primary model (gemini-4-hydrogen)
+    """
+    free_key, paid_key = get_ch_b_api_keys()
+    free_mode = bool(free_key)
+    free_rpm = get_ch_b_free_rpm()
+    free_rpd_budget = get_ch_b_free_rpd()
+    overflow_to_paid = get_ch_b_overflow_to_paid()
+
+    free_client: Optional[genai.Client] = create_genai_client(api_key=free_key) if free_mode else None
+    paid_client: Optional[genai.Client] = None if free_mode else create_genai_client(api_key=paid_key)
+
+    def get_paid_client() -> genai.Client:
+        nonlocal paid_client
+        if paid_client is None:
+            paid_client = create_genai_client(api_key=paid_key)
+        return paid_client
 
     try:
         model_pool = get_ch_b_model_pool()
+        primary_model = model_pool[0]
         log("CH-B", f"Channel B model pool configured: {model_pool}", show_id=show_id)
+
+        if free_mode:
+            log(
+                "CH-B",
+                f"Channel B Free Tier mode enabled (separate GEMINI_API_KEY_CH_B detected; "
+                f"rpm={free_rpm}, rpd_budget={free_rpd_budget}, overflow_to_paid={overflow_to_paid}).",
+                show_id=show_id,
+            )
+            rate_limiter = CH_B_QUOTA_STATE.get_rate_limiter(free_rpm)
+        else:
+            log(
+                "CH-B",
+                "Channel B running in Paid/Single-Key mode (GEMINI_API_KEY_CH_B not set or matches GEMINI_API_KEY).",
+                show_id=show_id,
+            )
+            rate_limiter = None
 
         thinking_level = get_env_stripped("GEMINI_THINKING_CH_B", "low")
         log("CH-B", f"Channel B thinking level configured: '{thinking_level}'", show_id=show_id)
@@ -887,73 +1317,205 @@ def run_channel_b(
 
         all_raw_segments = []
         accumulated_chunk_start_sec = 0
+        free_chunks_ok = 0
+        paid_chunks_ok = 0
 
         for idx, chunk_path in enumerate(chunks_to_process):
             log("CH-B", f"--- Processing chunk [{idx + 1}/{len(chunks_to_process)}]: {chunk_path.name} ---", show_id=show_id)
             chunk_dur = get_audio_duration_sec(chunk_path, show_id=show_id)
             log("CH-B", f"Chunk duration via ffprobe: {chunk_dur}s (accumulated base: {accumulated_chunk_start_sec}s).", show_id=show_id)
 
-            log("CH-B", f"Uploading {chunk_path.name} to Gemini File API...", show_id=show_id)
-            uploaded = None
-            for up_attempt in range(1, 4):
-                try:
-                    uploaded = client.files.upload(file=str(chunk_path))
-                    break
-                except Exception as up_err:
-                    if up_attempt == 3:
-                        raise
-                    log("CH-B", f"Upload attempt {up_attempt} failed: {up_err}. Retrying in 5s...", show_id=show_id)
-                    time.sleep(5)
-
-            log("CH-B", f"Uploaded cloud file: {uploaded.name}. Polling for ACTIVE state...", show_id=show_id)
-            try:
-                file_info = client.files.get(name=uploaded.name)
-                while not str(file_info.state).endswith("ACTIVE"):
-                    if str(file_info.state).endswith("FAILED"):
-                        raise RuntimeError(f"Cloud file {uploaded.name} entered FAILED state.")
-                    time.sleep(2)
-                    file_info = client.files.get(name=uploaded.name)
-                log("CH-B", f"Cloud file {uploaded.name} is ACTIVE.", show_id=show_id)
-
-                contents = [file_info, CHANNEL_B_USER_PROMPT]
-
-                parsed_resp: ChannelBOutput = generate_structured_with_retry(
-                    client=client,
+            parsed_resp: ChannelBOutput
+            if free_mode:
+                can_free, free_reason = CH_B_QUOTA_STATE.can_use_free_for_model(primary_model, free_rpd_budget)
+                if can_free and free_client is not None:
+                    if overflow_to_paid and paid_key:
+                        try:
+                            parsed_resp = _transcribe_single_chunk(
+                                client=free_client,
+                                api_key=free_key,
+                                chunk_path=chunk_path,
+                                model_pool=[primary_model],
+                                system_instruction=system_instruction,
+                                thinking_level=thinking_level,
+                                show_id=show_id,
+                                max_retries=3,
+                                rate_limiter=rate_limiter,
+                                fail_fast_on_rpd=True,
+                                is_free_tier=True,
+                                usage_tier_tag="free",
+                            )
+                            used_now = CH_B_QUOTA_STATE.record_free_success(primary_model)
+                            free_chunks_ok += 1
+                            budget_desc = f"{used_now}/{free_rpd_budget}" if free_rpd_budget > 0 else str(used_now)
+                            log("CH-B", f"Free Tier chunk succeeded (Free RPD used this run for '{primary_model}': {budget_desc}).", show_id=show_id)
+                        except QuotaExhaustedRPDError as q_err:
+                            CH_B_QUOTA_STATE.mark_free_rpd_exhausted(primary_model, disable_key=q_err.auth_error)
+                            log(
+                                "WARN",
+                                f"Free Tier exhausted/unavailable for '{primary_model}' ({q_err}). "
+                                f"Re-uploading chunk via Paid Tier key to continue with '{primary_model}'...",
+                                show_id=show_id,
+                            )
+                            parsed_resp = _transcribe_single_chunk(
+                                client=get_paid_client(),
+                                api_key=paid_key,
+                                chunk_path=chunk_path,
+                                model_pool=model_pool,
+                                system_instruction=system_instruction,
+                                thinking_level=thinking_level,
+                                show_id=show_id,
+                                rate_limiter=None,
+                                fail_fast_on_rpd=False,
+                                is_free_tier=False,
+                                usage_tier_tag="paid",
+                            )
+                            paid_chunks_ok += 1
+                        except Exception as free_err:
+                            if is_service_unavailable_error(free_err):
+                                consec_503, tripped = CH_B_QUOTA_STATE.record_free_503_chunk_failure(
+                                    primary_model, threshold=2
+                                )
+                                if tripped:
+                                    log(
+                                        "WARN",
+                                        f"Free Tier hit {consec_503} consecutive 503 UNAVAILABLE chunk failures on '{primary_model}'. "
+                                        f"Tripping Free Tier 503 circuit breaker for this run; falling back this and remaining chunks to Paid Tier ('{primary_model}')...",
+                                        show_id=show_id,
+                                    )
+                                else:
+                                    log(
+                                        "WARN",
+                                        f"Free Tier 503 UNAVAILABLE on chunk '{chunk_path.name}' (consecutive 503 chunks: {consec_503}/2; {free_err}). "
+                                        f"Falling back this chunk to Paid Tier key ('{primary_model}')...",
+                                        show_id=show_id,
+                                    )
+                            else:
+                                CH_B_QUOTA_STATE.reset_consecutive_503(primary_model)
+                                log(
+                                    "WARN",
+                                    f"Free Tier failed on chunk '{chunk_path.name}' ({free_err}). "
+                                    f"Falling back this chunk to Paid Tier key ('{primary_model}')...",
+                                    show_id=show_id,
+                                )
+                            parsed_resp = _transcribe_single_chunk(
+                                client=get_paid_client(),
+                                api_key=paid_key,
+                                chunk_path=chunk_path,
+                                model_pool=model_pool,
+                                system_instruction=system_instruction,
+                                thinking_level=thinking_level,
+                                show_id=show_id,
+                                rate_limiter=None,
+                                fail_fast_on_rpd=False,
+                                is_free_tier=False,
+                                usage_tier_tag="paid",
+                            )
+                            paid_chunks_ok += 1
+                    else:
+                        available_free_pool = [
+                            m for m in model_pool if m not in CH_B_QUOTA_STATE.free_rpd_exhausted_models
+                        ] or list(model_pool)
+                        parsed_resp = _transcribe_single_chunk(
+                            client=free_client,
+                            api_key=free_key,
+                            chunk_path=chunk_path,
+                            model_pool=available_free_pool,
+                            system_instruction=system_instruction,
+                            thinking_level=thinking_level,
+                            show_id=show_id,
+                            rate_limiter=rate_limiter,
+                            fail_fast_on_rpd=False,
+                            is_free_tier=True,
+                            usage_tier_tag="free",
+                        )
+                        CH_B_QUOTA_STATE.record_free_success(available_free_pool[0])
+                        free_chunks_ok += 1
+                else:
+                    if overflow_to_paid and paid_key:
+                        log(
+                            "CH-B",
+                            f"Skipping Free Tier for chunk [{idx + 1}/{len(chunks_to_process)}] ({free_reason}); "
+                            f"routing directly to Paid Tier ('{primary_model}')...",
+                            show_id=show_id,
+                        )
+                        parsed_resp = _transcribe_single_chunk(
+                            client=get_paid_client(),
+                            api_key=paid_key,
+                            chunk_path=chunk_path,
+                            model_pool=model_pool,
+                            system_instruction=system_instruction,
+                            thinking_level=thinking_level,
+                            show_id=show_id,
+                            rate_limiter=None,
+                            fail_fast_on_rpd=False,
+                            is_free_tier=False,
+                            usage_tier_tag="paid",
+                        )
+                        paid_chunks_ok += 1
+                    else:
+                        remaining_pool = [
+                            m for m in model_pool if m not in CH_B_QUOTA_STATE.free_rpd_exhausted_models
+                        ]
+                        if not remaining_pool or free_client is None:
+                            raise QuotaExhaustedRPDError(
+                                primary_model,
+                                f"Free Tier quota exhausted ({free_reason}) and Paid overflow is disabled.",
+                            )
+                        log(
+                            "CH-B",
+                            f"Free Tier primary model unavailable ({free_reason}); "
+                            f"falling back on Free Tier to remaining pool: {remaining_pool}",
+                            show_id=show_id,
+                        )
+                        parsed_resp = _transcribe_single_chunk(
+                            client=free_client,
+                            api_key=free_key,
+                            chunk_path=chunk_path,
+                            model_pool=remaining_pool,
+                            system_instruction=system_instruction,
+                            thinking_level=thinking_level,
+                            show_id=show_id,
+                            rate_limiter=rate_limiter,
+                            fail_fast_on_rpd=False,
+                            is_free_tier=True,
+                            usage_tier_tag="free",
+                        )
+                        CH_B_QUOTA_STATE.record_free_success(remaining_pool[0])
+                        free_chunks_ok += 1
+            else:
+                parsed_resp = _transcribe_single_chunk(
+                    client=get_paid_client(),
+                    api_key=paid_key,
+                    chunk_path=chunk_path,
                     model_pool=model_pool,
-                    contents=contents,
                     system_instruction=system_instruction,
-                    response_schema=ChannelBOutput,
-                    stage="CH-B",
-                    temperature=0.2,
                     thinking_level=thinking_level,
                     show_id=show_id,
-                    client_factory=lambda: create_genai_client(api_key=api_key),
+                    rate_limiter=None,
+                    fail_fast_on_rpd=False,
+                    is_free_tier=False,
+                    usage_tier_tag="",
                 )
+                paid_chunks_ok += 1
 
-                chunk_segments = parsed_resp.segments
-                log("CH-B", f"Chunk [{idx + 1}/{len(chunks_to_process)}] produced {len(chunk_segments)} segment(s).", show_id=show_id)
-                for seg in chunk_segments:
-                    offset = parse_mmss_to_sec(seg.timestamp, fallback_sec=0)
-                    clamped_offset = max(0, min(offset, chunk_dur))
-                    global_start = accumulated_chunk_start_sec + clamped_offset
-                    clamped_start = max(0, min(global_start, duration_sec))
-                    all_raw_segments.append({
-                        "start_sec": clamped_start,
-                        "speaker": normalize_speaker(seg.speaker),
-                        "en": seg.en.strip(),
-                        "zh": seg.zh.strip(),
-                    })
-
-            finally:
-                try:
-                    client.files.delete(name=uploaded.name)
-                    log("CH-B", f"Deleted cloud file {uploaded.name}.", show_id=show_id)
-                except Exception as del_err:
-                    log("CH-B", f"Warning: Failed to delete cloud file {uploaded.name}: {del_err}", show_id=show_id)
+            chunk_segments = parsed_resp.segments
+            log("CH-B", f"Chunk [{idx + 1}/{len(chunks_to_process)}] produced {len(chunk_segments)} segment(s).", show_id=show_id)
+            for seg in chunk_segments:
+                offset = parse_mmss_to_sec(seg.timestamp, fallback_sec=0)
+                clamped_offset = max(0, min(offset, chunk_dur))
+                global_start = accumulated_chunk_start_sec + clamped_offset
+                clamped_start = max(0, min(global_start, duration_sec))
+                all_raw_segments.append({
+                    "start_sec": clamped_start,
+                    "speaker": normalize_speaker(seg.speaker),
+                    "en": seg.en.strip(),
+                    "zh": seg.zh.strip(),
+                })
 
             accumulated_chunk_start_sec += chunk_dur
 
-            if idx < len(chunks_to_process) - 1:
+            if idx < len(chunks_to_process) - 1 and chunk_sleep_sec > 0:
                 log("CH-B", f"Sleeping {chunk_sleep_sec}s between chunks as per rate-limiting policy...", show_id=show_id)
                 time.sleep(chunk_sleep_sec)
 
@@ -974,14 +1536,26 @@ def run_channel_b(
                 "zh": seg["zh"],
             })
 
-        log("CH-B", f"Channel B completed successfully. Total transcript items: {len(final_transcript)}.", show_id=show_id)
+        if free_mode:
+            used_total = CH_B_QUOTA_STATE.free_rpd_used.get(primary_model, 0)
+            budget_str = f"{used_total}/{free_rpd_budget}" if free_rpd_budget > 0 else str(used_total)
+            log(
+                "CH-B",
+                f"Channel B completed successfully. Total transcript items: {len(final_transcript)} | "
+                f"Chunks: {len(chunks_to_process)} (free={free_chunks_ok}, paid_overflow={paid_chunks_ok}) | "
+                f"Free RPD used this run: {budget_str}.",
+                show_id=show_id,
+            )
+        else:
+            log("CH-B", f"Channel B completed successfully. Total transcript items: {len(final_transcript)}.", show_id=show_id)
         return final_transcript
     finally:
-        try:
-            if hasattr(client, "close"):
-                client.close()
-        except Exception:
-            pass
+        for c in (free_client, paid_client):
+            if c is not None and hasattr(c, "close"):
+                try:
+                    c.close()
+                except Exception:
+                    pass
 
 
 def run_channel_a(

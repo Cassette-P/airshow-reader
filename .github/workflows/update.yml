@@ -65,6 +65,7 @@ jobs:
       - name: Run processing pipeline
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_API_KEY_CH_B: ${{ secrets.GEMINI_API_KEY_CH_B }}
           GEMINI_MODEL_CH_B: ${{ vars.GEMINI_MODEL_CH_B }}
           GEMINI_MODEL_CH_A: ${{ vars.GEMINI_MODEL_CH_A }}
           GEMINI_MODEL_ENRICH: ${{ vars.GEMINI_MODEL_ENRICH }}
@@ -72,6 +73,10 @@ jobs:
           GEMINI_THINKING_CH_A: ${{ vars.GEMINI_THINKING_CH_A }}
           GEMINI_THINKING_ENRICH: ${{ vars.GEMINI_THINKING_ENRICH }}
           CHUNK_SLEEP_SEC: ${{ vars.CHUNK_SLEEP_SEC }}
+          CH_B_CHUNK_SEC: ${{ vars.CH_B_CHUNK_SEC }}
+          CH_B_FREE_RPM: ${{ vars.CH_B_FREE_RPM }}
+          CH_B_FREE_RPD: ${{ vars.CH_B_FREE_RPD }}
+          CH_B_FREE_OVERFLOW_TO_PAID: ${{ vars.CH_B_FREE_OVERFLOW_TO_PAID }}
           CH_A_BG_TIMEOUT_SEC: ${{ vars.CH_A_BG_TIMEOUT_SEC }}
           EVENT_NAME: ${{ github.event_name }}
           INPUT_SHOW: ${{ inputs.show }}

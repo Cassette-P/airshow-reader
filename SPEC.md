@@ -95,10 +95,12 @@
    │      ▼
    ├─► [3. DOWNLOAD_AUDIO] 四级抗 403 下载器（Apple Podcasts UA → Overcast UA → curl_cffi → curl）下载 MP3 至临时目录；ffprobe 获取 duration_sec
    │      ▼
-   ├─► [4. CHUNK_AUDIO] ffmpeg 转为单声道 64k mp3 并按 --chunk-sec（默认 180s）切片
+   ├─► [4. CHUNK_AUDIO] ffmpeg 转为单声道 64k mp3 并按 --chunk-sec（默认 300s，可由 CH_B_CHUNK_SEC 覆盖）切片
    │      │ (若开启 --dry-run：打印切片清单与 Show Notes 预览后跳至 [8. CLEANUP])
    │      ▼
-   ├─► [5. CHANNEL_B] 逐片上传 Gemini File API → 流式调用（低思考模式 + 注入专属术语表与 Show Notes）转写与翻译 → 立即删除云端文件
+   ├─► [5. CHANNEL_B] 双 Key 路由（若配置独立 Free Tier GEMINI_API_KEY_CH_B 则走 Free-First + Paid-Overflow，否则直走 Paid GEMINI_API_KEY）：
+   │      │ 逐片上传对应项目 Gemini File API → Free 模式下经 5 RPM 滑动窗口+平滑间隔限速器 → 流式调用（低思考模式、max_output_tokens=32768 + 注入专属术语表与 Show Notes）→ 立即删除云端文件；
+   │      │ 若 Free Key 命中 429 RPM/TPM 则解析 retryDelay 退避重试；若命中 429 RPD (PerDay/limit:0) 或达到 CH_B_FREE_RPD 预算则零重试熔断，经 Paid Client 跨项目重传当前切片并继续以同模型 (gemini-4-hydrogen) 跑完剩余切片；
    │      │ (受 --max-chunks 限制；按 "MM:SS" 输出片内时间戳并做单片钳位，严禁跨片 sort()；
    │      │  所有 speaker 经 normalize_speaker() 剥离 Dr./Prof./Ambassador 等头衔前缀；片间休眠 CHUNK_SLEEP_SEC)
    │      │ (正式全量模式下转写全部完成后立即原子写盘缓存：.cache/ch_b/<show_id>__<safe_guid>.json)
@@ -176,7 +178,7 @@
 
 - `--show SHOW_ID`（str，默认 `"all"`）：指定处理的节目 ID（如 `airshow`、`sinica`、`tal`），或 `"all"`（顺序处理全部 `enabled: true` 的节目）。若传入未知 `show_id` 立即报错退出。
 - `--limit N`（int，默认 `1`）：每个节目单次最多处理的新单集数量（`--enrich` 与 `--enrich-links` 模式下传 `0` 表示不截断全量扫描）。
-- `--chunk-sec S`（int，默认 `180`）：音频切片时长（秒）；建议保持 `180`（最多 `240`），确保时间锚点高精度。
+- `--chunk-sec S`（int，默认 `300` 或 `CH_B_CHUNK_SEC`）：音频切片时长（秒）；默认 `300`（5 分钟）以使三档播客单集（含最长 ~99 分钟 *Sinica*）切片数均落入 `gemini-4-hydrogen` Free Tier 20 RPD 上限内，同时兼顾时间锚点精度。
 - `--max-age-days D`（int，可选）：仅处理最近 D 天内发布的未入库新单集；`0` 表示不限制发布时间；未显式指定时自动读取该节目在 `podcasts.json` 中的 `default_max_age_days`（默认 7 天）。
 - `--dry-run`（flag，默认关闭）：演习模式。常规模式执行 `[1]→[4]` 后打印切片与 Show Notes 提取摘要，`--enrich` 与 `--enrich-links` 模式打印待处理清单；**不调用 Gemini API 或外部外链解析写盘、不修改任何正式 JSON（含 `shows.json`）**，清理临时文件后退出。
 - `--max-chunks M`（int，默认 `0` 表示全部）：仅处理前 M 个切片；当 `M > 0` 时进入冒烟预览模式，结果仅写入 `docs/data/<show_id>/_smoke_preview.json`，绝不修改正式库。
@@ -203,11 +205,17 @@
   - 默认候选模型池：`["gemini-3.8-flash", "gemini-4-hydrogen", "gemini-3.5-flash-lite"]`
   - 环境变量覆盖：`GEMINI_MODEL_ENRICH`，非空时置顶并去重。
   - 思考等级：`GEMINI_THINKING_ENRICH`（默认 `"low"`），若模型不支持自动降级剥离重试。
-- **通道 B（逐片转写与双语翻译）**：
+- **通道 B（逐片转写与双语翻译 · Free-First + Paid-Overflow）**：
   - 默认候选模型池：`["gemini-4-hydrogen", "gemini-3.8-flash", "gemini-3.5-flash-lite"]`
   - 环境变量覆盖：`GEMINI_MODEL_CH_B`（兼容 `GEMINI_MODEL`），非空时置顶并去重。
-  - 思考等级：`GEMINI_THINKING_CH_B`（默认 `"low"`），若模型不支持自动降级剥离重试。
-  - **断点缓存机制**：正式全量模式（`--max-chunks == 0` 且非 `--dry-run`）转写完成后落盘至 `.cache/ch_b/<show_id>__<safe_guid>.json`；单集入库前命中缓存可跳过下载与 CH-B，仅在 `[7. ATOMIC_SAVE]` 成功后删除缓存。
+  - 思考等级：`GEMINI_THINKING_CH_B`（默认 `"low"`），流式调用显式配置 `max_output_tokens=32768` 防止 5 分钟长片输出截断，若模型不支持思考参数自动降级剥离重试。
+  - **独立 Free Tier Key 与速率控制**：
+    - `GEMINI_API_KEY_CH_B`（可选）：独立无绑卡 GCP 项目的 Free Tier API Key；未配置或与 `GEMINI_API_KEY` 相同时自动退化为单 Key Paid 模式（零额外限速开销）。
+    - `CH_B_CHUNK_SEC`（默认 `300`）：默认音频切片秒数。
+    - `CH_B_FREE_RPM`（默认 `5`，`0` 关闭）：双保险 RPM 限速器（任意 `65s` 滑动窗口 ≤ `5` 次发起 + 相邻请求起始间隔 ≥ `62 / rpm = 12.4s` 平滑节流），覆盖重试请求，杜绝 5 RPM 瞬时撞墙。
+    - `CH_B_FREE_RPD`（默认 `20`，`0` 关闭软预算）：单次运行内主模型 Free 软预算，与实时 `429 PerDay / limit: 0` 检测协同工作；一旦耗尽或 Free Key 鉴权异常，立即熔断并记忆至进程级 `CH_B_QUOTA_STATE`。
+    - `CH_B_FREE_OVERFLOW_TO_PAID`（默认 `"true"`）：Free Tier RPD 耗尽后，先清理 Free 云端文件，再通过 Paid Client 跨项目重新上传该切片音频并继续使用 `gemini-4-hydrogen` 跑完剩余切片；启用 Paid 溢出时 Free 端单片重试收紧为 **3 次（`15s → 20s`）**，且若 Free 端连续 **2 个切片**命中 `503 UNAVAILABLE` 高负载拥堵则自动触发本轮 503 熔断（后续切片直走 Paid，成功切片清零计数）；遇瞬时 `429 RPM/TPM` 时解析 `retryDelay`（+2s 缓冲，默认 `65s`）在 Free Key 上等待重试，不误切 Paid。
+  - **断点缓存机制**：正式全量模式（`--max-chunks == 0` 且非 `--dry-run`）转写完成后落盘至 `.cache/ch_b/<show_id>__<safe_guid>.json`；单集入库前命中缓存（校验 `chunk_sec` 一致）可跳过下载与 CH-B，仅在 `[7. ATOMIC_SAVE]` 成功后删除缓存。
 - **通道 A（全局摘要、Highlights 与知识卡片）**：
   - 默认候选模型池：`["gemini-4-carbon", "gemini-4-neon", "gemini-3.8-flash"]`（默认锁定 `gemini-4-carbon`）。
   - 环境变量覆盖：`GEMINI_MODEL_CH_A`，非空时置顶并去重。

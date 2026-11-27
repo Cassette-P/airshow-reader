@@ -60,13 +60,20 @@
     - 全程零 Gemini API 调用完成存量 20 期 / 72 条参考资源补链与逐条人工级 HTTP/标题核验（命中 **70/72 条、103 枚** 真实直达外链，2 条不可达站点依宁缺毋滥留 `[]`，零同名误配/搜索页/死链），二次执行 `--enrich-links` 严格幂等（`Attempted: 0, Skipped: 20`）；
     - `validate_data.py --strict`（0 错 0 告警）与桌面 1280px / 移动 375px / 窄屏 320px 浅深双模浏览器验证全通（Console 0 报错、零横向溢出）。
 
+- [x] **M13**：Channel B 独立 Free Tier API 路由、5 RPM 滑动窗口限速与 300s 切片升级（2026-11-28 通过）
+  - **Free-First + Paid-Overflow 双 Key 架构**：
+    1. 新增 `GEMINI_API_KEY_CH_B`（独立无绑卡 GCP 项目 Free Tier Key）及 `CH_B_CHUNK_SEC`（默认 `300s`）、`CH_B_FREE_RPM`（默认 `5`）、`CH_B_FREE_RPD`（默认 `20`）、`CH_B_FREE_OVERFLOW_TO_PAID`（默认 `true`），未配置 Free Key 时 100% 向后兼容单 Key Paid 模式；
+    2. 切片默认时长由 `180s` 升级为 `300s`（同步更新 CH-B Prompt 时间锚点指令并显式设定 `max_output_tokens=32768`），使三档播客单集（*Air Show* ≤11、*TAL* ≤12、最长 99 分钟 *Sinica* ≤20）全部落入 `gemini-4-hydrogen` 20 RPD 免费额度内；
+    3. 新增 `SlidingWindowRateLimiter`（65s 滑动窗口 ≤5 次 + 12.4s 最小起始间隔双保险）、429 RPM/RPD 精准分类器（`PerMinute` 解析 `retryDelay` 等待重试，`PerDay`/`limit: 0` 零重试立即熔断并跨项目重传至 Paid Client 以同模型续跑）及 Free 端 3 次快重试（`15s → 20s`）+ 连续 2 片 `503 UNAVAILABLE` 拥堵熔断；
+    4. 同步透传新 Secret 与 Variables 至 `.github/workflows/update.yml` 并对齐 `README.md` / `SPEC.md`。
+
 ---
 
-## 当前稳定基线：v3.6 参考资源多源直达外链与 Gemini 4 双通道基线
+## 当前稳定基线：v3.7 Channel B Free Tier 双 Key 路由与多源外链基线
 
 - **当前线上资产规模**：3 档活跃播客（*The Air Show* 11 期 + *Sinica Podcast* 7 期 + *This American Life* 2 期，共 20 期 / 72 条参考资源 / 103 枚核验直达外链），全量覆盖 v3.2 参考资源多源外链、v3.1 知识卡片与分幕导读，CI 门禁与定时巡检持续自动运行。
 - **架构演进成果**：
-  - 双通道 Gemini 4 升级：Channel A 默认 `gemini-4-carbon @ high`（Interactions API 异步轮询 + `stream_with_thoughts` 心跳回退），Channel B 默认升级 `gemini-4-hydrogen`（低思考模式 + 断点缓存 `.cache/ch_b/`）；
+  - 双通道 Gemini 4 + Free/Paid 成本优化：Channel A 默认 Paid Tier `gemini-4-carbon @ high`（Interactions API 异步轮询 + `stream_with_thoughts` 心跳回退），Channel B 默认 `gemini-4-hydrogen`（`300s` 切片、`GEMINI_API_KEY_CH_B` Free Tier 5 RPM / 20 RPD 优先 + Paid 同模型溢出兜底 + 断点缓存 `.cache/ch_b/`）；
   - 确定性多源外链引擎：`scripts/pipeline/links.py` 联合 Show Notes 一手链接、MediaWiki / Goodreads / 豆瓣 / iTunes 公开接口与主创消歧规则自动挂链，严禁 LLM 凭记忆盲猜数字 ID；
   - 弹性容灾与门禁：300s 超时、Socket 断连重建、思考档位平滑降级与 `validate_data.py --strict` 发布阻断门禁；
   - 风格自适应：`analytical` 深度分析体与 `narrative` 特稿分幕体双引擎并存驱动。
