@@ -1,7 +1,7 @@
 {
   "schema_version": "3.0",
   "site_title": "Podcast Bilingual Reader",
-  "updated_at": "2026-11-27T01:22:59Z",
+  "updated_at": "2026-11-27T15:57:46Z",
   "shows": [
     {
       "id": "airshow",
@@ -27,7 +27,7 @@
       "subtitle": "Narrative Journalism & Stories · Hosted by Ira Glass",
       "accent_color": "#2D6A4F",
       "index_file": "tal/index.json",
-      "episode_count": 2,
+      "episode_count": 3,
       "latest_pub_date": "2026-11-23T01:00:00Z"
     }
   ]

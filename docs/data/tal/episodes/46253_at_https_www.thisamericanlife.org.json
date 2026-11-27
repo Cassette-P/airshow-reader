@@ -1,0 +1,2105 @@
+{
+  "schema_version": "3.0",
+  "show_id": "tal",
+  "guid": "46253 at https://www.thisamericanlife.org",
+  "title": "901: Is Your Blue My Blue?",
+  "pub_date": "2026-11-09T01:00:00Z",
+  "duration_sec": 3442,
+  "audio_url": "https://www.thisamericanlife.org/sites/default/files/audio/upload/archive/901.mp3",
+  "summary_zh": "本期探讨的核心母题是：当我们困在各自的大脑里，该如何让旁人理解唯独自己能感知的世界？Prologue中，Ira Glass在白内障手术后发现世界骤然变亮变蓝，意识到自己多年来看着与常人不同的“蓝”，由此追问人如何向他人传递脑海中的体验。三幕故事层层呼应：Act One里，音乐人Shaun Bengson长期隐瞒遗传性失聪与耳鸣，他用音效装置向妻子Abigail还原脑中的蝉鸣，终在初为人父的危机后直面现实；Act Two中，制作人Ike Sriskandarajah借疼痛调查证明丛集性头痛之烈，向临产妻子笨拙“比惨”碰壁后，在病友间觅得真正共情；Act Three里，母亲猝逝的Molly Marcello追寻一本失落的哀伤小志，在创作者重拼的手稿中读懂了悲伤的共鸣与终局。",
+  "key_takeaways_zh": [
+    "Prologue（Ira Glass）：Ira Glass在分眼完成白内障手术后惊讶地发现眼中的“蓝色”变得截然不同，由此引出本期母题——我们该如何让他人进入自己的大脑，理解唯独自己能感知的世界？",
+    "Act One（Ira Glass）：音乐人Shaun Bengson明知自己遗传了听力衰退与剧烈耳鸣却在羞耻与侥幸中隐瞒数十年，他与妻子Abigail回顾了这段漫长的逃避史，并用声音模拟装置还原了他脑海中的听觉世界。",
+    "Act Two（Ike Sriskandarajah）：饱受丛集性头痛折磨的制作人Ike Sriskandarajah试图借一份人类极限疼痛调查证明这种隐形剧痛，甚至笨拙地向怀胎九月的妻子“比惨”，最终却在病友间体会到真正的共情。",
+    "Act Three（Molly Marcello、Phia Bennin、Diane Wu）：母亲猝逝后脑海被丧母之痛填满的实习制作人Molly Marcello，执着追寻一本曾被借给“丧猫之人”的哀伤主题独立小志，并在原作者重拼的剪贴手稿中直面了悲伤的共振与终局。"
+  ],
+  "highlights": [
+    {
+      "start_sec": 12,
+      "title_zh": "Prologue: 术后的蓝色",
+      "summary_zh": "Ira Glass因复视就医后确诊白内障，在两只眼睛先后手术的间隔周里，他对比发现修复后的眼睛看到的世界明亮许多、也蓝得多。这让他意识到自己多年来都在不知不觉中误读色彩，并抛出本期核心追问：我们该如何向旁人传递自己大脑内部的真实感知？",
+      "quote_en": "But I had no idea that I was seeing a different blue than everybody else."
+    },
+    {
+      "start_sec": 206,
+      "title_zh": "Act One: 隐秘的耳鸣",
+      "summary_zh": "Ira Glass讲述了音乐人Shaun Bengson的故事：他自幼深知家族男性遗传失聪与耳鸣，却在十四五岁加入车库乐队时贪恋摇滚震荡身体的狂喜而扔掉耳塞。初次出现耳鸣后，他像成瘾者一样陷入独自隐瞒、悔恨自责却依然屡教不改的羞耻循环。",
+      "quote_en": "And I had my earplugs that my dad had given me that I was supposed to wear. I wore them like two seconds, and I was like, 'This, this sucks.'"
+    },
+    {
+      "start_sec": 544,
+      "title_zh": "以鲁莽为爱的年轻伴侣",
+      "summary_zh": "23岁时Shaun结识妻子Abigail并组建民谣朋克双人组The Bengsons，Abigail察觉他在喧闹演出后总在街头打响指自测听力受损程度。出于热恋中的盟友心理且不想沦为唠叨的看管者，她选择迎合他的侥幸叙事，两人共同回避着音乐生涯终将因失聪终结的恐惧。",
+      "quote_en": "When you first fall in love with somebody, it's like a way to love them is to see it their way, you know, and to kind of embrace even the fiction that they're telling themselves."
+    },
+    {
+      "start_sec": 787,
+      "title_zh": "声音模拟：失聪者的世界",
+      "summary_zh": "为了让Abigail和剧场观众理解他的听觉处境，Shaun在节目中实时演示了他设计的音效：每失去一个高频频段，该频段便化作永不消退的蝉鸣噪音。随着时间推移到当下乃至十年后的未来，话语彻底沦为水下般的模糊脉冲，日常音量下的交谈他仅能听懂两成。",
+      "quote_en": "So basically as you lose frequencies, each frequency that you lose becomes part of the noise."
+    },
+    {
+      "start_sec": 1236,
+      "title_zh": "重症监护室里的觉醒时刻",
+      "summary_zh": "儿子Louie出生当晚因单侧肺叶无法充气被紧急送往重症监护室，产后留院的Abigail无法在旁充当“翻译”。面对医护人员关乎孩子生死的紧急沟通，听不清话语的Shaun跌入羞愧谷底，终于开始佩戴耳塞，并在多年拖延后受Ira启发配上了助听器。",
+      "quote_en": "And now my child's life might be on the line and I like couldn't hear well enough to be able to help."
+    },
+    {
+      "start_sec": 1890,
+      "title_zh": "Act Two: 众生皆苦",
+      "summary_zh": "第二幕探讨肉体剧痛的量化与传达：制作人Ike Sriskandarajah自七年级起饱受丛集性头痛折磨，却苦于外人难以想象这种隐形剧痛。一份针对人类极限痛苦的医学问卷让他如获至宝——同时经历过两者的受访者给枪伤打出6分、肾结石6.9分，而丛集性头痛高达9.7分。",
+      "quote_en": "It felt like my eye socket was full of red-hot coals, and a mule was just kicking me in the face repeatedly for hours on end."
+    },
+    {
+      "start_sec": 2520,
+      "title_zh": "向怀孕妻子比惨的翻车现场",
+      "summary_zh": "急于寻求实证认同的Ike犯下大忌：他在妻子Emma怀二胎九个月时，兴冲冲地拿研究结论宣称“丛集性头痛比分娩更痛”。这番生硬比惨不出所料地惹恼了妻子，让他领悟到用数据证明自己更惨换不来半点共情，真正的慰藉来自一位9·11后同样患病的退休消防员病友的拥抱。",
+      "quote_en": "Let's just agree, if you want someone to empathize with you, don't try to compare your pain with theirs, especially with empirical data backing up that yours is worse."
+    },
+    {
+      "start_sec": 2735,
+      "title_zh": "Act Three: 丧母之痛",
+      "summary_zh": "入职三个月前母亲突发心脏骤停离世，让实习制作人Molly Marcello面对新同事的任何热情提问时，脑子里都只剩“我妈妈死了”这一个回答。得知同事Mike曾把一本极具抚慰力的哀伤小志寄给一位“死了猫”的熟人后，处于愤怒期的她决心把这本小志追回来。",
+      "quote_en": "And no matter what anyone asked me, my brain only had one answer. My mom died."
+    },
+    {
+      "start_sec": 3043,
+      "title_zh": "重拼的剪贴簿与悲伤实感",
+      "summary_zh": "辗转联系上创作者Chelsea Granger后，没有留存扫描件的她竟凭记忆将散落的剪贴原稿重新拼回整整十二期通讯寄给Molly。在偷涂母亲旧化妆品、恐惧电话铃声等细节中读到完全一致的心境后，Molly生平第一次感到狂怒——因为这份共鸣彻底坐实了母亲已逝的残酷现实。",
+      "quote_en": "Because comparing all those notes with Chelsea and her grieving friends, I completely understood what they understood. I felt exactly what they felt."
+    }
+  ],
+  "vocab_notes": [
+    {
+      "term": "stoner cliché",
+      "meaning_zh": "瘾君子式的老套玄学追问",
+      "note_zh": "美式流行文化常调侃吸食大麻者（stoner）爱煞有介事地探讨“你眼中的蓝和我眼中的蓝是否相同”这类看似深奥实则老生常谈的感官哲学问题。",
+      "start_sec": 142
+    },
+    {
+      "term": "ham-handedly",
+      "meaning_zh": "笨手笨脚地；生硬拙劣地",
+      "note_zh": "源自形容手掌粗笨如火腿（ham-handed），在叙事中指处理微妙情感或沟通时缺乏分寸、弄巧成拙，巧妙伏笔了第二幕向临产妻子比惨的桥段。",
+      "start_sec": 166
+    },
+    {
+      "term": "magical thinking",
+      "meaning_zh": "魔幻思维；一厢情愿的侥幸幻想",
+      "note_zh": "心理学与非虚构叙事高频词，指人在逃避现实时抱持的非理性念头，幻想无需采取行动就会有奇迹或解药从天而降。",
+      "start_sec": 514
+    },
+    {
+      "term": "rock bottom",
+      "meaning_zh": "人生谷底；彻底触底的觉醒时刻",
+      "note_zh": "源自戒瘾互助文化（如AA），指成瘾者因重创彻底认清现实、不得不痛改前非的最低谷，呼应前文将隐瞒失聪比作成瘾的叙事暗线。",
+      "start_sec": 1330
+    },
+    {
+      "term": "Spinal Tap",
+      "meaning_zh": "《摇滚万万岁》（经典伪纪录片及片中虚构乐队）",
+      "note_zh": "1984年邪典喜剧《This Is Spinal Tap》中“把音箱旋钮调到11（超越满分10的极致音量）”是欧美摇滚著名典故，Abigail反用“调到负1”自嘲乐队为护耳不得不违背摇滚耍酷传统。",
+      "start_sec": 1390
+    },
+    {
+      "term": "clean up one's act",
+      "meaning_zh": "洗心革面；改掉恶习、整顿生活",
+      "note_zh": "地道美式习语，最初指歌舞杂耍演员删改低俗桥段以符合体面标准，现泛指告别荒唐或逃避状态、开始承担责任。",
+      "start_sec": 1404
+    },
+    {
+      "term": "rub someone the wrong way",
+      "meaning_zh": "惹人反感；令人不快、触霉头",
+      "note_zh": "源自逆着毛发方向抚摸猫咪会令其炸毛的比喻，地道形容某番言行无意间刺痛或冒犯他人。",
+      "start_sec": 2573
+    },
+    {
+      "term": "run it up the chain",
+      "meaning_zh": "层层上报；向管理层讨说法",
+      "note_zh": "即run it up the chain of command（职场与科层制用语），Molly借向管理层投诉失误的冷幽默修辞，反衬面对母亲猝死毫无道理可讲时的荒诞与无力。",
+      "start_sec": 2829
+    },
+    {
+      "term": "crickets",
+      "meaning_zh": "鸦雀无声；石沉大海、毫无回音",
+      "note_zh": "源自美式影视喜剧中冷场时插入的蟋蟀叫声音效，口语中常单独成句，形容发消息后惨遭“已读不回”或彻底冷场。",
+      "start_sec": 2972
+    }
+  ],
+  "references": [
+    {
+      "title": "Ohio",
+      "creator": "The Bengsons",
+      "category": "media",
+      "note_zh": "Shaun与Abigail夫妇创作并出演的外百老汇音乐剧场作品，第一幕结尾播放了剧中曲目，Shaun也在舞台上现场演示他的耳鸣模拟。",
+      "start_sec": 1831,
+      "links": []
+    },
+    {
+      "title": "Cluster headache is one of the most intensely painful human conditions",
+      "creator": "International Cluster Headache Questionnaire",
+      "category": "article",
+      "note_zh": "第二幕围绕的核心医学调查研究，通过让同时经历过丛集性头痛与枪伤、分娩、肾结石等剧痛的患者打分对比，证实其为人类最剧烈的疼痛之一。",
+      "start_sec": 1995,
+      "links": [
+        {
+          "source": "article",
+          "label": "原文",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33337540/"
+        }
+      ]
+    },
+    {
+      "title": "So Many Ways to Draw a Ghost",
+      "creator": "Chelsea Granger",
+      "category": "book",
+      "note_zh": "艺术家Chelsea Granger在母亲猝逝后创作的哀伤主题独立小志（zine）结集出版物，正是第三幕中Molly Marcello苦苦追寻并深受触动的作品。",
+      "start_sec": 3260,
+      "links": [
+        {
+          "source": "official",
+          "label": "官网",
+          "url": "https://www.etsy.com/listing/1269223184/so-many-ways-to-draw-a-ghost-death-grief"
+        },
+        {
+          "source": "goodreads",
+          "label": "Goodreads",
+          "url": "https://www.goodreads.com/book/show/123163505-so-many-ways-to-draw-a-ghost"
+        }
+      ]
+    },
+    {
+      "title": "The Headache",
+      "creator": "Tom Zeller Jr.",
+      "category": "book",
+      "note_zh": "科学记者Tom Zeller Jr.撰写的头痛非虚构著作，第二幕引用了他将丛集性头痛比作“令游客驻足拍照的世界新奇观”的描述并在片尾致谢。",
+      "start_sec": 3340,
+      "links": [
+        {
+          "source": "goodreads",
+          "label": "Goodreads",
+          "url": "https://www.goodreads.com/book/show/220435871-the-headache"
+        }
+      ]
+    },
+    {
+      "title": "Clusterbusters",
+      "creator": "",
+      "category": "other",
+      "note_zh": "节目片尾鸣谢及官方说明推荐的丛集性头痛患者互助与疗法科普组织。",
+      "start_sec": 3340,
+      "links": [
+        {
+          "source": "official",
+          "label": "官网",
+          "url": "https://clusterbusters.org/"
+        }
+      ]
+    },
+    {
+      "title": "A Haunting Between Worlds",
+      "creator": "Ashley S. Hattle",
+      "category": "book",
+      "note_zh": "第二幕受访者、亲历过无麻分娩与数百次丛集性头痛的作家Ashley S. Hattle所著书籍，列于节目官方扩展说明中。",
+      "start_sec": null,
+      "links": [
+        {
+          "source": "goodreads",
+          "label": "Goodreads",
+          "url": "https://www.goodreads.com/book/show/217335410-a-haunting-between-worlds"
+        }
+      ]
+    }
+  ],
+  "transcript": [
+    {
+      "id": 1,
+      "start_sec": 1,
+      "speaker": "Ira Glass",
+      "en": "A quick warning, there are curse words that are unbleeped in today's episode of the show. If you prefer a bleeped version, you can find that at our website, thisamericanlife.org.",
+      "zh": "先提醒一下，今天的节目里会有未消音的脏话。如果你更喜欢消音版，可以去我们的网站 thisamericanlife.org 收听。"
+    },
+    {
+      "id": 2,
+      "start_sec": 12,
+      "speaker": "Ira Glass",
+      "en": "Okay. So one day, I wake up with double vision. And this was new. And I am not a panicky kind of person in that situation. I am more a kind of lazy, 'This is probably nothing, let's just see if this lasts a little while' and just wait it out kind of person.",
+      "zh": "好。有天我醒来，发现自己看东西重影了。以前可没这样过。遇到这种事，我不是那种会慌张的人，我更偏向于懒散型，心想‘这大概不算什么，先看看会不会持续一阵子吧’，就这么干等着。"
+    },
+    {
+      "id": 3,
+      "start_sec": 31,
+      "speaker": "Ira Glass",
+      "en": "But this didn't go away, and so I went to doctors, wondering honestly if it was kind of a brain thing, which it can be if you have double vision. What happened is that eventually I got to an eye doctor, who told me that what was happening was that I had cataracts. Cataracts, and they had gotten to the point where they were intrusive enough that they were refracting light and causing double vision.",
+      "zh": "但这情况一直没好转，所以我去看了医生，老实说我还担心是不是脑子出了什么问题，毕竟重影确实可能是脑部问题引起的。结果最后我去了眼科，医生告诉我，我这是得了白内障。白内障已经发展到一定程度，开始干扰视线，折射光线，从而导致了重影。"
+    },
+    {
+      "id": 4,
+      "start_sec": 52,
+      "speaker": "Ira Glass",
+      "en": "Now, the bad news about getting cataracts is that it means that you're old. I mean, I knew I was old. Like, I know I sound kind of youngish on the radio, but I am like over 60. I mean, I'm over 65. I mean, I'm 67, okay.",
+      "zh": "得白内障的坏消息就是，这意味着你老了。其实我知道自己老了。虽然我在广播里听起来还算年轻，但我已经六十多岁了。准确地说，六十五岁以上了。好吧，我六十七岁了。"
+    },
+    {
+      "id": 5,
+      "start_sec": 65,
+      "speaker": "Ira Glass",
+      "en": "And can I say, like, once you cross 60, there is just no pretending at all. And I am fine with being old, but this was the first truly old-person thing that had happened to me. That is who mostly gets cataracts.",
+      "zh": "说真的，一旦过了六十岁，就完全没法装年轻了。我倒是不介意变老，但这还是头一回在我身上发生这么典型的‘老年人专属’状况。毕竟得白内障的大多是老年人。"
+    },
+    {
+      "id": 6,
+      "start_sec": 78,
+      "speaker": "Ira Glass",
+      "en": "But the good news about cataracts is it's a simple surgery. It takes 10 minutes, you're awake during it, you see some flashing lights, and then poof, you're done. And immediately—this is really the incredible part of it—immediately, the world looks different. Everything is brighter, like literally brighter, like more light is getting inside your eyes, and the world is much more blue than it seemed before.",
+      "zh": "不过白内障的好消息是，手术很简单。只要十分钟，全程你是清醒的，眼前会看到一些闪烁的光，然后‘噗’的一声，手术就结束了。紧接着——这才是最神奇的地方——紧接着，整个世界看起来就不一样了。一切都变亮了，是字面意义上的变亮，感觉有更多的光线照进了眼睛里，而且世界看起来比以前蓝得多。"
+    },
+    {
+      "id": 7,
+      "start_sec": 102,
+      "speaker": "Ira Glass",
+      "en": "And the way they do it, they do one eye at a time. So they do the first eye, and then you walk around for a week with one fixed eye and one unfixed eye. And so you can hold your hand over each eye and you can compare, and it's like, I had no idea I was misperceiving the world before the surgery. I had no idea I had cataracts. I had no idea I was missing anything.",
+      "zh": "他们做手术是一只眼睛一只眼睛来。先做完第一只眼，然后你有一周的时间是带着一只修好的眼睛和一只没修好的眼睛到处走。你可以用手轮流遮住眼睛做对比，那种感觉就像是，我以前根本不知道自己对世界的感知是错的。我完全不知道自己得了白内障，也不知道自己错过了这么多色彩。"
+    },
+    {
+      "id": 8,
+      "start_sec": 122,
+      "speaker": "Ira Glass",
+      "en": "I mean, it's funny. Six years before this surgery, I bought this photograph, this print that I saw online. And then when it arrived, I was really disappointed because I was like, 'Oh, it's so much more blue in the online picture than in real life.' And then after the surgery, I took a look at the picture again, and I realized, like, 'Oh, no, no. It was the same blue.'",
+      "zh": "说来挺好笑的。做手术前六年，我在网上看到一张摄影作品，买了一幅印画。结果寄到的时候我特别失望，心想：‘哎呀，网上的图片比实物蓝太多了吧。’等做完手术，我又看了一眼那幅画，才恍然大悟：‘哦，不是的，它们根本就是同一种蓝。’"
+    },
+    {
+      "id": 9,
+      "start_sec": 142,
+      "speaker": "Ira Glass",
+      "en": "And I guess what happens is our computer screens sort of pump out so much light directly into our eyes that it cuts through the cataracts and you see more of the real color. But I had no idea that I was seeing a different blue than everybody else. It's like that, um, stoner cliché, like, when I say something is blue, when I see it as blue, and you say that you see it as blue, are we seeing the same color? Right? There's no way to know.",
+      "zh": "我想大概是因为电脑屏幕会直接向眼睛投射大量光线，穿透了白内障，让人看到了更接近真实的色彩。但我以前根本不知道自己看到的蓝色和别人不一样。这就像那个……呃，老套的哲学问题：当我说某样东西是蓝色的，我看到的也是蓝色，而你说你看到的也是蓝色，我们看到的真的是同一种颜色吗？对吧？这根本无从得知。"
+    },
+    {
+      "id": 10,
+      "start_sec": 166,
+      "speaker": "Ira Glass",
+      "en": "Well, today on our show, we have stories of people who see a different blue from the rest of us. And then who try to get the rest of us to understand what they are seeing. Sometimes very ham-handedly, sometimes going to great, great lengths.",
+      "zh": "那么今天的节目里，我们要讲的正是这样一群人的故事：他们眼中的‘蓝’和我们其他人不同，而且他们还试图让我们理解他们所看到的世界。有时他们的方式笨拙得可爱，有时则可谓费尽了九牛二虎之力。"
+    },
+    {
+      "id": 11,
+      "start_sec": 180,
+      "speaker": "Ira Glass",
+      "en": "'Cause after all, how do you give somebody else access to inside your brain? And really communicate what it feels like and seems like in there? Today, we hear people try. From WBEZ Chicago, it's This American Life. I'm Ira Glass. Stay with us.",
+      "zh": "毕竟，你该如何让别人进入你的大脑，真正地传达出里面的感受和景象呢？今天，我们来听听大家是如何尝试的。这里是来自 WBEZ Chicago 的《This American Life》，我是 Ira Glass。请继续收听。"
+    },
+    {
+      "id": 12,
+      "start_sec": 206,
+      "speaker": "Ira Glass",
+      "en": "This American Life. Act One, Even Though You Know You Shouldn't.",
+      "zh": "《This American Life》。Act One，明知不可为而为之。"
+    },
+    {
+      "id": 13,
+      "start_sec": 210,
+      "speaker": "Ira Glass",
+      "en": "Shaun was told all of his life that he was going to lose his hearing someday. It happened to his dad, his uncle, his grandfather and great-grandfather and great-aunts. And when his dad lost his hearing, it was accompanied by a pretty nasty amount of tinnitus.",
+      "zh": "Shaun 从小就被告知，他总有一天会失去听力。他爸爸、叔叔、爷爷、曾祖父还有姑奶奶都经历过这种情况。他爸爸失聪的时候，还伴随着相当严重的耳鸣。"
+    },
+    {
+      "id": 14,
+      "start_sec": 223,
+      "speaker": "Ira Glass",
+      "en": "Tinnitus takes different forms. People hear static noise, rushing waves, they hear tones. His dad's version was a loud buzzing sound like cicadas that got louder and louder over time. Shaun's dad was a pastor, and as he aged, all this got so bad that he couldn't preach anymore.",
+      "zh": "耳鸣有各种各样的形式。有人会听到静电噪音、海浪翻涌的声音，或者某种音调。他爸爸听到的是像蝉鸣一样响亮的嗡嗡声，而且随着时间的推移越来越响。Shaun 的爸爸是一名牧师，随着年龄的增长，情况变得非常糟糕，他甚至无法再布道了。"
+    },
+    {
+      "id": 15,
+      "start_sec": 240,
+      "speaker": "Ira Glass",
+      "en": "And his dad told him, \"This is my experience. This is basically the way the color blue looks to me, and someday this is the way that it really might look to you, and so you need to do the things that can protect you from all this.\" They're pretty straightforward. If you're genetically predisposed to hearing loss, you can slow it down if you avoid loud sounds and wear earplugs in noisy places.",
+      "zh": "他爸爸告诉他：“这就是我的经历。这就好比我看到的蓝色是这样的，有一天你看到的可能也是这样，所以你必须做些事情来保护自己免受这一切的困扰。”做法其实很简单。如果你有遗传性听力损失的倾向，只要避开巨大的声响，在嘈杂的地方戴上耳塞，就能延缓它的发生。"
+    },
+    {
+      "id": 16,
+      "start_sec": 263,
+      "speaker": "Ira Glass",
+      "en": "And, you know, you're a kid, and adults say stuff like this to you, and you think, \"Eh, maybe.\"",
+      "zh": "而且，你知道，当你还是个孩子的时候，大人跟你说这种话，你只会觉得：“嗯，也许吧。”"
+    },
+    {
+      "id": 17,
+      "start_sec": 271,
+      "speaker": "Shaun",
+      "en": "I think that my dad had been telling me it so long, but I also didn't fully believe it. Um, when I first really ingested it was after joining my first, like, real, like, garage band.",
+      "zh": "我觉得我爸跟我说过太久了，但我也没有完全相信。嗯，我第一次真正把这事儿放在心上，是在加入我第一个真正意义上的车库乐队之后。"
+    },
+    {
+      "id": 18,
+      "start_sec": 286,
+      "speaker": "Ira Glass",
+      "en": "He was 14 or 15. It was him and a few friends. And from the start, their very first rehearsal together.",
+      "zh": "当时他十四五岁，和几个朋友一起。从一开始，就在他们第一次一起排练的时候。"
+    },
+    {
+      "id": 19,
+      "start_sec": 292,
+      "speaker": "Shaun",
+      "en": "You know, and just, like, everyone just turning up their amps as loud as we could possibly go. And I had my earplugs that my dad had given me that I was supposed to wear. I wore them like two seconds, and I was like, \"This, this sucks.\" And I, I threw them away, and there was just such a joyous feeling of just, like, the pure, like, sound of these terrible-sounding classic rock covers just filling my body.",
+      "zh": "你知道，当时大家就是把音箱的音量调到最大，能多响就多响。我本来带着我爸给我的、按理说应该戴上的耳塞。我戴了大概两秒钟，就觉得：“这太逊了。”然后我就把它们扔掉了，那种纯粹的快乐涌上心头，那些听起来烂透了的经典摇滚翻唱声就这样充斥着我的全身。"
+    },
+    {
+      "id": 20,
+      "start_sec": 317,
+      "speaker": "Shaun",
+      "en": "And I can remember after, like, our first rehearsal, uh, you know, my friend lifted up the garage door and we all went out and laid on his, uh, driveway. I was just like, \"Man, this is amazing.\"",
+      "zh": "我记得在我们第一次排练结束之后，呃，我朋友拉开了车库门，我们都走出去躺在他的车道上。我当时就想：“天哪，这太棒了。”"
+    },
+    {
+      "id": 21,
+      "start_sec": 330,
+      "speaker": "Ira Glass",
+      "en": "Amazing, he says, partly because of the music, and partly 'cause he was a shy, quiet kid who always had trouble connecting and interacting with other kids. And here he was, playing in a band together with these guys.",
+      "zh": "他说“太棒了”，部分是因为音乐，部分是因为他以前是个害羞、安静的孩子，总是很难和其他孩子建立联系和互动。而现在，他和这帮家伙一起在乐队里演奏。"
+    },
+    {
+      "id": 22,
+      "start_sec": 343,
+      "speaker": "Shaun",
+      "en": "And so it was just this euphoria of feeling like I'm, like, doing it, you know? Like I'm, I'm making friends. We're, like, making music together. And, and that feeling lasted for like a day and a half, two days, and then I realized that the, like, my ears felt like there was cotton in them.",
+      "zh": "所以那种欣喜若狂的感觉就像是，我做到了，你知道吗？好像我在交朋友，我们在一起做音乐。这种感觉持续了大概一天半到两天，然后我意识到，我的耳朵里好像塞了棉花一样。"
+    },
+    {
+      "id": 23,
+      "start_sec": 360,
+      "speaker": "Shaun",
+      "en": "Um, and I started to hear this like sound, um, and I realized that it was like my first bit of tinnitus. And I'm feeling like, oh my God, like dad was right. I was really devastated.",
+      "zh": "嗯，我开始听到这种声音，然后我意识到这就是我第一次出现耳鸣。我当时就觉得，天哪，我爸说得对。我真的崩溃了。"
+    },
+    {
+      "id": 24,
+      "start_sec": 374,
+      "speaker": "Ira Glass",
+      "en": "And he resolved, next rehearsal, I'll be different.",
+      "zh": "于是他下定决心，下次排练，我一定要改。"
+    },
+    {
+      "id": 25,
+      "start_sec": 378,
+      "speaker": "Shaun",
+      "en": "So rehearsal day came, and I was like this time, you know, I'm going to wear my earplugs this time, I'm going to be able to do it safe.",
+      "zh": "结果排练那天到了，我就想，这次我一定要戴上耳塞，我肯定能安全地排练。"
+    },
+    {
+      "id": 26,
+      "start_sec": 385,
+      "speaker": "Ira Glass",
+      "en": "And again, after a minute, he took them out.",
+      "zh": "可没过一分钟，他又把耳塞摘了。"
+    },
+    {
+      "id": 27,
+      "start_sec": 388,
+      "speaker": "Shaun",
+      "en": "And then a couple days later realizing I'd lost more hearing, and just feeling so full of regret and shame and anger and just like this real self-hatred. It's like it's so it feels so dumb because I feel like I had like all the information in my very first interaction with it.",
+      "zh": "几天后，我意识到自己的听力又下降了，心里充满了懊悔、羞愧和愤怒，简直就是深深的自我厌恶。这感觉太蠢了，因为我觉得早在第一次接触这件事的时候，我就已经知道所有后果了。"
+    },
+    {
+      "id": 28,
+      "start_sec": 411,
+      "speaker": "Ira Glass",
+      "en": "He basically repeated that pattern for years. So he was a teenager, losing more of his hearing all the time, and he told no one. Kept this from his parents, didn't admit the truth to them until much, much later when he was an adult.",
+      "zh": "他基本上好几年都在重复这种模式。那时候他还是个青少年，听力一直在不断下降，但他谁也没告诉。他一直瞒着父母，直到很久以后长大成人才向他们坦白。"
+    },
+    {
+      "id": 29,
+      "start_sec": 426,
+      "speaker": "Ira Glass",
+      "en": "This is why I was so interested in talking to Shaun. He's somebody who fell into this spiral of shame and secrecy like people have with, you know, drinking or gambling or drugs or money troubles. But he was just a kid. This introvert, growing up in a church family with a pastor dad, with this growing noise in his head, this constant buzzing in his ears that only he knew about.",
+      "zh": "这就是为什么我这么想和 Shaun 聊聊。他陷入了一种羞耻和隐瞒的恶性循环，就像人们面对酗酒、赌博、吸毒或财务危机时那样。但他当时只是个孩子。一个内向的孩子，成长在牧师家庭，脑袋里却有着越来越响的噪音，耳朵里嗡嗡作响，而这件事只有他自己知道。"
+    },
+    {
+      "id": 30,
+      "start_sec": 450,
+      "speaker": "Ira Glass",
+      "en": "As a teenager, he would lie in bed at night and try to hear the sound of his own breathing, and realize that he could not. Which was so scary.",
+      "zh": "十几岁的时候，他晚上躺在床上，试着去听自己呼吸的声音，却发现根本听不见。这太吓人了。"
+    },
+    {
+      "id": 31,
+      "start_sec": 458,
+      "speaker": "Shaun",
+      "en": "And so I would just like constantly try to like breathe just like louder. Um, and it would just be this cycle of I can't hear the breath, I like ruined my ears. And, uh, the irreversibility of it. There was just this real feeling that I had done like this really grave physical injury to myself. But it really felt secret and shameful.",
+      "zh": "所以我就会一直试着把呼吸声弄得更大。然后就陷入了这种循环：我听不见呼吸声，我把自己的耳朵毁了。而且，这种伤害是不可逆的。我真切地觉得自己对自己造成了非常严重的身体伤害。但这件事又让人觉得无比隐秘和羞耻。"
+    },
+    {
+      "id": 32,
+      "start_sec": 482,
+      "speaker": "Ira Glass",
+      "en": "It's so rare to know anything about what your future is going to be, and have people that you trust and love telling you exactly what it's going to look like and how you need to handle it. But knowing all that, and actually jumping into action, actually doing the thing you're supposed to do, those are very different things. It can take so long to take action.",
+      "zh": "人很难提前知道自己的未来会怎样，更难得的是还有你信任和爱的人明确告诉你未来会发生什么、你该如何应对。但知道归知道，真正付诸行动、去做你该做的事，完全是两码事。要迈出那一步，可能需要很长时间。"
+    },
+    {
+      "id": 33,
+      "start_sec": 500,
+      "speaker": "Ira Glass",
+      "en": "You tell yourself stories to avoid it. Like Shaun would tell himself, maybe before I get old, they're going to find a cure for this. Some solution is going to drop from the sky to fix it.",
+      "zh": "你会给自己编造各种理由来逃避。比如 Shaun 会告诉自己，也许在我变老之前，他们就会找到治愈的方法。会有某种解决方案从天而降，把一切都修好。"
+    },
+    {
+      "id": 34,
+      "start_sec": 514,
+      "speaker": "Ira Glass",
+      "en": "And then, when Shaun gets into his 20s, when he turns 23, something interesting happens. He brings a second person into this secret, and into his world of denial and magical thinking. He meets his wife, Abigail.",
+      "zh": "后来，当 Shaun 二十多岁、23岁那年，一件有趣的事情发生了。他把这个秘密，连同他那个充满逃避和幻想的世界，分享给了第二个人。他遇到了他的妻子 Abigail。"
+    },
+    {
+      "id": 35,
+      "start_sec": 528,
+      "speaker": "Ira Glass",
+      "en": "That happens at a party. They write a song together on their first date, they marry three weeks later. Not long after that, they quit their jobs and hit the road together as a band. It's just the two of them, a folk punk duo. They're still a band today.",
+      "zh": "他们在一次派对上相识。第一次约会就一起写了首歌，三周后就结了婚。没过多久，他们辞掉工作，组成乐队一起上路巡演。就他们两个人，一支民谣朋克二人组。直到今天，他们依然是一支活跃的乐队。"
+    },
+    {
+      "id": 36,
+      "start_sec": 540,
+      "speaker": "Ira Glass",
+      "en": "The Bengsons. Anyway, here's Abigail.",
+      "zh": "The Bengsons 乐队。总之，接下来听听 Abigail 怎么说。"
+    },
+    {
+      "id": 37,
+      "start_sec": 544,
+      "speaker": "Abigail",
+      "en": "Really early on, you know, you just play in these clubs where it's so loud, it's so intense. And then we'd kind of fall out onto the sidewalk, you know, and you would start opening your mouth really wide and tugging on your ears and kind of looking around, and you'd start snapping in both of your ears.",
+      "zh": "在很早以前，你知道，你就在那种特别吵、气氛特别炸裂的俱乐部里演出。演出完我们就跌跌撞撞地走到人行道上，然后你就会开始把嘴巴张得大大的，扯着自己的耳朵，有点四处张望的感觉，接着你就会开始在两边耳朵旁打响指。"
+    },
+    {
+      "id": 38,
+      "start_sec": 569,
+      "speaker": "Ira Glass",
+      "en": "You're snapping your fingers by your ears?",
+      "zh": "你在自己耳朵旁边打响指？"
+    },
+    {
+      "id": 39,
+      "start_sec": 571,
+      "speaker": "Abigail",
+      "en": "Yeah, back and forth, and kind of, and you know, I was in love with you. I didn't really ask a lot of questions. I was just like, cool, that's the thing he does. But I feel like as time went on that I sort of understood that that was a hearing test, and often what it meant was that we had done damage.",
+      "zh": "对，两边轮流打。而且你知道，当时我爱着你嘛，也没太去多问。我当时就觉得，酷，这就是他的个人习惯吧。但随着时间推移，我好像慢慢明白过来，那其实是在做听力测试，而且这往往意味着我们的听力已经受损了。"
+    },
+    {
+      "id": 40,
+      "start_sec": 592,
+      "speaker": "Abigail",
+      "en": "And yeah, I feel like we met so young that we were still a little bit nihilistic about it even, that it felt like, well, if it's going to go away, let's like use it up in a, in fire, you know? Like, let's like use it up joyfully. And there's something to that, but we were also reckless together.",
+      "zh": "嗯，我觉得我们相遇时太年轻了，甚至对这件事还有点虚无主义的态度，就觉得，好吧，既然它迟早要消失，那不如让它在烈火中燃烧殆尽，你知道吧？就是，不如高高兴兴地把它用完。这想法倒也有点道理，但我们俩当时也确实挺不管不顾的。"
+    },
+    {
+      "id": 41,
+      "start_sec": 618,
+      "speaker": "Ira Glass",
+      "en": "They would play these clubs, and Shaun's attitude at the time was, however loud the other musicians had the monitors, they could do. Whatever anybody else did, he could do.",
+      "zh": "他们去这些俱乐部演出时，Shaun 当时的态度是，其他乐手把监听音箱开多大声，他们也能开多大声。别人能做到的，他也能做到。"
+    },
+    {
+      "id": 42,
+      "start_sec": 628,
+      "speaker": "Abigail",
+      "en": "And I was like, hell yeah, you know, of course you can. So I think it actually felt like being on his side to be like anti-earplug, anti-care, you know? Like it felt sort of like being a good teammate to be on the side of this sort of recklessness.",
+      "zh": "我当时就觉得，那必须的呀，你当然可以。所以我觉得，当时拒绝戴耳塞、不去保护听力，反而让我觉得自己是在支持他、跟他站在同一阵线。就好像站在这种鲁莽行为这边，才算是一个好队友一样。"
+    },
+    {
+      "id": 43,
+      "start_sec": 652,
+      "speaker": "Abigail",
+      "en": "I don't know, when you first fall in love with somebody, it's like a way to love them is to see it their way, you know, and to kind of embrace even the fiction that they're telling themselves.",
+      "zh": "怎么说呢，当你刚爱上一个人的时候，爱他们的一种方式就是用他们的眼光去看待事物，甚至去全盘接受他们用来安慰自己的那些假象。"
+    },
+    {
+      "id": 44,
+      "start_sec": 667,
+      "speaker": "Ira Glass",
+      "en": "Also, like nobody wants to be the other person's minder. Do you know what I mean? Like you're not his mom, you know?",
+      "zh": "而且，谁也不想当另一个人的保姆或者管家婆。你懂我意思吧？你又不是他妈，对吧？"
+    },
+    {
+      "id": 45,
+      "start_sec": 673,
+      "speaker": "Abigail",
+      "en": "No, I definitely wanted to be like sexy and interesting. I was like a new wife. Who wants to be that person like nagging? Oh my god, you know, like, remember, put in your earplugs, honey!",
+      "zh": "没错，我当时肯定想表现得性感又有趣。我那时刚结婚嘛。谁想当那种整天唠叨的人啊？天呐，想象一下，“亲爱的，记住把耳塞戴上！”"
+    },
+    {
+      "id": 46,
+      "start_sec": 690,
+      "speaker": "Ira Glass",
+      "en": "When you make the kind of choice that Shaun had made as a teenager, to ignore the reality of what he was up against, at first, when you're little, it's just your choice. But as you grow up, it becomes a choice that other people you love get dragged into, and then they have to figure out how they're going to handle it.",
+      "zh": "当你做出像 Shaun 青少年时期那样的选择，去无视自己即将面临的现实时，起初，在你还小的时候，那只是你自己的选择。但随着你长大，这个选择会把你爱的人也牵扯进来，然后他们也不得不想办法去应对。"
+    },
+    {
+      "id": 47,
+      "start_sec": 707,
+      "speaker": "Ira Glass",
+      "en": "Abigail says that she understood that Shaun was going to lose his hearing someday, but to talk about this directly and what it would mean in those early years when they were starting off on this adventure, they were in love and they were playing music, it just felt like they would be talking...",
+      "zh": "Abigail 说，她明白 Shaun 总有一天会失去听力，但在早年他们刚开启这段人生冒险的时候，他们正处于热恋中，一起做着音乐，如果直接去谈论这件事以及它意味着什么，就感觉像是在……"
+    },
+    {
+      "id": 48,
+      "start_sec": 720,
+      "speaker": "Abigail",
+      "en": "at the end of their lives. It was like having a very unsexy conversation about who we'd be when we were close to death or something, like, um, and it felt like, well, once your ears reach a certain point, music will be over.",
+      "zh": "生命的尽头。那感觉就像是在进行一场非常不性感的谈话，讨论我们临终时会是什么样子，感觉就像是，嗯，一旦你的耳朵到了某个临界点，音乐就结束了。"
+    },
+    {
+      "id": 49,
+      "start_sec": 737,
+      "speaker": "Abigail",
+      "en": "And if music is over, who are we? What does that mean? And, um, when you're 23 and you're like, 'Wow, I might be, you know, fully deaf when I'm 50,' that feels like, well, so when I get to the moon, I might not be able to hear anymore.",
+      "zh": "如果音乐结束了，我们又是谁？这意味着什么？而且，嗯，当你23岁时，你会想，‘哇，我50岁的时候可能就全聋了’，那感觉就像是，好吧，等我登上月球的时候，可能就再也听不见了。"
+    },
+    {
+      "id": 50,
+      "start_sec": 759,
+      "speaker": "Ira Glass",
+      "en": "But as the years went on, Abigail said that she would have moments all the time where she would think, 'The speakers are too loud. This is bad. She should say something.' But, you know, they were at these clubs, and they were the folk band at the rock clubs. Already they felt like outsiders.",
+      "zh": "但随着时间的推移，Abigail说她经常会有这样的念头：‘音响太大声了，这样不好，她应该说点什么。’但你知道，他们当时就在那些俱乐部里，他们是摇滚俱乐部里的民谣乐队，本来就已经觉得自己像局外人了。"
+    },
+    {
+      "id": 51,
+      "start_sec": 775,
+      "speaker": "Ira Glass",
+      "en": "Neither of them wanted to be too demanding, or uncool, or ask for special treatment. So she kept it to herself. And all through their late 20s and into their early 30s, Shaun's hearing deteriorated.",
+      "zh": "他们俩都不想显得太挑剔、太不酷，或者要求特殊待遇。所以她就把话憋在了心里。在整个二十多岁末到三十岁初的这段时间里，Shaun的听力一直在恶化。"
+    },
+    {
+      "id": 52,
+      "start_sec": 787,
+      "speaker": "Ira Glass",
+      "en": "And to give you a sense of what that means, at some point Shaun created a little audio demonstration of what the world sounds like to him, because he wanted Abigail to understand what he was hearing. So he made this for her. And then sometimes, these days, when they're doing a show on stage, he'll do a version of this for the audience in the theater.",
+      "zh": "为了让你体会那是什么感觉，Shaun有一次制作了一个小音频演示，展示他听到的世界是什么样的，因为他想让Abigail理解他听到了什么。所以他为她做了这个。而现在，有时他们在台上演出时，他也会在剧院里为观众演示一个版本。"
+    },
+    {
+      "id": 53,
+      "start_sec": 804,
+      "speaker": "Ira Glass",
+      "en": "And basically, he lost the ability to hear high-frequency sounds first. And the ability to hear those sounds was replaced by a hum at the exact same frequencies that he'd lost.",
+      "zh": "简单来说，他最先失去了听高频声音的能力。而听这些声音的能力，被一种嗡嗡声取代了，频率正好就是他失去的那些频率。"
+    },
+    {
+      "id": 54,
+      "start_sec": 816,
+      "speaker": "Shaun",
+      "en": "So basically as you lose frequencies, each frequency that you lose becomes part of the noise.",
+      "zh": "所以基本上，当你失去某些频率时，你失去的每一个频率都会变成噪音的一部分。"
+    },
+    {
+      "id": 55,
+      "start_sec": 823,
+      "speaker": "Ira Glass",
+      "en": "And that noise, that cicada-like humming, it never goes away. So again, he can't hear certain frequencies, and those frequencies become part of this permanent humming sound. Okay, so let's hear it.",
+      "zh": "而那种噪音，那种像蝉鸣一样的嗡嗡声，永远不会消失。所以再说一遍，他听不到某些频率，而那些频率就成了这种永久嗡嗡声的一部分。好，那我们来听听看吧。"
+    },
+    {
+      "id": 56,
+      "start_sec": 836,
+      "speaker": "Shaun",
+      "en": "All right, so I'm going to start bringing it in now. Um...",
+      "zh": "好的，我现在开始把它加进来了。嗯……"
+    },
+    {
+      "id": 57,
+      "start_sec": 841,
+      "speaker": "Ira Glass",
+      "en": "Okay, yeah, so I hear the buzzing for sure.",
+      "zh": "好的，是的，我确实听到嗡嗡声了。"
+    },
+    {
+      "id": 58,
+      "start_sec": 843,
+      "speaker": "Shaun",
+      "en": "Oh, okay, great. I can't hear these frequencies anymore. So, I think this is about what my tinnitus sounded like when I was 15, when it was, you know, when it was really starting to be ever-present.",
+      "zh": "哦，好的，太好了。我现在已经听不到这些频率了。所以，我觉得这大概就是我15岁时耳鸣的声音，你知道，就是它真正开始挥之不去的时候。"
+    },
+    {
+      "id": 59,
+      "start_sec": 856,
+      "speaker": "Ira Glass",
+      "en": "Okay, so what I'm hearing is there's like a buzzing, but your voice is very, like I can still understand every word you're saying.",
+      "zh": "好，我听到的是有一种嗡嗡声，但你的声音非常……就是我还是能听清你说的每一个字。"
+    },
+    {
+      "id": 60,
+      "start_sec": 862,
+      "speaker": "Shaun",
+      "en": "That's great. Yeah, my voice is low enough that it's not affecting it too much yet. Um, and then as we go on through the years, okay, I'm bringing in more tinnitus, and you'll probably start noticing that some of it's coming out of my microphone now.",
+      "zh": "那很好。是的，我的声音足够低沉，所以目前还没有太受影响。嗯，然后随着岁月流逝，好的，我现在加入更多的耳鸣声，你现在可能会开始注意到，有一部分声音是从我的麦克风里传出来的。"
+    },
+    {
+      "id": 61,
+      "start_sec": 885,
+      "speaker": "Ira Glass",
+      "en": "Oh yeah, you're harder to understand.",
+      "zh": "哦，是的，你的声音更难听清了。"
+    },
+    {
+      "id": 62,
+      "start_sec": 887,
+      "speaker": "Shaun",
+      "en": "And then consonants are getting harder to understand. You'll notice it, I think particularly with like 'f' like in 'fun' versus like 't' like in 'Tony' or whatever. You know, those, those...",
+      "zh": "然后辅音也变得越来越难听清了。你会注意到的，我觉得尤其是像‘fun’里的‘f’和‘Tony’里的‘t’之类的。你知道，那些，那些……"
+    },
+    {
+      "id": 63,
+      "start_sec": 900,
+      "speaker": "Ira Glass",
+      "en": "He continues like this, removing frequencies from his own voice and adding those frequencies to the constant hum that you hear running behind him.",
+      "zh": "他继续这样做，从自己的声音中去除一些频率，然后将这些频率添加到你听到的他背后持续的嗡嗡声中。"
+    },
+    {
+      "id": 64,
+      "start_sec": 910,
+      "speaker": "Shaun",
+      "en": "So this is about what it sounds like in my head right now. Consonants are getting harder to understand.",
+      "zh": "这就是现在我脑海里的声音。辅音越来越难理解。"
+    },
+    {
+      "id": 65,
+      "start_sec": 917,
+      "speaker": "Ira Glass",
+      "en": "I mean, you sound like somebody like underwater or something.",
+      "zh": "我的意思是，你听起来像是在水下之类的。"
+    },
+    {
+      "id": 66,
+      "start_sec": 920,
+      "speaker": "Shaun",
+      "en": "Yeah. It's such a gradual onset for me that this is just how the world sounds.",
+      "zh": "是的。对我来说，这是一个渐进的过程，世界就是这样听起来的。"
+    },
+    {
+      "id": 67,
+      "start_sec": 929,
+      "speaker": "Ira Glass",
+      "en": "I literally have no idea what you just said. Say it again more slowly?",
+      "zh": "我完全不知道你刚才说了什么。能再慢点说一遍吗？"
+    },
+    {
+      "id": 68,
+      "start_sec": 934,
+      "speaker": "Shaun",
+      "en": "It came on for me so gradually, my hearing loss, that this is just how the world sounds.",
+      "zh": "我的听力损失对我来说是如此渐进，以至于世界就是这样听起来的。"
+    },
+    {
+      "id": 69,
+      "start_sec": 943,
+      "speaker": "Ira Glass",
+      "en": "Yeah.",
+      "zh": "是的。"
+    },
+    {
+      "id": 70,
+      "start_sec": 945,
+      "speaker": "Shaun",
+      "en": "I learned on my hearing test that at a normal conversational volume, I can understand about 20% of the conversation.",
+      "zh": "我在听力测试中了解到，在正常的交谈音量下，我能理解大约20%的对话内容。"
+    },
+    {
+      "id": 71,
+      "start_sec": 958,
+      "speaker": "Ira Glass",
+      "en": "If you didn't get that, he says that his hearing test shows that at a normal conversational level, he can understand about 20% of what's being said. And this tinnitus noise is so loud, Shaun explained that it's usually easier for him to understand somebody if they're standing on the street talking than if they're in a quiet room.",
+      "zh": "如果你没听清，他说他的听力测试显示，在正常的交谈音量下，他能理解大约20%的谈话内容。而且这耳鸣声非常大，Shaun解释说，如果有人站在街上说话，他通常比在安静的房间里更容易听清。"
+    },
+    {
+      "id": 72,
+      "start_sec": 976,
+      "speaker": "Ira Glass",
+      "en": "He said that's because when we're on the street, with all the traffic and the other noise, we all talk louder. And when we talk louder, he can hear us more over the tinnitus noise in his head.",
+      "zh": "他说这是因为当我们在街上时，由于交通和其他噪音，我们都会说话更大声。而当我们说话更大声时，他就能在脑海里的耳鸣声中更清楚地听到我们的声音。"
+    },
+    {
+      "id": 73,
+      "start_sec": 986,
+      "speaker": "Ira Glass",
+      "en": "And one of the things that's interesting about this demonstration is that Shaun can not only show Abigail what he's hearing. He can show himself what it's going to be like in the future.",
+      "zh": "这个演示中有一点很有趣，Shaun不仅能向Abigail展示他听到的声音，还能向自己展示未来的听力状况。"
+    },
+    {
+      "id": 74,
+      "start_sec": 996,
+      "speaker": "Shaun",
+      "en": "Okay, so now we're going to go into the future. Um, you know, uh, let's see here. A decade, 15 years for me?",
+      "zh": "好的，现在我们要进入未来了。嗯，你知道，呃，让我们看看。对我来说是十年，还是十五年？"
+    },
+    {
+      "id": 75,
+      "start_sec": 1009,
+      "speaker": "Ira Glass",
+      "en": "This is 15 years from now for you?",
+      "zh": "这对你来说是15年后的情况吗？"
+    },
+    {
+      "id": 76,
+      "start_sec": 1011,
+      "speaker": "Shaun",
+      "en": "Maybe 10 years. It's about when my dad stopped playing music with other people.",
+      "zh": "也许10年吧。大约是我父亲停止和别人一起演奏音乐的时候。"
+    },
+    {
+      "id": 77,
+      "start_sec": 1017,
+      "speaker": "Ira Glass",
+      "en": "Sorry, say that again more slowly.",
+      "zh": "抱歉，再慢点说一遍。"
+    },
+    {
+      "id": 78,
+      "start_sec": 1020,
+      "speaker": "Shaun",
+      "en": "I think this is what it sounded like for my dad when he stopped playing music with other people.",
+      "zh": "我想这就是我父亲停止和别人一起演奏音乐时他听到的声音。"
+    },
+    {
+      "id": 79,
+      "start_sec": 1026,
+      "speaker": "Abigail",
+      "en": "I'm just going to repeat what he says.",
+      "zh": "我就重复一遍他说的话。"
+    },
+    {
+      "id": 80,
+      "start_sec": 1028,
+      "speaker": "Ira Glass",
+      "en": "Okay, good.",
+      "zh": "好的，很好。"
+    },
+    {
+      "id": 81,
+      "start_sec": 1029,
+      "speaker": "Abigail",
+      "en": "Yeah, this is about where my dad's ears were when he stopped being able to play music with other people.",
+      "zh": "是的，这大约是我父亲无法再和别人一起演奏音乐时他的耳朵状况。"
+    },
+    {
+      "id": 82,
+      "start_sec": 1036,
+      "speaker": "Ira Glass",
+      "en": "I should tell you that Abigail can do that because she's in the same room as Shaun is. So she's hearing his voice without the processing that we're all hearing. I'm in a different room, listening on headphones.",
+      "zh": "我应该告诉你，Abigail能做到这一点是因为她和Shaun在同一个房间里。所以她听到的是他没有经过我们所听到的处理的声音。我在另一个房间里，用耳机听。"
+    },
+    {
+      "id": 83,
+      "start_sec": 1047,
+      "speaker": "Ira Glass",
+      "en": "So, uh, we're 10 years or maybe a little more into your future. Then what?",
+      "zh": "所以，呃，我们在你的未来10年或者更久一点。然后呢？"
+    },
+    {
+      "id": 84,
+      "start_sec": 1065,
+      "speaker": "Abigail",
+      "en": "As we go farther into the future, I think this is about what it sounds like for dad now.",
+      "zh": "随着我们进一步进入未来，我想这就是爸爸现在听到的声音。"
+    },
+    {
+      "id": 85,
+      "start_sec": 1077,
+      "speaker": "Abigail",
+      "en": "And this is most likely where my ears are headed.",
+      "zh": "而这很可能是我耳朵未来的状况。"
+    },
+    {
+      "id": 86,
+      "start_sec": 1080,
+      "speaker": "Ira Glass",
+      "en": "I have to say this is so strange. It's almost like it's impossible to hear words, and it just sounds like pulses of noise more than speech.",
+      "zh": "我得说这太奇怪了。简直就像是……几乎听不清具体的词，听起来更像是一阵阵的噪音脉冲，而不是人在说话。"
+    },
+    {
+      "id": 87,
+      "start_sec": 1094,
+      "speaker": "Abigail",
+      "en": "That's right. All of the sonic information you need to understand language is pretty much gone.",
+      "zh": "没错。你用来理解语言所需的所有声音信息几乎都消失了。"
+    },
+    {
+      "id": 88,
+      "start_sec": 1100,
+      "speaker": "Ira Glass",
+      "en": "All right, let's come back to normal conversation now.",
+      "zh": "好，我们现在回到正常的对话吧。"
+    },
+    {
+      "id": 89,
+      "start_sec": 1103,
+      "speaker": "Shaun",
+      "en": "Bringing it back. Back to the present, and here we go. Goodbye, tinnitus.",
+      "zh": "切回来。回到现实，好了。再见了，耳鸣。"
+    },
+    {
+      "id": 90,
+      "start_sec": 1111,
+      "speaker": "Ira Glass",
+      "en": "Wow. Shaun, you said you like invented this demo first to show Abigail what you're hearing. Abigail, when you first heard it, I mean you'd been with him for years already and you kind of knew the basic idea of what he was hearing. What was it like to actually hear the demo?",
+      "zh": "哇。Shaun，你说你最初做这个演示是为了让 Abigail 知道你听到的世界是什么样的。Abigail，当你第一次听到这个演示时——我的意思是你们已经在一起很多年了，你也大概知道他听到的声音是什么概念——但真正听到这个演示时，是什么感觉？"
+    },
+    {
+      "id": 91,
+      "start_sec": 1130,
+      "speaker": "Abigail",
+      "en": "Um, it's very stark. Just seeing how hard he had to work.",
+      "zh": "嗯，感觉非常残酷、非常直观。你能一下子看到他平时得有多费劲。"
+    },
+    {
+      "id": 92,
+      "start_sec": 1138,
+      "speaker": "Ira Glass",
+      "en": "I mean, did you have a feeling of like, oh, I knew it was bad, but I didn't realize it was this?",
+      "zh": "我是说，你当时有没有一种感觉：我知道情况很糟，但没想到糟成这样？"
+    },
+    {
+      "id": 93,
+      "start_sec": 1143,
+      "speaker": "Abigail",
+      "en": "Yeah. Yeah, I did. I mean, it's like there's this other huge truth, like another animal in the room with us all the time. And he's navigating it often alone.",
+      "zh": "是的。确实有这种感觉。我的意思是，就好像房间里一直存在另一个巨大的真相，就像有另一只野兽一直和我们待在一起。而他常常得独自去应对它。"
+    },
+    {
+      "id": 94,
+      "start_sec": 1162,
+      "speaker": "Abigail",
+      "en": "It's hard. Like we both really aren't interested in thinking about it as like, isn't that very sad? You know, it's stark. It's like, it's a big difference.",
+      "zh": "这很难。不过我们俩都不太喜欢用“哎呀这真是太悲惨了”的心态去看待这件事。你知道，它很直白、很现实，就是一种巨大的差异。"
+    },
+    {
+      "id": 95,
+      "start_sec": 1177,
+      "speaker": "Abigail",
+      "en": "But hearing your tinnitus is not a demonstration of tragedy. It's just a sort of stark invitation into your experience.",
+      "zh": "但听到你的耳鸣声，并不是在展示什么悲剧。它更像是一个直白的邀请，让我走进你的切身体验。"
+    },
+    {
+      "id": 96,
+      "start_sec": 1189,
+      "speaker": "Ira Glass",
+      "en": "So, this is where Shaun understood he was headed. He knew all of this. His hearing was getting worse and worse. It was hard for him to talk to people if Abigail wasn't there, helping and repeating things.",
+      "zh": "所以，Shaun 很清楚自己正在走向这样的境地。他心里都明白。他的听力越来越差。如果 Abigail 不在场帮忙复述，他甚至很难和别人交谈。"
+    },
+    {
+      "id": 97,
+      "start_sec": 1200,
+      "speaker": "Ira Glass",
+      "en": "And when she wasn't there, he would pretend to hear what people were saying, and he would nod along. And then often he would say something thinking that he was understanding the conversation, and then everybody would start laughing and saying, 'I can't believe you said that,' because what he said was so inappropriate and off-topic. And he says sometimes he would never actually learn what his mistake was, and what they were talking about.",
+      "zh": "而当她不在场时，他就会假装听清了别人在说什么，跟着点头附和。然后他常常会以为自己听懂了对话而插上一句话，结果大家都会大笑起来，说“真不敢相信你会这么说”，因为他说的话实在太不合时宜、太跑题了。他说有时候他甚至根本不知道自己到底哪里说错了，也不知道大家原本在聊什么。"
+    },
+    {
+      "id": 98,
+      "start_sec": 1218,
+      "speaker": "Ira Glass",
+      "en": "And the solution was right in front of him. He could slow this down. He could wear earplugs. At their shows, he could have them lower the volume of the speakers on stage, which would do less damage to his ears.",
+      "zh": "而解决办法其实就在他眼前。他本可以延缓这个过程。他可以戴上耳塞。在他们的演出中，他本可以让人把舞台上的音箱音量调低，这样对耳朵的伤害就会小很多。"
+    },
+    {
+      "id": 99,
+      "start_sec": 1229,
+      "speaker": "Ira Glass",
+      "en": "But still, he could not bring himself to do it. He was 32 years old. And then?",
+      "zh": "但即便如此，他还是做不到。那年他 32 岁。后来呢？"
+    },
+    {
+      "id": 100,
+      "start_sec": 1236,
+      "speaker": "Abigail",
+      "en": "And then we became parents.",
+      "zh": "后来我们为人父母了。"
+    },
+    {
+      "id": 101,
+      "start_sec": 1238,
+      "speaker": "Ira Glass",
+      "en": "They became parents, and they had a boy. And they thought that he would probably inherit ears just like Shaun's, because that's how it goes with the men in Shaun's family. And they wanted their son to grow up with an example of somebody dealing with hearing loss in a much more thoughtful way than Shaun was doing it.",
+      "zh": "他们为人父母了，生了个男孩。他们觉得儿子很可能会遗传 Shaun 那样的耳朵，因为 Shaun 家的男性都是这样。他们希望儿子在成长过程中能看到一个榜样，一个比 Shaun 当时更明智、更周全地应对听力损失的榜样。"
+    },
+    {
+      "id": 102,
+      "start_sec": 1254,
+      "speaker": "Ira Glass",
+      "en": "And they also needed to change for another reason. Something that happened their very first night as parents.",
+      "zh": "而且他们必须做出改变还有另一个原因。一件发生在他们初为人父母第一晚的事情。"
+    },
+    {
+      "id": 103,
+      "start_sec": 1260,
+      "speaker": "Ira Glass",
+      "en": "Their son Louie was born with one lung that would not inflate. And he was rushed off in an ambulance from the hospital they were at to a bigger hospital. And Shaun went to the intensive care unit with the baby, while Abigail was in a hospital room recovering.",
+      "zh": "他们的儿子 Louie 出生时有一侧肺无法正常扩张。他被救护车从原本的医院紧急转送到了一家更大的医院。Shaun 陪着宝宝进了重症监护室，而 Abigail 则留在病房里休养。"
+    },
+    {
+      "id": 104,
+      "start_sec": 1273,
+      "speaker": "Shaun",
+      "en": "But that also meant I lost my translator, and now like I'm alone with a child who is maybe not going to make it. You know, they said they thought they were going to have to airlift him to another state to have a lung transplant.",
+      "zh": "但这也意味着我失去了我的‘翻译’，现在我独自面对一个可能撑不过去的孩子。医生说，他们可能得用直升机把他送到另一个州去做肺移植手术。"
+    },
+    {
+      "id": 105,
+      "start_sec": 1288,
+      "speaker": "Shaun",
+      "en": "And all the nurses were talking with me about all this like important stuff, and like I couldn't hear them. I just like could not follow the conversations. And I just felt like such terrible guilt and shame that I'd let this go on so long.",
+      "zh": "所有的护士都在跟我交代各种重要的事情，但我根本听不清她们在说什么，完全跟不上她们的对话。我当时感到无比的内疚和羞愧，恨自己怎么能把听力问题拖延这么久。"
+    },
+    {
+      "id": 106,
+      "start_sec": 1305,
+      "speaker": "Shaun",
+      "en": "And now my child's life might be on the line and I like couldn't hear well enough to be able to help. Um, I really felt like this has to change, and I have to wake up.",
+      "zh": "现在我孩子的性命可能危在旦夕，我却因为听不清而帮不上任何忙。嗯，我当时真切地觉得，这一切必须改变了，我必须清醒过来了。"
+    },
+    {
+      "id": 107,
+      "start_sec": 1324,
+      "speaker": "Ira Glass",
+      "en": "His son's lung started working. No transplant was needed. He was fine. But it shook up Shaun.",
+      "zh": "他儿子的肺开始正常工作了，不需要做移植手术，孩子平安无事。但这件事深深震撼了 Shaun。"
+    },
+    {
+      "id": 108,
+      "start_sec": 1330,
+      "speaker": "Shaun",
+      "en": "It felt—it does have a little bit of like an addict rock bottom like feeling. Like I had really ridden this pony as far as it would go.",
+      "zh": "那种感觉——确实有点像瘾君子跌到谷底时的那种感觉。就好像我真的把这件事硬撑到了极限，再也撑不下去了。"
+    },
+    {
+      "id": 109,
+      "start_sec": 1339,
+      "speaker": "Ira Glass",
+      "en": "And so what'd you do as a result?",
+      "zh": "那你后来采取了什么行动呢？"
+    },
+    {
+      "id": 110,
+      "start_sec": 1341,
+      "speaker": "Shaun",
+      "en": "Um, I started wearing earplugs. Like, that was the first thing, is I just started wearing earplugs. I started having it be like a main conversation whenever we would start working with people.",
+      "zh": "嗯，我开始戴耳塞了。这是我做的第一件事，就是戴上耳塞。而且每当我们开始和别人合作时，我都会把这当成一件正事拿出来沟通。"
+    },
+    {
+      "id": 111,
+      "start_sec": 1354,
+      "speaker": "Abigail",
+      "en": "Getting really vocal about stuff that we had been, um, that we were scared people would think we weren't cool, or weren't like down, or weren't flexible, like in the music scene, you know, that like we were hard to work with because we had these particular needs, these special needs, you know?",
+      "zh": "我们开始大声说出以前不敢提的需求，以前我们总担心在音乐圈里，大家会觉得我们不够酷、不够随和、不够灵活，觉得我们很难合作，就因为我们有这些特殊的听力需求，你懂吧？"
+    },
+    {
+      "id": 112,
+      "start_sec": 1373,
+      "speaker": "Ira Glass",
+      "en": "To turn the music down, basically.",
+      "zh": "说白了，就是要求把音乐音量调小。"
+    },
+    {
+      "id": 113,
+      "start_sec": 1375,
+      "speaker": "Abigail",
+      "en": "Yeah, just to like turn it down, and like really specific work with monitors.",
+      "zh": "对，就是把音量调小，而且对监听音箱的设置也有非常具体的要求。"
+    },
+    {
+      "id": 114,
+      "start_sec": 1380,
+      "speaker": "Ira Glass",
+      "en": "It's so funny because in music, like there's so many cliches about like, 'Turn it up! Crank it up!' And there's no cool version of, 'Turn it down.'",
+      "zh": "这特别有意思，因为在音乐界有太多老生常谈，比如“把音量开大！再响一点！”但从来没有什么听起来很酷的说法是叫人“把音量调小”。"
+    },
+    {
+      "id": 115,
+      "start_sec": 1390,
+      "speaker": "Abigail",
+      "en": "You should go put in the speaker to negative one. Like in Spinal Tap, instead of 11. Yeah. That's who we had to turn into.",
+      "zh": "你应该把音箱音量调到负一。就像电影《摇滚万岁》里那样，别人是调到11，我们得反过来。没错，我们当时就得变成那样。"
+    },
+    {
+      "id": 116,
+      "start_sec": 1404,
+      "speaker": "Ira Glass",
+      "en": "In a way, it's the oldest story in the book. Somebody has a baby and then decides, now it's time to clean up their act. That was 10 years ago.",
+      "zh": "从某种意义上说，这是个再老套不过的故事了。有人生了孩子，然后下定决心，是时候痛改前非了。那是十年前的事了。"
+    },
+    {
+      "id": 117,
+      "start_sec": 1414,
+      "speaker": "Ira Glass",
+      "en": "And I suppose the story could stop there. After all those years, Shaun starts protecting his ears. But crazily, after going through all that, there was a second thing that Shaun really needed to do to deal with his hearing loss.",
+      "zh": "我想故事本可以到此为止。过了这么多年，Shaun 终于开始保护自己的耳朵了。但不可思议的是，在经历了这一切之后，为了应对听力损失，还有第二件 Shaun 真正需要去做的事。"
+    },
+    {
+      "id": 118,
+      "start_sec": 1429,
+      "speaker": "Ira Glass",
+      "en": "Something that he had been advised to do years before this, and he still would not do it. He wouldn't get hearing aids. For all the reasons you hear people say.",
+      "zh": "一件早在多年以前就有人建议他去做的事，但他依然不肯做。他不肯配助听器，理由和你在别人嘴里听到的那些一模一样。"
+    },
+    {
+      "id": 119,
+      "start_sec": 1440,
+      "speaker": "Ira Glass",
+      "en": "His father and grandfather get them, and at some chemical level, he was like, I am not ready to be like that. That is the beginning of the end. That is old age. And so, when I first sat down with Shaun and Abigail in the studio, they were like people trapped in quicksand with this decision.",
+      "zh": "他父亲和祖父都戴了，从某种本能的层面来说，他心里想的是，我还没准备好变成那样，那是走向终结的开始，那就是变老了。所以，当我第一次在录音室里和 Shaun 还有 Abigail 坐下来聊的时候，他们面对这个决定就像陷在流沙里一样。"
+    },
+    {
+      "id": 120,
+      "start_sec": 1455,
+      "speaker": "Shaun",
+      "en": "It's been a gentle, like, I'd say like four years ago, I was like, maybe it is time for hearing aids. And then the year after that, I was like, all right, it's probably hearing aids time. And then last year I was like, maybe we'll get hearing aids this year. And then this year I'm like, it's time. Um, but I, no, I haven't. I have not been able to.",
+      "zh": "这是一个循序渐进的过程，大概四年前吧，我就想，也许是时候配助听器了。过了一年，我想，好吧，大概真到戴助听器的时候了。然后去年我又想，也许今年我们就会去配助听器。到了今年我就觉得，就是现在了。呃，但我，不，我还没去。我一直没能迈出那一步。"
+    },
+    {
+      "id": 121,
+      "start_sec": 1473,
+      "speaker": "Ira Glass",
+      "en": "Oh my god, Abigail, how are you not... so annoyed?",
+      "zh": "天哪，Abigail，你怎么能……不觉得特别抓狂呢？"
+    },
+    {
+      "id": 122,
+      "start_sec": 1479,
+      "speaker": "Abigail",
+      "en": "Aw. Listen. I don't know why I'm crying. I really love you. I'm really in. However you want to do it, I'm in, you know.",
+      "zh": "唉。听我说。我也不知道我怎么哭了。我真的很爱你。我完全支持你。不管你想怎么做，我都陪着你，你知道的。"
+    },
+    {
+      "id": 123,
+      "start_sec": 1502,
+      "speaker": "Ira Glass",
+      "en": "That was recorded in March. Abigail had made a decision that she was not going to pester him into this, or become his minder. She thought that was a dangerous path and could so easily make them less close, and I agree with that picture of how relationships can go to hell. And I remember leaving that interview feeling so much admiration for how she was holding the line on that.",
+      "zh": "这段录音是在三月录的。Abigail 当时下定了决心，她绝不会用唠叨来逼他去配助听器，也不想变成他的看管人。她觉得那是一条危险的路，很容易让彼此变得疏远，而我也完全认同这种感情走向恶化的模式。我记得那次采访结束后，我对她能坚守住这条底线充满了敬佩。"
+    },
+    {
+      "id": 124,
+      "start_sec": 1523,
+      "speaker": "Ira Glass",
+      "en": "And then, finally, over the summer, at the age of 43, Shaun got hearing aids. I invited them back into the studio to talk about this, and they told me that part of the reason that he did this was me.",
+      "zh": "后来，终于在这个夏天，43岁的 Shaun 配了助听器。我邀请他们回到录音室聊聊这件事，他们告诉我，他之所以这么做，部分原因是因为我。"
+    },
+    {
+      "id": 125,
+      "start_sec": 1537,
+      "speaker": "Shaun",
+      "en": "Talking with you, and feeling like, this is really a little ridiculous. And it was that, and that combined with, um, just how genuinely I was struggling. Like we were working with collaborators, and I was just not able to hang.",
+      "zh": "跟你聊完之后，我就觉得，这事儿确实有点荒唐。一方面是这个，另一方面也加上，呃，我当时确实非常吃力。比如我们和合作者一起工作的时候，我完全跟不上节奏。"
+    },
+    {
+      "id": 126,
+      "start_sec": 1553,
+      "speaker": "Ira Glass",
+      "en": "Like, literally, like it was just hard to communicate?",
+      "zh": "就是字面意义上的，沟通起来很困难吗？"
+    },
+    {
+      "id": 127,
+      "start_sec": 1555,
+      "speaker": "Shaun",
+      "en": "Yeah, I just couldn't do it. I was just, I was just sitting there quiet. And then we got the email from you that you had just gotten your hearing aids.",
+      "zh": "对，我就是做不到。我只能，只能安静地坐在那儿。然后我们就收到了你的邮件，说你刚配了助听器。"
+    },
+    {
+      "id": 128,
+      "start_sec": 1564,
+      "speaker": "Ira Glass",
+      "en": "Oh, right. Hello, America. I don't just have cataracts, I also got hearing aids this year. I told you I'm old. Hearing aids are great, by the way. Total recommend.",
+      "zh": "哦，对。大家好，美国的朋友们。我不仅得了白内障，今年还配了助听器。我就跟你们说过我老了吧。顺便说一句，助听器太棒了。强烈推荐。"
+    },
+    {
+      "id": 129,
+      "start_sec": 1574,
+      "speaker": "Shaun",
+      "en": "Which I had no idea that you were even on that journey. Um, and then—",
+      "zh": "我当时完全不知道你也在经历这个过程。呃，然后——"
+    },
+    {
+      "id": 130,
+      "start_sec": 1578,
+      "speaker": "Ira Glass",
+      "en": "Right. So when I got my hearing aids, I thought of you guys, and I was like, oh, I wonder if you guys got your hearing aids. I sent you guys an email saying like, oh, I just got hearing aids. And then you reached out to me to be like, who'd you get them from? Did you like him?",
+      "zh": "没错。所以当我配了助听器的时候，我就想到了你们，心想，哦，不知道你们配了没有。我给你们发了封邮件说，哦，我刚配了助听器。然后你们就联系我，问我是找谁配的，觉得那位医生怎么样。"
+    },
+    {
+      "id": 131,
+      "start_sec": 1590,
+      "speaker": "Abigail",
+      "en": "Yeah, that's what happened.",
+      "zh": "对，就是这样。"
+    },
+    {
+      "id": 132,
+      "start_sec": 1592,
+      "speaker": "Ira Glass",
+      "en": "If you're listening to this, and there's somebody in your life who needs hearing aids, I guess, you know, send them to me.",
+      "zh": "如果你正在听这期节目，而你身边刚好有人需要配助听器，我想，嗯，把他们介绍给我吧。"
+    },
+    {
+      "id": 133,
+      "start_sec": 1600,
+      "speaker": "Ira Glass",
+      "en": "Shaun got his hearing aids over 22 years after an audiologist first told him that he needed them. Which is more than most people, but most people do take a while. There's studies out there that have looked at this. One big, long-term study found that the average time that people wait between the diagnosis that they should get hearing aids and actually getting the hearing...",
+      "zh": "在听力师第一次告诉 Shaun 他需要助听器的22年多之后，他终于配上了助听器。这个时间比大多数人都长，但大多数人确实都要拖上一阵子。已经有研究专门探讨过这个问题。一项大型长期研究发现，从被诊断出应该佩戴助听器到真正去配助听器，人们平均要等上……"
+    },
+    {
+      "id": 134,
+      "start_sec": 1620,
+      "speaker": "Ira Glass",
+      "en": "aids was about nine years. Sean had surrounded this decision with so much denial, so much fear.",
+      "zh": "……长达九年。Shaun 当初在做这个决定时，内心充满了抗拒和恐惧。"
+    },
+    {
+      "id": 135,
+      "start_sec": 1627,
+      "speaker": "Shaun",
+      "en": "And now? My ears aren't restored, but I am hearing things I haven't heard in decades. Um...",
+      "zh": "而现在呢？我的听力虽然没有完全恢复，但我能听到几十年没听到过的声音了。嗯……"
+    },
+    {
+      "id": 136,
+      "start_sec": 1635,
+      "speaker": "Ira Glass",
+      "en": "Like daily life is different.",
+      "zh": "也就是说日常生活变得不一样了。"
+    },
+    {
+      "id": 137,
+      "start_sec": 1636,
+      "speaker": "Shaun",
+      "en": "Daily life is different.",
+      "zh": "日常生活确实不一样了。"
+    },
+    {
+      "id": 138,
+      "start_sec": 1638,
+      "speaker": "Ira Glass",
+      "en": "When he explained to me how, I have to say I was surprised at the sprawl and variety of daily things that come up, and just how important some of them seem. Like for example, staying up late with his sister on a visit, in the kitchen together, having one of those, you know, like intimate late-night talks that would have been literally impossible for him before because quiet conversation was the thing that he could not hear.",
+      "zh": "当他向我解释具体有哪些变化时，我不得不说，我对日常生活中出现的各种琐事之多、范围之广感到惊讶，而且其中有些事情看起来竟然如此重要。比如，他妹妹来访时，两人一起在厨房熬夜，进行那种亲密的深夜长谈。这在以前对他来说简直是不可能的，因为他根本听不清轻声细语的交谈。"
+    },
+    {
+      "id": 139,
+      "start_sec": 1659,
+      "speaker": "Abigail",
+      "en": "The like first night you brought your hearing aids home. And then we had this moment where we live in a studio, so our kids were asleep right there, and we were just trying to talk about the day.",
+      "zh": "就像你把助听器带回家的第一晚。当时我们住在一居室里，孩子们就在旁边睡觉，我们试着轻声聊聊天，说说白天发生的事。"
+    },
+    {
+      "id": 140,
+      "start_sec": 1672,
+      "speaker": "Ira Glass",
+      "en": "In the past, two kids asleep in the same room, they might try to talk.",
+      "zh": "以前，两个孩子睡在同一个房间里，他们如果想说话……"
+    },
+    {
+      "id": 141,
+      "start_sec": 1676,
+      "speaker": "Shaun",
+      "en": "And I just couldn't, you know, and we would have to text, or I would need her to speak too loudly and a child would wake up.",
+      "zh": "我根本听不见，我们只能发短信，或者我得让她大点声，结果就会把孩子吵醒。"
+    },
+    {
+      "id": 142,
+      "start_sec": 1683,
+      "speaker": "Ira Glass",
+      "en": "And best circumstances in those days, Sean had so much trouble hearing what Abigail was saying.",
+      "zh": "就算在最好的情况下，那时候 Sean 要听清 Abigail 说话也非常费劲。"
+    },
+    {
+      "id": 143,
+      "start_sec": 1688,
+      "speaker": "Abigail",
+      "en": "In all honesty, I'm not like the most patient woman, and I will give up. I'm embarrassed to say, but I'll give up if like there's a lot of repetition sometimes. Like it'll be like, 'Oh honey, like you look great,' and he won't hear me, and then by the end I'll be like, 'You look great!' You know, like my tone will be sort of ferocious or something that was supposed to be sweet will be frustrated and crappy.",
+      "zh": "老实说，我不是那种特别有耐心的女人，有时候我会放弃。说出来有点不好意思，但如果总是要重复很多遍，我真的会放弃。比如我会说：‘哦，亲爱的，你今天看起来真棒’，但他没听见，到最后我就会变成大喊：‘你看起来真棒！’你知道的，我的语气就会变得很凶，原本很甜蜜的话也会变得充满挫败感，听起来很糟糕。"
+    },
+    {
+      "id": 144,
+      "start_sec": 1716,
+      "speaker": "Abigail",
+      "en": "Um, and then that night with the hearing aids, we just had this like sweet, gentle, easy conversation. And then later I was like, 'Oh my God, I can't believe that happened.'",
+      "zh": "嗯，然后戴上助听器的那天晚上，我们进行了一次非常甜蜜、温柔又轻松的谈话。事后我就在想：‘天哪，我简直不敢相信这发生了。’"
+    },
+    {
+      "id": 145,
+      "start_sec": 1731,
+      "speaker": "Ira Glass",
+      "en": "Does this make you wish you had done this years ago?",
+      "zh": "这会让你希望自己几年前就这么做吗？"
+    },
+    {
+      "id": 146,
+      "start_sec": 1733,
+      "speaker": "Shaun",
+      "en": "Yeah, I do. I do wish I had done this years ago.",
+      "zh": "是的，我确实这么想。我真希望自己几年前就戴上助听器了。"
+    },
+    {
+      "id": 147,
+      "start_sec": 1737,
+      "speaker": "Ira Glass",
+      "en": "They're both learning ASL, preparing for a future that they're now both looking at pretty squarely.",
+      "zh": "他们俩现在都在学习美国手语（ASL），为他们如今共同直面的未来做准备。"
+    },
+    {
+      "id": 148,
+      "start_sec": 1742,
+      "speaker": "Abigail",
+      "en": "When you have a lot less hearing, we're going to be great. You know, we're going to be different. But who wants to write the same song over and over again anyway?",
+      "zh": "等你的听力进一步下降时，我们也会过得很好的。你知道，我们的生活会变得不一样。但话说回来，谁想一遍又一遍地写同一首歌呢？"
+    },
+    {
+      "id": 149,
+      "start_sec": 1755,
+      "speaker": "Ira Glass",
+      "en": "Sean says that one thing that made all this possible was that he said he needed to be able to picture himself with hearing aids, like how he'd still be able to be a musician and function. And that took a while. Sometimes, even when the evidence is right in front of you, it can take some time to adjust.",
+      "zh": "Sean 说，让这一切成为可能的一个关键点在于，他需要能够想象自己戴着助听器的样子，比如他如何还能继续当一名音乐人并正常生活。这花了一段时间。有时候，即使证据就摆在眼前，人也需要一些时间来适应。"
+    },
+    {
+      "id": 150,
+      "start_sec": 1781,
+      "speaker": "Ira Glass",
+      "en": "All right. Why don't we close this out with one of The Bengsons' songs.",
+      "zh": "好了，不如让我们用 The Bengsons 乐队的一首歌来结束这一幕吧。"
+    },
+    {
+      "id": 151,
+      "start_sec": 1831,
+      "speaker": "Ira Glass",
+      "en": "The Bengsons, Abigail and Shaun. That song is actually from a show that they wrote called Ohio, where Shaun talks about some of all this stuff on stage and actually does the tinnitus demonstration, and they do a bunch of songs, and it's played in different cities over the years. They're bringing it to New York City in January. If you're curious, go to bengsons.com, that's B-E-N-G-S-O-N-S dot com.",
+      "zh": "这就是 The Bengsons 组合，Abigail 和 Shaun。这首歌其实来自他们创作的一部名叫《Ohio》的演出，Shaun 在舞台上会聊到这些事，甚至真的会现场演示耳鸣的感觉，他们还会唱很多歌，这些年已经在好几个城市巡演过了。明年一月他们会把它带到纽约。如果你感兴趣，可以去 bengsons.com 看看，拼写是 B-E-N-G-S-O-N-S 点 com。"
+    },
+    {
+      "id": 152,
+      "start_sec": 1864,
+      "speaker": "Ira Glass",
+      "en": "Coming up, what's worse? An eye socket full of red-hot coals while a mule kicks your face for hours, or having a baby, or kidney stones, or being shot with a gun? Okay, scientists have actually studied this question. Their data in a minute, from Chicago Public Radio, when our program continues.",
+      "zh": "稍后回来，哪种更痛？是眼眶里塞满烧红的煤炭、同时被骡子连续踢脸好几个小时，还是生孩子、肾结石，或者是中枪？好吧，科学家还真研究过这个问题。他们的研究数据马上揭晓，这里是 Chicago Public Radio，节目稍后继续。"
+    },
+    {
+      "id": 153,
+      "start_sec": 1890,
+      "speaker": "Ira Glass",
+      "en": "It's This American Life, I'm Ira Glass. Today's program, 'Is Your Blue My Blue?' And yes, counterintuitively, we are naming the program that, and it has nothing at all to do with this week's midterm election results. This is an episode entirely about things that are in your head, and you wonder if you can communicate those things in your head to somebody else who does not live inside your brain. We have arrived at Act Two of our program, Act Two: Everybody Hurts.",
+      "zh": "欢迎回到《This American Life》，我是 Ira Glass。今天这期节目的主题是《你的蓝是我眼中的蓝吗？》（Is Your Blue My Blue?）。没错，虽然有点反直觉，但我们起这个名字，跟本周的中期选举结果可一点关系都没有。这一整期节目讲的都是你脑海里的东西，以及你能不能把脑海里的这些感受，传达给另一个不住在你大脑里的人。现在我们来到节目的第二幕，Act Two：《人人都会痛》（Everybody Hurts）。"
+    },
+    {
+      "id": 154,
+      "start_sec": 1915,
+      "speaker": "Ira Glass",
+      "en": "Okay, so everyone knows you're not supposed to compare your pain to someone else's pain, right? No good can come of that. But one of our producers, Ike Sriskandarajah, recently came across this survey that tries to rank physical pain, and specifically the pain that people get from cluster headaches. Cluster headaches, if you've never heard of these, are sometimes called suicide headaches, 'cause the pain is so severe. This survey held special interest for Ike, because he gets cluster headaches. Here he is.",
+      "zh": "好吧，大家都知道，你不该拿自己的痛苦去跟别人的痛苦做比较，对吧？那样没什么好结果。但我们的制作人之一 Ike Sriskandarajah 最近看到了一项调查，试图给身体疼痛排个名，特别是丛集性头痛带来的那种痛。如果你没听说过丛集性头痛，它有时也被称为“自杀性头痛”，因为痛感实在是太剧烈了。Ike 对这项调查特别感兴趣，因为他自己就患有丛集性头痛。下面听他讲讲。"
+    },
+    {
+      "id": 155,
+      "start_sec": 1946,
+      "speaker": "Ike Sriskandarajah",
+      "en": "For me, it started in seventh grade. I was sitting at my desk listening to the teacher, and then suddenly, I felt this wave of knockout pain crash directly behind my right eye. I wondered if I was dying. And then, it was gone.",
+      "zh": "对我来说，这事是从七年级开始的。当时我正坐在课桌前听老师讲课，突然间，我感觉一股令人窒息的剧痛直接砸在我右眼后方。我当时心想，我是不是要死了。然后，痛感又消失了。"
+    },
+    {
+      "id": 156,
+      "start_sec": 1963,
+      "speaker": "Ike Sriskandarajah",
+      "en": "But it wasn't. It kept happening. And it always came in clusters. Usually, a cycle would last six weeks, four to five times a day, 90 minutes at a time, during which the right half of my face goes slack.",
+      "zh": "但它并没有真正过去，而是一直反复发作。而且总是成群结队地来。通常一个周期会持续六周，每天发作四到五次，每次持续九十分钟，发作的时候我右半边脸都会麻木垮下来。"
+    },
+    {
+      "id": 157,
+      "start_sec": 1980,
+      "speaker": "Ike Sriskandarajah",
+      "en": "legs spasm, sometimes I'll throw up from the pain. I've tried a dozen medications, designed my own home remedies, but a lot of times I just wait till it's gone. And afterwards, I feel hollowed out, a little lonely.",
+      "zh": "腿会抽筋，有时还会疼得吐出来。我试过十几种药，也自己琢磨过土办法，但很多时候只能硬扛着等它过去。发作之后，整个人就像被掏空了一样，还有点孤独。"
+    },
+    {
+      "id": 158,
+      "start_sec": 1995,
+      "speaker": "Ike Sriskandarajah",
+      "en": "And I don't know anyone else who this was happening to. And it was hard to explain how painful these attacks were. Then I saw this study that compared clusters to better known extreme pain. And I was like, yes, here's empirical proof that it's this bad. And I wanted to talk to the people in it.",
+      "zh": "我也不认识其他有同样遭遇的人，而且很难跟别人形容这种头痛发作起来有多疼。后来我看到一项研究，把丛集性头痛和大家更熟知的一些剧痛放在一起作比较。我当时就想，太好了，这下有实证能证明它到底有多疼了。我想去采访一下参与这项研究的人。"
+    },
+    {
+      "id": 159,
+      "start_sec": 2016,
+      "speaker": "Ike Sriskandarajah",
+      "en": "The way the researchers did this survey is they found some unfortunate people who get cluster headaches and also suffered some other physical pain. Then they asked everyone to score how painful each experience was. The result is a comparable index of the most painful human experiences.",
+      "zh": "研究人员做这项调查的方法是，找到一些既患有丛集性头痛、又经历过其他身体剧痛的倒霉人。然后让每个人给这些经历的疼痛程度打分。最终得出了一份人类最痛苦经历的可比指数。"
+    },
+    {
+      "id": 160,
+      "start_sec": 2037,
+      "speaker": "Ike Sriskandarajah",
+      "en": "In the survey, one experience really jumped out at me. 25 people got shot with a gun and lived to compare. That's what happened to Erick.",
+      "zh": "在这份调查里，有一项经历一下子吸引了我的注意。有25个人曾经中过枪，而且大难不死留下来做了对比。Erick就是其中之一。"
+    },
+    {
+      "id": 161,
+      "start_sec": 2047,
+      "speaker": "Erick",
+      "en": "Well, I mean, there's very... there's a very loud report in a closed vehicle, uh, the ear-deafening blast, um...",
+      "zh": "呃，我是说，在密闭的车厢里响起了一声巨响，震耳欲聋的枪声……"
+    },
+    {
+      "id": 162,
+      "start_sec": 2054,
+      "speaker": "Ike Sriskandarajah",
+      "en": "He was sitting in his car, taking apart his gun, and in the middle of telling a joke to his friend, when...",
+      "zh": "当时他正坐在车里拆枪，正跟朋友讲笑话讲到一半，结果……"
+    },
+    {
+      "id": 163,
+      "start_sec": 2061,
+      "speaker": "Erick",
+      "en": "The first clue that I had been hurt, um, wasn't the actual getting shot part. Um, it came after I had started noticing I was actively bleeding.",
+      "zh": "我意识到自己受伤的第一个信号，呃，并不是中枪的那一瞬间。而是在我开始注意到自己在不停流血之后。"
+    },
+    {
+      "id": 164,
+      "start_sec": 2075,
+      "speaker": "Ike Sriskandarajah",
+      "en": "Erick, may I ask, and I know this isn't the point of the story, but what was the joke?",
+      "zh": "Erick，我能问一下吗，我知道这不是故事的重点，但你当时讲的是什么笑话？"
+    },
+    {
+      "id": 165,
+      "start_sec": 2081,
+      "speaker": "Erick",
+      "en": "Do you know what the funny... the funniest part about it is? To this day, I've racked my head about it, I can't remember, but I remember the punchline being the firearm going off.",
+      "zh": "你知道最搞笑的是什么吗？直到今天，我绞尽脑汁都想不起来了，但我记得那个笑话的包袱就是枪响了。"
+    },
+    {
+      "id": 166,
+      "start_sec": 2090,
+      "speaker": "Ike Sriskandarajah",
+      "en": "He'd shot himself in the thigh. Somehow, miraculously, there was an off-base army medic in the parking lot. She stabilized the wound until an ambulance arrived.",
+      "zh": "他一枪打中了自己的大腿。说来也巧，简直是个奇迹，停车场里正好有一位休班的军医。她帮他稳定了伤势，直到救护车赶到。"
+    },
+    {
+      "id": 167,
+      "start_sec": 2101,
+      "speaker": "Ike Sriskandarajah",
+      "en": "He says it actually didn't hurt so much at first, but then the pain really got going. And Erick, I want to be clear, really felt the pain. Fully.",
+      "zh": "他说一开始其实没那么疼，但后来疼痛真正袭来了。而且我要说明白，Erick是实打实地承受了那种剧痛。完完全全地。"
+    },
+    {
+      "id": 168,
+      "start_sec": 2113,
+      "speaker": "Erick",
+      "en": "I refused the opiates. I didn't... I didn't want them. I was already eight years sober at that point in time when I had gotten shot.",
+      "zh": "我拒绝了阿片类止痛药。我不要那些东西。我中枪的时候，已经戒酒戒毒八年了。"
+    },
+    {
+      "id": 169,
+      "start_sec": 2120,
+      "speaker": "Ike Sriskandarajah",
+      "en": "Oh, wow. So you had an unmedicated gunshot wound.",
+      "zh": "哇哦。所以你是在没用止痛药的情况下硬扛着枪伤。"
+    },
+    {
+      "id": 170,
+      "start_sec": 2127,
+      "speaker": "Erick",
+      "en": "Yeah, they gave me ibuprofen. Um, and that night, I remember... I remember screaming that night for help because it was getting unreal.",
+      "zh": "对，他们只给了我布洛芬。那天晚上，我记得……我记得自己疼得大喊救命，因为那种疼简直超乎想象。"
+    },
+    {
+      "id": 171,
+      "start_sec": 2137,
+      "speaker": "Ike Sriskandarajah",
+      "en": "Erick, on a pain scale, zero no pain, ten being the most, how bad did it get with the gunshot?",
+      "zh": "Erick，如果按疼痛等级来算，0分是不疼，10分是最疼，中枪那次最高到了几分？"
+    },
+    {
+      "id": 172,
+      "start_sec": 2146,
+      "speaker": "Erick",
+      "en": "I would say a seven or eight.",
+      "zh": "我觉得有七八分吧。"
+    },
+    {
+      "id": 173,
+      "start_sec": 2150,
+      "speaker": "Ike Sriskandarajah",
+      "en": "Okay, seven or eight for a gunshot. His cluster headaches start at seven or eight, and get a lot higher.",
+      "zh": "好，中枪是七八分。而他的丛集性头痛，起步就是七八分，而且还会高得多。"
+    },
+    {
+      "id": 174,
+      "start_sec": 2160,
+      "speaker": "Erick",
+      "en": "me grinding my face in with my fist or a rock. This last month I almost broke my nose pressing on my face. I could feel the cartilage trying to break. Every now and then I'll go upwards to 10.",
+      "zh": "我用拳头或石头往脸上猛砸。上个月我按着脸差点把鼻梁按断，能感觉到软骨在嘎吱作响。隔三差五痛感就会飙到10级。"
+    },
+    {
+      "id": 175,
+      "start_sec": 2176,
+      "speaker": "Erick",
+      "en": "And I know that I'm hitting 10 because I'm gasping for air, rocking back and forth, and trying to induce a trance because there's nothing that's going to stop it. And when I get to 10, when I know they're coming...",
+      "zh": "我知道自己到了10级，因为我开始大口喘气、来回摇晃，试着让自己进入一种恍惚状态，因为根本没有任何办法能止住这种痛。每当痛到10级，每当我预感到它们要来了……"
+    },
+    {
+      "id": 176,
+      "start_sec": 2194,
+      "speaker": "Ike Sriskandarajah",
+      "en": "Yeah.",
+      "zh": "嗯。"
+    },
+    {
+      "id": 177,
+      "start_sec": 2195,
+      "speaker": "Erick",
+      "en": "I'll get in my car and I'll go somewhere secluded. I'll get away from everyone because it's traumatizing.",
+      "zh": "我就会钻进车里，找个没人的角落。我会躲开所有人，因为那场面太吓人了，会给人留下心理阴影。"
+    },
+    {
+      "id": 178,
+      "start_sec": 2205,
+      "speaker": "Ike Sriskandarajah",
+      "en": "I get that. You don't want people to see you writhing in pain. And that pain? One science writer who also gets this kind of headache described the pain as something quote, a tourist would take pictures of, as a towering monument or new world wonder. It's just that big.",
+      "zh": "我能理解。你不想让别人看到自己痛得满地打滚的样子。至于那种痛？一位同样患有这种头痛的科普作家曾这样形容：那是“游客会举起相机拍照留念的奇观”，就像一座高耸的纪念碑或新的世界奇迹。它就是如此庞大。"
+    },
+    {
+      "id": 179,
+      "start_sec": 2224,
+      "speaker": "Ike Sriskandarajah",
+      "en": "And yet also totally unseen, and mostly unknown. Here's what we do know. Clusters affect about one in 1,000 people. It's about as common as MS or lupus.",
+      "zh": "但与此同时，它又完全隐形，鲜为人知。目前我们了解的情况是：丛集性头痛大约影响千分之一的人口，和多发性硬化症或红斑狼疮一样常见。"
+    },
+    {
+      "id": 180,
+      "start_sec": 2239,
+      "speaker": "Ike Sriskandarajah",
+      "en": "They think it's caused by a dysfunction in the hypothalamus, the body's inner clock. For a lot of people, cluster headaches hit like clockwork. They're eerily precise. The most common time for a headache is 2:00 AM every night.",
+      "zh": "医学界认为它是由下丘脑功能紊乱引起的，下丘脑就是人体的生物钟。对许多人来说，丛集性头痛准时得就像上发条的钟表，精准得令人毛骨悚然。最常见的发作时间是每天凌晨两点。"
+    },
+    {
+      "id": 181,
+      "start_sec": 2255,
+      "speaker": "Ike Sriskandarajah",
+      "en": "And that's true across countries and time zones. The hypothalamus then connects to nerves in your face, causing severe pain around one eye.",
+      "zh": "而且跨越不同国家和时区都是如此。下丘脑随后会牵连到面部神经，导致一侧眼周产生剧烈疼痛。"
+    },
+    {
+      "id": 182,
+      "start_sec": 2266,
+      "speaker": "Erick",
+      "en": "It felt like my eye socket was full of red-hot coals, and a mule was just kicking me in the face repeatedly for hours on end.",
+      "zh": "感觉就像我的眼眶里塞满了烧红的炭火，还有一头骡子连续几个小时不停地朝我脸上猛踹。"
+    },
+    {
+      "id": 183,
+      "start_sec": 2277,
+      "speaker": "Ike Sriskandarajah",
+      "en": "So that's his cluster headache pain. Which pain do you think you can endure for longer?",
+      "zh": "这就是他承受的丛集性头痛。你觉得哪种痛你能忍受得更久？"
+    },
+    {
+      "id": 184,
+      "start_sec": 2285,
+      "speaker": "Erick",
+      "en": "The gunshot, for sure.",
+      "zh": "肯定是枪伤。"
+    },
+    {
+      "id": 185,
+      "start_sec": 2286,
+      "speaker": "Ike Sriskandarajah",
+      "en": "Erick gets six to seven cluster headaches a day. So, in other words, it'd be about as painful, maybe even a little easier, for Erick to get shot several times a day than to have his cluster headaches.",
+      "zh": "Erick每天要发作六到七次丛集性头痛。也就是说，对他而言，每天中几枪的痛苦程度差不多，甚至可能还比丛集性头痛好受一点。"
+    },
+    {
+      "id": 186,
+      "start_sec": 2302,
+      "speaker": "Ike Sriskandarajah",
+      "en": "In the survey, gunshot wounds received an average pain score of 6, versus cluster headaches, which got 9.7.",
+      "zh": "在这项调查中，枪伤的平均疼痛评分是6分，而丛集性头痛高达9.7分。"
+    },
+    {
+      "id": 187,
+      "start_sec": 2318,
+      "speaker": "Ike Sriskandarajah",
+      "en": "But of course, this is a whole survey of human pain. 17 varieties of affliction. What about the other things people say hurt more than anything? Like kidney stones. They're in the survey. Gary, he's had them twice. The first time they hit, he couldn't move.",
+      "zh": "不过当然，这是一项涵盖人类各种疼痛的全面调查，足足有17种痛苦。那其他被人们称为“世上最痛”的病痛呢？比如肾结石，它也在调查之列。Gary得过两次肾结石。第一次发作时，他痛得动弹不得。"
+    },
+    {
+      "id": 188,
+      "start_sec": 2337,
+      "speaker": "Gary",
+      "en": "I would probably have to put",
+      "zh": "我大概得把"
+    },
+    {
+      "id": 189,
+      "start_sec": 2340,
+      "speaker": "Guest",
+      "en": "Somewhere between a seven and eight.",
+      "zh": "大概在7到8分之间吧。"
+    },
+    {
+      "id": 190,
+      "start_sec": 2344,
+      "speaker": "Ike Sriskandarajah",
+      "en": "Okay. Say seven and a half. Can I ask you about your, your cluster headaches?",
+      "zh": "好，那就按7.5分算。能问问你的丛集性头痛吗？"
+    },
+    {
+      "id": 191,
+      "start_sec": 2348,
+      "speaker": "Guest",
+      "en": "Sure.",
+      "zh": "当然。"
+    },
+    {
+      "id": 192,
+      "start_sec": 2349,
+      "speaker": "Ike Sriskandarajah",
+      "en": "How bad do they get?",
+      "zh": "疼起来有多严重？"
+    },
+    {
+      "id": 193,
+      "start_sec": 2351,
+      "speaker": "Guest",
+      "en": "I'll say I've got a 9.5 or 9.9, but never a 10. And the only reason I never say I have a 10 is because I can always think that there's a level where it gets worse.",
+      "zh": "我会说有9.5分或者9.9分，但从来不说10分。我之所以从不说10分，是因为我总觉得可能还有更疼的级别。"
+    },
+    {
+      "id": 194,
+      "start_sec": 2363,
+      "speaker": "Ike Sriskandarajah",
+      "en": "In the survey, people who'd had kidney stones and cluster headaches gave kidney stones 6.9 on average. Gallstones, if you're curious, 6.3.",
+      "zh": "在这项调查中，同时经历过肾结石和丛集性头痛的人，给肾结石的平均打分是6.9分。如果你好奇的话，胆结石是6.3分。"
+    },
+    {
+      "id": 195,
+      "start_sec": 2375,
+      "speaker": "Ike Sriskandarajah",
+      "en": "There's a lot of ways to get hurt in life. I called around and talked to a college football player who had concussions and broken bones, another person with ruptured ovarian cysts, one lady with endometriosis. I talked with a guy who had a toothache so bad he tried to pull his own tooth out. They all said their clusters were worse.",
+      "zh": "人这辈子会经历各种各样的疼痛。我打了一圈电话，采访了一位得过脑震荡和骨折的大学橄榄球运动员，一位卵巢囊肿破裂的人，还有一位子宫内膜异位症的女士。我还聊了一个牙疼得受不了、甚至想自己把牙拔掉的哥们儿。他们全都表示，丛集性头痛更要命。"
+    },
+    {
+      "id": 196,
+      "start_sec": 2402,
+      "speaker": "Ike Sriskandarajah",
+      "en": "There's one more kind of pain, of course, that everyone who goes through it seems to describe as the worst pain they have experienced. I'm talking about the pain of childbirth. How's that compare to cluster headaches?",
+      "zh": "当然，还有一种疼痛，几乎所有经历过的人都把它形容为自己体验过的最剧烈的痛。我说的就是分娩之痛。它跟丛集性头痛比起来怎么样呢？"
+    },
+    {
+      "id": 197,
+      "start_sec": 2417,
+      "speaker": "Ike Sriskandarajah",
+      "en": "A coworker who's experienced this pain told me I lost her on this one. Simply asking the question, I lost her. Two others thought bringing it up was sexist, or at the very least, deeply insensitive.",
+      "zh": "一位经历过这种痛的同事告诉我，我这么问简直让她无法认同。光是提出这个问题，就已经让她反感了。另外两位同事则觉得，拿这个来比就是性别歧视，或者至少是非常麻木不仁的。"
+    },
+    {
+      "id": 198,
+      "start_sec": 2430,
+      "speaker": "Ike Sriskandarajah",
+      "en": "Regular listeners of this show may have heard our stories about the well-documented phenomenon of discounting women's pain. And I believe women. Here's Ashley, talking about the early stages of labor. The birth was almost entirely unmedicated.",
+      "zh": "我们节目的老听众可能听过我们讲的那些故事，关于女性的疼痛往往被轻视这一有据可查的现象。而我相信女性的感受。下面来听听 Ashley 讲述她分娩初期的经历。她生孩子时几乎完全没有用镇痛药物。"
+    },
+    {
+      "id": 199,
+      "start_sec": 2448,
+      "speaker": "Ashley",
+      "en": "And, uh, I felt everything. Absolutely everything.",
+      "zh": "呃，我什么都感受到了。真真切切、完完全全的疼痛。"
+    },
+    {
+      "id": 200,
+      "start_sec": 2454,
+      "speaker": "Ike Sriskandarajah",
+      "en": "I can see it in your face.",
+      "zh": "从你的表情就能看出来。"
+    },
+    {
+      "id": 201,
+      "start_sec": 2456,
+      "speaker": "Ashley",
+      "en": "Yes. Uh, I would put labor, active pushing, as a 9.5 out of 10.",
+      "zh": "是的。呃，如果满分是10分的话，我会给分娩、也就是用力推挤的阶段打9.5分。"
+    },
+    {
+      "id": 202,
+      "start_sec": 2465,
+      "speaker": "Ike Sriskandarajah",
+      "en": "Is 9.5 the moment of crowning?",
+      "zh": "9.5分是指胎头着冠的那一刻吗？"
+    },
+    {
+      "id": 203,
+      "start_sec": 2469,
+      "speaker": "Ashley",
+      "en": "The tear. I would say the tear itself was 9.5.",
+      "zh": "是撕裂的时候。我觉得撕裂本身就有9.5分。"
+    },
+    {
+      "id": 204,
+      "start_sec": 2475,
+      "speaker": "Ike Sriskandarajah",
+      "en": "Ashley has given birth exactly twice and suffered from cluster headaches hundreds of times.",
+      "zh": "Ashley 一共生过两次孩子，而丛集性头痛已经折磨过她几百次了。"
+    },
+    {
+      "id": 205,
+      "start_sec": 2482,
+      "speaker": "Ashley",
+      "en": "Cluster headaches, a different type of pain. Uh, and I would still put cluster headaches as a 10 out of 10.",
+      "zh": "丛集性头痛是另一种完全不同的痛。呃，但我还是会给丛集性头痛打满分10分。"
+    },
+    {
+      "id": 206,
+      "start_sec": 2492,
+      "speaker": "Ike Sriskandarajah",
+      "en": "I should say, she says these two things are impossible to compare. One ends with a baby. The other has nothing good about it at all. And it happens all the time.",
+      "zh": "我得补充一句，她说这两件事其实没法比较。一个的结局是迎来一个宝宝，而另一个没有任何好事可言，而且还动不动就发作。"
+    },
+    {
+      "id": 207,
+      "start_sec": 2504,
+      "speaker": "Ike Sriskandarajah",
+      "en": "But for her, the headaches are worse. To me, this survey seemed useful, but should really come with a user warning. I've learned that there's a time and a place that's appropriate to share the survey results with someone else.",
+      "zh": "但对她来说，头痛更难受。对我而言，这项调查似乎挺有用的，但真的应该附带一条“使用警告”。我算是学到了，跟别人分享这份调查结果，得看准时机和场合。"
+    },
+    {
+      "id": 208,
+      "start_sec": 2520,
+      "speaker": "Ike Sriskandarajah",
+      "en": "Especially if it's your wife.",
+      "zh": "尤其是当对方是你妻子的时候。"
+    },
+    {
+      "id": 209,
+      "start_sec": 2523,
+      "speaker": "Emma",
+      "en": "I will say that when you first introduced the comparison to me, I was about nine months pregnant with our second child.",
+      "zh": "我得说，你第一次跟我提这个对比的时候，我正怀着咱们的二胎，差不多九个月了。"
+    },
+    {
+      "id": 210,
+      "start_sec": 2537,
+      "speaker": "Ike Sriskandarajah",
+      "en": "Back then, I thought the timing made a lot of sense. Emma, my wife, you just heard her, was pregnant and pretty uncomfortable. And I was having these headaches, also pretty uncomfortable. So, I thought, hey, this article is talking about both of us. Seems like something she might want to know about.",
+      "zh": "那时候，我觉得这个时机再合适不过了。我妻子 Emma——你们刚才也听到她说话了——当时正怀着孕，非常难受。而我当时也正受着这些头痛的折磨，同样非常难受。所以我想，嘿，这篇文章讲的正好是咱们俩的事，她应该会想了解一下吧。"
+    },
+    {
+      "id": 211,
+      "start_sec": 2556,
+      "speaker": "Emma",
+      "en": "You said, oh, I read this, you know, I read this study that cluster headaches are the most painful thing that a person can experience, that—I don't remember exactly how you compared them to childbirth, like, are more painful than childbirth.",
+      "zh": "当时你说，哦，我看到一篇研究，说丛集性头痛是人所能经历的最痛苦的事情，就是……我记不清你具体是怎么拿它跟生孩子作比较的了，大概就是说比生孩子还要痛。"
+    },
+    {
+      "id": 212,
+      "start_sec": 2570,
+      "speaker": "Ike Sriskandarajah",
+      "en": "Oh my god, I guess I shouldn't have said that.",
+      "zh": "天哪，看来我真不该这么说。"
+    },
+    {
+      "id": 213,
+      "start_sec": 2573,
+      "speaker": "Emma",
+      "en": "It was something just like that, and my reaction was kind of like, oh, okay. And so I was annoyed. I think it's like saying it ranks above childbirth really rubs people the wrong way.",
+      "zh": "反正意思就是那样，我当时的反应大概就是，哦，好吧。然后我就挺烦的。我觉得说什么“痛感排在生孩子之上”，真的特别让人反感。"
+    },
+    {
+      "id": 214,
+      "start_sec": 2589,
+      "speaker": "Ike Sriskandarajah",
+      "en": "If you had to rank my response to your pain, 10 being empathetic and 0 being callous, what ranking would you give me?",
+      "zh": "如果让你给我在面对你痛苦时的反应打个分，10分代表很有同理心，0分代表冷酷无情，你会给我打几分？"
+    },
+    {
+      "id": 215,
+      "start_sec": 2605,
+      "speaker": "Emma",
+      "en": "I don't really want to put a number on it. I will say that you were an excellent partner in labor, though I will say it's true for many years responses to like illness or whatever else was kind of a little dismissive. I wouldn't have put you at a 10.",
+      "zh": "我其实不太想用数字来打分。我得承认，我在分娩的时候你是个非常棒的伴侣，不过确实，这么多年来你对生病之类的事情，反应都有点敷衍。我肯定不会给你打10分。"
+    },
+    {
+      "id": 216,
+      "start_sec": 2628,
+      "speaker": "Ike Sriskandarajah",
+      "en": "Closer to zero than 10?",
+      "zh": "那是更接近0分，还是10分？"
+    },
+    {
+      "id": 217,
+      "start_sec": 2630,
+      "speaker": "Emma",
+      "en": "I don't know. Say it's—say right down the middle.",
+      "zh": "我不知道。就说……就说正好在中间吧。"
+    },
+    {
+      "id": 218,
+      "start_sec": 2636,
+      "speaker": "Ike Sriskandarajah",
+      "en": "Five?",
+      "zh": "5分？"
+    },
+    {
+      "id": 219,
+      "start_sec": 2637,
+      "speaker": "Emma",
+      "en": "I think we can say—yeah, I think we can say five.",
+      "zh": "我觉得可以……嗯，我觉得可以打5分。"
+    },
+    {
+      "id": 220,
+      "start_sec": 2641,
+      "speaker": "Ike Sriskandarajah",
+      "en": "That's the past or right now?",
+      "zh": "这是说过去，还是现在？"
+    },
+    {
+      "id": 221,
+      "start_sec": 2643,
+      "speaker": "Emma",
+      "en": "Now? I don't know, I think that you've—I think you've gotten better.",
+      "zh": "现在吗？我不知道，我觉得你……我觉得你已经进步了。"
+    },
+    {
+      "id": 222,
+      "start_sec": 2648,
+      "speaker": "Ike Sriskandarajah",
+      "en": "Six?",
+      "zh": "6分？"
+    },
+    {
+      "id": 223,
+      "start_sec": 2649,
+      "speaker": "Emma",
+      "en": "I don't know. Don't make me do this, please.",
+      "zh": "我不知道。拜托，别逼我打分了。"
+    },
+    {
+      "id": 224,
+      "start_sec": 2653,
+      "speaker": "Ike Sriskandarajah",
+      "en": "Let's just agree, if you want someone to empathize with you, don't try to compare your pain with theirs, especially with empirical data backing up that yours is worse. It does not engender any empathy at all.",
+      "zh": "咱们就达成共识吧：如果你想让别人对你感同身受，千万别拿自己的痛苦去和别人的作比较，尤其是别拿实证数据来证明你比对方更惨。这根本换不来半点同情。"
+    },
+    {
+      "id": 225,
+      "start_sec": 2670,
+      "speaker": "Ike Sriskandarajah",
+      "en": "But you know who does get it? Other people with cluster headaches. Before this story, I'd never talked to any. Meeting them meant more to me than I expected.",
+      "zh": "但你知道谁能真正理解吗？其他同样患有丛集性头痛的人。在做这期节目之前，我从来没跟病友聊过。见到他们对我的意义，比我预想的要大得多。"
+    },
+    {
+      "id": 226,
+      "start_sec": 2681,
+      "speaker": "Ike Sriskandarajah",
+      "en": "One of the first I talked to was a retired New York City firefighter who got his first cluster attack right after 9/11. We compared notes. How long it took to figure out what was happening, how long before we learned that oxygen really works, for us anyway. I just got my first tank—",
+      "zh": "我最先聊到的病友之一是一位退休的纽约市消防员，他在“9·11”事件后不久第一次发作了丛集性头痛。我们交流了各自的经历：花了多久才搞清楚到底是怎么回事，又过了多久才发现吸氧真的管用——至少对我们俩来说是这样。我刚拿到我的第一罐氧气——"
+    },
+    {
+      "id": 227,
+      "start_sec": 2700,
+      "speaker": "Ike Sriskandarajah",
+      "en": "this year. He figured it out early. Helps if you work in a fire station and are surrounded by this stuff.",
+      "zh": "今年。他很早就搞明白了。如果你在消防局工作，周围都是这种东西，那确实很有帮助。"
+    },
+    {
+      "id": 228,
+      "start_sec": 2708,
+      "speaker": "Ike Sriskandarajah",
+      "en": "After our conversation, he gave me a hug and told me, I know your pain. And he did. It felt like empathy on a molecular level. I don't have anything to compare it to.",
+      "zh": "聊完之后，他给了我一个拥抱，跟我说：‘我懂你的痛。’他是真的懂。那种感觉就像是分子层面上的共情。我找不到任何东西可以与之相比。"
+    },
+    {
+      "id": 229,
+      "start_sec": 2729,
+      "speaker": "Ira Glass",
+      "en": "Ike Sriskandarajah is one of the producers of our show.",
+      "zh": "Ike Sriskandarajah 是我们节目的制片人之一。"
+    },
+    {
+      "id": 230,
+      "start_sec": 2735,
+      "speaker": "Ira Glass",
+      "en": "Act Three, I'm Blue Da Ba Dee My Mom Died. So when we were putting together today's show about things in your head that can be hard to get across to other people, it came to all of our attention that our production fellow, the person who comes here to our show for six months to work with us and learn what we do, Molly Marcello, had something like this herself.",
+      "zh": "Act Three：《我好忧郁，我妈妈去世了》。所以，当我们筹备今天这期关于‘脑子里那些很难向别人传达的想法’的节目时，我们都注意到了，我们的制作实习生——就是那种来我们节目组待六个月、跟我们一起工作并学习我们制作流程的人——Molly Marcello，她自己就经历了这样一件事。"
+    },
+    {
+      "id": 231,
+      "start_sec": 2754,
+      "speaker": "Ira Glass",
+      "en": "She had this thing in her head that was very different from what was in other people's heads, and it was not so clear to her how to handle it. Here she is.",
+      "zh": "她脑子里装着一件和别人脑子里截然不同的事，而且她不太清楚该如何应对。下面请听她的讲述。"
+    },
+    {
+      "id": 232,
+      "start_sec": 2762,
+      "speaker": "Molly Marcello",
+      "en": "When I started working here, meeting all these nice new coworkers, they all had so many questions. And no matter what anyone asked me, my brain only had one answer. My mom died.",
+      "zh": "当我刚开始在这里工作，认识了这么多友善的新同事时，他们都有好多问题。不管别人问我什么，我脑子里都只有一个答案。我妈妈去世了。"
+    },
+    {
+      "id": 233,
+      "start_sec": 2775,
+      "speaker": "Molly Marcello",
+      "en": "What stories do you like to cover? My mom is dead. How are you liking New York? Well, um, my mom is no longer here.",
+      "zh": "你喜欢报道哪类故事？我妈妈去世了。你觉得纽约怎么样？嗯，那个，我妈妈已经不在了。"
+    },
+    {
+      "id": 234,
+      "start_sec": 2784,
+      "speaker": "Molly Marcello",
+      "en": "What do you think you'll do after this fellowship? Um, I combed the front and back of my hair today. For reference, mom is dead.",
+      "zh": "你觉得这次实习结束后你会做什么？嗯，我今天把头发前面和后面都梳了一遍。顺便说一句，我妈妈去世了。"
+    },
+    {
+      "id": 235,
+      "start_sec": 2793,
+      "speaker": "Molly Marcello",
+      "en": "I find myself constantly rooting around for a second answer. Got any weekend plans? Weekends are good. Communicating can be like offering up a dusty tampon at the bottom of my bag when I was asked for a stick of gum.",
+      "zh": "我发现自己总是在拼命翻找第二个答案。‘周末有什么计划吗？’‘周末挺好的。’与人沟通就像别人向我借一根口香糖，我却从包底翻出一根沾满灰尘的卫生棉条递过去。"
+    },
+    {
+      "id": 236,
+      "start_sec": 2814,
+      "speaker": "Molly Marcello",
+      "en": "My mom died suddenly three months before I started my job, on a Monday in October. A perfectly ordinary day to make an exit. At her moment of death, I imagine her saying her favorite word. Shit.",
+      "zh": "我妈妈是在我开始这份工作前三个月突然去世的，那是十月的一个星期一。一个再普通不过的退场日子。在她去世的那一刻，我想象着她说出自己最爱说的那个词：‘见鬼。’"
+    },
+    {
+      "id": 237,
+      "start_sec": 2829,
+      "speaker": "Molly Marcello",
+      "en": "It would be nice to know the mechanics of what happened exactly, as if I could just understand the mistake here, then I could bring it to management, run it up the chain. But sometimes your mother's heart just stops.",
+      "zh": "要是能确切知道到底出了什么故障就好了，就好像只要我能搞清楚这里的差错，就能把它反映给管理层，一层层向上汇报。但有时候，你妈妈的心脏就是这样毫无征兆地停止了跳动。"
+    },
+    {
+      "id": 238,
+      "start_sec": 2847,
+      "speaker": "Molly Marcello",
+      "en": "The only time I feel relief from the near constant interruption of my mom is dead, is when I get to talk about it. And the only people I like doing that with are other people with dead parents.",
+      "zh": "唯一能让我从‘我妈妈去世了’这个几乎无时无刻不在打断我的念头中解脱出来的时刻，就是当我能聊起这件事的时候。而我唯一愿意聊起这件事的对象，就是同样失去了父母的人。"
+    },
+    {
+      "id": 239,
+      "start_sec": 2858,
+      "speaker": "Molly Marcello",
+      "en": "I was talking with one of them, a coworker here at the show, Mike Comite. He had mentioned in passing that his dad was dead, and I cornered him about it over lunch one day.",
+      "zh": "我曾和其中一位聊过，他是节目组这里的同事，Mike Comite。他曾顺口提过他爸爸去世了，于是有一天吃午饭时我把他堵在角落里聊起了这事。"
+    },
+    {
+      "id": 240,
+      "start_sec": 2867,
+      "speaker": "Molly Marcello",
+      "en": "More people should experience this, Mike said. We laughed, because it's such a dark, forbidden thought. We were talking about this impossible gap between what was in our heads and what",
+      "zh": "‘应该让更多人经历一下这种事，’Mike 说。我们都笑了，因为这是一个如此黑暗、禁忌的想法。我们当时聊的，正是我们脑海里的想法与……之间那道不可逾越的鸿沟"
+    },
+    {
+      "id": 241,
+      "start_sec": 2880,
+      "speaker": "Molly Marcello",
+      "en": "and everyone else's. When he mentioned this thing that he said had been incredibly helpful to him. After his dad died, his friend sent him a zine about grief.",
+      "zh": "还有其他所有人的。他提到有样东西对他帮助特别大。他爸爸去世后，他朋友给他寄了一本关于悲伤的独立小志。"
+    },
+    {
+      "id": 242,
+      "start_sec": 2891,
+      "speaker": "Molly Marcello",
+      "en": "Reading the zine was one of the first times it felt like someone understood what he was dealing with. But Mike didn't have it anymore. He'd passed it to an acquaintance of his, someone who'd told Mike how he was going through a big loss too.",
+      "zh": "读那本小志的时候，他第一次觉得有人懂他正在经历的一切。但Mike手头已经没有那本小志了。他把它转送给了一个熟人，那人跟Mike说自己也正经历着巨大的失去。"
+    },
+    {
+      "id": 243,
+      "start_sec": 2906,
+      "speaker": "Molly Marcello",
+      "en": "Months after mailing this guy the zine, Mike found out what the big loss was. The guy's cat had died. When Mike told me this story, I said the following out loud: un-fucking-believable.",
+      "zh": "把小志寄给那家伙几个月后，Mike才搞清楚他说的“巨大失去”是什么。那家伙的猫死了。Mike跟我讲这事的时候，我直接脱口而出：简直他妈的不可理喻。"
+    },
+    {
+      "id": 244,
+      "start_sec": 2920,
+      "speaker": "Molly Marcello",
+      "en": "Then I thought, that's my zine. Mike would have given it to me if he hadn't wasted it on that cat guy. I know that's not exactly generous or kind or even sensible, but apparently that's the stage of grief I'm in.",
+      "zh": "然后我就想，那本来应该是我的小志啊。要是Mike没把它浪费在那个猫奴身上，肯定就给我了。我知道这么想不太大度，也不太善良，甚至有点莫名其妙，但显然我正处于悲伤的这个阶段。"
+    },
+    {
+      "id": 245,
+      "start_sec": 2934,
+      "speaker": "Molly Marcello",
+      "en": "The 'my dead mom counts more than your dead cat' stage. I wanted this goddamn zine. Not because I particularly thought it would help me. I'm wary of grief books.",
+      "zh": "就是“我死去的妈妈比你死去的猫更算事儿”的阶段。我太想要这该死的小志了。倒不是因为我特别觉得它能帮到我，我对那些讲悲伤的书一向持保留态度。"
+    },
+    {
+      "id": 246,
+      "start_sec": 2945,
+      "speaker": "Molly Marcello",
+      "en": "If it did, okay, that would be great. But mostly I needed to right this wrong. Also, it was nice to have a goal. So I set out to get it back.",
+      "zh": "如果真有用，那当然好。但主要是我得把这件不公平的事儿掰正过来。而且，有个目标也挺好的。于是我决定把它找回来。"
+    },
+    {
+      "id": 247,
+      "start_sec": 2960,
+      "speaker": "Molly Marcello",
+      "en": "Mike agreed to help me in my quest. Unfortunately, he did not remember the title, the author, or most of its content. He couldn't just Google it. So he tried the last place he saw it: Cat Guy.",
+      "zh": "Mike同意帮我一起找。可惜的是，他既不记得书名，也不记得作者，连里面的大部分内容都忘了。他没法直接在谷歌上搜。于是他只好去最后一个线索那里碰碰运气：那个猫奴。"
+    },
+    {
+      "id": 248,
+      "start_sec": 2972,
+      "speaker": "Molly Marcello",
+      "en": "Sent a message on my behalf. 'Hey, remember that zine I sent you a while back? Any chance you held on to it?' Crickets. We follow up with more emails, social media, LinkedIn. And just like our dead parents, the Cat Guy gives us no response.",
+      "zh": "他替我发了条消息过去：“嘿，还记得我前阵子寄给你的那本小志吗？你手里还有留着吗？”石沉大海。我们又发了更多邮件，在社交媒体和领英上找他。结果就像我们去世的父母一样，那个猫奴毫无音讯。"
+    },
+    {
+      "id": 249,
+      "start_sec": 2991,
+      "speaker": "Molly Marcello",
+      "en": "Mike then goes back to the person who sent him the zine, and she remembers who wrote it: Chelsea Granger, an artist who made it in 2019 after her own mom died. We got on the phone.",
+      "zh": "Mike只好回头去找当初寄给他小志的那个人，她还记得作者是谁：Chelsea Granger，一位艺术家，2019年她自己的妈妈去世后创作了这本小志。我们通了电话。"
+    },
+    {
+      "id": 250,
+      "start_sec": 3003,
+      "speaker": "Chelsea Granger",
+      "en": "Few days after she died or something, I was like in my childhood room being like, 'Oh, I'm going to make a zine.' Like there was no question. It starts off with like, 'My dad called and said my mom is dead.'",
+      "zh": "她去世没几天吧，我当时待在自己小时候的房间里，心里想着：“哦，我要做一本小志。”完全没有任何犹豫。开头大概是这样写的：“我爸爸打来电话，说我妈妈死了。”"
+    },
+    {
+      "id": 251,
+      "start_sec": 3013,
+      "speaker": "Molly Marcello",
+      "en": "'My dad called and said my mom is dead.' Hands down the most positive I've ever sounded about the worst moment of my life. This was actually kind of thrilling. Chelsea was the first person I'd met whose mom had also died out of nowhere.",
+      "zh": "“我爸爸打来电话，说我妈妈死了。”这绝对是我这辈子提起人生至暗时刻时，语气最轻快的一次。这其实还挺让人振奋的。Chelsea是我遇到的第一个妈妈也是突然离世的人。"
+    },
+    {
+      "id": 252,
+      "start_sec": 3027,
+      "speaker": "Molly Marcello",
+      "en": "And that zine she made, she actually ended up making 12 whole months of newsletters about grief. Where does the—okay, where does the newsletter live now? Like, is it saved on a hard drive?",
+      "zh": "而且她做的那本小志，后来竟然发展成了整整12个月的关于悲伤的电子通讯。那个……好吧，那份电子通讯现在存在哪里呢？比如存在硬盘里吗？"
+    },
+    {
+      "id": 253,
+      "start_sec": 3037,
+      "speaker": "Chelsea Granger",
+      "en": "No. I like actually, I feel like I don't even have scans of it.",
+      "zh": "没有。说实话，我好像连扫描件都没有留。"
+    },
+    {
+      "id": 254,
+      "start_sec": 3043,
+      "speaker": "Molly Marcello",
+      "en": "Well, shit. But what Chelsea does have is a folio of her original collages, all in tiny piles, not organized or laid out the way they were in the zine. And incredibly, she offers to resurrect all of the parts, putting them back together from memory, like a thousand",
+      "zh": "好吧，见鬼。不过Chelsea手里确实有一叠她原本的拼贴画，全都一小堆一小堆地放着，并没有像在小志里那样整理排版好。而且不可思议的是，她主动提出可以把所有部分重新拼起来，凭记忆把它们还原，就像拼一幅一千片的"
+    },
+    {
+      "id": 255,
+      "start_sec": 3060,
+      "speaker": "Molly Marcello",
+      "en": "jigsaw puzzle. She recreates all 12 months of the newsletter, then copies, staples, and mails them to me. When I have it, I carry it up the steps to my apartment, and the whole thing feels like it's vibrating.",
+      "zh": "……的拼图。她把整整12个月的通讯都重新做了一遍，然后复印、装订，寄给了我。拿到手后，我一路走上楼梯回公寓，感觉手里这沓东西都在微微发颤。"
+    },
+    {
+      "id": 256,
+      "start_sec": 3073,
+      "speaker": "Molly Marcello",
+      "en": "Let me open this. Oh, wow, she put the newsletters in this plastic envelope, and they're all stapled. Oh, wow. My heart's beating a little fast.",
+      "zh": "我来打开看看。哇，她把这些通讯都装在这个塑料信封里，全都装订好了。天哪，我心跳得有点快。"
+    },
+    {
+      "id": 257,
+      "start_sec": 3096,
+      "speaker": "Molly Marcello",
+      "en": "What if I hate it? I'm surprised I'm so nervous. I pour everything out onto my bed and start to read. There's printed text alongside handwritten notes, little illustrations, all kinds of stuff, fragments of other zines, oddball poems, thoughts that friends and readers send in about their experiences of grief.",
+      "zh": "要是我不喜欢怎么办？我真没想到自己会这么紧张。我把东西全都倒在床上，开始读了起来。里面既有印刷的文字，也有手写的笔记、小插画，各种东西都有——其他独立小志的片段、古灵精怪的小诗，还有朋友们和读者寄来的关于他们如何面对丧亲之痛的感想。"
+    },
+    {
+      "id": 258,
+      "start_sec": 3117,
+      "speaker": "Molly Marcello",
+      "en": "In the March issue, Chelsea draws a thin veil, the kind her mother must be behind. I find this very helpful, to see an image of something I've only felt.",
+      "zh": "在三月号里，Chelsea画了一层薄纱，就像隔在她和母亲之间的那道帷幕。我觉得这特别有帮助，能亲眼看到我一直以来的那种感觉被画成了图像。"
+    },
+    {
+      "id": 259,
+      "start_sec": 3128,
+      "speaker": "Molly Marcello",
+      "en": "On a page listing objects that her mother left behind, Chelsea confesses she wears her mom's old powdery blush. 'WTF,' she writes. 'I know,' I respond in my head. 'WTF.' I wear my mom's old mascara. It makes me feel close to her face.",
+      "zh": "在列举母亲遗物的那一页，Chelsea坦白说她会用妈妈留下的旧粉状腮红。“WTF，”她写道。“我懂，”我在心里回应道，“真是见鬼了。”我也会用我妈留下的旧睫毛膏，这让我觉得离她的脸庞更近了。"
+    },
+    {
+      "id": 260,
+      "start_sec": 3146,
+      "speaker": "Molly Marcello",
+      "en": "In the August newsletter, more recognition. Chelsea writes about how when her phone rings, she assumes it's someone calling to tell her someone else is dead. I do this too. Every time a friend or relative calls, I let my phone ring at least three, sometimes four times, so I can steady myself for news. I'll just stare at their name a few seconds too long, trying to prepare.",
+      "zh": "在八月号的通讯里，我找到了更多的共鸣。Chelsea写道，每当电话响起，她总以为是有人打来告诉她又有人去世了。我也是这样。每次有朋友或亲戚打来电话，我都会让铃声响上至少三声，有时甚至四声，好让自己稳住心神去接听消息。我总会对着屏幕上的名字多盯上几秒，试图做好心理准备。"
+    },
+    {
+      "id": 261,
+      "start_sec": 3171,
+      "speaker": "Molly Marcello",
+      "en": "I finish all 12 months of newsletters in a matter of hours. When I set the last one down, I'm suddenly angry, furious actually, pretty much for the first time since my mom died. Because comparing all those notes with Chelsea and her grieving friends, I completely understood what they understood. I felt exactly what they felt. Which could only mean one thing: my mom must really be dead too, and I must really be trapped here for good.",
+      "zh": "短短几个小时，我就看完了整整12个月的通讯。放下最后一期时，我突然感到一阵愤怒，甚至是暴怒——这差不多是我妈去世后我第一次这么生气。因为在把这些笔记和Chelsea以及她那些同样在哀悼的朋友们对比之后，我完全理解了他们的感受，我感同身受。而这只能说明一件事：我妈也真的死了，而我也真的被永远困在这里了。"
+    },
+    {
+      "id": 262,
+      "start_sec": 3202,
+      "speaker": "Molly Marcello",
+      "en": "Chelsea writes about how years after her mother's death, she still conjures her mom in places she's never been. And I realized, of course, I do that too. One time it almost worked.",
+      "zh": "Chelsea写道，在母亲去世多年后，她依然会在母亲从未去过的地方幻想出她的身影。我意识到，当然了，我也会这样。有一次甚至差点就成真了。"
+    },
+    {
+      "id": 263,
+      "start_sec": 3215,
+      "speaker": "Molly Marcello",
+      "en": "I was walking down this long subway corridor, composing a text to my mom in my head, when I saw this woman walking towards me wearing these really brightly colored overalls. White, but patterned all over in psychedelic red, yellow, and green flowers. I was stunned. I had bought my mom the exact same pair just last summer from a random store in Michigan. Only two on the rack, and one in...",
+      "zh": "当时我正走在一个长长的地铁通道里，脑子里还在琢磨着怎么给我妈发短信，突然看到迎面走来一个女人，穿着一条颜色特别鲜艳的背带裤。底色是白的，但上面印满了迷幻风格的红、黄、绿三色花朵。我整个人都惊呆了。就在去年夏天，我刚在密歇根一家不起眼的小店里给我妈买过一模一样的一条。当时货架上就只有两条，其中一条在……"
+    },
+    {
+      "id": 264,
+      "start_sec": 3240,
+      "speaker": "Molly Marcello",
+      "en": "mom's size. She loved them. Made a splash when she wore them to her ladies' poker night. I was so comforted and overwhelmed by those overalls walking toward me, that I cried the whole way to Brooklyn.",
+      "zh": "妈妈的尺码。她特别喜欢。她穿着它们去参加女士扑克之夜时还惊艳了全场。看到那条背带裤朝我走来，我感到无比慰藉，又百感交集，结果一路哭着回了布鲁克林。"
+    },
+    {
+      "id": 265,
+      "start_sec": 3260,
+      "speaker": "Ira Glass",
+      "en": "Molly Marcello, she was the production fellow at our show this spring. Her story was produced by Phia Bennin and Diane Wu. Chelsea Granger, by the way, has made a book based on her zine. It is available on Etsy. It is called So Many Ways to Draw a Ghost.",
+      "zh": "Molly Marcello 今年春天在我们节目组担任制作实习生。她的故事由 Phia Bennin 和 Diane Wu 制作。顺便提一下，Chelsea Granger 根据她的小册子出了一本书，在 Etsy 上就能买到，书名叫《So Many Ways to Draw a Ghost》。"
+    },
+    {
+      "id": 266,
+      "start_sec": 3319,
+      "speaker": "Ira Glass",
+      "en": "Our program was produced today by Lilly Sullivan. People who put our show together today include Ben Calhoun, Michael Comite, Adrien, Lilly, Stone Nelson, Ruthie Petitto, Nadia Reiman, Anthony Roman, Ryan Rumery, Ruby Schwartz, Frances Swanson, Christopher Swetala, Julie Whitaker, and Diane Wu. Our managing editor is Sara Abdurrahman. Our senior editors, David Kestenbaum and Nancy Updike. Our executive editor, Emmanuel Berry.",
+      "zh": "今天的节目由 Lilly Sullivan 制作。参与本期节目制作的团队成员还有 Ben Calhoun、Michael Comite、Adrien、Lilly、Stone Nelson、Ruthie Petitto、Nadia Reiman、Anthony Roman、Ryan Rumery、Ruby Schwartz、Frances Swanson、Christopher Swetala、Julie Whitaker 和 Diane Wu。我们的执行主编是 Sara Abdurrahman，资深编辑是 David Kestenbaum 和 Nancy Updike，总编辑是 Emmanuel Berry。"
+    },
+    {
+      "id": 267,
+      "start_sec": 3340,
+      "speaker": "Ira Glass",
+      "en": "Special thanks today to Kate Manne, Diego Estrada, Mark Burish, Spencer Schultz, Jared Dawson, Clusterbusters, Joe McKay, Bob Wold, Anna Williams, Larry Schor, Spencer Green, Mike Peterson, Robbie Sandler, Craig Casper, Tom Zeller, author of The Headache, Joy Onozuka of the American Tinnitus Association, and Bonnie O'Leary of the Northern Virginia Resource Center for Deaf and Hard of Hearing Persons.",
+      "zh": "今天特别感谢 Kate Manne、Diego Estrada、Mark Burish、Spencer Schultz、Jared Dawson、Clusterbusters、Joe McKay、Bob Wold、Anna Williams、Larry Schor、Spencer Green、Mike Peterson、Robbie Sandler、Craig Casper、《The Headache》一书的作者 Tom Zeller、美国耳鸣协会的 Joy Onozuka，以及北弗吉尼亚聋人与听力障碍者资源中心的 Bonnie O'Leary。"
+    },
+    {
+      "id": 268,
+      "start_sec": 3389,
+      "speaker": "Ira Glass",
+      "en": "This American Life is distributed to public radio stations by PRX, the Public Radio Exchange. Thanks as always to our program's co-founder, Torey Malatia. You know, he is slowly, methodically, with difficulty, working his way up the levels in Candy Crush Saga.",
+      "zh": "《This American Life》由 PRX（Public Radio Exchange）向各公共广播电台发行。一如既往地感谢我们节目的联合创始人 Torey Malatia。要知道，他正在《糖果传奇》里缓慢地、有条不紊地、艰难地一关一关往上打呢。"
+    },
+    {
+      "id": 269,
+      "start_sec": 3405,
+      "speaker": "Erick",
+      "en": "I know that I'm hitting 10 because I'm gasping for air, rocking back and forth and trying to induce a trance, because there's nothing that's going to stop it.",
+      "zh": "我知道疼痛达到10级了，因为我喘不上气，前后摇晃着身体，试图让自己进入恍惚状态，因为没有任何办法能止住这种痛。"
+    },
+    {
+      "id": 270,
+      "start_sec": 3416,
+      "speaker": "Ira Glass",
+      "en": "I'm Ira Glass. Back next week with more stories of This American Life.",
+      "zh": "我是 Ira Glass。下周同一时间，我们继续带来《This American Life》的更多故事。"
+    }
+  ]
+}

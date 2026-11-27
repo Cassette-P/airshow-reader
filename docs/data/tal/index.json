@@ -3,7 +3,7 @@
   "show_id": "tal",
   "podcast_title": "This American Life",
   "rss_url": "https://www.thisamericanlife.org/podcast/rss.xml",
-  "updated_at": "2026-11-25T16:46:49Z",
+  "updated_at": "2026-11-27T15:57:46Z",
   "episodes": [
     {
       "guid": "37237 at https://www.thisamericanlife.org",
@@ -37,6 +37,23 @@
       ],
       "highlights_count": 8,
       "transcript_count": 346
+    },
+    {
+      "guid": "46253 at https://www.thisamericanlife.org",
+      "title": "901: Is Your Blue My Blue?",
+      "pub_date": "2026-11-09T01:00:00Z",
+      "duration_sec": 3442,
+      "audio_url": "https://www.thisamericanlife.org/sites/default/files/audio/upload/archive/901.mp3",
+      "file": "episodes/46253_at_https_www.thisamericanlife.org.json",
+      "summary_zh": "本期探讨的核心母题是：当我们困在各自的大脑里，该如何让旁人理解唯独自己能感知的世界？Prologue中，Ira Glass在白内障手术后发现世界骤然变亮变蓝，意识到自己多年来看着与常人不同的“蓝”，由此追问人如何向他人传递脑海中的体验。三幕故事层层呼应：Act One里，音乐人Shaun Bengson长期隐瞒遗传性失聪与耳鸣，他用音效装置向妻子Abigail还原脑中的蝉鸣，终在初为人父的危机后直面现实；Act Two中，制作人Ike Sriskandarajah借疼痛调查证明丛集性头痛之烈，向临产妻子笨拙“比惨”碰壁后，在病友间觅得真正共情；Act Three里，母亲猝逝的Molly Marcello追寻一本失落的哀伤小志，在创作者重拼的手稿中读懂了悲伤的共鸣与终局。",
+      "key_takeaways_zh": [
+        "Prologue（Ira Glass）：Ira Glass在分眼完成白内障手术后惊讶地发现眼中的“蓝色”变得截然不同，由此引出本期母题——我们该如何让他人进入自己的大脑，理解唯独自己能感知的世界？",
+        "Act One（Ira Glass）：音乐人Shaun Bengson明知自己遗传了听力衰退与剧烈耳鸣却在羞耻与侥幸中隐瞒数十年，他与妻子Abigail回顾了这段漫长的逃避史，并用声音模拟装置还原了他脑海中的听觉世界。",
+        "Act Two（Ike Sriskandarajah）：饱受丛集性头痛折磨的制作人Ike Sriskandarajah试图借一份人类极限疼痛调查证明这种隐形剧痛，甚至笨拙地向怀胎九月的妻子“比惨”，最终却在病友间体会到真正的共情。",
+        "Act Three（Molly Marcello、Phia Bennin、Diane Wu）：母亲猝逝后脑海被丧母之痛填满的实习制作人Molly Marcello，执着追寻一本曾被借给“丧猫之人”的哀伤主题独立小志，并在原作者重拼的剪贴手稿中直面了悲伤的共振与终局。"
+      ],
+      "highlights_count": 9,
+      "transcript_count": 270
     }
   ]
 }
