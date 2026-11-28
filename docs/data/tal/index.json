@@ -3,7 +3,7 @@
   "show_id": "tal",
   "podcast_title": "This American Life",
   "rss_url": "https://www.thisamericanlife.org/podcast/rss.xml",
-  "updated_at": "2026-11-28T01:15:54Z",
+  "updated_at": "2026-11-28T06:36:59Z",
   "episodes": [
     {
       "guid": "37237 at https://www.thisamericanlife.org",
@@ -71,6 +71,75 @@
       ],
       "highlights_count": 10,
       "transcript_count": 276
+    },
+    {
+      "guid": "46233 at https://www.thisamericanlife.org",
+      "title": "899: Reaching Out",
+      "pub_date": "2026-10-05T00:00:00Z",
+      "duration_sec": 3605,
+      "audio_url": "https://www.thisamericanlife.org/sites/default/files/audio/899/bxHTqfKSJiQVDC5pXrFi2btCEiMVQ42fC0SgUCXK8Z4/899.mp3",
+      "file": "episodes/46233_at_https_www.thisamericanlife.org.json",
+      "summary_zh": "本期节目围绕“渴望联结与自我防御的拉锯”这一母主题，节选了青年制作人 Sayre Quevedo 极具先锋野心的纪实播客《Reaching Out》。Prologue 中，Ira Glass 盛赞该作凭近乎全天候的私人录音与第二人称自剖旁白，开创了捕捉当代生命体验的全新叙事形态。Act One 从双胞胎兄弟 Connor 的寻父提议切入，在勾勒两人迥异生存状态的同时，揭晓素未谋面的生父竟在距 Sayre 洛杉矶公寓仅五分钟车程处开理发店；Act Two 记录兄弟俩在拌嘴摩擦与都市疏离中字斟句酌，终于向生父发出破冰邮件；Act Three 则直面沉默的杀伤力，经历回应石沉大海与深夜买醉的虚无后，兄弟二人并肩推开理发店大门，亲手递出表明身份的字条。",
+      "key_takeaways_zh": [
+        "Prologue（主持人 Ira Glass）：Ira Glass 引介青年制作人 Sayre Quevedo 创作的纪实播客《Reaching Out》，盛赞其用长年积累的私密生活录音与独特的自剖式旁白开辟了前所未有的声音叙事疆域。",
+        "Act One（制作人 Sayre Quevedo、Nadia Reiman）：双胞胎兄弟 Connor 与 Sayre Quevedo 借由基因检测网站的远亲线索启动寻父计划，却意外发现素未谋面的生父竟在距离 Sayre 洛杉矶住处仅五分钟车程的地方经营理发店。",
+        "Act Two（制作人 Sayre Quevedo）：Sayre 与 Connor 在电话拌嘴中拼凑生父的网络痕迹，并于疏离的都市单身日常里反复推敲措辞，最终鼓起勇气向生父的理发店邮箱发出了题为“Reaching out”的破冰邮件。",
+        "Act Three（制作人 Sayre Quevedo）：在邮件与电话留言相继石沉大海、Sayre 历经深夜买醉与隔街窥视的内心煎熬后，兄弟俩终于预约了生父当日最后一班理发时段，并肩走进店里递出表明身份的字条。"
+      ],
+      "highlights_count": 10,
+      "transcript_count": 481
+    },
+    {
+      "guid": "46226 at https://www.thisamericanlife.org",
+      "title": "898: An Argument",
+      "pub_date": "2026-09-28T00:00:00Z",
+      "duration_sec": 3583,
+      "audio_url": "https://www.thisamericanlife.org/sites/default/files/audio/upload/archive/898.mp3",
+      "file": "episodes/46226_at_https_www.thisamericanlife.org.json",
+      "summary_zh": "本期围绕“公共平权理想与子女教育代价的伦理拉锯”展开，既是记者Nikole Hannah-Jones向社会发出的公立教育平权论证，也是她与女儿Najya绵延数年的家庭争辩。Prologue由Ira Glass与Chana Joffe-Walt引出十年前Nikole拒绝中产择校博弈、送女儿入读纽约市高贫困率社区公立小学的决定。Act One至Act Three交替呈现小学教师失职、初中课堂失序的现实挫败，以及Najya争得自主择校权考入顶尖高中后遭遇的种族疏离与学业落差；Act Four记录母女在录音室围绕“谁该承担平权代价”展开的正面交锋；Act Five中，Nikole重读早年投诉邮件后痛悟自己曾选择性遗忘女儿受过的委屈并致歉，叩问体制未变时个人牺牲的重量。",
+      "key_takeaways_zh": [
+        "Prologue（主持/记者：Ira Glass、Chana Joffe-Walt）：回顾调查记者 Nikole Hannah-Jones 十年前拒绝中产择校博弈、坚持将女儿 Najya 送入纽约市高贫困率社区公立小学并撰文引发全美道德讨论的起点。",
+        "Act One: Nikole's Choice（记者：Chana Joffe-Walt）：Nikole 回溯女儿小学四年级数学作业满篇错题却被老师盲目打勾的危机，讲述夫妻俩留守学校为全班争取补救资源，直至七年级女儿在车内质问学校低分真相的过程。",
+        "Act Two: Najya（记者：Chana Joffe-Walt）：Najya 首次独立讲述自己在缺乏秩序、毫无家庭作业的初中课堂里的挫败体验，以及她与好友上网查到学校糟糕评分和差评时的震惊与愤怒。",
+        "Act Three: Najya's Choice（记者：Chana Joffe-Walt）：面对女儿的持续抗争，Nikole 交出高中择校主导权，Najya 考入以白人和亚裔为主的顶尖公立高中，却在入学初期遭遇种族微侵犯与严峻的学业落差。",
+        "Act Four & Act Five（记者：Chana Joffe-Walt）：母女俩在录音室就“个人是否该为教育平权牺牲”展开坦诚交锋，而在尾声幕（Act Five）中 Nikole 重读早年海量投诉邮件后痛悟自己曾选择性遗忘女儿承受的代价并向其致歉。"
+      ],
+      "highlights_count": 10,
+      "transcript_count": 430
+    },
+    {
+      "guid": "46224 at https://www.thisamericanlife.org",
+      "title": "897: Intergenerational Space Travel",
+      "pub_date": "2026-09-21T00:00:00Z",
+      "duration_sec": 3886,
+      "audio_url": "https://www.thisamericanlife.org/sites/default/files/audio/upload/archive/897.mp3",
+      "file": "episodes/46224_at_https_www.thisamericanlife.org.json",
+      "summary_zh": "本期以“代际太空旅行”为母主题，探讨两代人如何跨越星际般遥远的认知鸿沟，向对岸传递心声。Prologue 中，Ira Glass 从 NPR 播客评论区的“水军疑云”切入：成年制片人眼中的乱码，经年轻同事破译竟是社交软件受限的初中生借冷门节目搭建的秘密群聊。随后三幕层层展开：Act One 里，Courtney Maum 在母亲再婚破裂三十年后与她重读当年的婚礼诗，解开半生心结并在联手驱逐继父后重归于好；Act Two 里，Ike Sriskandarajah 重返威斯康星州麦迪逊的打工影院，发现昔日恶作剧虽逝，包场约会的浪漫魔法仍在延续；Act Three 里，Myra Flynn 因与六岁女儿清晨梳头僵持而向母亲求助，意外改写了三代母女忍痛梳头的代际惯性。",
+      "key_takeaways_zh": [
+        "Prologue（主持：Ira Glass）：NPR 制片人 Dave Blanchard 误将 Spotify 评论区的怪异留言当作水军机器人，最终在年轻同事 Hannah Chinn 与 14 岁女孩 Ella 的揭秘下，发现这是一群手机受限的初中生借冷门播客搭建的秘密聊天室。",
+        "Act One: The Wedding Zinger（讲述：Courtney Maum；制作：Dana Chivvis）：作家 Courtney Maum 在母亲 Linda 长达三十余年的糟糕再婚终结后，与母亲首次重读自己 18 岁在婚礼上朗读的暗黑诗歌，坦诚解开两代女性的心结与创伤。",
+        "Act Two: Cinema Veri-teen（记者：Ike Sriskandarajah）：常驻制作人 Ike Sriskandarajah 时隔二十余年重返威斯康星州麦迪逊的高中打工影院，探寻少年时代的职场恶作剧与免票带心仪女孩看电影的浪漫特权如今是否犹存。",
+        "Act Three: Mama, Can You Hair Me?（讲述：Myra Flynn；制作：Emmanuel Dzotsi）：母亲 Myra Flynn 录下每天清晨为 6 岁女儿梳理黑人卷发时的哭闹拉锯战，并在向自己的硬派母亲 Martha Mathis 求教时，收获了用放权取代忍痛的温柔解法。"
+      ],
+      "highlights_count": 10,
+      "transcript_count": 453
+    },
+    {
+      "guid": "37088 at https://www.thisamericanlife.org",
+      "title": "585: In Defense of Ignorance",
+      "pub_date": "2016-04-22T00:00:00Z",
+      "duration_sec": 3528,
+      "audio_url": "https://www.thisamericanlife.org/sites/default/files/audio/585/dAINQCc9F8e31e5jUR7rFei3EwflK2eKy6wUUT7WX20/585.mp3",
+      "file": "episodes/37088_at_https_www.thisamericanlife.org.json",
+      "summary_zh": "本期节目围绕“为无知辩护”这一反直觉母题展开，探讨“不知道”与“不记得”如何成为人类应对残酷现实的心理保护伞。在 Prologue 中，Ira Glass 借一位母亲教儿子“把坏念头锁进橱柜”的趣事引出主题：适度逃避与封存烦恼并非软弱，而是成年人维持生活运转的常态。随后三个故事从不同维度呼应这一命题：Act One 中，导演 Lulu Wang 讲述全家人为隐瞒奶奶的晚期肺癌，借一场假婚宴暗中告别，展现善意谎言背后的亲情温度；Act Two 中，Sean Cole 借“达克效应”实验剖析人类普遍存在的能力盲区，揭示无知如何催生盲目自信；Act Three 中，Stephanie Foo 探访拥有“超强自传体记忆”的群体，借他们困于旧伤的痛苦反证遗忘其实是岁月的仁慈。",
+      "key_takeaways_zh": [
+        "Prologue（主持人 Ira Glass）：借同事母亲建议儿子“把坏念头装进盒子再锁入橱柜”的家庭轶事，引出成年人靠适度逃避维持正常生活的洞察，开启本期“为无知辩护”的主题。",
+        "Act One: What You Don't Know（撰稿人 Lulu Wang）：八旬奶奶在中国确诊晚期肺癌后，全家人决定隐瞒病情并借一场提前举办的跨国婚宴暗中告别，却意外揭开长辈与晚辈之间双向守护的秘密与生命奇迹。",
+        "Act Two: Ignorance for Dummies（制作人 Sean Cole）：从坚信涂柠檬汁能隐身的银行劫匪讲起，结合心理学家 David Dunning 与 Justin Kruger 的实证研究，剖析能力越匮乏者为何越难察觉自身无知且盲目自信。",
+        "Act Three: Forget Me? Not!（制作人 Stephanie Foo）：极度害怕遗忘的记者对话拥有“超强自传体记忆”（HSAM）的受访者 Joey DeGrandis 与 Jill Price，发现永不褪色的记忆反令人深陷过往伤痛，从而领悟遗忘的仁慈。"
+      ],
+      "highlights_count": 9,
+      "transcript_count": 397
     }
   ]
 }

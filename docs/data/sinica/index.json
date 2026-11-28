@@ -3,8 +3,26 @@
   "show_id": "sinica",
   "podcast_title": "Sinica Podcast",
   "rss_url": "https://rss.art19.com/sinica",
-  "updated_at": "2026-11-22T15:49:29Z",
+  "updated_at": "2026-11-28T06:36:59Z",
   "episodes": [
+    {
+      "guid": "gid://art19-episode-locator/V0/4C9Lzj2IV5YCIcoF373rRCcoVubHmA3S4cfbREt7hx8",
+      "title": "Don't Try to Out-Hawk the Hawks: Progressive ForPol Advisor Matt Duss on Democrats, Détente, and 2028",
+      "pub_date": "2026-11-28T04:30:00Z",
+      "duration_sec": 4105,
+      "audio_url": "https://rss.art19.com/episodes/afc274e1-08c4-460b-9a16-e01c54f25f6c.mp3?rss_browser=BAhJIgtDaHJvbWUGOgZFVA%3D%3D--d05363d83ce333c74f32188013892b2863ad051c",
+      "file": "episodes/gid_art19-episode-locator_V0_4C9Lzj2IV5YCIcoF373rRCcoVubHmA3S4cfbREt7hx8.json",
+      "summary_zh": "2026年美国中期选举民主党重掌国会两院之际，Kaiser Kuo与联合主持Samm Sacks对话进步派外交顾问、Bernie Sanders前幕僚Matt Duss，探讨美国左翼的对华定位、特朗普第二任期的对华缓和及2028年政策走向。三人坦言，尽管动机迥异，特朗普在稀土反制与市场考量下的对华缓和客观上降低了冲突风险。Matt Duss剖析了民主党内战略竞争派、克制派与反垄断派的分野，反对以“中国威胁”作为一切外交与产业政策的借口，主张借鉴“国家约束资本”的思路监管Nvidia与Anthropic等科技寡头，并在台海维持低烈度现状。展望2028年，他警示民主党切勿与右翼比拼对华鹰派姿态，而应认清真正的对手是导致美国去工业化与金钱政治的本土大企业及权贵精英。",
+      "key_takeaways_zh": [
+        "美国外交政策应回归保障本国安全与繁荣的本源，切忌重蹈“反恐战争”覆辙，将“对华竞争”异化为统摄一切议题的单一滤镜与合理化借口。",
+        "后新自由主义时代的核心启示在于逆转“华盛顿共识”，从“资本约束国家”转向“国家约束资本”，中国在严管科技行业的同时实现技术突围便是明证。",
+        "民主党内部目前分裂为维护霸权的“战略竞争派”、反战的“克制派”与反对权力集中的“反垄断派”，尚未形成稳固的对华共识，且试图靠渲染外部敌意来重建美国国内政治共识注定徒劳。",
+        "硅谷科技寡头以“输掉对华AI竞赛”为由抗拒监管的叙事已难获民意认同，美国推进基础设施建设与产业政策完全可以立足民生需求，无需动辄打“中国牌”。",
+        "民主党在2028年大选中绝不应与共和党比拼对华鹰派姿态，而应将民众的不满精准指向掏空美国制造业、操弄合法化贿赂的本土跨国企业与寡头精英。"
+      ],
+      "highlights_count": 9,
+      "transcript_count": 386
+    },
     {
       "guid": "gid://art19-episode-locator/V0/NOjpq5Y0yw3rXM-ajgSwiv-2MjylOPDFws2QzBr3dJk",
       "title": "Joe Studwell on How Africa Works, and What It Tells Us About China",

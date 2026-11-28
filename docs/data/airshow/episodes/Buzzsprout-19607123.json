@@ -1,0 +1,1660 @@
+{
+  "schema_version": "3.0",
+  "show_id": "airshow",
+  "guid": "Buzzsprout-19607123",
+  "title": "The Shifting Role of LaGuardia",
+  "pub_date": "2026-08-06T10:00:00Z",
+  "duration_sec": 2092,
+  "audio_url": "https://www.buzzsprout.com/2329718/episodes/19607123-the-shifting-role-of-laguardia.mp3",
+  "summary_zh": "尽管拉瓜迪亚机场航站楼焕然一新，但受制于零新增跑道与起降时刻管制，容量瓶颈依旧突出。本集通过 1980 年以来的排班数据，复盘其四十余年的角色变迁：机场从早年 39 家航司混战、宽体机与涡桨机并存，历经九十年代整合、2000 年 AIR-21 时刻豁免乱象及 2011 年达美航空与全美航空的时刻置换，演变为如今达美航空握有近半航班、65 至 76 座支线喷气机占比过半的格局。围绕 2011 年时刻置换，Brian 批评全美航空管理层忽视后续并购可能、导致如今美航在纽约受困；Brett 则反驳称当年合并并非定局，独立生存下的置换合乎逻辑。随着航程限制规定难废除且捷蓝航空接手精神航空时刻主打佛州休闲航线，拉瓜迪亚的服务网络已步入长期稳态。",
+  "key_takeaways_zh": [
+    "纽约三大机场虽斥巨资翻新航站楼，但因长期零新增跑道且空域饱和，起降时刻受限下的运力增长只能依赖机型大型化而非加密航班。",
+    "拉瓜迪亚从 1980 年 39 家航司混战演变为如今仅八九家航司驻场，其中 2011 年达美航空与全美航空的起降时刻置换不仅奠定了达美近半份额的霸主地位，也埋下了美航至今在纽约缺乏规模优势的伏笔。",
+    "随着涡桨飞机及缺乏两舱布局且油耗偏高的 50 座支线喷气机彻底退场，如今拉瓜迪亚超 54% 的航班由 65 至 76 座大型支线喷气机执飞，宽体机则已绝迹约十年。",
+    "过去四十年间，涡桨机退役导致排名 200 位以后的极小城市航线大幅萎缩，但排名第 51 至 199 位的中小城市凭借疫后休闲旅游崛起及支线机型大型化实现了运力反弹。",
+    "政治阻力使拉瓜迪亚的航程限制规定难以废除，加之捷蓝航空接手精神航空时刻后聚焦佛罗里达高端休闲客流，该机场的航线网络与竞争格局已步入稳定终局。"
+  ],
+  "highlights": [
+    {
+      "start_sec": 178,
+      "title_zh": "航站楼焕新难掩跑道容量停滞",
+      "summary_zh": "Jon 盛赞重建后的拉瓜迪亚已蜕变为全美顶级航站楼，但 Brett 指出其与华盛顿里根等机场同属国际航协三级时刻协调机场。纽约三大机场虽斥巨资翻新航站楼，却未新建或平移任何跑道以扩充空侧容量。在起降时刻彻底饱和的制约下，航司只能依靠机型大型化来维持运力增长并分摊成本。",
+      "quote_en": "Yeah, but how many new runways have they built?"
+    },
+    {
+      "start_sec": 427,
+      "title_zh": "八十年代群雄逐鹿与宽体机时代",
+      "summary_zh": "Brett 梳理历史排班数据指出，1980 年共有多达 39 家航司运营拉瓜迪亚航线，份额居首的美国东方航空与紧随其后的美航各占约两成航班，市场高度分散。当年 DC-10、L-1011、A300 与 767 等宽体机均在此频繁起降。Jon 补充称，波音早年构想中型客机项目时也曾将适配拉瓜迪亚机位作为关键要求，而如今宽体机已在此绝迹约十年。",
+      "quote_en": "But according to the data, and this was astounding to me, there were 39 airlines flying into LaGuardia at that time."
+    },
+    {
+      "start_sec": 640,
+      "title_zh": "九十年代寡头化与时刻豁免乱象",
+      "summary_zh": "随着美国东方航空与泛美航空在 1991 年破产退场，全美航空与达美航空分别接手穿梭快线资产，到 1993 年两家航司合计控制了拉瓜迪亚近三分之二的航班，驻场航司锐减至 14 家。2000 年美国联邦政府推出 AIR-21 法案，对飞往小城市的支线小飞机豁免起降时刻限制。各航司趁机涌入并日增数百架次航班，引发严重延误瘫痪，迫使监管机构于 2001 年紧急叫停。",
+      "quote_en": "And they added hundreds of daily flights because the airlines all saw the opportunity, and it was chaos."
+    },
+    {
+      "start_sec": 848,
+      "title_zh": "达美与全美航空时刻置换之争",
+      "summary_zh": "2011 年底，达美航空以华盛顿里根机场 42 对起降时刻、圣保罗航权及 6650 万美元现金，换取全美航空在拉瓜迪亚的 132 对时刻，航班份额一举跃升至 46%。Brian 批评时任全美航空总裁 Scott Kirby 忽视后续行业并购大势，将纽约核心筹码拱手相让，埋下日后美航在纽约受困的隐患。Brett 则反驳称当年两航合并并非定局，全美航空立足独立运营优先巩固华盛顿里根机场主导权的决策合乎商业逻辑。",
+      "quote_en": "He gave Delta a once-in-a-generation chance to bolster its presence in New York."
+    },
+    {
+      "start_sec": 1226,
+      "title_zh": "双强格局与美航的纽约规模短板",
+      "summary_zh": "精神航空退出后，达美航空掌握拉瓜迪亚约半数航班与 45% 的座位，美航以近 30% 的航班位居第二，西南航空与美联航各占约 6%。Brett 指出拉瓜迪亚并非孤立运作，若结合肯尼迪与纽瓦克两场通盘考量，美航在整个纽约市场仍缺乏足够的网络规模。此外，西南航空、美联航与捷蓝航空因专注于干线大客流航点，其座位份额略高于各自的航班起降占比。",
+      "quote_en": "But when you consider JFK and Newark, American still isn't very competitive in New York overall."
+    },
+    {
+      "start_sec": 1338,
+      "title_zh": "从涡桨退场到大支线机挑大梁",
+      "summary_zh": "拉瓜迪亚的涡桨航班占比曾在 1997 年攀升至 27% 的峰值，随后被 50 座支线喷气机迅速替代，令 50 座及以下小机型占比在 2005 年突破 46%。金融危机期间的高油价以及缺乏头等舱与加长间距座位等短板，促使 50 座支线机于 2023 年彻底退出该机场。如今 65 至 76 座大型支线喷气机执飞了超 54% 的航班，而百座以上干线客机占比则从八十年代的约四分之三降至 45%。",
+      "quote_en": "And now in 2026, more than 54% of the flights at LaGuardia are on 65- to 76-seaters."
+    },
+    {
+      "start_sec": 1600,
+      "title_zh": "极小航点萎缩与中小市场反弹",
+      "summary_zh": "按大都市统计区划分，飞往全美前 25 大都会区的航班占比长期稳定在 55% 至 58% 之间，而排名 200 位以后的极小城市份额因涡桨机退役从 7% 萎缩至约 2%。令人意外的是，排名第 51 至 199 位的中小城市航班占比从 2015 年的 12.7% 反弹至 2025 年的 19.9%。这既归功于阿什维尔、基韦斯特等疫后休闲航点的爆发，也得益于支线机升级至 65 至 76 座带来的座位供给扩张。",
+      "quote_en": "The tiniest markets made up 7% of departures in 1985. Now it's like 2%, 2.5%."
+    },
+    {
+      "start_sec": 1804,
+      "title_zh": "航程限制博弈与捷蓝的新布局",
+      "summary_zh": "三位主播认为航程限制规定人为干预了市场配置，若予以废除，航司必将把支线小飞机替换为飞往西海岸大都市的干线窄体机，但这也使其面临中小城市选区的政治阻力。针对捷蓝航空收购精神航空时刻新增每日 12 个往返航班，Brian 与 Brett 判断其不会重蹈东北联盟时期亏损飞小城市的覆辙，而是重点加密劳德代尔堡等佛州高端休闲航线。在缺乏新增跑道与政策松绑的前提下，拉瓜迪亚的服务格局已进入长期稳态。",
+      "quote_en": "It wants to take its loyal premium leisure travelers from the New York area to Florida, probably a little Fort Lauderdale, maybe some other places."
+    }
+  ],
+  "vocab_notes": [
+    {
+      "term": "perimeter rule",
+      "meaning_zh": "航程限制规定；周界航程限制",
+      "note_zh": "拉瓜迪亚机场长期实施 1500 英里直飞航程上限（周六及丹佛航线除外），初衷是引导远程航班分流至肯尼迪与纽瓦克机场，客观上也保护了中小城市的支线通航时刻。",
+      "start_sec": 94
+    },
+    {
+      "term": "CPE",
+      "meaning_zh": "每登机旅客成本（Cost Per Enplanement）",
+      "note_zh": "衡量航司在特定机场运营负担的核心财务指标，即机场向航司收取的起降费与航站楼租金等总收入除以登机旅客人数，大规模翻新航站楼往往会推高该成本。",
+      "start_sec": 160
+    },
+    {
+      "term": "IATA Level 3 coordination",
+      "meaning_zh": "国际航协三级时刻协调（起降时刻全面受限）",
+      "note_zh": "国际航协针对机场拥堵程度的最高管制等级，代表基础设施全天候供不应求，航司必须预先取得分配的起降时刻（Slot）方可排班运行。",
+      "start_sec": 191
+    },
+    {
+      "term": "upgauge",
+      "meaning_zh": "机型大型化；换大机型执飞",
+      "note_zh": "在跑道与起降时刻饱和的受限机场，航司无法增加航班频次，只能用座位数更多的大型客机替换小型客机以扩充运力并摊薄单位成本。",
+      "start_sec": 295
+    },
+    {
+      "term": "go kaput",
+      "meaning_zh": "破产倒闭；彻底完蛋",
+      "note_zh": "源自德语 kaputt 的高频美式口语表达，在商业语境中常用来形象地指代企业资金链断裂、突然停摆出局。",
+      "start_sec": 755
+    },
+    {
+      "term": "slot swap",
+      "meaning_zh": "起降时刻置换",
+      "note_zh": "航司之间通过互换不同时刻受限机场的起降时刻资产（常辅以现金或航权补偿），各自在核心枢纽集中市场份额并构筑竞争壁垒的交易手段。",
+      "start_sec": 858
+    },
+    {
+      "term": "gird your loins",
+      "meaning_zh": "做好心理准备；打起精神迎战",
+      "note_zh": "源自古代战前束紧长袍腰带的典故，现代英语口语中常带调侃意味，用于提醒听众准备迎接接下来的尖锐批评或争议观点。",
+      "start_sec": 895
+    },
+    {
+      "term": "catchment area",
+      "meaning_zh": "客源辐射区；机场腹地",
+      "note_zh": "航线网络规划核心术语，指一座机场能够有效吸引始发与到达旅客的地理与人口覆盖范围。",
+      "start_sec": 1451
+    },
+    {
+      "term": "tabletop exercise",
+      "meaning_zh": "桌面推演；沙盘推演",
+      "note_zh": "原为军事与应急管理领域的模拟演练术语，在商业分析中指高管团队围绕特定假设情景（如彻底取消时刻与航程管制）开展的战略推演。",
+      "start_sec": 1902
+    }
+  ],
+  "references": [
+    {
+      "title": "OAG (Official Airline Guide)",
+      "creator": "OAG Aviation Worldwide",
+      "category": "other",
+      "note_zh": "Brett 引用自 1980 年以来的 OAG 历史航班排班数据，量化拆解了拉瓜迪亚机场四十余年间的驻场航司份额、执飞机型与通航城市层级变迁。",
+      "start_sec": 406,
+      "links": [
+        {
+          "source": "wikipedia",
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/OAG_(company)"
+        }
+      ]
+    }
+  ],
+  "transcript": [
+    {
+      "id": 1,
+      "start_sec": 0,
+      "speaker": "Jon Ostrower",
+      "en": "I'm Jon Ostrower, editor-in-chief of The Air Current.",
+      "zh": "我是 *The Air Current* 的主编 Jon Ostrower。"
+    },
+    {
+      "id": 2,
+      "start_sec": 3,
+      "speaker": "Brian Sumers",
+      "en": "I'm Brian Sumers, and I write The Airline Observer.",
+      "zh": "我是 Brian Sumers，*The Airline Observer* 的撰稿人。"
+    },
+    {
+      "id": 3,
+      "start_sec": 7,
+      "speaker": "Brett Snyder",
+      "en": "And I'm Brett Snyder, author of Cranky Flier. You're listening to The Air Show, the podcast where we talk about what happens in the business of the sky.",
+      "zh": "我是 *Cranky Flier* 的创始人 Brett Snyder。欢迎收听 *The Air Show*，一档探讨航空商业世界台前幕后的播客节目。"
+    },
+    {
+      "id": 4,
+      "start_sec": 15,
+      "speaker": "Brett Snyder",
+      "en": "And guys, I'm going to apologize up front and also, you know, it's a bit of a humble brag I guess, but I am here on the Hilo side of the Big Island. I just want you to know it is loud here.",
+      "zh": "各位，我得先提前道个歉，不过说实话也算有点凡尔赛吧，我现在正待在夏威夷大岛的希洛一侧。我只是想跟大家说明一下，这边环境音特别大。"
+    },
+    {
+      "id": 5,
+      "start_sec": 26,
+      "speaker": "Brett Snyder",
+      "en": "There are a lot of doves and cardinals and frogs, I don't know what else is going on here, but I apologize in advance if we have some extra noises in the background.",
+      "zh": "周围有很多鸽子、红衣主教鸟还有青蛙，也不知道还有什么其他动静，所以如果背景里传出一些杂音，还请大家提前见谅。"
+    },
+    {
+      "id": 6,
+      "start_sec": 36,
+      "speaker": "Brett Snyder",
+      "en": "But let's move on to the point at hand here. It is time to start spreading the news.",
+      "zh": "不过咱们还是言归正传吧，是时候开始“传播这个消息”了。"
+    },
+    {
+      "id": 7,
+      "start_sec": 42,
+      "speaker": "Jon Ostrower",
+      "en": "What are you talking about?",
+      "zh": "你在说什么呀？"
+    },
+    {
+      "id": 8,
+      "start_sec": 44,
+      "speaker": "Brett Snyder",
+      "en": "I want to wake up in an airport that has no rats...",
+      "zh": "我想在一个没有老鼠的机场醒来……"
+    },
+    {
+      "id": 9,
+      "start_sec": 48,
+      "speaker": "Jon Ostrower",
+      "en": "Oh, God.",
+      "zh": "天哪。"
+    },
+    {
+      "id": 10,
+      "start_sec": 49,
+      "speaker": "Brett Snyder",
+      "en": "...and find I'm king of the lounge, top of the upgrade list.",
+      "zh": "……发现自己成了贵宾室之王，排在升舱候补名单的第一位。"
+    },
+    {
+      "id": 11,
+      "start_sec": 55,
+      "speaker": "Jon Ostrower",
+      "en": "You know, let's move on. I mean, you're recording from paradise today about the world's formerly worst airport.",
+      "zh": "行了，咱们赶紧切入正题吧。你今天可是在人间天堂录播客，聊的却是昔日“全球最差机场”。"
+    },
+    {
+      "id": 12,
+      "start_sec": 62,
+      "speaker": "Brett Snyder",
+      "en": "This is true. And I had to shelve New York State of Mind. I think we used that one before. So let's talk about LaGuardia, an airport that none of us generally ever visit.",
+      "zh": "确实如此。我本来想唱《New York State of Mind》，但记得咱们之前好像用过这梗了，只好作罢。那咱们今天就聊聊拉瓜迪亚机场，一个我们三个人平时几乎从来不去的地方。"
+    },
+    {
+      "id": 13,
+      "start_sec": 72,
+      "speaker": "Brian Sumers",
+      "en": "No, Brett, we don't. And I have to tell you, I'm just tired of watching the Yankees and the Red Sox on national TV all the time. There is too much East Coast bias out there. Wait, are we talking about baseball or are we talking about airports?",
+      "zh": "没错，Brett，我们确实不去。而且我必须得说，我真是受够了全国电视天天播扬基队和红袜队的比赛，东海岸偏见太严重了。等一下，我们到底是在聊棒球还是在聊机场？"
+    },
+    {
+      "id": 14,
+      "start_sec": 88,
+      "speaker": "Brett Snyder",
+      "en": "I mean, if we're talking about baseball, I don't think you're going to get much love saying from Los Angeles.",
+      "zh": "我是说，如果真要聊棒球的话，你顶着洛杉矶的身份说这话，恐怕也讨不到多少好感吧。"
+    },
+    {
+      "id": 15,
+      "start_sec": 94,
+      "speaker": "Brian Sumers",
+      "en": "We need more West Coast everything. But I guess today we'll all talk about an airport that none of the three of us can fly to nonstop because of some bizarre, decades-old perimeter rule that protects I don't know what or who, unless of course we want to fly on a Saturday.",
+      "zh": "我们需要更多西海岸元素，方方面面都是。不过今天我们还是得聊聊这座机场——因为那条存在了几十年、莫名其妙不知在保护谁或什么利益的航距限制规定（perimeter rule），我们三个人谁都没法直飞那里，除非挑在周六出行。"
+    },
+    {
+      "id": 16,
+      "start_sec": 111,
+      "speaker": "Brian Sumers",
+      "en": "And that never seems to go very well for airlines.",
+      "zh": "而且周六的直飞航线对航司来说似乎从来都不怎么成功。"
+    },
+    {
+      "id": 17,
+      "start_sec": 115,
+      "speaker": "Jon Ostrower",
+      "en": "Am I the only one of the three of us who's actually lived on the East Coast?",
+      "zh": "咱们三个人里，难道只有我真正在东海岸生活过吗？"
+    },
+    {
+      "id": 18,
+      "start_sec": 120,
+      "speaker": "Brett Snyder",
+      "en": "No, college.",
+      "zh": "没有，我上大学也在那边。"
+    },
+    {
+      "id": 19,
+      "start_sec": 121,
+      "speaker": "Jon Ostrower",
+      "en": "Well, so I grew up there. So, I know Brett obviously went to school there. So, as the East Coaster, and I am half New Yorker by heritage, yes, I actually spent a fair amount of time at LaGuardia.",
+      "zh": "好吧，我是在东海岸长大的，我知道 Brett 显然也在那边读过书。所以作为一个东海岸人，再加上我有一半纽约客的血统，没错，我以前在拉瓜迪亚机场其实待过不少时间。"
+    },
+    {
+      "id": 20,
+      "start_sec": 131,
+      "speaker": "Jon Ostrower",
+      "en": "And actually, I really think that one of the things that came out of the pandemic that was the most surprising was, when we all went to quarantine, it was like, when everyone comes out of this thing, we're going to wake up and realize that LaGuardia is probably the best airport in America.",
+      "zh": "说真的，我觉得疫情带来的最令人意外的变化之一就是，当时大家都在居家隔离，结果等一切恢复、人们走出家门的时候，突然恍然大悟，发现拉瓜迪亚机场大概已经成了全美最好的机场。"
+    },
+    {
+      "id": 21,
+      "start_sec": 144,
+      "speaker": "Jon Ostrower",
+      "en": "It's sort of the—who saw that coming? So, but yes, I mean, like the new LaGuardia is stunning. It's a great airport. And if you enjoy the whole mall in an airport thing, it is pretty killer. Plus the fountain, don't forget the fountain.",
+      "zh": "简直就是“谁能想得到呢”的节奏。不过说实话，全新的拉瓜迪亚机场确实令人惊艳，非常棒。如果你喜欢“机场里开大商场”这种体验，那它简直绝了。还有那个喷泉，千万别忘了那个喷泉。"
+    },
+    {
+      "id": 22,
+      "start_sec": 158,
+      "speaker": "Brian Sumers",
+      "en": "I'm waiting for the new Burbank.",
+      "zh": "我还是等着新的伯班克机场吧。"
+    },
+    {
+      "id": 23,
+      "start_sec": 160,
+      "speaker": "Jon Ostrower",
+      "en": "Yeah, your $22 CPE, here you come, baby.",
+      "zh": "是啊，22 美元的每登机旅客成本（CPE），这就来了，宝贝。"
+    },
+    {
+      "id": 24,
+      "start_sec": 163,
+      "speaker": "Brett Snyder",
+      "en": "Well, at least it's not Dulles. That's a topic for another time. Look, we're going to just have to take your word for it on LaGuardia because I haven't been there in like 20 years since I lived in Chicago.",
+      "zh": "行吧，至少那不是杜勒斯机场，不过这个话题留到以后再聊。听着，关于拉瓜迪亚机场我们就只能听你一面之词了，因为自从我二十年前住在芝加哥那会儿之后，我就再也没去过那儿。"
+    },
+    {
+      "id": 25,
+      "start_sec": 174,
+      "speaker": "Brian Sumers",
+      "en": "Haven't been there either. Long time.",
+      "zh": "我也好久没去过了。"
+    },
+    {
+      "id": 26,
+      "start_sec": 176,
+      "speaker": "Jon Ostrower",
+      "en": "Oh, it's really nice.",
+      "zh": "哦，那儿真的挺不错的。"
+    },
+    {
+      "id": 27,
+      "start_sec": 178,
+      "speaker": "Brett Snyder",
+      "en": "All right. Well, anyway, it doesn't matter. We don't have to have been there to talk about it. LaGuardia is one of the most congested airports in the country, even if it is very nice in the terminal.",
+      "zh": "好吧，不管怎样，这都无所谓，我们没必要非得亲临现场才能聊它。尽管航站楼里面现在非常漂亮，但拉瓜迪亚依然是全美最拥堵的机场之一。"
+    },
+    {
+      "id": 28,
+      "start_sec": 191,
+      "speaker": "Brett Snyder",
+      "en": "It is one of three airports in the U.S., alongside Newark and Washington National, that rise to IATA Level 3 coordination, meaning they are slot-controlled.",
+      "zh": "它是美国仅有的三座达到国际航协（IATA）三级协调标准的机场之一，另外两座是纽瓦克机场和华盛顿国家机场，这意味着它们属于时刻受限机场。"
+    },
+    {
+      "id": 29,
+      "start_sec": 200,
+      "speaker": "Brett Snyder",
+      "en": "And in case you're wondering, guys, we also have four Level 2 airports in Chicago O'Hare, LAX, Newark, and SFO. Those require airlines to submit schedules, but there aren't actual slots.",
+      "zh": "顺便跟大家说一声，美国还有四座二级协调机场，分别是芝加哥奥黑尔、洛杉矶国际机场（LAX）、纽瓦克以及旧金山国际机场（SFO）。这些机场要求航司提交航班时刻表，但并没有真正意义上的起降时刻配额。"
+    },
+    {
+      "id": 30,
+      "start_sec": 211,
+      "speaker": "Brian Sumers",
+      "en": "Not slots per se, Brett, but we recently learned that if you're an airline that's undersized in a major market like maybe a Chicago, you can actually run to your regulator and try to convince them that the airport can't handle all the movements that your competitor is flying, and then you de facto get slots.",
+      "zh": "确实不是严格意义上的起降时刻，Brett，不过我们最近倒是见识到了：如果你是一家在芝加哥这种大型市场规模偏小的航司，你完全可以跑去向监管机构游说，试着说服他们这座机场承受不了竞争对手飞的那么多起降架次，然后就能在事实上拿到起降时刻控制。"
+    },
+    {
+      "id": 31,
+      "start_sec": 228,
+      "speaker": "Brian Sumers",
+      "en": "Also Newark has restrictions as well.",
+      "zh": "而且纽瓦克机场也同样存在限制措施。"
+    },
+    {
+      "id": 32,
+      "start_sec": 231,
+      "speaker": "Brett Snyder",
+      "en": "Yes, they do. That is a separate FAA action on both of those. Different, but doesn't matter. What matters is that one of the most important cities on the planet, New York, has three primary airports, all of which are full, at least when people want to fly out of them.",
+      "zh": "没错，确实有。美国联邦航空管理局（FAA）对这两座机场分别采取了不同的监管举措。虽然机制不同，但这不重要。重要的是，纽约作为地球上最重要的城市之一，拥有三座主要机场，而这三座机场全都处于饱和状态——至少在旅客想要出行的时段是这样。"
+    },
+    {
+      "id": 33,
+      "start_sec": 247,
+      "speaker": "Brett Snyder",
+      "en": "And this, to me, is a terrible indictment of the authorities who should be planning capacity to serve the needs of the city and, you know, the country. But this is not a surprise to anyone who lives in the area. I'm just yelling.",
+      "zh": "在我看来，这对那些本该做好运力规划、以满足城市乃至全国航空出行需求的管理机构来说，是一个极其严重的控诉。不过对于住在当地的人而言，这早就不是什么新鲜事了，我也就是在这儿发发牢骚罢了。"
+    },
+    {
+      "id": 34,
+      "start_sec": 261,
+      "speaker": "Jon Ostrower",
+      "en": "I mean, they are building a lot of terminals. Okay, you already mentioned a brand new terminal at LaGuardia, but Newark got its Terminal A, and JFK is pretty much rebuilding everything. And most notably, it has Terminals 1 and 6 being built from scratch as we speak.",
+      "zh": "话虽如此，他们确实在新建很多航站楼。你刚提到了拉瓜迪亚全新的航站楼，纽瓦克也建好了 A 航站楼，而肯尼迪国际机场（JFK）几乎把所有设施都推倒重建了一遍，其中最引人注目的是 1 号和 6 号航站楼目前正在平地起高楼。"
+    },
+    {
+      "id": 35,
+      "start_sec": 277,
+      "speaker": "Brett Snyder",
+      "en": "Yeah, but how many new runways have they built?",
+      "zh": "是啊，但他们新建了几条跑道呢？"
+    },
+    {
+      "id": 36,
+      "start_sec": 281,
+      "speaker": "Jon Ostrower",
+      "en": "Hold on, let me count... none.",
+      "zh": "等会儿，让我数数……一条也没有。"
+    },
+    {
+      "id": 37,
+      "start_sec": 284,
+      "speaker": "Brett Snyder",
+      "en": "Yeah.",
+      "zh": "没错。"
+    },
+    {
+      "id": 38,
+      "start_sec": 285,
+      "speaker": "Jon Ostrower",
+      "en": "No, there are no new runways, yeah.",
+      "zh": "是的，确实没有新增跑道。"
+    },
+    {
+      "id": 39,
+      "start_sec": 286,
+      "speaker": "Brett Snyder",
+      "en": "Exactly. And really, they don't even need new runways in every case. Like at Newark, all they need to do is just move one of them over to the side. I mean, how hard could that be?",
+      "zh": "正是如此。而且说实话，也并不是所有情况下都非建新跑道不可。比如在纽瓦克，他们只需要把其中一条跑道往旁边挪一挪就行了。这能有多难呢？"
+    },
+    {
+      "id": 40,
+      "start_sec": 295,
+      "speaker": "Brian Sumers",
+      "en": "This is really just like big upgauge running the show.",
+      "zh": "说到底，现在全靠大规模换大机型在撑场面。"
+    },
+    {
+      "id": 41,
+      "start_sec": 297,
+      "speaker": "Brett Snyder",
+      "en": "That's what's happening, yeah.",
+      "zh": "现在确实就是这么个情况，没错。"
+    },
+    {
+      "id": 42,
+      "start_sec": 298,
+      "speaker": "Brian Sumers",
+      "en": "It's like A322s—",
+      "zh": "就像 A322——"
+    },
+    {
+      "id": 43,
+      "start_sec": 300,
+      "speaker": "Brian Sumers",
+      "en": "And 737 MAX 11s.",
+      "zh": "还有波音 737 MAX 11。"
+    },
+    {
+      "id": 44,
+      "start_sec": 302,
+      "speaker": "Jon Ostrower",
+      "en": "MAX 11s! Let's just get the 10 first, okay?",
+      "zh": "MAX 11！拜托，咱们先把 MAX 10 搞定行吗？"
+    },
+    {
+      "id": 45,
+      "start_sec": 305,
+      "speaker": "Brett Snyder",
+      "en": "But yeah, 'cause I mean this is the thing: no one's even talking about building new pavement or relocating pavement or creating anything. And unless that happens, these problems aren't really going to be solved.",
+      "zh": "不过确实如此，问题就在于根本没人讨论要新建跑滑道铺面、调整现有铺面位置，或者扩建任何设施。只要不做这些，这些问题就永远不可能真正解决。"
+    },
+    {
+      "id": 46,
+      "start_sec": 318,
+      "speaker": "Brian Sumers",
+      "en": "This is very true. Especially when you're waiting for your ATC delayed flight, it's going to suck less, but let's come back to my same thesis of things are full, and how do airlines grow and cover their costs?",
+      "zh": "这话一点没错。尤其是当你等着因空管延误的航班时，新设施确实能让体验好受一些，但还是得回到我那个老观点：资源已经饱和了，航司该如何实现增长并覆盖成本呢？"
+    },
+    {
+      "id": 47,
+      "start_sec": 331,
+      "speaker": "Brett Snyder",
+      "en": "This is a real question, especially in the Northeast. And I don't want to focus on the terminals today, I know we've talked about that.",
+      "zh": "这确实是个现实问题，尤其是在美国东北部。今天我不想把重点放在航站楼上，我知道我们之前已经聊过这个了。"
+    },
+    {
+      "id": 48,
+      "start_sec": 338,
+      "speaker": "Brett Snyder",
+      "en": "What I want to do is I want to dig into LaGuardia service over the years and talk about where it is today, and if there's something that might change in the future.",
+      "zh": "我真正想做的是深挖一下拉瓜迪亚机场这么多年来的航线服务演变，聊聊它如今的现状，以及未来是否会有一些新的变化。"
+    },
+    {
+      "id": 49,
+      "start_sec": 347,
+      "speaker": "Brian Sumers",
+      "en": "I think this could be pretty interesting. Brett, I presume that you came up with this idea when you saw that JetBlue beat out Frontier to buy many of Spirit's slots?",
+      "zh": "我觉得这个话题会很有意思。Brett，我猜你萌生这个想法，是不是因为看到捷蓝航空击败了边疆航空，买下了精神航空的大量起降时刻？"
+    },
+    {
+      "id": 50,
+      "start_sec": 358,
+      "speaker": "Brett Snyder",
+      "en": "Yeah, you got that right. Look, it just seems like a good time to talk about the place; it's at this steady state.",
+      "zh": "没错，被你说中了。你看，现在正好是聊聊这座机场的好时机，因为它目前正处于一种稳定状态。"
+    },
+    {
+      "id": 51,
+      "start_sec": 365,
+      "speaker": "Brett Snyder",
+      "en": "Personally, I would love to see them just shut LaGuardia down entirely and pour effort into JFK, 'cause if you close LaGuardia, then think of all the airspace you'd have to work with. But you know, that's not going to happen.",
+      "zh": "就我个人而言，我真希望能把拉瓜迪亚机场彻底关闭，把精力全部投入到肯尼迪机场——因为一旦关掉拉瓜迪亚，想想能腾出多少空域空间来调度啊。不过你也知道，这根本不可能发生。"
+    },
+    {
+      "id": 52,
+      "start_sec": 378,
+      "speaker": "Brett Snyder",
+      "en": "So let's talk about what's been going on there. Because actually, after I looked at the data, it's pretty interesting: the airport has really changed how it's been used over time.",
+      "zh": "那我们就来聊聊那里的变化吧。因为说实话，在我翻看了数据之后发现这事还挺有意思的：这座机场的定位和用法随着时间推移真的发生了很大变化。"
+    },
+    {
+      "id": 53,
+      "start_sec": 388,
+      "speaker": "Brian Sumers",
+      "en": "Ah, Brett, when you say \"over time,\" usually means we're going to get a history lesson. Professor, what do you have for us, and are you going to go back 100 years? How many years?",
+      "zh": "啊，Brett，你一说“随着时间推移”，通常就意味着我们要上一堂历史课了。教授，你这次给我们准备了什么干货？打算倒回一百年吗？还是要看多少年的数据？"
+    },
+    {
+      "id": 54,
+      "start_sec": 399,
+      "speaker": "Brett Snyder",
+      "en": "The year was 1980.",
+      "zh": "故事要从 1980 年说起。"
+    },
+    {
+      "id": 55,
+      "start_sec": 401,
+      "speaker": "Brian Sumers",
+      "en": "Oh, only 1980, Brett? Not so bad.",
+      "zh": "哦，Brett，才回溯到 1980 年啊？那倒还好。"
+    },
+    {
+      "id": 56,
+      "start_sec": 406,
+      "speaker": "Brett Snyder",
+      "en": "No, no. That's 'cause SkyGo has the OAG schedule data only going back to 1980, so I didn't want to go much further back; that would have taken too much effort to try and dig up.",
+      "zh": "不不，那是因为 SkyGo 的 OAG 航班时刻数据最早只追溯到 1980 年，所以我也不想再往前深挖了，再去翻更早的资料实在太费劲。"
+    },
+    {
+      "id": 57,
+      "start_sec": 415,
+      "speaker": "Brett Snyder",
+      "en": "But I did look at the schedules from 1980 until today to get a real sense of what has actually changed at the airport.",
+      "zh": "不过我确实梳理了从 1980 年至今的航班时刻表，想真切看看这座机场究竟发生了哪些变化。"
+    },
+    {
+      "id": 58,
+      "start_sec": 422,
+      "speaker": "Brian Sumers",
+      "en": "46 years ago, what did that airport look like? What's different today?",
+      "zh": "46 年前的拉瓜迪亚机场是什么样子的？如今又有什么不同？"
+    },
+    {
+      "id": 59,
+      "start_sec": 427,
+      "speaker": "Brett Snyder",
+      "en": "So one caveat here: I don't have seat counts going that far back, so I'm going off departures. We can do math on that, but the point is here, I think the results would still be the same.",
+      "zh": "这里先说明一点：这么早年间的座位数数据我手头没有，所以我是按起飞架次来统计的。当然我们可以换算估算一下，但重点在于，我觉得最终结论还是一样的。"
+    },
+    {
+      "id": 60,
+      "start_sec": 440,
+      "speaker": "Brett Snyder",
+      "en": "At the time, in 1980, Eastern was the number one airline at LaGuardia. And by number one, I mean it had the most flights and was also probably the most hated.",
+      "zh": "当时在 1980 年，东方航空是拉瓜迪亚机场的头号航司。我说“头号”的意思是，它不仅航班量最多，而且大概也是最招人嫌的一家。"
+    },
+    {
+      "id": 61,
+      "start_sec": 458,
+      "speaker": "Jon Ostrower",
+      "en": "You know, Eastern's not around to defend itself anymore, so I'm assuming that's probably their default historical position at this point.",
+      "zh": "要知道东方航空现在已经不在了，没法替自己辩护，所以我猜这大概就是他们在历史上的默认定位了吧。"
+    },
+    {
+      "id": 62,
+      "start_sec": 465,
+      "speaker": "Brett Snyder",
+      "en": "Yeah, I don't even think they would defend themselves. They'd be like, \"Yeah, no, that's how it is.\"",
+      "zh": "没错，我觉得就算他们在，多半也不会辩解，只会说：“行吧，确实就是那样。”"
+    },
+    {
+      "id": 63,
+      "start_sec": 470,
+      "speaker": "Brett Snyder",
+      "en": "So at the time, Eastern had just over 20% of flights at the airport, but American was right behind at just under 20%. And then we had TWA with about 9%.",
+      "zh": "所以当时东方航空占了机场略高于 20% 的航班量，而美航紧随其后，占比略低于 20%。再往后是环球航空，大约占 9%。"
+    },
+    {
+      "id": 64,
+      "start_sec": 480,
+      "speaker": "Brett Snyder",
+      "en": "The newly christened USAir had more than 7%, and then Delta was in there with a little more than 6%. After that was United, Piedmont, Republic—we don't need to go further.",
+      "zh": "当时刚更名不久的全美航空占了 7% 多一点，达美航空占 6% 略多。排在后面的还有美联航、皮埃蒙特航空、共和航空——再往后就不用细数了。"
+    },
+    {
+      "id": 65,
+      "start_sec": 491,
+      "speaker": "Brett Snyder",
+      "en": "But according to the data, and this was astounding to me, there were 39 airlines flying into LaGuardia at that time.",
+      "zh": "不过根据数据显示——这一点真让我大吃一惊——当时竟然有多达 39 家航司在飞拉瓜迪亚机场。"
+    },
+    {
+      "id": 66,
+      "start_sec": 500,
+      "speaker": "Jon Ostrower",
+      "en": "That's amazing. And I want to know how many of them were actually flying DC-10s. 'Cause that was what the requirement was for the airplane: it was widebody ops out of LaGuardia.",
+      "zh": "太厉害了。而且我想知道这里面究竟有多少家当时在飞 DC-10。因为这当年可是这款飞机的设计硬性要求之一——要能从拉瓜迪亚机场执飞宽体机航班。"
+    },
+    {
+      "id": 67,
+      "start_sec": 510,
+      "speaker": "Brett Snyder",
+      "en": "Not many, but there were A300s, there were L-1011s, there were DC-10s, there were 767s. It was a very interesting place.",
+      "zh": "不算多，但当时确实有空客 A300、洛克希德 L-1011、DC-10，还有波音 767。那时候的拉瓜迪亚真是个非常有意思的地方。"
+    },
+    {
+      "id": 68,
+      "start_sec": 521,
+      "speaker": "Jon Ostrower",
+      "en": "We used to be a country. Man, that was fantastic.",
+      "zh": "我们当年可真了不起。天哪，那场面太棒了。"
+    },
+    {
+      "id": 69,
+      "start_sec": 529,
+      "speaker": "Brian Sumers",
+      "en": "Does anyone fly widebodies into LaGuardia anymore?",
+      "zh": "现在还有航司飞宽体机进出拉瓜迪亚吗？"
+    },
+    {
+      "id": 70,
+      "start_sec": 532,
+      "speaker": "Brett Snyder",
+      "en": "No.",
+      "zh": "没有了。"
+    },
+    {
+      "id": 71,
+      "start_sec": 533,
+      "speaker": "Jon Ostrower",
+      "en": "No, no, no, no. Well, okay, let's go on a little bit of a tangent just for a moment. One of the major requirements for Boeing's NMA was for it to be able to fit into LaGuardia.",
+      "zh": "早没了。不过好吧，咱们稍微跑个题聊一嘴。当年波音 NMA 新中型飞机项目的核心硬性要求之一，就是要能顺利起降并适配拉瓜迪亚机场。"
+    },
+    {
+      "id": 72,
+      "start_sec": 544,
+      "speaker": "Jon Ostrower",
+      "en": "So you'd actually have a small widebody operating there again, effectively a DC-10 redux, but with obviously two engines and all the new modern technology. So that would have been fun.",
+      "zh": "那样一来，你其实又能看到小型宽体机在那里执飞了，相当于现代版的 DC-10 回归，当然换成了双发配置，并搭载全套现代新技术。原本那会挺有看头的。"
+    },
+    {
+      "id": 73,
+      "start_sec": 561,
+      "speaker": "Brett Snyder",
+      "en": "So maybe we'll see a JetZero Z4 in there, is what you're saying?",
+      "zh": "所以你的意思是，说不定将来我们能看到 JetZero Z4 飞进拉瓜迪亚？"
+    },
+    {
+      "id": 74,
+      "start_sec": 564,
+      "speaker": "Jon Ostrower",
+      "en": "No, based on what their wingspan is, they are going to be nowhere near LaGuardia.",
+      "zh": "那不行，按它那个翼展尺寸，根本连拉瓜迪亚的边都沾不上。"
+    },
+    {
+      "id": 75,
+      "start_sec": 569,
+      "speaker": "Brett Snyder",
+      "en": "Yes, that would maybe slow things down even more.",
+      "zh": "确实，真飞进去的话，地面运行怕是只会更慢。"
+    },
+    {
+      "id": 76,
+      "start_sec": 571,
+      "speaker": "Brian Sumers",
+      "en": "Yeah. Okay, but seriously, that was a really huge number of airlines. Though you do have to remember that two things have changed significantly since then.",
+      "zh": "是啊。不过说正经的，当时那家数确实多得惊人。但你得记住，打那以后有两件事发生了巨大变化。"
+    },
+    {
+      "id": 77,
+      "start_sec": 578,
+      "speaker": "Brian Sumers",
+      "en": "Obviously consolidation being the most obvious, but second, the regionals were all flying under their own codes, whereas now they're under the big airline code. So it's just a really different world that we're in right now.",
+      "zh": "最明显的当然是行业兼并整合；其次，当年的支线航司全都是用自己的独立代码在飞，而现在它们全都归在大型干线航司的代码下面。所以我们如今面对的是一个截然不同的行业格局。"
+    },
+    {
+      "id": 78,
+      "start_sec": 586,
+      "speaker": "Brett Snyder",
+      "en": "Yes, that is absolutely true. And there were some codes in here I could not even figure out myself without some serious deep dives. Do you guys know what PM is?",
+      "zh": "没错，这完全属实。而且这里面有些航司代码，我自己不下一番苦功夫深挖都完全搞不明白。你们知道 PM 是哪家吗？"
+    },
+    {
+      "id": 79,
+      "start_sec": 595,
+      "speaker": "Brian Sumers",
+      "en": "Nope.",
+      "zh": "不知道。"
+    },
+    {
+      "id": 80,
+      "start_sec": 596,
+      "speaker": "Brett Snyder",
+      "en": "It turns out that is Pilgrim Airlines, which buzzed around the Northeast. That—",
+      "zh": "结果一查，那是朝圣者航空，当年专在东北部一带穿梭飞行。那——"
+    },
+    {
+      "id": 81,
+      "start_sec": 600,
+      "speaker": "Brett Snyder",
+      "en": "was the next largest airline after Republic at LaGuardia in 1980. Fun fact, it went into Business Express, and so I guess that means today it is part of Envoy. I think we need a retro jet.",
+      "zh": "是 1980 年拉瓜迪亚机场仅次于共和航空的最大航司。顺带一提，它后来并入了 Business Express，这么算下来如今也算是特使航空（Envoy）的一部分了。我觉得我们真该给它出一架复古涂装客机。"
+    },
+    {
+      "id": 82,
+      "start_sec": 613,
+      "speaker": "Jon Ostrower",
+      "en": "Whoa, just like the lineage chart there. I don't even think I've heard of Pilgrim before, that's wild. What a terrible name for an airline also, just throwing that out there.",
+      "zh": "哇，这活脱脱就是一张航司谱系图啊。我甚至从来没听说过朝圣者航空，太神奇了。顺便说一句，这航司名字起得也太糟糕了。"
+    },
+    {
+      "id": 83,
+      "start_sec": 623,
+      "speaker": "Jon Ostrower",
+      "en": "Flying Turkey Dinner Airlines, you know, it's like, I don't know.",
+      "zh": "简直就像“飞行火鸡大餐航空”，真是让人一言难尽。"
+    },
+    {
+      "id": 84,
+      "start_sec": 627,
+      "speaker": "Brett Snyder",
+      "en": "I mean, maybe they could have gotten some good Hajj business over to Mecca.",
+      "zh": "我是说，靠这名字说不定还能拉到不少去麦加朝觐的客流呢。"
+    },
+    {
+      "id": 85,
+      "start_sec": 631,
+      "speaker": "Jon Ostrower",
+      "en": "Yeah, Mecca by way of Flushing.",
+      "zh": "是啊，经法拉盛转机去麦加。"
+    },
+    {
+      "id": 86,
+      "start_sec": 634,
+      "speaker": "Brian Sumers",
+      "en": "Back on target, guys! Brett, we have a long history lesson going here. What else happened in the 1980s?",
+      "zh": "言归正传，各位！Brett，咱们这堂历史课还长着呢，20 世纪 80 年代还发生了什么？"
+    },
+    {
+      "id": 87,
+      "start_sec": 640,
+      "speaker": "Brett Snyder",
+      "en": "All right, rest of the '80s, Eastern remained the largest airline, but its share started to sag. Frank Lorenzo at Texas Air started up non-union New York Air to compete with the Eastern Shuttle to Boston and DC. This was, of course, before Texas Air bought Eastern itself.",
+      "zh": "好的，80 年代余下的时间里，美国东方航空依然是拉瓜迪亚最大的航司，但份额开始下滑。得克萨斯航空的 Frank Lorenzo 创办了未设工会的纽约航空，专门和飞往波士顿及华盛顿特区的东方航空快线竞争。当然，这还是在得克萨斯航空收购东方航空本身之前的事。"
+    },
+    {
+      "id": 88,
+      "start_sec": 656,
+      "speaker": "Brett Snyder",
+      "en": "And then Pan Am eventually bought that shuttle and grew its place at LaGuardia, but by the end of the decade, Eastern was dying. Delta actually took over in 1989 with the largest share of flights at just over 14%.",
+      "zh": "后来泛美航空最终买下了那条快线，扩大了在拉瓜迪亚的规模；但到 80 年代末，东方航空已日薄西山。事实上，达美航空在 1989 年反超登顶，拿下了刚过 14% 的最大航班份额。"
+    },
+    {
+      "id": 89,
+      "start_sec": 672,
+      "speaker": "Brian Sumers",
+      "en": "That is kind of interesting because this was before Delta took over Pan Am's Atlantic operation, so I guess at the time Delta was just growing organically?",
+      "zh": "这倒挺有意思的，因为当时达美航空还没接手泛美航空的大西洋业务，所以我猜那会儿达美完全是靠内生增长做起来的？"
+    },
+    {
+      "id": 90,
+      "start_sec": 681,
+      "speaker": "Brett Snyder",
+      "en": "Yeah, but this was also a really strange moment in time because by 1990, USAir was number one after it had finished digesting Piedmont. And that is really when the big changes start.",
+      "zh": "没错，但那也是一个非常奇特的时间节点，因为到了 1990 年，全美航空（USAir）在完成对皮埃蒙特航空的整合消化后跃居第一。而真正的巨变也是从那时开始的。"
+    },
+    {
+      "id": 91,
+      "start_sec": 696,
+      "speaker": "Jon Ostrower",
+      "en": "Hold on. These aren't already big changes? I know by 1990, LaGuardia had less than half the number of airlines it had in 1980, at least based on booking code, and Eastern had been dethroned. That seems pretty big to me.",
+      "zh": "等等，这还不算巨变吗？据我所知，到了 1990 年，至少按订座代码口径统计，拉瓜迪亚的航司数量还不到 1980 年的一半，而且东方航空也被拉下了马。在我看来这变化已经相当大了。"
+    },
+    {
+      "id": 92,
+      "start_sec": 709,
+      "speaker": "Brett Snyder",
+      "en": "Sure, but then Eastern and Pan Am both died in 1991, and some pieces of Eastern had already been parted out to Continental, as we all know with that whole Texas Air Corp mess.",
+      "zh": "确实，但紧接着东方航空和泛美航空都在 1991 年倒闭了；而且正如大家所知，随着得克萨斯航空集团那一连串乱局，东方航空的部分资产此前就已经被拆卖给了大陆航空。"
+    },
+    {
+      "id": 93,
+      "start_sec": 720,
+      "speaker": "Brett Snyder",
+      "en": "But the Eastern Shuttle went to become Trump Shuttle for a hot minute before it was sold to USAir. The Pan Am Shuttle went to Delta, and then USAir and Delta really started to distance themselves from the pack.",
+      "zh": "不过，东方航空快线先是短暂更名为特朗普快线，随后卖给了全美航空；而泛美快线归了达美航空，自此全美航空和达美航空开始把其他对手远远甩在身后。"
+    },
+    {
+      "id": 94,
+      "start_sec": 734,
+      "speaker": "Brett Snyder",
+      "en": "So by 1993, USAir's share had peaked at nearly 40%, while Delta was around 25%. So all of a sudden, two-thirds of the airport was in the hands of two airlines, and there were only 14 airlines in total selling tickets from LaGuardia then.",
+      "zh": "于是到 1993 年，全美航空的份额见顶至近 40%，达美航空则在 25% 左右。转眼间，整座机场三分之二的运力都掌握在两家航司手里，当时在拉瓜迪亚售票的航司总共只剩下 14 家。"
+    },
+    {
+      "id": 95,
+      "start_sec": 755,
+      "speaker": "Brian Sumers",
+      "en": "So we had consolidation, we had the regional partnerships, and then we also had airlines going kaput, out of business. We lost Eastern, we lost Pan Am, and then we lost this other airline flying 727s, a Northeast shuttle. I won't say the name because the name makes me too upset.",
+      "zh": "也就是说，一方面是行业整合与支线航空合作，另一方面还有航司直接关门倒闭。我们失去了东方航空、失去了泛美航空，后来又失去了那家飞 727 客机的东北快线航司——我就不提它名字了，一提起来就来气。"
+    },
+    {
+      "id": 96,
+      "start_sec": 771,
+      "speaker": "Brett Snyder",
+      "en": "All right, but yes. So, you know, we talk about airline consolidation, but it's kind of funny because the '90s were pretty consolidated at LaGuardia long before the real consolidation push of the 2000s.",
+      "zh": "行吧，确实如此。所以你看，我们常聊航司并购整合，但说来也挺有意思，早在 21 世纪初真正的大整合潮到来之前，90 年代的拉瓜迪亚机场其实就已经相当集中了。"
+    },
+    {
+      "id": 97,
+      "start_sec": 783,
+      "speaker": "Brett Snyder",
+      "en": "But then competition actually began to show up around 2000, and this was thanks to the Feds and the AIR-21 debacle.",
+      "zh": "不过到了 2000 年前后，竞争又重新冒头了，这还得拜联邦政府和 AIR-21 法案那场闹剧所赐。"
+    },
+    {
+      "id": 98,
+      "start_sec": 791,
+      "speaker": "Jon Ostrower",
+      "en": "The what? This is when they decided to create like slot exemptions in 2000 for regional aircraft to small cities, so they could actually improve access to New York, right?",
+      "zh": "什么闹剧？就是 2000 年那会儿，他们决定为飞往小城市的支线飞机设立起降时刻豁免，好切实改善通往纽约的航线通达性，对吧？"
+    },
+    {
+      "id": 99,
+      "start_sec": 800,
+      "speaker": "Brett Snyder",
+      "en": "Yeah, yeah, no, that's exactly what happened. They threw open opportunity for new cities and new entrants on small aircraft, and it was a whole thing for a brief period of time.",
+      "zh": "对对对，事情就是这样。当时他们向新城市和驾驶小飞机的新进航司敞开了大门，短时间内闹得沸沸扬扬。"
+    },
+    {
+      "id": 100,
+      "start_sec": 812,
+      "speaker": "Brett Snyder",
+      "en": "And they added hundreds of daily flights because the airlines all saw the opportunity, and it was chaos. It was so bad that 2001, the Feds backtracked on the whole thing. It was such a train wreck.",
+      "zh": "各家航司都看到了机会，一口气新增了每天数百个航班，现场简直乱成一锅粥。情况糟糕到 2001 年联邦政府就全盘撤回了这项政策，简直是一场灾难。"
+    },
+    {
+      "id": 101,
+      "start_sec": 826,
+      "speaker": "Brett Snyder",
+      "en": "But once that went away, things had actually kind of shifted. The now US Airways at that point only had a third of departures.",
+      "zh": "不过那场闹剧收场后，格局其实已经悄然发生了变化。当时已经更名的全美航空（US Airways），出港航班份额只剩三分之一了。"
+    },
+    {
+      "id": 102,
+      "start_sec": 835,
+      "speaker": "Brett Snyder",
+      "en": "In 2005, American had risen to second place with nearly 22% of departures, and Delta followed at just over 20%. But as we know, Delta would not stay that low for long.",
+      "zh": "到了 2005 年，美航升至第二位，出港份额接近 22%，达美航空以略超 20% 紧随其后。但大家都知道，达美的份额不会长期停留在这么低的水平。"
+    },
+    {
+      "id": 103,
+      "start_sec": 848,
+      "speaker": "Brian Sumers",
+      "en": "No, it would not, Brett. It pulled off one of the best deals of airline history after growing organically in New York for a little bit.",
+      "zh": "那可不，Brett。达美在纽约靠内生增长运营了一段时间后，操盘完成了航空史上最划算的交易之一。"
+    },
+    {
+      "id": 104,
+      "start_sec": 858,
+      "speaker": "Brian Sumers",
+      "en": "Remember that slot swap with US Airways, was it 2011, 2012, something like that? It's been a real pain for American since then.",
+      "zh": "还记得那次和全美航空的起降时刻置换吗，大概是 2011 年还是 2012 年来着？从那以后，这事可一直让美航头疼不已。"
+    },
+    {
+      "id": 105,
+      "start_sec": 873,
+      "speaker": "Brett Snyder",
+      "en": "Yep, the very end of 2011, and as I think we all know, that's when Delta gave up 42 slot pairs at Washington National Airport, along with a route authority to São Paulo, and $66.5 million in exchange for 132 of US Airways' slot pairs at LaGuardia.",
+      "zh": "没错，就在 2011 年底。我想大家都知道，当时达美航空让出了华盛顿国家机场的 42 对起降时刻、一条飞往圣保罗的航权以及 6650 万美元，换取了全美航空在拉瓜迪亚的 132 对起降时刻。"
+    },
+    {
+      "id": 106,
+      "start_sec": 895,
+      "speaker": "Brian Sumers",
+      "en": "Gird your loins, boys, I'm going to hit Scott Kirby for something. We may remember at that time—",
+      "zh": "伙计们做好准备，我要拿 Scott Kirby 说事儿了。大家或许还记得当时——"
+    },
+    {
+      "id": 107,
+      "start_sec": 900,
+      "speaker": "Brian Sumers",
+      "en": "Scott Kirby was the president of US Airways. He was not the CEO, we know that, but, you know, he had a lot of sway at that carrier by that point.",
+      "zh": "当时 Scott Kirby 是全美航空的总裁。我们都知道他不是 CEO，但话说回来，到那个时候他在公司内部已经很有话语权了。"
+    },
+    {
+      "id": 108,
+      "start_sec": 908,
+      "speaker": "Brian Sumers",
+      "en": "I would say this New York move would not go down as one of his best moves. He gave Delta a once-in-a-generation chance to bolster its presence in New York.",
+      "zh": "依我看，他在纽约的这步棋算不上他最得意的手笔。他等于是给了达美航空一个千载难逢的机会，让对方得以巩固在纽约市场的布局。"
+    },
+    {
+      "id": 109,
+      "start_sec": 918,
+      "speaker": "Brian Sumers",
+      "en": "I will say the deal made some sense for standalone US Airways. By now, I think our listeners know that if you're not first, you're last.",
+      "zh": "不过平心而论，对于当时独立运营的全美航空来说，这笔交易还是有一定道理的。我想听众朋友们现在也都知道那句话：要么拿第一，要么就垫底。"
+    },
+    {
+      "id": 110,
+      "start_sec": 929,
+      "speaker": "Brian Sumers",
+      "en": "US Airways had a good slot portfolio at LaGuardia, but it was not enough to be number one in the broader New York market.",
+      "zh": "全美航空在拉瓜迪亚原本拥有不错的起降时刻组合，但这还不足以让它在大纽约市场做到第一。"
+    },
+    {
+      "id": 111,
+      "start_sec": 939,
+      "speaker": "Brian Sumers",
+      "en": "Kirby and Doug Parker saw that they could be number one at slot-controlled Washington Reagan, and so they decided to do the swap.",
+      "zh": "Kirby 和 Doug Parker 看到他们有机会在同样时刻受限的华盛顿里根机场做到第一，于是决定进行这次时刻置换。"
+    },
+    {
+      "id": 112,
+      "start_sec": 950,
+      "speaker": "Brian Sumers",
+      "en": "So that made sense at the time, but here's my bigger problem, guys, and you can tell me whether you think that I'm right or I'm wrong. This wasn't ancient history.",
+      "zh": "所以这在当时是说得通的，但伙计们，我更大的疑问在于——你们也可以评判我说得对不对——这并不是什么遥远的历史。"
+    },
+    {
+      "id": 113,
+      "start_sec": 962,
+      "speaker": "Brian Sumers",
+      "en": "By 2011, Delta and Northwest had already merged, and so had United and Continental. So by that point, you would think that the US Airways management team would have realized, \"We're probably going to have to get bigger.\"",
+      "zh": "到了 2011 年，达美航空和西北航空已经合并了，美联航和大陆航空也合并了。所以按理说，全美航空的管理层当时应该已经意识到：“我们恐怕也得把盘子做大才行。”"
+    },
+    {
+      "id": 114,
+      "start_sec": 975,
+      "speaker": "Brian Sumers",
+      "en": "There's only one giant dog in the fight, that's American. And if we let Delta get bigger at LaGuardia, then, you know, someday if we absorb American, we're not going to have as much market share in New York as we would like.",
+      "zh": "“场上唯一还算得上巨头的只剩美航了。如果我们现在放任达美航空在拉瓜迪亚做大，那将来有朝一日如果我们吞并了美航，我们在纽约的市场份额就不会像我们希望的那么高了。”"
+    },
+    {
+      "id": 115,
+      "start_sec": 988,
+      "speaker": "Brian Sumers",
+      "en": "But the deal happened anyways. We know the predicament that American is in right now in New York, it's not great, and I think we can trace it back to that slot swap.",
+      "zh": "但交易最终还是达成了。我们都知道美航如今在纽约陷入了怎样的困境，形势很不乐观，而且我认为根源都可以追溯到那次起降时刻置换。"
+    },
+    {
+      "id": 116,
+      "start_sec": 1001,
+      "speaker": "Brian Sumers",
+      "en": "I do have one other question for you guys. Anyone remember what happened to that São Paulo authority?",
+      "zh": "我还有另一个问题想问你们俩。有人记得那条圣保罗航权后来怎么样了吗？"
+    },
+    {
+      "id": 117,
+      "start_sec": 1008,
+      "speaker": "Jon Ostrower",
+      "en": "Not really.",
+      "zh": "不太记得了。"
+    },
+    {
+      "id": 118,
+      "start_sec": 1009,
+      "speaker": "Brian Sumers",
+      "en": "I don't think US Airways ever flew to São Paulo, right?",
+      "zh": "全美航空好像从来没飞过圣保罗，对吧？"
+    },
+    {
+      "id": 119,
+      "start_sec": 1012,
+      "speaker": "Brett Snyder",
+      "en": "I think they did fly to São Paulo. I can look this up, but my internet out here in the wilderness is not fast enough to do all of these things at once.",
+      "zh": "我记得他们确实飞过圣保罗。我可以查一下，不过我这会儿在荒郊野外，网速太慢，没法同时干这么多事。"
+    },
+    {
+      "id": 120,
+      "start_sec": 1022,
+      "speaker": "Brett Snyder",
+      "en": "But talking about your previous point, Brian, in hindsight, of course, we can look back on that and say, \"Well, how did they not see this?\" But it was not a given.",
+      "zh": "不过说到你刚才那个观点，Brian，事后诸葛亮地回头看，我们当然会说：“哎呀，他们当时怎么就没想到呢？”但当时这事并不是板上钉钉的。"
+    },
+    {
+      "id": 121,
+      "start_sec": 1035,
+      "speaker": "Brett Snyder",
+      "en": "We didn't know exactly what would happen with American. They didn't know that that deal would go through either. You have to figure out how do you manage what's best for you.",
+      "zh": "我们当时并不确定美航会走到哪一步，他们也不知道那笔合并交易最终能不能成。你总得盘算怎么把对自身最有利的局面经营好。"
+    },
+    {
+      "id": 122,
+      "start_sec": 1047,
+      "speaker": "Brett Snyder",
+      "en": "I can see criticism as well, but I don't think it's necessarily such a clear decision. Anyway, back to the results of the slot swap.",
+      "zh": "批评的声音我也能理解，但我认为当时的决策并没有那么非黑即白。不管怎样，还是回到起降时刻置换的结果上来吧。"
+    },
+    {
+      "id": 123,
+      "start_sec": 1061,
+      "speaker": "Brett Snyder",
+      "en": "So once the slots were swapped, Delta obviously instantly became number one at LaGuardia. It had about 46% of departures, and this is when I think we kind of settled into the LaGuardia endgame, as I'll call it.",
+      "zh": "在时刻置换完成后，达美航空显然立刻成为了拉瓜迪亚的第一大航司，占到了大约 46% 的出港航班。我认为从那时起，拉瓜迪亚就基本进入了所谓的“终局”格局。"
+    },
+    {
+      "id": 124,
+      "start_sec": 1074,
+      "speaker": "Brett Snyder",
+      "en": "So to wrap this up neatly, after US Airways merged into American in 2015, we were down to 10 airlines. Then Alaska took over Virgin America and exited the airport, which it had served from Love Field in Dallas, that brought us to nine.",
+      "zh": "简单收个尾：2015 年全美航空并入美航后，这里就只剩 10 家航司了。后来阿拉斯加航空收购了维珍美国航空，并退出了该机场——它之前是从达拉斯爱田机场飞过来的——这让航司数量降到了 9 家。"
+    },
+    {
+      "id": 125,
+      "start_sec": 1087,
+      "speaker": "Brett Snyder",
+      "en": "And yes, we lost another in WestJet after the pandemic to bring us to our low point of eight airlines in 2024.",
+      "zh": "没错，疫情后我们又失去了西捷航空，在 2024 年跌到了仅剩 8 家航司的低谷。"
+    },
+    {
+      "id": 126,
+      "start_sec": 1093,
+      "speaker": "Brett Snyder",
+      "en": "That has changed a bit since then with Porter and BermudAir both entering, but now Spirit is gone, so we sit at nine.",
+      "zh": "此后随着波特航空和百慕大航空相继进驻，情况略有回升，但如今精神航空又退出了，所以我们现在停留在 9 家。"
+    },
+    {
+      "id": 127,
+      "start_sec": 1098,
+      "speaker": "Brian Sumers",
+      "en": "How long do you guys give BermudAir?",
+      "zh": "你们觉得百慕大航空能撑多久？"
+    },
+    {
+      "id": 128,
+      "start_sec": 1100,
+      "speaker": "Brett Snyder",
+      "en": "I am very curious about them, not knowing anything about their funding. I'm very curious.",
+      "zh": "我对他们真是很好奇，虽然完全不了解他们的资金背景，但确实非常好奇。"
+    },
+    {
+      "id": 129,
+      "start_sec": 1107,
+      "speaker": "Jon Ostrower",
+      "en": "So, that's a good question. I actually had a sit-down with their CEO at Farnborough, which we can come back to on another episode, but there's things to explore there.",
+      "zh": "这问题问得好。其实我在范堡罗航展上跟他们的 CEO 坐下来深聊过，这话题咱们可以留到另一期再展开，不过里面确实有不少门道值得琢磨。"
+    },
+    {
+      "id": 130,
+      "start_sec": 1119,
+      "speaker": "Jon Ostrower",
+      "en": "They've got some really interesting thoughts on how they use Bermuda as sort of a jumping-off point for a lot of different destinations. It's interesting.",
+      "zh": "对于如何把百慕大打造成通往众多不同目的地的跳板，他们有一些非常有意思的想法，挺值得关注的。"
+    },
+    {
+      "id": 131,
+      "start_sec": 1125,
+      "speaker": "Brett Snyder",
+      "en": "It's also how do you use your certificate in the Bermudan British world. John Pepper from Allegiant is now running commercial for them, so there's some interesting stuff there. It's unclear to me where this goes.",
+      "zh": "这还涉及如何在百慕大乃至英属体系下运用航司运营合格证的问题。来自忠实航空的 John Pepper 现在负责他们的商务板块，所以里面还是有些看点的，只是我还看不清他们最终会走向何方。"
+    },
+    {
+      "id": 132,
+      "start_sec": 1140,
+      "speaker": "Jon Ostrower",
+      "en": "Indeed. This is all fascinating, but I actually, I really genuinely have a lot more questions. For example, how has the route structure changed?",
+      "zh": "确实。这些都太有意思了，不过说真的，我心里其实还有一大堆问题。比如说，航线网络结构到底发生了怎样的变化？"
+    },
+    {
+      "id": 133,
+      "start_sec": 1145,
+      "speaker": "Jon Ostrower",
+      "en": "What about the aircraft that are going in and out of the airport? And how competitive are the remaining airlines? Let's talk about this more after the break.",
+      "zh": "进出该机场的机型又有什么演变？剩下的几家航司之间竞争究竟有多激烈？我们进一段休息，回来再接着聊。"
+    },
+    {
+      "id": 134,
+      "start_sec": 1226,
+      "speaker": "Jon Ostrower",
+      "en": "And we're back. Brett, let's talk about the current situation. At the beginning of this conversation, we had almost 40 airlines flying to LaGuardia, with no airline having more than 20% share there.",
+      "zh": "我们回来了。Brett，我们来聊聊现在的局面吧。刚开场时我们提到，曾经有将近 40 家航司在飞拉瓜迪亚机场，而且没有哪一家的市场份额超过 20%。"
+    },
+    {
+      "id": 135,
+      "start_sec": 1236,
+      "speaker": "Jon Ostrower",
+      "en": "By the way, Brian, if you're not first, you're last, does that still count if there are 40 airlines that you're flying against there? But I digress.",
+      "zh": "顺便问一句，Brian，常言道“不是第一就是垫底”，如果在那里有 40 家航司同台竞技，这话还作数吗？不过扯远了。"
+    },
+    {
+      "id": 136,
+      "start_sec": 1244,
+      "speaker": "Jon Ostrower",
+      "en": "So now Delta has about half the departures there today, and there are only eight airlines. So are they at least competitive in this tiny little island in Queens?",
+      "zh": "如今，达美航空掌握了拉瓜迪亚大约一半的出港航班，而那里的航司也只剩下八家了。那么，其他航司在皇后区这块巴掌大的地方，至少还算有竞争力吗？"
+    },
+    {
+      "id": 137,
+      "start_sec": 1254,
+      "speaker": "Brett Snyder",
+      "en": "Not really. That's because LaGuardia doesn't operate in a vacuum. You know, if we look at this July after Spirit failed, Delta's about half the departures with American at nearly 30%.",
+      "zh": "并不算。因为拉瓜迪亚并不是在真空中孤立运营的。你看，如果看今年七月精神航空退场后的情况，达美大约占一半的出港航班，美航接近 30%。"
+    },
+    {
+      "id": 138,
+      "start_sec": 1267,
+      "speaker": "Brett Snyder",
+      "en": "But when you consider JFK and Newark, American still isn't very competitive in New York overall. We've talked about this way too much already.",
+      "zh": "但如果把肯尼迪和纽瓦克机场也算进来，美航在纽约整体市场上的竞争力依然不算强。这一点我们之前已经聊得够多了。"
+    },
+    {
+      "id": 139,
+      "start_sec": 1275,
+      "speaker": "Brett Snyder",
+      "en": "But you know, the airline has spent the last couple of years trying to go into bigger markets from New York, make it more attractive. But it just doesn't have the heft overall in New York, and that's a problem.",
+      "zh": "不过你知道，美航过去几年一直在尝试从纽约飞往更大的市场，想提升吸引力。但它在纽约整体就是缺乏足够的体量优势，而这就是问题所在。"
+    },
+    {
+      "id": 140,
+      "start_sec": 1288,
+      "speaker": "Brett Snyder",
+      "en": "And then after that, you're getting to a rounding error. Southwest and United have a little over 6%, Air Canada at just under 4%, JetBlue 2.5%, Frontier at 1.2%, and then Porter and BermudAir barely register.",
+      "zh": "再往下几乎就可以四舍五入忽略不计了。西南航空和美联航略高于 6%，加拿大航空略低于 4%，捷蓝航空 2.5%，边疆航空 1.2%，至于波特航空和百慕大航空更是微不足道。"
+    },
+    {
+      "id": 141,
+      "start_sec": 1301,
+      "speaker": "Brett Snyder",
+      "en": "The only thing I will add to this is that Delta may have half the flights, but it only has 45% of the seats.",
+      "zh": "我唯一要补充的一点是，达美虽然拿下了半数航班，但它的座位数占比其实只有 45%。"
+    },
+    {
+      "id": 142,
+      "start_sec": 1309,
+      "speaker": "Brett Snyder",
+      "en": "It's Southwest, United, and JetBlue that use bigger aircraft, so they have slightly more in seats. But that's because their mainline don't serve all the small destinations that Delta and American do.",
+      "zh": "西南航空、美联航和捷蓝航空用的是更大的机型，所以它们的座位数占比略高一些。但那是因为它们的干线网络不像达美和美航那样，覆盖那么多小城市航点。"
+    },
+    {
+      "id": 143,
+      "start_sec": 1320,
+      "speaker": "Jon Ostrower",
+      "en": "Let's see if we can talk a little bit more about seats. I know you don't have the exact data of seats from the 1980s, but we do know what types of aircraft airlines flew.",
+      "zh": "我们来多聊聊座位数的话题吧。我知道你手头没有上世纪 80 年代的精确座位数数据，但我们确实知道当时各家航司飞的是什么机型。"
+    },
+    {
+      "id": 144,
+      "start_sec": 1330,
+      "speaker": "Jon Ostrower",
+      "en": "We can probably deduce from that roughly how many seats were in markets. What do you think, Brett? How has capacity changed by aircraft type over the years?",
+      "zh": "我们大概能据此推算出各个市场上投放了多少座位。Brett，你怎么看？这么多年来，按机型划分的运力发生了怎样的变化？"
+    },
+    {
+      "id": 145,
+      "start_sec": 1338,
+      "speaker": "Brett Snyder",
+      "en": "This is actually really fascinating. So what I did is I broadly grouped airplanes into capacity ranges to help show what was going on, and then also jet versus prop.",
+      "zh": "这其实非常有意思。我做的分析是把飞机大致按座级区间分组，同时还区分了喷气机和涡桨飞机，这样就能看清背后的演变。"
+    },
+    {
+      "id": 146,
+      "start_sec": 1347,
+      "speaker": "Brett Snyder",
+      "en": "Anyway, LaGuardia was a prop airport for so many years. It was around 20% prop in the 1980s, which is probably like 30 of those airlines.",
+      "zh": "不管怎么说，拉瓜迪亚在很长一段时间里都是个涡桨飞机机场。20 世纪 80 年代，那里大约 20% 的航班是涡桨飞机，差不多就是那 30 来家航司飞出来的。"
+    },
+    {
+      "id": 147,
+      "start_sec": 1357,
+      "speaker": "Brett Snyder",
+      "en": "And it actually kept climbing. It hit its high in 1997, 27% prop.",
+      "zh": "而且这个比例后来还一路攀升，在 1997 年达到了 27% 的峰值。"
+    },
+    {
+      "id": 148,
+      "start_sec": 1364,
+      "speaker": "Jon Ostrower",
+      "en": "That is nuts because it wasn't that long ago. I do remember taking a prop though from LaGuardia to Baltimore. Weird market for that sort of airplane, right? Like a Dash 8?",
+      "zh": "这太疯狂了，毕竟那也不算太久远的事。不过我确实记得从拉瓜迪亚坐涡桨飞机去巴尔的摩。对这种机型来说真是个奇怪的市场，对吧？比如冲 8 之类的？"
+    },
+    {
+      "id": 149,
+      "start_sec": 1374,
+      "speaker": "Brett Snyder",
+      "en": "Yeah, I mean, but these things, these were all over the place. Because remember, US Airways was still at that time, they were flying a ton of props around the Northeast.",
+      "zh": "是啊，但当时这种飞机简直无处不在。别忘了，全美航空那会儿还在运营，他们在美国东北部飞了大量的涡桨飞机航线。"
+    },
+    {
+      "id": 150,
+      "start_sec": 1383,
+      "speaker": "Brett Snyder",
+      "en": "This was before any of the bankruptcies, so they still had so much going on there. And it did drop quickly after that.",
+      "zh": "那还是在他们经历任何一次破产之前的事，所以当时业务规模庞大。但那之后，涡桨飞机的占比确实迅速下滑了。"
+    },
+    {
+      "id": 151,
+      "start_sec": 1391,
+      "speaker": "Brett Snyder",
+      "en": "And really, pretty impressive, props exited completely in 2015.",
+      "zh": "而且说真的，令人惊叹的是，涡桨飞机在 2015 年彻底退出了拉瓜迪亚。"
+    },
+    {
+      "id": 152,
+      "start_sec": 1396,
+      "speaker": "Jon Ostrower",
+      "en": "But they're back, right? Porter's there?",
+      "zh": "但它们现在又回来了，对吧？波特航空不是在飞吗？"
+    },
+    {
+      "id": 153,
+      "start_sec": 1398,
+      "speaker": "Brett Snyder",
+      "en": "They are back, yes. Porter and Air Canada from Toronto Billy Bishop, they can only fly props into that airport. So, but you know, it's a tiny number and it's just by necessity.",
+      "zh": "是的，又回来了。波特航空和加拿大航空从多伦多比利·毕晓普机场飞过来，那个机场只允许涡桨飞机起降。不过量非常小，纯属客观限制所致。"
+    },
+    {
+      "id": 154,
+      "start_sec": 1410,
+      "speaker": "Jon Ostrower",
+      "en": "And I assume this is where the regional jets really started to pour in.",
+      "zh": "我想，支线喷气机也就是从这时候开始大举涌入的吧。"
+    },
+    {
+      "id": 155,
+      "start_sec": 1413,
+      "speaker": "Brett Snyder",
+      "en": "Right. So if we look at the number of departures operated by prop and jet aircraft with no more than 50 seats, it pretty closely mirrored the prop-only percentages up until 1997.",
+      "zh": "没错。如果我们把座位数不超过 50 座的涡桨和喷气机出港航班数放在一起看，在 1997 年之前，它的走势和纯涡桨飞机的占比几乎完全重合。"
+    },
+    {
+      "id": 156,
+      "start_sec": 1425,
+      "speaker": "Brett Snyder",
+      "en": "And that's when they started to diverge because you had these 50-seat jets that started showing up. So even though props had dropped to 13% by 2005, total aircraft at 50 seats or under spiked to over 46% of departures.",
+      "zh": "两条曲线从那之后开始分道扬镳，因为 50 座喷气机开始登场了。所以尽管到了 2005 年，涡桨飞机占比已降至 13%，但 50 座及以下机型的总出港航班占比却飙升到了 46% 以上。"
+    },
+    {
+      "id": 157,
+      "start_sec": 1442,
+      "speaker": "Brett Snyder",
+      "en": "This was the era of jets everywhere. So small cities still had decent service, but the props were going away and they were putting these small jets in.",
+      "zh": "那是一个“万物皆喷气”的时代。小城市依然能享受到不错的航班服务，只不过涡桨飞机逐渐退场，换成了这些小型喷气机来执飞。"
+    },
+    {
+      "id": 158,
+      "start_sec": 1451,
+      "speaker": "Jon Ostrower",
+      "en": "Yeah, and I mean look, the population of New York and just the size of the catchment area would suggest you're going to need a bigger airplane. Props are not going to cut it.",
+      "zh": "是啊，你看，光是纽约的人口规模和客源辐射区体量，就决定了你必须得用更大的飞机。靠涡桨飞机是远远不够的。"
+    },
+    {
+      "id": 159,
+      "start_sec": 1460,
+      "speaker": "Brett Snyder",
+      "en": "Yeah, but this is still an airport in one of the biggest cities and they're trying to connect the country to this city. And so it's a messy thing.",
+      "zh": "没错，但这毕竟是全球最大城市之一的机场，航司要努力把全国各地和这座城市连接起来。这就成了一件很棘手的事。"
+    },
+    {
+      "id": 160,
+      "start_sec": 1471,
+      "speaker": "Brett Snyder",
+      "en": "You think, okay, we want big airplanes, but how do we still serve Des Moines or whatever it's going to be? So 50-seat jets was the plan.",
+      "zh": "你会想，好吧，我们确实想要大飞机，但那样一来得梅因之类的小城市怎么飞呢？于是，50 座喷气机就成了当时的解决方案。"
+    },
+    {
+      "id": 161,
+      "start_sec": 1480,
+      "speaker": "Brett Snyder",
+      "en": "And then that really started to plummet around the Great Recession when fuel prices spiked and these airplanes were proven to be, let's just say, not very good for the mission.",
+      "zh": "后来到了大衰退时期，随着油价飙升，这些飞机被证明——咱们客气点说吧——并不太胜任这项任务，于是它们的占比就开始断崖式下跌。"
+    },
+    {
+      "id": 162,
+      "start_sec": 1495,
+      "speaker": "Jon Ostrower",
+      "en": "Yeah, there were a lot of problems with the 50-seat jets.",
+      "zh": "是啊，50 座喷气机确实存在不少问题。"
+    },
+    {
+      "id": 163,
+      "start_sec": 1500,
+      "speaker": "Brian Sumers",
+      "en": "In retrospect, one of them we now know was that there was no first class or extra legroom section.",
+      "zh": "事后来看，我们现在知道其中一大问题就是当时没有头等舱或加长腿部空间座位。"
+    },
+    {
+      "id": 164,
+      "start_sec": 1507,
+      "speaker": "Brian Sumers",
+      "en": "Yeah, the late 1990s, early 2000s were a little early for the premium craze, which really took off after the Great Recession, but at the same time, New York is New York and you would think there would have been more premium seats in that market.",
+      "zh": "是啊，90年代末到21世纪初对于高端化热潮来说还是早了点，那股热潮其实是在大衰退之后才真正兴起的；但话又说回来，纽约毕竟是纽约，按理说那个市场本该有更多高端座位的。"
+    },
+    {
+      "id": 165,
+      "start_sec": 1520,
+      "speaker": "Brett Snyder",
+      "en": "You're right though, Brian. Look, in 2005, fewer than 1% of flights were on 65- to 76-seaters, but the last aircraft with 50 seats left town in 2023. And now in 2026, more than 54% of the flights at LaGuardia are on 65- to 76-seaters.",
+      "zh": "不过你说得对，Brian。你看，2005年的时候，65至76座机型的航班占比还不到1%，而最后一架50座飞机是在2023年撤出纽约的。到了2026年的今天，拉瓜迪亚机场超过54%的航班都由65至76座机型执飞。"
+    },
+    {
+      "id": 166,
+      "start_sec": 1536,
+      "speaker": "Brian Sumers",
+      "en": "That is still a lot of airplanes, a lot of regional jets going into a big airport in the number one market in the United States.",
+      "zh": "这飞机数量依然相当庞大，全美头号市场的一座大型机场里，进出港的还是这么多支线喷气机。"
+    },
+    {
+      "id": 167,
+      "start_sec": 1544,
+      "speaker": "Brett Snyder",
+      "en": "Yep, it really is. And the percentage of mainline airplanes overall has dropped, obviously, because of that. So if you look back in the '80s, about three-quarters of the flights from LaGuardia had at least 100 seats on them—many of them widebodies, as we already talked about.",
+      "zh": "没错，确实如此。正因如此，干线飞机的整体占比显然也随之下滑。你如果回看上世纪80年代，拉瓜迪亚机场大约四分之三的航班至少有100个座位，就像我们前面聊过的，其中还有不少是宽体机。"
+    },
+    {
+      "id": 168,
+      "start_sec": 1559,
+      "speaker": "Brett Snyder",
+      "en": "And the percentages came down in that AIR-21 era when you could add small jets. That was what your option was. But it never really rebounded.",
+      "zh": "到了允许增投小型喷气机的AIR-21法案时期，这一比例就降了下来——当时航司能选的也就只有这种机型。但之后它再也没真正反弹过。"
+    },
+    {
+      "id": 169,
+      "start_sec": 1569,
+      "speaker": "Brett Snyder",
+      "en": "So today it's at around 45%, and that's because all there is are those airplanes and then the 65- to 76-seaters.",
+      "zh": "所以如今干线机型的占比大约在45%，因为现在市场上就只剩下干线飞机和65至76座机型这两类了。"
+    },
+    {
+      "id": 170,
+      "start_sec": 1582,
+      "speaker": "Brett Snyder",
+      "en": "That's everything. A widebody hasn't been scheduled there in about a decade.",
+      "zh": "全部加起来就是这些。那里已经大约十年没有定期排班的宽体机了。"
+    },
+    {
+      "id": 171,
+      "start_sec": 1588,
+      "speaker": "Brian Sumers",
+      "en": "That in and of itself is very sad. But we have a consolidation of aircraft types as well as airlines. Does that mean we've seen some changes in which cities are served, or are the same cities served just with different airplanes?",
+      "zh": "光是这一点就挺让人唏嘘的。不过现在既然机型和航司都经历了整合，这是否意味着通航城市也发生了变化，还是说通航城市还是那些，只是换了不同机型来飞？"
+    },
+    {
+      "id": 172,
+      "start_sec": 1600,
+      "speaker": "Brett Snyder",
+      "en": "Yeah, so this is a really interesting question, because I definitely went into it thinking that we would see big changes. And there has been a change, but it's not really as I expected necessarily.",
+      "zh": "嗯，这个问题非常有意思，因为我一开始查数据的时候，确实以为会看到巨大的变化。实际也的确有所变化，但未必像我预想的那样。"
+    },
+    {
+      "id": 173,
+      "start_sec": 1609,
+      "speaker": "Brett Snyder",
+      "en": "So what I did, I looked at airports by metropolitan statistical area and I grouped them into categories. So from LaGuardia to the top 25 metro areas, back in 1985, 55% of departures went to the top 25 metro areas.",
+      "zh": "我当时是按大都市统计区来梳理机场并归类统计的。如果看拉瓜迪亚飞往全美前25大都市区的航线，早在1985年，55%的离港航班都是飞往这前25大都市区的。"
+    },
+    {
+      "id": 174,
+      "start_sec": 1620,
+      "speaker": "Brett Snyder",
+      "en": "That was almost the same in 2005, but it actually climbed to 65% by 2015, only to back off down to 58% in 2025. So it hasn't changed all that much.",
+      "zh": "这个比例到2005年几乎没变，2015年时一度攀升到65%，但到2025年又回落到了58%。所以整体来看变化其实并没有那么大。"
+    },
+    {
+      "id": 175,
+      "start_sec": 1629,
+      "speaker": "Jon Ostrower",
+      "en": "I would have thought there actually would have been more service to big cities considering the way the overall industry has gone, especially, you know, with bigger airplanes coming on the scene.",
+      "zh": "考虑到整个行业的发展趋势，尤其是更大机型的投入使用，我本以为飞往大城市的航班其实会更多才对。"
+    },
+    {
+      "id": 176,
+      "start_sec": 1638,
+      "speaker": "Brett Snyder",
+      "en": "Yeah, I think so, but you know, maybe some of it's gone into the next tier, because in the 26th to 50th largest markets, share has jumped from 15% in 1985 to 20% in 2025.",
+      "zh": "是啊，我也这么想，不过或许一部分运力流向了下一梯队的城市——因为在第26至第50大市场中，航班占比从1985年的15%跃升到了2025年的20%。"
+    },
+    {
+      "id": 177,
+      "start_sec": 1653,
+      "speaker": "Brett Snyder",
+      "en": "But the smaller markets really haven't fallen off as much as I'd have expected. So if we look from the 51st to the 199th largest markets, it dipped only three points from 22.9% to 19.9%.",
+      "zh": "而较小市场的跌幅其实远没有我预料的那么大。如果我们看第51至第199大市场，其占比仅微降了3个百分点，从22.9%降到19.9%。"
+    },
+    {
+      "id": 178,
+      "start_sec": 1668,
+      "speaker": "Brett Snyder",
+      "en": "And that's an increase from 2015 when it was at 12.7%. So there is a rebound from 2015, but you know, it's only gone down those three points.",
+      "zh": "而且这比2015年的12.7%还回升了不少。所以相比2015年确实有所反弹，整体也只是降了那3个百分点而已。"
+    },
+    {
+      "id": 179,
+      "start_sec": 1682,
+      "speaker": "Brett Snyder",
+      "en": "But anything smaller than that, that's been pretty much decimated. The tiniest markets made up 7% of departures in 1985. Now it's like 2%, 2.5%.",
+      "zh": "但比这更小的市场就基本惨遭淘汰了。1985年时，最微型的市场还能占到7%的离港航班，现在大概只有2%到2.5%了。"
+    },
+    {
+      "id": 180,
+      "start_sec": 1697,
+      "speaker": "Brian Sumers",
+      "en": "Give us an idea, Brett, how big are these teeny-tiny markets?",
+      "zh": "给我们具体说说，Brett，这些超小型市场到底有多大？"
+    },
+    {
+      "id": 181,
+      "start_sec": 1702,
+      "speaker": "Brett Snyder",
+      "en": "Fair question. So the 200th largest would be something like a Charlottesville, Virginia or Burlington, Vermont. So these are real cities, just not huge ones, but below that, it gets pretty small pretty quick.",
+      "zh": "问得好。排在第200位左右的市场，大概就是弗吉尼亚州夏洛茨维尔或者佛蒙特州伯灵顿这个体量。这些都算正经城市，只是规模不算大；但再往下走，城市规模就会迅速缩水。"
+    },
+    {
+      "id": 182,
+      "start_sec": 1720,
+      "speaker": "Brian Sumers",
+      "en": "So what happened between 2015 and 2025 where the small-ish, but not teeny-tiny cities rebounded?",
+      "zh": "那么2015年到2025年之间发生了什么，让那些规模偏小、但还不算超微型的城市迎来了反弹？"
+    },
+    {
+      "id": 183,
+      "start_sec": 1729,
+      "speaker": "Brett Snyder",
+      "en": "It looks like a mix of things. So one thing is, some of these cities had their breakouts as destinations during and after the pandemic, and it stuck around. So think of like Asheville, Key West, Hilton Head, Wilmington, North Carolina.",
+      "zh": "这背后像是多重因素叠加的结果。一方面，其中一些城市在疫情期间及之后作为旅游目的地突然走红，而且热度延续了下来——比如阿什维尔、基韦斯特、希尔顿黑德，还有北卡罗来纳州的威尔明顿。"
+    },
+    {
+      "id": 184,
+      "start_sec": 1744,
+      "speaker": "Brett Snyder",
+      "en": "But you also had some new cities actually that joined the network, like Huntsville and Chattanooga. But there's another component here, and that's the elimination of the 50-seaters.",
+      "zh": "同时也有一些新城市真正加入了航线网络，比如亨茨维尔和查塔努加。但这里面还有另一个关键因素，那就是50座机型的全面淘汰。"
+    },
+    {
+      "id": 185,
+      "start_sec": 1757,
+      "speaker": "Brett Snyder",
+      "en": "Because back in 2015, 76% of seats departing LaGuardia went to the top 25 metros, but now it's down to just under 70%.",
+      "zh": "因为回到2015年，从拉瓜迪亚出发的座位中有76%是飞往前25大都市区的，而现在这一比例降到了略低于70%。"
+    },
+    {
+      "id": 186,
+      "start_sec": 1768,
+      "speaker": "Brett Snyder",
+      "en": "All the other groups came up, and I think that's because the 50-seaters are gone and now it's 65- to 76-seaters.",
+      "zh": "其他所有梯队的占比都上升了，我认为这是因为50座机型已经退出，现在换成了65至76座机型。"
+    },
+    {
+      "id": 187,
+      "start_sec": 1776,
+      "speaker": "Brett Snyder",
+      "en": "So seats to big cities—not looking at percentages, looking at actual numbers—they were only down about 1%, but the rest of them spiked.",
+      "zh": "所以如果不看百分比、只看实际座位数的话，飞往大城市的座位数只减少了大约1%，而其余所有市场的座位数都大幅攀升。"
+    },
+    {
+      "id": 188,
+      "start_sec": 1789,
+      "speaker": "Jon Ostrower",
+      "en": "Okay, so we have a lot more seats in small markets than 2015, which is kind of a surprise, but does it make sense just from...",
+      "zh": "好，也就是说小市场的座位数比2015年多了不少，这倒是有点出人意料，不过单从……的角度来看，这合理吗……"
+    },
+    {
+      "id": 189,
+      "start_sec": 1800,
+      "speaker": "Jon Ostrower",
+      "en": "upgauging alone? But does that mean we also need more big city seats?",
+      "zh": "仅仅靠机型大型化来实现吗？但这是否意味着我们也需要更多飞往大城市的座位？"
+    },
+    {
+      "id": 190,
+      "start_sec": 1804,
+      "speaker": "Brett Snyder",
+      "en": "Well, I guess that's a question. Certainly we would see that if the perimeter rule was to be lifted. I think then you'd see small jets converted into big ones going to LA, San Francisco, Seattle, Phoenix, Vegas, you name it.",
+      "zh": "嗯，这确实是个问题。如果航距限制规定取消，我们肯定会看到这种情况。我想届时你会看到原本的小型喷气机被换成大飞机，飞往洛杉矶、旧金山、西雅图、菲尼克斯、拉斯维加斯，凡是你能想到的地方都有。"
+    },
+    {
+      "id": 191,
+      "start_sec": 1818,
+      "speaker": "Brett Snyder",
+      "en": "I haven't really seen any serious talk about that lately, and it would take away from the smaller city service, so maybe it might not be as palatable for those in government. I don't know.",
+      "zh": "不过最近我没怎么看到关于这方面的严肃讨论，而且这会削减中小城市的航线服务，所以对政府官员来说可能没那么容易接受。我也说不准。"
+    },
+    {
+      "id": 192,
+      "start_sec": 1829,
+      "speaker": "Brian Sumers",
+      "en": "It's a weird thing, because do you guys remember about 10 years ago, Delta was lobbying for the perimeter rule to go away?",
+      "zh": "这事挺奇怪的，你们还记得大概10年前，达美航空一直在游说取消航距限制规定吗？"
+    },
+    {
+      "id": 193,
+      "start_sec": 1836,
+      "speaker": "Brian Sumers",
+      "en": "It was something I didn't quite understand, since especially by this point, it would probably help United and American more.",
+      "zh": "我当时有点不太明白，因为尤其是到了现在这个阶段，取消限制可能反而对美联航和美航更有利。"
+    },
+    {
+      "id": 194,
+      "start_sec": 1846,
+      "speaker": "Brian Sumers",
+      "en": "I think if the perimeter rule went away, United might not even need JFK anymore. I could just fly from LAX to LaGuardia.",
+      "zh": "我觉得如果航距限制规定取消了，美联航甚至可能都不再需要肯尼迪机场了。我直接就能从洛杉矶机场飞到拉瓜迪亚机场。"
+    },
+    {
+      "id": 195,
+      "start_sec": 1855,
+      "speaker": "Brian Sumers",
+      "en": "Just want to say again though, the perimeter rule is a little bit stupid, right? It's like one of the only times that smaller markets really like themselves some government overreach.",
+      "zh": "不过我还是想再说一次，这个航距限制规定有点蠢，对吧？这大概是少有的、中小市场会特别喜欢政府过度干预的时刻之一。"
+    },
+    {
+      "id": 196,
+      "start_sec": 1869,
+      "speaker": "Brian Sumers",
+      "en": "But I guess Grand Rapids does pretty well for itself. I think it's four daily from LaGuardia on two airlines.",
+      "zh": "不过我觉得大急流城目前的表现倒是不错。从拉瓜迪亚机场出发好像每天有四班，由两家航司执飞。"
+    },
+    {
+      "id": 197,
+      "start_sec": 1882,
+      "speaker": "Jon Ostrower",
+      "en": "Well, okay, well here's the thing. This is why the whole like US airline deregulation thing always kind of struck me as kind of funny, because there is still so much government involvement in aviation,",
+      "zh": "嗯，好吧，其实问题是这样的。这就是为什么所谓的美国航空业放松管制这件事总让我觉得挺滑稽的，因为政府对航空业的介入依然非常深，"
+    },
+    {
+      "id": 198,
+      "start_sec": 1892,
+      "speaker": "Jon Ostrower",
+      "en": "especially in airports, especially in slots, especially in all these, you know, restrictions. But I would love to see the heads of network for the top 10 US airlines into a room and be like—",
+      "zh": "尤其是在机场、在起降时刻以及所有这些限制措施上。不过我倒很想把美国前十大航司的航线网络负责人叫到一个房间里，然后问他们——"
+    },
+    {
+      "id": 199,
+      "start_sec": 1901,
+      "speaker": "Brett Snyder",
+      "en": "Do we still have 10?",
+      "zh": "我们现在还有10家吗？"
+    },
+    {
+      "id": 200,
+      "start_sec": 1902,
+      "speaker": "Jon Ostrower",
+      "en": "You can find 10. Okay, we'll go top eight. Get them in a room and do a tabletop exercise: What would your network look like if DCA and LaGuardia had no restrictions?",
+      "zh": "能凑出10家的。好吧，那就前八大吧。把他们叫到一起做个桌面推演：如果里根国家机场和拉瓜迪亚机场没有任何限制，你们的航线网络会是什么样？"
+    },
+    {
+      "id": 201,
+      "start_sec": 1915,
+      "speaker": "Brian Sumers",
+      "en": "And no members of Congress.",
+      "zh": "而且还没有国会议员干涉。"
+    },
+    {
+      "id": 202,
+      "start_sec": 1919,
+      "speaker": "Jon Ostrower",
+      "en": "So, like, where would you go? What would it actually look like if you weren't, you know, serving, you know, 535 people?",
+      "zh": "就是说，你们会飞去哪里？如果你们不用服务那535位国会议员的话，航线网络实际上会变成什么样？"
+    },
+    {
+      "id": 203,
+      "start_sec": 1930,
+      "speaker": "Brett Snyder",
+      "en": "That is a real question. I also agree with you, I think perimeter rules are stupid. You know, DCA has created all those exemptions thanks to Congress people who do live beyond the perimeter rule.",
+      "zh": "这确实是个真问题。我也同意你的看法，我觉得航距限制规定很蠢。里根国家机场之所以搞出那么多豁免，全是因为那些住得确实超出航距限制范围的国会议员。"
+    },
+    {
+      "id": 204,
+      "start_sec": 1939,
+      "speaker": "Brett Snyder",
+      "en": "LaGuardia does not have those same pressures at this point. But anyway, who knows, but let's assume that that's not going away. You know, I don't know that anything's going to really change.",
+      "zh": "拉瓜迪亚机场目前倒没有同样的压力。但不管怎样，谁知道呢，咱们先假设这个限制不会取消。说实话，我不知道事情会不会真的有什么改变。"
+    },
+    {
+      "id": 205,
+      "start_sec": 1946,
+      "speaker": "Brett Snyder",
+      "en": "Spirit had its big city seats with big airplanes, those go away. Now JetBlue's buying enough of those slots to operate 12 more daily round trips from Spirit. It's still going to use big airplanes. Will that change anything?",
+      "zh": "精神航空原本用大飞机执飞大城市、提供不少座位，现在那些都撤出了。现在捷蓝航空正从精神航空手里买下足够多的起降时刻，用来新增每天12班往返航班。它同样还是会用大飞机来飞。这会改变什么吗？"
+    },
+    {
+      "id": 206,
+      "start_sec": 1954,
+      "speaker": "Brian Sumers",
+      "en": "Yeah, it will still use big airplanes, but I think JetBlue has been pretty clear that it's not just going to do what Spirit did in the past. In fact, it's going to do nothing like that.",
+      "zh": "是的，它还是会用大飞机，但我觉得捷蓝航空已经表达得很清楚了，它不会只是照搬精神航空过去的做法。事实上，它完全不会那样做。"
+    },
+    {
+      "id": 207,
+      "start_sec": 1965,
+      "speaker": "Brian Sumers",
+      "en": "It wants to take its loyal premium leisure travelers from the New York area to Florida, probably a little Fort Lauderdale, maybe some other places. It's going to play to its strengths, so the overall network from LaGuardia will change a bit.",
+      "zh": "它想把纽约地区忠诚的高端休闲旅客送到佛罗里达，可能会多飞一点劳德代尔堡，或许还有其他一些地方。它会发挥自己的强项，所以从拉瓜迪亚机场出发的整体航线网络还是会有一点变化。"
+    },
+    {
+      "id": 208,
+      "start_sec": 1978,
+      "speaker": "Brett Snyder",
+      "en": "Yeah, and I can't imagine JetBlue's going to fly into small cities, right? I mean, not the way it did during the Northeast Alliance with American, which was a whole thing. That was a single vision to work with American that lost a bunch of money. It's not going to work.",
+      "zh": "对，而且我也没法想象捷蓝航空会去飞小城市，对吧？我是说，不会像之前跟美航搞东北联盟时那样飞了，那完全是另一码事。当时那只是为了配合美航的单一设想，结果亏了一大笔钱。那套行不通。"
+    },
+    {
+      "id": 209,
+      "start_sec": 1993,
+      "speaker": "Brett Snyder",
+      "en": "I'm with you on Florida. Fort Lauderdale's going to get a ton, that's been their priority. But I think overall we've kind of just settled into how this airport is going to be served going forward.",
+      "zh": "佛罗里达那块我同意你的看法。劳德代尔堡会分到大量运力，这一直是他们的重点。不过我觉得总体而言，大家对于这座机场未来会如何运营，基本上已经形成稳定格局了。"
+    },
+    {
+      "id": 210,
+      "start_sec": 2007,
+      "speaker": "Brian Sumers",
+      "en": "So the smallest cities lose out, because we don't have those props buzzing around like we used to. The small-ish cities, they do okay, because they're getting bigger airplanes with 70 or 76 seats,",
+      "zh": "所以最小的城市成了输家，因为我们不再像过去那样有螺旋桨飞机飞来飞去了。规模偏小一点的城市表现倒还不错，因为它们换上了70座或76座的更大飞机，"
+    },
+    {
+      "id": 211,
+      "start_sec": 2021,
+      "speaker": "Brian Sumers",
+      "en": "so more capacity from Delta or American, or sometimes both, and those fares are pretty good. And the big markets, they're going to continue to get what they need within reason.",
+      "zh": "因此获得了来自达美航空或美航（有时甚至是两家都有）的更多运力，而且那些航线的票价也还不错。至于大市场，它们在合理范围内也会继续获得所需的运力。"
+    },
+    {
+      "id": 212,
+      "start_sec": 2034,
+      "speaker": "Brett Snyder",
+      "en": "And that's the issue. Remember, airlines wanted hundreds of new daily flights when Air 21 was launched. Who knows what they'd try to do if slots were gone or went up for bid from scratch or did a tabletop exercise.",
+      "zh": "问题就在这里。还记得《Air 21》法案刚推出时，航司每天都想要新增数百个航班。谁知道如果起降时刻取消限制、从头开始竞拍，或者真做一次桌面推演，他们会想出什么招。"
+    },
+    {
+      "id": 213,
+      "start_sec": 2048,
+      "speaker": "Brett Snyder",
+      "en": "I just—I think with such constricted supply, national policy should come into play to determine what the best way is to use these. But really, I wish they'd just build some more pavement to expand capacity. A boy can dream.",
+      "zh": "我只是觉得，在供给如此受限的情况下，国家政策应该介入，决定如何以最佳方式利用这些时刻资源。不过说真的，我真希望他们能多修点跑道和停机坪来扩大容量。人嘛，总可以做做梦的。"
+    },
+    {
+      "id": 214,
+      "start_sec": 2062,
+      "speaker": "Jon Ostrower",
+      "en": "You've been listening to The Air Show. If you have suggestions or questions for us, or if you're interested in sponsoring the podcast, email us at info@theairshowpodcast.com to get in touch.",
+      "zh": "您刚才收听的是《The Air Show》。如果您对我们有任何建议或问题，或者有兴趣赞助本播客，请发送邮件至 info@theairshowpodcast.com 与我们联系。"
+    },
+    {
+      "id": 215,
+      "start_sec": 2075,
+      "speaker": "Brian Sumers",
+      "en": "Leo Duran produced and edited this episode. Our theme music is by Joshua Mosier. Thanks for listening, and we'll be back soon.",
+      "zh": "本期节目由 Leo Duran 制作并剪辑。主题曲由 Joshua Mosier 创作。感谢您的收听，我们很快就会回来。"
+    },
+    {
+      "id": 216,
+      "start_sec": 2089,
+      "speaker": "Jon Ostrower",
+      "en": "You're a man, Brett.",
+      "zh": "Brett，你已经是个成年男人了。"
+    },
+    {
+      "id": 217,
+      "start_sec": 2091,
+      "speaker": "Brett Snyder",
+      "en": "Whatever.",
+      "zh": "随你怎么说吧。"
+    }
+  ]
+}

@@ -1,0 +1,3171 @@
+{
+  "schema_version": "3.0",
+  "show_id": "tal",
+  "guid": "46226 at https://www.thisamericanlife.org",
+  "title": "898: An Argument",
+  "pub_date": "2026-09-28T00:00:00Z",
+  "duration_sec": 3583,
+  "audio_url": "https://www.thisamericanlife.org/sites/default/files/audio/upload/archive/898.mp3",
+  "summary_zh": "本期围绕“公共平权理想与子女教育代价的伦理拉锯”展开，既是记者Nikole Hannah-Jones向社会发出的公立教育平权论证，也是她与女儿Najya绵延数年的家庭争辩。Prologue由Ira Glass与Chana Joffe-Walt引出十年前Nikole拒绝中产择校博弈、送女儿入读纽约市高贫困率社区公立小学的决定。Act One至Act Three交替呈现小学教师失职、初中课堂失序的现实挫败，以及Najya争得自主择校权考入顶尖高中后遭遇的种族疏离与学业落差；Act Four记录母女在录音室围绕“谁该承担平权代价”展开的正面交锋；Act Five中，Nikole重读早年投诉邮件后痛悟自己曾选择性遗忘女儿受过的委屈并致歉，叩问体制未变时个人牺牲的重量。",
+  "key_takeaways_zh": [
+    "Prologue（主持/记者：Ira Glass、Chana Joffe-Walt）：回顾调查记者 Nikole Hannah-Jones 十年前拒绝中产择校博弈、坚持将女儿 Najya 送入纽约市高贫困率社区公立小学并撰文引发全美道德讨论的起点。",
+    "Act One: Nikole's Choice（记者：Chana Joffe-Walt）：Nikole 回溯女儿小学四年级数学作业满篇错题却被老师盲目打勾的危机，讲述夫妻俩留守学校为全班争取补救资源，直至七年级女儿在车内质问学校低分真相的过程。",
+    "Act Two: Najya（记者：Chana Joffe-Walt）：Najya 首次独立讲述自己在缺乏秩序、毫无家庭作业的初中课堂里的挫败体验，以及她与好友上网查到学校糟糕评分和差评时的震惊与愤怒。",
+    "Act Three: Najya's Choice（记者：Chana Joffe-Walt）：面对女儿的持续抗争，Nikole 交出高中择校主导权，Najya 考入以白人和亚裔为主的顶尖公立高中，却在入学初期遭遇种族微侵犯与严峻的学业落差。",
+    "Act Four & Act Five（记者：Chana Joffe-Walt）：母女俩在录音室就“个人是否该为教育平权牺牲”展开坦诚交锋，而在尾声幕（Act Five）中 Nikole 重读早年海量投诉邮件后痛悟自己曾选择性遗忘女儿承受的代价并向其致歉。"
+  ],
+  "highlights": [
+    {
+      "start_sec": 0,
+      "title_zh": "Prologue: 择校之辩",
+      "summary_zh": "主持人 Ira Glass 与制作人 Chana Joffe-Walt 引出调查记者 Nikole Hannah-Jones 十年前关于纽约市公立学校种族隔离的封面报道。当年中产父母纷纷焦虑于如何钻制度空子避开贫困黑人社区学校，而 Nikole 选择将女儿 Najya 送入社区普通公立小学，试图以自身资源推动学校改变。十年过去，她们决定首次公开复盘这场道德实践在母女各自生命中的真实走向。",
+      "quote_en": "All of us gaming the system is making the system worse. What if we just stop?"
+    },
+    {
+      "start_sec": 577,
+      "title_zh": "Act One: 母亲的抉择",
+      "summary_zh": "Chana Joffe-Walt 讲述 Nikole 与丈夫 Faraji 克服最初的顾虑，全身心投入女儿所在的社区公立小学，Faraji 甚至担任了家长教师协会联席主席。童年曾因跨区巴士融合计划而在白人学校饱受孤立的 Nikole，欣慰地看到女儿在黑人与加勒比裔教师的滋养下建立起健康的种族认同与同理心。夫妻俩相信，唯有留在体制之内才能践行共同福祉。",
+      "quote_en": "I believe in a common good. I believe that we have to be in it together."
+    },
+    {
+      "start_sec": 874,
+      "title_zh": "四年级错题本的震动",
+      "summary_zh": "四年级家长会上得知 Najya 学业未达标后，Nikole 几经周折才从学校要回女儿的数学作业，却震惊地发现所有错题都被老师敷衍地打上了勾。面对近乎失职的教学现状，夫妻俩陷入是否转学的痛苦挣扎，但最终认为不能抛下班里其他身处贫困、毫无社会话语权的孩子。他们不仅在家里为女儿请来数学辅导，更奔走督促学区督学为全班增派师资与课后补习。",
+      "quote_en": "Like he's just putting a check mark, he's not checking her math, he's not correcting her, he's not teaching her. Every single one is wrong."
+    },
+    {
+      "start_sec": 1255,
+      "title_zh": "七年级车内的尖锐质问",
+      "summary_zh": "升入不筛选生源的社区初中后，十二岁的 Najya 与同学在网上查到了自己学校极低的考试评分，并在放学车上当面质问母亲为何明知如此仍送她入读。曾在数百个演讲台上慷慨陈词的 Nikole 握着方向盘一时语塞，意识到宏大的历史牺牲与道德逻辑在渴望优质教育机会的十二岁孩子听来显得苍白空洞。这场争论在母女之间反复拉锯，埋下了此后择校转向的伏笔。",
+      "quote_en": "She was like, did you know my school had test scores like this when you decided to send me here?"
+    },
+    {
+      "start_sec": 1500,
+      "title_zh": "Act Two: 女儿的视角",
+      "summary_zh": "Najya 在单独受访时坦言自己从未读过母亲那篇以她为封面的万字长文，因为她亲身经历着那所学校的日常。在她记忆里，初中课堂打架与恶作剧频发、毫无纪律可言，甚至连一份家庭作业都没有，让她和朋友深感学不到东西。当七年级开始筹备高中申请时，网上触目惊心的低分与差评彻底点燃了她对母亲择校决定的不满。",
+      "quote_en": "We honestly did want to get more things because we knew that we weren't learning enough. We didn't know anything."
+    },
+    {
+      "start_sec": 1846,
+      "title_zh": "Act Three: 她的选择",
+      "summary_zh": "听进女儿“真正在教室里上课的人是我”的抗议后，Nikole 决定不再让此事成为母女关系的阴影，将高中择校权完全交给十二岁的 Najya。Najya 列出了一份与母亲毕生理念截然相反的申请清单——全是高分筛选、以白人和亚裔学生为主的精英公立高中，甚至一度宣称大学想考哈佛大学而非母亲任教的霍华德大学。Nikole 虽暗自五味杂陈，仍信守承诺由女儿自己做主。",
+      "quote_en": "Like my child came up with like the exact opposite of my life's work. And every school on there is a school that screens and has hardly no Black kids."
+    },
+    {
+      "start_sec": 2291,
+      "title_zh": "顶尖高中的文化与学业冲击",
+      "summary_zh": "Najya 如愿考入第一志愿的富裕社区顶尖高中，却在开学短短两周后便提出想要转学。她不仅首次亲历白人同学肆无忌惮地说种族歧视字眼、厌恶周围养尊处优却对社会历史一无所知的风气，更因过往基础薄弱而在学业上倍感吃力，人生第一次拿到 C 等成绩。在父母的课外辅导支持与坚持下，她度过愤怒而艰难的高一，最终在高二稳住阵脚。",
+      "quote_en": "Within two weeks, she was ready to transfer. She wanted to transfer out of the school."
+    },
+    {
+      "start_sec": 2529,
+      "title_zh": "Act Four: 母女对峙",
+      "summary_zh": "十六岁的 Najya 与母亲一同走进录音室，就当年的择校决定展开正面辩论。Nikole 强调前辈黑人家庭曾为平权甘冒生命危险、中产家庭唯有进入薄弱学校才能改变权力结构；Najya 则犀利反击，直言连基本分数运算都靠家教补习的经历让她在高一深感自己像“白人学校里的笨黑人女孩”，质问母亲为何不能用不牺牲她学业的方式去帮助别人。尽管分歧依旧，母女俩仍在交锋末尾肯定了彼此如今的状态。",
+      "quote_en": "So you put me on the line to help a school, but it didn't work."
+    },
+    {
+      "start_sec": 3065,
+      "title_zh": "Act Five: 邮件铁证",
+      "summary_zh": "为撰写新文章核查事实时，Nikole 在得克萨斯州出差的酒店房间里翻出了当年发给小学的数十页邮件，里面密密麻麻记录着老师频繁缺勤、校方长期漠视不回的细节。她震惊地意识到，为了让自己心安理得地坚持当初的选择，她在大脑中抹去了大量糟糕记忆，也终于理解了女儿深感被背叛的愤怒。恰在此时女儿打来电话，眼眶湿润的 Nikole 郑重向女儿道歉，承认自己当年没有真正倾听她的感受。",
+      "quote_en": "I don't feel like you got the education you deserved, and I don't feel that I listened to you enough. I just said, I'm sorry."
+    },
+    {
+      "start_sec": 3334,
+      "title_zh": "无解的牺牲与公共省思",
+      "summary_zh": "Chana Joffe-Walt 感叹极少有人敢在公众面前如此坦诚地剖析关乎子女教育的抉择瑕疵。回望过去十年全美公立学校依然固若金汤的种族与阶层隔离，当无数家庭付出真实牺牲却未换来体制变革时，连一贯以雄辩著称的 Nikole 也坦言不知该再呼吁何种方案。但她拒绝让任何人包括自己在内获得廉价的道德赦免，坚持要求公众直面不公体制下每一次选择背后的代价。",
+      "quote_en": "I don't want us to be absolved by it, not even me. I want us to come at the end of this story sharing my sense of devastation."
+    }
+  ],
+  "vocab_notes": [
+    {
+      "term": "game the system",
+      "meaning_zh": "钻制度空子；利用规则漏洞谋取优势",
+      "note_zh": "常指摸透公立教育招生、学区划分或天才班选拔规则以替自家孩子抢占优质学位，精准概括了大城市中产家庭的择校焦虑。",
+      "start_sec": 118
+    },
+    {
+      "term": "lose its legs",
+      "meaning_zh": "失去持续影响力；传播后劲消退",
+      "note_zh": "新闻与出版界常用习语“have legs”形容报道具有长久生命力，节目中“never lost its legs”意指该文章十年间始终引发读者热议。",
+      "start_sec": 386
+    },
+    {
+      "term": "absolve",
+      "meaning_zh": "赦免；免除（道德罪责或负罪感）",
+      "note_zh": "原为天主教神父赦免信徒罪孽的宗教词汇，Nikole 借“我不是你的神父”反讽中产父母向她倾诉择校苦衷以求心理宽恕的行为。",
+      "start_sec": 404
+    },
+    {
+      "term": "on grade level",
+      "meaning_zh": "达到同年级学业标准",
+      "note_zh": "美国基础教育核心评估术语，指学生阅读或数学水平达到所在年级的基准线，“not on grade level”即学业落后于预期进度。",
+      "start_sec": 826
+    },
+    {
+      "term": "screen students",
+      "meaning_zh": "筛选生源；按成绩与出勤选拔学生",
+      "note_zh": "纽约市公立学校体系的关键术语，“screened schools”指设录取门槛的公立名校，常被批评在客观上加剧了种族与阶层隔离。",
+      "start_sec": 1219
+    },
+    {
+      "term": "no one is a prophet in her own home",
+      "meaning_zh": "先知在本乡不受敬重；名人在自家没有权威",
+      "note_zh": "化用自《新约·路加福音》典故，主持人以此幽默调侃名满全美的调查记者在自家女儿面前却说服力失灵、连封面代表作都没被女儿读过。",
+      "start_sec": 1489
+    },
+    {
+      "term": "take the reins",
+      "meaning_zh": "掌管大局；接过主导权",
+      "note_zh": "源自驾马时握紧缰绳的意象，在叙事中比喻母亲正式放手、交由十二岁的女儿全权主导高中调研与志愿申请。",
+      "start_sec": 2191
+    },
+    {
+      "term": "PWI",
+      "meaning_zh": "以白人为主的高等院校（Predominantly White Institution）",
+      "note_zh": "美国高教语境中与 HBCU（历史黑人院校，如霍华德大学）相对的缩略词，折射出非裔家庭在大学择校时的身份认同张力。",
+      "start_sec": 2242
+    },
+    {
+      "term": "bougie",
+      "meaning_zh": "摆阔气的；小资做派、势利傲慢的",
+      "note_zh": "源自法语“bourgeois”的美式口语与青年俚语，女儿用它吐槽精英高中里家境优渥却脱离社会现实、自视甚高的同龄人。",
+      "start_sec": 2351
+    },
+    {
+      "term": "put someone on the line",
+      "meaning_zh": "让某人冒风险；将某人推上前线承受代价",
+      "note_zh": "习语“on the line”意为处于风险关头，母女二人围绕这一短语正面交锋，直指父母能否用孩子的受教育机会为社会理想买单的核心追问。",
+      "start_sec": 3004
+    }
+  ],
+  "references": [
+    {
+      "title": "Choosing a School for My Daughter in a Segregated City",
+      "creator": "Nikole Hannah-Jones",
+      "category": "article",
+      "note_zh": "Nikole Hannah-Jones 十年前发表于《纽约时报杂志》的封面长文，阐述她拒绝择校博弈、送女儿入读社区公立学校的初衷，是本期节目一切讨论的起点。",
+      "start_sec": 304,
+      "links": []
+    },
+    {
+      "title": "In Fighting for Every Black Child, Did I Betray My Own?",
+      "creator": "Nikole Hannah-Jones",
+      "category": "article",
+      "note_zh": "Nikole Hannah-Jones 在《纽约时报杂志》同步发表的十年回访长文，与本期播客互为补充，公开复盘这段公立教育选择对女儿与自身的深远影响。",
+      "start_sec": 3556,
+      "links": []
+    }
+  ],
+  "transcript": [
+    {
+      "id": 1,
+      "start_sec": 0,
+      "speaker": "Ira Glass",
+      "en": "Hey there, everybody. Ira Glass here. So our show today is something that producer Chana Joffe-Walt has been collaborating on with reporter Nikole Hannah-Jones.",
+      "zh": "大家好，我是 Ira Glass。今天这期节目是由制作人 Chana Joffe-Walt 与记者 Nikole Hannah-Jones 合作采制的。"
+    },
+    {
+      "id": 2,
+      "start_sec": 10,
+      "speaker": "Ira Glass",
+      "en": "And Nikole's version of the story, which is in The New York Times Magazine, is something that many, many people are discussing online right now.",
+      "zh": "Nikole 写的那篇报道发表在《纽约时报杂志》上，目前正在网上引发极其热烈的讨论。"
+    },
+    {
+      "id": 3,
+      "start_sec": 19,
+      "speaker": "Ira Glass",
+      "en": "And I just want to say that if you have seen that article, there are a lot of things in what you're about to hear that are not in the article. Particularly, you'll get to hear at length from Nikole's daughter.",
+      "zh": "我想先说明一下，就算你读过那篇文章，接下来你听到的内容里也有很多文章没写到的细节。尤其是，你会听到 Nikole 女儿大段的心声。"
+    },
+    {
+      "id": 4,
+      "start_sec": 31,
+      "speaker": "Ira Glass",
+      "en": "And there are things that commenters are raising online that get interestingly addressed in our version. If you have no idea what I'm talking about, don't worry. All of this will become clear.",
+      "zh": "而且网上评论区争论的不少焦点，也会在我们的节目版本中得到耐人寻味的回应。如果你完全不知道我在说什么，别担心，听下去就全都明白了。"
+    },
+    {
+      "id": 5,
+      "start_sec": 41,
+      "speaker": "Ira Glass",
+      "en": "And with that, here's Chana Joffe-Walt talking with Nikole Hannah-Jones. These are recordings made as Nikole was in the process of writing that article.",
+      "zh": "话不多说，下面有请 Chana Joffe-Walt 和 Nikole Hannah-Jones 的对话。这些录音是在 Nikole 撰写那篇文章期间录制的。"
+    },
+    {
+      "id": 6,
+      "start_sec": 50,
+      "speaker": "Chana Joffe-Walt",
+      "en": "I'm going to make sure we're recording.",
+      "zh": "我确认一下设备已经在录了。"
+    },
+    {
+      "id": 7,
+      "start_sec": 52,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "All right.",
+      "zh": "好。"
+    },
+    {
+      "id": 8,
+      "start_sec": 53,
+      "speaker": "Chana Joffe-Walt",
+      "en": "Has it been 10 years since you've been in here?",
+      "zh": "距离你上次来这儿，已经过去十年了吗？"
+    },
+    {
+      "id": 9,
+      "start_sec": 56,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "I'm trying to think when-- I'm like, damn. I know it's been a long time. How long has it been?",
+      "zh": "我在回想那是什么时候……天呐，我知道过了很久，但到底有多久了？"
+    },
+    {
+      "id": 10,
+      "start_sec": 62,
+      "speaker": "Chana Joffe-Walt",
+      "en": "That's Nikole. And this is a ritual I find myself in with some frequency at my age-- beginning social interactions with an accounting of time that inevitably leads to a conversation about the kids, where they were then and where they are now.",
+      "zh": "这位就是 Nikole。到了我这个年纪，这种寒暄成了家常便饭：一见面先掰着指头算时间，接着话题必然绕到孩子身上——当年才多大，如今又怎样了。"
+    },
+    {
+      "id": 11,
+      "start_sec": 76,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "And my child was just getting ready to start school. And now my child is a sophomore getting ready to celebrate her sweet 16. So...",
+      "zh": "当时我家孩子才刚准备上小学，现在她都上高二，准备办 16 岁生日派对啦。所以……"
+    },
+    {
+      "id": 12,
+      "start_sec": 84,
+      "speaker": "Chana Joffe-Walt",
+      "en": "That is wild.",
+      "zh": "太不可思议了。"
+    },
+    {
+      "id": 13,
+      "start_sec": 85,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "That is wild.",
+      "zh": "确实不可思议。"
+    },
+    {
+      "id": 14,
+      "start_sec": 86,
+      "speaker": "Chana Joffe-Walt",
+      "en": "Really, 16?",
+      "zh": "真的吗，都 16 岁了？"
+    },
+    {
+      "id": 15,
+      "start_sec": 87,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "She will be 16 next month. Yeah. Time.",
+      "zh": "下个月就满 16 岁了。是啊，时光飞逝。"
+    },
+    {
+      "id": 16,
+      "start_sec": 96,
+      "speaker": "Chana Joffe-Walt",
+      "en": "Nikole and I spent a lot of time talking about our kids 10 years ago and talking about schools. We were reporting together on education, specifically on inequality and systemic racism in American public schools--",
+      "zh": "十年前，我和 Nikole 花了大量时间聊孩子，聊学校。当时我们正一起做教育报道，聚焦美国公立学校里的不平等和系统性种族歧视——"
+    },
+    {
+      "id": 17,
+      "start_sec": 109,
+      "speaker": "Chana Joffe-Walt",
+      "en": "how decades of policy choices have left public schools deeply unequal, many schools completely neglected. And meanwhile, Nikole and I had little kids.",
+      "zh": "探讨几十年来的政策取向如何导致公立学校资源极度失衡，许多学校彻底被边缘化。而与此同时，我和 Nikole 自己也都有年幼的孩子。"
+    },
+    {
+      "id": 18,
+      "start_sec": 118,
+      "speaker": "Chana Joffe-Walt",
+      "en": "And in our own lives, the conversation among parents was how to game the system to be sure that your children do not end up in one of those schools.",
+      "zh": "回到现实生活里，身边家长们聊的全是如何钻这套体系的空子，确保自家孩子千万别被分进那种学校。"
+    },
+    {
+      "id": 19,
+      "start_sec": 128,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "Literally every middle-class parent, no matter what their race was, was like, you have to put her in, you know, talented and gifted prep courses because they test at four.",
+      "zh": "简直每一个中产阶级家长——不管是什么族裔——都在跟你说，必须得送她去上天才班备考辅导班，因为四岁就要参加测试了。"
+    },
+    {
+      "id": 20,
+      "start_sec": 138,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "And you have to decide if you're going to put her in private school. But you're definitely not going to put her in the neighborhood school, and I lived in the heavily Black, high-poverty neighborhood.",
+      "zh": "而且你得决定要不要送她去读私立学校。反正你绝对不会把她送去对口社区学校——而我当时住的，正好是个以黑人为主、贫困率很高的社区。"
+    },
+    {
+      "id": 21,
+      "start_sec": 149,
+      "speaker": "Chana Joffe-Walt",
+      "en": "These questions, what are you going to do about school, started right out of the gate.",
+      "zh": "“上学的事你们打算怎么办？”——这种拷问从孩子刚落地就开始了。"
+    },
+    {
+      "id": 22,
+      "start_sec": 154,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "I mean, my response was, she's one. And people would look at me like, oh, you're so naive. I remember people being like, you silly woman.",
+      "zh": "我的反应就是：“她才一岁啊。”可别人看我的眼神就像在说：“哦，你太天真了。”我记得还有人直接说：“你这傻女人。”"
+    },
+    {
+      "id": 23,
+      "start_sec": 164,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "And people actually felt that that was not being a good parent, frankly.",
+      "zh": "说实话，大家甚至真的觉得那样做算不上称职的家长。"
+    },
+    {
+      "id": 24,
+      "start_sec": 170,
+      "speaker": "Chana Joffe-Walt",
+      "en": "This intense, often judgmental scramble is something parents in places all over America do. But in New York City where Nikole and I live, it's arguably the most extreme version.",
+      "zh": "这种高度焦虑、动辄评头论足的择校混战，全美各地的家长都在经历。但在我和 Nikole 居住的纽约市，这种竞争堪称登峰造极。"
+    },
+    {
+      "id": 25,
+      "start_sec": 182,
+      "speaker": "Chana Joffe-Walt",
+      "en": "Parents have spreadsheets of schools, endless advice. You're going to want to avoid this school. Apply to this program. Maybe move to a different neighborhood.",
+      "zh": "家长们手里都有密密麻麻的学校 Excel 表格和数不尽的攻略：“这所学校一定要避开，去申请那个项目，实在不行干脆搬家换个学区。”"
+    },
+    {
+      "id": 26,
+      "start_sec": 191,
+      "speaker": "Chana Joffe-Walt",
+      "en": "Any contortion makes sense, not even to strive for an elite school, but to avoid a, quote, \"bad school.\" What were the bad schools?",
+      "zh": "为了择校再怎么折腾都显得合情合理——甚至不是为了挤进顶尖名校，而只是为了避开所谓的“差学校”。那“差学校”又是指哪些学校呢？"
+    },
+    {
+      "id": 27,
+      "start_sec": 201,
+      "speaker": "Chana Joffe-Walt",
+      "en": "Well, New York City has one of the most racially and economically segregated school systems in the country. The, quote, \"bad schools\" that families with options tried to avoid were disproportionately Black, Latino, and poor.",
+      "zh": "是这样的，纽约市的学校系统是全美种族与经济隔离最为严重的体系之一。有选择余地的家庭拼命想避开的那些所谓“差学校”，生源绝大多数是黑人、拉丁裔以及贫困家庭的孩子。"
+    },
+    {
+      "id": 28,
+      "start_sec": 216,
+      "speaker": "Chana Joffe-Walt",
+      "en": "In her reporting, Nikole had seen that Black students all over the country are concentrated in schools like this, where they're less likely to have the best teachers or curricula or facilities.",
+      "zh": "在报道中，Nikole 亲眼看到全国各地的黑人学生都集中在这样的学校里，在那里，他们很难享受到最优质的师资、课程或教学设施。"
+    },
+    {
+      "id": 29,
+      "start_sec": 228,
+      "speaker": "Chana Joffe-Walt",
+      "en": "And one reason that happens is that wealthy and middle-class families, like hers, opt out of those schools.",
+      "zh": "而造成这种局面的原因之一，正是像她这样富裕或中产的家庭纷纷选择避开这些学校。"
+    },
+    {
+      "id": 30,
+      "start_sec": 236,
+      "speaker": "Chana Joffe-Walt",
+      "en": "So Nikole, who had a young Black daughter and had been a young Black girl herself, when her daughter Najya got to be school aged, she did not make a spreadsheet. She did not game the system.",
+      "zh": "于是，本身作为黑人女性长大、如今又有了一个黑人小女儿的 Nikole，在女儿 Najya 到学龄时，没有做择校表格，也没有去钻体系的空子。"
+    },
+    {
+      "id": 31,
+      "start_sec": 249,
+      "speaker": "Chana Joffe-Walt",
+      "en": "She enrolled Najya in a regular public school, the kind of school most New York City kids end up in. The students mostly came from the neighborhood, Black and Latino kids, poor and working class.",
+      "zh": "她把 Najya 送进了一所普通的公立学校，也就是大多数纽约市孩子会去的学校。学生主要来自周边社区，大多是贫困或工薪阶层的黑人和拉丁裔孩子。"
+    },
+    {
+      "id": 32,
+      "start_sec": 261,
+      "speaker": "Chana Joffe-Walt",
+      "en": "Here's how Nikole saw it. She thought if more parents with advantage like her are inside a school, they could add their weight. They'll be personally invested.",
+      "zh": "Nikole 当时是这么想的：如果有更多像她这样拥有优势资源的家长把孩子送进这样的学校，就能把自己的分量压上去，成为真正的利益相关方。"
+    },
+    {
+      "id": 33,
+      "start_sec": 270,
+      "speaker": "Chana Joffe-Walt",
+      "en": "They'll be paying attention and seeing when there are problems. They can advocate for a school for funding, for more experienced teachers, for extra programming so all the students in the school, including their own kids, have what they need to learn.",
+      "zh": "他们会留心观察、及时发现问题，为学校争取经费、更有经验的老师以及课外项目，这样学校里的所有孩子——也包括他们自己的孩子——都能获得学习所需的资源。"
+    },
+    {
+      "id": 34,
+      "start_sec": 286,
+      "speaker": "Chana Joffe-Walt",
+      "en": "Nikole wrote about all this in a cover story for The New York Times Magazine 10 years ago. And on the cover there was little Najya in her school uniform, afro puffs, serious face...",
+      "zh": "十年前，Nikole 把这一切写成了一篇《纽约时报杂志》的封面报道。封面上的小 Najya 穿着校服，梳着双丸子爆炸头，神情严肃地……"
+    },
+    {
+      "id": 35,
+      "start_sec": 300,
+      "speaker": "Chana Joffe-Walt",
+      "en": "looking right at the camera, and the headline—",
+      "zh": "正直视着镜头，封面标题写着——"
+    },
+    {
+      "id": 36,
+      "start_sec": 304,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "\"Choosing a School for my Daughter in a Segregated City.\"",
+      "zh": "《在种族隔离的城市里为女儿择校》。"
+    },
+    {
+      "id": 37,
+      "start_sec": 307,
+      "speaker": "Chana Joffe-Walt",
+      "en": "I remember seeing it.",
+      "zh": "我记得当时看到那期封面。"
+    },
+    {
+      "id": 38,
+      "start_sec": 308,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "So that's the setup.",
+      "zh": "背景就是这样。"
+    },
+    {
+      "id": 39,
+      "start_sec": 309,
+      "speaker": "Chana Joffe-Walt",
+      "en": "I remember seeing it and being like, oh, she did it.",
+      "zh": "我记得当时看见时心想：哇，她真这么干了。"
+    },
+    {
+      "id": 40,
+      "start_sec": 311,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "Yeah. Yeah, because you and I, we talked a lot about it.",
+      "zh": "是啊，因为咱们俩那会儿也经常聊这事。"
+    },
+    {
+      "id": 41,
+      "start_sec": 316,
+      "speaker": "Chana Joffe-Walt",
+      "en": "It was an earthquake of a story, Nikole putting the matter bluntly to parents. All of us gaming the system is making the system worse. What if we just stop?",
+      "zh": "那篇报道堪称一场舆论地震，Nikole 把话直白地摊在所有家长面前：我们所有人都在钻制度的空子，结果只会让这套制度变得更糟。要不，我们干脆别这么干了？"
+    },
+    {
+      "id": 42,
+      "start_sec": 326,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "I was really, really shocked by the impact that this piece had.",
+      "zh": "那篇文章引发的反响，真的让我非常震撼。"
+    },
+    {
+      "id": 43,
+      "start_sec": 334,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "People were both writing, but also just sharing their story with me at my public speeches or other events that I was giving, like face to face, which was extremely powerful for me as well.",
+      "zh": "大家不仅给我写信，还会在我做公开演讲或其他活动时，当面向我倾诉他们的故事，这种面对面的交流也让我深受触动。"
+    },
+    {
+      "id": 44,
+      "start_sec": 346,
+      "speaker": "Chana Joffe-Walt",
+      "en": "I feel like you're underselling how much influence this had on—",
+      "zh": "我觉得你有点轻描淡写了，那篇文章带来的影响其实远不止——"
+    },
+    {
+      "id": 45,
+      "start_sec": 348,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "Am I? What am I supposed to say?",
+      "zh": "有吗？那我该怎么说才好？"
+    },
+    {
+      "id": 46,
+      "start_sec": 350,
+      "speaker": "Chana Joffe-Walt",
+      "en": "So like, there's school districts across the country that were suddenly talking about something that they had not been talking about—not just parents, but actual people controlling school policy.",
+      "zh": "我的意思是，全国各地的学区突然都在讨论一个以前根本没人碰的话题——不光是家长，连真正手握教育政策大权的人也在谈。"
+    },
+    {
+      "id": 47,
+      "start_sec": 362,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "Yes. In some ways, this was my dream as a journalist.",
+      "zh": "没错。从某种意义上说，这就是我作为记者的梦想。"
+    },
+    {
+      "id": 48,
+      "start_sec": 369,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "I became a writer because I wanted society to change, so I always write in a way where I'm trying to persuade people by making a moral argument.",
+      "zh": "我之所以提笔写作，就是想推动社会改变，所以我写东西向来都带有明确的道德立场，想方设法去说服读者。"
+    },
+    {
+      "id": 49,
+      "start_sec": 381,
+      "speaker": "Chana Joffe-Walt",
+      "en": "That's what the story was, an argument, and it landed with so many people.",
+      "zh": "那篇报道本身就是一个鲜明的论点，而且确实打动了无数人。"
+    },
+    {
+      "id": 50,
+      "start_sec": 386,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "This story just, in some ways, never lost its legs. I was in Boston a few weeks ago, and a woman who has a six-year-old—her child wasn't even born when the story came out—said that this story guided her education decision-making for her child.",
+      "zh": "从某种程度上讲，这篇报道的生命力一直没褪。几周前我在波士顿，有位妈妈告诉我，她家孩子才六岁——报道刊出时孩子还没出生呢——但她正是照着那篇文章的思路，为孩子做的教育选择。"
+    },
+    {
+      "id": 51,
+      "start_sec": 404,
+      "speaker": "Chana Joffe-Walt",
+      "en": "In a lot of your events, there were some people who would come up to you to sort of absolve them of the choices they'd made.",
+      "zh": "在你参加的很多活动上，总会有人凑上来，像是想让你替他们做出的选择“宽宥解脱”。"
+    },
+    {
+      "id": 52,
+      "start_sec": 409,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "Oh, all the time. Almost every public event I would do, either during the question-and-answer session or after the event, they would kind of corner you.",
+      "zh": "哦，天天如此。几乎每次公开活动，不管是问答环节还是散场之后，他们都会把你堵在角落里。"
+    },
+    {
+      "id": 53,
+      "start_sec": 420,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "And there would inevitably be a parent or parents who would explain why they really, really, really believed in what I was saying, and they believed in the power of equality, but they just couldn't make that choice for whatever reason.",
+      "zh": "然后总会有家长跑来跟你解释，说他们真的、真的特别认同我的观点，也相信教育平权的力量，但因为种种原因，自己实在没法做出那样的选择。"
+    },
+    {
+      "id": 54,
+      "start_sec": 436,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "And I'd always be like, you know, OK. I'm not your priest. I cannot absolve you, and I don't want to absolve you. I wanted you to be forced to be like, what about these kids? What do they deserve?",
+      "zh": "而我每次都会回他们：好吧，可我又不是你的神父。我没法赦免你，也不想赦免你。我就是要逼着你去想一想：那其他那些孩子怎么办？他们难道不配拥有好教育吗？"
+    },
+    {
+      "id": 55,
+      "start_sec": 455,
+      "speaker": "Chana Joffe-Walt",
+      "en": "So for 10 years, Nikole has talked publicly all over the country about every aspect of this article, except how it played out in her own life, for her and her kid.",
+      "zh": "就这样，整整十年来，Nikole 在全国各地公开谈论过这篇文章的方方面面——唯独没怎么提起，这个选择在她自己和女儿的生活里究竟演变成了什么样。"
+    },
+    {
+      "id": 56,
+      "start_sec": 467,
+      "speaker": "Chana Joffe-Walt",
+      "en": "And she decided she wanted to write about what happened and talk through it. So many months ago, Nikole reached out to me to ask if I wanted to hear everything that happened after the article was published.",
+      "zh": "后来她决定把后续发生的事写出来，也好好聊透。于是几个月前，Nikole 联系了我，问我想不想听听那篇报道发表后发生的一切。"
+    },
+    {
+      "id": 57,
+      "start_sec": 479,
+      "speaker": "Chana Joffe-Walt",
+      "en": "Yes, I did. She thought all the people who read her original essay 10 years ago and thought about it and talked to her about it and passed it on to others deserved to know how it actually turned out.",
+      "zh": "我当然想听。她觉得，十年前读过她那篇文章、为此深思过、找她讨论过、又把文章分享给别人的人，都有权知道这件事最终的真实结局。"
+    },
+    {
+      "id": 58,
+      "start_sec": 491,
+      "speaker": "Chana Joffe-Walt",
+      "en": "And she thought her daughter, Najya, deserved a chance to share her perspective too. Najya was eager to talk. She had a lot she wanted to say about this, and she has a very different take from her mom's.",
+      "zh": "她也觉得，女儿 Najya 同样应该有机会讲出自己的看法。Najya 对此迫不及待，她有一肚子话想说，而且她的感受和妈妈截然不同。"
+    },
+    {
+      "id": 59,
+      "start_sec": 502,
+      "speaker": "Chana Joffe-Walt",
+      "en": "What you're going to hear is a series of conversations that took place before Nikole published her recent New York Times article, as she was trying to figure out in real time what she would write about all this.",
+      "zh": "接下来你们将听到的一系列对话，都发生在 Nikole 最近在《纽约时报》发表新文章之前——当时她正一边聊，一边实时梳理自己到底该怎么写这段经历。"
+    },
+    {
+      "id": 60,
+      "start_sec": 513,
+      "speaker": "Chana Joffe-Walt",
+      "en": "I talked to Nikole, and later I talked to Najya, and she talks to her mom. These are our conversations, throughout which I was so alert and on edge sometimes.",
+      "zh": "我先和 Nikole 聊，后来又和 Najya 聊，她俩母女也直接对话。在整个对话过程中，我有时神经高度紧绷，甚至如履薄冰。"
+    },
+    {
+      "id": 61,
+      "start_sec": 525,
+      "speaker": "Chana Joffe-Walt",
+      "en": "It is rare to hear a person who made a big, influential argument come forward and say, honestly, this is how it actually played out, and then publicly face their teenager. Who subjects themselves to that?",
+      "zh": "一个人当年提出过影响巨大的主张，如今却罕见地站出来坦白：“说实话，事情后来就是这么发展的”，而且还要公开直面自己青春期女儿的拷问——哪有人会主动往枪口上撞啊？"
+    },
+    {
+      "id": 62,
+      "start_sec": 538,
+      "speaker": "Chana Joffe-Walt",
+      "en": "That's today's show, \"An Argument,\" in five acts—two people willing to talk about some of the country's most enduring problems and look at how they unfolded in their own lives as mother and daughter. From WBEZ Chicago, it's This American Life. Stay with us.",
+      "zh": "这就是今天这期分成五幕的节目《An Argument》（一场争论）——母女二人愿意直面这个国家最顽固的社会难题，看看它们如何在自己的亲身生活里一步步展开。这里是来自 WBEZ Chicago 的《This American Life》，精彩继续，请勿走开。"
+    },
+    {
+      "id": 63,
+      "start_sec": 577,
+      "speaker": "Chana Joffe-Walt",
+      "en": "It's This American Life, Act One—Nikole's Choice.",
+      "zh": "欢迎回到《This American Life》，现在进入 Act One：Nikole 的选择。"
+    },
+    {
+      "id": 64,
+      "start_sec": 581,
+      "speaker": "Chana Joffe-Walt",
+      "en": "Nikole had been the one to pick the school back when Najya was little. Her husband, Faraji, had been reluctant to send Najya there. He worried they'd be hurting her, asked Nikole, is this us experiment—",
+      "zh": "当年 Najya 还小的时候，是 Nikole 拍板选的这所学校。她丈夫 Faraji 起初并不情愿把 Najya 送去那里，他担心这样会害了孩子，还问 Nikole，我们这是不是在做实验——"
+    },
+    {
+      "id": 65,
+      "start_sec": 600,
+      "speaker": "Chana Joffe-Walt",
+      "en": "-ing on our child based on idealism? They'd argued about it.",
+      "zh": "……拿自己的孩子做理想主义的实验？他们俩为此争论过。"
+    },
+    {
+      "id": 66,
+      "start_sec": 605,
+      "speaker": "Chana Joffe-Walt",
+      "en": "But once they resolved to do it, Faraji was all in. He threw himself into the school. Both of them were committed to being involved, and Faraji ended up even more involved than Nikole.",
+      "zh": "但一旦拿定主意，Faraji 就全身心投入了进去，一头扎进学校事务里。两人都铁了心要深度参与，而 Faraji 到头来比 Nikole 还要上心。"
+    },
+    {
+      "id": 67,
+      "start_sec": 614,
+      "speaker": "Chana Joffe-Walt",
+      "en": "They reassured themselves, knowing that if there were ways the school fell short, they could get Najya help. And they'd be there, watching.",
+      "zh": "他们宽慰自己，要是学校在哪些方面有所欠缺，他们完全可以给 Najya 找帮手；而且他们会一直在旁边盯着。"
+    },
+    {
+      "id": 68,
+      "start_sec": 622,
+      "speaker": "Chana Joffe-Walt",
+      "en": "They were both constantly assessing how it was going, where the school faltered, where it succeeded, what Najya was getting. They were tracking all of it, including benefits that don't get factored into lists of New York City's top schools.",
+      "zh": "夫妻俩一直在评估情况进展如何：学校哪里掉链子了，哪里做得不错，Najya 又收获了什么。所有这些他们都一一留心记着，包括那些根本不会被算进纽约市顶尖名校榜单里的好处。"
+    },
+    {
+      "id": 69,
+      "start_sec": 635,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "She got to spend her first six years of education in a school where most of the kids look like her, where she had incredible Black and— she had a Chinese American educator, she had incredible Black educators, she had Caribbean educators, amazing Black History Month celebrations.",
+      "zh": "在她受教育的头六年里，学校里大多数孩子都长得跟她一样。她遇到了很棒的黑人老师——她有位华裔美国老师，有非常出色的黑人老师，还有加勒比裔老师，学校举办的黑人历史月活动也精彩极了。"
+    },
+    {
+      "id": 70,
+      "start_sec": 652,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "They used to have the students do these self-portraits, and she would always, when she was young, make herself a dark-skinned Black woman, which I was like, yes.",
+      "zh": "学校以前常让学生画自画像，她小时候每次都会把自己画成一个深肤色的黑人女性，当时我就觉得，太棒了。"
+    },
+    {
+      "id": 71,
+      "start_sec": 662,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "Like, so you are, you know, as a Black girl seeing yourself in that lens, and not in the lens of this outside world that is saying that that's not beautiful or that's not something to aspire to.",
+      "zh": "也就是说，作为一个黑人女孩，你是用那样的视角来看待自己的，而不是用外面那个世界灌输的眼光——外面总在说那样的肤色不美，或者那不是什么值得向往的模样。"
+    },
+    {
+      "id": 72,
+      "start_sec": 675,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "And so in her formative years, she didn't have that experience that I had of feeling less than other kids, of feeling like, is there something wrong with Black people, feeling different. She didn't have that.",
+      "zh": "所以在成长塑形的那几年里，她没有经历过我当年的那种感受——觉得自己低人一等，怀疑是不是黑人天生哪里有问题，觉得自己格格不入。她完全没有那种体验。"
+    },
+    {
+      "id": 73,
+      "start_sec": 690,
+      "speaker": "Chana Joffe-Walt",
+      "en": "Like all of us, Nikole's own experience raising a child is always running parallel to the memory of her own childhood. Parenting is an ongoing act of correction.",
+      "zh": "和我们所有人一样，Nikole 自己育儿的经历，总是与她对自己童年的记忆平行交织。为人父母，本就是一场持续不断的自我修正。"
+    },
+    {
+      "id": 74,
+      "start_sec": 701,
+      "speaker": "Chana Joffe-Walt",
+      "en": "Nikole grew up being bused from her Black neighborhood to a mostly white, wealthier school. She was part of a desegregation plan. She's talked about the social isolation of being one of the only Black kids in school on our show before, the psychological toll of that.",
+      "zh": "Nikole 从小坐校车跨区上学，从她居住的黑人社区被送到一所白人居多、更加富裕的学校。她是当年消除种族隔离计划的一员。她以前在我们节目里也聊过，作为学校里寥寥无几的黑人孩子之一，那种社交上的孤立感以及随之而来的心理煎熬。"
+    },
+    {
+      "id": 75,
+      "start_sec": 716,
+      "speaker": "Chana Joffe-Walt",
+      "en": "And she didn't want that for Najya. And Najya was a different kid, growing up differently than Nikole did. Her parents had money and college degrees.",
+      "zh": "她不想让 Najya 重蹈覆辙。而且 Najya 本来就是个不一样的女孩，她的成长环境跟 Nikole 当年截然不同——她的父母有钱，也都有大学文凭。"
+    },
+    {
+      "id": 76,
+      "start_sec": 726,
+      "speaker": "Chana Joffe-Walt",
+      "en": "Nikole wanted Najya to be in the mix with other kids, to see what she had that others didn't, and to feel comfortable with everyone.",
+      "zh": "Nikole 希望 Najya 能真正融入其他孩子中间，看清自己拥有的优渥条件是别人所没有的，也能和形形色色的人自然相处。"
+    },
+    {
+      "id": 77,
+      "start_sec": 735,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "I don't want my child to feel separate from other kids. I don't want her to feel that she's better than other kids. And she started to recognize the advantages that she had.",
+      "zh": "我不希望我的孩子觉得自己跟别的孩子隔了一层，也不希望她觉得自己高人一等。后来她也确实开始意识到自己所拥有的优势。"
+    },
+    {
+      "id": 78,
+      "start_sec": 748,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "I remember she came home—there was a classmate whose older brother had been killed, and Najya was like, he doesn't have a coat. Can we get a coat for him? She had empathy and humanity.",
+      "zh": "我记得有一次她回到家——她有个同学的哥哥被人杀害了，Najya 就说，他没有外套穿，咱们能给他买一件吗？她身上带着那种同理心和人性温度。"
+    },
+    {
+      "id": 79,
+      "start_sec": 761,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "And so I felt like, that's why we're here. I believe in a common good. I believe that we have to be in it together.",
+      "zh": "于是我当时觉得，这就是我们选择留在这里的意义。我相信共同利益，我相信我们必须风雨同舟、共同面对。"
+    },
+    {
+      "id": 80,
+      "start_sec": 776,
+      "speaker": "Chana Joffe-Walt",
+      "en": "Nikole was prepared for some things in the school to be hard. And she and her husband Faraji were in the school often. Faraji volunteered regularly, organizing parents, talking to teachers, addressing issues.",
+      "zh": "Nikole 早就做好了心理准备，知道这所学校有些地方肯定不好应付。她和丈夫 Faraji 也经常往学校跑。Faraji 定期去当志愿者，组织家长、跟老师沟通、出面解决各种问题。"
+    },
+    {
+      "id": 81,
+      "start_sec": 788,
+      "speaker": "Chana Joffe-Walt",
+      "en": "He became co-president of the school's PTA. And still, there was stuff they didn't know till they heard it from Najya, starting around first grade.",
+      "zh": "他还成了学校家长教师协会的联合主席。可即便如此，还是有些事情他们蒙在鼓里，直到大概一年级起，从 Najya 嘴里听说了才知晓。"
+    },
+    {
+      "id": 82,
+      "start_sec": 799,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "She would come home a lot and say things like, it's hard to concentrate, it's hard to focus, that there was a lot of disruption in the classroom—things that we know often happen in high-poverty schools.",
+      "zh": "她经常一回到家就说，课堂上好难集中注意力，根本没法专心，教室里闹哄哄的、秩序很乱——这些都是我们知道在贫困率高的学校里常有的状况。"
+    },
+    {
+      "id": 83,
+      "start_sec": 814,
+      "speaker": "Chana Joffe-Walt",
+      "en": "And they were having an experience parents in high-poverty schools sometimes have. They were having trouble getting the school to respond, even though they were so involved.",
+      "zh": "而且他们也碰上了高贫困率学校家长常会遇到的难题：哪怕他们已经如此深度参与学校事务，想让校方做出回应却依然难如登天。"
+    },
+    {
+      "id": 84,
+      "start_sec": 826,
+      "speaker": "Chana Joffe-Walt",
+      "en": "In fourth grade, at a parent-teacher conference, Nikole and Faraji learned Najya was not on grade level, which was not something they'd heard before.",
+      "zh": "到了四年级的一次家长会上，Nikole 和 Faraji 才得知 Najya 的学业水平没有达到本年级标准——在此之前，他们从未听学校提起过这件事。"
+    },
+    {
+      "id": 85,
+      "start_sec": 834,
+      "speaker": "Chana Joffe-Walt",
+      "en": "So they immediately emailed her teachers and principal saying, we want to see her schoolwork. Please send home all her graded tests and assignments so we can look through them and see what's going on.",
+      "zh": "于是他们立刻给老师和校长发邮件，说：我们要看她的课业情况，请把她所有批改过的测验卷和作业都带回家，好让我们仔细翻看，弄清楚到底怎么回事。"
+    },
+    {
+      "id": 86,
+      "start_sec": 846,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "They wouldn't send the schoolwork home. I asked them, and they wouldn't do it. I have to go to the principal. The principal instructs them to send the homework home, and they say, that's extra work for us.",
+      "zh": "他们死活不肯把作业发回家。我找他们要，他们就是不给。我只好去找校长。校长下令让他们把作业发回家，可老师们却说，那对我们来说是额外的工作量。"
+    },
+    {
+      "id": 87,
+      "start_sec": 860,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "So I'm having to take off from work, I'm coming up to the school all the time, I'm like, I need to see her work every week. This is crazy.",
+      "zh": "所以我不得不请假，动不动就往学校跑，跟他们交涉说，我每个星期都得看到她的作业，这简直太荒唐了。"
+    },
+    {
+      "id": 88,
+      "start_sec": 874,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "And finally, the principal is able to get the teachers to send—they send all this work home that Najya had been doing, and I start going through the math, and all the problems are wrong.",
+      "zh": "终于，校长总算让老师把作业发回来了——他们把 Najya 一直做的那些作业全都带回了家，我开始一页页翻看她的数学作业，结果发现所有的题目全都是错的。"
+    },
+    {
+      "id": 89,
+      "start_sec": 900,
+      "speaker": "Chana Joffe-Walt",
+      "en": "Oh no.",
+      "zh": "哦，天哪。"
+    },
+    {
+      "id": 90,
+      "start_sec": 902,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "Like literally, almost all the problems are wrong.",
+      "zh": "真的毫不夸张，几乎每一道题都是错的。"
+    },
+    {
+      "id": 91,
+      "start_sec": 905,
+      "speaker": "Chana Joffe-Walt",
+      "en": "Wait, the problem—the answers are wrong?",
+      "zh": "等等，是题目还是——你是说答案全是错的？"
+    },
+    {
+      "id": 92,
+      "start_sec": 907,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "The answers. Like he's just putting a check mark, he's not checking her math, he's not correcting her, he's not teaching her. Every single one is wrong.",
+      "zh": "是答案。老师根本就是随便打个对勾，既不批改她的数学题，也不纠正她的错误，更没有在教她。每一道题都是错的。"
+    },
+    {
+      "id": 93,
+      "start_sec": 922,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "Yeah, devastating parent moment. I'm like, what am I doing? What am I doing to my child?",
+      "zh": "是啊，对父母来说那一刻真是天都塌了。我心想，我这到底在干什么？我到底对自己的孩子做了什么？"
+    },
+    {
+      "id": 94,
+      "start_sec": 931,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "Like, I felt like I was failing my child, like my decision was failing my child.",
+      "zh": "我觉得自己彻底辜负了孩子，觉得是我的决定耽误了她。"
+    },
+    {
+      "id": 95,
+      "start_sec": 941,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "God, I was so worried that I had done wrong by my child in a way that was irreparable.",
+      "zh": "天哪，我当时特别害怕自己对孩子造成了无法挽回的伤害。"
+    },
+    {
+      "id": 96,
+      "start_sec": 951,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "I remember sitting at the table that night, and I was—I mean, I'm not naive, but I was in shock.",
+      "zh": "我记得那天晚上我坐在餐桌前，虽然我并不是什么都不懂的天真家长，但当时还是彻底震惊了。"
+    },
+    {
+      "id": 97,
+      "start_sec": 959,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "There was the one part of just like what she wasn't learning, but there was the other part of like this little girl has all this confidence.",
+      "zh": "一方面是她压根没学到东西，但另一方面更让我揪心的是，这小姑娘还自信满满的。"
+    },
+    {
+      "id": 98,
+      "start_sec": 968,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "She thinks she is amazing at math. She is smart, but she thinks she's like academically doing well, and she's not.",
+      "zh": "她以为自己数学棒极了。她确实很聪明，可她一直以为自己在学业上表现得很好，但其实根本不是这么回事。"
+    },
+    {
+      "id": 99,
+      "start_sec": 978,
+      "speaker": "Chana Joffe-Walt",
+      "en": "Nikole sat at the table, waiting for Faraji to get home.",
+      "zh": "Nikole 坐在餐桌旁，等着 Faraji 回家。"
+    },
+    {
+      "id": 100,
+      "start_sec": 983,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "And Faraji and I—I remember as soon as he got home, I think he was at a school board meeting or something like that, and I'm like, look at this.",
+      "zh": "我记得那天 Faraji 好像去参加学区委员会的会议之类的，他一进家门，我就跟他说：“你看这个。”"
+    },
+    {
+      "id": 101,
+      "start_sec": 993,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "And it's like, well, what do we do? Do we leave? Do we take her out of this?",
+      "zh": "然后我们就犯了难：那该怎么办呢？我们要离开吗？要不要把她转走？"
+    },
+    {
+      "id": 102,
+      "start_sec": 1001,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "And so we struggled with what to do. I mean, we felt stuck because those other kids did not deserve not to be taught either.",
+      "zh": "所以我们一直很纠结该怎么办。我们感觉进退两难，因为班上其他孩子同样不该受到这样敷衍的教学对待。"
+    },
+    {
+      "id": 103,
+      "start_sec": 1011,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "And the understanding that the consequences for them were going to be so much greater than for my child. These were already kids living in public housing, living in poverty, no power in our society.",
+      "zh": "而且我们心里很清楚，这对他们造成的后果会比对我的孩子严重得多。这些孩子本来就住在公共住房里，生活贫困，在这个社会上毫无话语权。"
+    },
+    {
+      "id": 104,
+      "start_sec": 1027,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "Faraji and I, we would have these discussions, and we would be like, who are we if the moment it gets really rough, we give up? Then what did we do it for in the first place?",
+      "zh": "Faraji 和我反复商量这件事，我们彼此追问：如果一遇到真正棘手的困难就打退堂鼓，那我们算什么人？那我们当初做这个选择又是为了什么？"
+    },
+    {
+      "id": 105,
+      "start_sec": 1040,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "And in the end, we just felt we couldn't abandon the rest of those kids.",
+      "zh": "到最后，我们还是觉得不能丢下班上其他的孩子不管。"
+    },
+    {
+      "id": 106,
+      "start_sec": 1048,
+      "speaker": "Chana Joffe-Walt",
+      "en": "They made a new plan. They would stay in the school, they would get Najya support, and they were going to get the school support.",
+      "zh": "他们制定了一个新计划：继续留在这所学校，一面给 Najya 找辅导支持，一面也帮学校争取资源支持。"
+    },
+    {
+      "id": 107,
+      "start_sec": 1056,
+      "speaker": "Chana Joffe-Walt",
+      "en": "Nikole asked a friend, a former math teacher, to tutor Najya at home. And Nikole and Faraji threw themselves into getting help for the rest of her class.",
+      "zh": "Nikole 请了一位当过数学老师的朋友到家里给 Najya 补课。同时，Nikole 和 Faraji 全身心投入，为班上其他孩子争取帮助。"
+    },
+    {
+      "id": 108,
+      "start_sec": 1065,
+      "speaker": "Chana Joffe-Walt",
+      "en": "They demanded the principal provide remediation for the entire math class. They had numerous meetings with the district superintendent. He agreed to send an extra teacher into the classroom.",
+      "zh": "他们要求校长为整个数学班提供补习辅导，并多次与学区总监面谈沟通。学区总监最终同意往班里增派一名老师。"
+    },
+    {
+      "id": 109,
+      "start_sec": 1076,
+      "speaker": "Chana Joffe-Walt",
+      "en": "Their teacher friend recruited other educators to come by the school and offer after-school tutoring. This was a sprawling, all-consuming project that took so much more time than simply addressing the problem for their own kid.",
+      "zh": "他们那位当老师的朋友也招募了其他教育工作者来学校提供课后辅导。这是一个庞大而又耗尽心力的工程，花的时间远远超过单纯解决自家孩子的问题。"
+    },
+    {
+      "id": 110,
+      "start_sec": 1090,
+      "speaker": "Chana Joffe-Walt",
+      "en": "But they'd say to each other, this is why we're here in the school, not just for their own child's success. Success for them was both and, Najya doing well and all the kids doing well.",
+      "zh": "但他们会彼此提醒，这正是他们留在这所学校的原因——不只是为了自家孩子的成功。对他们来说，真正的成功是两者兼得：Najya 学得好，所有孩子也都能学得好。"
+    },
+    {
+      "id": 111,
+      "start_sec": 1103,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "It's like we recommitted. We have to be here. We have to now make sure all these kids in this classroom's work is getting graded, that these teachers are actually teaching all these kids, not just our child.",
+      "zh": "就好像我们重新下定了决心。我们必须留在这里，现在我们必须确保这间教室里所有孩子的作业都得到批改，确保老师们真正在教每一个孩子，而不仅仅是我们自己的孩子。"
+    },
+    {
+      "id": 112,
+      "start_sec": 1118,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "And that's what we did, but it tested us, for sure.",
+      "zh": "后来我们确实也是这么做的，但这毫无疑问非常考验我们。"
+    },
+    {
+      "id": 113,
+      "start_sec": 1125,
+      "speaker": "Chana Joffe-Walt",
+      "en": "You said—it actually might have been from your article—that it can feel unnatural. It can feel almost unnatural to put your child in a school that you think isn't the best, most perfect school.",
+      "zh": "你曾经说过——其实可能是你在文章里写的——把孩子送进一所你觉得并非最好、并非最完美的学校，这种感觉会显得很不自然，甚至几乎违背父母的本能。"
+    },
+    {
+      "id": 114,
+      "start_sec": 1136,
+      "speaker": "Chana Joffe-Walt",
+      "en": "Did it feel unnatural to you?",
+      "zh": "对你自己来说，这么做觉得违背本能吗？"
+    },
+    {
+      "id": 115,
+      "start_sec": 1139,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "Unnatural? Yes. Yeah.",
+      "zh": "违背本能吗？是的，确实如此。"
+    },
+    {
+      "id": 116,
+      "start_sec": 1143,
+      "speaker": "Chana Joffe-Walt",
+      "en": "Say more about that.",
+      "zh": "能多说说这种感受吗？"
+    },
+    {
+      "id": 117,
+      "start_sec": 1145,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "I mean, every other decision that I'm making about my child is to try to give my child the best life possible.",
+      "zh": "我是说，我为孩子做的其他每一个决定，都是为了尽量给她最好的生活。"
+    },
+    {
+      "id": 118,
+      "start_sec": 1154,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "Trying to put her in the best situation, to give her the best examples, to protect her, make life easy for her.",
+      "zh": "总是想把她送到最好的环境里，给她树立最好的榜样，保护她，让她过得顺顺利利。"
+    },
+    {
+      "id": 119,
+      "start_sec": 1164,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "So no, it didn't feel natural. But a lot of things that are the right thing to do don't feel natural.",
+      "zh": "所以，不，这确实不顺应本能。但很多本来就该做的正确决定，往往都不是顺应本能的。"
+    },
+    {
+      "id": 120,
+      "start_sec": 1181,
+      "speaker": "Chana Joffe-Walt",
+      "en": "So that was the balance of things at the end of elementary school, a shaky seesaw. They'd fought for better like they knew they'd have to. They got help for Najya like they thought...",
+      "zh": "小学阶段结束时，局面就是这样一种微妙的平衡，就像一个摇摇晃晃的跷跷板。他们像早就料到的那样为更好的教育抗争过，也为 Najya 找了辅导支持，正如他们预想……"
+    },
+    {
+      "id": 121,
+      "start_sec": 1200,
+      "speaker": "Chana Joffe-Walt",
+      "en": "...they might have to. And they stayed committed.",
+      "zh": "……可能会需要的那样。而且他们一直坚守了下来。"
+    },
+    {
+      "id": 122,
+      "start_sec": 1204,
+      "speaker": "Chana Joffe-Walt",
+      "en": "For middle school, Nikole and Faraji chose a school in the neighborhood. It was mostly Black and low income. Test scores were not great. A public school plenty of parents would dismiss, but Nikole visited and liked it.",
+      "zh": "到了初中阶段，Nikole 和 Faraji 选了社区里的一所学校。那里的学生大多是非洲裔，家庭收入偏低，考试成绩也不太理想。很多家长看都不会看这种公立学校一眼，但 Nikole 实地参观后很喜欢。"
+    },
+    {
+      "id": 123,
+      "start_sec": 1219,
+      "speaker": "Chana Joffe-Walt",
+      "en": "Her district superintendent had recommended it as a school with a deeply committed principal who was on the ball, responsive to parents and students. And important to Nikole, this school had never screened students like some of the more sought-after middle schools.",
+      "zh": "学区总监曾向她推荐过这所学校，说那里的校长非常投入，办事干练，对家长和学生的诉求都能及时回应。而对 Nikole 来说很重要的一点是，这所学校不像一些热门初中那样搞入学筛选。"
+    },
+    {
+      "id": 124,
+      "start_sec": 1236,
+      "speaker": "Chana Joffe-Walt",
+      "en": "It didn't select kids based on their grades or attendance records, or anything like that. It was open to everyone.",
+      "zh": "它不看孩子的成绩单，也不卡出勤率之类的门槛。它向所有人敞开大门。"
+    },
+    {
+      "id": 125,
+      "start_sec": 1246,
+      "speaker": "Chana Joffe-Walt",
+      "en": "Najya made friends, joined the Food and Justice Club, did a lot of art. Outside school, she ran track.",
+      "zh": "Najya 在那里交到了朋友，加入了“食物与正义社团”，画了很多画。放学后，她还练田径。"
+    },
+    {
+      "id": 126,
+      "start_sec": 1255,
+      "speaker": "Chana Joffe-Walt",
+      "en": "And then, one day in seventh grade, Nikole and Najya were in the car. Najya was 12 years old. Nikole picked her up from school, and Najya said she and her friends had been researching schools online and looked up their own school.",
+      "zh": "直到七年级的一天，Nikole 和 Najya 坐在车里。那年 Najya 十二岁。Nikole 去学校接她放学，Najya 说她和朋友们一直在网上查各种学校的资料，还顺便搜了搜她们自己的学校。"
+    },
+    {
+      "id": 127,
+      "start_sec": 1269,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "She was like, did you know my school had test scores like this when you decided to send me here?",
+      "zh": "她问我：“你当初决定送我来这儿的时候，知道我们学校的统考成绩这么差吗？”"
+    },
+    {
+      "id": 128,
+      "start_sec": 1276,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "I paused, you know, like hand on the wheel driving. I'm looking straight ahead. And I'm sitting there like, OK, what am I going to say out of my mouth that's going to make sense to her?",
+      "zh": "我愣了一下，当时正手握方向盘开着车呢。我目视前方，心里琢磨着：好吧，我到底该怎么开口，才能让她听明白呢？"
+    },
+    {
+      "id": 129,
+      "start_sec": 1293,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "And you know, it's like I knew this day would come. I wouldn't say I talked a script over in my head of what I would say, but I knew it would come.",
+      "zh": "其实我早就知道这一天迟早会来。倒也不是说我在脑子里提前背过什么标准答案，但我心里清楚早晚会有这么一问。"
+    },
+    {
+      "id": 130,
+      "start_sec": 1308,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "And yet it's like the words that I'm formulating in my head to explain why I chose this really sounded really hollow.",
+      "zh": "可即便如此，当我在脑海里组织语言去解释自己为什么选这所学校时，那些话听起来却空洞得要命。"
+    },
+    {
+      "id": 131,
+      "start_sec": 1316,
+      "speaker": "Chana Joffe-Walt",
+      "en": "Why? Like what? What were you--",
+      "zh": "怎么会？比如哪些话？你当时是怎么……"
+    },
+    {
+      "id": 132,
+      "start_sec": 1318,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "Well, you know, I'm like, yes, I knew that this school had these test scores, but test scores are not the most important thing about a school.",
+      "zh": "哎，就是那种话，我说：“对，我知道这所学校的成绩是这样，但考试成绩并不是衡量一所学校最重要的标准。”"
+    },
+    {
+      "id": 133,
+      "start_sec": 1327,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "And it was really important to me, my own values. I felt it was really important that you be in a school with most of the people in our neighborhood.",
+      "zh": "“而且这对我、对我的价值观来说非常重要。我觉得让你和我们社区里的大多数孩子一起在同一所学校读书，这事儿特别重要。”"
+    },
+    {
+      "id": 134,
+      "start_sec": 1336,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "And she's sitting there, and I see out of the corner of my eye this look like, that sounds crazy. Like, what? You mean you had all these resources. You could have sent me anywhere. You could have sent me to the best schools. And you're saying you just chose not to?",
+      "zh": "她就坐在那儿，我从眼角余光瞥见她脸上的表情，仿佛在说：“这听起来也太荒唐了吧。”就好像在问：“什么？你是说你明明有这么多资源，完全可以把我送到任何地方，送到最好的学校去，结果你却偏偏选择不去？”"
+    },
+    {
+      "id": 135,
+      "start_sec": 1352,
+      "speaker": "Chana Joffe-Walt",
+      "en": "So your child is asking you a question that you have-- you've spoken about this on hundreds of stages. You've written hundreds of pages about it. You know what to say. Why do you not know what to say?",
+      "zh": "可是你的孩子问你的这个问题——你自己在几百个演讲台上讲过，关于这个话题你写了上百页的文章。你明明知道该怎么回答的。为什么对着她却不知道说什么好了？"
+    },
+    {
+      "id": 136,
+      "start_sec": 1365,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "I do know what to say, and I say it. But what I'm saying is, as I'm saying it, I know it sounds hollow coming out of my mouth. But I really believe that.",
+      "zh": "我知道该怎么说，我也确实说出来了。但我想说的是，话一出口，我自己都觉得听起来挺空洞的。可我内心又是真的这么坚信。"
+    },
+    {
+      "id": 137,
+      "start_sec": 1380,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "I mean, I come from a people where I know my life, literally, in a literal way, is only possible because people were willing to sacrifice for a larger good.",
+      "zh": "我来自这样一个族群，我深知自己今天能拥有这样的人生，毫不夸张地说，完全是因为前人愿意为了更崇高的公共利益去做出牺牲。"
+    },
+    {
+      "id": 138,
+      "start_sec": 1394,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "I mean sacrifice like put your child through a white mob sacrifice. Sacrifice like get assassinated on your front lawn sacrifice. Sacrifice like get thrown off of the land that you worked.",
+      "zh": "我说的是像顶着白人暴徒的围堵送孩子去上学那样的牺牲，像在自家前院草坪上惨遭暗杀那样的牺牲，像被强行赶出自己耕作的土地那样的牺牲。"
+    },
+    {
+      "id": 139,
+      "start_sec": 1408,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "If everyone says, well, I would love to do that-- I believe in the concept of equality, but I can't make a personal sacrifice-- we don't get there. I don't live my life.",
+      "zh": "如果人人都说：“哎呀，我也想那样啊，我信奉平等的理念，但我没法做出个人牺牲”，那我们就永远走不到今天这一步，我也过不上现在的人生。"
+    },
+    {
+      "id": 140,
+      "start_sec": 1422,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "So I know what I'm saying to her is right, but I also know that she is a 12-year-old child who looks at you not to give her moral clarity, but to give her a life of opportunity.",
+      "zh": "所以我知道我对她说的话在道理上是对的，但我也清楚，她只是个十二岁的孩子，她指望的不是你给她灌输什么道义上的清醒，而是你给她一个充满机会的人生。"
+    },
+    {
+      "id": 141,
+      "start_sec": 1435,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "So I'm just-- now I'm just repeating what I've said and hoping that she'll move on. But she is not. She's angry.",
+      "zh": "所以我当时只能一遍遍重复刚才那些话，盼着这茬能赶紧过去。可她根本不买账，她很生气。"
+    },
+    {
+      "id": 142,
+      "start_sec": 1445,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "It hasn't been-- she's like, it's not a good school, and I could have been at a good school. And so it's like just round and around. And now I'm like, oh my god, she's really not going to let this go.",
+      "zh": "她就一直揪着说：“这根本不是一所好学校，我本来是可以去好学校的。”就这样来来回回、没完没了。我当时心想：天哪，她是真不打算翻篇了。"
+    },
+    {
+      "id": 143,
+      "start_sec": 1456,
+      "speaker": "Chana Joffe-Walt",
+      "en": "Did you think, she's going to ask me about this sometime. I'm going to explain to her. Did you think about just giving her your article?",
+      "zh": "你有没有想过：“她早晚有一天会问我这事，到时候我再跟她解释。”或者干脆把你写的那篇文章拿给她看？"
+    },
+    {
+      "id": 144,
+      "start_sec": 1463,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "No. My child's not reading 10,000 words that I write. She's not. She's not.",
+      "zh": "算了吧，我闺女才不会去读我写的一万字长文呢。她不会看的，真不会。"
+    },
+    {
+      "id": 145,
+      "start_sec": 1471,
+      "speaker": "Chana Joffe-Walt",
+      "en": "She's on the cover, though. It's her picture.",
+      "zh": "可她自己就在封面上啊，配的就是她的照片。"
+    },
+    {
+      "id": 146,
+      "start_sec": 1473,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "She's on the cover. No. Uh-uh, no.",
+      "zh": "是在封面上没错。但还是没看，真没看。"
+    },
+    {
+      "id": 147,
+      "start_sec": 1475,
+      "speaker": "Chana Joffe-Walt",
+      "en": "Really? Has she never read it? Do you think she's never read it?",
+      "zh": "真的假的？她一次都没读过？你觉得她真没读过？"
+    },
+    {
+      "id": 148,
+      "start_sec": 1478,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "I don't think so.",
+      "zh": "我觉得真没有。"
+    },
+    {
+      "id": 149,
+      "start_sec": 1479,
+      "speaker": "Chana Joffe-Walt",
+      "en": "Nuh-uh. I don't believe that. Really?",
+      "zh": "不可能吧，我不信。真的吗？"
+    },
+    {
+      "id": 150,
+      "start_sec": 1481,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "I promise. When you ask her, the answer is going to be no.",
+      "zh": "我敢打包票。等你去问她的时候，她的回答肯定也是没有。"
+    },
+    {
+      "id": 151,
+      "start_sec": 1484,
+      "speaker": "Chana Joffe-Walt",
+      "en": "I am going to ask her. That's coming up, the answer to that question and so many others.",
+      "zh": "我还真要去问问她。接下来就是这个问题的答案，还有好多其他问题的答案。"
+    },
+    {
+      "id": 152,
+      "start_sec": 1489,
+      "speaker": "Chana Joffe-Walt",
+      "en": "I talked to Najya, and then she and her mom talk. No one is a prophet in her own home. That's in a minute from Chicago Public Radio, when our program continues.",
+      "zh": "我采访了 Najya，随后她和妈妈也面对面聊了聊。正所谓“先知在自己家里从来不灵”。稍后精彩继续，这里是 Chicago Public Radio。"
+    },
+    {
+      "id": 153,
+      "start_sec": 1500,
+      "speaker": "Chana Joffe-Walt",
+      "en": "It's This American Life. I'm Chana Joffe-Walt, sitting in for Ira Glass. Today's show, \"An Argument.\" Act Two: Najya.",
+      "zh": "这里是 This American Life，我是代班 Ira Glass 主持的 Chana Joffe-Walt。今天的节目主题是《一场争论》。Act Two：Najya。"
+    },
+    {
+      "id": 154,
+      "start_sec": 1507,
+      "speaker": "Chana Joffe-Walt",
+      "en": "Because of who Nikole is and what we've talked about over years, I've thought about Najya more than I've thought about most other children who are not my own.",
+      "zh": "因为 Nikole 的身份，也因为这些年来我们聊过的那些话题，我对 Najya 的牵挂比对大多数别人家的孩子都要多。"
+    },
+    {
+      "id": 155,
+      "start_sec": 1516,
+      "speaker": "Chana Joffe-Walt",
+      "en": "From when she was little, I'd heard what Nikole wanted for her young daughter. I'd read her old article where she'd written about what she hoped for. And I've wondered, what's this all going to be like for Najya?",
+      "zh": "打她很小的时候起，我就听 Nikole 说过她对小女儿的期许，也读过她以前写的文章，里面写着她的希望。我不禁好奇，这一切对 Najya 来说究竟意味着什么？"
+    },
+    {
+      "id": 156,
+      "start_sec": 1525,
+      "speaker": "Chana Joffe-Walt",
+      "en": "Somehow back then, I never really imagined there would be a day when I might get to just ask her.",
+      "zh": "不知怎的，那时候我从来没想过，有一天我居然能亲自去问问她本人。"
+    },
+    {
+      "id": 157,
+      "start_sec": 1531,
+      "speaker": "Chana Joffe-Walt",
+      "en": "Okay, your mom told me she didn't know if you had read the article about choosing your elementary school. Have you read that article?",
+      "zh": "好，你妈妈跟我说，她不知道你有没有读过那篇讲她给你选小学的文章。你读过那篇文章吗？"
+    },
+    {
+      "id": 158,
+      "start_sec": 1540,
+      "speaker": "Najya Hannah-Jones",
+      "en": "No.",
+      "zh": "没读过。"
+    },
+    {
+      "id": 159,
+      "start_sec": 1541,
+      "speaker": "Chana Joffe-Walt",
+      "en": "You've never read that article?",
+      "zh": "你从来没读过那篇文章？"
+    },
+    {
+      "id": 160,
+      "start_sec": 1543,
+      "speaker": "Najya Hannah-Jones",
+      "en": "Well, no, I have not. I've never read it. I've never found myself to read it. Maybe I should because of my mom.",
+      "zh": "嗯，对，真没读过。我从来没看过，一直也没想着去读。也许看在我妈的面子上，我该读一读。"
+    },
+    {
+      "id": 161,
+      "start_sec": 1550,
+      "speaker": "Chana Joffe-Walt",
+      "en": "Well, also because it's about you.",
+      "zh": "而且那里面写的可也是你啊。"
+    },
+    {
+      "id": 162,
+      "start_sec": 1552,
+      "speaker": "Najya Hannah-Jones",
+      "en": "Well, yeah, but I never read it.",
+      "zh": "是啊，不过我就是没读过。"
+    },
+    {
+      "id": 163,
+      "start_sec": 1555,
+      "speaker": "Chana Joffe-Walt",
+      "en": "Najya has been listening to her mom give talks her whole life. She says she knows what the article was about: her school. She went to her school. She lived it. She didn't have to read about it.",
+      "zh": "Najya 从小到大听妈妈做过无数次演讲。她说她知道那篇文章写的是什么——不就是她的学校嘛。她自己就在那所学校上学，是亲身经历过的人，用不着再去读文章了解。"
+    },
+    {
+      "id": 164,
+      "start_sec": 1566,
+      "speaker": "Chana Joffe-Walt",
+      "en": "What was the school her mom chose, wrote 10,000 words about choosing, actually like for Najya?",
+      "zh": "那么，她妈妈精心挑选、甚至为此写了上万字文章的那所学校，在 Najya 眼里究竟是什么样的呢？"
+    },
+    {
+      "id": 165,
+      "start_sec": 1572,
+      "speaker": "Najya Hannah-Jones",
+      "en": "It was just regular, like, it was fine.",
+      "zh": "就挺普通的，也就那样吧，还行。"
+    },
+    {
+      "id": 166,
+      "start_sec": 1576,
+      "speaker": "Chana Joffe-Walt",
+      "en": "It was just school?",
+      "zh": "就是个普通的学校？"
+    },
+    {
+      "id": 167,
+      "start_sec": 1577,
+      "speaker": "Najya Hannah-Jones",
+      "en": "Yeah, I don't really remember a lot from elementary. I was really into art. I liked to draw a lot. I was, yeah, I was loud. I still am, like, chatty.",
+      "zh": "对，小学的事我其实记不太清了。那时候我特别喜欢画画，很迷美术。而且我那会儿……对，我嗓门挺大的，现在也一样，话特别多。"
+    },
+    {
+      "id": 168,
+      "start_sec": 1588,
+      "speaker": "Chana Joffe-Walt",
+      "en": "Did you ever wonder why you were in that elementary school?",
+      "zh": "你以前有没有纳闷过，自己为什么会上那所小学？"
+    },
+    {
+      "id": 169,
+      "start_sec": 1591,
+      "speaker": "Najya Hannah-Jones",
+      "en": "No. It was just a school that she picked for me. I didn't really care about it. I wasn't ever thinking about stuff like that.",
+      "zh": "没有。那就是她给我挑的学校，我当时也没太在意，从来没往那方面想过。"
+    },
+    {
+      "id": 170,
+      "start_sec": 1599,
+      "speaker": "Chana Joffe-Walt",
+      "en": "She was lonely sometimes when girls were mean, regular kid stuff. Najya remembers fourth grade, they didn't do much in class, and that her mom had issues with her teachers.",
+      "zh": "有时候女生们说话刻薄，她也会觉得孤单，不过都是小孩子常有的事。Najya 记得四年级的时候课上没学什么东西，而且妈妈跟她的老师们有过些矛盾。"
+    },
+    {
+      "id": 171,
+      "start_sec": 1608,
+      "speaker": "Chana Joffe-Walt",
+      "en": "She thought it was weird that her third grade teacher was absent a lot, but fifth grade was fun. It was all fine.",
+      "zh": "她觉得三年级老师老请假挺奇怪的，但五年级玩得挺开心。总体上都还不错。"
+    },
+    {
+      "id": 172,
+      "start_sec": 1615,
+      "speaker": "Chana Joffe-Walt",
+      "en": "What Najya wanted to talk about more was middle school, sixth grade. That's when things got hard for her. She says in middle school, other kids made it hard to learn. There were fights.",
+      "zh": "Najya 更想聊的其实是中学，也就是六年级那会儿。问题就是从那时候开始变得棘手的。她说在中学里，其他同学让人根本没法专心学习，学校里老是打架。"
+    },
+    {
+      "id": 173,
+      "start_sec": 1626,
+      "speaker": "Najya Hannah-Jones",
+      "en": "Problems all the time, like, we wouldn't even be able to play in gym because the kids wouldn't stop acting out. It would be like all the time. They would be throwing, like, fart bombs and stuff. There was, like, no punishment. It wasn't like stopped.",
+      "zh": "整天出各种幺蛾子，我们连体育课都没法好好玩，因为总有学生不停捣乱，天天如此。他们还会乱扔臭气弹之类的东西。学校好像根本不管，也从来没人制止。"
+    },
+    {
+      "id": 174,
+      "start_sec": 1639,
+      "speaker": "Najya Hannah-Jones",
+      "en": "So because of that, it's just not fun. You can't do anything, and they're ruining your chances to do things just because they can't act right. It was, like, really bad.",
+      "zh": "所以搞得一点意思都没有。你什么也干不成，就因为他们不懂规矩，把大家正常参加活动的机会全毁了。那会儿真是太糟了。"
+    },
+    {
+      "id": 175,
+      "start_sec": 1647,
+      "speaker": "Najya Hannah-Jones",
+      "en": "I think I would come home complaining to my mom all the time like, bro, these kids are always like fighting, and they're always disrupting, like, class. I'm not trying to be in this type of environment, and I wasn't enjoying it.",
+      "zh": "我记得我天天回家跟我妈吐槽，说“不是吧，这帮人天天打架，整天在课堂上捣乱。我真不想待在这种环境里”，我在那儿过得一点也不开心。"
+    },
+    {
+      "id": 176,
+      "start_sec": 1658,
+      "speaker": "Najya Hannah-Jones",
+      "en": "I remember we got our, like, report cards back. I think there was, like, seven kids in that class who were, like, on honor roll, and the rest were, like, they didn't. The school was so easy, and like, how did you not get... I don't know.",
+      "zh": "我记得发成绩单那次，班里大概只有七个同学上了荣誉榜，剩下的人全都没上。那学校的课明明简单得要命，怎么会连这个都拿不到……我真搞不懂。"
+    },
+    {
+      "id": 177,
+      "start_sec": 1671,
+      "speaker": "Chana Joffe-Walt",
+      "en": "Wait, you're like, how did people not get honor roll? Is that what you mean?",
+      "zh": "等等，你的意思是，怎么会有人连荣誉榜都上不了？你是这个意思吗？"
+    },
+    {
+      "id": 178,
+      "start_sec": 1674,
+      "speaker": "Najya Hannah-Jones",
+      "en": "Yeah, right. Because it was like, it was just a really easy school.",
+      "zh": "对，没错。因为那学校真的太水、太好混了。"
+    },
+    {
+      "id": 179,
+      "start_sec": 1679,
+      "speaker": "Chana Joffe-Walt",
+      "en": "Did you have homework?",
+      "zh": "你们有家庭作业吗？"
+    },
+    {
+      "id": 180,
+      "start_sec": 1680,
+      "speaker": "Najya Hannah-Jones",
+      "en": "No.",
+      "zh": "没有。"
+    },
+    {
+      "id": 181,
+      "start_sec": 1681,
+      "speaker": "Chana Joffe-Walt",
+      "en": "No homework?",
+      "zh": "一点作业都没有？"
+    },
+    {
+      "id": 182,
+      "start_sec": 1682,
+      "speaker": "Najya Hannah-Jones",
+      "en": "No. None. Zero, like.",
+      "zh": "没有，零作业，一丁点都没有。"
+    },
+    {
+      "id": 183,
+      "start_sec": 1685,
+      "speaker": "Chana Joffe-Walt",
+      "en": "How did you feel about that?",
+      "zh": "你当时对这事儿怎么想？"
+    },
+    {
+      "id": 184,
+      "start_sec": 1686,
+      "speaker": "Najya Hannah-Jones",
+      "en": "I thought it was bad. I think I complained about it to my friends like, we don't get anything. We're not getting any work, like we're not getting any work at home.",
+      "zh": "我觉得挺糟糕的。我还跟朋友们吐槽过，说咱们什么都学不到，老师也不布置作业，回家根本没功课做。"
+    },
+    {
+      "id": 185,
+      "start_sec": 1692,
+      "speaker": "Chana Joffe-Walt",
+      "en": "You wanted homework?",
+      "zh": "你们还想要作业？"
+    },
+    {
+      "id": 186,
+      "start_sec": 1693,
+      "speaker": "Najya Hannah-Jones",
+      "en": "We did. We did. We honestly did want to get more things because we knew that we weren't learning enough. We didn't know anything.",
+      "zh": "真想要啊。我们当时确实希望能多学点东西，因为我们自己心里有数，学得太少了，简直什么都没学到。"
+    },
+    {
+      "id": 187,
+      "start_sec": 1700,
+      "speaker": "Chana Joffe-Walt",
+      "en": "Najya was building her own assessment of her school, drawing on what she was seeing and what she wanted for herself. For her, a good school had homework. A good school was an organized school.",
+      "zh": "Najya 正在根据自己的所见所闻和对未来的期许，对学校形成自己的判断。在她看来，好学校得有家庭作业，好学校得井井有条。"
+    },
+    {
+      "id": 188,
+      "start_sec": 1712,
+      "speaker": "Chana Joffe-Walt",
+      "en": "Najya used that word a lot when we talked. Her school was not organized.",
+      "zh": "我们聊天时，Najya 反复提到“有条理”这个词。而她的学校却乱糟糟的。"
+    },
+    {
+      "id": 189,
+      "start_sec": 1718,
+      "speaker": "Chana Joffe-Walt",
+      "en": "And then in seventh grade, Najya's teachers and friends started talking about the next step: high school. New York City has hundreds of high schools. The top schools, there are things you have to do.",
+      "zh": "到了七年级，Najya 的老师和朋友们开始聊起下一步——上高中。纽约市有几百所高中。要想进顶尖高中，有很多事你必须提前准备。"
+    },
+    {
+      "id": 190,
+      "start_sec": 1729,
+      "speaker": "Chana Joffe-Walt",
+      "en": "You have to apply, get good grades, you have to take a test or audition. It's a whole process. You need to do research, go on tours. You have to engage.",
+      "zh": "你得提交申请、考出好成绩，还得参加考试或者才艺面试。这有一整套流程：你得提前做功课、去校园参观，得积极参与进去。"
+    },
+    {
+      "id": 191,
+      "start_sec": 1739,
+      "speaker": "Chana Joffe-Walt",
+      "en": "If you're an ambitious seventh grader, or even just a kid who cares about status, as nearly every seventh grader does, this is when you start to become aware, if you're not already, that there are, quote, \"good schools\" and \"bad schools,\" and you fit somewhere in that system.",
+      "zh": "如果你是个有上进心的七年级学生，或者哪怕你只是像几乎所有七年级孩子一样在乎面子和档次，这时候你就会开始意识到——如果之前还没意识到的话——学校原来是分所谓的“好学校”和“差学校”的，而你自己正处在这套体系的某个位置上。"
+    },
+    {
+      "id": 192,
+      "start_sec": 1755,
+      "speaker": "Chana Joffe-Walt",
+      "en": "And if you didn't know about it till now, you are probably already behind. Najya and her friends started researching the top high schools. It was in doing that research that they looked up their own school.",
+      "zh": "如果你直到这时候才明白过来，那多半已经落后了。Najya 和朋友们开始研究那些顶尖高中，也正是在查资料的过程中，她们顺手查了查自己现在的学校。"
+    },
+    {
+      "id": 193,
+      "start_sec": 1768,
+      "speaker": "Najya Hannah-Jones",
+      "en": "And we were just shocked. Test scores, like, were really low. Everything about the school was really low.",
+      "zh": "结果我们都惊呆了。考试成绩低得离谱，这所学校的各项指标都特别差。"
+    },
+    {
+      "id": 194,
+      "start_sec": 1775,
+      "speaker": "Chana Joffe-Walt",
+      "en": "What did you think when you saw that?",
+      "zh": "看到那些数据的时候，你心里怎么想？"
+    },
+    {
+      "id": 195,
+      "start_sec": 1778,
+      "speaker": "Najya Hannah-Jones",
+      "en": "I was like, wow.",
+      "zh": "我当时就想，哇塞。"
+    },
+    {
+      "id": 196,
+      "start_sec": 1782,
+      "speaker": "Najya Hannah-Jones",
+      "en": "Like, that's why we're not getting anything. Like, we have nothing. You see all the reviews, you see all parent reviews, you see student reviews, you see everything.",
+      "zh": "难怪我们什么也学不到，这儿真是啥都没有。那些评价全摆在那儿，家长的评价、学生的评价，什么都能看到。"
+    },
+    {
+      "id": 197,
+      "start_sec": 1798,
+      "speaker": "Chana Joffe-Walt",
+      "en": "And test—",
+      "zh": "还有考试——"
+    },
+    {
+      "id": 198,
+      "start_sec": 1800,
+      "speaker": "Chana Joffe-Walt",
+      "en": "—scores.",
+      "zh": "——成绩。"
+    },
+    {
+      "id": 199,
+      "start_sec": 1801,
+      "speaker": "Najya Hannah-Jones",
+      "en": "Mm-hmm. I think we looked at those scores all the time.",
+      "zh": "嗯哼。我们好像老是盯着那些成绩看。"
+    },
+    {
+      "id": 200,
+      "start_sec": 1804,
+      "speaker": "Chana Joffe-Walt",
+      "en": "You did?",
+      "zh": "真的吗？"
+    },
+    {
+      "id": 201,
+      "start_sec": 1805,
+      "speaker": "Najya Hannah-Jones",
+      "en": "Yeah, I think we looked at them all the time.",
+      "zh": "对，我们好像天天都在看。"
+    },
+    {
+      "id": 202,
+      "start_sec": 1807,
+      "speaker": "Chana Joffe-Walt",
+      "en": "Like, you kept returning?",
+      "zh": "就是会反复回去看吗？"
+    },
+    {
+      "id": 203,
+      "start_sec": 1808,
+      "speaker": "Najya Hannah-Jones",
+      "en": "Mm-hmm. We kept looking at other sites, like how the school was. And it was not great.",
+      "zh": "嗯哼。我们还一直去别的网站上看这所学校的评价，结果都不怎么样。"
+    },
+    {
+      "id": 204,
+      "start_sec": 1814,
+      "speaker": "Chana Joffe-Walt",
+      "en": "She remembers bringing this information to her mom, and she remembers her mom trying to explain her thinking, but Najya doesn't remember exactly what her mom said because she says it made no sense.",
+      "zh": "她记得自己把这些信息拿给妈妈看，也记得妈妈试图解释自己的想法，但 Najya 已经不记得妈妈具体说了什么，因为她觉得那些话根本讲不通。"
+    },
+    {
+      "id": 205,
+      "start_sec": 1823,
+      "speaker": "Najya Hannah-Jones",
+      "en": "I didn't ever agree with, like, her response. All I know is that I wasn't having it. I was just like, why? Why am I here?",
+      "zh": "她的回应我一次都没认同过。我只知道我完全接受不了，满脑子都是：为什么？我干嘛要待在这儿？"
+    },
+    {
+      "id": 206,
+      "start_sec": 1834,
+      "speaker": "Chana Joffe-Walt",
+      "en": "Najya was mad, and she wanted an answer.",
+      "zh": "Najya 很生气，她想要一个答案。"
+    },
+    {
+      "id": 207,
+      "start_sec": 1846,
+      "speaker": "Chana Joffe-Walt",
+      "en": "Act Three: Najya's Choice.",
+      "zh": "Act Three：Najya 的选择。"
+    },
+    {
+      "id": 208,
+      "start_sec": 1850,
+      "speaker": "Chana Joffe-Walt",
+      "en": "Nikole tried to answer Najya's questions over and over, but Nikole understood things about Najya's school and the school system in general that Najya, as an 11- and 12-year-old, did not.",
+      "zh": "Nikole 一遍遍地试图解答 Najya 的疑问，但关于 Najya 的学校以及整个教育体制，Nikole 懂得很多当时只有十一二岁的 Najya 还不了解的事。"
+    },
+    {
+      "id": 209,
+      "start_sec": 1862,
+      "speaker": "Chana Joffe-Walt",
+      "en": "Nikole knew that because her middle school didn't screen students, because it didn't select some students and turn others away, what that meant is the school had a high concentration of kids who showed up on day one to middle school already behind.",
+      "zh": "Nikole 明白，正因为这所初中不设生源筛选，不挑学生也不拒收学生，所以学校里集中了大批从上初中第一天起就已经落后的孩子。"
+    },
+    {
+      "id": 210,
+      "start_sec": 1874,
+      "speaker": "Chana Joffe-Walt",
+      "en": "Most kids had gone to elementary schools that were struggling. Many had diagnosed learning disabilities, and almost all of them experienced poverty outside of school.",
+      "zh": "大多数孩子以前上的都是处境艰难的小学，不少人被诊断出有学习障碍，而且几乎所有人在校外都面临贫困的生活。"
+    },
+    {
+      "id": 211,
+      "start_sec": 1883,
+      "speaker": "Chana Joffe-Walt",
+      "en": "From Nikole's perspective, Najya's middle school was doing a pretty good job of trying to serve all its students. Nikole had been inside lots of schools as a reporter.",
+      "zh": "在 Nikole 看来，Najya 的初中已经在尽力服务好所有学生，做得相当不错了。作为一名记者，Nikole 走访过许多学校。"
+    },
+    {
+      "id": 212,
+      "start_sec": 1893,
+      "speaker": "Chana Joffe-Walt",
+      "en": "And to her, Najya's school wasn't one that was neglecting students or lacking organization. It seemed organized and deeply caring, and unlike Najya's elementary school, responsive.",
+      "zh": "在她眼里，Najya 的这所学校既没有忽视学生，也不是管理混乱。相反，它显得井井有条、充满关怀，而且和 Najya 的小学不同，校方很愿意积极回应。"
+    },
+    {
+      "id": 213,
+      "start_sec": 1904,
+      "speaker": "Chana Joffe-Walt",
+      "en": "When Nikole brought Najya's complaints to teachers and administrators, they got back to her right away. They tried in earnest to address things.",
+      "zh": "每当 Nikole 把 Najya 的不满反映给老师和校方管理人员时，他们都会立刻回复，并且真心实意地设法解决问题。"
+    },
+    {
+      "id": 214,
+      "start_sec": 1912,
+      "speaker": "Chana Joffe-Walt",
+      "en": "But none of that was changing how Najya felt. She kept returning to their argument about why she was at this school. Why? At sometimes random moments.",
+      "zh": "但这一切都没能改变 Najya 的感受。她总是不依不饶地回到那个争论：她为什么会在这所学校？为什么？有时候甚至会毫无征兆地提起。"
+    },
+    {
+      "id": 215,
+      "start_sec": 1923,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "She would—like, we'd be in the kitchen preparing food, and she'd be like, I still don't understand why you did that. And I'm like, oh my god.",
+      "zh": "她会——比如我们正在厨房做饭呢，她突然就来一句：“我还是不明白你当初为什么要这么做。”我心里就想，天呐。"
+    },
+    {
+      "id": 216,
+      "start_sec": 1933,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "I'm like, I, you know, like she's not going to let—she's not letting it go. And you know what she said was like, you weren't in the classroom.",
+      "zh": "我就觉得，这孩子是不打算翻篇了，她就是过不去这个坎。而且你知道她说什么吗？她说：“在教室里上课的又不是你。”"
+    },
+    {
+      "id": 217,
+      "start_sec": 1943,
+      "speaker": "Chana Joffe-Walt",
+      "en": "Right, it's not your experience.",
+      "zh": "没错，这不是你的切身经历。"
+    },
+    {
+      "id": 218,
+      "start_sec": 1945,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "It's not—right, it's not your education, it's not your experience. And I deeply heard that. And she's not, you know, an eight-year-old child. She is a young woman who's done her research.",
+      "zh": "对，这不是你的教育，也不是你的经历。这句话我真的听进心里去了。而且她已经不是八岁的小孩了，她是个自己做过一番功课的大姑娘了。"
+    },
+    {
+      "id": 219,
+      "start_sec": 1958,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "And I'm like, I just don't want—I don't want this to haunt me for the rest of our relationship. That's why what I ultimately decided—this is like, I don't know, fifth, sixth conversation slash argument—",
+      "zh": "我就想，我可不想让这件事在往后余生里一直成为我们母女关系的心结。所以最后——大概是在第五、第六次沟通兼吵架的时候吧——我做了一个决定，"
+    },
+    {
+      "id": 220,
+      "start_sec": 1971,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "—where I said, you know, you are absolutely justified in feeling how you feel. You certainly, if I had made different choices, would have had very different educational experience.",
+      "zh": "我对她说：“你有这样的感受完全合情合理。如果我当初做了不同的选择，你接受的教育体验确实会截然不同。"
+    },
+    {
+      "id": 221,
+      "start_sec": 1983,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "And because of that, I'm going to now let you make the choice for your educational experience going forward. For high school, I would let her choose.",
+      "zh": "正因如此，从今往后，关于你自己的教育体验，我决定让你自己来做选择。”所以上高中的事，我打算让她自己挑。"
+    },
+    {
+      "id": 222,
+      "start_sec": 1994,
+      "speaker": "Chana Joffe-Walt",
+      "en": "Wow.",
+      "zh": "哇。"
+    },
+    {
+      "id": 223,
+      "start_sec": 1995,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "So, she would decide what school she wanted to visit, and she would decide what school she wanted to apply for.",
+      "zh": "也就是说，想去参观哪所学校由她定，想报考哪所学校也由她自己决定。"
+    },
+    {
+      "id": 224,
+      "start_sec": 2002,
+      "speaker": "Chana Joffe-Walt",
+      "en": "This is at 12? She's 12 at the time? This is a 12-year-old?",
+      "zh": "那时候她才 12 岁？当时就 12 岁？一个 12 岁的孩子？"
+    },
+    {
+      "id": 225,
+      "start_sec": 2005,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "Yeah.",
+      "zh": "对。"
+    },
+    {
+      "id": 226,
+      "start_sec": 2006,
+      "speaker": "Chana Joffe-Walt",
+      "en": "And what was her reaction?",
+      "zh": "那她是什么反应？"
+    },
+    {
+      "id": 227,
+      "start_sec": 2008,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "If anybody has ever parented a 12-year-old girl, then you know her reaction was like, yeah, but you still shouldn't have did that.",
+      "zh": "谁要是带过 12 岁的女孩，肯定都知道她会是什么反应——她来了一句：“话是这么说，但你当初还是不该那么做。”"
+    },
+    {
+      "id": 228,
+      "start_sec": 2019,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "I still want to talk about what you did. You're trying to move on, but I'm not over that. So that was her response.",
+      "zh": "“我还是要说你当初做得不对。你是想翻篇了，可我还没消气呢。”这就是她的回答。"
+    },
+    {
+      "id": 229,
+      "start_sec": 2029,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "But then she was like, really? Like you're really going to let me? And I was like, absolutely. Okay. Great.",
+      "zh": "不过紧接着她又问：“真的吗？你真打算让我自己选？”我说：“当然。”于是她说：“好吧，太棒了。”"
+    },
+    {
+      "id": 230,
+      "start_sec": 2036,
+      "speaker": "Najya Hannah-Jones",
+      "en": "I'm going to a school that I want for myself. I'm going to a school that's going to be hard to get into, like that's really good, that has high scores. That's what I wanted to do.",
+      "zh": "我要去一所我自己想去的学校，一所很难考、教学质量过硬、考试成绩拔尖的学校。这就是我当时想做的。"
+    },
+    {
+      "id": 231,
+      "start_sec": 2048,
+      "speaker": "Najya Hannah-Jones",
+      "en": "I wanted better education. Just like learning more, or like homework, like having more curriculars, or like just more subjects.",
+      "zh": "我想要更好的教育，想学到更多东西，有家庭作业，有更丰富的课程和更多科目。"
+    },
+    {
+      "id": 232,
+      "start_sec": 2060,
+      "speaker": "Najya Hannah-Jones",
+      "en": "I didn't want to be in a majority Black school. I thought I wanted more of a diverse community.",
+      "zh": "我不想再待在以黑人为主的学校了，我想去一个更加多元化的校园。"
+    },
+    {
+      "id": 233,
+      "start_sec": 2067,
+      "speaker": "Chana Joffe-Walt",
+      "en": "Why?",
+      "zh": "为什么？"
+    },
+    {
+      "id": 234,
+      "start_sec": 2071,
+      "speaker": "Najya Hannah-Jones",
+      "en": "I felt like if I was in a diverse community, a more diverse or—",
+      "zh": "我觉得如果我在一个多元化的环境里，一个更多元或者——"
+    },
+    {
+      "id": 235,
+      "start_sec": 2083,
+      "speaker": "Najya Hannah-Jones",
+      "en": "—less Black, or not less Black, but more diverse community, I would get better education, because that's what it seemed like.",
+      "zh": "——黑人少一点的——也不是说黑人少，就是更多元化的环境里，我就能接受到更好的教育，因为看起来好像就是这样。"
+    },
+    {
+      "id": 236,
+      "start_sec": 2097,
+      "speaker": "Chana Joffe-Walt",
+      "en": "Where did you get that idea from? Like—",
+      "zh": "你这想法是从哪儿来的？比如——"
+    },
+    {
+      "id": 237,
+      "start_sec": 2100,
+      "speaker": "Chana Joffe-Walt",
+      "en": "Why did it seem that way to you?",
+      "zh": "为什么你会觉得是这样呢？"
+    },
+    {
+      "id": 238,
+      "start_sec": 2102,
+      "speaker": "Najya Hannah-Jones",
+      "en": "Because you see it in your school. You see all these schools, prestigious, like they're mainly Asian or mainly white. And it's like, if I've been in these schools where it's majority Black, it's like I'm not getting anything from it at all.",
+      "zh": "因为你在学校里就能看到啊。你看那些名校，里头主要都是亚裔或者白人。而我待在那些以黑人为主的学校里，就觉得自己什么都没学到。"
+    },
+    {
+      "id": 239,
+      "start_sec": 2115,
+      "speaker": "Najya Hannah-Jones",
+      "en": "If you look at like the top schools, they're majority white. And it's like, if you want to go to a good school, you're going to have to go to a majority white school.",
+      "zh": "只要看看那些顶尖学校，基本都是白人占多数。感觉你要是想上好学校，就非得去白人为主的学校不可。"
+    },
+    {
+      "id": 240,
+      "start_sec": 2126,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "She comes back with her list of schools, and I internally cringed.",
+      "zh": "她拿着她的选校清单回来找我，我心里一下子就揪紧了。"
+    },
+    {
+      "id": 241,
+      "start_sec": 2131,
+      "speaker": "Chana Joffe-Walt",
+      "en": "Why?",
+      "zh": "为什么？"
+    },
+    {
+      "id": 242,
+      "start_sec": 2132,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "Well, what my daughter did was looked up the top-achieving schools in the city. She found out like the best, in terms of test score, schools in the city, and that was her list.",
+      "zh": "嗯，我女儿干的事儿就是去查全城成绩最顶尖的学校。她把全市考试分数最高的那批学校全找了出来，那就是她的清单。"
+    },
+    {
+      "id": 243,
+      "start_sec": 2147,
+      "speaker": "Chana Joffe-Walt",
+      "en": "The exact opposite of your approach.",
+      "zh": "跟你的理念完全反着来。"
+    },
+    {
+      "id": 244,
+      "start_sec": 2149,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "Yeah.",
+      "zh": "可不是嘛。"
+    },
+    {
+      "id": 245,
+      "start_sec": 2150,
+      "speaker": "Chana Joffe-Walt",
+      "en": "What'd you do with your face?",
+      "zh": "那你当时脸上的表情怎么控制得住？"
+    },
+    {
+      "id": 246,
+      "start_sec": 2152,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "No, I don't think I actually... It's impossible for me to have a neutral face, but I try. I work very hard.",
+      "zh": "哎，其实我觉得我根本——我这人根本做不到表情毫无波澜，但我尽力了，真的特别努力在克制。"
+    },
+    {
+      "id": 247,
+      "start_sec": 2160,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "I'm like, I cannot believe this. Like my child came up with like the exact opposite of my life's work. And every school on there is a school that screens and has hardly no Black kids.",
+      "zh": "我心想，简直不敢相信。我女儿挑出来的，竟然跟我毕生从事的事业完全背道而驰。清单上每一所都是搞筛选录取的学校，而且里面几乎没有黑人孩子。"
+    },
+    {
+      "id": 248,
+      "start_sec": 2174,
+      "speaker": "Chana Joffe-Walt",
+      "en": "Najya organized everything for high school. She researched the schools, found out when they had tours, how you get into them. The only time Nikole intervened was to insist that Najya at least tour a selective, high-achieving, majority Black high school.",
+      "zh": "升高中这件事，全程都是 Najya 自己一手包办的。她自己查学校资料、打听校园开放日的时间、研究录取流程。Nikole 唯一一次插手，是坚持让 Najya 至少去参观一所择优录取、成绩优异且以黑人学生为主的高中。"
+    },
+    {
+      "id": 249,
+      "start_sec": 2191,
+      "speaker": "Chana Joffe-Walt",
+      "en": "Otherwise, Nikole kept her word and let Najya take the reins. Najya began imagining more and more what she wanted from school, where she was heading in high school and beyond high school.",
+      "zh": "除此之外，Nikole 信守承诺，把主导权交给了 Najya。Najya 也越来越清楚自己想从学校得到什么，开始规划高中乃至高中之后的人生方向。"
+    },
+    {
+      "id": 250,
+      "start_sec": 2202,
+      "speaker": "Chana Joffe-Walt",
+      "en": "Nikole teaches at Howard University, an HBCU, the mecca of Black education and excellence.",
+      "zh": "Nikole 在 Howard University 任教，这是一所历史悠久的黑人大学（HBCU），堪称黑人教育与卓越成就的殿堂。"
+    },
+    {
+      "id": 251,
+      "start_sec": 2210,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "Yeah, I mean, look, I've been ingraining Howard into her since she was like three years old. And then one day, she comes back from middle school and she says she wants to go to Harvard.",
+      "zh": "是啊，你看，我从她三岁起就一直往她脑子里灌输 Howard。结果有一天，她初中放学回来，跟我说她想去 Harvard。"
+    },
+    {
+      "id": 252,
+      "start_sec": 2222,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "And I was like, we have never mentioned the word \"Harvard\" in our household. What the hell is happening?",
+      "zh": "我当时就懵了，心想我们家从来没提过“Harvard”这个词啊，这到底是怎么回事？"
+    },
+    {
+      "id": 253,
+      "start_sec": 2230,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "I'm like, what? But like she did for high schools, she looked up the top-ranked school and decided that's where she wanted to go.",
+      "zh": "我整个人都傻眼了。不过她就像当初挑高中那样，自己去查了排名第一的大学，然后就拍板说要去那儿。"
+    },
+    {
+      "id": 254,
+      "start_sec": 2239,
+      "speaker": "Chana Joffe-Walt",
+      "en": "You're literally like, where did this girl learn the word \"Harvard?\"",
+      "zh": "你简直像在问，这丫头到底从哪儿学来的“Harvard”这个词？"
+    },
+    {
+      "id": 255,
+      "start_sec": 2242,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "Harvard, yes. I'm telling you, like we don't even discuss PWIs as an option in our household, like. So—",
+      "zh": "就是 Harvard，没错。我跟你说，在我们家讨论选校，连 PWI 都根本不在备选范围里，所以——"
+    },
+    {
+      "id": 256,
+      "start_sec": 2249,
+      "speaker": "Chana Joffe-Walt",
+      "en": "Predominantly white institution.",
+      "zh": "以白人学生为主的院校。"
+    },
+    {
+      "id": 257,
+      "start_sec": 2251,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "Yeah, predominantly white institution.",
+      "zh": "对，以白人学生为主的院校。"
+    },
+    {
+      "id": 258,
+      "start_sec": 2252,
+      "speaker": "Chana Joffe-Walt",
+      "en": "Yeah.",
+      "zh": "嗯。"
+    },
+    {
+      "id": 259,
+      "start_sec": 2253,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "And especially like not Harvard. Like, Harvard? What, child? 'Cause I'm like, did I mishear you? Did you accidentally say Howard? No.",
+      "zh": "更别提 Harvard 了。Harvard？孩子你认真的吗？我当时都想，是不是我听错了？你是不是想说 Howard 结果嘴瓢了？并没有。"
+    },
+    {
+      "id": 260,
+      "start_sec": 2260,
+      "speaker": "Chana Joffe-Walt",
+      "en": "I love that your child's rebellion is to tell her mother that she wants to go to Harvard University.",
+      "zh": "太有意思了，你女儿的叛逆方式竟然是告诉妈妈她想考 Harvard University。"
+    },
+    {
+      "id": 261,
+      "start_sec": 2264,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "Exactly, and I'm disappointed. I'm like, what is wrong with you?",
+      "zh": "可不是嘛，我还挺失望的。我心想，你这孩子怎么回事啊？"
+    },
+    {
+      "id": 262,
+      "start_sec": 2271,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "You have to admire that the child is like, whatever is the best, that's what I want.",
+      "zh": "不过你也不得不佩服这孩子的志气：只要是最好的，我就要。"
+    },
+    {
+      "id": 263,
+      "start_sec": 2276,
+      "speaker": "Chana Joffe-Walt",
+      "en": "Yeah.",
+      "zh": "是啊。"
+    },
+    {
+      "id": 264,
+      "start_sec": 2277,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "I both admired it and was appalled at the same time. Like, where are you getting these ideas? Who is putting these crazy ideas in your head?",
+      "zh": "我当时真是既佩服又惊骇。心想你这些念头都是打哪儿来的？谁往你脑子里灌了这么多奇思妙想？"
+    },
+    {
+      "id": 265,
+      "start_sec": 2291,
+      "speaker": "Chana Joffe-Walt",
+      "en": "Najya submitted her high school application, ranking a dozen high-achieving schools, and she got into her top choice—a majority white and Asian school in a wealthy neighborhood, almost an hour commute by subway from her home.",
+      "zh": "Najya 提交了高中申请，按志愿顺序列了十多所高分名校，最终她被第一志愿录取——那是富人区里一所以白人和亚裔学生为主的学校，从家坐地铁过去将近一个小时。"
+    },
+    {
+      "id": 266,
+      "start_sec": 2305,
+      "speaker": "Chana Joffe-Walt",
+      "en": "She started freshman year.",
+      "zh": "她开始了高一生活。"
+    },
+    {
+      "id": 267,
+      "start_sec": 2308,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "Within two weeks, she was ready to transfer. She wanted to transfer out of the school.",
+      "zh": "结果才过了两周，她就吵着要转学，想离开那所学校。"
+    },
+    {
+      "id": 268,
+      "start_sec": 2313,
+      "speaker": "Chana Joffe-Walt",
+      "en": "Wow.",
+      "zh": "哇。"
+    },
+    {
+      "id": 269,
+      "start_sec": 2315,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "And I told her no. I was like, look, we went through a whole process. You're going to stay here, and we're going to figure it out. Like, this is life. This is real life.",
+      "zh": "我拒绝了她。我说，你看，咱们大费周章走了这一整套申请流程，你必须待在这儿，咱们一起想办法解决。这就是生活，这就是现实。"
+    },
+    {
+      "id": 270,
+      "start_sec": 2324,
+      "speaker": "Najya Hannah-Jones",
+      "en": "The girls were different. I noticed that there were kids that were comfortable saying the N-word. I also experienced that.",
+      "zh": "那里的女生很不一样。我注意到有些同学能随口把那个N开头的歧视词挂在嘴边。我自己也遇上了这种事。"
+    },
+    {
+      "id": 271,
+      "start_sec": 2332,
+      "speaker": "Chana Joffe-Walt",
+      "en": "There were white kids that were saying the N-word.",
+      "zh": "有白人学生当众说那个N开头的词。"
+    },
+    {
+      "id": 272,
+      "start_sec": 2335,
+      "speaker": "Najya Hannah-Jones",
+      "en": "Yeah. That's everywhere, but it was like I never really experienced that in person.",
+      "zh": "嗯。这种事哪儿都有，但我之前从没真正当面遇到过。"
+    },
+    {
+      "id": 273,
+      "start_sec": 2341,
+      "speaker": "Najya Hannah-Jones",
+      "en": "There was like kids that also came from very good homes, like kids that also came from like very rich households.",
+      "zh": "那儿还有很多家境特别优渥的孩子，就是来自非常富裕家庭的那种。"
+    },
+    {
+      "id": 274,
+      "start_sec": 2349,
+      "speaker": "Chana Joffe-Walt",
+      "en": "And did that affect you or—",
+      "zh": "那这有没有影响到你，或者——"
+    },
+    {
+      "id": 275,
+      "start_sec": 2351,
+      "speaker": "Najya Hannah-Jones",
+      "en": "I thought they were like too bougie and had high egos, but like unaware, like don't know about anything, like social-wise, like nothing about Black people or nothing about this—",
+      "zh": "我觉得他们太端着架子、眼高于顶，但又特别无知，社会常识方面一窍不通，对黑人文化、对这些事什么都不懂——"
+    },
+    {
+      "id": 276,
+      "start_sec": 2361,
+      "speaker": "Najya Hannah-Jones",
+      "en": "—kind of just unaware about a lot of things and a lot of things in history, just really privileged and spoiled.",
+      "zh": "就是对很多事情、对很多历史都一无所知，纯粹是被特权宠坏了。"
+    },
+    {
+      "id": 277,
+      "start_sec": 2369,
+      "speaker": "Chana Joffe-Walt",
+      "en": "And kind of ignorant.",
+      "zh": "还有点愚昧无知。"
+    },
+    {
+      "id": 278,
+      "start_sec": 2371,
+      "speaker": "Najya Hannah-Jones",
+      "en": "Very, very ignorant.",
+      "zh": "非常、非常无知。"
+    },
+    {
+      "id": 279,
+      "start_sec": 2373,
+      "speaker": "Chana Joffe-Walt",
+      "en": "Mm-hmm. Got it. Okay.",
+      "zh": "嗯哼，明白了，好。"
+    },
+    {
+      "id": 280,
+      "start_sec": 2376,
+      "speaker": "Najya Hannah-Jones",
+      "en": "Yeah.",
+      "zh": "嗯。"
+    },
+    {
+      "id": 281,
+      "start_sec": 2377,
+      "speaker": "Chana Joffe-Walt",
+      "en": "How were the academics? That was the thing you had really wanted.",
+      "zh": "那学业方面怎么样？那可是你最看重的。"
+    },
+    {
+      "id": 282,
+      "start_sec": 2381,
+      "speaker": "Najya Hannah-Jones",
+      "en": "Um, when I got into that school and they were talking about all these things, I'm like, what are we talking about? I never learned this.",
+      "zh": "呃，我进了那所学校之后，听着大家在课堂上讨论各种内容，我整个人都是懵的：我们这到底在讲什么？我以前根本没学过这些啊。"
+    },
+    {
+      "id": 283,
+      "start_sec": 2393,
+      "speaker": "Najya Hannah-Jones",
+      "en": "So it was kind of bumpy. Like it was, it was hard. It was really—",
+      "zh": "所以一开始挺磕磕绊绊的，真的很难，特别——"
+    },
+    {
+      "id": 284,
+      "start_sec": 2400,
+      "speaker": "Najya Hannah-Jones",
+      "en": "stressful.",
+      "zh": "……压力特别大。"
+    },
+    {
+      "id": 285,
+      "start_sec": 2401,
+      "speaker": "Chana Joffe-Walt",
+      "en": "Yeah, that sounds stressful.",
+      "zh": "是啊，听起来确实压力很大。"
+    },
+    {
+      "id": 286,
+      "start_sec": 2403,
+      "speaker": "Najya Hannah-Jones",
+      "en": "I've never got a C before. I never really got those grades in middle school. And when I saw that, now it was just like... It sucked a lot.",
+      "zh": "我以前从来没拿过 C，初中时压根没考过这么差的成绩。当时看到那个分数，我整个人都不好了……真的特别糟心。"
+    },
+    {
+      "id": 287,
+      "start_sec": 2413,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "She didn't feel like she fit in, she didn't feel like she had anything in common with most of the kids.",
+      "zh": "她觉得自己融不进去，觉得跟班里大多数孩子都格格不入。"
+    },
+    {
+      "id": 288,
+      "start_sec": 2417,
+      "speaker": "Chana Joffe-Walt",
+      "en": "Were you surprised that that was her experience those first few weeks?",
+      "zh": "听说她头几个星期是这种感受，你觉得意外吗？"
+    },
+    {
+      "id": 289,
+      "start_sec": 2421,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "No, not at all. That experience I have had. Um, except—",
+      "zh": "不，一点都不意外。这种滋味我亲身经历过。呃，只不过——"
+    },
+    {
+      "id": 290,
+      "start_sec": 2426,
+      "speaker": "Chana Joffe-Walt",
+      "en": "That was the experience you were trying to protect her from.",
+      "zh": "这正是你当初想保护她、不想让她经历的事。"
+    },
+    {
+      "id": 291,
+      "start_sec": 2428,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "Exactly.",
+      "zh": "没错。"
+    },
+    {
+      "id": 292,
+      "start_sec": 2429,
+      "speaker": "Chana Joffe-Walt",
+      "en": "One of them.",
+      "zh": "至少是其中之一。"
+    },
+    {
+      "id": 293,
+      "start_sec": 2430,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "One of them, yeah. Probably the most devastating thing is you spend like their whole lifetime trying to build up the sense of themselves, just as a parent parenting a child, but also me trying to build my child's confidence as a Black girl and the inherent intellect and worth.",
+      "zh": "对，是其中之一。最让人痛心的是，你作为家长含辛茹苦拉扯孩子长大，花了一辈子帮她建立自我认同——尤其是我，一直努力培养她作为黑人女孩的自信，让她相信自己与生俱来的才智和价值。"
+    },
+    {
+      "id": 294,
+      "start_sec": 2448,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "And then it can be destroyed like in two weeks in this school. Freshman year, it was the first time a teacher ever called about behavior for Najya, that had never happened. She had never had behavior problems. She was angry. She was really angry for much of that year.",
+      "zh": "结果进了这所学校才短短两周，这些自信就可能被彻底摧毁。高一那年，老师生平第一次因为 Najya 的纪律问题给我打电话，以前从来没发生过这种事。她以前从来没有过任何行为问题。她当时很愤怒，那一年多半时间里她都憋着一肚子火。"
+    },
+    {
+      "id": 295,
+      "start_sec": 2465,
+      "speaker": "Chana Joffe-Walt",
+      "en": "Nikole and Faraji focused on getting Najya tutoring and support. And Najya settled in. She made new friends, she caught up academically, she stopped asking to transfer. She's doing well. This was the new status quo.",
+      "zh": "Nikole 和 Faraji 全力给 Najya 找辅导老师、提供各种支持。慢慢地，Najya 安定了下来。她交到了新朋友，学业也追上来了，不再嚷嚷着要转学。她现在表现挺好的。这就是他们家的新常态。"
+    },
+    {
+      "id": 296,
+      "start_sec": 2480,
+      "speaker": "Chana Joffe-Walt",
+      "en": "And this is where they were when I started talking to Nikole and Najya, toward the end of Najya's sophomore year, the second year at the high school that she'd chosen for herself.",
+      "zh": "而我开始采访 Nikole 和 Najya 时，正值 Najya 高二快结束的时候——也就是她在自己挑选的那所高中度过的第二年。"
+    },
+    {
+      "id": 297,
+      "start_sec": 2491,
+      "speaker": "Chana Joffe-Walt",
+      "en": "Nikole and Najya had come into the studio to talk, not knowing exactly what the other thought about this whole experience now. Some time had passed, and they'd stopped fighting about it.",
+      "zh": "Nikole 和 Najya 来到录音室对谈，其实两人都不太确定对方现在对这一整段经历究竟是怎么想的。毕竟时间过去这么久了，她们早就不再为这事吵架了。"
+    },
+    {
+      "id": 298,
+      "start_sec": 2502,
+      "speaker": "Chana Joffe-Walt",
+      "en": "Nikole had not written her new article about all of this yet, and she had questions.",
+      "zh": "Nikole 当时还没动手写关于这件事的新文章，她心里也有不少疑问。"
+    },
+    {
+      "id": 299,
+      "start_sec": 2507,
+      "speaker": "Chana Joffe-Walt",
+      "en": "She thought, now that Najya was doing so well—she'd been able to get into her top school and succeed there—Nikole wanted to know, if I asked Najya what she thought of her mom's choice, would she still say it was terrible?",
+      "zh": "她心想，既然 Najya 现在混得这么好——既考上了心仪的顶尖高中，在学校里又很成功——如果我再去问 Najya 怎么看妈妈当年的决定，她还会说那是个糟糕透顶的选择吗？"
+    },
+    {
+      "id": 300,
+      "start_sec": 2529,
+      "speaker": "Chana Joffe-Walt",
+      "en": "Act Four: Nikole and Najya.",
+      "zh": "Act Four：Nikole 与 Najya。"
+    },
+    {
+      "id": 301,
+      "start_sec": 2533,
+      "speaker": "Chana Joffe-Walt",
+      "en": "When they showed up together, I could tell just by watching the way they interact that Nikole and Najya enjoy spending time together. They're comfortable.",
+      "zh": "她们母女俩一起出现时，光看她们的互动方式就能看出来，Nikole 和 Najya 都很享受待在一起的时光，相处得特别自在。"
+    },
+    {
+      "id": 302,
+      "start_sec": 2543,
+      "speaker": "Chana Joffe-Walt",
+      "en": "Najya's 16 years old now. She tells me her top pick for college is Howard—not Harvard, Howard. She likes it, she says, because it's in DC, it's got a nice campus. Plus, she says, I'd get to be with my mom.",
+      "zh": "Najya 今年十六岁了。她告诉我她心目中的大学首选是霍华德大学——不是哈佛，是霍华德。她说她喜欢那里，因为学校在华盛顿特区，校园很漂亮。而且她说，这样我就能和妈妈待在一起了。"
+    },
+    {
+      "id": 303,
+      "start_sec": 2557,
+      "speaker": "Chana Joffe-Walt",
+      "en": "They both act like this is a completely regular thing for a 16-year-old to say and want, and that is how I know they're close and that a lot has changed.",
+      "zh": "她们俩都觉得一个十六岁的姑娘说出这种话、有这种想法再正常不过了，由此我就知道，母女俩现在关系很亲密，而且很多事情确实不一样了。"
+    },
+    {
+      "id": 304,
+      "start_sec": 2568,
+      "speaker": "Chana Joffe-Walt",
+      "en": "I had talked to Nikole about all this twice on her own before she came in with Najya. And I talked to Najya alone for almost an hour and a half while her mom waited outside.",
+      "zh": "在 Nikole 带着 Najya 一起来之前，我已经单独跟 Nikole 聊过两次这事了。然后我又让妈妈在外面等着，单独跟 Najya 聊了将近一个半小时。"
+    },
+    {
+      "id": 305,
+      "start_sec": 2578,
+      "speaker": "Chana Joffe-Walt",
+      "en": "I got Najya's thoughts on the experiences she'd had in the different schools. And it wasn't until the very end when I said, is there anything else you want to say, that Najya mentioned the argument with her mom.",
+      "zh": "我听 Najya 讲了她在不同学校的亲身感受。直到采访最后，我问她“还有什么想说的吗”，Najya 才提起了之前跟妈妈的那场争论。"
+    },
+    {
+      "id": 306,
+      "start_sec": 2589,
+      "speaker": "Chana Joffe-Walt",
+      "en": "They hadn't had it for a long time, but Najya said she had brought it up again when she was feeling behind at the beginning of high school.",
+      "zh": "她们其实很久没吵过这个了，但 Najya 说，刚上高中发现自己落下一大截时，她又把这事翻出来说过一次。"
+    },
+    {
+      "id": 307,
+      "start_sec": 2597,
+      "speaker": "Najya Hannah-Jones",
+      "en": "Like, Mom, if you didn't put me in these schools, I would have been okay.",
+      "zh": "我就说，妈，要是你当初没把我送去那些学校，我现在本来会过得挺好的。"
+    },
+    {
+      "id": 308,
+      "start_sec": 2602,
+      "speaker": "Chana Joffe-Walt",
+      "en": "What'd she say?",
+      "zh": "那她怎么说？"
+    },
+    {
+      "id": 309,
+      "start_sec": 2603,
+      "speaker": "Najya Hannah-Jones",
+      "en": "She said the same thing. She said—I don't know what she said. I wouldn't know what she said.",
+      "zh": "她还是老一套说辞。她说——其实我也不知道她说了啥，我哪记得她说什么了。"
+    },
+    {
+      "id": 310,
+      "start_sec": 2607,
+      "speaker": "Chana Joffe-Walt",
+      "en": "She said something.",
+      "zh": "她肯定说了点什么。"
+    },
+    {
+      "id": 311,
+      "start_sec": 2609,
+      "speaker": "Najya Hannah-Jones",
+      "en": "All I know is that I complained to her, so.",
+      "zh": "我只记得自己跟她抱怨了一通，就这样。"
+    },
+    {
+      "id": 312,
+      "start_sec": 2612,
+      "speaker": "Chana Joffe-Walt",
+      "en": "So you know that she said the same thing that she said the last time you had the conversation, but you don't actually know what that thing was?",
+      "zh": "也就是说，你知道她当时又搬出了上次你们谈话时的那套说法，但你其实根本不知道具体是哪套说法？"
+    },
+    {
+      "id": 313,
+      "start_sec": 2619,
+      "speaker": "Najya Hannah-Jones",
+      "en": "Yeah, I don't know what it was.",
+      "zh": "对，我不记得她说了啥。"
+    },
+    {
+      "id": 314,
+      "start_sec": 2621,
+      "speaker": "Chana Joffe-Walt",
+      "en": "Do you want to know?",
+      "zh": "你想知道吗？"
+    },
+    {
+      "id": 315,
+      "start_sec": 2622,
+      "speaker": "Najya Hannah-Jones",
+      "en": "Yes.",
+      "zh": "想。"
+    },
+    {
+      "id": 316,
+      "start_sec": 2623,
+      "speaker": "Chana Joffe-Walt",
+      "en": "I think we could probably get the answer from her because she's sitting right outside here. Nikole, you up for coming in?",
+      "zh": "我觉得我们现在就能从她那儿问出答案，因为她就坐在门外呢。Nikole，方便进来一下吗？"
+    },
+    {
+      "id": 317,
+      "start_sec": 2632,
+      "speaker": "Chana Joffe-Walt",
+      "en": "Hello, Nikole.",
+      "zh": "你好，Nikole。"
+    },
+    {
+      "id": 318,
+      "start_sec": 2633,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "Hello.",
+      "zh": "你好。"
+    },
+    {
+      "id": 319,
+      "start_sec": 2634,
+      "speaker": "Chana Joffe-Walt",
+      "en": "Nikole sits next to Najya, and they talk. I'm going to bleep the name of Najya's high school when it comes up in this conversation. They're sitting side by side, and Nikole begins laying out her case.",
+      "zh": "Nikole 在 Najya 身边坐下，母女俩聊了起来。接下来的对话里每次提到 Najya 高中的校名，我都会做消音处理。她们并排坐着，Nikole 开始陈述自己的理由。"
+    },
+    {
+      "id": 320,
+      "start_sec": 2645,
+      "speaker": "Chana Joffe-Walt",
+      "en": "She's clear, vulnerable, tells Najya this was a hard choice, the hardest choice. Najya still seems to be listening carefully. As Nikole says, public education is just so deeply unequal and always has been. Black kids in particular segregated and denied a fair and equal education.",
+      "zh": "她条理清晰又坦诚脆弱，告诉 Najya 这是一个艰难的决定，是最难的选择。Najya 看上去也一直在认真听。正如 Nikole 所说，公共教育体系本来就极其不平等，向来如此；尤其是黑人孩子，一直被隔离在外，得不到公平和平等的教育。"
+    },
+    {
+      "id": 321,
+      "start_sec": 2663,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "What do we then do? Do we just say, well, there's nothing I can do? Or do you try in some way to make some intervention?",
+      "zh": "那我们该怎么办呢？难道就摊摊手说“算了，我也无能为力”吗？还是说，你总得想方设法去做出一点改变和干预？"
+    },
+    {
+      "id": 322,
+      "start_sec": 2672,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "It's like, why should my child be the one that's rescued? Like you should escape what we consign so many other kids just like you to? I just will never feel right about that.",
+      "zh": "就像我总在想，凭什么只有我的孩子能被“救”出去？凭什么只有你能够逃离那种困境，而我们却任由那么多跟你一模一样的孩子被困在里面？这种事，我心里永远过意不去。"
+    },
+    {
+      "id": 323,
+      "start_sec": 2686,
+      "speaker": "Najya Hannah-Jones",
+      "en": "Why? Why? It makes no sense. You're talking about, oh, I'm just going to give you the worst just because it's not fair that you—I didn't ask to be born. All you're supposed to do is just like...",
+      "zh": "为什么？凭什么呀？这根本说不通。你的意思不就是“哦，就因为别人过得不好不公平，所以我干脆也给你选最差的”——可又不是我求着要出生的。你作为家长，本该做的不就是……"
+    },
+    {
+      "id": 324,
+      "start_sec": 2700,
+      "speaker": "Najya Hannah-Jones",
+      "en": "Put me in a good school. Like, oh, well, I didn't want to put you in a great school and have you have advantages over other kids.",
+      "zh": "送我去一所好学校啊。什么“哦，我可不想把你送进顶尖学校，让你比别的孩子占优势”。"
+    },
+    {
+      "id": 325,
+      "start_sec": 2705,
+      "speaker": "Najya Hannah-Jones",
+      "en": "Isn't that what you want? Isn't that what you want me to have? Is that not a normal thing you want me to have? You don't want me to have this—",
+      "zh": "难道那不正是你想要的吗？不就是你想让我拥有的吗？想让孩子拥有这些，难道不是人之常情吗？你难道不想让我——"
+    },
+    {
+      "id": 326,
+      "start_sec": 2710,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "You do, though.",
+      "zh": "可你确实拥有啊。"
+    },
+    {
+      "id": 327,
+      "start_sec": 2711,
+      "speaker": "Najya Hannah-Jones",
+      "en": "Okay, yeah, but—",
+      "zh": "好，是，但——"
+    },
+    {
+      "id": 328,
+      "start_sec": 2712,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "But you do. You have advantages. You have so many advantages.",
+      "zh": "你就是有。你有很多优势，非常多。"
+    },
+    {
+      "id": 329,
+      "start_sec": 2715,
+      "speaker": "Najya Hannah-Jones",
+      "en": "Right, okay, so—but I'm not seeing them. I'm saying school-wise. I'm in school every day. I was in that building every single day.",
+      "zh": "行，好吧，可我没感受到啊。我说的是学校方面。我每天都在上学，每一天都待在那个教学楼里。"
+    },
+    {
+      "id": 330,
+      "start_sec": 2722,
+      "speaker": "Najya Hannah-Jones",
+      "en": "That doesn't make sense. I'm there more than home. Obviously, I get more in general, but school is the most important thing. That's the main thing.",
+      "zh": "这说不通啊。我在学校待的时间比在家还长。当然，我在其他方面是得到了更多，但学校才是最重要的，这才是最核心的。"
+    },
+    {
+      "id": 331,
+      "start_sec": 2729,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "Why do you imagine you're able to do well in [BLEEP]?",
+      "zh": "那你觉得，为什么你能在那所学校读得这么好呢？"
+    },
+    {
+      "id": 332,
+      "start_sec": 2734,
+      "speaker": "Najya Hannah-Jones",
+      "en": "Um, because it's a better school.",
+      "zh": "嗯，因为那是所更好的学校。"
+    },
+    {
+      "id": 333,
+      "start_sec": 2737,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "But you—do you think it's possible your foundation wasn't as terrible as you think it is?",
+      "zh": "但你有没有想过，也许你的基础并没有你自己以为的那么差？"
+    },
+    {
+      "id": 334,
+      "start_sec": 2742,
+      "speaker": "Najya Hannah-Jones",
+      "en": "No.",
+      "zh": "没有。"
+    },
+    {
+      "id": 335,
+      "start_sec": 2743,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "So you think you came in like a blank slate at [BLEEP] and now have learned everything there?",
+      "zh": "所以你觉得你进那所学校时就像一张白纸，所有东西都是到了那儿才学的？"
+    },
+    {
+      "id": 336,
+      "start_sec": 2749,
+      "speaker": "Najya Hannah-Jones",
+      "en": "No, but—",
+      "zh": "也不是，但——"
+    },
+    {
+      "id": 337,
+      "start_sec": 2750,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "You have been able to have the same academic success as your classmates.",
+      "zh": "你在学业上完全跟得上同学，表现得一样出色。"
+    },
+    {
+      "id": 338,
+      "start_sec": 2752,
+      "speaker": "Najya Hannah-Jones",
+      "en": "Yeah, to get through it because—well, not even though. Last year, when I had my grade come out, I remember crying because everyone else's score was so good.",
+      "zh": "是啊，我能熬过来是因为——其实也谈不上。我记得去年成绩出来的时候，我哭了，因为其他所有人的分数都那么高。"
+    },
+    {
+      "id": 339,
+      "start_sec": 2764,
+      "speaker": "Najya Hannah-Jones",
+      "en": "And I was just like, how is this so easy for everyone else but me? So no, I don't think that I got through it. I think I just tried my hardest.",
+      "zh": "我当时就在想，为什么这对别人来说都那么轻而易举，偏偏就我这么难？所以不，我不觉得我是什么“熬过来了”，我只是拼尽了全力而已。"
+    },
+    {
+      "id": 340,
+      "start_sec": 2772,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "Yeah. I mean, I think it's fair to say you did not receive the top quality middle school education.",
+      "zh": "是。我觉得说实话，你在初中确实没有接受到最顶尖的教育。"
+    },
+    {
+      "id": 341,
+      "start_sec": 2776,
+      "speaker": "Najya Hannah-Jones",
+      "en": "Either in elementary with—",
+      "zh": "小学也没有，连——"
+    },
+    {
+      "id": 342,
+      "start_sec": 2778,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "That's fair.",
+      "zh": "说得对。"
+    },
+    {
+      "id": 343,
+      "start_sec": 2779,
+      "speaker": "Najya Hannah-Jones",
+      "en": "—even basic fractions. I mean, I was never taught that. I had to relearn everything from my tutor.",
+      "zh": "——连最基础的分数都没学好。我根本没被教过那些，所有东西都得靠家教老师从头教起。"
+    },
+    {
+      "id": 344,
+      "start_sec": 2784,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "That's fair.",
+      "zh": "这确实是事实。"
+    },
+    {
+      "id": 345,
+      "start_sec": 2785,
+      "speaker": "Najya Hannah-Jones",
+      "en": "Everyone's not your kid.",
+      "zh": "别人家的孩子又不是你的孩子。"
+    },
+    {
+      "id": 346,
+      "start_sec": 2787,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "That's fair.",
+      "zh": "没错。"
+    },
+    {
+      "id": 347,
+      "start_sec": 2788,
+      "speaker": "Najya Hannah-Jones",
+      "en": "You can't save everyone who doesn't want to be saved.",
+      "zh": "你救不了每一个不想被救的人。"
+    },
+    {
+      "id": 348,
+      "start_sec": 2790,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "Oh. That's what you think, though? You think other kids don't want better?",
+      "zh": "哦，你是这么想的吗？你觉得别的孩子不想要更好的教育吗？"
+    },
+    {
+      "id": 349,
+      "start_sec": 2797,
+      "speaker": "Najya Hannah-Jones",
+      "en": "I'm not saying that. I wanted better. All the kids in my school that wanted better wanted better.",
+      "zh": "我不是那个意思。我也想要更好的。我学校里所有想变好的孩子都想要更好的。"
+    },
+    {
+      "id": 350,
+      "start_sec": 2801,
+      "speaker": "Najya Hannah-Jones",
+      "en": "There's no benefit that came out of you putting me in those schools. There's no benefit at all. Could you tell me a benefit?",
+      "zh": "你把我送进那些学校，根本没带来任何好处。一点好处都没有。你能说出一个好处来吗？"
+    },
+    {
+      "id": 351,
+      "start_sec": 2809,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "You want me to answer that? Benefit for the school?",
+      "zh": "你想让我回答这个问题吗？对学校的好处？"
+    },
+    {
+      "id": 352,
+      "start_sec": 2812,
+      "speaker": "Najya Hannah-Jones",
+      "en": "What benefit did you provide the school?",
+      "zh": "你们给那所学校带来了什么好处？"
+    },
+    {
+      "id": 353,
+      "start_sec": 2815,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "I think that's a great question. I do think it was a benefit of us being in those schools. We brought resources. If you remember—",
+      "zh": "我觉得这个问题问得很好。我确实认为我们在那些学校里是有帮助的。我们带去了资源。如果你还记得——"
+    },
+    {
+      "id": 354,
+      "start_sec": 2822,
+      "speaker": "Chana Joffe-Walt",
+      "en": "Nikole runs through a bunch of examples—your dad organizing parents at the school, intervening when there were issues with teachers, making sure kids who couldn't afford field trips would still get those opportunities.",
+      "zh": "Nikole 一口气举了一连串例子——你爸爸在学校里组织家长，老师出问题时出面交涉，确保那些交不起钱参加校外研学的孩子也能获得同样的机会。"
+    },
+    {
+      "id": 355,
+      "start_sec": 2833,
+      "speaker": "Chana Joffe-Walt",
+      "en": "The principal creating a recognition breakfast for kids who made the honor roll wouldn't have happened if you weren't in the school. Nikole goes big and specific. The benefits of kids having friends from different backgrounds, our moral obligations to one another.",
+      "zh": "要不是你在那所学校，校长根本不会专门为登上荣誉榜的孩子设立表彰早餐会。Nikole 从宏观讲到细节——孩子们结交不同背景的朋友带来的益处，还有我们彼此之间应尽的道德责任。"
+    },
+    {
+      "id": 356,
+      "start_sec": 2847,
+      "speaker": "Chana Joffe-Walt",
+      "en": "Najya is not waiting for her to be done. She's jumping in. Opportunities for all kids, like what? You made friends with different kinds of people. Who? Dad being involved had a big impact? How?",
+      "zh": "Najya 没等她把话说完就直接插话反问：给所有孩子提供机会，比如什么？说结交了各种背景的朋友，谁啊？爸爸参与学校事务产生了很大影响，怎么影响的？"
+    },
+    {
+      "id": 357,
+      "start_sec": 2860,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "We don't have to actually agree. It's okay for us to see this in a different way. But ultimately, you got into your first choice of high school.",
+      "zh": "其实我们没必要非得达成一致。我们对这件事看法不同也很正常。但说到底，你还是考进了自己的第一志愿高中。"
+    },
+    {
+      "id": 358,
+      "start_sec": 2868,
+      "speaker": "Najya Hannah-Jones",
+      "en": "But you could have had me way higher in education.",
+      "zh": "可你原本能让我在学业上走得高得多。"
+    },
+    {
+      "id": 359,
+      "start_sec": 2871,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "Do you feel like your life is being held back?",
+      "zh": "你觉得自己的人生因此被耽误了吗？"
+    },
+    {
+      "id": 360,
+      "start_sec": 2874,
+      "speaker": "Najya Hannah-Jones",
+      "en": "I don't think that, but I don't want to be—I didn't want to feel like I didn't know anything because I was set back in other schools. I didn't want to feel like I was dumb.",
+      "zh": "我倒不是这么觉得，可我不想——我不想因为之前那些学校拖了后腿，就觉得自己什么都不懂。我不想觉得自己像个傻瓜。"
+    },
+    {
+      "id": 361,
+      "start_sec": 2884,
+      "speaker": "Najya Hannah-Jones",
+      "en": "In ninth grade, I did feel like I was dumb. It did feel like I didn't know anything. It was like, oh my gosh, you're like a dumb Black girl in a white school.",
+      "zh": "九年级的时候，我真的觉得自己笨极了，真的觉得自己一无所知。那种感觉就像，天哪，你就像是白人学校里那个蠢笨的黑人女孩。"
+    },
+    {
+      "id": 362,
+      "start_sec": 2893,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "Mm-hmm.",
+      "zh": "嗯。"
+    },
+    {
+      "id": 363,
+      "start_sec": 2894,
+      "speaker": "Najya Hannah-Jones",
+      "en": "That's what it made me feel. Why should I have to suffer with that? Why couldn't you just benefit kids in another way? There was other options.",
+      "zh": "这就是它带给我的感受。为什么非得让我去承受这些？你为什么不能换种方式去帮那些孩子？明明有别的选择。"
+    },
+    {
+      "id": 364,
+      "start_sec": 2903,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "I don't think you can change—I think we have decades of people saying they were going to change a school from the outside, and I don't think—I just don't think you do.",
+      "zh": "我不认为你能从外部改变——几十年来一直有人说要从外部去改变一所学校，但我觉得……我觉得那根本行不通。"
+    },
+    {
+      "id": 365,
+      "start_sec": 2913,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "I think New York City is full of people who write checks and people who say, I believe in equality. I mean, what we were trying to do was not just about giving some additional funds to a school. We were trying to change the power dynamics.",
+      "zh": "我觉得纽约市到处都是开支票捐款的人，到处都是口口声声说“我相信平等”的人。我的意思是，我们想做的不只是给学校多拨点经费，我们想改变的是背后的权力格局。"
+    },
+    {
+      "id": 366,
+      "start_sec": 2931,
+      "speaker": "Najya Hannah-Jones",
+      "en": "But that doesn't connect to why. Why did I have to be in the school?",
+      "zh": "可这还是没解释为什么。为什么非得由我去上那所学校？"
+    },
+    {
+      "id": 367,
+      "start_sec": 2936,
+      "speaker": "Chana Joffe-Walt",
+      "en": "Nikole says, okay, remember what happened in fourth grade when kids weren't being taught? Do you remember that? That wasn't just happening to you.",
+      "zh": "Nikole 说，好吧，还记得四年级时老师根本不教课那件事吗？你还记得吗？那可不只是发生你一个人身上。"
+    },
+    {
+      "id": 368,
+      "start_sec": 2944,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "The only way, though, that we know that's happening is because we're in the class and we're in the school. And had we not been in the school, we wouldn't have ever known that that was happening.",
+      "zh": "但我们之所以能发现那种情况，唯一的原因就是我们在那个班里、在那所学校里。如果我们不在那所学校，就永远不会知道正在发生这种事。"
+    },
+    {
+      "id": 369,
+      "start_sec": 2955,
+      "speaker": "Najya Hannah-Jones",
+      "en": "There are ways that you could know that kind of stuff.",
+      "zh": "总有别的办法能知道这种事的。"
+    },
+    {
+      "id": 370,
+      "start_sec": 2958,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "But there aren't. And we've talked about over and over, our lives are the products of people who didn't just say, we think segregation is wrong, we think injustice is wrong. They were willing to put themselves, their—",
+      "zh": "可根本没有别的办法。而且我们一遍又一遍地聊过，我们今天的生活之所以能这样，正是因为过去有这样一群人——他们不只是嘴上说说“我们认为种族隔离不对、不公不对”，他们愿意把自己、把自己的——"
+    },
+    {
+      "id": 371,
+      "start_sec": 3000,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "...families, their children on the line for that.",
+      "zh": "……把自己的家人、自己的孩子都押上去。"
+    },
+    {
+      "id": 372,
+      "start_sec": 3004,
+      "speaker": "Najya Hannah-Jones",
+      "en": "So you put me on the line to help a school, but it didn't work.",
+      "zh": "所以你把我押了上去，想去帮那所学校，结果根本没用。"
+    },
+    {
+      "id": 373,
+      "start_sec": 3008,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "Yeah, I put you on the line in hopes of making a change, yeah.",
+      "zh": "对，我是把你押了上去，希望能带来一点改变。"
+    },
+    {
+      "id": 374,
+      "start_sec": 3010,
+      "speaker": "Najya Hannah-Jones",
+      "en": "But even—even when you knew—",
+      "zh": "可就算……就算你当时明知道——"
+    },
+    {
+      "id": 375,
+      "start_sec": 3012,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "It's not like I never had any doubts about my choice. I did. And the only reason I'm okay with my choice now is I'm like, you're fine.",
+      "zh": "我也不是从来没怀疑过自己的决定。我怀疑过。而我现在之所以能坦然面对这个选择，唯一的原因就是我觉得，你现在挺好的。"
+    },
+    {
+      "id": 376,
+      "start_sec": 3022,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "I felt this was important. I tried to do the right thing.",
+      "zh": "我觉得这件事很重要。我只是努力去做我认为对的事。"
+    },
+    {
+      "id": 377,
+      "start_sec": 3026,
+      "speaker": "Najya Hannah-Jones",
+      "en": "And I think I'm fine because I'm in the school I am now. I feel like if I picked a different choice that you wanted me to, I don't think I would be fine.",
+      "zh": "而我觉得我现在之所以挺好的，是因为我去了现在这所学校。要是当初我照你的意思选了另一条路，我觉得我现在根本好不了。"
+    },
+    {
+      "id": 378,
+      "start_sec": 3034,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "Okay.",
+      "zh": "好吧。"
+    },
+    {
+      "id": 379,
+      "start_sec": 3035,
+      "speaker": "Najya Hannah-Jones",
+      "en": "And I think this choice was good for me. And I do appreciate you for saying that.",
+      "zh": "我觉得我自己的选择很适合我。而且你刚刚能这么说，我真的很感激。"
+    },
+    {
+      "id": 380,
+      "start_sec": 3040,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "I think your choice is good for you as well.",
+      "zh": "我也觉得你的选择很适合你。"
+    },
+    {
+      "id": 381,
+      "start_sec": 3043,
+      "speaker": "Najya Hannah-Jones",
+      "en": "Yes.",
+      "zh": "嗯。"
+    },
+    {
+      "id": 382,
+      "start_sec": 3048,
+      "speaker": "Chana Joffe-Walt",
+      "en": "They'd done it. Nikole had committed to letting Najya have her say. She felt she owed it to her. And Nikole was committed to putting all of this out into the world.",
+      "zh": "她们做到了。Nikole 之前下定决心，要让 Najya 把心里话全说出来，她觉得这是自己欠女儿的。Nikole 也打定主意，要把这一切都公之于众。"
+    },
+    {
+      "id": 383,
+      "start_sec": 3057,
+      "speaker": "Chana Joffe-Walt",
+      "en": "And as a final step in this whole process, she fact-checked herself. And she was in for a shock.",
+      "zh": "而作为整件事的最后一步，她核查了一下自己的记忆是否准确。结果，眼前的一切让她大吃一惊。"
+    },
+    {
+      "id": 384,
+      "start_sec": 3065,
+      "speaker": "Chana Joffe-Walt",
+      "en": "Let's give this an act, a mini act, a postscript. Act Five: The Evidence.",
+      "zh": "我们干脆给这部分单设一幕吧，算是一个迷你幕、一段后记：Act Five——证据。"
+    },
+    {
+      "id": 385,
+      "start_sec": 3075,
+      "speaker": "Chana Joffe-Walt",
+      "en": "She was checking her memory on things as she wrote her story for The New York Times Magazine. And Nikole looked through old emails back and forth with Najya's schools, messages to principals and teachers raising concerns.",
+      "zh": "当时她正为《纽约时报杂志》撰写这篇报道，顺便核对记忆里的细节。Nikole 翻出了以前和 Najya 所在学校来往的旧邮件，里面全是她写给校长和老师、反映各种问题的消息。"
+    },
+    {
+      "id": 386,
+      "start_sec": 3088,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "And there's pages of emails. I don't even remember sending that many emails. And I'm a writer and I'm a journalist, so my emails are very detailed.",
+      "zh": "邮件多得能铺满好几页。我甚至都不记得自己发过这么多邮件。而且我是个作家，也是个记者，所以我每封邮件都写得极其详细。"
+    },
+    {
+      "id": 387,
+      "start_sec": 3096,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "Every time I'm emailing the principal, I'm quoting my daughter, I'm listing all these details, the issues we were having, not feeling like we were getting the proper response, my worries, my concerns.",
+      "zh": "每次给校长写信，我都会引用我女儿的原话，把各种细节、我们遇到的问题、感觉一直没得到妥善回应的状况，还有我的忧虑和担心，一条条全列出来。"
+    },
+    {
+      "id": 388,
+      "start_sec": 3107,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "Like, Najya came home and said that her teacher was gone again, and this is the fourth time the teacher was gone, and there was no sub, and Najya said she had to go in the kindergarten class, but she's in second grade, right?",
+      "zh": "比如说，Najya 回家告诉我，她的老师又没来上课，这已经是老师第四次缺勤了，而且连个代课老师都没有，Najya 说她被安排去学前班教室待着——可她明明已经上二年级了，对吧？"
+    },
+    {
+      "id": 389,
+      "start_sec": 3119,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "And not just a record of my making complaints, but a record of non-caring—like the principal not responding, the teachers not responding over and over and over and over again.",
+      "zh": "那些邮件记录下的，不只是我一次次的投诉，更是一种彻底的漠不关心——校长不回邮件，老师也不回邮件，一次又一次，没完没了。"
+    },
+    {
+      "id": 390,
+      "start_sec": 3131,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "And I'm in Texas that day, and I'm getting ready to go give a talk, and I'm sitting in the hotel room and I'm just reading all of these emails. And it was crushing to read them.",
+      "zh": "那天我人正在得克萨斯州，准备去作一场演讲。我坐在酒店房间里，就那样一封接一封地读着这些邮件。读到这些的时候，我整个人都要崩溃了。"
+    },
+    {
+      "id": 391,
+      "start_sec": 3149,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "And I was like, damn, you really—to make this work for yourself, mentally I just forgot. I had just pushed a lot of that out of my memory, I think, to be able to live with the choices we were trying to make.",
+      "zh": "我当时就在想，天哪，你为了让自己心里能接受，竟然真的……在心理上把这些事给忘了。我想，我是把很多那样的记忆硬生生压了下去，这样才能心安理得地接受我们当时试图做出的那些选择。"
+    },
+    {
+      "id": 392,
+      "start_sec": 3166,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "And I understand my child feeling very betrayed by our choices.",
+      "zh": "现在我完全理解，为什么我的孩子会觉得自己被我们的选择深深背叛了。"
+    },
+    {
+      "id": 393,
+      "start_sec": 3182,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "This is why my baby is so angry.",
+      "zh": "这就是为什么我的宝贝女儿会这么愤怒。"
+    },
+    {
+      "id": 394,
+      "start_sec": 3192,
+      "speaker": "Chana Joffe-Walt",
+      "en": "Did you tell her any of that?",
+      "zh": "这些话你跟她说了吗？"
+    },
+    {
+      "id": 395,
+      "start_sec": 3194,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "Well, she calls me. She calls me right as I'm sitting there. I'm sitting at my desk, just going through all these emails, and I'm not crying, but I'm teary-eyed. I'm just sitting there.",
+      "zh": "结果她刚好给我打电话了。就在我坐在那儿的时候。我坐在书桌前翻看所有这些邮件，虽然没哭出声，但眼眶已经湿了，整个人就那样愣坐在那儿。"
+    },
+    {
+      "id": 396,
+      "start_sec": 3212,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "So she calls me, and I pick up, and I'm trying to make my voice sound normal, but she hears that I'm upset in my voice. And she's like, what's wrong, Mommy? And I'm like, nothing, everything's good. And she's like, what's wrong?",
+      "zh": "她打来电话，我接起来，努力想让自己的声音听起来正常一点，但她还是从我的声音里听出我难过了。她就问：“妈妈，怎么了？”我说：“没事，一切都挺好的。”她又问：“到底怎么了？”"
+    },
+    {
+      "id": 397,
+      "start_sec": 3227,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "And she asked me that maybe one more time, and then I just told her. I was like, I've been reading the emails from everything that was happening with your schools, and I'm sorry.",
+      "zh": "她大概又追问了一遍，然后我就全告诉她了。我说：“我一直在翻看以前关于你学校发生那些事的邮件，对不起。”"
+    },
+    {
+      "id": 398,
+      "start_sec": 3243,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "And I just told her, I don't feel like you got the education you deserved, and I don't feel that I listened to you enough. I just said, I'm sorry.",
+      "zh": "我跟她说：“我觉得你没有得到你应得的教育，我也觉得自己以前没有足够认真地听你说话。”我就这么跟她说：“对不起。”"
+    },
+    {
+      "id": 399,
+      "start_sec": 3261,
+      "speaker": "Chana Joffe-Walt",
+      "en": "What did she say?",
+      "zh": "她怎么说的？"
+    },
+    {
+      "id": 400,
+      "start_sec": 3263,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "She was quiet for a second, and then she told me, I'm kind of glad you're seeing this now because I don't feel like you listened to me.",
+      "zh": "她沉默了一秒钟，然后对我说：“你现在能看到这些，我其实还挺欣慰的，因为我以前真的觉得你没有在听我说话。”"
+    },
+    {
+      "id": 401,
+      "start_sec": 3283,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "I don't feel like you tried to understand that. And I just apologized again, and I said—",
+      "zh": "“我觉得你那时候根本没试着去理解我的感受。”于是我又道了一次歉，我说——"
+    },
+    {
+      "id": 402,
+      "start_sec": 3300,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "You're right. The stakes were so high for me personally.",
+      "zh": "你说得对。对我个人来说，这里面的分量太重了。"
+    },
+    {
+      "id": 403,
+      "start_sec": 3305,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "I feel like the stakes are so high when it comes to the issue of integration and equality that I couldn't admit to her that, yes, you did bear a cost.",
+      "zh": "在种族融合与教育平等这件事上，我觉得赌注实在太大，以至于我一直没法向她承认：没错，你确实为此付出了代价。"
+    },
+    {
+      "id": 404,
+      "start_sec": 3316,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "And I don't know that we made the right choice. I don't know what the right choice would be.",
+      "zh": "我不知道我们当初的选择到底对不对。我也不知道，什么才算是正确的选择。"
+    },
+    {
+      "id": 405,
+      "start_sec": 3334,
+      "speaker": "Chana Joffe-Walt",
+      "en": "I was stunned by this turn. I have never heard Nikole talk like this.",
+      "zh": "这个转折让我震惊。我从未听过 Nikole 这样说话。"
+    },
+    {
+      "id": 406,
+      "start_sec": 3339,
+      "speaker": "Chana Joffe-Walt",
+      "en": "I've never heard most people, my closest friends, be this truthful with themselves about their choices, especially when it comes to our kids and schools.",
+      "zh": "我也从未见过身边大多数人，哪怕是我最亲密的朋友，在面对自己的选择时能如此坦诚地剖析自己——尤其是在关乎孩子和择校的问题上。"
+    },
+    {
+      "id": 407,
+      "start_sec": 3348,
+      "speaker": "Chana Joffe-Walt",
+      "en": "And talking about those choices in public? Never. Why? So all of us can judge, or feel smug, or angry, or vindicated, or however you have felt listening to this?",
+      "zh": "更别提把这些选择摊开在公众面前谈论了，根本不可能。图什么呢？好让我们所有人去评头论足、暗自得意、义愤填膺、觉得自己早有先见之明，或者像你听这个故事时产生过的任何情绪吗？"
+    },
+    {
+      "id": 408,
+      "start_sec": 3359,
+      "speaker": "Chana Joffe-Walt",
+      "en": "It's not like Nikole is the only one out here making a choice. We all live in the same world she lives in.",
+      "zh": "现实中做选择的又不止 Nikole 一个人。我们和她生活在同一个世界里。"
+    },
+    {
+      "id": 409,
+      "start_sec": 3365,
+      "speaker": "Chana Joffe-Walt",
+      "en": "We all live with schools that are segregated and unequal. We all make choices, imperfect, complicated choices.",
+      "zh": "我们都面对着同样存在种族隔离和不平等的学校系统，我们每个人都在做着不完美又无比复杂的选择。"
+    },
+    {
+      "id": 410,
+      "start_sec": 3372,
+      "speaker": "Chana Joffe-Walt",
+      "en": "Nikole's just the one who's reckoning with hers, deeply and in public. And I think the less you talk about a choice, the less you scrutinize it, the easier it is to live with.",
+      "zh": "只不过 Nikole 是那个在公众面前、深刻反思自己选择的人。而且我觉得，对于自己做过的选择，聊得越少、审视得越少，心里反而越好受。"
+    },
+    {
+      "id": 411,
+      "start_sec": 3385,
+      "speaker": "Chana Joffe-Walt",
+      "en": "Nikole is in a strange, new, and disorienting place these days. She's a person who's used to making an argument, and now she's not sure what to argue for.",
+      "zh": "如今的 Nikole 处在一个陌生、未知又让人迷茫的境地。她向来习惯于抛出清晰的论点，而现在，她却不知道自己还能为什么立场而辩护了。"
+    },
+    {
+      "id": 412,
+      "start_sec": 3394,
+      "speaker": "Chana Joffe-Walt",
+      "en": "Not just because of her experience with Najya, also because of what Nikole's seen in her reporting over the last decade.",
+      "zh": "这不仅是因为她与 Najya 的这段经历，也是因为过去十年间她在新闻报道中所见证的一切。"
+    },
+    {
+      "id": 413,
+      "start_sec": 3401,
+      "speaker": "Chana Joffe-Walt",
+      "en": "For years, Nikole's writing pushed for systemic change. In particular, she's argued that we need to integrate public schools racially and economically.",
+      "zh": "多年来，Nikole 一直通过写作推动系统性的变革。尤其是她一直主张，我们必须在种族和经济层面上推动公立学校的融合。"
+    },
+    {
+      "id": 414,
+      "start_sec": 3409,
+      "speaker": "Chana Joffe-Walt",
+      "en": "And in her reporting, she's talked to so many people who put their lives into that fight, who sacrificed, made real, life-changing sacrifices that they hoped would lead to a bigger transformation.",
+      "zh": "而在她的报道中，她采访过太多把一生都投入到这场抗争里的人，他们做出了实实在在、甚至改变人生轨迹的牺牲，只盼着能换来一场更大的变革。"
+    },
+    {
+      "id": 415,
+      "start_sec": 3423,
+      "speaker": "Chana Joffe-Walt",
+      "en": "And so little has changed. Public schools are unequal and segregated as they were 10 years ago, 30 years ago, 60 years ago.",
+      "zh": "可现实却几乎没有改变。公立学校依然像 10 年前、30 年前、60 年前那样，充斥着不平等与隔离。"
+    },
+    {
+      "id": 416,
+      "start_sec": 3431,
+      "speaker": "Chana Joffe-Walt",
+      "en": "If you sacrifice to make a change, but change doesn't come, all you're left with is the sacrifice.",
+      "zh": "如果你为了改变而付出牺牲，可改变却迟迟没有到来，那最后留给你的，就只剩下牺牲本身。"
+    },
+    {
+      "id": 417,
+      "start_sec": 3438,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "And so what am I arguing for? I don't know anymore.",
+      "zh": "所以，我到底在主张什么呢？我也不知道了。"
+    },
+    {
+      "id": 418,
+      "start_sec": 3443,
+      "speaker": "Chana Joffe-Walt",
+      "en": "Whoa, Nikole.",
+      "zh": "天哪，Nikole。"
+    },
+    {
+      "id": 419,
+      "start_sec": 3444,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "I know.",
+      "zh": "我知道。"
+    },
+    {
+      "id": 420,
+      "start_sec": 3445,
+      "speaker": "Chana Joffe-Walt",
+      "en": "A lot's happened.",
+      "zh": "发生了太多事。"
+    },
+    {
+      "id": 421,
+      "start_sec": 3446,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "A lot has happened. The base of the argument is that what we are doing to Black children is immoral.",
+      "zh": "确实发生了太多事。不过，我论点的根基依然是：我们如今对黑人孩子所做的一切是不道德的。"
+    },
+    {
+      "id": 422,
+      "start_sec": 3457,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "And that I have not wavered on, I will not waver on. I want us to understand that we choose this.",
+      "zh": "这一点我从未动摇，也绝不会动摇。我希望我们能明白，这一切都是我们自己选择的。"
+    },
+    {
+      "id": 423,
+      "start_sec": 3466,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "I don't want us to be absolved by it, not even me. I want us to come at the end of this story sharing my sense of devastation.",
+      "zh": "我不希望我们从中获得什么宽恕，连我自己也不例外。我希望我们走到这个故事的最后时，大家都能感受到我内心的那种痛彻心扉。"
+    },
+    {
+      "id": 424,
+      "start_sec": 3477,
+      "speaker": "Nikole Hannah-Jones",
+      "en": "I feel like the culmination of all my work is I'm going to force you to bear witness to what you choose and what I choose.",
+      "zh": "我觉得我毕生工作的归宿，就是要迫使你们直面并见证——你们做出了怎样的选择，而我又做出了怎样的选择。"
+    },
+    {
+      "id": 425,
+      "start_sec": 3526,
+      "speaker": "Chana Joffe-Walt",
+      "en": "Our program was produced and edited today by Nancy Updike with help from Ira Glass.",
+      "zh": "本期节目由 Nancy Updike 制作并剪辑，Ira Glass 协助完成。"
+    },
+    {
+      "id": 426,
+      "start_sec": 3532,
+      "speaker": "Chana Joffe-Walt",
+      "en": "The people who put together today's show are Cassie Howley, Adrienne Lilly, Seth Lind, Katherine Rae Mondo, Stowe Nelson, Nadia Reiman, Ryan Rumery, Ruby Schwartz, Alissa Shipp, Christopher Swetala, Julie Whitaker, and Diane Wu.",
+      "zh": "参与制作本期节目的还有 Cassie Howley、Adrienne Lilly、Seth Lind、Katherine Rae Mondo、Stowe Nelson、Nadia Reiman、Ryan Rumery、Ruby Schwartz、Alissa Shipp、Christopher Swetala、Julie Whitaker 以及 Diane Wu。"
+    },
+    {
+      "id": 427,
+      "start_sec": 3548,
+      "speaker": "Chana Joffe-Walt",
+      "en": "Our managing editor is Sarah Abdurrahman. Our senior editor, David Kestenbaum. Our executive editor, Emanuele Berry.",
+      "zh": "我们的执行编辑是 Sarah Abdurrahman，资深编辑是 David Kestenbaum，执行主编是 Emanuele Berry。"
+    },
+    {
+      "id": 428,
+      "start_sec": 3556,
+      "speaker": "Chana Joffe-Walt",
+      "en": "Nikole's article is called \"In Fighting for Every Black Child, Did I Betray My Own?\" And you can find it on The New York Times website. It was edited by Ilena Silverman. Special thanks today to Rachel Lissy.",
+      "zh": "Nikole 的那篇文章名为《In Fighting for Every Black Child, Did I Betray My Own?》，大家可以在《纽约时报》网站上阅读，文章编辑为 Ilena Silverman。今天还要特别感谢 Rachel Lissy。"
+    },
+    {
+      "id": 429,
+      "start_sec": 3568,
+      "speaker": "Chana Joffe-Walt",
+      "en": "Our website, thisamericanlife.org, where you can stream an archive of over 800 episodes for absolutely free. And there's videos and lists of favorite shows, and tons of other stuff there too. Again, thisamericanlife.org.",
+      "zh": "我们的网站是 thisamericanlife.org，您可以在上面完全免费收听超过 800 期节目的存档，还有视频、精选节目清单以及海量精彩内容。再说一遍，网址是 thisamericanlife.org。"
+    },
+    {
+      "id": 430,
+      "start_sec": 3580,
+      "speaker": "Chana Joffe-Walt",
+      "en": "This American Life is delivered to public radio stations by PRX, the Public Radio Exchange. I'm Chana Joffe-Walt. Ira Glass will be back next week with more stories of This American Life.",
+      "zh": "This American Life 由公共广播交换网络 PRX 向各地公共广播电台传送。我是 Chana Joffe-Walt。下周，Ira Glass 将带着更多 This American Life 的故事回到大家身边。"
+    }
+  ]
+}

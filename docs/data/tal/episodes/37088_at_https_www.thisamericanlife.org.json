@@ -1,0 +1,2990 @@
+{
+  "schema_version": "3.0",
+  "show_id": "tal",
+  "guid": "37088 at https://www.thisamericanlife.org",
+  "title": "585: In Defense of Ignorance",
+  "pub_date": "2016-04-22T00:00:00Z",
+  "duration_sec": 3528,
+  "audio_url": "https://www.thisamericanlife.org/sites/default/files/audio/585/dAINQCc9F8e31e5jUR7rFei3EwflK2eKy6wUUT7WX20/585.mp3",
+  "summary_zh": "本期节目围绕“为无知辩护”这一反直觉母题展开，探讨“不知道”与“不记得”如何成为人类应对残酷现实的心理保护伞。在 Prologue 中，Ira Glass 借一位母亲教儿子“把坏念头锁进橱柜”的趣事引出主题：适度逃避与封存烦恼并非软弱，而是成年人维持生活运转的常态。随后三个故事从不同维度呼应这一命题：Act One 中，导演 Lulu Wang 讲述全家人为隐瞒奶奶的晚期肺癌，借一场假婚宴暗中告别，展现善意谎言背后的亲情温度；Act Two 中，Sean Cole 借“达克效应”实验剖析人类普遍存在的能力盲区，揭示无知如何催生盲目自信；Act Three 中，Stephanie Foo 探访拥有“超强自传体记忆”的群体，借他们困于旧伤的痛苦反证遗忘其实是岁月的仁慈。",
+  "key_takeaways_zh": [
+    "Prologue（主持人 Ira Glass）：借同事母亲建议儿子“把坏念头装进盒子再锁入橱柜”的家庭轶事，引出成年人靠适度逃避维持正常生活的洞察，开启本期“为无知辩护”的主题。",
+    "Act One: What You Don't Know（撰稿人 Lulu Wang）：八旬奶奶在中国确诊晚期肺癌后，全家人决定隐瞒病情并借一场提前举办的跨国婚宴暗中告别，却意外揭开长辈与晚辈之间双向守护的秘密与生命奇迹。",
+    "Act Two: Ignorance for Dummies（制作人 Sean Cole）：从坚信涂柠檬汁能隐身的银行劫匪讲起，结合心理学家 David Dunning 与 Justin Kruger 的实证研究，剖析能力越匮乏者为何越难察觉自身无知且盲目自信。",
+    "Act Three: Forget Me? Not!（制作人 Stephanie Foo）：极度害怕遗忘的记者对话拥有“超强自传体记忆”（HSAM）的受访者 Joey DeGrandis 与 Jill Price，发现永不褪色的记忆反令人深陷过往伤痛，从而领悟遗忘的仁慈。"
+  ],
+  "highlights": [
+    {
+      "start_sec": 0,
+      "title_zh": "Prologue: 锁起坏念头",
+      "summary_zh": "Ira Glass 借节目组同事母亲的奇特建议开篇：遇到烦心事时，把坏念头装进脑海里的盒子，再把盒子拿出来锁进橱柜。他指出，逃避与压抑虽常被心理学视为不健康，却正是成年人扛起日常职责的真实写照，由此引出本期“为无知辩护”的核心主题。",
+      "quote_en": "In fact, today's entire show is a defense of not thinking about it, of not knowing. A defense, in short, of ignorance."
+    },
+    {
+      "start_sec": 111,
+      "title_zh": "Act One: 你不知道的事",
+      "summary_zh": "导演 Lulu Wang 居住在中国的八旬奶奶确诊肺癌晚期，医生断定仅剩三个月寿命，家人却按中国传统决定对老人隐瞒病情并涂改体检报告。为了让散居中美日三国的亲人顺理成章回国见奶奶最后一面，父亲提议将堂弟的婚宴提前一年举办，以喜事掩护全家的告别。",
+      "quote_en": "When my grandmother was diagnosed with stage 4 lung cancer, she was given three months to live."
+    },
+    {
+      "start_sec": 1051,
+      "title_zh": "假婚宴上的失控致辞",
+      "summary_zh": "婚宴前夜还反复叮嘱 Lulu Wang“只许开心不许哭”的大伯，在登台致辞感谢母亲养育之恩时情绪彻底决堤，当众泣不成声。随后新郎也在敬酒后借酒痛哭，全家人只得紧急围成人墙打圆场，在喜庆假象与丧亲悲恸的撕扯中苦苦维持秘密。",
+      "quote_en": "Everything I am, everything I've become is because of my ma."
+    },
+    {
+      "start_sec": 1374,
+      "title_zh": "双向隐瞒与冲喜奇迹",
+      "summary_zh": "Lulu Wang 震惊地得知，奶奶当年不仅同样向临终的爷爷隐瞒过肝癌病情，更曾独自接受乳腺癌切除手术并瞒了晚辈整整九年，只为不让家人担心。令人意外的是，被断定仅剩三个月寿命的奶奶在三年后依然健在，这场形同中国传统“冲喜”的善意谎言让 Lulu Wang 重新审视了中西文化的生命观差异。",
+      "quote_en": "All this time that we were lying to her to protect her, she had also put on a show to protect us."
+    },
+    {
+      "start_sec": 1734,
+      "title_zh": "Act Two: 傻瓜无知指南",
+      "summary_zh": "制作人 Sean Cole 从 1995 年宾夕法尼亚州一起荒诞抢劫案切入：劫匪 McArthur Wheeler 坚信在脸上涂柠檬汁就能在监控镜头前隐形，被捕时仍满脸难以置信。这一案例启发康奈尔大学心理学教授 David Dunning 与研究生 Justin Kruger 设计测验，发现成绩垫底的学生反而普遍高估自己的排名。",
+      "quote_en": "They just don't know stuff, and they don't know what they don't know, which, hello, turns out to be all of us."
+    },
+    {
+      "start_sec": 2163,
+      "title_zh": "达克效应的真正盲区",
+      "summary_zh": "尽管“达克效应”在社交媒体上常沦为骂人愚蠢的标签，但 David Dunning 强调这揭示的是所有人的大脑盲区——每个人都会在未知领域踏入不自知的泥潭，连他自己面对上门争辩低分的学生时也会怀疑是否身陷其中。更可悲的是，周围人往往出于礼貌对过度自信者的错误保持沉默，使其失去自我修正的契机。",
+      "quote_en": "But I think the thing that people in general miss is that we're not talking about the brain of the incompetent, we're talking about the brain of all of us."
+    },
+    {
+      "start_sec": 2441,
+      "title_zh": "Act Three: 无法遗忘",
+      "summary_zh": "极度恐惧遗忘、常年搬家都扛着大箱旧日记与录音的制作人 Stephanie Foo，探访了全球仅约 60 人确诊的“超强自传体记忆”（HSAM）群体。受访者 Joey DeGrandis 能精准道出过去 25 年每一天的天气与生活细节，但这架全天候运转的“记忆旋转木马”也令他彻夜难眠，对两年前一段短暂恋情的分手细节久久无法释怀。",
+      "quote_en": "And of course, a huge part of all of our ignorance is the stuff that we used to know that we've all forgotten."
+    },
+    {
+      "start_sec": 2827,
+      "title_zh": "堆积如山的记忆垃圾袋",
+      "summary_zh": "另一位超强记忆者 Jill Price 将常人的日常遗忘比作每天清空垃圾袋，而她脑中却堆满了五十年来无法丢弃的记忆垃圾，甚至仍为五岁时的琐事和大学时遗失的日历耿耿于怀。她必须靠密密麻麻地记录并凭记忆重写整本日历，才能勉强安抚脑海中如蜂群般盘旋的过往。",
+      "quote_en": "Well, the way I explain it is, you know how you've got your baggage? I got a steamer trunk."
+    },
+    {
+      "start_sec": 3188,
+      "title_zh": "困在昨日悲恸与接纳遗忘",
+      "summary_zh": "丈夫于 2005 年去世后，无法让记忆自然褪色的 Jill Price 十一年来每天仍十几次重历丧夫那周的剧痛，仿佛被永远困在原地无法向前迈步。目睹了永不遗忘的残酷代价后，曾经执着留存一切的 Stephanie Foo 终于第一次真心接纳了遗忘的仁慈。",
+      "quote_en": "It's being stuck in a moment that you can't—there's no escaping it."
+    }
+  ],
+  "vocab_notes": [
+    {
+      "term": "get a bad rap",
+      "meaning_zh": "蒙受恶名；遭到不公正的负面评价",
+      "note_zh": "美式高频习语（rap 原指刑事指控或斥责），Ira Glass 用它指出“逃避否认”虽常被心理学污名化，实则是成年人维持日常运转的生存机制。",
+      "start_sec": 57
+    },
+    {
+      "term": "suck it up",
+      "meaning_zh": "咬牙忍受；打落牙齿和血吞",
+      "note_zh": "地道美式口语，源于军事俚语，形容不抱怨、硬扛下痛苦或窘境继续履行成年人的职责。",
+      "start_sec": 72
+    },
+    {
+      "term": "blow one's cover",
+      "meaning_zh": "暴露伪装；穿帮露馅",
+      "note_zh": "原为谍战卧底用语，Lulu Wang 借此形容全家隐瞒奶奶病情如同执行秘密行动，生怕自己忍不住哭出来而当场穿帮。",
+      "start_sec": 504
+    },
+    {
+      "term": "overweening",
+      "meaning_zh": "过度自负的；狂妄自大的",
+      "note_zh": "带有讽刺色彩的高阶形容词，常与 confidence 或 pride 搭配，精准刻画测验成绩垫底者盲目膨胀的自信。",
+      "start_sec": 1933
+    },
+    {
+      "term": "oy gevalt",
+      "meaning_zh": "天哪；我的老天爷（表震惊或无奈的感叹）",
+      "note_zh": "源自意第绪语（Yiddish）的纽约及美式犹太文化常用感叹词，Sean Cole 听说八成实习医生盲目自信却连一半导师都不放心其独立操作时脱口而出。",
+      "start_sec": 2102
+    },
+    {
+      "term": "Dunning-Kruger effect",
+      "meaning_zh": "达克效应（邓宁-克鲁格效应）",
+      "note_zh": "心理学经典认知偏差术语，指在特定领域缺乏能力的人不仅表现不佳，还因缺乏元认知能力而无法察觉自身不足，反而高估自己的水平。",
+      "start_sec": 2104
+    },
+    {
+      "term": "schlep",
+      "meaning_zh": "费力搬运；吃力地拖着走",
+      "note_zh": "源自意第绪语的美式日常高频俚语，生动描绘 Stephanie Foo 十年间搬过十二次小公寓却始终费劲扛着大箱旧日记的执念。",
+      "start_sec": 2473
+    },
+    {
+      "term": "steamer trunk",
+      "meaning_zh": "远洋轮船大行李箱（此处借指沉重庞大的心理包袱）",
+      "note_zh": "受访者 Jill Price 巧用双关修辞，将常人的心理负担（emotional baggage）升级为旧式跨洋旅行用的巨型大衣箱，凸显超强记忆带来的沉重负荷。",
+      "start_sec": 2827
+    },
+    {
+      "term": "rehash",
+      "meaning_zh": "翻旧账；反复重提过往旧事",
+      "note_zh": "日常口语中常指毫无意义地反复咀嚼旧怨，母亲误以为 Jill Price 故意翻几十年前的旧账，却不理解那些记忆在她脑中宛如昨日。",
+      "start_sec": 2981
+    }
+  ],
+  "references": [
+    {
+      "title": "Posthumous",
+      "creator": "Lulu Wang",
+      "category": "media",
+      "note_zh": "Ira Glass 在 Act One 结尾介绍嘉宾身份时提及 Lulu Wang 执导的首部剧情长片。",
+      "start_sec": 1704,
+      "links": [
+        {
+          "source": "wikipedia",
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Posthumous_(2014_film)"
+        }
+      ]
+    },
+    {
+      "title": "Unskilled and Unaware of It",
+      "creator": "David Dunning, Justin Kruger",
+      "category": "article",
+      "note_zh": "Sean Cole 在 Act Two 中重点引述的 1999 年经典心理学论文，首次通过实证研究提出了著名的“达克效应”。",
+      "start_sec": 1981,
+      "links": []
+    },
+    {
+      "title": "Friends (《老友记》)",
+      "creator": "David Crane, Marta Kauffman",
+      "category": "media",
+      "note_zh": "Stephanie Foo 在 Act Three 中现场抽考《老友记》具体剧集的首播日期，用以验证 Joey DeGrandis 惊人的超强自传体记忆。",
+      "start_sec": 2612,
+      "links": [
+        {
+          "source": "wikipedia",
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Friends_(1971_film)"
+        },
+        {
+          "source": "douban",
+          "label": "豆瓣",
+          "url": "https://movie.douban.com/subject/1393859/"
+        }
+      ]
+    },
+    {
+      "title": "Mad Men (《广告狂人》)",
+      "creator": "Matthew Weiner",
+      "category": "media",
+      "note_zh": "Joey DeGrandis 引用《广告狂人》中主角 Don Draper 推销柯达幻灯机的经典“记忆旋转木马”独白，形容自己脑海中不断浮现过往画面的感受。",
+      "start_sec": 2655,
+      "links": [
+        {
+          "source": "wikipedia",
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mad_Men"
+        }
+      ]
+    },
+    {
+      "title": "The Farewell (《别告诉她》)",
+      "creator": "Lulu Wang",
+      "category": "media",
+      "note_zh": "Show Notes 特别补充说明，导演 Lulu Wang 后来根据自己在 Act One 中讲述的这段真实家庭经历改编并执导了知名电影《别告诉她》。",
+      "start_sec": null,
+      "links": [
+        {
+          "source": "official",
+          "label": "官网",
+          "url": "http://tickets.thefarewell.movie"
+        },
+        {
+          "source": "wikipedia",
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/The_Farewell_(2019_film)"
+        },
+        {
+          "source": "douban",
+          "label": "豆瓣",
+          "url": "https://movie.douban.com/subject/30390144/"
+        }
+      ]
+    }
+  ],
+  "transcript": [
+    {
+      "id": 1,
+      "start_sec": 0,
+      "speaker": "Ira Glass",
+      "en": "From WBEZ Chicago, it's This American Life. I'm Ira Glass. So one of the people who works on our radio show, her brother was going through a rough time, and he called their mom, kind of panicking.",
+      "zh": "这里是芝加哥 WBEZ 电台为您带来的《This American Life》，我是 Ira Glass。我们节目组有位同事，她弟弟前阵子正经历一段低谷，慌慌张张地给妈妈打了个电话。"
+    },
+    {
+      "id": 2,
+      "start_sec": 11,
+      "speaker": "Ira Glass",
+      "en": "And the mom was like, you know, you just need to stop thinking about this stuff. And he was like, Mom, that is not possible. And she was like, that is totally possible.",
+      "zh": "他妈妈就跟他说：“你呀，别再去想这些事就行了。”他回道：“妈，这怎么可能啊。”她妈说：“完全可能。”"
+    },
+    {
+      "id": 3,
+      "start_sec": 21,
+      "speaker": "Ira Glass",
+      "en": "What you have to do is, you have to take the bad thought and put it into a box in your head. Then, you have to take the box out of your head, put it in a cupboard, and shut the cupboard.",
+      "zh": "“你得这么办：把那些坏念头装进你脑子里的一个盒子里。然后，把这个盒子从你脑子里拿出来，放进橱柜，再把柜门关上。”"
+    },
+    {
+      "id": 4,
+      "start_sec": 34,
+      "speaker": "Ira Glass",
+      "en": "I love the completeness of that. It's like the box in the head was not enough, right? That image maybe worked for their mom when she was young, but then she's like, you know, I have not extinguished the bad thoughts quite enough. I need more. I need a cupboard.",
+      "zh": "我太喜欢这番操作的彻底劲儿了。好像光在脑子里装进盒子还不够，对吧？也许她妈年轻时靠这个意象就够用了，但后来她觉得，不行，这些坏念头还没彻底掐灭干净，我还需要加码，我得要个橱柜。"
+    },
+    {
+      "id": 5,
+      "start_sec": 49,
+      "speaker": "Ira Glass",
+      "en": "Next time our producer and her brother were visiting their parents, she told me, the two of them were all just like, don't open the cupboards!",
+      "zh": "后来我们那位制作人和她弟弟再回爸妈家时，她告诉我，姐弟俩全程都在互相打趣：“千万别开柜子门！”"
+    },
+    {
+      "id": 6,
+      "start_sec": 57,
+      "speaker": "Ira Glass",
+      "en": "Denial usually gets a bad rap. Compartmentalizing your feelings, keeping it all inside, pretending things never happened — these are not signs of psychological health. What they're signs of is adulthood.",
+      "zh": "逃避现实通常名声不太好。把情绪分门别类藏起来、全都憋在心里、假装什么都没发生过——这些可算不上什么心理健康的标志。它们标志着另一件事：成年。"
+    },
+    {
+      "id": 7,
+      "start_sec": 72,
+      "speaker": "Ira Glass",
+      "en": "If you do those things, basically, you're an adult. Because being an adult means sucking it up, getting on with it, going to work even if you have a cold, because you're an adult. You do your job.",
+      "zh": "只要你这么干，基本上你就算是个成年人了。因为做个大人，就意味着咬牙硬撑、继续往前走，哪怕感冒了也得照常上班——因为你是大人了，得把活干完。"
+    },
+    {
+      "id": 8,
+      "start_sec": 84,
+      "speaker": "Ira Glass",
+      "en": "I'm not complaining. In fact, today's entire show is a defense of not thinking about it, of not knowing. A defense, in short, of ignorance. We have three very different stories. You can decide how convincing they are. Stay with us.",
+      "zh": "我可不是在抱怨。事实上，今天整期节目就是为“不去想它”、为“一无所知”正名——简而言之，为“无知”辩护。我们准备了三个截然不同的故事，到底有多说服力，由你来评判。别走开。"
+    },
+    {
+      "id": 9,
+      "start_sec": 111,
+      "speaker": "Ira Glass",
+      "en": "Act One, What You Don't Know. Lulu Wang has this case study of people not admitting the truth.",
+      "zh": "Act One，你所不知道的事。Lulu Wang 带来了这样一个案例，讲的是人们如何对真相闭口不谈。"
+    },
+    {
+      "id": 10,
+      "start_sec": 119,
+      "speaker": "Lulu Wang",
+      "en": "When my grandmother was diagnosed with stage 4 lung cancer, she was given three months to live. She was 80 years old, and my family, for reasons I'll get into in a minute, decided not to tell her. I was totally against this.",
+      "zh": "我奶奶被确诊为肺癌晚期时，医生说她只剩三个月可活了。她当时八十岁，而我们一家人——原因我待会儿再细说——决定不告诉她。我当时坚决反对。"
+    },
+    {
+      "id": 11,
+      "start_sec": 133,
+      "speaker": "Lulu Wang",
+      "en": "When I heard the news, I wanted to talk with my grandmother, comfort her. I wanted to grieve with her in the way that seems natural when someone you love is dying.",
+      "zh": "刚听到这个消息时，我想和奶奶好好聊聊，安慰她。我想像所有人在至亲即将离世时那样，陪着她一起面对、一起悲伤。"
+    },
+    {
+      "id": 12,
+      "start_sec": 143,
+      "speaker": "Lulu Wang",
+      "en": "But my mom — she's the one who called me to give me the bad news — quickly informed me that what I wanted, that what I thought was the right thing to do, would not be permitted, and that I would have no say in the matter. I was stunned.",
+      "zh": "但我妈——就是她打电话把这个噩耗告诉我的——很快明确通知我，我想做的、我认为对的事，一概不被允许，而且这件事上我没有任何发言权。我当时彻底傻眼了。"
+    },
+    {
+      "id": 13,
+      "start_sec": 158,
+      "speaker": "Lulu Wang",
+      "en": "My grandmother, or Nainai, as I call her, lives in China, along with a lot of my other relatives. My parents and I live here in the United States.",
+      "zh": "我祖母——也就是我口中的“奶奶”——住在中国，家里很多亲戚也都在国内。我爸妈和我就住在美国。"
+    },
+    {
+      "id": 14,
+      "start_sec": 166,
+      "speaker": "Lulu Wang",
+      "en": "I'm really close to my Nainai. At 2 years old, I lived with her and my grandfather for a year so my mom could work.",
+      "zh": "我和奶奶感情特别深。两岁那年，为了让妈妈能去上班，我和爷爷奶奶一起生活了一整年。"
+    },
+    {
+      "id": 15,
+      "start_sec": 173,
+      "speaker": "Lulu Wang",
+      "en": "Nainai is 5 foot tall with a full head of permed, white hair. She's small, but when my Nainai walks into a room, everyone listens.",
+      "zh": "奶奶身高一米五，顶着一头烫过的满头白发。她个头虽小，可只要一走进屋里，所有人都会安静下来听她说话。"
+    },
+    {
+      "id": 16,
+      "start_sec": 187,
+      "speaker": "Lulu Wang",
+      "en": "I wasn't the only one who felt weird keeping this a secret. My dad thought about going to his mom and telling her she was dying.",
+      "zh": "觉得这么瞒着挺别扭的，不止我一个。我爸也一度想过直接去告诉他妈妈，她快不行了。"
+    },
+    {
+      "id": 17,
+      "start_sec": 195,
+      "speaker": "Lulu's Dad",
+      "en": "But then what? I could not take care of her because I have my own family back in the United States, right? I have my job here. And then I won't be able to take the responsibility of being with my mom.",
+      "zh": "可说了之后呢？我也没法留在那儿照顾她，毕竟我自己的家都在美国，对吧？我的工作也在这边。到头来我也担不起陪在妈妈身边的这份责任。"
+    },
+    {
+      "id": 18,
+      "start_sec": 210,
+      "speaker": "Lulu Wang",
+      "en": "It's true. My dad wasn't the one on the ground looking after Nainai. He left China when he was just a teenager. His older brother has lived in Japan for 24 years. The person who was on the ground was Nainai's younger sister.",
+      "zh": "事实确实如此。真正在一线照顾奶奶的并不是我爸。他十几岁就离开中国了，他哥哥也在日本住了二十四年。真正守在奶奶身边的，是奶奶的亲妹妹。"
+    },
+    {
+      "id": 19,
+      "start_sec": 225,
+      "speaker": "Little Nainai",
+      "en": "The doctor said her condition is very serious, and you should have her hospitalized for treatment.",
+      "zh": "医生说了，她这个病情啊，很重，你们应该让她住院治疗。"
+    },
+    {
+      "id": 20,
+      "start_sec": 229,
+      "speaker": "Lulu Wang",
+      "en": "This is her, my Nainai's sister, my great aunt. She looks almost identical to Nainai. In Chinese, I call her Xiao Yinai, which translates to Little Aunt Grandma. But I'll just call her Little Nainai for this story.",
+      "zh": "这就是我奶奶的妹妹，我的姨奶奶。她和奶奶长得几乎一模一样。在中文里我叫她“小姨奶”，直译过来就是 Little Aunt Grandma。不过在这个故事里，我就叫她 Little Nainai 好了。"
+    },
+    {
+      "id": 21,
+      "start_sec": 244,
+      "speaker": "Lulu Wang",
+      "en": "Little Nainai lives in the apartment right upstairs from Nainai, and they're very close. She was the one who picked up the results of Nainai's physical.",
+      "zh": "小姨奶就住在奶奶楼上的公寓里，姐妹俩感情特别好。这次也是她去替奶奶拿的体检报告。"
+    },
+    {
+      "id": 22,
+      "start_sec": 252,
+      "speaker": "Lulu Wang",
+      "en": "It's customary in China for doctors to give bad news to family members rather than giving it directly to the patient, especially if the patient is older. Nainai's doctor recommended that Nainai be immediately hospitalized for treatment.",
+      "zh": "在中国，医生通常会把坏消息先告诉家属，而不是直接告知患者本人，尤其是年纪大的病人。奶奶的医生建议立刻安排她住院治疗。"
+    },
+    {
+      "id": 23,
+      "start_sec": 268,
+      "speaker": "Little Nainai",
+      "en": "Not hospitalizing her for treatment would seem irresponsible to the patient.",
+      "zh": "不住院治疗，好像是对患者不负责任。"
+    },
+    {
+      "id": 24,
+      "start_sec": 273,
+      "speaker": "Lulu Wang",
+      "en": "She's saying the doctor told her the cancer was very advanced. To not hospitalize her would be irresponsible. Of course, in order to hospitalize Nainai, it means they'd actually have to tell her she's sick.",
+      "zh": "她在说，医生告诉她癌症已经到很晚期了，不住院就是不负责任。当然了，真要让奶奶住院，就等于必须得告诉她自己生病了。"
+    },
+    {
+      "id": 25,
+      "start_sec": 286,
+      "speaker": "Little Nainai",
+      "en": "So I told him that she's getting old, she couldn't handle this kind of blow, and the burden would be too heavy for her. So then, the doctor said...",
+      "zh": "我就跟他说了，说她年岁大了，她经不起这个打击，她的负担太重。这样的话呢，医生说了……"
+    },
+    {
+      "id": 26,
+      "start_sec": 300,
+      "speaker": "Lulu Wang",
+      "en": "Little Nainai told the doctor that Nainai is too old, that she couldn't handle a blow like this. It's not just that Little Nainai didn't want to upset her sister with the news of her death.",
+      "zh": "小奶奶跟医生说，奶奶年纪太大了，经不起这样的打击。小奶奶这么做，不只是怕把死讯告诉姐姐会让她难过。"
+    },
+    {
+      "id": 27,
+      "start_sec": 310,
+      "speaker": "Lulu Wang",
+      "en": "She actually believed that not telling her was a way to prolong her life. Knowing Nainai's personality, Little Nainai worried that her sister would get overwhelmed with fear and depression.",
+      "zh": "她其实打心底里觉得，瞒着病情才是延年益寿的办法。小奶奶太了解奶奶的脾气了，她担心姐姐会因此陷入极度的恐惧和抑郁。"
+    },
+    {
+      "id": 28,
+      "start_sec": 318,
+      "speaker": "Lulu Wang",
+      "en": "She'd stop eating, she'd stop sleeping, she'd lose interest in life. The Chinese believe that mental and emotional health are completely linked to physical health.",
+      "zh": "到时候她肯定吃不下饭、睡不着觉，对生活失去念想。中国人讲究身心一体，觉得心理和情绪健康跟身体健康息息相关。"
+    },
+    {
+      "id": 29,
+      "start_sec": 327,
+      "speaker": "Little Nainai",
+      "en": "Isn't there a joke in China?",
+      "zh": "中国不是有这么一个玩笑吗？"
+    },
+    {
+      "id": 30,
+      "start_sec": 329,
+      "speaker": "Lulu Wang",
+      "en": "She tells me there's a Chinese joke. Two people go get a physical. One of them is healthy, and one of them has a terminal illness.",
+      "zh": "她给我讲了个中国笑话：两个人去体检，一个身体很健康，另一个其实得了绝症。"
+    },
+    {
+      "id": 31,
+      "start_sec": 336,
+      "speaker": "Lulu Wang",
+      "en": "The hospital gets the results mixed up. The healthy person gets a terminal prognosis and vice versa. So then the healthy person ends up dying while the sick person ends up living.",
+      "zh": "结果医院把体检报告弄混了，健康的人拿到了绝症诊断书，反过来也一样。于是健康的人反倒吓死了，生病的人却好好活了下来。"
+    },
+    {
+      "id": 32,
+      "start_sec": 345,
+      "speaker": "Lulu Wang",
+      "en": "Is this a joke, really a joke? It's not particularly funny.",
+      "zh": "这是个笑话？真的笑话？这也没有特别可笑啊。"
+    },
+    {
+      "id": 33,
+      "start_sec": 351,
+      "speaker": "Lulu Wang",
+      "en": "That's me asking Little Nainai, is that really a joke? It's not very funny.",
+      "zh": "这是我在问小奶奶：这真的是个笑话吗？一点也不好笑。"
+    },
+    {
+      "id": 34,
+      "start_sec": 355,
+      "speaker": "Little Nainai",
+      "en": "I guess it counts as a joke.",
+      "zh": "应该是算笑话吧。"
+    },
+    {
+      "id": 35,
+      "start_sec": 358,
+      "speaker": "Lulu Wang",
+      "en": "She assured me that it was.",
+      "zh": "她很肯定地告诉我，这确实算个笑话。"
+    },
+    {
+      "id": 36,
+      "start_sec": 362,
+      "speaker": "Lulu Wang",
+      "en": "My family got a second opinion, and then a third. Same prognosis-- three months, maybe less.",
+      "zh": "家里人又找了第二家医院，接着又找了第三家。结果都一样：只剩三个月，甚至更短。"
+    },
+    {
+      "id": 37,
+      "start_sec": 368,
+      "speaker": "Lulu Wang",
+      "en": "Little Nainai knew she needed a fake medical report to show Nainai, so she went to a print shop. They told her, we can't create a false medical record. If you want to make something up, we could photocopy it for you.",
+      "zh": "小奶奶知道得弄份假体检报告给奶奶看，于是跑去了一家打印店。店里的人跟她说：“我们不能伪造病历，不过要是你自己改好了，我们可以帮你复印一份。”"
+    },
+    {
+      "id": 38,
+      "start_sec": 380,
+      "speaker": "Lulu Wang",
+      "en": "Little Nainai whited out the real diagnosis and wrote down words that sounded vaguely medical but unalarming, something about the nine shadows.",
+      "zh": "小奶奶用涂改液把真正的诊断结果涂掉，自己写上了几句听着像那么回事、又没什么大碍的词儿，大概是说“九处阴影”之类的。"
+    },
+    {
+      "id": 39,
+      "start_sec": 389,
+      "speaker": "Lulu Wang",
+      "en": "My family built on that lie with an even more elaborate one. We realized we had a problem. How are we all going to manage to see Nainai before she died?",
+      "zh": "我们家在这个谎言的基础上，又编织了一个更周密的局。我们意识到一个难题：怎么才能让大家都赶在奶奶去世前见上她一面呢？"
+    },
+    {
+      "id": 40,
+      "start_sec": 397,
+      "speaker": "Lulu Wang",
+      "en": "Family from three countries needed to say goodbye without letting Nainai know we were actually saying goodbye. This would require more than Wite-Out. My dad had an idea.",
+      "zh": "分散在三个国家的亲戚都得回来道别，还不能让奶奶察觉我们是在道别。这可不是用点涂改液就能应付过去的了。我爸想出了一个主意。"
+    },
+    {
+      "id": 41,
+      "start_sec": 406,
+      "speaker": "Lulu's Dad",
+      "en": "So I said, all right, your uncle, maybe we can just, you know, stage your son's wedding early. One year early.",
+      "zh": "我就说，行了，你叔叔那边，要不咱们就……把你儿子的婚礼提前办了吧。提前一年。"
+    },
+    {
+      "id": 42,
+      "start_sec": 418,
+      "speaker": "Lulu Wang",
+      "en": "Are you proud that you came up with this idea?",
+      "zh": "能想出这个主意，你觉得挺自豪的吗？"
+    },
+    {
+      "id": 43,
+      "start_sec": 421,
+      "speaker": "Lulu's Dad",
+      "en": "Well, you know, I'm the-- everybody considered me as the smartest, you know, in the family. So, I mean, that's true, I mean.",
+      "zh": "嗯，你知道的，我在家里……大家都觉得我是最聪明的那个嘛。所以说，确实就是这样。"
+    },
+    {
+      "id": 44,
+      "start_sec": 431,
+      "speaker": "Lulu Wang",
+      "en": "This was our plan-- a giant goodbye party disguised as a giant wedding banquet.",
+      "zh": "这就是我们的计划——把一场盛大的告别聚会，伪装成一场盛大的婚宴。"
+    },
+    {
+      "id": 45,
+      "start_sec": 437,
+      "speaker": "Lulu's Dad",
+      "en": "This is the lie that everybody agreed to lie.",
+      "zh": "这是一个大家都同意去圆的谎。"
+    },
+    {
+      "id": 46,
+      "start_sec": 441,
+      "speaker": "Lulu Wang",
+      "en": "And here's how it was going to go down. My Uncle Hai Bin's son, Liang-Liang, had recently married a Japanese woman.",
+      "zh": "具体是这么安排的：我海滨叔叔的儿子亮亮，刚娶了一位日本姑娘。"
+    },
+    {
+      "id": 47,
+      "start_sec": 447,
+      "speaker": "Lulu Wang",
+      "en": "They planned to celebrate in China the next year, but now it would be in two weeks, and it would bring together family members who had not all been in the same place for 25 years.",
+      "zh": "他们本来打算明年再回中国办酒席，现在突然改成了两周后，这就能把25年没聚齐过的全家人一下子都召回一处。"
+    },
+    {
+      "id": 48,
+      "start_sec": 458,
+      "speaker": "Lulu Wang",
+      "en": "My dad told Nainai that the wedding banquet had to happen immediately because that was when the groom, Liang-Liang, could get the time off work.",
+      "zh": "我爸跟奶奶说，婚宴必须马上办，因为新郎亮亮只有这阵子能请下假来。"
+    },
+    {
+      "id": 49,
+      "start_sec": 467,
+      "speaker": "Lulu Wang",
+      "en": "How did you feel about lying?",
+      "zh": "那你对撒谎这件事心里怎么想？"
+    },
+    {
+      "id": 50,
+      "start_sec": 469,
+      "speaker": "Lulu's Dad",
+      "en": "Well, it's not, I mean, clear-cut, this is a lie and that's, you know. Because people think lie is bad thing.",
+      "zh": "嗯，这事儿吧，不是那么非黑即白的，不是说这就叫撒谎怎么样的。因为一般人都觉得撒谎是坏事。"
+    },
+    {
+      "id": 51,
+      "start_sec": 478,
+      "speaker": "Lulu's Dad",
+      "en": "But in this circumstance, you don't think that you make a bad lie. You think you make a good lie.",
+      "zh": "但在这种情况下，你不会觉得自己是在撒一个坏谎，你会觉得这是一个善意的谎言。"
+    },
+    {
+      "id": 52,
+      "start_sec": 486,
+      "speaker": "Lulu's Dad",
+      "en": "Because that's the way that everybody, you know, wants it. And that's the way that it's supposed to be.",
+      "zh": "因为这就是大家都希望的结果，事情本来也该这么办。"
+    },
+    {
+      "id": 53,
+      "start_sec": 496,
+      "speaker": "Lulu Wang",
+      "en": "But that wasn't the way I wanted it or thought it was supposed to be. And I still wasn't convinced it would be what Nainai wanted.",
+      "zh": "但这并不是我想要的，我也没觉得事情就该这样。而且我还是不确定，这是不是奶奶真正想要的。"
+    },
+    {
+      "id": 54,
+      "start_sec": 504,
+      "speaker": "Lulu Wang",
+      "en": "I was so emotional that my mom said maybe I shouldn't go, that I might cry and blow the cover. I was afraid she might be right.",
+      "zh": "我当时情绪太激动了，我妈甚至说我干脆别去了，怕我忍不住哭出来、把事情搞砸。我也担心她说得对。"
+    },
+    {
+      "id": 55,
+      "start_sec": 513,
+      "speaker": "Lulu Wang",
+      "en": "But if I wanted to see Nainai before she died, I had to go, and I had to be part of the lie.",
+      "zh": "但要想赶在奶奶去世前见她一面，我就必须回去，也必须成为这个谎言的一部分。"
+    },
+    {
+      "id": 56,
+      "start_sec": 534,
+      "speaker": "Lulu Wang",
+      "en": "This is from a video I took. I started filming as soon as I landed. I brought the camcorder with me to hide behind, hoping it would help me to keep it together.",
+      "zh": "这段录音来自我拍的一段视频。我一落地就开机了。我特意带了台摄像机躲在镜头后面，希望能帮自己稳住情绪。"
+    },
+    {
+      "id": 57,
+      "start_sec": 544,
+      "speaker": "Lulu Wang",
+      "en": "At the arrivals gate, I heard Nainai shouting my name through the crowd. She wasn't difficult to spot-- a squat figure waving a pink handkerchief from the front of the crowd.",
+      "zh": "在接机口，我隔着人群就听见奶奶在喊我的名字。她一点都不难找——人群最前面，一个矮矮墩墩的身影正挥着块粉红色手绢。"
+    },
+    {
+      "id": 58,
+      "start_sec": 554,
+      "speaker": "Lulu Wang",
+      "en": "She was at least a foot shorter than everyone else, and her white hair stood out.",
+      "zh": "她比周围所有人都矮了至少一头，一头白发特别显眼。"
+    },
+    {
+      "id": 59,
+      "start_sec": 560,
+      "speaker": "Lulu Wang",
+      "en": "\"Oh, my granddaughter,\" she cried. She looked me up and down. You're not very skinny, she observed.",
+      "zh": "“哎呀，我的大孙女！”她喊道。她上下打量了我一番，点评道：“你倒也没怎么瘦嘛。”"
+    },
+    {
+      "id": 60,
+      "start_sec": 567,
+      "speaker": "Lulu Wang",
+      "en": "Your mom says you've been very busy with work. I thought you'd be skinny, but you're not that skinny.",
+      "zh": "“你妈说你工作可忙了，我还以为你瘦脱相了呢，结果也没多瘦嘛。”"
+    },
+    {
+      "id": 61,
+      "start_sec": 576,
+      "speaker": "Lulu Wang",
+      "en": "Nainai didn't look or act like someone who was sick at all.",
+      "zh": "奶奶无论看起来还是举止神态，都完全不像个生病的人。"
+    },
+    {
+      "id": 62,
+      "start_sec": 581,
+      "speaker": "Lulu Wang",
+      "en": "I asked her how she was feeling, and she said she was doing well. She had some knee pain from the years she marched across the country with the People's Liberation Army when she was 14.",
+      "zh": "我问她身体感觉怎么样，她说挺好的。就是膝盖有点疼，那是她14岁那年跟着解放军行军走遍全国落下的老毛病。"
+    },
+    {
+      "id": 63,
+      "start_sec": 591,
+      "speaker": "Lulu Wang",
+      "en": "If it weren't for my bad knees, she said, I'd be perfect.",
+      "zh": "“要不是这膝盖不好，”她说，“我简直好得不能再好了。”"
+    },
+    {
+      "id": 64,
+      "start_sec": 612,
+      "speaker": "Lulu Wang",
+      "en": "My parents were delayed in Beijing that night, but the rest of the family gathered around Nainai's dinner table.",
+      "zh": "那天晚上，我爸妈在北京延误了没赶回来，家里其他人则围坐在奶奶的饭桌旁。"
+    },
+    {
+      "id": 65,
+      "start_sec": 618,
+      "speaker": "Lulu Wang",
+      "en": "Little Nainai held her little white dog on her lap, a dog they call Ellen. They named Ellen after an American exchange student who had stayed with them.",
+      "zh": "小奶奶把她那只小白狗抱在腿上，他们叫它 Ellen，是用之前借住在他们家的一位美国交换生的名字取的。"
+    },
+    {
+      "id": 66,
+      "start_sec": 631,
+      "speaker": "Lulu Wang",
+      "en": "Ellen has one trick that she can normally do on command. Everyone here is yelling, \"sing, Ellen! Sing, sing!\" And then, finally—",
+      "zh": "Ellen 有个拿手绝活，平时只要发个口令它就会表演。屋里每个人都在起哄：“唱一个，Ellen！唱啊，唱啊！”结果，它终于——"
+    },
+    {
+      "id": 67,
+      "start_sec": 649,
+      "speaker": "Lulu Wang",
+      "en": "After dinner, Uncle Hai Bin walked me to the nearby hotel where I was staying.",
+      "zh": "晚饭后，海滨伯伯送我回附近我住的那家酒店。"
+    },
+    {
+      "id": 68,
+      "start_sec": 655,
+      "speaker": "Lulu Wang",
+      "en": "Nainai is in one of the older neighborhoods in the area. There are still unpaved paths and small food stands, but her street is being slowly engulfed by shopping malls and high rises.",
+      "zh": "奶奶住在当地一片老城区里。那里还有没铺路面的土道和小吃摊，但她住的那条街正一点点被购物中心和高楼大厦吞没。"
+    },
+    {
+      "id": 69,
+      "start_sec": 666,
+      "speaker": "Lulu Wang",
+      "en": "\"Nainai's very sick, you know,\" Uncle said as we walked. \"She took care of you when you were little. She loves you so much.\"",
+      "zh": "“奶奶病得很重，你知道的，”伯伯一边走一边说，“你小时候她带过你，她可疼你了。”"
+    },
+    {
+      "id": 70,
+      "start_sec": 676,
+      "speaker": "Lulu Wang",
+      "en": "He kept saying things I already knew, things that felt like he was trying to provoke an emotion out of me.",
+      "zh": "他不停地说些我早就知道的话，听起来倒像是在刻意挑动我的情绪。"
+    },
+    {
+      "id": 71,
+      "start_sec": 683,
+      "speaker": "Lulu Wang",
+      "en": "\"You have to be very careful not to tell her,\" he said. \"You'll feel very sad, but you cannot cry.\"",
+      "zh": "“你千万得小心，别说漏嘴告诉她，”他说，“你会觉得很难过，但绝不能哭。”"
+    },
+    {
+      "id": 72,
+      "start_sec": 691,
+      "speaker": "Lulu Wang",
+      "en": "Looking back, I wonder if he was really just trying to coach himself.",
+      "zh": "现在回想起来，我怀疑他其实只是在给自己做心理建设。"
+    },
+    {
+      "id": 73,
+      "start_sec": 697,
+      "speaker": "Lulu Wang",
+      "en": "\"You have to be happy,\" he insisted.",
+      "zh": "“你得高兴起来。”他再三叮嘱。"
+    },
+    {
+      "id": 74,
+      "start_sec": 701,
+      "speaker": "Lulu Wang",
+      "en": "\"I know,\" I said, as I stared straight ahead at the brightly lit billboards across the street.",
+      "zh": "“我知道。”我说着，双眼直勾勾地盯着街对面灯火通明的广告牌。"
+    },
+    {
+      "id": 75,
+      "start_sec": 718,
+      "speaker": "Lulu Wang",
+      "en": "At most events, the emotional protocol is clear. You smile at weddings. You cry at funerals.",
+      "zh": "在大多数场合，情绪的礼仪是很明确的：婚礼上要笑，葬礼上要哭。"
+    },
+    {
+      "id": 76,
+      "start_sec": 724,
+      "speaker": "Lulu Wang",
+      "en": "The confusing thing here was that this was one situation masquerading as another.",
+      "zh": "眼下让人无所适从的是，这明明是一场葬礼，却偏偏伪装成了婚礼。"
+    },
+    {
+      "id": 77,
+      "start_sec": 731,
+      "speaker": "Lulu Wang",
+      "en": "In China, you're actually expected to cry at a funeral—a lot—as a sign of respect. People judge you on how well you cry and how much you cry.",
+      "zh": "在中国，办丧事其实讲究要哭——而且得大哭——以此表达孝敬。旁人甚至会评判你哭得好不好、哭得够不够。"
+    },
+    {
+      "id": 78,
+      "start_sec": 741,
+      "speaker": "Lulu Wang",
+      "en": "My uncle understood this protocol.",
+      "zh": "我伯伯深谙这套规矩。"
+    },
+    {
+      "id": 79,
+      "start_sec": 744,
+      "speaker": "Lulu Wang",
+      "en": "At my grandfather Yeye's funeral in 1994, Uncle Hai Bin was tasked with the duty of performing a cathartic Chinese ritual to demonstrate his great grieving.",
+      "zh": "1994年我爷爷去世办葬礼时，海滨伯伯就担起了主持一项极富宣泄感的中国传统丧仪的重任，以此彰显他深切的哀痛。"
+    },
+    {
+      "id": 80,
+      "start_sec": 755,
+      "speaker": "Lulu Wang",
+      "en": "As the eldest son, this was his designated role. He stood in the aisle in front of the coffin and raised a clay bowl over his head.",
+      "zh": "作为长子，这是非他莫属的角色。他站在灵柩前的过道上，把一只瓦碗高高举过头顶。"
+    },
+    {
+      "id": 81,
+      "start_sec": 765,
+      "speaker": "Lulu Wang",
+      "en": "While crying loudly, he smashed the bowl to the ground, shattering it into countless shards.",
+      "zh": "他一边放声大哭，一边狠狠把碗摔在地上，摔得粉碎。"
+    },
+    {
+      "id": 82,
+      "start_sec": 772,
+      "speaker": "Lulu Wang",
+      "en": "My mother hates these kinds of huge emotional displays, by the way. At her father's funeral, years ago, her family criticized her for not crying enough.",
+      "zh": "顺便一提，我妈特别讨厌这种大张旗鼓的情感宣泄。很多年前她父亲去世办葬礼时，家里人就嫌她哭得不够卖力。"
+    },
+    {
+      "id": 83,
+      "start_sec": 782,
+      "speaker": "Lulu's Mom",
+      "en": "The people over there, they expect you just fall on the floor and like, like crazy people. And the shouting and crying, this is Chinese part of, you know, their tradition.",
+      "zh": "那边的人啊，非要你直接扑倒在地上，像疯了一样。又喊又哭的，这就是中国传统里的那一套嘛。"
+    },
+    {
+      "id": 84,
+      "start_sec": 797,
+      "speaker": "Lulu's Mom",
+      "en": "The people die, they hire the people. And if you have money, you can hire 100 people, come here, just cry.",
+      "zh": "有人去世了，他们就去雇人来哭丧。你要是有钱，能雇上一百个人来这儿干哭。"
+    },
+    {
+      "id": 85,
+      "start_sec": 808,
+      "speaker": "Lulu's Mom",
+      "en": "Say one, two, three, cry! And one, two, three, stop! I hate that.",
+      "zh": "喊一声“一、二、三，哭！”，再来个“一、二、三，停！”。我最讨厌那个了。"
+    },
+    {
+      "id": 86,
+      "start_sec": 820,
+      "speaker": "Lulu Wang",
+      "en": "The next morning, my parents finally arrive.",
+      "zh": "第二天早上，我爸妈终于到了。"
+    },
+    {
+      "id": 87,
+      "start_sec": 824,
+      "speaker": "Lulu Wang",
+      "en": "I'm videotaping as Nainai greets my dad at the door, asking him all kinds of questions about his flight, about a recent dental surgery he had.",
+      "zh": "我举着摄像机拍着，奶奶在门口迎接我爸，问长问短的，问他一路飞机坐得怎么样，又问他最近刚做的牙科手术。"
+    },
+    {
+      "id": 88,
+      "start_sec": 834,
+      "speaker": "Lulu Wang",
+      "en": "The rest of the family hovers close by, and I can see that my dad is so emotional that he can't say a single word.",
+      "zh": "家里其他人都围在旁边，我看得出我爸情绪激动得连一个字都说不出来。"
+    },
+    {
+      "id": 89,
+      "start_sec": 843,
+      "speaker": "Lulu Wang",
+      "en": "He can't even look her in the eyes. He tries to be playful and takes off her hat, then fiddles with his own sunglasses, trying to distract himself.",
+      "zh": "他甚至不敢直视她的眼睛。他试着逗她开心，摘下她的帽子，接着又摆弄起自己的墨镜，想借此分散注意力。"
+    },
+    {
+      "id": 90,
+      "start_sec": 853,
+      "speaker": "Lulu Wang",
+      "en": "Later, I was finally able to ask him what he was feeling when he walked through that door.",
+      "zh": "后来，我总算找机会问了他推门进去那一刻是什么感受。"
+    },
+    {
+      "id": 91,
+      "start_sec": 859,
+      "speaker": "Lulu's Dad",
+      "en": "Well, you know, it's just like, you know, every son, you know, feeling that your mom is dying, and you cannot tell.",
+      "zh": "哎，你想想嘛，就像天下所有做儿子的一样，眼看着自己母亲快不行了，你却不能告诉她。"
+    },
+    {
+      "id": 92,
+      "start_sec": 869,
+      "speaker": "Lulu's Dad",
+      "en": "And thinking that that's probably the last time that you'll see your mom.",
+      "zh": "心里还在想着，这搞不好就是最后一次见到母亲了。"
+    },
+    {
+      "id": 93,
+      "start_sec": 876,
+      "speaker": "Lulu's Dad",
+      "en": "All the family is around you. Everybody is there, and everybody knows what's going on except your grandma, except my mom.",
+      "zh": "一家老小都围在你身边。所有人都在场，而且所有人都心知肚明发生了什么，唯独你奶奶不知道，唯独我妈不知道。"
+    },
+    {
+      "id": 94,
+      "start_sec": 886,
+      "speaker": "Lulu's Dad",
+      "en": "I was afraid to say something, then you cannot hold myself, and I'll start crying, right?",
+      "zh": "我怕一开口就绷不住，眼泪就要掉下来，对吧？"
+    },
+    {
+      "id": 95,
+      "start_sec": 893,
+      "speaker": "Lulu's Dad",
+      "en": "You want to say something, but you don't know what to say. It's just now there's no words to choose from.",
+      "zh": "你想说点什么，可又不知道该说什么好。到了那个节骨眼上，根本找不到词可说。"
+    },
+    {
+      "id": 96,
+      "start_sec": 898,
+      "speaker": "Lulu Wang",
+      "en": "At one point, Nainai asks him...",
+      "zh": "中间有一次，奶奶问他……"
+    },
+    {
+      "id": 97,
+      "start_sec": 900,
+      "speaker": "Lulu Wang",
+      "en": "\"What's wrong?\" Even though he doesn't respond, it's like she can feel the weight of his grief, and she just starts sobbing.",
+      "zh": "“怎么了？”哪怕他一句话也没回，奶奶仿佛还是感受到了他心头沉甸甸的悲伤，一下子就抽泣起来。"
+    },
+    {
+      "id": 98,
+      "start_sec": 913,
+      "speaker": "Lulu Wang",
+      "en": "I wondered if she knew why we were all there. Or maybe when you're 80, this is just how you greet your son who lives so far away.",
+      "zh": "我心里不禁琢磨，她是不是知道我们这群人为什么都回来了。又或者，人到了八十岁，见到远道而来的儿子，本来就是这么打招呼的。"
+    },
+    {
+      "id": 99,
+      "start_sec": 929,
+      "speaker": "Lulu Wang",
+      "en": "There are other relatives around, and my dad walks away from Nainai to get some space. On the video, you can hear my mom interject, her voice upbeat, trying to lighten the mood.",
+      "zh": "屋里还有其他亲戚在，我爸从奶奶身边走开，想一个人缓一缓。在录像里，你能听到我妈突然插了一句话，语气特意拔得轻快，想把气氛往回拉一拉。"
+    },
+    {
+      "id": 100,
+      "start_sec": 944,
+      "speaker": "Lulu Wang",
+      "en": "After a while, Nainai takes her usual role as the matriarch and gathers everyone around, taking charge. She reminds us why we're all here-- the big event of Liang-Liang and his wife's marriage.",
+      "zh": "没过多久，奶奶就拿出了她一贯的家主派头，把大伙儿拢到一块儿，开始发号施令。她提醒大家，我们这趟回来可都是为了正事——Liang-Liang 和他新媳妇的婚礼。"
+    },
+    {
+      "id": 101,
+      "start_sec": 956,
+      "speaker": "Lulu Wang",
+      "en": "\"Yes, Liang-Liang's wedding is the big event,\" my dad confirms quietly. We all urge Nainai to relax, but she's busy giving everyone their priorities.",
+      "zh": "“对，Liang-Liang 的婚礼才是头等大事。”我爸在一旁轻声附和道。我们都劝奶奶别操心、歇着就好，可她还是忙着给每个人分派任务。"
+    },
+    {
+      "id": 102,
+      "start_sec": 965,
+      "speaker": "Lulu Wang",
+      "en": "You check on the banquet hall. You guys need to prepare your wedding speeches. You need to get over your jet lag.",
+      "zh": "你去盯着宴会厅，你们几个赶紧准备婚礼致辞，至于你，先把时差倒过来。"
+    },
+    {
+      "id": 103,
+      "start_sec": 979,
+      "speaker": "Lulu Wang",
+      "en": "Seeing Nainai, who probably should be in the hospital, get so worked up over this phony wedding banquet while we stood by and watched, it felt cruel.",
+      "zh": "看着本该住院治疗的奶奶，为了这么一场假婚宴忙前忙后、急得团团转，而我们就这么袖手旁观，我心里真觉得太残忍了。"
+    },
+    {
+      "id": 104,
+      "start_sec": 989,
+      "speaker": "Lulu Wang",
+      "en": "I went to Nainai's niece, who I call Gugu, with my concerns. Gugu lives close by and also helps look after Nainai.",
+      "zh": "我把心里的顾虑告诉了奶奶的侄女，我叫她姑姑。姑姑就住在附近，平时也帮着照料奶奶。"
+    },
+    {
+      "id": 105,
+      "start_sec": 997,
+      "speaker": "Lulu Wang",
+      "en": "I asked her, \"What if Nainai has things she wants to take care of?\" \"Like what,\" Gugu responded.",
+      "zh": "我问她：“万一奶奶还有什么未了的心事想安排呢？”“比如什么？”姑姑反问我。"
+    },
+    {
+      "id": 106,
+      "start_sec": 1002,
+      "speaker": "Lulu Wang",
+      "en": "I said, \"I don't know. None of us do. That's my whole point.\"",
+      "zh": "我说：“我不知道啊，咱们谁都不知道，这就是我想说的重点。”"
+    },
+    {
+      "id": 107,
+      "start_sec": 1006,
+      "speaker": "Lulu Wang",
+      "en": "\"No,\" Gugu said. \"She doesn't have anything like that.\" And that was the end of the discussion.",
+      "zh": "“没有，”姑姑一口回绝，“她哪有那些事。”这场谈话就这么戛然而止了。"
+    },
+    {
+      "id": 108,
+      "start_sec": 1025,
+      "speaker": "Lulu Wang",
+      "en": "The wedding celebration was held in the banquet hall of a newly built hotel. Liang-Liang had on a black suit with a pale pink tie. His Japanese wife wore a blue chiffon dress with a floral shawl.",
+      "zh": "婚礼是在一家新建酒店的宴会厅里办的。Liang-Liang 穿了身黑西装，配了条淡粉色领带；他的日本新娘穿着一袭蓝色雪纺长裙，肩上搭着一条碎花披肩。"
+    },
+    {
+      "id": 109,
+      "start_sec": 1038,
+      "speaker": "Lulu Wang",
+      "en": "Guests approached Nainai to congratulate her, smiling.",
+      "zh": "宾客们一个个笑盈盈地走上前向奶奶道喜。"
+    },
+    {
+      "id": 110,
+      "start_sec": 1042,
+      "speaker": "Lulu Wang",
+      "en": "Like a politician at a press event, Nainai smiled back. She shook hands. She kissed babies.",
+      "zh": "奶奶就像出席记者会的政客一样，报以微笑，跟人握手，还亲亲抱在怀里的小宝宝。"
+    },
+    {
+      "id": 111,
+      "start_sec": 1051,
+      "speaker": "Lulu Wang",
+      "en": "When it came time for the speeches, Uncle Hai Bin, my dad's brother, took to the stage first. He fumbled a while with the microphone before looking up.",
+      "zh": "到了致辞环节，我爸的哥哥 Hai Bin 叔叔第一个走上台。他摆弄了好一会儿麦克风，才抬起头来。"
+    },
+    {
+      "id": 112,
+      "start_sec": 1060,
+      "speaker": "Lulu Wang",
+      "en": "\"It's a rare opportunity for us all to be here today,\" he started. \"You all knew Liang-Liang as a young child, before we left China.\"",
+      "zh": "“今天大家能欢聚一堂，真是难得的机会。”他开场说道，“在场的各位都看着 Liang-Liang 从小长大，打从我们出国前就认识他。”"
+    },
+    {
+      "id": 113,
+      "start_sec": 1069,
+      "speaker": "Lulu Wang",
+      "en": "\"And now, he's become a man. He's brought a wife back with him from Japan.\"",
+      "zh": "“如今他长大成人了，还从日本带回来一位新娘。”"
+    },
+    {
+      "id": 114,
+      "start_sec": 1075,
+      "speaker": "Lulu Wang",
+      "en": "Uncle motioned to Liang-Liang's wife, who couldn't understand a word of Chinese. \"I think we are all hoping that next time they return, they will carry with them a baby or two.\"",
+      "zh": "叔叔朝 Liang-Liang 的妻子挥了挥手——她其实一句中文也听不懂。“我想大伙儿都盼着，等他们下次再回来的时候，怀里能抱上一两个小宝宝。”"
+    },
+    {
+      "id": 115,
+      "start_sec": 1087,
+      "speaker": "Lulu Wang",
+      "en": "The room chuckled. Liang-Liang translated this to his wife, and her face flushed.",
+      "zh": "满屋子人都轻笑起来。Liang-Liang 把这话翻译给新娘听，她的脸刷地一下红了。"
+    },
+    {
+      "id": 116,
+      "start_sec": 1093,
+      "speaker": "Lulu Wang",
+      "en": "\"There's just one more thing,\" Uncle said, his voice starting to quiver. \"They say that a mother's greatest joy is having her children by her side.\"",
+      "zh": "“还有最后一件事，”叔叔说着，声音开始发颤，“都说当母亲最大的幸福，就是儿女能承欢膝下。”"
+    },
+    {
+      "id": 117,
+      "start_sec": 1102,
+      "speaker": "Lulu Wang",
+      "en": "\"My ma has sadly not had that fortune\"-- he meant because he and my dad lived so far away --\"so she is lucky to have all of you to care for her.\"",
+      "zh": "“可惜我妈没这个福气——”他指的是自己和我爸都远在海外，“所以她很幸运，有你们这么多人在身边照应她。”"
+    },
+    {
+      "id": 118,
+      "start_sec": 1112,
+      "speaker": "Lulu Wang",
+      "en": "He stared at Nainai in the audience, and then, as if in slow motion, tears began to stream down his face.",
+      "zh": "他定定地看着台下的奶奶，紧接着，仿佛电影里的慢镜头一样，眼泪顺着他的脸颊流了下来。"
+    },
+    {
+      "id": 119,
+      "start_sec": 1120,
+      "speaker": "Lulu Wang",
+      "en": "I thought of Uncle Hai Bin at Yeye's funeral, gripping that clay bowl over his head as everyone watched, anticipating the explosion into a thousand pieces.",
+      "zh": "我想起了爷爷葬礼上的 Hai Bin 叔叔，当时他也是这样在众目睽睽之下，把那只瓦盆高高举过头顶，等着它砸向地面、碎成千万片的那一刻。"
+    },
+    {
+      "id": 120,
+      "start_sec": 1130,
+      "speaker": "Lulu Wang",
+      "en": "But this wasn't a funeral. It was a wedding.",
+      "zh": "可这不是葬礼，这是一场婚礼啊。"
+    },
+    {
+      "id": 121,
+      "start_sec": 1133,
+      "speaker": "Lulu Wang",
+      "en": "No crying, only happy. He had warned me himself just the night before.",
+      "zh": "不能哭，只能笑。头天晚上他自己还反复叮嘱过我呢。"
+    },
+    {
+      "id": 122,
+      "start_sec": 1139,
+      "speaker": "Lulu Wang",
+      "en": "They were all watching. Nainai was watching. There was no turning back.",
+      "zh": "所有人都在看着，奶奶也在看着，已经没有退路了。"
+    },
+    {
+      "id": 123,
+      "start_sec": 1146,
+      "speaker": "Lulu Wang",
+      "en": "\"Everything I am, everything I've become is because of my ma.\"",
+      "zh": "“我今天的一切，我所拥有的一切，全都是我妈给的。”"
+    },
+    {
+      "id": 124,
+      "start_sec": 1152,
+      "speaker": "Lulu Wang",
+      "en": "This releases the dam. He begins to weep uncontrollably on stage, his shoulders shaking.",
+      "zh": "这句话成了决堤的闸口。他在台上控制不住地失声痛哭起来，双肩剧烈地颤抖着。"
+    },
+    {
+      "id": 125,
+      "start_sec": 1163,
+      "speaker": "Lulu Wang",
+      "en": "\"Ma, you're the best mom in the entire world.\" I looked over at Nainai, who dabbed at her eyes with her handkerchief.",
+      "zh": "“妈，您是全天下最好的妈妈。”我转头看向奶奶，只见她正拿着手绢轻轻擦拭眼角。"
+    },
+    {
+      "id": 126,
+      "start_sec": 1172,
+      "speaker": "Lulu Wang",
+      "en": "Was she moved? Was she suspicious? Looking at her, I couldn't tell.",
+      "zh": "她是单纯被感动了，还是起疑心了？看着她的神情，我实在捉摸不透。"
+    },
+    {
+      "id": 127,
+      "start_sec": 1185,
+      "speaker": "Lulu Wang",
+      "en": "After the speeches, the bride and groom moved from table to table making toasts. It didn't take a mind reader to see that Nainai didn't like the new Japanese wife.",
+      "zh": "致辞结束后，新郎新娘开始挨桌敬酒。不用读心术也看得出来，奶奶并不喜欢这位新过门的日本孙媳妇。"
+    },
+    {
+      "id": 128,
+      "start_sec": 1195,
+      "speaker": "Lulu Wang",
+      "en": "\"I think she's quite dumb,\" Nainai said. \"She doesn't understand anything.\"",
+      "zh": "“我觉得她挺傻的，”奶奶说，“什么都听不懂。”"
+    },
+    {
+      "id": 129,
+      "start_sec": 1199,
+      "speaker": "Lulu Wang",
+      "en": "\"That's...\"",
+      "zh": "“那是……”"
+    },
+    {
+      "id": 130,
+      "start_sec": 1200,
+      "speaker": "Lulu Wang",
+      "en": "\"...because she doesn't speak Chinese,\" I reminded her. \"No,\" she insisted. \"It's because she's dumb.\"",
+      "zh": "“……因为她不会说中文，”我提醒她。“不是，”奶奶坚持道，“就是因为她笨。”"
+    },
+    {
+      "id": 131,
+      "start_sec": 1207,
+      "speaker": "Lulu Wang",
+      "en": "The bride and groom weren't used to the heavy drinking rituals of the northern Chinese and got drunk fast. I mean, they had to drink at every single table.",
+      "zh": "新郎新娘不太适应中国北方酒桌上的敬酒架势，很快就喝醉了。真的，他们得一桌一桌地挨个喝。"
+    },
+    {
+      "id": 132,
+      "start_sec": 1215,
+      "speaker": "Lulu Wang",
+      "en": "Liang-Liang, the groom, constantly looked like he was about to cry. And after the drinking, he could no longer hold it in. He started to bawl until his face turned bright red.",
+      "zh": "新郎亮亮一直一副快哭出来的样子。几杯酒下肚后，他再也绷不住了，放声大哭起来，整张脸涨得通红。"
+    },
+    {
+      "id": 133,
+      "start_sec": 1224,
+      "speaker": "Lulu Wang",
+      "en": "His wife's eyes were wide with panic as she scanned the room for help. Gugu motioned wildly to me from across the room as we all swooped in to try and form a barricade around the sobbing groom.",
+      "zh": "他的新婚妻子惊慌地瞪大眼睛，四下张望求助。姑姑在屋子那头朝我拼命使眼色，我们一窝蜂围上去，想筑起一道人墙挡住哭成泪人的新郎。"
+    },
+    {
+      "id": 134,
+      "start_sec": 1234,
+      "speaker": "Lulu Wang",
+      "en": "We told Nainai that Liang-Liang was probably just too happy, that he was crying tears of joy.",
+      "zh": "我们跟奶奶说，亮亮大概就是太高兴了，这是喜极而泣。"
+    },
+    {
+      "id": 135,
+      "start_sec": 1248,
+      "speaker": "Lulu Wang",
+      "en": "The night after the wedding, we all went out to a restaurant. After a massive feast, we played a drinking game.",
+      "zh": "婚礼结束后的第二天晚上，我们大伙儿一起去下馆子。饱餐一顿之后，大家玩起了酒桌游戏。"
+    },
+    {
+      "id": 136,
+      "start_sec": 1269,
+      "speaker": "Lulu Wang",
+      "en": "Nainai laughed so hard that she cried, and then laughed some more. It was hard to distinguish which smiles were real and which ones were faked for Nainai's sake.",
+      "zh": "奶奶笑得眼泪都出来了，擦完眼泪接着笑。当时真的很难分清，哪些笑容是发自内心的，哪些又是为了哄奶奶才强装出来的。"
+    },
+    {
+      "id": 137,
+      "start_sec": 1278,
+      "speaker": "Lulu Wang",
+      "en": "While I struggled with the grief of saying goodbye, Nainai focused on the future, a future she assumed she'd be part of. \"When you get married,\" she told me, \"I'll have an even bigger wedding banquet for you.\"",
+      "zh": "我还在离别的悲伤里苦苦挣扎，奶奶却已经畅想起了未来——一个她理所当然以为自己也会在场的未来。“等你结婚的时候，”她对我说，“我给你办一场比这还大的婚宴。”"
+    },
+    {
+      "id": 138,
+      "start_sec": 1290,
+      "speaker": "Lulu Wang",
+      "en": "She also asked when I'd have a baby, saying that she was looking forward to holding my child. I had no idea when any of that might happen, but I played along.",
+      "zh": "她还问我什么时候要孩子，说自己盼着能抱上我的娃。这些事八字还没一撇，但我还是顺着她的话接了下去。"
+    },
+    {
+      "id": 139,
+      "start_sec": 1299,
+      "speaker": "Lulu Wang",
+      "en": "We planned what my wedding banquet would look like and talked about how to balance my career once I had this hypothetical kid. Lying made me sick to my stomach.",
+      "zh": "我们聊起我的婚宴要办成什么样，甚至还讨论起有了这个根本没影的孩子之后，我该怎么兼顾事业。撒谎撒得我胃里直犯恶心。"
+    },
+    {
+      "id": 140,
+      "start_sec": 1315,
+      "speaker": "Lulu Wang",
+      "en": "\"Listen,\" my mom tried to reassure me, \"your Nainai would appreciate that we're lying to her. Otherwise, why would she have done the same thing to your grandfather?\"",
+      "zh": "“听着，”我妈试图宽慰我，“你奶奶会感激咱们瞒着她的。不然，她当年干嘛也要对你爷爷做同样的事呢？”"
+    },
+    {
+      "id": 141,
+      "start_sec": 1324,
+      "speaker": "Lulu Wang",
+      "en": "This was the first time I'd heard of this. I was only 10 when Yeye was diagnosed with liver cancer. As it turns out, no one told him about his condition, either.",
+      "zh": "我还是头一回听说这件事。爷爷查出肝癌那年我才十岁。原来当年，也没有人把病情告诉他。"
+    },
+    {
+      "id": 142,
+      "start_sec": 1333,
+      "speaker": "Lulu Wang",
+      "en": "As his wife, Nainai was the key decision-maker in that situation. He had severe jaundice and was barely lucid when Nainai finally gave him the bad news in the hospital. \"I need to tell you something, old-timer,\" she began.",
+      "zh": "作为妻子，奶奶在当时是拿主意的人。直到爷爷黄疸严重、神志都快不清醒了，奶奶才在医院里把坏消息告诉他。“老头子，我得跟你说件事。”她当时这么开了口。"
+    },
+    {
+      "id": 143,
+      "start_sec": 1344,
+      "speaker": "Lulu Wang",
+      "en": "He succumbed to the cancer three days later.",
+      "zh": "三天后，爷爷就因癌症去世了。"
+    },
+    {
+      "id": 144,
+      "start_sec": 1352,
+      "speaker": "Lulu Wang",
+      "en": "I asked my dad about this, and he said, in truth, Yeye knew. No one told him, but deep down, people can feel when they're really dying.",
+      "zh": "我问我爸这件事，他说，其实爷爷心里有数。虽然谁也没挑明，但人真走到生命尽头的时候，骨子里是能感觉到的。"
+    },
+    {
+      "id": 145,
+      "start_sec": 1361,
+      "speaker": "Lulu Wang",
+      "en": "They knew, and he knew, but everyone pretended not to know so they could all allow each other to save face.",
+      "zh": "家里人知道，爷爷自己也知道，但大家都装作不知道，好让彼此都留住体面。"
+    },
+    {
+      "id": 146,
+      "start_sec": 1369,
+      "speaker": "Lulu Wang",
+      "en": "So did Nainai also know? Was she also lying to us?",
+      "zh": "那奶奶是不是也早就知道了？她是不是也在反过来瞒着我们？"
+    },
+    {
+      "id": 147,
+      "start_sec": 1374,
+      "speaker": "Lulu Wang",
+      "en": "Later, Little Nainai told me that there was, in fact, a secret that Nainai had kept from us.",
+      "zh": "后来，小奶奶告诉我，奶奶其实真有一个一直瞒着我们的秘密。"
+    },
+    {
+      "id": 148,
+      "start_sec": 1380,
+      "speaker": "Little Nainai",
+      "en": "\"Because your Nainai was afraid you'd worry.\"",
+      "zh": "“因为你奶奶怕你们担心。”"
+    },
+    {
+      "id": 149,
+      "start_sec": 1383,
+      "speaker": "Lulu Wang",
+      "en": "\"Oh, well... nobody... we didn't know about this.\"",
+      "zh": "“哦，那……对，谁——我们都不知道这件事。”"
+    },
+    {
+      "id": 150,
+      "start_sec": 1387,
+      "speaker": "Lulu Wang",
+      "en": "That's the sound of me being totally shocked. She tells me that in 2007, six years before the lung cancer diagnosis, Nainai had been diagnosed with breast cancer, not unusual for a woman in her 70s.",
+      "zh": "这就是我彻底震惊时的反应。她告诉我，早在2007年，也就是查出肺癌的六年前，奶奶就已经确诊过乳腺癌——这对七十多岁的女性来说并不算罕见。"
+    },
+    {
+      "id": 151,
+      "start_sec": 1398,
+      "speaker": "Lulu Wang",
+      "en": "But my dad didn't know. My uncle didn't know. I didn't know.",
+      "zh": "但我爸不知道，我叔叔不知道，我更不知道。"
+    },
+    {
+      "id": 152,
+      "start_sec": 1403,
+      "speaker": "Lulu Wang",
+      "en": "She had a mastectomy, and she'd been wearing a prosthetic breast for nine years.",
+      "zh": "她做了乳房切除手术，整整九年来一直戴着义乳。"
+    },
+    {
+      "id": 153,
+      "start_sec": 1409,
+      "speaker": "Lulu Wang",
+      "en": "Nainai concealed this from our family and uncle's family not because she was ashamed, but so that we wouldn't worry.",
+      "zh": "奶奶把这件事瞒着我们家和叔叔一家，不是因为她觉得难为情，而是怕我们替她担心。"
+    },
+    {
+      "id": 154,
+      "start_sec": 1416,
+      "speaker": "Lulu Wang",
+      "en": "All this time that we were lying to her to protect her, she had also put on a show to protect us.",
+      "zh": "这么长时间以来，我们为了保护她而拼命演戏撒谎，而她其实也一直在配合着演戏，只为保护我们。"
+    },
+    {
+      "id": 155,
+      "start_sec": 1431,
+      "speaker": "Lulu Wang",
+      "en": "After I left China, I immediately Skyped Nainai from home. \"I love you,\" she said in English, the few words that she knows.",
+      "zh": "离开中国回到家后，我马上就和奶奶打起了 Skype 视频。“我爱你。”她用英语说道——这是她仅会的那几个英文词之一。"
+    },
+    {
+      "id": 156,
+      "start_sec": 1440,
+      "speaker": "Lulu Wang",
+      "en": "I managed to find time to Skype with her every day, just to check in. At first, she seemed to be doing fine and had no symptoms.",
+      "zh": "我每天都会挤出时间和她 Skype 连线，问候一声。起初，她看起来精神不错，也没什么症状。"
+    },
+    {
+      "id": 157,
+      "start_sec": 1448,
+      "speaker": "Lulu Wang",
+      "en": "Then one day, she started to cough, and my heart sank. \"I just have a bit of the flu,\" she said. \"It's nothing.\"",
+      "zh": "直到有一天，她开始咳嗽起来，我的心猛地往下一沉。“就是有点小感冒，”她说，“没什么事。”"
+    },
+    {
+      "id": 158,
+      "start_sec": 1457,
+      "speaker": "Lulu Wang",
+      "en": "When the cough wouldn't go away, she suggested going to the doctor's office to pick up some medicine. Little Nainai panicked and immediately talked her out of it.",
+      "zh": "可咳嗽一直不见好，奶奶便提议去医院开点药。小奶奶一听慌了神，赶紧把她劝住了。"
+    },
+    {
+      "id": 159,
+      "start_sec": 1466,
+      "speaker": "Lulu Wang",
+      "en": "But then, a few days later, Nainai stopped coughing. Three months came and went, and Nainai was still just fine. Everyone was baffled.",
+      "zh": "但没过几天，奶奶居然不咳了。三个月过去，奶奶依然好好的。大伙儿都摸不着头脑。"
+    },
+    {
+      "id": 160,
+      "start_sec": 1475,
+      "speaker": "Lulu Wang",
+      "en": "Eventually, I couldn't keep up with the daily Skype calls, and it dwindled down to once a week, and then once a month.",
+      "zh": "渐渐地，我没法再保持每天和她打 Skype 了，通话频率慢慢降到一周一次，后来又变成一月一次。"
+    },
+    {
+      "id": 161,
+      "start_sec": 1483,
+      "speaker": "Lulu Wang",
+      "en": "A year passed. Nainai said she felt fine, so she just decided to skip her annual checkup that year.",
+      "zh": "一年过去了。奶奶说自己感觉挺好的，干脆就跳过了那年的年度体检。"
+    },
+    {
+      "id": 162,
+      "start_sec": 1491,
+      "speaker": "Lulu Wang",
+      "en": "And another year passed.",
+      "zh": "紧接着，又是一年过去了。"
+    },
+    {
+      "id": 163,
+      "start_sec": 1494,
+      "speaker": "Lulu Wang",
+      "en": "During her 2015 checkup, the same doctor gave the same diagnosis and prognosis.",
+      "zh": "到了2015年体检时，还是那位医生，给出了完全相同的诊断和预后判断。"
+    },
+    {
+      "id": 164,
+      "start_sec": 1500,
+      "speaker": "Lulu Wang",
+      "en": "Stage 4 lung cancer, very serious, no more than three months.",
+      "zh": "肺癌四期，情况非常严重，最多只有三个月了。"
+    },
+    {
+      "id": 165,
+      "start_sec": 1505,
+      "speaker": "Lulu Wang",
+      "en": "This time, Little Nainai didn't even bother to mock up a phony document. She just told Nainai that she had lost the test results, but that everything was the same. Everything was fine.",
+      "zh": "这一次，小奶奶甚至懒得再去伪造一份假报告了。她只跟奶奶说自己把检查结果弄丢了，但各项指标都跟以前一样，一切正常。"
+    },
+    {
+      "id": 166,
+      "start_sec": 1515,
+      "speaker": "Lulu Wang",
+      "en": "It's been three years now since Nainai was first diagnosed. Little Nainai is certain her big sister is still alive because of her decision to lie to her, because we gave Nainai joy instead of worry.",
+      "zh": "从奶奶最初确诊到现在，已经过去三年了。小奶奶坚信，姐姐之所以能活到今天，正是因为她当初决定隐瞒病情，因为我们带给奶奶的是欢喜，而不是忧虑。"
+    },
+    {
+      "id": 167,
+      "start_sec": 1528,
+      "speaker": "Lulu Wang",
+      "en": "My mom told me about an old Chinese belief called chongxi. Chong means to rinse out, and xi is joy, so chongxi is the belief that you can wash away a misfortune with joy.",
+      "zh": "我妈跟我讲过一个中国老传统，叫“冲喜”。“冲”就是冲刷，“喜”就是喜事，所以“冲喜”就是相信可以用喜庆的事把厄运冲走。"
+    },
+    {
+      "id": 168,
+      "start_sec": 1540,
+      "speaker": "Lulu Wang",
+      "en": "Even though this term was never used while planning the wedding, that's essentially what we did.",
+      "zh": "虽然筹备那场婚礼的时候，大家嘴上从来没提过这个词，但我们做的本质上就是这件事。"
+    },
+    {
+      "id": 169,
+      "start_sec": 1545,
+      "speaker": "Lulu Wang",
+      "en": "And by the way, everyone in the family has their own idea of what saved Nainai. Gugu thinks it's partly because of her weekly prayers at the local Taoist temple.",
+      "zh": "顺便一提，家里每个人对于到底是什么救了奶奶，都有自己的一套说法。姑姑觉得，这部分得归功于她每周去当地道观上香祈福。"
+    },
+    {
+      "id": 170,
+      "start_sec": 1556,
+      "speaker": "Lulu Wang",
+      "en": "My uncle credits Nainai's survival to some expensive miracle probiotics he bought her from Japan.",
+      "zh": "我叔叔则把奶奶能活下来，归功于他从日本买回来的某种天价神奇益生菌。"
+    },
+    {
+      "id": 171,
+      "start_sec": 1562,
+      "speaker": "Lulu Wang",
+      "en": "Since Nainai seemed to be doing fine, my parents suggested getting a less expensive brand of probiotics, and Uncle Hai Bin freaked out. \"If we switch it and she dies, then it's on you.\"",
+      "zh": "既然奶奶看起来好好的，我爸妈就提议换个便宜点的牌子，结果 Hai Bin 叔叔当场急眼了：“要是换了牌子她出事了，那全怪你们。”"
+    },
+    {
+      "id": 172,
+      "start_sec": 1575,
+      "speaker": "Lulu Wang",
+      "en": "When this whole thing started, I felt like the only rational person in my family, the lone Westerner defending my grandmother against old-fashioned beliefs.",
+      "zh": "整件事刚开始的时候，我觉得自己是家里唯一清醒理性的人，像个孤军奋战的西方人，拼命保护奶奶免受那些陈旧观念的摆布。"
+    },
+    {
+      "id": 173,
+      "start_sec": 1584,
+      "speaker": "Lulu Wang",
+      "en": "As it turns out, my mom agreed with me. But she and my dad just understand both sides.",
+      "zh": "但事实证明，我妈其实同意我的看法。只不过她和我爸都能理解两边各自的难处。"
+    },
+    {
+      "id": 174,
+      "start_sec": 1591,
+      "speaker": "Lulu Wang",
+      "en": "I'm pretty sure a lot of other Americans would feel the way that I felt, that if somebody's going to die, it's their right to know.",
+      "zh": "我敢肯定，很多其他美国人也会像我这么想：一个人如果快要死了，她有权知道真相。"
+    },
+    {
+      "id": 175,
+      "start_sec": 1599,
+      "speaker": "Lulu's Mom",
+      "en": "Yeah, and but we just think that's not your business. You not live with her, and so...",
+      "zh": "是啊，但我们就觉得，那不是你该管的事。你又不跟她住在一起，所以……"
+    },
+    {
+      "id": 176,
+      "start_sec": 1609,
+      "speaker": "Lulu Wang",
+      "en": "Okay, but do you understand where I was coming from? Do you understand why I was conflicted?",
+      "zh": "好吧，那你明白我为什么会这么想吗？你理解我为什么会那么纠结吗？"
+    },
+    {
+      "id": 177,
+      "start_sec": 1615,
+      "speaker": "Lulu's Mom",
+      "en": "Yeah, I know, but that's China. That's a different world, okay?",
+      "zh": "我知道啊，可那是在中国。那是另一个世界，明白吗？"
+    },
+    {
+      "id": 178,
+      "start_sec": 1621,
+      "speaker": "Lulu's Mom",
+      "en": "People go into funeral, and you have to, you know, hold a pillow around the house three times. And in this country, you don't do that, right? So you not use your culture to, you know, push to them. You know, this make chaos.",
+      "zh": "那边办丧事，你还得抱着枕头绕着屋子走三圈。可在美国这边，人们不这么干，对吧？所以你不能拿你的那套文化去硬往他们头上套，这样只会把事情搞得一团乱。"
+    },
+    {
+      "id": 179,
+      "start_sec": 1643,
+      "speaker": "Lulu Wang",
+      "en": "I wonder now if my mom or dad was diagnosed with something terminal, and I knew and they didn't, would I lie to them? And if it was me, would I want to know?",
+      "zh": "我现在有时会想，如果哪天我爸或我妈查出绝症，我知道而他们不知道，我会瞒着他们吗？如果换成是我自己，我又想不想知道呢？"
+    },
+    {
+      "id": 180,
+      "start_sec": 1655,
+      "speaker": "Lulu Wang",
+      "en": "What my family did was kind, and it worked. Maybe.",
+      "zh": "我家人做的事很善良，而且它确实奏效了。也许吧。"
+    },
+    {
+      "id": 181,
+      "start_sec": 1661,
+      "speaker": "Lulu Wang",
+      "en": "I'm reminded of a joke about a physicist visiting his colleague, Niels Bohr, and expresses surprise at finding a good-luck horseshoe hanging on the wall. \"Surely you're not superstitious?\" \"Oh, no,\" Niels Bohr says. \"But I'm told it works whether you believe in it or not.\"",
+      "zh": "这让我想起一个笑话：有位物理学家去拜访他的同行 Niels Bohr，惊讶地发现墙上挂着一只招财马蹄铁，便问他：“你总不会也信迷信吧？”“哦，当然不信，”Niels Bohr 说，“但人家告诉我，不管你信不信，这玩意儿都灵。”"
+    },
+    {
+      "id": 182,
+      "start_sec": 1678,
+      "speaker": "Lulu Wang",
+      "en": "I know that doesn't seem like a joke, but you know what I'm saying.",
+      "zh": "我知道这听起来不太像个笑话，但你懂我的意思。"
+    },
+    {
+      "id": 183,
+      "start_sec": 1688,
+      "speaker": "Nainai",
+      "en": "Hello, Lulu.",
+      "zh": "喂，露露。"
+    },
+    {
+      "id": 184,
+      "start_sec": 1689,
+      "speaker": "Lulu Wang",
+      "en": "Hello?",
+      "zh": "喂？"
+    },
+    {
+      "id": 185,
+      "start_sec": 1690,
+      "speaker": "Nainai",
+      "en": "Hello.",
+      "zh": "喂。"
+    },
+    {
+      "id": 186,
+      "start_sec": 1690,
+      "speaker": "Lulu Wang",
+      "en": "Hello, Nainai.",
+      "zh": "喂，奶奶。"
+    },
+    {
+      "id": 187,
+      "start_sec": 1691,
+      "speaker": "Nainai",
+      "en": "Hello, Lulu.",
+      "zh": "露露，你好。"
+    },
+    {
+      "id": 188,
+      "start_sec": 1692,
+      "speaker": "Lulu Wang",
+      "en": "Hello, Nainai.",
+      "zh": "奶奶，你好。"
+    },
+    {
+      "id": 189,
+      "start_sec": 1694,
+      "speaker": "Nainai",
+      "en": "Hello, my eldest granddaughter, hello, hello.",
+      "zh": "大孙女，你好，你好，你好。"
+    },
+    {
+      "id": 190,
+      "start_sec": 1696,
+      "speaker": "Lulu Wang",
+      "en": "Hello.",
+      "zh": "你好。"
+    },
+    {
+      "id": 191,
+      "start_sec": 1698,
+      "speaker": "Nainai",
+      "en": "Where are you?",
+      "zh": "你在哪儿呢呀？"
+    },
+    {
+      "id": 192,
+      "start_sec": 1699,
+      "speaker": "Lulu Wang",
+      "en": "I'm in New York.",
+      "zh": "我在纽约呢。"
+    },
+    {
+      "id": 193,
+      "start_sec": 1704,
+      "speaker": "Ira Glass",
+      "en": "Lulu Wang. She's a filmmaker. Her first feature, called Posthumous, comes out this summer.",
+      "zh": "刚刚的讲述者是 Lulu Wang。她是一名电影导演，她的首部剧情长片《Posthumous》将于今年夏天上映。"
+    },
+    {
+      "id": 194,
+      "start_sec": 1709,
+      "speaker": "Ira Glass",
+      "en": "Coming up, the stuff that all of us don't know we don't know, a scientist actually tries to measure it. That's in a minute, from Chicago Public Radio, when our program continues.",
+      "zh": "稍后为您带来：对于那些我们甚至不知道自己不知道的事，有位科学家竟然真的试着去测量它。来自 Chicago Public Radio，节目稍后继续。"
+    },
+    {
+      "id": 195,
+      "start_sec": 1722,
+      "speaker": "Ira Glass",
+      "en": "This American Life. I'm Ira Glass. Today's program, In Defense of Ignorance, stories making the case for not knowing, a case I admit you do not hear very often.",
+      "zh": "这里是 This American Life，我是 Ira Glass。今天这期节目的主题是《为无知辩护》（In Defense of Ignorance），讲述几个替“不知情”说话的故事——我承认，这种观点平时确实不多见。"
+    },
+    {
+      "id": 196,
+      "start_sec": 1734,
+      "speaker": "Ira Glass",
+      "en": "We've arrived at Act Two of our program. Act Two, Ignorance for Dummies.",
+      "zh": "我们来到了本期节目的 Act Two。Act Two：愚者无知。"
+    },
+    {
+      "id": 197,
+      "start_sec": 1740,
+      "speaker": "Ira Glass",
+      "en": "So in the first half of our show, we heard a woman who was kept in ignorance by her family. In this half of the show, we're going to turn to people who are just ignorant.",
+      "zh": "在节目的上半场，我们听了一位被家人蒙在鼓里的老太太的故事。而在下半场，我们要把目光转向那些纯粹“无知”的人。"
+    },
+    {
+      "id": 198,
+      "start_sec": 1749,
+      "speaker": "Ira Glass",
+      "en": "They just don't know stuff, and they don't know what they don't know, which, hello, turns out to be all of us. Sean Cole has details and empirical data.",
+      "zh": "他们就是不懂某些事，而且还不知道自己不懂——好吧，说到底，其实指的就是我们每一个人。Sean Cole 为您带来详细报道和实证数据。"
+    },
+    {
+      "id": 199,
+      "start_sec": 1760,
+      "speaker": "Sean Cole",
+      "en": "There's this story about ignorance that David Dunning really loves. He's a psychology professor, and he's even cited it in his research.",
+      "zh": "心理学教授 David Dunning 特别喜欢一个关于“无知”的故事，他甚至在自己的研究论文里也引用过。"
+    },
+    {
+      "id": 200,
+      "start_sec": 1768,
+      "speaker": "Sean Cole",
+      "en": "It's about a guy named McArthur Wheeler, who in 1995 robbed a couple of banks in Pennsylvania and didn't wear a mask.",
+      "zh": "故事的主人公叫 McArthur Wheeler，1995年他在宾夕法尼亚州抢劫了两家银行，而且连面罩都没戴。"
+    },
+    {
+      "id": 201,
+      "start_sec": 1776,
+      "speaker": "David Dunning",
+      "en": "And he was arrested, and the police basically said, \"Well, we have you on the surveillance tapes.\" And he said, \"No, you don't.\"",
+      "zh": "后来他被抓住了，警察基本上是这么跟他说的：“监控录像里可都拍到你了。”结果他反驳道：“不可能，根本没有。”"
+    },
+    {
+      "id": 202,
+      "start_sec": 1785,
+      "speaker": "David Dunning",
+      "en": "And they showed him the tapes, and he saw his face, and he stared incredulously and said, \"But I wore the juice.\"",
+      "zh": "于是警察把录像放给他看，他看着画面里自己的脸，难以置信地瞪着屏幕说道：“可我抹了汁啊！”"
+    },
+    {
+      "id": 203,
+      "start_sec": 1800,
+      "speaker": "David Dunning",
+      "en": "\"I wore the juice.\"",
+      "zh": "“我明明抹了汁啊！”"
+    },
+    {
+      "id": 204,
+      "start_sec": 1802,
+      "speaker": "Sean Cole",
+      "en": "The juice?",
+      "zh": "什么汁？"
+    },
+    {
+      "id": 205,
+      "start_sec": 1803,
+      "speaker": "David Dunning",
+      "en": "Yes, apparently McArthur Wheeler was under the impression that smearing your face with lemon juice made it fuzzy or invisible to video cameras.",
+      "zh": "是的，McArthur Wheeler 显然以为把柠檬汁涂在脸上，就能让监控摄像头拍不出自己，或者画面变模糊。"
+    },
+    {
+      "id": 206,
+      "start_sec": 1813,
+      "speaker": "David Dunning",
+      "en": "To his credit, he had actually tested this theory. He took a selfie, but I think he misaimed the camera.",
+      "zh": "说起来他还真亲自验证过这个理论，拿相机拍了张自拍——不过我看他是把镜头拿歪了。"
+    },
+    {
+      "id": 207,
+      "start_sec": 1819,
+      "speaker": "Sean Cole",
+      "en": "The thing about McArthur Wheeler wasn't just that he was an idiot. It was that he thought he was doing everything right, which made David Dunning think—",
+      "zh": "McArthur Wheeler 这事儿有意思的地方，不只在于他蠢，更在于他以为自己每一步都做得天衣无缝。这让 David Dunning 不禁开始思考一个问题——"
+    },
+    {
+      "id": 208,
+      "start_sec": 1826,
+      "speaker": "David Dunning",
+      "en": "When people are wrong, or when they're performing poorly, or for lack of a better word, when they're incompetent, do they know they're incompetent?",
+      "zh": "当一个人搞错了、表现很差，或者说得直白点，当一个人压根不胜任的时候，他自己知道自己不行吗？"
+    },
+    {
+      "id": 209,
+      "start_sec": 1834,
+      "speaker": "Sean Cole",
+      "en": "And he had a guess, which was no. They do not know they're incompetent.",
+      "zh": "他心里的答案是：不知道。他们压根不知道自己不行。"
+    },
+    {
+      "id": 210,
+      "start_sec": 1839,
+      "speaker": "David Dunning",
+      "en": "And so we decided to do some experiments and find out.",
+      "zh": "于是我们决定做几个实验来一探究竟。"
+    },
+    {
+      "id": 211,
+      "start_sec": 1843,
+      "speaker": "Sean Cole",
+      "en": "Now, this may not sound like something you can easily test for. It's like trying to measure the height and weight of somebody's insecurity. But Professor Dunning and his grad student partner, Justin Kruger, figured out a way to do it.",
+      "zh": "听起来这事儿好像不太好测试，就像你想去量一个人心里有多自卑一样虚无缥缈。但 Dunning 教授和他的研究生搭档 Justin Kruger 偏偏想出了办法。"
+    },
+    {
+      "id": 212,
+      "start_sec": 1855,
+      "speaker": "Sean Cole",
+      "en": "They got different groups of undergrads together—this was at Cornell University—and gave them one of three quizzes.",
+      "zh": "当时是在康奈尔大学，他们找来不同组别的本科生，让他们分别做三套小测验中的一套。"
+    },
+    {
+      "id": 213,
+      "start_sec": 1861,
+      "speaker": "Sean Cole",
+      "en": "One was on grammar, another on logical reasoning, and another, weirdly, on humor—like, which one of these jokes is the funniest? And they had a panel of comedians rate the jokes ahead of time.",
+      "zh": "一套考语法，一套考逻辑推理，还有一套很奇葩，考幽默感——比如让你挑出哪个笑话最好笑，而这些笑话提前请了一组喜剧演员打过分。"
+    },
+    {
+      "id": 214,
+      "start_sec": 1870,
+      "speaker": "Sean Cole",
+      "en": "And at the end of the quizzes, they asked each student a simple question: How well do you think you did? Or more specifically, in what percentile did you land?",
+      "zh": "测验一结束，他们就问每个学生一个简单的问题：你觉得自己考得怎么样？或者更具体点，你觉得自己的成绩排在哪个百分位？"
+    },
+    {
+      "id": 215,
+      "start_sec": 1880,
+      "speaker": "Sean Cole",
+      "en": "That is, what percentage of the other students taking the test do you think you beat? And then they gathered together all of that data and ran the numbers.",
+      "zh": "也就是说，你觉得自己超过了百分之多少的同场考生？接着他们把所有数据汇总起来，算了算结果。"
+    },
+    {
+      "id": 216,
+      "start_sec": 1888,
+      "speaker": "David Dunning",
+      "en": "And I still remember looking at the first graph to this day. And the big finding is we took a look at the bottom 25% of people in each study.",
+      "zh": "直到今天，我还记得第一眼看到那张图表时的情形。最重大的发现来自每项研究中排名垫底的那 25% 的人。"
+    },
+    {
+      "id": 217,
+      "start_sec": 1898,
+      "speaker": "David Dunning",
+      "en": "These are the people who had done the worst. Their scores are falling in the 11th, the 12th, the 13th percentile.",
+      "zh": "这批人是考得最差的，他们的实际分数只排在第 11、第 12、第 13 百分位。"
+    },
+    {
+      "id": 218,
+      "start_sec": 1906,
+      "speaker": "Sean Cole",
+      "en": "In other words, really low scores.",
+      "zh": "换句话说，就是分数低得离谱。"
+    },
+    {
+      "id": 219,
+      "start_sec": 1908,
+      "speaker": "David Dunning",
+      "en": "But they think they're performing in the 60th, the 65th, the 70th percentile.",
+      "zh": "但他们却自认为能排在第 60、第 65 甚至第 70 百分位。"
+    },
+    {
+      "id": 220,
+      "start_sec": 1914,
+      "speaker": "Sean Cole",
+      "en": "Among the better percentiles.",
+      "zh": "也就是中等偏上的水平。"
+    },
+    {
+      "id": 221,
+      "start_sec": 1916,
+      "speaker": "David Dunning",
+      "en": "That's right. They think that they've beat out a majority of their peers.",
+      "zh": "没错。他们以为自己超过了大多数同伴。"
+    },
+    {
+      "id": 222,
+      "start_sec": 1920,
+      "speaker": "David Dunning",
+      "en": "One way to think about it: if you look at people basically who are about to get D's and F's with the exam they've just handed in, they think they're getting B's, B-pluses with the exam they just handed in.",
+      "zh": "打个比方吧：那些刚交上去的卷子注定只能拿 D 甚至 F 不及格的人，居然还以为自己这份卷子能拿个 B 或者 B+。"
+    },
+    {
+      "id": 223,
+      "start_sec": 1933,
+      "speaker": "Sean Cole",
+      "en": "In short, there seemed to be a direct correlation between incompetence and an overweening sense of self-confidence. It wasn't apparent in every poor-performing student, but it was in the majority of them.",
+      "zh": "简而言之，能力欠缺和极度盲目的自信之间，似乎存在直接关联。虽说不是每个考得差的学生都这样，但大多数确实如此。"
+    },
+    {
+      "id": 224,
+      "start_sec": 1943,
+      "speaker": "Sean Cole",
+      "en": "Most people who did badly thought they did just fine, or even great. They had no idea.",
+      "zh": "绝大多数考砸了的人，都觉得自己发挥得还行，甚至很不错。他们完全蒙在鼓里。"
+    },
+    {
+      "id": 225,
+      "start_sec": 1956,
+      "speaker": "Sean Cole",
+      "en": "Now, anybody who's ever gone to school, worked a job, or known any other people knows this phenomenon. There's that guy or lady who's cocky and yet has no idea what they're doing, and it's infuriating.",
+      "zh": "其实只要上过学、上过班，或者跟人打过交道，谁都见过这种现象：总有那么个男的或女的，狂得要命，可干起活来一窍不通，实在让人火大。"
+    },
+    {
+      "id": 226,
+      "start_sec": 1967,
+      "speaker": "Sean Cole",
+      "en": "But here in Dunning's lab, it wasn't just an annoyance. It was a repeatable finding. They did this experiment four times with four different groups of students, and it happened every time. Bottom performers thought they were at least above average.",
+      "zh": "但在 Dunning 的实验室里，这不只是让人头疼的日常糟心事，而是一个可以反复复现的科学发现。他们换了四批不同的学生，做了四次实验，每次结果都一样：垫底的人都觉得自己至少在平均水平以上。"
+    },
+    {
+      "id": 227,
+      "start_sec": 1981,
+      "speaker": "Sean Cole",
+      "en": "And in 1999, Dunning and Kruger published their findings in a paper called \"Unskilled and Unaware of It.\"",
+      "zh": "1999 年，Dunning 和 Kruger 发表了他们的研究成果，论文标题就叫《无能却不自知》（Unskilled and Unaware of It）。"
+    },
+    {
+      "id": 228,
+      "start_sec": 1987,
+      "speaker": "Sean Cole",
+      "en": "And their conclusion was this: When someone asks, \"So, how do you think you did?\" and you open your mouth to answer, you're drawing on the same skill set to answer that question that you used to answer the questions on the test.",
+      "zh": "他们的结论是这样的：当别人问你“你觉得自己考得怎么样”，你张嘴回答的时候，你用来评估自己表现的那套能力，跟你在考卷上答题用的其实是同一套能力。"
+    },
+    {
+      "id": 229,
+      "start_sec": 2000,
+      "speaker": "David Dunning",
+      "en": "That is, the lack of skill means not only are you going to make a lot of mistakes, but it also means you're not going to be able to catch mistakes, yours or anybody else's.",
+      "zh": "也就是说，缺乏这项技能，不仅意味着你会犯一大堆错误，还意味着你根本看不出错误在哪里——无论是你自己的，还是别人的。"
+    },
+    {
+      "id": 230,
+      "start_sec": 2010,
+      "speaker": "David Dunning",
+      "en": "You're going to think, often, that what you're saying is absolutely reasonable. This is the double curse.",
+      "zh": "你往往会觉得自己说得头头是道、合情合理。这就是所谓的“双重诅咒”。"
+    },
+    {
+      "id": 231,
+      "start_sec": 2017,
+      "speaker": "Sean Cole",
+      "en": "It's not that you're ignorant and also happen to be overconfident. You're ignorant, and it makes you overconfident.",
+      "zh": "不是说你既无知，又恰好过度自信；而是恰恰因为你的无知，才让你盲目自信。"
+    },
+    {
+      "id": 232,
+      "start_sec": 2023,
+      "speaker": "Sean Cole",
+      "en": "On the other hand, students who scored well, who really were in the higher percentiles, they tended to guess that they scored a little worse than they actually did, and for kind of an endearing reason.",
+      "zh": "反过来，那些考得好的学生，也就是真正在高百分位的那批人，反而往往会低估自己的成绩——而且原因还有点可爱。"
+    },
+    {
+      "id": 233,
+      "start_sec": 2034,
+      "speaker": "Sean Cole",
+      "en": "They figured most of the kids around them knew as much as they did. In other words, they weren't mistaken about themselves. They knew themselves pretty well. They simply misjudged other people, thinking, \"Well, they're probably as smart as I am.\"",
+      "zh": "他们以为周围大部分同学都跟自己懂的一样多。换句话说，他们并没有看错自己，他们对自己了解得很清楚，只是错估了别人，心想：“大家大概都跟我一样聪明吧。”"
+    },
+    {
+      "id": 234,
+      "start_sec": 2051,
+      "speaker": "Sean Cole",
+      "en": "Over the years, Dunning and other researchers have run the same experiment in different ways over and over again.",
+      "zh": "这些年来，Dunning 和其他研究者换着花样把这个实验反复做了无数次。"
+    },
+    {
+      "id": 235,
+      "start_sec": 2059,
+      "speaker": "Sean Cole",
+      "en": "And the result was pervasive: competitive debaters who were doing badly didn't know they were doing badly, people at chess tournaments, trap and skeet shooters when they're quizzed on gun safety, medical professionals. Medical professionals.",
+      "zh": "而这个结果几乎无处不在：表现糟糕的竞技辩手不知道自己打得烂，象棋比赛的棋手也是，飞碟射击选手在做枪支安全测验时也是，还有医护人员。没错，医护人员也是这样。"
+    },
+    {
+      "id": 236,
+      "start_sec": 2073,
+      "speaker": "David Dunning",
+      "en": "You'll find for some procedures, for example, that the interns—like catheterization procedures.",
+      "zh": "比如在一些临床操作上，你会发现实习医生们——像是插管操作。"
+    },
+    {
+      "id": 237,
+      "start_sec": 2080,
+      "speaker": "David Dunning",
+      "en": "Exactly. 80% of them think they know this technique so well they can teach it to other people, whereas zero of their instructors agree.",
+      "zh": "对，就是这类操作。其中 80% 的实习医生觉得自己技术过硬到可以去教别人了，但认同这一点的带教老师人数是零。"
+    },
+    {
+      "id": 238,
+      "start_sec": 2089,
+      "speaker": "David Dunning",
+      "en": "In fact, 50% of their instructors say, \"No, this person needs still to be supervised whenever they do this.\"",
+      "zh": "事实上，50% 的带教老师都明确表示：“不行，这人每次做这项操作时，旁边都必须有人盯着。”"
+    },
+    {
+      "id": 239,
+      "start_sec": 2102,
+      "speaker": "Sean Cole",
+      "en": "Oy gevalt!",
+      "zh": "我的天哪！"
+    },
+    {
+      "id": 240,
+      "start_sec": 2103,
+      "speaker": "David Dunning",
+      "en": "Yeah.",
+      "zh": "是啊。"
+    },
+    {
+      "id": 241,
+      "start_sec": 2104,
+      "speaker": "Sean Cole",
+      "en": "And, like all psychological phenomena, this one pretty quickly grew a name. Dunning was insistent that he and Kruger had nothing to do with the coining of that name. The name: the Dunning-Kruger Effect.",
+      "zh": "和所有心理现象一样，这种现象很快就有了名字。Dunning 坚称这个名字跟他和 Kruger 毫无关系。它的名字就叫——达克效应（Dunning-Kruger Effect）。"
+    },
+    {
+      "id": 242,
+      "start_sec": 2115,
+      "speaker": "David Dunning",
+      "en": "If you, for example, go on Twitter and type in Dunning-Kruger, you'll see the effect mentioned several times a day.",
+      "zh": "打个比方，你要是上 Twitter 搜一下“Dunning-Kruger”，每天都能看到这个词被提起好几次。"
+    },
+    {
+      "id": 243,
+      "start_sec": 2122,
+      "speaker": "Sean Cole",
+      "en": "Several times a day?",
+      "zh": "每天好几次？"
+    },
+    {
+      "id": 244,
+      "start_sec": 2123,
+      "speaker": "David Dunning",
+      "en": "Several times a day.",
+      "zh": "每天好几次。"
+    },
+    {
+      "id": 245,
+      "start_sec": 2125,
+      "speaker": "Sean Cole",
+      "en": "Well, I have a computer in front of me, and I'm going to Twitter, and let me just put in Dunning-Kruger.",
+      "zh": "正好我面前就放着一台电脑，我这就打开 Twitter，输入“Dunning-Kruger”搜一下。"
+    },
+    {
+      "id": 246,
+      "start_sec": 2134,
+      "speaker": "Sean Cole",
+      "en": "Oh, here we go. \"Trump is a static display of Dunning-Kruger in effect.\" \"Where did you get your biology PhD, Dunning-Kruger University?\" \"Your clueless rants merely reinforce your ignorance.\"",
+      "zh": "哦，出来了。“Trump 简直就是达克效应的静态标本。”“你的生物学博士是在 Dunning-Kruger 大学拿的吗？”“你那些一窍不通的狂喷，只会进一步坐实你的无知。”"
+    },
+    {
+      "id": 247,
+      "start_sec": 2147,
+      "speaker": "David Dunning",
+      "en": "No, so very happy to get a meme out there in the world, unhappy that so many people use it as an epithet.",
+      "zh": "是啊，能向世界贡献一个流行梗我当然很开心，但看到这么多人拿它当骂人的标签，我就不太高兴了。"
+    },
+    {
+      "id": 248,
+      "start_sec": 2154,
+      "speaker": "Sean Cole",
+      "en": "That it's your name that they're using as an epithet.",
+      "zh": "而且他们拿来当骂人词汇的，还是你的姓氏。"
+    },
+    {
+      "id": 249,
+      "start_sec": 2156,
+      "speaker": "David Dunning",
+      "en": "Exactly.",
+      "zh": "没错。"
+    },
+    {
+      "id": 250,
+      "start_sec": 2157,
+      "speaker": "Sean Cole",
+      "en": "It's just become a scientific way of calling somebody stupid, which I guess we were sorely in need of.",
+      "zh": "它俨然成了“用科学术语骂人蠢”的办法，话说回来，大家大概还真挺急需这么个词的。"
+    },
+    {
+      "id": 251,
+      "start_sec": 2163,
+      "speaker": "David Dunning",
+      "en": "But I think the thing that people in general miss is that we're not talking about the brain of the incompetent, we're talking about the brain of all of us. Because sooner or later, we step into that group. Sooner or later, we become the poor performers.",
+      "zh": "不过我觉得大家普遍忽略了一点：我们讨论的并不是“无能者的大脑”，而是我们每个人的大脑。因为迟早有一天，我们都会踏入那个群体；迟早有一天，我们也会成为表现糟糕的那批人。"
+    },
+    {
+      "id": 252,
+      "start_sec": 2178,
+      "speaker": "David Dunning",
+      "en": "We all have our specific pockets of incompetence, and we know some of them, but there are a lot of them we simply don't know. And once we step into our own incompetence, we don't know we've made the step.",
+      "zh": "我们每个人都有自己不擅长的特定盲区，有些我们心知肚明，但还有很大一部分我们压根不知道。而一旦踏进自己无能的领地，我们根本意识不到自己已经迈出了那一步。"
+    },
+    {
+      "id": 253,
+      "start_sec": 2191,
+      "speaker": "Sean Cole",
+      "en": "This is really the disheartening stoner insight of this research. If you think you're doing well, it means one of two things: either you're doing well, or you're not doing well at all. Try not to think about it too long. Really.",
+      "zh": "这正是这项研究里最让人越想越泄气的烧脑洞察：如果你觉得自己干得不错，这只意味着两种可能——要么你确实干得不错，要么你其实烂透了。千万别深想，真的。"
+    },
+    {
+      "id": 254,
+      "start_sec": 2205,
+      "speaker": "Sean Cole",
+      "en": "David Dunning, who has thought about it more than anyone, says it's made him particularly vigilant about the things he says and does and how he acts, like trying to catch a candid glimpse of yourself in a mirror.",
+      "zh": "在这件事上琢磨得比谁都深的 David Dunning 说，这让他对自己的一言一行和举止格外警觉，就像试着在镜子里冷不防抓拍到自己最真实的瞬间一样。"
+    },
+    {
+      "id": 255,
+      "start_sec": 2218,
+      "speaker": "Sean Cole",
+      "en": "This one time, for instance, he was teaching a class, giving them an exam, and at the end of it, he asked the students the Dunning-Kruger question: how do you think you did?",
+      "zh": "举个例子，有一次他给班里上课并组织了一次考试，考完之后，他问了学生们那个经典的“达克问题”：你们觉得自己考得怎么样？"
+    },
+    {
+      "id": 256,
+      "start_sec": 2227,
+      "speaker": "Sean Cole",
+      "en": "And sure enough, when he looked back at the tests, he noticed this one kid in particular who got one of the lowest grades in the group, and rated himself in the 80th percentile.",
+      "zh": "果不其然，等他回头批阅试卷时，注意到了这么一个学生——他的分数在全班垫底，可他却给自己估了个排在前 20% 的第 80 百分位。"
+    },
+    {
+      "id": 257,
+      "start_sec": 2238,
+      "speaker": "David Dunning",
+      "en": "And I decided, well, I am going to peek at the name because I just have a suspicion I'm going to see this person in my office.",
+      "zh": "当时我就决定，哎，我得偷看一眼这是谁，因为我有种预感，我很快就会在办公室里见到他。"
+    },
+    {
+      "id": 258,
+      "start_sec": 2246,
+      "speaker": "David Dunning",
+      "en": "And indeed, when the test was handed back, he did come into my office, because he did want to offer me a chance, graciously, to admit that the answers that I had designated as correct on the exam were actually wrong.",
+      "zh": "果不其然，试卷发下去之后，他还真来我办公室了——因为他还挺“大度”地想给我一个认错的机会，让我承认我在考卷上设定的标准答案其实是错的。"
+    },
+    {
+      "id": 259,
+      "start_sec": 2261,
+      "speaker": "Sean Cole",
+      "en": "Uh-huh.",
+      "zh": "嗯哼。"
+    },
+    {
+      "id": 260,
+      "start_sec": 2262,
+      "speaker": "David Dunning",
+      "en": "And so he was really trying hard to be gracious. I could see some vibrations of outrage in his body. And part of my brain is going, \"Watch this, analyze this. What's going on? What's psychologically happening?\"",
+      "zh": "他当时真的在极力表现得很有风度，可我能感觉到他整个人气得都在微微发抖。我大脑的一部分在想：“好好看着，分析一下，这是什么情况？他心里正在经历什么？”"
+    },
+    {
+      "id": 261,
+      "start_sec": 2277,
+      "speaker": "David Dunning",
+      "en": "Then I've got another part of my brain kind of going, \"Are you sure it's not you? Are you sure it's not you?\" Because I think it would be embarrassing for a person who has proposed the Dunning-Kruger framework to actually publicly display Dunning-Kruger.",
+      "zh": "与此同时，我大脑的另一部分却在隐隐发问：“你确定不是你错了？你确定不是你错了？”毕竟，一个提出达克效应理论框架的人，要是当众上演一回达克效应，那可就太丢人了。"
+    },
+    {
+      "id": 262,
+      "start_sec": 2293,
+      "speaker": "David Dunning",
+      "en": "But the sad, sad truth is what I'd dearly love would be to be able to see me in this circumstance, to be aware of, \"Okay, I am having a Dunning-Kruger moment.\"",
+      "zh": "但最扎心的真相在于，我做梦都想在这种时候看清自己，能清醒地意识到：“好吧，我现在正处于‘达克时刻’。”"
+    },
+    {
+      "id": 263,
+      "start_sec": 2304,
+      "speaker": "Sean Cole",
+      "en": "Uh-huh.",
+      "zh": "嗯哼。"
+    },
+    {
+      "id": 264,
+      "start_sec": 2305,
+      "speaker": "David Dunning",
+      "en": "But according to my own theory, I'll never have it.",
+      "zh": "可按照我自己的理论，我永远不可能拥有这种自知之明。"
+    },
+    {
+      "id": 265,
+      "start_sec": 2308,
+      "speaker": "Sean Cole",
+      "en": "That's because other people can see when we're doing the Dunning-Kruger dance, but we can't. Which makes you think, why doesn't anybody say anything?",
+      "zh": "那是因为别人都看得出来我们在那儿“跳达克之舞”，唯独我们自己看不见。这不由得让人想问：为什么就没人开口提醒一句呢？"
+    },
+    {
+      "id": 266,
+      "start_sec": 2317,
+      "speaker": "Sean Cole",
+      "en": "When it's little stuff—your fly is down, you have stuff on your face—your real friends, and even some strangers, will tell you.",
+      "zh": "要是些鸡毛蒜皮的小事——比如裤链没拉、脸上沾了东西——你的真朋友，甚至连有些陌生人都会告诉你。"
+    },
+    {
+      "id": 267,
+      "start_sec": 2325,
+      "speaker": "Sean Cole",
+      "en": "But somehow, when you're blowing a huge word balloon full of wrongness, that's when the rest of us decide to be polite, to go along. Because to correct that weirdly confident, know-nothing jerk in the office just seems mean, like it's not our place.",
+      "zh": "可不知怎的，当你嘴里正吹出一个装满谬论的巨大气泡时，旁人反而纷纷选择保持礼貌、顺水推舟。因为去纠正办公室里那个莫名自信又一窍不通的家伙，总让人觉得太刻薄，好像轮不到自己多嘴。"
+    },
+    {
+      "id": 268,
+      "start_sec": 2341,
+      "speaker": "Sean Cole",
+      "en": "But maybe it's meaner not to correct him.",
+      "zh": "但或许，不纠正他才更残忍。"
+    },
+    {
+      "id": 269,
+      "start_sec": 2344,
+      "speaker": "David Dunning",
+      "en": "The real sadness, for me, is that often, people are going to suffer for their mistakes, but they're never going to know it.",
+      "zh": "在我看来，真正让人难过的是，人们常常会为自己的错误付出代价，却永远蒙在鼓里。"
+    },
+    {
+      "id": 270,
+      "start_sec": 2351,
+      "speaker": "David Dunning",
+      "en": "Because if a person is a jerk in the office, what happens is all the parties they aren't invited to, all the wonderful social interactions, they just don't get to experience. And it's likely that they don't notice the absence of this.",
+      "zh": "因为如果一个人在办公室里总是这么讨人嫌，结果就是所有的派对都没人邀请他，所有美好的社交互动他都无缘体验，而且他很可能压根注意不到自己错过了这些。"
+    },
+    {
+      "id": 271,
+      "start_sec": 2367,
+      "speaker": "David Dunning",
+      "en": "So you don't know you're incompetent, you can't figure it out on your own, and the world is treating you by being silent. Well, how do you improve yourself under those conditions?",
+      "zh": "所以你不知道自己不行，靠自己也琢磨不出来，而整个世界对你报以沉默。试问在这样的处境下，你还能怎么提升自己呢？"
+    },
+    {
+      "id": 272,
+      "start_sec": 2386,
+      "speaker": "Sean Cole",
+      "en": "I should say that Dunning and Kruger's research has been criticized over the years. Other researchers have tried to punch holes in their conclusion, even going so far as to publish papers with alternative statistical explanations for Dunning and Kruger's findings.",
+      "zh": "我得补充一句，多年来 Dunning 和 Kruger 的研究也遭受过不少批评。其他研究者一直试图戳破他们的结论，甚至专门发表论文，对 Dunning 和 Kruger 的发现给出了另一套统计学解释。"
+    },
+    {
+      "id": 273,
+      "start_sec": 2400,
+      "speaker": "Sean Cole",
+      "en": "And Dunning says he and his partner have responded to those critics, in print, and may have convinced some, but certainly not all of them, which he actually takes to be a plus.",
+      "zh": "Dunning 说，他和搭档已经公开发文回应了这些质疑，或许说服了一部分人，但肯定没能说服所有人——而在他看来，这反倒算是件好事。"
+    },
+    {
+      "id": 274,
+      "start_sec": 2411,
+      "speaker": "Sean Cole",
+      "en": "Because the critics they haven't convinced are really confident in their opinions. And Dunning and Kruger are really confident in theirs. So one or the other is dead wrong and just doesn't know it.",
+      "zh": "因为那些没被说服的批评者对自己的观点自信满满，Dunning 和 Kruger 也对自己的理论笃信不疑。所以两边总有一方错得离谱，只是自己压根儿不知道罢了。"
+    },
+    {
+      "id": 275,
+      "start_sec": 2435,
+      "speaker": "Ira Glass",
+      "en": "Sean Cole is one of the producers of our show.",
+      "zh": "Sean Cole 是我们节目的制作人之一。"
+    },
+    {
+      "id": 276,
+      "start_sec": 2441,
+      "speaker": "Ira Glass",
+      "en": "Act Three: Forget Me? Not! Our program today is about ignorance. And of course, a huge part of all of our ignorance is the stuff that we used to know that we've all forgotten.",
+      "zh": "Act Three：忘了我？偏不！我们今天的节目主题是“无知”。当然了，在我们的种种无知中，很大一部分其实是我们曾经知道、后来却通通忘掉的东西。"
+    },
+    {
+      "id": 277,
+      "start_sec": 2455,
+      "speaker": "Ira Glass",
+      "en": "All our lives, there's a huge undertow of forgetting that sucks old classmates' names into the abyss, the French that we studied that we never used, and the plots and casts of favorite movies we used to love. Most of us, of course, see this as a curse, according to Stephanie Foo.",
+      "zh": "终其一生，都有一股巨大的遗忘暗流，把老同学的名字、学了却没用过的法语，还有曾经挚爱电影的剧情和演员表，统统卷进深渊。按照 Stephanie Foo 的说法，我们大多数人自然都把这当成一种诅咒。"
+    },
+    {
+      "id": 278,
+      "start_sec": 2473,
+      "speaker": "Stephanie Foo",
+      "en": "I have several large, unwieldy boxes stacked in corners of my apartment. I almost never open them. But I've schlepped these boxes through the 12 tiny apartments I've lived in in the past decade.",
+      "zh": "我公寓的角落里堆着好几个又大又笨重的箱子。我几乎从不打开它们，但过去十年里，我住过12间巴掌大的公寓，每次搬家我都死活拖着这些箱子。"
+    },
+    {
+      "id": 279,
+      "start_sec": 2484,
+      "speaker": "Stephanie Foo",
+      "en": "They're full of notebooks, external hard drives, thousands of sheets of paper, photographs, VHS tapes, full of all my memories, starting with journals I wrote when I was five years old.",
+      "zh": "里面塞满了笔记本、移动硬盘、几千张纸、照片和 VHS 录像带——装着我所有的回忆，最早可以追溯到我五岁时写的日记。"
+    },
+    {
+      "id": 280,
+      "start_sec": 2495,
+      "speaker": "Stephanie Foo",
+      "en": "The idea that there are whole weeks, even months, of my life that have just disappeared into the abyss of forgetfulness is horrifying to me. If I can't take these memories with me through the rest of my life, then what's the point of even living them in the first place?",
+      "zh": "一想到我生命中有整整几周、甚至几个月的时间，就这样消失在遗忘的深渊里，我就觉得毛骨悚然。如果我没法带着这些记忆走完余生，那当初经历这些又有什么意义呢？"
+    },
+    {
+      "id": 281,
+      "start_sec": 2510,
+      "speaker": "Stephanie Foo",
+      "en": "To hold onto the past, a couple times a month, I'll sit at my kitchen table, alone in my apartment, and I'll just start recording these long soliloquies about whatever. Here's one actual recording from February 24, 2014, 11 PM.",
+      "zh": "为了留住过去，我每个月都会有那么一两次，独自坐在公寓的餐桌旁，打开录音机，对着空气漫无边际地录上一长段独白。下面这段真实录音，就录于2014年2月24日晚上11点。"
+    },
+    {
+      "id": 282,
+      "start_sec": 2522,
+      "speaker": "Stephanie Foo",
+      "en": "A six-pack of Corona and Pacifico was $11, which I thought was super atrocious. And so I tried to buy, like, whatever, like a four-pack of cans of Corona—cans—and he was like, oh, that's $9. And I was like, well, I might as well just buy the six-packs.",
+      "zh": "一打六瓶装的 Corona 和 Pacifico 啤酒居然要11美元，我觉得简直贵得离谱。于是我就想买个四罐装的 Corona——罐装的，结果店员说“那个9美元”。我当时就想，那我还不如直接买六瓶装的算了。"
+    },
+    {
+      "id": 283,
+      "start_sec": 2534,
+      "speaker": "Stephanie Foo",
+      "en": "Because I'm sure in the year 2030, that memory is going to be helpful. So all this to say that my obsession with my ever-fleeting memories is what made me really excited when I heard about this condition called HSAM. It stands for Highly Superior Autobiographical Memory.",
+      "zh": "毕竟到了2030年，这段记忆肯定派得上大用场嘛。说了这么多，无非是想表明我对稍纵即逝的记忆有多执着——所以当我听说有一种叫 HSAM 的特殊现象时，才会那么兴奋。它代表“超常自传体记忆”。"
+    },
+    {
+      "id": 284,
+      "start_sec": 2552,
+      "speaker": "Stephanie Foo",
+      "en": "June 10, 2006—tell me, what was the weather like and what day was that?",
+      "zh": "2006年6月10日——告诉我，那天天气怎么样？是星期几？"
+    },
+    {
+      "id": 285,
+      "start_sec": 2558,
+      "speaker": "Joey Degrandis",
+      "en": "So June 10, 2006 was a Saturday. And I remember it was a nice, sunny day because I was outside for a graduation party. I was actually deejaying the party. That was one of my part-time jobs in college.",
+      "zh": "2006年6月10日是个星期六。我记得那天天气特别好，大晴天，因为我当时在户外参加一个毕业派对。其实我当时在那个派对上当 DJ，那是我大学时的兼职之一。"
+    },
+    {
+      "id": 286,
+      "start_sec": 2571,
+      "speaker": "Stephanie Foo",
+      "en": "Joey DeGrandis is one of only about 60 people in the world who have been officially found to have HSAM. And by the way, I checked—it was a Saturday, and in Chagrin Falls, Ohio, sunny.",
+      "zh": "全世界正式确诊拥有 HSAM 的人大约只有60个，Joey DeGrandis 就是其中之一。顺便说一句，我查证过了——那天确实是星期六，而且在俄亥俄州的沙格林福尔斯，那天确实是个晴天。"
+    },
+    {
+      "id": 287,
+      "start_sec": 2582,
+      "speaker": "Stephanie Foo",
+      "en": "Joey remembers very specific details from every single day of the last 25 years of his life. I'm sitting across the table from him when I ask him these random questions. He wasn't prepped on any of them. He's not using his phone to look anything up.",
+      "zh": "Joey 记得过去25年里每一天的具体细节。我就坐在他桌子对面，随口抛出这些随机问题。他事先完全没准备，也没有用手机去查任何资料。"
+    },
+    {
+      "id": 288,
+      "start_sec": 2595,
+      "speaker": "Stephanie Foo",
+      "en": "When were the Oscars in 1999?",
+      "zh": "1999年的奥斯卡颁奖典礼是什么时候？"
+    },
+    {
+      "id": 289,
+      "start_sec": 2598,
+      "speaker": "Joey Degrandis",
+      "en": "The Oscars in '99 were on Sunday, March 21st.",
+      "zh": "1999年的奥斯卡是在3月21日，星期天。"
+    },
+    {
+      "id": 290,
+      "start_sec": 2601,
+      "speaker": "Stephanie Foo",
+      "en": "Oh, my God!",
+      "zh": "我的天哪！"
+    },
+    {
+      "id": 291,
+      "start_sec": 2602,
+      "speaker": "Joey Degrandis",
+      "en": "For a little bonus, I think Whoopi Goldberg hosted it that year. I think.",
+      "zh": "再附送一个彩蛋，我记得那年的主持人好像是 Whoopi Goldberg 吧。应该是。"
+    },
+    {
+      "id": 292,
+      "start_sec": 2607,
+      "speaker": "Stephanie Foo",
+      "en": "Okay. Which episode is the one where Rachel quits?",
+      "zh": "好吧，那《老友记》里 Rachel 辞职的是哪一集？"
+    },
+    {
+      "id": 293,
+      "start_sec": 2612,
+      "speaker": "Joey Degrandis",
+      "en": "Okay. I like the first few seasons of Friends more than the others. So I think that that was season 3. I want to say December 12, '96.",
+      "zh": "嗯，《老友记》里我最喜欢前几季。所以我想那应该是第3季。我记得播出时间是1996年12月12日。"
+    },
+    {
+      "id": 294,
+      "start_sec": 2623,
+      "speaker": "Stephanie Foo",
+      "en": "Oh, my God! Yes! That's amazing!",
+      "zh": "天哪！答对了！这也太神奇了！"
+    },
+    {
+      "id": 295,
+      "start_sec": 2628,
+      "speaker": "Stephanie Foo",
+      "en": "People with HSAM don't remember everything in their lives, and their memories can be flawed and biased, just like everyone else's. But they remember a whole hell of a lot more than we do, and are particularly good at remembering things they care about.",
+      "zh": "拥有 HSAM 的人并不是能记住生命中的每一件事，他们的记忆也和普通人一样，可能会有疏漏和偏差。但他们记住的东西比我们要多得多，而且尤其擅长记住自己在意的事。"
+    },
+    {
+      "id": 296,
+      "start_sec": 2641,
+      "speaker": "Stephanie Foo",
+      "en": "People with HSAM who love sports have an encyclopedic knowledge of scores. Joey's really good with TV shows. And he tells me it's kind of like all the memories are available at any given time for him to sort of scroll through.",
+      "zh": "热爱体育的 HSAM 患者对比赛比分简直如数家珍。Joey 则对电视剧特别拿手。他告诉我，对他来说，所有记忆就像随时待命一样，他可以像滑手机一样翻阅浏览。"
+    },
+    {
+      "id": 297,
+      "start_sec": 2655,
+      "speaker": "Joey Degrandis",
+      "en": "For the show Mad Men, Don is pitching, I think, Kodak. And, you know, he's talking about the projector, how it's sort of a carousel of memory. And it's not spot on how I remember things, but it's pretty damn close.",
+      "zh": "在美剧《广告狂人》里，Don 有一次好像是在给柯达做提案。他讲到那台幻灯机，说它就像一个记忆的旋转木马。虽然和我脑海里回放记忆的方式不完全一样，但也八九不离十了。"
+    },
+    {
+      "id": 298,
+      "start_sec": 2669,
+      "speaker": "Stephanie Foo",
+      "en": "A carousel of memory?",
+      "zh": "记忆的旋转木马？"
+    },
+    {
+      "id": 299,
+      "start_sec": 2671,
+      "speaker": "Joey Degrandis",
+      "en": "Yeah. And I think that the words—I'm trying to recall exactly the voiceover for this teaser, but it was something like, you know, there's a rare occasion when the public can be engaged.",
+      "zh": "对。我还记得那段话——我在努力回想那段宣传片的原声旁白，大概是说，在极少数情况下，公众可以被一种更深层的东西打动。"
+    },
+    {
+      "id": 300,
+      "start_sec": 2683,
+      "speaker": "Stephanie Foo",
+      "en": "Hold on. Here's that scene.",
+      "zh": "等一下，我们来看看那段原片。"
+    },
+    {
+      "id": 301,
+      "start_sec": 2687,
+      "speaker": "Don Draper",
+      "en": "There's the rare occasion when the public can be engaged on a level beyond flash.",
+      "zh": "在极少数情况下，公众能被一种超越浮华表象的深层力量所打动。"
+    },
+    {
+      "id": 302,
+      "start_sec": 2696,
+      "speaker": "Joey Degrandis",
+      "en": "It's nostalgia.",
+      "zh": "那就是怀旧。"
+    },
+    {
+      "id": 303,
+      "start_sec": 2700,
+      "speaker": "Don Draper",
+      "en": "Nostalgia.",
+      "zh": "怀旧。"
+    },
+    {
+      "id": 304,
+      "start_sec": 2701,
+      "speaker": "Joey Degrandis",
+      "en": "Delicate but potent, you know? It takes us to a place where we long to go again.",
+      "zh": "微妙却又充满力量，懂吧？它会把我们带回那个渴望重游的地方。"
+    },
+    {
+      "id": 305,
+      "start_sec": 2704,
+      "speaker": "Don Draper",
+      "en": "It takes us to a place where we ache to go again.",
+      "zh": "它会把我们带回那个令人魂牵梦萦、渴望重返的地方。"
+    },
+    {
+      "id": 306,
+      "start_sec": 2711,
+      "speaker": "Joey Degrandis",
+      "en": "You know, and that's exactly how I feel when I think about my memories.",
+      "zh": "说真的，每当我想起自己的记忆时，正是这种感觉。"
+    },
+    {
+      "id": 307,
+      "start_sec": 2715,
+      "speaker": "Stephanie Foo",
+      "en": "You want to be there?",
+      "zh": "你想回到那里去吗？"
+    },
+    {
+      "id": 308,
+      "start_sec": 2716,
+      "speaker": "Joey Degrandis",
+      "en": "Sometimes I am there, whether or not I choose to.",
+      "zh": "有时候根本由不得我选择，人就已经身在其中了。"
+    },
+    {
+      "id": 309,
+      "start_sec": 2720,
+      "speaker": "Stephanie Foo",
+      "en": "You know how Facebook gives you notifications about what you posted a year ago today? Joey Degrandis plays that game in his head all the time.",
+      "zh": "你知道 Facebook 会给你推送“一年前的今天你发了什么”的提醒吗？Joey Degrandis 的脑子里就天天在上演这一出。"
+    },
+    {
+      "id": 310,
+      "start_sec": 2728,
+      "speaker": "Stephanie Foo",
+      "en": "He texts friends on a regular basis saying, \"Hey, you moved to New York three years ago today,\" or, \"Hey, six months ago today, we went karaokeing in that little basement bar.\"",
+      "zh": "他经常给朋友发短信说：“嘿，三年前的今天你搬来了纽约”，或者“嘿，六个月前的今天，咱们在那家地下室小酒吧唱卡拉 OK 来着”。"
+    },
+    {
+      "id": 311,
+      "start_sec": 2737,
+      "speaker": "Stephanie Foo",
+      "en": "His friends tell me they enjoy the updates. It's like having your own personal biographer of your friendship.",
+      "zh": "他的朋友们告诉我，他们很喜欢这些提醒。感觉就像你们的友谊拥有了一位专属的私人传记作者。"
+    },
+    {
+      "id": 312,
+      "start_sec": 2744,
+      "speaker": "Stephanie Foo",
+      "en": "But having HSAM is like constantly scrolling through your Facebook wall, 24/7. And just like any sort of late-night scrolling, it keeps him up at night. When Joey lies down, he just starts remembering too much.",
+      "zh": "但拥有 HSAM 就像是全年无休、一天 24 小时不停地在刷自己的 Facebook 动态墙。而且就像所有深夜刷手机一样，这让他整宿睡不着觉。Joey 一躺下，脑海里就会涌现出太多太多的回忆。"
+    },
+    {
+      "id": 313,
+      "start_sec": 2756,
+      "speaker": "Stephanie Foo",
+      "en": "Lately, he thinks over and over about a guy he dated, which seems normal, except their whole relationship only lasted for a couple of months, and it ended two years ago. But Joey can't help but go through their whole relationship in incredibly minute detail on a regular basis.",
+      "zh": "最近，他总是反复想起曾经约会过的一个男生，这听起来好像挺正常的——只不过他俩一共才谈了几个月，而且两年前就分手了。可 Joey 还是忍不住隔三差五地把这段感情的每个微小细节都从头到尾细细回放一遍。"
+    },
+    {
+      "id": 314,
+      "start_sec": 2772,
+      "speaker": "Joey Degrandis",
+      "en": "March 19, 2014. You know, we went to Max Brenner in Union Square and had like sundaes and chocolate and, oh, it was so fun and romantic! You know, like, that was—",
+      "zh": "2014 年 3 月 19 日。我们去了联合广场的 Max Brenner，吃了圣代和巧克力，天哪，那天真是太开心、太浪漫了！就是那种——"
+    },
+    {
+      "id": 315,
+      "start_sec": 2781,
+      "speaker": "Joey Degrandis",
+      "en": "March 20, and he's like, \"Oh, my God, Joey, you're like the funniest person I know.\" And, of course, my heart grew three sizes.",
+      "zh": "3 月 20 日，他跟我说：“天哪，Joey，你简直是我认识最有趣的人。”不用说，我的心瞬间甜得都要化了。"
+    },
+    {
+      "id": 316,
+      "start_sec": 2787,
+      "speaker": "Stephanie Foo",
+      "en": "Oh, my God.",
+      "zh": "天哪。"
+    },
+    {
+      "id": 317,
+      "start_sec": 2788,
+      "speaker": "Joey Degrandis",
+      "en": "Because I'm like, oh, this must be it! The next day, he texted me a picture of his cat, and it was—",
+      "zh": "因为我当时就想，哦，就是他了！第二天，他给我发了张他家猫咪的照片，然后到了——"
+    },
+    {
+      "id": 318,
+      "start_sec": 2794,
+      "speaker": "Joey Degrandis",
+      "en": "March 29, so that next week was the first time that we had a sexual encounter. And that was really exciting for me because, again, this was just like more confirmation of the fact that maybe this is something, you know, maybe this is—",
+      "zh": "3 月 29 日，也就是紧接着的下一周，我们第一次发生了亲密关系。这让我特别兴奋，因为这又一次印证了我的感觉——也许我们之间真的有戏，也许这就是……"
+    },
+    {
+      "id": 319,
+      "start_sec": 2806,
+      "speaker": "Joey Degrandis",
+      "en": "April 19, which was Easter weekend, 2014, everything just kind of went downhill. And so then it all fell apart, you know?",
+      "zh": "4 月 19 日，那是 2014 年的复活节周末，一切就开始急转直下。然后，整段感情就这么彻底泡汤了，你懂的。"
+    },
+    {
+      "id": 320,
+      "start_sec": 2815,
+      "speaker": "Stephanie Foo",
+      "en": "That's the problem. How do you get over someone when you can't forget them?",
+      "zh": "问题就在这儿。当你根本忘不掉一个人的时候，你要怎么走出失恋的阴影呢？"
+    },
+    {
+      "id": 321,
+      "start_sec": 2827,
+      "speaker": "Jill Price",
+      "en": "Well, the way I explain it is, you know how you've got your baggage? I got a steamer trunk.",
+      "zh": "嗯，按我的说法就是，你知道一般人都有自己的“情感包袱”吧？我背的可是个巨型大衣箱。"
+    },
+    {
+      "id": 322,
+      "start_sec": 2834,
+      "speaker": "Stephanie Foo",
+      "en": "Jill Price also has HSAM. She just turned 50 and says she's got 50 years of stuff, and the steamer trunk is humongous. Or, shifting metaphors a little—",
+      "zh": "Jill Price 也患有 HSAM。她刚满 50 岁，她说自己攒了整整 50 年的往事，那个大衣箱已经沉重得不像话了。或者，换个比喻来说——"
+    },
+    {
+      "id": 323,
+      "start_sec": 2843,
+      "speaker": "Jill Price",
+      "en": "So if you were, you know, you have like every day is like a bag of garbage, and then you go to sleep and you wake up the next day, and it's a fresh day, and you can throw that garbage bag out from the day before.",
+      "zh": "打个比方，普通人的每一天就像一袋垃圾，你晚上睡一觉，第二天醒来又是崭新的一天，就能把前一天的垃圾袋随手扔掉。"
+    },
+    {
+      "id": 324,
+      "start_sec": 2854,
+      "speaker": "Jill Price",
+      "en": "I don't have that. I got massive amounts of just piled-up garbage bags everywhere.",
+      "zh": "我没有这种待遇。我这儿到处都堆满了成山成海的垃圾袋。"
+    },
+    {
+      "id": 325,
+      "start_sec": 2860,
+      "speaker": "Stephanie Foo",
+      "en": "Jill is in LA, and she's worked as a script supervisor. On set, her HSAM was really useful because her job was to make sure that continuity was preserved throughout the film, that someone's hair looks the same from shot to shot, that a table is set in exactly the same way.",
+      "zh": "Jill 住在洛杉矶，曾担任过剧组场记。在片场，她的 HSAM 派上了大用场，因为她的工作就是确保整部电影前后连贯不穿帮——保证演员的发型在每个镜头里都分毫不差，桌上的摆设也必须一模一样。"
+    },
+    {
+      "id": 326,
+      "start_sec": 2875,
+      "speaker": "Stephanie Foo",
+      "en": "And of course, Jill remembered how that table looked, even if the last shot happened weeks ago. I called her up because I wanted to find out if resentment about the past is a side effect of HSAM for anyone other than Joey. Short answer: yes.",
+      "zh": "当然，就算上一个镜头是几周前拍的，Jill 也清楚地记得那张桌子原本是什么样子。我给她打电话，是想知道除了 Joey 之外，对往事耿耿于怀是不是也是其他 HSAM 患者的通病。简而言之：是的。"
+    },
+    {
+      "id": 327,
+      "start_sec": 2889,
+      "speaker": "Jill Price",
+      "en": "Like, I'm still pissed about stuff from when I was five. And that's ridiculous.",
+      "zh": "比如，我现在还对五岁时发生的事火冒三丈呢。这简直太荒唐了。"
+    },
+    {
+      "id": 328,
+      "start_sec": 2895,
+      "speaker": "Stephanie Foo",
+      "en": "Jill says she can forgive, but she can never forget. But maybe not being able to forget sort of hinders her ability to forgive as well as the rest of us. Like, she told me she's still angry about this thing that happened in her first year at college, three decades ago.",
+      "zh": "Jill 说她能原谅，但永远忘不掉。可或许正是这份“无法遗忘”，让她在某种程度上无法像我们其他人那样真正释怀。比如，她告诉我，她至今还在为三十年前大一时发生的一件事生闷气。"
+    },
+    {
+      "id": 329,
+      "start_sec": 2910,
+      "speaker": "Stephanie Foo",
+      "en": "Jill had this calendar that she'd used as a diary, writing down details about each of her days in cramped handwriting, so minuscule it's barely legible.",
+      "zh": "那时候 Jill 有本日历，她把它当成日记本用，用密密麻麻、小得几乎看不清的字迹记下每一天的各种细节。"
+    },
+    {
+      "id": 330,
+      "start_sec": 2919,
+      "speaker": "Jill Price",
+      "en": "Like, written all over. I mean, everything was on there. 1983 was like a really important year. Everything was on there, everything you can imagine. Could be the weather, could be, I mean—",
+      "zh": "就是写得满满当当的。我的意思是，上面什么都记。1983 年真是非常重要的一年。上面记了所有事，你能想到的全都有。可能是天气，也可能是，我是说——"
+    },
+    {
+      "id": 331,
+      "start_sec": 2929,
+      "speaker": "Stephanie Foo",
+      "en": "Like what do you mean? Like snacks? Like who you talked to? Like, what is everything?",
+      "zh": "你说的“什么都记”是什么意思？比如吃了什么零食？跟谁聊过天？到底都记些什么呀？"
+    },
+    {
+      "id": 332,
+      "start_sec": 2934,
+      "speaker": "Jill Price",
+      "en": "Everything! Yes, everything.",
+      "zh": "所有事！对，就是事无巨细，全都有。"
+    },
+    {
+      "id": 333,
+      "start_sec": 2937,
+      "speaker": "Stephanie Foo",
+      "en": "Jill left the calendar at her mom's house for a few months while she went back to school, and the next time she came back, the calendar was gone.",
+      "zh": "Jill 回学校上课那几个月，把这本日历留在了妈妈家里，等她下次再回来时，日历却不见了。"
+    },
+    {
+      "id": 334,
+      "start_sec": 2945,
+      "speaker": "Jill Price",
+      "en": "I can't find the calendar. I'm looking everywhere. So I hysterically go running through the house, trying to get my parents to understand what just happened, how important this was. Like, where's my journal? And they're like, well, we don't know.",
+      "zh": "我找不到那本日历了。我满屋子翻了个底朝天。我就歇斯底里地在家里跑来跑去，拼命想让爸妈明白到底出了什么事、这本日历有多重要。我问他们：“我的日记去哪儿了？”结果他们就回了一句：“嗯，我们不知道啊。”"
+    },
+    {
+      "id": 335,
+      "start_sec": 2959,
+      "speaker": "Jill Price",
+      "en": "And I remember they had somebody at the house they were talking to, so it was like I was interrupting some sort of a business meeting. But I was also freaking out, and I didn't really care.",
+      "zh": "而且我记得当时家里还来了客人，他们正在谈事情，所以我冲进去就像打断了什么商务会谈似的。可我当时整个人都要崩溃了，也顾不了那么多了。"
+    },
+    {
+      "id": 336,
+      "start_sec": 2969,
+      "speaker": "Jill Price",
+      "en": "And even to this day, just recently, I said to my mom, you know, I brought that up. I said, \"And you did not, you really had no idea.\"",
+      "zh": "甚至直到今天，就在最近，我还跟我妈提起过这件事。我说：“你们当时根本就、你们真的完全没意识到这有多重要。”"
+    },
+    {
+      "id": 337,
+      "start_sec": 2981,
+      "speaker": "Jill Price",
+      "en": "She thought I was rehashing things, you know, like, \"Why can't you just get—\"",
+      "zh": "她却觉得我是在翻旧账，就那种态度，好像在说：“你为什么就不能——”"
+    },
+    {
+      "id": 338,
+      "start_sec": 3000,
+      "speaker": "Jill Price",
+      "en": "over what happened when you were five. What, what is this, you know? So she couldn't understand why I was bothered or so upset about things that happened decades ago, where to me it was like yesterday.",
+      "zh": "放下五岁时发生的事呢，这到底算怎么回事。所以她根本理解不了，我干嘛还为几十年前的事耿耿于怀、那么难受，可在我这儿，那就像昨天才发生的一样。"
+    },
+    {
+      "id": 339,
+      "start_sec": 3026,
+      "speaker": "Stephanie Foo",
+      "en": "Why—why is it like super tragic that you don't have that calendar now?",
+      "zh": "为什么……你现在没有那本日历了，怎么听起来像天塌了一样严重？"
+    },
+    {
+      "id": 340,
+      "start_sec": 3033,
+      "speaker": "Jill Price",
+      "en": "Well, I do have it because I then went back a couple years later and I rewrote the whole thing.",
+      "zh": "其实我现在又有了，因为过了几年之后，我回头把整本日历全都重写了一遍。"
+    },
+    {
+      "id": 341,
+      "start_sec": 3038,
+      "speaker": "Jill Price",
+      "en": "I mean, I couldn't write every single thing, but I tried to go back and redo the entire calendar. That was how important it was to me. Yeah.",
+      "zh": "当然我没法把每一件小事都写上，但我努力去回想，把整本日历重新补了出来。它对我就是这么重要，没错。"
+    },
+    {
+      "id": 342,
+      "start_sec": 3047,
+      "speaker": "Stephanie Foo",
+      "en": "And if it's all in your head, it's saved in there anyway, then why bother writing it down?",
+      "zh": "既然这些事全都在你脑子里，反正都存好了，那干嘛还要费劲写下来呢？"
+    },
+    {
+      "id": 343,
+      "start_sec": 3052,
+      "speaker": "Jill Price",
+      "en": "Because if I didn't write it down, I would have like 50 years of stuff just constantly swirling, and writing it down just sort of relaxes it.",
+      "zh": "因为要是不写下来，我脑子里就会有大概五十年的事情一直在那儿翻腾打转，写下来多少能让人松一口气。"
+    },
+    {
+      "id": 344,
+      "start_sec": 3060,
+      "speaker": "Jill Price",
+      "en": "And it makes it so that, you know, it's there, it's happened, and it's put away. Does that make sense?",
+      "zh": "这样就会觉得，好吧，事情就在那儿了，发生过了，也就归档收好了。你能明白这种感觉吗？"
+    },
+    {
+      "id": 345,
+      "start_sec": 3068,
+      "speaker": "Stephanie Foo",
+      "en": "Yeah. It makes a lot of sense.",
+      "zh": "明白，太有道理了。"
+    },
+    {
+      "id": 346,
+      "start_sec": 3072,
+      "speaker": "Stephanie Foo",
+      "en": "I talked to a number of people with HSAM, and it seems like their days are filled with random memories showing up like bees buzzing around their head until they can get swarmed.",
+      "zh": "我采访过好几位 HSAM 患者，他们的日常似乎总是被各种随机冒出来的记忆填满，就像一群蜜蜂在脑袋周围嗡嗡乱飞，甚至能把人团团围住。"
+    },
+    {
+      "id": 347,
+      "start_sec": 3082,
+      "speaker": "Stephanie Foo",
+      "en": "By writing the stuff down, Jill manages the memories, like she's taking them one by one, cataloging them, and putting them into a filing cabinet. There's a link between obsessive-compulsive disorder, OCD, and HSAM.",
+      "zh": "通过把事情写下来，Jill 得以管理这些记忆，就像把它们一件件拿出来、编好目录，再塞进文件柜里。强迫症（OCD）和 HSAM 之间确实存在关联。"
+    },
+    {
+      "id": 348,
+      "start_sec": 3096,
+      "speaker": "Stephanie Foo",
+      "en": "Maybe having the power to remember so much makes you want to obsessively do it all the time. Or maybe it's the other way around—desperately wanting to remember everything gives certain people the ability to do it phenomenally well.",
+      "zh": "也许正因为拥有记住这么多事的能力，才让人忍不住时刻强迫自己去记；又或者反过来，极度渴望记住一切的执念，让某些人练就了惊人的记忆能力。"
+    },
+    {
+      "id": 349,
+      "start_sec": 3109,
+      "speaker": "Stephanie Foo",
+      "en": "Either way, researchers say, they seem to go hand in hand.",
+      "zh": "不管怎样，研究人员表示，这两者往往相伴而生。"
+    },
+    {
+      "id": 350,
+      "start_sec": 3118,
+      "speaker": "Stephanie Foo",
+      "en": "About a year and a half ago, I had a really bad breakup. And one of the ways I got over my ex was by managing my memories, which is a pretentious way to say I told myself he was a douchebag.",
+      "zh": "大概一年半前，我经历了一次特别糟糕的分手。我走出这段阴影的方法之一就是“管理记忆”——说白了，这不过是装模作样地告诉自己：前男友就是个混蛋。"
+    },
+    {
+      "id": 351,
+      "start_sec": 3130,
+      "speaker": "Stephanie Foo",
+      "en": "I dwelled on all the bad parts of the relationship, all his irritating qualities. But recently, I was flipping through some entries in my journal from a few months before it got bad—not for fun, for this story. I'm not that far gone.",
+      "zh": "我反复回想那段感情里所有糟糕的片段，还有他身上所有惹人厌的毛病。但最近为了做这期节目，我翻了翻感情变质前几个月写的日记——可不是为了找乐子，我还没魔怔到那个地步。"
+    },
+    {
+      "id": 352,
+      "start_sec": 3144,
+      "speaker": "Stephanie Foo",
+      "en": "In one entry, he intuited when I was feeling low and said exactly the right thing. In another, we went to a perfect dinner where we got free dessert. Restaurants were constantly giving us free food.",
+      "zh": "其中一篇写到，他察觉到我情绪低落，正好说了最熨帖的话。另一篇里，我们吃了一顿完美的晚餐，餐厅还免费送了甜点——那时候老有餐厅免费给我们送吃的。"
+    },
+    {
+      "id": 353,
+      "start_sec": 3157,
+      "speaker": "Stephanie Foo",
+      "en": "We couldn't figure out why, but eventually settled on the idea that people liked us because we just looked so happy.",
+      "zh": "我们一直想不通为什么，最后干脆觉得，是因为我们俩看上去太幸福了，别人才这么喜欢我们。"
+    },
+    {
+      "id": 354,
+      "start_sec": 3165,
+      "speaker": "Stephanie Foo",
+      "en": "I had, of course, blocked all of these memories out because they didn't fit into the story I was telling myself. And I did not want them back. It had been good to forget.",
+      "zh": "我当然把这些记忆全都屏蔽掉了，因为它们跟我给自己编的那套说辞格格不入。我可不想让这些回忆回来——把它们忘掉真的挺好。"
+    },
+    {
+      "id": 355,
+      "start_sec": 3178,
+      "speaker": "Stephanie Foo",
+      "en": "And the difference between me and people with HSAM is that I have the choice to stop reading the diary, to just walk away. Jill doesn't have that choice.",
+      "zh": "而我跟 HSAM 患者最大的区别在于，我有权选择合上日记、转身走开，但 Jill 没得选。"
+    },
+    {
+      "id": 356,
+      "start_sec": 3188,
+      "speaker": "Jill Price",
+      "en": "It didn't like paralyze me until my husband died. Like, his death has really like paralyzed me.",
+      "zh": "以前这事儿倒还没把我困死，直到我丈夫去世。他的死真的就像把我整个人定在原地一样。"
+    },
+    {
+      "id": 357,
+      "start_sec": 3196,
+      "speaker": "Stephanie Foo",
+      "en": "How is it paralyzing?",
+      "zh": "怎么个定在原地法？"
+    },
+    {
+      "id": 358,
+      "start_sec": 3199,
+      "speaker": "Jill Price",
+      "en": "Because I will never, ever, ever, ever forget that.",
+      "zh": "因为我永远、永远、永远都不可能忘掉那一幕。"
+    },
+    {
+      "id": 359,
+      "start_sec": 3205,
+      "speaker": "Stephanie Foo",
+      "en": "Of course, no one forgets their spouse dying. But for Jill, it's different.",
+      "zh": "当然，谁都不会忘记伴侣离世，但对 Jill 来说，这完全是另一回事。"
+    },
+    {
+      "id": 360,
+      "start_sec": 3210,
+      "speaker": "Jill Price",
+      "en": "I am still in March of 2005.",
+      "zh": "我至今还活在 2005 年 3 月。"
+    },
+    {
+      "id": 361,
+      "start_sec": 3215,
+      "speaker": "Stephanie Foo",
+      "en": "When he died?",
+      "zh": "他去世的那个月？"
+    },
+    {
+      "id": 362,
+      "start_sec": 3216,
+      "speaker": "Jill Price",
+      "en": "Yeah. Not every minute, but I could really put myself in that week and feel it and—",
+      "zh": "对。倒也不是每分每秒都在想，但我真的能瞬间回到那一周，真切地感受到当时的一切，然后……"
+    },
+    {
+      "id": 363,
+      "start_sec": 3225,
+      "speaker": "Stephanie Foo",
+      "en": "So it hurts like it happened yesterday?",
+      "zh": "所以心痛起来就像昨天刚发生一样？"
+    },
+    {
+      "id": 364,
+      "start_sec": 3229,
+      "speaker": "Jill Price",
+      "en": "Yeah. Now, the feeling that I was not going to survive, I don't feel that way anymore because I have survived, you know? But—",
+      "zh": "是的。现在那种“我活不下去了”的绝望感倒是没有了，毕竟我确实熬过来了，对吧？可是……"
+    },
+    {
+      "id": 365,
+      "start_sec": 3242,
+      "speaker": "Stephanie Foo",
+      "en": "How often do you think about that?",
+      "zh": "你大概多久会想起一次？"
+    },
+    {
+      "id": 366,
+      "start_sec": 3244,
+      "speaker": "Jill Price",
+      "en": "Probably like 10 times a day. Even though I get up every day, I feel like I'm still standing in the same place.",
+      "zh": "大概一天有十次吧。就算我每天照常起床过日子，还是觉得自己一直站在原地没动过。"
+    },
+    {
+      "id": 367,
+      "start_sec": 3258,
+      "speaker": "Jill Price",
+      "en": "It's like—it's really being stuck. It's being stuck in a moment that you can't—there's no escaping it.",
+      "zh": "就像……真的被卡住了，被死死困在那个瞬间里，怎么也逃不出去。"
+    },
+    {
+      "id": 368,
+      "start_sec": 3266,
+      "speaker": "Stephanie Foo",
+      "en": "Do you wish that you could forget it?",
+      "zh": "你希望自己能忘掉吗？"
+    },
+    {
+      "id": 369,
+      "start_sec": 3269,
+      "speaker": "Jill Price",
+      "en": "Yeah. Or remember it the way normal people remember it.",
+      "zh": "希望啊。或者至少能像普通人那样去记住它。"
+    },
+    {
+      "id": 370,
+      "start_sec": 3276,
+      "speaker": "Stephanie Foo",
+      "en": "How do normal people remember it?",
+      "zh": "普通人是怎么记住的？"
+    },
+    {
+      "id": 371,
+      "start_sec": 3279,
+      "speaker": "Jill Price",
+      "en": "I don't know. But it's not like—I mean, I don't think that somebody would be sitting here 11 years later still like feeling it the way I feel it.",
+      "zh": "我也不知道。但应该不是这样……我是说，我想正常人不会在十一年后坐在这里，依然像我这样痛彻心扉地感受着当时的一切。"
+    },
+    {
+      "id": 372,
+      "start_sec": 3290,
+      "speaker": "Jill Price",
+      "en": "See, I wish you could understand, and I wish I could understand what it's like to be able to like let things fade and—or not let, just that's the way it is.",
+      "zh": "你看，我多希望你能理解我，我也多希望自己能体会一下，让往事慢慢淡去是什么滋味……或者说甚至不用刻意去放手，它自然就会那样淡下去。"
+    },
+    {
+      "id": 373,
+      "start_sec": 3300,
+      "speaker": "Stephanie Foo",
+      "en": "Jill says it's not like she's only reliving bad memories. She likes to go back to one of her favorite afternoons, October 19, 1979, in the ninth grade, when she had a bad day at school and her mom surprised her with homemade soup when she got home.",
+      "zh": "Jill 说，她也不是光会重温那些痛苦的回忆。她很喜欢回到自己最喜欢的某个下午——1979年10月19日，她读九年级，那天在学校过得很糟糕，回到家时，妈妈悄悄给她熬了一锅家常汤，给了她一个惊喜。"
+    },
+    {
+      "id": 374,
+      "start_sec": 3316,
+      "speaker": "Stephanie Foo",
+      "en": "But when the bad ones come on, she can't help but get emotional. And they come on all the time.",
+      "zh": "但当痛苦的回忆涌上心头时，她还是忍不住会情绪崩溃。而且那些回忆无时无刻不在冒出来。"
+    },
+    {
+      "id": 375,
+      "start_sec": 3323,
+      "speaker": "Stephanie Foo",
+      "en": "If you did not have HSAM, how do you think your life would be different today?",
+      "zh": "如果你没有 HSAM，你觉得你现在的生活会有什么不一样？"
+    },
+    {
+      "id": 376,
+      "start_sec": 3329,
+      "speaker": "Jill Price",
+      "en": "I think that I would have been able to move forward. I think I probably would be married today.",
+      "zh": "我想我应该早就能够向前看了。我想我现在大概已经结婚了吧。"
+    },
+    {
+      "id": 377,
+      "start_sec": 3336,
+      "speaker": "Jill Price",
+      "en": "I don't think I would be so scared. I would be able to just walk forward instead of constantly looking back.",
+      "zh": "我想我也不会像现在这样胆战心惊。我就能只管往前走，而不是总在不停地回头看。"
+    },
+    {
+      "id": 378,
+      "start_sec": 3345,
+      "speaker": "Jill Price",
+      "en": "Okay, so let's reverse this so that maybe you understand. So your boyfriend—you guys broke up.",
+      "zh": "好，那咱们反过来打个比方，这样你兴许能明白。比如你男朋友——你们俩分手了。"
+    },
+    {
+      "id": 379,
+      "start_sec": 3352,
+      "speaker": "Stephanie Foo",
+      "en": "Yeah.",
+      "zh": "嗯。"
+    },
+    {
+      "id": 380,
+      "start_sec": 3353,
+      "speaker": "Jill Price",
+      "en": "How long were you, like, upset about it, or until the point where you felt like you can move forward without thinking about it all the time, or move forward without it, like, ripping your heart out?",
+      "zh": "你大概难过了多久？或者说，过了多久你才觉得自己可以走出来，不用整天老想着这件事，往前走的时候心里也不再像被活生生撕裂一样痛？"
+    },
+    {
+      "id": 381,
+      "start_sec": 3365,
+      "speaker": "Stephanie Foo",
+      "en": "Oh, God. Like, three months?",
+      "zh": "天哪，大概……三个月吧？"
+    },
+    {
+      "id": 382,
+      "start_sec": 3370,
+      "speaker": "Jill Price",
+      "en": "I don't have that luxury.",
+      "zh": "我就没这么好的福气了。"
+    },
+    {
+      "id": 383,
+      "start_sec": 3375,
+      "speaker": "Stephanie Foo",
+      "en": "And so are you jealous of me?",
+      "zh": "那你会羡慕我吗？"
+    },
+    {
+      "id": 384,
+      "start_sec": 3378,
+      "speaker": "Jill Price",
+      "en": "No.",
+      "zh": "不。"
+    },
+    {
+      "id": 385,
+      "start_sec": 3379,
+      "speaker": "Stephanie Foo",
+      "en": "No?",
+      "zh": "不羡慕吗？"
+    },
+    {
+      "id": 386,
+      "start_sec": 3380,
+      "speaker": "Jill Price",
+      "en": "Nuh-uh. Because on the flip side of all that, I can't imagine what it's like to not remember my life. I really can't understand how nobody does.",
+      "zh": "一点也不。因为换个角度来看，我根本无法想象不记得自己的人生是什么感觉。我真的不明白，为什么大家都记不住呢。"
+    },
+    {
+      "id": 387,
+      "start_sec": 3393,
+      "speaker": "Jill Price",
+      "en": "Even though it has tormented me, it's just, everything was just—is so important to me that I just, I hold onto it so tight that I wouldn't want to not be able to do that.",
+      "zh": "哪怕这些记忆一直在折磨着我，但所有的一切对我来说都……都实在太重要了，我把它们抓得死死的，我绝不想失去这种记住一切的能力。"
+    },
+    {
+      "id": 388,
+      "start_sec": 3405,
+      "speaker": "Stephanie Foo",
+      "en": "I'm not jealous of her, either. Ever since talking to these people with HSAM, for the first time in my life, I actually feel just fine about forgetting.",
+      "zh": "我也同样不羡慕她。自从跟这些拥有 HSAM 的人聊过之后，有生以来第一次，我其实觉得能够遗忘真的挺好的。"
+    },
+    {
+      "id": 389,
+      "start_sec": 3415,
+      "speaker": "Stephanie Foo",
+      "en": "I know that sounds like it's the end of a radio story and this is just what you say, but, like, I cannot stress how sincere I am about this—totally fine about forgetting.",
+      "zh": "我知道这听起来像广播故事结尾时特意凑的升华台词，但我真的怎么强调都不为过，我这话绝对发自肺腑——能够遗忘，真的太好了。"
+    },
+    {
+      "id": 390,
+      "start_sec": 3429,
+      "speaker": "Ira Glass",
+      "en": "Stephanie Foo is one of the producers of our program.",
+      "zh": "Stephanie Foo 是我们节目的制作人之一。"
+    },
+    {
+      "id": 391,
+      "start_sec": 3459,
+      "speaker": "Ira Glass",
+      "en": "Well, our program was produced today by Sean Cole, Zoe Chace, Neil Drumming, Stephanie Foo, Chana Joffe-Walt, Joel Lovell, Miki Meek, Jonathan Menjivar, Brian Reed, Robyn Semien, Lyra Smith, Alissa Shipp, Matt Tierney, and Nancy Updike.",
+      "zh": "本期的节目制作团队包括 Sean Cole、Zoe Chace、Neil Drumming、Stephanie Foo、Chana Joffe-Walt、Joel Lovell、Miki Meek、Jonathan Menjivar、Brian Reed、Robyn Semien、Lyra Smith、Alissa Shipp、Matt Tierney 以及 Nancy Updike。"
+    },
+    {
+      "id": 392,
+      "start_sec": 3474,
+      "speaker": "Ira Glass",
+      "en": "Help from Julie Snyder and Elna Baker. Support staff for our show—Elise Bergerson, Emily Condon, Kimberly Henderson, and Seth Lind. Research help from Christopher Swetala and Michelle Harris.",
+      "zh": "Julie Snyder 和 Elna Baker 提供了协助。节目运营支持团队为 Elise Bergerson、Emily Condon、Kimberly Henderson 和 Seth Lind。研究支持来自 Christopher Swetala 和 Michelle Harris。"
+    },
+    {
+      "id": 393,
+      "start_sec": 3485,
+      "speaker": "Ira Glass",
+      "en": "Music help today from Damian Graef, from Rob Geddis. Special thanks today to Michael Warner and Miles Lock.",
+      "zh": "本期音乐制作协助来自 Damian Graef 和 Rob Geddis。特别鸣谢 Michael Warner 和 Miles Lock。"
+    },
+    {
+      "id": 394,
+      "start_sec": 3493,
+      "speaker": "Ira Glass",
+      "en": "Our website, thisamericanlife.org. This American Life is delivered to public radio stations by PRX, the Public Radio Exchange.",
+      "zh": "我们的网站是 thisamericanlife.org。《This American Life》由公共广播交换网 PRX 向各大公共广播电台传送播出。"
+    },
+    {
+      "id": 395,
+      "start_sec": 3500,
+      "speaker": "Ira Glass",
+      "en": "Thanks as always to our program's co-founder, Mr. Torey Malatia. You know, I always tell him, every day is a bowl of cherries. And he always responds—",
+      "zh": "照例感谢我们节目的联合创始人 Torey Malatia 先生。你们知道，我总是跟他说，每一天都像一碗甜樱桃。而他总是回我——"
+    },
+    {
+      "id": 396,
+      "start_sec": 3509,
+      "speaker": "Jill Price",
+      "en": "Every day is like a bag of garbage.",
+      "zh": "每一天都像一袋垃圾。"
+    },
+    {
+      "id": 397,
+      "start_sec": 3512,
+      "speaker": "Ira Glass",
+      "en": "I'm Ira Glass. Back next week with more stories of This American Life.",
+      "zh": "我是 Ira Glass。下周同一时间，为您带来更多《This American Life》的故事。"
+    }
+  ]
+}

@@ -1,0 +1,3519 @@
+{
+  "schema_version": "3.0",
+  "show_id": "tal",
+  "guid": "46233 at https://www.thisamericanlife.org",
+  "title": "899: Reaching Out",
+  "pub_date": "2026-10-05T00:00:00Z",
+  "duration_sec": 3605,
+  "audio_url": "https://www.thisamericanlife.org/sites/default/files/audio/899/bxHTqfKSJiQVDC5pXrFi2btCEiMVQ42fC0SgUCXK8Z4/899.mp3",
+  "summary_zh": "本期节目围绕“渴望联结与自我防御的拉锯”这一母主题，节选了青年制作人 Sayre Quevedo 极具先锋野心的纪实播客《Reaching Out》。Prologue 中，Ira Glass 盛赞该作凭近乎全天候的私人录音与第二人称自剖旁白，开创了捕捉当代生命体验的全新叙事形态。Act One 从双胞胎兄弟 Connor 的寻父提议切入，在勾勒两人迥异生存状态的同时，揭晓素未谋面的生父竟在距 Sayre 洛杉矶公寓仅五分钟车程处开理发店；Act Two 记录兄弟俩在拌嘴摩擦与都市疏离中字斟句酌，终于向生父发出破冰邮件；Act Three 则直面沉默的杀伤力，经历回应石沉大海与深夜买醉的虚无后，兄弟二人并肩推开理发店大门，亲手递出表明身份的字条。",
+  "key_takeaways_zh": [
+    "Prologue（主持人 Ira Glass）：Ira Glass 引介青年制作人 Sayre Quevedo 创作的纪实播客《Reaching Out》，盛赞其用长年积累的私密生活录音与独特的自剖式旁白开辟了前所未有的声音叙事疆域。",
+    "Act One（制作人 Sayre Quevedo、Nadia Reiman）：双胞胎兄弟 Connor 与 Sayre Quevedo 借由基因检测网站的远亲线索启动寻父计划，却意外发现素未谋面的生父竟在距离 Sayre 洛杉矶住处仅五分钟车程的地方经营理发店。",
+    "Act Two（制作人 Sayre Quevedo）：Sayre 与 Connor 在电话拌嘴中拼凑生父的网络痕迹，并于疏离的都市单身日常里反复推敲措辞，最终鼓起勇气向生父的理发店邮箱发出了题为“Reaching out”的破冰邮件。",
+    "Act Three（制作人 Sayre Quevedo）：在邮件与电话留言相继石沉大海、Sayre 历经深夜买醉与隔街窥视的内心煎熬后，兄弟俩终于预约了生父当日最后一班理发时段，并肩走进店里递出表明身份的字条。"
+  ],
+  "highlights": [
+    {
+      "start_sec": 0,
+      "title_zh": "Prologue: 纪实新物种",
+      "summary_zh": "Ira Glass 在开场白中郑重推介青年制作人 Sayre Quevedo 的新播客《Reaching Out》，称其将纪实声音叙事推向了前所未闻的全新境界。Sayre 不仅长年录下与双胞胎兄弟之间充满暗刺的真实对话，更以极具实验感的旁白完整捕捉了活在当下的粗粝质感。",
+      "quote_en": "I recently heard this podcast that was so exciting to hear, because it felt like the people who did it invented something completely new, which is so rare."
+    },
+    {
+      "start_sec": 105,
+      "title_zh": "Act One: 生父近在咫尺",
+      "summary_zh": "2020年2月，双胞胎兄弟 Connor 致电提议寻找素未谋面的生父，而自16岁起便习惯录下生活一切的 Sayre Quevedo 偏偏没有录下这通关键来电。借由童年家庭录像与少年时代的录音片段，Sayre 以冷峻而亲密的第二人称“你”开启全篇自剖，叩问记忆与记录背后的代价。",
+      "quote_en": "On February 15th, 2020, Connor calls you to ask if you want to look for your birth father. You do not record this conversation."
+    },
+    {
+      "start_sec": 329,
+      "title_zh": "双胞胎殊途的自由与代价",
+      "summary_zh": "借着 Connor 在新奥尔良街头遭遇持刀怪人的电话闲聊，Sayre 剖析了这对异卵双胞胎截然相反的人生轨迹：自己用助学贷款、季度绩效考核与看牙预约换取体面安稳，Connor 则在扒火车与偏远大麻农场中践行漂泊自由。两人互视对方为“爱评判人的庸常上班族”与“爱评判人的流浪汉”，而彼此间的距离正是这两种自由共同支付的代价。",
+      "quote_en": "Your brother thinks you are a judgmental normie, and you think he is a judgmental hobo. This is the shared cost of your divergent freedoms."
+    },
+    {
+      "start_sec": 1182,
+      "title_zh": "地图上五分钟的惊人直线",
+      "summary_zh": "拿到基因检测网站远亲提供的生父准确姓名拼写后，搬到洛杉矶满一年的 Sayre 随手检索，搜出一位留着飞机头与细胡须、曾做过厨师的复古理发店老板。当他把理发店地址输入地图测算距离时，屏幕上弹出了令人屏息的直线：他两天前才在这家店街对面吃过晚饭，生父距他的公寓仅有五分钟车程。",
+      "quote_en": "A short, nearly straight line will appear, and an estimated arrival time from your apartment: five minutes."
+    },
+    {
+      "start_sec": 1249,
+      "title_zh": "Act Two: 寄出寻父邮件",
+      "summary_zh": "第二幕在 Ira Glass 的串场后展开，Sayre 将人类语言起源假说与他和 Connor 的电话口角交叉剪辑，道出语言总在思考、言说与倾听之间漏失本意的宿命。争执平息后，兄弟俩对着电脑上七个标签页里的照片与两极分化的顾客评价端详生父的面孔，Connor 一眼认出了父亲身上属于 Sayre 的影子。",
+      "quote_en": "No matter how language evolves, no matter how we choose to use it, there is always a chance that somewhere between thinking, speaking, and hearing, our intention and meaning will be lost."
+    },
+    {
+      "start_sec": 1829,
+      "title_zh": "字斟句酌按下发送键",
+      "summary_zh": "面对理发店官网上的电子邮箱，兄弟俩在电话里字斟句酌地推敲第一封信的措辞分寸，既怕显得咄咄逼人，又不愿流于卑微讨好。最终 Connor 提议以“Reaching out”作为邮件标题，两人在倒数三声后共同按下了发送键。",
+      "quote_en": "Whatever fills this space must be firm, but not aggressive, humble, but not shrinking."
+    },
+    {
+      "start_sec": 1998,
+      "title_zh": "Act Three: 直面生父",
+      "summary_zh": "第三幕接续邮件发出后的漫长等待，四天杳无音讯后 Sayre 壮胆致电理发店，却只得到一句不知真假的“他在上厕所”便再无回音。默契地不愿第三次自取其辱的兄弟俩陷入沉默，Sayre 却在不知不觉中养成了开车路过理发店偷瞄橱窗的习惯。",
+      "quote_en": "It seems to go without saying that to reach out a third time with no response would be pathetic."
+    },
+    {
+      "start_sec": 2162,
+      "title_zh": "圣莫尼卡大道的醉酒自白",
+      "summary_zh": "解封后的周末深夜，独自在同志酒吧枯坐到打烊的 Sayre 醉醺醺地走在圣莫尼卡大道上，对着录音机倾吐内心的荒诞与虚无。在清醒后的旁白回望中，他刺破了自己长久以来的心理防御：试图靠“毫无期待”来抵御失望，最终却依然在得不到任何回应时满盘皆输。",
+      "quote_en": "The bullshit of steeling yourself against disappointment by expecting nothing, only to find yourself still disappointed when nothing is exactly what you receive."
+    },
+    {
+      "start_sec": 2567,
+      "title_zh": "隔街窥视与沉默的语法",
+      "summary_zh": "秋日午后，Sayre 鬼使神差地站在理发店街对面抽烟，隔窗注视生父如常替客人剪发，终于承认对方的无动于衷令自己刺痛。他由此领悟到沉默拥有比语言更诚实而锋利的语法，而母亲也在电话中向他抛出了灵魂拷问：当面质问那个困住你的幽灵，真的就能让一切翻篇吗？",
+      "quote_en": "Silence, unlike language, cannot be improved upon. It has its own clarifying syntax."
+    },
+    {
+      "start_sec": 3200,
+      "title_zh": "五点钟递出字条的瞬间",
+      "summary_zh": "2022年春，在初提寻父整整两年后，互怕对方受委屈的兄弟俩预约了生父下午五点的最后一班理发时段，怀揣写明身份与街对面咖啡馆邀约的半张打印纸推门而入。Sayre 从生父视角想象完这原本无比寻常的工作日收尾，随即走到理发椅前默默递出字条转身离去，将故事定格在风暴降临前的屏息瞬间。",
+      "quote_en": "And now, what has been up until this moment a very ordinary day has become a monumental one in just a few seconds."
+    }
+  ],
+  "vocab_notes": [
+    {
+      "term": "passive-aggressive",
+      "meaning_zh": "被动攻击的；阴阳怪气、暗藏敌意的",
+      "note_zh": "源于心理学概念的美式高频口语词，指表面温和客气、实则通过挑刺或冷淡迂回发泄不满的沟通方式。",
+      "start_sec": 44
+    },
+    {
+      "term": "normie",
+      "meaning_zh": "循规蹈矩的普通人；主流庸常族",
+      "note_zh": "源自美国网络与亚文化俚语（normal 的戏谑派生词），常由特立独行或边缘群体用来调侃过着主流中产按部就班生活的人。",
+      "start_sec": 375
+    },
+    {
+      "term": "daddy issues",
+      "meaning_zh": "父爱缺失创伤；缺父/恋父情结",
+      "note_zh": "通俗心理学化的美式俚语，常被年轻人带点自嘲地用来概括因童年父亲缺位或父子疏离而遗留的亲密关系障碍。",
+      "start_sec": 639
+    },
+    {
+      "term": "hella",
+      "meaning_zh": "极其，非常（程度副词）",
+      "note_zh": "极具旧金山湾区地域辨识度的美式俚语（相当于 very 或 super），自然流露出 Sayre 家族成长于北加州的语言印记。",
+      "start_sec": 829
+    },
+    {
+      "term": "rockabilly",
+      "meaning_zh": "乡村摇滚乐；复古摇滚亚文化",
+      "note_zh": "融合早期摇滚与乡村音乐的1950年代美国复古文化风格，常以飞机头（pompadour）、古董凯迪拉克与复古理发店为标志性视觉符号。",
+      "start_sec": 860
+    },
+    {
+      "term": "vanilla",
+      "meaning_zh": "平淡乏味的；中规中矩缺乏个性的",
+      "note_zh": "原指最基础的香草味冰淇淋，在美式约会软件与流行文化语境中常用来吐槽某人形象或喜好过于主流无趣。",
+      "start_sec": 1639
+    },
+    {
+      "term": "out of the blue",
+      "meaning_zh": "突如其来地；冒昧唐突地",
+      "note_zh": "源自“晴空霹雳”（a bolt out of the blue）的习语，是英语破冰邮件中最地道的客套铺垫，用于缓和突然联系陌生人的唐突感。",
+      "start_sec": 1870
+    },
+    {
+      "term": "reach out",
+      "meaning_zh": "主动联络；伸出触角寻求联结",
+      "note_zh": "本集标题双关语，表面是日常书信里“发信联系”的惯用套话，深层则指向两兄弟向缺席生父与孤独世界伸手试探的情感渴望。",
+      "start_sec": 1973
+    },
+    {
+      "term": "steel oneself against",
+      "meaning_zh": "硬起心肠抵御；给内心筑起防备",
+      "note_zh": "极具文学张力的动词搭配，形象刻画出预先将内心锤炼得如钢铁般冷漠麻木、试图以此免受失望刺痛的自我防御机制。",
+      "start_sec": 2304
+    }
+  ],
+  "references": [
+    {
+      "title": "Reaching Out",
+      "creator": "Sayre Quevedo / Futuro Studios & KCRW",
+      "category": "media",
+      "note_zh": "本期节目整期节选并重点推介的六集个人纪实播客系列，由 Sayre Quevedo 编导制作、Maria Garcia 剪辑，完整记录了双胞胎兄弟跨越两年的寻父历程。",
+      "start_sec": 36,
+      "links": [
+        {
+          "source": "podcast_site",
+          "label": "播客官网",
+          "url": "https://linktr.ee/reachingoutpodcast"
+        }
+      ]
+    }
+  ],
+  "transcript": [
+    {
+      "id": 1,
+      "start_sec": 0,
+      "speaker": "Ira Glass",
+      "en": "A quick warning: there are curse words that are unbeeped in today's episode of the show. If you prefer a beeped version, you can find that at our website, thisamericanlife.org.",
+      "zh": "先提醒一句：今天这期节目里有不少粗口没有消音。如果你更想听消音版，可以上我们的官网 thisamericanlife.org 收听。"
+    },
+    {
+      "id": 2,
+      "start_sec": 12,
+      "speaker": "Ira Glass",
+      "en": "From WBEZ Chicago, it's This American Life. I'm Ira Glass.",
+      "zh": "这里是 WBEZ Chicago 播出的《This American Life》，我是 Ira Glass。"
+    },
+    {
+      "id": 3,
+      "start_sec": 15,
+      "speaker": "Ira Glass",
+      "en": "I recently heard this podcast that was so exciting to hear, because it felt like the people who did it invented something completely new, which is so rare.",
+      "zh": "我最近听到一档播客，听完特别兴奋，因为我感觉主创们发明了一种全新的东西——这太难得了。"
+    },
+    {
+      "id": 4,
+      "start_sec": 25,
+      "speaker": "Ira Glass",
+      "en": "And it's like, I feel like they took what shows like ours do, and then just pushed it further and further until it became something else. And I want to play you some of that show today.",
+      "zh": "怎么说呢，感觉他们把像我们这类节目在做的事，一路往极致里推，推着推着就变成了一种截然不同的形态。今天我想放几段这档节目给你们听。"
+    },
+    {
+      "id": 5,
+      "start_sec": 36,
+      "speaker": "Ira Glass",
+      "en": "It's by somebody who I had never heard of before. His name is Sayre Quevedo. And the series is called Reaching Out. It's made by Futuro Studios.",
+      "zh": "作者是我以前从没听说过的人，他叫 Sayre Quevedo。这个系列叫《Reaching Out》，由 Futuro Studios 制作。"
+    },
+    {
+      "id": 6,
+      "start_sec": 44,
+      "speaker": "Ira Glass",
+      "en": "And as you'll hear, at some point years ago, it seems like Sayre started recording nearly all of his personal conversations, including these especially passive-aggressive conversations with his twin brother that get more interesting and complicated the further you get into the series.",
+      "zh": "你们待会儿会听到，几年前从某个时间点开始，Sayre 似乎就把自己几乎所有的私人对话都录了下来，其中就包括他跟双胞胎兄弟之间那些火药味暗藏、阴阳怪气的对话——越往后听，这段关系就越有意思、也越复杂。"
+    },
+    {
+      "id": 7,
+      "start_sec": 61,
+      "speaker": "Ira Glass",
+      "en": "And it's just—I don't know—real, messy life captured on recordings in a way that is rare to hear.",
+      "zh": "怎么说呢，那种原汁原味、一地鸡毛的真实生活就这样被录音捕捉了下来，平时很少能听到这样的作品。"
+    },
+    {
+      "id": 8,
+      "start_sec": 68,
+      "speaker": "Ira Glass",
+      "en": "And then Sayre also invented this way to do narration that at first, when you hear it, you're like, what's happening? And then—I don't know—I really came to love it.",
+      "zh": "而且 Sayre 还自创了一种旁白方式，刚一听你会纳闷：“这是什么路数？”可听着听着——说不上来，我居然越来越喜欢了。"
+    },
+    {
+      "id": 9,
+      "start_sec": 79,
+      "speaker": "Ira Glass",
+      "en": "And the show is ambitious. I don't know if I've heard another podcast that tries to capture a person's life as completely as this one does, and just what it feels like to be alive right now.",
+      "zh": "这档节目的野心很大。我不知道自己以前听没听过哪档播客，能像它这样试图如此完整地记录一个人的人生，以及当下活着究竟是一种什么滋味。"
+    },
+    {
+      "id": 10,
+      "start_sec": 92,
+      "speaker": "Ira Glass",
+      "en": "So we're going to excerpt some of the show today. That's going to be the whole hour. And I just want to say, stay with it. I guarantee, it pays off. Here's Sayre.",
+      "zh": "所以今天这一整小时，我们都会用来节选播放这档节目。我就想说一句：一定要坚持听下去，我保证绝对值回票价。下面有请 Sayre。"
+    },
+    {
+      "id": 11,
+      "start_sec": 105,
+      "speaker": "Sayre Quevedo",
+      "en": "On February 15th, 2020, Connor calls you to ask if you want to look for your birth father. You do not record this conversation.",
+      "zh": "2020 年 2 月 15 日，Connor 打电话问你想不想一起去找你们的亲生父亲。你没有把这通电话录下来。"
+    },
+    {
+      "id": 12,
+      "start_sec": 116,
+      "speaker": "Sayre Quevedo",
+      "en": "This is notable, if only because so much of your life has been recorded, moments far less consequential than this. You and Connor's fourth birthday—",
+      "zh": "这件事之所以反常，是因为你人生中有太多片段都被录了下来，哪怕远比这微不足道的时刻也是如此。比如你和 Connor 四岁生日那天——"
+    },
+    {
+      "id": 13,
+      "start_sec": 125,
+      "speaker": "Clown",
+      "en": "You earned a rubber nose. Can you guys say that? Then hand me a rubber nose!",
+      "zh": "你们赢得了一个红鼻子。你们会这么说吗？那就“把红鼻子递给我”！"
+    },
+    {
+      "id": 14,
+      "start_sec": 131,
+      "speaker": "Sayre Quevedo",
+      "en": "A school performance. You play a scared rabbit. Your only line—",
+      "zh": "学校文艺汇演，你演一只受惊的小兔子，你唯一的台词是——"
+    },
+    {
+      "id": 15,
+      "start_sec": 136,
+      "speaker": "Young Sayre",
+      "en": "I think we're lost.",
+      "zh": "我觉得我们迷路了。"
+    },
+    {
+      "id": 16,
+      "start_sec": 137,
+      "speaker": "Kid",
+      "en": "Don't worry. We'll just go back the way we came.",
+      "zh": "别担心，我们顺着原路走回去就行了。"
+    },
+    {
+      "id": 17,
+      "start_sec": 139,
+      "speaker": "Young Sayre",
+      "en": "Which way did we come?",
+      "zh": "那我们是从哪条路来的呀？"
+    },
+    {
+      "id": 18,
+      "start_sec": 142,
+      "speaker": "Sayre Quevedo",
+      "en": "A house party when you were 16, when you first began to record yourself.",
+      "zh": "十六岁那年的一场家庭派对，你第一次开始录下自己的声音。"
+    },
+    {
+      "id": 19,
+      "start_sec": 147,
+      "speaker": "Teenage Sayre",
+      "en": "So I interview people and I talk to them about whatever I want to talk about. And since it's about me and it's about the things I do, I figure I should record this.",
+      "zh": "我就是找人聊天采访，想聊什么就聊什么。既然聊的都是我自己的事、我做的事，那我觉得我应该把这些都录下来。"
+    },
+    {
+      "id": 20,
+      "start_sec": 161,
+      "speaker": "Sayre Quevedo",
+      "en": "There is a price for what we choose to remember and what we choose to forget.",
+      "zh": "我们选择记住什么、选择忘却什么，都是有代价的。"
+    },
+    {
+      "id": 21,
+      "start_sec": 166,
+      "speaker": "Sayre Quevedo",
+      "en": "If you had known how this would all turn out, maybe you would have recorded everything. Or if you'd known the cost, maybe you would not have recorded anything at all.",
+      "zh": "如果你早知道事情最后会变成那样，也许你会把一切都录下来；又或者，如果你早知道要付出什么代价，也许你打一开始就不会按下录音键。"
+    },
+    {
+      "id": 22,
+      "start_sec": 180,
+      "speaker": "Sayre Quevedo",
+      "en": "On February 15th, 2020, your brother calls you to ask if you want to look for your birth father, but there is no record of that call.",
+      "zh": "2020 年 2 月 15 日，你兄弟打电话问你想不想找亲生父亲，可那通电话没有留下任何录音。"
+    },
+    {
+      "id": 23,
+      "start_sec": 191,
+      "speaker": "Sayre Quevedo",
+      "en": "There is, however, a recording of the call you make a few days later.",
+      "zh": "不过，几天后你回拨过去的那通电话，倒是有录音。"
+    },
+    {
+      "id": 24,
+      "start_sec": 218,
+      "speaker": "Connor",
+      "en": "Hello?",
+      "zh": "喂？"
+    },
+    {
+      "id": 25,
+      "start_sec": 219,
+      "speaker": "Sayre Quevedo",
+      "en": "Hey, brother.",
+      "zh": "嘿，兄弟。"
+    },
+    {
+      "id": 26,
+      "start_sec": 220,
+      "speaker": "Connor",
+      "en": "Hey, what's up?",
+      "zh": "嘿，怎么了？"
+    },
+    {
+      "id": 27,
+      "start_sec": 222,
+      "speaker": "Sayre Quevedo",
+      "en": "Nothing. My phone is at 10%, by the way.",
+      "zh": "没事，对了，我手机只剩 10% 的电了。"
+    },
+    {
+      "id": 28,
+      "start_sec": 225,
+      "speaker": "Connor",
+      "en": "Oh, that's cool. I don't feel like talking on the phone very long. I'm tired.",
+      "zh": "哦，挺好，我也不太想煲太久电话粥，累了。"
+    },
+    {
+      "id": 29,
+      "start_sec": 231,
+      "speaker": "Sayre Quevedo",
+      "en": "So I'm recording. I hope that is okay.",
+      "zh": "对了，我在录音呢，希望你不介意。"
+    },
+    {
+      "id": 30,
+      "start_sec": 235,
+      "speaker": "Connor",
+      "en": "Oh, really? Okay. Yeah, hmm. All right, that's cool. Are you recording because you want to talk about dad stuff?",
+      "zh": "哦，真的假的？好吧。嗯……行，没问题。你录音是因为想聊咱爸那事儿吗？"
+    },
+    {
+      "id": 31,
+      "start_sec": 244,
+      "speaker": "Sayre Quevedo",
+      "en": "Yeah, well, not just because of that, but yeah. I thought that's what you wanted to talk about.",
+      "zh": "嗯，也不全是因为那个，但算是一部分吧。我以为这就是你想聊的呢。"
+    },
+    {
+      "id": 32,
+      "start_sec": 250,
+      "speaker": "Connor",
+      "en": "I have other things on my mind, but hmm, I mean, yeah, that's just like a very intense conversation. Can I tell you something crazy that happened today that has nothing to do with him?",
+      "zh": "我脑子里还在想别的事呢，不过，嗯……怎么说呢，那话题太沉重了。我能先跟你说件今天发生的离谱事吗？跟他完全没关系。"
+    },
+    {
+      "id": 33,
+      "start_sec": 262,
+      "speaker": "Sayre Quevedo",
+      "en": "These days, you rarely know where Connor is until he's already there. You call, and he's in Washington with his girlfriend. You call again, and he's barely got service.",
+      "zh": "这阵子，Connor 人在哪儿，你往往要等他到了地方才知道。打个电话过去，他正和女朋友待在华盛顿州；过阵子再打，信号都快断了。"
+    },
+    {
+      "id": 34,
+      "start_sec": 270,
+      "speaker": "Sayre Quevedo",
+      "en": "He's trimming weed in Arcata, or he's hopped a train to the Midwest, or he's crashing on a friend's couch in Oakland.",
+      "zh": "要么是在阿卡塔的大麻农场修剪叶子，要么是扒上货运火车去了中西部，再不然就是借宿在奥克兰某个朋友家的沙发上。"
+    },
+    {
+      "id": 35,
+      "start_sec": 276,
+      "speaker": "Sayre Quevedo",
+      "en": "Right now, Connor is partying in New Orleans with his girlfriend. Right now, you are pacing around your room in Harlem, staring at a whiteboard where you have scribbled a list of vague to-dos.",
+      "zh": "此时此刻，Connor 正和女朋友在新奥尔良开派对；而此时此刻的你，正在哈莱姆区的房间里来回踱步，盯着一块写满模棱两可待办事项的白板。"
+    },
+    {
+      "id": 36,
+      "start_sec": 286,
+      "speaker": "Connor",
+      "en": "Today, me and Claire were walking to go get my bike, and we walked by this guy who apparently used to live here. We keep walking, and all of a sudden, I hear weird steps and I look behind.",
+      "zh": "今天我和 Claire 走路去取我的自行车，路过一个男的，听说他以前就住这儿。我们继续往前走，突然间我听到背后有奇怪的脚步声，就回头看了一眼。"
+    },
+    {
+      "id": 37,
+      "start_sec": 295,
+      "speaker": "Sayre Quevedo",
+      "en": "Connor does not like it when you point out your differences, but contrast is the rightful and unavoidable dominion of twins.",
+      "zh": "Connor 不喜欢你老拿你们俩的不同说事，可对比与反差，本就是双胞胎逃不掉的宿命。"
+    },
+    {
+      "id": 38,
+      "start_sec": 300,
+      "speaker": "Sayre Quevedo",
+      "en": "There are superficial distinctions, the kind of differences strangers point out when you inevitably pull up a photo of Connor after they learn you're a twin.",
+      "zh": "有些区别浮于表面——每当别人得知你是双胞胎，你总免不了翻出 Connor 的照片给他们看，而陌生人一眼就能挑出这些不同。"
+    },
+    {
+      "id": 39,
+      "start_sec": 307,
+      "speaker": "Sayre Quevedo",
+      "en": "Your tightly coiled curls, Connor's loose, wavy hair, Connor's growth spurt at 16, you're 5'7\", which you say is 5'8\". But nothing makes you feel more different from your brother than when he tells you these kinds of stories.",
+      "zh": "你的卷发又紧又密，Connor 的头发却是蓬松的大波浪；Connor 十六岁时猛蹿了一大截，而你身高五英尺七，对外却总报五英尺八。但没有什么比听他讲这种经历，更让你觉得自己和弟弟截然不同了。"
+    },
+    {
+      "id": 40,
+      "start_sec": 319,
+      "speaker": "Connor",
+      "en": "And I like turn around, and the fucking guy is like a block away from us—",
+      "zh": "结果我转过身一看，那该死的家伙就在离我们一条街远的地方——"
+    },
+    {
+      "id": 41,
+      "start_sec": 322,
+      "speaker": "Sayre Quevedo",
+      "en": "Whoa.",
+      "zh": "哇。"
+    },
+    {
+      "id": 42,
+      "start_sec": 323,
+      "speaker": "Connor",
+      "en": "Like, just had fucking like these knives in his hand and like polishing his knives on his shirt and like looking at us.",
+      "zh": "手里他妈的抓着好几把刀，就那么在衬衫上蹭来蹭去地擦刀，一边擦一边死死盯着我们看。"
+    },
+    {
+      "id": 43,
+      "start_sec": 329,
+      "speaker": "Sayre Quevedo",
+      "en": "The critical difference between you and Connor is this. Long ago, without realizing it, you chose a kind of freedom, the kind that imparts stability and safety,",
+      "zh": "你和 Connor 最根本的区别在于：很久以前，在不知不觉中，你选择了一种自由——一种能换来安稳与安全的自由，"
+    },
+    {
+      "id": 44,
+      "start_sec": 338,
+      "speaker": "Sayre Quevedo",
+      "en": "and that you pay for in unsubsidized loans, quarterly job reviews, happy hours with coworkers, boring party conversation, conferences with field practitioners, mid-century modern furniture, boxing classes, and dental checkups.",
+      "zh": "而你为此付出的代价，是无补贴助学贷款、季度绩效考核、和同事去的欢乐时光酒局、派对上无聊的寒暄、行业从业者研讨会、中古风现代家具、拳击课，还有定期的牙齿检查。"
+    },
+    {
+      "id": 45,
+      "start_sec": 349,
+      "speaker": "Sayre Quevedo",
+      "en": "And Connor chose a kind of freedom that comes with land projects, one-off jobs at biker festivals, wide-open mountain ranges from the Union Pacific line,",
+      "zh": "而 Connor 选择的自由，是跟着土地改造项目四处奔波、在机车节上打零工、坐在联合太平洋铁路的列车上饱览辽阔山脉，"
+    },
+    {
+      "id": 46,
+      "start_sec": 357,
+      "speaker": "Sayre Quevedo",
+      "en": "and that he pays for in a persistent smoker's cough, weeks on remote weed farms with Phish fans, and being pursued in New Orleans by a guy with a knife.",
+      "zh": "而他为此付出的代价，是老好不了的烟咳、在偏远大麻农场里跟一群 Phish 乐队铁粉待上好几周，以及在新奥尔良被一个持刀男尾随。"
+    },
+    {
+      "id": 47,
+      "start_sec": 368,
+      "speaker": "Connor",
+      "en": "It was just like psycho ass move. So yeah, that was crazy. That's why I was talking to you.",
+      "zh": "简直就是疯子一样的操作。所以说，真的太离谱了，我才想跟你说说这事。"
+    },
+    {
+      "id": 48,
+      "start_sec": 375,
+      "speaker": "Sayre Quevedo",
+      "en": "Your brother thinks you are a judgmental normie, and you think he is a judgmental hobo. This is the shared cost of your divergent freedoms. You both pay for your choices with the degree of distance it puts between you.",
+      "zh": "你弟弟觉得你是个爱评头论足的循规蹈矩派，而你觉得他是个同样爱指手画脚的流浪汉。这就是你们各自选择的自由所共同付出的代价。你们都在用彼此之间拉开的这段距离，为自己的选择买单。"
+    },
+    {
+      "id": 49,
+      "start_sec": 388,
+      "speaker": "Sayre Quevedo",
+      "en": "But you do love each other, and you are trying to be better, to be nicer, to be closer. This routine of phone calls, which began a few months ago, is your attempt.",
+      "zh": "但你们确实深爱着彼此，也在努力做得更好，对彼此更温和、更亲近。几个月前开始养成的这种定期通话习惯，就是你们的尝试。"
+    },
+    {
+      "id": 50,
+      "start_sec": 398,
+      "speaker": "Sayre Quevedo",
+      "en": "Drink water and eat meals.",
+      "zh": "记得多喝水，按时吃饭。"
+    },
+    {
+      "id": 51,
+      "start_sec": 400,
+      "speaker": "Connor",
+      "en": "Yeah, we have a house.",
+      "zh": "知道啦，我们这儿有房子住。"
+    },
+    {
+      "id": 52,
+      "start_sec": 401,
+      "speaker": "Sayre Quevedo",
+      "en": "All right, I love you.",
+      "zh": "行，我爱你。"
+    },
+    {
+      "id": 53,
+      "start_sec": 402,
+      "speaker": "Connor",
+      "en": "We can cook and stuff. All right.",
+      "zh": "可以自己做饭什么的。好啦。"
+    },
+    {
+      "id": 54,
+      "start_sec": 404,
+      "speaker": "Sayre Quevedo",
+      "en": "Yeah, I know you're not—",
+      "zh": "是，我知道你又不是——"
+    },
+    {
+      "id": 55,
+      "start_sec": 405,
+      "speaker": "Connor",
+      "en": "I'll see you later.",
+      "zh": "回头聊。"
+    },
+    {
+      "id": 56,
+      "start_sec": 406,
+      "speaker": "Sayre Quevedo",
+      "en": "—eating over a trash fire. OK, I love you.",
+      "zh": "——架着垃圾堆生火做饭。行，我爱你。"
+    },
+    {
+      "id": 57,
+      "start_sec": 409,
+      "speaker": "Connor",
+      "en": "OK. There's nothing wrong with that.",
+      "zh": "好。那样也没什么不好的啊。"
+    },
+    {
+      "id": 58,
+      "start_sec": 411,
+      "speaker": "Sayre Quevedo",
+      "en": "You do not return to the subject of your birth father tonight. There are no records of phone calls with Connor that week or the next. You assume his impulse to look for your father is a passing one. You doubt you follow up.",
+      "zh": "那天晚上，你们没有再聊回生父的话题。那一周和接下来的一周，都没有和 Connor 通话的记录。你以为他想找生父不过是一时兴起，大概也不会再去追问了。"
+    },
+    {
+      "id": 59,
+      "start_sec": 425,
+      "speaker": "Sayre Quevedo",
+      "en": "You went through your phase, of course, the one that you imagine most fatherless teenagers go through, in which your father's absence took on an outsized significance, in which your adolescent brain dissected and disassembled its meaning in relation to your sense of self.",
+      "zh": "当然，你也经历过那个阶段——就像你猜想大多数没有父亲的青少年都会经历的那样：父亲的缺席在心里被无限放大，你青春期的大脑反复剖析、拆解着这件事对自我认同的意义。"
+    },
+    {
+      "id": 60,
+      "start_sec": 440,
+      "speaker": "Sayre Quevedo",
+      "en": "Was your fatherlessness why you felt so apart from others? Was his abandonment a sort of permanent wound on your psyche? Only one way to find out: write a lot of shitty poetry.",
+      "zh": "没有父亲，是不是你总觉得自己和别人格格不入的原因？他的抛弃，是不是在你心里留下了一道永不愈合的伤疤？想知道答案，只有一个办法：写一大堆狗屁不通的诗。"
+    },
+    {
+      "id": 61,
+      "start_sec": 455,
+      "speaker": "Sayre Quevedo",
+      "en": "None of those poems are recorded, thank God. But one vestige remains, a play about two boys waiting to meet their father at a cafe. You wrote it when you were 17.",
+      "zh": "谢天谢地，那些诗一首也没录下来。不过倒是留下来一件“遗迹”——一部关于两个男孩在咖啡馆等父亲见面的独幕剧。那是你十七岁时写的。"
+    },
+    {
+      "id": 62,
+      "start_sec": 465,
+      "speaker": "Sayre Quevedo",
+      "en": "It was called, perhaps a little overprecisely, \"Waiting to Meet Your Father,\" and was haltingly, painfully acted out by two fellow art students.",
+      "zh": "剧名叫作《等待与父亲见面》——这名字起得或许有点太直白了——由两个艺术系同学磕磕绊绊、尴尬得让人脚趾抠地地演了出来。"
+    },
+    {
+      "id": 63,
+      "start_sec": 475,
+      "speaker": "Student 1",
+      "en": "What if he doesn't show?",
+      "zh": "万一他不来怎么办？"
+    },
+    {
+      "id": 64,
+      "start_sec": 477,
+      "speaker": "Student 2",
+      "en": "He will.",
+      "zh": "他会来的。"
+    },
+    {
+      "id": 65,
+      "start_sec": 478,
+      "speaker": "Student 1",
+      "en": "And if he doesn't?",
+      "zh": "那要是没来呢？"
+    },
+    {
+      "id": 66,
+      "start_sec": 480,
+      "speaker": "Student 2",
+      "en": "I'll be OK.",
+      "zh": "我没事的。"
+    },
+    {
+      "id": 67,
+      "start_sec": 483,
+      "speaker": "Sayre Quevedo",
+      "en": "The central tension of the play is that the two boys are waiting at a cafe to meet their father, who they've never known, but he is running late, or maybe he is standing them up.",
+      "zh": "这出戏的核心冲突在于，两个男孩在咖啡馆里等着见素未谋面的父亲，可他迟到了，又或者根本是放了他们鸽子。"
+    },
+    {
+      "id": 68,
+      "start_sec": 494,
+      "speaker": "Sayre Quevedo",
+      "en": "The brothers argue about whether or not they should wait to find out which one it is. One boy is sure it won't be worth it. The other is adamant they stay.",
+      "zh": "兄弟俩争论着到底该不该等下去，好弄清楚究竟是哪一种情况。一个笃定等下去不值得，另一个却坚持要留下来。"
+    },
+    {
+      "id": 69,
+      "start_sec": 503,
+      "speaker": "Student 1",
+      "en": "Do you think about him a lot?",
+      "zh": "你经常想他吗？"
+    },
+    {
+      "id": 70,
+      "start_sec": 505,
+      "speaker": "Student 2",
+      "en": "No. Do you?",
+      "zh": "不想。你呢？"
+    },
+    {
+      "id": 71,
+      "start_sec": 508,
+      "speaker": "Student 1",
+      "en": "Well, sometimes, like when we're about to fall asleep. It's usually while I'm not thinking that I think about him the most, you know.",
+      "zh": "嗯，有时候吧，比如快睡着的时候。通常是在我没刻意去想的时候，反而最容易想到他，你懂吧。"
+    },
+    {
+      "id": 72,
+      "start_sec": 517,
+      "speaker": "Student 1",
+      "en": "It's one of those things where when my mind is just drifting, I'll suddenly start wondering about him, and then I'll have to make myself do something to take my mind off him.",
+      "zh": "就是那种情况：我一走神，脑子里就会突然冒出关于他的念头，然后我就得强迫自己找点别的事做，好把注意力移开。"
+    },
+    {
+      "id": 73,
+      "start_sec": 526,
+      "speaker": "Student 1",
+      "en": "The more I think about trying to think about him, the more I end up thinking about him.",
+      "zh": "我越是总想着想他这事，到头来就越满脑子都是他。"
+    },
+    {
+      "id": 74,
+      "start_sec": 532,
+      "speaker": "Sayre Quevedo",
+      "en": "In the end—",
+      "zh": "到最后——"
+    },
+    {
+      "id": 75,
+      "start_sec": 534,
+      "speaker": "Student 1",
+      "en": "Let's go.",
+      "zh": "我们走吧。"
+    },
+    {
+      "id": 76,
+      "start_sec": 535,
+      "speaker": "Student 2",
+      "en": "Are you sure?",
+      "zh": "你确定吗？"
+    },
+    {
+      "id": 77,
+      "start_sec": 537,
+      "speaker": "Student 1",
+      "en": "Yeah.",
+      "zh": "嗯。"
+    },
+    {
+      "id": 78,
+      "start_sec": 538,
+      "speaker": "Sayre Quevedo",
+      "en": "—their father arrives a few moments after they walk out the door.",
+      "zh": "——就在他们推门离开没过一会儿，他们的父亲到了。"
+    },
+    {
+      "id": 79,
+      "start_sec": 546,
+      "speaker": "Sayre Quevedo",
+      "en": "You turn 20. On the eve of this new decade of life, you decided it was not worth it to actively think about your birth father anymore. It was not cool to still feel hurt about it. And so you could choose to feel nothing, and you plan to continue to do so now.",
+      "zh": "你二十岁了。在迈入人生新十年的前夕，你决定不再刻意去想你的生父了——不值得。都这把年纪了还为此感到受伤，太不酷了。于是你选择让自己毫无感觉，而如今，你依然打算继续这么做。"
+    },
+    {
+      "id": 80,
+      "start_sec": 562,
+      "speaker": "Sayre Quevedo",
+      "en": "You will not sabotage your brother's efforts, but you will not help them either. So you do not follow up with Connor about looking for your father. And Connor does not call.",
+      "zh": "你不会破坏弟弟的行动，但也不会帮他。所以你没有再向 Connor 过问寻找生父的事，而 Connor 也没有再打来电话。"
+    },
+    {
+      "id": 81,
+      "start_sec": 573,
+      "speaker": "Sayre Quevedo",
+      "en": "But there are also no records of other calls either. If you had recorded everything, you would hear three sessions here with your new work-subsidized tele-therapist,",
+      "zh": "不过，其他通话也同样没有留下录音。如果你当时把一切都录了下来，在这里你就会听到你和单位报销的新任远程心理咨询师的三次会谈，"
+    },
+    {
+      "id": 82,
+      "start_sec": 583,
+      "speaker": "Sayre Quevedo",
+      "en": "the first an intake session, a concise, summarized biography of your life as it relates to your inner problems.",
+      "zh": "第一次是初诊评估，相当于一份围绕你内心症结而展开的简明人生履历。"
+    },
+    {
+      "id": 83,
+      "start_sec": 593,
+      "speaker": "Sayre Quevedo",
+      "en": "You make radio documentaries. You won some awards for this last year.",
+      "zh": "你是做广播纪录片的，去年还为此拿了几个奖。"
+    },
+    {
+      "id": 84,
+      "start_sec": 600,
+      "speaker": "Sayre Quevedo",
+      "en": "Whew. Wow. Hold on, one second. There are two parts to this speech, and I was going to keep it short, but what the hell, I got gold, so yeah.",
+      "zh": "呼，哇。等一下，稍等一秒。这段获奖感言原本分两部分，我本来打算长话短说，但管他呢，我拿了金奖，所以就多说两句吧。"
+    },
+    {
+      "id": 85,
+      "start_sec": 613,
+      "speaker": "Sayre Quevedo",
+      "en": "You crave the attention and acknowledgment, and it also repulses you. You work at the most famous newspaper in the world, at one of the biggest shows in the country. Lately, you've been leaving early to see if anyone notices. They don't.",
+      "zh": "你渴望关注与认可，同时又对此心生厌恶。你在全世界最负盛名的报社、全美屈指可数的王牌节目里工作。最近你总是提前下班，想看看有没有人注意。结果根本没人在意。"
+    },
+    {
+      "id": 86,
+      "start_sec": 627,
+      "speaker": "Child",
+      "en": "Ah, alligator!",
+      "zh": "啊，鳄鱼！"
+    },
+    {
+      "id": 87,
+      "start_sec": 629,
+      "speaker": "Sayre Quevedo",
+      "en": "You were raised by a loving single mother in the Bay Area.",
+      "zh": "你是在旧金山湾区由一位充满爱心的单亲妈妈抚养长大的。"
+    },
+    {
+      "id": 88,
+      "start_sec": 632,
+      "speaker": "Woman",
+      "en": "Yikes.",
+      "zh": "哎呀。"
+    },
+    {
+      "id": 89,
+      "start_sec": 633,
+      "speaker": "Child",
+      "en": "Alligator.",
+      "zh": "鳄鱼。"
+    },
+    {
+      "id": 90,
+      "start_sec": 635,
+      "speaker": "Woman",
+      "en": "Yeah, you've got to be careful. There's alligators here.",
+      "zh": "对，你得小心点，这儿真的有鳄鱼。"
+    },
+    {
+      "id": 91,
+      "start_sec": 639,
+      "speaker": "Sayre Quevedo",
+      "en": "You would hear yourself tell your tele-therapist that your birth father left before you were born, and you've never met him, that you suspect, based on nothing more than an elementary understanding of Freud and a few Instagram therapy videos, that this is the root of some of your problems-- daddy issues.",
+      "zh": "你会听到自己在录音里告诉线上心理咨询师：生父在你出生前就离开了，你从未见过他；凭着对 Freud 的一知半解和几条 Instagram 心理科普视频，你怀疑这就是你某些问题的根源——也就是所谓的“父亲情结”。"
+    },
+    {
+      "id": 92,
+      "start_sec": 655,
+      "speaker": "Sayre Quevedo",
+      "en": "You have a twin brother, but you're not identical. You probably make the same joke you always do, that you're sorry to disappoint your therapist. People are always more excited when they think there's some other version of you out there.",
+      "zh": "你有个双胞胎兄弟，但不是同卵双胞胎。你大概又讲了那个老掉牙的笑话，说很抱歉让咨询师失望了。人们一想到这世上还有另一个“你”，总是会格外兴奋。"
+    },
+    {
+      "id": 93,
+      "start_sec": 669,
+      "speaker": "Sayre Quevedo",
+      "en": "Most relevant to your tele-therapist, what you would like to fix about yourself-- it is mostly one thing, which you are almost embarrassed to admit-- you have the sneaking suspicion that you will never fall in love.",
+      "zh": "而对你的线上心理咨询师来说最关键的是，你最想在自己身上修正的地方——其实主要就一件事，你甚至有点不好意思启齿：你隐约觉得，自己这辈子大概再也不会爱上任何人了。"
+    },
+    {
+      "id": 94,
+      "start_sec": 683,
+      "speaker": "Sayre Quevedo",
+      "en": "Your last attempt officially ended the night of your 27th birthday, you and your ex shouting at one another beneath the rattling viaduct of the M line.",
+      "zh": "你上一段恋爱尝试正式画上句号，是在你 27 岁生日的夜晚。你和前任在地铁 M 线隆隆作响的高架桥下互相大喊大叫。"
+    },
+    {
+      "id": 95,
+      "start_sec": 692,
+      "speaker": "Sayre Quevedo",
+      "en": "Your ex saying, it's been two years. You need to get over me. I got over you in a week. I know, you said, I know-- even though you didn't know.",
+      "zh": "你的前任说：都过去两年了，你得放下我了，我一个星期就放下你了。“我知道，”你说，“我知道”——哪怕你心里根本没底。"
+    },
+    {
+      "id": 96,
+      "start_sec": 709,
+      "speaker": "Sayre Quevedo",
+      "en": "That is as far as you get. Your therapist calls it quits at the start of the pandemic. You build fortresses of routine to keep the mania of your confinement from creeping in. You quit smoking, start running.",
+      "zh": "你的咨询就到此为止了。疫情伊始，你的心理咨询师就停掉了诊疗。你用日复一日的生活规律筑起堡垒，抵御居家隔离带来的躁狂与失控。你戒了烟，开始跑步。"
+    },
+    {
+      "id": 97,
+      "start_sec": 722,
+      "speaker": "Sayre Quevedo",
+      "en": "You record your phone calls. You tell yourself it's for a project you hope to make one day about this historic moment.",
+      "zh": "你开始录下自己的通话。你告诉自己，这是为了日后能做一档节目，记录下这个历史性的时刻。"
+    },
+    {
+      "id": 98,
+      "start_sec": 730,
+      "speaker": "Michelle",
+      "en": "Hi, honey. How are you?",
+      "zh": "嗨，宝贝，最近怎么样？"
+    },
+    {
+      "id": 99,
+      "start_sec": 732,
+      "speaker": "Sayre Quevedo",
+      "en": "Hello.",
+      "zh": "你好呀。"
+    },
+    {
+      "id": 100,
+      "start_sec": 733,
+      "speaker": "Sayre Quevedo",
+      "en": "Your aunt and your mom have been living together in Portland since quarantine began.",
+      "zh": "自从隔离开始，你姨妈和你妈妈就一直一起住在波特兰。"
+    },
+    {
+      "id": 101,
+      "start_sec": 738,
+      "speaker": "Mom",
+      "en": "I'm back.",
+      "zh": "我回来啦。"
+    },
+    {
+      "id": 102,
+      "start_sec": 739,
+      "speaker": "Michelle",
+      "en": "Your mommy's back. She's here.",
+      "zh": "你妈回来了，她在这儿呢。"
+    },
+    {
+      "id": 103,
+      "start_sec": 741,
+      "speaker": "Sayre Quevedo",
+      "en": "You're back.",
+      "zh": "你回来啦。"
+    },
+    {
+      "id": 104,
+      "start_sec": 741,
+      "speaker": "Michelle",
+      "en": "We're both here.",
+      "zh": "我们都在这儿呢。"
+    },
+    {
+      "id": 105,
+      "start_sec": 743,
+      "speaker": "Mom",
+      "en": "So does it go from bear to otter, and then to something else? Or it's just bear--",
+      "zh": "那它是从“熊”变成“水獭”，然后再变成别的类型吗？还是说就只是“熊”——"
+    },
+    {
+      "id": 106,
+      "start_sec": 749,
+      "speaker": "Sayre Quevedo",
+      "en": "It's not an evolution. It's just different groups.",
+      "zh": "那不是什么进化链啦，只是不同的分类而已。"
+    },
+    {
+      "id": 107,
+      "start_sec": 752,
+      "speaker": "Michelle",
+      "en": "OK.",
+      "zh": "好吧。"
+    },
+    {
+      "id": 108,
+      "start_sec": 753,
+      "speaker": "Mom",
+      "en": "Twinks are a totally different category, right?",
+      "zh": "那“小鲜肉（twink）”就完全是另一类了，对吧？"
+    },
+    {
+      "id": 109,
+      "start_sec": 756,
+      "speaker": "Sayre Quevedo",
+      "en": "This is your favorite kind of call. You get stoned and curl up in bed with the phone balanced on your cheek. You are still, at 27, like most children.",
+      "zh": "这是你最喜欢的那种电话。你抽了点大麻让自己放松下来，蜷缩在床上，把手机贴在脸颊上。即便已经 27 岁，你依然像大多数孩子一样。"
+    },
+    {
+      "id": 110,
+      "start_sec": 765,
+      "speaker": "Sayre Quevedo",
+      "en": "You like to hear stories of the world before you were in it, of your mother before she was your mother, like when her and your aunt were strippers at the New Century Theater in San Francisco.",
+      "zh": "你喜欢听那些你还没来到这世上之前的故事，听你妈妈在成为你妈妈之前的过往——比如她和你姨妈当年在旧金山的新世纪剧院跳脱衣舞的日子。"
+    },
+    {
+      "id": 111,
+      "start_sec": 776,
+      "speaker": "Sayre Quevedo",
+      "en": "And what did you dance to? And what did my mom dance to?",
+      "zh": "那你们当时都伴着什么歌跳舞？我妈又用什么歌？"
+    },
+    {
+      "id": 112,
+      "start_sec": 780,
+      "speaker": "Michelle",
+      "en": "I would dance to Bob Dylan a lot, actually, believe it or not. But so did your mom.",
+      "zh": "信不信由你，我其实经常用 Bob Dylan 的歌来跳。不过你妈也一样。"
+    },
+    {
+      "id": 113,
+      "start_sec": 785,
+      "speaker": "Mom",
+      "en": "Well, yeah, but his Christian album. I'm going to scandalize your nephew now. Your auntie did the schoolgirl thing. Let's just be honest. Let's just be honest. Yeah.",
+      "zh": "嗯，是啊，但我用的是他的基督教专辑。我现在要来爆一下料，吓唬吓唬你外甥了。你姨妈当年走的是女学生路线。咱们就实话实说吧，实话实说，没错。"
+    },
+    {
+      "id": 114,
+      "start_sec": 796,
+      "speaker": "Michelle",
+      "en": "Yes.",
+      "zh": "没错。"
+    },
+    {
+      "id": 115,
+      "start_sec": 797,
+      "speaker": "Sayre Quevedo",
+      "en": "Creepy, but I won't think about that.",
+      "zh": "听着挺别扭的，不过我就不去细想了。"
+    },
+    {
+      "id": 116,
+      "start_sec": 800,
+      "speaker": "Michelle",
+      "en": "I know. When you think about it, super creepy.",
+      "zh": "我懂，仔细一想确实挺瘆人的。"
+    },
+    {
+      "id": 117,
+      "start_sec": 803,
+      "speaker": "Mom",
+      "en": "Well, I'm warning you that my phone is-- you know what? I'm going to go upstairs and get the cord. But I have to look at this message from your brother.",
+      "zh": "对了，先跟你说一声我手机快——算了，我去楼上拿充电线。不过我得先看一下你哥发来的这条消息。"
+    },
+    {
+      "id": 118,
+      "start_sec": 813,
+      "speaker": "Michelle",
+      "en": "OK, now's your chance, Sayre. Your mom's going upstairs. No, go ahead.",
+      "zh": "好了，机会来了，Sayre，你妈上楼了。去吧，快问。"
+    },
+    {
+      "id": 119,
+      "start_sec": 817,
+      "speaker": "Sayre Quevedo",
+      "en": "What, um-- what is her-- what are her-- oh, did you ever meet my birth father?",
+      "zh": "那个，呃——她是怎么……她都……哦对了，你以前见过我的生父吗？"
+    },
+    {
+      "id": 120,
+      "start_sec": 825,
+      "speaker": "Michelle",
+      "en": "Yeah.",
+      "zh": "见过啊。"
+    },
+    {
+      "id": 121,
+      "start_sec": 826,
+      "speaker": "Sayre Quevedo",
+      "en": "And what was your general impression?",
+      "zh": "那你对他总体印象怎么样？"
+    },
+    {
+      "id": 122,
+      "start_sec": 829,
+      "speaker": "Michelle",
+      "en": "He was OK. I only met your birth father a couple of times. I remember I met him once at the Zeitgeist, and he was really hella tall for one thing. He was cute. He was handsome.",
+      "zh": "他人还行吧。我也就见过你生父一两回。我记得有一次是在 Zeitgeist 酒吧见到的，首先他个子是真的贼高。人挺帅气的，长得很英俊。"
+    },
+    {
+      "id": 123,
+      "start_sec": 848,
+      "speaker": "Sayre Quevedo",
+      "en": "Your mother is not exactly withholding about your father. She answers the questions if you ask them, which you did a lot when you were a teenager. Your origin story has remained consistent but unsatisfyingly brief.",
+      "zh": "你妈妈倒也不是刻意隐瞒你父亲的事。只要你问，她都会回答——你十几岁的时候就问过很多次。关于你的身世来历，她的说法一直前后一致，但总是简短得让人意犹未尽。"
+    },
+    {
+      "id": 124,
+      "start_sec": 860,
+      "speaker": "Sayre Quevedo",
+      "en": "Your father was a line cook. He played in a rockabilly band. They met at a bar called the Zeitgeist, dated for a while. She got pregnant. He wasn't ready to be a father. She decided to keep you.",
+      "zh": "你父亲当时是个餐厅厨师，还在一个乡摇乐队里演出。他们在一家叫 Zeitgeist 的酒吧相识，谈了一阵子恋爱。后来她怀孕了，他还没准备好当父亲，于是她决定独自生下你们。"
+    },
+    {
+      "id": 125,
+      "start_sec": 873,
+      "speaker": "Sayre Quevedo",
+      "en": "For a while, she exchanged letters with his mother, but your mom says she was always justifying his choice to not be involved in your lives, so they stopped communicating. Your mother tells you his name, but says she can't remember how it's spelled.",
+      "zh": "有一段时间，她还和他的母亲通过信，但你妈妈说，那位老太太总是在替他不参与你们的生活找借口，所以后来她们就断了联系。你妈妈告诉了你他的名字，但说不记得具体怎么拼写了。"
+    },
+    {
+      "id": 126,
+      "start_sec": 886,
+      "speaker": "Michelle",
+      "en": "So yeah. So I met him a couple of times. I thought-- and he seemed nice. He was nice to me. He was polite. He was clearly trying to make a good impression on me because I was your mom's friend. Yeah, and he was very tall.",
+      "zh": "所以对，我也就见过他几面。我觉得——他人看着还挺不错的，对我很客气，也很有礼貌。看得出来，因为我是你妈的朋友，他很想在我面前留个好印象。嗯，而且他个子真的很高。"
+    },
+    {
+      "id": 127,
+      "start_sec": 911,
+      "speaker": "Sayre Quevedo",
+      "en": "The pandemic inspires inexplicable life choices. Some friends buzz their hair, others experiment with sobriety. You move to Los Angeles.",
+      "zh": "疫情总能让人做出些莫名其妙的人生决定。有的朋友剃了寸头，有的开始尝试戒酒。而你，搬去了洛杉矶。"
+    },
+    {
+      "id": 128,
+      "start_sec": 922,
+      "speaker": "Sayre Quevedo",
+      "en": "You are surprised to find that your next-door neighbors, a young white couple, rarely return your greetings. You live in the heart of a gentrifying Central American neighborhood.",
+      "zh": "让你意外的是，隔壁那对年轻的白人夫妇很少回应你的问候。你住在一个正经历士绅化改造的中美洲裔社区中心。"
+    },
+    {
+      "id": 129,
+      "start_sec": 931,
+      "speaker": "Sayre Quevedo",
+      "en": "When you speak to the cashier at the corner store in Spanish, she responds in English. You want to tell her that you're not like the rest of them. Your grandmother's from Santa Ana.",
+      "zh": "你用西班牙语和街角便利店的收银员说话，她却用英语回你。你很想告诉她，你跟那些新搬来的白人住户不一样——你外婆可是来自圣安娜。"
+    },
+    {
+      "id": 130,
+      "start_sec": 940,
+      "speaker": "Sayre Quevedo",
+      "en": "You couldn't have afforded to live here a few years ago. You moved here to be closer to something. You're just not sure what or how.",
+      "zh": "几年前你根本住不起这儿。你搬到这里来，是为了离某种东西更近一些，只是你自己也说不清那究竟是什么，又该如何靠近。"
+    },
+    {
+      "id": 131,
+      "start_sec": 954,
+      "speaker": "Sayre Quevedo",
+      "en": "Connor is driving his truck up and down the Pacific Coast Highway. He's waiting to be called in to the wildfires, but so far, nobody has called, and he spent the summer sleeping in his truck.",
+      "zh": "Connor 开着他的卡车沿着太平洋海岸公路来回跑。他在等山火救援的征召，但至今一直没人叫他，整个夏天他都睡在卡车里。"
+    },
+    {
+      "id": 132,
+      "start_sec": 967,
+      "speaker": "Sayre Quevedo",
+      "en": "On April 18th, 2021, a little over a year after he first calls you to ask to look for your father, he texts you a series of screenshots.",
+      "zh": "2021年4月18日，距离他第一次打电话找你商量寻找生父已经过去一年多，他给你发来了一连串截图。"
+    },
+    {
+      "id": 133,
+      "start_sec": 977,
+      "speaker": "Sayre Quevedo",
+      "en": "They're of an exchange between him and someone from a DNA testing website, a distant relative. You bought a kit for your family a few years ago and forgot about it.",
+      "zh": "那是他和一家 DNA 检测网站上一位陌生人的聊天记录——对方是你们的远房亲戚。几年前你给家里买过一套基因检测盒，后来就给忘了。"
+    },
+    {
+      "id": 134,
+      "start_sec": 986,
+      "speaker": "Sayre Quevedo",
+      "en": "In the exchange, Connor asks if there's someone in this distant relative's family with your birth father's name. Yes, in fact, says the stranger.",
+      "zh": "在对话里，Connor 问这位远亲家族里有没有人叫你生父的那个名字。“还真有，”那个陌生人回答道。"
+    },
+    {
+      "id": 135,
+      "start_sec": 996,
+      "speaker": "Sayre Quevedo",
+      "en": "A few days later, Connor receives your birth father's first and last name, for the first time, spelled correctly.",
+      "zh": "几天后，Connor 拿到了你生父的名和姓——这是有生以来第一次，拼写完全正确。"
+    },
+    {
+      "id": 136,
+      "start_sec": 1004,
+      "speaker": "Sayre Quevedo",
+      "en": "When you search your birth father's name in public records, it returns a result in Los Angeles, in a suburb 40 minutes away from you.",
+      "zh": "你在公开档案里搜索生父的名字，结果就显示在洛杉矶，就在离你只有40分钟车程的一个郊区。"
+    },
+    {
+      "id": 137,
+      "start_sec": 1013,
+      "speaker": "Connor",
+      "en": "I mean, how do you feel about it?",
+      "zh": "我是说，你对此是什么感觉？"
+    },
+    {
+      "id": 138,
+      "start_sec": 1015,
+      "speaker": "Sayre Quevedo",
+      "en": "I feel good about it. Yeah, I feel good about it.",
+      "zh": "我感觉挺好的。嗯，我觉得挺好的。"
+    },
+    {
+      "id": 139,
+      "start_sec": 1018,
+      "speaker": "Connor",
+      "en": "Because for me, it's like, the first day that we kind of got that info, I was like, I'm kind of excited.",
+      "zh": "因为对我来说，刚拿到那条消息的第一天，我就觉得，自己还挺兴奋的。"
+    },
+    {
+      "id": 140,
+      "start_sec": 1027,
+      "speaker": "Sayre Quevedo",
+      "en": "It has been a long time since you've heard Connor excited about anything. It's sweet and unnerving.",
+      "zh": "你已经很久没听见 Connor 对什么事这么兴奋过了。这既让人觉得暖心，又让人心里发慌。"
+    },
+    {
+      "id": 141,
+      "start_sec": 1033,
+      "speaker": "Sayre Quevedo",
+      "en": "To say no would be disappointing for him, a betrayal of your attempts towards closeness. But the thought of meeting your birth father inspires very little feeling in you, besides a nascent hope that you might finally finish a project.",
+      "zh": "如果拒绝，会让他失望，也算背弃了你们好不容易想走近彼此的努力。可一想到要去见生父，你心里其实没什么波澜，唯一冒出来的念头，不过是也许终于能把一个节目做完了。"
+    },
+    {
+      "id": 142,
+      "start_sec": 1047,
+      "speaker": "Connor",
+      "en": "I mean, do you feel like if you met him, do you feel like you won't get anything out of it?",
+      "zh": "我是说，你是不是觉得就算见了他，也未必能从他身上得到什么？"
+    },
+    {
+      "id": 143,
+      "start_sec": 1054,
+      "speaker": "Sayre Quevedo",
+      "en": "I guess I'm just trying to figure out, like, what... You know, like I feel like we're both almost 30, you know, where it's just like, what is this guy going to tell us about ourselves that we don't already know?",
+      "zh": "我只是有点想不明白……你知道的，咱俩都快三十了，我就觉得，关于我们自己，这个人还能告诉我们什么我们早就不知道的事呢？"
+    },
+    {
+      "id": 144,
+      "start_sec": 1067,
+      "speaker": "Connor",
+      "en": "I hear you, because it's like I'm not interested-- it's like I don't really give a shit about-- I mean, I do give a shit. I do give a shit about meeting him.",
+      "zh": "我懂你的意思，因为其实我也不是说多在乎——也不是真的一点不在乎——我是说，我确实在乎。我确实挺想见他一面的。"
+    },
+    {
+      "id": 145,
+      "start_sec": 1076,
+      "speaker": "Connor",
+      "en": "I don't know. Do you ever look in the mirror and, say, think about Dad, or Dad, but our biological dad?",
+      "zh": "我也不知道怎么说。你有没有过照镜子的时候，突然想起“爸爸”——就是咱们那个亲生父亲？"
+    },
+    {
+      "id": 146,
+      "start_sec": 1086,
+      "speaker": "Sayre Quevedo",
+      "en": "Yeah. Yeah, definitely.",
+      "zh": "有，那肯定有。"
+    },
+    {
+      "id": 147,
+      "start_sec": 1088,
+      "speaker": "Connor",
+      "en": "It's like, I find myself always looking and being like, I don't even know what our family looks like.",
+      "zh": "我发现自己老是在镜子前琢磨，我甚至都不知道咱们那边的亲人长什么样。"
+    },
+    {
+      "id": 148,
+      "start_sec": 1095,
+      "speaker": "Connor",
+      "en": "I have Mom to compare that to. I'm like, oh, it's like I have Mom's face in a lot of ways, but I also wonder what our biological dad looks like.",
+      "zh": "我只能拿妈妈来对照，心想，哦，我这张脸在很多地方长得真像妈，但我也总好奇，咱们亲生父亲到底长什么样。"
+    },
+    {
+      "id": 149,
+      "start_sec": 1108,
+      "speaker": "Sayre Quevedo",
+      "en": "You have tabs open to several potential fathers on Facebook, a series of white men in rimless or squared sunglasses with varied hairlines and gradient pallid shades.",
+      "zh": "你在 Facebook 上点开了好几个可能是你生父的标签页——一水儿戴着无框或方形墨镜的白人男性，发际线各异，脸色带着深浅不一的苍白。"
+    },
+    {
+      "id": 150,
+      "start_sec": 1118,
+      "speaker": "Sayre Quevedo",
+      "en": "Your top contender sports a buzz cut and a pair of gas station sunglasses. He's an amateur photographer who takes pictures of animals at the zoo.",
+      "zh": "最像样的那个候选人留着寸头，戴着一副加油站便利店卖的廉价墨镜。他是个业余摄影师，专去动物园拍动物。"
+    },
+    {
+      "id": 151,
+      "start_sec": 1128,
+      "speaker": "Sayre Quevedo",
+      "en": "I found one picture of a person who kind of looks like he could be related to us, maybe.",
+      "zh": "我找到一张照片，上面那个人看着倒真有点像跟咱们有血缘关系。"
+    },
+    {
+      "id": 152,
+      "start_sec": 1134,
+      "speaker": "Connor",
+      "en": "Yeah, I saw one that maybe did. But I was like, damn, he's pretty ugly. I don't know.",
+      "zh": "对，我也看到一个挺像的。不过我当时就想，我去，他长得也太丑了吧，搞不懂。"
+    },
+    {
+      "id": 153,
+      "start_sec": 1140,
+      "speaker": "Sayre Quevedo",
+      "en": "Is it the guy with the black hair and the sunglasses on?",
+      "zh": "是不是那个黑头发、戴墨镜的男的？"
+    },
+    {
+      "id": 154,
+      "start_sec": 1143,
+      "speaker": "Connor",
+      "en": "Yeah, that guy. I was like, is that really Mom's type before she started dating really boring dudes?",
+      "zh": "对，就那哥们。我当时心里还嘀咕，妈在找那些无聊透顶的男人之前，原来喜欢这种款啊？"
+    },
+    {
+      "id": 155,
+      "start_sec": 1151,
+      "speaker": "Sayre Quevedo",
+      "en": "You have not told your mother about any of this, and you're not sure you will. It is very different, you think, to ask questions about your birth father than to meet him.",
+      "zh": "这些事你半个字都没告诉妈妈，也不确定以后会不会告诉她。你觉得，打听生父的情况和真要去见他，完全是两码事。"
+    },
+    {
+      "id": 156,
+      "start_sec": 1162,
+      "speaker": "Connor",
+      "en": "And I'm curious about what his life is at.",
+      "zh": "而且我也挺好奇他现在过得怎么样。"
+    },
+    {
+      "id": 157,
+      "start_sec": 1166,
+      "speaker": "Sayre Quevedo",
+      "en": "Yeah.",
+      "zh": "嗯。"
+    },
+    {
+      "id": 158,
+      "start_sec": 1167,
+      "speaker": "Connor",
+      "en": "I also hope he's balling. No, I'm just kidding.",
+      "zh": "我还希望他混得贼有钱呢。哈哈，开玩笑的啦。"
+    },
+    {
+      "id": 159,
+      "start_sec": 1176,
+      "speaker": "Sayre Quevedo",
+      "en": "Suddenly, it's June again, almost exactly one year since you arrived to Los Angeles.",
+      "zh": "转眼又是六月，距离你来到洛杉矶差不多整整一年。"
+    },
+    {
+      "id": 160,
+      "start_sec": 1182,
+      "speaker": "Sayre Quevedo",
+      "en": "One night, you will absent-mindedly Google your father's name and Los Angeles. The screen will populate with the same buzz cut guy with gas station sunglasses, but now there are two new images.",
+      "zh": "有天晚上，你在谷歌上漫不经心地搜了父亲的名字加上“洛杉矶”。屏幕上跳出来的还是那个留寸头、戴加油站墨镜的男人，但这次多了两张新照片。"
+    },
+    {
+      "id": 161,
+      "start_sec": 1191,
+      "speaker": "Sayre Quevedo",
+      "en": "The first is a man standing beside a barber chair. He looks like he was ripped from a Time magazine article from the '50s. Tall, a pencil mustache, slick back hair.",
+      "zh": "第一张是一个站在理发椅旁边的男人。他看着就像直接从上世纪50年代《时代》杂志的文章里裁出来的：身材高大，留着铅笔小胡子，头发向后梳得油光水滑。"
+    },
+    {
+      "id": 162,
+      "start_sec": 1197,
+      "speaker": "Sayre Quevedo",
+      "en": "There's an interview with him. He owns the barbershop. He grew up in California, moved to Los Angeles in the mid-n--",
+      "zh": "旁边还有一篇他的专访。他是那家理发店的老板。他在加州长大，九十年代中期搬到了洛杉矶——"
+    },
+    {
+      "id": 163,
+      "start_sec": 1200,
+      "speaker": "Sayre Quevedo",
+      "en": "'90s. Before he was a barber, he says, he was a cook.",
+      "zh": "他在采访里说，在当理发师之前，他当过厨师。"
+    },
+    {
+      "id": 164,
+      "start_sec": 1205,
+      "speaker": "Sayre Quevedo",
+      "en": "The second image is of him standing in front of the shop. It looks familiar. You will type the address into Google Maps.",
+      "zh": "第二张照片是他站在理发店门口。店面看起来有些眼熟。你把地址输进了谷歌地图。"
+    },
+    {
+      "id": 165,
+      "start_sec": 1213,
+      "speaker": "Sayre Quevedo",
+      "en": "You ate dinner across the street from the shop two nights ago. You will type in your address to measure the distance between you and this barbershop.",
+      "zh": "两天前你才刚在街对面吃过晚饭。你输入自己的住址，想测一下自己离这家理发店有多远。"
+    },
+    {
+      "id": 166,
+      "start_sec": 1221,
+      "speaker": "Sayre Quevedo",
+      "en": "A short, nearly straight line will appear, and an estimated arrival time from your apartment: five minutes.",
+      "zh": "屏幕上跳出一条几乎笔直的短线，上面显示着从你公寓出发的预计抵达时间：五分钟。"
+    },
+    {
+      "id": 167,
+      "start_sec": 1241,
+      "speaker": "Ira Glass",
+      "en": "Coming up, some decisions that need to be made. Stay with us.",
+      "zh": "稍后回来，面前还有几个决定等着他们去做。别走开。"
+    },
+    {
+      "id": 168,
+      "start_sec": 1249,
+      "speaker": "Ira Glass",
+      "en": "It's This American Life. Our story today from Sayre Quevedo continues.",
+      "zh": "这里是 This American Life。今天由 Sayre Quevedo 带来的故事继续。"
+    },
+    {
+      "id": 169,
+      "start_sec": 1262,
+      "speaker": "Connor",
+      "en": "Hello?",
+      "zh": "喂？"
+    },
+    {
+      "id": 170,
+      "start_sec": 1263,
+      "speaker": "Sayre Quevedo",
+      "en": "You've read that there are several theories about the origins of language.",
+      "zh": "你曾读到过，关于语言的起源有好几种假说。"
+    },
+    {
+      "id": 171,
+      "start_sec": 1267,
+      "speaker": "Connor",
+      "en": "Yeah, so I'm going to be in and out. I'm in this weird bunker room right now. I think it's where people who work the crew of Amtrak sleep.",
+      "zh": "嗯，待会儿信号可能断断续续的。我现在在一个怪怪的卧铺休息室里，好像是美铁乘务员睡觉的地方。"
+    },
+    {
+      "id": 172,
+      "start_sec": 1277,
+      "speaker": "Sayre Quevedo",
+      "en": "Got you. So should you not be in there talking on the phone?",
+      "zh": "明白。那你是不是不应该在里面打电话？"
+    },
+    {
+      "id": 173,
+      "start_sec": 1282,
+      "speaker": "Connor",
+      "en": "No, I don't think it matters.",
+      "zh": "不用，我觉得没关系。"
+    },
+    {
+      "id": 174,
+      "start_sec": 1285,
+      "speaker": "Sayre Quevedo",
+      "en": "One theory suggests we learn to communicate by imitating nature. Another says we learned through song.",
+      "zh": "一种假说认为，人类是通过模仿自然界学会沟通的；另一种则说，我们是在歌唱中学会了语言。"
+    },
+    {
+      "id": 175,
+      "start_sec": 1291,
+      "speaker": "Sayre Quevedo",
+      "en": "No, I just mean, you know, to be considerate of other people. Oh, okay, well, then that's fine. I wasn't sure if there were, sorry.",
+      "zh": "不，我的意思是，你知道吧，体谅一下别人。哦，好吧，那就行。我还以为里面有人呢，抱歉。"
+    },
+    {
+      "id": 176,
+      "start_sec": 1297,
+      "speaker": "Connor",
+      "en": "Yeah, I'm not talking to you on the phone while people are sleeping.",
+      "zh": "是啊，我又不是在别人睡觉的时候跟你打电话。"
+    },
+    {
+      "id": 177,
+      "start_sec": 1301,
+      "speaker": "Sayre Quevedo",
+      "en": "Okay, I'll talk to you soon. I'll talk to you soon. If you're going to be an asshole--",
+      "zh": "行吧，回头再聊，回头再聊。你要是非得这么冲的话——"
+    },
+    {
+      "id": 178,
+      "start_sec": 1304,
+      "speaker": "Connor",
+      "en": "Don't have bad judgment of me. I'm not talking on the phone in front of people who are sleeping. That's a ridiculous thing to think!",
+      "zh": "别随便臆测我。我可不会当着正在睡觉的人打电话。你这么想也太荒唐了！"
+    },
+    {
+      "id": 179,
+      "start_sec": 1310,
+      "speaker": "Sayre Quevedo",
+      "en": "I know.",
+      "zh": "我知道。"
+    },
+    {
+      "id": 180,
+      "start_sec": 1311,
+      "speaker": "Sayre Quevedo",
+      "en": "These theories of language suggest that either suddenly or over a long period of time, primordial grunts and hums evolved into words, and words allowed us to hunt and pass on knowledge, to gather food and stay safe, to share beliefs and traditions, to express feeling and connect.",
+      "zh": "这些语言假说指出，无论是骤然发生还是历经漫长岁月，远古的低吟与咕哝终究演变成了语言。而语言让我们得以狩猎、传承知识、采集食物、保障安全，得以分享信仰与传统，也得以表达情感、彼此联结。"
+    },
+    {
+      "id": 181,
+      "start_sec": 1329,
+      "speaker": "Sayre Quevedo",
+      "en": "Connor, I was just trying to be lighthearted. You don't need to be such a drama queen about it.",
+      "zh": "Connor，我刚刚只是想开个轻松的玩笑，你用不着这么戏精吧。"
+    },
+    {
+      "id": 182,
+      "start_sec": 1334,
+      "speaker": "Connor",
+      "en": "I don't think you were. I think you're being judgmental.",
+      "zh": "我不觉得。我觉得你就是在指责我。"
+    },
+    {
+      "id": 183,
+      "start_sec": 1337,
+      "speaker": "Sayre Quevedo",
+      "en": "I was, Connor-- Connor, it's not that deep. Just chill.",
+      "zh": "我是说，Connor——Connor，真没那么严重，放轻松点。"
+    },
+    {
+      "id": 184,
+      "start_sec": 1341,
+      "speaker": "Connor",
+      "en": "It's a small thing. Drop it. Yes.",
+      "zh": "小事一桩，翻篇吧，行了吧。"
+    },
+    {
+      "id": 185,
+      "start_sec": 1344,
+      "speaker": "Sayre Quevedo",
+      "en": "It's a small thing. You made it a big thing.",
+      "zh": "本来就是小事，是你自己把它闹大的。"
+    },
+    {
+      "id": 186,
+      "start_sec": 1345,
+      "speaker": "Connor",
+      "en": "Can we drop it? Can we drop it?",
+      "zh": "能不能翻篇了？能不能翻篇？"
+    },
+    {
+      "id": 187,
+      "start_sec": 1347,
+      "speaker": "Sayre Quevedo",
+      "en": "You can drop it. You drop it.",
+      "zh": "你可以翻篇啊，你翻啊。"
+    },
+    {
+      "id": 188,
+      "start_sec": 1348,
+      "speaker": "Connor",
+      "en": "I am dropping it.",
+      "zh": "我已经翻篇了。"
+    },
+    {
+      "id": 189,
+      "start_sec": 1350,
+      "speaker": "Sayre Quevedo",
+      "en": "Good, I'm dropping it, too. Do you want to hear about all the work that I did for you, or what? Should we move on?",
+      "zh": "很好，我也翻篇了。那你到底想不想听我为你做了这么多功课？我们能往下聊了吗？"
+    },
+    {
+      "id": 190,
+      "start_sec": 1355,
+      "speaker": "Sayre Quevedo",
+      "en": "It's hard to believe that this conversation between you and Connor is the culmination of epochs of human development. And that's because a stubborn critical defect is demonstrated in your and Connor's exchange,",
+      "zh": "很难相信，你和 Connor 之间的这番对话，竟是人类历经无数世代演化的结晶。因为你们俩这番你来我往，恰恰暴露出一个顽固而致命的缺陷："
+    },
+    {
+      "id": 191,
+      "start_sec": 1366,
+      "speaker": "Sayre Quevedo",
+      "en": "that no matter how language evolves, no matter how we choose to use it, there is always a chance that somewhere between thinking, speaking, and hearing, our intention and meaning will be lost.",
+      "zh": "无论语言如何演变，无论我们如何遣词造句，在思索、倾吐与聆听之间的某个环节，我们的本意和初衷总有可能在半路丢失。"
+    },
+    {
+      "id": 192,
+      "start_sec": 1376,
+      "speaker": "Connor",
+      "en": "It's not-- it's not a big deal. And--",
+      "zh": "这真不是什么大事，而且——"
+    },
+    {
+      "id": 193,
+      "start_sec": 1378,
+      "speaker": "Sayre Quevedo",
+      "en": "Okay, let's move on. Let's move on. Let's move on. We both apologized. Let's move on.",
+      "zh": "好啦，翻篇吧，翻篇吧，翻篇吧。咱俩都道过歉了，接着往下说吧。"
+    },
+    {
+      "id": 194,
+      "start_sec": 1382,
+      "speaker": "Connor",
+      "en": "Okay.",
+      "zh": "行。"
+    },
+    {
+      "id": 195,
+      "start_sec": 1383,
+      "speaker": "Sayre Quevedo",
+      "en": "So basically--",
+      "zh": "所以基本上——"
+    },
+    {
+      "id": 196,
+      "start_sec": 1385,
+      "speaker": "Connor",
+      "en": "Jesus.",
+      "zh": "天哪。"
+    },
+    {
+      "id": 197,
+      "start_sec": 1387,
+      "speaker": "Sayre Quevedo",
+      "en": "On your computer screen are seven discrete tabs tucked next to your work email. They've been open since last night. The first tab: the article about your birth father's barbershop that you found yesterday.",
+      "zh": "你的电脑屏幕上，紧挨着工作邮箱开着七个独立的标签页，从昨晚起就一直没关。第一个标签页，是你昨天找到的关于亲生父亲理发店的报道。"
+    },
+    {
+      "id": 198,
+      "start_sec": 1400,
+      "speaker": "Connor",
+      "en": "You said the shop is nearby. Do you know what kind of shop he has?",
+      "zh": "你说那家店就在附近，你知道他开的是什么店吗？"
+    },
+    {
+      "id": 199,
+      "start_sec": 1404,
+      "speaker": "Sayre Quevedo",
+      "en": "It's a-- it's a barbershop.",
+      "zh": "是一家……一家理发店。"
+    },
+    {
+      "id": 200,
+      "start_sec": 1406,
+      "speaker": "Connor",
+      "en": "Oh, he's a barber.",
+      "zh": "哦，他是个理发师啊。"
+    },
+    {
+      "id": 201,
+      "start_sec": 1408,
+      "speaker": "Sayre Quevedo",
+      "en": "The second, third, and fourth tabs are a mosaic of images from Google, Facebook, and Yelp. There's your birth father, standing behind the barber chair, or behind the wheel of a classic Cadillac.",
+      "zh": "第二、第三和第四个标签页里，拼贴着从 Google、Facebook 和 Yelp 搜出来的照片。那是你的亲生父亲，有时站在理发椅后，有时握着一台老式凯迪拉克的方向盘。"
+    },
+    {
+      "id": 202,
+      "start_sec": 1420,
+      "speaker": "Sayre Quevedo",
+      "en": "There he is, in a tiki bar, or squinting into the sun, his pencil mustache, his eyebrows, and the slits of his eyes creating five distinct planes across his face. His pompadour catches an errant sunray.",
+      "zh": "还有他在提基酒吧里的照片，或是迎着阳光眯起眼睛的样子——铅笔小胡子、眉毛，加上眯成一条缝的双眼，在他脸上勾勒出五道鲜明的线条，头顶高耸的飞机头恰好承接住一缕斜射过来的阳光。"
+    },
+    {
+      "id": 203,
+      "start_sec": 1434,
+      "speaker": "Connor",
+      "en": "Yeah, I mean, he's like a rockabilly dude, which is a big red flag to me, just in general.",
+      "zh": "对啊，我是说，他就像个走复古摇滚风的家伙，对我来说，这本身就是个很大的危险信号。"
+    },
+    {
+      "id": 204,
+      "start_sec": 1441,
+      "speaker": "Sayre Quevedo",
+      "en": "The fifth tab is the map with directions to his barbershop. A short, nearly straight line measures the distance between you. Five minutes.",
+      "zh": "第五个标签页是通往他理发店的地图导航。一条几乎笔直的短线丈量着你们之间的距离：五分钟。"
+    },
+    {
+      "id": 205,
+      "start_sec": 1451,
+      "speaker": "Connor",
+      "en": "He's right there next to you. That's so wild, actually. That's kind of like baffling.",
+      "zh": "他就在你眼皮底下啊。说真的，这太离奇了，简直让人有点摸不着头脑。"
+    },
+    {
+      "id": 206,
+      "start_sec": 1461,
+      "speaker": "Sayre Quevedo",
+      "en": "The sixth tab is the barbershop's Yelp reviews, in which your father is rated from a scale of zero to five stars, with additional notes included. He averages about 4.1.",
+      "zh": "第六个标签页是这家理发店在 Yelp 上的顾客评价，零到五星不等，还附带了文字点评。你父亲的平均分大约是 4.1 星。"
+    },
+    {
+      "id": 207,
+      "start_sec": 1474,
+      "speaker": "Sayre Quevedo",
+      "en": "According to the anecdotal evidence in these reviews, he is either the nicest or the worst man they've ever met.",
+      "zh": "从这些零散的评价来看，他在顾客眼中要么是天底下最好的人，要么就是他们见过最差劲的家伙。"
+    },
+    {
+      "id": 208,
+      "start_sec": 1482,
+      "speaker": "Sayre Quevedo",
+      "en": "He's unforgiving of lateness, condescending, rude, a, quote, \"complete asshole,\" or...",
+      "zh": "他绝不容忍迟到，居高临下、态度粗鲁，用评论的原话说，就是个“彻头彻尾的混蛋”，又或者……"
+    },
+    {
+      "id": 209,
+      "start_sec": 1500,
+      "speaker": "Sayre Quevedo",
+      "en": "Fastidious, a perfectionist, the best men's barber in town.",
+      "zh": "一丝不苟、完美主义，全城最好的男士理发师。"
+    },
+    {
+      "id": 210,
+      "start_sec": 1504,
+      "speaker": "Connor",
+      "en": "Here's a really good picture of his face that I can see up close.",
+      "zh": "这有张他脸部特写，拍得特别清楚。"
+    },
+    {
+      "id": 211,
+      "start_sec": 1508,
+      "speaker": "Sayre Quevedo",
+      "en": "Mm-hmm. The one where he's standing behind the barber chair.",
+      "zh": "嗯，就是站在理发椅后面那张。"
+    },
+    {
+      "id": 212,
+      "start_sec": 1512,
+      "speaker": "Connor",
+      "en": "Wow. Wow. That's our—that's our daddy right there. I see—I see you in him.",
+      "zh": "哇哦。天哪。那就是咱——咱亲爹啊。我真在他脸上看到你的影子了。"
+    },
+    {
+      "id": 213,
+      "start_sec": 1534,
+      "speaker": "Connor",
+      "en": "Thanks for doing all the hard work finding all that.",
+      "zh": "谢谢你费心把这些全找出来。"
+    },
+    {
+      "id": 214,
+      "start_sec": 1538,
+      "speaker": "Sayre Quevedo",
+      "en": "No, thank you. I love you.",
+      "zh": "哪儿的话，谢你才对。我爱你。"
+    },
+    {
+      "id": 215,
+      "start_sec": 1540,
+      "speaker": "Connor",
+      "en": "You're welcome, I guess. I don't know what you're thanking me for.",
+      "zh": "算是不客气吧，我都不知道你谢我啥。"
+    },
+    {
+      "id": 216,
+      "start_sec": 1545,
+      "speaker": "Sayre Quevedo",
+      "en": "Well, you're the one who found the name, so... I mean, it's not all—not all my work.",
+      "zh": "毕竟名字是你找到的嘛，所以……我是说，这也不全是我一个人的功劳。"
+    },
+    {
+      "id": 217,
+      "start_sec": 1551,
+      "speaker": "Connor",
+      "en": "I know it's not, but thank you.",
+      "zh": "我知道不是，但还是谢谢你。"
+    },
+    {
+      "id": 218,
+      "start_sec": 1555,
+      "speaker": "Sayre Quevedo",
+      "en": "All right.",
+      "zh": "好啦。"
+    },
+    {
+      "id": 219,
+      "start_sec": 1556,
+      "speaker": "Connor",
+      "en": "Yeah, I love you.",
+      "zh": "嗯，我爱你。"
+    },
+    {
+      "id": 220,
+      "start_sec": 1557,
+      "speaker": "Sayre Quevedo",
+      "en": "All right. I love you too, brother. Keep me in the loop.",
+      "zh": "行，我也爱你，兄弟。有进展随时跟我说。"
+    },
+    {
+      "id": 221,
+      "start_sec": 1560,
+      "speaker": "Connor",
+      "en": "Yeah, I'll text you tonight. Bye.",
+      "zh": "好，我今晚给你发消息。拜拜。"
+    },
+    {
+      "id": 222,
+      "start_sec": 1562,
+      "speaker": "Sayre Quevedo",
+      "en": "OK, all right. Love you, bye.",
+      "zh": "好嘞，行，爱你，拜。"
+    },
+    {
+      "id": 223,
+      "start_sec": 1564,
+      "speaker": "Connor",
+      "en": "Talk to you later. Bye.",
+      "zh": "回头聊，拜拜。"
+    },
+    {
+      "id": 224,
+      "start_sec": 1582,
+      "speaker": "Sayre Quevedo",
+      "en": "It's summer in Los Angeles, 2021. You are 28 years old, and you have a routine.",
+      "zh": "2021年夏天的洛杉矶。你28岁，过着一成不变的日常。"
+    },
+    {
+      "id": 225,
+      "start_sec": 1590,
+      "speaker": "Sayre Quevedo",
+      "en": "You wake up, you answer an endless stream of work emails and Slack messages, which fill you with an unearned rage and dread.",
+      "zh": "你醒来，回复没完没了的工作邮件和 Slack 消息，心里莫名涌起一阵烦躁和恐慌。"
+    },
+    {
+      "id": 226,
+      "start_sec": 1598,
+      "speaker": "Sayre Quevedo",
+      "en": "You smoke weed, which relaxes you or puts you on edge with no in-between.",
+      "zh": "你抽大麻，要么让你彻底放松，要么让你神经紧绷，毫无中间地带。"
+    },
+    {
+      "id": 227,
+      "start_sec": 1603,
+      "speaker": "Sayre Quevedo",
+      "en": "You cook chicken and coconut rice and eat it standing at the wall-mounted table in your narrow kitchen.",
+      "zh": "你做一份鸡肉配椰浆饭，站在狭窄厨房里的壁挂小桌旁吃完。"
+    },
+    {
+      "id": 228,
+      "start_sec": 1610,
+      "speaker": "Sayre Quevedo",
+      "en": "Sometimes your friend Sarah picks you up, and you drive around LA, attempting to commit to memory the geography around you. You forget it by the time you've walked through the front door.",
+      "zh": "有时你的朋友 Sarah 会开车来接你，你们在洛杉矶四处兜风，你试着把周围的路况记在脑子里。可一走进家门，你又忘得一干二净。"
+    },
+    {
+      "id": 229,
+      "start_sec": 1619,
+      "speaker": "Sayre Quevedo",
+      "en": "You smoke a cigarette in the parking lot behind your apartment. You scroll on Instagram. You swipe on dating apps.",
+      "zh": "你在公寓后面的停车场抽根烟。刷刷 Instagram。在交友软件上左滑右滑。"
+    },
+    {
+      "id": 230,
+      "start_sec": 1627,
+      "speaker": "Sayre Quevedo",
+      "en": "I'm going to record myself on Tinder because that is what I have been doing lately.",
+      "zh": "我要把自己刷 Tinder 的过程录下来，因为这就是我最近每天都在干的事。"
+    },
+    {
+      "id": 231,
+      "start_sec": 1633,
+      "speaker": "Sayre Quevedo",
+      "en": "You can't say exactly what you're looking for. It's easier to say what you are not.",
+      "zh": "你说不清自己到底想找什么样的。排除掉不想要的反而容易得多。"
+    },
+    {
+      "id": 232,
+      "start_sec": 1639,
+      "speaker": "Sayre Quevedo",
+      "en": "Bio says, hiking, comma, gym, 5'9, thousand miles away. No. No. Meh, little vanilla. No. No. No.",
+      "zh": "简介写着，徒步，逗号，健身，身高1米75，离我一千英里远。算了。不行。呃，有点无聊。不要。不要。不要。"
+    },
+    {
+      "id": 233,
+      "start_sec": 1652,
+      "speaker": "Sayre Quevedo",
+      "en": "You don't want to date an artist—too earnest. You don't want to date a banker or a real estate agent. And frankly, bankers and real estate agents don't really want to date you either.",
+      "zh": "你不想跟艺术家约会——太较真。你也不想找银行家或房产经纪人。说实话，银行家和房产经纪人其实也看不上你。"
+    },
+    {
+      "id": 234,
+      "start_sec": 1664,
+      "speaker": "Sayre Quevedo",
+      "en": "Your teeth are slightly crooked. You have never in your adult life seen your abs without yanking the pouch down on your stomach. Also, you're bad with money.",
+      "zh": "你的牙齿有点歪。成年以来，你要是不把肚子上的赘肉往下拽，根本看不见腹肌。而且，你还不太会理财。"
+    },
+    {
+      "id": 235,
+      "start_sec": 1673,
+      "speaker": "Sayre Quevedo",
+      "en": "His job is entrepreneur, which, what the fuck is an entrepreneur? I'm going to say no.",
+      "zh": "他的职业填的是“创业者”，拜托，鬼知道创业者到底是干嘛的？直接划掉。"
+    },
+    {
+      "id": 236,
+      "start_sec": 1680,
+      "speaker": "Sayre Quevedo",
+      "en": "No athletes. You smoke and drink and do drugs that keep you from waking up before sunrise.",
+      "zh": "运动员免谈。你抽烟、喝酒还嗑药，日出前根本不可能醒得来。"
+    },
+    {
+      "id": 237,
+      "start_sec": 1686,
+      "speaker": "Sayre Quevedo",
+      "en": "Uh, Patrick. Let's go on a hike and then eat what we just burned off. Nah. This person's like, I love having fun. Like, what, who doesn't like having fun?",
+      "zh": "呃，Patrick。“咱们去徒步，然后把刚消耗的热量吃回来吧。”算了吧。这人写着“我喜欢找乐子”。不是，谁不喜欢找乐子啊？"
+    },
+    {
+      "id": 238,
+      "start_sec": 1696,
+      "speaker": "Sayre Quevedo",
+      "en": "You don't want to date anyone who makes regular pilgrimage to Disneyland, or feels affiliation with any of their characters, or Harry Potter. This turns out to be particularly damning criteria in Los Angeles.",
+      "zh": "你不想跟任何定期去迪士尼乐园朝圣的人约会，也不想找对迪士尼角色或《哈利·波特》有归属感的人。结果证明，这在洛杉矶简直是致命的筛选条件。"
+    },
+    {
+      "id": 239,
+      "start_sec": 1708,
+      "speaker": "Sayre Quevedo",
+      "en": "Ah, he plays golf with his friends. Yeah, well, this is not going to work. Just a picture with 'no bad vibes today' text over it. No, thank you. No, he's a singer. No, thank you.",
+      "zh": "啊，他跟朋友打高尔夫。行吧，这肯定没戏。光放张照片，上面配行字写着“今天拒绝坏情绪”。还是算了吧。不行，他是个歌手，谢谢不约。"
+    },
+    {
+      "id": 240,
+      "start_sec": 1719,
+      "speaker": "Sayre Quevedo",
+      "en": "He looks like he's got big arms that he could wrap around you, but I'm going to say no. Okay, 'Guys Being Dudes' is the name of this one. Come get sandwiched between two men. Mm, no, thank you. I mean, yes, but not with them.",
+      "zh": "他看起来臂膀挺结实的，能把你一把揽进怀里，但我还是选不要。好吧，这张配文叫“兄弟本色”，快来被两个男人夹在中间吧。嗯，不了谢谢。我是说，其实可以，但不是跟这俩人。"
+    },
+    {
+      "id": 241,
+      "start_sec": 1736,
+      "speaker": "Sayre Quevedo",
+      "en": "You don't want to date someone who only has white friends, but you're also afraid to date someone who is so connected to their cultural background that you feel like a white person in comparison, with your unplaceable face, afro, and Gaelic name.",
+      "zh": "你不想找只有白人朋友的对象，但你又怕遇到跟自身文化背景联系太紧密的人，让你相形之下显得像个白人——顶着你这张看不出来历的脸、爆炸头，还有个盖尔语名字。"
+    },
+    {
+      "id": 242,
+      "start_sec": 1748,
+      "speaker": "Sayre Quevedo",
+      "en": "Far-leftist progressive. Oh, shit. Okay, and hella cute. Oh, fuck. Uh... Wow.",
+      "zh": "极左进步派。我靠。好吧，而且帅得要命。卧槽。呃……哇。"
+    },
+    {
+      "id": 243,
+      "start_sec": 1757,
+      "speaker": "Sayre Quevedo",
+      "en": "This is the funniest part, too, is that like you get all in your head about saying yes, saying no, and then they never—they never swipe for you. So, it's sort of a useless exercise.",
+      "zh": "最搞笑的是，你自己在脑子里纠结半天点喜欢还是点跳过，结果人家压根儿——压根儿就不会右滑你。所以，这完全就是白费力气。"
+    },
+    {
+      "id": 244,
+      "start_sec": 1773,
+      "speaker": "Mom",
+      "en": "Hello, baby.",
+      "zh": "喂，宝贝。"
+    },
+    {
+      "id": 245,
+      "start_sec": 1774,
+      "speaker": "Sayre Quevedo",
+      "en": "Hi, Mama.",
+      "zh": "嗨，妈妈。"
+    },
+    {
+      "id": 246,
+      "start_sec": 1775,
+      "speaker": "Mom",
+      "en": "How are you?",
+      "zh": "你最近怎么样？"
+    },
+    {
+      "id": 247,
+      "start_sec": 1777,
+      "speaker": "Sayre Quevedo",
+      "en": "Good, how are you doing?",
+      "zh": "挺好的，你呢？"
+    },
+    {
+      "id": 248,
+      "start_sec": 1779,
+      "speaker": "Mom",
+      "en": "Um, I'm doing good. I saw your brother yesterday, it was super sweet.",
+      "zh": "嗯，我也挺好的。我昨天见到你兄弟了，特别贴心。"
+    },
+    {
+      "id": 249,
+      "start_sec": 1784,
+      "speaker": "Sayre Quevedo",
+      "en": "Oh, yeah?",
+      "zh": "哦，是吗？"
+    },
+    {
+      "id": 250,
+      "start_sec": 1785,
+      "speaker": "Mom",
+      "en": "Hello?",
+      "zh": "喂？"
+    },
+    {
+      "id": 251,
+      "start_sec": 1786,
+      "speaker": "Sayre Quevedo",
+      "en": "Yeah.",
+      "zh": "我在。"
+    },
+    {
+      "id": 252,
+      "start_sec": 1787,
+      "speaker": "Mom",
+      "en": "Yeah?",
+      "zh": "听得见吗？"
+    },
+    {
+      "id": 253,
+      "start_sec": 1788,
+      "speaker": "Mom",
+      "en": "So, how are you feeling about what he wants to do?",
+      "zh": "那，对他想做的那件事，你怎么想？"
+    },
+    {
+      "id": 254,
+      "start_sec": 1792,
+      "speaker": "Sayre Quevedo",
+      "en": "The truth is, you don't feel anything about meeting your father. You know that in theory this is big. You're about to meet some—",
+      "zh": "说实话，对于见亲生父亲这件事，你毫无感觉。你清楚在理论上这是件大事。你马上就要见到某——"
+    },
+    {
+      "id": 255,
+      "start_sec": 1800,
+      "speaker": "Sayre Quevedo",
+      "en": "...someone who once meant something to you, and now means something else. But you won't be sure what until he's in front of you.",
+      "zh": "……一个曾经对你很重要，如今却意味着别的东西的人。但直到他站到你面前，你才会明白那究竟是什么。"
+    },
+    {
+      "id": 256,
+      "start_sec": 1808,
+      "speaker": "Sayre Quevedo",
+      "en": "I don't know. It's cool. I don't know. I don't know how— like, I mean, how do I feel about it? It's hard to say, you know?",
+      "zh": "我也不知道。挺好的吧。我也说不好，就是……我对这件事到底是什么感受？很难说，你懂吧？"
+    },
+    {
+      "id": 257,
+      "start_sec": 1817,
+      "speaker": "Mom",
+      "en": "Well, I love you guys, and I hope that you get what you need from it. And yeah, I'm glad you're doing it together.",
+      "zh": "嗯，我爱你们俩，希望你们能从中得到你们需要的东西。还有，是的，我很高兴你们是一起去做的。"
+    },
+    {
+      "id": 258,
+      "start_sec": 1829,
+      "speaker": "Sayre Quevedo",
+      "en": "You find an email address on the barbershop's website. You click into the always-open email tab on your computer and start a new message.",
+      "zh": "你在理发店的网站上找到了一个电子邮箱地址。你点开电脑上一直开着的邮箱标签页，开始写一封新邮件。"
+    },
+    {
+      "id": 259,
+      "start_sec": 1840,
+      "speaker": "Sayre Quevedo",
+      "en": "Your first words to your birth father will forever be archived in your inbox between updates to your credit score, calendar reminders of work deadlines, and your lease renewal.",
+      "zh": "你对亲生父亲说的第一句话，将永远躺在你的收件箱里，夹在信用评分更新通知、工作截止日期的日历提醒和租房续约邮件之间。"
+    },
+    {
+      "id": 260,
+      "start_sec": 1851,
+      "speaker": "Sayre Quevedo",
+      "en": "The cursor ticks an even measure on the blank draft. This blank space must be filled with something specific. A particular alchemy must take place, a certain tone struck.",
+      "zh": "光标在空白草稿上匀速闪烁着。这片空白必须填上恰如其分的话语。必须发生某种奇妙的化学反应，拿捏出某种特定的语气。"
+    },
+    {
+      "id": 261,
+      "start_sec": 1862,
+      "speaker": "Sayre Quevedo",
+      "en": "Whatever fills this space must be firm, but not aggressive, humble, but not shrinking.",
+      "zh": "无论写下什么，都必须坚定而不失温和，谦逊却不显卑微。"
+    },
+    {
+      "id": 262,
+      "start_sec": 1868,
+      "speaker": "Connor",
+      "en": "Do you have any idea how to start?",
+      "zh": "你心里有数该怎么开头吗？"
+    },
+    {
+      "id": 263,
+      "start_sec": 1870,
+      "speaker": "Sayre Quevedo",
+      "en": "How about, \"Hello. I know this is a bit out of the blue, but I'm sending this message on behalf of my brother and I. We think you are our biological father.\"",
+      "zh": "这样行不行：“您好。我知道这封邮件有点冒昧，但我是代表我和我兄弟发这封信的。我们认为您是我们的亲生父亲。”"
+    },
+    {
+      "id": 264,
+      "start_sec": 1886,
+      "speaker": "Connor",
+      "en": "Start with that preface thing you're talking about. We're not looking to get anything from you.",
+      "zh": "先加上你之前说的那个铺垫吧。就是我们并不图您任何东西。"
+    },
+    {
+      "id": 265,
+      "start_sec": 1892,
+      "speaker": "Sayre Quevedo",
+      "en": "How about this? \"I know this is a bit out of the blue, but I'm sending this message on behalf of my brother and I. We think you are our biological father. We're not—\"",
+      "zh": "那这样呢？“我知道这有点突然，但我是代表我和我兄弟给您发这封信的。我们认为您是我们的亲生父亲。我们并不——”"
+    },
+    {
+      "id": 266,
+      "start_sec": 1900,
+      "speaker": "Connor",
+      "en": "That sounds so formal and weird.",
+      "zh": "听起来也太正式、太怪了吧。"
+    },
+    {
+      "id": 267,
+      "start_sec": 1902,
+      "speaker": "Sayre Quevedo",
+      "en": "We don't need anything from you. We don't— we're not asking for anything.",
+      "zh": "“我们不需要您提供任何东西。我们不是——我们不是来向您索取什么的。”"
+    },
+    {
+      "id": 268,
+      "start_sec": 1906,
+      "speaker": "Connor",
+      "en": "I might want to ask him for something. I'll be like, hey, can you pay for my schooling?",
+      "zh": "我倒没准儿想找他要东西呢。我就直接问：“嘿，你能替我付学费吗？”"
+    },
+    {
+      "id": 269,
+      "start_sec": 1912,
+      "speaker": "Sayre Quevedo",
+      "en": "Connor, please don't ruin this before we've even had the chance to meet him. Please.",
+      "zh": "Connor，求你了，别还没见着他人就把这事儿给搞砸了。拜托。"
+    },
+    {
+      "id": 270,
+      "start_sec": 1917,
+      "speaker": "Connor",
+      "en": "I won't, I won't. Yeah, it still sounds formal. It still sounds like, what are you— \"We'd love to talk,\" blah, blah, blah.",
+      "zh": "不会的，不会的。不过，这听起来还是太官方了。还是像在说什么——“我们很希望能跟您聊聊”之类的客套话。"
+    },
+    {
+      "id": 271,
+      "start_sec": 1922,
+      "speaker": "Connor",
+      "en": "But it could be like, \"We think that you might be our biological father,\" whatever. \"We're really hoping that we could meet you,\" and fill in the blank, something personal.",
+      "zh": "其实可以写成：“我们觉得您可能是我们的亲生父亲”，之类的。“我们非常希望能和您见一面”，然后再填上点私人化的内容。"
+    },
+    {
+      "id": 272,
+      "start_sec": 1929,
+      "speaker": "Sayre Quevedo",
+      "en": "We're both nearly 30 and have always wondered about who you were.",
+      "zh": "我们俩都快三十岁了，一直很好奇您是个什么样的人。"
+    },
+    {
+      "id": 273,
+      "start_sec": 1936,
+      "speaker": "Connor",
+      "en": "Yeah, that sounds good to me. Does that sound good to you?",
+      "zh": "嗯，我觉得这样挺好的。你觉得呢？"
+    },
+    {
+      "id": 274,
+      "start_sec": 1938,
+      "speaker": "Sayre Quevedo",
+      "en": "All right. Yeah, I'm sending it.",
+      "zh": "好。嗯，我发了啊。"
+    },
+    {
+      "id": 275,
+      "start_sec": 1940,
+      "speaker": "Connor",
+      "en": "All right.",
+      "zh": "行。"
+    },
+    {
+      "id": 276,
+      "start_sec": 1941,
+      "speaker": "Sayre Quevedo",
+      "en": "Ready? Three—",
+      "zh": "准备好了吗？三——"
+    },
+    {
+      "id": 277,
+      "start_sec": 1942,
+      "speaker": "Connor",
+      "en": "Yeah. Smash that motherfucking button.",
+      "zh": "好了。狠狠按下那个该死的发送键吧。"
+    },
+    {
+      "id": 278,
+      "start_sec": 1944,
+      "speaker": "Connor",
+      "en": "Hey. Yeah, I'm ready. You can count down if you want.",
+      "zh": "喂，我准备好了。你想倒数的话就数吧。"
+    },
+    {
+      "id": 279,
+      "start_sec": 1946,
+      "speaker": "Sayre Quevedo",
+      "en": "Oh. What should I put as the subject line?",
+      "zh": "哦，邮件主题我该写什么？"
+    },
+    {
+      "id": 280,
+      "start_sec": 1949,
+      "speaker": "Connor",
+      "en": "Say, um, like, \"Happy Father's Day.\"",
+      "zh": "你就写，呃，比如“父亲节快乐”。"
+    },
+    {
+      "id": 281,
+      "start_sec": 1952,
+      "speaker": "Sayre Quevedo",
+      "en": "\"Papa, can you hear me?\" No, um...",
+      "zh": "“爸爸，你能听见我吗？”算了，呃……"
+    },
+    {
+      "id": 282,
+      "start_sec": 1956,
+      "speaker": "Connor",
+      "en": "\"Are you my daddy?\"",
+      "zh": "“你是我爸爸吗？”"
+    },
+    {
+      "id": 283,
+      "start_sec": 1957,
+      "speaker": "Sayre Quevedo",
+      "en": "How about, \"Long lost kids in search of biological father.\"",
+      "zh": "“失散多年的孩子寻找亲生父亲”，这个怎么样？"
+    },
+    {
+      "id": 284,
+      "start_sec": 1964,
+      "speaker": "Connor",
+      "en": "So long subject. Um, how about just, \"Dad?\"",
+      "zh": "这主题也太长了。呃，干脆就写“爸？”怎么样？"
+    },
+    {
+      "id": 285,
+      "start_sec": 1969,
+      "speaker": "Sayre Quevedo",
+      "en": "I'm just going to put, \"Hello from Connor and Sayre.\" How about that?",
+      "zh": "我就写“来自 Connor 和 Sayre 的问候”算了。怎么样？"
+    },
+    {
+      "id": 286,
+      "start_sec": 1973,
+      "speaker": "Connor",
+      "en": "\"Reaching out.\"",
+      "zh": "“主动联系。”"
+    },
+    {
+      "id": 287,
+      "start_sec": 1977,
+      "speaker": "Sayre Quevedo",
+      "en": "All right. One, two, three. All right, I did it.",
+      "zh": "好。一、二、三。行了，发过去了。"
+    },
+    {
+      "id": 288,
+      "start_sec": 1983,
+      "speaker": "Connor",
+      "en": "Nice. Now we wait.",
+      "zh": "漂亮。现在就等消息吧。"
+    },
+    {
+      "id": 289,
+      "start_sec": 1991,
+      "speaker": "Ira Glass",
+      "en": "Our story continues after a break. From Chicago Public Radio, when our program continues.",
+      "zh": "广告休息之后，故事继续。这里是 Chicago Public Radio，节目稍后继续。"
+    },
+    {
+      "id": 290,
+      "start_sec": 1998,
+      "speaker": "Ira Glass",
+      "en": "This American Life. We are in the middle of excerpts from Sayre Quevedo's new series, Reaching Out. Let's pick up where we left off.",
+      "zh": "这里是《This American Life》。我们正在播出 Sayre Quevedo 新系列节目《Reaching Out》的节选。让我们接着刚才的地方继续。"
+    },
+    {
+      "id": 291,
+      "start_sec": 2015,
+      "speaker": "Sayre Quevedo",
+      "en": "You wait four days to hear back, but nothing. There's no way to know the message was received, that it didn't end up in his spam folder, or that a coworker didn't delete it, assuming it was a phishing scam.",
+      "zh": "你等了四天回信，但杳无音讯。你无从得知邮件是否真的送达了，有没有被归进垃圾邮件箱，或者是不是被哪个同事当成钓鱼诈骗邮件直接删掉了。"
+    },
+    {
+      "id": 292,
+      "start_sec": 2030,
+      "speaker": "Sayre Quevedo",
+      "en": "But the notion of these possibilities is enough to convince you that it's worth reaching out once more. So, you call the shop.",
+      "zh": "但光是想到这些可能性，就足以说服你再试着联系一次。于是，你给理发店打了电话。"
+    },
+    {
+      "id": 293,
+      "start_sec": 2041,
+      "speaker": "Man",
+      "en": "Hello?",
+      "zh": "喂，你好？"
+    },
+    {
+      "id": 294,
+      "start_sec": 2042,
+      "speaker": "Sayre Quevedo",
+      "en": "Hello? Hi.",
+      "zh": "你好？嗨。"
+    },
+    {
+      "id": 295,
+      "start_sec": 2043,
+      "speaker": "Sayre Quevedo",
+      "en": "\"He's in the bathroom,\" says the voice on the other end of the line.",
+      "zh": "“他在洗手间，”电话那头的声音说道。"
+    },
+    {
+      "id": 296,
+      "start_sec": 2047,
+      "speaker": "Sayre Quevedo",
+      "en": "Um, so it's Sayre, S-A-Y-R-E. Yeah. And Connor, C-O-N-N-O-R.",
+      "zh": "呃，我叫 Sayre，拼写是 S-A-Y-R-E。对。还有 Connor，C-O-N-N-O-R。"
+    },
+    {
+      "id": 297,
+      "start_sec": 2058,
+      "speaker": "Sayre Quevedo",
+      "en": "You leave your names, a number.",
+      "zh": "你留下了你们的名字和一个电话号码。"
+    },
+    {
+      "id": 298,
+      "start_sec": 2061,
+      "speaker": "Sayre Quevedo",
+      "en": "Sure, it's 510...",
+      "zh": "好的，号码是 510……"
+    },
+    {
+      "id": 299,
+      "start_sec": 2069,
+      "speaker": "Connor",
+      "en": "What do you think? Do you think he was actually in the bathroom?",
+      "zh": "你怎么看？你觉得他当时真的在洗手间吗？"
+    },
+    {
+      "id": 300,
+      "start_sec": 2076,
+      "speaker": "Sayre Quevedo",
+      "en": "I don't know. It seems— it sounds, it's like one of those things that could be true, but it also could be a really lame excuse, and it's hard—",
+      "zh": "我不知道。这听起来——就是那种既可能是真的，但也完全可能是一个特别蹩脚的借口，所以很难——"
+    },
+    {
+      "id": 301,
+      "start_sec": 2100,
+      "speaker": "Sayre Quevedo",
+      "en": "...to know.",
+      "zh": "……说准。"
+    },
+    {
+      "id": 302,
+      "start_sec": 2102,
+      "speaker": "Connor",
+      "en": "Yeah. Well, if he calls you tonight, I guess let me know.",
+      "zh": "行吧。那他要是今晚给你回电话，记得告诉我一声。"
+    },
+    {
+      "id": 303,
+      "start_sec": 2109,
+      "speaker": "Sayre Quevedo",
+      "en": "Yeah, I will.",
+      "zh": "嗯，我会的。"
+    },
+    {
+      "id": 304,
+      "start_sec": 2112,
+      "speaker": "Sayre Quevedo",
+      "en": "You don't hear back, and you don't call back either. You and Connor don't even discuss it. It seems to go without saying that to reach out a third time with no response would be pathetic.",
+      "zh": "对方没有回音，你也没有再打过去。你和 Connor 甚至没有商量过这件事。仿佛不言而喻的是，如果第三次主动联系却依然石沉大海，那就未免太可悲了。"
+    },
+    {
+      "id": 305,
+      "start_sec": 2125,
+      "speaker": "Sayre Quevedo",
+      "en": "Sometimes in the weeks after, you find yourself driving past your father's shop. You peer through the window, hoping to catch his face. It's not that it particularly matters to you. You've just become habituated to looking for him.",
+      "zh": "之后的几个星期里，你有时会开车路过父亲的理发店。你会探头往橱窗里看，希望能瞥见他的脸。倒也不是说这件事对你有多重要，只是你已经养成了找寻他身影的习惯。"
+    },
+    {
+      "id": 306,
+      "start_sec": 2162,
+      "speaker": "Sayre Quevedo",
+      "en": "You've gone out alone again tonight. In the months since quarantine was lifted, this has become your weekend routine.",
+      "zh": "今晚你又一个人出来喝酒了。自打封控解除后的这几个月来，这已经成了你周末的固定节目。"
+    },
+    {
+      "id": 307,
+      "start_sec": 2169,
+      "speaker": "Sayre Quevedo",
+      "en": "You stay out at your neighborhood bar until close, with your back to the wall and your eyes on the door. You're waiting for someone to walk in who will change the course of your evening.",
+      "zh": "你会在家附近的酒吧待到打烊，背靠着墙，眼睛紧盯着门口。你在等一个人推门而入，好彻底改变你这个夜晚的走向。"
+    },
+    {
+      "id": 308,
+      "start_sec": 2179,
+      "speaker": "Sayre Quevedo",
+      "en": "Hours pass like this, lost continents floating at the bottom of your pint glass. At an interval of every hour, you ask the universe for a sign that it's time to go home. But if it's sent, you are too busy watching the door to notice.",
+      "zh": "时间就这样一小时一小时过去，一品脱啤酒杯底漂浮着片片失落的大陆。每隔一小时，你都会向宇宙祈求一个信号，告诉你该回家了。可就算信号真的降临，你光顾着盯门口，也根本注意不到。"
+    },
+    {
+      "id": 309,
+      "start_sec": 2194,
+      "speaker": "Sayre Quevedo",
+      "en": "All right. I am walking home. I'm drunk.",
+      "zh": "好吧。我现在正走回家。我喝醉了。"
+    },
+    {
+      "id": 310,
+      "start_sec": 2209,
+      "speaker": "Sayre Quevedo",
+      "en": "Last call is over. Now you're stumbling home, feeling bad for yourself, of course.",
+      "zh": "最后一轮点酒结束了。现在你跌跌撞撞地往家走，当然，心里又免不了一阵自怨自艾。"
+    },
+    {
+      "id": 311,
+      "start_sec": 2216,
+      "speaker": "Sayre Quevedo",
+      "en": "Thought that— stupidly thought that if I went to the nearby gay bar next to my house that I might meet someone, but no.",
+      "zh": "还以为——傻乎乎地以为去家旁边那家同志酒吧就能遇上什么人，结果根本没有。"
+    },
+    {
+      "id": 312,
+      "start_sec": 2237,
+      "speaker": "Sayre Quevedo",
+      "en": "You're on Santa Monica Boulevard now. The leather bar you visit on other nights, sometimes the same night, is to your left. You won't go in tonight. You're already too drunk.",
+      "zh": "你现在走到了圣莫尼卡大道上。平时常去的那家皮革酒吧——有时甚至同一晚就会连着去——就在你的左手边。但今晚你不会进去了。你已经喝得太醉了。"
+    },
+    {
+      "id": 313,
+      "start_sec": 2248,
+      "speaker": "Sayre Quevedo",
+      "en": "This circuit is your Bermuda Triangle, and somewhere along the vertices, you black out. The only evidence of whoever is navigating your body is in these recordings.",
+      "zh": "这条夜生活路线就是你的百慕大三角，在这几个顶点之间，你总会在某个地方彻底断片。那个当时接管你身体的人究竟是谁，唯一的线索就留在这些录音里。"
+    },
+    {
+      "id": 314,
+      "start_sec": 2259,
+      "speaker": "Sayre Quevedo",
+      "en": "Nothing is nothing. It's all bullshit, all of it.",
+      "zh": "什么都没有，什么都不是。全都是狗屁，全都是。"
+    },
+    {
+      "id": 315,
+      "start_sec": 2271,
+      "speaker": "Sayre Quevedo",
+      "en": "To attempt to intuit what bullshit you are referring to from this side of the veil is impossible.",
+      "zh": "在清醒的这一头，想去揣摩当时的你口中的“狗屁”究竟指什么，根本是不可能的。"
+    },
+    {
+      "id": 316,
+      "start_sec": 2278,
+      "speaker": "Sayre Quevedo",
+      "en": "Could be anything— the bullshit of this age, this time, the bullshit of leaving your home only to find that the world is exactly as you left it, but with more rules, more distance, more death and indifference.",
+      "zh": "它可以是任何东西——这个时代、当下这段日子的荒唐狗屁；好不容易走出家门，却发现世界还是离开时那副模样，只是多了更多规矩、更多疏离、更多死亡与冷漠。"
+    },
+    {
+      "id": 317,
+      "start_sec": 2292,
+      "speaker": "Sayre Quevedo",
+      "en": "The bullshit of risking disease waiting for someone to notice you at a bar. The bullshit of knowing that's a waste of time. The bullshit of wanting it anyway.",
+      "zh": "冒着染病的风险在酒吧苦等某个人注意到自己的荒唐；明知这纯属浪费时间却还偏偏想要得到的荒唐。"
+    },
+    {
+      "id": 318,
+      "start_sec": 2304,
+      "speaker": "Sayre Quevedo",
+      "en": "The bullshit of steeling yourself against disappointment by expecting nothing, only to find yourself still disappointed when nothing is exactly what you receive.",
+      "zh": "为了不受失望打击而硬起心肠不抱任何期待，结果当真的一无所获时，却发现自己还是会失望的荒唐。"
+    },
+    {
+      "id": 319,
+      "start_sec": 2318,
+      "speaker": "Sayre Quevedo",
+      "en": "And then this. Whatever this is.",
+      "zh": "然后就是这段录音。天知道当时是在干嘛。"
+    },
+    {
+      "id": 320,
+      "start_sec": 2322,
+      "speaker": "Sayre Quevedo",
+      "en": "I think I'm going to pee.",
+      "zh": "我想我要尿了。"
+    },
+    {
+      "id": 321,
+      "start_sec": 2324,
+      "speaker": "Sayre Quevedo",
+      "en": "Tomorrow's headache creeping in as you piss behind a tree.",
+      "zh": "当你躲在树后小解时，明天宿醉的头痛正悄然袭来。"
+    },
+    {
+      "id": 322,
+      "start_sec": 2331,
+      "speaker": "Sayre Quevedo",
+      "en": "Same bullshit. Your bullshit. Followed by a bean burrito at 7-Eleven.",
+      "zh": "老一套的烂事，你自己的烂事。接着再去 7-Eleven 买个豆泥卷饼。"
+    },
+    {
+      "id": 323,
+      "start_sec": 2338,
+      "speaker": "Sayre Quevedo",
+      "en": "Same bullshit every day. Same shit every day. Nothing matters.",
+      "zh": "天天都是这堆破事。天天都一个鬼样。什么都无所谓了。"
+    },
+    {
+      "id": 324,
+      "start_sec": 2376,
+      "speaker": "Sayre Quevedo",
+      "en": "Connor and you know there is only one option left. You have to go and meet your father in person. But you haven't talked much since calling your father's shop, and choosing a date is an overture in your conversation with no resolution.",
+      "zh": "你和 Connor 都清楚，眼下只剩最后一个办法了。你们必须亲自上门去见父亲。但自从给父亲的店里打过电话后，你们兄弟俩就没怎么聊过这件事，定下见面的日子也只是对话里一段悬而未决的开场白。"
+    },
+    {
+      "id": 325,
+      "start_sec": 2395,
+      "speaker": "Connor",
+      "en": "How's it going? What are you doing?",
+      "zh": "最近怎么样？在干嘛呢？"
+    },
+    {
+      "id": 326,
+      "start_sec": 2397,
+      "speaker": "Sayre Quevedo",
+      "en": "Good, I just woke up a bit ago.",
+      "zh": "挺好的，我刚醒没多久。"
+    },
+    {
+      "id": 327,
+      "start_sec": 2400,
+      "speaker": "Sayre Quevedo",
+      "en": "I'm going to take a shower.",
+      "zh": "我正准备去冲个澡。"
+    },
+    {
+      "id": 328,
+      "start_sec": 2402,
+      "speaker": "Connor",
+      "en": "Oh, nice. You just woke up?",
+      "zh": "哦，不错啊。你刚醒？"
+    },
+    {
+      "id": 329,
+      "start_sec": 2404,
+      "speaker": "Sayre Quevedo",
+      "en": "A little bit ago.",
+      "zh": "刚醒没一会儿。"
+    },
+    {
+      "id": 330,
+      "start_sec": 2406,
+      "speaker": "Connor",
+      "en": "It's 1:30.",
+      "zh": "都一点半了。"
+    },
+    {
+      "id": 331,
+      "start_sec": 2408,
+      "speaker": "Sayre Quevedo",
+      "en": "I know.",
+      "zh": "我知道。"
+    },
+    {
+      "id": 332,
+      "start_sec": 2409,
+      "speaker": "Connor",
+      "en": "That's crazy.",
+      "zh": "太夸张了吧。"
+    },
+    {
+      "id": 333,
+      "start_sec": 2411,
+      "speaker": "Sayre Quevedo",
+      "en": "You never sent me dates.",
+      "zh": "你一直没把哪天有空发给我。"
+    },
+    {
+      "id": 334,
+      "start_sec": 2414,
+      "speaker": "Connor",
+      "en": "I know, because a bunch of things happened, which is why I was calling you about. Anyway, fuck, dude. I'm really distracted. I'm sorry.",
+      "zh": "我知道，因为出了好些事，我打电话就是想跟你说这个。唉，操，老兄，我这会儿脑子乱得很，抱歉。"
+    },
+    {
+      "id": 335,
+      "start_sec": 2424,
+      "speaker": "Sayre Quevedo",
+      "en": "I know. Why did you call me while you were doing something else? Do you want to just--",
+      "zh": "我知道。那你干嘛一边忙别的一边给我打电话？要不你先……"
+    },
+    {
+      "id": 336,
+      "start_sec": 2425,
+      "speaker": "Connor",
+      "en": "You can tell?",
+      "zh": "这你都能听出来？"
+    },
+    {
+      "id": 337,
+      "start_sec": 2427,
+      "speaker": "Sayre Quevedo",
+      "en": "Just tell me. Yeah, but just finish one thing and then do the other. Finish one thing and then do the other. Don't do both at the same time.",
+      "zh": "跟我直说就行。对，先把一件事忙完再干下一件。一件一件来，别同时干两件事。"
+    },
+    {
+      "id": 338,
+      "start_sec": 2434,
+      "speaker": "Connor",
+      "en": "OK.",
+      "zh": "好吧。"
+    },
+    {
+      "id": 339,
+      "start_sec": 2435,
+      "speaker": "Sayre Quevedo",
+      "en": "Just choose one thing and then do the other.",
+      "zh": "先专心干一件事，干完再说。"
+    },
+    {
+      "id": 340,
+      "start_sec": 2438,
+      "speaker": "Connor",
+      "en": "You're grumpy.",
+      "zh": "你脾气好冲啊。"
+    },
+    {
+      "id": 341,
+      "start_sec": 2439,
+      "speaker": "Sayre Quevedo",
+      "en": "I am grumpy.",
+      "zh": "我就是脾气冲。"
+    },
+    {
+      "id": 342,
+      "start_sec": 2441,
+      "speaker": "Connor",
+      "en": "It's not my fault.",
+      "zh": "又不是我的错。"
+    },
+    {
+      "id": 343,
+      "start_sec": 2442,
+      "speaker": "Sayre Quevedo",
+      "en": "It's not your fault, but don't call people while you're doing other things.",
+      "zh": "是，不是你的错，但别一边忙别的还一边给人打电话。"
+    },
+    {
+      "id": 344,
+      "start_sec": 2446,
+      "speaker": "Connor",
+      "en": "If you want to talk at a better time when you're less hungover.",
+      "zh": "你要是想等你宿醉消一点、挑个更合适的时间再聊也行。"
+    },
+    {
+      "id": 345,
+      "start_sec": 2450,
+      "speaker": "Sayre Quevedo",
+      "en": "No, I want to talk. I've been trying to get a date from you for, like, the last two weeks, so just tell me.",
+      "zh": "不用，我就现在聊。最近两周我一直在问你哪天有空，你就直接告诉我吧。"
+    },
+    {
+      "id": 346,
+      "start_sec": 2455,
+      "speaker": "Connor",
+      "en": "I know. Well, Sayre, it's really fucking hard with what I do for work. I don't think you really understand that, and I don't blame you for it. It's just like there's an understanding of seasonal work that I don't think you get.",
+      "zh": "我知道。可 Sayre，我干的这行真的他妈太难安排了。我觉得你其实不太理解，我也不怪你。做季节性工作是怎么回事，我感觉你根本没概念。"
+    },
+    {
+      "id": 347,
+      "start_sec": 2467,
+      "speaker": "Connor",
+      "en": "But it's really like you just kind of put your life on the line and really hope that you get work. I don't have as much freedom as you in some sense.",
+      "zh": "干这行真的就像是把命豁出去，然后只能祈祷能接到活儿。从某种意义上讲，我没你那么自由。"
+    },
+    {
+      "id": 348,
+      "start_sec": 2474,
+      "speaker": "Connor",
+      "en": "Like, I probably can't make it down at least until December, which I'm totally OK with doing if you want to, but I also understand.",
+      "zh": "比如我至少得等到十二月才抽得出空下去一趟。如果你愿意那时候去，我完全没问题，不过我也能理解你的情况。"
+    },
+    {
+      "id": 349,
+      "start_sec": 2482,
+      "speaker": "Sayre Quevedo",
+      "en": "I'm going to be out of town in December, so I can't do it then.",
+      "zh": "十二月我不在城里，所以那时候去不了。"
+    },
+    {
+      "id": 350,
+      "start_sec": 2486,
+      "speaker": "Connor",
+      "en": "OK, well, do you want to do January?",
+      "zh": "那好吧，一月行不行？"
+    },
+    {
+      "id": 351,
+      "start_sec": 2489,
+      "speaker": "Sayre Quevedo",
+      "en": "I mean, do you want to do it? I guess, like, that's the thing I want to figure out.",
+      "zh": "我是说，你到底想不想去？我觉得这才是我想弄明白的事。"
+    },
+    {
+      "id": 352,
+      "start_sec": 2493,
+      "speaker": "Connor",
+      "en": "Do I want to?",
+      "zh": "我想不想去？"
+    },
+    {
+      "id": 353,
+      "start_sec": 2495,
+      "speaker": "Sayre Quevedo",
+      "en": "Yeah, I mean, do you want to do it? I guess do we have to see him? I don't know. What are we going to do, like, go up to him and, like, what are we going to get out of that, you know?",
+      "zh": "对啊，你到底想不想去？我是想，我们非得见他吗？我也不知道，我们去了又能干嘛，走到他面前又能图个啥呢，你懂吧？"
+    },
+    {
+      "id": 354,
+      "start_sec": 2504,
+      "speaker": "Connor",
+      "en": "I don't know. I mean, I just want to talk to him. I want to meet him. I want to know his health problems. I want to know his family's shit.",
+      "zh": "我也不知道。反正我就想跟他聊聊，想见见他。我想知道他有什么健康问题，想知道他家里的那些破事。"
+    },
+    {
+      "id": 355,
+      "start_sec": 2517,
+      "speaker": "Connor",
+      "en": "You know, I don't know, just basic things like that, see what he's like, if he's a dick, if he's cool, if he likes to party. I don't know. You don't know. Definitely a story. What do you want out of it?",
+      "zh": "懂吧，我也不好说，就是这些最基本的东西——看看他是个什么样的人，是个混蛋还是人挺酷，爱不爱嗨。我不知道，你也不知道，但这肯定是个故事。那你想从中得到什么？"
+    },
+    {
+      "id": 356,
+      "start_sec": 2533,
+      "speaker": "Sayre Quevedo",
+      "en": "Connor wants to meet your father on the most physical plane—cash, genetics, ancestry. You're not sure what you want. It's hard to say without knowing what you can ask for.",
+      "zh": "Connor 想见你父亲，图的是最实在、最血肉相连的东西——钱、基因、身世。而你不确定自己想要什么。在不知道自己能要求什么之前，这实在很难说清。"
+    },
+    {
+      "id": 357,
+      "start_sec": 2547,
+      "speaker": "Sayre Quevedo",
+      "en": "I don't know if I want anything out of it.",
+      "zh": "我也不知道自己是不是想从里头得到什么。"
+    },
+    {
+      "id": 358,
+      "start_sec": 2549,
+      "speaker": "Connor",
+      "en": "Yeah, I think that's OK, too. But, you know, I guess if you don't want to do it, I'm not going to do it either, you know. I'll only do it if you want to do it.",
+      "zh": "嗯，我觉得那样也挺正常的。不过话说回来，你要是不想去，我也不去了。只有你也想去，我才去。"
+    },
+    {
+      "id": 359,
+      "start_sec": 2558,
+      "speaker": "Sayre Quevedo",
+      "en": "No, I'll do it—I want to do it because you want to do it, so.",
+      "zh": "别啊，我去——你想去所以我才想去的。"
+    },
+    {
+      "id": 360,
+      "start_sec": 2564,
+      "speaker": "Connor",
+      "en": "I said I guess we'll both do it.",
+      "zh": "我说，那咱俩就都去吧。"
+    },
+    {
+      "id": 361,
+      "start_sec": 2567,
+      "speaker": "Sayre Quevedo",
+      "en": "One day, you find yourself standing across the street from your birth father's shop. You don't intend to show up. It's as if you've come out of a trance.",
+      "zh": "有一天，你发现自己不知不觉站到了生父店面的马路对面。你本来没打算来的，仿佛刚从一阵恍惚中回过神。"
+    },
+    {
+      "id": 362,
+      "start_sec": 2578,
+      "speaker": "Sayre Quevedo",
+      "en": "You look up, and you're there. The fall's high sun beats down on your shoulders as you stare through the window.",
+      "zh": "一抬头，人就已经站在那儿了。秋日高悬的烈日炙烤着你的双肩，你透过橱窗往里张望。"
+    },
+    {
+      "id": 363,
+      "start_sec": 2586,
+      "speaker": "Woman",
+      "en": "Did you see him?",
+      "zh": "你看到他了吗？"
+    },
+    {
+      "id": 364,
+      "start_sec": 2587,
+      "speaker": "Sayre Quevedo",
+      "en": "Mm-hmm. I smoked a cigarette and watched him work.",
+      "zh": "嗯。我抽了根烟，看着他干活。"
+    },
+    {
+      "id": 365,
+      "start_sec": 2591,
+      "speaker": "Woman",
+      "en": "What was that like for you?",
+      "zh": "那时候你心里是什么感觉？"
+    },
+    {
+      "id": 366,
+      "start_sec": 2593,
+      "speaker": "Sayre Quevedo",
+      "en": "You watch what you believe is your father's silhouette, his hands working over the client's head. Four months since you emailed, four months since you called, and all you have to show for it is this impotent act.",
+      "zh": "你凝视着那个你认定是父亲的剪影，看他双手在客人的头顶上忙碌。距离你发邮件已经过去四个月，距离你打电话也已经四个月，到头来，你能拿得出手的只有这般无力的举动。"
+    },
+    {
+      "id": 367,
+      "start_sec": 2609,
+      "speaker": "Sayre Quevedo",
+      "en": "And I felt sort of like, you can't do shit to me, you know? Like, you can't affect me, you can't stop me from being here, you know?",
+      "zh": "当时我心里就有种感觉，好像在说：你拿我根本没办法，懂吧？你影响不了我，也拦不住我站在这儿，你明白吗？"
+    },
+    {
+      "id": 368,
+      "start_sec": 2625,
+      "speaker": "Sayre Quevedo",
+      "en": "And I guess maybe a little hurt, too, like the feeling of like, oh wow, you're just continuing to live your life like you always have, you know?",
+      "zh": "不过我想心里多少还是有点受伤的，那种感觉就像：哦哇，你就这么照常过你的日子，跟以前没有任何区别，懂吗？"
+    },
+    {
+      "id": 369,
+      "start_sec": 2636,
+      "speaker": "Sayre Quevedo",
+      "en": "Like, I did think about the fact that we sent him an email and gave him a call and left our number, and that he still gets to live his life like nothing is different, you know?",
+      "zh": "就是说，我确实想到我们给他发了邮件、打了电话、留了号码，可他却依然能像什么事都没发生过一样照常生活，你懂吧？"
+    },
+    {
+      "id": 370,
+      "start_sec": 2652,
+      "speaker": "Woman",
+      "en": "Yeah.",
+      "zh": "嗯。"
+    },
+    {
+      "id": 371,
+      "start_sec": 2655,
+      "speaker": "Sayre Quevedo",
+      "en": "The reason language so often fails us, despite eons of development, is not that we fail to choose the right words, or that others stop short of hearing and then comprehending us,",
+      "zh": "语言虽然历经千百万年的演化，却仍常常辜负我们，原因并不在于我们没能选对词句，也不在于旁人听见了却不去理解，"
+    },
+    {
+      "id": 372,
+      "start_sec": 2668,
+      "speaker": "Sayre Quevedo",
+      "en": "but that another, more honest meaning is forged between and apart from what we say, in silence.",
+      "zh": "而在于另一种更坦诚的意义，正是在我们所说的话语之间、之外，在沉默之中悄然成形。"
+    },
+    {
+      "id": 373,
+      "start_sec": 2680,
+      "speaker": "Sayre Quevedo",
+      "en": "Silence, unlike language, cannot be improved upon. It has its own clarifying syntax.",
+      "zh": "沉默不像语言，它无需也无法被修饰润色。它自有一套澄澈分明的句法。"
+    },
+    {
+      "id": 374,
+      "start_sec": 2700,
+      "speaker": "Sayre Quevedo",
+      "en": "It reveals what we are too afraid to put into words. It is in these ellipses that our full intention and meaning are revealed.",
+      "zh": "它揭示了我们不敢诉诸语言的一切。正是在这些省略与留白之中，我们完整的意图与深意才得以显现。"
+    },
+    {
+      "id": 375,
+      "start_sec": 2708,
+      "speaker": "Sayre Quevedo",
+      "en": "And perhaps it is our unwillingness to accept what silence declares where our suffering truly begins.",
+      "zh": "或许，正是因为我们不愿接受沉默所宣告的事实，我们的痛苦才真正开始。"
+    },
+    {
+      "id": 376,
+      "start_sec": 2722,
+      "speaker": "Mom",
+      "en": "So you want to confront him. What is it that you want to— what do you want to achieve with the confrontation?",
+      "zh": "所以你想去当面质问他。那你想要什么——你想通过这次对质达到什么目的呢？"
+    },
+    {
+      "id": 377,
+      "start_sec": 2728,
+      "speaker": "Sayre Quevedo",
+      "en": "I just want him to know that we exist and that— yeah, and that it hurts that he didn't acknowledge us, but also that we'll be fine without him.",
+      "zh": "我只是想让他知道我们的存在，想让他知道——对，他不认我们这件事让我们很受伤，但也想让他知道，没有他我们一样能过得很好。"
+    },
+    {
+      "id": 378,
+      "start_sec": 2746,
+      "speaker": "Mom",
+      "en": "By saying those things, you feel like what? Like what will happen?",
+      "zh": "说出这些话之后，你觉得会怎样？或者说，你觉得会发生什么？"
+    },
+    {
+      "id": 379,
+      "start_sec": 2753,
+      "speaker": "Sayre Quevedo",
+      "en": "I don't know. I guess in a weird way, like, I feel like I will be able to, like, get over my issues, you know?",
+      "zh": "我也不知道。我觉得奇怪的是，我好像觉得这样我就能跨过自己心里的那道坎，你懂吗？"
+    },
+    {
+      "id": 380,
+      "start_sec": 2763,
+      "speaker": "Sayre Quevedo",
+      "en": "Yeah, I feel like it'll be like I, you know, it's like I can finally move past that one thing, you know?",
+      "zh": "对，我总觉得那样一来，我就能——怎么说呢，好像终于能把那件事彻底翻篇了，你明白吧？"
+    },
+    {
+      "id": 381,
+      "start_sec": 2773,
+      "speaker": "Mom",
+      "en": "So do you think that's actually true? I mean, that, you know, that makes perfect sense to me, sweetie.",
+      "zh": "那你觉得这真的会奏效吗？我的意思是，亲爱的，我完全理解你为什么会这么想。"
+    },
+    {
+      "id": 382,
+      "start_sec": 2781,
+      "speaker": "Mom",
+      "en": "You know, that you would think that that would happen. You confront the thing that haunts you. You tell it. You end it.",
+      "zh": "我是说，你当然会觉得事情会这样发展。你直面那个一直困扰你的心结，当面说清楚，然后了结它。"
+    },
+    {
+      "id": 383,
+      "start_sec": 2790,
+      "speaker": "Mom",
+      "en": "But the question is, does it really end it? That's the question. Does it really end it?",
+      "zh": "但问题是，这样做真的能了结吗？这才是关键问题。它真的能画上句号吗？"
+    },
+    {
+      "id": 384,
+      "start_sec": 2816,
+      "speaker": "Sayre Quevedo",
+      "en": "You write your message on a blank sheet of printer paper torn in half. Of all of your attempted correspondences, this one is the most to the point. Name and intention. Why bother with anything else?",
+      "zh": "你在一张撕成两半的空白打印纸上写下你的留言。在你们尝试过的所有联系当中，这一次最为直截了当。写明姓名和来意。又何必再多费唇舌？"
+    },
+    {
+      "id": 385,
+      "start_sec": 2831,
+      "speaker": "Sayre Quevedo",
+      "en": "Hi, you write. We're your sons. We've tried reaching out to you. We'd like to meet you.",
+      "zh": "“你好，”你写道，“我们是你的儿子。我们曾试图联系你。我们想见见你。"
+    },
+    {
+      "id": 386,
+      "start_sec": 2836,
+      "speaker": "Sayre Quevedo",
+      "en": "We've booked your 5 o'clock appointment. We'll be waiting across the street in front of the café and would love to speak. Connor and Sayre.",
+      "zh": "我们预约了你下午5点的时段。我们会在街对面的咖啡馆门口等你，很希望能和你聊聊。Connor 和 Sayre。”"
+    },
+    {
+      "id": 387,
+      "start_sec": 2852,
+      "speaker": "Sayre Quevedo",
+      "en": "I'm going to write his name on the front.",
+      "zh": "我要在正面写上他的名字。"
+    },
+    {
+      "id": 388,
+      "start_sec": 2854,
+      "speaker": "Connor",
+      "en": "Yeah. I mean, the thing is, too, is what if he's right there?",
+      "zh": "行。不过问题是，万一他当时就在那儿呢？"
+    },
+    {
+      "id": 389,
+      "start_sec": 2862,
+      "speaker": "Sayre Quevedo",
+      "en": "I mean, we're going to hand it to him.",
+      "zh": "我的意思是，我们本来就是要亲手递给他的。"
+    },
+    {
+      "id": 390,
+      "start_sec": 2864,
+      "speaker": "Connor",
+      "en": "Yeah.",
+      "zh": "对。"
+    },
+    {
+      "id": 391,
+      "start_sec": 2865,
+      "speaker": "Sayre Quevedo",
+      "en": "So he is going to be right there.",
+      "zh": "所以他肯定就在那儿啊。"
+    },
+    {
+      "id": 392,
+      "start_sec": 2867,
+      "speaker": "Connor",
+      "en": "How are you going to do that?",
+      "zh": "那你打算怎么递给他？"
+    },
+    {
+      "id": 393,
+      "start_sec": 2870,
+      "speaker": "Sayre Quevedo",
+      "en": "You have booked your birth father's last appointment of the day at his barber shop. When he calls you up for your haircut, you'll hand him the note, telling him to meet you across the street.",
+      "zh": "你们已经预约了亲生父亲理发店当天最后一个时段。等他叫你们过去理发时，你们就把纸条递给他，让他到街对面碰面。"
+    },
+    {
+      "id": 394,
+      "start_sec": 2882,
+      "speaker": "Connor",
+      "en": "How are you going to do that?",
+      "zh": "那你打算怎么递给他？"
+    },
+    {
+      "id": 395,
+      "start_sec": 2884,
+      "speaker": "Sayre Quevedo",
+      "en": "Walk up to him and go, like, hi, I'm your 5 o'clock. One of us will have to do it. I'm your 5 o'clock, hand it to him, and then we'll walk out.",
+      "zh": "走过去跟他说，嗨，我是约了5点的客人——总得有个人去说嘛。说一句“我是约了5点的”，把纸条递给他，然后我们就走出来。"
+    },
+    {
+      "id": 396,
+      "start_sec": 2892,
+      "speaker": "Connor",
+      "en": "Do you want to do that?",
+      "zh": "你想去干这事吗？"
+    },
+    {
+      "id": 397,
+      "start_sec": 2894,
+      "speaker": "Sayre Quevedo",
+      "en": "I can do it. Do you want to do it?",
+      "zh": "我可以去啊。你想去吗？"
+    },
+    {
+      "id": 398,
+      "start_sec": 2896,
+      "speaker": "Connor",
+      "en": "No.",
+      "zh": "不想。"
+    },
+    {
+      "id": 399,
+      "start_sec": 2897,
+      "speaker": "Sayre Quevedo",
+      "en": "Okay.",
+      "zh": "好吧。"
+    },
+    {
+      "id": 400,
+      "start_sec": 2898,
+      "speaker": "Connor",
+      "en": "Not at all.",
+      "zh": "一点都不想。"
+    },
+    {
+      "id": 401,
+      "start_sec": 2900,
+      "speaker": "Sayre Quevedo",
+      "en": "It's spring of 2022 in Los Angeles. You are 29 years old. It's been nearly a year since you first sent your email to your birth father, asking to meet.",
+      "zh": "此时是2022年春天的洛杉矶。你29岁了。距离你第一次给亲生父亲发邮件请求见面，已经过去了将近一年。"
+    },
+    {
+      "id": 402,
+      "start_sec": 2911,
+      "speaker": "Sayre Quevedo",
+      "en": "Nearly two years to the day since Connor first called you and asked to look for your birth father. Now your brother is here, in front of you, hunched in front of the mirror, pulling his hair into two loose braids.",
+      "zh": "距离 Connor 第一次给你打电话、提议一起寻找亲生父亲，也几乎整整过去两年了。此刻，你的兄弟就在你面前，弓着身子站在镜子前，把头发松松地编成两条辫子。"
+    },
+    {
+      "id": 403,
+      "start_sec": 2925,
+      "speaker": "Sayre Quevedo",
+      "en": "It's 4:23 PM.",
+      "zh": "现在是下午4点23分。"
+    },
+    {
+      "id": 404,
+      "start_sec": 2927,
+      "speaker": "Connor",
+      "en": "We should probably get going.",
+      "zh": "我们差不多该出发了。"
+    },
+    {
+      "id": 405,
+      "start_sec": 2928,
+      "speaker": "Sayre Quevedo",
+      "en": "Yeah, we should get going because we're going to need time to park and stuff too.",
+      "zh": "对，我们得走了，毕竟还得留出找车位之类的时间。"
+    },
+    {
+      "id": 406,
+      "start_sec": 2934,
+      "speaker": "Sayre Quevedo",
+      "en": "You ready, Connor?",
+      "zh": "准备好了吗，Connor？"
+    },
+    {
+      "id": 407,
+      "start_sec": 2936,
+      "speaker": "Connor",
+      "en": "Yeah.",
+      "zh": "好了。"
+    },
+    {
+      "id": 408,
+      "start_sec": 2941,
+      "speaker": "Sayre Quevedo",
+      "en": "Just make sure I have everything.",
+      "zh": "确认一下东西都带齐了。"
+    },
+    {
+      "id": 409,
+      "start_sec": 2950,
+      "speaker": "Sayre Quevedo",
+      "en": "You're both quiet as you walk out the door.",
+      "zh": "走出家门时，你们俩都默不作声。"
+    },
+    {
+      "id": 410,
+      "start_sec": 2954,
+      "speaker": "Sayre Quevedo",
+      "en": "You can get in.",
+      "zh": "你可以上车了。"
+    },
+    {
+      "id": 411,
+      "start_sec": 2962,
+      "speaker": "Sayre Quevedo",
+      "en": "Okay.",
+      "zh": "行。"
+    },
+    {
+      "id": 412,
+      "start_sec": 2966,
+      "speaker": "Connor",
+      "en": "Okay. How are you feeling?",
+      "zh": "好。你现在感觉怎么样？"
+    },
+    {
+      "id": 413,
+      "start_sec": 2968,
+      "speaker": "Sayre Quevedo",
+      "en": "I'm scared. I'm nervous.",
+      "zh": "我好害怕。我很紧张。"
+    },
+    {
+      "id": 414,
+      "start_sec": 2970,
+      "speaker": "Connor",
+      "en": "Yeah. What are you nervous about?",
+      "zh": "嗯。你在紧张什么？"
+    },
+    {
+      "id": 415,
+      "start_sec": 2974,
+      "speaker": "Sayre Quevedo",
+      "en": "That he's going to be mean.",
+      "zh": "怕他会对我们态度很差。"
+    },
+    {
+      "id": 416,
+      "start_sec": 2976,
+      "speaker": "Connor",
+      "en": "Yeah. Well, he doesn't really have the right to be mean.",
+      "zh": "嗯。不过，他其实根本没资格对我们摆臭脸。"
+    },
+    {
+      "id": 417,
+      "start_sec": 2978,
+      "speaker": "Sayre Quevedo",
+      "en": "Yeah, but that doesn't stop anyone from being mean.",
+      "zh": "话是这么说，可这并不能阻止别人对你态度恶劣啊。"
+    },
+    {
+      "id": 418,
+      "start_sec": 2981,
+      "speaker": "Connor",
+      "en": "No, I know. But, I don't know. I mean, I feel defensive of you.",
+      "zh": "是啊，我懂。不过，怎么说呢，我会本能地想护着你。"
+    },
+    {
+      "id": 419,
+      "start_sec": 2993,
+      "speaker": "Connor",
+      "en": "So if he was mean to us, I think about it as he's mean to you, where I care more, I guess.",
+      "zh": "所以如果他对我们不客气，我会觉得他是在欺负你，而我大概会更在意这个。"
+    },
+    {
+      "id": 420,
+      "start_sec": 3000,
+      "speaker": "Sayre Quevedo",
+      "en": "That's mostly what I'm—I'm afraid of him being mean to you, too. I don't really care what he says to me. I don't want him to hurt you.",
+      "zh": "其实我最担心的，也是怕他对你不客气。他对我说什么我都无所谓，我只是不想让他伤害你。"
+    },
+    {
+      "id": 421,
+      "start_sec": 3008,
+      "speaker": "Connor",
+      "en": "Same here.",
+      "zh": "我也是。"
+    },
+    {
+      "id": 422,
+      "start_sec": 3013,
+      "speaker": "Sayre Quevedo",
+      "en": "You pull down the driveway and onto the mile that separates you from your birth father. This street is ordinary to you now.",
+      "zh": "你们把车开出车道，驶上这隔开你和生父的那一英里路。对你来说，这条街如今再寻常不过。"
+    },
+    {
+      "id": 423,
+      "start_sec": 3021,
+      "speaker": "Sayre Quevedo",
+      "en": "In the nearly two years you have lived here, you have driven it hundreds of times, walked it, drunk, sweaty, in the rain. You've kissed strangers on this street at midnight, mouth full of ash.",
+      "zh": "住在这里将近两年，你开车走过几百遍，也步行走过——醉醺醺地、汗津津地，或者在雨里。你曾在午夜的这条街上吻过陌生人，满嘴都是烟灰味。"
+    },
+    {
+      "id": 424,
+      "start_sec": 3034,
+      "speaker": "Sayre Quevedo",
+      "en": "Time widens the aperture. Certain features pass flat against the windshield as you drive. Others stay inexplicably in the fore—",
+      "zh": "时间仿佛调大了光圈。开车经过时，有些街景在挡风玻璃前平平掠过，有些却莫名地凸显在眼前："
+    },
+    {
+      "id": 425,
+      "start_sec": 3043,
+      "speaker": "Sayre Quevedo",
+      "en": "the laundromat that you went to the day you arrived here, the bar with the barnhouse facade, which you will never step inside of the entire time you live in Los Angeles,",
+      "zh": "你刚来这里那天去过的自助洗衣店，那家有着谷仓门面的酒吧——在洛杉矶住的整段时间里你都从未踏足过，"
+    },
+    {
+      "id": 426,
+      "start_sec": 3054,
+      "speaker": "Sayre Quevedo",
+      "en": "the white house with busts lined across the roof and a headless angel in the yard, the psychic's front porch.",
+      "zh": "屋顶上排满半身雕像、院子里立着无头天使的白色房子，还有那位通灵师家的前廊。"
+    },
+    {
+      "id": 427,
+      "start_sec": 3062,
+      "speaker": "Sayre Quevedo",
+      "en": "What time is it?",
+      "zh": "几点了？"
+    },
+    {
+      "id": 428,
+      "start_sec": 3065,
+      "speaker": "Connor",
+      "en": "It's 4:34. 4:34.",
+      "zh": "四点三十四。四点三十四分。"
+    },
+    {
+      "id": 429,
+      "start_sec": 3068,
+      "speaker": "Sayre Quevedo",
+      "en": "Okay.",
+      "zh": "好。"
+    },
+    {
+      "id": 430,
+      "start_sec": 3073,
+      "speaker": "Connor",
+      "en": "Okay, well, we're outside of it. Hmm. This somehow got so much harder now that we're here.",
+      "zh": "行，我们到店门口了。嗯……怎么真到了这儿，反倒觉得难了这么多。"
+    },
+    {
+      "id": 431,
+      "start_sec": 3083,
+      "speaker": "Sayre Quevedo",
+      "en": "You are now 20 minutes early, which gives Connor time to reconsider the plan entirely.",
+      "zh": "你们早到了二十分钟，这也给了 Connor 足够的时间把整个计划全盘推翻。"
+    },
+    {
+      "id": 432,
+      "start_sec": 3089,
+      "speaker": "Connor",
+      "en": "Do you think we should try—I know you plan on doing the note, but do you think that we should call him?",
+      "zh": "你觉得我们要不要试着……我知道你打算递纸条，但你觉得我们该不该给他打个电话？"
+    },
+    {
+      "id": 433,
+      "start_sec": 3095,
+      "speaker": "Sayre Quevedo",
+      "en": "Yeah, but we already tried calling.",
+      "zh": "可我们之前打过电话了啊。"
+    },
+    {
+      "id": 434,
+      "start_sec": 3097,
+      "speaker": "Connor",
+      "en": "But we call his barbershop and be like, \"Hey, I got an appointment for him at 5 o'clock.\" He'll say, \"Yeah, sure, let me check.\"",
+      "zh": "但我们可以打去他的理发店说：“喂，我约了他五点剪头发。”他就会说：“行，没问题，我查一下。”"
+    },
+    {
+      "id": 435,
+      "start_sec": 3107,
+      "speaker": "Sayre Quevedo",
+      "en": "And then what? Say exactly what's in the note? Say we're outside?",
+      "zh": "然后呢？直接照着纸条上的念？说我们就在外面？"
+    },
+    {
+      "id": 436,
+      "start_sec": 3111,
+      "speaker": "Connor",
+      "en": "Hey, yeah, this is your sons.",
+      "zh": "“嗨，对，我们是你儿子。”"
+    },
+    {
+      "id": 437,
+      "start_sec": 3115,
+      "speaker": "Sayre Quevedo",
+      "en": "What if he hangs up?",
+      "zh": "万一他直接挂了呢？"
+    },
+    {
+      "id": 438,
+      "start_sec": 3117,
+      "speaker": "Connor",
+      "en": "Then we go in there.",
+      "zh": "那我们就直接进去。"
+    },
+    {
+      "id": 439,
+      "start_sec": 3119,
+      "speaker": "Sayre Quevedo",
+      "en": "And do what?",
+      "zh": "进去干嘛？"
+    },
+    {
+      "id": 440,
+      "start_sec": 3121,
+      "speaker": "Connor",
+      "en": "We say, \"Fuck you.\" I don't know. I'm okay with doing that. I've always wanted to say \"fuck you\" to Dad.",
+      "zh": "就冲他说一句：“去你的。”我也不知道，反正我无所谓。我一直都想对老爸骂一句“去你的”。"
+    },
+    {
+      "id": 441,
+      "start_sec": 3133,
+      "speaker": "Connor",
+      "en": "Do you want to go in together? Would that make you feel better about it?",
+      "zh": "你想一起进去吗？那样会不会让你好受点？"
+    },
+    {
+      "id": 442,
+      "start_sec": 3137,
+      "speaker": "Sayre Quevedo",
+      "en": "I mean, if you want to, I'm down.",
+      "zh": "嗯，如果你想的话，我没问题。"
+    },
+    {
+      "id": 443,
+      "start_sec": 3141,
+      "speaker": "Connor",
+      "en": "I want him to look at us in the case that he decides that he doesn't want to deal with it, so that he can at least do it once.",
+      "zh": "我是想，万一他决定不愿面对，至少他也得亲眼看我们一眼，哪怕就这么一次。"
+    },
+    {
+      "id": 444,
+      "start_sec": 3149,
+      "speaker": "Connor",
+      "en": "If he decides to avoid conversation with us, at least going in there and him seeing our face, I can be like, \"Hey, I'm here, and I see you.\"",
+      "zh": "就算他打定主意躲着不跟我们说话，至少我们走进去让他看到我们的脸，我也能当面告诉他：“嘿，我来了，我看见你了。”"
+    },
+    {
+      "id": 445,
+      "start_sec": 3178,
+      "speaker": "Sayre Quevedo",
+      "en": "Okay, two minutes.",
+      "zh": "好了，还有两分钟。"
+    },
+    {
+      "id": 446,
+      "start_sec": 3185,
+      "speaker": "Sayre Quevedo",
+      "en": "One minute till five.",
+      "zh": "差一分钟五点。"
+    },
+    {
+      "id": 447,
+      "start_sec": 3191,
+      "speaker": "Sayre Quevedo",
+      "en": "Okay. Are you ready?",
+      "zh": "行了，准备好了吗？"
+    },
+    {
+      "id": 448,
+      "start_sec": 3192,
+      "speaker": "Connor",
+      "en": "Yeah, you?",
+      "zh": "嗯，你呢？"
+    },
+    {
+      "id": 449,
+      "start_sec": 3193,
+      "speaker": "Sayre Quevedo",
+      "en": "As ready as I can be.",
+      "zh": "能准备的都准备好了。"
+    },
+    {
+      "id": 450,
+      "start_sec": 3200,
+      "speaker": "Sayre Quevedo",
+      "en": "The first words your birth father ever says to you:",
+      "zh": "你生父对你说的第一句话是："
+    },
+    {
+      "id": 451,
+      "start_sec": 3202,
+      "speaker": "Man",
+      "en": "Do you have an appointment?",
+      "zh": "有预约吗？"
+    },
+    {
+      "id": 452,
+      "start_sec": 3203,
+      "speaker": "Sayre Quevedo",
+      "en": "Yeah, five.",
+      "zh": "有，五点的。"
+    },
+    {
+      "id": 453,
+      "start_sec": 3206,
+      "speaker": "Sayre Quevedo",
+      "en": "You sit down and wait your turn. You can barely get yourself to look up at him.",
+      "zh": "你坐下来等轮到自己，几乎鼓不起勇气抬头看他。"
+    },
+    {
+      "id": 454,
+      "start_sec": 3212,
+      "speaker": "Sayre Quevedo",
+      "en": "You fix your eyes first on the wine-colored tiles, then the client's sneakers, slack against the footrest, the shapeless, oversized black barber's tarp.",
+      "zh": "你的视线先是定在酒红色的地砖上，接着落到客人松垮搭在脚踏板上的运动鞋，还有那块肥大、毫无版型的黑色理发围布。"
+    },
+    {
+      "id": 455,
+      "start_sec": 3222,
+      "speaker": "Sayre Quevedo",
+      "en": "Then, your father's hands as he trims stray hairs, chatting easily over the jazz music playing softly over the speakers.",
+      "zh": "然后，你看到父亲修剪杂毛的手——音响里轻柔地放着爵士乐，他正伴着音乐轻松闲聊。"
+    },
+    {
+      "id": 456,
+      "start_sec": 3231,
+      "speaker": "Sayre Quevedo",
+      "en": "The walls are lined with framed photographs of what you assume were once famous Hollywood actors, whose faces you do not recognize and names you do not know.",
+      "zh": "墙上挂满了一排排装裱好的照片，你猜大概都是曾经当红的好莱坞演员，可他们的脸你认不出，名字也一个不知道。"
+    },
+    {
+      "id": 457,
+      "start_sec": 3241,
+      "speaker": "Sayre Quevedo",
+      "en": "In the corner, the magazine rack full of vintage Playboy magazines.",
+      "zh": "角落里的杂志架上，塞满了古早的《花花公子》杂志。"
+    },
+    {
+      "id": 458,
+      "start_sec": 3247,
+      "speaker": "Sayre Quevedo",
+      "en": "Your birth father brushes clean his client's forehead and nape with a blonde duster brush, says goodbye cheerily.",
+      "zh": "你的生父用一把浅金色的扫发刷把客人的额头和后颈扫干净，又愉快地道了别。"
+    },
+    {
+      "id": 459,
+      "start_sec": 3256,
+      "speaker": "Sayre Quevedo",
+      "en": "He glances over at you and Connor, and then calmly walks to the back door of the shop.",
+      "zh": "他朝你和 Connor 瞥了一眼，随后淡定地走向店里的后门。"
+    },
+    {
+      "id": 460,
+      "start_sec": 3262,
+      "speaker": "Sayre Quevedo",
+      "en": "He disappears for five seconds, then 10, then 15.",
+      "zh": "他消失了五秒，十秒，十五秒。"
+    },
+    {
+      "id": 461,
+      "start_sec": 3288,
+      "speaker": "Sayre Quevedo",
+      "en": "He returns with a broom, and slowly, methodically, sweeps the hair into a dust—",
+      "zh": "他拿着一把扫帚走回来，不紧不慢、一丝不苟地把地上的碎发扫进簸——"
+    },
+    {
+      "id": 462,
+      "start_sec": 3300,
+      "speaker": "Sayre Quevedo",
+      "en": "bin, and then the trash.",
+      "zh": "箕里，再倒进垃圾桶。"
+    },
+    {
+      "id": 463,
+      "start_sec": 3304,
+      "speaker": "Sayre Quevedo",
+      "en": "You imagine everything leading up to this moment from his point of view.",
+      "zh": "你试着站在他的视角，回想这一刻之前发生的一切。"
+    },
+    {
+      "id": 464,
+      "start_sec": 3310,
+      "speaker": "Sayre Quevedo",
+      "en": "Today he woke up, probably had a coffee, kissed his wife goodbye, drove to work, attended to some regulars,",
+      "zh": "今天他一早醒来，大概喝了杯咖啡，吻别妻子，开车去店里，照常接待了几个老主顾，"
+    },
+    {
+      "id": 465,
+      "start_sec": 3316,
+      "speaker": "Sayre Quevedo",
+      "en": "made small talk about the relief of 70-degree weather or the impending invasion of Ukraine as he lined up their beards and hairlines, took a quick lunch break, scrolled on Facebook on his phone.",
+      "zh": "一边修剪胡须和发际线，一边随口聊聊这终于回暖到70华氏度的好天气，或者乌克兰一触即发的战事；抽空匆匆吃了顿午饭，拿手机刷了刷 Facebook。"
+    },
+    {
+      "id": 466,
+      "start_sec": 3328,
+      "speaker": "Sayre Quevedo",
+      "en": "Ten minutes ago, he probably looked up at the clock, saw two young guys walk in, and felt a wave of relief, the last customers.",
+      "zh": "十分钟前，他大概抬头看了眼挂钟，见两个年轻小伙子推门进来，心里还暗暗松了口气——这是今天最后两位客人了。"
+    },
+    {
+      "id": 467,
+      "start_sec": 3335,
+      "speaker": "Sayre Quevedo",
+      "en": "As he finished sweeping the hair into a bin, he was probably hit with the feeling of relaxation that comes with knowing that the day is nearly done.",
+      "zh": "等他把碎发扫进簸箕，想到一天忙完、马上就能收工，浑身上下大概正泛起一阵轻松感。"
+    },
+    {
+      "id": 468,
+      "start_sec": 3343,
+      "speaker": "Sayre Quevedo",
+      "en": "Now, he calls those boys up to the chair. One of them, the curly-haired one, who can barely look him in the eye, pulls a note from his pocket and hands it to him.",
+      "zh": "现在，他招呼那两个男孩坐到理发椅前。其中一个卷头发的小伙子几乎不敢正眼看他，从口袋里掏出一张纸条递了过来。"
+    },
+    {
+      "id": 469,
+      "start_sec": 3352,
+      "speaker": "Sayre Quevedo",
+      "en": "His name is written on the front. And both boys walk out, wordlessly.",
+      "zh": "纸条正面写着他的名字。随后，两个男孩一言不发地转身走出了店门。"
+    },
+    {
+      "id": 470,
+      "start_sec": 3358,
+      "speaker": "Sayre Quevedo",
+      "en": "And now, what has been up until this moment a very ordinary day has become a monumental one in just a few seconds.",
+      "zh": "就这样，此前平平无奇的一天，在短短几秒钟内变得非同寻常。"
+    },
+    {
+      "id": 471,
+      "start_sec": 3415,
+      "speaker": "Ira Glass",
+      "en": "So what you just heard was made of excerpts from the first three episodes of Reaching Out. The podcast comes from Futuro and KCRW.",
+      "zh": "大家刚才听到的内容，节选自播客 Reaching Out 的前三集。这档节目由 Futuro 与 KCRW 联合出品。"
+    },
+    {
+      "id": 472,
+      "start_sec": 3422,
+      "speaker": "Ira Glass",
+      "en": "We are right now leaving off the story in the middle of episode 3, and I really encourage you to go hear what is about to happen. Some big, big turns are right ahead. It's very satisfying.",
+      "zh": "我们现在刚好在第三集讲到一半的地方暂告一段落，我强烈建议大家去听听接下来会发生什么。后面紧接着就有几个非常重磅的转折，听起来相当过瘾。"
+    },
+    {
+      "id": 473,
+      "start_sec": 3431,
+      "speaker": "Ira Glass",
+      "en": "Then, episode 4 comes out later this week, and you can actually listen to all six episodes right now if you subscribe to Futuro Plus.",
+      "zh": "第四集将在本周晚些时候上线；不过如果你订阅了 Futuro Plus，现在就能一口气听完全部六集。"
+    },
+    {
+      "id": 474,
+      "start_sec": 3438,
+      "speaker": "Ira Glass",
+      "en": "And if you dive in that way, maybe go back to episodes 1 and 2. They contain stuff you have not heard in our excerpts today.",
+      "zh": "如果打算追下去的话，不妨也回头听听第一集和第二集，里面还有不少我们今天节选里没放出来的精彩内容。"
+    },
+    {
+      "id": 475,
+      "start_sec": 3445,
+      "speaker": "Ira Glass",
+      "en": "Reaching Out is produced, written, and sound-designed by Sayre Quevedo, editing by Maria Garcia. Original music by Lucy Little, mixed by Stephanie Lebow. Executive produced by Maria Garcia and Marlon Bishop.",
+      "zh": "Reaching Out 由 Sayre Quevedo 担任制作、撰稿及声音设计，Maria Garcia 负责剪辑，Lucy Little 创作原创配乐，Stephanie Lebow 混音，Maria Garcia 与 Marlon Bishop 共同担任执行制片。"
+    },
+    {
+      "id": 476,
+      "start_sec": 3455,
+      "speaker": "Ira Glass",
+      "en": "The people who put our show together today include Nadia Reiman, who produced this episode, Adrienne Lilly, Tobin Low, Andrea Marks, Stowe Nelson, Ruthie Petitto, Anthony Roman, Ruby Schwartz, Lilly Sullivan, Frances Swanson, Christopher Swetala, Julie Whitaker, and Diane Wu.",
+      "zh": "今天参与我们这期节目制作的人员包括：本期制作人 Nadia Reiman，以及 Adrienne Lilly、Tobin Low、Andrea Marks、Stowe Nelson、Ruthie Petitto、Anthony Roman、Ruby Schwartz、Lilly Sullivan、Frances Swanson、Christopher Swetala、Julie Whitaker 和 Diane Wu。"
+    },
+    {
+      "id": 477,
+      "start_sec": 3469,
+      "speaker": "Ira Glass",
+      "en": "Our managing editor is Sarah Abdurrahman. Our senior editors are David Kestenbaum and Nancy Updike. Our executive editor is Emanuele Berry.",
+      "zh": "我们的执行编辑是 Sarah Abdurrahman，资深编辑是 David Kestenbaum 和 Nancy Updike，执行主编是 Emanuele Berry。"
+    },
+    {
+      "id": 478,
+      "start_sec": 3570,
+      "speaker": "Ira Glass",
+      "en": "This American Life is delivered to public radio stations by PRX, the Public Radio Exchange. Thanks as always to our program's co-founder, Mr. Torey Malatia.",
+      "zh": "This American Life 由公共广播交换网 PRX（Public Radio Exchange）向各公共广播电台分发播出。一如既往地感谢我们节目的联合创始人 Torey Malatia 先生。"
+    },
+    {
+      "id": 479,
+      "start_sec": 3580,
+      "speaker": "Ira Glass",
+      "en": "You know, whenever he returns from lunch, this is what he says to me. I don't know what to make of it.",
+      "zh": "说起来，每次他吃完午饭回来，都会对我说这么一句。我真不知道该怎么接话。"
+    },
+    {
+      "id": 480,
+      "start_sec": 3586,
+      "speaker": "Torey Malatia",
+      "en": "I'm back. Your mommy's back.",
+      "zh": "我回来啦，你妈咪回来啦。"
+    },
+    {
+      "id": 481,
+      "start_sec": 3589,
+      "speaker": "Ira Glass",
+      "en": "Thanks, I guess. I'm Ira Glass. Back next week with more stories of This American Life.",
+      "zh": "那……谢谢了？我是 Ira Glass，下周同一时间，继续为您带来 This American Life 的更多故事。"
+    }
+  ]
+}

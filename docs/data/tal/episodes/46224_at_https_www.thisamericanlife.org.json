@@ -1,0 +1,3385 @@
+{
+  "schema_version": "3.0",
+  "show_id": "tal",
+  "guid": "46224 at https://www.thisamericanlife.org",
+  "title": "897: Intergenerational Space Travel",
+  "pub_date": "2026-09-21T00:00:00Z",
+  "duration_sec": 3886,
+  "audio_url": "https://www.thisamericanlife.org/sites/default/files/audio/upload/archive/897.mp3",
+  "summary_zh": "本期以“代际太空旅行”为母主题，探讨两代人如何跨越星际般遥远的认知鸿沟，向对岸传递心声。Prologue 中，Ira Glass 从 NPR 播客评论区的“水军疑云”切入：成年制片人眼中的乱码，经年轻同事破译竟是社交软件受限的初中生借冷门节目搭建的秘密群聊。随后三幕层层展开：Act One 里，Courtney Maum 在母亲再婚破裂三十年后与她重读当年的婚礼诗，解开半生心结并在联手驱逐继父后重归于好；Act Two 里，Ike Sriskandarajah 重返威斯康星州麦迪逊的打工影院，发现昔日恶作剧虽逝，包场约会的浪漫魔法仍在延续；Act Three 里，Myra Flynn 因与六岁女儿清晨梳头僵持而向母亲求助，意外改写了三代母女忍痛梳头的代际惯性。",
+  "key_takeaways_zh": [
+    "Prologue（主持：Ira Glass）：NPR 制片人 Dave Blanchard 误将 Spotify 评论区的怪异留言当作水军机器人，最终在年轻同事 Hannah Chinn 与 14 岁女孩 Ella 的揭秘下，发现这是一群手机受限的初中生借冷门播客搭建的秘密聊天室。",
+    "Act One: The Wedding Zinger（讲述：Courtney Maum；制作：Dana Chivvis）：作家 Courtney Maum 在母亲 Linda 长达三十余年的糟糕再婚终结后，与母亲首次重读自己 18 岁在婚礼上朗读的暗黑诗歌，坦诚解开两代女性的心结与创伤。",
+    "Act Two: Cinema Veri-teen（记者：Ike Sriskandarajah）：常驻制作人 Ike Sriskandarajah 时隔二十余年重返威斯康星州麦迪逊的高中打工影院，探寻少年时代的职场恶作剧与免票带心仪女孩看电影的浪漫特权如今是否犹存。",
+    "Act Three: Mama, Can You Hair Me?（讲述：Myra Flynn；制作：Emmanuel Dzotsi）：母亲 Myra Flynn 录下每天清晨为 6 岁女儿梳理黑人卷发时的哭闹拉锯战，并在向自己的硬派母亲 Martha Mathis 求教时，收获了用放权取代忍痛的温柔解法。"
+  ],
+  "highlights": [
+    {
+      "start_sec": 11,
+      "title_zh": "Prologue: 神秘留言",
+      "summary_zh": "NPR 播客《Wild Card》制片人 Dave Blanchard 在 Spotify 单集评论区发现大量前言不搭后语的怪异留言，起初以为遭遇了新型水军机器人，删帖后对方竟还发帖吐槽评论被删。直到年轻十岁的 Z 世代同事 Hannah Chinn 一眼看穿玄机：这根本不是机器人，而是一群手机社交软件受限的初中生把播客评论区当成了秘密群聊。",
+      "quote_en": "It screamed bots, just because anytime that I see gibberish in a comment on the internet, I assume it's a bot."
+    },
+    {
+      "start_sec": 545,
+      "title_zh": "初中生的秘密群聊",
+      "summary_zh": "Ira Glass 联系上 14 岁的留言女孩 Ella，得知这群被父母禁止使用社交媒体的孩子通过公开歌单打暗号，专门寻找冷门播客的评论区聚会聊天。当被问及为何选中 NPR 时，Ella 耿直地回答“因为评论少、没人打扰”，还顺便拿父母常听公共广播当完美掩护，令自嘲沦为“老古董”的成年制作人哭笑不得，也由此引出全集“代际太空旅行”的主题。",
+      "quote_en": "I think we just looked for podcasts that didn't have many comments."
+    },
+    {
+      "start_sec": 716,
+      "title_zh": "Act One: 婚礼毒舌诗",
+      "summary_zh": "作家 Courtney Maum 回忆 18 岁时母亲 Linda 再婚，她对来历不明、脾气粗暴的继父“Mr. X”深恶痛绝，却作为伴娘在婚礼上朗读了一首令母亲记恨三十余年的致辞。如今这段婚姻终于破裂，母女俩首次敞开心扉复盘往事，Courtney 也第一次听母亲道出当年在浴缸越界与装修款失踪等荒唐征兆下仍执意结婚的隐情。",
+      "quote_en": "At 18, I thought I was kind of hot shit—a writer in the making, a die-hard feminist, a student capable of bringing freedom to Tibet."
+    },
+    {
+      "start_sec": 1560,
+      "title_zh": "重读三十年前旧诗",
+      "summary_zh": "Courtney 翻出尘封三十年的婚礼原诗当面重读，意外发现自己当年虽在开头写满黑暗、孤独与母亲指间的香烟，后半段却真挚祝福母亲找到了归属与爱。Linda 坦言当年听到写自己抽烟的负面字眼时心已沉入谷底，根本没听进后面的善意，母女俩跨越三十年的误会终于在一声郑重的道歉中释怀。",
+      "quote_en": "In preparation for this conversation with my mom, I dug the poem out. Neither of us had seen it in 30 years."
+    },
+    {
+      "start_sec": 1879,
+      "title_zh": "婚后中风与代际创伤",
+      "summary_zh": "婚礼仅两天后，49 岁的 Linda 突发严重中风，如今她含泪承认当年身体的每一根神经都预感到了这场灾难，却因从小被强势的母亲贬低“永远是错的”而不敢相信直觉。Courtney 也坦白少女时代的尖刻并非讨厌母亲，而是痛心于光芒四射的她总向配不上自己的男人低头妥协。",
+      "quote_en": "I do believe that I anticipated this awfulness ahead of time."
+    },
+    {
+      "start_sec": 2294,
+      "title_zh": "联手驱逐与母女重聚",
+      "summary_zh": "去年十月，Linda 在家中摔断脊椎躺地数小时，烂醉的 Mr. X 却见死不救，彻底唤醒了她斩断婚姻的决心。她授权女儿代为出庭打赢驱逐官司，这场迟来三十年的联手反击终于让年近八旬的母亲真切感受到女儿的深情，也让母女关系迎来真正的新生。",
+      "quote_en": "Mr. X drove us apart, and kicking him out is what brought us back together."
+    },
+    {
+      "start_sec": 2473,
+      "title_zh": "Act Two: 影院打工记",
+      "summary_zh": "制作人 Ike Sriskandarajah 重返二十多年前高中打工的威斯康星州麦迪逊影院，试图验证这份“少年神职”是否依旧快活。然而故地重游后他发现，燕尾服腰封、垃圾箱摔角拆纸箱和低俗检票暗语早已成为历史，如今的高中生甚至懒得用员工福利带朋友免费看电影，更宁愿宅家刷流媒体。",
+      "quote_en": "I felt like a teen god, second to none in the pantheon of high school jobs, except maybe drug dealer."
+    },
+    {
+      "start_sec": 2855,
+      "title_zh": "午夜包场的浪漫传承",
+      "summary_zh": "26 岁的影院副经理 Darren Klingaman 分享了自己利用影院钥匙，在打烊后为心仪女孩安排音乐剧电影《魔法坏女巫》专属巨幕包场的初次约会，如今两人已顺利订婚。这恰好与 Ike 当年从后门偷放进场并最终娶回家的女孩故事遥相呼应，证明影院打工的浪漫魔法跨越二十年依然奏效。",
+      "quote_en": "The job today definitely seems less fun, but there's still a little movie magic left."
+    },
+    {
+      "start_sec": 3036,
+      "title_zh": "Act Three: 晨间梳头",
+      "summary_zh": "40 多岁的母亲 Myra Flynn 每天清晨都要与天不怕地不怕的 6 岁女儿 Avalon 展开一场痛苦的黑人卷发梳理拉锯战，于是她录下对话试图寻找症结。当听到自己脱口说出“我们需要的东西有时就是不舒服”时，她猛然惊觉自己正复刻着母亲当年的严厉口吻，陷入温和育儿与培养抗挫力的内心撕裂。",
+      "quote_en": "You know that moment when you open your mouth to say something and out comes your mother?"
+    },
+    {
+      "start_sec": 3424,
+      "title_zh": "外婆传授的温柔解法",
+      "summary_zh": "Myra 致电曾任军事学院院长的硬派母亲 Martha Mathis 寻求认同，不料母亲坚决反对拿黑人女性的头发当吃苦教育，并提议把最怕疼的后颈发际（kitchen）交给孩子自己梳理。尝试放权后，Avalon 第一次笑着自己梳顺头发向父亲炫耀，三代母女的疼痛循环就此改写。",
+      "quote_en": "When you know better, you do better."
+    }
+  ],
+  "vocab_notes": [
+    {
+      "term": "make heads or tails of",
+      "meaning_zh": "摸清头绪；弄懂（常用于否定句）",
+      "note_zh": "源自猜硬币正反面的地道美式习语，制片人 Dave 用它形容面对初中生留下的碎片化网络暗语时完全一头雾水。",
+      "start_sec": 38
+    },
+    {
+      "term": "zinger",
+      "meaning_zh": "辛辣俏皮话；令人猝不及防的毒舌暗讽",
+      "note_zh": "第一幕标题“The Wedding Zinger”用该词戏称少女时代的 Courtney 在母亲婚礼上抛出的那段暗黑诗歌致辞。",
+      "start_sec": 716
+    },
+    {
+      "term": "rain on someone's parade",
+      "meaning_zh": "大煞风景；给别人的兴头泼冷水",
+      "note_zh": "形象的美式口语习语，文中指 Courtney 当众对母亲约会对象的腹语木偶表演摆臭脸，搅黄了弟弟看热闹的兴致。",
+      "start_sec": 915
+    },
+    {
+      "term": "saving grace",
+      "meaning_zh": "唯一可取之处；将功补过的优点",
+      "note_zh": "指在诸多缺点中唯一能挽回印象的闪光点，文中指脾气暴躁的继父在弟弟重病住院期间展现出的难得温柔。",
+      "start_sec": 1826
+    },
+    {
+      "term": "bedroom town",
+      "meaning_zh": "通勤卫星城；“睡城”",
+      "note_zh": "美国社会文化词汇（亦作 bedroom community），特指康涅狄格州格林威治这类华尔街金融精英白天进城上班、夜晚归家休息的富裕郊区城镇。",
+      "start_sec": 2155
+    },
+    {
+      "term": "the early aughts",
+      "meaning_zh": "21世纪头十年初期（约2000年至2004年）",
+      "note_zh": "美式英语常用年代称谓，“aught”意为数字“零”，公共广播与媒体常以“the aughts”指代不便命名读音的2000年代。",
+      "start_sec": 2597
+    },
+    {
+      "term": "workman's comp",
+      "meaning_zh": "工伤赔偿保险（workers' compensation 的口语简称）",
+      "note_zh": "美国职场高频口语词，影院区域总经理以此冷幽默回应当年高中生店员跳进铁皮垃圾箱飞身砸纸箱的危险操作。",
+      "start_sec": 2731
+    },
+    {
+      "term": "tough it out",
+      "meaning_zh": "咬牙硬扛；忍痛撑过去",
+      "note_zh": "美式日常短语动词，道出非裔家庭育儿中“是否该让孩子从小学会忍耐疼痛与外部世界严酷现实”的代际纠结。",
+      "start_sec": 3273
+    },
+    {
+      "term": "kitchen",
+      "meaning_zh": "（非裔美式英语俚语）后颈发际处最卷密难梳的头发",
+      "note_zh": "黑人护发文化核心词汇，因旧时厨房蒸汽最易让后颈拉直的头发率先回卷而得名，也是孩童梳头时最敏感怕疼的部位。",
+      "start_sec": 3543
+    }
+  ],
+  "references": [
+    {
+      "title": "Wild Card with Rachel Martin",
+      "creator": "NPR / Rachel Martin",
+      "category": "media",
+      "note_zh": "Prologue 中意外被一群初中生选中、将 Spotify 单集评论区改造成秘密群聊室的 NPR 访谈播客节目。",
+      "start_sec": 11,
+      "links": [
+        {
+          "source": "apple_podcasts",
+          "label": "Apple Podcasts",
+          "url": "https://podcasts.apple.com/us/podcast/wild-card-with-rachel-martin/id1742968315"
+        },
+        {
+          "source": "podcast_site",
+          "label": "播客官网",
+          "url": "https://www.npr.org/podcasts/510379/wild-card-with-rachel-martin"
+        }
+      ]
+    },
+    {
+      "title": "Alan Opts Out",
+      "creator": "Courtney Maum",
+      "category": "book",
+      "note_zh": "Act One 讲述者、作家 Courtney Maum 最新出版的长篇小说，由主持人 Ira Glass 在第一幕结尾推介。",
+      "start_sec": 2425,
+      "links": [
+        {
+          "source": "official",
+          "label": "官网",
+          "url": "https://www.hachettebookgroup.com/titles/courtney-maum/alan-opts-out/9780316599122/"
+        },
+        {
+          "source": "goodreads",
+          "label": "Goodreads",
+          "url": "https://www.goodreads.com/book/show/243497082-alan-opts-out"
+        }
+      ]
+    },
+    {
+      "title": "Wicked (魔法坏女巫)",
+      "creator": "Jon M. Chu",
+      "category": "media",
+      "note_zh": "Act Two 中影院副经理 Darren Klingaman 在影院打烊后为心仪女孩私人巨幕包场放映的音乐剧电影，促成了两人的恋情与订婚。",
+      "start_sec": 2873,
+      "links": [
+        {
+          "source": "wikipedia",
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Wicked_(2024_film)"
+        },
+        {
+          "source": "douban",
+          "label": "豆瓣",
+          "url": "https://movie.douban.com/subject/3148694/"
+        }
+      ]
+    },
+    {
+      "title": "Homegoings with Myra Flynn",
+      "creator": "Myra Flynn",
+      "category": "media",
+      "note_zh": "Act Three 讲述者 Myra Flynn 主持的播客节目，由 Ira Glass 在第三幕结尾向听众介绍。",
+      "start_sec": 3752,
+      "links": [
+        {
+          "source": "apple_podcasts",
+          "label": "Apple Podcasts",
+          "url": "https://podcasts.apple.com/us/podcast/homegoings-with-myra-flynn/id1896768463"
+        },
+        {
+          "source": "podcast_site",
+          "label": "播客官网",
+          "url": "https://play.prx.org/listen?uf=https%3A%2F%2Fpublicfeeds.net%2Ff%2F17088%2Ffeed-rss.xml"
+        }
+      ]
+    }
+  ],
+  "transcript": [
+    {
+      "id": 1,
+      "start_sec": 0,
+      "speaker": "Ira Glass",
+      "en": "A quick warning, there are curse words that are unbleeped in today's episode of the show. If you prefer a bleeped version, you can find that at our website, thisamericanlife.org.",
+      "zh": "先提醒一下，今天这期节目里有些脏话没有消音。如果你更想听消音版，可以上我们的官网 thisamericanlife.org 收听。"
+    },
+    {
+      "id": 2,
+      "start_sec": 11,
+      "speaker": "Ira Glass",
+      "en": "Dave Blanchard runs the public radio show Wild Card. And one of the less exciting and, in fact, rather tedious parts of his job is that he has to keep an eye on the comments that people post about the show online.",
+      "zh": "Dave Blanchard 负责运营公共广播节目《Wild Card》。他工作里最不激动人心、甚至相当枯燥的一部分，就是得盯着网友在网上给节目留下的各种评论。"
+    },
+    {
+      "id": 3,
+      "start_sec": 26,
+      "speaker": "Ira Glass",
+      "en": "And one day last fall, on Spotify, he saw all this activity about this episode they did with the writer Elizabeth Gilbert. And Dave thought, oh, her book was controversial, it must have struck a nerve, this episode. And then he looked at the comments.",
+      "zh": "去年秋天的一天，他在 Spotify 上看到他们和作家 Elizabeth Gilbert 做的那期节目互动量暴增。Dave 心想，哦，她的书本来就有争议，这期节目肯定是戳中大家痛点了。结果他点开评论区一看。"
+    },
+    {
+      "id": 4,
+      "start_sec": 38,
+      "speaker": "Dave Blanchard",
+      "en": "And it was just, like, gibberish. There was a bunch of new comments, but I couldn't make heads or tail of any of them. They're just kind of these clipped, weird, incoherent postings.",
+      "zh": "上面全是一堆莫名其妙的乱码。确实多了一大堆新评论，但我一条也看不明白。全都是那种简短、古怪、前言不搭后语的留言。"
+    },
+    {
+      "id": 5,
+      "start_sec": 51,
+      "speaker": "Dave Blanchard",
+      "en": "It screamed bots, just because anytime that I see gibberish in a comment on the internet, I assume it's a bot.",
+      "zh": "给我的第一感觉就是水军机器人——毕竟我在网上每次看到这种胡言乱语的评论，都会默认是机器人干的。"
+    },
+    {
+      "id": 6,
+      "start_sec": 59,
+      "speaker": "Dave Blanchard",
+      "en": "But the fact that they were all from different accounts seemed very weird. And the fact that they also maybe seemed to be interacting in some way also seemed weird and not like typical bot behavior.",
+      "zh": "但奇怪的是，这些评论全来自不同的账号。而且他们之间似乎还在某种程度上互相回应，这也太反常了，完全不像一般机器人的套路。"
+    },
+    {
+      "id": 7,
+      "start_sec": 70,
+      "speaker": "Ira Glass",
+      "en": "Can I ask you to read some of those comments?",
+      "zh": "能请你念几条当时的评论吗？"
+    },
+    {
+      "id": 8,
+      "start_sec": 72,
+      "speaker": "Dave Blanchard",
+      "en": "So yeah, I've got some from a later batch. We've got some where someone says, \"Ah, OK, M-H.\" And two people have hearted that.",
+      "zh": "行啊，我这儿存了后来的一批。比如有人写：“啊，好吧，M-H。”底下还有两个人点了红心。"
+    },
+    {
+      "id": 9,
+      "start_sec": 84,
+      "speaker": "Dave Blanchard",
+      "en": "Someone says, \"Gilgamesh quit and I'm crying.\" \"Last Friday I broke up with my GF.\" \"Your cats are so cute.\" \"You're gorgeous in that dress. OML, pink heart.\"",
+      "zh": "还有人说：“Gilgamesh 退出了，我哭死。”“上周五我跟女朋友分手了。”“你的猫好可爱。”“你穿那条裙子绝美，天呐，粉红爱心。”"
+    },
+    {
+      "id": 10,
+      "start_sec": 96,
+      "speaker": "Ira Glass",
+      "en": "So OK, bots, he thought, some newfangled kind of bots that respond to each other somehow. He deleted the posts.",
+      "zh": "好吧，还是机器人，他心想，大概是某种能互相搭话的新式机器人吧。于是他把这些评论全删了。"
+    },
+    {
+      "id": 11,
+      "start_sec": 103,
+      "speaker": "Dave Blanchard",
+      "en": "And I went back to the Spotify comments again, and there was a new comment, and it said, \"Uh, so it deleted my com.\"",
+      "zh": "后来我又点回 Spotify 的评论区，发现冒出一条新留言，上面写着：“呃，它把我的评删了。”"
+    },
+    {
+      "id": 12,
+      "start_sec": 111,
+      "speaker": "Dave Blanchard",
+      "en": "And that felt not botty. That felt very strange that a bot would be able to recognize that the thread got deleted and post it, letting people know that it had been deleted.",
+      "zh": "这就很不像机器人了。如果一个机器人能发现那串留言被删了，还专门发一条新评论告诉大家东西被删了，那也太不可思议了。"
+    },
+    {
+      "id": 13,
+      "start_sec": 121,
+      "speaker": "Ira Glass",
+      "en": "And then there were other responses to that.",
+      "zh": "而且底下还有人接着回复了那条留言。"
+    },
+    {
+      "id": 14,
+      "start_sec": 123,
+      "speaker": "Dave Blanchard",
+      "en": "So someone says, username cotton/amity, parentheses, \"I'm back, bitches,\" commented, \"Weird.\" Aubrey commented, \"That's weirdss,\" two S's.",
+      "zh": "有个用户名叫 cotton/amity、后面还加了个括号写着“老娘回来了，贱人们”的人，在底下回了一句“诡异”。然后 Aubrey 又跟了一句“好诡异ss”，结尾特意用了两个 s。"
+    },
+    {
+      "id": 15,
+      "start_sec": 133,
+      "speaker": "Ira Glass",
+      "en": "This is really not looking like any bot behavior he'd ever seen. So he goes to NPR's Slack channels, posts some screenshots, describes what these comments are. And one of the higher-ups, Matilde, suggests reporting it to Spotify, which Dave does.",
+      "zh": "这越看越不像他以前见过的任何机器人行径。于是他跑去 NPR 的 Slack 频道发了几张截图，描述了一下这些评论的情况。一位名叫 Matilde 的高层建议向 Spotify 举报，Dave 照做了。"
+    },
+    {
+      "id": 16,
+      "start_sec": 146,
+      "speaker": "Ira Glass",
+      "en": "And then somebody younger at NPR reads the thread. They're 10 years younger than Dave—Gen Z, not millennial—named Hannah Chinn.",
+      "zh": "就在这时，NPR 里一个更年轻的同事看到了这串讨论。对方比 Dave 小十岁——是 Z 世代，不是千禧一代——名叫 Hannah Chinn。"
+    },
+    {
+      "id": 17,
+      "start_sec": 155,
+      "speaker": "Hannah Chinn",
+      "en": "And I click into the screenshots, and almost immediately I'm like, oh, my conclusion is really, really different than Dave's and Matilde's, because I'm like, these are kids.",
+      "zh": "我点开截图，几乎一瞬间就反应过来了：哎呀，我的判断跟 Dave 还有 Matilde 的完全不一样，我心想，这分明是一群小孩啊。"
+    },
+    {
+      "id": 18,
+      "start_sec": 167,
+      "speaker": "Hannah Chinn",
+      "en": "And I think that part of that is because I was a middle schooler on the internet, posting on forums and stuff. And so I look at their display names. Their display names are like Ella with five emojis, and they're the special character emojis.",
+      "zh": "我觉得一部分原因是我自己初中时就混迹网络，在论坛之类的地方发帖。所以我一看他们的昵称就懂了——昵称都是“Ella”后面跟五个表情符号那种，而且还是特殊字符表情。"
+    },
+    {
+      "id": 19,
+      "start_sec": 184,
+      "speaker": "Hannah Chinn",
+      "en": "They're the ones that you have to go onto the internet and type your name into a special text generator, and then it comes out as a special character, and then you have to special paste it into your profile.",
+      "zh": "就是那种你得先上网找个花体字生成器，把名字输进去，转化成特殊字符，然后再复制粘贴到个人资料里的那种。"
+    },
+    {
+      "id": 20,
+      "start_sec": 197,
+      "speaker": "Ira Glass",
+      "en": "Their profile pictures are all cartoon characters Hannah's never seen before. And then there's the way that they're commenting back and forth with each other, short little phrases. \"I'm sorry.\" \"That's weird.\" Lots of hi's, lots of extra exclamation points.",
+      "zh": "他们的头像全是 Hannah 从没见过的卡通角色。再看他们互相回复的方式，全都是短短的小句，“不好意思”“好诡异”，动不动就打招呼，还带一堆多余的感叹号。"
+    },
+    {
+      "id": 21,
+      "start_sec": 212,
+      "speaker": "Ira Glass",
+      "en": "Hannah recognized it. They grew up in a conservative home, was homeschooled, with limited access to social media.",
+      "zh": "Hannah 一眼就认出了这种模式。Hannah 从小在一个保守的家庭长大，在家接受教育，平时几乎用不上社交媒体。"
+    },
+    {
+      "id": 22,
+      "start_sec": 219,
+      "speaker": "Hannah Chinn",
+      "en": "And so I was a kid who used weird parts of the internet not as they were originally designed to talk to my friends. I talked back and forth with my friends on Google Docs.",
+      "zh": "所以我小时候就经常拿互联网上一些奇奇怪怪的地方来跟朋友聊天，完全不按它们原本的用途来。我以前就和朋友在 Google Docs 上你一句我一句地聊天。"
+    },
+    {
+      "id": 23,
+      "start_sec": 232,
+      "speaker": "Hannah Chinn",
+      "en": "And we would type things and then delete them, and then type things and then make them invisible by making the text white on the white background. So I think this is familiar behavior to me.",
+      "zh": "我们会打完字再删掉，或者打完之后把字体颜色改成白的，让它在白色背景上隐形。所以这种操作对我来说太熟悉了。"
+    },
+    {
+      "id": 24,
+      "start_sec": 248,
+      "speaker": "Ira Glass",
+      "en": "So Hannah writes out a comment to post on Slack, shows it to their housemate before posting because they're worried about coming off maybe too harsh with these much higher-ranking, older NPR bosses who Hannah had never met in person.",
+      "zh": "于是 Hannah 在 Slack 上写好一段回复，发出去前还先给室友把了把关，生怕自己这番话在那些职级高出许多、年纪更大、而且从未谋面的 NPR 上司面前显得太冲。"
+    },
+    {
+      "id": 25,
+      "start_sec": 262,
+      "speaker": "Hannah Chinn",
+      "en": "And I say, OK, maybe I'm wrong, but I think these are just kids hanging out and we shouldn't report them as bots. My guess is that they're just kind of using Spotify comment threads as their group chat, maybe because other apps on their phones are blocked, who knows.",
+      "zh": "我在消息里说，好吧，也许我猜错了，但我觉得这就是一群小孩在凑一块儿闲聊，咱们不该把他们当成机器人举报。我猜他们就是把 Spotify 的评论区当成群聊用了，可能因为手机上其他软件都被屏蔽了吧，谁知道呢。"
+    },
+    {
+      "id": 26,
+      "start_sec": 277,
+      "speaker": "Hannah Chinn",
+      "en": "And they happen to have chosen a Wild Card episode to do it, LOL. Like, these are middle schoolers.",
+      "zh": "结果他们偏偏挑中了一期《Wild Card》节目来聊，笑死。他们就是一群初中生。"
+    },
+    {
+      "id": 27,
+      "start_sec": 285,
+      "speaker": "Ira Glass",
+      "en": "Middle schoolers specifically, not high schoolers?",
+      "zh": "specifically 是初中生，不是高中生吗？ wait—let me fix zh!"
+    },
+    {
+      "id": 28,
+      "start_sec": 300,
+      "speaker": "Hannah Chinn",
+      "en": "You have nothing to talk about. You don't know each other very well. You're just like seeing each other and acknowledging each other's presence in the chat.",
+      "zh": "其实根本没什么可聊的，大家彼此也不太熟，就只是在网上看到对方，然后在聊天区里打个招呼、刷个存在感。"
+    },
+    {
+      "id": 29,
+      "start_sec": 311,
+      "speaker": "Ira Glass",
+      "en": "Dave reads Hannah's Slack message. And, well, he is not convinced. He posts...",
+      "zh": "Dave 看了 Hannah 在 Slack 上发的消息。不过嘛，他并没有被说服，于是回复道……"
+    },
+    {
+      "id": 30,
+      "start_sec": 317,
+      "speaker": "Dave Blanchard",
+      "en": "That's an interesting theory.",
+      "zh": "这个推测倒挺有意思的！"
+    },
+    {
+      "id": 31,
+      "start_sec": 319,
+      "speaker": "Ira Glass",
+      "en": "Yeah, that's an interesting theory, there's an exclamation point at the end of it, at least to give it that much credit.",
+      "zh": "嗯，“这个推测倒挺有意思的！”，末尾好歹还加了个感叹号，算是多少给了点面子。"
+    },
+    {
+      "id": 32,
+      "start_sec": 324,
+      "speaker": "Dave Blanchard",
+      "en": "Yes, and I, like, admittedly, I was still like, really? Like, again, this is Wild Card with Rachel Martin on NPR, like, not our target demo to have a bunch of middle schoolers in our comment section.",
+      "zh": "没错，说实话我当时心里还是犯嘀咕：真的假的？拜托，这可是 NPR 由 Rachel Martin 主持的《Wild Card》啊，评论区里怎么可能会扎堆出现一群初中生，这根本不是我们的目标受众。"
+    },
+    {
+      "id": 33,
+      "start_sec": 335,
+      "speaker": "Dave Blanchard",
+      "en": "It just felt so completely implausible that these people would have found like this particular episode as their place to chat.",
+      "zh": "这些人偏偏选中了这一期节目当作聊天阵地，听起来实在太离谱了。"
+    },
+    {
+      "id": 34,
+      "start_sec": 342,
+      "speaker": "Hannah Chinn",
+      "en": "Dave is like, oh, that's an interesting theory. And I, at this point—sorry, Dave, I don't know you in real life—I'm like a little bit annoyed. Because I'm like, I know that I said \"maybe I'm wrong,\" but I was so sure that I was right.",
+      "zh": "Dave 回了一句“哦，这个推测倒挺有意思的”。当时我心里——不好意思啊 Dave，咱俩现实中也不认识——我其实有点不爽。因为我嘴上虽然客气地说“也许我猜错了”，但我心里明明笃定自己是对的。"
+    },
+    {
+      "id": 35,
+      "start_sec": 357,
+      "speaker": "Ira Glass",
+      "en": "Hannah does more digging, which makes them even more convinced than before. What the kids seemed to be doing was one kid would create a playlist on Spotify with a name like \"Let's chat here.\" And inside that playlist would be one podcast episode.",
+      "zh": "Hannah 继续深挖了一下，结果比之前更加确信了。这群孩子的操作大概是这样的：先由某个孩子在 Spotify 上建一个歌单，起名叫做“来这里聊天”之类的，歌单里只放一集播客节目。"
+    },
+    {
+      "id": 36,
+      "start_sec": 369,
+      "speaker": "Ira Glass",
+      "en": "And you know how you can see other people's playlists on Spotify if they make them public? Other kids would see that playlist. They'd see the episode. And then they would go to the podcast episode and start posting in the comments.",
+      "zh": "你知道在 Spotify 上，如果别人把歌单设为公开，其他人是能看到的。别的孩子刷到这个歌单、看到里面放的节目后，就会点进这集播客，开始在评论区里聊起来。"
+    },
+    {
+      "id": 37,
+      "start_sec": 379,
+      "speaker": "Ira Glass",
+      "en": "Hannah got back on Slack and pointed out that the kids were using a playlist that was named New Chat. The kids had also posted a Google Form with some kind of quiz on it and said, \"Fill this out. Only cool people can fill this out.\"",
+      "zh": "Hannah 回到 Slack 上指出，这些孩子用的歌单就叫“New Chat”。他们还在评论区发了一个 Google Form 问卷小测试，附言说：“都来填一下，只有酷的人才能填。”"
+    },
+    {
+      "id": 38,
+      "start_sec": 389,
+      "speaker": "Hannah Chinn",
+      "en": "Bots don't really spam Google Forms in my experience, whereas Gen Alpha might use them in the same way that my generation would use, like, uQuiz or the BuzzFeed Make Your Own Personality Quiz feature.",
+      "zh": "按我的经验，机器人可不会群发什么 Google Form；倒像是阿尔法世代的小孩会干的事——就像我们这一代当年爱玩 uQuiz，或者 BuzzFeed 上那个“自制性格测试”一样。"
+    },
+    {
+      "id": 39,
+      "start_sec": 400,
+      "speaker": "Ira Glass",
+      "en": "And reading that was the turning point for Dave.",
+      "zh": "看到这儿，Dave 终于转过弯来了。"
+    },
+    {
+      "id": 40,
+      "start_sec": 403,
+      "speaker": "Dave Blanchard",
+      "en": "When they were like, this is something that I did, that's what unlocked it. I think it was so implausible to me. And then when Hannah was like, no, I did this, I was like, oh, wow. I guess it makes sense.",
+      "zh": "当 Hannah 说“这就是我小时候干过的事”，我一下就豁然开朗了。本来我觉得这事简直天方夜谭，结果 Hannah 一句“不，我就这么干过”，我才反应过来：哇，还真说得通。"
+    },
+    {
+      "id": 41,
+      "start_sec": 415,
+      "speaker": "Dave Blanchard",
+      "en": "And then it was like, I could go back and look at it again. And it was like I had the lens on to see it, and I was like, oh my god, they are kids. In retrospect, it looks so obvious.",
+      "zh": "接着我再回头看那些评论，就像突然戴上了正确的滤镜一样，瞬间明白过来：天哪，他们真是群孩子。事后再看，这简直再明显不过了。"
+    },
+    {
+      "id": 42,
+      "start_sec": 433,
+      "speaker": "Ira Glass",
+      "en": "So, how exactly did those commenters end up in the comment section of an NPR podcast? What exactly happened here? Well, we reached out to a bunch of the commenters. Only one of them agreed to talk to us.",
+      "zh": "那么，这群评论者究竟是怎么摸到 NPR 播客评论区里来的？事情的来龙去脉到底是什么？我们联系了好几位留言的人，最后只有一位同意接受采访。"
+    },
+    {
+      "id": 43,
+      "start_sec": 445,
+      "speaker": "Ira Glass",
+      "en": "As suspected, she is not a bot. She's a 14-year-old girl who talked to me from the car with her parents' permission and her dad at the wheel. Her name is Ella. When I asked her to describe herself, she said this.",
+      "zh": "果然，她并不是什么机器人，而是一个 14 岁的女孩。经过父母同意，她在车上跟我通了话，当时她爸爸正在开车。她叫 Ella。我让她先自我介绍一下，她是这么说的。"
+    },
+    {
+      "id": 44,
+      "start_sec": 460,
+      "speaker": "Ella",
+      "en": "I would say that I'm definitely a bit hard to get to know because I don't know a lot about myself yet. But I think if you do get to know me, you'll find out I'm a pretty cool person.",
+      "zh": "我觉得我肯定算是个有点难了解的人，因为我自己都还没完全搞懂自己呢。不过我觉得，如果你真的花时间了解我，就会发现我其实是个挺酷的人。"
+    },
+    {
+      "id": 45,
+      "start_sec": 478,
+      "speaker": "Ira Glass",
+      "en": "Ella says this all started with a video podcast that played TikTok videos. Ella thinks a kid started it. The videos seemed to be chosen specifically for kids who weren't allowed on TikTok, but were allowed on Spotify.",
+      "zh": "Ella 说，整件事最初源于一个专门搬运播放 TikTok 视频的视频播客，她猜建号的人也是个小孩。里面的视频似乎专门挑给那些被禁止刷 TikTok、但可以用 Spotify 的孩子看的。"
+    },
+    {
+      "id": 46,
+      "start_sec": 491,
+      "speaker": "Ira Glass",
+      "en": "That was Ella. She was allowed on Spotify, but on no social media. And she and the other kids would watch this girl's podcast on Spotify and then chat in the comments of the podcast.",
+      "zh": "Ella 就是这样。家里允许她用 Spotify，但任何社交媒体都不准碰。于是她和其他孩子就在 Spotify 上看那个女孩的播客，然后在播客评论区里聊天。"
+    },
+    {
+      "id": 47,
+      "start_sec": 505,
+      "speaker": "Ella",
+      "en": "And her podcast ended up getting banned, and we wanted to keep talking to each other, so people would make playlists.",
+      "zh": "后来她的播客被封了，但我们还想继续互相聊天，于是大家就开始建歌单。"
+    },
+    {
+      "id": 48,
+      "start_sec": 515,
+      "speaker": "Ira Glass",
+      "en": "She described exactly the system that Hannah figured out. Kids would name their playlist \"chat here\" or something like that, and then there'd be some podcast, and everybody would go to that podcast and talk in the comments.",
+      "zh": "她描述的正是 Hannah 摸索出来的那套“暗号系统”：孩子们把歌单命名为“在这里聊天”之类的名字，往里面塞进某期播客，然后大家就顺着找过去，在评论区里畅聊。"
+    },
+    {
+      "id": 49,
+      "start_sec": 526,
+      "speaker": "Ira Glass",
+      "en": "She says it was maybe 20 kids in the core group—lots of theater kids, she says, mostly girls, most of them with strict parents who didn't let them on regular social media.",
+      "zh": "她说核心小圈子里大概有二十来个孩子——很多都是爱演戏剧的孩子，以女生居多，家里管得都挺严，不让用常规的社交媒体。"
+    },
+    {
+      "id": 50,
+      "start_sec": 538,
+      "speaker": "Ira Glass",
+      "en": "And can I ask, why did you guys pick NPR shows to be the ones where you went to in the comments?",
+      "zh": "那我能问一句吗，你们当初为什么偏偏挑中了 NPR 的节目，跑到人家评论区去聊天呢？"
+    },
+    {
+      "id": 51,
+      "start_sec": 545,
+      "speaker": "Ella",
+      "en": "I think we just looked for podcasts that didn't have many comments.",
+      "zh": "我记得我们当时就是专门找那种评论特别少的播客。"
+    },
+    {
+      "id": 52,
+      "start_sec": 553,
+      "speaker": "Ira Glass",
+      "en": "I see. So you picked NPR because it didn't seem very popular.",
+      "zh": "明白了。所以你们选 NPR，是因为它看起来不太火。"
+    },
+    {
+      "id": 53,
+      "start_sec": 558,
+      "speaker": "Ella",
+      "en": "Yeah, so that we wouldn't get caught up in other people's comments.",
+      "zh": "对，这样我们的消息就不会被别人的评论淹没了。"
+    },
+    {
+      "id": 54,
+      "start_sec": 562,
+      "speaker": "Ira Glass",
+      "en": "I tell you, buddy, I do a public radio show, and that hurts a little to hear it.",
+      "zh": "跟你说实话，小姑娘，我也是做公共广播节目的，听到这话心里多少有点扎心啊。"
+    },
+    {
+      "id": 55,
+      "start_sec": 568,
+      "speaker": "Ella",
+      "en": "Sorry.",
+      "zh": "不好意思啦。"
+    },
+    {
+      "id": 56,
+      "start_sec": 571,
+      "speaker": "Ira Glass",
+      "en": "That's okay. Are your parents NPR listeners?",
+      "zh": "没事没事。你爸妈平时听 NPR 吗？"
+    },
+    {
+      "id": 57,
+      "start_sec": 575,
+      "speaker": "Ella",
+      "en": "Yeah, my mom is. She listens to podcasts all the time.",
+      "zh": "听啊，我妈听，她老听播客了。"
+    },
+    {
+      "id": 58,
+      "start_sec": 581,
+      "speaker": "Ira Glass",
+      "en": "Was any of this that your parents were NPR listeners, and this felt like this is the perfect cover? Like, if they catch you doing this, you can be like, look, I'm just doing this for an NPR show.",
+      "zh": "这里面有没有一点原因是，你爸妈本来就听 NPR，所以这刚好是个完美的掩护？万一被他们撞见了，你就可以说：看，我只是在给 NPR 的节目留言呢。"
+    },
+    {
+      "id": 59,
+      "start_sec": 591,
+      "speaker": "Ella",
+      "en": "Yeah.",
+      "zh": "嗯，对。"
+    },
+    {
+      "id": 60,
+      "start_sec": 592,
+      "speaker": "Ira Glass",
+      "en": "Is that true? Did you think about that?",
+      "zh": "真的假的？你当时真这么想过？"
+    },
+    {
+      "id": 61,
+      "start_sec": 594,
+      "speaker": "Ella",
+      "en": "Yeah, a little bit.",
+      "zh": "嗯，有一点吧。"
+    },
+    {
+      "id": 62,
+      "start_sec": 597,
+      "speaker": "Ira Glass",
+      "en": "It's funny, there was this guy named Dave who—",
+      "zh": "说来好笑，有位叫 Dave 的同事——"
+    },
+    {
+      "id": 63,
+      "start_sec": 600,
+      "speaker": "Ira Glass",
+      "en": "...works for NPR, and he's in his 30s. And he saw the comments that you guys were doing, and they made no sense to him at all. He really had no idea what they were, and he thought you guys were all bots.",
+      "zh": "……在 NPR 工作，三十来岁。他看到你们留的那些评论，完全看不明白。他实在搞不懂那都是些什么，还以为你们全都是机器人账号呢。"
+    },
+    {
+      "id": 64,
+      "start_sec": 612,
+      "speaker": "Ella",
+      "en": "Yeah. Some of them were really young, like 11 years old and stuff. So some of them definitely were a little bit not good at talking English that well, or using slang.",
+      "zh": "对。里面有些小孩特别小，才十一岁左右吧。所以有的人英语确实还说不太利索，或者净用些网络俚语。"
+    },
+    {
+      "id": 65,
+      "start_sec": 625,
+      "speaker": "Ira Glass",
+      "en": "I gotta say, I thought that was a very generous answer. Dave thought they were bots, and she was like, yeah, well, some of us kind of talked like bots.",
+      "zh": "我得说，这回答真是相当体面了。Dave 当时以为他们是机器人，而她却说，嗯，好吧，我们当中确实有些人说话听着像机器人。"
+    },
+    {
+      "id": 66,
+      "start_sec": 634,
+      "speaker": "Ira Glass",
+      "en": "Ella told me she's sure someday she'll be clueless like Dave is now, which of course isn't much comfort if you're Dave. Dave says that once he understood that it was kids writing all those comments, it didn't feel great.",
+      "zh": "Ella 告诉我，她敢肯定总有一天自己也会像现在的 Dave 一样一头雾水——当然了，这话对 Dave 来说可算不上什么安慰。Dave 说，当他终于明白那些评论全是孩子写的之后，心里实在不太好受。"
+    },
+    {
+      "id": 67,
+      "start_sec": 647,
+      "speaker": "Dave Blanchard",
+      "en": "One, I felt bad for having reported them, like I definitely felt guilty. And two, old. I just felt like very old, very dumb, very out of touch.",
+      "zh": "一来，我为之前举报了他们感到过意不去，心里肯定特别内疚。二来，觉得自己老了。我整个人就觉得特别老、特别蠢、特别跟时代脱节。"
+    },
+    {
+      "id": 68,
+      "start_sec": 659,
+      "speaker": "Dave Blanchard",
+      "en": "I literally needed Hannah to be my generational translator. It was just like—it was such a clarifying realization of my age and obsolescence.",
+      "zh": "我简直得靠 Hannah 来当我的“代际翻译官”。那一刻真是无比清醒地意识到，我上了年纪，已经被时代淘汰了。"
+    },
+    {
+      "id": 69,
+      "start_sec": 671,
+      "speaker": "Ira Glass",
+      "en": "Well, today on our program, people from one generation trying to cross the vast, vast distance that divides the young and the old, with a message that they hope will get heard by the people on the other side.",
+      "zh": "今天我们的节目，讲的正是不同代际的人如何试图跨越横亘在年轻一代与年长一代之间那道漫长而遥远的距离，带着一份期盼——希望自己的声音能传到彼岸之人的耳中。"
+    },
+    {
+      "id": 70,
+      "start_sec": 683,
+      "speaker": "Ira Glass",
+      "en": "We have stories today of a wedding toast, and of childhood hair care, and of the greatest job in the world, as seen from the eyes of a teenager, anyway. Intergenerational space travel this hour.",
+      "zh": "今天的节目里，有关于婚礼致辞的故事，有关于童年打理头发的故事，还有一个少年眼中堪称“全世界最棒的工作”的故事。这一小时，让我们一起踏上跨代际太空漫游。"
+    },
+    {
+      "id": 71,
+      "start_sec": 695,
+      "speaker": "Ira Glass",
+      "en": "From WBEZ Chicago, it's This American Life. I'm Ira Glass. Climb aboard this rocket with us, if you dare, and stay with us.",
+      "zh": "这里是来自 WBEZ Chicago 的 This American Life。我是 Ira Glass。如果你敢的话，就跟我们一起登上这艘火箭，精彩马上继续。"
+    },
+    {
+      "id": 72,
+      "start_sec": 716,
+      "speaker": "Ira Glass",
+      "en": "It's This American Life, Act One: The Wedding Zinger. So let's start today with a story that is both intergenerational space and time travel.",
+      "zh": "欢迎回到 This American Life，Act One：《婚礼毒舌致辞》。今天，就让我们从一个既是跨代际星际穿梭、又是时光倒流的故事讲起吧。"
+    },
+    {
+      "id": 73,
+      "start_sec": 727,
+      "speaker": "Ira Glass",
+      "en": "When Courtney Maum was 18, her mom got remarried. Courtney despised the guy, did not want the marriage to go through. But she was her mom's maid of honor, and she gave a speech at her mother's request.",
+      "zh": "Courtney Maum 十八岁那年，她妈妈再婚了。Courtney 讨厌透了那个男人，打心底里不希望这桩婚事成真。但作为妈妈的伴娘，她还是应母亲的要求在婚礼上发表了致辞。"
+    },
+    {
+      "id": 74,
+      "start_sec": 739,
+      "speaker": "Ira Glass",
+      "en": "And the speech she gave, at 18 years old, her mom never forgave her for it, brought it up for years after. And then, recently, after three tumultuous decades, her mom's relationship with this man fell apart.",
+      "zh": "而她十八岁时念出的那段致辞，她妈妈一直没能原谅，往后许多年还老拿出来说事。直到最近，在经历了三十年的磕磕绊绊之后，她妈妈和这个男人的婚姻终于走到了尽头。"
+    },
+    {
+      "id": 75,
+      "start_sec": 753,
+      "speaker": "Ira Glass",
+      "en": "For Courtney, this was the opening, the chance to finally ask her mom, across the divide between them, about this marriage she never understood. And to try one more time to lay this infamous wedding speech to rest. Here's Courtney.",
+      "zh": "对 Courtney 来说，这就是一个契机——终于有机会跨越母女之间的鸿沟，向妈妈问清楚这段她始终无法理解的婚姻，也再试着彻底翻过那段臭名昭著的婚礼致辞那一页。下面请听 Courtney 的讲述。"
+    },
+    {
+      "id": 76,
+      "start_sec": 767,
+      "speaker": "Courtney Maum",
+      "en": "At 18, I thought I was kind of hot shit—a writer in the making, a die-hard feminist, a student capable of bringing freedom to Tibet. Here's how my mom Linda saw me.",
+      "zh": "十八岁的时候，我自以为挺牛气冲天的——未来的作家、铁杆女权主义者，还是个觉得自己能为西藏带来自由的学生。不过，我妈妈 Linda 眼里的我是这样的。"
+    },
+    {
+      "id": 77,
+      "start_sec": 779,
+      "speaker": "Linda Maum",
+      "en": "What I remember is at that point in your life, you were extremely selfish, and you didn't want anybody else in my life.",
+      "zh": "我记得你在人生的那个阶段自私极了，而且根本不想让任何人走进我的生活。"
+    },
+    {
+      "id": 78,
+      "start_sec": 788,
+      "speaker": "Linda Maum",
+      "en": "You asked me not to even date until after you went off to college, and certainly not even think of getting married before that.",
+      "zh": "你要求我在你上大学之前连约会都别去，更别提在那之前考虑结婚的事了。"
+    },
+    {
+      "id": 79,
+      "start_sec": 798,
+      "speaker": "Courtney Maum",
+      "en": "Is that true? I'm sure it's true. The thing is, I loved being with my mother. Everybody did. I didn't want to share her. She was fun, beautiful, stylish, like a woman out of Knight Rider.",
+      "zh": "真有这事吗？我敢说肯定有。问题在于，我太喜欢跟妈妈待在一起了，人人都喜欢她。我不想把她分给别人。她风趣、漂亮又时髦，简直就像从《霹雳游侠》里走出来的女主角。"
+    },
+    {
+      "id": 80,
+      "start_sec": 811,
+      "speaker": "Courtney Maum",
+      "en": "She had a Harley-Davidson and a boating license. We were always on adventures. In the summer, I loved to watch her steer our little Boston Whaler, wearing these massive dangly earrings that sparkled in the sun.",
+      "zh": "她有一辆哈雷摩托车，还有游艇驾驶执照。我们总是到处冒险。一到夏天，我就爱看着她开着我们那艘小小的 Boston Whaler 摩托艇，耳朵上戴着硕大的垂坠耳环，在阳光下闪闪发亮。"
+    },
+    {
+      "id": 81,
+      "start_sec": 824,
+      "speaker": "Courtney Maum",
+      "en": "It was a fairy tale existence, a childhood of privilege, growing up like this in Greenwich, Connecticut, with parents I adored.",
+      "zh": "那简直是童话般的生活，养尊处优的童年——在康涅狄格州的格林威治，身边还有我无比敬爱的父母，我就这样长大了。"
+    },
+    {
+      "id": 82,
+      "start_sec": 832,
+      "speaker": "Courtney Maum",
+      "en": "But when I was eight and my brother Brendan was three, my father asked my mom for a divorce. My mother was devastated. But like I said, she was a hot item, so the suitors came a-calling.",
+      "zh": "可就在我八岁、我弟弟 Brendan 三岁那年，我爸爸向妈妈提出了离婚。妈妈伤心欲绝。不过就像我刚才说的，她可是个抢手货，于是各路追求者纷纷找上门来。"
+    },
+    {
+      "id": 83,
+      "start_sec": 845,
+      "speaker": "Courtney Maum",
+      "en": "I can't say I was a fan. One laughed like a hyena. One was so heartsick with love for her, his longing made everyone embarrassed for him, my mother included. There were others, also memorable.",
+      "zh": "说实话，我对那些人可没什么好感。有一个笑起来像只鬣狗；还有一个爱她爱得相思成疾，满眼渴望看得在场所有人都替他尴尬，连我妈自己都受不了。另外还有些人，也都让人印象深刻。"
+    },
+    {
+      "id": 84,
+      "start_sec": 858,
+      "speaker": "Courtney Maum",
+      "en": "Do you remember the man who whipped out a ventriloquist doll at Benihana's?",
+      "zh": "你还记得那个在 Benihana 铁板烧餐厅突然掏出腹语木偶的男人吗？"
+    },
+    {
+      "id": 85,
+      "start_sec": 864,
+      "speaker": "Linda Maum",
+      "en": "Yeah, who the hell was that? But that was like a one date.",
+      "zh": "记得，天哪，那到底是什么人啊？不过那也就约会了一次而已。"
+    },
+    {
+      "id": 86,
+      "start_sec": 871,
+      "speaker": "Courtney Maum",
+      "en": "We go into the Benihana's, and he's already seated, and you know, this is family-style seating, right? So we're sitting with like strangers. And we sit down, and course number one, you know when they do the little joke and they flip the shrimp into people's mouths?",
+      "zh": "我们走进 Benihana 餐厅的时候，他已经入座了——你知道吧，那儿是拼桌的家庭式座位，所以我们得跟陌生人坐一块儿。我们刚坐下，上第一道菜时，厨师不是会玩那个小把戏，把虾抛进客人嘴里吗？"
+    },
+    {
+      "id": 87,
+      "start_sec": 887,
+      "speaker": "Courtney Maum",
+      "en": "This guy pulls a ventriloquist doll—",
+      "zh": "结果这男的掏出一个腹语木偶——"
+    },
+    {
+      "id": 88,
+      "start_sec": 900,
+      "speaker": "Courtney Maum",
+      "en": "from out under the table, and he's like, 'Give me some of that shrimp!' Remember? Brendan was, what, six years old? We were dying. The whole table was like, no, no, this isn't it.",
+      "zh": "从桌子底下掏出来，然后学着木偶声音说：“给我来点那个虾！”你还记得吗？当时 Brendan 也就六岁吧？我们尴尬得要命。一桌子人都一脸“算了吧，这真不行”的表情。"
+    },
+    {
+      "id": 89,
+      "start_sec": 912,
+      "speaker": "Linda Maum",
+      "en": "Brendan liked it. He liked it.",
+      "zh": "Brendan 挺喜欢的呀，他当时挺喜欢的。"
+    },
+    {
+      "id": 90,
+      "start_sec": 915,
+      "speaker": "Courtney Maum",
+      "en": "Well, he probably stopped liking it once I rained on everyone's parade. But you know, and I remember going to the parking lot with you, and I was like, 'Never again. Mom, that guy, never again.'",
+      "zh": "行吧，大概后来被我一扫兴他就不喜欢了。不过我还记得，我跟你走到停车场的时候就说：“绝不再见了，妈，那个男的，绝不再见。”"
+    },
+    {
+      "id": 91,
+      "start_sec": 924,
+      "speaker": "Linda Maum",
+      "en": "And it was. Never again, never again.",
+      "zh": "确实没再见了。再也没有了。"
+    },
+    {
+      "id": 92,
+      "start_sec": 928,
+      "speaker": "Courtney Maum",
+      "en": "There was one final suitor, the man my mom would marry when I was a senior in high school. My mother has asked me to refer to him as Mr. X in this story.",
+      "zh": "最后还有一位追求者，也是我高三那年我妈嫁了的男人。我妈要求我在这个故事里称呼他为 Mr. X。"
+    },
+    {
+      "id": 93,
+      "start_sec": 936,
+      "speaker": "Courtney Maum",
+      "en": "I didn't trust Mr. X from the start. He seemed to show up out of nowhere, with no comprehensible backstory, like he was born out of the ether.",
+      "zh": "我从一开始就不信任 Mr. X。他好像是凭空冒出来的，没有任何说得清的来历，就像从空气里生出来的一样。"
+    },
+    {
+      "id": 94,
+      "start_sec": 946,
+      "speaker": "Courtney Maum",
+      "en": "One day, he pulled into our driveway in a rundown car and never left again.",
+      "zh": "有一天，他开着一辆破车驶进我家车道，从此就再也没离开过。"
+    },
+    {
+      "id": 95,
+      "start_sec": 952,
+      "speaker": "Courtney Maum",
+      "en": "The old suitors had been annoying, but they were innocent. Mr. X was different. He put me on edge.",
+      "zh": "之前的那些追求者虽然烦人，但起码无害。Mr. X 不一样，他让我浑身不自在。"
+    },
+    {
+      "id": 96,
+      "start_sec": 959,
+      "speaker": "Courtney Maum",
+      "en": "He claimed he was an architect, but he never seemed to have any work, and he appeared to have no friends. I bugged my mom about his past.",
+      "zh": "他自称是建筑师，可好像从来没见他有什么活儿干，也没见他有什么朋友。我缠着我妈追问他的过去。"
+    },
+    {
+      "id": 97,
+      "start_sec": 968,
+      "speaker": "Courtney Maum",
+      "en": "She explained she'd met him years before when she was pregnant with me, that he'd been part of a crew working on a renovation to the house my parents lived in.",
+      "zh": "她解释说，早在怀着我那会儿就认识他了——当时我爸妈住的房子要翻新，他是装修队里的一员。"
+    },
+    {
+      "id": 98,
+      "start_sec": 978,
+      "speaker": "Courtney Maum",
+      "en": "Whenever she told this story, I imagined my unborn self kicking from within her body, kicking in his direction, saying, 'No, not him, no.'",
+      "zh": "每次听她讲这段往事，我都会想象还没出生的自己在她肚子里使劲踢打，冲着他的方向猛踢，仿佛在说：“不行，别选他，千万别。”"
+    },
+    {
+      "id": 99,
+      "start_sec": 988,
+      "speaker": "Courtney Maum",
+      "en": "But I'd never heard the full story of their meeting until now. It happened back when my mother was still married to my father, Bob.",
+      "zh": "但直到现在，我才听完他们初遇的完整经过。那还是在我妈跟我爸 Bob 结婚期间的事。"
+    },
+    {
+      "id": 100,
+      "start_sec": 996,
+      "speaker": "Linda Maum",
+      "en": "So I was just redoing the house, and I hired him as an architect or builder, or whatever I thought he was.",
+      "zh": "当时我正在翻修房子，就把他当成建筑师还是施工方什么的雇了过来，反正我以为他是干这行的。"
+    },
+    {
+      "id": 101,
+      "start_sec": 1006,
+      "speaker": "Linda Maum",
+      "en": "So here I was, I was pregnant, and he came into the driveway for me to interview him.",
+      "zh": "那时我正怀着孕，他开车进车道来让我面试。"
+    },
+    {
+      "id": 102,
+      "start_sec": 1015,
+      "speaker": "Linda Maum",
+      "en": "He drove in in an old, beat-up car, but he was so adorable, and he was also six years younger than I was.",
+      "zh": "他开着一辆破破烂烂的旧车进来，但他人长得特别招人喜欢，而且还比我小六岁。"
+    },
+    {
+      "id": 103,
+      "start_sec": 1024,
+      "speaker": "Linda Maum",
+      "en": "So at that point, you know, that's a big difference between 30 and 24. That's a huge difference.",
+      "zh": "要知道在那个年纪，30 岁和 24 岁差得可太大了，差距非常明显。"
+    },
+    {
+      "id": 104,
+      "start_sec": 1033,
+      "speaker": "Linda Maum",
+      "en": "And I interviewed other people, and I decided because he was cheaper, for one, and I had a little, you know, he's so cute.",
+      "zh": "我也面试了其他人，最后还是选了他——一来是因为他报价更便宜，二来嘛，你知道的，他实在太帅了。"
+    },
+    {
+      "id": 105,
+      "start_sec": 1043,
+      "speaker": "Linda Maum",
+      "en": "Never in my life ever thinking I'd ever cheat on Bob, but you know, imagining.",
+      "zh": "我这辈子从来没想过要背叛 Bob，但你知道的，心里难免有点小幻想。"
+    },
+    {
+      "id": 106,
+      "start_sec": 1052,
+      "speaker": "Linda Maum",
+      "en": "So I remember in this one point, there was a bathroom in one of the guest rooms, and we were debating putting a skylight in it.",
+      "zh": "我记得有一次，在一间客房的浴室里，我们正商量着要不要在上面开一扇天窗。"
+    },
+    {
+      "id": 107,
+      "start_sec": 1061,
+      "speaker": "Linda Maum",
+      "en": "And I got in the bathtub to show where, how high the ceiling had to go, and he got in behind me.",
+      "zh": "于是我站进浴缸里，想比划天花板得做到多高，结果他也跟着跨进来站在我身后。"
+    },
+    {
+      "id": 108,
+      "start_sec": 1069,
+      "speaker": "Courtney Maum",
+      "en": "Oh, boy. We're going to have a Ghost moment here.",
+      "zh": "天哪，这是要上演《人鬼情未了》的桥段吗。"
+    },
+    {
+      "id": 109,
+      "start_sec": 1072,
+      "speaker": "Linda Maum",
+      "en": "No. And I just remember thinking, why did he get in so close to me? You know, I don't remember. Why did he do that?",
+      "zh": "才没有。我就记得当时心想：他干嘛贴我站这么近？说实话我也记不清了，他当时为什么要那样做？"
+    },
+    {
+      "id": 110,
+      "start_sec": 1081,
+      "speaker": "Linda Maum",
+      "en": "Anyway, the end of the story is that he got in a car accident. A car hit him. He almost lost his leg. So obviously, he took off with the money.",
+      "zh": "总之，这事儿的结局是他出了场车祸，被车撞了，一条腿差点没保住。然后理所当然地，他拿着钱卷款跑路了。"
+    },
+    {
+      "id": 111,
+      "start_sec": 1093,
+      "speaker": "Courtney Maum",
+      "en": "The money she'd already paid him. Oh, God. I didn't know this part of the story.",
+      "zh": "就是我妈早就预付给他的工钱。天哪，这段事情我以前完全不知道。"
+    },
+    {
+      "id": 112,
+      "start_sec": 1097,
+      "speaker": "Linda Maum",
+      "en": "So I had to go to court and prove that he had indeed been paid. So that put a very bad taste in my mouth.",
+      "zh": "所以我不得不闹上法庭，去举证自己确实已经付过钱了。那件事让我心里特别膈应。"
+    },
+    {
+      "id": 113,
+      "start_sec": 1110,
+      "speaker": "Courtney Maum",
+      "en": "When my producers contacted him, Mr. X remembered the story differently. He said the car accident happened before he met my mom,",
+      "zh": "我的制作人联系到 Mr. X 时，他记的版本却完全不同。他说车祸是在认识我妈之前发生的，"
+    },
+    {
+      "id": 114,
+      "start_sec": 1119,
+      "speaker": "Courtney Maum",
+      "en": "and that he didn't run off with the money, that he doesn't know what happened to it. There was no financial grift. He also said he didn't do anything untoward in the bathtub.",
+      "zh": "他还说自己并没有卷钱跑路，也不知道那笔钱后来去了哪儿，不存在什么金钱欺诈；另外他还坚称在浴缸里没有做任何越轨举动。"
+    },
+    {
+      "id": 115,
+      "start_sec": 1128,
+      "speaker": "Courtney Maum",
+      "en": "Still, my mom got a bad feeling from their first interaction. There shouldn't have been a second one, but there was, after she was divorced and had all these suitors peacocking around.",
+      "zh": "即便如此，我妈从第一次打交道起就对他印象很差。按理说他们不该再有第二次交集了——可偏偏还是有了，就在她离婚之后、身边围着一群追求者像孔雀开屏一样献殷勤的时候。"
+    },
+    {
+      "id": 116,
+      "start_sec": 1138,
+      "speaker": "Courtney Maum",
+      "en": "It was 15 years after the bathtub incident. She was picking up my brother from summer camp. Mr. X was picking up his son. She didn't recognize him at first.",
+      "zh": "那是浴缸事件过去 15 年后的事。我妈去夏令营接我弟弟，Mr. X 也去接他儿子。她一开始压根没认出他来。"
+    },
+    {
+      "id": 117,
+      "start_sec": 1149,
+      "speaker": "Linda Maum",
+      "en": "I had seen Mr. X in the distance and thought, oh, he's so good-looking.",
+      "zh": "我远远看到 Mr. X，心里还暗想：哇，这人长得真帅。"
+    },
+    {
+      "id": 118,
+      "start_sec": 1155,
+      "speaker": "Courtney Maum",
+      "en": "She learned from a mutual friend that he was going through a divorce. Still, she didn't recognize him as the man from the botched reno. He was just some handsome stranger.",
+      "zh": "她从一位共同朋友口中得知他正在办离婚。可她还是没认出他就是当年搞砸装修的那个人，只当他是个英俊的陌生人。"
+    },
+    {
+      "id": 119,
+      "start_sec": 1166,
+      "speaker": "Linda Maum",
+      "en": "I was so excited he was going to be available. And so when I left, I gave him my phone number. And I said, if you ever want to talk, because it is a very difficult thing to go through, call me. Of course, it's a line.",
+      "zh": "听说他要恢复单身了，我别提多兴奋了。所以临走时我把电话号码留给了他，跟他说：“离婚这种事挺难熬的，你要是想找人聊聊，随时给我打电话。”当然了，这也就是一句搭讪的套话。"
+    },
+    {
+      "id": 120,
+      "start_sec": 1179,
+      "speaker": "Linda Maum",
+      "en": "And he did indeed call me, probably within a week. And that's how we started dating. But I didn't know who he was at the beginning. I mean—",
+      "zh": "大概不出一个星期，他还真给我打来了电话。我们就这样开始约会了。不过一开始我真不知道他是谁，我是说——"
+    },
+    {
+      "id": 121,
+      "start_sec": 1192,
+      "speaker": "Courtney Maum",
+      "en": "You didn't know that it was the same guy who snuck up behind you in the bathtub?",
+      "zh": "你当时不知道他就是那个偷偷站进浴缸、贴在你身后的男人？"
+    },
+    {
+      "id": 122,
+      "start_sec": 1196,
+      "speaker": "Linda Maum",
+      "en": "No, no, no.",
+      "zh": "不知道，真不知道。"
+    },
+    {
+      "id": 123,
+      "start_sec": 1197,
+      "speaker": "Courtney Maum",
+      "en": "For a little frottage?",
+      "zh": "就为了趁机贴身揩油？"
+    },
+    {
+      "id": 124,
+      "start_sec": 1198,
+      "speaker": "Linda Maum",
+      "en": "And you know why I didn't know? This—",
+      "zh": "而且你知道我为什么没认出来吗？说出来真——"
+    },
+    {
+      "id": 125,
+      "start_sec": 1200,
+      "speaker": "Linda Maum",
+      "en": "horrible to admit—because he had a toupée on.",
+      "zh": "难为情——因为他当时戴了顶假发。"
+    },
+    {
+      "id": 126,
+      "start_sec": 1206,
+      "speaker": "Linda Maum",
+      "en": "And when—",
+      "zh": "而且等——"
+    },
+    {
+      "id": 127,
+      "start_sec": 1206,
+      "speaker": "Courtney Maum",
+      "en": "Wait, he had a toupée at the camp?",
+      "zh": "等等，他在夏令营接孩子那会儿戴着假发？"
+    },
+    {
+      "id": 128,
+      "start_sec": 1209,
+      "speaker": "Linda Maum",
+      "en": "Yeah. So he had much more hair than I remember him having. And it was darker. He was blonde when I knew him.",
+      "zh": "对。所以他头发比我印象里浓密多了，颜色也深得多。我以前认识他的时候他还是金发呢。"
+    },
+    {
+      "id": 129,
+      "start_sec": 1218,
+      "speaker": "Linda Maum",
+      "en": "And then he came over to me and said, I know who you are, and I said, you look familiar, but I don't know you, and he said, I'm Mr. X.",
+      "zh": "后来他朝我走过来说，“我认识你。”我说，“你看着挺眼熟的，但我想不起来你是谁。”结果他说，“我是 Mr. X。”"
+    },
+    {
+      "id": 130,
+      "start_sec": 1227,
+      "speaker": "Linda Maum",
+      "en": "And I slammed him in the chest and said, Jesus Christ, I don't want to talk—shouldn't want to talk to you. But that's what had happened.",
+      "zh": "我照着他胸口就是一巴掌，说：“老天爷，我才不想跟——我压根不该跟你说话。”但事情就这么发生了。"
+    },
+    {
+      "id": 131,
+      "start_sec": 1236,
+      "speaker": "Courtney Maum",
+      "en": "My mom told me that on their first real date, she did ask Mr. X why he never paid the subcontractors at my parents' house. She said he told her he'd been in a car accident, was on heavy drugs and hospitalized. She decided to forgive him.",
+      "zh": "我妈跟我说，他们第一次正经约会时，她确实问过 Mr. X 当年为什么没给我爸妈家装修的分包商结账。她说他解释称自己出了车祸，一直靠重度止痛药扛着，还在住院。于是她决定原谅他。"
+    },
+    {
+      "id": 132,
+      "start_sec": 1250,
+      "speaker": "Courtney Maum",
+      "en": "I'd never heard about that moment in the bathtub, or the missing money.",
+      "zh": "至于浴缸里那档子事，还有那笔下落不明的钱，我以前从没听说过。"
+    },
+    {
+      "id": 133,
+      "start_sec": 1256,
+      "speaker": "Courtney Maum",
+      "en": "Listen, what's surprising to me about hearing this full story, you remembered that and thought, you know what, this is the guy to pursue.",
+      "zh": "听我说，听完整个来龙去脉最让我吃惊的是，你明明记得那些事，心里却还想着，管他呢，就是他了，我要追他。"
+    },
+    {
+      "id": 134,
+      "start_sec": 1265,
+      "speaker": "Linda Maum",
+      "en": "I'm going to let it go. Just forget about it. Yep.",
+      "zh": "过去的事就让它过去吧，翻篇了。嗯，就是这样。"
+    },
+    {
+      "id": 135,
+      "start_sec": 1270,
+      "speaker": "Courtney Maum",
+      "en": "No red flags were waving around?",
+      "zh": "那满眼的危险信号你都没看见吗？"
+    },
+    {
+      "id": 136,
+      "start_sec": 1271,
+      "speaker": "Linda Maum",
+      "en": "Of course they were.",
+      "zh": "当然看见了。"
+    },
+    {
+      "id": 137,
+      "start_sec": 1274,
+      "speaker": "Courtney Maum",
+      "en": "No further comment.",
+      "zh": "我无话可说了。"
+    },
+    {
+      "id": 138,
+      "start_sec": 1283,
+      "speaker": "Courtney Maum",
+      "en": "Before Mr. X, my mom was super social. When my parents were married, our house was like Studio frickin' 54. They had these awesome dinner parties where everybody looked nice, and my mom would serve this Martha Stewart-level cuisine with ease and panache that really impressed me as a kid.",
+      "zh": "认识 Mr. X 之前，我妈特别爱社交。我爸妈还在一起的时候，我们家简直热闹得像 Studio 54 一样。他们经常办超棒的晚宴，客人们个个衣着光鲜，我妈总是游刃有余、风度翩翩地端出 Martha Stewart 水准的大餐，小时候我看得佩服极了。"
+    },
+    {
+      "id": 139,
+      "start_sec": 1299,
+      "speaker": "Courtney Maum",
+      "en": "I remember going to sleep to the sound of people clinking glasses, enjoying each other's company.",
+      "zh": "我记得自己常在人们碰杯和欢声笑语的声音中入睡，大家聚在一起特别开心。"
+    },
+    {
+      "id": 140,
+      "start_sec": 1304,
+      "speaker": "Courtney Maum",
+      "en": "When she got together with Mr. X, though, her life started to narrow. People didn't really come by our house much anymore. My sense is that Mr. X made people uncomfortable.",
+      "zh": "可她和 Mr. X 在一起之后，生活圈子就开始越缩越小。大家也不怎么上我们家串门了。我的感觉是，Mr. X 让客人们觉得很不自在。"
+    },
+    {
+      "id": 141,
+      "start_sec": 1314,
+      "speaker": "Courtney Maum",
+      "en": "Though he presented okay, in conversation he was gruff and socially awkward, a wild animal in deck shorts.",
+      "zh": "他外表看着还行，但聊起天来既粗鲁又别扭，就像条穿着沙滩短裤的野兽。"
+    },
+    {
+      "id": 142,
+      "start_sec": 1322,
+      "speaker": "Courtney Maum",
+      "en": "In public, he treated strangers badly—barking at waiters, yelling at gas station attendants. In private, it was worse. He was clingy and possessive with my mother, cutting her down with hurtful comments.",
+      "zh": "在公共场合，他对陌生人态度恶劣——对服务员大吼大叫，朝加油站工作人员咆哮。私底下更是变本加厉，他对我妈粘人又占有欲极强，还老说些刻薄话贬低她。"
+    },
+    {
+      "id": 143,
+      "start_sec": 1335,
+      "speaker": "Courtney Maum",
+      "en": "The drinking stopped being social. Dinners were served on a tray in front of Fox News, the volume blaring, with him hollering for more. I graduated college still not understanding what the hell my mom saw in this man or why she'd let him come between us.",
+      "zh": "喝酒不再是为了社交。晚饭直接用托盘端到电视前，放着震天响的福克斯新闻，他在那儿嚷嚷着还要添饭。我直到大学毕业都没想明白，我妈到底看上这个男人哪一点，又为什么要让他横亘在我们母女之间。"
+    },
+    {
+      "id": 144,
+      "start_sec": 1351,
+      "speaker": "Courtney Maum",
+      "en": "What were other positive things that drew you to Mr. X in the beginning?",
+      "zh": "那一开始还有什么别的正面因素吸引你和 Mr. X 在一起吗？"
+    },
+    {
+      "id": 145,
+      "start_sec": 1356,
+      "speaker": "Linda Maum",
+      "en": "I had a partner. I was up at Candlewood Lake, and everything was husband and wives, or boyfriends and girlfriends.",
+      "zh": "我算是有个伴儿了。我那会儿住在 Candlewood Lake，周围全都是成双成对的夫妻或者男女朋友。"
+    },
+    {
+      "id": 146,
+      "start_sec": 1365,
+      "speaker": "Courtney Maum",
+      "en": "Candlewood Lake is where my mom was living at this point.",
+      "zh": "我妈当时住的地方就是 Candlewood Lake。"
+    },
+    {
+      "id": 147,
+      "start_sec": 1369,
+      "speaker": "Linda Maum",
+      "en": "I had somebody that I was proud to go be seen with, and he was a so-called architect.",
+      "zh": "我终于有了一个带出去挺有面子的人，而且他好歹还自称是个建筑师。"
+    },
+    {
+      "id": 148,
+      "start_sec": 1377,
+      "speaker": "Courtney Maum",
+      "en": "Okay, so he was handsome, he was available as a partner.",
+      "zh": "好吧，也就是说他长得帅，而且恰好单身可以当伴侣。"
+    },
+    {
+      "id": 149,
+      "start_sec": 1382,
+      "speaker": "Linda Maum",
+      "en": "Good sex partner. Good sex partner.",
+      "zh": "床上功夫也好，床伴很合拍。"
+    },
+    {
+      "id": 150,
+      "start_sec": 1385,
+      "speaker": "Courtney Maum",
+      "en": "Oh, god.",
+      "zh": "天呐。"
+    },
+    {
+      "id": 151,
+      "start_sec": 1386,
+      "speaker": "Linda Maum",
+      "en": "Sorry. It's true.",
+      "zh": "抱歉，可这就是实话。"
+    },
+    {
+      "id": 152,
+      "start_sec": 1389,
+      "speaker": "Courtney Maum",
+      "en": "Let me just digest that. Okay, but you just really didn't want to be alone, it sounds like.",
+      "zh": "让我先消化一下。好吧，不过听起来你当时就是真的不想一个人待着。"
+    },
+    {
+      "id": 153,
+      "start_sec": 1397,
+      "speaker": "Linda Maum",
+      "en": "I didn't like being alone, but I don't think I got married so I wouldn't be alone.",
+      "zh": "我是不喜欢孤零零一个人，但我觉得自己结婚倒也不是为了逃避独处。"
+    },
+    {
+      "id": 154,
+      "start_sec": 1403,
+      "speaker": "Courtney Maum",
+      "en": "I drilled into my mom about this. She said it was as simple as her wanting someone handsome on her arm. Everyone was coupled. She wanted something for herself.",
+      "zh": "我接着追问了我妈。她说原因就这么简单：想挽着个帅气的男人出门。身边人都有伴，她也想为自己找个归宿。"
+    },
+    {
+      "id": 155,
+      "start_sec": 1413,
+      "speaker": "Courtney Maum",
+      "en": "Why him, though? Because you had all these other offers. Why him?",
+      "zh": "可为什么偏偏是他呢？你明明有那么多别的人选，怎么就选了他？"
+    },
+    {
+      "id": 156,
+      "start_sec": 1418,
+      "speaker": "Linda Maum",
+      "en": "Well, I guess because he didn't offer.",
+      "zh": "大概是因为他反倒没上赶着吧。"
+    },
+    {
+      "id": 157,
+      "start_sec": 1422,
+      "speaker": "Courtney Maum",
+      "en": "Well, how did you get engaged?",
+      "zh": "那你们是怎么订婚的？"
+    },
+    {
+      "id": 158,
+      "start_sec": 1425,
+      "speaker": "Linda Maum",
+      "en": "I told him we were getting married.",
+      "zh": "我直接通知他我们要结婚了。"
+    },
+    {
+      "id": 159,
+      "start_sec": 1428,
+      "speaker": "Courtney Maum",
+      "en": "Oh, god, it was you? You were the motor behind this? My life is coming undone right here in the living room. You asked for his hand in marriage?",
+      "zh": "天呐，竟然是你？整件事都是你推动的？我感觉我的人生观就在客厅里当场碎了一地。是你向他求的婚？"
+    },
+    {
+      "id": 160,
+      "start_sec": 1436,
+      "speaker": "Linda Maum",
+      "en": "No, I did not ask. I told him that we might just as well get married. Period.",
+      "zh": "不，我可不是征求意见。我是直接跟他说，咱俩干脆结婚算了。就这么定了。"
+    },
+    {
+      "id": 161,
+      "start_sec": 1445,
+      "speaker": "Courtney Maum",
+      "en": "Romantic. And what did he say?",
+      "zh": "真浪漫啊。那他怎么说？"
+    },
+    {
+      "id": 162,
+      "start_sec": 1447,
+      "speaker": "Linda Maum",
+      "en": "Yay.",
+      "zh": "好啊。"
+    },
+    {
+      "id": 163,
+      "start_sec": 1455,
+      "speaker": "Courtney Maum",
+      "en": "So this speech I gave at my mother's wedding that made her so upset, I remember her complaining about it to strangers, people at the grocery store, airline stewards, for over a decade.",
+      "zh": "我在我妈婚礼上致的那段词让她特别窝火，我记得整整十多年里，她见着陌生人就吐槽，不管是在杂货店碰见的人，还是飞机上的乘务员。"
+    },
+    {
+      "id": 164,
+      "start_sec": 1466,
+      "speaker": "Courtney Maum",
+      "en": "If a waitress said something nice about mothers and daughters spending time together, she'd be like, ha, you should have heard how she talked about me at my wedding.",
+      "zh": "要是有女服务员夸一句母女俩一起出来真温馨，她立马就会来一句：“呵，你是没听见她在我婚礼上是怎么说我的。”"
+    },
+    {
+      "id": 165,
+      "start_sec": 1476,
+      "speaker": "Linda Maum",
+      "en": "I thought I was going to get a wonderful, you know, how wonderful my mother was growing up and how happy I was to see her happy,",
+      "zh": "我本来以为她会说些好听的话，比如从小到大妈妈有多棒，看到妈妈幸福她有多开心之类的，"
+    },
+    {
+      "id": 166,
+      "start_sec": 1487,
+      "speaker": "Linda Maum",
+      "en": "but what I remember about that speech is it was more about the negative things that I did in my life, like...",
+      "zh": "但关于那段发言，我记住的全是她数落我生活里的那些糟心事，比如……"
+    },
+    {
+      "id": 167,
+      "start_sec": 1500,
+      "speaker": "Linda Maum",
+      "en": "i.e., smoking. At my wedding. And I remember standing there, and my heart just sunk, and I just thought, oh my god, she really hates me.",
+      "zh": "比如说抽烟。就在我的婚礼上。我记得当时站在那儿，心一下就沉到谷底，心想，天哪，她是真的恨死我了。"
+    },
+    {
+      "id": 168,
+      "start_sec": 1510,
+      "speaker": "Courtney Maum",
+      "en": "That's what she heard, but it's not what I remember saying. Here's where I admit that my speech was actually a poem, written by me. I was super into poetry as a teenager, poetry as homage.",
+      "zh": "这是她当时听进去的意思，但跟我记忆里自己说的不太一样。说到这儿我得坦白，那篇发言其实是我自己写的一首诗。我十几岁的时候特别迷写诗，喜欢用诗歌来表达敬意。"
+    },
+    {
+      "id": 169,
+      "start_sec": 1522,
+      "speaker": "Courtney Maum",
+      "en": "When my best friend moved away, for example, I wrote her an ode that her mother had professionally calligraphed and framed, and that our school asked me to set to music and perform at assembly.",
+      "zh": "举个例子，我最好的朋友搬走时，我给她写了一首颂诗，她妈妈还特意请人用专业书法抄录装裱，学校甚至让我给它谱曲，在全校集会上表演。"
+    },
+    {
+      "id": 170,
+      "start_sec": 1534,
+      "speaker": "Courtney Maum",
+      "en": "For better or for worse, my visions of myself as a great American writer were clearly being indulged.",
+      "zh": "不管怎么说，我当时把自己当成伟大美国作家的幻想，显然是被大人和学校给惯出来的。"
+    },
+    {
+      "id": 171,
+      "start_sec": 1540,
+      "speaker": "Courtney Maum",
+      "en": "So when my mom asked me to say something at her wedding, I cracked open my diary and set about writing something major.",
+      "zh": "所以妈妈让我在她婚礼上讲几句时，我翻开日记本，准备写一篇震撼全场的大作。"
+    },
+    {
+      "id": 172,
+      "start_sec": 1547,
+      "speaker": "Courtney Maum",
+      "en": "Something so revealing it would cause the ground to crack beneath the altar or inspire someone to rise from the pews and speak out against their marriage, to make the whole thing stop there and then. I really wanted that.",
+      "zh": "要写得足够犀利，犀利到能让圣坛底下的地面裂开，或者让台下长椅上的某位宾客站起来，大声反对这门婚事，好让整场婚礼当场叫停。我是真心盼着那样。"
+    },
+    {
+      "id": 173,
+      "start_sec": 1560,
+      "speaker": "Courtney Maum",
+      "en": "In preparation for this conversation with my mom, I dug the poem out. Neither of us had seen it in 30 years.",
+      "zh": "为了这次和妈妈对谈，我把那首诗又翻了出来。我们母女俩已经三十年没见过这首诗了。"
+    },
+    {
+      "id": 174,
+      "start_sec": 1567,
+      "speaker": "Courtney Maum",
+      "en": "I am looking at a piece of paper that has one, two, three, four, five-- like, seven stanzas on it. \"Wedding Day Poem for My Mother.\"",
+      "zh": "我现在看着手里这张纸，上面写了一、二、三、四、五……大概七个诗节。标题是《献给母亲的婚礼诗》。"
+    },
+    {
+      "id": 175,
+      "start_sec": 1577,
+      "speaker": "Courtney Maum",
+      "en": "She walks through realms of habituated darkness. And can you see the tumble stones that mar her rocky path? She is pushing, she is pulling, she is moving through the darkness. And oh, the road is long, and every breath feels like her last.",
+      "zh": "“她穿行在习以为常的黑暗境域。你可曾看见那些磕绊的碎石，划破她崎岖的前路？她推着，她拉着，在黑暗中艰难跋涉。啊，长路漫漫，仿佛每一口呼吸都是生命的最后一次。”"
+    },
+    {
+      "id": 176,
+      "start_sec": 1592,
+      "speaker": "Courtney Maum",
+      "en": "O, Mother, Mother, Mother, behind my lids I see you smiling at the bow within a boat above the sea.",
+      "zh": "“哦，母亲，母亲，母亲，在我的眼帘之后，我看见你坐在海面的一叶扁舟船头，面露微笑。”"
+    },
+    {
+      "id": 177,
+      "start_sec": 1601,
+      "speaker": "Courtney Maum",
+      "en": "In retrospect, there's no chance anyone understood this fucking poem. I'll skip ahead a bit.",
+      "zh": "现在回头看，当时根本不可能有人听得懂这破诗在写什么。我往后跳过一点。"
+    },
+    {
+      "id": 178,
+      "start_sec": 1608,
+      "speaker": "Courtney Maum",
+      "en": "Other times I see you and often you are lonely, standing by our counter with a cigarette in hand.",
+      "zh": "“有时我看着你，常见你形单影只，手夹香烟，伫立在厨房台面旁。”"
+    },
+    {
+      "id": 179,
+      "start_sec": 1615,
+      "speaker": "Courtney Maum",
+      "en": "There it is, the cigarette of my mother's discontent.",
+      "zh": "来了来了，那支象征着我妈满腹郁闷的香烟。"
+    },
+    {
+      "id": 180,
+      "start_sec": 1619,
+      "speaker": "Courtney Maum",
+      "en": "And in my head I hear you wishing body beyond boundaries, somewhere another place, another time, another land. Mother, the time has come for laying down roots.",
+      "zh": "“我在脑海中听见你的祈愿，盼望身体冲破藩篱，去往别处、另一段时光、另一片土地。母亲，是时候扎下根来了。”"
+    },
+    {
+      "id": 181,
+      "start_sec": 1633,
+      "speaker": "Courtney Maum",
+      "en": "Right here, halfway through the poem, something weird occurs. My tone shifts in a way I don't remember at all.",
+      "zh": "就在这儿，诗读到一半时，奇怪的事情发生了。我的语调突然发生了转变，而我对此完全没有印象。"
+    },
+    {
+      "id": 182,
+      "start_sec": 1641,
+      "speaker": "Courtney Maum",
+      "en": "No longer do I see you glancing out beyond our window, wishing yourself other places very far from here. I think you found contentment. I think you've found belonging. I think you have found a refuge where safety subdues fear.",
+      "zh": "“我不再看见你望向窗外，渴望置身于遥远的异地。我想你已寻得安足。我想你已寻得归属。我想你已寻得一处避风港，那里的安稳抚平了恐惧。”"
+    },
+    {
+      "id": 183,
+      "start_sec": 1658,
+      "speaker": "Courtney Maum",
+      "en": "Why had my mom given me such hell over this thing? The poem wasn't incendiary, nor was it damning of my mother. If anything, it seemed to wish her well. Here are the last lines.",
+      "zh": "妈妈当年干嘛为了这首诗把我骂得那么惨？这诗既不具煽动性，也没有指责我妈。要说有什么的话，它分明是在祝愿她幸福。下面这几句是结尾。"
+    },
+    {
+      "id": 184,
+      "start_sec": 1670,
+      "speaker": "Courtney Maum",
+      "en": "Look no more out the window. Look no more through the door. Look not beyond horizon. It's not foreign anymore. You found what you've been wanting. Your roots grow deep and true. You found a soul to worship and someone who loves you too.",
+      "zh": "“不必再望向窗外，不必再望穿门扉。不必再遥望地平线，那方水土已不再陌生。你已寻得心之所向，你的根脉深扎而坚定。你寻得了一个值得崇敬的灵魂，也寻得了一个同样爱你的人。”"
+    },
+    {
+      "id": 185,
+      "start_sec": 1687,
+      "speaker": "Linda Maum",
+      "en": "Okay. The ending was good.",
+      "zh": "好吧，结尾确实写得不错。"
+    },
+    {
+      "id": 186,
+      "start_sec": 1690,
+      "speaker": "Linda Maum",
+      "en": "But I will say that at that point, I probably wasn't listening anymore. And that's why I didn't hear the positiveness of it.",
+      "zh": "但我得说，听到那个节骨眼上，我大概已经听不进去了。所以后面那些正面的意思我根本没听出来。"
+    },
+    {
+      "id": 187,
+      "start_sec": 1700,
+      "speaker": "Linda Maum",
+      "en": "You know, you no longer have to look, you can go out and be happy with this person that's going to smoke with you, you know. Like I wasn't going to be alone in this dark age of sin. It's negative to me.",
+      "zh": "听起来就像是，你不用再东张西望了，可以和这个陪你一起抽烟的人去过幸福日子了，仿佛我就不会独自困在这黑暗的罪恶年代里一样。对我来说就是满满的负面感。"
+    },
+    {
+      "id": 188,
+      "start_sec": 1716,
+      "speaker": "Courtney Maum",
+      "en": "Still?",
+      "zh": "现在还是这么觉得？"
+    },
+    {
+      "id": 189,
+      "start_sec": 1717,
+      "speaker": "Linda Maum",
+      "en": "Yeah. Yeah, the beginning is definitely negative still.",
+      "zh": "对。对，开头那段现在听着依然很负面。"
+    },
+    {
+      "id": 190,
+      "start_sec": 1722,
+      "speaker": "Courtney Maum",
+      "en": "Okay, so for me that's painful to hear, because I was really acknowledging how much you were struggling. And to me, that was what I was trying to do with the beginning, was acknowledge everything that you were going through that was so, so hard.",
+      "zh": "好吧，听你这么说我其实挺难受的，因为我当时是真切地看见了你有多挣扎。对我来说，开头那段想做的，就是正视你当时经历的一切有多么、多么艰难。"
+    },
+    {
+      "id": 191,
+      "start_sec": 1737,
+      "speaker": "Linda Maum",
+      "en": "I could see that. You know, you tell me that, and I can understand it. I'm sorry that I didn't hear the positiveness in it.",
+      "zh": "我能明白。你这么一解释，我就能理解了。我很抱歉当时没听出诗里的善意。"
+    },
+    {
+      "id": 192,
+      "start_sec": 1748,
+      "speaker": "Courtney Maum",
+      "en": "I accept your apology. Thank you.",
+      "zh": "我接受你的道歉。谢谢。"
+    },
+    {
+      "id": 193,
+      "start_sec": 1751,
+      "speaker": "Linda Maum",
+      "en": "Oh, phew.",
+      "zh": "哦，总算松了口气。"
+    },
+    {
+      "id": 194,
+      "start_sec": 1756,
+      "speaker": "Courtney Maum",
+      "en": "I probably owe my mom an apology as well. I mean, now that I'm rereading it for the first time since the wedding, I get why she was so upset and hurt. It's a pretty dark picture to present of someone on their wedding day.",
+      "zh": "我大概也欠妈妈一声道歉。说真的，这是婚礼之后我第一次重读这首诗，我现在完全理解她当初为什么会那么生气和受伤了。在人家结婚当天，把她的生活描绘得那么阴郁，确实有点过分。"
+    },
+    {
+      "id": 195,
+      "start_sec": 1771,
+      "speaker": "Courtney Maum",
+      "en": "I also get how she couldn't hear the nice things I was saying.",
+      "zh": "我也理解她当时为什么听不进去我说的那些好话。"
+    },
+    {
+      "id": 196,
+      "start_sec": 1777,
+      "speaker": "Courtney Maum",
+      "en": "Frankly, I didn't remember at all writing the end with that much compassion toward my mom and graciousness toward Mr. X, but hearing it, I do remember feeling that way.",
+      "zh": "老实说，我完全不记得自己在结尾处对妈妈写过那么多体恤，对 Mr. X 也流露过那么多善意，但现在重新念出来，我确实记起自己当时有过那样的心境。"
+    },
+    {
+      "id": 197,
+      "start_sec": 1800,
+      "speaker": "Courtney Maum",
+      "en": "We were dealing with hard things as a family before my mom got remarried. My brother Brendan had gotten really sick.",
+      "zh": "在妈妈再婚之前，我们一家正经历一段艰难的日子。我弟弟 Brendan 病得很重。"
+    },
+    {
+      "id": 198,
+      "start_sec": 1807,
+      "speaker": "Courtney Maum",
+      "en": "He basically moved into the Yale New Haven Children's Hospital when he was 10 years old, because he was seizing uncontrollably. His heart would stop out of nowhere. It was a terrifying time.",
+      "zh": "他 10 岁那年几乎就住进了耶鲁纽黑文儿童医院，因为癫痫发作根本控制不住。他的心脏会毫无征兆地骤停。那段日子实在太可怕了。"
+    },
+    {
+      "id": 199,
+      "start_sec": 1818,
+      "speaker": "Courtney Maum",
+      "en": "Mr. X was intolerant of everyone, but he was gentle with my brother, kind. He helped calm my mom down.",
+      "zh": "Mr. X 对谁都缺乏耐心，唯独对我弟弟很温和，也很体贴。是他帮着安抚了妈妈的情绪。"
+    },
+    {
+      "id": 200,
+      "start_sec": 1826,
+      "speaker": "Courtney Maum",
+      "en": "I know this meant a lot to her and also to Brendan, especially because our father was sort of checked out emotionally from what was going on. I do remember thinking, this is a thing to hold on to here. This is his saving grace.",
+      "zh": "我知道这对妈妈和 Brendan 都意义重大，尤其是因为我爸爸当时在情绪上几乎抽离了这一切。我确实记得自己当时想过：这算是一点慰藉吧，这是他身上唯一可取的地方。"
+    },
+    {
+      "id": 201,
+      "start_sec": 1846,
+      "speaker": "Courtney Maum",
+      "en": "I wish I'd made things simpler for my mom back then. I wish I could have said more clearly, I'm worried about you.",
+      "zh": "我真希望当年自己能对妈妈少些刁难，真希望当时能更坦白地对她说一句：“我是在担心你。”"
+    },
+    {
+      "id": 202,
+      "start_sec": 1855,
+      "speaker": "Courtney Maum",
+      "en": "But anger is the teenage version of worry, and I was very angry. My mom wouldn't tolerate me saying negative things about her partner, so I bottled them inside, which made me snippy and resentful.",
+      "zh": "可少年人的担忧往往会变成愤怒，而我当时满腔怒火。妈妈容不得我说她伴侣半句坏话，我只好把话全憋在心里，结果人变得尖刻又满怀怨气。"
+    },
+    {
+      "id": 203,
+      "start_sec": 1868,
+      "speaker": "Courtney Maum",
+      "en": "I stopped being nice to my mom. I stopped being light and silly with her. And as it turns out, I had reason to be worried.",
+      "zh": "我不再对妈妈和颜悦色，也不再跟她嬉笑打闹。可事实证明，我的担心并不是多余的。"
+    },
+    {
+      "id": 204,
+      "start_sec": 1879,
+      "speaker": "Courtney Maum",
+      "en": "Two days after the wedding, at the age of 49, my mom had a massive stroke. There had been signs she wasn't well on her wedding day already.",
+      "zh": "婚礼两天后，49 岁的妈妈突发严重中风。其实早在婚礼当天，她就已经显露出身体不适的征兆。"
+    },
+    {
+      "id": 205,
+      "start_sec": 1888,
+      "speaker": "Courtney Maum",
+      "en": "And in the days following her hospitalization, I developed a theory that her body, not her mind, knew that the marriage was a mistake. I ran this by my mom.",
+      "zh": "在她住院后的那些日子里，我渐渐冒出一个想法：不是她的理智，而是她的身体早就知道这桩婚姻是个错误。我把这个想法跟妈妈提了起来。"
+    },
+    {
+      "id": 206,
+      "start_sec": 1898,
+      "speaker": "Linda Maum",
+      "en": "I think that's true. I mean, why was I sweating so much? Why was I-- you know, I think it's true.",
+      "zh": "我觉得你说得对。要不然我当时怎么会出那么多汗？怎么会……唉，我觉得确实是那样。"
+    },
+    {
+      "id": 207,
+      "start_sec": 1910,
+      "speaker": "Linda Maum",
+      "en": "I knew, I knew, I knew when I was buying my dress. I knew when I wasn't as happy. I do believe that I anticipated this awfulness ahead of time.",
+      "zh": "我早有预感，早有预感。我去买婚纱的时候就知道了，察觉到自己并没有那么开心的时候就知道了。我真的相信，我提前预感到了后面这一切糟糕的事。"
+    },
+    {
+      "id": 208,
+      "start_sec": 1927,
+      "speaker": "Courtney Maum",
+      "en": "In your body?",
+      "zh": "是身体感觉到的吗？"
+    },
+    {
+      "id": 209,
+      "start_sec": 1928,
+      "speaker": "Linda Maum",
+      "en": "In every fiber.",
+      "zh": "浑身上下每一根神经都感觉到了。"
+    },
+    {
+      "id": 210,
+      "start_sec": 1930,
+      "speaker": "Courtney Maum",
+      "en": "Oh, jeez. I mean, I think to me that's heartbreaking to hear, because that's what I thought was happening.",
+      "zh": "天哪。听你这么说真让人心碎，因为我当时心里就是这么怀疑的。"
+    },
+    {
+      "id": 211,
+      "start_sec": 1939,
+      "speaker": "Linda Maum",
+      "en": "Oh, no. I'm just going to start crying.",
+      "zh": "哎呀，我这下要哭出来了。"
+    },
+    {
+      "id": 212,
+      "start_sec": 1943,
+      "speaker": "Courtney Maum",
+      "en": "That's all right. You can cry, Mom. It's all right.",
+      "zh": "没关系的，想哭就哭吧，妈，没事的。"
+    },
+    {
+      "id": 213,
+      "start_sec": 1947,
+      "speaker": "Linda Maum",
+      "en": "OK, I'm crying, so put that in. OK, so I should have called off the wedding. And I knew that, because I was just overwhelmed with everything, end of story.",
+      "zh": "好吧，我哭了，把这段也录进去吧。好吧，我当时本该取消婚礼的。这一点我心里明白，只是那时候被所有事情压得喘不过气来，就这么简单。"
+    },
+    {
+      "id": 214,
+      "start_sec": 1961,
+      "speaker": "Courtney Maum",
+      "en": "I entered this conversation with a bunch of questions for my mother, but it was coming down to one.",
+      "zh": "开始这次谈话前，我准备了一肚子问题想问妈妈，但聊到最后，全都归结为一个问题。"
+    },
+    {
+      "id": 215,
+      "start_sec": 1967,
+      "speaker": "Courtney Maum",
+      "en": "How come you didn't listen to your guts? I think there were a lot of moments where you could have, and you didn't. Were you sort of raised to defer to men, or?",
+      "zh": "你当初为什么不听从自己的直觉呢？我觉得有好多次你明明可以喊停，却没有。是因为你从小被教育要顺从男人吗，还是别的什么原因？"
+    },
+    {
+      "id": 216,
+      "start_sec": 1977,
+      "speaker": "Linda Maum",
+      "en": "I was raised that I knew nothing. I mean, I was always wrong.",
+      "zh": "我从小就被灌输说自己什么都不懂。我是说，我永远都是错的。"
+    },
+    {
+      "id": 217,
+      "start_sec": 1982,
+      "speaker": "Courtney Maum",
+      "en": "You were raised to believe you knew nothing?",
+      "zh": "你从小被教育得以为自己什么都不懂？"
+    },
+    {
+      "id": 218,
+      "start_sec": 1984,
+      "speaker": "Linda Maum",
+      "en": "Right. I was, I was--",
+      "zh": "对。我就是，我就是——"
+    },
+    {
+      "id": 219,
+      "start_sec": 1986,
+      "speaker": "Courtney Maum",
+      "en": "Because you're a woman?",
+      "zh": "因为你是女人吗？"
+    },
+    {
+      "id": 220,
+      "start_sec": 1988,
+      "speaker": "Linda Maum",
+      "en": "My mother told me this. So my mother was very domineering. And she made me believe that I was worthless and everything else.",
+      "zh": "是我妈这么告诉我的。我妈非常专横，她让我深信自己一无是处、什么都不行。"
+    },
+    {
+      "id": 221,
+      "start_sec": 1998,
+      "speaker": "Linda Maum",
+      "en": "And so when I married Mr. X, I think that came back to haunt me, all my negativity against myself. And I think I didn't listen to myself because I couldn't be right. I couldn't be right.",
+      "zh": "所以后来嫁给 Mr. X 的时候，我觉得那些东西又回来缠上我了，我对自己所有的否定全冒了出来。我想我之所以没听自己的心声，是因为我打心底觉得自己不可能是对的，我怎么可能对呢。"
+    },
+    {
+      "id": 222,
+      "start_sec": 2013,
+      "speaker": "Courtney Maum",
+      "en": "That's so wild to hear. Because when I was little, my mom was the most capable person-- physically, socially, financially, like a total financial whiz, the best dressed, the best looking, the best driver, the most fun, all of these fantastic things.",
+      "zh": "听起来太不可思议了。因为在我小时候，妈妈是我见过最能干的人——体能、社交、理财样样出众，简直是个理财奇才，穿得最体面，长得最漂亮，车技最好，也最有趣，所有这些闪光点她全占了。"
+    },
+    {
+      "id": 223,
+      "start_sec": 2030,
+      "speaker": "Courtney Maum",
+      "en": "And she had a real reputation still among my friends in school. Yeah, it's emotional to think of. Among my friends in school, it was just like how everyone looked up to Linda Maum.",
+      "zh": "直到现在，她在我同学圈里都还很有口碑。是啊，一想起来就挺触动的。以前在学校的朋友眼里，大家都特别佩服 Linda Maum。"
+    },
+    {
+      "id": 224,
+      "start_sec": 2043,
+      "speaker": "Linda Maum",
+      "en": "Well, to me this is all very sad. Because, again, it goes back to my mother-- and I hate doing this-- going back to my mother and blaming my mother for some of the things I became.",
+      "zh": "唉，对我来说这一切都挺可悲的。因为说到底又得追溯到我妈——我很讨厌这样——又回到我妈身上，把我后来变成这样归咎于她。"
+    },
+    {
+      "id": 225,
+      "start_sec": 2058,
+      "speaker": "Courtney Maum",
+      "en": "And she was a huge smoker, if I'm remembering correctly.",
+      "zh": "而且如果我没记错的话，她还是个老烟枪。"
+    },
+    {
+      "id": 226,
+      "start_sec": 2060,
+      "speaker": "Linda Maum",
+      "en": "Oh, giant, giant, giant. I was so angry at myself for being a smoker. I just didn't want to smoke, and then you made it a--",
+      "zh": "哦，烟瘾大极了，大极了。我自己也特别恨自己抽烟。我根本不想抽烟，结果你又把这事拿出来——"
+    },
+    {
+      "id": 227,
+      "start_sec": 2071,
+      "speaker": "Courtney Maum",
+      "en": "So I hit a nerve?",
+      "zh": "所以我这是戳到你痛处了？"
+    },
+    {
+      "id": 228,
+      "start_sec": 2072,
+      "speaker": "Linda Maum",
+      "en": "Yeah. Yep.",
+      "zh": "对。没错。"
+    },
+    {
+      "id": 229,
+      "start_sec": 2079,
+      "speaker": "Courtney Maum",
+      "en": "My mom also had one main question for me.",
+      "zh": "妈妈心里其实也有一个最想问我的问题。"
+    },
+    {
+      "id": 230,
+      "start_sec": 2082,
+      "speaker": "Linda Maum",
+      "en": "Why did you dislike me so much as a teenager? You kind of have answered that, really, with all the things that were going on.",
+      "zh": "“你十几岁的时候为什么那么讨厌我？”其实刚才聊了这么多当时发生的事，你差不多已经回答了。"
+    },
+    {
+      "id": 231,
+      "start_sec": 2090,
+      "speaker": "Courtney Maum",
+      "en": "But do you want to stop there and let me answer it?",
+      "zh": "但你是想就打住，还是想听我正面回答一下？"
+    },
+    {
+      "id": 232,
+      "start_sec": 2092,
+      "speaker": "Linda Maum",
+      "en": "Sure, if you have-- yeah.",
+      "zh": "当然，如果你还有话要说——说吧。"
+    },
+    {
+      "id": 233,
+      "start_sec": 2094,
+      "speaker": "Courtney Maum",
+      "en": "I have additional...",
+      "zh": "我还有补充……"
+    },
+    {
+      "id": 234,
+      "start_sec": 2097,
+      "speaker": "Courtney Maum",
+      "en": "I'm going to bristle at the word \"dislike\" because I actually liked you a lot, and I looked up to you in a lot of ways.",
+      "zh": "听到“讨厌”这个词我可要反驳了，因为其实我非常喜欢你，在很多方面都很崇拜你。"
+    },
+    {
+      "id": 235,
+      "start_sec": 2100,
+      "speaker": "Courtney Maum",
+      "en": "What I could not stand was that you let yourself be kind of walked all over by lesser men.",
+      "zh": "我实在受不了的是，你任由那些远远不如你的男人把你踩在脚下。"
+    },
+    {
+      "id": 236,
+      "start_sec": 2112,
+      "speaker": "Courtney Maum",
+      "en": "By men specifically, but also men that either didn't seem to deserve you or were actually bad people, you know, that weren't respected. You really were such a strong—you want to say something?",
+      "zh": "尤其是男人，而且还是些要么配不上你、要么干脆就是不受人待见的坏家伙。你明明是个那么坚强——你想说点什么吗？"
+    },
+    {
+      "id": 237,
+      "start_sec": 2125,
+      "speaker": "Linda Maum",
+      "en": "Yeah, I want to know what men they were. I thought it was just Mr. X. I mean, I don't remember anybody walk—",
+      "zh": "对，我想知道你说的都是哪些男人。我以为就只有 Mr. X 而已。我是说，我不记得还有谁对我——"
+    },
+    {
+      "id": 238,
+      "start_sec": 2134,
+      "speaker": "Courtney Maum",
+      "en": "You know, out of respect for my father, I'm still grieving, he's just passed. I don't want to talk too much about my dad, but my father did not always treat you with a great amount of respect.",
+      "zh": "出于对我父亲的尊重——他才刚去世，我还在悲痛之中。我不想过多议论爸爸，但他以前也并不总是那么尊重你。"
+    },
+    {
+      "id": 239,
+      "start_sec": 2146,
+      "speaker": "Courtney Maum",
+      "en": "So you know, I do include him in some of the men that I feel you were subservient to.",
+      "zh": "所以在我看来，那些让你低眉顺眼、委屈顺从的男人里，其实也包括他。"
+    },
+    {
+      "id": 240,
+      "start_sec": 2155,
+      "speaker": "Courtney Maum",
+      "en": "What I saw growing up in Greenwich, Connecticut in the '80s and '90s, when Greenwich was truly the bedroom town of Wall Street, what I saw was a lot of vivacious men who got to go somewhere else all day long,",
+      "zh": "八九十年代我在康涅狄格州格林威治长大，那时候格林威治简直就是华尔街的睡城。我每天看到的，就是一群意气风发的男人整天在外面忙活，"
+    },
+    {
+      "id": 241,
+      "start_sec": 2169,
+      "speaker": "Courtney Maum",
+      "en": "and come home to children that were bathed and these beautiful women that were their wives—put out fresh flowers, had dinner out.",
+      "zh": "晚上回到家，孩子都已经洗好澡，漂亮的妻子们插好了鲜花、摆好了丰盛的晚餐。"
+    },
+    {
+      "id": 242,
+      "start_sec": 2178,
+      "speaker": "Courtney Maum",
+      "en": "And the man just came and, you know, put his feet under the table, ate the food, and then got to go kind of take a load off in a study.",
+      "zh": "男人只要往餐桌前一坐，舒舒服服吃上现成的饭，吃完就可以躲进书房里彻底放松歇着了。"
+    },
+    {
+      "id": 243,
+      "start_sec": 2188,
+      "speaker": "Courtney Maum",
+      "en": "And so growing up, I was like, well, I'll be my dad. I'll be the man, you know, I want to come home and have dinner at the table. I want to drive a cool car to work.",
+      "zh": "所以我从小就想，那我以后要像爸爸那样，当个“一家之主”。我也想一回家就有热饭上桌，开着拉风的车去上班。"
+    },
+    {
+      "id": 244,
+      "start_sec": 2200,
+      "speaker": "Courtney Maum",
+      "en": "And so something I bristled against with you is at a certain point, you were taking on so much, and it didn't necessarily seem to be bringing you joy.",
+      "zh": "所以我对你心里一直有点抵触，是因为到后来，你大包大揽了太多事，可这些事似乎并没有给你带来多少快乐。"
+    },
+    {
+      "id": 245,
+      "start_sec": 2211,
+      "speaker": "Courtney Maum",
+      "en": "And Mr. X came into the picture. And in the beginning, I think he did—he seemed to really worship you.",
+      "zh": "后来 Mr. X 出现了。刚开始的时候，我觉得他确实——他看起来简直把你捧在手心里崇拜。"
+    },
+    {
+      "id": 246,
+      "start_sec": 2217,
+      "speaker": "Courtney Maum",
+      "en": "But certainly, as the years went by, I saw a man who demanded to be served and did not fetch as much as his own ice cubes.",
+      "zh": "但毫无疑问，随着日子一年年过去，我看到的却是一个理直气壮等着人伺候、甚至连冰块都不肯自己去拿一下的男人。"
+    },
+    {
+      "id": 247,
+      "start_sec": 2229,
+      "speaker": "Courtney Maum",
+      "en": "And that made me really angry at you. I wanted you to stand up for yourself.",
+      "zh": "这让我对你特别生气。我多希望你能硬气起来，为自己出头。"
+    },
+    {
+      "id": 248,
+      "start_sec": 2237,
+      "speaker": "Linda Maum",
+      "en": "Well, I think it's—in my mind, it was dislike of me because of the way you talked to me and the way you avoided me. I could never see it any other way.",
+      "zh": "嗯，我觉得——在我心里，那就是因为你讨厌我，看你跟我说话的态度，还有你躲着我的样子，我实在没法不往那方面想。"
+    },
+    {
+      "id": 249,
+      "start_sec": 2252,
+      "speaker": "Linda Maum",
+      "en": "Your tone of voice, I mean, I don't know how I could understand that that was because of my lack of respect for myself.",
+      "zh": "就你当时那种说话的语气，我怎么可能明白，那是因为我不够自尊自爱呢。"
+    },
+    {
+      "id": 250,
+      "start_sec": 2264,
+      "speaker": "Courtney Maum",
+      "en": "Yeah. No, I don't think you could have. I mean, I was a B.",
+      "zh": "是啊，你确实不可能明白。说到底，我那时候也是个刻薄鬼。"
+    },
+    {
+      "id": 251,
+      "start_sec": 2269,
+      "speaker": "Courtney Maum",
+      "en": "My mom's got a point here. I was sending mixed signals. I loved her, I was mean to her.",
+      "zh": "我妈说得没错。我当时传达出的信号确实很矛盾。我爱她，却又对她那么刻薄。"
+    },
+    {
+      "id": 252,
+      "start_sec": 2274,
+      "speaker": "Courtney Maum",
+      "en": "I wanted her to be a feminist baddie who kicked out Mr. X, but I also benefited from her commitment to homemaking—the awesome dinners, her driving me around.",
+      "zh": "我既希望她能当个酷飒的女权大女主，把 Mr. X 赶出家门，同时自己却又享受着她操持家务带来的一切——美味的晚餐，还有她开车接送我。"
+    },
+    {
+      "id": 253,
+      "start_sec": 2284,
+      "speaker": "Courtney Maum",
+      "en": "It was confusing. I was confusing. But I was clear on one thing, Mom. You chose him over us. You kept on choosing him.",
+      "zh": "这很让人拧巴，我自己都让人摸不着头脑。但有一件事我是很清楚的，妈。你在他和我们之间选了他，而且一次又一次地选了他。"
+    },
+    {
+      "id": 254,
+      "start_sec": 2294,
+      "speaker": "Courtney Maum",
+      "en": "But one night last October, she made a different choice.",
+      "zh": "不过去年十月的一个晚上，她做出了不同的选择。"
+    },
+    {
+      "id": 255,
+      "start_sec": 2299,
+      "speaker": "Courtney Maum",
+      "en": "In the kitchen of the house that Mr. X had designed to look art deco in style, but instead came out looking like a White Castle burger joint, my mom fell and broke her back.",
+      "zh": "Mr. X 曾亲自设计过这栋房子，本想走装饰艺术风格，结果建出来却像一家 White Castle 汉堡店。就在这栋房子的厨房里，我妈摔倒了，摔断了背。"
+    },
+    {
+      "id": 256,
+      "start_sec": 2310,
+      "speaker": "Courtney Maum",
+      "en": "Though it was early in the evening, Mr. X was too drunk to help her. She lay on the floor for hours. Finally, he brought her her cell phone so she could call an ambulance herself.",
+      "zh": "虽然当时才刚傍晚，Mr. X 却已经醉得根本扶不起她。她在地板上躺了好几个小时。最后，他把她的手机拿了过来，好让她自己拨打急救电话。"
+    },
+    {
+      "id": 257,
+      "start_sec": 2321,
+      "speaker": "Linda Maum",
+      "en": "When I was on that floor, I swore I was going to do everything I could to get rid of him.",
+      "zh": "躺在地板上的那一刻，我发誓，我一定要竭尽全力甩掉他。"
+    },
+    {
+      "id": 258,
+      "start_sec": 2329,
+      "speaker": "Courtney Maum",
+      "en": "She was hospitalized for months, unable to walk. Before the accident, I'd almost given up on my mom, but now she told me that she'd reached a turning point.",
+      "zh": "她住了好几个月的院，完全下不了地。出事之前，我对妈妈几乎都要绝望了，可现在她告诉我，她终于下定了决心。"
+    },
+    {
+      "id": 259,
+      "start_sec": 2339,
+      "speaker": "Courtney Maum",
+      "en": "She gave me power of attorney to fight in court on her behalf to evict Mr. X.",
+      "zh": "她给了我法定授权委托书，让我代表她上法庭打官司，把 Mr. X 赶出去。"
+    },
+    {
+      "id": 260,
+      "start_sec": 2344,
+      "speaker": "Courtney Maum",
+      "en": "For months, I went everywhere with legal paperwork in case I was called into court. It was hard, and it was ugly. It was the hardest thing I've ever done in my life, actually. But we won.",
+      "zh": "一连几个月，我走到哪儿都随身带着法律文件，随时准备出庭。那段日子又艰难又难堪，说实话，那是我这辈子做过最难的事。但我们赢了。"
+    },
+    {
+      "id": 261,
+      "start_sec": 2357,
+      "speaker": "Courtney Maum",
+      "en": "Mr. X left the house in an unholy state. I spent weeks cleaning up after him, boxing up his possessions.",
+      "zh": "Mr. X 走之前把房子糟蹋得惨不忍睹。我花了好几个星期替他收拾烂摊子，把他的东西一一装箱打包。"
+    },
+    {
+      "id": 262,
+      "start_sec": 2365,
+      "speaker": "Courtney Maum",
+      "en": "My mom came home from the hospital. My brother and his wife moved in with their cat, who took a particular liking to my mom.",
+      "zh": "妈妈出院回家了。我弟弟和弟媳搬来同住，还带来了他们的猫，那只猫特别黏我妈。"
+    },
+    {
+      "id": 263,
+      "start_sec": 2374,
+      "speaker": "Linda Maum",
+      "en": "I didn't know how complicated it was going to be to get about. And at that point, I didn't know you were going to be so instrumental in doing it.",
+      "zh": "我当时没想到行动起来会这么麻烦，那时候也不知道你会在其中起到这么关键的作用。"
+    },
+    {
+      "id": 264,
+      "start_sec": 2386,
+      "speaker": "Linda Maum",
+      "en": "Because of the amount of time you spent down here, I realized how much you cared about me. Until then, I really didn't know.",
+      "zh": "看着你在这儿花这么多时间陪着我、帮着我，我才真正意识到你有多在乎我。在此之前，我真的一点都不知道。"
+    },
+    {
+      "id": 265,
+      "start_sec": 2400,
+      "speaker": "Linda Maum",
+      "en": "I didn't.",
+      "zh": "我真的不知道。"
+    },
+    {
+      "id": 266,
+      "start_sec": 2402,
+      "speaker": "Courtney Maum",
+      "en": "Mr. X drove us apart, and kicking him out is what brought us back together.",
+      "zh": "Mr. X 把我们母女拆散了，而把他赶出门反而让我们重新走到了一起。"
+    },
+    {
+      "id": 267,
+      "start_sec": 2407,
+      "speaker": "Courtney Maum",
+      "en": "It's a strange thing to rally around, but this is where we are. My mom is 79. I'm nearly 50. We have the rest of our lives to catch up on what we've missed.",
+      "zh": "靠赶走一个人来凝聚亲情听起来有点奇怪，但这就是我们的现状。我妈今年79岁，我也快50了，往后余生，我们要把错过的时光慢慢补回来。"
+    },
+    {
+      "id": 268,
+      "start_sec": 2425,
+      "speaker": "Ira Glass",
+      "en": "Courtney Maum. Her latest novel is called Alan Opts Out. Dana Chivvis produced this story.",
+      "zh": "刚才讲述的是 Courtney Maum，她的最新小说名叫《Alan Opts Out》。本期故事由 Dana Chivvis 制作。"
+    },
+    {
+      "id": 269,
+      "start_sec": 2431,
+      "speaker": "Ira Glass",
+      "en": "We did reach out to Mr. X. And he told us he's designed hundreds of houses. He had lots of friends. He says he never left any house in any kind of disrepair in his life.",
+      "zh": "我们确实联系了 Mr. X。他告诉我们自己设计过几百栋房子，朋友也很多，还说这辈子从未把任何一栋房子弄得失修破败过。"
+    },
+    {
+      "id": 270,
+      "start_sec": 2443,
+      "speaker": "Ira Glass",
+      "en": "Coming up, a man goes back to the job of his teenage dreams to see what is the same and what is gone forever with the passage of time. That's in a minute on Chicago Public Radio when our program continues.",
+      "zh": "稍后节目中，一位男士将重返他少年时期的梦想工作岗位，看看岁月流逝之后，哪些东西一如往昔，哪些又已永远消逝。节目稍后在 Chicago Public Radio 继续。"
+    },
+    {
+      "id": 271,
+      "start_sec": 2459,
+      "speaker": "Ira Glass",
+      "en": "It's This American Life. I'm Ira Glass. Today's program, intergenerational space travel, stories of people braving the vast distances that separate young and old, trying to understand life on the other side of the divide.",
+      "zh": "这里是《This American Life》，我是 Ira Glass。今天这期节目的主题是“跨代际太空旅行”——讲述人们勇敢跨越横亘在年轻一代与长辈之间的巨大鸿沟，试图去理解代沟另一端的生活。"
+    },
+    {
+      "id": 272,
+      "start_sec": 2473,
+      "speaker": "Ira Glass",
+      "en": "We've arrived at Act Two of our program. Act Two— Cinema Veri-teen.",
+      "zh": "现在我们进入节目的 Act Two。Act Two——“青春电影真实录”（Cinema Veri-teen）。"
+    },
+    {
+      "id": 273,
+      "start_sec": 2479,
+      "speaker": "Ira Glass",
+      "en": "So when one of our producers, Ike Sriskandarajah, was a teenager, he had the greatest job he could humanly imagine. And that was, he worked at a movie theater. Wore a cummerbund to work every day, snuck around the managers with secret schemes of his own.",
+      "zh": "话说我们的制作人之一 Ike Sriskandarajah 在十几岁的时候，干过一份他能想象到的最棒的工作——在电影院打工。每天上班系着礼服腰封，背着经理暗地里搞各种小聪明。"
+    },
+    {
+      "id": 274,
+      "start_sec": 2492,
+      "speaker": "Ira Glass",
+      "en": "This was back in 2003, more than 20 years ago. And Ike wanted to know, is the job still the best? He traveled back to his hometown in Wisconsin and spent some time at his old movie theater, the Marcus Point Cinema in Madison.",
+      "zh": "那是2003年的事了，距今已有20多年。Ike 很想知道，这份工作现在还是那么棒吗？于是他回到了威斯康星州的老家，在麦迪逊他当年打工的 Marcus Point Cinema 影院待了一段时间。"
+    },
+    {
+      "id": 275,
+      "start_sec": 2504,
+      "speaker": "Ike Sriskandarajah",
+      "en": "My friend Marc vouched for me to his manager. That's how I got hired there. And Marc knew how to make the most of the job.",
+      "zh": "我朋友 Marc 在经理面前替我担保，我才得以被录用。而且 Marc 特别懂得怎么把这份工作的福利发挥到极致。"
+    },
+    {
+      "id": 276,
+      "start_sec": 2511,
+      "speaker": "Ike Sriskandarajah",
+      "en": "He taught me which door was the easiest to let your friends in, how to give away free popcorn by filling up discarded plastic bags so you don't mess up your popcorn tub count,",
+      "zh": "他教我从哪扇门最容易偷偷放朋友进来，还教我怎么用废弃塑料袋装免费爆米花送人，这样就不会搞乱爆米花桶的盘点数量，"
+    },
+    {
+      "id": 277,
+      "start_sec": 2520,
+      "speaker": "Ike Sriskandarajah",
+      "en": "and why volunteering to clean the bathroom was actually secretly a great job, because you got out of the concession stand, and you could sneak into a movie for a scene or two on the clock.",
+      "zh": "还有为什么主动请缨去打扫卫生间其实是个暗藏玄机的好差事——因为这样就能离开小卖部柜台，趁着上班时间溜进放映厅偷看一两场戏。"
+    },
+    {
+      "id": 278,
+      "start_sec": 2531,
+      "speaker": "Ike Sriskandarajah",
+      "en": "By senior year, I stacked lunch and study hall together in my schedule, and I'd treat friends to a school day matinee with popcorn and soda. I felt like a teen god, second to none in the pantheon of high school jobs, except maybe drug dealer.",
+      "zh": "到了高三，我把午休和自习课排到了一块儿，经常请朋友们在工作日白天场看电影，外加爆米花和汽水。我当时觉得自己简直像个少年天神，在高中生打工界的神殿里，除了毒贩之外，没人比我更威风了。"
+    },
+    {
+      "id": 279,
+      "start_sec": 2547,
+      "speaker": "Ike Sriskandarajah",
+      "en": "When I got back to my old theater, the outside looked the same—classic old Hollywood movie marquee, and inside there's still busy, stain-masking carpet and the long tunnel with theaters on either side. It even smelled the same.",
+      "zh": "当我回到当年那家老影院时，外面看起来还跟以前一模一样——经典的旧好莱坞式电影灯箱招牌；里面也还是那种花纹繁复、专门遮污渍的地毯，以及两侧分布着各个放映厅的长长走廊。甚至连气味都一模一样。"
+    },
+    {
+      "id": 280,
+      "start_sec": 2561,
+      "speaker": "Ike Sriskandarajah",
+      "en": "I had asked to speak to teens, employees who were the same age I was when I started, but the company's comms team and their HR department said no.",
+      "zh": "我本来要求采访青少年员工，也就是跟我当年入职时同龄的孩子，但公司的公关团队和人力资源部门拒绝了。"
+    },
+    {
+      "id": 281,
+      "start_sec": 2570,
+      "speaker": "Ike Sriskandarajah",
+      "en": "Instead, I could talk to a 26-year-old assistant manager named Darren Klingaman. He was behind the ticket booth when I arrived—clean shaven, wearing a dress shirt with little flowers and a tie to match.",
+      "zh": "作为替代，我只能采访一位名叫 Darren Klingaman 的26岁副经理。我到的时候他正站在售票亭后面，胡子刮得干干净净，穿着一件带小碎花的正装衬衫，还配了一条同色系领带。"
+    },
+    {
+      "id": 282,
+      "start_sec": 2582,
+      "speaker": "Ike Sriskandarajah",
+      "en": "Darren told me he did not apply for the same reasons I did, namely free movies.",
+      "zh": "Darren 告诉我，他当年应聘可不是冲着我那样的理由——也就是免费看电影。"
+    },
+    {
+      "id": 283,
+      "start_sec": 2589,
+      "speaker": "Darren Klingaman",
+      "en": "No, it was just—I just lucked out that that was a perk. I didn't know about it until afterwards.",
+      "zh": "没有，我只是……只是运气好赶上有这项福利。我是入职之后才知道的。"
+    },
+    {
+      "id": 284,
+      "start_sec": 2594,
+      "speaker": "Ike Sriskandarajah",
+      "en": "Oh, wow. OK.",
+      "zh": "哇，这样啊。"
+    },
+    {
+      "id": 285,
+      "start_sec": 2595,
+      "speaker": "Darren Klingaman",
+      "en": "It was a nice surprise.",
+      "zh": "确实是个挺不错的惊喜。"
+    },
+    {
+      "id": 286,
+      "start_sec": 2596,
+      "speaker": "Ike Sriskandarajah",
+      "en": "Nice surprise.",
+      "zh": "挺不错的惊喜。"
+    },
+    {
+      "id": 287,
+      "start_sec": 2597,
+      "speaker": "Ike Sriskandarajah",
+      "en": "Darren was just looking for any job. Besides getting to see movies, what about the other things that made the job so fun back in the early aughts? Are they still part of it? I ran all my favorite hijinks we pulled at the movie theater by Darren.",
+      "zh": "Darren 当初只是随便找份工作而已。除了看电影之外，两千年初让这份工作变得那么有意思的其他花样呢？现在还有吗？我把我们当年在电影院搞的所有最喜欢的恶作剧都跟 Darren 过了一遍。"
+    },
+    {
+      "id": 288,
+      "start_sec": 2610,
+      "speaker": "Ike Sriskandarajah",
+      "en": "Before I tell you about the first thing, I just want you to remember our brains were still developing when we thought this was so funny.",
+      "zh": "在跟你们讲第一件事之前，我只想提醒一句：我们当年觉得这事特好笑的时候，大脑都还没发育完全呢。"
+    },
+    {
+      "id": 289,
+      "start_sec": 2617,
+      "speaker": "Ike Sriskandarajah",
+      "en": "So basically, if you were the person who ripped tickets, you were supposed to say, enjoy your show. But some genius came up with a twist that involved referencing male genitalia of specific dimensions. I told Darren about this.",
+      "zh": "简单来说，如果你是负责检票撕票的，按规定你得说“祝您观影愉快”（enjoy your show）。但不知道哪个天才想出了一个谐音恶搞，暗指某种特定尺寸的男性生殖器。我把这事告诉了 Darren。"
+    },
+    {
+      "id": 290,
+      "start_sec": 2632,
+      "speaker": "Ike Sriskandarajah",
+      "en": "We'd mumble under our breaths, enjoy your chode.",
+      "zh": "我们会压低声音含糊地嘟囔一句：“祝您‘短粗’愉快”（enjoy your chode）。"
+    },
+    {
+      "id": 291,
+      "start_sec": 2636,
+      "speaker": "Darren Klingaman",
+      "en": "OK.",
+      "zh": "好吧。"
+    },
+    {
+      "id": 292,
+      "start_sec": 2638,
+      "speaker": "Ike Sriskandarajah",
+      "en": "I was wondering if that's still happening.",
+      "zh": "我就想问问现在还有人这么干吗。"
+    },
+    {
+      "id": 293,
+      "start_sec": 2640,
+      "speaker": "Darren Klingaman",
+      "en": "Not that I'm aware of.",
+      "zh": "据我所知是没有。"
+    },
+    {
+      "id": 294,
+      "start_sec": 2642,
+      "speaker": "Ike Sriskandarajah",
+      "en": "You've never heard somebody say, enjoy your chode?",
+      "zh": "你从来没听过有人说“enjoy your chode”？"
+    },
+    {
+      "id": 295,
+      "start_sec": 2646,
+      "speaker": "Darren Klingaman",
+      "en": "No, I have not.",
+      "zh": "没有，真没听过。"
+    },
+    {
+      "id": 296,
+      "start_sec": 2649,
+      "speaker": "Ike Sriskandarajah",
+      "en": "Do you think that joke's funny?",
+      "zh": "你觉得这个笑话好笑吗？"
+    },
+    {
+      "id": 297,
+      "start_sec": 2652,
+      "speaker": "Darren Klingaman",
+      "en": "I mean, I didn't laugh.",
+      "zh": "呃，反正我没笑。"
+    },
+    {
+      "id": 298,
+      "start_sec": 2655,
+      "speaker": "Ike Sriskandarajah",
+      "en": "I noticed that. In the early aughts, it killed, at least with the kids working at the concession stand.",
+      "zh": "我看出来了。两千年初那会儿，这梗简直笑翻全场，至少在小卖部打工的孩子们中间是这样。"
+    },
+    {
+      "id": 299,
+      "start_sec": 2662,
+      "speaker": "Darren Klingaman",
+      "en": "How many people just said, excuse me?",
+      "zh": "那有多少人会直接反问“您说什么”？"
+    },
+    {
+      "id": 300,
+      "start_sec": 2666,
+      "speaker": "Ike Sriskandarajah",
+      "en": "I think that was the most common, because we're mumbling it.",
+      "zh": "我觉得那是最常见的情况，因为我们都是含糊嘟囔过去的。"
+    },
+    {
+      "id": 301,
+      "start_sec": 2670,
+      "speaker": "Darren Klingaman",
+      "en": "You're mumbling it, right. Yeah, OK. Yeah, I mean, I think it could use some work.",
+      "zh": "你们都在小声嘟囔，对。行吧。嗯，我觉得这笑话还有待打磨。"
+    },
+    {
+      "id": 302,
+      "start_sec": 2680,
+      "speaker": "Ike Sriskandarajah",
+      "en": "So, that's a change.",
+      "zh": "看来，这也算是个变化了。"
+    },
+    {
+      "id": 303,
+      "start_sec": 2700,
+      "speaker": "Ike Sriskandarajah",
+      "en": "In 2026, chode's over, folks.",
+      "zh": "到了 2026 年，“chode”这个低俗谐音梗算是彻底过时啦，各位。"
+    },
+    {
+      "id": 304,
+      "start_sec": 2706,
+      "speaker": "Ike Sriskandarajah",
+      "en": "Another thing that I thought was so fun was volunteering to flatten boxes out back. If that sounds boring, you don't know the WrestleMania technique that my friend taught me.",
+      "zh": "另一件我觉得超好玩的事，是主动去后门踩扁纸箱。要是听起来很无聊，那你肯定不知道我朋友教我的“摔角狂热”大招。"
+    },
+    {
+      "id": 305,
+      "start_sec": 2717,
+      "speaker": "Ike Sriskandarajah",
+      "en": "Basically, you could fill up the industrial dumpster out back with unflattened boxes, pull yourself up to balance on the metal edge, and then launch yourself into the air and drop the People's Elbow on a box.",
+      "zh": "简单来说，就是把后院的工业垃圾箱塞满没拆扁的纸箱，双手撑着金属箱沿稳住身体，然后纵身一跃，对着纸箱使出一记“人民肘击”。"
+    },
+    {
+      "id": 306,
+      "start_sec": 2731,
+      "speaker": "Tom Reichilt",
+      "en": "Well, I mean, I tell you, that sounds like a very interesting workman's comp issue getting ready.",
+      "zh": "呃，我跟你说，这听起来简直就是一桩蓄势待发的工伤赔偿案啊。"
+    },
+    {
+      "id": 307,
+      "start_sec": 2735,
+      "speaker": "Ike Sriskandarajah",
+      "en": "That's area general manager Tom Reichilt, who corporate PR asked to join.",
+      "zh": "这位是区域总经理 Tom Reichilt，是公司公关部特意安排来参与采访的。"
+    },
+    {
+      "id": 308,
+      "start_sec": 2741,
+      "speaker": "Ike Sriskandarajah",
+      "en": "So many things I loved about this job are gone. We wore tuxedos to work made of this magical material that was impervious to nacho cheese stains.",
+      "zh": "当年这份工作里我喜欢的很多东西，现在都没了。我们那会儿上班要穿无尾礼服，用的是一种神奇面料，连玉米片奶酪酱都沾不上去。"
+    },
+    {
+      "id": 309,
+      "start_sec": 2751,
+      "speaker": "Ike Sriskandarajah",
+      "en": "During a tornado, we got evacuated into the manager's office, where we took an ID from the lost and found that looked enough like me to buy malt liquor exactly once. Now, kids are never let anywhere near the lost and found.",
+      "zh": "有回刮龙卷风，我们躲进经理办公室避险，趁机从失物招领处摸了张跟我有几分神似的身份证，拿去买过一次麦芽酒——也就那一次。现在的小员工根本别想靠近失物招领处半步。"
+    },
+    {
+      "id": 310,
+      "start_sec": 2767,
+      "speaker": "Ike Sriskandarajah",
+      "en": "The mini donut machine burned me, but it made delicious donuts. Back in the day, it burned area general manager Tom Reichilt too.",
+      "zh": "迷你甜甜圈机烫伤过我，但它做出来的甜甜圈实在太香了。当年，它连区域总经理 Tom Reichilt 也烫过。"
+    },
+    {
+      "id": 311,
+      "start_sec": 2775,
+      "speaker": "Tom Reichilt",
+      "en": "I probably have one here somewhere, maybe there. A little different these days.",
+      "zh": "我这儿大概还留着个疤呢，没准就在这儿。不过现在跟以前不太一样了。"
+    },
+    {
+      "id": 312,
+      "start_sec": 2781,
+      "speaker": "Ike Sriskandarajah",
+      "en": "That's gone too. But what about the big one, my favorite benefit of the job? Letting my friends in for free.",
+      "zh": "那机器也没了。不过最重头的那项福利——也是我最爱的福利——还在不在呢？就是免费放朋友进来看电影。"
+    },
+    {
+      "id": 313,
+      "start_sec": 2789,
+      "speaker": "Ike Sriskandarajah",
+      "en": "It really was the coolest thing I could think of, to be able to grant this wish to anybody. A free night at the movies, a drink, popcorn.",
+      "zh": "在我能想到的事情里，这简直酷毙了——随时能帮人实现这个愿望：免费看一晚电影，外加饮料和爆米花。"
+    },
+    {
+      "id": 314,
+      "start_sec": 2800,
+      "speaker": "Ike Sriskandarajah",
+      "en": "We were allowed to bring in one guest, but I was always happy to let in more friends through the back door near the dumpster.",
+      "zh": "按规定我们只能带一位朋友入场，但我向来乐意多放几个哥们儿从垃圾箱旁边的后门溜进来。"
+    },
+    {
+      "id": 315,
+      "start_sec": 2807,
+      "speaker": "Ike Sriskandarajah",
+      "en": "Darren says that, yes, that perk is still around. But these days, the back door is not necessary.",
+      "zh": "Darren 说，没错，这项福利现在还在。只不过如今不用走后门了。"
+    },
+    {
+      "id": 316,
+      "start_sec": 2815,
+      "speaker": "Tom Reichilt",
+      "en": "Just have them walk in the front door, come greet them over here, and we'll hook them up. I always let them all know that there's no reason to be sneaky in any way.",
+      "zh": "直接让他们从正门走进来，到这边打个招呼，我们就会安排妥当。我一直跟员工们说，完全没必要偷偷摸摸的。"
+    },
+    {
+      "id": 317,
+      "start_sec": 2823,
+      "speaker": "Tom Reichilt",
+      "en": "If you want your friends to come see a movie, tell me and I'll get them in. I mean, it's a perk.",
+      "zh": "想请朋友来看电影，跟我说一声，我来放他们进来。毕竟这就是员工福利嘛。"
+    },
+    {
+      "id": 318,
+      "start_sec": 2829,
+      "speaker": "Ike Sriskandarajah",
+      "en": "So they're allowed to bring in their friends. But calling out to an unscientific survey I did of three teens around America who work in movie theaters right now, I learned they don't want to.",
+      "zh": "也就是说，他们完全可以带朋友进来看片。但根据我做的一项并不严谨的小调查——我问了全美三个目前在电影院打工的青少年——结果发现他们根本不想带。"
+    },
+    {
+      "id": 319,
+      "start_sec": 2843,
+      "speaker": "Ike Sriskandarajah",
+      "en": "One 18-year-old in Kansas City says she prefers watching movies at home, where you can talk to your friends during the show and watch basically any movie ever made. What a waste.",
+      "zh": "堪萨斯城一位 18 岁女孩说，她更喜欢在家里看电影，放片时还能跟朋友聊天，而且想看史上哪部电影几乎都有。真是暴殄天物。"
+    },
+    {
+      "id": 320,
+      "start_sec": 2855,
+      "speaker": "Ike Sriskandarajah",
+      "en": "Darren at least understands how bringing someone in for free has the power to actually change your life.",
+      "zh": "不过 Darren 至少明白，免费带人看场电影这件事，其实真有可能改变你的人生。"
+    },
+    {
+      "id": 321,
+      "start_sec": 2861,
+      "speaker": "Darren Klingaman",
+      "en": "When I first started here, a couple months later, I met my girlfriend. I brought her to a date here after hours. That might not technically be allowed.",
+      "zh": "我刚来这儿干了没几个月，就认识了我女朋友。我带她打烊后来这儿约会。严格来说，这可能不太合规定。"
+    },
+    {
+      "id": 322,
+      "start_sec": 2871,
+      "speaker": "Ike Sriskandarajah",
+      "en": "What do you mean, after hours?",
+      "zh": "什么叫“打烊后”？"
+    },
+    {
+      "id": 323,
+      "start_sec": 2873,
+      "speaker": "Darren Klingaman",
+      "en": "Oh, everything was closed. We were closed down. I asked her if she wanted to come see a movie, so we watched Wicked.",
+      "zh": "哦，就是影院都关门了，已经停止营业了。我问她想不想来看场电影，于是我们就看了《魔法坏女巫》。"
+    },
+    {
+      "id": 324,
+      "start_sec": 2882,
+      "speaker": "Ike Sriskandarajah",
+      "en": "Whoa, you brought your girlfriend here because you had the keys to the place.",
+      "zh": "哇，你是凭着手里有影院钥匙，直接把女朋友带进来的啊。"
+    },
+    {
+      "id": 325,
+      "start_sec": 2887,
+      "speaker": "Darren Klingaman",
+      "en": "I did. I had the keys. She wasn't actually my girlfriend quite yet. Good first date.",
+      "zh": "对，我有钥匙。不过那会儿她还算不上我女朋友呢。很棒的第一次约会。"
+    },
+    {
+      "id": 326,
+      "start_sec": 2894,
+      "speaker": "Darren Klingaman",
+      "en": "I knew Wicked was one of her favorite musicals. So it was like, perfect thing. Wicked just came out. Why don't we watch it? Private showing in the biggest screen we can.",
+      "zh": "我知道《魔法坏女巫》是她最喜欢的音乐剧之一，所以简直天赐良机。电影刚上映，不如一起来看？用最大号银幕来一场私人专场。"
+    },
+    {
+      "id": 327,
+      "start_sec": 2904,
+      "speaker": "Ike Sriskandarajah",
+      "en": "Darren ushered her into an empty theater, sat her down in the best seat in the house. Popcorn, Diet Coke in the cup holder. Brought a sweater because theaters get chilly.",
+      "zh": "Darren 把她领进空无一人的放映厅，请她坐在全场最佳座位上。杯托里插着健怡可乐，还备好了爆米花，甚至带了件毛衣——因为影厅里冷气很足。"
+    },
+    {
+      "id": 328,
+      "start_sec": 2915,
+      "speaker": "Ike Sriskandarajah",
+      "en": "And then he ran up to the projectionist booth, fast forwarded through the ads, and ran back down to sit with her just in time for the show to start.",
+      "zh": "接着他一路跑上放映室，快进跳过所有贴片广告，又跑回厅里，卡在正片开场前刚好坐到她身边。"
+    },
+    {
+      "id": 329,
+      "start_sec": 2924,
+      "speaker": "Ike Sriskandarajah",
+      "en": "That was two years ago. Now they're engaged. What other job would let you pull off a first date like that?",
+      "zh": "那是两年前的事了，如今他俩已经订婚了。还有哪份工作能让你整出这么浪漫的初次约会？"
+    },
+    {
+      "id": 330,
+      "start_sec": 2932,
+      "speaker": "Darren Klingaman",
+      "en": "Honestly, I mean, it was so memorable. We still think about it.",
+      "zh": "说实话，那次真的太难忘了。我们到现在还经常回味。"
+    },
+    {
+      "id": 331,
+      "start_sec": 2938,
+      "speaker": "Ike Sriskandarajah",
+      "en": "Now, tell me if I'm overstating it, but would you guys be getting married if it wasn't for that?",
+      "zh": "这么说可能有点夸张，但你告诉我，要不是那场约会，你们俩现在能走到结婚这一步吗？"
+    },
+    {
+      "id": 332,
+      "start_sec": 2945,
+      "speaker": "Darren Klingaman",
+      "en": "I would hope so, but I don't know. It's a good question because of how big of a thing it was and how meaningful and unique it was that it definitely bumped me up some points.",
+      "zh": "我当然希望如此，但真说不准。这个问题问得好，因为那晚真的意义非凡又独一无二，绝对给我加了不少分。"
+    },
+    {
+      "id": 333,
+      "start_sec": 2961,
+      "speaker": "Darren Klingaman",
+      "en": "So hopefully, but definitely not as easily.",
+      "zh": "所以但愿也会成吧，但肯定没这么顺理成章。"
+    },
+    {
+      "id": 334,
+      "start_sec": 2966,
+      "speaker": "Ike Sriskandarajah",
+      "en": "It's really similar to the thing that happened to me.",
+      "zh": "这跟我当年遇到的事简直如出一辙。"
+    },
+    {
+      "id": 335,
+      "start_sec": 2969,
+      "speaker": "Darren Klingaman",
+      "en": "Okay.",
+      "zh": "哦？"
+    },
+    {
+      "id": 336,
+      "start_sec": 2971,
+      "speaker": "Ike Sriskandarajah",
+      "en": "When I was here-- I told Darren that I also once tried to impress a girl while on the job. When I met her, I filled up a discarded plastic bag with popcorn and slipped it to her. Another time, I let her and her friend in the back.",
+      "zh": "我在这儿干的时候——我跟 Darren 讲，我当年上班时也试过讨好一个女孩。刚认识她那会儿，我用个废弃塑料袋装满爆米花偷偷塞给她。还有一次，我从后门把她和她朋友放了进来。"
+    },
+    {
+      "id": 337,
+      "start_sec": 2986,
+      "speaker": "Ike Sriskandarajah",
+      "en": "I'm no longer wearing a tuxedo to work, but that girl I snuck in, we're married and have two children. The job today definitely seems less fun, but there's still a little movie magic left.",
+      "zh": "如今我上班早就不用穿无尾礼服了，但当年那个被我偷偷放进来的女孩，现在已经成了我太太，我们还有了两个孩子。现在的影院工作确实没以前那么好玩了，但大银幕的魔法，多少还留了一点。"
+    },
+    {
+      "id": 338,
+      "start_sec": 3021,
+      "speaker": "Ira Glass",
+      "en": "Ike Sriskandarajah. He's one of the producers of our show. By the way, none of the three teenagers I talked to knew what chode meant, but some of them thought it was funny anyway.",
+      "zh": "以上就是 Ike Sriskandarajah 带来的报道，他是我们节目的制作人之一。顺便一提，我问过的那三个青少年里，没一个知道 chode 是什么意思，但有几个还是觉得挺好笑的。"
+    },
+    {
+      "id": 339,
+      "start_sec": 3036,
+      "speaker": "Ira Glass",
+      "en": "Act Three: Mama, Can You Hair Me? Myra Flynn is in her 40s, and the person across the divide in this story is six. It's her daughter.",
+      "zh": "Act Three：Mama, Can You Hair Me?。Myra Flynn 四十多岁了，而这个故事里和她站在“代沟”另一头的人只有六岁——是她的女儿。"
+    },
+    {
+      "id": 340,
+      "start_sec": 3046,
+      "speaker": "Ira Glass",
+      "en": "The two of them have been in a bit of a standoff when it comes to getting ready for school in the morning. It was going so badly, Myra started recording these morning showdowns, trying to figure out if there was some way to fix things. Here she is.",
+      "zh": "每天早上准备去上学时，母女俩都会陷入一场僵持。情况糟到 Myra 开始把这些清晨“对峙”录下来，想看看有没有什么办法能化解。下面来听她的故事。"
+    },
+    {
+      "id": 341,
+      "start_sec": 3059,
+      "speaker": "Myra Flynn",
+      "en": "My mornings used to look so different. In my younger days as a touring musician, I'd greet the sunrise on my way home from a gig in some random city and face plant into my bed.",
+      "zh": "我以前的早晨完全不是这样的。年轻时我是一名巡演音乐人，经常在某个不知名的城市演出完，迎着日出回家，然后一头栽倒在床上。"
+    },
+    {
+      "id": 342,
+      "start_sec": 3070,
+      "speaker": "Myra Flynn",
+      "en": "But now, I start my day at 7:10 AM, engaged in a battle of wills with my daughter Avalon over her hair.",
+      "zh": "可现在，我每天早上七点十分准时开启新的一天——为了给女儿 Avalon 梳头，跟她展开一场意志力的拉锯战。"
+    },
+    {
+      "id": 343,
+      "start_sec": 3077,
+      "speaker": "Myra Flynn",
+      "en": "Hey, baby. It's time to do your hair. No, we're going to do it because you got to be at school in 10 minutes.",
+      "zh": "嘿，宝贝，该梳头了。不行，必须得梳，你十分钟后就得赶到学校了。"
+    },
+    {
+      "id": 344,
+      "start_sec": 3085,
+      "speaker": "Avalon",
+      "en": "But Mommy.",
+      "zh": "可是妈妈……"
+    },
+    {
+      "id": 345,
+      "start_sec": 3087,
+      "speaker": "Myra Flynn",
+      "en": "When I was a kid, my mom and I had a similar hair routine. She would sit me down at the breakfast table every morning, grab a cup of water and a hard bristle brush, and rake through my curls.",
+      "zh": "我小时候，我妈和我也天天上演差不多的梳头戏码。每天早上她都会按着我坐在餐桌前，抓起一杯水和一把硬毛刷，狠狠地梳过我的卷发。"
+    },
+    {
+      "id": 346,
+      "start_sec": 3100,
+      "speaker": "Myra Flynn",
+      "en": "It hurt like hell, but there was no point in complaining because my mom made it clear we didn't have time for any of that. My hair had to get done.",
+      "zh": "那叫一个疼啊，但抱怨也没用，因为我妈把话挑得很明白：我们可没时间搞这些有的没的，这头发必须得梳。"
+    },
+    {
+      "id": 347,
+      "start_sec": 3108,
+      "speaker": "Myra Flynn",
+      "en": "That's just how it was. And that's just how it is for Avalon. Black hair is Black hair.",
+      "zh": "以前就是这么过来的，现在 Avalon 也逃不掉。黑人的头发就是这样。"
+    },
+    {
+      "id": 348,
+      "start_sec": 3114,
+      "speaker": "Myra Flynn",
+      "en": "And look, I'm not doing box braids or knotless styles, or writing her name in the side of her head with cornrows. I'm just trying to comb through it and put it in a ponytail so that no one looks at us crazy.",
+      "zh": "你别误会，我又不是要给她编盒式脏辫、无结辫，或者用玉米辫在她脑袋侧面编出她的名字。我只是想把头发梳通，扎个马尾，好让别人别用看疯子一样的眼神盯着我们。"
+    },
+    {
+      "id": 349,
+      "start_sec": 3125,
+      "speaker": "Myra Flynn",
+      "en": "So every morning, I take her hair out of whatever shape it's landed in after a night of sleep without a bonnet. I still haven't found one that stays on her head.",
+      "zh": "所以每天早上，我都得把她没戴护发睡帽折腾了一宿、压成各种奇形怪状的头发理顺。我到现在还没找到一顶能老老实实待在她头上的睡帽。"
+    },
+    {
+      "id": 350,
+      "start_sec": 3134,
+      "speaker": "Myra Flynn",
+      "en": "Then I grab three different brushes, a big jar of leave-in conditioner, a spray bottle full of water, and get to work, which Avalon, who's six, hates.",
+      "zh": "接着我抄起三把不同的梳子、一大罐免洗护发素、一瓶装满水的喷雾，正式开工——而六岁的 Avalon 对此深恶痛绝。"
+    },
+    {
+      "id": 351,
+      "start_sec": 3143,
+      "speaker": "Avalon",
+      "en": "Ow!",
+      "zh": "哎哟！"
+    },
+    {
+      "id": 352,
+      "start_sec": 3145,
+      "speaker": "Myra Flynn",
+      "en": "Stop, baby. Avi, it's not that bad. Stop, stop, stop.",
+      "zh": "别动了，宝贝。Avi，真没那么疼。停下，停下，停下。"
+    },
+    {
+      "id": 353,
+      "start_sec": 3151,
+      "speaker": "Myra Flynn",
+      "en": "No, no. I can't use that brush. I have to use this brush.",
+      "zh": "不行，不行，我不能用那把梳子，我必须得用这把。"
+    },
+    {
+      "id": 354,
+      "start_sec": 3156,
+      "speaker": "Avalon",
+      "en": "I just wanted to hold it.",
+      "zh": "我只是想拿着它嘛。"
+    },
+    {
+      "id": 355,
+      "start_sec": 3158,
+      "speaker": "Myra Flynn",
+      "en": "No, baby. You need to just-- please, can you just look forward, and bend your neck for me. Bend your neck down.",
+      "zh": "不行，宝贝，你得……求你了，能就看着前面吗，把脖子低下来，低下来一点。"
+    },
+    {
+      "id": 356,
+      "start_sec": 3167,
+      "speaker": "Myra Flynn",
+      "en": "For the record, holding this brush is a stalling tactic for Avalon. She wants to hold it so I can't use it.",
+      "zh": "我得说明一下，要拿着这把梳子是 Avalon 的拖延战术。她把它攥在手里，我就没法用了。"
+    },
+    {
+      "id": 357,
+      "start_sec": 3173,
+      "speaker": "Myra Flynn",
+      "en": "And I see straight through you, Avalon Mathis Wills. I know my daughter.",
+      "zh": "Avalon Mathis Wills，你这点小心思我一眼就看穿了。我太了解我女儿了。"
+    },
+    {
+      "id": 358,
+      "start_sec": 3178,
+      "speaker": "Myra Flynn",
+      "en": "Avalon, by all intents and purposes, seems impervious to pain. I've literally watched her face plant from the top of monkey bars onto the grass, only to bounce up and try it again.",
+      "zh": "不管从哪方面看，Avalon 简直是个“痛觉绝缘体”。我亲眼见过她从攀爬架顶上直接脸朝下摔进草地里，结果一骨碌爬起来接着再试一次。"
+    },
+    {
+      "id": 359,
+      "start_sec": 3189,
+      "speaker": "Myra Flynn",
+      "en": "This is a kid who doesn't want to wait for her teeth to fall out naturally. As soon as they're loose, she's trying to pull them out of her head.",
+      "zh": "这孩子连乳牙自然脱落都等不及，只要一松动，她就想亲手把牙从嘴里拔下来。"
+    },
+    {
+      "id": 360,
+      "start_sec": 3197,
+      "speaker": "Myra Flynn",
+      "en": "And she won't even let the tooth fairy take her teeth. She wants to make jewelry out of them. She's perfectly weird and brave in all the best ways.",
+      "zh": "而且她还不让牙仙子把牙齿拿走，非要用自己的牙做成首饰。她在各种最美好的方面，既古灵精怪又勇敢无畏。"
+    },
+    {
+      "id": 361,
+      "start_sec": 3207,
+      "speaker": "Myra Flynn",
+      "en": "So for her to shake and cry only with me is devastating. But also-- and I'm not proud of this-- a big part of me is like, girl, nobody's dying here. Suck it up.",
+      "zh": "所以一看到她只在我面前浑身发抖、哭个不停，我心都要碎了。但同时——说实话我并不以此为荣——我心里又有很大一部分在想：闺女，这又不是要命的事，忍一忍就过去了。"
+    },
+    {
+      "id": 362,
+      "start_sec": 3221,
+      "speaker": "Myra Flynn",
+      "en": "Baby, I'm sorry. I have to get it.",
+      "zh": "宝贝，对不起，但这块我必须得梳开。"
+    },
+    {
+      "id": 363,
+      "start_sec": 3225,
+      "speaker": "Avalon",
+      "en": "You already did.",
+      "zh": "你已经梳过了！"
+    },
+    {
+      "id": 364,
+      "start_sec": 3228,
+      "speaker": "Myra Flynn",
+      "en": "I didn't.",
+      "zh": "还没有呢。"
+    },
+    {
+      "id": 365,
+      "start_sec": 3234,
+      "speaker": "Avalon",
+      "en": "Will it hurt always?",
+      "zh": "它以后一直都会这么疼吗？"
+    },
+    {
+      "id": 366,
+      "start_sec": 3237,
+      "speaker": "Myra Flynn",
+      "en": "Probably, baby. Sometimes the things that we need are not comfortable.",
+      "zh": "大概吧，宝贝。有时候，我们真正需要的东西，就是没那么舒服。"
+    },
+    {
+      "id": 367,
+      "start_sec": 3248,
+      "speaker": "Myra Flynn",
+      "en": "Hold up. Did I just actually say that? I'm not even sure I believe it.",
+      "zh": "等一下，刚才那话真的是我说的吗？我自己都不确定信不信这一套。"
+    },
+    {
+      "id": 368,
+      "start_sec": 3254,
+      "speaker": "Myra Flynn",
+      "en": "You know that moment when you open your mouth to say something and out comes your mother? This is one of the few times I heard that in my life, and it really stuck with me.",
+      "zh": "你懂那种感觉吧——刚一张嘴想说点什么，结果脱口而出的全是你妈的话？这辈子我就撞见过这么几回，而且那句话一直在我脑子里挥之不去。"
+    },
+    {
+      "id": 369,
+      "start_sec": 3264,
+      "speaker": "Myra Flynn",
+      "en": "Myra's mom was the Black female dean of a military college. Wait—My mom was the Black female dean of a military college. She taught me that sometimes in life, there are things like hair that you just have to tough out.",
+      "zh": "我妈曾是一所军事学院的黑人女性院长。她从小就教导我，人生在世，有些事——比如梳头——就是得咬牙硬扛过去。"
+    },
+    {
+      "id": 370,
+      "start_sec": 3273,
+      "speaker": "Myra Flynn",
+      "en": "In so much of my parenting, I've tried to be a little different, do it my way. I don't know if I totally believe that Black kids should just have to tough it out when they're in pain.",
+      "zh": "在育儿这件事上，我大多数时候都想做点不一样的尝试，按自己的方式来。我不确定自己是否真的认同，黑人小孩在感到疼痛时就非得硬扛不可。"
+    },
+    {
+      "id": 371,
+      "start_sec": 3284,
+      "speaker": "Myra Flynn",
+      "en": "I also don't want to be a parent that teaches their Black kid that everything in life should feel like a lukewarm bath.",
+      "zh": "但与此同时，我也不想做一个把黑人孩子教成“生活里的一切都该像温水澡一样舒坦”的家长。"
+    },
+    {
+      "id": 372,
+      "start_sec": 3290,
+      "speaker": "Myra Flynn",
+      "en": "When it comes to Avalon's hair, I feel so conflicted, like my two parenting styles are at war.",
+      "zh": "一碰到 Avalon 的头发，我整个人就特别撕裂，仿佛我体内的两种育儿观念在打架。"
+    },
+    {
+      "id": 373,
+      "start_sec": 3294,
+      "speaker": "Myra Flynn",
+      "en": "And when I heard myself say, sometimes the things we need are not comfortable, I felt like I had to talk to my mom about it. I needed her to back me up on this. So I called her.",
+      "zh": "当我听到自己说出“有时候我们需要的东西就是没那么舒服”时，我觉得必须跟老妈好好聊聊这事。我需要她给我撑腰，于是我给她打了个电话。"
+    },
+    {
+      "id": 374,
+      "start_sec": 3300,
+      "speaker": "Myra Flynn",
+      "en": "Miss Martha Mathis herself. I walked her through what had been going on with Avalon, the battle with her hair every day right before school.",
+      "zh": "也就是 Martha Mathis 女士本人。我把 Avalon 这阵子的情况跟她讲了一遍，说每天上学前为了梳头都要展开一番拉锯战。"
+    },
+    {
+      "id": 375,
+      "start_sec": 3309,
+      "speaker": "Myra Flynn",
+      "en": "And I asked her, this is just the way it is, right? To which she said—",
+      "zh": "我还问她，本来就是这样的，对吧？结果她说——"
+    },
+    {
+      "id": 376,
+      "start_sec": 3313,
+      "speaker": "Martha Mathis",
+      "en": "No, I think I've found that's what you want to avoid, because at some point, if you're rushing and you're trying to do our hair, then it's going to hurt.",
+      "zh": "不，我觉得这恰恰是要避免的，因为到了一定时候，如果你又赶时间又要打理咱们这种头发，那肯定会疼的。"
+    },
+    {
+      "id": 377,
+      "start_sec": 3324,
+      "speaker": "Martha Mathis",
+      "en": "If it's going to sit up there for days without anybody doing anything, then you're going to get what you get.",
+      "zh": "要是放着好几天没人管，那最后打结成什么样就只能受着了。"
+    },
+    {
+      "id": 378,
+      "start_sec": 3332,
+      "speaker": "Myra Flynn",
+      "en": "My mom saying pain was something that you should or even could avoid was wild to me. She did my hair up so tightly I got migraines at school.",
+      "zh": "听我妈说这种疼是“应该”甚至“可以”避免的，我简直不敢相信。她以前帮我扎头发扯得太紧，害我在学校都犯偏头痛。"
+    },
+    {
+      "id": 379,
+      "start_sec": 3341,
+      "speaker": "Myra Flynn",
+      "en": "Mama, do you remember one time when you were doing my hair, and you were doing it and doing it, and I was like, ow, ow! And I was eating breakfast at the breakfast table, and then I threw up?",
+      "zh": "妈，你记不记得有一次你给我梳头，扯啊扯啊，我一直在那儿喊“好痛好痛”！当时我还在餐桌旁吃早饭，结果直接吐了出来？"
+    },
+    {
+      "id": 380,
+      "start_sec": 3354,
+      "speaker": "Martha Mathis",
+      "en": "No.",
+      "zh": "不记得。"
+    },
+    {
+      "id": 381,
+      "start_sec": 3355,
+      "speaker": "Myra Flynn",
+      "en": "You don't remember that?",
+      "zh": "你不记得这事了？"
+    },
+    {
+      "id": 382,
+      "start_sec": 3357,
+      "speaker": "Martha Mathis",
+      "en": "I don't, but that doesn't mean it didn't happen. It just means I don't remember it.",
+      "zh": "是不记得了，但这不代表没发生过，只是我没印象了。"
+    },
+    {
+      "id": 383,
+      "start_sec": 3362,
+      "speaker": "Myra Flynn",
+      "en": "Yeah.",
+      "zh": "嗯。"
+    },
+    {
+      "id": 384,
+      "start_sec": 3362,
+      "speaker": "Martha Mathis",
+      "en": "Then what did we do?",
+      "zh": "那后来我们怎么弄的？"
+    },
+    {
+      "id": 385,
+      "start_sec": 3364,
+      "speaker": "Myra Flynn",
+      "en": "Oh, you went and grabbed the trash can, just in case I had to again. But yeah, I just remember it hurting a lot.",
+      "zh": "哦，你去把垃圾桶拎了过来，以防我待会儿还要吐。不过说真的，我就记得当时特别疼。"
+    },
+    {
+      "id": 386,
+      "start_sec": 3376,
+      "speaker": "Martha Mathis",
+      "en": "Oh, yeah.",
+      "zh": "哦，是啊。"
+    },
+    {
+      "id": 387,
+      "start_sec": 3378,
+      "speaker": "Myra Flynn",
+      "en": "My mom once described my parenting style as permissive. Sometimes I feel like I have to be firmer when she's around, so she'll be proud of me, or something like that.",
+      "zh": "我妈以前形容我的育儿方式太纵容了。有时候她在旁边，我就觉得自己得严厉点，好让她觉得我做得不错，或者诸如此类的。"
+    },
+    {
+      "id": 388,
+      "start_sec": 3390,
+      "speaker": "Myra Flynn",
+      "en": "So I couldn't quite wrap my head around what I was hearing.",
+      "zh": "所以听到她这么说，我一时有点转不过弯来。"
+    },
+    {
+      "id": 389,
+      "start_sec": 3394,
+      "speaker": "Myra Flynn",
+      "en": "I'm kind of surprised to hear you say that, no, it doesn't have to hurt. I feel like you're a tough cookie, Mama.",
+      "zh": "听到你说“不，没必要弄得这么疼”，我其实挺惊讶的。妈，我觉得你一直是个很硬核的人。"
+    },
+    {
+      "id": 390,
+      "start_sec": 3403,
+      "speaker": "Martha Mathis",
+      "en": "I am.",
+      "zh": "我是。"
+    },
+    {
+      "id": 391,
+      "start_sec": 3404,
+      "speaker": "Myra Flynn",
+      "en": "Yeah. And I feel like you kind of raised me to be one. And I can feel that lesson starting as early as my hair, right? Just as I can feel like I'm doing that with Avalon.",
+      "zh": "对啊。我觉得你也把我培养成了这样的人。而且我能感觉到这种教育从你给我梳头时就开始了，对吧？就像我现在能感觉到自己也在对 Avalon 这么做一样。"
+    },
+    {
+      "id": 392,
+      "start_sec": 3415,
+      "speaker": "Myra Flynn",
+      "en": "Do you think that I should be making her tough for the world? Like the way I'm talking about hair is kind of a gateway into, like, toughen up. Do you think that—",
+      "zh": "你觉得我应该磨炼她，让她坚强起来去面对这个世界吗？就像我把梳头当成一种“给我坚强点”的入门课。你觉得——"
+    },
+    {
+      "id": 393,
+      "start_sec": 3424,
+      "speaker": "Martha Mathis",
+      "en": "No. I wouldn't use hair as a gateway to toughen up because it has too many other racist and sexist implications.",
+      "zh": "不。我不会拿头发当成磨炼意志的途径，因为这背后牵扯了太多种族主义和性别歧视的意味。"
+    },
+    {
+      "id": 394,
+      "start_sec": 3434,
+      "speaker": "Myra Flynn",
+      "en": "Did you want me to toughen up in those moments when I was crying and like, ouch, this hurts?",
+      "zh": "那以前我一边哭一边喊“哎哟好疼”的时候，你难道不是想让我忍着点、坚强点吗？"
+    },
+    {
+      "id": 395,
+      "start_sec": 3440,
+      "speaker": "Martha Mathis",
+      "en": "No, no. It hurt. No. Why would you—no.",
+      "zh": "不是，不是。那是真疼啊。怎么会呢——不是的。"
+    },
+    {
+      "id": 396,
+      "start_sec": 3446,
+      "speaker": "Myra Flynn",
+      "en": "You didn't want me to toughen up and just be like, we got to get used to this because we're on a schedule, we got places to go?",
+      "zh": "你不是想让我坚强点，觉得“咱们得习惯，因为时间不等人，还得赶着出门”吗？"
+    },
+    {
+      "id": 397,
+      "start_sec": 3452,
+      "speaker": "Martha Mathis",
+      "en": "Well, it was going to happen whether you were tough or not. And at six—I'll use Avalon's age—she's as tough as she's going to be right now. And she can't be any tougher.",
+      "zh": "哎呀，不管你坚不坚强，这头都得梳完。而且六岁——我就拿 Avalon 的年纪来说吧——她现在已经坚强到头了，不可能再比这更坚强了。"
+    },
+    {
+      "id": 398,
+      "start_sec": 3467,
+      "speaker": "Martha Mathis",
+      "en": "I think she's the toughest little girl I know. So no, I would not have equated doing your hair with tough or not. I always felt bad that for those 10, 15, how many ever minutes it was, that that's how you were starting your day.",
+      "zh": "她已经是我见过最坚强的小姑娘了。所以不会，我绝不会把梳头跟坚不坚强画等号。每次想到那十来十五分钟——不管当时花了多久——你每天的一早都要这么开头，我心里其实一直很过意不去。"
+    },
+    {
+      "id": 399,
+      "start_sec": 3487,
+      "speaker": "Myra Flynn",
+      "en": "I didn't know that she'd had any feelings about our mornings. My mother told me it was the same for her when she was young.",
+      "zh": "我完全不知道她对我们当年每天早上的梳头还有过这些感受。我妈告诉我，她小时候也是一模一样的。"
+    },
+    {
+      "id": 400,
+      "start_sec": 3494,
+      "speaker": "Myra Flynn",
+      "en": "She sat between her mother's knees, and out came the hot combs, the hair grease, the brushes, the pain, which she likes to remind me was far worse than mine, as I remind my daughter, and we copy and paste.",
+      "zh": "她坐在我外婆两膝之间，热烫梳、发油、硬毛刷还有疼痛轮番上阵——她总喜欢提醒我她那会儿受的罪比我惨多了，就像我也会这样提醒我女儿，于是我们把这套模式原封不动地复制粘贴了下来。"
+    },
+    {
+      "id": 401,
+      "start_sec": 3507,
+      "speaker": "Myra Flynn",
+      "en": "But instead of giving me the validation I wanted and letting me know that the way she'd done my hair is really the only way, my mom gave me some advice I really wasn't looking for.",
+      "zh": "但我本想从她那儿得到认同，想听她说当年她给我梳头的方式确实是唯一办法，结果我妈却给了我一个我压根没想到的建议。"
+    },
+    {
+      "id": 402,
+      "start_sec": 3518,
+      "speaker": "Martha Mathis",
+      "en": "Give her some of her own hair.",
+      "zh": "分一部分头发让她自己管。"
+    },
+    {
+      "id": 403,
+      "start_sec": 3520,
+      "speaker": "Myra Flynn",
+      "en": "Oh, to take care of? Yes, I've tried this. We've tried this, yes.",
+      "zh": "哦，让她自己打理吗？嗯，我试过，我们试过的。"
+    },
+    {
+      "id": 404,
+      "start_sec": 3525,
+      "speaker": "Martha Mathis",
+      "en": "Oh, you have?",
+      "zh": "哦，你们试过啦？"
+    },
+    {
+      "id": 405,
+      "start_sec": 3526,
+      "speaker": "Myra Flynn",
+      "en": "Oh, yeah. We've tried—it's do-your-own-hair day.",
+      "zh": "对啊，我们搞过什么“自己梳头日”。"
+    },
+    {
+      "id": 406,
+      "start_sec": 3530,
+      "speaker": "Myra Flynn",
+      "en": "Do-your-own-hair day in my house means we give Avalon a brush and some bows, and 15 minutes later, absolutely nothing has happened. But it turned out that wasn't what my mother was suggesting.",
+      "zh": "在我们家，所谓“自己梳头日”，就是给 Avalon 一把梳子和几个蝴蝶结，结果十五分钟过去，头发一根都没动。不过后来我才明白，我妈说的并不是这个意思。"
+    },
+    {
+      "id": 407,
+      "start_sec": 3543,
+      "speaker": "Martha Mathis",
+      "en": "No, I mean, have her do her own kitchen.",
+      "zh": "不，我是说，让她自己弄后颈发际线那块碎发。"
+    },
+    {
+      "id": 408,
+      "start_sec": 3546,
+      "speaker": "Myra Flynn",
+      "en": "Well.",
+      "zh": "这个嘛……"
+    },
+    {
+      "id": 409,
+      "start_sec": 3547,
+      "speaker": "Martha Mathis",
+      "en": "She'll be gentle with herself.",
+      "zh": "她对自己下手肯定会轻一点。"
+    },
+    {
+      "id": 410,
+      "start_sec": 3549,
+      "speaker": "Myra Flynn",
+      "en": "If she does her own hair at this age, Mama, she's avoiding her kitchen altogether.",
+      "zh": "妈，她这么点大要是自己梳头，肯定直接绕开后颈那块不管了。"
+    },
+    {
+      "id": 411,
+      "start_sec": 3555,
+      "speaker": "Martha Mathis",
+      "en": "Okay. So it looks like, I don't know, a rat's nest. Nobody's going to see it.",
+      "zh": "行啊，就算乱得像个鸡窝又怎样？反正后脑勺下面别人也看不见。"
+    },
+    {
+      "id": 412,
+      "start_sec": 3562,
+      "speaker": "Myra Flynn",
+      "en": "Yeah.",
+      "zh": "也是。"
+    },
+    {
+      "id": 413,
+      "start_sec": 3563,
+      "speaker": "Martha Mathis",
+      "en": "And if you remind her, now get in there, because you don't want me in there. When you remind her of that, it's going to be your hand or mine.",
+      "zh": "而且你可以提醒她：“自己伸手去把那儿理顺了，不然就得妈妈动手咯。”你这么一提醒，她就知道要么自己动手，要么挨你的手。"
+    },
+    {
+      "id": 414,
+      "start_sec": 3573,
+      "speaker": "Myra Flynn",
+      "en": "Yeah.",
+      "zh": "嗯。"
+    },
+    {
+      "id": 415,
+      "start_sec": 3573,
+      "speaker": "Martha Mathis",
+      "en": "I think if you give her something that she owns, and if it's just this little bit back there, my goodness, let her have it. What would happen if you parted that off, though, seriously?",
+      "zh": "我觉得，哪怕只是后脑勺下面那么一小撮，只要分给她让她自己做主，天哪，就随她去吧。说真的，你要是真把那一块分出来归她管，能出什么大事呢？"
+    },
+    {
+      "id": 416,
+      "start_sec": 3585,
+      "speaker": "Myra Flynn",
+      "en": "I'm hearing you. I just don't—I'm like, when you're saying, why don't you try this, why don't you try giving Avalon a little section for herself, why didn't you try that with me?",
+      "zh": "我听明白了。只是我忍不住想——听你现在说“怎么不试试分一小撮头发给 Avalon 自己弄”，那当年你怎么没对我试过这招呢？"
+    },
+    {
+      "id": 417,
+      "start_sec": 3595,
+      "speaker": "Martha Mathis",
+      "en": "Because no one told me that. That's how—",
+      "zh": "因为当年没人教过我这些呀。这些观念就是这样——"
+    },
+    {
+      "id": 418,
+      "start_sec": 3600,
+      "speaker": "Martha Mathis",
+      "en": "messages are passed on. The women my age, they were not brought up to even have these kind of conversations. And I don't even know if I had them in my brain, I mean, back then.",
+      "zh": "代代相传的。我这个年纪的女人，从小根本没人教过我们去聊这种事。甚至当年我脑子里压根就没想过这些。"
+    },
+    {
+      "id": 419,
+      "start_sec": 3614,
+      "speaker": "Martha Mathis",
+      "en": "But I'm saying for you, I would think you do have options. When you know better, you do better.",
+      "zh": "但我的意思是，放到你这代，我觉得你是有的选的。懂得多了，自然就能做得更好。"
+    },
+    {
+      "id": 420,
+      "start_sec": 3623,
+      "speaker": "Myra Flynn",
+      "en": "The next time I did Avalon's hair, I let her do some of it.",
+      "zh": "下次再给 Avalon 梳头时，我让她自己动手弄了一小块。"
+    },
+    {
+      "id": 421,
+      "start_sec": 3628,
+      "speaker": "Myra Flynn",
+      "en": "You ready to get the back, just a little bit right here? Good job. Back here.",
+      "zh": "准备好自己梳后面这儿了吗，就这儿一点点？真棒，就这后面。"
+    },
+    {
+      "id": 422,
+      "start_sec": 3639,
+      "speaker": "Myra Flynn",
+      "en": "Look at that! Why are you smiling? Whenever Mama's doing it, you're crying.",
+      "zh": "瞧你这样！怎么还笑起来了？每次妈妈给你梳头的时候，你可都是哭唧唧的。"
+    },
+    {
+      "id": 423,
+      "start_sec": 3648,
+      "speaker": "Myra Flynn",
+      "en": "What's it feel like to do your own hair?",
+      "zh": "自己给自己梳头是什么感觉呀？"
+    },
+    {
+      "id": 424,
+      "start_sec": 3652,
+      "speaker": "Avalon",
+      "en": "Soft.",
+      "zh": "软软的。"
+    },
+    {
+      "id": 425,
+      "start_sec": 3654,
+      "speaker": "Myra Flynn",
+      "en": "It feels soft, huh?",
+      "zh": "感觉软软的，是吗？"
+    },
+    {
+      "id": 426,
+      "start_sec": 3657,
+      "speaker": "Avalon",
+      "en": "It doesn't feel hard like a rock. But when Mama does it, it feels hard like a rock.",
+      "zh": "摸起来不像石头那么硬。可是妈妈给我梳的时候，就像石头一样硬邦邦的。"
+    },
+    {
+      "id": 427,
+      "start_sec": 3663,
+      "speaker": "Myra Flynn",
+      "en": "Your hair feels hard like a rock, or my brushing feels hard like a rock?",
+      "zh": "是你的头发像石头一样硬，还是妈妈梳得太重像石头一样硬？"
+    },
+    {
+      "id": 428,
+      "start_sec": 3668,
+      "speaker": "Avalon",
+      "en": "The brushing feels hard like a rock.",
+      "zh": "是梳得像石头一样硬。"
+    },
+    {
+      "id": 429,
+      "start_sec": 3671,
+      "speaker": "Myra Flynn",
+      "en": "Does this part hurt?",
+      "zh": "这块儿疼不疼？"
+    },
+    {
+      "id": 430,
+      "start_sec": 3673,
+      "speaker": "Avalon",
+      "en": "No.",
+      "zh": "不疼。"
+    },
+    {
+      "id": 431,
+      "start_sec": 3675,
+      "speaker": "Myra Flynn",
+      "en": "Oh, good. I don't think I've ever seen your kitchen look so good. Should we show Papa?",
+      "zh": "太好了。我觉得妈妈从来没见过你后颈这块儿的头发梳得这么好。要不要给爸爸看看？"
+    },
+    {
+      "id": 432,
+      "start_sec": 3683,
+      "speaker": "Avalon",
+      "en": "Mm-hmm.",
+      "zh": "嗯！"
+    },
+    {
+      "id": 433,
+      "start_sec": 3684,
+      "speaker": "Myra Flynn",
+      "en": "Papa Bear! Do you want to tell him? Want to tell him?",
+      "zh": "熊爸爸！你要跟他说吗？想不想告诉他？"
+    },
+    {
+      "id": 434,
+      "start_sec": 3690,
+      "speaker": "Avalon",
+      "en": "Look at my kitchen.",
+      "zh": "看我后颈这块儿的头发。"
+    },
+    {
+      "id": 435,
+      "start_sec": 3692,
+      "speaker": "Phil",
+      "en": "Wow.",
+      "zh": "哇哦。"
+    },
+    {
+      "id": 436,
+      "start_sec": 3694,
+      "speaker": "Myra Flynn",
+      "en": "What about your kitchen?",
+      "zh": "你后颈这块儿怎么啦？"
+    },
+    {
+      "id": 437,
+      "start_sec": 3697,
+      "speaker": "Avalon",
+      "en": "I did it.",
+      "zh": "我自己弄的。"
+    },
+    {
+      "id": 438,
+      "start_sec": 3699,
+      "speaker": "Phil",
+      "en": "You did it?",
+      "zh": "你自己弄的呀？"
+    },
+    {
+      "id": 439,
+      "start_sec": 3700,
+      "speaker": "Avalon",
+      "en": "Yes.",
+      "zh": "对呀。"
+    },
+    {
+      "id": 440,
+      "start_sec": 3701,
+      "speaker": "Phil",
+      "en": "Good job, baby.",
+      "zh": "真棒，宝贝。"
+    },
+    {
+      "id": 441,
+      "start_sec": 3705,
+      "speaker": "Myra Flynn",
+      "en": "As a parent, you're always looking for your failures. There are so many ways to fall short.",
+      "zh": "为人父母，总是忍不住去盯自己做得不够好的地方。毕竟能掉链子的地方实在太多了。"
+    },
+    {
+      "id": 442,
+      "start_sec": 3711,
+      "speaker": "Myra Flynn",
+      "en": "But every once in a while, if you're lucky, the evidence is clear. You did something really good for your kid.",
+      "zh": "但偶尔也有那么几次，如果运气好的话，成果会明明白白摆在眼前——你真真切切为孩子做了一件好事。"
+    },
+    {
+      "id": 443,
+      "start_sec": 3719,
+      "speaker": "Myra Flynn",
+      "en": "And with my mom's help, I was able to change this one thing in the wheel of my own motherhood, and maybe one day, Avalon's.",
+      "zh": "在妈妈的帮助下，我终于扭转了自己身为母亲的人生轮回里的这一环，也许将来有一天，也能改变 Avalon 的。"
+    },
+    {
+      "id": 444,
+      "start_sec": 3729,
+      "speaker": "Myra Flynn",
+      "en": "I want her to know what my mother knew, and her mother before her, that when you're doing your hair, some parts need someone else's hands, and some parts we can learn to hold ourselves.",
+      "zh": "我希望她明白我母亲明白的道理，也是外婆当年教给母亲的道理：打理头发这件事，有些部分需要别人搭把手，而有些部分，我们得学会自己去握在手里。"
+    },
+    {
+      "id": 445,
+      "start_sec": 3752,
+      "speaker": "Ira Glass",
+      "en": "Myra Flynn. She's the host of the podcast Homegoings with Myra Flynn, which is available wherever you get your podcasts. Her story was produced by Emmanuel Dzotsi.",
+      "zh": "以上故事来自 Myra Flynn。她是播客《Homegoings with Myra Flynn》的主持人，各大播客平台均可收听。她的这期故事由 Emmanuel Dzotsi 制作。"
+    },
+    {
+      "id": 446,
+      "start_sec": 3787,
+      "speaker": "Ira Glass",
+      "en": "Well, our program was produced today by Dana Chivvis and Valerie Kipnis, who, by the way, produced the show across an intergenerational divide. It was edited by David Kestenbaum.",
+      "zh": "今天的节目由 Dana Chivvis 和 Valerie Kipnis 共同制作——顺便一提，她俩这次本身就是跨越代沟在合作制作这期节目。编辑是 David Kestenbaum。"
+    },
+    {
+      "id": 447,
+      "start_sec": 3796,
+      "speaker": "Ira Glass",
+      "en": "The people who put together today's show include Adrienne Lilly, Seth Lind, Katherine Rae Mondo, Stowe Nelson, Ruthie Petitto, Nadia Reiman, Ryan Rumery, Ruby Schwartz, Lilly Sullivan, Alissa Shipp, Frances Swanson, Nancy Updike, and Julie Whitaker.",
+      "zh": "参与本期节目制作的团队成员还有：Adrienne Lilly、Seth Lind、Katherine Rae Mondo、Stowe Nelson、Ruthie Petitto、Nadia Reiman、Ryan Rumery、Ruby Schwartz、Lilly Sullivan、Alissa Shipp、Frances Swanson、Nancy Updike 和 Julie Whitaker。"
+    },
+    {
+      "id": 448,
+      "start_sec": 3808,
+      "speaker": "Ira Glass",
+      "en": "Our managing editor is Sarah Abdurrahman. Our senior editors, David Kestenbaum and Nancy Updike. Our executive editor is Emanuele Berry.",
+      "zh": "我们的执行编辑是 Sarah Abdurrahman，资深编辑是 David Kestenbaum 和 Nancy Updike，执行主编是 Emanuele Berry。"
+    },
+    {
+      "id": 449,
+      "start_sec": 3815,
+      "speaker": "Ira Glass",
+      "en": "Special thanks today to Diego Ongaro, Brendan Maum, Jaime Ardolino, Eileen and Mark Civin, Rebecca Babcock, Shane Manship, B.A. Parker, Phil Wills, Sam Yellowhorse Kesler, Meghan Keane, Laurie Laz, Dan Sinykin, Ray Tintori, Ben Mossman, Brian Houston, Cora Bruce, Ingrid Haftel, and Ellis Retzer.",
+      "zh": "本期节目特别鸣谢：Diego Ongaro、Brendan Maum、Jaime Ardolino、Eileen Civin 与 Mark Civin、Rebecca Babcock、Shane Manship、B.A. Parker、Phil Wills、Sam Yellowhorse Kesler、Meghan Keane、Laurie Laz、Dan Sinykin、Ray Tintori、Ben Mossman、Brian Houston、Cora Bruce、Ingrid Haftel 和 Ellis Retzer。"
+    },
+    {
+      "id": 450,
+      "start_sec": 3829,
+      "speaker": "Ira Glass",
+      "en": "This American Life is delivered to public radio stations by PRX, the Public Radio Exchange.",
+      "zh": "《This American Life》由公共广播交流平台 PRX 向各地公共广播电台分发播出。"
+    },
+    {
+      "id": 451,
+      "start_sec": 3855,
+      "speaker": "Ira Glass",
+      "en": "Thanks as always to our program's co-founder, Mr. Torey Malatia. You know, no matter what kind of restaurant we go to—Italian, Mexican, Thai—his order is always, always, always the same.",
+      "zh": "一如既往地感谢我们节目的联合创始人 Torey Malatia 先生。你知道吗，不管我们去哪家餐馆——意大利菜、墨西哥菜还是泰国菜——他点的菜永远、永远、永远都是那一道。"
+    },
+    {
+      "id": 452,
+      "start_sec": 3868,
+      "speaker": "Courtney Maum",
+      "en": "Give me some of that shrimp!",
+      "zh": "给我来点那个大虾！"
+    },
+    {
+      "id": 453,
+      "start_sec": 3871,
+      "speaker": "Ira Glass",
+      "en": "I'm Ira Glass. I'll be seeing you, of course, in the comments on Spotify. And I will be back next week with more stories of This American Life.",
+      "zh": "我是 Ira Glass。当然，咱们 Spotify 评论区见。下周同一时间，我将带着更多《This American Life》的故事回来。"
+    }
+  ]
+}

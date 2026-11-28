@@ -1,0 +1,1544 @@
+{
+  "schema_version": "3.0",
+  "show_id": "airshow",
+  "guid": "Buzzsprout-19674810",
+  "title": "Southwest's COO on the MAX 7 and Ops Fixes",
+  "pub_date": "2026-08-20T10:00:00Z",
+  "duration_sec": 2208,
+  "audio_url": "https://www.buzzsprout.com/2329718/episodes/19674810-southwest-s-coo-on-the-max-7-and-ops-fixes.mp3",
+  "summary_zh": "本期由 Brett Snyder 独自对话西南航空首席运营官 Andrew Watterson，探讨高管分工调整、夏季准点率下滑及 737 MAX 7 投运计划。Watterson 表示，剥离商业职能后自己得以专注运行；公司利润率已稳居达美与美联航之间，大范围航班延误处置亦领跑同行。针对今夏准点率垫底，他坦言托运行李收费推高了登机口托运行李量，叠加指定座位及向高卡旅客妥协的分组登机拖慢了过站最后十分钟。对此他拒绝靠拉长过站时间注水，正通过轮椅座位前置、行李交接提速、移动配载终端、乘务员前舱疏导及维修航站扩容系统纠偏。此外，获批的 MAX 7 预计年底交付首机、明年春假前后投入运营，未来将以更精简的占比执飞高温、夏威夷及瘦长航线并替代 737-700。",
+  "key_takeaways_zh": [
+    "随着大面积运行瘫痪隐患解除且利润率回升至达美航空与美联航之间，西南航空已将航线网络规划归还商业部门，使首席运营官 Andrew Watterson 得以全面聚焦日常运行质量。",
+    "今夏准点率垫底并非源于大范围天气或空管瘫痪，而是托运行李收费引发登机口托运行李激增，叠加向高卡旅客情绪妥协的前舱扎堆登机拖慢了过站最后十分钟的关门效率。",
+    "面对过站瓶颈，西南航空拒绝靠拉长计划过站时间来粉饰准点率，转而通过轮椅座位前置、登机口行李标准化、移动配载 iPad、乘务员前移疏导及新增过夜维修航站五项举措挖掘资产效率。",
+    "737 MAX 7 预计年底交付首机、明年春假前后投入商业运营，虽将凭借优异的高温与航程性能承担 ETOPS 备份、夏威夷及瘦长航线，但在短途商旅萎缩与机型经济性权衡下其机队占比将收缩至约三成。"
+  ],
+  "highlights": [
+    {
+      "start_sec": 93,
+      "title_zh": "高管分工调整与运行重心回归",
+      "summary_zh": "Brett 追问西南航空近期将商业与市场职能分别移交 Justin Jones 和 Tony Roach 后，Andrew Watterson 回归纯粹首席运营官角色的感受。Watterson 表示公司自2018年以来长期处于准危机高压状态，如今调整后净利率已连续两个季度位居达美航空与美联航之间。此前将现已退休的 Adam Decaire 及网络规划团队划归运行体系，是为了根治运行控制中心（NOC）的大面积瘫痪隐患，如今目标达成，航线网络回归商业部门水到渠成。",
+      "quote_en": "At that moment, top of the agenda was don't melt down again, and we achieved that."
+    },
+    {
+      "start_sec": 369,
+      "title_zh": "夏季准点率滑坡与商业新政摩擦",
+      "summary_zh": "Brett 援引 Anuvu 数据指出，西南航空到港准点率（A14）从1月的全美第一滑落至五六月的行业垫底。Watterson 坦言，尽管公司在《华尔街日报》可靠性积分榜及极端延误控制上依然领先，但托运行李收费带来的场均约10件登机口托运行李，在高客座率旺季严重挤压了过站最后十分钟。同时，为安抚对分组顺序强烈不满的资深常旅客与联名信用卡用户，公司妥协调整了分组登机规则，导致前6排高价值旅客在窄机身小行李架区域集中登机并来回寻位。",
+      "quote_en": "So our best customers are super happy with the new world, but it's left us with a boarding process that is slower."
+    },
+    {
+      "start_sec": 800,
+      "title_zh": "重塑过站最后十分钟流程",
+      "summary_zh": "面对是否应直接拉长计划过站时间的提问，Watterson 明确反对靠牺牲飞机资产效率来粉饰数据，因为提前30分钟启动登机的指标已创历史最佳，症结仅在于关舱门前的最后十分钟。他详述了五项针对性举措：呼叫中心外呼引导旅客利用前舱预留座以缩短轮椅保障耗时、推广萨克拉门托站标杆经验确保起飞前10分钟收妥登机口行李、为配载员配备移动 iPad 下沉至机门口协同排障、将原守卫翼上出口的乘务员前移疏导前舱行李架，以及增设过夜航线维修站以消除 737-700 机队缩减引发的紧凑排班拖累。公司计划在今年第四季度假日旺季前脱离准点率末尾梯队，并于明年重返行业前列。",
+      "quote_en": "So I resist the idea the first thing you do is pad everything. Try to improve performance first."
+    },
+    {
+      "start_sec": 1404,
+      "title_zh": "MAX 7 获批与投运时间表",
+      "summary_zh": "随着波音 737 MAX 7 终于扫清适航取证障碍，西南航空已正式启动美国联邦航空管理局（FAA）的五阶段新机引入流程。Watterson 透露，首架飞机有望在今年11月或12月交付到场，随后仍需按里程碑节点完成验证飞行、运行规范（OpSpecs）增列及双发延程飞行（ETOPS）验证等工作。在绝不催促安全监管审批的前提下，MAX 7 预计将于明年春假前后正式投入商业运营（EIS）。",
+      "quote_en": "So, this process to get it on our OpSpecs and get the ETOPS validation as well means we shouldn't count on this until kind of maybe spring break time for entering into service."
+    },
+    {
+      "start_sec": 1510,
+      "title_zh": "商旅缩水与机队配比调整",
+      "summary_zh": "回顾机队结构演变，Watterson 指出疫情后周五远程办公常态化削弱了短途高频商旅需求，促使西南航空利用购机合同中的机型转换权，将大小机型配比推向约70比30的大飞机主导结构。在具体分工上，首批已制造完成的27架 MAX 7 均具备 ETOPS 资质，将一对一接替现有的28架 737-800NG 承担跨水航线的运力备份任务。退下 ETOPS 序列的 737-800NG 将降级为常规维修标准以节约成本，但保留二类空域（Class II）运行设备，以便在美东航线上截弯取直飞越加勒比海或绕开流量控制区。",
+      "quote_en": "Turns out if you're not in the office on Friday, nobody flies in to try to sell you something. And so therefore, you just have less business travelers."
+    },
+    {
+      "start_sec": 1819,
+      "title_zh": "MAX 7 航线场景与选型逻辑",
+      "summary_zh": "谈及 MAX 7 的核心应用场景，Watterson 点名了伯班克直飞檀香山、拉斯维加斯与菲尼克斯午后高温时段的夏威夷航班以及夏威夷岛际航线，并计划用其逐步接替即将大举退役的 737-700 执飞中短途瘦长航线。针对为何坚持选择 MAX 7 而非空客 A220，他解释称西南航空没有支线航司运力补充，必须保留一款干线小机型，而引入异构驾驶舱带来的机组与排班效率损失远超 A220 的油耗优势。不过由于 MAX 7 相比 737-700 的单位经济性提升幅度不及 MAX 8，其在未来机队中的最终占比将更为精简。",
+      "quote_en": "And you start to get aircraft and crew inefficiencies when you have two aircraft that do the same mission."
+    }
+  ],
+  "vocab_notes": [
+    {
+      "term": "NOC",
+      "meaning_zh": "运行控制中心（Network Operations Control），航司统筹签派、机组排班与航班调度的中枢部门。",
+      "note_zh": "西南航空内部将其全局运行控制中心称为 NOC（部分航司称为 OCC 或 IOC），负责日常航班放行及大面积不正常航班恢复。",
+      "start_sec": 250
+    },
+    {
+      "term": "A14",
+      "meaning_zh": "到港14分钟内准点率，即航班实际抵达登机口时间晚于计划时间不超过14分钟的比例。",
+      "note_zh": "这是美国交通部（DOT）衡量航司准点率（OTP）的法定核心指标，只要延误未满15分钟在行业统计中即视为准点到港。",
+      "start_sec": 455
+    },
+    {
+      "term": "capitulate",
+      "meaning_zh": "屈服、妥协让步（文中指西南航空向高卡常旅客的强烈不满让步而修改登机分组规则）。",
+      "note_zh": "原指军事上有条件投降，在商业语境中常带有自嘲色彩，表示管理层在客户反弹或外部压力下放弃原有方案。",
+      "start_sec": 574
+    },
+    {
+      "term": "armchair quarterback",
+      "meaning_zh": "事后诸葛亮、纸上谈兵的场外评论者。",
+      "note_zh": "源自美式橄榄球俚语，指坐在扶手椅上对球场四分卫指手画脚的观众，播客中 Brett 用以自嘲在场外预判登机变慢的行业观察者。",
+      "start_sec": 618
+    },
+    {
+      "term": "pad your numbers",
+      "meaning_zh": "给数据注水、人为留出冗余缓冲（航空业特指拉长计划过站或航段时间以美化准点率）。",
+      "note_zh": "航司运行中常把增加时刻冗余称为 schedule padding，虽能账面推高准点率，但会降低飞机日利用率并推高单位成本。",
+      "start_sec": 828
+    },
+    {
+      "term": "cellar dweller",
+      "meaning_zh": "排行榜垫底者、长期处于末尾的落后者。",
+      "note_zh": "源自美国职业棒球俚语（积分榜最底层俗称地下室 cellar），商业报道中常用来形容业绩或运营指标排名垫底的企业。",
+      "start_sec": 1200
+    },
+    {
+      "term": "OpSpecs",
+      "meaning_zh": "运行规范（Operations Specifications），监管机构核发给航司的具体机型与运行权限许可文件。",
+      "note_zh": "在 FAA 监管体系下，即便波音取得机型型号合格证，航司仍须走完验证流程将该机型正式写入自身 OpSpecs 后方可载客运营。",
+      "start_sec": 1476
+    },
+    {
+      "term": "substitution rights",
+      "meaning_zh": "机型转换权，购机合同中允许航司在同一飞机家族内灵活调整不同子型号订单比例的条款。",
+      "note_zh": "大型航司向波音或空客下达远期大单时通常会谈判锁定该权利，以便数年后根据市场需求变化将小机型订单改签为大机型。",
+      "start_sec": 1589
+    },
+    {
+      "term": "MEL",
+      "meaning_zh": "最低设备清单（Minimum Equipment List），允许飞机在特定非核心设备故障保留状态下合法放行的技术手册。",
+      "note_zh": "当飞机按 MEL 办理故障保留时虽可正常执飞普通国内航线，但往往会暂时丧失执飞跨洋或夏威夷等 ETOPS 航线的运行资质。",
+      "start_sec": 1784
+    }
+  ],
+  "references": [
+    {
+      "title": "Anuvu",
+      "creator": "Anuvu",
+      "category": "other",
+      "note_zh": "Brett Snyder 调取该航空运营数据平台的统计数据，用以核查西南航空今年1月至夏季的到港准点率（A14）排名下滑轨迹。",
+      "start_sec": 382,
+      "links": []
+    },
+    {
+      "title": "The Wall Street Journal Airline Scorecard",
+      "creator": "The Wall Street Journal",
+      "category": "article",
+      "note_zh": "Andrew Watterson 多次引用《华尔街日报》发布的年度航司七维可靠性积分榜，说明西南航空在极端延误控制与整体运行可靠性上仍保持行业领先。",
+      "start_sec": 426,
+      "links": []
+    }
+  ],
+  "transcript": [
+    {
+      "id": 1,
+      "start_sec": 4,
+      "speaker": "Brett Snyder",
+      "en": "I'm Brett Snyder, author of Cranky Flier. You're listening to The Air Show, the podcast where we talk about what happens in the business of the sky.",
+      "zh": "我是 Cranky Flier 的作者 Brett Snyder。您正在收听的是《The Air Show》，一档探讨航空商业动态的播客节目。"
+    },
+    {
+      "id": 2,
+      "start_sec": 15,
+      "speaker": "Brett Snyder",
+      "en": "Now we are back from taking last week off. Well, I'm back from my Hawaiian family vacation. Brian and Jon are still out, but we aren't taking our usual late August hiatus for a couple of weeks, so I'm going it alone today.",
+      "zh": "上周我们停更了一期，现在回归了。准确地说，是我结束夏威夷家庭度假回来了。Brian 和 Jon 还在休假，不过我们今年不打算像往常一样在八月底停更两周，所以今天就由我独自挑大梁。"
+    },
+    {
+      "id": 3,
+      "start_sec": 28,
+      "speaker": "Brett Snyder",
+      "en": "And instead of a guest host this time, I have lined up an interview for you with Southwest Chief Operating Officer Andrew Watterson.",
+      "zh": "这次我没有请代班主播，而是为大家安排了对西南航空首席运营官 Andrew Watterson 的专访。"
+    },
+    {
+      "id": 4,
+      "start_sec": 36,
+      "speaker": "Brett Snyder",
+      "en": "I know, I know, we had him on with CFO Tom Doxey earlier this year, but there's a lot to talk about, including the certification of the MAX 7, the airline's operational troubles, and yes, even Andrew's responsibilities themselves. So, let's get right into it.",
+      "zh": "我知道，今年早些时候我们才请过他和首席财务官 Tom Doxey 做客节目，但眼下确实有很多话题可聊，包括 MAX 7 的适航取证、西南航空的运营困境，甚至还有 Andrew 本人的职责变动。那我们就直接进入正题吧。"
+    },
+    {
+      "id": 5,
+      "start_sec": 50,
+      "speaker": "Brett Snyder",
+      "en": "Andrew, thank you for joining us—or I should say joining me, since I have no co-host this week.",
+      "zh": "Andrew，谢谢你做客节目——或者说谢谢你陪我聊，因为这周我这儿没有搭档。"
+    },
+    {
+      "id": 6,
+      "start_sec": 55,
+      "speaker": "Andrew Watterson",
+      "en": "Well, it's my pleasure. It's good to get rid of all those millennials and just have some good Gen X talk.",
+      "zh": "我的荣幸。能把那些千禧一代都支开，好好来一场 X 世代之间的对话，感觉真不错。"
+    },
+    {
+      "id": 7,
+      "start_sec": 60,
+      "speaker": "Brett Snyder",
+      "en": "Oh, them's fighting words right there. I like this, though.",
+      "zh": "哦，这话火药味可够足的。不过我喜欢。"
+    },
+    {
+      "id": 8,
+      "start_sec": 64,
+      "speaker": "Brett Snyder",
+      "en": "So I want to go back to the last time we talked. Brian asked you whether you or Tom Doxey would be the next CEO of Southwest, and you told us, quote, \"I'm just trying not to be fired,\" end quote.",
+      "zh": "我想先回到我们上次聊天的情景。当时 Brian 问你，你和 Tom Doxey 谁会成为西南航空的下一任首席执行官，而你的原话是：“我只是在努力保住饭碗不被炒鱿鱼。”"
+    },
+    {
+      "id": 9,
+      "start_sec": 76,
+      "speaker": "Brett Snyder",
+      "en": "So I want to start by saying congratulations, you have achieved your goal so far.",
+      "zh": "所以首先我要恭喜你，至少到目前为止，你成功实现了这个目标。"
+    },
+    {
+      "id": 10,
+      "start_sec": 81,
+      "speaker": "Andrew Watterson",
+      "en": "Yes, I've not been fired. I'm pleased with that, and hope to keep being employed.",
+      "zh": "是的，我还没被炒掉。对此我很欣慰，也希望能继续受雇留任。"
+    },
+    {
+      "id": 11,
+      "start_sec": 87,
+      "speaker": "Brett Snyder",
+      "en": "All right, there we go. But this of course doesn't mean that everything is the same as it was when we talked to you back then.",
+      "zh": "好，说得好。不过，这当然不意味着一切都和我们上次对话时一模一样。"
+    },
+    {
+      "id": 12,
+      "start_sec": 93,
+      "speaker": "Brett Snyder",
+      "en": "So at the time, you were running both the operation and the commercial side of the business, effectively acting as president, without the title, is how I would describe that.",
+      "zh": "当时你同时掌管着公司运营和商务两大板块，在我看来，相当于是在没有“总裁”头衔的情况下履行着总裁的职责。"
+    },
+    {
+      "id": 13,
+      "start_sec": 101,
+      "speaker": "Brett Snyder",
+      "en": "But then recently, there were some changes. So commercial was moved to Justin Jones, marketing, customer, some other functions given to Tony Roach, so you are now back to being a true COO focusing on the operation, right? So what about that?",
+      "zh": "但最近公司出现了一些调整。商务板块划归了 Justin Jones，市场营销、客户服务以及其他一些职能交给了 Tony Roach，所以你现在回归了真正意义上的首席运营官角色，专注于运行业务，对吗？对此你怎么看？"
+    },
+    {
+      "id": 14,
+      "start_sec": 115,
+      "speaker": "Brett Snyder",
+      "en": "Is this a good thing? Talk to me about the changes in the organization here.",
+      "zh": "这是好事吗？跟我聊聊这次组织架构调整吧。"
+    },
+    {
+      "id": 15,
+      "start_sec": 120,
+      "speaker": "Andrew Watterson",
+      "en": "Well, thank you for the therapy session, but I'm enjoying myself immensely. You know, yes, my title has been the same for four years, but the responsibilities of that title has moved.",
+      "zh": "谢谢你的“心理疏导”，不过我现在干得非常开心。确实，我的头衔四年没变，但这个头衔背后的职责一直在调整。"
+    },
+    {
+      "id": 16,
+      "start_sec": 130,
+      "speaker": "Andrew Watterson",
+      "en": "I would much rather have the responsibilities, because that's the enjoyable part, than I would the title. So I'm chill with everything that I've had over the last four years.",
+      "zh": "比起头衔，我更看重实实在在的职责，因为这才是工作乐趣所在。所以过去四年里我所经历的一切分工安排，我都觉得很坦然。"
+    },
+    {
+      "id": 17,
+      "start_sec": 140,
+      "speaker": "Andrew Watterson",
+      "en": "But I cannot tell you how much better today is than a year ago, than two years ago. I mean, you could really go back.",
+      "zh": "但你难以想象，现在的局面比一年前、两年前好了多少。真的，把时间线再往前拉也是如此。"
+    },
+    {
+      "id": 18,
+      "start_sec": 146,
+      "speaker": "Andrew Watterson",
+      "en": "We've been in quasi-crisis since 2018, and there's been different variations of that, and different jobs I've had over that time, all under a highly pressurized environment.",
+      "zh": "自 2018 年以来，我们一直处于一种“准危机”状态，期间危机以各种形式出现，我在那段时间里也先后担任过不同职务，始终处在高压环境之下。"
+    },
+    {
+      "id": 19,
+      "start_sec": 157,
+      "speaker": "Andrew Watterson",
+      "en": "So we still have the impetus to improve, but the fact that we've done what we said we were going to do, adjusted net margins, we're kind of a little bit below Delta, above United for two quarters in a row.",
+      "zh": "所以我们依然保有持续改进的动力，但事实是我们兑现了承诺：在调整后净利润率方面，我们连续两个季度仅略低于达美，高于美联航。"
+    },
+    {
+      "id": 20,
+      "start_sec": 169,
+      "speaker": "Andrew Watterson",
+      "en": "We're in the right neighborhood profit-wise, the operation is in the right neighborhood performance-wise, so things are going well.",
+      "zh": "从盈利水平来看，我们处在合理的区间；从运行表现来看，也处在理想的水准，因此整体进展很顺利。"
+    },
+    {
+      "id": 21,
+      "start_sec": 176,
+      "speaker": "Andrew Watterson",
+      "en": "We still have not reached our aspirations, but man, that's a whole lot better feeling than having activists on your butt, to have the Senate on your butt, to have the MAX grounded, to have COVID, like all this stuff, man, it is so much better today.",
+      "zh": "我们还没有达到最终的理想目标，但说真的，这可比整天被激进投资者紧盯、被参议院质询、遭遇 MAX 停飞、碰上新冠疫情强太多了——经历过那些之后，今天的感觉真是好太多了。"
+    },
+    {
+      "id": 22,
+      "start_sec": 191,
+      "speaker": "Brett Snyder",
+      "en": "Yeah, I'm sure that's the case for the company as a whole. But I'll try one more time on this for you individually. Do you miss commercial?",
+      "zh": "没错，对整个公司而言肯定都是如此。不过我还是想针对你个人再追问一句：你会怀念管商务板块的日子吗？"
+    },
+    {
+      "id": 23,
+      "start_sec": 202,
+      "speaker": "Brett Snyder",
+      "en": "And I know when you first took over as COO, you took the network piece with you as well at that time. The rest of commercial came back later, and now you don't have that. So what's your feeling about the way the structure has landed?",
+      "zh": "我知道你刚接任首席运营官时，顺带也把航线网络规划带了过去。后来商务其余板块也回到了你名下，而现在这些都不在你这儿了。对于目前落地的这套架构，你个人是什么感受？"
+    },
+    {
+      "id": 24,
+      "start_sec": 215,
+      "speaker": "Andrew Watterson",
+      "en": "You know, one more time, I'm still happy. But there are changes, I get that, you know, I'm about to turn 60. As a company, you need to grow a portfolio of executives, and Tony and Justin are high-performing executives.",
+      "zh": "再说一次，我依然很开心。但确实有变化，我理解这一点，毕竟我也快 60 岁了。作为一家公司，你必须培养一批高管梯队，而 Tony 和 Justin 都是表现非常出色的高管。"
+    },
+    {
+      "id": 25,
+      "start_sec": 228,
+      "speaker": "Andrew Watterson",
+      "en": "I'm here to mentor them, I'm here to be their collaborator and support them, so like, we're all cool between each other.",
+      "zh": "我的角色是指导他们、与他们协作并支持他们，所以我们彼此之间关系非常融洽。"
+    },
+    {
+      "id": 26,
+      "start_sec": 234,
+      "speaker": "Andrew Watterson",
+      "en": "And then as far as how things have moved organizationally, you're right, I did have the network. That was as much about Adam Decaire.",
+      "zh": "至于组织架构上职能的流转，你说得没错，我之前确实管着航线网络。那很大程度上是出于对 Adam Decaire 的考虑。"
+    },
+    {
+      "id": 27,
+      "start_sec": 241,
+      "speaker": "Andrew Watterson",
+      "en": "So Adam Decaire was over the network. We have a powerhouse network, and that's thanks to Adam and a lot of other people who worked with Adam.",
+      "zh": "当时 Adam Decaire 负责航线网络。我们拥有一套实力强劲的航线网络，这要归功于 Adam 以及与他共事的众多团队成员。"
+    },
+    {
+      "id": 28,
+      "start_sec": 250,
+      "speaker": "Andrew Watterson",
+      "en": "But he also knew how it was supposed to work, so I wanted him to go over and work with the people in the NOC, who were really talented, but needed better direction.",
+      "zh": "同时他也非常清楚这套系统该如何运转，所以我希望他能调过去与运行控制中心（NOC）的同事一起共事——那里的员工非常有才干，只是需要更好的方向引导。"
+    },
+    {
+      "id": 29,
+      "start_sec": 260,
+      "speaker": "Andrew Watterson",
+      "en": "So him working together with my NOC professionals—all the dispatchers and SODs and the crew scheduling we were building up—all that, Adam overseeing that was a key part of us improving and not repeating all these meltdowns we were having.",
+      "zh": "于是他与我手下的 NOC 专业团队——包括所有签派员、值班运行主管（SOD）以及我们正在扩建的机组排班团队——展开协作。由 Adam 统筹把关，正是我们得以改进、避免重演此前频繁运行瘫痪的关键所在。"
+    },
+    {
+      "id": 30,
+      "start_sec": 274,
+      "speaker": "Andrew Watterson",
+      "en": "We were having meltdowns, not just the winter storm meltdown, but before that it was a regular occurrence. We no longer have that. Once a big event happens, we handle it very well.",
+      "zh": "过去我们曾发生过运行瘫痪，不仅仅是那次冬季风暴大瘫痪，在此之前也几乎成了家常便饭。现在我们已经不再有这种状况了。一旦遇到重大突发事件，我们都能应对得非常出色。"
+    },
+    {
+      "id": 31,
+      "start_sec": 284,
+      "speaker": "Andrew Watterson",
+      "en": "And I tip my hat to all the men and women in the NOC, and Adam as their leader at the time did a very good job with that. So it was more about Adam than it was about network planning.",
+      "zh": "我要向 NOC 的所有男女同事致敬，而作为当时团队负责人的 Adam 也做得非常棒。所以当初那项安排更多是为了 Adam，而不是为了把航线网络规划本身留在运营这边。"
+    },
+    {
+      "id": 32,
+      "start_sec": 295,
+      "speaker": "Andrew Watterson",
+      "en": "It worked out well there. So now network planning indeed is back...",
+      "zh": "那步棋收效很好。所以现在航线网络规划确实又回到了……"
+    },
+    {
+      "id": 33,
+      "start_sec": 300,
+      "speaker": "Andrew Watterson",
+      "en": "in commercial, I think where ultimately it belongs, but it served our purpose. And as an organization, you have different things that are top of your agenda at different points in time.",
+      "zh": "商务部门——我认为这最终也正是它该待的地方——不过当时那项安排确实达到了我们的目的。而且作为一家企业，你在不同时期会有不同的头等大事。"
+    },
+    {
+      "id": 34,
+      "start_sec": 310,
+      "speaker": "Andrew Watterson",
+      "en": "At that moment, top of the agenda was don't melt down again, and we achieved that. Now something else is more important, so we move it around.",
+      "zh": "在那个阶段，头等大事就是绝不再发生运行瘫痪，我们做到了。现在有其他更重要的事，所以我们就相应调整了架构。"
+    },
+    {
+      "id": 35,
+      "start_sec": 316,
+      "speaker": "Brett Snyder",
+      "en": "Wasn't that at the top of the agenda before? I feel like maybe that should have always been at the top of the agenda.",
+      "zh": "难道以前那不是头等大事吗？我觉得这事儿或许一直都该放在头等大事的位置上。"
+    },
+    {
+      "id": 36,
+      "start_sec": 322,
+      "speaker": "Andrew Watterson",
+      "en": "Well, when you have multiple meltdowns in a row, yeah, you got to take care of it. You know, it was becoming an existential problem, and so we needed to address it.",
+      "zh": "嗯，当你接连遭遇多次运行瘫痪时，没错，你必须全力解决它。你知道，它当时已经变成关乎生存的问题，所以我们必须出手整治。"
+    },
+    {
+      "id": 37,
+      "start_sec": 330,
+      "speaker": "Andrew Watterson",
+      "en": "Now, it's still objective, we perform extraordinarily well in those big events. So it's not like don't melt down, it's like perform the best is our goal, and we do perform the best now in those large events.",
+      "zh": "现在，这依然是我们的目标，我们在那些重大运行考验中表现极为出色。所以现在不再只是“别瘫痪”，而是把“做到最好”当成目标，而且我们在大型事件中的表现确实做到了业内最佳。"
+    },
+    {
+      "id": 38,
+      "start_sec": 340,
+      "speaker": "Andrew Watterson",
+      "en": "And so super proud of the men and women of the front line and the NOC who make sure that's a reality.",
+      "zh": "所以我为所有一线员工以及 NOC 的男男女女感到无比骄傲，正是他们把这变成了现实。"
+    },
+    {
+      "id": 39,
+      "start_sec": 345,
+      "speaker": "Brett Snyder",
+      "en": "Okay, so there was more about a moment in time about that structure back then. But Adam is no longer there, which seems like a very big loss, but I suppose that's part of the reason that can be separated out more. Is that what you're thinking?",
+      "zh": "好，所以当初那种架构更多是特定时期的产物。不过 Adam 现在已经不在那个位子上了，这看起来是个很大的损失，但我想这也是如今能把两块业务重新拆开的部分原因，你是这么考虑的吗？"
+    },
+    {
+      "id": 40,
+      "start_sec": 357,
+      "speaker": "Andrew Watterson",
+      "en": "Yeah, so Adam was the man in the moment at that time, and I'm grateful for him for that. He's since retired, and part of me is jealous.",
+      "zh": "是的，Adam 就是当时那个关键时刻的不二人选，我非常感谢他的付出。他后来退休了，说实话我心里还有点羡慕呢。"
+    },
+    {
+      "id": 41,
+      "start_sec": 365,
+      "speaker": "Brett Snyder",
+      "en": "Yeah, okay. All right, everyone remember that.",
+      "zh": "好吧，行，大家记住这句话。"
+    },
+    {
+      "id": 42,
+      "start_sec": 369,
+      "speaker": "Brett Snyder",
+      "en": "But you're talking about the operation running well, and certainly you haven't had meltdowns the way that you did. But the operation, in terms of on-time performance, it has not really been going very well this year from what I did.",
+      "zh": "不过你刚才说运行情况良好，你们确实没有再像过去那样发生运行瘫痪。但从我查到的数据来看，今年你们在准点率方面的运行表现其实并不算太好。"
+    },
+    {
+      "id": 43,
+      "start_sec": 382,
+      "speaker": "Brett Snyder",
+      "en": "And of course, I went back and pulled Anuvu data because that's part of the fun. But it looks like, you know, January and February, arrivals within 14 minutes were above 80%, March through May down in the 70s, and then everything since June's been in the 60s.",
+      "zh": "当然，我专门回头调取了 Anuvu 的数据，毕竟这也是分析的乐趣所在。但看起来，1 月和 2 月你们 14 分钟内准点到达率还在 80% 以上，3 月到 5 月降到了 70% 多，而 6 月以来就一直在 60% 多徘徊。"
+    },
+    {
+      "id": 44,
+      "start_sec": 398,
+      "speaker": "Brett Snyder",
+      "en": "And this isn't just, you know, the whole industry was impacted, because you were first in on-time arrivals among the big US carriers in January, but it looks like you've been dead last through much of the summer from the airlines I looked at. So what is going on? What's happening right now?",
+      "zh": "而且这不只是因为整个行业都受了影响，因为 1 月份你们在美国大型航司中准点到达率还排在第一，但从我看的几家航司来看，整个夏天大部分时间你们似乎都垫底。所以到底怎么回事？现在是什么情况？"
+    },
+    {
+      "id": 45,
+      "start_sec": 414,
+      "speaker": "Andrew Watterson",
+      "en": "Yeah, we were dead last in May and June and sixth in July, which is not something to write home about. So it's absolutely true on on-time performance, it's not where it needs to be, and it's a top focus of mine right now.",
+      "zh": "是的，我们 5 月和 6 月确实排在倒数第一，7 月排第六，这确实没什么好吹嘘的。所以说得完全没错，我们的准点率远未达到应有水平，这也是我现在重点主抓的工作。"
+    },
+    {
+      "id": 46,
+      "start_sec": 426,
+      "speaker": "Andrew Watterson",
+      "en": "You know, if you take a step back, I think The Wall Street Journal is something we use, their scorecard, seven metrics that really encapsulates what's important for customers as far as reliability.",
+      "zh": "退一步来看，我们会参考《华尔街日报》的航司记分卡，它通过七项指标，非常全面地概括了在运行可靠性方面对旅客真正重要的要素。"
+    },
+    {
+      "id": 47,
+      "start_sec": 436,
+      "speaker": "Andrew Watterson",
+      "en": "Because we want to be reliable because it helps us be efficient, but also because that's what customers want and you want to satisfy the basics of their needs.",
+      "zh": "我们追求运行可靠，既因为这能提升自身效率，也因为这是旅客的诉求，我们需要满足他们最基本的出行需求。"
+    },
+    {
+      "id": 48,
+      "start_sec": 444,
+      "speaker": "Andrew Watterson",
+      "en": "And we're on track still to win that. We won it last year, should have won it the year before, but the refs screwed us, but, you know, we didn't complain, just came back and doubled down and won the year after.",
+      "zh": "而且今年我们依然有望拿下那个榜单第一。去年我们拿了第一，前年本来也该拿的，结果被“裁判”坑了，但我们没抱怨，而是卷土重来、加倍发力，第二年就把第一赢回来了。"
+    },
+    {
+      "id": 49,
+      "start_sec": 455,
+      "speaker": "Andrew Watterson",
+      "en": "And we're still on track, you know, to do that, but within that metric, on-time performance, you know, A14, we've been doing poorly, and we need to fix that.",
+      "zh": "今年我们依然保持着夺冠的节奏，但在其中的准点率这项指标——也就是 A14 准点率上，我们的表现确实很差，必须加以扭转。"
+    },
+    {
+      "id": 50,
+      "start_sec": 464,
+      "speaker": "Andrew Watterson",
+      "en": "And so if you go back, and you're right, we did well in the fourth quarter of last year, except October wasn't great, we were seventh, but then Jan we were first, February third, March we were fourth.",
+      "zh": "回溯来看，你说得没错，我们去年第四季度表现不错，除了 10 月差强人意排在第七，之后 1 月第一，2 月第三，3 月第四。"
+    },
+    {
+      "id": 51,
+      "start_sec": 475,
+      "speaker": "Andrew Watterson",
+      "en": "As we've pulled it apart, what we see is, yes, we reduced some turn time last year, but we reduced that progressively through the year last year, and you didn't see a drop-off in performance.",
+      "zh": "我们拆解原因后发现，没错，去年我们确实缩短了一部分过站时间，但那是在去年全年循序渐进推进的，当时并没有看到准点表现下滑。"
+    },
+    {
+      "id": 52,
+      "start_sec": 485,
+      "speaker": "Andrew Watterson",
+      "en": "We started charging for bags, you may have heard, and that led to more gate-checked bags.",
+      "zh": "后来我们开始收托运行李费——你应该听说了——这导致登机口托运行李数量增多。"
+    },
+    {
+      "id": 53,
+      "start_sec": 489,
+      "speaker": "Brett Snyder",
+      "en": "Wait, what? Hold on, wait a minute.",
+      "zh": "等等，什么？等一下，先停一停。"
+    },
+    {
+      "id": 54,
+      "start_sec": 491,
+      "speaker": "Andrew Watterson",
+      "en": "Breaking news.",
+      "zh": "突发新闻。"
+    },
+    {
+      "id": 55,
+      "start_sec": 492,
+      "speaker": "Brett Snyder",
+      "en": "We gotta put this up live right now, emergency podcast. Yes, sorry, continue.",
+      "zh": "我们得马上直播播报，加更一期紧急播客。好了，抱歉，请继续。"
+    },
+    {
+      "id": 56,
+      "start_sec": 497,
+      "speaker": "Andrew Watterson",
+      "en": "So that burned up over time, if you will, of the percent of PNRs to which that applied, and so by October it was fully in.",
+      "zh": "所以这项变化是随着适用该政策的订座记录（PNR）占比提高而逐步显现的，到了 10 月份才算全面生效。"
+    },
+    {
+      "id": 57,
+      "start_sec": 506,
+      "speaker": "Andrew Watterson",
+      "en": "And then we had a new boarding process because we went with assigned seats, you may have heard, and so that led to different, you know, no more stanchions, it's all about groups for boarding now.",
+      "zh": "接着因为改成了指定座位制度——你应该也听说了——我们又推行了新的登机流程，所以形式也变了，取消了原来的排队立柱，现在全改为按登机分组顺序登机。"
+    },
+    {
+      "id": 58,
+      "start_sec": 516,
+      "speaker": "Andrew Watterson",
+      "en": "And you put all those together, and combined with high load factors, we find the last kind of 10 minutes of the turns is where it puts stress on.",
+      "zh": "把这些因素叠加在一起，再加上高客座率，我们发现过站最后大约 10 分钟承受了巨大的时间压力。"
+    },
+    {
+      "id": 59,
+      "start_sec": 525,
+      "speaker": "Andrew Watterson",
+      "en": "If you recall, the FAA cuts in the fourth quarter and the TSA problems, those actually dampened demand industry-wide, like booking demand, so load factors didn't get really high. And so the stress was not as obvious for us.",
+      "zh": "你应该还记得，第四季度 FAA 的运力削减和 TSA 的安检问题，其实在全行业范围内抑制了订票需求，所以当时客座率并没有冲到特别高，这种压力对我们来说也就没那么明显。"
+    },
+    {
+      "id": 60,
+      "start_sec": 538,
+      "speaker": "Andrew Watterson",
+      "en": "But in May, when you're clean of all those things and load factors are coming back to their norm, that's where we saw the high load factors in combination with the growth in bags, the change in the boarding procedures, started to impact that last 10 minutes.",
+      "zh": "但到了 5 月，这些干扰因素都消退了，客座率回升到正常高位，这时高客座率叠加行李增多和登机流程调整，就开始明显冲击最后那 10 分钟了。"
+    },
+    {
+      "id": 61,
+      "start_sec": 551,
+      "speaker": "Andrew Watterson",
+      "en": "Our original boarding was a combination of efficiency and recognition of customers, and that was I think well calibrated. But what we didn't anticipate is how deeply customers cared about their boarding group.",
+      "zh": "我们最初设计的登机方案兼顾了效率与对常旅客的礼遇回馈，我觉得当时权衡得不错。但我们没预料到，旅客对自己的登机分组居然如此在意。"
+    },
+    {
+      "id": 62,
+      "start_sec": 562,
+      "speaker": "Andrew Watterson",
+      "en": "People were not upset that prices were higher, that yields were up. They were upset that they were in group two, and they'd been A-List Preferred for 10 years and had their credit card, and it was unbearable to be in group two, and we need to change that.",
+      "zh": "大家不满的不是票价涨了或收益率提高了，而是自己居然被分在第二组——他们当了十年 A-List Preferred 高级会员，还办了联名信用卡，被排进第二组简直无法接受，所以我们必须做出改变。"
+    },
+    {
+      "id": 63,
+      "start_sec": 574,
+      "speaker": "Andrew Watterson",
+      "en": "And so we ended up capitulating, and our boarding now is all about recognition, and now customer, you know, both surveys and purchase behavior has skyrocketed.",
+      "zh": "结果我们最终妥协了，现在的登机顺序完全向会员礼遇倾斜，而如今无论旅客满意度调研还是购票行为都出现了飙升。"
+    },
+    {
+      "id": 64,
+      "start_sec": 583,
+      "speaker": "Andrew Watterson",
+      "en": "So our best customers are super happy with the new world, but it's left us with a boarding process that is slower.",
+      "zh": "所以我们的核心高价值旅客对这套新规则非常满意，但这却给我们留下了一个速度更慢的登机流程。"
+    },
+    {
+      "id": 65,
+      "start_sec": 590,
+      "speaker": "Brett Snyder",
+      "en": "See, this is funny. I know people always say this, but they would be better off if we just said everyone get on the damn plane, we're leaving. Because do you remember when Northwest used to do that? I mean they still had...",
+      "zh": "你看，这太有意思了。我知道大家总爱这么吐槽，但其实要我说，干脆直接喊一声“都赶紧上这该死的飞机，我们要走了”，大家反而都省事。你还记得西北航空当年就这么干过吗？我的意思是他们当时其实也有……"
+    },
+    {
+      "id": 66,
+      "start_sec": 600,
+      "speaker": "Brett Snyder",
+      "en": "...their elites, but they just said, \"All right, everyone just get on the plane,\" and it worked. But now, you know, we have to micro-engineer this thing.",
+      "zh": "……自己的常旅客精英会员通道，但他们当时基本上就是说一句“好了，大家直接上飞机吧”，而且居然还真管用。可现在呢，我们却非得把这件事精细拆解到微操的地步。"
+    },
+    {
+      "id": 67,
+      "start_sec": 609,
+      "speaker": "Andrew Watterson",
+      "en": "Entropy, you know, entropy—you just got to let people migrate; they avoid each other and they spread out naturally.",
+      "zh": "熵增定律嘛，你知道的，顺其自然就行——你只需要让旅客自己往里走，他们自然会互相避让，然后均匀分散开来。"
+    },
+    {
+      "id": 68,
+      "start_sec": 614,
+      "speaker": "Brett Snyder",
+      "en": "Right, that's what works great instead of, you know, trying to segment everyone.",
+      "zh": "没错，那样效果好极了，总比费尽心思把每个人都精细分层要强得多。"
+    },
+    {
+      "id": 69,
+      "start_sec": 618,
+      "speaker": "Brett Snyder",
+      "en": "But this is something I think that—I know I said it, I think a lot of people said it, you know, us armchair quarterbacks here—like, \"Oh, this is going to slow things down, I don't know how this is going to work,\" you know, when they changed to the assigned seating model and all that.",
+      "zh": "不过我觉得这件事——反正我当时是这么说的，估计不少人也都这么说过，就是我们这些站着说话不腰疼的局外人——大家当时都在嘀咕：“哦，这肯定会把节奏拖慢，真不知道改成固定选座模式之后该怎么运作。”"
+    },
+    {
+      "id": 70,
+      "start_sec": 631,
+      "speaker": "Brett Snyder",
+      "en": "And then also, of course, with checked bags, now you have a lot more carry-ons, I assume. Do you have numbers on that? Like, is that the case of what you've been seeing?",
+      "zh": "另外当然还有行李问题，随着托运行李政策调整，我猜你们现在的随身行李多出了不少吧。你们有相关数据吗？实际情况是不是就像大家预料的那样？"
+    },
+    {
+      "id": 71,
+      "start_sec": 639,
+      "speaker": "Andrew Watterson",
+      "en": "Yes, our carry-ons—our kind of gate-checked bags—are I think running about 10 bags per flight or something like that on average. And so those changes we made subsequent to go-live, along with the higher loads, is when you saw that crunch happen.",
+      "zh": "是的，我们的随身行李——也就是需要在登机口托运的那部分行李——目前平均每个航班大约有10件左右。所以在新模式上线后我们做出的那些调整，加上更高的客座率，就导致了大家看到的这种拥堵挤压。"
+    },
+    {
+      "id": 72,
+      "start_sec": 652,
+      "speaker": "Andrew Watterson",
+      "en": "And what's interesting is kind of 30 minutes before departure, when we start boarding, we are at all-time highs of how early we board. So at that 30 minutes, we on average I think start boarding like 27 minutes—it's just almost mathematically impossible to be at 30 minutes.",
+      "zh": "有意思的是，在起飞前30分钟开始登机时，我们启动登机的提前量其实正处于历史最高水平。以30分钟为基准，我们平均大约在起飞前27分钟就开始登机了——毕竟在数学上几乎不可能做到严丝合缝卡在30分钟。"
+    },
+    {
+      "id": 73,
+      "start_sec": 667,
+      "speaker": "Andrew Watterson",
+      "en": "So we start boarding better than ever, but we're not closing the door better than ever, and it's that last 10 minutes when you have the confluence of the passengers and the bags.",
+      "zh": "也就是说，我们开始登机的速度比以往任何时候都好，但关闭舱门的速度却没有随之提升，问题就出在旅客和行李集中汇流的那最后10分钟。"
+    },
+    {
+      "id": 74,
+      "start_sec": 677,
+      "speaker": "Andrew Watterson",
+      "en": "And originally, you know, the fuselage narrows as you go forward, and you have smaller bins in the front as a result. And then our best customers are up there, and it's not in a 2-by-2, it's in a 3-by-3.",
+      "zh": "而且原本嘛，机身越往前越收窄，导致前排的头顶行李架空间本身就更小。而我们最核心的高价值旅客又都坐在前舱，再加上客舱不是2-2布局，而是3-3布局。"
+    },
+    {
+      "id": 75,
+      "start_sec": 688,
+      "speaker": "Andrew Watterson",
+      "en": "And so what we wanted to do originally with our original concept was to kind of space out the people in those first couple rows, because everyone needs to cheat back a little bit with their bags.",
+      "zh": "所以我们最初的设想，是把最前面那几排旅客的登机节奏稍微错开一些，因为大家多少都得把行李往后排的行李架挪一挪。"
+    },
+    {
+      "id": 76,
+      "start_sec": 698,
+      "speaker": "Andrew Watterson",
+      "en": "But because now you have everyone—all those customers in the first kind of six rows—boarding at the same time, there is a lot of churn there as they try to then find the right place for their bags, and they're kind of going up and down the aisle.",
+      "zh": "但现在前六排左右的旅客全都在同一时间登机，大家为了给行李找合适的位置，不得不在过道里来回走动折腾，这就造成了很大的客流折返和拥堵。"
+    },
+    {
+      "id": 77,
+      "start_sec": 711,
+      "speaker": "Andrew Watterson",
+      "en": "And so that is the kind of passenger-driven reason for that. And then the gate-checked bags continued to grow kind of from last year into this year, and so that also led to just the sheer number of bags coming into the cabin being up and causing a problem.",
+      "zh": "这就是由旅客行为带来的那部分原因。除此之外，登机口托运行李数量从去年到今年一直在持续增长，这也直接导致进入客舱的行李总量居高不下，进而引发了问题。"
+    },
+    {
+      "id": 78,
+      "start_sec": 725,
+      "speaker": "Andrew Watterson",
+      "en": "So, you know, obviously we're not doing nothing about it. We have programs underway both for cabin management and re-engineering the last 10 minutes of the turn—kind of have six things going on there that we're targeting to get back to, you know, before the next high load factor season, to get back to norm.",
+      "zh": "所以，很显然我们不会坐视不管。我们已经在推进多个改进项目，既包括客舱行李管理，也包括重构过站最后10分钟的流程——目前大概有六项举措正在同步推进，目标是在下一个高客座率旺季到来之前，让运行恢复正常水平。"
+    },
+    {
+      "id": 79,
+      "start_sec": 742,
+      "speaker": "Andrew Watterson",
+      "en": "Because in a lower load factor, like yesterday, we had on-time performance of like 87%, like just a hair behind United. We were the second in completion after Allegiant, who doesn't really fly on Tuesdays, and we had the fewest extreme delays in the Wall Street Journal by a long shot.",
+      "zh": "因为在客座率较低的日子里，比如昨天，我们的准点率达到了87%左右，只比美联航差了一丁点。我们的航班执行率排在第二，仅次于周二基本不太飞的忠实航空，而且在《华尔街日报》统计的极端延误率方面，我们更是遥遥领先地处于最低水平。"
+    },
+    {
+      "id": 80,
+      "start_sec": 758,
+      "speaker": "Andrew Watterson",
+      "en": "So it's clear that if you have very few extreme delays compared to your competitors, but you're kind of like third or fourth in on-time performance, it's really just a few minutes there in that zone. It's not big changes; it's small minutes that matter, and so you can re-engineer that.",
+      "zh": "所以很明显，既然我们与竞争对手相比极端延误极少，但准点率却排在第三或第四，那就说明差距其实就出在那几分钟的区间里。这不需要伤筋动骨的大改，关键在于抠出这几分钟，因此完全可以通过流程再造来解决。"
+    },
+    {
+      "id": 81,
+      "start_sec": 773,
+      "speaker": "Andrew Watterson",
+      "en": "But what's encouraging, though, is it's not like large-scale events. Large-scale events, you look at like a meltdown in the East Coast because of ATC and weather combined, we do better than competitors. Texas thunderstorms, Chicago thunderstorms—we do better for the large events, which is extraordinarily important because that colors passengers' perceptions.",
+      "zh": "但令人鼓舞的一点在于，这并不是大规模运行崩溃的问题。遇到大范围事件时，比如美国东海岸因空中交通管制（ATC）和恶劣天气叠加引发的系统性瘫痪，我们的表现比竞争对手更好。无论是得州雷暴还是芝加哥雷暴，我们在应对大型突发事件时都更出色，这极其重要，因为这类事件直接决定旅客对航司的印象。"
+    },
+    {
+      "id": 82,
+      "start_sec": 791,
+      "speaker": "Andrew Watterson",
+      "en": "It's just these smaller ones that frankly actually don't often get on customers' radar, but you can't tolerate being low in the rankings and the efficiency drag.",
+      "zh": "真正拖后腿的只是这些小延误，坦白说旅客平时甚至不太会注意到它们，但我们不能容忍排名靠后，更不能容忍这种效率拖累。"
+    },
+    {
+      "id": 83,
+      "start_sec": 800,
+      "speaker": "Brett Snyder",
+      "en": "All right, so let's get into the fix. So you said six different areas, and then there's also, I assume, the ability to do things like add turn time if you need to or anything like that. But so what is the right way to fix this?",
+      "zh": "好，那我们来聊聊怎么解决。你刚才提到了六个不同的方向，另外我猜如果需要的话，你们也可以采取增加过站时间之类的措施。不过话说回来，解决这个问题的正确方式到底是什么？"
+    },
+    {
+      "id": 84,
+      "start_sec": 814,
+      "speaker": "Andrew Watterson",
+      "en": "You eventually could do turn time, but like if you go back to what I said before, we're starting at D-30, you know, really, really well, but you're not finishing at the close time. So if you added turn time, it doesn't really address the root cause.",
+      "zh": "实在不行当然也可以拉长过站时间，但你回想一下我刚才说的：我们在起飞前30分钟（D-30）的启动阶段表现非常出色，只是没能在关舱门时刻按时收尾。所以如果只是增加过站时间，其实并没有真正解决根本原因。"
+    },
+    {
+      "id": 85,
+      "start_sec": 828,
+      "speaker": "Andrew Watterson",
+      "en": "You could probably pad your numbers, but it's going to be an inefficient use of time, because if you're starting at D-30, why add five minutes earlier? What does that do for you? I mean, it might mitigate a prior delay, but it's not going to help your last 30 minutes of the boarding process.",
+      "zh": "你或许能借此把数据垫得好看一点，但这会是对时间的低效浪费，因为既然已经从D-30开始登机了，干嘛还要再提前5分钟呢？那能起到什么作用？它也许能缓冲上一班传下来的延误，但对登机流程最后的30分钟毫无帮助。"
+    },
+    {
+      "id": 86,
+      "start_sec": 842,
+      "speaker": "Brett Snyder",
+      "en": "But if the idea is maybe start the boarding process earlier, then you might need more turn time to be able to do that, right?",
+      "zh": "但如果思路是把登机流程再往前提早一点，那你们可能就需要更长的过站时间才能做到，对吧？"
+    },
+    {
+      "id": 87,
+      "start_sec": 849,
+      "speaker": "Andrew Watterson",
+      "en": "Yeah, I would—but I would rather not. I mean, can you just solve the root cause through process re-engineering, technology investment, staffing rather than kind of add extra kind of inefficient asset time? I mean, ultimately we're selling time; we have to use our assets.",
+      "zh": "是的，可以这么做，但我宁愿不这么选。我的意思是，为什么不直接通过流程再造、技术投入和人员配置来解决根本原因，而要去白白增加低效的飞机停场时间呢？说到底，我们卖的就是时间，必须把飞机资产充分利用起来。"
+    },
+    {
+      "id": 88,
+      "start_sec": 863,
+      "speaker": "Andrew Watterson",
+      "en": "So I resist the idea the first thing you do is pad everything. Try to improve performance first.",
+      "zh": "所以我反对一上来就把所有时间冗余都拉长。应该先想办法把运行效率提上去。"
+    },
+    {
+      "id": 89,
+      "start_sec": 868,
+      "speaker": "Brett Snyder",
+      "en": "Okay, so how are you doing that?",
+      "zh": "好，那你们具体是怎么做的？"
+    },
+    {
+      "id": 90,
+      "start_sec": 870,
+      "speaker": "Andrew Watterson",
+      "en": "A few things we're doing. One is wheelchair impact, which you might say, \"Well, Andrew, I thought we were supposed to have less wheelchairs,\" and it's true, we have less wheelchairs than we did before.",
+      "zh": "我们正在推进几件事。第一是轮椅旅客带来的影响，你可能会说：“Andrew，我记得改制后轮椅旅客不是应该变少了吗？”确实如此，现在的轮椅需求比以前少了。"
+    },
+    {
+      "id": 91,
+      "start_sec": 883,
+      "speaker": "Andrew Watterson",
+      "en": "But before, when someone was on a wheelchair in open seating, they would generally be in the front of the cabin, and so it was a shorter process.",
+      "zh": "但以前在自由选座模式下，坐轮椅的旅客通常都会坐在客舱前排，所以登机安置的过程比较短。"
+    },
+    {
+      "id": 92,
+      "start_sec": 893,
+      "speaker": "Andrew Watterson",
+      "en": "Now with assigned seats, the wheelchairs are seated throughout the cabin, so there's more of a process time to bring them further back in the cabin.",
+      "zh": "而现在实行固定选座后，轮椅旅客分散坐在客舱各个位置，把他们一路推到客舱后排自然就需要更多操作时间。"
+    },
+    {
+      "id": 93,
+      "start_sec": 900,
+      "speaker": "Andrew Watterson",
+      "en": "Now, we do have blocks of seats—we don't let every seat be purchased or reserved in advance—and those are being underutilized. So what we're doing is having our call centers outbound call customers to see if they would be interested in moving up in the cabin to these blocks.",
+      "zh": "其实我们现在手里确实预留了一些成排座位——我们并没有把所有座位都开放给旅客提前购买或预订——而这些座位目前的利用率偏低。所以我们现在让客服中心主动外呼联系旅客，询问他们是否愿意往前挪到客舱前排的这些预留座位区。"
+    },
+    {
+      "id": 94,
+      "start_sec": 919,
+      "speaker": "Brett Snyder",
+      "en": "Okay. All right, so that's one thing, the wheelchairs.",
+      "zh": "明白。好，那轮椅旅客这算是一方面的问题。"
+    },
+    {
+      "id": 95,
+      "start_sec": 922,
+      "speaker": "Andrew Watterson",
+      "en": "Yes. We also are doing a gate-check process redesign. We have a wide variation of performance across our stations of who does this very well. So Sacramento, Sacramento just kills it.",
+      "zh": "是的。此外，我们还在重新设计登机口行李托运的流程。在这件事上，我们各个航站的执行表现参差不齐。比如萨克拉门托站，萨克拉门托站就做得非常出色。"
+    },
+    {
+      "id": 96,
+      "start_sec": 934,
+      "speaker": "Andrew Watterson",
+      "en": "They do a great job of getting bags early, getting the right number, getting them downstairs. I won't call out the other end of the spectrum, but others don't.",
+      "zh": "他们总能早早把行李收齐、核对好件数，并及时运到楼下机坪。至于表现垫底的那一头我就不点名了，但确实有些航站没能做到这一点。"
+    },
+    {
+      "id": 97,
+      "start_sec": 942,
+      "speaker": "Brett Snyder",
+      "en": "No, come on! Throw them under the bus! Let's do this. It's Florida, isn't it? I blame Florida.",
+      "zh": "别啊，快点名！直接把他们爆出来吧，来都来了。肯定是佛罗里达对不对？我都怪佛罗里达。"
+    },
+    {
+      "id": 98,
+      "start_sec": 949,
+      "speaker": "Andrew Watterson",
+      "en": "So we're learning from our frontlines to understand what they're doing, asking our leaders and frontlines what the best practices are that enable them to do this. We've process-mapped out how it's supposed to be today, how it's actually happening, and what the process changes are.",
+      "zh": "所以我们正在向一线员工学习，了解他们具体是怎么操作的，并向管理人员和一线团队征集，究竟是哪些最佳实践让他们能把这件事做好。我们已经梳理了流程图，对比了现行制度的设计要求、实际执行情况以及需要调整的流程环节。"
+    },
+    {
+      "id": 99,
+      "start_sec": 963,
+      "speaker": "Andrew Watterson",
+      "en": "Especially in the coordination between the CSAs, the ops agent, the rampers, and the flight attendants, and how that process works so we can get the bags collected in time and downstairs by 10 minutes before departure.",
+      "zh": "尤其是地服人员、运行专员、机坪装卸人员和乘务员之间的协同配合，理顺这套衔接流程，确保我们在起飞前 10 分钟及时收齐行李并运到楼下。"
+    },
+    {
+      "id": 100,
+      "start_sec": 975,
+      "speaker": "Andrew Watterson",
+      "en": "And then along with that, our ops agents—each airline has a little bit different union structure. So our CSAs are in a different union than the ops agent, and the ops agent is part of the same union that covers the ramp.",
+      "zh": "与此同时，说说我们的运行专员——每家航司的工会架构都有所不同。在西南航空，地服人员和运行专员分属不同的工会，而运行专员则和机坪装卸人员属于同一个工会。"
+    },
+    {
+      "id": 101,
+      "start_sec": 988,
+      "speaker": "Andrew Watterson",
+      "en": "So they're different jobs—customers may not appreciate that, but it's a different job—and that person is doing the weight and balance and closing out the flight. They're at that podium where they kind of take your boarding pass.",
+      "zh": "所以这是不同的岗位——旅客可能不太会察觉，但这确实是不同的工种——运行专员负责载重平衡以及航班截载收尾工作。他们平时就站在登机口那个刷登机牌的柜台旁边。"
+    },
+    {
+      "id": 102,
+      "start_sec": 1000,
+      "speaker": "Andrew Watterson",
+      "en": "But we're trialing and can roll out very quickly mobile weight and balance—mobile iPads for them to be able to do their job down at the aircraft.",
+      "zh": "不过我们目前正在试运行、并且很快就能全面推广移动载重平衡系统——也就是给他们配备移动 iPad，让他们能够直接下到飞机旁去完成这些工作。"
+    },
+    {
+      "id": 103,
+      "start_sec": 1010,
+      "speaker": "Andrew Watterson",
+      "en": "So when you have a problem, or you see a problem coming to you, if the ops agent is tied to a podium outside the gate, that's more difficult to resolve versus if they have a mobile iPad.",
+      "zh": "这样一来，当遇到突发状况或者预判到问题即将发生时，如果运行专员被死死拴在登机口外的柜台旁，问题就很难处理；而有了移动 iPad 就不一样了。"
+    },
+    {
+      "id": 104,
+      "start_sec": 1020,
+      "speaker": "Andrew Watterson",
+      "en": "They can be down at the aircraft and coordinate with the flight attendant, the ramp, the captain, and dispatch remotely to solve problems.",
+      "zh": "他们可以直接守在飞机旁边，与乘务员、机坪团队、机长协调，并远程联动签派一起解决问题。"
+    },
+    {
+      "id": 105,
+      "start_sec": 1029,
+      "speaker": "Andrew Watterson",
+      "en": "So being able to be down there after the 10-minute mark when we shut the door, they're down there to close out the flight and solve all the problems. You kind of nip things in the bud by having them be down there.",
+      "zh": "因此，在起飞前 10 分钟我们准备关闭舱门时，他们能直接待在飞机旁完成航班收尾并解决所有问题。把他们派驻到飞机现场，就能把很多潜在延误扼杀在萌芽状态。"
+    },
+    {
+      "id": 106,
+      "start_sec": 1041,
+      "speaker": "Andrew Watterson",
+      "en": "Then there's inflight. So our flight attendants have done an extraordinary job of adapting to this new environment. We've given them tools about where people are seated, and they've graciously moved their bags from the front of the cabin to the back of the cabin.",
+      "zh": "再来说说客舱服务部门。我们的乘务员在适应这套新环境方面做得非常出色。我们为他们提供了显示旅客座位分布的工具，他们也很体谅地主动把自己的随身行李从客舱前部挪到了后部。"
+    },
+    {
+      "id": 107,
+      "start_sec": 1053,
+      "speaker": "Andrew Watterson",
+      "en": "But we've also—you know, the C flight attendant, the one who usually was over the overwing exit when we had open seating, they no longer need to be there to make sure people are willing, able, and eligible to sit there.",
+      "zh": "同时我们还发现——以前在自由选座模式下，负责翼上应急出口区域的 C 号位乘务员需要守在那里，确保坐在这排的旅客符合意愿、身体条件及资格要求，而现在不再需要专门守在那里了。"
+    },
+    {
+      "id": 108,
+      "start_sec": 1065,
+      "speaker": "Andrew Watterson",
+      "en": "When they are more present towards the front of the cabin, they help unblock that logjam and manage the bins up front. We find on those flights, boarding moves a lot faster and satisfaction scores go up.",
+      "zh": "当他们更多地守在客舱前部时，就能帮忙疏通登机拥堵并协助整理前排的行李架。我们发现，在这些航班上，登机速度明显加快，旅客满意度评分也随之上升。"
+    },
+    {
+      "id": 109,
+      "start_sec": 1077,
+      "speaker": "Andrew Watterson",
+      "en": "And so we're working with both our unions and our frontline employees to say, what are the standards, and how do we want that flight attendant to do that job to play that facilitator in the first third of the cabin.",
+      "zh": "因此我们正与工会及一线员工共同商讨，明确作业标准，确定这位乘务员该如何履职，在客舱前三分之一区域扮演好现场协调疏导的角色。"
+    },
+    {
+      "id": 110,
+      "start_sec": 1089,
+      "speaker": "Andrew Watterson",
+      "en": "So it kind of helps resolve and unblocks the problem from all those great passengers boarding all at once. And so that one, once again, should be standardized here shortly and rolled out.",
+      "zh": "这样就能有效缓解并疏通大量旅客同时登机带来的堵点。同样，这一做法很快就会形成标准化规范并全面推开。"
+    },
+    {
+      "id": 111,
+      "start_sec": 1100,
+      "speaker": "Andrew Watterson",
+      "en": "Last one I'll cover then is in the NOC. As we are shrinking the 700 fleet, which is happening pretty rapidly, how we route the aircraft for maintenance the day before—we've discovered we've reached a tipping point now.",
+      "zh": "最后我要讲的是运行控制中心（NOC）。随着我们正在相当迅速地缩减 737-700 机队规模，我们在前一天调配飞机航线以安排检修的方式上，发现目前已经触及了一个临界点。"
+    },
+    {
+      "id": 112,
+      "start_sec": 1112,
+      "speaker": "Andrew Watterson",
+      "en": "Doing the day-before routing of the aircraft to get them in maintenance creates shorter than required turns throughout the day. So it ends up being a point to two points of OTP drag from these routings that unduly shorten the turn time.",
+      "zh": "为了把飞机调进维修站而在前一天所做的航线排班，会导致全天产生不少低于规定标准时长的过站衔接。这些不合理压缩过站时间的排班，最终拉低了 1 到 2 个百分点的准点率（OTP）。"
+    },
+    {
+      "id": 113,
+      "start_sec": 1128,
+      "speaker": "Andrew Watterson",
+      "en": "So we're giving them both more technology, but also Tech Ops is opening up a couple more line stations to be able to handle and give themselves more opportunity for overnight maintenance.",
+      "zh": "所以一方面我们为他们配备了更先进的技术工具，另一方面机务维修部门（Tech Ops）也新开了几个航线维修站，以提升保障能力，为自己争取更多过夜维修窗口。"
+    },
+    {
+      "id": 114,
+      "start_sec": 1139,
+      "speaker": "Andrew Watterson",
+      "en": "And so that will then reduce the number of routing-caused delays, which once again are still in that blue-sky, small-scale category.",
+      "zh": "这样就能减少因飞机调配引起的延误——再强调一次，这同样属于晴好天气条件下的常规小规模运行问题。"
+    },
+    {
+      "id": 115,
+      "start_sec": 1148,
+      "speaker": "Andrew Watterson",
+      "en": "Not caused by the new product, but more caused by the fleet shrinking down to a spot where you have to be more intentional about maintenance routing.",
+      "zh": "这并不是新产品带来的问题，而是因为机队缩减到一定规模后，我们在维修排班调配上必须更加精细化。"
+    },
+    {
+      "id": 116,
+      "start_sec": 1157,
+      "speaker": "Brett Snyder",
+      "en": "Right, so you're finding a lot of places where you can shave a little bit, and this should add up to solve the problem.",
+      "zh": "明白，也就是说你们在很多环节都找到了可以抠出一点时间的切入点，积少成多应该就能解决整体问题。"
+    },
+    {
+      "id": 117,
+      "start_sec": 1161,
+      "speaker": "Andrew Watterson",
+      "en": "Yes. And if that's unsuccessful, then we'll come back and say, \"Hey, can I have a little more turn time,\" or something like that.",
+      "zh": "对。要是这样还不行，我们就会回头再评估，比如看看能不能多留一点过站时间之类的。"
+    },
+    {
+      "id": 118,
+      "start_sec": 1167,
+      "speaker": "Brett Snyder",
+      "en": "All right, so when are we going to see this? I guess now we're in the back half of August, so peak summer is over and I guess loads are starting to lighten, so maybe we'll see better performance just from that alone.",
+      "zh": "好，那我们什么时候能看到这些举措的效果呢？现在已经是 8 月下旬了，暑运高峰已经过去，我想客座率也开始回落了，光靠这一点或许就能让运行表现有所好转。"
+    },
+    {
+      "id": 119,
+      "start_sec": 1177,
+      "speaker": "Brett Snyder",
+      "en": "But when are we going to see the actual impacts of all these different initiatives?",
+      "zh": "但所有这些不同改革举措带来的实际成效，我们什么时候能真正看到呢？"
+    },
+    {
+      "id": 120,
+      "start_sec": 1182,
+      "speaker": "Andrew Watterson",
+      "en": "So we've already rolled some of them out, rolled some of the small stuff out, so it'll be a progressive rollout. Our goal is to have a measurable impact before the next high-load season of the holidays.",
+      "zh": "其实其中一部分小举措我们已经落地了，整体会是渐进式推进。我们的目标是在下一个假期高客流旺季到来之前，看到可量化的实际成效。"
+    },
+    {
+      "id": 121,
+      "start_sec": 1192,
+      "speaker": "Andrew Watterson",
+      "en": "So some stuff like all the iPads may not be rolled out until sometime in Q1, and some of the maintenance stations may not be rolled out until Q1 or Q2 of next year. But all these things should have a measurable impact to move us up the rankings",
+      "zh": "像所有 iPad 设备的配齐可能要到明年第一季度（Q1）某个时候才能完成，部分维修站点的启用也要等到明年 Q1 或第二季度（Q2）。但所有这些措施都应当产生可量化的成效，带动我们的行业排名往上走"
+    },
+    {
+      "id": 122,
+      "start_sec": 1200,
+      "speaker": "Andrew Watterson",
+      "en": "into Q4, and help us not be kind of a cellar dweller, if you will, to be kind of more at least this year middle of the pack for OTP, top of the pack for Wall Street Journal, and then next year move OTP up into the top echelons.",
+      "zh": "到第四季度（Q4）进一步提升，帮助我们摆脱垫底的境地——今年至少让准点率（OTP）回到中游水平，在《华尔街日报》榜单上名列前茅，明年再把准点率（OTP）带入行业第一梯队。"
+    },
+    {
+      "id": 123,
+      "start_sec": 1218,
+      "speaker": "Brett Snyder",
+      "en": "Well, I want to shift here, but we're going to take a break and then we're going to talk about the MAX 7. So we will be back in a moment.",
+      "zh": "好的，我接下来想换个话题，不过我们先插播一段休息，之后再来聊聊 MAX 7。我们马上回来。"
+    },
+    {
+      "id": 124,
+      "start_sec": 1404,
+      "speaker": "Brett Snyder",
+      "en": "And we're back. So, let's talk about the MAX 7. I don't remember how many times we have talked about the MAX over the years, but before The Air Show here, we have had many discussions, including back over on Cranky.",
+      "zh": "我们回来了。来聊聊 MAX 7 吧。我已经记不清这些年我们聊过多少次 MAX 系列了，甚至在《The Air Show》这档节目之前，包括早年在 Cranky 网站上，我们就讨论过很多次。"
+    },
+    {
+      "id": 125,
+      "start_sec": 1419,
+      "speaker": "Brett Snyder",
+      "en": "You now actually have the MAX 7 certified, or Boeing has it certified. I can't remember when you were supposed to take delivery of that airplane. You may not remember either because it was many, many years ago, I'm sure.",
+      "zh": "现在你们的 MAX 7 终于拿到适航认证了，或者说是波音拿到了认证。我已经不记得你们原计划是什么时候接收这架飞机了，估计连你自己都记不清了，毕竟那肯定是很久很久以前的事了。"
+    },
+    {
+      "id": 126,
+      "start_sec": 1434,
+      "speaker": "Brett Snyder",
+      "en": "But the logjam has now been cleared. So, when will you have the first one on the property?",
+      "zh": "不过现在的积压僵局终于打通了。那么，你们什么时候能把第一架飞机接回机队？"
+    },
+    {
+      "id": 127,
+      "start_sec": 1441,
+      "speaker": "Andrew Watterson",
+      "en": "That should be probably still a few months. We're going down the five-phase FAA process for bringing the aircraft into service.",
+      "zh": "那可能还得等上几个月。我们正在推进 FAA 的五阶段新机型投入运行审批流程。"
+    },
+    {
+      "id": 128,
+      "start_sec": 1450,
+      "speaker": "Andrew Watterson",
+      "en": "You know, as you get further on that process, you will eventually have a first delivery that'll be ahead of entry into service. That could happen this year, could be in fourth quarter, could get into that.",
+      "zh": "随着流程不断推进，最终在正式投入商业运营（EIS）之前，我们会先完成首架飞机的交付。这有可能会在今年发生，或许是在第四季度，大概会落在那个时间段。"
+    },
+    {
+      "id": 129,
+      "start_sec": 1466,
+      "speaker": "Andrew Watterson",
+      "en": "And you would still need to do kind of proving flights, demonstrations, familiarization training, stuff like that.",
+      "zh": "而且后续还需要开展验证飞行、演示飞行以及机组熟悉性培训等一系列工作。"
+    },
+    {
+      "id": 130,
+      "start_sec": 1476,
+      "speaker": "Andrew Watterson",
+      "en": "So, this process to get it on our OpSpecs and get the ETOPS validation as well means we shouldn't count on this until kind of maybe spring break time for entering into service.",
+      "zh": "因此，要把该机型纳入我们的运行规范（OpSpecs）并完成 ETOPS 延程运行验证，意味着要到明年春假前后，才能指望它正式投入商业运营。"
+    },
+    {
+      "id": 131,
+      "start_sec": 1492,
+      "speaker": "Andrew Watterson",
+      "en": "The first one that's on property, like I said, could be November, December",
+      "zh": "至于首架飞机实际交付到场，就像我刚才说的，可能会在 11 月或 12 月"
+    },
+    {
+      "id": 132,
+      "start_sec": 1500,
+      "speaker": "Andrew Watterson",
+      "en": "that depends on how that process goes. You don't obviously rush the FAA on these safety things. You go through the milestones, and it's not a time-based, it's a milestone-based approach.",
+      "zh": "但这还要看整个流程的进展。在安全问题上，显然不能去催促 FAA。你必须按部就班地完成各个里程碑，这不是基于时间表的推进，而是基于里程碑节点的推进方式。"
+    },
+    {
+      "id": 133,
+      "start_sec": 1510,
+      "speaker": "Brett Snyder",
+      "en": "Certainly, the FAA has not been interested in being rushed over the last several years. But when these airplanes show up, I'm kind of interested about how these are going to get used, so I pulled more numbers, it's what I do.",
+      "zh": "确实，过去几年里 FAA 一直都不愿意被人催促。不过等这些飞机陆续交付后，我倒是很想知道它们将如何投入使用，所以我又调取了更多数据，毕竟这就是我的老本行。"
+    },
+    {
+      "id": 134,
+      "start_sec": 1522,
+      "speaker": "Brett Snyder",
+      "en": "So the first MAX order, it looks like it was in late 2011, MAX in general, from what I can tell. And at the end of that year, you had 698 airplanes in the fleet, none with more than 140 seats at that time.",
+      "zh": "从我查到的信息来看，第一批 MAX 订单——我是说整个 MAX 系列——大概是在 2011 年底签下的。到那年底，你们机队共有 698 架飞机，当时没有任何一架的座位数超过 140 个。"
+    },
+    {
+      "id": 135,
+      "start_sec": 1535,
+      "speaker": "Brett Snyder",
+      "en": "Of course, the 737-800s started soon after, and so then fast forward, by the end of 2018, you had more than 200 of the 175-seaters.",
+      "zh": "当然，737-800 没过多久就开始交付了，快进到 2018 年底，你们已经拥有了 200 多架 175 座级的飞机。"
+    },
+    {
+      "id": 136,
+      "start_sec": 1544,
+      "speaker": "Brett Snyder",
+      "en": "But that year, you also had more than 500 -700s flying at the end of that year, which is pretty incredible to think about.",
+      "zh": "但到那年底，你们同时还有 500 多架 737-700 在执飞，想想这数字还真挺惊人的。"
+    },
+    {
+      "id": 137,
+      "start_sec": 1552,
+      "speaker": "Brett Snyder",
+      "en": "But most of the order book at that time, it looked like it was more MAX 8 than MAX 7, maybe it was all fluid anyway on where those could go.",
+      "zh": "不过当时的储备订单里，看起来 MAX 8 的数量比 MAX 7 更多，也许那些机位分配本身就保持着一定的灵活性。"
+    },
+    {
+      "id": 138,
+      "start_sec": 1562,
+      "speaker": "Brett Snyder",
+      "en": "But when you first ordered this plane in 2011, what was the thinking about how the MAX 7 was going to work in the fleet? Was it just supposed to be a straight replacement for the -700, or was there more to it at that time?",
+      "zh": "但你们在 2011 年最初订购这款飞机时，对 MAX 7 在机队中的定位是怎么考虑的？当时只是打算用它直接一对一替换 737-700，还是另有更深层的规划？"
+    },
+    {
+      "id": 139,
+      "start_sec": 1574,
+      "speaker": "Andrew Watterson",
+      "en": "It was more about the mix of big and small aircraft. So you never want to have just one aircraft size. Whether it's missions or demand that's variable, you want to have multiple aircraft sizes to try to match supply with demand.",
+      "zh": "更多还是出于大飞机与小飞机的机队配比考虑。你绝对不会希望机队里只有单一座级的机型。无论是面对不同的航线任务，还是波动变化的市场需求，你都需要多种座级的飞机来尽量让运力供给匹配需求。"
+    },
+    {
+      "id": 140,
+      "start_sec": 1589,
+      "speaker": "Andrew Watterson",
+      "en": "For us then, that's the primary motivation. And what percentage is something you've got to have an idea on, but you negotiate your order such that you have substitution rights, so that you can vary that percentage.",
+      "zh": "因此对我们来说，这就是最主要的动因。至于具体占比多少，心里当然要有个大致框架，但你在谈判订单时会争取机型互换权，这样后续就能灵活调整这一比例。"
+    },
+    {
+      "id": 141,
+      "start_sec": 1601,
+      "speaker": "Andrew Watterson",
+      "en": "When we first ordered it, 2018, 2019, we would be like, is it 60/40 or 40/60? And now today, I think we're getting close to kind of 70/30 bigger airplanes, especially as high-frequency business markets are not what they used to be.",
+      "zh": "我们在 2018、2019 年刚订购那会儿，还在琢磨比例是六四开还是四六开。而到了今天，我认为大飞机的比例已经接近七比三，尤其是在高频商务客运市场已大不如前的情况下。"
+    },
+    {
+      "id": 142,
+      "start_sec": 1615,
+      "speaker": "Andrew Watterson",
+      "en": "That's a primary use of smaller aircraft, so the percentage of smaller aircraft is undoubtedly smaller than it was 10 years ago. It's not zero.",
+      "zh": "高频商旅原本正是小座级飞机的主力应用场景，所以小机型占比无疑比十年前低了不少，但还不至于降为零。"
+    },
+    {
+      "id": 143,
+      "start_sec": 1624,
+      "speaker": "Andrew Watterson",
+      "en": "And so we will get to a critical mass of this, and then we'll have substitution rights to modify depending on how we see the marketplace develop and evolve.",
+      "zh": "因此我们会先把该机型规模拉到一定的临界体量，然后再根据市场的发展和演变情况，利用机型互换权来做调整。"
+    },
+    {
+      "id": 144,
+      "start_sec": 1633,
+      "speaker": "Brett Snyder",
+      "en": "Okay, so we're talking about before COVID, 10 years ago. Did COVID change anything, or are these all just the trends that were going before? I mean, we've seen some of the short-haul issues before COVID, right? That wasn't really a new thing.",
+      "zh": "好，刚才我们聊的是十年前、疫情之前的情况。那么疫情是否改变了什么，还是说这些其实都是疫情前就已经在演进的趋势？毕竟短途航线面临的一些问题在疫情前就出现了，对吧？这并不算新鲜事。"
+    },
+    {
+      "id": 145,
+      "start_sec": 1647,
+      "speaker": "Brett Snyder",
+      "en": "But was there anything that happened during COVID or coming out of COVID that changes how you think about using those airplanes, or how many you want?",
+      "zh": "但在疫情期间或疫情恢复后，有没有什么变化真正改变了你们对这些飞机的使用思路，或者影响了你们的采购数量？"
+    },
+    {
+      "id": 146,
+      "start_sec": 1654,
+      "speaker": "Andrew Watterson",
+      "en": "Well, I think if you look overall industry-wide, business travel is down. Turns out if you're not in the office on Friday, nobody flies in to try to sell you something. And so therefore, you just have less business travelers.",
+      "zh": "嗯，放眼整个行业来看，商旅市场需求确实下滑了。事实证明，如果你周五都不在办公室，也就没人会专门飞过来找你推销业务了。于是商务出行旅客自然就变少了。"
+    },
+    {
+      "id": 147,
+      "start_sec": 1665,
+      "speaker": "Andrew Watterson",
+      "en": "And so that reduces, especially shorter haul, and so that reduces the demand for these high-frequency routes. They still exist, there's still a lot of them, still very profitable, but they just are a smaller composition of the whole industry and of our network.",
+      "zh": "这就会削弱需求，尤其是短途航线，进而减少对这类高频航线的需求。这类航线依然存在，数量也还不少，盈利能力也依旧很强，只是它们在整个行业以及我们的航线网络中所占的比重变小了。"
+    },
+    {
+      "id": 148,
+      "start_sec": 1678,
+      "speaker": "Andrew Watterson",
+      "en": "And so that then shifts at the margin your composition of the fleet. Now, this particular one, besides being small, it's super high-performing. It's a little heavy, but super high-performing.",
+      "zh": "这就在边际上改变了机队的构成比例。不过 MAX 7 这款机型除了座级较小之外，性能极其出众。它的空重虽然略高一点，但整体性能非常优异。"
+    },
+    {
+      "id": 149,
+      "start_sec": 1689,
+      "speaker": "Andrew Watterson",
+      "en": "So the first 27 that were already built will be ETOPS. And we'll decommission our 800 NG ETOPS aircraft. We'll keep them for Class II service.",
+      "zh": "因此，已经制造出来的首批 27 架将具备 ETOPS 延程运行资质。同时我们会撤销 737-800 NG 机队的 ETOPS 运行构型，但保留它们用于二类空域（Class II）运行。"
+    },
+    {
+      "id": 150,
+      "start_sec": 1701,
+      "speaker": "Andrew Watterson",
+      "en": "So on the East Coast, being able to operate Class II airspace helps you kind of cut the corner of the Caribbean, but also route out around, say, a JAX flow program.",
+      "zh": "这样在东海岸，具备二类空域运行能力不仅能让你飞加勒比海航线时抄近路切角，还能让你绕开诸如杰克逊维尔（JAX）空域的流量控制。"
+    },
+    {
+      "id": 151,
+      "start_sec": 1712,
+      "speaker": "Andrew Watterson",
+      "en": "Where if you went far over the ocean, it counts almost as a cancellation, so you can kind of really improve your AFP performance by doing that.",
+      "zh": "只要你向远海方向绕飞出去，就几乎相当于抵消了流控限制，这样一来就能大幅提升你在空域流量计划（AFP）下的运行表现。"
+    },
+    {
+      "id": 152,
+      "start_sec": 1722,
+      "speaker": "Andrew Watterson",
+      "en": "So we'll keep those able to do those East Coast missions, but then the ETOPS levels will be backfilled by these MAX 7s, which are super high-performing.",
+      "zh": "因此我们会保留这些飞机执行东海岸跨海任务的能力，而原本 ETOPS 延程运行的运力规模，则由性能极其出色的 MAX 7 来填补。"
+    },
+    {
+      "id": 153,
+      "start_sec": 1732,
+      "speaker": "Brett Snyder",
+      "en": "Is that really for the 800s—is that a difficult thing to maintain, the ETOPS certification? I mean, it's worth it, I guess, to stop?",
+      "zh": "对于 737-800 来说，维持 ETOPS 资质认证真的那么麻烦吗？我是说，停止维持它看来确实是划算的？"
+    },
+    {
+      "id": 154,
+      "start_sec": 1741,
+      "speaker": "Andrew Watterson",
+      "en": "Yeah, it downgrades the maintenance program from that level. So the maintenance program changes, and so if you're not going to use them for ETOPS missions, it's worthwhile to then change it to be the regular maintenance program.",
+      "zh": "是的，这样可以降低对应的维修大纲等级。一旦退出 ETOPS 构型，维修方案就会随之调整；如果你不再用它们执行 ETOPS 延程任务，将其改回常规维修大纲是很划算的。"
+    },
+    {
+      "id": 155,
+      "start_sec": 1755,
+      "speaker": "Andrew Watterson",
+      "en": "But for the equipage, keep that so it can operate in Class II airspace.",
+      "zh": "但机载设备还是会保留下来，好让它能继续在二类空域运行。"
+    },
+    {
+      "id": 156,
+      "start_sec": 1760,
+      "speaker": "Brett Snyder",
+      "en": "Okay. So how many 800s do you have that are ETOPS now, do you know?",
+      "zh": "明白。那你们现在有多少架具备 ETOPS 资质的 737-800，你知道具体数字吗？"
+    },
+    {
+      "id": 157,
+      "start_sec": 1766,
+      "speaker": "Andrew Watterson",
+      "en": "28.",
+      "zh": "28 架。"
+    },
+    {
+      "id": 158,
+      "start_sec": 1767,
+      "speaker": "Brett Snyder",
+      "en": "Oh okay, so this is basically a one-for-one replacement.",
+      "zh": "哦，这样啊，那基本就是一对一的替换了。"
+    },
+    {
+      "id": 159,
+      "start_sec": 1770,
+      "speaker": "Andrew Watterson",
+      "en": "Yeah, yeah.",
+      "zh": "对，没错。"
+    },
+    {
+      "id": 160,
+      "start_sec": 1772,
+      "speaker": "Brett Snyder",
+      "en": "But you haven't used 800s for ETOPS purposes, have you, lately? I mean, you started Hawaii with that, but have you been using it for anything in the last couple years?",
+      "zh": "不过你们最近应该没怎么用 737-800 执行 ETOPS 任务了吧？我是说，你们当年确实是用它开飞夏威夷航线的，但过去这几年还有用它飞过什么 ETOPS 航线吗？"
+    },
+    {
+      "id": 161,
+      "start_sec": 1784,
+      "speaker": "Andrew Watterson",
+      "en": "Well, we have 110 MAX 8s in an ETOPS config. Those will be scheduled for on a MAX, but if there's something that's MEL that makes it degraded and can't",
+      "zh": "我们目前有 110 架处于 ETOPS 构型的 MAX 8。这些航线本来都会优先排给 MAX 来飞，但如果飞机碰上属于最低设备清单（MEL）保留故障的项目导致性能降级、无法执行……"
+    },
+    {
+      "id": 162,
+      "start_sec": 1800,
+      "speaker": "Andrew Watterson",
+      "en": "perform ETOPS missions or in heavy maintenance, the NGs are there to, you know, make sure we have an ETOPS-capable aircraft. And so they will be occasionally on ETOPS routes, but not always, but they're maintained in the ETOPS program overall.",
+      "zh": "执行 ETOPS 任务或处于大修状态时，737NG 机队就能顶上，确保我们手头有具备 ETOPS 资质的飞机可用。因此它们偶尔会飞 ETOPS 航线，但并非常态，不过整体上依然一直保留在 ETOPS 维修与运行项目中。"
+    },
+    {
+      "id": 163,
+      "start_sec": 1811,
+      "speaker": "Brett Snyder",
+      "en": "Okay, so you just need to have something you can backfill if needed, and this is better for the backfill than having the 800s.",
+      "zh": "明白了，也就是说你们只需要在必要时有备用运力能顶上就行，而这样安排补位比用 737-800 来顶替要更合适。"
+    },
+    {
+      "id": 164,
+      "start_sec": 1819,
+      "speaker": "Brett Snyder",
+      "en": "You keep talking about how these are high performance, they're very capable airplanes. So what is the plan for where these are going to go?",
+      "zh": "你一直提到这些飞机性能出色、能力很强。那么你们计划把它们投放到哪些航线上呢？"
+    },
+    {
+      "id": 165,
+      "start_sec": 1826,
+      "speaker": "Brett Snyder",
+      "en": "I mean, we can all make guesses and we all have, but what do you want to do with these airplanes you can't do with other airplanes?",
+      "zh": "我的意思是，大家当然都可以猜一猜，而且也早就都在猜了，但你们到底想用这款飞机去飞哪些其他机型飞不了的航线呢？"
+    },
+    {
+      "id": 166,
+      "start_sec": 1834,
+      "speaker": "Andrew Watterson",
+      "en": "You know, if you look at where we currently fly, Burbank would be a nice place for that aircraft on our Burbank-Honolulu route we're doing now. And then Vegas and Phoenix, kind of as you get later in the day, the heat affects your payload range.",
+      "zh": "如果你看我们目前的航线网络，伯班克会是个很适合投放这款飞机的地方，比如我们现在飞的伯班克—檀香山航线。另外像拉斯维加斯和菲尼克斯，到了下午晚些时候，高温会影响飞机的业载航程。"
+    },
+    {
+      "id": 167,
+      "start_sec": 1846,
+      "speaker": "Andrew Watterson",
+      "en": "And so these aircraft would be able to quite easily take off in the hotter part of the day and still make it to the islands without breaking a sweat. So you'll use them in those situations.",
+      "zh": "而这款飞机在一天中最热的时段也能相当轻松地起飞，并毫不费力地直飞夏威夷群岛。所以你们会看到我们在这些场景下使用它。"
+    },
+    {
+      "id": 168,
+      "start_sec": 1857,
+      "speaker": "Andrew Watterson",
+      "en": "And also interisland, the original business case for interisland was the MAX 7.",
+      "zh": "还有岛际航线，我们最初做岛际航线的商业可行性测算时，就是以 MAX 7 为基准机型的。"
+    },
+    {
+      "id": 169,
+      "start_sec": 1863,
+      "speaker": "Andrew Watterson",
+      "en": "So you'll see more of those interisland, as you well know we flow the aircraft, so it won't be slavishly all MAX 7s, but you'll see them, you know, certainly doing their fair share if not more of interisland as well.",
+      "zh": "所以你会在岛际航线上看到更多 MAX 7。你也很清楚，我们是全网统筹串飞排班的，不会死板地全用 MAX 7 来飞，但它们肯定会承担岛际航线中相当可观的运力，甚至占到主力。"
+    },
+    {
+      "id": 170,
+      "start_sec": 1877,
+      "speaker": "Brett Snyder",
+      "en": "Can this airplane do Orange County?",
+      "zh": "这款飞机能飞橙县机场吗？"
+    },
+    {
+      "id": 171,
+      "start_sec": 1879,
+      "speaker": "Andrew Watterson",
+      "en": "Orange County to where?",
+      "zh": "从橙县飞去哪儿？"
+    },
+    {
+      "id": 172,
+      "start_sec": 1880,
+      "speaker": "Brett Snyder",
+      "en": "To Hawaii. I know it can, yes. I mean, let's not get into the absurdity of the Orange County passenger, none of that.",
+      "zh": "飞夏威夷啊。我知道它在性能上肯定行。当然，咱们先别去吐槽橙县机场那些荒唐的旅客配额限制之类的事。"
+    },
+    {
+      "id": 173,
+      "start_sec": 1889,
+      "speaker": "Brett Snyder",
+      "en": "But like, could it, if you want to bring up—I mean, people have tried this more than once over the years and it's never worked all that great, but is this something that could finally give Orange County sustainable Hawaii service?",
+      "zh": "但我是说，如果真要讨论的话——这么多年来好几家航司都试过飞这条线，但效果一直不算太好——这款机型有没有可能最终为橙县带来可持续的夏威夷航线服务？"
+    },
+    {
+      "id": 174,
+      "start_sec": 1901,
+      "speaker": "Andrew Watterson",
+      "en": "Well, it certainly has the performance to do it, whether we choose to do it is a different thing. It will take an extra 13 seats out of our allocation versus the 137-seat 700s we fly there, but yes.",
+      "zh": "嗯，它的性能完全足以胜任，不过我们是否选择去飞则是另一回事。相比我们目前在那里执飞的 137 座 737-700，用它飞会多占用我们 13 个旅客配额，但从飞机本身来看是可以的。"
+    },
+    {
+      "id": 175,
+      "start_sec": 1914,
+      "speaker": "Andrew Watterson",
+      "en": "As you know, Long Beach has a very sophisticated way of approaching noise, which encourages us to fly quieter aircraft to Long Beach, but Orange County encourages us to fly smaller, louder aircraft.",
+      "zh": "你也知道，长滩机场在噪音管控方面有一套非常精细的做法，鼓励我们飞更安静的机型去长滩；而橙县机场的规则反倒是在鼓励我们飞更小、噪音更大的飞机。"
+    },
+    {
+      "id": 176,
+      "start_sec": 1930,
+      "speaker": "Andrew Watterson",
+      "en": "But yes, we could add the MAX 7 there, you know, but it's all in the mix of what do we need at the moment.",
+      "zh": "不过是的，我们确实可以在那里投放 MAX 7，但这一切都要综合考量我们当下的运力需求。"
+    },
+    {
+      "id": 177,
+      "start_sec": 1938,
+      "speaker": "Brett Snyder",
+      "en": "Yeah, sure. And I mean, in terms of the range, does this open up Denver? You probably want more seats on a Denver-Hawaii, but how far can you push this thing?",
+      "zh": "明白，确实如此。那从航程来看，这能飞丹佛吗？当然，丹佛—夏威夷航线你们可能还是想要座位数更多的飞机，但这款机型的极限航程到底能推到多远？"
+    },
+    {
+      "id": 178,
+      "start_sec": 1947,
+      "speaker": "Andrew Watterson",
+      "en": "It could fly, you know, what the manufacturers promise, you always just have to get your own—even if you use your flight rules, you want to fly it yourself. And so it does have quite long range.",
+      "zh": "它可以飞很远，但主机厂给出的性能承诺，航司自己始终得再实测验证一遍——哪怕按自己的飞行运行规则来算，你也得亲自飞过才踏实。不过它的航程确实相当远。"
+    },
+    {
+      "id": 179,
+      "start_sec": 1959,
+      "speaker": "Andrew Watterson",
+      "en": "I'm not going to comment on whether we'll use it there or not. I think it's mostly about—the MAX 7 is mostly about replacing the 700s. We will be retiring lots of 700s.",
+      "zh": "至于我们会不会把它投放到那条航线上，我就不予置评了。我认为 MAX 7 最核心的作用还是替换 737-700。我们接下来会退役大批 737-700。"
+    },
+    {
+      "id": 180,
+      "start_sec": 1969,
+      "speaker": "Andrew Watterson",
+      "en": "So we're down to I think about 285 700s. We'll be doing a substantial portion of those will get retired next year.",
+      "zh": "目前我们机队里的 737-700 大概已经降到了 285 架左右。其中相当大一部分将在明年退役。"
+    },
+    {
+      "id": 181,
+      "start_sec": 1979,
+      "speaker": "Andrew Watterson",
+      "en": "And so it's going to be our kind of long, thin, shorter-haul aircraft is how we intend to use it, mixing it up with the 8. So it's going to be a nice complement to have a combination of big and small aircraft.",
+      "zh": "因此，我们打算把它定位为飞远程瘦长航线以及较短航距航线的机型，与 MAX 8 搭配使用。这样一大一小两种机型组合起来，会形成很好的互补。"
+    },
+    {
+      "id": 182,
+      "start_sec": 1993,
+      "speaker": "Brett Snyder",
+      "en": "Yeah, 'cause I think right now you have about, what, 260 MAX 7s on order? And I know you can substitute, but that's basically an almost one-for-one for what you have right now on the 700s. Is that right?",
+      "zh": "对，因为我记得你们目前大约有 260 架 MAX 7 的订单，是吧？我知道订单机型可以转换，但这基本相当于和你们现有的 737-700 机队一对一替换了，没错吧？"
+    },
+    {
+      "id": 183,
+      "start_sec": 2007,
+      "speaker": "Andrew Watterson",
+      "en": "Yeah, but like, are we going to take that many in MAX 7? That's something we don't—you shouldn't answer it because you don't need to answer it.",
+      "zh": "没错，不过至于我们最终是不是真的会接收那么多架 MAX 7，这件事现在还没必要下定论，因为还不到需要做决定的时候。"
+    },
+    {
+      "id": 184,
+      "start_sec": 2015,
+      "speaker": "Andrew Watterson",
+      "en": "So that will be—we'll get to a certain level and then we'll decide as we go, you know, do our fleet planning and forecast planning. Each multi-year tranche we'll look at what size aircraft do we need.",
+      "zh": "所以我们会先接收到一个特定规模，然后再边走边看，结合机队规划和需求预测来定。在每个多年期交付批次中，我们都会重新评估到底需要多大座级的飞机。"
+    },
+    {
+      "id": 185,
+      "start_sec": 2030,
+      "speaker": "Brett Snyder",
+      "en": "Yeah. And you are really the only airline that wants this airplane that's significant. Sorry, Allegiant, I know you have some too, but you know, this airplane doesn't exist without you guys. Everyone else just wants to keep getting bigger, bigger, bigger.",
+      "zh": "是啊，你们几乎是唯一一家真正需要这款机型的重量级航司了。抱歉了忠实航空，我知道你们也订了一些，但说白了，没有西南航空的话，这款飞机根本不会存在。其他所有航司都在一味追求机型大型化，越换越大。"
+    },
+    {
+      "id": 186,
+      "start_sec": 2046,
+      "speaker": "Brett Snyder",
+      "en": "But you guys still see this as having an important place in the Southwest network?",
+      "zh": "但你们依然认为它在西南航空的航线网络中占有一席之地？"
+    },
+    {
+      "id": 187,
+      "start_sec": 2050,
+      "speaker": "Andrew Watterson",
+      "en": "You could say the same thing about the 700NG. These are aircraft that kind of fit our world. We don't have regional operations, so you do need some kind of smaller aircraft.",
+      "zh": "其实对 700NG 也可以这么说。这类飞机就是很契合我们的运营模式。我们没有支线航空业务，所以机队里确实需要一款偏小座级的机型。"
+    },
+    {
+      "id": 188,
+      "start_sec": 2060,
+      "speaker": "Andrew Watterson",
+      "en": "People like to talk about the A220. It's a fine aircraft. Takeoff performance may not be the best, but it's a lighter aircraft, more modern aircraft, but it's a different cockpit.",
+      "zh": "很多人喜欢拿 A220 来说事。那确实是款不错的飞机，起飞性能或许不是顶尖，但它机身更轻、也更现代，可问题在于它的驾驶舱体系完全不同。"
+    },
+    {
+      "id": 189,
+      "start_sec": 2071,
+      "speaker": "Andrew Watterson",
+      "en": "And you start to get aircraft and crew inefficiencies when you have two aircraft that do the same mission.",
+      "zh": "当你用两款不同的飞机去执行相同的任务时，飞机调配和机组排班上就会出现效率损耗。"
+    },
+    {
+      "id": 190,
+      "start_sec": 2076,
+      "speaker": "Andrew Watterson",
+      "en": "And so when we traded those things off a number of years ago, we went with the MAX 7 over the A220 because of that efficiency penalty versus the fuel benefit, and we're happy with that choice.",
+      "zh": "因此几年前我们做权衡时，对比了这种效率损耗与燃油收益，最终还是放弃 A220 而选择了 MAX 7，而且我们对这个选择很满意。"
+    },
+    {
+      "id": 191,
+      "start_sec": 2088,
+      "speaker": "Andrew Watterson",
+      "en": "And so because it's probably relative to the 700NG, it's not as strong of a MAX contender as say the MAX 8 was a definite improvement over the 800. The MAX 7 didn't take a step backward, but it didn't really take a big step forward either.",
+      "zh": "至于相比 700NG 而言，MAX 7 的跨越幅度确实不像 MAX 8 相对 737-800 那样有压倒性的提升。MAX 7 没有退步，但也算不上迈出了一大步。"
+    },
+    {
+      "id": 192,
+      "start_sec": 2095,
+      "speaker": "Andrew Watterson",
+      "en": "So there's a role for something with that economics in our network just because today we're flying something with that economics. But how much",
+      "zh": "所以在我们的航线网络里，依然有适合这种经济性定位的机型发挥作用，因为我们现在就在飞具备这种经济性的飞机。不过具体需要多少架……"
+    },
+    {
+      "id": 193,
+      "start_sec": 2100,
+      "speaker": "Andrew Watterson",
+      "en": "it'll be a smaller composition just because it's not as efficient versus the MAX 8 as the -700 was to the -8, so it's just going to imply a smaller mix, you know, just by that economic equation.",
+      "zh": "它在机队中的占比会小一些，因为相比 MAX 8，它并不像当年 737-700 相对 737-800 那样高效，所以单从这套经济账来看，自然意味着它在机队结构中的比例会更低。"
+    },
+    {
+      "id": 194,
+      "start_sec": 2113,
+      "speaker": "Brett Snyder",
+      "en": "Hey, well, this is all good. I think we have probably hit our time limit here because we can talk for about three hours, but that is not the format of this show.",
+      "zh": "嗯，这些内容都非常精彩。我想我们的时间差不多到了，因为真聊起来我们能聊上三个小时，但这不是我们节目的形式。"
+    },
+    {
+      "id": 195,
+      "start_sec": 2121,
+      "speaker": "Brett Snyder",
+      "en": "I will leave you with one last question, so maybe the same one Brian asked before: are you going to be CEO next? You seem ready to tackle the operation, but you know, once you've fixed all that, then what's going to happen?",
+      "zh": "最后我再留一个问题，或许和 Brian 之前问过的一样：你接下来会出任 CEO 吗？你看起来已经准备好大刀阔斧理顺运营了，不过等把这些都解决之后，接下来又会怎样呢？"
+    },
+    {
+      "id": 196,
+      "start_sec": 2133,
+      "speaker": "Andrew Watterson",
+      "en": "I am going to dodge your question by saying I am really happy. I enjoy working with friends. I joined Southwest Airlines because of the people with whom I wanted to work, not because I was lusting after a certain position.",
+      "zh": "我打算这样来回避你的问题：我现在非常开心，很享受和朋友们一起共事。我加入西南航空是因为这里有我想共事的人，而不是因为我觊觎某个特定职位。"
+    },
+    {
+      "id": 197,
+      "start_sec": 2146,
+      "speaker": "Andrew Watterson",
+      "en": "I enjoyed being Chief Commercial Officer. Unfortunately, it was right during COVID, so that was kind of a bummer, and I didn't really get a chance to play with all the toys, so to speak.",
+      "zh": "我之前担任首席商务官也很开心，遗憾的是那段任期正好赶上新冠疫情，确实有点扫兴，可以说没能真正有机会把各种“工具”都施展一遍。"
+    },
+    {
+      "id": 198,
+      "start_sec": 2156,
+      "speaker": "Andrew Watterson",
+      "en": "But I'm embracing my role as COO. It's a big job. I'm very grateful for the confidence in me, and I'll keep doing that until either I retire or get something else to do.",
+      "zh": "不过现在我全心投入首席运营官一职，这是一份重任。我非常感谢大家对我的信任，我会一直干下去，直到退休或者有了别的事情可做。"
+    },
+    {
+      "id": 199,
+      "start_sec": 2168,
+      "speaker": "Brett Snyder",
+      "en": "All right. Artful dodge. I appreciate it. Thank you very much, Andrew. I appreciate the time.",
+      "zh": "好吧，很巧妙的回避，我领会了。非常感谢你，Andrew，感谢你抽出时间。"
+    },
+    {
+      "id": 200,
+      "start_sec": 2172,
+      "speaker": "Andrew Watterson",
+      "en": "My pleasure.",
+      "zh": "我的荣幸。"
+    },
+    {
+      "id": 201,
+      "start_sec": 2175,
+      "speaker": "Brett Snyder",
+      "en": "You've been listening to The Air Show. If you have suggestions or questions for us, or if you're interested in sponsoring the podcast, email us at info@theairshowpodcast.com to get in touch.",
+      "zh": "感谢收听《The Air Show》。如果你对我们有任何建议或问题，或者有意赞助本播客，欢迎发送邮件至 info@theairshowpodcast.com 与我们联系。"
+    },
+    {
+      "id": 202,
+      "start_sec": 2186,
+      "speaker": "Brett Snyder",
+      "en": "Thanks to our sponsors, Plusgrade and SkyGo. Leo Duran produced and edited this episode. Our theme music is by Joshua Mosier. Thanks for listening, and we'll be back next week with at least one more of my co-hosts.",
+      "zh": "感谢我们的赞助商 Plusgrade 和 SkyGo。本期节目由 Leo Duran 制作与剪辑，主题曲由 Joshua Mosier 创作。感谢收听，下周至少还会有我的一位联合主播与大家一同回归。"
+    }
+  ]
+}
