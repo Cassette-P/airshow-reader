@@ -80,1949 +80,1935 @@
     },
     {
       "id": 3,
-      "start_sec": 35,
+      "start_sec": 60,
       "speaker": "Kaiser Kuo",
-      "en": "Listeners, please support my work by becoming a paid subscriber at sinicapodcast.com. Yes, there are a lot of Substack newsletters out there, and yes, they do start to add up, but this is a very worthwhile subscription. In addition to Sinica, you get great content from wonderful partners of mine like Trivium and the China Global South Project, and of course, James Carter's wonderful This Week in China's History.",
-      "zh": "听众朋友们，欢迎访问 sinicapodcast.com 成为付费订阅会员来支持我的工作。确实，现在 Substack 上的专栏繁多，加在一起也是笔开销，但这绝对是一份物超所值的订阅。除了 Sinica 之外，您还能畅享包括 Trivium、China Global South Project，以及 James Carter 精彩专栏 This Week in China's History 等优秀合作伙伴的内容。"
+      "en": "When Sinica started back in 2010, it was still possible for someone to participate meaningfully in the discourse on China, on the US-China relationship, equipped with not much more than, you know, a decent grasp of the contours of modern Chinese history, a sense of geography, a familiarity with the major party leaders and their portfolios.",
+      "zh": "早在 2010 年 Sinica 刚开播时，一个人想要实质性地参与中国议题和中美关系的讨论，门槛还没有那么高：只需要大致掌握中国近代史脉络、了解基本地理区划、熟悉党内主要领导人及其分管领域即可。"
     },
     {
       "id": 4,
-      "start_sec": 60,
-      "speaker": "Kaiser Kuo",
-      "en": "So, please do subscribe so I can continue to bring you these conversations and lots more. When Sinica started back in 2010, it was still possible for someone to participate meaningfully in the discourse on China, on the US-China relationship, equipped with not much more than, you know, a decent grasp of the contours of modern Chinese history, a sense of geography, a familiarity with the major party leaders and their portfolios.",
-      "zh": "欢迎大家踊跃订阅，这样我就能继续为您带来这些精彩对谈及更多深度内容。早在 2010 年 Sinica 刚开播时，一个人想要实质性地参与中国议题和中美关系的讨论，门槛还没有那么高：只需要大致掌握中国近代史脉络、了解基本地理区划、熟悉党内主要领导人及其分管领域即可。"
-    },
-    {
-      "id": 5,
       "start_sec": 88,
       "speaker": "Kaiser Kuo",
       "en": "You know, a working knowledge of Chinese political thought and the current slogans, you know, for good measure, a couple of good internet memes, you know, to add color and levity, the ability to scan a Xinhua readout and read a little bit between the lines, and, you know, maybe a baijiu tolerance that would be sufficient to survive a provincial banquet with your dignity mostly intact.",
       "zh": "你懂的，懂一点中国政治思想和现行政治口号，最好还能随口抛出一两个网络热梗来调节气氛、增添趣味，能看懂新华社通稿并读出字里行间的微言大义，或许再加上能在地方政务宴请中全身而退且保住体面的白酒酒量。"
     },
     {
-      "id": 6,
+      "id": 5,
       "start_sec": 110,
       "speaker": "Kaiser Kuo",
       "en": "But man, things have changed. These days, to weigh in with any expectation that you'll be taken seriously, it feels like you have to know all that and a great deal more. At a minimum, it seems like you have to, you know, have your arms around AI, the entire stack, semiconductors.",
       "zh": "但如今，时代彻底变了。眼下要想发表见解并被严肃对待，你不仅要把上述这些摸得一清二楚，还要懂得更多。最起码，你得对人工智能的完整技术栈以及半导体产业了如指掌。"
     },
     {
-      "id": 7,
+      "id": 6,
       "start_sec": 128,
       "speaker": "Kaiser Kuo",
       "en": "You need to know what makes EUV lithography so damn hard, why it takes, you know, blasting molten droplets of tin with a laser like 50,000 times a second in order to make light of just the right wavelength. And you gotta have, you know, mirrors polished so smoothly that if you scaled one up to the size of Germany, there would be no bump taller than a millimeter.",
       "zh": "你得明白极紫外（EUV）光刻到底难在何处，为什么需要用激光以每秒 5 万次的频率轰击熔融锡液滴，才能激发出波长恰到好处的光源；你还得知道那些反射镜面打磨得多光滑——哪怕放大到整个德国那么大，表面的起伏也不能超过一毫米。"
     },
     {
-      "id": 8,
+      "id": 7,
       "start_sec": 151,
       "speaker": "Kaiser Kuo",
       "en": "You need to know the energy system in China. You have to have lots of stats on the energy mix, on solar, of course, and wind, ultra-high voltage transmission, all these things sort of at the ready. You need a grasp of trade flows, the difference between the current account and the capital account, why a bilateral trade deficit isn't necessarily, you know, the scorecard that people think it is.",
       "zh": "你得洞悉中国的能源体系，各类能源结构、光伏、风电、特高压输电的数据必须信手拈来。你还得吃透贸易流向，分清经常账户与资本账户的区别，明白为什么双边贸易逆差并不像很多人想象的那样是一张胜负成绩单。"
     },
     {
-      "id": 9,
+      "id": 8,
       "start_sec": 176,
       "speaker": "Kaiser Kuo",
       "en": "You need, you know, commodities. You need supply...",
       "zh": "你还得懂大宗商品，得懂供应……"
     },
     {
-      "id": 10,
+      "id": 9,
       "start_sec": 180,
       "speaker": "Kaiser Kuo",
       "en": "You need supply chain knowledge, you need military hardware knowledge, and of course, rare earths. And this last one, rare earths, has come to matter enormously over the past year and a half.",
       "zh": "你需要供应链知识，需要军事装备知识，当然，还需要稀土知识。而在过去一年半里，最后这项——稀土——变得极其重要。"
     },
     {
-      "id": 11,
+      "id": 10,
       "start_sec": 191,
       "speaker": "Kaiser Kuo",
       "en": "They've turned out to be the trump card, as it were, in Beijing's hand, the one that actually made Washington fold. If I'm mixing bridge and poker metaphors now, but after, you know, the Liberation Day tariffs in April of 2025, China put seven rare earths and, you know, the permanent magnets made from them under export licensing.",
       "zh": "稀土成了北京手中真正的“王牌”，迫使华盛顿不得不退让。虽然我把桥牌和扑克打法混在一块比喻了，但在2025年4月那轮“解放日关税”之后，中国将七种稀土及其制成的永磁体纳入了出口许可证管理。"
     },
     {
-      "id": 12,
+      "id": 11,
       "start_sec": 212,
       "speaker": "Kaiser Kuo",
       "en": "Magnet exports to the world cratered, and within a couple of months, the Trump administration was walking back its own restrictions to get the flow resumed. Then, in October, came the escalation that really got everyone's attention.",
       "zh": "全球磁体出口遭遇断崖式下跌，短短几个月内，特朗普政府便开始撤回自身限制，以恢复稀土流动。随后在10月，迎来了真正引发全网瞩目的升级举措。"
     },
     {
-      "id": 13,
+      "id": 12,
       "start_sec": 225,
       "speaker": "Kaiser Kuo",
       "en": "China was responding to the Entity List of the affiliate rule, you know, the expansion of the list, asserting the right to license any product anywhere in the world containing even a trace of Chinese rare earths or made with Chinese processing technology.",
       "zh": "为了回应针对关联机构扩展的实体清单，中国明确主张有权对全球任何含有微量中国稀土或采用中国加工技术生产的产品进行许可证审批。"
     },
     {
-      "id": 14,
+      "id": 13,
       "start_sec": 241,
       "speaker": "Kaiser Kuo",
       "en": "That was, of course, followed up by the truce at Busan in Korea that suspended this for a year—a year that, if you are counting, is nearly up in November. For those who need the primer, the rare earths are 17 metallic elements.",
       "zh": "紧接着，双方在韩国釜山达成停火协议，将该措施暂停一年——如果你留心算一下，这个一年之期到11月就快届满了。先给不熟悉的听众做个基础科普：稀土包含17种金属元素。"
     },
     {
-      "id": 15,
+      "id": 14,
       "start_sec": 257,
       "speaker": "Kaiser Kuo",
       "en": "The 15 lanthanides, that double row that sits like an island off the south coast of the periodic table, kind of like the periodic table's Hainan Dao, plus their chemical cousins scandium and yttrium. The one thing people seem to know now—they didn't know then, but they actually do know—is that they are not rare.",
       "zh": "包括镧系15个元素，也就是元素周期表底部宛如离岛孤悬的那两行，有点像元素周期表上的“海南岛”；此外还有化学性质相近的“表亲”钪和钇。如今大家似乎都有一个共识——以前可能不清楚，但现在都知道了——那就是它们其实并不稀缺。"
     },
     {
-      "id": 16,
+      "id": 15,
       "start_sec": 277,
       "speaker": "Kaiser Kuo",
       "en": "That what's actually rare is finding them in concentrations that are, you know, worth mining and then separating them from one another, which is really chemically very fiddly and environmentally really filthy.",
       "zh": "真正罕见的是富集到具备开采价值的矿藏，以及将它们彼此分离提纯——这在化学工艺上极其繁琐，在环境层面也极具污染性。"
     },
     {
-      "id": 17,
+      "id": 16,
       "start_sec": 289,
       "speaker": "Kaiser Kuo",
       "en": "They go into, again, the permanent magnets that spin the motors in EVs, in wind turbines, and hard drives, the phosphors in your screen that you're looking at as you're reading this or listening to this, into catalysts, lasers, glass polishing, and into, you know, F-35s, into precision-guided munitions, into jet engines. It's a really small industry, actually, in terms of its sheer size, but with a mighty, mighty footprint.",
       "zh": "它们被广泛应用于驱动电动汽车、风力涡轮机和硬盘电机的永磁体；用于你此时阅读或收听本期节目所凝视的屏幕荧光粉；用于催化剂、激光器、玻璃抛光；甚至用于F-35隐形战斗机、精确制导弹药和喷气发动机。从绝对产值规模来看，这确实是一个体量极小的产业，但其战略影响力却无比巨大。"
     },
     {
-      "id": 18,
+      "id": 17,
       "start_sec": 319,
       "speaker": "Kaiser Kuo",
       "en": "And China, as a lot of people now know, does roughly 85% of the world's processing of rare earth elements. Some of you will remember that I did a show on this topic back in February of 2021 with the geographer Julie Klinger, who's the author of *Rare Earth Frontiers*, still a very worthwhile book to read.",
       "zh": "正如很多人现在所了解的，中国承担了全球大约85%的稀土元素加工提炼。部分听众可能还记得，早在2021年2月，我就曾与地理学家Julie Klinger录过一期探讨该话题的节目。她是《Rare Earth Frontiers》一书的作者，这本书至今仍非常值得一读。"
     },
     {
-      "id": 19,
+      "id": 18,
       "start_sec": 337,
       "speaker": "Kaiser Kuo",
       "en": "Julie talked about how rare earths first broke into the broader public consciousness in the United States on the back of a couple of things. One, so I mean of course, there was this incident between China and Japan in 2010, which we will get into a little bit in this conversation, and the movie, of all things, *Avatar*, which, as you will recall, was a story about a galactic struggle to control a rare...",
       "zh": "Julie当时谈到，稀土之所以初次进入美国大众视野，主要归因于几件事。其一是2010年中日之间发生的那起摩擦，我们稍后的对话中也会深入探讨；其二竟然是电影《阿凡达》，大家可能还记得，那讲的就是一场围绕争夺稀有资源的星际争霸……"
     },
     {
-      "id": 20,
+      "id": 19,
       "start_sec": 373,
       "speaker": "Kaiser Kuo",
       "en": "A galactic struggle to control a rare-earth-like substance called, with James Cameron's characteristic subtlety, unobtanium. The story most people tell about how China came to dominate rare earths is a story of foresight, of a master plan hatched, you know, decades ago, and now coming to fruition.",
-      "zh": "一场为了争夺类似稀土物质的银河之战，按照詹姆斯·卡梅隆一贯缺乏含蓄的风格，那种物质被直截了当地命名为“难得素”（Unobtanium）。大多数人讲述中国如何主导稀土产业的故事，总是一段充满远见卓识的叙事，仿佛几十年前就布下了一盘宏大棋局，如今终于开花结果。"
+      "zh": "一场为了争夺类似稀土物质的银河之战，按照James Cameron一贯缺乏含蓄的风格，那种物质被直截了当地命名为“难得素”（Unobtanium）。大多数人讲述中国如何主导稀土产业的故事，总是一段充满远见卓识的叙事，仿佛几十年前就布下了一盘宏大棋局，如今终于开花结果。"
     },
     {
-      "id": 21,
+      "id": 20,
       "start_sec": 394,
       "speaker": "Kaiser Kuo",
       "en": "But my guests today have written a piece that argues that this story gets a lot wrong, and that getting it wrong has real consequences for how the U.S. and China are managing what they call an action-reaction spiral that neither side actually started, and neither really fully controls. Their new essay in Foreign Affairs traces how China's rare earth dominance actually came about.",
       "zh": "但我今天的两位嘉宾撰写了一篇文章，指出这种叙事存在大量事实偏差；而认清这种偏差至关重要，因为它直接影响到中美两国当下如何应对一种所谓的“行动-反应”螺旋——这种螺旋既非任何一方单方面挑起，也非任何一方能够完全掌控。她们发表在《外交事务》（Foreign Affairs）上的新文，还原了中国确立稀土主导地位的真实历程。"
     },
     {
-      "id": 22,
+      "id": 21,
       "start_sec": 416,
       "speaker": "Kaiser Kuo",
       "en": "Through a messy and decades-long tangle of development imperatives, local government defiance, environmental catastrophes, real problems, scarcity anxiety, and only quite recently, a lesson in geoeconomic chokepoint weaponization that was actually learned from Washington itself.",
       "zh": "这一过程交织着长达数十年的混乱纠葛：发展的硬性诉求、地方政府的抗命抵触、触目惊心的环境灾难、真正的资源匮乏焦虑，以及直到最近才从华盛顿本身学来的地缘经济卡脖子“武器化”手段。"
     },
     {
-      "id": 23,
+      "id": 22,
       "start_sec": 439,
       "speaker": "Kaiser Kuo",
       "en": "Gloria Xiong is the lead author. She is an assistant professor of government at Colby College, and she is a scholar of Chinese political economy and foreign economic policy. Someone who does the thing this field needs more of, which is, you know, actually reading the Chinese-language policy documents, the industry commentary, and the internal debates, rather than just reasoning backward from outcomes.",
       "zh": "Gloria Xiong（熊立平）是第一作者，她是科尔比学院的政府学助理教授，也是研究中国政治经济学与对外经济政策的学者。她踏实地践行着该领域极为亟需的研究方法：真正去研读中文政策文件、行业评论和内部争鸣，而不是仅仅根据既成结果去反向推演。"
     },
     {
-      "id": 24,
+      "id": 23,
       "start_sec": 461,
       "speaker": "Kaiser Kuo",
       "en": "She was also one of co-author Jessica Chen Weiss's PhD students, which I gather makes this a very satisfying collaboration for both of them. Jessica, most of you already know, she is the David M. Lampton Professor of China Studies at the Johns Hopkins School of Advanced International Studies, a chair named for Mike Lampton, who was on this show himself not so very long ago.",
-      "zh": "她还是合著者 Jessica Chen Weiss（白洁曦）指导过的博士生之一，想必对两人而言，这都是一次极有成就感的合作。大家对 Jessica 大多都很熟悉了，她是约翰斯·霍普金斯大学高级国际问题研究院（SAIS）的“戴维·M·兰普顿中国研究讲席教授”——这一教席正是以不久前才做客过本节目的 Mike Lampton（蓝普顿）命名的。"
+      "zh": "她还是合著者 Jessica Chen Weiss（白洁曦）指导过的博士生之一，想必对两人而言，这都是一次极有成就感的合作。大家对 Jessica 大多都很熟悉了，她是约翰斯·霍普金斯大学高级国际问题研究院（SAIS）的“David M. Lampton中国研究讲席教授”——这一教席正是以不久前才做客过本节目的 Mike Lampton（蓝普顿）命名的。"
     },
     {
-      "id": 25,
+      "id": 24,
       "start_sec": 483,
       "speaker": "Kaiser Kuo",
       "en": "She is a non-resident senior fellow at the Asia Society Policy Institute's Center for China Analysis. And from August 2021 to July 2022, she served as a senior advisor on the Secretary of State's Policy Planning Staff under the Biden administration. And she has, since leaving government, been one of the most prominent and courageous voices arguing for a U.S.-China policy oriented around stability rather than unconditional competition.",
       "zh": "她兼任亚洲协会政策研究所中国分析中心的非驻会高级研究员。2021年8月至2022年7月期间，她曾担任拜登政府国务卿政策规划司的高级顾问。离开政府后，她一直是倡导以求稳而非无底线竞争为导向的中美政策的最突出、最具勇气的学者之一。"
     },
     {
-      "id": 26,
+      "id": 25,
       "start_sec": 510,
       "speaker": "Kaiser Kuo",
       "en": "She's been on Sinica many, many times. I also had the great pleasure of having dinner with both of them not very long ago in Beijing, Jessica's hubby and kids. One of them or both of them might show up in BBC style during the course of this interview. It's Labor Day, so they're at home.",
       "zh": "她曾多次做客《思客》（Sinica）。不久前我还有幸在北京与她们二位共进晚餐，同行的还有 Jessica 的丈夫和孩子们。在今天的连线采访中，孩子们可能会像当年 BBC 连线直播那样突然入镜。今天是美国的劳动节假期，所以他们都在家。"
     },
     {
-      "id": 27,
+      "id": 26,
       "start_sec": 526,
       "speaker": "Kaiser Kuo",
       "en": "And also Gloria's mom, I don't think Gloria's mom is going to show up on screen here, but... It was actually at one of my very favorite restaurants here in Beijing. They didn't tell me then that this piece was in the works. As usual, I recommend if you have...",
       "zh": "还有 Gloria 的母亲——不过我觉得 Gloria 的母亲应该不会在镜头前露面。那顿饭是在北京我最喜欢的餐厅之一吃的。当时她们还没告诉我这篇文章正在筹备。照例，我建议大家如果有条件……"
     },
     {
-      "id": 28,
+      "id": 27,
       "start_sec": 540,
       "speaker": "Kaiser Kuo",
       "en": "And haven't already read it, maybe hit pause and head over to Foreign Affairs to give it a read before we go on. The piece is called \"How China Found Its Most Potent Weapon: The Real History of Beijing's Rare Earth Dominance.\"",
       "zh": "如果你还没读过，不妨先按个暂停，去《外交事务》（Foreign Affairs）读一读这篇文章再继续收听。这篇大作题为《中国如何觅得其最强武器：北京稀土主导地位的真实历史》。"
     },
     {
-      "id": 29,
+      "id": 28,
       "start_sec": 553,
       "speaker": "Kaiser Kuo",
       "en": "But even if you haven't, you are sure to get a lot out of this conversation. So Gloria, Jessica, great to see you both. Welcome Gloria, and welcome back Jessica, to Sinica.",
       "zh": "不过就算你还没看，也绝对能从本期对话中收获满满。Gloria、Jessica，非常高兴见到两位。欢迎 Gloria，也欢迎 Jessica 重返 Sinica。"
     },
     {
-      "id": 30,
+      "id": 29,
       "start_sec": 564,
       "speaker": "Gloria Xiong",
       "en": "Great to be here, Kaiser. As a longtime listener myself, very honored to be here for the first time.",
       "zh": "很高兴来到这里，Kaiser。我自己就是多年的老听众了，第一次做客节目深感荣幸。"
     },
     {
-      "id": 31,
+      "id": 30,
       "start_sec": 571,
       "speaker": "Kaiser Kuo",
       "en": "Ah, well, it's wonderful to have you. And it's a terrific piece. I hope that I got the division of labor between the two of you correctly so that I ask you each the right questions, but don't feel obligated to answer, if you want to pass to the other.",
       "zh": "能请到你真是太棒了。文章写得非常精彩。我希望我对你们两位的分工理解得没错，能向各自提出合适的问题；但如果想让对方作答，也千万别觉得非回答不可。"
     },
     {
-      "id": 32,
+      "id": 31,
       "start_sec": 585,
       "speaker": "Kaiser Kuo",
       "en": "You know, in the interest of even division of number of questions, I might have gotten some of these wrong. But look Gloria, let us start with you, and let's start where your piece starts really, with this Deng Xiaoping quote: \"The Middle East has oil, China has rare earths.\"",
       "zh": "为了平衡提问数量，我可能有些地方把握得不准。不过 Gloria，我们先从你开始吧，就从你们文章开篇引用的邓小平名言讲起：“中东有石油，中国有稀土。”"
     },
     {
-      "id": 33,
+      "id": 32,
       "start_sec": 600,
       "speaker": "Kaiser Kuo",
       "en": "He said that back in 1992. It's been recited like scripture over, especially over the past year, always with the same kind of implied gloss, that Deng Xiaoping was announcing a coercive intent, a Chinese OPEC in the wings, right?",
       "zh": "那是他在1992年说的话。尤其是过去一年里，这句话几乎被当成圣经般反复引述，而且总是带着同一种潜台词：即邓小平当年是在宣示一种威慑企图，暗示中国版“欧佩克”已在酝酿之中，对吧？"
     },
     {
-      "id": 34,
+      "id": 33,
       "start_sec": 617,
       "speaker": "Kaiser Kuo",
       "en": "You go back, though, and you guys put the quote in context: the immediate aftermath of the First Gulf War, you know, after the Iraqi invasion of Kuwait, and Deng's follow-on remark that \"we haven't paid enough attention to how to use this treasure.\"",
       "zh": "但你们回溯了历史，把这句话放回了当时的具体语境：第一次海湾战争刚结束不久，也就是伊拉克入侵科威特之后，邓小平紧接着还说了一句：“我们对如何利用好这一宝贝关注还不够。”"
     },
     {
-      "id": 35,
+      "id": 34,
       "start_sec": 632,
       "speaker": "Kaiser Kuo",
       "en": "So, what was Deng actually saying back in '92, and what does it tell us about how a quote gets recruited, gets used 30 years later, gets spun into a story that its speaker never actually was telling?",
       "zh": "那么，邓小平在1992年究竟表达的是什么意思？这又如何揭示出一句话是怎样在30年后被断章取义、借题发挥，甚至被编造成讲话者当年根本未曾表述过的故事？"
     },
     {
-      "id": 36,
+      "id": 35,
       "start_sec": 646,
       "speaker": "Gloria Xiong",
       "en": "I'm glad you ask about this quote because an intriguing finding early on in our research is that according to Deng's nianpu, he made this comment in 1991 when inspecting Shanghai Volkswagen, saying that we haven't conducted extensive research yet, haven't paid enough attention as to how to use this treasure.",
       "zh": "很高兴你问到这句引言，因为我们在研究初期就有一个很有意思的发现：根据《邓小平年谱》，他实际上是在1991年视察上海大众汽车时说这番话的，当时他说的是我们还没开展深入研究，对如何利用好这一宝贝关注还不够。"
     },
     {
-      "id": 37,
+      "id": 36,
       "start_sec": 670,
       "speaker": "Gloria Xiong",
       "en": "My reading of this is that China knew rare earths were strategically valuable, which is why Deng said we must protect rare earth resources, but they hadn't really figured out whether or how to use them on the geopolitical stage.",
       "zh": "我对这句话的解读是，中国当时深知稀土具有战略价值，这也是邓小平强调必须保护稀土资源的原因，但他们根本还没琢磨清楚是否要在、或者如何在跨国地缘政治舞台上将其付诸运用。"
     },
     {
-      "id": 38,
+      "id": 37,
       "start_sec": 692,
       "speaker": "Gloria Xiong",
       "en": "And I would highlight this: so this quote, the very catchy quote, \"Middle East has oil, China has rare earths,\" it's not just everywhere in English-language reports and analysis. Chinese media often cited this and saying that Deng said it in 1992 as well.",
       "zh": "而且我想强调一点：这句极为朗朗上口的“中东有石油，中国有稀土”，不仅充斥于英文媒体的报道和分析中，中国媒体其实也经常引用，并且同样讹传说成是邓小平在1992年讲的。"
     },
     {
-      "id": 39,
+      "id": 38,
       "start_sec": 708,
       "speaker": "Gloria Xiong",
       "en": "I think I mean it's catchy because it points to the analogy of different kinds of choke points in the global economy. In many ways, this quote became a microcosm...",
       "zh": "我觉得它之所以深入人心，是因为它形象地类比了全球经济中各种不同形态的“卡脖子”环节。在很多层面上，这句话已经演变成了一个微观缩影……"
     },
     {
-      "id": 40,
+      "id": 39,
       "start_sec": 720,
       "speaker": "Gloria Xiong",
       "en": "Part of the broader debate that we have over China's intention and uncertainty around this, you know, indicate how one interpreted foreign policy from leader statements or from behavior and policy, right?",
       "zh": "关于中国战略意图以及围绕此展开的不确定性的更广泛辩论，实际上反映出人们是如何根据领导人的表态，或者其具体行为与政策来解读外交政策的，对吧？"
     },
     {
-      "id": 41,
+      "id": 40,
       "start_sec": 738,
       "speaker": "Gloria Xiong",
       "en": "And I would argue that placing too much emphasis on what leaders say in this case makes it very easy to gloss away what's actually happening in China's rare earth industry in the decades following the statement.",
       "zh": "我认为，在这种情况下如果过分强调领导人的言论，就很容易忽视在这一表态之后数十年间，中国稀土产业内部真正发生的实情。"
     },
     {
-      "id": 42,
+      "id": 41,
       "start_sec": 754,
       "speaker": "Kaiser Kuo",
       "en": "Right, right, right. Excellent. And yeah, it's usually the case that things are a lot more complicated. Jessica, you've spent years now pushing back, and I think quite heroically, on what you've called threat inflation, what, you know, I also call threat inflation.",
       "zh": "没错，确实如此。讲得太好了。实际情况往往要复杂得多。Jessica，你多年来一直致力于反驳——我认为这种努力甚至堪称英勇——你所谓的“威胁夸大”（threat inflation），也就是我也常说的威胁夸大。"
     },
     {
-      "id": 43,
+      "id": 42,
       "start_sec": 768,
       "speaker": "Kaiser Kuo",
       "en": "This tendency in Washington to read Chinese behavior as more coordinated, as more intentional, and, you know, really more malevolent than the evidence actually supports.",
       "zh": "华盛顿往往倾向于将中国的行为解读得比实际证据所能支撑的更具协调性、更具意图性，甚至可以说带有更强烈的恶意。"
     },
     {
-      "id": 44,
+      "id": 43,
       "start_sec": 780,
       "speaker": "Kaiser Kuo",
       "en": "The master plan story about rare earths seems like a textbook case of this. You know, the House Committee, you've got them, you know, saying Xi Jinping is actualizing Deng's vision, Miles Yu calling it a deliberate, decades-long strategy.",
       "zh": "关于稀土的“宏大蓝图”（master plan）叙事似乎就是这方面的教科书式案例。你看，众议院特别委员会声称习近平正在实现邓小平的构想，Miles Yu（余茂春）也称其为一项蓄意谋划数十年的战略。"
     },
     {
-      "id": 45,
+      "id": 44,
       "start_sec": 794,
       "speaker": "Kaiser Kuo",
       "en": "What is it about this story that makes it so irresistible across the partisan spectrum? Is there something specific to critical minerals, like, you know, their tangibility, or maybe their mysteriousness? Or, you know, the OPEC analogy, or maybe, you know, American PTSD, 50 years on, over the Arab oil embargo from 1973? What is it that makes this master plan reading so hard to dislodge?",
       "zh": "这个故事究竟有什么魔力，让华盛顿跨党派阵营都对此深信不疑？是因为关键矿产本身的某些特性，比如其实体可见性，亦或是其神秘感？还是欧佩克式的类比，亦或是美国人在1973年阿拉伯石油禁运50年后至今仍挥之不去的创伤后应激反应（PTSD）？究竟是什么让这种“宏大蓝图”式的解读如此根深蒂固、难以破除？"
     },
     {
-      "id": 46,
+      "id": 45,
       "start_sec": 822,
       "speaker": "Jessica Chen Weiss",
       "en": "Well, first of all, Kaiser, it's great to be here with you, as always. I think the answer to this question, maybe speculating, I think maybe it comes from two different reasons.",
       "zh": "首先，Kaiser，非常高兴一如既往地来参加你的节目。对于这个问题，抛开推测不谈，我认为大概可以归结为两个不同的原因。"
     },
     {
-      "id": 47,
+      "id": 46,
       "start_sec": 832,
       "speaker": "Jessica Chen Weiss",
       "en": "One is that it was so unexpected. This was not something that the United States has been paying attention to or monitoring for a long time, even though, you know, as we note in the article, there were warnings dating to 2010 that this was an unhealthy and potentially exploitable dependency.",
       "zh": "其一是这种局面令人猝不及防。美国长期以来并未对此给予足够重视或监测，尽管正如我们在文章中所指出的，早在2010年就已有警告称这是一种不健康且可能被利用的依赖关系。"
     },
     {
-      "id": 48,
+      "id": 47,
       "start_sec": 847,
       "speaker": "Jessica Chen Weiss",
       "en": "I think the other is that China indeed has tried to secure a kind of market position for many years. But for the reasons that we document here, first it had difficulty doing so, and then second, that securing a more commanding position in the market is still not the same as trying to weaponize it effectively against others.",
       "zh": "我认为另一个原因在于，中国多年来确实一直试图确立某种市场主导地位。但正如我们在此记录的那样，首先中国在实现这一目标时历经波折；其次，在市场上占据优势地位，并不等同于要将其有效地武器化来对付他国。"
     },
     {
-      "id": 49,
+      "id": 48,
       "start_sec": 871,
       "speaker": "Jessica Chen Weiss",
       "en": "And so, I think that a lot of these different objectives have been blurred together, and that, as Gloria pointed out, a lot of this effort to establish a more commanding position in the industry was in part an effort to avoid developing the opposite kind of dependency, that China could quickly run out of these, this belief in the scarcity of these elements.",
       "zh": "因此，我认为许多不同的政策目标被混为一谈了。正如Gloria所指出的，在产业中建立更强话语权的诸多努力，部分原因是为了避免形成另一种反向依赖，即担忧国内稀土资源很快枯竭，这是出于对这些元素稀缺性的深深焦虑。"
     },
     {
-      "id": 50,
+      "id": 49,
       "start_sec": 900,
       "speaker": "Jessica Chen Weiss",
       "en": "China really didn't want to become dependent on them, importing them much as it is for oil and gas. And so there can be, Right. with these outcomes, because they do have this nearly unassailable position in the global market, 85% of processing dominance.",
       "zh": "中国确实不希望在稀土上形成依赖，陷入像石油和天然气那样严重依赖进口的境地。因此才会出现这样的结果，毕竟他们在全球市场上占据了几乎不可动摇的地位，掌握了85%的加工提炼份额。"
     },
     {
-      "id": 51,
+      "id": 50,
       "start_sec": 918,
       "speaker": "Jessica Chen Weiss",
       "en": "So that's real, and it has been a very effective chokehold used to fight off the Trump administration when it escalated wildly with its tariffs and export restrictions. Yeah, yeah.",
       "zh": "这种优势是实实在在的，并且已经成为一种非常有效的卡脖子手段，在特朗普政府疯狂升级关税和出口管制时被用来进行反制。是的，确实。"
     },
     {
-      "id": 52,
+      "id": 51,
       "start_sec": 929,
       "speaker": "Jessica Chen Weiss",
       "en": "And that I think ads up to: how did we get here? And then, you know, as you point out, you know, there's a lot of quick tendency to rush for the 'well, this was a plot all along.'",
       "zh": "我认为这就引出了一个问题：我们究竟是如何走到这一步的？然后，正如你所指出的，人们往往很容易迅速倒向一种论调，即“这自始至终都是一场蓄谋已久的阴谋”。"
     },
     {
-      "id": 53,
+      "id": 52,
       "start_sec": 940,
       "speaker": "Kaiser Kuo",
       "en": "Right, the 'hundred-year marathon' stuff, or you know, all the that stuff becomes so, you know, de rigueur now in D.C. Gloria, though, let's go back to the '80s.",
       "zh": "对，“百年马拉松”之类的论调，在华盛顿如今几乎成了政治正确的标准叙事。不过 Gloria，让我们回到20世纪80年代。"
     },
     {
-      "id": 54,
+      "id": 53,
       "start_sec": 949,
       "speaker": "Kaiser Kuo",
       "en": "There's there's a kind of irony in in the account that you present. The actual technological breakthrough, the invention of this much cheaper method to separate rare earth elements, coincided with this boom globally in demand for semiconductors.",
       "zh": "在你的叙述中有一种颇具讽刺意味的巧合。真正的技术突破，即发明了这种成本极低的稀土元素分离方法，恰好赶上了全球半导体需求的爆发式增长。"
     },
     {
-      "id": 55,
+      "id": 54,
       "start_sec": 966,
       "speaker": "Kaiser Kuo",
       "en": "So, you see semiconductor demand just absolutely explode. The state's overriding priority isn't actually controlling the resource at all; it's actually accumulating foreign exchange.",
       "zh": "所以，半导体需求呈现出绝对的爆炸式增长。而国家当时压倒一切的首要任务根本不是控制资源，而是积累外汇。"
     },
     {
-      "id": 56,
+      "id": 55,
       "start_sec": 975,
       "speaker": "Kaiser Kuo",
       "en": "So, Beijing tolerates this kind of cheap and dirty approach: small-scale mining operations, they're quite destructive, they're barely regulated at all. The output is shipped right off to Japan, to the United States, to Europe.",
       "zh": "因此，北京默许了这种“低廉且肮脏”的做法：小规模采矿作业极具破坏性，几乎毫无监管。开采出来的原料被直接运往日本、美国和欧洲。"
     },
     {
-      "id": 57,
+      "id": 56,
       "start_sec": 993,
       "speaker": "Kaiser Kuo",
       "en": "So, should we understand China's eventual dominance in rare earths as basically a byproduct of the 'export at any cost' mentality of the reform era? And when does anyone in Beijing actually start to notice that they've built something that is strategically consequential?",
       "zh": "那么，我们是否应该将中国最终在稀土领域的支配地位，本质上理解为改革开放时期“不惜一切代价抓出口”心态的副产品？北京又是在何时才真正意识到，自己打造出的东西具有重大的战略意义？"
     },
     {
-      "id": 58,
+      "id": 57,
       "start_sec": 1009,
       "speaker": "Gloria Xiong",
       "en": "Hmm. So, well, as early as 1990, China has already declared rare earths as protected and strategic minerals.",
       "zh": "嗯。其实早在1990年，中国就已经将稀土列为受保护的战略性矿产。"
     },
     {
-      "id": 59,
+      "id": 58,
       "start_sec": 1019,
       "speaker": "Gloria Xiong",
       "en": "So, what we try to highlight in our piece is that, despite this designation, Beijing's strategic priorities in this sector have evolved gradually over time.",
       "zh": "我们在文章中试图强调的是，尽管有了这一定性，北京在该领域的战略优先级却是随着时间推移逐步演变的。"
     },
     {
-      "id": 60,
+      "id": 59,
       "start_sec": 1031,
       "speaker": "Gloria Xiong",
       "en": "It was, as you mentioned, regarded as a highly profitable sector at the time. Local and private enterprises rushed into the market in the '80s and '90s, so the industry was at time fragmented with thousands of small mines.",
       "zh": "正如你所提到的，稀土在当时被视为利润极其丰厚的行业。地方和民营企业在80年代和90年代蜂拥而入，因此整个行业一度极度分散，存在着数以千计的小矿山。"
     },
     {
-      "id": 61,
+      "id": 60,
       "start_sec": 1047,
       "speaker": "Gloria Xiong",
       "en": "So, yeah, I agree with you, Kaiser, that it can be seen as this product of the reform era's priorities. Right. And also set against a global backdrop where neoliberalism was at its height, right?",
       "zh": "所以，是的，我同意你的看法，Kaiser，这确实可以被看作是改革开放时期优先政策的产物。对。而且它还契合了当时新自由主义处于鼎盛时期的全球大背景，对吧？"
     },
     {
-      "id": 62,
+      "id": 61,
       "start_sec": 1060,
       "speaker": "Gloria Xiong",
       "en": "So, the United States and and Europe were actually very happy with offshoring extraction and processing to China. It's cheaper, and pollution happened elsewhere. And then, after the turn of the century, various problems in the industry became too salient to ignore.",
       "zh": "因此，美国和欧洲其实非常乐意将开采和加工环节外包给中国。这样成本更低，而且污染也留在了别处。到了世纪之交以后，该行业暴露出的各种问题已经尖锐到无法忽视的地步。"
     },
     {
-      "id": 63,
+      "id": 62,
       "start_sec": 1080,
       "speaker": "Gloria Xiong",
-      "en": "ignoring for China, such as overproduction and domestic price wars, um from competing with each other on exports. And this leads many Chinese experts to complain about China's weak export pricing power.",
-      "zh": "中国自身也无法忽视的一系列问题，比如产能过剩、国内因争夺出口份额而打价格战。这也导致许多中国专家抱怨中国在出口上的定价权过于软弱。"
+      "en": "Such as overproduction and domestic price wars, um from competing with each other on exports. And this leads many Chinese experts to complain about China's weak export pricing power.",
+      "zh": "比如产能过剩、国内因争夺出口份额而打价格战。这也导致许多中国专家抱怨中国在出口上的定价权过于软弱。"
     },
     {
-      "id": 64,
+      "id": 63,
       "start_sec": 1095,
       "speaker": "Gloria Xiong",
       "en": "They lament that China has been selling rare earths at the price of cabbage and dirt. So they're not really happy with this cheap pricing situation.",
       "zh": "他们感叹中国一直在“把稀土卖出白菜价”。因此，他们对这种贱卖的现状极为不满。"
     },
     {
-      "id": 65,
+      "id": 64,
       "start_sec": 1104,
       "speaker": "Gloria Xiong",
       "en": "And then environmental and public health impact became harder to ignore. I really like this phrase used by Julie Klinger in her book describing the severity, and she phrased it as radioactive rivers, cancer village, and long-toothed diseases.",
       "zh": "随之而来的是，环境和公共卫生影响变得越来越难以忽视。我很喜欢 Julie Klinger 在书里描述其严重程度时用的一个说法，她将其形容为“放射性河流”、“癌症村”和“长牙病”。"
     },
     {
-      "id": 66,
+      "id": 65,
       "start_sec": 1125,
       "speaker": "Gloria Xiong",
       "en": "So again, you know, we see this shift from peak production to conserving strategic resources and more environmental oversight in the early 2000s. And I would say the really the critical turning point for China to say, you know, rare earths are strategically consequential is 2010, the 2010 crisis with Japan.",
       "zh": "所以我们再次看到，在2000年代初，政策重心从片面追求产量高峰转向保护战略资源以及加强环境监管。而我认为，促使中国真正意识到稀土具有重大战略意义的关键转折点，是2010年——即2010年与日本的危机。"
     },
     {
-      "id": 67,
+      "id": 66,
       "start_sec": 1147,
       "speaker": "Kaiser Kuo",
       "en": "Yeah, I want to get to that in just a second. I want to talk a little bit about this inability of the central government, or the struggle of the central government had to rein in these small independent producers.",
       "zh": "是的，我稍后就想聊聊这个。我想先谈谈中央政府在约束这些小型独立生产商时的无力感，或者说中央政府所经历的艰扎。"
     },
     {
-      "id": 68,
+      "id": 67,
       "start_sec": 1158,
       "speaker": "Kaiser Kuo",
       "en": "But first, I want to turn to Jessica really quickly, because there's the Western side of this whole bargain. They're very happy to not have the tailings lakes and not have the acid rain. You know, 90% of the precipitation in that region was acidic.",
       "zh": "不过在此之前，我想先问问 Jessica。因为在这场交易中，西方也有自己的一套算盘：他们非常庆幸自己不用面对尾矿湖，不用面对酸雨——要知道，当地90%的降水都呈酸性。"
     },
     {
-      "id": 69,
+      "id": 68,
       "start_sec": 1175,
       "speaker": "Kaiser Kuo",
       "en": "You know, rare earths aren't rare, but, you know, what is rare is any geography that's willing to deal with all of that, those horrible externalities. And China at that moment was. So it was kind of a good bargain for the West.",
       "zh": "其实稀土并不稀有，真正稀有的是愿意承受这一切、愿意吞下这些可怕负外部性的地区。而当年的中国恰恰愿意接纳。所以对西方来说，这算是一笔相当划算的买卖。"
     },
     {
-      "id": 70,
+      "id": 69,
       "start_sec": 1189,
       "speaker": "Kaiser Kuo",
       "en": "They were getting, you know, rare earths at the price of cabbage and dirt, but they weren't having to suffer the externalities. So offshoring the whole business in China, it lowered prices for everything downstream from that, the pollution was moved somewhere else, and they were fine with that for 20 years.",
       "zh": "他们以“白菜价”买到了稀土，自己却不用承受任何负面代价。把整个产业外包给中国，压低了所有下游产品的价格，污染也被转移到了别处，而他们就这样心安理得地过了20年。"
     },
     {
-      "id": 71,
+      "id": 70,
       "start_sec": 1207,
       "speaker": "Kaiser Kuo",
       "en": "Is there an argument, is it implicit in your piece, that the choke point that we're so alarmed about now is really something that the West co-produced?",
       "zh": "你们的文章中是否暗含着这样一种观点：如今令西方如此警惕的“卡脖子”要害，实际上也是西方自己一手合力造成的？"
     },
     {
-      "id": 72,
+      "id": 71,
       "start_sec": 1217,
       "speaker": "Jessica Chen Weiss",
       "en": "Absolutely. In addition to wanting to offshore the pollution and not have to deal with any of those externalities, I've heard from folks who at the time advised the U.S. government to start building a stockpile, right?",
       "zh": "完全没错。除了想要转移污染、免于承担这些负外部性之外，我还听当时向美国政府提建议的人说，他们曾建议开始建立稀土战略储备，对吧？"
     },
     {
-      "id": 73,
+      "id": 72,
       "start_sec": 1233,
       "speaker": "Jessica Chen Weiss",
       "en": "And those, they were assured that there was absolutely no need for such a stockpile. And so, the alternatives to this were never really developed in earnest.",
       "zh": "但他们得到的答复却是，根本没有必要搞什么储备。因此，西方的替代方案从未真正认真发展起来。"
     },
     {
-      "id": 74,
+      "id": 73,
       "start_sec": 1243,
       "speaker": "Jessica Chen Weiss",
       "en": "And so this is as much a case of lack of foresight by the United States as it was an effort by China to build up that capacity.",
       "zh": "所以，这既是中国努力建立自身产能的结果，在同等程度上也是美国缺乏远见的产物。"
     },
     {
-      "id": 75,
+      "id": 74,
       "start_sec": 1252,
       "speaker": "Kaiser Kuo",
       "en": "So, what do we do with that? If we acknowledge that the West was the sort of co-author of this, does that change...",
       "zh": "那么，我们该如何看待这一点？如果我们承认西方也是这局面的“共同始作俑者”，这是否会改变……"
     },
     {
-      "id": 76,
+      "id": 75,
       "start_sec": 1260,
       "speaker": "Kaiser Kuo",
       "en": "...anything about what the right policy response is right now? Or is it just kind of a moral point with no real operational, you know, content?",
       "zh": "……对眼下合理的政策应对有何启示吗？还是说这只是一种道义层面的论点，并没有实质的实操内容？"
     },
     {
-      "id": 77,
+      "id": 76,
       "start_sec": 1268,
       "speaker": "Jessica Chen Weiss",
       "en": "I think it gives rise to a lot of consternation here, which creates a certain emotional valence. But I don't necessarily think that it...",
       "zh": "我认为这在这里引发了诸多惊愕，从而产生了一种特定的情绪倾向。但我并不一定认为它……"
     },
     {
-      "id": 78,
+      "id": 77,
       "start_sec": 1277,
       "speaker": "Jessica Chen Weiss",
       "en": "I mean, at first, it suggests that there had been—there were alternatives, and that this is not something that China has uniquely developed. But the United States has allowed the, you know, both the resources and the know-how to really atrophy over the past, you know, 30-some years.",
       "zh": "首先，它表明过去曾经存在替代方案，这并非中国独家研发出来的。但在过去三十多年里，美国任由相关资源和技术诀窍严重萎缩。"
     },
     {
-      "id": 79,
+      "id": 78,
       "start_sec": 1294,
       "speaker": "Jessica Chen Weiss",
       "en": "And so, building that capacity back to create more diversified sources of—especially the processing—is going to be a slow, a slow uphill battle. There's a lot of effort now being devoted to that effort, but it's not something that you can achieve overnight.",
       "zh": "因此，要重建这种产能以打造更加多元化的供应来源，尤其是加工环节，将是一场缓慢而艰巨的硬仗。如今在这方面投入了大量精力，但这绝非一朝一夕之功。"
     },
     {
-      "id": 80,
+      "id": 79,
       "start_sec": 1313,
       "speaker": "Kaiser Kuo",
       "en": "So, Gloria, let's go back to the decade of the 2000s, as you were saying. This crackdown begins around 2002, export tariffs are in place by 2005, you have production quotas in place in 2006.",
       "zh": "Gloria，让我们回到你刚才提到的2000年代。这场整治始于2002年左右，2005年开始征收出口关税，2006年又出台了生产配额制度。"
     },
     {
-      "id": 81,
+      "id": 80,
       "start_sec": 1327,
       "speaker": "Kaiser Kuo",
       "en": "These are all about, you know, ending the kind of disorderly competition that you described, propping up the prices, conserving the resource—these are all things you've talked about. But still, these local governments are totally overshooting their quotas.",
       "zh": "这些举措正如你所描述的，旨在终结无序竞争、支撑价格、保护资源——这些你都提到过。然而，地方政府依然严重超额开采配额。"
     },
     {
-      "id": 82,
+      "id": 81,
       "start_sec": 1341,
       "speaker": "Kaiser Kuo",
       "en": "I mean, by as late as 2010, they're still overshooting quotas by a whole third, right? And there's these illegal operations still supplying about half the world's heavy rare earths.",
       "zh": "迟至2010年，他们超额开采的配额仍高达三分之一，对吧？而且非法盗采仍在供应全球约一半的重稀土。"
     },
     {
-      "id": 83,
+      "id": 82,
       "start_sec": 1352,
       "speaker": "Kaiser Kuo",
       "en": "So, you, in your piece, you quote a Western report saying, \"China's only real competitors were the crime rings within the country's borders.\" How much control did Beijing actually have over this industry on the eve of the 2010 crisis that we're about to get into? How much did they manage to wrest control away from these crime rings?",
       "zh": "你们在文章中引用了一份西方报告的说法：“中国唯一的真正竞争对手，是其境内的犯罪团伙。”在即将爆发的2010年危机前夕，北京对该产业的实际控制力究竟有多大？他们又在多大程度上成功从这些犯罪团伙手中夺回了控制权？"
     },
     {
-      "id": 84,
+      "id": 83,
       "start_sec": 1377,
       "speaker": "Gloria Xiong",
       "en": "This might surprise some people. One example that's very revealing here is that the State Council approved a plan in 2002 to create two large REE groups, one in the northern region and one in the southern region.",
       "zh": "这可能会让一些人感到意外。一个非常说明问题的例子是，国务院在2002年批准了一项方案，计划组建两大稀土集团，北方和南方各一家。"
     },
     {
-      "id": 85,
+      "id": 84,
       "start_sec": 1396,
       "speaker": "Gloria Xiong",
       "en": "It represents this early move to bring its production policy, export policy, and pricing into line. The northern effort had some relative success, eventually revolving around Baotou Rare Earth in Inner Mongolia.",
       "zh": "这代表了早期统筹生产政策、出口政策和定价机制的尝试。北方的整合相对成功，最终以位于内蒙古的包钢稀土为核心。"
     },
     {
-      "id": 86,
+      "id": 85,
       "start_sec": 1415,
       "speaker": "Gloria Xiong",
       "en": "However, the southern region had remained much more fragmented, and that is where heavy rare earths are concentrated in China. Local government resisted, given their fiscal incentive to protect local firms.",
       "zh": "然而，南方地区仍然高度碎片化，而中国绝大部分重稀土恰恰集中在南方。出于保护地方企业的财政动机，地方政府对此进行了抵制。"
     },
     {
-      "id": 87,
+      "id": 86,
       "start_sec": 1429,
       "speaker": "Gloria Xiong",
       "en": "In the end, many in China saw this as a partially failed attempt. And back to your question about 2010, Kaiser, I'd argue that...",
       "zh": "最终，国内许多人认为这是一次部分失败的尝试。回到你关于2010年的提问，Kaiser，我认为……"
     },
     {
-      "id": 88,
+      "id": 87,
       "start_sec": 1440,
       "speaker": "Gloria Xiong",
       "en": "Looking at Beijing's post-crisis policies, it's pretty clear that Beijing wasn't happy with the level of control it had over the industry.",
       "zh": "审视危机后北京出台的政策，很明显中央对其对该产业的掌控程度并不满意。"
     },
     {
-      "id": 89,
+      "id": 88,
       "start_sec": 1450,
       "speaker": "Gloria Xiong",
       "en": "That vivid 'crime ring' quotes is from Keith Bradsher. According to his reports at the time, by December that year, a few months after the crisis, national and provincial governments had launched crackdowns on illegal mining. I think that's pretty telling.",
       "zh": "那个生动的“犯罪团伙”引述出自 Keith Bradsher。根据他当时的报道，截至当年12月，也就是危机发生几个月后，中央和省级政府就联合开展了针对非法采矿的整治行动。我认为这很说明问题。"
     },
     {
-      "id": 90,
+      "id": 89,
       "start_sec": 1470,
       "speaker": "Gloria Xiong",
       "en": "Another indicator is the impact on Japan. Alastair Iain Johnston, in his, I think, 2013 article, examined the import data during that period of time.",
       "zh": "另一个指标是对日本的影响。Alastair Iain Johnston 在他2013年的一篇论文中分析了那段时期的进口数据。"
     },
     {
-      "id": 91,
+      "id": 90,
       "start_sec": 1483,
       "speaker": "Gloria Xiong",
       "en": "And what he finds is that there's no clear evidence either to support or against an official embargo statement. Some observers attribute this ineffective implementation to illegal smuggling.",
       "zh": "他的发现是，并没有确凿证据能证实或证伪官方实施禁运的说法。一些观察家将禁令执行无效归咎于非法走私。"
     },
     {
-      "id": 92,
+      "id": 91,
       "start_sec": 1497,
       "speaker": "Gloria Xiong",
       "en": "And this is why we argue in the piece that 2010 was an inflection point for China. It came to realize that it has coercive leverage with rare earths, but not a consolidated structure to pull it off effectively.",
       "zh": "这也是为什么我们在文章中认为2010年是中国的一个转折点。北京开始意识到自己在稀土上拥有威慑性的筹码，但当时缺乏整合的产业结构来有效施展这一杠杆。"
     },
     {
-      "id": 93,
+      "id": 92,
       "start_sec": 1513,
       "speaker": "Kaiser Kuo",
       "en": "Yeah, so Gloria, let's stick with you here because 2010, September of 2010, is such a pivotal moment and it's not well understood. So you have this trawler collision near the disputed Diaoyu/Senkaku Islands.",
       "zh": "是的，Gloria，我们顺着这个话题继续聊，因为2010年，特别是2010年9月，是一个极其关键的节点，而且一直未被完全厘清。当时在有争议的钓鱼岛/尖阁诸岛附近发生了渔船相撞事件。"
     },
     {
-      "id": 94,
+      "id": 93,
       "start_sec": 1528,
       "speaker": "Kaiser Kuo",
       "en": "Japan detained the captain of the Chinese vessel. There were anti-Japanese protests in the streets, and then there were these reports that China had embargoed rare earth exports to Japan, right?",
       "zh": "日本扣押了中国渔船船长。街头爆发了反日抗议游行，随后就传出了中国对日禁运稀土的消息，对吧？"
     },
     {
-      "id": 95,
+      "id": 94,
       "start_sec": 1540,
       "speaker": "Kaiser Kuo",
       "en": "Then Secretary of State Hillary Clinton called it a 'wake-up call for the world.' And this is, of course, as we've said, the moment where that Deng Xiaoping quote first kind of goes viral, and it's the founding myth of the whole weaponization narrative.",
       "zh": "时任美国国务卿 Hillary Clinton 称其为“对全世界的一记警钟”。当然，正如我们所说，也就是在这一刻，邓小平的那句名言开始广泛流传，成为了整个“武器化”叙事的发端神话。"
     },
     {
-      "id": 96,
+      "id": 95,
       "start_sec": 1554,
       "speaker": "Kaiser Kuo",
       "en": "But you guys draw on, again, on Julie Klinger's fieldwork to suggest the embargo may not have been a central directive at all. And the scenario you've described now, where there isn't a lot of central control, that makes a lot of sense.",
       "zh": "但你们再次借鉴了 Julie Klinger 的田野调查，提出禁运可能根本就不是中央层面的指令。结合你们刚才描述的场景——当时中央的掌控力其实很弱——这种解释非常合情合理。"
     },
     {
-      "id": 97,
+      "id": 96,
       "start_sec": 1571,
       "speaker": "Kaiser Kuo",
       "en": "Local customs officials in a port city, I can't remember the name, north of Nanjing, decided on their own to withhold shipments. Beijing, in this telling, found out about it when Japanese customs officials started to lodge an inquiry or complaints.",
       "zh": "南京以北某个港口城市的地方海关官员擅自决定扣留出货。按照这种说法，北京是在日本海关官员开始质询或抗议时才知晓此事的。"
     },
     {
-      "id": 98,
+      "id": 97,
       "start_sec": 1590,
       "speaker": "Kaiser Kuo",
       "en": "So Gloria, could you walk us through that argument? What's the evidence, how confident are you guys in that, and why do you think we've so overinterpreted Beijing's hand in what became this super consequential rare earths episode back then?",
       "zh": "所以 Gloria，你能为我们详细梳理一下这个论点吗？证据何在？你们对该结论有多大把握？又是什么原因导致我们当年过度解读了北京在这场影响深远的稀土事件中的操盘角色？"
     },
     {
-      "id": 99,
+      "id": 98,
       "start_sec": 1609,
       "speaker": "Gloria Xiong",
       "en": "Well Kaiser, I think the fact that we're still debating about this today shows how consequential this case is, right? What we tried to convey in...",
       "zh": "嗯 Kaiser，我觉得时至今日我们仍在为此争论不休，正说明了该事件的影响有多深远，对吧？我们在文中所试图表达的……"
     },
     {
-      "id": 100,
+      "id": 99,
       "start_sec": 1620,
       "speaker": "Gloria Xiong",
       "en": "this piece is simply that there was more to the situation on the ground than a straightforward, rigorous embargo because of the island disputes.",
       "zh": "我们这篇文章的核心观点很简单，那就是当时实地的情况远比因为岛屿争端而发起一场简单、严厉的禁运要复杂得多。"
     },
     {
-      "id": 101,
+      "id": 100,
       "start_sec": 1633,
       "speaker": "Gloria Xiong",
       "en": "Again, if if you look at if you look at Ian's 2013 article, which I remember he also cited his own interviews in Beijing, he suggested a a similar story with Julie Klinger's interviews, which is that customs officials decided to slow down approvals on their own.",
       "zh": "此外，如果你去看 Ian 2013 年的文章——我记得他在文中也引用了自己在北京的访谈——他讲述的情况与 Julie Klinger 的访谈类似，即海关官员是自发决定放慢审批流程的。"
     },
     {
-      "id": 102,
+      "id": 101,
       "start_sec": 1656,
       "speaker": "Gloria Xiong",
       "en": "Still, other reports at the time suggest that central leadership might have given a direct order. Well, I would say the truth is we may never know for sure if this decision came from the top.",
       "zh": "不过，当时也有其他报道指出，中央领导层可能下达了直接命令。我认为实情是我们可能永远无法确切证实这一决定是否来自高层。"
     },
     {
-      "id": 103,
+      "id": 102,
       "start_sec": 1672,
       "speaker": "Gloria Xiong",
       "en": "But the data did show that because of the quotas, I mean the export and production quotas, reported Chinese exports had already declined dramatically by mid-2010, so that was before the crisis happened.",
       "zh": "但数据确实表明，由于配额——也就是出口和生产配额的限制——官方报告的中国出口量早在 2010 年年中就已经大幅下滑，那还是在危机爆发之前。"
     },
     {
-      "id": 104,
+      "id": 103,
       "start_sec": 1688,
       "speaker": "Gloria Xiong",
       "en": "But as you point out here, few wanted to imagine anything but an intentional Chinese strategies to withhold shipments. My guess is that there are a few reasons at play here.",
       "zh": "但正如你所指出的，当时几乎没有人愿意去设想这背后除了中国刻意扣留货物的战略之外还有别的解释。我推测这其中有几个原因在起作用。"
     },
     {
-      "id": 105,
+      "id": 104,
       "start_sec": 1703,
       "speaker": "Gloria Xiong",
       "en": "First, this whole \"China is getting more assertive\" narrative is is one of the one part of the reason. And also markets also reacted pretty big to what was actually a small disruption.",
       "zh": "首先，整个“中国正变得更具攻击性”的叙事是原因之一。其次，对于实际上规模很小的供应扰动，市场本身也做出了极大的反应。"
     },
     {
-      "id": 106,
+      "id": 105,
       "start_sec": 1717,
       "speaker": "Gloria Xiong",
       "en": "So I think all of these reasons contributed to people's tendency to believe that it's intentionally coercive story from Beijing.",
       "zh": "因此我认为，所有这些因素共同导致人们倾向于相信这是来自北京的一次蓄意胁迫。"
     },
     {
-      "id": 107,
+      "id": 106,
       "start_sec": 1726,
       "speaker": "Kaiser Kuo",
       "en": "Right. Yeah, that makes a lot of sense. I mean because even if it wasn't a deliberate weaponization, it still clearly showed that it was something available to it to be weaponized in the future, right?",
       "zh": "对。确实很有道理。因为即使当时并非蓄意的武器化手段，它也清楚地表明，这在未来完全可以成为一种可供武器化的筹码，对吧？"
     },
     {
-      "id": 108,
+      "id": 107,
       "start_sec": 1740,
       "speaker": "Kaiser Kuo",
       "en": "Jessica, the next question is really squarely in your wheelhouse because your first book, Powerful Patriots, was about, you know, when the Chinese government permits nationalist protest and when it suppresses it.",
       "zh": "Jessica，接下来的问题完全是你的拿手好戏了，因为你的第一本书《Powerful Patriots》探讨的就是中国政府在何时会允许民族主义抗议，又在何时予以压制。"
     },
     {
-      "id": 109,
+      "id": 108,
       "start_sec": 1751,
       "speaker": "Kaiser Kuo",
       "en": "I have an old saying that I used to use all the time, I think I first coined this in 2012, I said, \"The Chinese government tends to stand over the fire pit of anti-Japanese nationalism with a fan in one hand and a fire hose in the other,\" right? It can sort of, you know, get the embers blazing to a roaring bonfire with the fan, or it can, you know, hose it down if it threatens to burn down the valuable crops in the surrounding countryside, right?",
       "zh": "我以前常说一句话，大概是在 2012 年首次提出的。我说：“中国政府面对反日民族主义的火坑，往往是一手拿着扇子，一手拿着消防水枪。”它可以拿着扇子煽风点火，让余烬烧成熊熊烈火；而一旦火势威胁到周边田地里的珍贵庄稼，它又能拿起水枪把火浇灭，对吧？"
     },
     {
-      "id": 110,
+      "id": 109,
       "start_sec": 1779,
       "speaker": "Kaiser Kuo",
       "en": "So 2010 was was one of the cases that you looked at. You write here in Foreign Affairs that Beijing tolerated the anti-Japanese protests; they hoped to harness the national fervor.",
       "zh": "2010 年就是你研究过的案例之一。你在《Foreign Affairs》的这篇文章中写道，北京当时容忍了反日抗议，希望借此利用民族主义热情。"
     },
     {
-      "id": 111,
+      "id": 110,
       "start_sec": 1792,
       "speaker": "Kaiser Kuo",
       "en": "So I guess the puzzle is like: if Klinger is right, if we have a government that tolerated nationalist mobilization on the street,",
       "zh": "所以这里的谜团在于：如果 Klinger 的说法是对的，如果当时政府容忍了街头的民族主义动员，"
     },
     {
-      "id": 112,
+      "id": 111,
       "start_sec": 1800,
       "speaker": "Kaiser Kuo",
       "en": "Then had nationalist mobilization at the port that it didn't order, and then denied that there was any, actually centrally directed, embargo. And still reaped the coercive benefit of everyone believing that it was. How does that fit your own model?",
       "zh": "随后港口出现了官方并未授意的民族主义动员，接着又否认存在任何由中央直接下达的禁令。但北京却依然坐收了‘所有人都以为禁令存在’所带来的威慑红利。这如何契合你们的模型？"
     },
     {
-      "id": 113,
+      "id": 112,
       "start_sec": 1816,
       "speaker": "Kaiser Kuo",
       "en": "Is there kind of a general lesson about how bottom-up nationalism can actually commit Beijing to coercive postures that it didn't actually initially choose? And are there lessons about how the outside world reads these postures as actual, you know, deliberate strategy?",
       "zh": "关于自下而上的民族主义如何实际上将北京拖入其原本并未主动选择的强硬胁迫姿态，是否存在某种普遍规律？而外部世界又为何往往将这些姿态解读为某种处心积虑的蓄意战略，这方面有什么启示？"
     },
     {
-      "id": 114,
+      "id": 113,
       "start_sec": 1838,
       "speaker": "Jessica Chen Weiss",
       "en": "Absolutely. And this perception issue really bedevils this as a strategy that is effective at shaping foreign perceptions. Because even if, as in this case of rare earths or in the case of some of these small spate of anti-Japanese protests, even if they were not orchestrated by Beijing, but were instead sort of the reflection of genuine anger over a foreign dispute, they still are often seen through the lens of state manipulation, both internationally and domestically.",
       "zh": "确实如此。这种认知层面的偏差，严重干扰了利用这种手段有效塑造外界对华认知的效果。因为即便在稀土事件或当时零星爆发的反日抗议中，这些行动并非由北京幕后操纵，而只是民间对涉外争端真实愤怒的流露，但在国际和国内舆论中，它们却往往被一概视为国家操纵的产物。"
     },
     {
-      "id": 115,
+      "id": 114,
       "start_sec": 1869,
       "speaker": "Jessica Chen Weiss",
       "en": "And so, in some ways, this is a very tricky line to walk. Because indeed the government has created the environment in which these sentiments are bubble and froth and sometimes can boil over.",
       "zh": "因此在某种程度上，这是一种极难把握的分寸。因为政府确实营造了一种环境，让这些情绪不断发酵、翻腾，有时甚至彻底失控爆发。"
     },
     {
-      "id": 116,
+      "id": 115,
       "start_sec": 1884,
       "speaker": "Jessica Chen Weiss",
       "en": "And so it's very plausible, and I think credible, that these were not—this stoppage of rare earth exports was not directed from on high by, you know, 胡锦涛. But is instead folks taking action on their own, understanding that there was a increased, you could say, sort of opportunity structure or permissiveness toward expressions of anger at Japan, that they didn't ask in advance for permission.",
       "zh": "因此完全合乎情理且可信的是，稀土出口的暂停并非来自胡锦涛等高层的直接指令。相反，这是基层人员的自主行动，他们敏锐察觉到对日宣泄愤怒的‘机会窗口’或容忍度在提升，因而并未事先请示批准。"
     },
     {
-      "id": 117,
+      "id": 116,
       "start_sec": 1910,
       "speaker": "Jessica Chen Weiss",
       "en": "Right, but rather then once they did it, then the government, the central levels was aware only after actually Japan reported, the Japanese customs authority inquired about what has happened to these rare earths shipments. And so it's far from a story of top-down coordination, I think.",
       "zh": "对，而是在他们行动之后，直到日本海关当局出面质询稀土货运到底出了什么问题并通报后，中央高层才得知此事。所以依我看，这绝非一个自上而下统一部署的故事。"
     },
     {
-      "id": 118,
+      "id": 117,
       "start_sec": 1928,
       "speaker": "Jessica Chen Weiss",
       "en": "But that still creates a lot of uncertainty, truly, about what happened behind the scenes.",
       "zh": "但这依然给幕后到底发生了什么留下了极大的不确定性与谜团。"
     },
     {
-      "id": 119,
+      "id": 118,
       "start_sec": 1934,
       "speaker": "Kaiser Kuo",
       "en": "Oh, for sure. And what happens next, Gloria, in the Chinese debate after September of 2010 is really fascinating. Because it's not like it's this uncomplicated triumphant march toward weaponization.",
       "zh": "确实如此。Gloria，2010年9月之后中国国内展开的争论其实非常耐人寻味。因为局势并非一帆风顺、志得意满地径直走向所谓‘武器化’。"
     },
     {
-      "id": 120,
+      "id": 119,
       "start_sec": 1946,
       "speaker": "Kaiser Kuo",
       "en": "You definitely have a strand, a protectionist strand. There was this widely reposted call to just ban exports outright and defend the resource. You had that.",
       "zh": "国内当时确实存在保护主义的声音。有一篇被广泛转载的文章呼吁全面禁止出口以‘保卫稀土资源’。这类声音是存在的。"
     },
     {
-      "id": 121,
+      "id": 120,
       "start_sec": 1958,
       "speaker": "Kaiser Kuo",
-      "en": "But you also had people like the director of the Rare Earth Office under state planning, this guy 洪峰, actually warning against using rare earths as political chips, and pointing to Russia's gas coercion as a cautionary tale: if you coerce, you just teach your customers to diversify. You also note that China...",
-      "zh": "但同时，也有像国家发改委下属稀土办公室主任洪峰这样的人士，明确警告不要将稀土用作‘政治筹码’，并以俄罗斯的天然气胁迫作为前车之鉴：一旦动用胁迫手段，只会倒逼客户去搞多元化。你们还指出，中国……"
+      "en": "But you also had people like the director of the Rare Earth Office under state planning, this guy 洪峰, actually warning against using rare earths as political chips, and pointing to Russia's gas coercion as a cautionary tale: if you coerce, you just teach your customers to diversify. You also note that—",
+      "zh": "但同时，也有像国家发改委下属稀土办公室主任洪峰这样的人士，明确警告不要将稀土用作‘政治筹码’，并以俄罗斯的天然气胁迫作为前车之鉴：一旦动用胁迫手段，只会倒逼客户去搞多元化。你们还指出——"
     },
     {
-      "id": 122,
+      "id": 121,
       "start_sec": 1980,
       "speaker": "Kaiser Kuo",
       "en": "China is itself really heavily import dependent for oil, for iron, for copper, you know. So, I guess, who was winning that argument by the middle of the decade, and why? Was Hong Feng's caution still something that Beijing thought about more recently, like when they really did decide to play the trump card of REEs? Or has his voice been drowned out?",
       "zh": "中国本身在石油、铁矿石、铜等资源上也是严重依赖进口的。那么我想知道，到了那十年的中期，争论中哪一方占据了上风，原因何在？洪峰的谨慎警告，在更近的时期——比如北京真正决定打出稀土这张“王牌”时——是否仍受到决策层的重视？还是说他的声音已经被淹没了？"
     },
     {
-      "id": 123,
+      "id": 122,
       "start_sec": 2010,
       "speaker": "Gloria Xiong",
       "en": "I think those details in the debates reveals a lot about Chinese thinkings on how to use rare earths. Immediately after the 2010 crisis, there was a surge of protectionist voices in Chinese media.",
       "zh": "我认为这些争论的细节很大程度上揭示了中国对如何使用稀土的思考。在2010年危机发生后，中国媒体内部的保护主义呼声立刻出现激增。"
     },
     {
-      "id": 124,
+      "id": 123,
       "start_sec": 2029,
       "speaker": "Gloria Xiong",
       "en": "For instance, the often-cited book, China's Battle to Defend Its Rare Earths, was published in 2011. It's worth noting that there is a distinction between this nationalist push for defending non-renewable natural resources and calls to actually weaponize them in future geopolitical disputes.",
       "zh": "例如常被提及的那本《中国稀土保卫战》就是于2011年出版的。值得注意的是，这种出于民族主义立场捍卫不可再生自然资源的呼吁，与在未来地缘政治争端中真正将其武器化的主张之间，是存在区别的。"
     },
     {
-      "id": 125,
+      "id": 124,
       "start_sec": 2051,
       "speaker": "Gloria Xiong",
       "en": "Throughout most of the 2010s, the official narrative remained pretty cautious. For instance, around 2015, the Chinese Society of Rare Earths even put out an article debunking various kinds of misinformation in public discourse.",
       "zh": "在2010年代的大部分时间里，官方层面的叙事都保持得相当谨慎。例如在2015年前后，中国稀土学会甚至专门发表文章，对公共舆论场中的各种不实传言进行了辟谣澄清。"
     },
     {
-      "id": 126,
+      "id": 125,
       "start_sec": 2070,
       "speaker": "Gloria Xiong",
       "en": "It very specifically singled out that article you mentioned, Kaiser, and the 2011 book, saying that the so-called rare earths military choke point theory were misleading. Then the trade war started in 2019, state media at one point did suggest the possibility of leveraging rare earths against US tariffs.",
       "zh": "文章明确点名批评了Kaiser你提到的那篇文章以及2011年的那本书，指出所谓稀土可以作为军工制衡筹码的说法具有误导性。随后到了2019年中美贸易战爆发，官方媒体一度暗示过利用稀土来反制美国关税的可能性。"
     },
     {
-      "id": 127,
+      "id": 126,
       "start_sec": 2093,
       "speaker": "Gloria Xiong",
       "en": "Around this time, there is an interesting article published by Rare Earths Information that directly addressed the geopolitical aspect. This senior expert on rare earths commented that to leverage rare earths as a trump card, China needs to build up their own advanced technology and start making all of these high-end stuff themselves.",
       "zh": "大约在同一时期，《稀土信息》上发表了一篇很有意思的文章，直接探讨了其地缘政治属性。一位资深稀土专家评论称，若想把稀土当成王牌来打，中国必须先建立起自己的先进技术体系，并亲手制造出所有这些高端产品。"
     },
     {
-      "id": 128,
+      "id": 127,
       "start_sec": 2121,
       "speaker": "Gloria Xiong",
       "en": "So, I would say the general feeling is that using the rare earths card too soon would backfire given China's technological dependence on the US. Eventually, the turning point came when Chinese strategists woke up to Washington's strategy of a quite comprehensive technological containment.",
       "zh": "所以在我看来，当时普遍的看法是：鉴于中国在技术上对美国仍有依赖，过早打出稀土牌反而会反噬自身。最终的转折点，出现在中国战略家们彻底看清华盛顿意在推行全方位的技术遏制战略之时。"
     },
     {
-      "id": 129,
+      "id": 128,
       "start_sec": 2145,
       "speaker": "Kaiser Kuo",
-      "en": "The so-called Sullivan Doctrine. Jessica, though, if we go back a few years, back to 2015, there's this episode that seems to come from a whole different geopolitical timeline. China lost a WTO case that was brought by Japan, the US...",
-      "zh": "也就是所谓的“沙利文主义”。不过Jessica，如果我们把时间倒退几年，回到2015年，有这么一出插曲，感觉像是来自一个完全不同的地缘政治时间线。当时，中国在一场由日本、美国等发起的世贸组织（WTO）诉讼中败诉……"
+      "en": "The so-called Sullivan Doctrine. Jessica, though, if we go back a few years, back to 2015, there's this episode that seems to come from a whole different geopolitical timeline. China lost a WTO case that was brought by Japan, the",
+      "zh": "也就是所谓的“沙利文主义”。不过Jessica，如果我们把时间倒退几年，回到2015年，有这么一出插曲，感觉像是来自一个完全不同的地缘政治时间线。当时，中国在一场由日本、美国与——"
     },
     {
-      "id": 130,
+      "id": 129,
       "start_sec": 2160,
       "speaker": "Kaiser Kuo",
       "en": "US and EU, and it complied. It actually abolished the export quota system for rare earths. There was this RAND report that summed up Beijing's whole posture in the 2010s as prioritizing resilience over weaponization.",
-      "zh": "诉至世贸组织，而中国服从了裁决。它实际上废除了稀土出口配额制度。兰德公司当时有一份报告，将北京在2010年代的整体姿态总结为“优先考虑韧性而非武器化”。"
+      "zh": "欧盟发起的世贸组织（WTO）诉讼中败诉，而中国服从了裁决。它实际上废除了稀土出口配额制度。兰德公司当时有一份报告，将北京在2010年代的整体姿态总结为“优先考虑韧性而非武器化”。"
     },
     {
-      "id": 131,
+      "id": 130,
       "start_sec": 2175,
       "speaker": "Kaiser Kuo",
       "en": "Jessica, when you look at that from the vantage point of 2026, right now, does it read as China was back then still a rule-taker, still playing within the system and that we've since moved on, that we're in a different era now?",
       "zh": "Jessica，站在2026年现在的角度回看，这是否表明当时的中国在很大程度上仍然是一个规则接受者，仍在体系内行事，而我们此后已经翻篇，进入了一个完全不同的时代？"
     },
     {
-      "id": 132,
+      "id": 131,
       "start_sec": 2194,
       "speaker": "Kaiser Kuo",
       "en": "Or is it more that Beijing at that point simply didn't have either the tools or the consolidated industry to do anything else, and compliance was just cheaper?",
       "zh": "或者更多是因为当时的北京根本缺乏实施其他手段的工具或整合到位的产业结构，因而选择合规成本更低？"
     },
     {
-      "id": 133,
+      "id": 132,
       "start_sec": 2206,
       "speaker": "Jessica Chen Weiss",
       "en": "I think that whole episode suggests that the narrative that China has never abided by its WTO commitments leaves a lot to be explained. And so in 2015, China did comply with the WTO ruling against its export restrictions.",
       "zh": "我认为这一整段经历表明，“中国从未遵守其加入世贸组织承诺”的叙事是经不起推敲的。因此在2015年，面对世贸组织对其出口限制的不利裁决，中国确实执行了裁决。"
     },
     {
-      "id": 134,
+      "id": 133,
       "start_sec": 2219,
       "speaker": "Jessica Chen Weiss",
       "en": "But it turned to other mechanisms to try to manage the domestic demand and global diversification. So traceability requirements and investments in overseas mining projects.",
       "zh": "但它转向了其他机制来试图调控国内需求并推动全球多元化，例如可追溯性要求以及对海外采矿项目的投资。"
     },
     {
-      "id": 135,
+      "id": 134,
       "start_sec": 2229,
       "speaker": "Jessica Chen Weiss",
       "en": "I think that that actually is still, to some extent, holds today, right? China is, I think attitude toward the WTO has always been a kind of a mixture of compliance as well as fighting through the rules to achieve outcomes that favor Chinese interests.",
       "zh": "我认为这种情况在某种程度上延续到了今天，对吧？中国对世贸组织的态度一直是一种混合体：既有合规遵守，也有通过规则博弈来争取有利于中国利益的结果。"
     },
     {
-      "id": 136,
+      "id": 135,
       "start_sec": 2247,
       "speaker": "Jessica Chen Weiss",
       "en": "Which of course has created a lot of consternation in the United States about, what good is the WTO to us if it sides with China? And so, unfortunately, we are a bit at a stalemate there.",
       "zh": "这当然在美国引发了极大的焦虑：如果世贸组织偏向中国，那它对我们还有什么用？因此，不幸的是，我们目前在这一问题上陷入了一定程度的僵局。"
     },
     {
-      "id": 137,
+      "id": 136,
       "start_sec": 2260,
       "speaker": "Jessica Chen Weiss",
       "en": "But even in recent months, China's top leadership has suggested that it would be willing to reconsider some of the privileges that China has held at the WTO. So I don't think that it is a foregone conclusion that the WTO is dead.",
       "zh": "但即便在最近几个月，中国最高层也曾暗示愿意重新考虑其在世贸组织所享有的部分特殊待遇。所以我认为世贸组织已死绝非定论。"
     },
     {
-      "id": 138,
+      "id": 137,
       "start_sec": 2273,
       "speaker": "Jessica Chen Weiss",
       "en": "But the question of whether or not these various economies want to fight through it, as opposed to through their bilateral tariffs and exclusions, that I think is a question that remains to be seen.",
       "zh": "但各大经济体究竟是希望通过世贸组织去博弈，还是转向双边关税和豁免壁垒，我认为这仍有待观察。"
     },
     {
-      "id": 139,
+      "id": 138,
       "start_sec": 2285,
       "speaker": "Kaiser Kuo",
       "en": "So let's move now to the sort of the turn that Gloria described. You guys have argued in your piece that Beijing recognized rare earths as a geoeconomic weapon really only after 2010. And this is a line that's really going to raise hackles in Washington, that it learned how to wield such an arsenal from the United States' sanctions and export controls.",
       "zh": "那么我们现在转向Gloria刚才描述的那个转折点。你们在文章中指出，北京真正将稀土视为地缘经济武器是在2010年之后。而且有一句话肯定会让华盛顿极其不快——那就是北京是从美国的制裁与出口管制中学会了如何运用这套武器库。"
     },
     {
-      "id": 140,
+      "id": 139,
       "start_sec": 2308,
       "speaker": "Kaiser Kuo",
       "en": "That's what it looks like to me, the 2019 Huawei blacklisting is, you know, Beijing's wake-up call in just the way that 2010 may have been a wake-up call for Japan and, to a lesser extent, the Europeans and the Americans.",
       "zh": "在我看来确是如此：2019年华为被列入黑名单，对北京而言是一记警钟，正如2010年的事件曾是日本、以及在较小程度上对欧美的一记警钟一样。"
     },
     {
-      "id": 141,
+      "id": 140,
       "start_sec": 2322,
       "speaker": "Kaiser Kuo",
       "en": "But Beijing holds its fire, as we've said, it didn't retaliate right away in the first Trump administration's trade war. Instead, it was, you know, tariffs on soybeans, right? You know, because the Huawei episode had exposed that China needed...",
       "zh": "但正如我们所说，北京当时按兵不动，并没有在特朗普第一任期的贸易战中立即还手；相反，它采取的只是针对大豆征税等措施。因为华为事件暴露出中国还需要……"
     },
     {
-      "id": 142,
+      "id": 141,
       "start_sec": 2340,
       "speaker": "Kaiser Kuo",
       "en": "these chips, right? It needed these advanced chips more than the US needed rare earths, maybe, um, to oversimplify it. But I want to push on this a little, because between 2019 and 2023, Beijing puts into place all kind of organizational infrastructure that it needs.",
       "zh": "更需要这些先进芯片，也许程度甚至超过了美国对稀土的需求——这当然有点过于简化了。但我还是想进一步探讨一下：在2019年至2023年间，北京逐步建立了它所需的各类制度化与组织性基础设施。"
     },
     {
-      "id": 143,
+      "id": 142,
       "start_sec": 2357,
       "speaker": "Kaiser Kuo",
       "en": "Like you have the Dual Circulation concept, you have the 2020 Export Control Law, uh they stand up this China Rare Earth Group in 2021. I mean, if you were to view this from sort of a more hawkish perspective from DC, doesn't it look like exactly deliberate preparation for weaponization of rare earths?",
       "zh": "比如提出了“双循环”战略，出台了2020年《出口管制法》，还在2021年组建了中国稀土集团。如果从华盛顿对华鹰派的视角来看，这难道不恰恰像是为了将稀土武器化而精心策划的蓄意准备吗？"
     },
     {
-      "id": 144,
+      "id": 143,
       "start_sec": 2378,
       "speaker": "Kaiser Kuo",
       "en": "I mean, what distinguishes learning from the US from planning to weaponize, and does that distinction matter given, you know, where we are right now?",
       "zh": "究竟该如何区分“向美国学习经验”与“处心积虑搞武器化”？鉴于我们目前的处境，这种区分到底还重不重要？"
     },
     {
-      "id": 145,
+      "id": 144,
       "start_sec": 2390,
       "speaker": "Jessica Chen Weiss",
       "en": "I think the question is where do you start the timeline, right? If you start with Beijing's measures, or if you think of the initial actions against Huawei is in fact our American response to Chinese efforts to weaponize that infrastructure against the United States, then this continues to affirm the idea that Beijing is this malevolent actor bent on destroying or supplanting the United States.",
       "zh": "我认为核心问题在于，你的时间线是从哪里开始画起的。如果你以北京的举措为起点，或者认为美方起初针对华为的行动只是为了防范中国利用通信基础设施对付美国，那么这就会进一步强化一种叙事，即北京是一个处心积虑想要摧毁或取代美国的反派角色。"
     },
     {
-      "id": 146,
+      "id": 145,
       "start_sec": 2416,
       "speaker": "Jessica Chen Weiss",
       "en": "rather than what we see it as, as an action-reaction, which is fears of this kind of weaponization or subversion, then trig-- Exactly. Right.",
       "zh": "而没有看到我们所指出的那种‘行动-反应’螺旋：正是对这种武器化或颠覆行为的恐惧，引发了——完全正确。正是如此。"
     },
     {
-      "id": 147,
+      "id": 146,
       "start_sec": 2424,
       "speaker": "Kaiser Kuo",
       "en": "The security dilemma. Right. Right, right, right.",
       "zh": "典型的安全困境。对，没错。"
     },
     {
-      "id": 148,
+      "id": 147,
       "start_sec": 2428,
       "speaker": "Kaiser Kuo",
       "en": "Yeah, no, that that makes a lot of sense. Gloria, uh let's just look a little bit, because, you know, the sequencing in your piece is is very tight. Let's look at the ledger of this the last few years. So, October 22, the first major round of US chip exports gets announced.",
       "zh": "是啊，这完全说得通。Gloria，我们来仔细梳理一下，因为你们文章中的时间线咬合得非常紧密。我们来看看过去几年的交锋记录。2022年10月，美国宣布了首轮大规模芯片出口管制。"
     },
     {
-      "id": 149,
+      "id": 148,
       "start_sec": 2446,
       "speaker": "Kaiser Kuo",
       "en": "In June of 2023, Washington floats extending them to Nvidia's A800 chip. And then in July of 2023, China puts, I think it was gallium and germanium under licensing. These are not, by the way, rare earths, but they are strategic minerals.",
       "zh": "2023年6月，华盛顿传出风声要将限制范围扩大到英伟达的A800芯片。随后在2023年7月，中国将镓和锗列入出口管制许可清单。顺便提一句，这两种金属虽然不是稀土，但也属于战略性矿产。"
     },
     {
-      "id": 150,
+      "id": 149,
       "start_sec": 2465,
       "speaker": "Kaiser Kuo",
       "en": "Then in December 2023, right after the House Select Committee report on rebuilding US magnet capacity comes out, China bans the export of rare earth processing technology, which, you know, is in some ways comparable to the ban of the selling of EUV lithography equipment or technologies for different processes in manufacture semiconductors.",
       "zh": "紧接着在2023年12月，众议院特别委员会发布关于重建美国磁体产能的报告后，中国立即禁止了稀土加工技术的出口。这在某种程度上，完全可以类比于限制销售EUV光刻设备或半导体制造各个环节的工艺技术。"
     },
     {
-      "id": 151,
+      "id": 150,
       "start_sec": 2490,
       "speaker": "Kaiser Kuo",
-      "en": "In December 2024, China's first control gets set out, you know, using the U.S.-- I mean naming the US by name. How confident are you that these are genuinely responsive moves rather than a pattern that we're imposing after the fact? I mean, we look back at it, I suppose I could see how somebody could use the same timeline and argue a different--",
-      "zh": "到了2024年12月，中国出台了首批直接点名针对美国的管制措施。你有多大把握确定这些完全是被动反制，而不是我们事后强加归纳的规律？我的意思是，回过头来看，我完全能想象有人会用同样的时间线推导出截然相反的结论——"
+      "en": "In December 2024, China's first control gets set out, you know, using the U.S.-- I mean naming the US by name. How confident are you that these are genuinely responsive moves rather than a pattern that we're imposing after the fact? I mean, we look back at it, I suppose I could see how somebody could use the same timeline and argue a different—",
+      "zh": "到了2024年12月，中国出台了首批直接点名针对美国的管制措施。你有多大把握确定这些完全是被动反制，而不是我们事后强加归纳的规律？我的意思是，回过头来看，我完全能想象有人会用同样的时间线推导出另一套——"
+    },
+    {
+      "id": 151,
+      "start_sec": 2520,
+      "speaker": "Kaiser Kuo",
+      "en": "set of conclusions about it rather than an action-reaction spiral. Do you see evidence in the Chinese record that, not just in the timing here, but actually in language, in policy, in who's making these decisions, that these were reactions to specific American actions rather than just steps that Beijing was going to take anyway? In other words, what's the evidence besides the timeline?",
+      "zh": "结论，而不是将其归结为“行动-反应”螺旋。在中国方面的记录中，你是否能找到证据——不仅是发生的时间点，而是从措辞、政策以及决策者的角度来看——表明这些确实是对美方特定行动的反应，而不仅仅是北京无论如何都会采取的步骤？换句话说，除了时间轴上的重合，还有哪些证据？"
     },
     {
       "id": 152,
-      "start_sec": 2520,
-      "speaker": "Kaiser Kuo",
-      "en": "Instead of conclusions about it rather than in an action-reaction spiral, do you see evidence in the Chinese record that, not just in the timing here, but actually in language, in policy, in who's making these decisions, that these were reactions to specific American actions rather than just steps that Beijing was going to take anyway? In other words, what's the evidence besides the timeline?",
-      "zh": "与其说是行动-反应螺旋，不如说是早已笃定的结论。在中国方面的记录中，你是否能找到证据——不仅是发生的时间点，而是从措辞、政策以及决策者的角度来看——表明这些确实是对美方特定行动的反应，而不仅仅是北京无论如何都会采取的步骤？换句话说，除了时间轴上的重合，还有哪些证据？"
-    },
-    {
-      "id": 153,
       "start_sec": 2546,
       "speaker": "Gloria Xiong",
       "en": "I think this is a question that will dominate our discussion in and for the years to come. My thinking on this is that, I mean, certainly, Beijing has been preparing for a long time, whether it's through consolidating its rare earths industry that we talk about, to developing its own legal apparatus around export control. There's a lot of policy emulation here, as I show in my other research.",
       "zh": "我认为这个问题将在未来的数年里成为我们讨论的核心。对此我的看法是，北京确实长期以来一直在做准备，无论我们之前谈到的整合稀土产业，还是围绕出口管制构建自身的法律体系。正如我在其他研究所指出的，这里面存在大量的政策模仿。"
     },
     {
-      "id": 154,
+      "id": 153,
       "start_sec": 2574,
       "speaker": "Gloria Xiong",
       "en": "It's almost baked into Chinese strategic thinking, this idea that they need to brace for tension or conflict with the U.S. one day. But I would argue that the ultimate decision around when to use it as a coercive card, I think for that decision, the action-and-reaction spiral play a huge role.",
       "zh": "这种思维几乎已经深深植根于中国的战略考量之中，即他们必须为未来某一天与美国的紧张局势或冲突做好准备。但我认为，关于究竟何时将其作为强硬反制筹码的最终决定，这种“行动与反应”的螺旋式互动起到了至关重要的作用。"
     },
     {
-      "id": 155,
+      "id": 154,
       "start_sec": 2597,
       "speaker": "Gloria Xiong",
       "en": "Both in Chinese academic writing and conversation that we had with experts, kind of this standard Chinese narrative of how we got here is that Washington has implemented a technological blockade and export control measures on advanced chips, so this prompted China to promote domestic substitution and then to use rear earths as a bargaining chip. So essentially, the phrase that they like to use right is \"dare to fight.\" I think that's how Chinese commentators, scholars recount the story.",
       "zh": "无论是在中国学者的文章中，还是在我们与专家的交流中，中方关于局势何以至此的主流叙事大致是：华盛顿对先进芯片实施了技术封锁和出口管制措施，这促使中国推进国产替代，并转而将稀土用作谈判筹码。所以从本质上讲，他们常挂在嘴边的词是“敢于斗争”。我认为这就是中国评论员和学者对此事的叙述逻辑。"
     },
     {
-      "id": 156,
+      "id": 155,
       "start_sec": 2640,
       "speaker": "Gloria Xiong",
       "en": "So during our interviews, we also encounter this view that if REE is China's trump card, then you should hold your best card until when you really need it. So if you follow this logic, one can make the argument that Beijing has been under tremendous pressure from Washington's tightening control over semiconductors, and that's the reason why Beijing decided to use this card.",
       "zh": "在访谈中，我们还遇到这样一种观点：如果稀土是中国手中的王牌，那不到万不得已的关头，就绝不该轻易打出底牌。沿着这一逻辑，人们自然可以得出结论：正是因为承受了华盛顿在半导体领域步步紧逼的巨大压力，北京才最终决定打出这张牌。"
     },
     {
-      "id": 157,
+      "id": 156,
       "start_sec": 2665,
       "speaker": "Kaiser Kuo",
       "en": "Yeah, it definitely has a lot of explanatory value, I think. There's this weird episode, though, in April 2025, Jessica, just a couple of days after Trump announces his so-called \"Liberation Day\" tariffs, Beijing added seven rare earths and their magnets to the dual-use export control list.",
       "zh": "是的，我认为这确实具有很强的解释力。不过，Jessica，2025年4月发生过一段颇为诡异的插曲。就在特朗普宣布所谓的“解放日”关税仅仅几天后，北京就将七种稀土及其磁体列入了军民两用出口管制清单。"
     },
     {
-      "id": 158,
+      "id": 157,
       "start_sec": 2684,
       "speaker": "Kaiser Kuo",
       "en": "And then there's this, why I call this kind of a strange episode is that suddenly you have like tens of thousands of license applications that all land on Export Control Bureau desks, and they've only got like 30 people on staff.",
       "zh": "而我之所以觉得这事很蹊跷，是因为紧接着，数以万计的许可证申请突然如雪片般砸向出口管制局的办公桌，而他们的编制人员一共才大约30人。"
     },
     {
-      "id": 159,
+      "id": 158,
       "start_sec": 2700,
       "speaker": "Kaiser Kuo",
       "en": "...exports then immediately falling 74% year-on-year in the month of May. From the outside, this looked like a devastating, precisely targeted chokehold, like they were playing the rare earths card.",
       "zh": "出口在随后的5月份同比暴跌了74%。从外界来看，这像是一次极具杀伤力、精准定向的卡脖子之举，仿佛他们打出了稀土这张底牌。"
     },
     {
-      "id": 160,
+      "id": 159,
       "start_sec": 2717,
       "speaker": "Kaiser Kuo",
       "en": "From the inside, it sounds more like a bureaucratic pile-up. What do you make of this May collapse episode? Does it matter? If a target country can't even distinguish between coercion and bureaucratic cock-up, doesn't it kind of have to respond as if it were coercion anyway? Irrespective of what it really was, doesn't that feed the very spiral that you guys are describing?",
       "zh": "但从内部来看，这听上去更像是一场官僚系统的混乱拥堵。你们怎么看5月份出口暴跌这一事件？这究竟重要吗？如果目标国家根本无法分清这到底是蓄意胁迫还是官僚搞砸了，难道不也只能按遭受胁迫来做出反应吗？撇开其实质不谈，这难道不恰恰加剧了你们所描述的恶性循环吗？"
     },
     {
-      "id": 161,
+      "id": 160,
       "start_sec": 2751,
       "speaker": "Jessica Chen Weiss",
       "en": "Well, let's, I think, tease apart two things. One is the intentions, and one is the consequences. So, to your question, I actually think this is really an excellent illustration of just how much Beijing reached for this before it was fully ready to weaponize it in a precise way.",
       "zh": "我认为可以把两件事区分开来看：一是意图，二是后果。针对你的提问，我认为这实际上极为生动地说明了一点：北京在尚未完全做好精准武器化准备之前，就已经急不可耐地动用这一手段了。"
     },
     {
-      "id": 162,
+      "id": 161,
       "start_sec": 2767,
       "speaker": "Kaiser Kuo",
       "en": "Yeah, yeah. That's my sense, yeah.",
       "zh": "对，对，我也是这种感觉。"
     },
     {
-      "id": 163,
+      "id": 162,
       "start_sec": 2769,
       "speaker": "Jessica Chen Weiss",
       "en": "And that if this were not an action-reaction spiral, we wouldn't have seen them roll this out, or we wouldn't have seen them reach for this coercive tool quite so soon.",
       "zh": "而且，如果不是因为陷入了“行动-反应”的恶性循环，我们也不会看到他们推出这些措施，或者说不会看到他们这么快就祭出这种胁迫工具。"
     },
     {
-      "id": 164,
+      "id": 163,
       "start_sec": 2780,
       "speaker": "Jessica Chen Weiss",
       "en": "And I think people inside China have pointed to the fact that Beijing has overreached, and that it actually lacked the capacity to implement effectively despite all of the preparatory work.",
       "zh": "我觉得中国国内也有人指出，北京此举用力过猛，而且尽管做了种种铺垫工作，实际上却缺乏有效执行的能力。"
     },
     {
-      "id": 165,
+      "id": 164,
       "start_sec": 2791,
       "speaker": "Jessica Chen Weiss",
       "en": "And, of course, overseas, the effect was felt not only by the United States, but also by other companies around the world. Because, of course, these are extraterritorial in nature. These are global measures rather than ones that are just directed at the United States, so there was a lot of collateral damage here being done as well.",
       "zh": "当然在海外，不仅美国感受到了冲击，全球其他企业也受到了波及。因为从本质上讲，这些措施具有域外效力，属于全球性措施，而不仅仅针对美国。因此，这也造成了大量的附带损害。"
     },
     {
-      "id": 166,
+      "id": 165,
       "start_sec": 2808,
       "speaker": "Jessica Chen Weiss",
       "en": "Now to the consequences: you're absolutely right that folks on the receiving end of these restrictions can't necessarily parse, and don't need to forgive Beijing just because it didn't intend to have this massive impact. It still had this massive impact.",
       "zh": "至于后果，你说得完全没错：承受这些限制措施的一方未必能厘清个中原委，也没必要仅仅因为北京并非有意造成如此巨大的冲击就对其予以宽宥。毕竟，它确实造成了巨大的冲击。"
     },
     {
-      "id": 167,
+      "id": 166,
       "start_sec": 2822,
       "speaker": "Jessica Chen Weiss",
       "en": "And in fact, I think that pushback has been heard certainly in Beijing. And I don't think that pressure is always counterproductive. I think that in this case, hearing from companies around the world is actually part of what then led to the willingness to suspend those restrictions for a year as part of this truce that the Trump administration ended up reaching.",
       "zh": "事实上，我认为北京显然听到了这种反对声音。我并不认为外部施压总是适得其反。就本案而言，听到全球企业的声音，恰恰促成了中方愿意暂缓执行这些限制一年，这也是特朗普政府最终达成的休战协议的一部分。"
     },
     {
-      "id": 168,
+      "id": 167,
       "start_sec": 2847,
       "speaker": "Jessica Chen Weiss",
       "en": "So, yes. But of course, in that timeframe, since then, there's been additional effort to systematize this, and walk back some of the most restrictive elements of policy that they weren't really able to implement effectively in target manner.",
       "zh": "所以确实如此。但当然，从那时以来的这段时间里，各方又做出了更多努力来将这一体系规范化，并回调了某些他们原本无法有效精准推行的极限制政策要素。"
     },
     {
-      "id": 169,
+      "id": 168,
       "start_sec": 2866,
       "speaker": "Kaiser Kuo",
       "en": "So, at last, we come to October of 2025, where the real playing of the card happens, where the real escalation comes. So, just for people who don't remember, Washington had expanded the Entity List...",
       "zh": "终于，我们来到了2025年10月，这是真正亮出底牌、局势真正升级的时刻。在此给记不清细节的听众交代一下背景：当时华盛顿扩大了“实体清单”……"
     },
     {
-      "id": 170,
+      "id": 169,
       "start_sec": 2880,
       "speaker": "Kaiser Kuo",
       "en": "the BIS entity list to include affiliates that had 50% ownership from an entity-listed company. That would have increased the total number from something like 3,500 entity-listed companies, many of which are Chinese, to something like 10 or 15 times that number.",
       "zh": "将工业与安全局（BIS）实体清单扩大到被列入实体清单的企业持股50%的附属公司。这本会使实体清单上的公司总数从大约3500家（其中许多是中国公司）激增至原来的10到15倍。"
     },
     {
-      "id": 171,
+      "id": 170,
       "start_sec": 2898,
       "speaker": "Kaiser Kuo",
       "en": "So, I read somewhere that would have been like 14 times the number of entity-listed companies, and it would have come to something like 140,000 companies then would have been... I don't... I can't... Don't quote me on that, that number, but it was a lot.",
       "zh": "我在某处读到，被列入实体清单的企业数量可能会增加到约14倍，最终可能达到大约14万家企业被……我记不太清具体数字了，别在这上面引用我，但总之规模极其庞大。"
     },
     {
-      "id": 172,
+      "id": 171,
       "start_sec": 2914,
       "speaker": "Kaiser Kuo",
       "en": "10 days after, Beijing answered with something, you know, we'd never really seen from China, which was an extraterritorial regime that asserted, you know, jurisdiction over any product on Earth containing even a sliver of Chinese rare earths or made with Chinese processing technology.",
       "zh": "十天后，北京做出了回应，拿出了我们从未在他们身上真正见过的举措：一套主张域外管辖的制度，宣称对地球上任何哪怕只含有一丝中国稀土或采用中国提炼加工技术生产的产品均拥有管辖权。"
     },
     {
-      "id": 173,
+      "id": 172,
       "start_sec": 2931,
       "speaker": "Kaiser Kuo",
       "en": "And this was, I mean, to your earlier point about them, you know, preparing, this was a mirror image of the US Foreign Direct Product Rule. The language is, you know, too similar to ignore. The IEA put the potential cost to industries outside China at like $6.5 trillion.",
       "zh": "回到你们之前提到中方一直在做准备的观点，这完全就是美国“外国直接产品规则”（FDPR）的镜像翻版。条文措辞相似到无法忽视。国际能源署（IEA）估计，中国境外产业的潜在损失高达约6.5万亿美元。"
     },
     {
-      "id": 174,
+      "id": 173,
       "start_sec": 2954,
       "speaker": "Kaiser Kuo",
       "en": "So Gloria, was this ever meant to be implemented? Or was this a big, scary bluff? Or was it, you know, a piece of leverage to be, you know, traded away eventually, which is, in fact, what happened at Busan just a few weeks later?",
       "zh": "Gloria，这项规则到底有没有打算真正执行？还是说这只是个吓唬人的大虚张声势？抑或它本就是用来在后续谈判中交易掉的筹码？而事实也正是如此，几周后在釜山它就被用来达成了妥协。"
     },
     {
-      "id": 175,
+      "id": 174,
       "start_sec": 2971,
       "speaker": "Kaiser Kuo",
       "en": "What's your sense of that? Do you think that if Trump had not folded, that this would have gone forward with its massive repercussions all over the world?",
       "zh": "对此你怎么看？你认为如果 Trump 当时没有退让，该举措真会全面推进并在全球引发轩然大波吗？"
     },
     {
-      "id": 176,
+      "id": 175,
       "start_sec": 2983,
       "speaker": "Gloria Xiong",
       "en": "Well, you know, I think that's a great question for us to keep an eye on as things unfold in the next few months. I wouldn't put money on that. In many ways, we just have to wait and see.",
       "zh": "这个切入点非常好，随着未来几个月局势的发展，我们确实需要密切观察。我可不敢为此下注。在很多方面，我们只能拭目以待。"
     },
     {
-      "id": 177,
+      "id": 176,
       "start_sec": 2998,
       "speaker": "Gloria Xiong",
       "en": "Um, but I do think at this point, one can make the argument that it worked well as a bargaining chip for China.",
       "zh": "不过我认为就目前而言，完全可以说它作为中国的谈判筹码起到了极佳的效果。"
     },
     {
-      "id": 178,
+      "id": 177,
       "start_sec": 3008,
       "speaker": "Gloria Xiong",
       "en": "Again, thinking about the scope of this extraterritorial measure, if implemented, it's not just against the United States, it's pretty much against everyone. So I would like to, you know, put this measure in context of the economic security dilemma that we elaborate in the piece.",
       "zh": "再次考量这项域外管辖措施的适用范围，一旦付诸实施，它针对的绝不仅仅是美国，而是几乎涵盖了所有国家。因此，我想把这项举措放到我们在文章中详述的“经济安全困境”语境下来看。"
     },
     {
-      "id": 179,
+      "id": 178,
       "start_sec": 3028,
       "speaker": "Gloria Xiong",
       "en": "So, I mean, the US and its allies see various kinds of multilateral efforts to diversify away from China in the global supply chain of rare earths and critical minerals as very much as a defensive measure. But in Chinese discussion around this, most of them see this as a kind of encirclement strategy, or as they put it, right, \"small club\" politics.",
       "zh": "美国及其盟友在稀土与关键矿产全球供应链中推动各种多边“去中国化”多元化努力，在他们自己看来完全是防御性举措。但放在中国内部的讨论中，绝大多数人将其视为一种包围圈战略，或者正如他们所说的“小圈子”政治。"
     },
     {
-      "id": 180,
+      "id": 179,
       "start_sec": 3056,
       "speaker": "Gloria Xiong",
       "en": "So, they fundamentally see this as a threat.",
       "zh": "因此，他们从根本上将此视为一种威胁。"
     },
     {
-      "id": 181,
+      "id": 180,
       "start_sec": 3060,
       "speaker": "Gloria Xiong",
       "en": "to their own national interest as these multilateral efforts to move away from dependence on China in areas such as critical minerals and rare earths. So I think, you know, this measure, if implemented, would be a measure for China to slow down this diversification effort.",
       "zh": "为了自身的国家利益，加入到这些旨在关键矿产和稀土等领域摆脱对华依赖的多边行动中。因此我认为，这项措施一旦落实，将成为中国延缓这种多元化努力的手段。"
     },
     {
-      "id": 182,
+      "id": 181,
       "start_sec": 3084,
       "speaker": "Gloria Xiong",
       "en": "So in many ways, it's actually a good example to illustrate the security dilemma that emerged between Washington and Beijing in this area.",
       "zh": "所以在很多方面，这恰好是展现华盛顿与北京在这一领域出现安全困境的一个典型例证。"
     },
     {
-      "id": 183,
+      "id": 182,
       "start_sec": 3096,
       "speaker": "Kaiser Kuo",
       "en": "Well, in the spring of 2025, we talked about that incident where there were only 30 people manning the bureau for export controls and they were overwhelmed. Does it have a bigger staff now? Have they really increased their capacity to handle the kind of chokehold that they're now contemplating?",
       "zh": "在2025年春季，我们谈到过那个插曲，当时出口管制局只有30名工作人员，完全不堪重负。现在的编制扩大了吗？他们是否切实提升了能力，来应对他们如今正在酝酿的这种“卡脖子”举措？"
     },
     {
-      "id": 184,
+      "id": 183,
       "start_sec": 3123,
       "speaker": "Jessica Chen Weiss",
       "en": "Yeah, I mean in a variety of ways they've tried to tighten up a system that was ill-prepared, I think, to deal with what was unleashed. The pause has given them some time, but as in any bureaucracy, there are challenges.",
       "zh": "是的，我的意思是，他们通过各种方式试图收紧并完善这套体制，在此之前，我认为它根本没做好应对所引发后果的准备。这次暂缓执行给了他们一些喘息时间，但就像任何官僚体制一样，挑战依然存在。"
     },
     {
-      "id": 185,
+      "id": 184,
       "start_sec": 3139,
       "speaker": "Gloria Xiong",
       "en": "I remember reading from Reuters that the number of staffing has doubled to 60. I think the report came around summer last year.",
       "zh": "我记得路透社曾报道称，其编制人员增加了一倍，达到60人。我认为那篇报道大概是在去年夏天发布的。"
     },
     {
-      "id": 186,
+      "id": 185,
       "start_sec": 3152,
       "speaker": "Kaiser Kuo",
       "en": "It's kind of an unintended mirror of BIS, which was a really, really small bureau too, and also got overwhelmed after the chip export restrictions.",
       "zh": "这在某种程度上成了美国工业与安全局（BIS）的无意对照，BIS本身也是个非常小的局，在出台芯片出口限制措施后同样陷入了疲于奔命的境地。"
     },
     {
-      "id": 187,
+      "id": 186,
       "start_sec": 3162,
       "speaker": "Kaiser Kuo",
       "en": "So we're recording in early September 2026, it's September 7th. The Busan truce, the one-year suspension of China's extraterritorial controls matched by Washington's suspension of the affiliate rule, it expires in a couple of months, I think it's like November 9th.",
       "zh": "我们录制节目的时间是2026年9月上旬，今天是9月7日。釜山休战协议——即中国暂停域外管辖管制一年，对应华盛顿暂停关联企业规则——还有几个月就要到期了，我记得好像是11月9日。"
     },
     {
-      "id": 188,
+      "id": 187,
       "start_sec": 3180,
       "speaker": "Kaiser Kuo",
       "en": "You write that hawks on both sides are treating this lull as, you know, time to sharpen the knives, right? You compare this call by Wess Mitchell of the Marathon Initiative in Foreign Affairs — and the Marathon Initiative, if people don't know, it really is kind of a rookery of China hawks.",
       "zh": "你们在文章中写道，两国的鹰派都将这一间歇期视为“磨刀霍霍”的机会，对吧？你们将马拉松倡议（Marathon Initiative）的Wess Mitchell在《外交事务》上发表的呼吁——如果不了解的话，马拉松倡议可以说是中国鹰派的大本营——"
     },
     {
-      "id": 189,
+      "id": 188,
       "start_sec": 3201,
       "speaker": "Kaiser Kuo",
       "en": "This call by him for the U.S. to consolidate and prevail in sustained competition, you compare what he says to what Renmin University's America hawk, Di Dongsheng, says. He urges China to seize the initiative and \"de-Americanize\" its supply chains. So these are, again, mirror images.",
       "zh": "他呼吁美国在持续竞争中巩固优势并取得胜利；你们将他的观点与中国人民大学的对美鹰派学者狄东升的主张进行了对比。狄东升敦促中国抢占先机，实现供应链的“去美国化”。所以说，这又是一对互为镜像的论调。"
     },
     {
-      "id": 190,
+      "id": 189,
       "start_sec": 3224,
       "speaker": "Kaiser Kuo",
       "en": "What do you expect right now as the deadline approaches? It seems to me that there's large constituencies in both capitals who are arguing to use the lull to build something more durable than just a countdown clock that we have to keep hitting snooze on every year.",
       "zh": "随着最后期限的临近，你们目前有何预期？在我看来，两国首都都有相当一部分力量在呼吁，应该利用这段间歇期建立某种更具持久性的机制，而不是每年都要按下“稍后提醒”的倒计时钟。"
     },
     {
-      "id": 191,
+      "id": 190,
       "start_sec": 3240,
       "speaker": "Kaiser Kuo",
       "en": "There are a lot of people who understand the situation of mutually assured disruption that we're in, and understand that we can't leave it to just the way we approach budget votes in the House.",
       "zh": "很多人都清楚我们正处于这种“相互确保中断”的境地，也明白我们不能任由事态像众议院对待预算表决那样发展。"
     },
     {
-      "id": 192,
+      "id": 191,
       "start_sec": 3256,
       "speaker": "Kaiser Kuo",
       "en": "What's your sense right now, Jessica, of where people are in D.C. and in Beijing, as we approach the state visit by Xi Jinping to D.C.?",
       "zh": "Jessica，随着习近平访美并对华盛顿进行国事访问的临近，你目前对华盛顿和北京各方的立场有什么观察？"
     },
     {
-      "id": 193,
+      "id": 192,
       "start_sec": 3266,
       "speaker": "Jessica Chen Weiss",
       "en": "My sense is that there are those who understand the new reality, that neither the United States nor China can land a decisive blow. But I think they are countered by those like Elbridge Colby and Wes Mitchell, who think that this situation is only temporary and that enough diversification can ultimately break the chokehold that each side has over the other.",
       "zh": "我的感觉是，有人已经认识到了这个新现实，即中美任何一方都无法给对方致命一击。但我认为，这种观点也遭到了像 Elbridge Colby 和 Wess Mitchell 等人的反驳，他们认为目前这种局面只是暂时的，只要实现充分的多元化，最终就能打破对方对自己的卡脖子锁喉。"
     },
     {
-      "id": 194,
+      "id": 193,
       "start_sec": 3292,
       "speaker": "Jessica Chen Weiss",
       "en": "I think that this is a fantasy, and ACF Institute, that I direct at SAIS, has published a number of pieces, including by a former senior Biden official, Daleep Singh, suggesting that escalation dominance is kind of like tilting at windmills.",
       "zh": "我认为这纯属幻想。我在 SAIS 领导的 ACF 研究所发表过多篇文章，包括前拜登政府高级官员 Daleep Singh 撰写的文章，指出追求所谓的“升级主导权”无异于唐吉诃德大战风车。"
     },
     {
-      "id": 195,
+      "id": 194,
       "start_sec": 3311,
       "speaker": "Jessica Chen Weiss",
       "en": "The consequences are far more dire because it essentially undercuts the incentive to continue to stabilize the relationship. That fear that this is just a temporary lull puts a ceiling on how much both sides will invest in a more stable future.",
       "zh": "但其后果要严重得多，因为它在本质上削弱了继续稳定两国关系的动力。而这种担心目前只是短暂喘息期的恐惧，也限制了双方为更稳定的未来投入资源的意愿。"
     },
     {
-      "id": 196,
+      "id": 195,
       "start_sec": 3330,
       "speaker": "Kaiser Kuo",
       "en": "So, Gloria, let's talk about the limits of leverage on both sides. You make the case that China's chokehold is real, but it's also bounded. Japan has gone, from 90% dependence on Chinese rare earths to just 60%.",
       "zh": "那么 Gloria，我们来聊聊双方手里的筹码边界。你在文章中指出，中国的卡脖子能力确实存在，但也是有限度的。例如日本对中国稀土的依赖度已经从 90% 降到了仅 60%。"
     },
     {
-      "id": 197,
+      "id": 196,
       "start_sec": 3346,
       "speaker": "Kaiser Kuo",
       "en": "China still trails Japan and the U.S. in parts of the recycling chain, including mining of electronic garbage. Some U.S. government-affiliated analysts think sourcing as little as a third of supply from outside China would basically blunt Beijing's ability to apply real pressure.",
       "zh": "在回收产业链的某些环节，包括电子垃圾回收开采方面，中国仍落后于美日。一些美国政府背景的分析人士认为，只要能从中国境外获取哪怕三分之一的供应，基本上就能削弱北京施加实质压力的能力。"
     },
     {
-      "id": 198,
+      "id": 197,
       "start_sec": 3365,
       "speaker": "Kaiser Kuo",
       "en": "But then there are some elements that you talk about, like yttrium, which some are calling the killer choke point because diversification from that would actually take years. Yttrium is used in lasers, some advanced ceramics, and in some superconducting materials.",
       "zh": "但你在文中也提到了一些关键元素，比如钇，有人称其为“杀手级卡脖子点”，因为针对它的替代和多元化需要耗费数年时间。钇被广泛应用于激光、部分先进陶瓷材料以及某些超导材料中。"
     },
     {
-      "id": 199,
+      "id": 198,
       "start_sec": 3383,
       "speaker": "Kaiser Kuo",
       "en": "Gloria, from the Chinese side, where do China's own experts think that their leverage is really deep, and where do they think it's actually kind of thin? Do they seem to see the same limits that you assess?",
       "zh": "Gloria，从中国方面来看，中国自己的专家认为他们真正的杀手锏在哪里？在哪些方面筹码其实比较有限？他们眼中的局限性与你的评估一致吗？"
     },
     {
-      "id": 200,
+      "id": 199,
       "start_sec": 3398,
       "speaker": "Gloria Xiong",
       "en": "I think regarding the leverage that China has in this area, I don't see a huge gap in perception. China still dominates mining and midstream processing and separation of rare earths, especially when it comes to technically difficult separation of heavy rare earths.",
       "zh": "我认为关于中国在这一领域的筹码优势，双方的认知并没有太大差距。中国在稀土开采、中游加工以及分离技术上依然占据绝对主导地位，特别是在技术难度极高的重稀土分离领域。"
     },
     {
-      "id": 201,
+      "id": 200,
       "start_sec": 3418,
       "speaker": "Gloria Xiong",
       "en": "What may surprise...",
       "zh": "可能让人感到意外的是……"
     },
     {
-      "id": 202,
+      "id": 201,
       "start_sec": 3420,
       "speaker": "Gloria Xiong",
       "en": "Many is that this narrative of impending depletion of China's rare earth material, it started to prevail in in Chinese public discussion and also policy discussion as well almost two decades ago.",
       "zh": "很多人的看法是，关于中国稀土资源即将枯竭的叙事，早在近二十年前就已开始在中国公众舆论和政策讨论中占据主流。"
     },
     {
-      "id": 203,
+      "id": 202,
       "start_sec": 3438,
       "speaker": "Gloria Xiong",
       "en": "Part of it is because, you know, all of these resources, whether it's rare earths or critical minerals, are non-renewable in nature. Part of it is also, I think, because Chinese experts themselves see high dependence on overseas imports for several critical minerals, such as lithium and nickel.",
       "zh": "部分原因在于，这些资源——无论是稀土还是关键矿产——本质上都是不可再生的。我认为另一部分原因在于，中国专家自己也看到了在锂、镍等若干关键矿产上对海外进口的高度依赖。"
     },
     {
-      "id": 204,
+      "id": 203,
       "start_sec": 3460,
       "speaker": "Gloria Xiong",
       "en": "So, I mean, they worry that in the future, China would become dependent on foreign imports and they can be used as chokepoints against China. So, I think this high level of resource insecurity despite its dominance is critical to keep in mind.",
       "zh": "因此，他们担忧未来中国会变得依赖外国进口，而这些领域可能会被用来对中国实施“卡脖子”。所以，我认为必须牢记的是：尽管中国拥有主导地位，但其内部却存在着极高的资源不安全感。"
     },
     {
-      "id": 205,
+      "id": 204,
       "start_sec": 3480,
       "speaker": "Gloria Xiong",
       "en": "Another hidden vulnerability is its insufficient control over advanced high-tech applications, so those high-value downstream functional material. I remember there's this one book published maybe a few months ago, the authors noted that China's still playing catch-up to the US and Japan when it comes to high-end downstream patents.",
       "zh": "另一个隐藏的脆弱点在于，中国对尖端高科技应用的掌控不足，也就是那些高附加值的下游功能性材料。我记得几个月前出版的一本书中，作者指出在高价值的下游专利方面，中国仍在努力追赶美国和日本。"
     },
     {
-      "id": 206,
+      "id": 205,
       "start_sec": 3501,
       "speaker": "Gloria Xiong",
       "en": "So, I think, you know, this is a good point to emphasize that even in this one single sector of rare earths, we still see a level of interdependence in in some ways.",
       "zh": "所以我觉得，这很能说明问题：即使仅就稀土这一个单一行业而言，我们在某些维度上仍能看到某种程度的相互依存。"
     },
     {
-      "id": 207,
+      "id": 206,
       "start_sec": 3513,
       "speaker": "Kaiser Kuo",
       "en": "So, Gloria, staying with you, let's go back to the Chinese domestic picture as it stands right now. So, the industry, you know, has gone from these artisanal mines and the crime rings that you guys talked about with like all the acid rain, to now what is it, like six state groups in 2014 to now these two national champions today in 2025.",
       "zh": "那么 Gloria，继续问你，让我们回到目前中国国内的现状。这个行业经历了从你们提到的手工小作坊、伴随严重酸雨的犯罪团伙，到 2014 年整合为六家国有集团，再到如今 2025 年形成的两大“国家队”龙头企业。"
     },
     {
-      "id": 208,
+      "id": 207,
       "start_sec": 3535,
       "speaker": "Kaiser Kuo",
       "en": "Has the Wild West finally been tamed? Do the local governments that used to resist Beijing for decades, do they finally, you know, obey central directives?",
       "zh": "这片“荒野西部”最终被驯服了吗？那些曾对抗北京数十年的地方政府，现在是否终于听从中央指令了呢？"
     },
     {
-      "id": 209,
+      "id": 208,
       "start_sec": 3549,
       "speaker": "Gloria Xiong",
       "en": "I would say partially. One of the stated goals of consolidating this industry, at least in official narrative, is to improve environmental standards. So, cracking down on unlicensed mining certainly helped with the environmental fallout. Historically, the most severe environmental pollution took place at those illegal mines.",
       "zh": "我认为只能说部分做到了。至少在官方叙事中，整合该行业的既定目标之一就是提高环保标准。因此，打击无证开采确实减轻了环境破坏。从历史上看，最严重的环境污染正是发生在那些非法矿井中。"
     },
     {
-      "id": 210,
+      "id": 209,
       "start_sec": 3577,
       "speaker": "Gloria Xiong",
       "en": "When it comes to pollution oversight, I would argue that it's always this cycle of crackdown and then ease up and crack down again, so enforcement gap will, in some way, inevitably always show up. And another interesting contradiction is that, besides the geopolitical tensions...",
       "zh": "但在污染监管方面，我认为一直存在“先严打、后放松、再严打”的循环，因此执行缺口在某种程度上总会不可避免地出现。另一个耐人寻味的矛盾在于，除了地缘政治紧张局势之外……"
     },
     {
-      "id": 211,
+      "id": 210,
       "start_sec": 3600,
       "speaker": "Gloria Xiong",
       "en": "Which everyone is talking about. The strategic importance of rare earth materials was elevated since 2020 also because of China's clean energy drive.",
       "zh": "大家都在讨论这个问题。自2020年以来，稀土材料的战略重要性显著提升，这也源于中国对清洁能源的大力推动。"
     },
     {
-      "id": 212,
+      "id": 211,
       "start_sec": 3612,
       "speaker": "Gloria Xiong",
       "en": "Since these elements are indispensable for manufacturing whether it's EV motors or wind turbines. So you do have right now this contradiction that producing rare earths are polluting, but also China is striving to be a green tech giant.",
       "zh": "因为制造新能源汽车电机或风力发电机，都离不开这些元素。因此，目前确实存在这样一种矛盾：稀土生产伴随着高污染，但同时中国又致力于成为绿色科技巨头。"
     },
     {
-      "id": 213,
+      "id": 212,
       "start_sec": 3630,
       "speaker": "Kaiser Kuo",
       "en": "Is it just the focus? I mean, because I wonder has the whole political economy of rare earths in China, has it now been fully securitized or are there still sort of commercial or provincial interests that pull against this sort of framing of rare earths as just a weaponized resource?",
       "zh": "这只是关注重点的不同吗？我的意思是，我想知道中国稀土的整个政治经济格局，现在是已经完全被泛安全化了，还是依然存在某些商业或地方省份的利益，在抗衡这种单纯把稀土当成武器化资源的定性？"
     },
     {
-      "id": 214,
+      "id": 213,
       "start_sec": 3652,
       "speaker": "Gloria Xiong",
       "en": "At this point, as you mentioned Kaiser, we've seen the industry consolidating around two national champions. So, in terms of industrial structure, it's no longer fragmented, right? There is tighter central oversight.",
       "zh": "眼下，正如 Kaiser 你所提到的，我们看到该产业已经整合到两大国家队领头羊企业麾下。因此，从产业结构来看，它不再是一盘散沙，确实有了更严格的中央监管。"
     },
     {
-      "id": 215,
+      "id": 214,
       "start_sec": 3668,
       "speaker": "Gloria Xiong",
       "en": "Yeah. But just like in any other sectors in China, local interest and imperative would always persist. I mean, the way they're incentivized differently on tax revenue and resource allocation, it isn't random. It's built into the system.",
       "zh": "是的。但就像中国的任何其他行业一样，地方利益和诉求永远存在。我的意思是，他们在税收和资源配置上受到的激励机制截然不同，这并非偶然，而是根植于体制之中的。"
     },
     {
-      "id": 216,
+      "id": 215,
       "start_sec": 3688,
       "speaker": "Gloria Xiong",
       "en": "And for anyone who is interested in this sub-national dynamic should read this China Quarterly article written by Jessica DiCarlo, Kooroshy, and Rafael Dabert. This is one of the most consequential piece that I've read on China's rare earth industry.",
       "zh": "任何对这种地方动态感兴趣的人，都应该读一读 Jessica DiCarlo、Corey Com 与 Rafael Dabert 在《中国季刊》（China Quarterly）上发表的那篇文章。这是我读过的关于中国稀土产业最具分量的论文之一。"
     },
     {
-      "id": 217,
+      "id": 216,
       "start_sec": 3708,
       "speaker": "Gloria Xiong",
       "en": "According to them, they describe this central-local relationship as fractured. So, it's not wholly centralized, but also not that fragmented as it was before.",
       "zh": "据他们的分析，这种央地关系被描述为“断裂性”的（fractured）。也就是说，它既没有完全集权化，也不像以前那样彻底碎片化。"
     },
     {
-      "id": 218,
+      "id": 217,
       "start_sec": 3723,
       "speaker": "Gloria Xiong",
       "en": "I would just add one Chinese idiom saying that for every policy from above, there is always a countermeasure from below. So, I think that's what we're seeing in the rare earth industry as well.",
       "zh": "我想引用一句中国老话：“上有政策，下有对策”。我认为在稀土行业，我们同样看到了这种情况。"
     },
     {
-      "id": 219,
+      "id": 218,
       "start_sec": 3734,
       "speaker": "Gloria Xiong",
       "en": "There's always going to be some, you know, local selective enforcement of central directives.",
       "zh": "地方上在执行中央政令时，总归会存在某种选择性执法的现象。"
     },
     {
-      "id": 220,
+      "id": 219,
       "start_sec": 3741,
       "speaker": "Kaiser Kuo",
       "en": "So, I want to wrap up here by asking about, you know, what our prescriptions are. And maybe if I'm reading you correctly, your prescriptions, Jessica, is reciprocal de-escalation, deterrence.",
       "zh": "在节目的最后，我想探讨一下你们开出的政策药方。Jessica，如果我理解得没错的话，你的建议是对等的缓和与威慑。"
     },
     {
-      "id": 221,
+      "id": 220,
       "start_sec": 3755,
       "speaker": "Kaiser Kuo",
       "en": "The part that will be hardest to sell in Washington is positive reciprocity, right? Encouraging bilateral trade and investment, joint ventures and licensing of Chinese technology in areas like batteries so American firms can compete alongside China.",
       "zh": "而在华盛顿最难推销的部分，莫过于“积极互惠”（positive reciprocity），对吧？也就是鼓励双边贸易与投资、成立合资企业，以及在电池等领域对中国技术进行授权许可，从而让美国企业能够与中国并肩竞争。"
     },
     {
-      "id": 222,
+      "id": 221,
       "start_sec": 3771,
       "speaker": "Kaiser Kuo",
       "en": "This is—these are your words: alongside China, not only against it. You cite, like, Financial Times estimate that fully...",
       "zh": "这是你原话：与中国“并肩”（alongside），而不仅仅是与中国“对抗”（against）。你引用了诸如《金融时报》的估算，称要完全……"
     },
     {
-      "id": 223,
+      "id": 222,
       "start_sec": 3780,
       "speaker": "Kaiser Kuo",
       "en": "...that getting the US out of Chinese supply chains would cost something like $13 trillion over 25 years. And then there's, you know, your former co-author Tom Christensen's argument, which I think is, you know, your most strategically important point, that if Beijing comes to believe US markets will be cut off unconditionally, Washington just loses the coercive leverage that it's always felt it needs to deter something like, you know, a Chinese move against Taiwan.",
       "zh": "……让美国彻底摆脱中国供应链，在未来25年内将耗费约13万亿美元。此外，还有你之前的合作作者Tom Christensen的观点——我认为这是你们最具战略意义的核心论点：如果北京认定无论如何都会被彻底切断与美国市场的联系，那么华盛顿就会丧失一直以来赖以慑止中国对台采取行动的强制性筹码。"
     },
     {
-      "id": 224,
+      "id": 223,
       "start_sec": 3807,
       "speaker": "Kaiser Kuo",
       "en": "So, given where the politics are, you know, where you've got like even something like a Ford and CATL licensing deal, where it becomes kind of a congressional scandal, what does positive reciprocity look like in practice? What's the version of this that could actually survive this post-midterm House?",
       "zh": "那么，考虑到当前的政治现实——哪怕是福特（Ford）与宁德时代（CATL）之间的技术许可合作，都会演变成国会层面的政治丑闻——在现实中，“积极对等”究竟该如何落地？在如今的中期选举后众议院格局下，到底什么样的方案才具有真正的生存空间？"
     },
     {
-      "id": 225,
+      "id": 224,
       "start_sec": 3830,
       "speaker": "Jessica Chen Weiss",
       "en": "So, I think there are a lot of different ways that positive reciprocity could play out if both Beijing and Washington would allow it. We've just talked about investment, and I recommend the UCSD report on selective openness, there was a piece by Peter Cowhey and Nick Lardy talking about how existing screening mechanisms could be strengthened, but ultimately at the end of the day, the United States would benefit by allowing in Chinese technology and licensing, in an effort to stand up American competitiveness in many of these industries where China leads.",
       "zh": "我认为，如果北京和华盛顿都放行，积极对等可以通过很多不同的方式展开。我们刚才讨论了投资，我推荐加州大学圣地亚哥分校（UCSD）关于“选择性开放”的报告，Peter Cowhey等人曾撰文探讨如何强化现有的审查机制，但归根结底，允许引进中国技术与技术许可，将有助于提升美国在许多中国领跑产业中的自身竞争力，美国最终将从中受益。"
     },
     {
-      "id": 226,
+      "id": 225,
       "start_sec": 3864,
       "speaker": "Jessica Chen Weiss",
       "en": "There's other areas of positive reciprocity. I would point to, for example, making progress on reducing the tensions that prevent more exchange of students, scholars, people, right? You have indications at the presidential level, anyway, that these are welcome, but the actual policies are going in the opposite direction and making it harder and creating a broader chilling effect on that exchange.",
       "zh": "在积极对等层面还有其他领域。比如，努力缓解阻碍学生、学者以及民间交流进一步扩大的紧张局势。至少在总统层面已有表态欢迎这些交流，但实际政策却背道而驰，不仅设置了更多阻碍，还对人文交流产生了更广泛的寒蝉效应。"
     },
     {
-      "id": 227,
+      "id": 226,
       "start_sec": 3888,
       "speaker": "Jessica Chen Weiss",
       "en": "I would think that even on the issue of Taiwan, Trump has made a number of remarks that have been welcomed in Beijing, but it's not clear to me that he's gotten anything from it. And I don't mean here trade concessions, I mean a reciprocal pullback of Chinese military operations around Taiwan.",
       "zh": "我认为即便在台湾问题上，特朗普总统虽然发表过一些受到北京欢迎的言论，但我看不出他从中换取到了什么实质筹码。我指的不是贸易上的让步，而是指中国大陆在台湾周边的军事行动能够相应有所收敛。"
     },
     {
-      "id": 228,
+      "id": 227,
       "start_sec": 3906,
       "speaker": "Jessica Chen Weiss",
       "en": "And so, I think we need to think a little bit less unilaterally and more reciprocally, so that, as we show, there's an action-reaction spiral in a dangerous direction. And maybe it has slowed somewhat under this administration, Trump 2.0, post the Busan Summit. But whether that will be extended, I think, really requires all of us to understand that there is going to be no winning, ultimately, and that we actually just need to manage this interdependence.",
       "zh": "因此，我认为我们需要少一点单边思维，多一点对等考量。正如我们指出的，双方之间存在着滑向危险方向的“行动-反应”螺旋。在釜山峰会之后的特朗普2.0政府任内，这种势头或许有所放缓。但这种缓和能否维系，归根结底取决于我们所有人能否认识到：这场博弈根本不可能有赢家，我们实际上必须学会妥善管理这种相互依存关系。"
     },
     {
-      "id": 229,
+      "id": 228,
       "start_sec": 3934,
       "speaker": "Jessica Chen Weiss",
       "en": "Which does require, you know, defeating hubris on the other side, so some degree of diversification is necessary to avoid these easily exploitable chokepoints. But we also need to recognize that continued integration, interdependence is actually a source of stability and not just potential weaponization.",
       "zh": "这当然需要打掉对方的傲慢，因此适度的多元化是必要的，以避免出现容易被利用的卡脖子关卡。但我们也必须认识到，持续的深度融合与相互依存实际上是稳定的基石，而不仅仅意味着潜在的武器化风险。"
     },
     {
-      "id": 230,
+      "id": 229,
       "start_sec": 3951,
       "speaker": "Kaiser Kuo",
       "en": "Gloria, everyone else gets left out of the conversation so often when we talk about rare earths, US-China, stuff like this, but...",
       "zh": "Gloria，当我们讨论稀土、中美博弈这类议题时，其他各方往往完全被排除在对话之外，但是……"
     },
     {
-      "id": 231,
+      "id": 230,
       "start_sec": 3960,
       "speaker": "Kaiser Kuo",
       "en": "You know, there are many countries with viable rare earth deposits that don't want to choose between China and the United States. I think about, you know, Myanmar, which is supplying a huge share of the heavy rare earth feedstocks that go into China's processors from, you know, it's a conflict zone that nobody controls.",
       "zh": "很多拥有可开采稀土矿藏的国家，其实并不想在中美之间选边站队。我想到比如缅甸，它为中国的加工企业提供了大量的重稀土原料，而这些原料来自几乎无人能实质控制的冲突地区。"
     },
     {
-      "id": 232,
+      "id": 231,
       "start_sec": 3980,
       "speaker": "Kaiser Kuo",
       "en": "Australia and Lynas, Vietnam, Brazil, the Central African deposits that everybody is suddenly courting — again, a very war-torn area in eastern Congo especially. But Gloria, how does Beijing think about these third countries?",
       "zh": "还有澳大利亚与莱纳斯公司（Lynas）、越南、巴西，以及各方突然竞相拉拢的中非矿藏——那同样是一个饱受战火蹂躏的地区，尤其是刚果（金）东部。那么 Gloria，北京究竟是如何看待这些第三国矿源的？"
     },
     {
-      "id": 233,
+      "id": 232,
       "start_sec": 3999,
       "speaker": "Kaiser Kuo",
       "en": "Do they see them as territory to lock up, or as a hedge that makes its own leverage more sustainable, or is it something else? I mean, does the Global South's reluctance to pick sides work in Beijing's advantage, or does it work against Beijing?",
       "zh": "是把它们视为必须先下手锁定的地盘，还是看作一种能让自己筹码更具可持续性的对冲手段？抑或是别的考量？全球南方不愿选边站的态度，对北京来说究竟是利还是弊？"
     },
     {
-      "id": 234,
+      "id": 233,
       "start_sec": 4017,
       "speaker": "Gloria Xiong",
       "en": "To answer your question here, Kaiser, I would say it's not either-or, but both-and, and the answer is really based on which third country that we're talking about, so it's more like a case-by-case. From my reading of the Chinese language resources, I think they are highly aware of the potential geopolitical risk posed by, you know, their import dependence regarding several critical minerals.",
       "zh": "回答你的问题，Kaiser，我认为这并非二选一，而是兼而有之，而且这完全取决于我们具体讨论的是哪一个第三国，基本上是一事一议。从我查阅的中文文献来看，中国非常清楚自己在若干关键矿物上对进口的依赖所带来的潜在地缘政治风险。"
     },
     {
-      "id": 235,
+      "id": 234,
       "start_sec": 4046,
       "speaker": "Gloria Xiong",
       "en": "They discuss about potential political instability and frequent policy changes in those countries, in those resource-rich countries in Africa, in Latin America. For instance, I mean, they talk about the risk of civil war in Congo, and, you know, the rise of resource nationalism in those countries as well.",
       "zh": "他们经常讨论这些国家潜在的政局动荡以及频繁的政策变动，尤其是在非洲和拉美的那些资源富集国。例如，他们会谈到刚果（金）内战的风险，以及这些国家资源民族主义抬头的趋势。"
     },
     {
-      "id": 236,
+      "id": 235,
       "start_sec": 4068,
       "speaker": "Gloria Xiong",
       "en": "So, I think, you know, they do perceive risk from policy change in those countries. And I think in many ways we see the security dilemma kind of spill over to US-China competition in those third countries, and as you mentioned here, many of them are not trying to stick to one side.",
       "zh": "因此，他们确实敏锐察觉到了这些国家政策转向所带来的风险。在很多方面，我们看到这种安全困境正在外溢到中美在第三国的竞争中；正如你所言，很多第三国其实并不打算死心塌地倒向任何一方。"
     },
     {
-      "id": 237,
+      "id": 236,
       "start_sec": 4090,
       "speaker": "Kaiser Kuo",
       "en": "Well, this has been wonderful. I want to thank you both so much for taking the time to talk about this piece, again, which I highly recommend that everyone take a look at. It's in the latest edition of Foreign Affairs.",
       "zh": "今天的讨论非常精彩。非常感谢两位抽出时间来聊这篇文章，我再次强烈推荐大家都去读一读，文章刊登在最新一期的《外交事务》（Foreign Affairs）上。"
     },
     {
-      "id": 238,
+      "id": 237,
       "start_sec": 4104,
       "speaker": "Kaiser Kuo",
       "en": "Let me also mention that Jessica has two interviews that you're going to want to listen to and read: listen to her excellent interview with Dan Kurtz-Phelan, editor of Foreign Affairs, on The Foreign Affairs Interview podcast, and also check out her interview in The Monitor, which is the newsletter of the Carter Center's US-China Perception Monitor.",
       "zh": "另外提一句，Jessica 最近有两场非常值得收听和阅读的专访：一场是她在《外交事务访谈》播客中与主编 Dan Kurtz-Phelan 的深度对话；另一场刊登在卡特中心“中美印象”项目的简报《The Monitor》上。"
     },
     {
-      "id": 239,
+      "id": 238,
       "start_sec": 4125,
       "speaker": "Kaiser Kuo",
       "en": "This all has me very eager to get a galley copy of Jessica's forthcoming book about what China wants, and to get her back on the show to a deep dive into that. But yeah, make sure in the meantime to read this piece.",
       "zh": "这些都让我十分期待能早日拿到 Jessica 即将出版的关于中国意图的新书样书，届时一定会再请她回节目做深度探讨。不过眼下，大家一定要去读一读这篇文章。"
     },
     {
-      "id": 240,
+      "id": 239,
       "start_sec": 4140,
       "speaker": "Kaiser Kuo",
       "en": "This excellent piece in Foreign Affairs. Again, the piece is called \"How China Found Its Most Potent Weapon: The Real History of Beijing's Rare Earth Dominance,\" and the authors of course are Gloria Xiong and Jessica Chen Weiss.",
       "zh": "《外交事务》（Foreign Affairs）上的这篇力作。再次提醒大家，这篇文章的标题是《中国如何找到其最强武器：北京稀土主导地位的真实历史》，作者正是 Gloria Xiong 和 Jessica Chen Weiss。"
     },
     {
-      "id": 241,
+      "id": 240,
       "start_sec": 4152,
       "speaker": "Kaiser Kuo",
       "en": "Let's move on now to our paying-it-forward section, where I ask each of you to name-check somebody, a younger colleague perhaps, who is doing work that you really admire, and that you think our listeners should be turned on to. Gloria, why don't you go first?",
       "zh": "现在进入我们的“薪火相传”推荐环节。我想请两位各自推荐一位学者，也许是某位年轻同行，其研究成果令你们十分钦佩，且值得广大听众关注。Gloria，你先来吧？"
     },
     {
-      "id": 242,
+      "id": 241,
       "start_sec": 4166,
       "speaker": "Gloria Xiong",
       "en": "Sure. I have a few on my mind. Let me start with Wendy Leutert at Indiana University. She works on the reform and global expansion of China's state-owned enterprises.",
       "zh": "好的。我脑海中有几位人选。先从印第安纳大学的 Wendy Leutert 说起吧。她的研究聚焦于中国国有企业的改革与全球扩张。"
     },
     {
-      "id": 243,
+      "id": 242,
       "start_sec": 4180,
       "speaker": "Gloria Xiong",
       "en": "She's also done terrific work with Isaac Kardon on China's investment in global ports—amazing, amazing work.",
       "zh": "她还与 Isaac Kardon 合作开展了关于中国在全球港口投资的重磅研究，成果非常非常出色。"
     },
     {
-      "id": 244,
+      "id": 243,
       "start_sec": 4188,
       "speaker": "Gloria Xiong",
       "en": "I would also recommend work by Ning Leng at Georgetown University. She has recently published an award-winning book with the title Politicizing Business: How Firms Are Made to Serve the Party-State in China.",
       "zh": "我还想推荐乔治城大学 Ning Leng 的研究。她最近出版了一本屡获殊荣的著作，书名为《将商业政治化：中国企业如何被要求服务于党国体系》（Politicizing Business: How Firms Are Made to Serve the Party-State in China）。"
     },
     {
-      "id": 245,
+      "id": 244,
       "start_sec": 4203,
       "speaker": "Gloria Xiong",
       "en": "Last but not least is Ketian Zhang, who has written extensively on China's coercion in maritime disputes.",
       "zh": "最后但同样重要的是 Ketian Zhang，她对中国在海洋争端中的胁迫行为进行了广泛而深入的著述。"
     },
     {
-      "id": 246,
+      "id": 245,
       "start_sec": 4211,
       "speaker": "Kaiser Kuo",
       "en": "Wow. Coercion in maritime disputes, that's a very interesting and timely topic. Fantastic! Those are three excellent ones. Jessica, can you top that?",
       "zh": "哇，海洋争端中的胁迫行为，这确实是个非常引人入胜且切中时局的话题。太棒了！这三位都极其优秀。Jessica，你能给出更惊艳的推荐吗？"
     },
     {
-      "id": 247,
+      "id": 246,
       "start_sec": 4221,
       "speaker": "Jessica Chen Weiss",
       "en": "Let me do so. Well, first I want to acknowledge the many folks whose research that we drew on in the article. Foreign Affairs doesn't allow hyperlinks, let alone endnotes, so we really benefited from Cory Combs's research, as Gloria mentioned, on rare earths.",
       "zh": "哈哈，我试试看。首先，我想向我们在文章中参考其研究成果的众多学者致敬。《外交事务》不提供超链接，更不用提尾注了，所以我们确实获益于 Cory Combs 的研究，正如 Gloria 刚才提到的稀土方面；"
     },
     {
-      "id": 248,
+      "id": 247,
       "start_sec": 4236,
       "speaker": "Jessica Chen Weiss",
       "en": "We would have cited the pieces by Arthur Kroeber, Henry Farrell, and Daleep Singh, if they would have allowed us to. And of course, Julie Klinger, whose pathbreaking research allowed us to dive more deeply into the narratives around 2010.",
       "zh": "如果规则允许，我们还会引用 Arthur Kroeber、Henry Farrell 和 Daleep Singh 的文章。当然，还有 Julie Klinger，她开创性的研究让我们得以更深入地探究围绕 2010 年事件的各种叙事。"
     },
     {
-      "id": 249,
+      "id": 248,
       "start_sec": 4253,
       "speaker": "Kaiser Kuo",
       "en": "Cory Combs—if people listen to the Sinica Podcast, they're hopefully familiar also with the Trivium China podcast, which is part of the Sinica Network. Cory is a frequent guest on that along with Andrew.",
       "zh": "提到 Cory Combs——常听 Sinica Podcast 的朋友想必对 Trivium China 播客也很熟悉，它也是 Sinica 播客网络的一部分。Cory 经常和 Andrew 一起在节目中做客。"
     },
     {
-      "id": 250,
+      "id": 249,
       "start_sec": 4267,
       "speaker": "Kaiser Kuo",
       "en": "And he is one of the most amazing people who has just such an incredible depth of knowledge about critical minerals and about supply chains. And so, yeah, I heartily endorse your recommendation of Cory's work.",
       "zh": "他是个极为了不起的人，对关键矿产和供应链有着令人惊叹的渊博学识。所以，是的，我由衷赞同你对 Cory 研究的推荐。"
     },
     {
-      "id": 251,
+      "id": 250,
       "start_sec": 4281,
       "speaker": "Jessica Chen Weiss",
       "en": "I'd also like to acknowledge some of the work of... as you know, I'm interested in disaggregating what China wants, but I think it's also important to disaggregate what the United States wants and move that conversation beyond Washington to the many different interests of local stakeholders, and especially the cross-cutting tradeoffs that many face.",
       "zh": "我还想提一下其他一些研究……如你所知，我一直致力于细分和解构中国究竟想要什么，但我认为同样重要的是去解构美国究竟想要什么，并将讨论从华盛顿延伸到地方利益相关者的多元诉求，尤其是许多人所面临的交错权衡。"
     },
     {
-      "id": 252,
+      "id": 251,
       "start_sec": 4301,
       "speaker": "Jessica Chen Weiss",
       "en": "So this is a new project that we're going to be undertaking, and in that space, I think there's some really excellent work being done by Jack Zhang, who runs the Trade War Lab at the University of Kansas.",
       "zh": "这是我们即将启动的一个新项目。在这一领域，我认为堪萨斯大学主持贸易战实验室（Trade War Lab）的 Jack Zhang 正在做非常出色的工作。"
     },
     {
-      "id": 253,
+      "id": 252,
       "start_sec": 4312,
       "speaker": "Jessica Chen Weiss",
       "en": "And also that of Kyle Jaros and Sara Newland, who are writing a book on subnational economic statecraft.",
       "zh": "还有 Kyle Jaros 和 Sara Newland，他们正在撰写一本关于地方层面经济治国方略（subnational economic statecraft）的专著。"
     },
     {
-      "id": 254,
+      "id": 253,
       "start_sec": 4320,
       "speaker": "Jessica Chen Weiss",
       "en": "So, I highly recommend their work as well, which has inspired a lot of my thinking in this space.",
       "zh": "所以，我也非常推荐他们的研究，这给我在该领域的很多思考带来了启发。"
     },
     {
-      "id": 255,
+      "id": 254,
       "start_sec": 4325,
       "speaker": "Kaiser Kuo",
       "en": "Fantastic. Thank you guys both for these excellent recommendations. And now on to the recommendations section where I ask you guys to talk about a book or, you know, some music, or a film that you've seen recently that you want to draw to the attention of my listeners. What you got for us? Gloria, why don't you go first?",
       "zh": "太棒了。感谢两位带来的精彩推荐。现在进入我们节目的常规推荐环节，我想请两位分享最近读过的一本书、听过的一些音乐，或者看过的某部电影，推荐给我们的听众。你们带来了什么？Gloria，不如你先来？"
     },
     {
-      "id": 256,
+      "id": 255,
       "start_sec": 4341,
       "speaker": "Gloria Xiong",
       "en": "So, this is a book that I am not reading it for the first time, but a book that I read for my first-year writing seminar in college, and as I am now returning back to classroom, it came back to mind. The book is called \"Healing the Heart of Democracy\" written by Parker Palmer.",
       "zh": "我要推荐的这本书并不是我第一次读，而是在大学一年级写作研讨课上读过的。现在我重返讲台教书，它又浮现在我的脑海中。这本书叫《Healing the Heart of Democracy》，作者是 Parker Palmer。"
     },
     {
-      "id": 257,
+      "id": 256,
       "start_sec": 4359,
       "speaker": "Gloria Xiong",
       "en": "I think a lot of the issue that we are facing as a society, as a nation, should not only be analyzed through the lens of policy or institution—I mean, as political scientists, we enjoy doing that—but I think it should also be understood as a community and as individuals. So, yep, \"Healing the Heart of Democracy.\"",
       "zh": "我认为，作为一个社会、一个国家，我们面临的许多问题不仅应该从政策或制度的视角去剖析——当然，作为政治学者我们很喜欢这样做——但我认为它也应该从社群和个体的维度去理解。所以，是的，推荐《Healing the Heart of Democracy》。"
     },
     {
-      "id": 258,
+      "id": 257,
       "start_sec": 4383,
       "speaker": "Gloria Xiong",
       "en": "Oh yeah, he is a great educator.",
       "zh": "是的，他是一位非常了不起的教育家。"
     },
     {
-      "id": 259,
+      "id": 258,
       "start_sec": 4386,
       "speaker": "Kaiser Kuo",
       "en": "\"Healing the Heart of Democracy\" by Parker Palmer, wow. I have not heard of this book. I'm going to put it in my list right away. Fantastic. There's a heart that badly needs healing right now, that's for sure.",
       "zh": "Parker Palmer 写的《Healing the Heart of Democracy》，哇。我以前还没听说过这本书。我得马上把它加入我的书单。太棒了。当下确实有一颗极需疗愈的“心”，这一点毫无疑问。"
     },
     {
-      "id": 260,
+      "id": 259,
       "start_sec": 4399,
       "speaker": "Gloria Xiong",
       "en": "Oh yeah, he is a great educator.",
       "zh": "对，他真是一位伟大的教育家。"
     },
     {
-      "id": 261,
+      "id": 260,
       "start_sec": 4401,
       "speaker": "Kaiser Kuo",
       "en": "Oh, fantastic.",
       "zh": "太好了。"
     },
     {
-      "id": 262,
+      "id": 261,
       "start_sec": 4403,
       "speaker": "Jessica Chen Weiss",
       "en": "I'll recommend two books. One is \"The Scientist and the Spy\" by Mara Hvistendahl.",
       "zh": "我推荐两本书。一本是 Mara Hvistendahl 写的《The Scientist and the Spy》。"
     },
     {
-      "id": 263,
+      "id": 262,
       "start_sec": 4409,
       "speaker": "Kaiser Kuo",
       "en": "Ah, wonderful. I've had her on the show to talk about it. It's a great book, yeah.",
       "zh": "啊，太棒了。我之前请她上过节目专门聊过这本书。确实是一本好书。"
     },
     {
-      "id": 264,
+      "id": 263,
       "start_sec": 4413,
       "speaker": "Jessica Chen Weiss",
       "en": "It's a part of that I use to conclude my seminar that I teach at SAIS on perspectives and debates on Chinese foreign policy. And you know, I think ultimately for me, it's that, you know, while there may be nefarious activities that Beijing or Chinese actors are undertaking, it's really critical that we don't lose sight of the issue of proportionality.",
       "zh": "我在约翰斯·霍普金斯大学保罗·尼采高级国际研究学院（SAIS）讲授一门关于中国对外政策视角与辩论的研讨课，常借用这本书的内容作结。对我来说，其核心在于：尽管北京或某些中方参与者可能确实存在一些恶意行径，但我们切不可忽视按比例应对这一原则。"
     },
     {
-      "id": 265,
+      "id": 264,
       "start_sec": 4437,
       "speaker": "Jessica Chen Weiss",
       "en": "That in our overreaction, that we don't actually undo the things or contribute to the further destruction of American civil liberties, democratic norms, and those legal process.",
       "zh": "我们不能在过度反应中，亲手毁掉那些基石，或者进一步侵蚀美国的公民自由、民主规范以及合法的司法程序。"
     },
     {
-      "id": 266,
+      "id": 265,
       "start_sec": 4449,
       "speaker": "Kaiser Kuo",
       "en": "Amen.",
       "zh": "说得太对了。"
     },
     {
-      "id": 267,
+      "id": 266,
       "start_sec": 4450,
       "speaker": "Jessica Chen Weiss",
       "en": "Also recommend \"Whistler\" by Ann Patchett, a work of fiction, but a beautiful, I think, reminder of what we inspire in each other.",
       "zh": "另外我还推荐 Ann Patchett 的虚构小说《Whistler》，这是一部非常优美的小说，提醒我们人与人之间如何相互激发与启迪。"
     },
     {
-      "id": 268,
+      "id": 267,
       "start_sec": 4459,
       "speaker": "Kaiser Kuo",
       "en": "Fantastic. I have, as I've said in the last couple of shows, I am at the very end—actually tomorrow it expires—my moratorium on reading any non-fiction for the summer. So I'm going to predictably plug another novel.",
       "zh": "太棒了。正如我在过去几期节目里提到的，我给自己定下的“夏季禁读非虚构作品”的期限马上就要结束了——其实明天就到期了。所以不出所料，我又要推荐一部小说了。"
     },
     {
-      "id": 269,
+      "id": 268,
       "start_sec": 4476,
       "speaker": "Kaiser Kuo",
       "en": "Actually, I plugged it on the last show, and I mean the author, Wallace Stegner. This time it's his novel \"Angle of Repose,\" which actually won the Pulitzer in 1972. And I'd somehow never read it, but it turns out to be actually, to tie it to today's conversation, kind of about mining, a little bit anyway. The setup of it is there's a retired...",
       "zh": "其实我上期节目就提过，我是说这位作者 Wallace Stegner。这次要推荐的是他的小说《Angle of Repose》（安歇角），该书曾在1972年斩获普利策奖。不知为何我以前一直没读过，但巧合的是，它恰好能呼应我们今天的讨论，里面多多少少涉及了一些采矿的内容。小说的设定是，有一位退休的……"
     },
     {
-      "id": 270,
+      "id": 269,
       "start_sec": 4500,
       "speaker": "Kaiser Kuo",
       "en": "historian, guy by the name of Lyman Ward. He's confined to a wheelchair, and he sets out to reconstruct the life of his grandmother, who is really larger-than-life, a woman named Susan Burling Ward, who is a real genteel eastern illustrator and fiction writer, who follows her engineer husband, this really kind of rugged, very, you know, taciturn and and very serious man, to the mining camps of the West in the 1870s and 1880s.",
-      "zh": "历史学家，名叫莱曼·沃德。他困于轮椅之上，着手重构自己祖母的一生。那是一个真正不凡的女性，名叫苏珊·伯林·沃德，是一位来自东部、温文尔雅的插画家兼小说作者，她在1870和1880年代跟随她那位坚毅粗犷、寡言少语且极为严肃的工程师丈夫，远赴西部的各个矿区营地。"
+      "zh": "历史学家，名叫Lyman Ward。他困于轮椅之上，着手重构自己祖母的一生。那是一个真正不凡的女性，名叫Susan Burling Ward，是一位来自东部、温文尔雅的插画家兼小说作者，她在1870和1880年代跟随她那位坚毅粗犷、寡言少语且极为严肃的工程师丈夫，远赴西部的各个矿区营地。"
     },
     {
-      "id": 271,
+      "id": 270,
       "start_sec": 4532,
       "speaker": "Kaiser Kuo",
       "en": "So she's living in, you know, Leadville, Colorado, and in Boise, in the canyon of the Snake River, and all these places. But she never stops kind of mourning her, the civilized life in the East Coast that she's left behind.",
       "zh": "所以她辗转生活于科罗拉多州的莱德维尔、博伊西、斯内克河峡谷等地。但她从未停止过缅怀自己留在东海岸的文明生活。"
     },
     {
-      "id": 272,
+      "id": 271,
       "start_sec": 4548,
       "speaker": "Kaiser Kuo",
       "en": "It's just a magnificent book, and Susan Burling Ward, who he's writing about, is just one of the most fully realized characters in American fiction that I have come across. And I actually made a new friend because of Wallace Stegner.",
-      "zh": "这是一本极其精彩的杰作，他笔下的苏珊·伯林·沃德是我在美国家小说中所读到过的塑造得最为丰满的人物之一。而且，我还因华莱士·斯特格纳结识了一位新朋友。"
+      "zh": "这是一本极其精彩的杰作，他笔下的Susan Burling Ward是我在美国文学小说中所读到过的塑造得最为丰满的人物之一。而且，我还因Wallace Stegner结识了一位新朋友。"
     },
     {
-      "id": 273,
+      "id": 272,
       "start_sec": 4564,
       "speaker": "Kaiser Kuo",
       "en": "A reader named Steven, who's fairly new to Beijing, he's here in a very interesting capacity that I don't feel at liberty to disclose just yet, but he, as it turns out, has a huge overlap with me in taste in books. And so he reached out, and we had lunch, and over a delicious meal of Yunnan mushrooms, we had this kind of Angle of Repose book club where we just dissected it, and it was just so much fun, just the two of us, it was insanely enjoyable.",
       "zh": "一位名叫史蒂文的读者，刚到北京不久，他在这里的身份十分特别，我目前还不便透露。事实证明，他在阅读品味上与我有着极大的重合。于是他联系了我，我们一起吃了午饭。在一顿美味的云南菌子宴上，我们办了一场关于《驻膝之角》的两人读书会，深入剖析了这本书。只有我们两个人，但真的太开心、太尽兴了。"
     },
     {
-      "id": 274,
+      "id": 273,
       "start_sec": 4594,
       "speaker": "Kaiser Kuo",
       "en": "So thank you to Steven, and I really look forward to the next one, if you're listening. And again, let me just remind everybody about Jessica's two interviews that you want to definitely check out. Those would have made my list of recommendations happily.",
       "zh": "所以感谢史蒂文，如果你在听的话，我非常期待我们的下一次交流。此外，让我再次提醒大家关注 Jessica 推荐的那两场访谈，绝对值得一听。它们完全可以直接进入我的推荐清单。"
     },
     {
-      "id": 275,
+      "id": 274,
       "start_sec": 4609,
       "speaker": "Kaiser Kuo",
       "en": "So yeah, the Dan Kurtz-Phelan one in particular is just outstanding. And again, thank you both. I have learned so much from this piece. It's super important and super timely, one of the more important things to read ahead of the state visit that's coming up at the end of this month.",
-      "zh": "没错，尤其是与丹·库尔茨-费兰的那期尤为出色。再次感谢两位，我从你们这篇大作中学到了很多。这篇文章极其重要，也无比及时，是本月底国事访问前夕最值得研读的文章之一。"
+      "zh": "没错，尤其是与Dan Kurtz-Phelan的那期尤为出色。再次感谢两位，我从你们这篇大作中学到了很多。这篇文章极其重要，也无比及时，是本月底国事访问前夕最值得研读的文章之一。"
     },
     {
-      "id": 276,
+      "id": 275,
       "start_sec": 4627,
       "speaker": "Kaiser Kuo",
       "en": "So thanks once again for all the time you've taken.",
       "zh": "再次感谢二位拨冗参与。"
     },
     {
-      "id": 277,
+      "id": 276,
       "start_sec": 4629,
       "speaker": "Gloria Xiong",
       "en": "Always great to be here, Kaiser. Thanks.",
       "zh": "非常高兴来做客，Kaiser，谢谢。"
     },
     {
-      "id": 278,
+      "id": 277,
       "start_sec": 4632,
       "speaker": "Kaiser Kuo",
       "en": "Thanks, Jessica. Thank you, Gloria.",
       "zh": "谢谢 Jessica，谢谢 Gloria。"
     },
     {
-      "id": 279,
+      "id": 278,
       "start_sec": 4635,
       "speaker": "Kaiser Kuo",
-      "en": "You've been listening to the Sinica Podcast. The show is produced, recorded, engineered, edited, and mastered by me, Kaiser Kuo. Support the show through Substack at sinicapodcast.com, where you will find a growing offering of terrific original China-related writing and audio, or email me at sinicapod@gmail.com if you've got ideas on how you can help out with the show or if you just want to say hi, or you know, want to talk to me about books and eat lunch with me or something. Don't forget to leave a review on Apple Podcasts. Huge thanks to my guests, Gloria Xiong and Jessica Chen Weiss. Thanks for listening, and see you next week. Take care.",
-      "zh": "您收听的是 Sinica Podcast。本节目由我 Kaiser Kuo 负责制作、录音、工程、剪辑与混音母带。欢迎在 Substack 上访问 sinicapodcast.com 支持本节目，您可以在那里找到越来越多优秀的原创涉华深度文稿和音频；如果您对节目有任何建议、或者只想打个招呼、或是想和我聊聊书、一起吃个午饭，也欢迎给我发邮件至 sinicapod@gmail.com。别忘了在 Apple Podcasts 上留下好评。非常感谢本期的两位嘉宾 Gloria Xiong 和 Jessica Chen Weiss。感谢收听，我们下周见，保重。"
-    },
-    {
-      "id": 280,
-      "start_sec": 4680,
-      "speaker": "Kaiser Kuo",
-      "en": "Welcome to the Sinica Podcast, a weekly discussion of current affairs in China, produced by The China Project. I'm Kaiser Kuo, coming to you from Chapel Hill, North Carolina.",
-      "zh": "欢迎收听 Sinica 播客，这是一档由 The China Project 制作的关于中国时事的周播节目。我是 Kaiser Kuo，在北卡罗来纳州教堂山向大家致意。"
+      "en": "You've been listening to the Sinica Podcast. The show is produced, recorded, engineered, edited, and mastered by me, Kaiser Kuo. Email me at sinicapod@gmail.com if you've got ideas on how you can help out with the show or if you just want to say hi, or you know, want to talk to me about books and eat lunch with me or something. Don't forget to leave a review on Apple Podcasts. Huge thanks to my guests, Gloria Xiong and Jessica Chen Weiss. Thanks for listening, and see you next week. Take care.",
+      "zh": "您收听的是 Sinica Podcast。本节目由我 Kaiser Kuo 负责制作、录音、工程、剪辑与混音母带。如果您对节目有任何建议、或者只想打个招呼、或是想和我聊聊书、一起吃个午饭，也欢迎给我发邮件至 sinicapod@gmail.com。别忘了在 Apple Podcasts 上留下好评。非常感谢本期的两位嘉宾 Gloria Xiong 和 Jessica Chen Weiss。感谢收听，我们下周见，保重。"
     }
   ],
   "vocab_notes": [

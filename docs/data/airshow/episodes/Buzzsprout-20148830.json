@@ -62,15 +62,15 @@
       "id": 2,
       "start_sec": 9,
       "speaker": "Brett Snyder",
-      "en": "You're listening to the air show, the podcast where we talk about what happens in the business of the sky brought to you by the Alaska Hawaiian Airlines pilots. This episode is also sponsored by Sky Go along with Upgrade Inc.",
-      "zh": "欢迎收听The Air Show播客，在这里我们探讨航空商业领域发生的动态。本期节目由阿拉斯加航空和夏威夷航空的飞行员赞助播出。本期节目还得到了Sky Go和Upgrade Inc.的赞助支持。"
+      "en": "You're listening to The Air Show, the podcast where we talk about what happens in the business of the sky.",
+      "zh": "欢迎收听《The Air Show》播客，在这里我们探讨航空商业领域的最新动态。"
     },
     {
       "id": 3,
       "start_sec": 22,
       "speaker": "Brett Snyder",
-      "en": "Learn more at upgrade.com/flex-pay. All right, we have a full house this week, guys. And I think it's important that we at least acknowledge the absolute show that was last weekend.",
-      "zh": "了解更多信息请访问upgrade.com/flex-pay。好的，本周我们全员到齐，各位。我认为我们至少应该承认上周末那场绝对的闹剧。"
+      "en": "All right, we have a full house this week, guys. And I think it's important that we at least acknowledge the absolute show that was last weekend.",
+      "zh": "好的，本周我们全员到齐，各位。我认为我们至少应该承认上周末那场绝对的闹剧。"
     },
     {
       "id": 4,
@@ -181,27 +181,27 @@
       "id": 19,
       "start_sec": 174,
       "speaker": "Brett Snyder",
-      "en": "Startling accusations here, Mr. Summers. Tell us what you how you really feel.",
-      "zh": "这里的指控真是令人震惊，Summers先生。告诉我们你的真实感受。"
+      "en": "Startling accusations here, Mr. Sumers. Tell us what you how you really feel.",
+      "zh": "这里的指控真是令人震惊，Sumers先生。告诉我们你的真实感受。"
     },
     {
       "id": 20,
       "start_sec": 178,
       "speaker": "Brian Sumers",
-      "en": "Yeah, no, I'm looking forward to hearing",
-      "zh": "对，不，我很期待听到..."
+      "en": "Yeah, no, I'm looking forward to hearing more about this from you.",
+      "zh": "对，我也非常期待多听听你的看法。"
     },
     {
       "id": 21,
       "start_sec": 180,
-      "speaker": "Brian Sumers",
-      "en": "or about this from you. But let's break this into two halves. Brian, I know a lot of what you're talking about is related to some of the recent news from the airlines. So let's start off with a branding product discussion and then Jon and I can go into network and fleet and look at it from that perspective. Sound good?",
-      "zh": "或者听听你的看法。不过，让我们把这分为两部分。Brian，我知道你刚才谈到的很多内容都与航司最近的新闻有关。所以，我们先从品牌与产品讨论开始，然后Jon和我再从网络和机队的角度来探讨。听起来怎么样？"
+      "speaker": "Brett Snyder",
+      "en": "But let's break this into two halves. Brian, I know a lot of what you're talking about is related to some of the recent news from the airlines. So let's start off with a branding product discussion and then Jon and I can go into network and fleet and look at it from that perspective. Sound good?",
+      "zh": "不过，让我们把这分为两部分。Brian，我知道你刚才谈到的很多内容都与航司最近的新闻有关。所以，我们先从品牌与产品讨论开始，然后Jon和我再从网络和机队的角度来探讨。听起来怎么样？"
     },
     {
       "id": 22,
       "start_sec": 199,
-      "speaker": "Brett Snyder",
+      "speaker": "Brian Sumers",
       "en": "That sounds good, but I'm wondering if you made some sort of mistake, uh Brett, because uh the nerds in this industry, including the two of you, you always think that network and fleet are the most important and usually I get shuffled to the very end of the podcast to say like eight words about brand. Are you sure you want me to go first?",
       "zh": "听起来不错，但我怀疑你是不是搞错了什么，Brett，因为这个行业的“书呆子”们——包括你们俩——总是认为网络和机队是最重要的，通常我都被排到播客的最后，只能对品牌说上个八个字。你确定要让我先说吗？"
     },
@@ -216,1135 +216,960 @@
       "id": 24,
       "start_sec": 230,
       "speaker": "Brian Sumers",
-      "en": "All right, I feel like we have a lot of people that are going to be fast forwarding now to after the break. I'm going to give this my best shot. No, come on. Listen. This stuff matters, Brian. I am with you. It is important. It's just I live in my numbers and spreadsheets. That's my happy place. Uh but that doesn't mean I'm not interested in it. And I know that this is something you actually feel pretty passionate about. uh clearly from your opening remarks. So I'm I'm excited to to start with this.",
-      "zh": "好吧，我觉得现在很多人要快进到中场休息之后了。我会全力以赴的。不，得了吧。听着，这些事情很重要，Brian。我跟你站在一起，这很重要。只是我习惯了沉浸在数字和电子表格里，那是我的快乐天地。但那并不意味着我不感兴趣。而且我知道这是你真正充满热情的领域，从你的开场白中就能明显看出。所以我很高兴从这一点开始。"
+      "en": "All right, I feel like we have a lot of people that are going to be fast forwarding now to after the break. I'm going to give this my best shot.",
+      "zh": "好吧，我觉得现在很多人要直接快进到下半场了。不过我会尽力讲好的。"
     },
     {
       "id": 25,
+      "start_sec": 236,
+      "speaker": "Brett Snyder",
+      "en": "No, come on. Listen. This stuff matters, Brian. I am with you. It is important. It's just I live in my numbers and spreadsheets. That's my happy place. Uh but that doesn't mean I'm not interested in it. And I know that this is something you actually feel pretty passionate about, clearly from your opening remarks. So I'm excited to start with this.",
+      "zh": "别这么说，得了吧。听着，这些内容很重要，Brian。我完全挺你，这确实很关键。只是我平时习惯沉浸在数字和电子表格里，那是我的快乐老家，但这并不意味着我对品牌话题不感兴趣。从你的开场白就能明显看出你对这件事充满热情，所以我很期待先从这部分聊起。"
+    },
+    {
+      "id": 26,
       "start_sec": 256,
       "speaker": "Brian Sumers",
       "en": "Here's the gist. I think Singapore Airlines is an airline that right now doesn't exactly know what it wants to be. And then whether you believe this or not, I really do think customers pick up on these things.",
       "zh": "要点是这样的。我认为新加坡航空是一家目前并不是很清楚自己想成为什么样航司的航司。无论你信不信，我真的认为旅客是能察觉到这些事情的。"
     },
     {
-      "id": 26,
+      "id": 27,
       "start_sec": 269,
       "speaker": "Brett Snyder",
       "en": "I disagree when it comes to the idea of this everything premium era that we're living in. Like Singapore is legitimately and rightfully in a group of elite airlines that doesn't have to remind you every 10 feet that it's a premium airline.",
       "zh": "当谈到我们目前所处的这个“全员高端”时代的理念时，我持不同意见。比如新加坡航空名正言顺地属于那种精英航司行列，它们不需要每隔十英尺就提醒你它是一家高端航司。"
     },
     {
-      "id": 27,
+      "id": 28,
       "start_sec": 284,
       "speaker": "Brian Sumers",
       "en": "Not having to remind you that it's a premium airline is a huge notable difference from a certain batch of carriers in this country that constantly tell you they're a premium carrier. So I'm just saying like their reputation lives and I it actually absolutely is still deserved.",
       "zh": "不需要提醒你它是一家高端航司，这与国内某批不断告诉你他们是高端航司的航司有着巨大的显著区别。所以我只是说，它们的声誉长存，而且我认为这绝对是实至名归的。"
     },
     {
-      "id": 28,
+      "id": 29,
       "start_sec": 302,
       "speaker": "Brett Snyder",
       "en": "Okay, guys. Uh you've made fun of me a little bit. I do think that I've been too harsh because that's my stick and I like to go over the top, whatever. But Jon, in part, I think that you have made my point because the airline that you've been flying is a little bit different than the airline that they've been outlining for us in the future. So, why are we talking about Singapore Airlines today? Well, guys, did you see the new widebody cabins that the airline introduced earlier this month to great fan fair? Uh these are interiors coming in the second half of next year on these retrofitted 350-900s, and then assuming this ever happens, Jon, you can fill us in on that later, uh 777-9 aircraft.",
       "zh": "好吧，伙计们。呃，你们有点取笑我了。我确实觉得自己之前有点太苛刻了，因为那是我的老套路，我喜欢表现得夸张一点，随便吧。但Jon，在某种程度上，我认为你反而证明了我的观点，因为你一直在飞的航司，跟他们向我们勾勒的未来航司有些许不同。所以，为什么我们今天在讨论新加坡航空？好吧，伙计们，你们看到该航司本月早些时候大肆宣称并推出的全新宽体机客舱了吗？呃，这些客舱内饰将于明年下半年安装在这些进行改装的A350-900上，然后假设这一切真的会发生的话——John，你稍后可以跟我们补充一下——还有777-9飞机。"
     },
     {
-      "id": 29,
+      "id": 30,
       "start_sec": 347,
       "speaker": "Jon Ostrower",
       "en": "We're calling that fanfare. Okay. Yeah, I did see it.",
       "zh": "我们管那叫大肆宣扬。好吧。对，我确实看到了。"
     },
     {
-      "id": 30,
+      "id": 31,
       "start_sec": 350,
       "speaker": "Brett Snyder",
-      "en": "There was a whole dog and pony show in Singapore to which we were not invited. I thought we were taste makers, gentlemen. Uh oh, you were invited? Uh The Air Current was invited, and actually",
+      "en": "There was a whole dog and pony show in Singapore to which we were not invited. I thought we were taste makers, gentlemen. Uh oh, you were invited? Uh The Air Current was invited, and actually...",
       "zh": "新加坡搞了一场声势浩大的公关秀，但我们却没有被邀请。我以为我们是潮流引领者呢，各位先生。哦，你被邀请了吗？呃，The Air Current收到了邀请，而且事实上"
     },
     {
-      "id": 31,
+      "id": 32,
       "start_sec": 360,
-      "speaker": "Brian Sumers",
-      "en": "ly Johnson on my team made the journey and actually had a fantastic uh feature about this in the air current at the end of last week. Brett, were you invited?",
-      "zh": "我团队的ly Johnson跑了这一趟，上周结束时在The Air Current上发了一篇非常棒的深度报道。Brett，你受邀了吗？"
+      "speaker": "Jon Ostrower",
+      "en": "Julie Johnsson on my team made the journey and actually had a fantastic feature about this in The Air Current at the end of last week. Brett, were you invited?",
+      "zh": "我团队里的 Julie Johnsson 跑了这一趟，上周结束时在《The Air Current》上发了一篇非常棒的深度报道。Brett，你受邀了吗？"
     },
     {
-      "id": 32,
+      "id": 33,
       "start_sec": 368,
       "speaker": "Brett Snyder",
       "en": "It was not invited. And that is a shame because I enjoyed turning down trips.",
       "zh": "我没有被邀请。这真的很遗憾，因为我还挺享受拒绝出差的。"
     },
     {
-      "id": 33,
+      "id": 34,
       "start_sec": 375,
       "speaker": "Brett Snyder",
       "en": "That's real. But look, I did I did see it, of course, and I read the blogs and the blogs uh were not so kind. They especially seem to hit the business class seat with that yellow accent.",
       "zh": "说真的。不过看吧，我当然看到了，我也读了那些博客，这些博客可不太客气。它们特别喜欢吐槽带有那个黄色点缀的商务舱座椅。"
     },
     {
-      "id": 34,
+      "id": 35,
       "start_sec": 387,
       "speaker": "Jon Ostrower",
       "en": "Okay, the blogs are the blogs. Hahahahaha, yadi yada. Those guys complain about everything. They're the only people in the airline industry that can match me. Complaint for complaint, nitpick for nitpick.",
       "zh": "好吧，博客就是博客。哈哈哈哈，诸如此类。那些家伙什么都抱怨。他们是航空业里唯一能在抱怨和挑刺上跟我有得一拼的人。"
     },
     {
-      "id": 35,
+      "id": 36,
       "start_sec": 400,
       "speaker": "Jon Ostrower",
       "en": "But uh we talked about this uh on the last show. I was in New York last week. I was at the Skift Aviation Forum. There were some very uh senior airline executives there. You know I like the background chit chat.",
       "zh": "不过我们在上期节目里聊过这个。我上周在纽约，参加了Skift航空论坛。那里有很多资深航司高管。你知道我喜欢听这种背景闲聊。"
     },
     {
-      "id": 36,
+      "id": 37,
       "start_sec": 412,
       "speaker": "Jon Ostrower",
       "en": "This thing about Singapore Airlines messing up its cabins, this goes beyond the blogs, that this goes beyond the people that like to complain about all kinds of things.",
       "zh": "关于新加坡航空把客舱搞砸这件事，这已经超出了博客的范畴，也超出了那些喜欢对各种事情挑三拣四的人的范畴。"
     },
     {
-      "id": 37,
+      "id": 38,
       "start_sec": 424,
       "speaker": "Jon Ostrower",
       "en": "This is rival executives essentially saying, what the heck did they just do?",
       "zh": "这是竞争对手的高管们实质上在说：他们到底搞了些什么鬼？"
     },
     {
-      "id": 38,
+      "id": 39,
       "start_sec": 431,
       "speaker": "Jon Ostrower",
       "en": "We can get into questions of fit and finish and yellow accents and a little bit. But what I heard last week was talk of one overarching mistake.",
       "zh": "我们可以稍微讨论一下整体质感、做工以及黄色点缀的问题。但我上周听到的是关于一个总体性重大失误的讨论。"
     },
     {
-      "id": 39,
+      "id": 40,
       "start_sec": 441,
       "speaker": "Jon Ostrower",
       "en": "And this is that the airline used three different design firms to design new cabins.",
       "zh": "这就是这家航司竟然聘用了三家不同的设计公司来设计新的客舱。"
     },
     {
-      "id": 40,
+      "id": 41,
       "start_sec": 448,
       "speaker": "Jon Ostrower",
       "en": "One did economy and premium economy, one did business class, one did first class. And it is if they designed these interiors in a vacuum.",
       "zh": "一家做经济舱和超级经济舱，一家做商务舱，还有一家做头等舱。这就好像他们是在绝对真空的状态下设计这些内饰的。"
     },
     {
-      "id": 41,
+      "id": 42,
       "start_sec": 459,
       "speaker": "Jon Ostrower",
       "en": "Like the designers either didn't talk to each other or the airline didn't give enough direction about what it wanted.",
       "zh": "就像是设计师们彼此没有沟通，或者航司没有给出足够清晰的意图指导。"
     },
     {
-      "id": 42,
+      "id": 43,
       "start_sec": 467,
       "speaker": "Jon Ostrower",
       "en": "But it felt like these are cabins that belong on three different airlines.",
       "zh": "但给人的感觉是，这些客舱仿佛属于三家不同的航司。"
     },
     {
-      "id": 43,
+      "id": 44,
       "start_sec": 472,
       "speaker": "Jon Ostrower",
       "en": "And I hope that if listeners have learned nothing else for me droning on here, it's that premium is as much about consistency and feel as it is about the actual product.",
       "zh": "我希望如果听众从我这番喋喋不休中没有学到别的，至少能明白：高端体验不仅在于产品本身，更在于其一致性和质感。"
     },
     {
-      "id": 44,
+      "id": 45,
       "start_sec": 484,
       "speaker": "Jon Ostrower",
       "en": "Product has to be good, of course, but the important thing is it's the same all the time.",
       "zh": "产品当然得好，但最重要的是它必须始终如一。"
     },
     {
-      "id": 45,
+      "id": 46,
       "start_sec": 490,
       "speaker": "Jon Ostrower",
       "en": "So the three firms were PriestmanGoode uh for first class, Designworks for business class, and Factory Design for premium economy and economy class.",
       "zh": "因此这三家公司分别是为头等舱设计的PriestmanGoode，为商务舱设计的Designworks，以及为超级经济舱和经济舱设计的Factory Design。"
     },
     {
-      "id": 46,
+      "id": 47,
       "start_sec": 498,
       "speaker": "Brian Sumers",
       "en": "They're all reputable design firms. I think one of the things that we have questions about is whether or not they were talking to each other or what kind of coordination was happening across all of us.",
       "zh": "它们都是声誉卓著的设计公司。我觉得我们产生的一个疑问是，它们彼此之间到底有没有沟通，或者所有这些团队之间是如何进行协调的。"
     },
     {
-      "id": 47,
+      "id": 48,
       "start_sec": 509,
       "speaker": "Jon Ostrower",
       "en": "Yeah, all very solid design firms. Uh, in fact, several years ago, I spent some time at PriestmanGood uh in London.",
       "zh": "是的，都是非常稳健的设计公司。事实上，几年前我在伦敦的PriestmanGood待过一段时间。"
     },
     {
-      "id": 48,
+      "id": 49,
       "start_sec": 515,
       "speaker": "Jon Ostrower",
       "en": "I was really impressed with the detail that the company put into designing its cabins.",
       "zh": "该公司在客舱设计上投入的细节心思让我印象深刻。"
     },
     {
-      "id": 49,
+      "id": 50,
       "start_sec": 521,
       "speaker": "Jon Ostrower",
       "en": "Even here for Singapore Airlines, the new first class, it looks exactly how you would think a Singapore Airlines cabin should look. They've got the brown leather, two-seater sofa, couples can use that as a double bed.",
       "zh": "甚至在这里为新加坡航空设计的全新头等舱，看起来完全符合你对新航客舱的想象。它们有棕色真皮双人沙发，情侣可以把它当双人床用。"
     },
     {
-      "id": 50,
+      "id": 51,
       "start_sec": 533,
       "speaker": "Jon Ostrower",
-      "en": "Uh maybe it's not exactly my thing, it it reads a little bit too much to me like a Ritz-Car",
-      "zh": "呃，也许这不太合我的胃口，在我看来它读起来有点太像丽思卡尔顿了。"
-    },
-    {
-      "id": 51,
-      "start_sec": 540,
-      "speaker": "Jon Ostrower",
-      "en": "ton circa 1998, but that has been the Singapore Airlines brand for a long time. Uh so I I'm reasonably okay with the new first class.",
-      "zh": "大约是1998年，但这对新加坡航空来说一直是其长期的品牌形象。所以对于全新的头等舱，我个人还是觉得挺不错的。"
+      "en": "Uh maybe it's not exactly my thing, it it reads a little bit too much to me like a Ritz-Carlton",
+      "zh": "呃，也许这不太合我的胃口，在我看来它给人的感觉有点太像丽思卡尔顿酒店了——"
     },
     {
       "id": 52,
+      "start_sec": 540,
+      "speaker": "Jon Ostrower",
+      "en": "circa 1998, but that has been the Singapore Airlines brand for a long time. Uh so I I'm reasonably okay with the new first class.",
+      "zh": "大约是1998年那种老派风格，但这长期以来一直是新加坡航空的品牌调性。所以对于全新的头等舱，我个人还是觉得挺不错的。"
+    },
+    {
+      "id": 53,
       "start_sec": 550,
       "speaker": "Brian Sumers",
       "en": "Okay, so good job, Priceman good. They got the right memo apparently. You're saying first is fine, if not dated, but still doesn't sound too bad, right?",
       "zh": "好吧，那干得不错，Priceman做得好。他们显然收到了正确的备忘录。你的意思是头等舱虽然不算最新，但也说得过去，不算太差吧？"
     },
     {
-      "id": 53,
+      "id": 54,
       "start_sec": 561,
       "speaker": "Jon Ostrower",
       "en": "Yeah, uh most of the complaints on the blogs, but more importantly, at the Skift conference, on the sidelines by people who have actually designed cabins in the past, they complained about uh business class. And and that's the one designed by BMW Design Works.",
       "zh": "是的，博客上有很多抱怨，但更重要的是，在Skift大会的场外，那些过去真正参与过客舱设计的人都在吐槽商务舱。这就是由BMW Design Works设计的那款产品。"
     },
     {
-      "id": 54,
+      "id": 55,
       "start_sec": 578,
       "speaker": "Jon Ostrower",
       "en": "That cabin has what the airline proudly calls race car inspired styling. Uh, but here's the problem, guys. When I say race cars, y'all think of the Singapore Airlines brand?",
       "zh": "那个客舱拥有航司自豪地称之为“赛车灵感风格”的设计。但问题来了，各位。当我提到赛车时，你们会联想到新加坡航空的品牌调性吗？"
     },
     {
-      "id": 55,
+      "id": 56,
       "start_sec": 591,
       "speaker": "Brian Sumers",
       "en": "Not exactly. But, but then again, when you hire BMW, you're going to get an automotive inspiration. I mean, it's right there in the name. But like, it does feel decidedly incongruous from, not only the other two cabins, but also where they were coming from on the 350, which was their most recent update.",
       "zh": "倒也不是。不过话说回来，当你雇佣BMW时，自然会融入汽车设计灵感。毕竟名字就摆在那。但它确实让人觉得与另外两个客舱格格不入，也与他们最新的A350更新机型所代表的风格大相径庭。"
     },
     {
-      "id": 56,
+      "id": 57,
       "start_sec": 608,
       "speaker": "Brian Sumers",
       "en": "But look, I also think we need to jump to sort of the 30,000 ft level here. Singapore's branding isn't about an airline, it's about a country. Like this is one of the biggest Singaporean consumer facing brands. But this is how the country sells itself to the world.",
       "zh": "但你看，我觉得我们还得把视野提升到3万英尺的高度。新加坡航空的品牌定位不仅是一家航司，更代表着一个国家。这是新加坡面向消费者最具影响力的品牌之一。这也是这个国家向世界自我推销的方式。"
     },
     {
-      "id": 57,
+      "id": 58,
       "start_sec": 624,
       "speaker": "Brian Sumers",
       "en": "This is a soft power play, like in the airline, which is again, majority owned by the state investment holding arms, is part of how Singapore attracts tourism and investment.",
       "zh": "这是一场软实力博弈，正如这家由国家投资控股机构持股多数的航司，正是新加坡吸引旅游业和投资的重要一环。"
     },
     {
-      "id": 58,
+      "id": 59,
       "start_sec": 634,
       "speaker": "Jon Ostrower",
       "en": "Then I really should have spent a little bit more time designing this cabin, huh? But look, the quality of this brand for the airline is part and parcel of how the nation will be seen globally.",
       "zh": "那我是不是真该花点心思多设计设计这个客舱？不过话说回来，航司品牌的品质直接关系到这个国家在全球范围内的形象。"
     },
     {
-      "id": 59,
+      "id": 60,
       "start_sec": 645,
       "speaker": "Jon Ostrower",
       "en": "So it's not just a uh an airline industry faux pas. It literally is a public diplomacy issue when it comes to how they present themselves in this industry to the world in this context.",
       "zh": "所以这绝不仅仅是航空业的失误。当涉及到他们在这种背景下向全球呈现自身形象时，这妥妥是一个公共外交问题。"
     },
     {
-      "id": 60,
+      "id": 61,
       "start_sec": 660,
       "speaker": "Jon Ostrower",
       "en": "Yeah, and I I spent probably too much time in New York talking about cabin interiors, but is my favorite thing in the world and a a quick tangent here, uh guys, Air France isn't exactly a government-owned airline, certainly not anymore, but it does carry the French flag abroad, and that's a big deal to Ben Smith, the CEO of the group.",
       "zh": "是的，我在纽约花了不少时间讨论客舱内饰，但这绝对是我的心头好。顺便提个小外话，各位，法国航空严格来说已经不是国有航司了，至少现在不是，但它依然承载着法国的国旗飞向世界，对于集团CEO Ben Smith来说，这可是件大事。"
     },
     {
-      "id": 61,
+      "id": 62,
       "start_sec": 684,
       "speaker": "Jon Ostrower",
       "en": "And uh people were joking there that like the number one product executive at Air France, you know who it is, especially in first class where he oversees every single thing that goes in the cabin.",
       "zh": "当时大家还在开玩笑说，法航首席产品官——你知道是谁——特别是在头等舱里，客舱里的每一处细节他都要亲自过问。"
     },
     {
-      "id": 62,
+      "id": 63,
       "start_sec": 697,
       "speaker": "Brett Snyder",
       "en": "Tell us.",
       "zh": "快告诉我们。"
     },
     {
-      "id": 63,
+      "id": 64,
       "start_sec": 697,
       "speaker": "Jon Ostrower",
       "en": "It's Ben Smith, guys. I mean, you know, if if you want to project a certain look of your airline, you must look at every single detail, sometimes all the way to the top.",
       "zh": "就是Ben Smith啊，各位。我的意思是，如果你想展现出航司特定的风貌，就必须把控每一个细节，有时候甚至要亲历亲为到最高层。"
     },
     {
-      "id": 64,
+      "id": 65,
       "start_sec": 711,
       "speaker": "Jon Ostrower",
       "en": "And I don't think that happened here at Singapore Airlines.",
       "zh": "我觉得新加坡航空这次并没有做到这一点。"
     },
     {
-      "id": 65,
+      "id": 66,
       "start_sec": 716,
       "speaker": "Jon Ostrower",
       "en": "Now, going back to business class, like, okay, it's fine, it's",
       "zh": "好了，我们回到商务舱的话题，好吧，其实也还行，它"
     },
     {
-      "id": 66,
+      "id": 67,
       "start_sec": 720,
       "speaker": "Brett Snyder",
       "en": "got all the bells and whistles that people need. It's got the door, you can't live without a door. Uh big screen, uh Bluetooth, uh it doesn't flip over anymore. That had been a complaint about the old SQC, which I loved because it was extremely comfortable.",
       "zh": "该有的配置一应俱全。它配有舱门，没有舱门可不行；还有大屏幕、蓝牙功能，而且座椅不会再往后翻倒了。之前有人对老款的SQC座椅有意见，但我其实很喜欢，因为它的舒适度极高。"
     },
     {
-      "id": 67,
+      "id": 68,
       "start_sec": 735,
       "speaker": "Brian Sumers",
       "en": "It's a great seat. Yeah. What are the bigger uh problems here? And again, people may think I'm nitpicking, but I promise you that I'm not. Uh first of all, uh the seat is gray. It's not brown. Uh and second, that bright yellow accent on the chair.",
       "zh": "这确实是个好座位。是的，那这里有什么大问题呢？再次声明，大家可能会觉得我在挑刺，但我向你们保证我绝没有这个意思。首先，这个座椅是灰色的，而不是棕色的；其次，椅子上有那个非常显眼的亮黄色点缀。"
     },
     {
-      "id": 68,
+      "id": 69,
       "start_sec": 750,
       "speaker": "Brett Snyder",
       "en": "Everyone keeps talking about this yellow accent and how bad it is. Okay, so sure, it'd be better if it matched the gold of the airline's livery colors, right? But is it really that bad? And same with brown versus gray, you usually love to jump on American for using brown, but you like when Singapore does it?",
       "zh": "大家一直在讨论这个黄色点缀，说它有多难看。好吧，当然了，如果它能和航司涂装的金色更搭一点可能会更好，对吧？但真的有那么糟糕吗？棕色对灰色也是同理，你平时不是很喜欢抓住American使用棕色这点不放吗，怎么换成Singapore你就觉得可以了？"
     },
     {
-      "id": 69,
+      "id": 70,
       "start_sec": 767,
       "speaker": "Jon Ostrower",
       "en": "Yes, Brett, here's the thing. Singapore's main color historically is brown. The brown is the thing that we see all the time, then uh the interior mostly has to be brown. Uh Americans colors uh like this country uh red, white, and blue, maybe with some silver mixed in. The problem with Americans brown isn't the color. Brown is brown, whatever. Uh the problem is that brown is not one of Americans core colors.",
       "zh": "是的，Brett，情况是这样的。Singapore从历史上来看，其主色调就是棕色。棕色是我们经常能看到的颜色，所以内饰大部分也必须是棕色的。American的配色呢，就像这个国家的国旗一样是红、白、蓝色，可能还会夹杂一些银色。American的问题不在于棕色本身，棕色就是棕色，无所谓。问题在于棕色根本不是American的核心品牌色彩。"
     },
     {
-      "id": 70,
+      "id": 71,
       "start_sec": 794,
       "speaker": "Brian Sumers",
       "en": "I mean, we're going to have to have a whole episode around uh American uh and design choices around branding. Yes, every everybody wants another what's wrong with American episode. But anyways, the other mistake, and Brett, you've talked about this a couple of times, is that accent color. I I don't love yellow generally. I I think it stands out uh too much. It's not a core color for the airline.",
       "zh": "我的意思是，我们得专门做一期节目来聊聊American及其品牌设计的种种选择。是的，每个人都想看一期题为“American究竟哪里出了问题”的节目。但不管怎样，另一个失误——Brett，你之前也提过好几次——就是那个点缀色。我个人其实不太喜欢黄色，我觉得它太显眼了，而且它并不是这家航司的核心色彩。"
     },
     {
-      "id": 71,
+      "id": 72,
       "start_sec": 819,
       "speaker": "Brian Sumers",
       "en": "But Singapore Airlines owns a LCC called Scoot. And what is Scoot's color? I'm going to say yellow. It is yellow.",
       "zh": "但Singapore Airlines旗下一家名为Scoot的LCC。Scoot的代表色是什么？我猜是黄色。确实是黄色。"
     },
     {
-      "id": 72,
+      "id": 73,
       "start_sec": 828,
       "speaker": "Brett Snyder",
       "en": "So why would you want people's brains to go to Scoot when they got in an SQ plane?",
       "zh": "那为什么你会希望当旅客登上SQ的飞机时，脑子里却联想到Scoot呢？"
     },
     {
-      "id": 73,
+      "id": 74,
       "start_sec": 833,
       "speaker": "Jon Ostrower",
       "en": "Well, I think this is actually a really important point here because that bright yellow stripe, not the golden yellow that we know as part of Singapore's petite color palette and their exterior colors of the aircraft. Yeah, it did remind a lot of people of Spirit Airlines. So, Brian, what about economy and premium economy?",
       "zh": "嗯，我觉得这其实是一个非常关键的点，因为那种亮黄色条纹——并不是我们所熟知的、作为Singapore精致色彩搭配一部分以及飞机外部涂装的那个金黄色。是的，这确实让很多人联想到了Spirit Airlines。那么Brian，经济舱和超级经济舱情况如何？"
     },
     {
-      "id": 74,
+      "id": 75,
       "start_sec": 854,
       "speaker": "Brett Snyder",
       "en": "Uh, colors are wrong, boys. Uh the chair is perfectly fine as you'd expect. Uh even premium economy is probably better than fine. The problem is the colors. Premium economy, gray with orange accents, not gold, not brown, orange, uh not sure what happened there. And then economy, blue and gray.",
       "zh": "呃，配色选错了，伙计们。这把椅子本身完全没问题，如你所料的那样舒适。呃，甚至超级经济舱可能比“还不错”更好一些。问题出在颜色上。超级经济舱是灰色配橙色点缀，既不是金色，也不是棕色，而是橙色，呃，搞不懂那里是怎么想的。然后经济舱则是蓝色和灰色。"
     },
     {
-      "id": 75,
+      "id": 76,
       "start_sec": 873,
       "speaker": "Jon Ostrower",
       "en": "But that orange actually is a holdover from what they had on the 350 premium economy. What about the grey?",
       "zh": "但那个橙色实际上是延续了他们在A350-900超远程宽体机的超级经济舱上的设计。那灰色呢？"
     },
     {
-      "id": 76,
+      "id": 77,
       "start_sec": 881,
       "speaker": "Brett Snyder",
       "en": "Grey, too. Okay, I'm losing my mind. So, what I'm gathering is all the seats are better than what they replace, but you are whining about colors.",
       "zh": "灰色也是。好吧，我要抓狂了。所以我得出结论，所有的座椅都比它们替代的旧座椅要好，但你们却在这里挑剔颜色。"
     },
     {
-      "id": 77,
+      "id": 78,
       "start_sec": 892,
       "speaker": "Brian Sumers",
       "en": "It's not about colors, it's about continuity. Do we have to get a marketing expert on the show? I thought that was you.",
       "zh": "这不只是颜色问题，这是关于品牌延续性。我们是不是得请个营销专家来节目上聊聊？我还以为你就是呢。"
     },
     {
-      "id": 78,
+      "id": 79,
       "start_sec": 897,
       "speaker": "Brett Snyder",
       "en": "Guys, it's about colors, it's about continuity.",
       "zh": "伙计们，这就是颜色问题，这就是品牌延续性的问题。"
     },
     {
-      "id": 79,
+      "id": 80,
       "start_sec": 900,
       "speaker": "Jon Ostrower",
       "en": "has anybody I has anybody flown American Airlines in the past five seven years? Because I've told you, I'm now flying it all the time. There is nothing wrong with American Airlines product. The Wi-Fi is pretty good. Uh first-class seat is pretty much identical to what the competitors fly. Uh business-class long-haul is quite good.",
       "zh": "过去五到七年里，有谁坐过美航的飞机吗？因为我之前跟你们说过，我现在经常坐美航。美航的产品其实没什么毛病：Wi-Fi 挺不错，头等舱座椅跟竞争对手几乎毫无二致，远程航线的商务舱也相当不错。"
     },
     {
-      "id": 80,
+      "id": 81,
       "start_sec": 924,
       "speaker": "Jon Ostrower",
       "en": "So why do people complain about them? It's because it's just this mishmash of non-premium colors and feel and they're not investing in a cohesive experience. And I think that's the mistake that Singapore has made here.",
       "zh": "那大家为什么还是抱怨连连呢？就是因为它的配色和质感显得廉价杂乱，缺乏统一连贯的高端体验。而我认为，新加坡航空这次犯的正是同样的错误。"
     },
     {
-      "id": 81,
+      "id": 82,
       "start_sec": 937,
       "speaker": "Brett Snyder",
       "en": "Is that what Nat Pieper told you at the Skift conference when you asked him about it? He said that's the consistency that people were looking for? It is. Premium is not just about one thing.",
       "zh": "你在 Skift 论坛上问他时，Nat Pieper 就是这么回答你的吗？他说乘客追求的正是这种一致性？确实如此，高端体验绝不仅仅取决于某一个单一维度。"
     },
     {
-      "id": 82,
+      "id": 83,
       "start_sec": 947,
       "speaker": "Brian Sumers",
       "en": "Well, we can also get into operational incompetence and other things. But this is not about American, gentlemen. Let's get back to Singapore. So what else do you want to say here about brand?",
       "zh": "好吧，我们当然也可以聊聊运营失能和其他问题。不过各位，今天的主角不是美航，我们还是回到新加坡航空吧。关于新航的品牌，你们还有什么要补充的吗？"
     },
     {
-      "id": 83,
+      "id": 84,
       "start_sec": 960,
       "speaker": "Jon Ostrower",
       "en": "Yeah, I know I think it's actually I yes, we're way off track. But I think it's actually really important because I think in in people's minds, at least when they kind of think about what they expect from American and what they expect from Singapore, that these are at two ends of a given spectrum. And I think when you are so embedded at either end, it's really, really, really easy to trip and it's also really, really, really hard to change people's perception if you're on the American side.",
       "zh": "对，我知道我们确实跑题了。但我觉得这一点其实非常关键：在人们心目中，对美航的预期与对新航的预期，恰好处于品牌光谱的两个极端。当你如此根深蒂固地处在其中一端时，身居高位者极易马失前蹄，而处在美航这一端，想要扭转乘客的既有印象也同样难上加难。"
     },
     {
-      "id": 84,
+      "id": 85,
       "start_sec": 992,
       "speaker": "Jon Ostrower",
       "en": "But I think that that that's kind of what we're getting at here. I think we're we're outlining the challenge here of what happens when you do misstep against people's expectations.",
       "zh": "而这正是我们今天想探讨的核心——当你的实际表现与乘客的既定预期产生落差时，究竟会引发怎样的连锁挑战。"
     },
     {
-      "id": 85,
+      "id": 86,
       "start_sec": 1001,
       "speaker": "Jon Ostrower",
       "en": "Now let's be clear and not every airline needs to do this whole consistency thing. The old Sun Country and Allegiant model was to take used airplanes and they would basically put them into service with the former airlines interior. I don't think customers cared very much because these flights were cheap and then the airline passed the savings on to the customer.",
       "zh": "不过我们需要明确的是，并非每家航司都需要追求这种机队的一致性。太阳城航空（Sun Country）和忠实航空（Allegiant）以前的模式就是引进二手飞机，并在投入商业运营时基本沿用上一家航司的客舱内饰。我认为旅客并不会太在意，因为这些航班足够便宜，航司把节省下来的成本回馈给了乘客。"
     },
     {
-      "id": 86,
+      "id": 87,
       "start_sec": 1022,
       "speaker": "Jon Ostrower",
       "en": "Those airlines though and others like them, they compete on price. That's that's the whole idea. Other airlines compete on network or loyalty. All that stuff is fine. Uh, but what does Singapore compete on? It competes on brand and product.",
       "zh": "不过，那些航司以及同类竞争者拼的是低价，这正是它们的全部商业逻辑；另一些航司则靠航线网络或常旅客计划取胜，这些都无可厚非。但新加坡航空靠什么立足竞争呢？它靠的正是品牌与产品。"
     },
     {
-      "id": 87,
+      "id": 88,
       "start_sec": 1038,
       "speaker": "Jon Ostrower",
       "en": "And there's a good reason for that. Yeah, SQ still has some network monopolies in some places. But when it's a one-stop journey, uh or there is nonstop competition, Singapore Airlines is expected to have the best product in market.",
       "zh": "这背后确实有其道理在。是的，新加坡航空在某些地区仍然拥有着航线网络垄断。但是当这是一次转机的行程，或者存在直飞竞争时，市场对新加坡航空的期许就是它必须拥有市场上最优的产品。"
     },
     {
-      "id": 88,
+      "id": 89,
       "start_sec": 1055,
       "speaker": "Jon Ostrower",
       "en": "customers need to know what to expect. And I just don't understand how this design fail happened, uh whether the airline gave Crummy instructions or whether designers uh flubbed.",
       "zh": "旅客必须清楚自己会得到怎样的体验。我实在想不明白，这种设计翻车究竟是怎么发生的——到底是航司自己给出的设计需求太糟糕，还是设计团队把活儿搞砸了。"
     },
     {
-      "id": 89,
+      "id": 90,
       "start_sec": 1068,
       "speaker": "Jon Ostrower",
       "en": "But it did happen. But like is this fixable in your eyes? Yeah, I think it's possible that it's fixable. Uh Singapore's CEO uh said he is aware of the criticism and said the airline will take another",
       "zh": "但这事确实发生了。不过在你看来，这还能补救吗？是的，我觉得有可能补救。新加坡航空 CEO 表示，他已经注意到外界的批评，并称航司将会重新审视……"
     },
     {
-      "id": 90,
+      "id": 91,
       "start_sec": 1080,
       "speaker": "Jon Ostrower",
-      "en": "their look at its cabins. I am not well versed in the intricacies of fixing these cabins. Certainly you can make some changes to fit and finish. But again, there were some people in New York that had worked on these products in the past.",
+      "en": "look at its cabins. I am not well versed in the intricacies of fixing these cabins. Certainly you can make some changes to fit and finish. But again, there were some people in New York that had worked on these products in the past.",
       "zh": "他们客舱的设计。我对修复这些客舱的细节并不是很精通。当然，你可以对客舱的饰面和做工进行一些调整。但话说回来，纽约有一些过去曾参与过这些项目的人。"
     },
     {
-      "id": 91,
+      "id": 92,
       "start_sec": 1096,
       "speaker": "Jon Ostrower",
       "en": "And they told me that switching anything material at this juncture, because we're talking 2027 seats, it's a lot harder and more involved than it looks.",
       "zh": "他们告诉我，在现阶段更换任何材料，因为我们谈论的是2027年的座椅，这要比看起来困难得多，也复杂得多。"
     },
     {
-      "id": 92,
+      "id": 93,
       "start_sec": 1106,
       "speaker": "Brian Sumers",
       "en": "Well, this is actually one of the things that Julie unpacked in her feature. Like, trim changes are very doable, but the cost of any bigger mods can balloon into unsurprisingly, bigger certification requirements and and all the hoops you have to jump through there.",
       "zh": "其实，这也是Julie在她的深度报道中剖析的内容之一。比如，客舱饰件的更改是完全可行的，但任何更大规模改装的成本，毫无疑问会飙升，带来更严格的适航取证要求，以及所有你不得不去跳过的政策门槛。"
     },
     {
-      "id": 93,
+      "id": 94,
       "start_sec": 1118,
       "speaker": "Brian Sumers",
       "en": "Like every tweak in fabric or finishes has to be tested. And that can add like a year on top of like all the delays that they've had with the aircraft itself.",
       "zh": "比如，面料或饰面的每一次微调都必须经过测试。这可能会在飞机本身已经遭遇的种种延误之上，再增加大约一年的时间。"
     },
     {
-      "id": 94,
+      "id": 95,
       "start_sec": 1128,
       "speaker": "Brian Sumers",
       "en": "Look, a regulatory review probably on its own can last about three to four months. But all of this is happening at a time when resources for seat certification are absolutely already scarce.",
       "zh": "你看，仅监管审查一项可能就要持续三到四个月。但所有这一切发生的时候，座椅适航取证的资源本就已经极其匮乏了。"
     },
     {
-      "id": 95,
+      "id": 96,
       "start_sec": 1140,
       "speaker": "Brian Sumers",
       "en": "But like I think we're going to see some changes here, the scope of them, not clear at this point.",
       "zh": "不过，我认为我们将会看到一些改变，至于改变的范围有多大，目前还不清楚。"
     },
     {
-      "id": 96,
+      "id": 97,
       "start_sec": 1144,
       "speaker": "Jon Ostrower",
       "en": "If they can just change the trim and the colors, does that solve it for you or is there something beyond this?",
       "zh": "如果他们只是更换饰件和颜色，这对你来说能解决问题吗？还是说还有超出这之外的东西？"
     },
     {
-      "id": 97,
+      "id": 98,
       "start_sec": 1150,
       "speaker": "Jon Ostrower",
       "en": "The question to me is whether this is about colors and fit and finish and things that can be changed within a few weeks.",
       "zh": "在我看来，问题在于这究竟只是关于颜色、饰面和做工，以及那些可以在几周内改变的事情。"
     },
     {
-      "id": 98,
+      "id": 99,
       "start_sec": 1160,
       "speaker": "Jon Ostrower",
       "en": "If that's all there is, fine. But the deeper question that I have is how does something like this happen?",
       "zh": "如果仅此而已那倒也罢。但我更深层次的疑问是，这样的事情怎么会发生呢？"
     },
     {
-      "id": 99,
+      "id": 100,
       "start_sec": 1166,
       "speaker": "Jon Ostrower",
       "en": "Is there something going on at the airline? Something among senior executives that tells me that these people have lost sight of what the airline is.",
       "zh": "是这家航司内部出了什么问题吗？高管层之间的某些动向表明，这些人已经迷失了这家航司原本的定位。"
     },
     {
-      "id": 100,
+      "id": 101,
       "start_sec": 1176,
       "speaker": "Jon Ostrower",
       "en": "And if they have, this goes much deeper than changing out seat covers. This is something that's going to be concerning in the future.",
       "zh": "如果真是这样，这可比更换座椅套要深远得多。这是未来令人担忧的事情。"
     },
     {
-      "id": 101,
+      "id": 102,
       "start_sec": 1184,
       "speaker": "Jon Ostrower",
       "en": "Guys, I am really happy that you gave me this much time to opine about marketing brand and product.",
       "zh": "伙计们，我非常高兴你们给了我这么多时间来就市场营销、品牌和产品发表高见。"
     },
     {
-      "id": 102,
+      "id": 103,
       "start_sec": 1191,
       "speaker": "Jon Ostrower",
       "en": "You know that I love this stuff. We also know there's much more than product that makes an airline.",
       "zh": "你知道我最喜欢这些了。我们也知道，造就一家优秀航司的远不止产品本身。"
     },
     {
-      "id": 103,
+      "id": 104,
       "start_sec": 1198,
       "speaker": "Jon Ostrower",
       "en": "I'm curious, does Singapore have another place it can win? Maybe network or a fleet that outpaces the competition?",
       "zh": "我很好奇，新加坡航空还有没有其他能够取胜的领域？也许是航线网络，或是能甩开竞争对手的机队？"
     },
     {
-      "id": 104,
+      "id": 105,
       "start_sec": 1206,
       "speaker": "Jon Ostrower",
       "en": "Let's take a break now and then both of you can opine about those topics.",
       "zh": "我们现在休息一下，然后你们俩可以对这些话题发表看法。"
     },
     {
-      "id": 105,
-      "start_sec": 1212,
-      "speaker": "Brett Snyder",
-      "en": "I think one of the most misleading phrases in aviation is, hey, can you just check something real quick?",
-      "zh": "我认为航空业中最具误导性的短语之一就是：“嘿，能赶紧帮我查个东西吗？”"
-    },
-    {
       "id": 106,
-      "start_sec": 1217,
-      "speaker": "Brett Snyder",
-      "en": "Oh, I know where this is going, right? Because somehow, which airport has the most flights in our network, turns into three day-to-day downloads of pivot table and half year afternoon.",
-      "zh": "哦，我知道这要走向何方了，对吧？因为不知怎么的，网络中哪个机场的航班量最多，最后都会变成花上半天时间去下载三次日常的数据透视表。"
-    },
-    {
-      "id": 107,
-      "start_sec": 1227,
-      "speaker": "Brett Snyder",
-      "en": "And that's even assuming you find the right data in the first place.",
-      "zh": "而且这还得建立在你在第一时间就找到了正确数据的前提下。"
-    },
-    {
-      "id": 108,
-      "start_sec": 1230,
-      "speaker": "Brett Snyder",
-      "en": "Exactly. And you know the answer to that one question is just going to lead to more questions.",
-      "zh": "一点没错。而且你知道，对那一个问题的回答只会引出更多的问题。"
-    },
-    {
-      "id": 109,
-      "start_sec": 1234,
-      "speaker": "Brett Snyder",
-      "en": "How seasonal is our Florida flying compared to the rest of the system? Who was flying that route 10 years ago? How many 757-300s did ATA operate in 2004?",
-      "zh": "与整个航线网络相比，我们飞佛罗里达的航班季节性有多强？10年前是谁在飞那条航线？2004年ATA（美洲航空运输）运营过多少架757-300？"
-    },
-    {
-      "id": 110,
-      "start_sec": 1245,
-      "speaker": "Brian Sumers",
-      "en": "12, the answer is 12.",
-      "zh": "12架，答案是12架。"
-    },
-    {
-      "id": 111,
-      "start_sec": 1246,
-      "speaker": "Brett Snyder",
-      "en": "Well, most people don't know that off the top of their heads, Jon, so they have to dig. And finding the answer is enough to make you say, I'll look into that later, which let's be honest, usually means never.",
-      "zh": "好吧，大多数人不会对这类问题信手拈来，Jon，所以他们必须去翻资料。而找到答案的过程就足以让你说出“我回头再研究”，说实话，这通常意味着“永远不会”。"
-    },
-    {
-      "id": 112,
-      "start_sec": 1256,
-      "speaker": "Brian Sumers",
-      "en": "It's so frustrating. We have more aviation data available than ever.",
-      "zh": "这太令人沮丧了。我们现在拥有的航空数据比以往任何时候都要多。"
-    },
-    {
-      "id": 113,
-      "start_sec": 1260,
-      "speaker": "Jon Ostrower",
-      "en": "But so much of our time goes into just finding it and putting it together instead of actually doing something interesting with it. That's where SkyGo comes in.",
-      "zh": "但我们大部分的时间都花在了寻找和拼凑这些数据上，而不是真正用它们做出什么有趣的东西。这就是 SkyGo 派上用场的地方。"
-    },
-    {
-      "id": 114,
-      "start_sec": 1269,
-      "speaker": "Jon Ostrower",
-      "en": "SkyGo brings decades of aviation data and powerful analytics together in one mobile app. Airline networks, airport comparisons, historical schedules, airline fleets and more.",
-      "zh": "SkyGo 将数十年的航空数据和强大的分析功能汇聚于一个移动应用中。航司网络、机场对比、历史时刻、航司机队等等应有尽有。"
-    },
-    {
-      "id": 115,
-      "start_sec": 1279,
-      "speaker": "Jon Ostrower",
-      "en": "Ready to explore right from your phone. So instead of spending your afternoon assembling spreadsheets, you can actually get into the analysis.",
-      "zh": "随时随地通过手机即可开始探索。因此，与其花整个下午去拼凑电子表格，你不如直接深入进行分析。"
-    },
-    {
-      "id": 116,
-      "start_sec": 1286,
-      "speaker": "Jon Ostrower",
-      "en": "Exactly. Whether you're working through a strategic question, following an industry development, or just satisfying a little aviation curiosity, SkyGo makes it easier to explore the answers wherever you are.",
-      "zh": "没错。无论你是在处理战略问题、追踪行业发展，还是仅仅为了满足一点航空好奇心，SkyGo 都能让你无论身在何处，都能更轻松地探索答案。"
-    },
-    {
-      "id": 117,
-      "start_sec": 1296,
-      "speaker": "Jon Ostrower",
-      "en": "And with SkyGo, the answer to the next question is always just a tap away. SkyGo, serious aviation data right in your pocket.",
-      "zh": "有了 SkyGo，下一个问题的答案永远只需轻轻一点。SkyGo，专业的航空数据尽在你的掌握之中。"
-    },
-    {
-      "id": 118,
-      "start_sec": 1305,
-      "speaker": "Jon Ostrower",
-      "en": "Find out more at theairshowpodcast.com/skygo.",
-      "zh": "访问 theairshowpodcast.com/skygo 了解更多信息。"
-    },
-    {
-      "id": 119,
-      "start_sec": 1310,
-      "speaker": "Brian Sumers",
-      "en": "How do you feel when you go to book a flight and the prices jump $200 since last week? It makes me mad. Then I have regret, some sadness.",
-      "zh": "当你去预订航班，却发现价格比上周跳涨了 200 美元时，你作何感想？这让我很生气。接着我会感到懊悔和一丝悲伤。"
-    },
-    {
-      "id": 120,
-      "start_sec": 1318,
-      "speaker": "Brian Sumers",
-      "en": "Really, I go through all the stages of grief. Same. But Flex Pay helps airlines navigate that.",
-      "zh": "真的，我把悲伤的各个阶段都经历了一遍。我也是。但 Flex Pay 可以帮助航司应对这种情况。"
-    },
-    {
-      "id": 121,
-      "start_sec": 1324,
-      "speaker": "Brian Sumers",
-      "en": "How so? This is what I think of as the financial hedge angle.",
-      "zh": "怎么说？我认为这是金融对冲的角度。"
-    },
-    {
-      "id": 122,
-      "start_sec": 1328,
-      "speaker": "Brian Sumers",
-      "en": "When Fares spike, whether it's peak season, fuel costs, whatever, conversion rates typically drop because sticker shock kicks in.",
-      "zh": "当票价飙升时（无论是旺季、燃油成本还是其他因素），转化率通常会下降，因为“高价冲击”（sticker shock）效应会立刻显现。"
-    },
-    {
-      "id": 123,
-      "start_sec": 1335,
-      "speaker": "Brett Snyder",
-      "en": "Makes sense. People see $600 and close the tab a lot more than when they see $199.",
-      "zh": "这说得通。人们看到 600 美元时关掉网页的频率，远比看到 199 美元时要高得多。"
-    },
-    {
-      "id": 124,
-      "start_sec": 1341,
-      "speaker": "Brian Sumers",
-      "en": "Exactly. But if that same fare is presented as a monthly price, then the higher fare feels more manageable and people book.",
-      "zh": "没错。但如果将同样的票价呈现为按月支付的均价，那么较高的票价就会让人觉得更容易接受，人们也就会预订了。"
-    },
-    {
-      "id": 125,
-      "start_sec": 1347,
-      "speaker": "Brian Sumers",
-      "en": "So the airline doesn't have to discount to maintain conversion. They just reframe the price.",
-      "zh": "因此，航司不必为了维持转化率而打折。他们只是重新构建了价格呈现方式。"
-    },
-    {
-      "id": 126,
-      "start_sec": 1352,
-      "speaker": "Brett Snyder",
-      "en": "Right. And Flex Pay by Upgrade actually has funnel conversion data showing that airlines maintain strong transaction rates even as fares increase when Flex Pay is in the mix.",
-      "zh": "对的。而且 Upgrade 的 Flex Pay 实际上拥有漏斗转化数据，显示当 Flex Pay 参与其中时，即使票价上涨，航司也能维持强劲的交易率。"
-    },
-    {
-      "id": 127,
-      "start_sec": 1361,
-      "speaker": "Brian Sumers",
-      "en": "So it's like a seat belt for revenue during turbulent fare environments.",
-      "zh": "所以它就像是票价波动环境下保障收入的安全带。"
-    },
-    {
-      "id": 128,
-      "start_sec": 1366,
-      "speaker": "Brian Sumers",
-      "en": "Your simile game is on point lately. I was going to say financial hedge, but this is way better.",
-      "zh": "你最近的比喻水平相当高。我本来想说金融对冲，但这比喻好太多了。"
-    },
-    {
-      "id": 129,
-      "start_sec": 1371,
-      "speaker": "Brian Sumers",
-      "en": "Either way, it's a tool that helps airlines stay competitive without racing to the bottom on price.",
-      "zh": "无论如何，这是一个帮助航司保持竞争力，而又不会陷入价格战底线竞争的工具。"
-    },
-    {
-      "id": 130,
-      "start_sec": 1377,
-      "speaker": "Brian Sumers",
-      "en": "That's exactly it. This is sponsored by Upgrade Inc. Learn more at upgrade.com/flex-pay.",
-      "zh": "完全正确。本期节目由 Upgrade Inc. 赞助播出。请访问 upgrade.com/flex-pay 了解更多信息。"
-    },
-    {
-      "id": 131,
       "start_sec": 1388,
       "speaker": "Jon Ostrower",
       "en": "And we're back. So Brian, you've walked us through the branding issues, Singapore seems to be all over the map.",
       "zh": "我们回来了。那么 Brian，你带我们了解了品牌建设方面的问题，新加坡航空似乎在各个方面都有涉猎。"
     },
     {
-      "id": 132,
+      "id": 107,
       "start_sec": 1395,
       "speaker": "Jon Ostrower",
       "en": "So you asked the question if it can win another way. Well, let's talk about network.",
       "zh": "所以你提出了它是否能以另一种方式取胜的问题。好吧，我们来聊聊航线网络。"
     },
     {
-      "id": 133,
+      "id": 108,
       "start_sec": 1400,
       "speaker": "Brian Sumers",
       "en": "This definitely ties in with the fleet side of things and I think that stretches far beyond just Southeast Asia.",
       "zh": "这绝对与机队方面息息相关，而且我认为其影响远不止于东南亚地区。"
     },
     {
-      "id": 134,
+      "id": 109,
       "start_sec": 1406,
       "speaker": "Brian Sumers",
       "en": "Yeah, and what's funny here, Singapore was effectively the original ME3 carrier.",
       "zh": "是的，有趣的是，新加坡航空实际上就是最初的中东三大航鼻祖。"
     },
     {
-      "id": 135,
+      "id": 110,
       "start_sec": 1413,
-      "speaker": "Brett Snyder",
+      "speaker": "Brian Sumers",
       "en": "Uh, Brett, last time I checked, Singapore was not in the Middle East.",
       "zh": "呃，Brett，据我上次查证，新加坡并不在中东。"
     },
     {
-      "id": 136,
+      "id": 111,
       "start_sec": 1416,
-      "speaker": "Brian Sumers",
+      "speaker": "Brett Snyder",
       "en": "I know. Thanks for clarifying that, Brian. Who knew?",
       "zh": "我知道。谢谢你澄清这一点，Brian。谁能想到呢？"
     },
     {
-      "id": 137,
+      "id": 112,
       "start_sec": 1419,
       "speaker": "Brian Sumers",
       "en": "What I mean is, you remember, was that a decade ago when the US airlines were absolutely freaking out over the Middle East carriers, Emirates, Qatar and Etihad, better known as the ME3 together?",
       "zh": "我的意思是，你还记得大约十年前，美国航司对中东三大航——阿联酋航空、卡塔尔航空和阿提哈德航空（合称中东三大航）感到极度恐慌吗？"
     },
     {
-      "id": 138,
+      "id": 113,
       "start_sec": 1433,
       "speaker": "Brian Sumers",
-      "en": "I mean, I think you guys all heard the spiel, right? They were going to take over the world with their structurally lower costs and the massive subs",
-      "zh": "我的意思是，我想你们都听过那套说辞吧？他们要凭借结构性更低的成本和巨额补贴来接管世界……"
+      "en": "I mean, I think you guys all heard the spiel, right? They were going to take over the world with their structurally lower costs and the massive subsidies.",
+      "zh": "我的意思是，我想你们都听过那套说辞吧？他们要凭借结构性更低的成本和巨额补贴来接管世界。"
     },
     {
-      "id": 139,
+      "id": 114,
       "start_sec": 1440,
       "speaker": "Brian Sumers",
-      "en": "dies. And this though, this is the same thing they used to say about Singapore Airlines after it started in 1972.",
+      "en": "And this, though, this is the same thing they used to say about Singapore Airlines after it started in 1972.",
       "zh": "但这就跟他们自1972年新加坡航空成立以来一直说的是同一回事。"
     },
     {
-      "id": 140,
+      "id": 115,
       "start_sec": 1448,
       "speaker": "Jon Ostrower",
       "en": "Okay, walk us through the history here, but it wasn't exactly the same, right? Quickly. Walk us through the history quickly.",
       "zh": "好吧，给我们梳理一下这段历史，但其实又不太一样对吧？长话短说，快速带我们回顾一下历史。"
     },
     {
-      "id": 141,
+      "id": 116,
       "start_sec": 1454,
       "speaker": "Brian Sumers",
       "en": "The yet, No, okay. Yes. No, it's not exactly the same. But the basic idea was the same, that Singapore had a structural advantage that wasn't fair to everyone in the Western world. And you can look at the kangaroo route from Europe to Australia to really see how this played out. Singapore, right? Small city state, not a ton of local demand, there's some.",
       "zh": "然而——不，好吧。是的。不，其实并不完全一样。但基本逻辑是一样的，即新加坡拥有对西方世界其他国家来说并不公平的结构性优势。你可以看看从欧洲到澳洲的袋鼠航线，就能真切地看清这一点。新加坡是个小岛国，本地需求其实并不算多，当然也有一些。"
     },
     {
-      "id": 142,
+      "id": 117,
       "start_sec": 1478,
       "speaker": "Brian Sumers",
       "en": "Um, but what it did is it siphoned off a ton of traffic from European airlines and Qatars. Uh and this may be shocking to you guys, but they did not like that at those airlines.",
       "zh": "嗯，但它做的是从欧洲航线和Qantas那里分流了大量的客源。这在你们听来或许有些震惊，但这些航司对此可是相当不爽。"
     },
     {
-      "id": 143,
+      "id": 118,
       "start_sec": 1490,
       "speaker": "Jon Ostrower",
       "en": "Traffic, yes, but this was a different time, right? These airlines couldn't undercut fares in the same way that maybe the Chinese airlines did before the pandemic. Back in the day, IATA had a pretty tight hold on fares, right?",
       "zh": "客流确实如此，但那是一个不同的时代，对吧？这些航司无法像中国航司在疫情前那样随意压低票价。当年IATA对票价可是有着相当严格的管控的，对吧？"
     },
     {
-      "id": 144,
+      "id": 119,
       "start_sec": 1504,
       "speaker": "Brian Sumers",
       "en": "Right, but with those fairs, like being at that high level, Singapore, and its lower costs, could then afford to go super premium because it just had plenty of room under that umbrella.",
       "zh": "没错了，但正因为这些票价维持在较高的水平，新加坡航空凭借其较低的成本，能够提供超级高端的产品，因为在这个保护伞下它有着充足的利润空间。"
     },
     {
-      "id": 145,
+      "id": 120,
       "start_sec": 1517,
-      "speaker": "Brian Sumers",
+      "speaker": "Brett Snyder",
       "en": "And this is the rise of the 1998 Ritz strategy, I guess, Brian, that you were talking about. Uh and apparently they've just stayed there. And to be clear, they were profitable from the start. Uh but there were still cries that this is unfair. And Singapore was more than happy to use its geography to serve that Europe to Australia market as a weapon.",
       "zh": "这也就是你刚才提到的，1998年丽思卡尔顿式的战略的崛起吧，Brian。而且显然他们就一直保持着这种定位。需要明确的是，他们从一开始就是盈利的。但当时依然有很多指责称这并不公平，而新加坡很乐于利用其地理位置，将欧洲至澳大利亚的市场作为一种武器。"
     },
     {
-      "id": 146,
+      "id": 121,
       "start_sec": 1540,
-      "speaker": "Brian Sumers",
-      "en": "Uh and as fleets with longer range showed up, it could connect those markets even better with fewer intermediate stops. Because if you go back, so I I went into Sky go data, if you go back to 1987, that is when Singapore had its first non-stop from Singapore to Europe. But it still served only one destination.",
-      "zh": "随着航程更远的机队问世，它能够以更少的中转经停，将这些市场连接得更加紧密。因为如果你回溯一下——我查阅了Sky go的数据——回到1987年，那是新加坡航空开通首条从新加坡直飞欧洲航线的时候。但当时它仍然只服务于单一目的地。"
+      "speaker": "Brett Snyder",
+      "en": "Uh and as fleets with longer range showed up, it could connect those markets even better with fewer intermediate stops. Because if you go back, so I I went into SkyGo data, if you go back to 1987, that is when Singapore had its first non-stop from Singapore to Europe. But it still served only one destination.",
+      "zh": "随着航程更远的机队问世，它能够以更少的中转经停，将这些市场连接得更加紧密。因为如果你回溯一下——我查阅了SkyGo的数据——回到1987年，那是新加坡航空开通首条从新加坡直飞欧洲航线的时候。但当时它仍然只服务于单一目的地。"
     },
     {
-      "id": 147,
+      "id": 122,
       "start_sec": 1560,
-      "speaker": "Brian Sumers",
+      "speaker": "Brett Snyder",
       "en": "Until then, there were still intermediate stops between Europe and Singapore. And then at the time, they were able to add four destinations in Australia and New Zealand and then connect those dots. It's not a lot of single-stop options.",
       "zh": "在那之前，欧洲和新加坡之间仍然存在中转经停。后来在那个时期，他们得以在澳大利亚和新西兰增加了四个目的地，并将这些航点串联起来。单次经停的选择其实并不多。"
     },
     {
-      "id": 148,
+      "id": 123,
       "start_sec": 1573,
-      "speaker": "Brian Sumers",
+      "speaker": "Brett Snyder",
       "en": "Today, Singapore has 14 non-stop destinations in Europe and 10 in Australia and New Zealand.",
       "zh": "时至今日，新加坡航空在欧洲拥有14个直飞目的地，在澳大利亚和新西兰则有10个。"
     },
     {
-      "id": 149,
+      "id": 124,
       "start_sec": 1580,
       "speaker": "Jon Ostrower",
       "en": "Well, it sounds like a mega success story. I mean, like as the airline grew, the nation grew, and as the nation grew, the airline grew.",
       "zh": "听起来这真是一个巨大的成功故事。随着航司的发展，国家也在发展；而随着国家的发展，航司也在壮大。"
     },
     {
-      "id": 150,
+      "id": 125,
       "start_sec": 1586,
       "speaker": "Brian Sumers",
       "en": "Yeah, it was. And that's the problem is that I'm using that in the past tense because, uh, back then, they were going against Qatars and BA. Today, it's Emirates, right?",
       "zh": "是的，确实如此。问题在于我这里用了过去时，因为在过去，他们的竞争对手是卡塔尔航空（Qatar Airways）和英国航空。而如今则是阿联酋航空，对吧？"
     },
     {
-      "id": 151,
+      "id": 126,
       "start_sec": 1598,
       "speaker": "Brian Sumers",
       "en": "Emirates has seven airports in Australia and New Zealand, but 41 in Europe. Cutter has six down there, 45 in Europe.",
       "zh": "阿联酋航空在澳新地区拥有7个机场，但在欧洲却有41个。卡塔尔航空在澳新地区有6个，在欧洲则有45个。"
     },
     {
-      "id": 152,
+      "id": 127,
       "start_sec": 1606,
       "speaker": "Brian Sumers",
       "en": "And don't forget, Qatars now flies non-stop from Europe to Perth, uh, with Sydney coming next year. So, Singapore is sort of this also ran in the market.",
       "zh": "别忘了，卡塔尔航空现在开通了从欧洲直飞珀斯的航班，悉尼航线也将于明年开通。因此，新加坡航空在如今的市场中已经有点沦为陪跑者了。"
     },
     {
-      "id": 153,
+      "id": 128,
       "start_sec": 1616,
       "speaker": "Brett Snyder",
       "en": "This is fascinating, uh, because I talked about",
       "zh": "这太引人入胜了，呃，因为我刚才谈到的是"
     },
     {
-      "id": 154,
+      "id": 129,
       "start_sec": 1620,
       "speaker": "Jon Ostrower",
       "en": "how the airline is losing its uh brand product advantage. And now you're saying the network uh is under some pressure, too.",
       "zh": "航司正在失去其品牌产品优势。而现在你又说，网络也面临着一定的压力。"
     },
     {
-      "id": 155,
+      "id": 130,
       "start_sec": 1628,
       "speaker": "Brian Sumers",
       "en": "Yeah. And this is what happens because Singapore obviously the geography is not great the way it used to be. Well, the Singapore has in moved. The fleet capability has moved is I think the issue.",
       "zh": "是的。这就是所发生的情况，因为新加坡的地理位置显然不像以前那么好了。好吧，新加坡已经搬了……机队能力的变化才是问题所在。"
     },
     {
-      "id": 156,
+      "id": 131,
       "start_sec": 1642,
       "speaker": "Brian Sumers",
       "en": "I do not believe they have had earthquakes that relocated Singapore. Uh but but Singapore is also just not that big. I mean, it has 6 million people, but that's it. It's a city state, right? So it needs connections. But it's too far from Europe uh to serve those as well as the ME3 can.",
       "zh": "我不相信他们经历过让新加坡位移的地震。但新加坡本身也不是很大。我的意思是，它有600万人口，但也就这样了。这是一个城邦，对吧？所以它需要通达的航线网络。但它距离欧洲太远了，无法像中东三大航（ME3）那样好地服务这些市场。"
     },
     {
-      "id": 157,
+      "id": 132,
       "start_sec": 1660,
       "speaker": "Brian Sumers",
       "en": "And Qutas knows this. That's why Qutas has a joint venture with Emirates now to flow people through Dubai. Uh Singapore has a joint venture with Lufthansa, but since the Singapore market is not that big, as Qs rely on connections from Europe to Lufthansa hubs onto Singapore, then elsewhere, the double connect isn't as helpful of a joint venture when you've got a ton of one-stop options on other airlines.",
       "zh": "澳航（Qantas）深知这一点。这就是为什么澳航现在与阿联酋航空开展航线联营（JV），将旅客经由迪拜输送过去。新加坡航空与汉莎航空也有联营合作，但由于新加坡市场本身没那么大，当澳航依赖来自欧洲经由汉莎枢纽转机前往新加坡、再到其他地方时，这种“双重中转”的联营合作远不如在其他航司上有大量“一站式”直达中转选项时那么有帮助。"
     },
     {
-      "id": 158,
+      "id": 133,
       "start_sec": 1683,
       "speaker": "Jon Ostrower",
       "en": "What about over the Pacific?",
       "zh": "那太平洋航线上呢？"
     },
     {
-      "id": 159,
+      "id": 134,
       "start_sec": 1684,
       "speaker": "Brian Sumers",
       "en": "Yeah, it's interesting. That's sort of the opposite story because on the Kangaroo route, you know, Singapore is the middle man. They they've got this hub in the middle. Uh but over the Pacific, Singapore is like BA or Qutas. It historically needed a place to stop in the middle until aircraft technology could catch up.",
       "zh": "是的，这很有趣。这可以说是完全相反的故事，因为在袋鼠航线上，新加坡扮演的是中间人的角色。他们在中间拥有这样一个枢纽。但在太平洋航线上，新加坡就像英国航空或澳航一样，历史上它需要在中间有个经停点，直到飞机技术能够迎头赶上。"
     },
     {
-      "id": 160,
+      "id": 135,
       "start_sec": 1703,
       "speaker": "Jon Ostrower",
       "en": "Yeah, and back in the day, uh they used all these fifth freedom rights, uh especially to North America that helped them pick up local traffic as well as what was happening in Singapore.",
       "zh": "是的，在过去，他们利用了所有这些第五航权，特别是飞往北美的航权，这不仅帮助他们揽收了当地的客流，还促进了新加坡本土的业务。"
     },
     {
-      "id": 161,
+      "id": 136,
       "start_sec": 1714,
       "speaker": "Brian Sumers",
       "en": "Here's a snapshot. So in early 2004, you could fly Newwark to Amsterdam, JFK to Frankfurt, LA to both Tokyo Narita and Taipei, and from SFO to both Soul in Chan and Hong Kong.",
       "zh": "这里有个概览。在2004年初，你可以搭乘航班从纽瓦克飞往阿姆斯特丹，从肯尼迪机场飞往法兰克福，从洛杉矶飞往东京成田和台北，以及从旧金山飞往首尔仁川和香港。"
     },
     {
-      "id": 162,
+      "id": 137,
       "start_sec": 1729,
       "speaker": "Brian Sumers",
       "en": "And I think it's really important because I think Singapore really pushed the idea of the the ultra long haul non-stop here. When the A340 500 arrived, that was a big deal for them. And and obviously uh famously the aircraft that the joke in the industry was that it needed a 120% load factor to break even.",
       "zh": "而且我认为这非常重要，因为我认为新加坡航空确实在这里大力推进了超远程宽体机直飞的概念。当A340-500加入机队时，对他们来说是一件大事。显然，业内有个著名的笑话，说这架飞机需要120%的客座率才能实现收支平衡。"
     },
     {
-      "id": 163,
+      "id": 138,
       "start_sec": 1744,
       "speaker": "Jon Ostrower",
       "en": "Uh yeah. And even if it had a 120% load factor, it probably couldn't make it anyway, and it burned fuel like crazy. And also, it couldn't carry a lot of passengers in the first place. So, four engines, four filings for bankruptcy.",
       "zh": "呃，是的。而且就算它真有120%的客座率，估计也飞不到目的地，而且它烧油如狂。再者，它本来就载不了多少旅客。所以说，四台发动机，四次申请破产保护。"
     },
     {
-      "id": 164,
+      "id": 139,
       "start_sec": 1762,
       "speaker": "Brian Sumers",
       "en": "Now, when this first came out, right, in 2004, it didn't really hurt the fifth freedom stuff right away. It was more niche.",
       "zh": "现在，当这款机型刚面世时，也就是2004年，它并没有立刻对第五航权业务造成冲击。它更像是一个细分市场。"
     },
     {
-      "id": 165,
+      "id": 140,
       "start_sec": 1770,
       "speaker": "Brian Sumers",
       "en": "Yeah, and the non stops went away in 2013 though, they came back with the the ULR. Well, they actually came back before the ULR. They came back in 2016 with SFO Singapore on the regular 900 and then the ULR showed up after. But that's when they really started trying to figure out what to do.",
       "zh": "对的，不过那些直飞航班在2013年取消了，后来随着超远程型号（ULR）的到来又恢复了。其实在ULR之前他们就恢复了。他们在2016年用普通的A350-900执飞旧金山至新加坡航线，之后ULR才登场。但正是在那个时候，他们真正开始琢磨该怎么做了。"
     },
     {
-      "id": 166,
+      "id": 141,
       "start_sec": 1787,
       "speaker": "Jon Ostrower",
       "en": "So today it's it's mostly non-stop service uh to five airports in North America. There's only two fifth freedom flights left, LAX to Narita and JFK to Frankfurt.",
       "zh": "所以现在，它基本上是直飞北美五个机场的航线服务。仅剩下两班第五航权航班，即洛杉矶至成田以及肯尼迪机场至法兰克福。"
     },
     {
-      "id": 167,
+      "id": 142,
       "start_sec": 1798,
       "speaker": "Brian Sumers",
       "en": "Yep, and I'm surprised they still exist",
       "zh": "没错，我很惊讶它们居然还在运营。"
     },
     {
-      "id": 168,
+      "id": 143,
       "start_sec": 1800,
       "speaker": "Brett Snyder",
-      "en": "st, but Singapore is just too far from North America to be a reasonable connecting point to anywhere but within South and Southeast Asia. Like so I went into Cirium and looked at the ARC/BSP data for the 12 months ending August of this year. And it showed about 58% of passengers from the US flying in the local market, meaning Frankfurt, Tokyo or Singapore. Then a little over 20% went elsewhere in Southeast Asia, and then just under 15% into South Asia, the rest is a rounding error.",
+      "en": "But Singapore is just too far from North America to be a reasonable connecting point to anywhere but within South and Southeast Asia. Like so I went into Cirium and looked at the ARC/BSP data for the 12 months ending August of this year. And it showed about 58% of passengers from the US flying in the local market, meaning Frankfurt, Tokyo or Singapore. Then a little over 20% went elsewhere in Southeast Asia, and then just under 15% into South Asia, the rest is a rounding error.",
       "zh": "但对于北美旅客来说，新加坡距离太远，除了南亚和东南亚地区外，很难作为一个合理的转机点。我查阅了Cirium（睿思誉）截至今年8月过去12个月的ARC/BSP数据，数据显示，约有58%的美国出发旅客是飞往当地市场，也就是法兰克福、东京或新加坡。随后略超20%的旅客前往东南亚其他地区，不到15%前往南亚，其余的则可以忽略不计。"
     },
     {
-      "id": 169,
+      "id": 144,
       "start_sec": 1829,
       "speaker": "Brian Sumers",
       "en": "Yeah, exactly. And there are now so many airlines that can fly you to South and Southeast Asia with just one stop. So we're back to Singapore needing people to have a reason to choose them, and that should be brand and product.",
       "zh": "没错，确实如此。现在有那么多航司只需经停一次就能把你送到南亚和东南亚。所以我们又回到了原点——新加坡需要让旅客有理由选择他们，而这应该依靠品牌和产品。"
     },
     {
-      "id": 170,
+      "id": 145,
       "start_sec": 1844,
       "speaker": "Brett Snyder",
       "en": "Yeah, but even then we run into this fleet issue. Singapore can't carry a lot of people on these non-stop flights. The new configuration they just announced uh with this whole refresh, it's going to have 132 seats on that airplane. That's not a lot. And this is why Qutas waited to do London from Sydney until it had the A350-1000ULR, which by the way, will carry about a 100 more passengers uh than the one that Singapore uses.",
       "zh": "是的，即便如此，我们还是会遇到机队方面的问题。新加坡航空在这些直飞航班上无法搭载大量旅客。他们刚刚宣布结合这次全面客舱翻新推出的新构型，该飞机只有132个座位。这数量可真不多。这也是为什么Qantas（澳洲航空）要等到拥有A350-1000ULR才开通悉尼到伦敦航线，顺便说一句，这款机型比新加坡航空使用的版本能多载大约100名乘客。"
     },
     {
-      "id": 171,
+      "id": 146,
       "start_sec": 1871,
       "speaker": "Jon Ostrower",
       "en": "Getting the 777-9 is really important for Singapore. They first ordered it in 2017 and they've been waiting effectively a decade for these aircraft to actually arrive. Uh with the A380s very much out of production and a diminishing part of its fleet, a super twin taking over that role was the really its only option. So, SQ's uh 777-300ERs have 264 seats on them and the 777-9 is going to have 300 in this new configuration. But uh Singapore needs an international flagship and one that burns about 19 20% less fuel than the triple 7-300ER.",
       "zh": "引进777-9对新加坡航空至关重要。他们早在2017年就首次订购了这款飞机，实际上已经等待了十年之久才真正迎来交付。随着A380早已停产并在机队中所占比例逐渐减少，由超大型双发客机接替这一角色确实是他们唯一的选择。因此，新加坡航空的777-300ER拥有264个座位，而777-9在新构型下将拥有300个座位。不过，新加坡航空需要一架国际旗舰机型，且其油耗要比777-300ER降低大约19%到20%。"
     },
     {
-      "id": 172,
+      "id": 147,
       "start_sec": 1908,
       "speaker": "Jon Ostrower",
       "en": "This is at a time of painfully high fuel costs, but all the seat controversy is compounded by Boeing working to figure out when they'll actually get the 777-9 FA certified, presumably next year.",
       "zh": "当前正处于航油成本高得令人痛苦的时期，但所有的座位争议又叠加了波音正在努力弄清楚他们何时能真正获得777-9的FAA型号合格证，预计将在明年。"
     },
     {
-      "id": 173,
+      "id": 148,
       "start_sec": 1921,
       "speaker": "Brett Snyder",
       "en": "But even that still doesn't solve the the US problem, because the publisher range of that airplane is 8,000 nautical miles. It's better than the Triple Seven 3, but it's not enough to serve the whole US market, right? I mean that they still need the A350 900 ULR and that just doesn't have a lot of seats and it's it's just not great. In North America, ASMs are up more than 10%.",
       "zh": "但即便如此，这依然无法解决美国的市场需求问题，因为该飞机的航程是8000海里。它比777-300ER要好，但还不足以服务整个美国市场，对吧？我的意思是，他们仍然需要A350-900ULR，而那款机型座位数不多，整体表现只能说一般。在北美市场，ASM（可用座英里）增长了超过10%。"
     },
     {
-      "id": 174,
+      "id": 149,
       "start_sec": 1944,
       "speaker": "Brett Snyder",
       "en": "Flights are up 5% but seats are down only 4%. Uh seems like the math wouldn't be great on that one.",
       "zh": "航班量增长了5%，但座位数仅下降了4%。这算下来的数学账似乎不太划算。"
     },
     {
-      "id": 175,
+      "id": 150,
       "start_sec": 1953,
       "speaker": "Jon Ostrower",
       "en": "Seriously. So this means Singapore becomes a niche carrier with the premium focus, or well, apparently lack of focus, according to you, Brian. Um but it needs to rely on non-stop demand over the Pacific along with premium connections, but it doesn't have that many seats to fill. Like let's let's say someone's flying from New York to Bangkok. You can fly on a non-stop to Singapore and then on to Bangkok on a SQ, but those non-stops will soon only have 132 seats on them. Or",
       "zh": "确实如此。所以这意味着新加坡航空成为一家专注于高端市场的细分航司，或者按你的说法，Brian，这其实是缺乏焦点。不过它需要依靠跨太平洋的直飞需求以及高端航线联运，但它却没有足够多的座位去填补。比如说，假设有人从纽约飞往曼谷，你可以先坐直飞去新加坡，然后再转乘新航去曼谷，但这些直飞航班很快就只有132个座位了。或者说……"
     },
     {
-      "id": 176,
+      "id": 151,
       "start_sec": 1980,
       "speaker": "Brian Sumers",
       "en": "Emirates through Dubai on an A380 with more than 450 seats. It's just shrinking quite a bit in the US. It's got these small airplanes flying nonstop. Uh we should clarify the ULR is not on all the US routes, but it's on some of them.",
       "zh": "阿联酋航空经迪拜飞往美国的航线使用A380，座位数超过450个。美国本土的这类运力其实在大幅收缩，现在都是这些小型飞机在飞直飞航线。我们需要澄清的是，ULR机型并非执飞所有美国航线，但也覆盖了其中一部分。"
     },
     {
-      "id": 177,
+      "id": 152,
       "start_sec": 1995,
       "speaker": "Brian Sumers",
       "en": "And then uh within Asia, we haven't even talked about Scoot, that fast growing low cost carrier. Scoot is growing fast uh in 2026, seats are up more than 37% versus 2019, and it now has more than half as many seats as Singapore does uh on main line. And its network is pretty huge.",
       "zh": "在亚洲地区，我们甚至还没聊到酷航这家快速增长的低成本航司。酷航的运力正在飞速增长，到2026年，其座位数将比2019年增长超过37%，其主线业务的座位数现在已经达到新加坡航空的一半以上。它的航线网络相当庞大。"
     },
     {
-      "id": 178,
+      "id": 153,
       "start_sec": 2016,
       "speaker": "Brian Sumers",
       "en": "It's all over Southeast Asia and China, but it goes out there, it does Vienna, Athens, Jeddah into Australia. Uh but the real problem is that it's eating into Singapore's mainline network. How so?",
       "zh": "它的航点遍布东南亚和中国，甚至还飞往维也纳、雅典、吉达以及澳大利亚等地。但真正的问题在于，它正在蚕食新加坡航空的主线航线网络。怎么说呢？"
     },
     {
-      "id": 179,
+      "id": 154,
       "start_sec": 2026,
-      "speaker": "Brian Sumers",
+      "speaker": "Brett Snyder",
       "en": "Well, I count 17 Southeast Asian markets from Singapore that used to be served by Singapore or previously Silk Air, uh but now only have low cost Scoot. So you have fewer connecting options with a consistent product and brand anyway, like that, Brian, I'm talking about product and brand.",
       "zh": "我数了一下，从新加坡出发前往17个东南亚市场的航线，过去是由新加坡航空或之前的胜安航空执飞，但现在只剩下低成本的酷航。因此，旅客的可选连程方案减少了，且难以保持产品和品牌的一致性，就像这样，Brian，我指的是产品和品牌。"
     },
     {
-      "id": 180,
+      "id": 155,
       "start_sec": 2045,
-      "speaker": "Brian Sumers",
+      "speaker": "Brett Snyder",
       "en": "Uh but but yeah, people can connect, but they're going to be in coach on that connection. It it's like Ted is back, baby.",
       "zh": "不过话说回来，人们当然可以转机，但在转机航班上只能坐经济舱。这就好像泰德航空（Ted）又复活了，宝贝！"
     },
     {
-      "id": 181,
+      "id": 156,
       "start_sec": 2053,
       "speaker": "Jon Ostrower",
       "en": "So how much of this is also related to moving low cost labor around? Scoot, I'm sure it's a fair bit, just as Emirates does and the rest of the ME3. But when Scoot moves in, it it eliminates any premium offering for everyone else.",
       "zh": "那么，这其中有多少因素与运送低成本劳动力有关呢？酷航肯定占了相当一部分，就像阿联酋航空和中东其他两家大型航司（ME3）一样。但当酷航进入市场时，它就等于为主线上的其他所有人消除了任何高端舱位选择。"
     },
     {
-      "id": 182,
+      "id": 157,
       "start_sec": 2068,
       "speaker": "Jon Ostrower",
       "en": "I mean, like a premium economy is on some planes, whatever. Um so, you know, that's back to that that issue if you're only serving some of the market.",
       "zh": "我是说，比如超级经济舱只在某些飞机上有，诸如此类。所以，你知道，如果你只服务于市场的一部分，这又回到了那个老问题。"
     },
     {
-      "id": 183,
+      "id": 158,
       "start_sec": 2076,
       "speaker": "Brian Sumers",
       "en": "It sounds like it all comes back to brand again. The airline doesn't have a whole lot of network and fleet advantages, and so I think brand matters even more. And I just don't think Singapore is executing where it needs to.",
       "zh": "听上去这一切又回到了品牌本身。这家航司并没有太多的航线网络和机队优势，因此我认为品牌变得更加重要。而且我个人认为新加坡航空在某些需要发力的地方执行得还不够到位。"
     },
     {
-      "id": 184,
+      "id": 159,
       "start_sec": 2090,
       "speaker": "Brian Sumers",
-      "en": "You've been listening to The Air Show brought to you by the Alaska Hawaiian Airlines Pilots. We'd also like to thank our sponsor Sky Go, as well as upgrading. Learn more at upgrade.com/flex-pay. If you have suggestions or questions for us or if you're interested in sponsoring the podcast, email us at info@theairshowpodcast.com to get in touch.",
-      "zh": "您收听的是由阿拉斯加航空和夏威夷航空飞行员为您带来的《The Air Show》。我们还要感谢赞助商 Sky Go 以及 upgrading。访问 upgrade.com/flex-pay 了解更多信息。如果您对我们有任何建议或疑问，或者有兴趣赞助本播客，请发送电子邮件至 info@theairshowpodcast.com 与我们联系。"
+      "en": "You've been listening to The Air Show. If you have suggestions or questions for us or if you're interested in sponsoring the podcast, email us at info@theairshowpodcast.com to get in touch.",
+      "zh": "您收听的是《The Air Show》。如果您对我们有任何建议或疑问，或者有兴趣赞助本播客，请发送电子邮件至 info@theairshowpodcast.com 与我们联系。"
     },
     {
-      "id": 185,
+      "id": 160,
       "start_sec": 2109,
       "speaker": "Brian Sumers",
-      "en": "Leo Duran produced and edited this episode. Our theme music is by Joshua Moser. Thanks for listening and we'll be back after the Thanksgiving holiday.",
-      "zh": "本期节目由 Leo Duran 制作和剪辑。我们的主题音乐由 Joshua Moser 创作。感谢收听，我们将在感恩节假期后回归。"
+      "en": "Leo Duran produced and edited this episode. Our theme music is by Joshua Mosier. Thanks for listening and we'll be back after the Thanksgiving holiday.",
+      "zh": "本期节目由 Leo Duran 制作和剪辑。我们的主题音乐由 Joshua Mosier 创作。感谢收听，我们将在感恩节假期后回归。"
     }
   ],
   "show_id": "airshow",

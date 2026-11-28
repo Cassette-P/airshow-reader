@@ -4,10 +4,15 @@
 
 说话人标签优先映射为以下标准英文全名；出现外部嘉宾时标注嘉宾英文全名，无法确认全名则统一标为 `Guest`：
 
-- `Jon Ostrower`：*The Air Current* 主编。常聊飞机制造（Boeing/Airbus）、适航取证、供应链、FAA/EASA。
-- `Brian Sumers`：*The Airline Observer* 创始人。常聊航司商业策略、收益管理、常旅客、高管访谈、商旅需求。
-- `Brett Snyder`：*Cranky Flier* 创始人。常聊航线网络规划、枢纽与时刻运营、支线航空、旅客体验。
+- `Jon Ostrower`：*The Air Current* 主编（常驻西雅图；凡自称 `my team at The Air Current` 或主讲飞机制造 Boeing/Airbus、适航取证、供应链、FAA/EASA 者必为 `Jon Ostrower`）。
+- `Brian Sumers`：*The Airline Observer* 创始人（常驻洛杉矶；常聊航司商业策略、收益管理、常旅客、高管访谈、商旅需求）。
+- `Brett Snyder`：*Cranky Flier* 创始人（常驻南加州长滩；常聊航线网络规划、枢纽与时刻运营、排班时刻数据与电子表格 `numbers and spreadsheets`、支线航空、旅客体验）。
+- **主播声纹防串位红线**：三位男主播声线接近，严禁发生「自己喊自己名字」的自指错配（例如台词直呼 `"Brian, ..."` 或 `"Mr. Sumers"` 时，`speaker` 绝不可能是 `Brian Sumers`；直呼 `"Brett, ..."` 时，`speaker` 绝不可能是 `Brett Snyder`）。
 - 外部嘉宾与投资者日/峰会场景：在投资者日（如 Alaska Investor Day）、航司电话会或行业峰会等多高管发言场景，必须优先从 Episode Show Notes 与主持人口播介绍中提取发言高管英文全名（例如 `Ben Minicucci`、`Andrew Harrison`、`Shane Tackett`），严禁在已知身份时偷懒统一标记为 `Guest`。
+- 常驻制作与高频引用记者/数据商校准：
+  - 节目制作人：`Leo Duran`（**严禁误听为 `Leah Deren`**）；主题曲作者：`Joshua Mosier`（**严禁误写为 `Joshua Moser` / `Joshua Mosher`**）。
+  - 业内记者：`Julie Johnsson`（*The Air Current* 资深航空记者，注意姓氏双 `s`，**严禁跨片截断或误写为 `ly Johnson` / `Julie Johnson`**）、`Will Guisbond`。
+  - 航空数据平台：`Cirium`（睿思誉）、`Diio` / `Diio Mi`（排班时刻数据库，**严禁受赞助商品牌干扰误听为 `Sky go data`**）。
 
 ## 航空专业术语对齐表（中英规范）
 
@@ -71,3 +76,5 @@
 - 主播人名在中文译文中直接保留英文（如 `Jon`、`Brian`、`Brett`），不要音译成中文名；注意 `Jon Ostrower` 拼写为 **`Jon`**（严禁误作 `John`），美航 CCO 为 **`Nat Pieper`**（严禁误作 `Nat Peaper`）。
 - 严禁出现模型幻觉乱码、拼凑字或生僻字符（如严禁出现“并韞是毅业构有航司”、“客厥内遰”、“羀航”、“阁玛玛叵”等异常乱码）。
 - 严禁同音错别字（如“点缀”误写为“点赞”）及生硬字面直译（如 `sticker shock` 译为“高价冲击”而非“价格标签带来的冲击”）；英文机型代号保持规范格式（如 `A350-900` 而非 `350900`，`MAX 10` 而非 `MAX10`）。
+- **航司中文译名一致性**：中文译文正文中提及主流航司时，统一使用规范中文简称（如 `美航`、`达美` / `达美航空`、`美联航`、`西南航空`、`捷蓝航空`、`边疆航空`、`精神航空`），避免同一集内忽而用中文简称、忽而裸留英文 `American` / `United` / `Frontier` / `Southwest`（专有产品名如 `United Club`、`Admirals Club` 除外）。
+- **商业赞助与中插软广（Mid-roll Ads）过滤红线**：无论是外部配音（切勿标为 `Guest` 混入正片）还是主播双人对话体中插软广（如围绕 `Upgrade Inc. / FlexPay`、`Plusgrade / SeatBlocker / Points`、`SkyGo / SkyMap`、`Tulsa International Airport`、`Alaska-Hawaiian Pilots` 展开且带推广域名 `upgrade.com/flex-pay`、`plusgrade.com`、`theairshowpodcast.com/skygo`、`flytulsa.com`、`alaskahawaiianpilots.org` 的独立广告块），一律跳过不输出；若开场/片尾单句赞助口播与正片寒暄粘连在同一句中，仅剥离广告促销句，严禁误删 `"And we're back"` 之后的正片讨论。

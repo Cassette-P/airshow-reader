@@ -69,8 +69,8 @@
       "id": 2,
       "start_sec": 4,
       "speaker": "Brett Snyder",
-      "en": "And I'm Brett Snyder, author of Cranky Flier. You're listening to The Air Show, the podcast where we talk about what happens in the business of the sky. Thanks to this week's sponsor, Upgrade, Inc. Learn more at upgrade.com/flex-pay.",
-      "zh": "我是 Brett Snyder，《Cranky Flier》的创办人。欢迎收听 The Air Show，在这里我们畅聊航空商业界的风云变幻。感谢本周的赞助商 Upgrade, Inc.。了解更多请访问 upgrade.com/flex-pay。"
+      "en": "And I'm Brett Snyder, author of Cranky Flier. You're listening to The Air Show, the podcast where we talk about what happens in the business of the sky.",
+      "zh": "我是 Brett Snyder，《Cranky Flier》的创办人。欢迎收听 The Air Show，在这里我们畅聊航空商业界的风云变幻。"
     },
     {
       "id": 3,
@@ -181,7 +181,7 @@
       "id": 18,
       "start_sec": 180,
       "speaker": "Brett Snyder",
-      "en": "at United flying to Okinawa and Ljubljana and all that. But that is going to have to wait because we're talking about what's been happening over the last month at American.",
+      "en": "United flying to Okinawa and Ljubljana and all that. But that is going to have to wait because we're talking about what's been happening over the last month at American.",
       "zh": "美联航新开飞往冲绳、卢布尔雅那等航线的事。但这些都得先放一放，因为我们今天要聊的是美航在过去这一个月里发生的大动作。"
     },
     {
@@ -788,727 +788,636 @@
     },
     {
       "id": 105,
-      "start_sec": 1165,
-      "speaker": "Brett Snyder",
-      "en": "I want to ask you about two travelers I think airlines quietly struggle with: the person who just doesn't care about loyalty programs, and the one that is not ready for a co-branded credit card.",
-      "zh": "我想问你关于航司私底下最头疼的两类旅客：一类是根本不在乎常旅客计划的人，另一类是还没准备好办联名信用卡的人。"
-    },
-    {
-      "id": 106,
-      "start_sec": 1176,
-      "speaker": "Brian Sumers",
-      "en": "Oh, I know these people. The first one books whatever is most convenient or cheapest, and has no built-in loyalty. And the other one is loyal, but doesn't want another credit card.",
-      "zh": "噢，我太了解这两种人了。第一类旅客只买最方便或最便宜的票，毫无品牌忠诚度可言；另一类旅客虽然认可品牌，但不想再办一张信用卡。"
-    },
-    {
-      "id": 107,
-      "start_sec": 1187,
-      "speaker": "Brett Snyder",
-      "en": "This is a problem for airlines, and that's why Flex Pay works hand in hand with them to address both of these gaps and help them acquire new customers and grow loyalty.",
-      "zh": "这正是航司面临的痛点，因此 Flex Pay 与航司紧密合作，直击这两大缺口，助力航司获客并培育旅客忠诚度。"
-    },
-    {
-      "id": 108,
-      "start_sec": 1196,
-      "speaker": "Brian Sumers",
-      "en": "So I know Flex Pay as a payment option, but it's also an on-ramp to the loyalty highway?",
-      "zh": "我一直以为 Flex Pay 只是一种支付方式，难道它还能作为通往常旅客体系快车道的引流入口？"
-    },
-    {
-      "id": 109,
-      "start_sec": 1203,
-      "speaker": "Brett Snyder",
-      "en": "That's a good way to describe it. Flex Pay helps airlines give customers products that build loyalty over time, that are not directly tied to their currency.",
-      "zh": "这个比喻很贴切。Flex Pay 协助航司向客户提供能逐步沉淀忠诚度的产品，且无需直接与航司积分货币挂钩。"
-    },
-    {
-      "id": 110,
-      "start_sec": 1211,
-      "speaker": "Brian Sumers",
-      "en": "So the airline isn't losing that customer, and in many cases, they're nurturing them into loyal travelers on a much faster timeline, even before they get a credit card. But how does Flex Pay make that happen?",
-      "zh": "这么说航司不仅没有流失这些客户，反而在许多情况下能以更快的节奏将他们转化为忠诚旅客，甚至在他们办联名卡之前就完成转化。但 Flex Pay 具体是如何做到的呢？"
-    },
-    {
-      "id": 111,
-      "start_sec": 1226,
-      "speaker": "Brett Snyder",
-      "en": "Glad you asked. Flex Pay provides the convenience and flexibility of paying monthly for travel purchases, and that data shows that Flex Pay users have really high repeat booking rates. It keeps them coming back to the same airline.",
-      "zh": "问得好。Flex Pay 针对旅行支出提供便捷、灵活的分期按月付款服务；数据显示，Flex Pay 用户的复购率极高，能有效促使他们持续选择同一家航司。"
-    },
-    {
-      "id": 112,
-      "start_sec": 1239,
-      "speaker": "Brian Sumers",
-      "en": "So the product itself becomes the loyalty driver for those who may not be as drawn to points as others are?",
-      "zh": "所以对于那些对常旅客积分不太感冒的人来说，这种支付产品本身就成了培育忠诚度的抓手？"
-    },
-    {
-      "id": 113,
-      "start_sec": 1247,
-      "speaker": "Brett Snyder",
-      "en": "Yep, and airlines should view it that way. Flex Pay isn't just a payment option, it's a way to create a relationship with customers who would otherwise be completely transactional. Flex Pay also offers loyalty auto-enroll, so those...",
-      "zh": "没错，航司也正应该这样看待它。Flex Pay 不仅仅是一种支付手段，更是与那些原本纯做'一锤子买卖'的客群建立深度黏性的方式。此外，Flex Pay 还支持常旅客自动注册，让那些……"
-    },
-    {
-      "id": 114,
-      "start_sec": 1260,
-      "speaker": "Brett Snyder",
-      "en": "customers can start earning points immediately, kick-starting their loyalty journey in more ways than one. That's a pretty compelling case for a customer segment that most loyalty programs just write off.",
-      "zh": "客户可以立即开始赚取积分，以多种方式开启他们的忠诚度之旅。对于大多数常旅客计划直接放弃的客群而言，这确实很有说服力。"
-    },
-    {
-      "id": 115,
-      "start_sec": 1271,
-      "speaker": "Brett Snyder",
-      "en": "And that's exactly why airlines are paying attention to it. This is sponsored by Upgrade, Inc. Learn more at upgrade.com/flex-pay.",
-      "zh": "这也正是航空公司开始关注这一领域的原因。本期节目由 Upgrade, Inc. 赞助播出。欲了解更多信息，请访问 upgrade.com/flex-pay。"
-    },
-    {
-      "id": 116,
       "start_sec": 1284,
       "speaker": "Brian Sumers",
       "en": "And we're back. Let's talk about the org chart, Brett. I've been a little harsh in recent years about American's communication strategy, which I might summarize as, \"We deflect everything, and then we hope it will go away.\" Then it doesn't.",
       "zh": "欢迎回来。Brett，我们来聊聊组织架构图。这几年我对美国航空的公关传播策略批评得有点狠，我可以将其总结为：“我们避重就轻、推诿一切，然后指望问题能自行消失。”但问题往往并没有消失。"
     },
     {
-      "id": 117,
+      "id": 106,
       "start_sec": 1301,
       "speaker": "Brian Sumers",
       "en": "I can't say that I was surprised to see the highest-level departure earlier this month, and that's Ron DeFeo, Executive Vice President and Chief Communications Officer. Brett, do you know my biggest problem with Ron?",
       "zh": "本月早些时候看到最高级别的离职变动，我一点也不感到意外——那就是执行副总裁兼首席传播官 Ron DeFeo 的离开。Brett，你知道我对 Ron 最大的不满是什么吗？"
     },
     {
-      "id": 118,
+      "id": 107,
       "start_sec": 1314,
       "speaker": "Brett Snyder",
       "en": "Tell me why.",
       "zh": "快跟我说说为什么？"
     },
     {
-      "id": 119,
+      "id": 108,
       "start_sec": 1317,
       "speaker": "Brian Sumers",
       "en": "That's actually the greatest joke that you've ever made. Not that many people are going to get it, but those that do are really going to enjoy it. But let me tell you why.",
       "zh": "这其实是你讲过最绝的段子。虽然能听懂的人可能不多，但听懂的人肯定会拍案叫绝。不过还是让我来告诉你为什么吧。"
     },
     {
-      "id": 120,
+      "id": 109,
       "start_sec": 1326,
       "speaker": "Brian Sumers",
       "en": "With all the stuff I wrote and said about American's faults over the years—and I stand by I think all of it—Ron never got outwardly angry with me. He was always very nice to me when we spoke in person.",
       "zh": "这些年来我写过、说过那么多关于美国航空的各种过失——而且我认为所有的批评我都坚持到底——但 Ron 从未对我公然发火。我们当面交谈时，他对我一直都非常客气。"
     },
     {
-      "id": 121,
+      "id": 110,
       "start_sec": 1343,
       "speaker": "Brett Snyder",
       "en": "You talked to him?",
       "zh": "你居然跟他聊过？"
     },
     {
-      "id": 122,
+      "id": 111,
       "start_sec": 1344,
       "speaker": "Brian Sumers",
       "en": "Brett, maybe I'm old school, but I like a good old-fashioned shouting match with a comms person every now and then, or at least maybe some trading of passive-aggressive emails.",
       "zh": "Brett，也许我比较老派吧，但我挺喜欢偶尔和公关负责人来一场老派的激烈争吵，或者至少来回发几封冷嘲热讽的邮件。"
     },
     {
-      "id": 123,
+      "id": 112,
       "start_sec": 1357,
       "speaker": "Brian Sumers",
       "en": "I really got a chance to do both of those things during the United Jeff Smisek years. In fact, I kept some of those emails. The thing was, Ron was very, very even, and I found that to be weird.",
       "zh": "在美联航 Jeff Smisek 执掌的时期，这两样我都结结实实经历过，甚至我还保留了其中一些邮件。问题就在于，Ron 的情绪实在太稳定了，让我觉得非常不可思议。"
     },
     {
-      "id": 124,
+      "id": 113,
       "start_sec": 1370,
       "speaker": "Brian Sumers",
       "en": "But anyways, I hear he's very happy now. Whether it was his choice to go or not, it seems like he's content with his decision. Lots of stress in that job.",
       "zh": "但不管怎样，我听说他现在过得很开心。无论离职是否完全出于自愿，他似乎对自己的决定都挺满意的。毕竟那份工作的压力确实太大了。"
     },
     {
-      "id": 125,
+      "id": 114,
       "start_sec": 1380,
       "speaker": "Brett Snyder",
       "en": "Oh, no question about that. I mean, could you imagine trying to run comms for American over the last decade? That sounds exhausting just thinking about it.",
       "zh": "噢，那毫无疑问。我是说，你能想象过去十年里掌管美国航空的公关部是种什么体验吗？光是想想都觉得精疲力竭。"
     },
     {
-      "id": 126,
+      "id": 115,
       "start_sec": 1389,
       "speaker": "Brett Snyder",
       "en": "But also, Ron did more than just comms, and his empire is now being dismantled. His number two, Caroline Clayton, she will step into the role leading comms.",
       "zh": "而且，Ron 管的可不仅仅是公关，他的权力版图如今正在被拆分。他的二把手 Caroline Clayton 将接任主管公关事务。"
     },
     {
-      "id": 127,
+      "id": 116,
       "start_sec": 1401,
       "speaker": "Brett Snyder",
       "en": "But she was also running marketing under him, and that is now going to a undisclosed new hire in the commercial group under Chief Commercial Officer, Nat Pieper.",
       "zh": "但她此前在他手下还兼管市场营销，而该业务现在将划归商务部门，由首席商务官 Nat Pieper 麾下一位尚未公布的新聘高管接管。"
     },
     {
-      "id": 128,
+      "id": 117,
       "start_sec": 1412,
       "speaker": "Brett Snyder",
       "en": "Then Ron also has some weird HR-related functions, so those are going to move over there to the HR team or People, as they like to call it, and pretend it's not just HR.",
       "zh": "此外 Ron 还管过一些奇奇怪怪的人力资源职能，这些业务也将移交给 HR 团队——或者像他们喜欢的那样称之为“人才管理部”（People），装作这不仅仅是 HR 似的。"
     },
     {
-      "id": 129,
+      "id": 118,
       "start_sec": 1422,
       "speaker": "Brian Sumers",
       "en": "Yeah, but at least they don't capitalize it in every press release.",
       "zh": "是啊，但至少他们不会在每篇新闻通稿里都大写特写。"
     },
     {
-      "id": 130,
+      "id": 119,
       "start_sec": 1426,
       "speaker": "Brett Snyder",
       "en": "That is a great point. That's a different part of the metroplex, I believe. Meanwhile, over in the finance world, not much changes there, so this is really not about that.",
       "zh": "说得太对了。据我所知那是达拉斯-沃斯堡大都会区另一家航司的作风。与此同时，在财务条线方面，并没有太大变动，所以这次调整其实与财务无关。"
     },
     {
-      "id": 131,
+      "id": 120,
       "start_sec": 1436,
       "speaker": "Brett Snyder",
       "en": "Devon May still CFO. The only...",
       "zh": "Devon May 仍然担任 CFO。唯一的……"
     },
     {
-      "id": 132,
+      "id": 121,
       "start_sec": 1440,
       "speaker": "Brett Snyder",
       "en": "Change with him is that he will now take corporate real estate under his wing. And this is because the person who used to do that was Nate Gatten. Nate had three very weird departments in one place. Besides corporate real estate, he had Government Affairs and American Eagle.",
       "zh": "关于他的变动是，他现在将把企业不动产业务收归麾下。这是因为之前负责这块的是 Nate Gatten。Nate 手下当时管着三个风马牛不相及的部门，除了企业不动产，他还管政府事务和美鹰航空。"
     },
     {
-      "id": 133,
+      "id": 122,
       "start_sec": 1456,
       "speaker": "Brian Sumers",
       "en": "Yeah, a strange combination. But I know that Nate was very well thought of and I feel like at the highest levels of these airlines, if you're going to be an EVP, you have to have more than one portfolio, so they gave him some other stuff.",
       "zh": "是啊，挺奇怪的组合。但我知道大家对 Nate 评价很高，而且我觉得在这些航司的最高管理层，如果你是个执行副总裁，手头总得管不止一块业务，所以他们就塞给了他一些别的东西。"
     },
     {
-      "id": 134,
+      "id": 123,
       "start_sec": 1468,
       "speaker": "Brett Snyder",
       "en": "I guess. But there's a lot in American's org chart that's weird like this. I'm guessing it made sense to someone at some point just for this individual person, but they were kind of letting the people tailor the organization to what was needed.",
       "zh": "也许吧。但美航的组织架构图里有很多诸如此类的奇葩设置。我猜可能在某个时期，针对某个具体的人确实说得通，但他们有点像是因人设岗，让组织去迎合具体的人的需求。"
     },
     {
-      "id": 135,
+      "id": 124,
       "start_sec": 1484,
       "speaker": "Brett Snyder",
       "en": "And now that those people are leaving or had already left, now they can try and smooth this out, which is how this all really just generally feels to me. But anyway, Nate's off to sunnier pastures. He is heading to do government affairs for Apple, which means he is about to be a whole lot richer.",
       "zh": "现在这些人要离职或者已经离开了，他们终于可以着手理顺这些关系了。这基本就是整件事给我的感觉。不过不管怎样，Nate 是奔向更好的前程了，他要去苹果公司负责政府事务，这意味着他马上要发大财了。"
     },
     {
-      "id": 136,
+      "id": 125,
       "start_sec": 1503,
       "speaker": "Brett Snyder",
       "en": "And his SVP of Government Affairs will now take over, and then American Eagle will be pushed into the operation under COO David Seymour.",
       "zh": "而他手下负责政府事务的高级副总裁现在将接棒，然后美鹰航空将被划归到首席运营官 David Seymour 负责的运营板块。"
     },
     {
-      "id": 137,
+      "id": 126,
       "start_sec": 1513,
       "speaker": "Brian Sumers",
       "en": "Let's talk more about the operation, which has been suffering a little bit. There were some changes there as well, right?",
       "zh": "我们多聊聊运营层面吧，美航的运营最近表现一直不太尽如人意。那边也有一些人事变动，对吧？"
     },
     {
-      "id": 138,
+      "id": 127,
       "start_sec": 1520,
       "speaker": "Brett Snyder",
       "en": "Yeah, it was there in the commercial side that had the biggest changes. So on the ops side, the head of Tech Ops, Kevin Brickner, is retiring, whether that's really retiring or not, we don't know, and they have hired John Bendoraitis, better known as Bendo, to take his place.",
       "zh": "对，运营和商业板块的变化是最大的。在运营端，技术运营负责人 Kevin Brickner 即将退休——究竟是不是真的退休我们不得而知——他们聘请了 John Bendoraitis，大家更熟悉叫他 Bendo，来接替他的职位。"
     },
     {
-      "id": 139,
+      "id": 128,
       "start_sec": 1539,
       "speaker": "Brett Snyder",
       "en": "So Bendo was the COO at Spirit until Spirit stopped having an O, I guess. So Bendo, new hire, good for him.",
       "zh": "Bendo 之前是精神航空的首席运营官，直到精神航空彻底玩不转运营了为止吧。所以 Bendo 作为新进高管，挺替他高兴的。"
     },
     {
-      "id": 140,
+      "id": 129,
       "start_sec": 1550,
       "speaker": "Brett Snyder",
       "en": "There's also JC Gulbranson, who is currently SVP of Flight Ops and IOC, which is the operation center. He is now going to also take on airport operations and operations planning. So those are two roles that used to report directly to David Seymour, who is still in charge.",
       "zh": "还有 JC Gulbranson，他目前是负责飞行运行和一体化运行中心（IOC，即运行中心）的高级副总裁。他现在还将接管机场地面运营和运行规划。这两个职位过去都是直接向 David Seymour 汇报的，David 目前依然大权在握。"
     },
     {
-      "id": 141,
+      "id": 130,
       "start_sec": 1568,
       "speaker": "Brett Snyder",
       "en": "But I have heard from multiple people that maybe that won't be the case for much longer, it may be time for a retirement plan there. Just a matter of when that's going to happen. So that would suggest to me that JC is the heir apparent unless Bendo impresses quickly when he gets there, I guess.",
       "zh": "但我听不止一个人说，这种情况可能不会持续太久了，可能快到制定退休计划的时候了，只是时间早晚的问题。所以这在我看来意味着 JC 就是预定的接班人，除非 Bendo 入职后能迅速拿出惊艳的表现。"
     },
     {
-      "id": 142,
+      "id": 131,
       "start_sec": 1587,
       "speaker": "Brian Sumers",
       "en": "So does all of this show that Robert Isom is finally grasping the urgency of this and making bold decisions about his team?",
       "zh": "那么这一切是否说明，Robert Isom 终于意识到事情的紧迫性，开始对自己的团队痛下决心、大刀阔斧地做决策了？"
     },
     {
-      "id": 143,
+      "id": 132,
       "start_sec": 1595,
       "speaker": "Brett Snyder",
       "en": "No, maybe. I don't really have an answer for you. The operation has been running poorly on and off for such a long time, and it's the same people that have been running it.",
       "zh": "不是，也许吧，我真给不出确切答案。美航的运行断断续续拉胯这么长时间了，而且一直是同一拨人在管。"
     },
     {
-      "id": 144,
+      "id": 133,
       "start_sec": 1608,
       "speaker": "Brett Snyder",
       "en": "So okay, now we've got Tech Ops under new blood. But they're spinning this as Kevin Brickner is retiring and that David Seymour actually asked him to...",
       "zh": "好吧，现在技术运营引进了新鲜血液。但他们对外宣称是 Kevin Brickner 正常退休，而且 David Seymour 实际上还挽留他……"
     },
     {
-      "id": 145,
+      "id": 134,
       "start_sec": 1620,
       "speaker": "Brett Snyder",
       "en": "stay around longer than he wanted. Which is just, like this whole round of changes, the comms folks that I talked to, they tried to make it clear that everybody left on their own.",
       "zh": "待的时间超过了他的预期。这整轮人事变动，跟我聊过的公关人员都极力表明所有人都是主动离职的。"
     },
     {
-      "id": 146,
+      "id": 135,
       "start_sec": 1631,
       "speaker": "Brett Snyder",
       "en": "And I think this is nuts. Like, if Robert is trying to show that he is a change leader making these bold moves and fixing everything, then he should be saying he's firing people. And I know you can't do that once you hit a certain level, no one gets fired once you're at that level.",
       "zh": "我觉得这简直不可理喻。如果 Robert 想要展现自己是一个推动变革的领袖，采取大胆行动解决所有问题，那他就应该挑明是他解雇了这些人。我知道到了高管级别不能这么做，到了那个级别没人会被公开“解雇”。"
     },
     {
-      "id": 147,
+      "id": 136,
       "start_sec": 1645,
       "speaker": "Brett Snyder",
       "en": "But instead, they just act like this is a reaction to people leaving on their own, which is decidedly less inspiring, right? This is not going to really rally people here.",
       "zh": "但相反，他们表现得好像这只是对员工主动离职的应对，这显然太缺乏号召力了，对吧？这根本不可能振奋人心。"
     },
     {
-      "id": 148,
+      "id": 137,
       "start_sec": 1656,
       "speaker": "Brian Sumers",
       "en": "Well, you know, Brett, they don't even try to spin me anymore. Nobody calls and pretends anything to me. I just read the press releases or whatever.",
       "zh": "你懂的，Brett，他们现在甚至都懒得来公关我了。没人打电话给我演戏，我直接看新闻通稿完事。"
     },
     {
-      "id": 149,
+      "id": 138,
       "start_sec": 1663,
       "speaker": "Brett Snyder",
       "en": "Oh, I called them. I reached out to them. Okay. But, you know, you can read it, and you can make decisions on what you think is happening here and what you think is not.",
       "zh": "我是主动打电话找他们的。行吧。但你看完这些，完全可以自行判断哪些是真的在发生，哪些不是。"
     },
     {
-      "id": 150,
+      "id": 139,
       "start_sec": 1672,
       "speaker": "Brett Snyder",
       "en": "But if the spin is, \"No, this is just we're trying to fix everything, and, you know, clean up some of the issues and make it right, but everyone left on their own,\" like, what does that say about Robert's urgency here?",
       "zh": "如果他们的公关说辞是：“不，这只是我们在努力拨乱反正、解决部分问题并走回正轨，而且大家都是主动离开的”——那这能体现出 Robert 所谓的紧迫感吗？"
     },
     {
-      "id": 151,
+      "id": 140,
       "start_sec": 1684,
       "speaker": "Brian Sumers",
       "en": "No, the only guy to truly get fired there was Vasu, right?",
       "zh": "美航真正被开掉的就只有 Vasu 一个人，对吧？"
     },
     {
-      "id": 152,
+      "id": 141,
       "start_sec": 1687,
       "speaker": "Brett Snyder",
       "en": "That was, yeah, I don't even know that they even said that, but that was pretty clear what was happening.",
       "zh": "确实，我都不知道他们有没有明说，但大家心里都很清楚是怎么回事。"
     },
     {
-      "id": 153,
+      "id": 142,
       "start_sec": 1691,
       "speaker": "Brian Sumers",
       "en": "I just don't know what to say about Robert anymore. I don't think this is going to do it. I still think it's only a matter of time until he retires. I just don't know what that time is.",
       "zh": "关于 Robert，我真的无话可说了。我觉得这根本起不到作用。我依然认为他“退休”只是时间问题，我只是不知道具体是什么时候。"
     },
     {
-      "id": 154,
+      "id": 143,
       "start_sec": 1701,
       "speaker": "Brett Snyder",
       "en": "That was a \"retires\" in quotes there for you?",
       "zh": "你说的这个“退休”是打引号的吧？"
     },
     {
-      "id": 155,
+      "id": 144,
       "start_sec": 1704,
       "speaker": "Brian Sumers",
       "en": "Look, the guy will have spent how many decades at American and its predecessor companies? He will be in his 60s. You know, that's kind of retiring, isn't it?",
       "zh": "你想想，这家伙在美航及其前身公司待了多少个十年？他也快六十多岁了。到那个时候，这也算得上退休了吧？"
     },
     {
-      "id": 156,
+      "id": 145,
       "start_sec": 1716,
       "speaker": "Brett Snyder",
       "en": "Not clear if it's by choice. Well, it's by someone's choice. It's not clear whose choice.",
       "zh": "说不清是不是自愿的。好吧，反正是某人的选择，只是不知道是谁的选择罢了。"
     },
     {
-      "id": 157,
+      "id": 146,
       "start_sec": 1723,
       "speaker": "Brett Snyder",
       "en": "But, okay, let's talk about the commercial side because this is sort of a different animal here. The commercial side is the one group that has a new leader, and new to the airline, right?",
       "zh": "不过好吧，我们来聊聊商业业务板块，因为这完全是另一码事。商业板块是唯一一个迎来新负责人的团队，而且对这家航司来说也是个新人，对吧？"
     },
     {
-      "id": 158,
+      "id": 147,
       "start_sec": 1733,
       "speaker": "Brett Snyder",
       "en": "So we have Nat Pieper, Chief Commercial Officer, has not been there a year yet. Came from Oneworld. He was at Alaska, before that he was at Delta and Northwest before that.",
       "zh": "首席商务官 Nat Pieper 上任还不足一年。他来自寰宇一家（Oneworld），此前在阿拉斯加航空工作，更早之前还在达美航空和西北航空任职。"
     },
     {
-      "id": 159,
+      "id": 148,
       "start_sec": 1744,
       "speaker": "Brett Snyder",
       "en": "So Nat, I had expected maybe we'd see some changes when he took over, like bigger organizational changes, but we haven't seen that yet. And so now I'm wondering if, with what's happened now, now that the organization has been more settled, maybe he can make more changes.",
       "zh": "所以我原本以为 Nat 上任时我们能看到一些变革，比如更大的组织架构调整，但目前为止还没看到。现在我在想，随着如今的变动尘埃落定、组织更加稳定，他或许可以推行更多变革了。"
     },
     {
-      "id": 160,
+      "id": 149,
       "start_sec": 1760,
       "speaker": "Brett Snyder",
       "en": "So what did he do? Okay. He takes over the entire customer organization. So Heather Garboden is the Chief Customer Officer, which is silly because she's a chief reporting to another chief, which always drives me nuts with the title inflation stuff. But her job is very important.",
       "zh": "那他到底做了什么呢？好的。他接管了整个客户组织架构。Heather Garboden 担任首席客户官，这其实挺搞笑的，因为一个 Chief 要向另一个 Chief 汇报，这种头衔通胀总让我抓狂。不过她的职责确实至关重要。"
     },
     {
-      "id": 161,
+      "id": 150,
       "start_sec": 1777,
       "speaker": "Brett Snyder",
       "en": "And in her job, she used to have a split reporting role where she went to both commercial and the operation, which is terrible. I don't care what they say, I hate having to serve two masters. That is brutal.",
       "zh": "而在她的岗位上，她以前需要同时向商务和运行双线汇报，这简直糟透了。不管别人怎么说，我最讨厌同时侍奉两个老板，那太痛苦了。"
     },
     {
-      "id": 162,
+      "id": 151,
       "start_sec": 1788,
       "speaker": "Brett Snyder",
       "en": "So now she is fully in Nat's organization out of the operation. And she has also taken reservations, contact center, service recovery, and catering with her, away",
       "zh": "所以现在她彻底脱离了运行部门，完全归入 Nat 的团队。并且她还把订座预付、客服联络中心、服务补救以及机上餐饮等业务也一并带走了，不再归运行管辖。"
     },
     {
-      "id": 163,
+      "id": 152,
       "start_sec": 1800,
       "speaker": "Brett Snyder",
       "en": "From the operational side, it now reports up into her. That's good. So now will we start seeing Nat make more changes? And maybe he already has, right? He's the guy who probably convinced Robert to put the screens back in and, you know, some of the catering changes and things like that. We've certainly seen change.",
       "zh": "从运行端来看，现在也归她管辖了。这挺好的。那接下来我们会看到 Nat 推动更多变革吗？也许他已经这么做了，对吧？很可能就是他说服了 Robert 重新装回机上屏幕，还对餐饮等环节做了改进。我们确实看到了转变。"
     },
     {
-      "id": 164,
+      "id": 153,
       "start_sec": 1817,
       "speaker": "Brett Snyder",
       "en": "But I want to see what else is coming. This feels like kind of settling his domain a little bit here. So with all those changes, it feels like Nat's group is growing in influence, which is that new blood we had talked about. And it makes sense, because if you are Robert, you want to convince people that you've reinvented yourself, and you're a true believer in the premium world and all this.",
       "zh": "但我还想看看后续会有什么动作。这感觉像是在进一步稳固他的势力范围。伴随着这些变动，Nat 的团队影响力似乎在不断扩大，这正是我们之前聊到的“新鲜血液”。这很合理，因为如果你是 Robert，你想让大家相信你已经洗心革面，成了高端出行理念的忠实拥趸。"
     },
     {
-      "id": 165,
+      "id": 154,
       "start_sec": 1843,
       "speaker": "Brett Snyder",
       "en": "So everyone else in the company has been there for so long. You need to make moves to get that new blood to have more power. So that is what this feels like, trying to sort of untangle some of the issues and shift the power a little bit.",
       "zh": "公司里的其他人资历都太深了。你必须采取行动，让这股新鲜血液掌握更大的权力。所以目前的动作给人的感觉就是：尝试梳理现存的一些顽疾，并对权力格局进行微调。"
     },
     {
-      "id": 166,
+      "id": 155,
       "start_sec": 1858,
       "speaker": "Brian Sumers",
       "en": "Brett, I've heard a lot of good things about Nat from people at American: that he actually cares, that he interacts with employees, that he speaks with the frontline. All this stuff shouldn't be surprising; it's what airline executives do all over the industry.",
       "zh": "Brett，我从美航内部员工那里听到了很多关于 Nat 的好评：说他真心投入、走近员工，并且乐于跟一线员工沟通。这些其实本不该让人大惊小怪，全行业的航司高管大多都这么做。"
     },
     {
-      "id": 167,
+      "id": 156,
       "start_sec": 1877,
       "speaker": "Brian Sumers",
       "en": "But I feel like as Robert has been embattled, he's like gone into a bunker at the Skyview headquarters and he hasn't come out. And it's nice to see somebody like Nat take the problems at American seriously, and interact with people, and just be available. I don't know that he can fix everything, but it's a good change of pace for American.",
       "zh": "但我觉得，随着 Robert 深陷内外交困的境地，他仿佛把自己关进了 Skyview 总部的地堡里闭门不出。看到 Nat 这样的人能认真对待美航的问题、与大家互动交流、随时保持沟通姿态，确实令人欣慰。我不指望他能解决所有难题，但对美航而言，这无疑是一股新气象。"
     },
     {
-      "id": 168,
+      "id": 157,
       "start_sec": 1898,
       "speaker": "Brett Snyder",
       "en": "I would agree with that. And I think it's still really tough, right? I mean, if you're Nat, you want to try and do all this stuff, but you're not the CEO. And whether they think at the board level that he's ready to be CEO or not, who knows? But you would assume that with the airline going in this direction, if they're looking at an internal candidate, it's probably Nat, because there's not really anyone else that would seem to fit in this premium type of focus.",
       "zh": "我同意。但我觉得这依然非常棘手，对吧？我是说，如果你是 Nat，你一心想大展身手推进这些事，但你终究不是 CEO。至于董事会层面试否认为他已经做好了接任 CEO 的准备，谁也说不准。不过可以预见，随着航司朝这个方向推进，如果他们考虑内部人选，大概率就是 Nat 了，因为似乎没有其他高管更契合这种发力高端的定位。"
     },
     {
-      "id": 169,
+      "id": 158,
       "start_sec": 1927,
       "speaker": "Brett Snyder",
       "en": "But, you know, he's not that CEO. Robert is the CEO, and so you're still working in this sort of weird box that it makes it challenging, I think, to engage the frontline as well. Did you see the memo that went to the officers when they made these changes?",
       "zh": "但事实是，他现在还不是 CEO。Robert 才是 CEO，所以你依然处在某种微妙的条条框框之下，我认为这也给发动一线员工带来了挑战。公布这些变动时发给高级管理人员的那份备忘录，你看了吗？"
     },
     {
-      "id": 170,
+      "id": 159,
       "start_sec": 1943,
       "speaker": "Brian Sumers",
       "en": "I was cleaning up barf in the Serengeti, but I vaguely remember somebody sending it to me.",
       "zh": "我当时正在塞伦盖蒂收拾呕吐物呢，不过我隐约记得有人把备忘录转给我了。"
     },
     {
-      "id": 171,
+      "id": 160,
       "start_sec": 1948,
       "speaker": "Brett Snyder",
       "en": "Yeah. So, you know, Robert had a memo that went out to his officers, and of course it was going to leak, so if you're writing that, it had to be written with that in mind. But instead of being reassuring, it kind of did the opposite for me.",
       "zh": "对。Robert 给他的高管团队发了一份备忘录，这种文件必然会泄露，所以起草时肯定预先考虑到了这一点。但这份备忘录非但没起到安抚人心的作用，反而让我有了适得其反的感觉。"
     },
     {
-      "id": 172,
+      "id": 161,
       "start_sec": 1965,
       "speaker": "Brett Snyder",
       "en": "Because you have a guy who's been at the top for a really long time, things have not been going well, changes need to be made. This is a big change, and he is trying to shift how he talks about all this stuff. But this change on its own is still going to throw people for a loop.",
       "zh": "因为你面对的是一位久居高位的一把手，当前局面很不理想，亟需作出改变。这次人事调整动静很大，他也试图改变自己谈论这些问题的口径。但单就这项调整本身而言，依然会让大家感到措手不及。"
     },
     {
-      "id": 173,
+      "id": 162,
       "start_sec": 1980,
       "speaker": "Brett Snyder",
-      "en": "a loop, right? You have senior leaders leaving, you have things that are changing where they report in the company. There's a lot of change in there.",
-      "zh": "这种恶性循环，对吧？高管接连离职，公司内部的汇报线也在不断变动。内部确实发生了非常多的变化。"
+      "en": "Right? You have senior leaders leaving, you have things that are changing where they report in the company. There's a lot of change in there.",
+      "zh": "确实让人措手不及，对吧？高管接连离职，公司内部的汇报线也在不断变动。内部确实发生了非常多的变化。"
     },
     {
-      "id": 174,
+      "id": 163,
       "start_sec": 1988,
       "speaker": "Brett Snyder",
       "en": "And you would think that if you're going to put memos out, that you want to be trying to calm that down. You want to try and calm down some of the chaos and the anxiety and all that.",
       "zh": "按理说，如果要发布全员备忘录，理应是想借此稳定军心，尽量平息内部的一些混乱和焦虑情绪。"
     },
     {
-      "id": 175,
+      "id": 164,
       "start_sec": 1999,
       "speaker": "Brett Snyder",
       "en": "But instead, Robert said this, quote, \"The first step in a series of actions designed to strengthen our team, foster greater alignment, and act with greater urgency across the enterprise,\" end quote.",
       "zh": "但相反，Robert 却这样写道，我引用一下：“这是旨在加强我们团队实力、促进更紧密协同，并在全公司范围内以更高紧迫感采取行动的一系列举措的第一步。”引用完毕。"
     },
     {
-      "id": 176,
+      "id": 165,
       "start_sec": 2013,
       "speaker": "Brian Sumers",
       "en": "It's good parallel structure.",
       "zh": "这排比句写得挺工整啊。"
     },
     {
-      "id": 177,
+      "id": 166,
       "start_sec": 2015,
       "speaker": "Brett Snyder",
       "en": "I hate the corporate speak. I hate that it just leaves people hanging, and I hate that they're talking about acting with greater urgency while simultaneously slow-rolling changes into multiple tranches with all this uncertainty. It's just bad.",
       "zh": "我真讨厌这种企业官话套话。我讨厌它让人心里悬着没底，更讨厌他们一边高喊着要以更强的紧迫感行动，一边又在充斥着不确定性的情况下，把各种变革分期分批地慢吞吞推进。这真的很糟糕。"
     },
     {
-      "id": 178,
+      "id": 167,
       "start_sec": 2029,
       "speaker": "Brett Snyder",
       "en": "And so, I think as good as Nat can be, maybe is, you're still kind of working in this tumultuous environment.",
       "zh": "所以，我认为哪怕 Nat 再有能力，或者事实确实如此，你依然是在这样一个动荡不安的环境中艰难开展工作。"
     },
     {
-      "id": 179,
+      "id": 168,
       "start_sec": 2038,
       "speaker": "Brian Sumers",
       "en": "Brett, I think that you're right there. I've been harping on American's communications approach for a very long time at this point. I think there's work to be done there.",
       "zh": "Brett，我觉得你这点说得没错。关于美航的沟通策略，我其实已经反复批评很久了。我认为他们在这方面确实还有很多功课要做。"
     },
     {
-      "id": 180,
+      "id": 169,
       "start_sec": 2049,
       "speaker": "Brian Sumers",
       "en": "But we have made it this far in the show and I still think that you've forgotten to discuss an important point about what we're seeing at American. I think that you did because you're too much of a network geek. Do you know what this is?",
       "zh": "但我们节目都录到这儿了，我还是觉得你遗漏了一个关于美航现状的重要讨论点。我觉得你漏掉是因为你太沉迷于航线网络规划了。你知道我说的是什么吗？"
     },
     {
-      "id": 181,
+      "id": 170,
       "start_sec": 2064,
       "speaker": "Brett Snyder",
       "en": "Oh, it must be the thing announced the day we record this that American will start handing out Goldfish as a snack. Is that what we're talking about?",
       "zh": "噢，那肯定是我们录节目的今天刚宣布的那件事：美航要开始提供小金鱼饼干（Goldfish）当零食了。你说的是这个吗？"
     },
     {
-      "id": 182,
+      "id": 171,
       "start_sec": 2072,
       "speaker": "Brian Sumers",
       "en": "Wait, really? I missed that release. Are they actually handing out Goldfish?",
       "zh": "等等，真的假的？我漏看这篇新闻稿了。他们真要发小金鱼饼干？"
     },
     {
-      "id": 183,
+      "id": 172,
       "start_sec": 2077,
       "speaker": "Brett Snyder",
       "en": "Yeah, that just came out this morning. Biscoffs in the morning, Goldfish and, I think, cookies in the afternoon. But, yeah, Goldfish for all.",
       "zh": "对，今天早晨刚发的消息。早上发 Biscoff 焦糖饼干，下午发小金鱼饼干，好像还有曲奇。不过没错，人人都有小金鱼饼干吃。"
     },
     {
-      "id": 184,
+      "id": 173,
       "start_sec": 2085,
       "speaker": "Brian Sumers",
       "en": "So stick with me here. And I know that some of our listeners, the big airline nerds out here, probably aren't going to agree with me here. But this is actually a big deal, okay?",
       "zh": "大家先听我说完。我知道有些听众，尤其是那些资深航司发烧友，可能不太赞同我的观点。但这实际上是一件大事，好吗？"
     },
     {
-      "id": 185,
+      "id": 174,
       "start_sec": 2094,
       "speaker": "Brian Sumers",
       "en": "Branded snacks, they are a thing, kind of like screens and branding on bulkhead walls and the tiles on the ceiling. You know, people tell me that if passengers recognize the brand on the package of pretzels that they're served, they view the airline as more premium.",
       "zh": "品牌联名零食可不是小事，这就像机载个人屏幕、舱壁隔板上的品牌标识以及机舱顶部的贴面一样。很多人告诉我，如果乘客能在发给他们的椒盐脆饼包装袋上认出知名品牌，他们就会觉得这家航司更加高端。"
     },
     {
-      "id": 186,
+      "id": 175,
       "start_sec": 2116,
       "speaker": "Brian Sumers",
       "en": "And I think up until this point, the only branded snack American has served are Biscoffs. And I'm pretty sure that I've complained about this before, the lack of branded snacks.",
       "zh": "而且我觉得在此之前，美航提供过的唯一品牌零食就只有 Biscoff。我敢肯定我以前就抱怨过这点，也就是缺乏有品牌的零食。"
     },
     {
-      "id": 187,
+      "id": 176,
       "start_sec": 2126,
       "speaker": "Brett Snyder",
       "en": "Well, listen, it's a new day for you. I'm just glad it's not Cheez-Its, cuz those suck and I'm on Team Goldfish.",
       "zh": "行吧，听着，对你来说这是翻开新篇章了。我反正是挺庆幸不是发 Cheez-It 芝士饼干的，因为那玩意儿太难吃了，我绝对站小金鱼饼干这边。"
     },
     {
-      "id": 188,
+      "id": 177,
       "start_sec": 2133,
       "speaker": "Brian Sumers",
       "en": "Well, exciting stuff. Another step forward for American. But that was not what I was trying to get at. I wanted to talk briefly about marketing.",
       "zh": "好吧，确实挺令人振奋，算是美航向前迈出的又一步。但这并不是我原本想说的重点。我想简单聊聊市场营销。"
     },
     {
-      "id": 189,
+      "id": 178,
       "start_sec": 2142,
       "speaker": "Brian Sumers",
       "en": "You mentioned it earlier, but American is getting a new chief marketing officer, probably somebody from the outside. And we mentioned how American EVPs have worn many hats. We said that Ron has led the marketing team, very nice guy, we mentioned.",
       "zh": "你之前提到过，美航正在物色一位新的首席营销官（CMO），很可能会从外部空降。而且我们之前也说过美航的高级副总裁们身兼数职。我们提到过 Ron 此前一直兼管市场营销团队，我们也说过他为人非常好。"
     },
     {
-      "id": 190,
+      "id": 179,
       "start_sec": 2160,
       "speaker": "Brian Sumers",
       "en": "I'm not sure that Ron knew so much about marketing. That was not his background, and even if he cared deeply about it, I don't think there was any budget for marketing. The good news: I think American is going to take marketing seriously, and then this new marketing person not going to report to Comms anymore.",
       "zh": "我不确定 Ron 对市场营销有多了解。那不是他的背景出身，而且就算他非常在乎，我觉得当时也没有任何营销预算。好消息是，我认为美航现在开始认真对待市场营销了，而且这位新任营销负责人不会再向公关部门汇报了。"
     },
     {
-      "id": 191,
+      "id": 180,
       "start_sec": 2181,
       "speaker": "Brian Sumers",
       "en": "Just remember, okay, airlines aren't quite the commodity business that they used to be. But for the most part, a seat is still a seat. Most of these airlines use chairs from the same manufacturers, and people still choose an airline based on how it makes them feel. They want these brands to care about them.",
       "zh": "但别忘了，现在的航司确实不像过去那样纯粹是同质化竞争的大宗商品。但在很大程度上，座位终归还是个座位。大多数航司采购的座椅都来自同一批制造商，旅客选择哪家航司，依然取决于航司带给他们的感觉。他们希望这些品牌是在乎自己的。"
     },
     {
-      "id": 192,
+      "id": 181,
       "start_sec": 2203,
       "speaker": "Brian Sumers",
       "en": "I'm going to bet that many even non-aviation geeks remember, \"Something special in the air\"?",
       "zh": "我敢打赌，很多甚至都不是航空迷的人，都会记得那句“空中非凡体验”（Something special in the air）吧？"
     },
     {
-      "id": 193,
+      "id": 182,
       "start_sec": 2210,
       "speaker": "Brett Snyder",
       "en": "We're American Airlines, something special in the air.",
       "zh": "（哼唱）我们是美国航空，为您带来空中非凡体验……"
     },
     {
-      "id": 194,
+      "id": 183,
       "start_sec": 2216,
       "speaker": "Brian Sumers",
       "en": "Usually I hate it when you do that, but the jingle was so great, I'm glad you did it for the listeners. Brett, if you and I went to LAX now—and why would we do that, of course—and we asked 200 travelers if they've ever heard of, \"Caring for people on life's journey,\" you think anybody would know what that is?",
       "zh": "通常你这么唱我很受不了，但这广告曲实在太经典了，我很高兴你为听众唱了出来。Brett，要是咱俩现在去洛杉矶国际机场（LAX）——当然我们没事干嘛去那儿——去问 200 个旅客有没有听过“关怀人生旅程中的每一个人”（Caring for people on life's journey），你觉得有人会知道那是啥吗？"
     },
     {
-      "id": 195,
+      "id": 184,
       "start_sec": 2236,
       "speaker": "Brett Snyder",
       "en": "Yeah, if they've watched a safety video on American at some point, they might remember it.",
       "zh": "有啊，要是他们曾在美航飞机上看安全须知视频时注意过的话，说不定能想起来。"
     },
     {
-      "id": 196,
+      "id": 185,
       "start_sec": 2241,
       "speaker": "Brian Sumers",
       "en": "I don't know. Marketing isn't going to fix American Airlines. But if they do fix the airline, marketing is going to let people know that something has changed. And I'm glad to see American investing in that.",
       "zh": "我看悬。市场营销本身并不能拯救美航。但如果他们真把航司自身的问题解决了，营销就能让大家知道情况有了改变。我很高兴看到美航愿意在这方面做投入。"
     },
     {
-      "id": 197,
+      "id": 186,
       "start_sec": 2256,
       "speaker": "Brett Snyder",
       "en": "Yes, but you have to actually fix the airline first. And I know there's this chicken-or-the-egg thing here: when can you start talking about it? But if you start telling people everything is great when your operation isn't, and you're still not quite there, you're just going to end up in a world of hurt.",
       "zh": "是的，但你必须先切切实实把航司修整好。我知道这存在先有鸡还是先有蛋的问题：你到底该什么时候开始对外宣传？但如果你的运营根本没跟上、自己还没做到位，就到处跟人吹嘘一切都棒极了，最终只会自讨苦吃。"
     },
     {
-      "id": 198,
+      "id": 187,
       "start_sec": 2271,
       "speaker": "Brian Sumers",
       "en": "Brett, it's not that, \"Everything is great,\" it's that American is, \"Going for great.\"",
       "zh": "Brett，这不是说“一切都棒极了”，而是美航正在“奔向卓越”（Going for great）。"
     },
     {
-      "id": 199,
+      "id": 188,
       "start_sec": 2277,
       "speaker": "Brett Snyder",
       "en": "Oh, no. How many people you think would recognize that one? I hated that slogan so much. It just sounded so stupid.",
       "zh": "天呐，打住。你觉得又有几个人认得这句？我当年讨厌死这句口号了，听起来实在太傻了。"
     },
     {
-      "id": 200,
+      "id": 189,
       "start_sec": 2285,
       "speaker": "Brian Sumers",
       "en": "World's greatest flyers fly American?",
       "zh": "“世界上最伟大的常飞旅客都乘美航”（World's greatest flyers fly American）这句呢？"
     },
     {
-      "id": 201,
+      "id": 190,
       "start_sec": 2287,
       "speaker": "Brett Snyder",
       "en": "God, they really did have a lot of irrelevant slogans, didn't they? What I see right now is an airline that is trying to play catch-up by copying Delta and United.",
       "zh": "天啊，他们以前还真出过一大堆不知所云的口号，对吧？我目前看到的是，一家试图通过模仿达美和美联航来拼命追赶的航司。"
     },
     {
-      "id": 202,
+      "id": 191,
       "start_sec": 2299,
       "speaker": "Brett Snyder",
       "en": "And these org changes are helpful. Seatback screens are helpful. Goldfish are helpful. But it doesn't solve everything.",
       "zh": "这些组织架构调整是有益的，椅背屏是有益的，哪怕是小金鱼饼干也是有益的。但这解决不了一切。"
     },
     {
-      "id": 203,
+      "id": 192,
       "start_sec": 2307,
       "speaker": "Brett Snyder",
       "en": "There are still the intangibles that create excitement and loyalty: that involves an engaged front line, it involves just an overall image—the stuff you've been talking about. American isn't at that point. There's still more work to do, and I just wish there was more urgency behind it.",
       "zh": "真正激发旅客热情和忠诚度的，依然是那些无形资产：这需要全情投入的一线员工，需要一个全面的品牌形象——也就是你一直在聊的那些。美航现在还没走到那一步。他们还有很多硬仗要打，我只是希望他们能展现出更强的紧迫感。"
     },
     {
-      "id": 204,
+      "id": 193,
       "start_sec": 2327,
       "speaker": "Brian Sumers",
-      "en": "You've been listening to The Air Show. If you have suggestions or questions for us, or if you're interested in sponsoring the podcast, email us at info@theairshowpodcast.com, or visit theairshowpodcast.com.",
-      "zh": "感谢收听 The Air Show。如果您对我们有任何建议或疑问，或者有兴趣赞助本节目，请发邮件至 info@theairshowpodcast.com，或访问 our 网站 theairshowpodcast.com。"
+      "en": "You've been listening to The Air Show. If you have suggestions or questions for us, or if you're interested in sponsoring the podcast, email us at info@theairshowpodcast.com, or visit theairshowpodcast.com to get in touch.",
+      "zh": "感谢收听《The Air Show》。如果您对我们有任何建议或疑问，或者有兴趣赞助本节目，请发邮件至 info@theairshowpodcast.com，或访问我们的网站 theairshowpodcast.com 与我们取得联系。"
     },
     {
-      "id": 205,
-      "start_sec": 2340,
-      "speaker": "Brett Snyder",
-      "en": "cast.com to get in touch.",
-      "zh": "cast.com 与我们取得联系。"
-    },
-    {
-      "id": 206,
-      "start_sec": 2341,
-      "speaker": "Brian Sumers",
-      "en": "Thanks to our sponsor Upgrade Inc. Learn more at upgrade.com/flex-pay.",
-      "zh": "感谢我们的赞助商 Upgrade Inc.。欲了解更多信息，请访问 upgrade.com/flex-pay。"
-    },
-    {
-      "id": 207,
+      "id": 194,
       "start_sec": 2347,
       "speaker": "Brian Sumers",
       "en": "Leo Duran produced and edited this episode. Our theme music is by Joshua Mosier. Thanks for listening, and we'll be back in a couple of weeks after our break.",
       "zh": "本期节目由 Leo Duran 制作与剪辑。我们的主题曲由 Joshua Mosier 创作。感谢您的收听，休假结束后我们几周后再见。"
     },
     {
-      "id": 208,
+      "id": 195,
       "start_sec": 2364,
       "speaker": "Guest",
       "en": "We're American Airlines, something special in the air.",

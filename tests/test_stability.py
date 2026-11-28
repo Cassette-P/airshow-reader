@@ -1878,6 +1878,27 @@ class TestChannelBCrossChunkContextAndPromptTightening(unittest.TestCase):
         self.assertIn("This American Life Partners", sys_inst)
         self.assertIn("蒙大拿州", sys_inst)
 
+    def test_analytical_prompt_and_airshow_sinica_glossary_hardening(self):
+        from pipeline.prompts import build_channel_b_system_instruction, load_glossary_for_show
+
+        airshow_glossary = load_glossary_for_show({"id": "airshow", "glossary_file": "glossaries/airshow.md"})
+        for token in ["Julie Johnsson", "Leo Duran", "Joshua Mosier", "upgrade.com/flex-pay", "plusgrade.com"]:
+            self.assertIn(token, airshow_glossary)
+
+        sinica_glossary = load_glossary_for_show({"id": "sinica", "glossary_file": "glossaries/sinica.md"})
+        for token in ["Wolf Ladejinsky", "王子辰", "王丰", "sinicapodcast.com"]:
+            self.assertIn(token, sinica_glossary)
+
+        analytical_inst = build_channel_b_system_instruction(
+            show_title="The Air Show",
+            show_subtitle="Aviation Business & Industry Analysis",
+            glossary_text=airshow_glossary,
+            content_style="analytical",
+        )
+        self.assertIn("upgrade.com/flex-pay", analytical_inst)
+        self.assertIn("sinicapodcast.com", analytical_inst)
+        self.assertIn("directly addressed by name in the second person", analytical_inst)
+
 
 if __name__ == "__main__":
     unittest.main()

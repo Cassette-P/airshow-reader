@@ -75,1376 +75,1271 @@
       "id": 3,
       "start_sec": 6,
       "speaker": "Brett Snyder",
-      "en": "And I'm Brett Snyder, author of Cranky Flier. You're listening to The Air Show, the podcast where we talk about what happens in the business of the sky, brought to you by the Alaska Hawaiian Airlines pilots.",
-      "zh": "我是《Cranky Flier》的作者 Brett Snyder。您正在收听的是《The Air Show》，在这档播客中，我们将畅聊民航蓝天背后的商业风云。本节目由阿拉斯加航空与夏威夷航空飞行员联合呈现。"
+      "en": "And I'm Brett Snyder, author of Cranky Flier. You're listening to The Air Show, the podcast where we talk about what happens in the business of the sky.",
+      "zh": "我是《Cranky Flier》的作者 Brett Snyder。您正在收听的是《The Air Show》，在这档播客中，我们将畅聊民航蓝天背后的商业风云。"
     },
     {
       "id": 4,
-      "start_sec": 18,
-      "speaker": "Brett Snyder",
-      "en": "This episode is also sponsored by Upgrade Inc. Learn more at upgrade.com/flex-pay.",
-      "zh": "本期节目还由 Upgrade 公司赞助播出。了解更多信息，请访问 upgrade.com/flex-pay。"
-    },
-    {
-      "id": 5,
       "start_sec": 25,
       "speaker": "Brett Snyder",
       "en": "And hey, look who's back!",
       "zh": "嘿，瞧瞧谁回来了！"
     },
     {
-      "id": 6,
+      "id": 5,
       "start_sec": 26,
       "speaker": "Jon Ostrower",
       "en": "I'm back. I have returned. Thank you guys for covering the Mexican market so adeptly last week.",
       "zh": "我回来了。上周非常感谢两位如此专业地剖析了墨西哥市场。"
     },
     {
-      "id": 7,
+      "id": 6,
       "start_sec": 31,
       "speaker": "Jon Ostrower",
       "en": "I really wanted to join in, and I was actually scheduled to actually be on the pod. But Boeing, at the very last minute, called a press gaggle up at the Everett plant that quickly became the certification ceremony for the 737 MAX 10.",
       "zh": "我其实特别想参与，原本也定好了要录节目的。但波音在最后一刻召集媒体前往埃弗雷特工厂，那场记者会迅速变成了 737 MAX 10 的型号合格证颁证仪式。"
     },
     {
-      "id": 8,
+      "id": 7,
       "start_sec": 45,
       "speaker": "Jon Ostrower",
       "en": "And, of course, with that milestone, we're going to do an episode not on a product, a business model, a trend, or a dispute in this business. We're going to spend the episode talking about 197,000 pounds of airplane.",
       "zh": "而迎来了这一里程碑，我们这期节目不聊具体的产品、商业模式、行业趋势，也不聊商业纠纷。我们要用一整期来好好聊聊这架重达 19.7 万磅的飞机。"
     },
     {
-      "id": 9,
+      "id": 8,
       "start_sec": 60,
       "speaker": "Jon Ostrower",
       "en": "This is a metal episode, guys. We're doing it.",
       "zh": "伙计们，这是一期纯粹聊飞机硬件的硬核节目，咱们开聊。"
     },
     {
-      "id": 10,
+      "id": 9,
       "start_sec": 63,
       "speaker": "Brett Snyder",
       "en": "Now we know why he's back, Brian. Strap in.",
       "zh": "Brian，现在我们知道他为什么回来了。系好安全带吧。"
     },
     {
-      "id": 11,
+      "id": 10,
       "start_sec": 66,
       "speaker": "Brian Sumers",
       "en": "Yeah, or as our favorite CCO once said, 'Gird your loins.'",
       "zh": "是啊，或者借用我们最喜欢的一位首席商务官（CCO）说过的话：‘做好迎接硬仗的准备吧。’"
     },
     {
-      "id": 12,
+      "id": 11,
       "start_sec": 71,
       "speaker": "Jon Ostrower",
       "en": "Yes. The 737 MAX 10 is the 17th and final—yes, final, we'll unpack that—major 737 derivative from Boeing. Can you guys name all 17 without looking?",
       "zh": "没错。737 MAX 10 是波音 737 家族第 17 款、也是最后一款——没错，是最后一款，我们稍后会详细展开——主要衍生机型。你们两位能不看资料说出全部 17 款机型吗？"
     },
     {
-      "id": 13,
+      "id": 12,
       "start_sec": 83,
       "speaker": "Brett Snyder",
       "en": "I didn't even know there were 17. Like, Brian, can you?",
       "zh": "我甚至都不知道一共有 17 款。Brian，你能说全吗？"
     },
     {
-      "id": 14,
+      "id": 13,
       "start_sec": 85,
       "speaker": "Brian Sumers",
       "en": "I cannot, of course. We knew that. I'm just curious, Jon, can you even name all of them?",
       "zh": "我当然说不全，大家都心知肚明。我只是好奇，Jon，你自己能报出全部名字吗？"
     },
     {
-      "id": 15,
+      "id": 14,
       "start_sec": 91,
       "speaker": "Jon Ostrower",
       "en": "I got 16. Here's the list, and I'll tell you which one I missed. But for those of you wanted to have this close at hand, it is the 737-100, -200, -200C, -300, -400, -500, -600, -700, -700C, -800, -900, -900ER, -8, -9, -8-200, -7, and now the -10.",
       "zh": "我答出了 16 款。清单是这样的，稍后我告诉你们我漏了哪一款。如果想手头有个参考，它们分别是：737-100、-200、-200C、-300、-400、-500、-600、-700、-700C、-800、-900、-900ER、-8、-9、-8-200、-7，以及现在的 -10。"
     },
     {
-      "id": 16,
+      "id": 15,
       "start_sec": 116,
       "speaker": "Brett Snyder",
       "en": "My god.",
       "zh": "我的天呐。"
     },
     {
-      "id": 17,
+      "id": 16,
       "start_sec": 117,
       "speaker": "Jon Ostrower",
       "en": "Okay. So which one did I miss? I missed the -200C.",
       "zh": "好了，我漏了哪一款呢？我漏掉了 -200C。"
     },
     {
-      "id": 18,
+      "id": 17,
       "start_sec": 118,
       "speaker": "Brian Sumers",
       "en": "I don't even know what the -200C is. What is it?",
       "zh": "我都不知道还有个 -200C。它到底是个啥？"
     },
     {
-      "id": 19,
+      "id": 18,
       "start_sec": 121,
       "speaker": "Jon Ostrower",
       "en": "It's a Combi version, so passengers and cargo together.",
       "zh": "它是客货混装版（Combi），客运和货运同机装载。"
     },
     {
-      "id": 20,
+      "id": 19,
       "start_sec": 124,
       "speaker": "Brett Snyder",
       "en": "All right. Let's talk about this last one here, the -10 that you mentioned. I believe that's the whole point of this episode anyway. This is a big deal.",
       "zh": "好吧。咱们来聊聊你提到的这最后一款机型——-10 吧。反正这才是本期节目的核心主题。这可是件大事。"
     },
     {
-      "id": 21,
+      "id": 20,
       "start_sec": 133,
       "speaker": "Brett Snyder",
       "en": "I wrote about this earlier. Boeing has over 1,500—1,555 unfilled orders for the MAX 10. And probably more hiding somewhere because some of these, they just book them as -8s, right, or wherever, and it'll probably get moved up at some point.",
       "zh": "我之前专门撰文写过。波音手上积压了超过 1500 架——确切地说是 1555 架 MAX 10 的储备订单。而且暗中可能还要更多，因为有些订单暂时只记作 -8，对吧，未来某个时刻很可能会升级更改为 -10。"
     },
     {
-      "id": 22,
+      "id": 21,
       "start_sec": 151,
       "speaker": "Brett Snyder",
       "en": "But this is the end of a very long road for Boeing to finally have an airplane this size in its stable.",
       "zh": "但对波音而言，经过如此漫长的跋涉，自家机队谱系里终于迎来了一款这个级别的飞机。"
     },
     {
-      "id": 23,
+      "id": 22,
       "start_sec": 161,
       "speaker": "Jon Ostrower",
       "en": "Yeah. No, look, I think there's a fairly strong argument to be made here that the certification of the -10 is the most important milestone for Boeing since the 787 got the nod in 2011.",
       "zh": "是的。我认为完全可以说，-10 获得适航取证，是波音自 2011 年 787 获批以来最为关键的里程碑。"
     },
     {
-      "id": 24,
+      "id": 23,
       "start_sec": 171,
       "speaker": "Jon Ostrower",
       "en": "From like launch to certification, the development process ran more than nine years for the MAX 10. 787, a clean-sheet airplane,",
       "zh": "从机型发起立项到取得型号合格证，MAX 10 的研制周期整整跨越了九年多。要知道 787 作为一款全新研制的飞机，"
     },
     {
-      "id": 25,
+      "id": 24,
       "start_sec": 180,
       "speaker": "Jon Ostrower",
-      "en": "RAN 8. I think the, in so many ways, the MAX 10 became a proxy for sort of the existential frustrations and angst, and the challenges of the Boeing Company.",
-      "zh": "RAN 8。我认为在很多层面上，MAX 10 已经成了波音公司生存困境、焦虑以及重重挑战的一个缩影。"
+      "en": "ran eight. I think the, in so many ways, the MAX 10 became a proxy for sort of the existential frustrations and angst, and the challenges of the Boeing Company.",
+      "zh": "研发周期也才八年。我认为在很多层面上，MAX 10 已经成了波音公司生存困境、焦虑以及重重挑战的一个缩影。"
     },
     {
-      "id": 26,
+      "id": 25,
       "start_sec": 190,
       "speaker": "Jon Ostrower",
       "en": "How to answer the A321neo, the single-aisle market share losses, how to incorporate the technical lessons of the MAX accidents, how to certify a derivative airplane, and how to give airplanes the ability to upgauge and have room for a premium product.",
       "zh": "比如如何应对 A321neo、单通道飞机市场份额的流失、如何吸取 MAX 事故的技术教训、如何为衍生机型完成适航取证，以及如何让飞机具备大型化（upgauge）能力以为高端舱位留出空间。"
     },
     {
-      "id": 27,
+      "id": 26,
       "start_sec": 203,
       "speaker": "Jon Ostrower",
       "en": "Like, this has been looming large for Boeing for a long time. But I think this gets to the key point here: this is a bigger moment for the duopoly than we've seen in probably the last 8-10 years.",
       "zh": "可以说，这些问题长久以来一直笼罩着波音。但我认为这触及了核心所在：对于这双头垄断格局而言，此刻的意义比过去八到十年都要重大。"
     },
     {
-      "id": 28,
+      "id": 27,
       "start_sec": 214,
       "speaker": "Jon Ostrower",
       "en": "Airbus, for the most part, has dropped any kind of head-to-head marketing comparison to the MAX off its pitch. Speculatively, I think that was probably for two reasons.",
       "zh": "空客基本上已经在推介材料中放弃了任何与 MAX 进行针锋相对的营销对比。推测来看，我认为这大概出于两个原因。"
     },
     {
-      "id": 29,
+      "id": 28,
       "start_sec": 221,
       "speaker": "Jon Ostrower",
       "en": "I think they had a huge market share lead, and Boeing, over eight years, has been in a rolling safety or production crisis until fairly recently. Airbus wasn't going to make competitive hay on that while Boeing was down, because in aviation, the shoe can just as easily be on the other foot.",
       "zh": "一是空客拥有巨大的市场份额领先优势；二是过去八年里波音直到最近都一直深陷安全或生产危机的泥潭。在波音落魄之际，空客并没有借机落井下石，因为在航空业，谁都有可能随时陷入风水轮流转的境地。"
     },
     {
-      "id": 30,
+      "id": 29,
       "start_sec": 236,
       "speaker": "Brian Sumers",
       "en": "And it will be.",
       "zh": "而且风水迟早会轮流转的。"
     },
     {
-      "id": 31,
+      "id": 30,
       "start_sec": 237,
       "speaker": "Jon Ostrower",
       "en": "And eventually it will be. But look, my point is that this is a reawakening of the competitive fight, at least publicly, where Boeing can come out swinging again with a fully certified MAX product line that they can actually build and deliver and that's ready to go.",
       "zh": "迟早会的。但我的核心观点是，这标志着竞争的重新唤醒，至少在公众层面是如此。波音现在可以凭借获得完全适航认证、能够实际制造并交付且万事俱备的 MAX 产品线重返战场、全力出击。"
     },
     {
-      "id": 32,
+      "id": 31,
       "start_sec": 251,
       "speaker": "Brett Snyder",
       "en": "Jon, or Professor Ostrower in this context, can you give us a little bit of a history lesson? How did this airplane, the MAX 10, come to be?",
       "zh": "Jon，或者在此时应该叫你 Ostrower 教授，能不能给我们上一节简短的历史课？MAX 10 这款飞机究竟是怎么诞生的？"
     },
     {
-      "id": 33,
+      "id": 32,
       "start_sec": 262,
       "speaker": "Jon Ostrower",
       "en": "It's interesting because the MAX 10 wasn't part of the original family that showed up in 2011. This all started with American and Boeing sort of stumbling into this airplane development.",
       "zh": "这很有意思，因为 MAX 10 并不是 2011 年最初推出的机型家族成员。这一切始于美国航空，以及波音有点误打误撞地扎进了这款飞机的研发。"
     },
     {
-      "id": 34,
+      "id": 33,
       "start_sec": 272,
       "speaker": "Brian Sumers",
       "en": "Okay, hold on, because this is important. Someone was talking about this to me before, and they were complaining, you know, \"Oh, the 737, Boeing, they suck, it's old design and blah blah blah.\"",
       "zh": "等等，打断一下，这很关键。之前有人跟我聊过这事，他们抱怨说：“哎呀，737、波音太差劲了，设计老旧等等等等。”"
     },
     {
-      "id": 35,
+      "id": 34,
       "start_sec": 284,
       "speaker": "Brian Sumers",
       "en": "But really, American deserves a lot of the blame, right? This is what you're saying, because if they didn't push for this, we might have a clean-sheet airplane at this point.",
       "zh": "但实际上，美国航空才应该承担很大一部分责任，对吧？这就是你的意思吧，因为如果他们当初没有极力施压，我们现在可能早就有一款全新设计的（clean-sheet）飞机了。"
     },
     {
-      "id": 36,
+      "id": 35,
       "start_sec": 292,
       "speaker": "Jon Ostrower",
       "en": "Well, look, I think American absolutely forced Boeing's hand. The decision to re-engine unfolded over a handful of weeks right around the Paris Air Show in 2011.",
       "zh": "你看，我认为美国航空绝对逼了波音一把。重新换发（re-engine）的决定就是在 2011 年巴黎航展前后那几个星期内敲定的。"
     },
     {
-      "id": 37,
+      "id": 36,
       "start_sec": 301,
       "speaker": "Jon Ostrower",
       "en": "By like the end of July, July 20th is when they actually announced the deal, the re-engined 737 was born. This is an airplane that Boeing leaders, in like the months leading up to this process, were like, \"Eh, it's not that good. It doesn't really move the needle for us.\"",
       "zh": "到了大约 7 月底——他们实际在 7 月 20 日官宣了交易——换发版 737 就这样诞生了。而在此前几个月里，波音高层对这款飞机的态度还是：“呃，其实没那么好，它并不能真正改变局势。”"
     },
     {
-      "id": 38,
+      "id": 37,
       "start_sec": 315,
       "speaker": "Jon Ostrower",
       "en": "Like Jim McNerney even said, \"We are probably going to do a new airplane.\" CFO was like, \"Uh, on paper, it's not as good as we need it to be.\"",
       "zh": "当时 Jim McNerney 甚至说过：“我们很可能会做一款全新飞机。”首席财务官也表示：“纸面上看，它的表现并没有达到我们的预期水平。”"
     },
     {
-      "id": 39,
+      "id": 38,
       "start_sec": 322,
       "speaker": "Jon Ostrower",
       "en": "But this is the airplane American wanted, and they didn't want to wait for a clean-sheet airplane. So rather than losing an entire massive deal, Boeing moved quickly to re-engine the 737, and that's where it came from.",
       "zh": "但这就是美国航空想要的飞机，而且他们不想等全新机型。所以波音为了不丢掉这笔巨大的整张订单，迅速决定为 737 换发，这就是它的由来了。"
     },
     {
-      "id": 40,
+      "id": 39,
       "start_sec": 335,
       "speaker": "Jon Ostrower",
       "en": "But like, look, there's also an entire counterfactual debate to be had about what would have happened to the duopoly and aerospace in general if Boeing had gone with a new airplane in 2011. Which I will, by the way, save for another episode because it's actually incredibly fascinating.",
       "zh": "不过话说回来，如果波音在 2011 年选择了全新机型，对双头垄断和整个航空航天业究竟会产生什么影响，这完全可以展开一场反事实推演的讨论。顺便说一句，这个话题我留到另一期再讲，因为它实在太引人入胜了。"
     },
     {
-      "id": 41,
+      "id": 40,
       "start_sec": 348,
       "speaker": "Brett Snyder",
       "en": "One meddle episode at a time, Jon, okay?",
       "zh": "一次解决一期硬骨头话题就好，Jon，别急行吗？"
     },
     {
-      "id": 42,
+      "id": 41,
       "start_sec": 350,
       "speaker": "Jon Ostrower",
       "en": "No, no, no, we're going to do a series.",
       "zh": "不不不，我们要办一个系列。"
     },
     {
-      "id": 43,
+      "id": 42,
       "start_sec": 352,
       "speaker": "Brian Sumers",
       "en": "Part one of X.",
       "zh": "X 系列第一部。"
     },
     {
-      "id": 44,
+      "id": 43,
       "start_sec": 355,
       "speaker": "Jon Ostrower",
       "en": "Okay, but by Paris 2011, Airbus and the neo had over 1,000 orders.",
       "zh": "好，不过到 2011 年巴黎航展时，空客和它的 neo 已经斩获了超过 1000 架订单。"
     },
     {
-      "id": 45,
+      "id": 44,
       "start_sec": 360,
       "speaker": "Jon Ostrower",
       "en": "was launched six months before in December of 2010. And after Boeing launched the MAX, the preference for the larger 321 was clear. On a technical note, Airbus really had an opportunity to optimize the LEAP and the GTF around the bigger airplane.",
       "zh": "早在此前六个月的2010年12月就已经推出了。而在波音推出MAX之后，市场对尺寸更大的A321的偏好显而易见。从技术层面来看，空客确实有机会围绕这款更大的机型，对LEAP和GTF发动机进行全面优化。"
     },
     {
-      "id": 46,
+      "id": 45,
       "start_sec": 375,
       "speaker": "Jon Ostrower",
       "en": "They had room for the larger fan with higher thrust, and they tailored it around that 33 to 35,000 pound of thrust range, mainly because they had the space to do it. And we'll come back to that in a minute and why that's important. But the A321neo was eating Boeing's lunch at the top end and eroding its overall single-aisle market share.",
       "zh": "他们有空间容纳更大尺寸的风扇以提供更高推力，并将其量身定制在3.3万至3.5万磅的推力区间，主要是因为他们有足够的机下净空来这么做。我们稍后会再回到这一点，讲讲为什么这至关重要。但事实是，A321neo在单通道高端市场抢尽了波音的风头，并不断蚕食其整体单通道市场份额。"
     },
     {
-      "id": 47,
+      "id": 46,
       "start_sec": 393,
       "speaker": "Brian Sumers",
       "en": "So, this, I believe, is when Boeing was looking at the NMA, right, the Middle of the Market airplane?",
       "zh": "所以，我想这正是在波音考虑NMA，也就是“中型客机”的时候，对吧？"
     },
     {
-      "id": 48,
+      "id": 47,
       "start_sec": 399,
       "speaker": "Jon Ostrower",
       "en": "It was. And it's kind of funny because you we kind of see the original debate for the MAX birth replaying in many ways. Like, \"Okay, we're going to do a new clean-sheet airplane.\" And then you just end up doing another 737 derivative.",
       "zh": "没错。这很有意思，因为在很多方面，我们仿佛看到当初围绕MAX诞生时的争论再次重演。就像是，“好吧，我们打算搞一款全新研制的飞机。”但到头来，你却只是又做了一款737的衍生机型。"
     },
     {
-      "id": 49,
+      "id": 48,
       "start_sec": 411,
       "speaker": "Jon Ostrower",
       "en": "But look, the MAX 10 was absolutely born out of this debate. There were customers that wanted seats, customers that wanted range, and customers that wanted both. The MAX 10 answered the seats question, and Boeing would say the MAX 8 answered the range question, though the MAX 7 has considerable range, but obviously not as adopted as the MAX 8.",
       "zh": "但你看，MAX 10绝对就是这场争论下的产物。当时有的客户想要更多座位，有的想要更长航程，还有的两者都想要。MAX 10解决了座位容量的问题，而波音会说MAX 8解决了航程问题——尽管MAX 7也有相当可观的航程，但显然它的普及度远不如MAX 8。"
     },
     {
-      "id": 50,
+      "id": 49,
       "start_sec": 430,
       "speaker": "Brett Snyder",
       "en": "Jon, we learned this week that a MAX 8 can do Anchorage to Tokyo Narita, which is fun.",
       "zh": "Jon，我们这周刚得知MAX 8能飞安克雷奇到东京成田的航线，这太有意思了。"
     },
     {
-      "id": 51,
+      "id": 50,
       "start_sec": 435,
       "speaker": "Jon Ostrower",
       "en": "That's a great point. When you get into thinking about how Alaska thinks about the 737 as sort of a Swiss Army knife that each derivative can do something different. Airbus would say you need a 321, and that'll do all the things or most of the things, versus obviously different derivatives and different sizing. And there is a debate based on market structure, networks, etc., aircraft performance, why one might be better than another.",
       "zh": "这个点提得很好。当你去琢磨阿拉斯加航空是如何看待737的时候，会发现它就像一把瑞士军刀，每个衍生机型都能派上不同的用场。而空客会说你只需要A321，它就能搞定所有或绝大部分任务，而不是像波音那样搞出多种尺寸各异的衍生机型。基于市场结构、航线网络、飞机性能等因素，业内也一直在争论究竟哪种方案更胜一筹。"
     },
     {
-      "id": 52,
+      "id": 51,
       "start_sec": 462,
       "speaker": "Jon Ostrower",
       "en": "And back to the history on this one, Boeing launched the MAX 10 in 2017. But the NMA at the time kept getting bigger, so much so that by like 2019, before they killed it officially in 2020, it was a 767-sized airplane.",
       "zh": "再回到这件事情的历史，波音在2017年推出了MAX 10。但当时的NMA机型尺寸不断被放大，以至于到了2019年左右——也就是他们在2020年正式放弃该项目之前——它已经变成了一款767大小的飞机。"
     },
     {
-      "id": 53,
+      "id": 52,
       "start_sec": 476,
       "speaker": "Jon Ostrower",
       "en": "But like back to the 321 again, LCCs wanted density, and full-service carriers wanted room for as much mixed-class seating as they could possibly get. All this is paired with like congestion at airports, driving up the number of seats per departure as smaller aircraft were ultimately more scarce.",
       "zh": "不过再回到A321上，低成本航司追求高密度客舱，而全服务航司则希望有充足空间塞进尽可能多的分舱布局。与这一切相伴的是机场拥堵问题，随着小型客机越来越缺乏竞争力，航司被迫提高单次离港的客座数。"
     },
     {
-      "id": 54,
+      "id": 53,
       "start_sec": 492,
       "speaker": "Jon Ostrower",
       "en": "The top end of the family was the MAX 9. But Boeing optimized the MAX family around the -8, where Airbus optimized around the 321. The -8's by far been Boeing's most popular model, but it wasn't until the middle of the last decade that Boeing sort of like was faced with airline preference for the 321neo and the longer-range derivatives that it moved the MAX up finally another gauge.",
       "zh": "此前MAX家族的顶配是MAX 9。但波音是围绕-8机型来优化MAX家族的，而空客则是围绕A321来优化的。-8无疑是波音迄今为止最畅销的型号，但直到上个十年的中期，波音才不得不正视航司对A321neo及其远程衍生机型的青睐，并最终将MAX的机身尺寸再往上拉高了一个级别。"
     },
     {
-      "id": 55,
+      "id": 54,
       "start_sec": 515,
       "speaker": "Jon Ostrower",
       "en": "This is like a product line issue. We see this in business aviation all the time. Like, on a really kind of a simplified basis, an owner will buy like one product at the beginning of their career or whatever, and then they'll move up to the another and the next biggest and the next biggest. But if a manufacturer doesn't have the next model for you to graduate into, their competitor gets a new customer.",
       "zh": "这其实是一个产品线层面的问题。我们在公务航空领域经常能见到这种情况。打个非常简化的比方，一位机主可能会在初入商海时购买某款入门产品，随后会升级换购到另一款更大的，再换到下一款更大的。但如果某个主机厂没有供你升级进阶的下一款机型，你的竞争对手就会顺手接盘这个新客户。"
     },
     {
-      "id": 56,
+      "id": 55,
       "start_sec": 534,
       "speaker": "Jon Ostrower",
       "en": "In many ways, I think airlines are kind of similar, but it means growing up into a new fleet type. Look, the A321",
       "zh": "在很多方面，我认为商业航司也很类似，但这往往意味着机队要扩充引入一款新机型。你看，A321"
     },
     {
-      "id": 57,
+      "id": 56,
       "start_sec": 540,
       "speaker": "Jon Ostrower",
       "en": "...neo was essential to flipping or splitting airlines like Pegasus, KLM and Transavia, Jet2, Korean, Icelandair. I mean, there's a long list.",
       "zh": "neo系列对于促成飞马航空、荷航与泛航、Jet2、大韩航空、冰岛航空等航司换阵营或拆分订单起到了关键作用。可以说名单拉出来有一长串。"
     },
     {
-      "id": 58,
+      "id": 57,
       "start_sec": 551,
       "speaker": "Brian Sumers",
       "en": "Wouldn't United go on that list, too?",
       "zh": "那美联航难道不也应该在那份名单上吗？"
     },
     {
-      "id": 59,
+      "id": 58,
       "start_sec": 553,
       "speaker": "Jon Ostrower",
       "en": "Well, they actually ordered the XLR first.",
       "zh": "嗯，美联航其实最先订购的是A321XLR。"
     },
     {
-      "id": 60,
+      "id": 59,
       "start_sec": 557,
       "speaker": "Brian Sumers",
       "en": "Don't they say that the XLR is a neo, though?",
       "zh": "但他们难道不算把XLR也归为neo吗？"
     },
     {
-      "id": 61,
+      "id": 60,
       "start_sec": 560,
       "speaker": "Jon Ostrower",
       "en": "They would, but they would also say that the XLR was not designed for the single-aisle market in terms of the core of the 737. That was really designed as a 757 replacement for transatlantic and long transcon.",
       "zh": "算倒是算，但他们也会讲，就针对737核心的单通道市场而言，XLR并非为此而生。它其实是作为757的替代机型设计的，主打跨大西洋航线和长距离跨大陆航线。"
     },
     {
-      "id": 62,
+      "id": 61,
       "start_sec": 573,
       "speaker": "Jon Ostrower",
       "en": "And they actually, if my memory serves me correctly, the first United order for a baseline 321neo came, I think, at United Next in 2021.",
       "zh": "而且如果我没记错的话，美联航首批基础版A321neo订单，应该是在2021年的“United Next”战略发布会上才下的。"
     },
     {
-      "id": 63,
+      "id": 62,
       "start_sec": 585,
       "speaker": "Jon Ostrower",
       "en": "United launched the MAX 10. And actually, ironically enough, they launched the MAX 10 out of a set of converted orders for 737-700s that they were never going to take delivery of, that ultimately kept the CSeries out of United. So it was a weird kind of path to getting to the launch order, but United really wanted this airplane, and they wanted to be first in line for it.",
       "zh": "美联航是MAX 10的启动客户。甚至说来挺讽刺的是，他们订MAX 10是把一批绝无可能接收的737-700订单转过来的，而当年那笔700订单本就是为了阻截C系列进入美联航。所以转成MAX 10启动订单的过程相当曲折，但美联航确实非常想要这款机型，并且想争做第一批交付客户。"
     },
     {
-      "id": 64,
+      "id": 63,
       "start_sec": 607,
       "speaker": "Brian Sumers",
       "en": "Jon, back to the -10 here. For those of us, maybe including me, who don't have a detailed technical understanding of this airplane, can you walk us through what it is?",
       "zh": "Jon，我们再聊回MAX 10。对于包括我在内那些对这款飞机缺乏深入技术了解的人，你能给我们讲讲它到底是怎么回事吗？"
     },
     {
-      "id": 65,
+      "id": 64,
       "start_sec": 621,
       "speaker": "Jon Ostrower",
       "en": "This is Boeing's real estate airplane. There's room to comfortably put 160 passengers in a premium transcon configuration all the way to 230 in a single class.",
       "zh": "这是波音主打‘客舱空间容量’的飞机。在高端跨大陆航线布局下可以舒适容纳160名乘客，而全经济舱单舱位布局下最高可达230座。"
     },
     {
-      "id": 66,
+      "id": 65,
       "start_sec": 632,
       "speaker": "Jon Ostrower",
       "en": "Boeing grabbed a ton out of the MAX 9, which itself was an evolution of the 900ER, including things like a flat aft-pressure bulkhead to make sure there was more room for seats and space for the galley.",
       "zh": "波音直接沿用了MAX 9的很多设计，而MAX 9本身又是从737-900ER演进来的；这包括采用扁平后压力框设计，以确保后舱有更多座位空间以及厨房配餐空间。"
     },
     {
-      "id": 67,
+      "id": 66,
       "start_sec": 644,
       "speaker": "Jon Ostrower",
       "en": "But Boeing now says with this larger, longer airplane, that the MAX 10 has the range to do 3,100 nautical mile routes. Which is notably, as they point out, more range than an A321neo with no extra belly fuel tank.",
       "zh": "但波音现在表示，这款更大、机身更长的MAX 10具备执飞3100海里航线的能力。正如他们着重强调的，这一航程超过了未加装腹舱辅助油箱的基础版A321neo。"
     },
     {
-      "id": 68,
+      "id": 67,
       "start_sec": 662,
       "speaker": "Jon Ostrower",
       "en": "Notably, Delta and JetBlue have the extra tank. Spirit did not, and Frontier does not for its 321s.",
       "zh": "值得注意的是，达美航空和捷蓝航空选装了额外油箱。而精神航空没有，边疆航空的A321也没有选装。"
     },
     {
-      "id": 69,
+      "id": 68,
       "start_sec": 670,
       "speaker": "Jon Ostrower",
       "en": "In a perfect world, 3,100 nautical miles gives the airplane full transcon capability at either end of North America and Europe. By the way, Boeing defines transcon as Miami to Seattle year-round.",
       "zh": "在理想状态下，3100海里的航程能让该机在北美及欧洲各端具备全面的跨大陆飞行能力。顺便提一句，波音对跨大陆航线的基准定义是全年无休飞迈阿密到西雅图。"
     },
     {
-      "id": 70,
+      "id": 69,
       "start_sec": 681,
       "speaker": "Brian Sumers",
       "en": "Jon, we kind of cherry-picked some interesting markets there. Of course, the airplane can probably do Miami to Seattle year-round, no obstacles on these runways, right, sea level airports.",
       "zh": "Jon，我们刚才挑的航线有点过于理想了。这款飞机全年飞迈阿密到西雅图当然大概率没问题，毕竟跑道端净空好、都是海平面机场。"
     },
     {
-      "id": 71,
+      "id": 70,
       "start_sec": 693,
       "speaker": "Brian Sumers",
       "en": "There are going to be other markets, we hear San Diego, Washington National, where this is going to be a tougher go. But generally speaking, does the industry believe that in a perfect world, this 3,100-nautical-mile range, is that enough?",
       "zh": "但总会有其他机场，比如圣迭戈、华盛顿里根国家机场，飞起来恐怕就吃力得多。不过总体而言，业内是否认可在理想条件下，3100海里的航程就已经够用了？"
     },
     {
-      "id": 72,
+      "id": 71,
       "start_sec": 709,
       "speaker": "Jon Ostrower",
       "en": "I think this is a 'good enough' airplane for Boeing, right? For the core of what is a market for this-size airplane, and it's going to be a very efficient airplane for the missions it flies.",
       "zh": "我认为对波音来说，这是一款‘足够好’的飞机。面向这种座级机型所对应的核心细分市场，它在其所能执飞的任务场景中，运营效率将非常出色。"
     },
     {
-      "id": 73,
+      "id": 72,
       "start_sec": 720,
       "speaker": "Jon Ostrower",
       "en": "will have lower seat costs than the 321neo? Yeah, probably, which is ultimately a function of physics. It's got less wetted area. It's got lower thrust. It's got larger wingspan, but it's not a perfect vehicle by any means.",
       "zh": "座舱成本会比A321neo更低吗？是的，很可能会，这归根结底是物理规律决定的。它的浸润面积更小，所需推力更低，翼展更大，但它绝非一款完美的机型。"
     },
     {
-      "id": 74,
+      "id": 73,
       "start_sec": 733,
       "speaker": "Brian Sumers",
       "en": "Jon, I hate to embarrass myself here, but what does \"less wetted area\" mean?",
       "zh": "Jon，我真不想在这出丑，但“浸润面积更小”到底是什么意思？"
     },
     {
-      "id": 75,
+      "id": 74,
       "start_sec": 738,
       "speaker": "Jon Ostrower",
       "en": "My understanding of wetted area is the amount of surface area of the aircraft. So, a large fuselage would have more wetted area because it literally just has more surface area. But the wetted area is really important in terms of drag reduction.",
       "zh": "我对浸润面积的理解就是飞机的表面积大小。所以，机身越大浸润面积就越大，因为它的表面积客观上就更广。而在减阻方面，浸润面积是至关重要的。"
     },
     {
-      "id": 76,
+      "id": 75,
       "start_sec": 750,
       "speaker": "Jon Ostrower",
       "en": "But like, the MAX 10 is not a perfect vehicle by any means. It is, like any airplane, it's a, it's a series of, some serious compromises. So, the 7, 8, 9, 10, all have the same engine.",
       "zh": "但话又说回来，MAX 10绝非一架十全十美的飞机。就像所有飞机一样，它也是一系列重大妥协的产物。7、8、9、10这几款机型用的全都是同一款发动机。"
     },
     {
-      "id": 77,
+      "id": 76,
       "start_sec": 763,
       "speaker": "Jon Ostrower",
       "en": "Though the MAX 10 will be right at the top of the LEAP-1B's thrust rating around 28, 29,000 lb of thrust, which airlines are going to be very mindful of given the wear and tear at that end of things, and just general engine maintenance costs as they go forward.",
       "zh": "不过MAX 10的推力直接顶到了LEAP-1B的上限，大概在2.8万到2.9万磅推力左右。航司对此会非常敏感，因为在极限工况下的机械磨损，以及后续整体的发动机维保成本都会随之上升。"
     },
     {
-      "id": 78,
+      "id": 77,
       "start_sec": 779,
       "speaker": "Jon Ostrower",
       "en": "Naturally, the bigger airplane, the MAX 10, is going to have slightly higher trip costs than the MAX 9. About 2 to 3% from what I understand, but you'd expect that with any bigger airplane.",
       "zh": "理所当然，作为更大的机型，MAX 10的单趟航段成本会比MAX 9略高一些。据我了解大约高出2%到3%，但任何更大的机型都是如此。"
     },
     {
-      "id": 79,
+      "id": 78,
       "start_sec": 790,
       "speaker": "Jon Ostrower",
       "en": "But that's going to be significantly offset with a much lower per seat cost with the greater denominator, more seats, versus the MAX 9. But look, this is not an A321XLR competitor. It's not even an A321LR competitor.",
       "zh": "但这将被更低的分摊座舱成本大幅冲抵——毕竟相比MAX 9，它拥有更多座位这一更大的分母。但听着，这绝不是A321XLR的竞争对手，甚至都不是A321LR的竞品。"
     },
     {
-      "id": 80,
+      "id": 79,
       "start_sec": 803,
       "speaker": "Jon Ostrower",
       "en": "This is aimed at the baseline 321neo at the center of the bell curve. And you've got ample runways on either side of whatever route you're flying, and you're going to have some absurdly good seat economics that you're going to be able to get out of it.",
       "zh": "它的目标是钟形曲线正中央的基础款A321neo。只要你所飞航线两端的跑道条件都非常充裕，你就能从中榨取出极其惊人的座舱经济效益。"
     },
     {
-      "id": 81,
+      "id": 80,
       "start_sec": 814,
       "speaker": "Brian Sumers",
       "en": "Let's take a quick break here, and when we come back, Jon, maybe you can tell us about what makes a MAX 10 a MAX 10.",
       "zh": "我们先稍作休整。回来之后，Jon，或许你可以给我们讲讲，究竟是什么造就了MAX 10这款机型。"
     },
     {
-      "id": 82,
-      "start_sec": 825,
-      "speaker": "Guest",
-      "en": "I want to ask you about two travelers I think airlines quietly struggle with. The person who just doesn't care about loyalty programs, and the one that is not ready for a co-branded credit card.",
-      "zh": "我想问问关于两类让航司暗中头疼的旅客。一种是完全不在乎常旅客计划的人，另一种是还没准备好办联名信用卡的人。"
-    },
-    {
-      "id": 83,
-      "start_sec": 835,
-      "speaker": "Brian Sumers",
-      "en": "Oh, I know these people. The first one books whatever is most convenient or cheapest and has no built-in loyalty. And the other one is loyal, but doesn't want another credit card.",
-      "zh": "噢，我太了解这群人了。第一种人怎么方便或者怎么便宜就怎么订，毫无忠诚度可言；另一种人挺有忠诚度，但就是不想再办一张信用卡。"
-    },
-    {
-      "id": 84,
-      "start_sec": 846,
-      "speaker": "Guest",
-      "en": "This is a problem for airlines. And that's why FlexPay works hand in hand with them to address both of these gaps and help them acquire new customers and grow loyalty.",
-      "zh": "这对航司来说是个痛点。正因如此，FlexPay与航司紧密合作以填补这两大空白，帮助他们获取新客户并提升忠诚度。"
-    },
-    {
-      "id": 85,
-      "start_sec": 856,
-      "speaker": "Brian Sumers",
-      "en": "So, I know FlexPay as a payment option. But it's also an on-ramp to the loyalty highway?",
-      "zh": "这么说，我知道FlexPay是一种支付方式，但它同时也是通往忠诚度快车道的入口匝道？"
-    },
-    {
-      "id": 86,
-      "start_sec": 862,
-      "speaker": "Guest",
-      "en": "That's a good way to describe it. FlexPay helps airlines give customers products that build loyalty over time, that are not directly tied to their currency.",
-      "zh": "这个形容很贴切。FlexPay帮助航司向旅客提供能够随着时间推移沉淀忠诚度的产品，而这些产品并不直接与航司积分挂钩。"
-    },
-    {
-      "id": 87,
-      "start_sec": 871,
-      "speaker": "Brian Sumers",
-      "en": "So, the airline isn't losing that customer. And in many cases, they're nurturing them into loyal travelers on a much faster timeline, even before they get a credit card. But how does FlexPay make that happen?",
-      "zh": "所以航司不仅没有流失客户，而且在很多情况下，还能在更快的时间线内将他们培养成忠诚旅客，甚至在他们办信用卡之前就做到了。但FlexPay究竟是如何做到的呢？"
-    },
-    {
-      "id": 88,
-      "start_sec": 886,
-      "speaker": "Guest",
-      "en": "Glad you asked. FlexPay provides the convenience and flexibility of paying monthly for travel purchases. And that data shows that FlexPay users have really high repeat booking rates, it keeps them coming back to the same airline.",
-      "zh": "很高兴你问到这点。FlexPay为出行消费提供了按月分期付款的便利与灵活性。数据表明，FlexPay用户的重复预订率极高，这促使他们持续选择同一家航司。"
-    },
-    {
-      "id": 89,
-      "start_sec": 899,
-      "speaker": "Brian Sumers",
-      "en": "So, the product...",
-      "zh": "所以这项产品……"
-    },
-    {
-      "id": 90,
-      "start_sec": 900,
-      "speaker": "Brian Sumers",
-      "en": "...itself becomes the loyalty driver for those who may not be as drawn to points as others are.",
-      "zh": "其本身就成了吸引忠诚度的手段，专门针对那些可能不像其他人那样对积分感冒的用户。"
-    },
-    {
-      "id": 91,
-      "start_sec": 907,
-      "speaker": "Brett Snyder",
-      "en": "Yep, and airlines should view it that way. FlexPay isn't just a payment option. It's a way to create a relationship with customers who would otherwise be completely transactional.",
-      "zh": "没错，航司也应该这样看待它。FlexPay不仅是一种支付选项，更是一种与原本纯粹单次交易型旅客建立联系的方式。"
-    },
-    {
-      "id": 92,
-      "start_sec": 917,
-      "speaker": "Brett Snyder",
-      "en": "FlexPay also offers loyalty auto-enroll, so those customers can start earning points immediately, kick-starting their loyalty journey in more ways than one.",
-      "zh": "FlexPay还提供常旅客计划自动注册功能，让这些旅客能立即开始累积积分，从多个维度开启他们的忠诚度之旅。"
-    },
-    {
-      "id": 93,
-      "start_sec": 925,
-      "speaker": "Brian Sumers",
-      "en": "That's a pretty compelling case for a customer segment that most loyalty programs just write off.",
-      "zh": "对于大多数常旅客计划直接放弃的客群来说，这确实非常有吸引力。"
-    },
-    {
-      "id": 94,
-      "start_sec": 930,
-      "speaker": "Brett Snyder",
-      "en": "And that's exactly why airlines are paying attention to it. This is sponsored by Upgrade Inc. Learn more at upgrade.com/flex-pay.",
-      "zh": "而这正是航司高度关注它的原因。本期节目由 Upgrade Inc. 赞助，了解更多信息请访问 upgrade.com/flex-pay。"
-    },
-    {
-      "id": 95,
+      "id": 81,
       "start_sec": 944,
       "speaker": "Brett Snyder",
       "en": "And we're back. So Brian mentioned this before the break. Jon, what makes a MAX 10 a MAX 10, besides it being really, really long?",
       "zh": "欢迎回来。Brian进广告前就提到了这点。Jon，除了机身特别长之外，究竟是什么让MAX 10成为MAX 10的？"
     },
     {
-      "id": 96,
+      "id": 82,
       "start_sec": 954,
       "speaker": "Jon Ostrower",
       "en": "So remember how I mentioned the 321neo family had space for the bigger engine? The story of the 737 going back 40 years is really the story of its weird relationship with landing gear.",
       "zh": "还记得我之前提到A321neo家族有足够的空间容纳更大的发动机吗？737四十年来回溯的历史，其实就是它与起落架之间一段离奇纠葛的历史。"
     },
     {
-      "id": 97,
+      "id": 83,
       "start_sec": 965,
       "speaker": "Jon Ostrower",
       "en": "Boeing and the airlines wanted a low-sitting airplane because that allowed easy eye-level access for engine maintenance and the baggage hold. There were distinct advantages this, too.",
       "zh": "波音和各家航司当年都希望机身离地更近一些，因为这样可以在视线平视高度轻松完成发动机维护并装卸行李舱。这在当时确实有显著的优势。"
     },
     {
-      "id": 98,
+      "id": 84,
       "start_sec": 974,
       "speaker": "Jon Ostrower",
       "en": "You could have in-built air stairs that flew along with the aircraft. Ryanair loves those because they don't have to pay for additional ground handling.",
       "zh": "你可以配备随机携带的内置登机梯。瑞安航空极其钟爱这种设计，因为这样就无需支付额外的地面保障费用。"
     },
     {
-      "id": 99,
+      "id": 85,
       "start_sec": 981,
       "speaker": "Jon Ostrower",
       "en": "But when it came time to adopt a new generation of increasing bypass ratio engines in the 1980s, Boeing kept the low-slung gear and moved from the cigar-style JT8Ds from Pratt to forward-mounted CFM56-3s.",
       "zh": "但到了1980年代需要采用涵道比更大的新一代发动机时，波音保留了这种低矮的起落架，把普惠的雪茄形JT8D发动机换成了前置安装的CFM56-3。"
     },
     {
-      "id": 100,
+      "id": 86,
       "start_sec": 995,
       "speaker": "Jon Ostrower",
       "en": "Those engines sort of have a squished look, which moves a lot of the engine accessories to the sides of the engines to create that flat underside for sufficient clearance not to run into taxiway lights.",
       "zh": "这些发动机看起来有些被压扁了，也就是将大量发动机附件移到了两侧，从而形成平底造型，确保足够的离地间隙，以免刮蹭到滑行道边灯。"
     },
     {
-      "id": 101,
+      "id": 87,
       "start_sec": 1006,
       "speaker": "Jon Ostrower",
       "en": "Fast-forward to the next generation in the '90s, and they have the even bigger CFM56-7s, which actually had the same problem. But Boeing got them to fit when they re-winged the 737, starting with the -700 in '97.",
       "zh": "快进到90年代的下一代737（NG），它们配备了更大的CFM56-7，其实也遇到了同样的问题。但波音从1997年的-700开始重新设计了机翼，最终完成了适配。"
     },
     {
-      "id": 102,
+      "id": 88,
       "start_sec": 1020,
       "speaker": "Jon Ostrower",
       "en": "Generally, the geometry was the same for the landing gear. There was some other small changes that were made: strengthening, etc. But the first significant change to landing gear came finally with the MAX in 2011.",
       "zh": "起落架的整体几何构型基本保持一致，只做了一些局部微调：结构加强等。但起落架迎来的首次重大改动，最终发生在2011年的MAX上。"
     },
     {
-      "id": 103,
+      "id": 89,
       "start_sec": 1032,
       "speaker": "Brett Snyder",
       "en": "Yeah, I don't know about you, Brian, but I've been waiting for a good landing gear discussion. So please, carry on, sir.",
       "zh": "是啊，我不知道你怎么想的，Brian，但我可是一直盼着能好好聊聊起落架呢。所以，请继续，先生。"
     },
     {
-      "id": 104,
+      "id": 90,
       "start_sec": 1038,
       "speaker": "Brian Sumers",
       "en": "My whole life I've been looking forward to this.",
       "zh": "我这辈子都在翘首以盼这一刻呢。"
     },
     {
-      "id": 105,
+      "id": 91,
       "start_sec": 1040,
       "speaker": "Jon Ostrower",
       "en": "I will make you a metal lover, Brian, if it's the last thing I do.",
       "zh": "就算是我做的最后一件事，我也非得把你变成一个航空硬件迷不可，Brian。"
     },
     {
-      "id": 106,
+      "id": 92,
       "start_sec": 1044,
       "speaker": "Jon Ostrower",
       "en": "But back to the history here. Boeing was going to keep the 737NG wing, albeit with a new wing tip, but with a much larger LEAP engine.",
       "zh": "言归正传，回到历史脉络。波音原本打算保留737NG的机翼，虽然换了新翼梢，但装上了尺寸大得多的LEAP发动机。"
     },
     {
-      "id": 107,
+      "id": 93,
       "start_sec": 1051,
       "speaker": "Jon Ostrower",
       "en": "That of course came with a change in the flying characteristics and the very well-documented MCAS development and the twin crashes of the MAXes in 2018 and 2019.",
       "zh": "这自然导致了飞行特性的改变、大家熟知的MCAS系统的研发，以及2018年和2019年MAX的两起空难。"
     },
     {
-      "id": 108,
+      "id": 94,
       "start_sec": 1062,
       "speaker": "Jon Ostrower",
       "en": "But setting that aside for for a moment, the nose landing gear in the original design of the MAX was actually lengthened eight inches to allow the engines to meet that 17 inches of clearance requirement to not run into taxiway lights.",
       "zh": "不过先抛开那些不谈，MAX在最初设计时将前起落架加长了8英寸，好让发动机达到17英寸的净空要求，避免磕碰滑行道边灯。"
     },
     {
-      "id": 109,
+      "id": 95,
       "start_sec": 1077,
       "speaker": "Jon Ostrower",
       "en": "And so, if you look at the early renderings of the MAX...",
       "zh": "因此，如果你去看早期MAX的效果图……"
     },
     {
-      "id": 110,
+      "id": 96,
       "start_sec": 1080,
       "speaker": "Jon Ostrower",
       "en": "from Boeing right after American ordered the airplane. The family had a small blister fairing right under the nose, which was going to fit the bigger landing gear.",
       "zh": "就在美航订购该机型后不久。该家族机型的机鼻正下方原本设计了一个小鼓包整流罩，用来容纳更大的前起落架。"
     },
     {
-      "id": 111,
+      "id": 97,
       "start_sec": 1090,
       "speaker": "Jon Ostrower",
       "en": "It was kind of a weird-looking thing. I mean, if anyone remembers the A330-200 Freighter—",
       "zh": "那样子看起来挺怪的。如果有人还记得 A330-200 货机的话——"
     },
     {
-      "id": 112,
+      "id": 98,
       "start_sec": 1096,
       "speaker": "Brett Snyder",
       "en": "Nobody remembers it, Jon.",
       "zh": "没人记得那个，Jon。"
     },
     {
-      "id": 113,
+      "id": 99,
       "start_sec": 1097,
       "speaker": "Brian Sumers",
       "en": "No. Nope.",
       "zh": "确实，毫无印象。"
     },
     {
-      "id": 114,
+      "id": 100,
       "start_sec": 1099,
       "speaker": "Jon Ostrower",
       "en": "Nope? Okay. Well, there are people listening to this podcast who are like, \"Oh, I remember that.\" If you look at pictures of an A330-200 Freighter, there's a large blister fairing underneath the nose landing gear to allow the nose to sit higher so the floor is flat, so you can load the cargo more easily.",
       "zh": "没有吗？好吧，听我们这期播客的听众里肯定有人会说：“噢，我记得那个。”如果你去看 A330-200 货机的照片，它的前起落架下方有一个很大的鼓包整流罩，这是为了把机鼻抬高，让机舱地板保持水平，从而更方便装卸货物。"
     },
     {
-      "id": 115,
+      "id": 101,
       "start_sec": 1114,
       "speaker": "Jon Ostrower",
       "en": "But look, Boeing engineers relocated the pivot point and resized things accordingly to avoid having that blister. It also means that the MAX nose sits higher than the NG, if you ever look at it at the gate. It looks like it's just up a bit.",
       "zh": "不过你看，波音工程师重新调整了转轴支点的位置，并相应调整了尺寸，从而避免了使用那个鼓包。这也意味着如果你在登机口观察，会发现 MAX 的机头比 NG 要高一些。看起来就是微微翘起了一点。"
     },
     {
-      "id": 116,
+      "id": 102,
       "start_sec": 1127,
       "speaker": "Jon Ostrower",
       "en": "The main landing gear dimensions were untouched, however. And the fuselage length, save for a new tail cone of the -800 and the -900ER, became the MAX 8 and MAX 9.",
       "zh": "然而，主起落架的尺寸并未改变。至于机身长度，除了采用新的尾锥外，-800 和 -900ER 直接演变成了 MAX 8 和 MAX 9。"
     },
     {
-      "id": 117,
+      "id": 103,
       "start_sec": 1138,
       "speaker": "Jon Ostrower",
       "en": "So the nature of the main landing gear was constrained by the wheel well dimensions. Lengthening the MAX 9 was a huge challenge with the same gear. Well, why was that?",
       "zh": "因此，主起落架的设计受限于轮舱尺寸。沿用相同的起落架来加长 MAX 9 是一个巨大的挑战。那么，这是为什么呢？"
     },
     {
-      "id": 118,
+      "id": 104,
       "start_sec": 1148,
       "speaker": "Jon Ostrower",
       "en": "Back to the length, right? If you're going to add 66 inches to the fuselage like they do on the MAX 10, 28 inches of those are behind the wing. So you'd have to be going considerably faster to get a rotation speed that allowed for the aircraft to fly without effectively striking the tail on the runway.",
       "zh": "还是回到机身长度的问题，对吧？如果要像 MAX 10 那样将机身加长 66 英寸，其中有 28 英寸是在机翼后方。这样一来，你就必须以显著更高的速度滑跑以达到抬轮速度，使飞机能够在不发生擦机尾的情况下离地起飞。"
     },
     {
-      "id": 119,
+      "id": 105,
       "start_sec": 1164,
       "speaker": "Brett Snyder",
       "en": "Let me try and put this in English, possibly. I think what you're saying is that this thing is going to have terrible takeoff performance. Is that right?",
       "zh": "我试着用大白话总结一下吧。我想你的意思是，这架飞机的起飞性能会非常糟糕，对吗？"
     },
     {
-      "id": 120,
+      "id": 106,
       "start_sec": 1173,
       "speaker": "Jon Ostrower",
       "en": "Yeah, exactly. You know, you lengthen it and keep everything else the same, it's not going to be pretty. The MAX 9 already has higher approach and takeoff speeds.",
       "zh": "没错，一点都没错。如果你只加长机身而其他一切保持不变，结果绝对不会好看。MAX 9 的进近速度和起飞速度就已经偏高了。"
     },
     {
-      "id": 121,
+      "id": 107,
       "start_sec": 1182,
       "speaker": "Jon Ostrower",
       "en": "There's a joke among some United pilots that they call the MAX 9 \"the fastest in the fleet below 1,000 feet.\" It's sporty.",
       "zh": "美联航飞行员之间流传着一个笑话，他们称 MAX 9 是“一千英尺以下机队中飞得最快的”。操控感确实很生猛。"
     },
     {
-      "id": 122,
+      "id": 108,
       "start_sec": 1189,
       "speaker": "Brett Snyder",
       "en": "But not in like a 757 sporty way. This is in the wrong—",
       "zh": "但这可不是 757 那种动力充沛的生猛。这完全是反方向的——"
     },
     {
-      "id": 123,
+      "id": 109,
       "start_sec": 1193,
       "speaker": "Jon Ostrower",
       "en": "No, no, no, that's sporty on takeoff. You want sporty on takeoff, not on landing.",
       "zh": "不不不，757 是起飞时动力强劲。你希望起飞时生猛，而不是降落进近时生猛。"
     },
     {
-      "id": 124,
+      "id": 110,
       "start_sec": 1198,
       "speaker": "Jon Ostrower",
       "en": "Boeing also made some changes to the seals on the MAX 10 and added a flap track door to the leading edge to reduce drag at low speeds when the flaps are out. That helps with that.",
       "zh": "波音还对 MAX 10 上的密封件做了一些改进，并在前缘增加了一个襟翼滑轨门，以减少襟翼放下时低速状态下的阻力。这对此有所改善。"
     },
     {
-      "id": 125,
+      "id": 111,
       "start_sec": 1210,
       "speaker": "Jon Ostrower",
       "en": "Just as a, I think a relevant aside, the longer generation of airplanes are more challenging to fly. The A321neos have a well-documented history of tail strikes, and I'll just say this is an area that I'm going to be watching with great interest as this gets in the hands of pilots.",
       "zh": "顺便提一句我认为很相关的题外话，机身加长型飞机在操纵上确实更具挑战性。A321neo 发生擦机尾的历史记录屡见不鲜，我想说的是，随着这款飞机交付到飞行员手中，这将是我格外关注的一个方面。"
     },
     {
-      "id": 126,
+      "id": 112,
       "start_sec": 1224,
       "speaker": "Brett Snyder",
       "en": "Hold on. Don't they have those tail stands for the airplane? And not on takeoff, but I know—",
       "zh": "等等，他们不是有那种防倾倒机尾支架吗？当然不是起飞时用，但我知道——"
     },
     {
-      "id": 127,
+      "id": 113,
       "start_sec": 1229,
       "speaker": "Jon Ostrower",
       "en": "A tail wheel? That's a great idea.",
       "zh": "机尾防擦轮吗？真是个好主意。"
     },
     {
-      "id": 128,
+      "id": 114,
       "start_sec": 1232,
       "speaker": "Brett Snyder",
       "en": "No, but like at the gate, these things are so weirdly heavy in the wrong place. Didn't they have that problem where it tipped back for a while a couple of times, and then they said, \"Oh, we should probably stop that\"?",
       "zh": "不是，我说的是在登机口。这些飞机的重心位置很怪异，不是好几次出现机尾着地翘头的情况吗？后来他们就说：“噢，我们得想想办法避免这种情况。”"
     },
     {
-      "id": 129,
+      "id": 115,
       "start_sec": 1243,
       "speaker": "Jon Ostrower",
       "en": "I have a distinct memory of Boeing saying that the MAX wouldn't need a tail stand, but they are absolutely in use on the MAX.",
       "zh": "我清楚地记得波音曾说过 MAX 不需要机尾防倾倒支架，但现实中 MAX 绝对在普遍使用它。"
     },
     {
-      "id": 130,
+      "id": 116,
       "start_sec": 1249,
       "speaker": "Jon Ostrower",
       "en": "Okay, back to my long-winded history lesson here. So what did Boeing actually do? This is where the MAX 10 sort of broke with tradition and commonality with the rest of the family. And there was also some really clever—",
       "zh": "好了，回到我这段冗长的历史课。那么波音到底做了什么呢？这正是 MAX 10 打破传统并打破与家族其他机型通用性的地方。而且这里面还有一些非常巧妙的——"
     },
     {
-      "id": 131,
+      "id": 117,
       "start_sec": 1260,
       "speaker": "Jon Ostrower",
       "en": "engineering that took place here. Boeing calls it a levered gear. It actually lengthened the fully extended gear system by 9 and 1/2 inches. That first, number one, shifted the axle of the main landing gear wheel back from the base of the strut to allow the pivot point of the aircraft to move aft.",
       "zh": "这里所做的工程改造。波音称其为杠杆式起落架。它实际上将完全伸展状态下的起落架系统加长了9.5英寸。这首先将主起落架轮轴从减震支柱底部向后移，从而使飞机的转动支点后移。"
     },
     {
-      "id": 132,
+      "id": 118,
       "start_sec": 1278,
       "speaker": "Jon Ostrower",
       "en": "So that extra extension levers downward, and effectively kind of a crude sort of analogy would be like standing in your tiptoes before you jump. It gives the added clearance for the tail on rotation. But obviously, the bigger gear means the challenge of getting it into the same wheel well.",
       "zh": "因此，多出来的延伸段会向下施力，打个不太精确的通俗比方，就像起跳前先垫起脚尖。它在抬轮起飞时为机尾提供了额外的离地间隙。但显而易见，更长的起落架意味着要把它收进原本同样大小的轮舱会面临挑战。"
     },
     {
-      "id": 133,
+      "id": 119,
       "start_sec": 1295,
       "speaker": "Jon Ostrower",
       "en": "The whole system actually shrinks it as it retracts, and I'm simplifying here, but it actually shrinks the extended portion of the lever mechanically as it retracts by pulling the inner cylinder of the lengthened landing gear up. It's very, very, very clever.",
       "zh": "整个系统在收起时其实会缩短——这里我简化描述一下——它在收回时通过将加长起落架的内筒向上拉动，以机械方式缩短了杠杆的伸出部分。这设计非常、非常、非常巧妙。"
     },
     {
-      "id": 134,
+      "id": 120,
       "start_sec": 1309,
       "speaker": "Brian Sumers",
       "en": "Jon, I wonder if any of the listeners are thinking what I'm thinking now. This is incredibly complex. It's a 50-year-old design. It's like a Frankenstein monster. Would you ever design an aircraft this way if you started from scratch?",
       "zh": "Jon，我好奇听众里是否有人跟我想到一块去了。这实在太复杂了。一个有50年历史的老设计，简直就像个缝合怪。如果从零开始，你会这样设计一架飞机吗？"
     },
     {
-      "id": 135,
+      "id": 121,
       "start_sec": 1325,
       "speaker": "Jon Ostrower",
       "en": "Oh, god no. No, no. You can solve a lot of these challenges in conceptual sizing to allow for future growth. Look, I'm not sure Boeing in 1967 could have envisioned the 110-ish seat 737-100 eventually being sized for 230 passengers.",
       "zh": "天呐，绝不会。你完全可以在概念设计尺寸阶段解决很多这类的难题，为未来的机型加长预留空间。你想想，波音在1967年肯定无法预料到最初只有110座左右的737-100，最终竟然能容纳230名乘客。"
     },
     {
-      "id": 136,
+      "id": 122,
       "start_sec": 1341,
       "speaker": "Jon Ostrower",
       "en": "Even the 727-200, which entered service the same year as the -100 was certified, only ever had a single-class capacity of up to 189 seats. Yes, definitely a more complex design.",
       "zh": "就连在737-100取证同年投入商业运营的727-200，全经济舱布局最多也才189座。所以，这绝对是一个复杂得多的设计。"
     },
     {
-      "id": 137,
+      "id": 123,
       "start_sec": 1353,
       "speaker": "Jon Ostrower",
       "en": "And when I talked to Boeing's development executives about it last week, they said they've already been provisioning unique spares for the fleet, and noted that through the test program, they put two lifetimes on the gear, and it performed quote 'flawlessly.'",
       "zh": "上周我和波音的研发高管聊起这事时，他们表示已经开始为机队储备专属备件，并指出在试飞测试项目中，他们对起落架进行了相当于两个使用寿命周期的疲劳测试，其表现“毫无瑕疵”。"
     },
     {
-      "id": 138,
+      "id": 124,
       "start_sec": 1365,
       "speaker": "Brett Snyder",
       "en": "This is a Franken-airplane. This is wild to me. The things that they have to do, the hoops they have to jump through. But assuming this all works as they say it is, so where is this airplane going to actually fly? Let's bring this back to network. Where does this thing work? Where do airlines want this?",
       "zh": "这简直就是科学怪机。这太疯狂了。他们必须费尽周折、克服重重关卡。但假设一切真如他们所说的那样顺利运作，那么这架飞机到底会在哪条线路上飞？我们回到航线网络上来。这玩意儿适用于哪种市场？航司希望把它放在哪里？"
     },
     {
-      "id": 139,
+      "id": 125,
       "start_sec": 1384,
       "speaker": "Jon Ostrower",
       "en": "Yeah, I think this comes back to the range question. Like if you've got huge runways at sea level, you're going to be just fine, and it's going to be a workhorse: Seattle to JFK, LA and San Francisco to Newark, Atlanta to Seattle. But also, you know, running up and down north-south is going to be perfect for this, this airplane.",
       "zh": "是啊，我认为这又回到了航程问题上。如果拥有海平面高度的超长跑道，那就完全没问题，它会成为一匹干线主力机：西雅图到JFK、洛杉矶和旧金山到纽瓦克、亚特兰大到西雅图。此外，执飞纵贯南北的航线也极其适合这架飞机。"
     },
     {
-      "id": 140,
+      "id": 126,
       "start_sec": 1399,
       "speaker": "Jon Ostrower",
       "en": "I mean, Alaska's talked about wanting to put it into Dallas, Chicago...",
       "zh": "我是说，阿拉斯加航空之前就提过想把它投放到达拉斯、芝加哥……"
     },
     {
-      "id": 141,
+      "id": 127,
       "start_sec": 1405,
       "speaker": "Brett Snyder",
       "en": "Well, and I do remember at media day as well that Alaska mentioned in response to a question, they were saying that they would love to have MAX 10s in Anchorage, not the ones with the flat beds, but like Anchorage to Seattle in the summer just as a a passenger hauler. It's just, it's got a lot of seats where you need them.",
       "zh": "对，我还记得在媒体日上，阿拉斯加航空回答提问时曾表示，他们很希望把MAX 10放在安克雷奇，不是带平躺公务舱的那种，而是夏季执飞安克雷奇到西雅图，纯粹充当高密度客运主力。它正好能在你需要的地方提供大量座位。"
     },
     {
-      "id": 142,
+      "id": 128,
       "start_sec": 1422,
       "speaker": "Jon Ostrower",
       "en": "Yeah, this is going to be a people mover. Let's also talk about where this gets tough. Frontier looked at the MAX 10 late last decade before it did a huge 321 deal as part of John Leahy's big swan song as Airbus' chief salesman.",
       "zh": "是的，它就是个大客量运人神器。不过我们再来聊聊哪种场景下它会显得吃力。边疆航空在上一年代末期曾考虑过MAX 10，之后他们才达成了那笔巨额A321订单，作为空客传奇销售总监John Leahy的谢幕之作。"
     },
     {
-      "id": 143,
+      "id": 129,
       "start_sec": 1434,
       "speaker": "Jon Ostrower",
-      "en": "Out of Denver on a super hot day from what I understand, say 95 degrees in the summer, a Frontier...",
-      "zh": "据我了解，在夏天极度炎热的日子里从丹佛起飞，比方说气温达到华氏95度时，边疆航空的……"
+      "en": "Out of Denver on a super hot day from what I understand, say 95 degrees in the summer, a Frontier MAX 10—",
+      "zh": "据我了解，在夏天极度炎热的日子里从丹佛起飞，比方说气温达到华氏95度时，边疆航空的 MAX 10——"
     },
     {
-      "id": 144,
+      "id": 130,
       "start_sec": 1440,
       "speaker": "Jon Ostrower",
-      "en": "Here, single-class configuration, so 220-ish passengers, the MAX 10 can make it about 700 miles. Oof.",
-      "zh": "在这里，如果是全经济舱布局，载客大概220人左右，MAX 10的航程大概只有700英里。呃。"
+      "en": "in a single-class configuration, so 220-ish passengers, can make it about 700 miles. Oof.",
+      "zh": "如果采用全经济舱布局、载客约220人，航程大概只有700英里。呃。"
     },
     {
-      "id": 145,
+      "id": 131,
       "start_sec": 1449,
       "speaker": "Jon Ostrower",
       "en": "Not great, before you start leaving folks on the ground, right? But like I said, if you've got big runways near sea level, it really does have the potential to be a workhorse for these airlines.",
       "zh": "在不得不减载旅客之前，这表现确实不算好，对吧？但就像我说的，如果有靠近海平面、跑道足够长的高等级机场，它确实有潜力成为这些航司的中流砥柱。"
     },
     {
-      "id": 146,
+      "id": 132,
       "start_sec": 1461,
       "speaker": "Brian Sumers",
       "en": "Well, let's look at who's waiting for this airplane. WestJet is going to get the first one. That airline is very excited.",
       "zh": "我们来看看有谁在等这款飞机。西捷航空（WestJet）将接收第一架，这家航司对此非常期待。"
     },
     {
-      "id": 147,
+      "id": 133,
       "start_sec": 1468,
       "speaker": "Brian Sumers",
       "en": "Alaska is expecting 22 next year. Ryanair has 15 coming in the first quarter. Delta should get its first next year, too, and American in 2028.",
       "zh": "阿拉斯加航空预计明年接收22架。瑞安航空在第一季度将迎来15架。达美航空也计划明年接收首架，而美国航空则要到2028年。"
     },
     {
-      "id": 148,
+      "id": 134,
       "start_sec": 1479,
       "speaker": "Brian Sumers",
       "en": "They're going to Air India, Akasa, TUI, Vueling, Copa, Korean, and United. Most of the airlines I cover, really excited about this aircraft.",
       "zh": "还有印度航空、Akasa、途易、伏林航空、巴拿马航空、大韩航空以及美联航。我跟踪报道的大多数航司都对这款飞机感到非常兴奋。"
     },
     {
-      "id": 149,
+      "id": 135,
       "start_sec": 1491,
       "speaker": "Jon Ostrower",
       "en": "I mean, look, I think the MAX 10 is coming along at a hugely important time for Boeing. In their earnings on Tuesday, they actually announced that the ramp-up for the 737 is actually going to be slower than expected.",
       "zh": "我觉得，对波音来说，MAX 10的面世正处于一个极其关键的时刻。在周二的财报中，他们其实宣布了737的产能爬坡速度会比预期更慢。"
     },
     {
-      "id": 150,
+      "id": 136,
       "start_sec": 1501,
       "speaker": "Jon Ostrower",
       "en": "They wouldn't get above 47 per month until really the end of next year, some issues producing wings, so it's going to, things are going to be slower than, than you'd expect. But granted, it's the aerospace industry, that seems to be the norm.",
       "zh": "直到明年年底前，月产量都不会超过47架，主要由于机翼生产遇到了一些问题。因此，进度会比大家预期的更慢。但话说回来，在航空航天制造业，这种延误似乎已是家常便饭。"
     },
     {
-      "id": 151,
+      "id": 137,
       "start_sec": 1515,
       "speaker": "Jon Ostrower",
       "en": "But look, I think it's coming along at a really interesting time here, and ultimately even more so than it had shown up a year ago, or even a year before that.",
       "zh": "不过话说回来，我认为它在眼下这个时间节点推出非常有意思，甚至比在一年前或两年前推出更具看点。"
     },
     {
-      "id": 152,
+      "id": 138,
       "start_sec": 1523,
       "speaker": "Brian Sumers",
       "en": "Yeah Jon, for Boeing, obviously it's a big deal. And for the airlines that are getting it, they're very excited, but I think we should remember that this is coming at a unique time for airlines.",
       "zh": "是的Jon，对波音而言这无疑意义重大。对于即将接收该机型的航司来说，他们也非常兴奋。但我认为我们必须记住，它到来之时，航司正处于一个非常微妙的时期。"
     },
     {
-      "id": 153,
+      "id": 139,
       "start_sec": 1534,
       "speaker": "Brian Sumers",
       "en": "Speaking for the United States, which I cover the most, I think we know that the industry does not necessarily need more capacity. Fuel prices are very high, and in the aggregate, we know that airlines would prefer fewer seats to keep fares up and not more.",
       "zh": "拿我报道最多的美国市场来说，大家都清楚整个行业目前并不真正需要更多运力。燃油价格居高不下，从大盘来看，航司更倾向于缩减机位供给来维持高票价，而不是增加运力。"
     },
     {
-      "id": 154,
+      "id": 140,
       "start_sec": 1552,
       "speaker": "Brian Sumers",
       "en": "The airlines cannot coordinate capacity as an industry. And there are some airlines out there that feel like they're making money, and you guys know this phrase, 'we've earned the right to grow.'",
       "zh": "但各家航司无法在全行业层面上合谋调控运力。而且市场上总有部分航司觉得自己盈利尚可，正如大家熟知的那句行话——“我们赢得了扩张的底气”。"
     },
     {
-      "id": 155,
+      "id": 141,
       "start_sec": 1564,
       "speaker": "Brian Sumers",
       "en": "For those airlines, I think this is the right airplane to grow with, because while it will add more seats into the market, it can do so very, very efficiently.",
       "zh": "对这些航司而言，我认为这款飞机正是用来扩张的利器，因为尽管它向市场投放了更多机位，但其单位运营效率却非常高。"
     },
     {
-      "id": 156,
+      "id": 142,
       "start_sec": 1574,
       "speaker": "Brian Sumers",
       "en": "Alaska is a pretty good example, your favorite airline Jon. Its MAX 9s have 178 seats, and then for the standard -10 configuration, it'll have 188 seats.",
       "zh": "阿拉斯加航空就是一个绝佳的例子，Jon，这也是你最喜欢的航司。他们的MAX 9配备了178个座位，而标准的-10构型将配备188个座位。"
     },
     {
-      "id": 157,
+      "id": 143,
       "start_sec": 1588,
       "speaker": "Brian Sumers",
       "en": "Now I realize that's only 10 extra seats, but it's also 10 extra seats with the same number of flight attendants, the same number of pilots, and very little extra fuel burn.",
       "zh": "我知道这只增加了10个座位，但关键在于，这多出的10个座位用的是同样数量的乘务员、同样数量的飞行员，而且几乎没增加多少额外燃油消耗。"
     },
     {
-      "id": 158,
+      "id": 144,
       "start_sec": 1599,
       "speaker": "Brian Sumers",
       "en": "But the MAX 9 might not even be the best comparison with the MAX 10, at least in Alaska's case, because Alaska is right now retiring its 737-700s, and the MAX 10, it has 52% more seats than that airplane.",
       "zh": "不过对阿拉斯加航空来说，拿MAX 9和MAX 10比甚至还不算最恰当，因为阿拉斯加航空目前正在退役其737-700机队，而MAX 10的机位比那款飞机足足多出了52%。"
     },
     {
-      "id": 159,
+      "id": 145,
       "start_sec": 1616,
       "speaker": "Brian Sumers",
       "en": "And then the seat count difference is even more pronounced among",
       "zh": "而且，座位数的差距在其他……"
     },
     {
-      "id": 160,
+      "id": 146,
       "start_sec": 1620,
       "speaker": "Brett Snyder",
       "en": "ULCCs, many of which cannot wait to take the -10. Ryanair has made a big deal out of its MAX 8-200 airplanes. That's a MAX 8 certified to have more seats than the regular MAX 8.",
       "zh": "超低成本航司（ULCC）中，许多都迫不及待想接收 MAX 10。瑞安航空此前大肆宣传其 MAX 8-200 飞机，这种机型是经过认证、比常规 MAX 8 能容纳更多座位的版本。"
     },
     {
-      "id": 161,
+      "id": 147,
       "start_sec": 1635,
       "speaker": "Brett Snyder",
       "en": "It can fit 197 seats in Ryanair's configuration. The MAX 10 for Ryanair, it will have 228 seats. This is the airplane that Michael O'Leary has been dreaming of.",
       "zh": "在瑞安航空的客舱布局下可容纳 197 座。而瑞安航空的 MAX 10 将拥有 228 个座位。这正是迈克尔·奥利里梦寐以求的机型。"
     },
     {
-      "id": 162,
+      "id": 148,
       "start_sec": 1649,
       "speaker": "Brian Sumers",
       "en": "So Jon, where does United fall in all this? Because they're, I think, still the largest customer for the -10. And as you said, they were the launch customer.",
       "zh": "Jon，那么美联航在这一切中处于什么位置？因为据我所知，他们依然是 MAX 10 最大的客户。而且正如你所说，他们也是启动客户。"
     },
     {
-      "id": 163,
+      "id": 149,
       "start_sec": 1659,
       "speaker": "Brian Sumers",
       "en": "And then the MAX 10, we know, was supposed to be the Coastliner for United with the flat beds and all the fanciness. But that got switched around with all the delays, and so now the A321neo took over that role.",
       "zh": "另外我们知道，MAX 10 原本计划作为美联航的‘海岸线客机’（Coastliner），配备全平躺座椅和各种高端内饰。但随着一再延误，计划发生了变动，现在已经改由 A321neo 接替了这个角色。"
     },
     {
-      "id": 164,
+      "id": 150,
       "start_sec": 1672,
       "speaker": "Brian Sumers",
       "en": "So what does United want to do with this airplane that they aren't doing with the neos?",
       "zh": "所以美联航打算用这架飞机来做些什么 A321neo 没在做的事情呢？"
     },
     {
-      "id": 165,
+      "id": 151,
       "start_sec": 1679,
       "speaker": "Jon Ostrower",
       "en": "Yeah, I think notably we don't have a MAX 10 LOPA yet for comparison. I would guess that it'll be somewhere in the 188, 189 range, given exit limit requirements for standard domestic configuration.",
       "zh": "确实，值得注意的是我们目前还没有拿到 MAX 10 的客舱布局图（LOPA）来进行对比。我推测，考虑到标准国内航线构型的应急出口限制要求，座位数大概会在 188 到 189 座左右。"
     },
     {
-      "id": 166,
+      "id": 152,
       "start_sec": 1691,
       "speaker": "Jon Ostrower",
       "en": "Andrew Nocella, United CCO, told me at media day that it wouldn't be unexpected to one day see a MAX 10 with a Coastliner interior. That was before all the credit card point remuneration got spent on jet fuel.",
       "zh": "美联航首席商务官安德鲁·诺切拉在媒体日曾告诉我，未来某天看到配备 Coastliner 内饰的 MAX 10 也并不意外。不过那是在信用卡积分收益全被高昂航油成本吞噬之前说的了。"
     },
     {
-      "id": 167,
+      "id": 153,
       "start_sec": 1703,
       "speaker": "Brian Sumers",
       "en": "Still, someday it's possible. But they have their Coastliner right now, and they still have a bunch of these coming in. So a lot of these are just going to be regular airplanes, is the assumption.",
       "zh": "但不管怎样，未来还是有可能的。只是他们现在已经有了自己的 Coastliner，而且后续还有大批该机型陆续交付。所以可以推断，这些 MAX 10 大部分都将作为普通客机使用。"
     },
     {
-      "id": 168,
+      "id": 154,
       "start_sec": 1714,
       "speaker": "Jon Ostrower",
       "en": "Yeah, and but I think it comes back to the core point though. I think airlines want these airplanes bad. But the capacity question isn't do we slow deliveries, it's what do we do with these aging and thirsty 737NGs and CEOs?",
       "zh": "没错，但我认为还是要回到核心问题。航司极度渴望得到这些飞机。但运力层面的问题不在于‘是否放缓接收新机’，而在于‘该如何处理那些老旧且高油耗的 737NG 和 A320ceo’？"
     },
     {
-      "id": 169,
+      "id": 155,
       "start_sec": 1727,
       "speaker": "Jon Ostrower",
       "en": "Any influx of 188 to 228-seat airplanes in the market is going to be balanced by an exit of older capacity given where we are right now. That's going to have an impact on the aftermarket side of the business, which makes its money off of the utilization of the mature fleet, but I think that's going to be the trade.",
       "zh": "鉴于我们目前的行业现状，市场上任何涌入的 188 到 228 座客机，都将通过淘汰老旧运力来平衡。这将对后市场业务产生影响，因为后市场的盈利严重依赖成熟机队的利用率，但我认为这就是必须做出的权衡。"
     },
     {
-      "id": 170,
+      "id": 156,
       "start_sec": 1742,
       "speaker": "Jon Ostrower",
       "en": "And airlines do not want to get out of line for their airplanes.",
       "zh": "而且航司绝不想放弃自己排队等待的飞机交付机位。"
     },
     {
-      "id": 171,
+      "id": 157,
       "start_sec": 1746,
       "speaker": "Brian Sumers",
       "en": "Well, that's always the nature of the beast anyway, right? I mean, that's the flex the airlines like to have. So in high fuel like this, you probably park some of those older airplanes, you'd rather take the new ones.",
       "zh": "好吧，这向来就是这一行的本质，对吧？我是说，这就是航司希望保留的灵活调整空间。所以在当前这样高油价的背景下，可能会停飞部分老旧飞机，优先接收新机。"
     },
     {
-      "id": 172,
+      "id": 158,
       "start_sec": 1758,
       "speaker": "Brian Sumers",
       "en": "Uh, but then if fuel plunges, then you don't park the airplanes. So, I'm sure that the aftermarket business is hoping that fuel will plunge right about now. But, that is what it is.",
       "zh": "可如果航油价格暴跌，就不会停飞这些老飞机了。所以我敢肯定，后市场企业现在正眼巴巴盼着油价大跌呢。但现实就是如此。"
     },
     {
-      "id": 173,
+      "id": 159,
       "start_sec": 1767,
       "speaker": "Brian Sumers",
       "en": "I imagine no one's going to say no thanks, I won't take these airplanes, except for Frontier, which had done that with Airbus last year, I suppose. But, I guess we don't really know, we'll see what happens with fuel.",
       "zh": "我想没人会说‘不用了，我不要这些飞机’——大概除了边疆航空去年对空客这么干过之外。不过谁也说不准，我们还得看油价走势。"
     },
     {
-      "id": 174,
+      "id": 160,
       "start_sec": 1778,
       "speaker": "Brian Sumers",
       "en": "Anyway, it is clear that the market wants this bigger airplane. It's been clear for a really long time. These orders are not new.",
       "zh": "不管怎样，显而易见的是市场确实需要这种更大的飞机。这一点早就毋庸置疑了，这些订单也都不是新下的。"
     },
     {
-      "id": 175,
+      "id": 161,
       "start_sec": 1787,
       "speaker": "Jon Ostrower",
       "en": "Richard Aboulafia has a great adage. He says, 'When airlines make money, they order airplanes. If airlines continue to make money, they will take delivery of those airplanes.'",
       "zh": "理查德·阿布拉菲亚有一句名言。他说：‘当航空公司赚钱时，他们就会订购飞机；如果航司持续赚钱，他们就会接收这些飞机的交付。’"
     },
     {
-      "id": 176,
+      "id": 162,
       "start_sec": 1797,
       "speaker": "Jon Ostrower",
       "en": "So, it's a fickle business.",
       "zh": "所以说，这个行业向来变幻莫测。"
     },
     {
-      "id": 177,
+      "id": 163,
       "start_sec": 1800,
       "speaker": "Brian Sumers",
       "en": "Other than certification delays, I mean, why did it take Boeing so long to finally get here? We could have had a -1000 NG or something, right? But so why are we finally getting here now?",
       "zh": "除了适航取证延迟，我是说，波音到底为什么花了这么久才走到今天？我们当年本可以搞个737NG的-1000型之类的，对吧？那为什么直到现在才终于实现呢？"
     },
     {
-      "id": 178,
+      "id": 164,
       "start_sec": 1811,
       "speaker": "Jon Ostrower",
       "en": "It wasn't solely about the landing gear. The scope of the changes kept growing over the past eight years, which was a huge reason for why it took so long.",
       "zh": "这并不仅仅是因为起落架的问题。在过去八年里，改动范围不断扩大，这也是耗时如此之长的一大核心原因。"
     },
     {
-      "id": 179,
+      "id": 165,
       "start_sec": 1819,
       "speaker": "Jon Ostrower",
       "en": "I was at the launch of the MAX 10. I was at CNN at the time, and the aircraft launched with 240 orders and commitments, with United taking the lead, for what was then going to be an airplane that delivered in 2020. I mean, it's October of 2026, and still haven't gotten a first delivery here.",
       "zh": "MAX 10当年发布时我就在现场。那时我还在CNN，该机型一经推出就斩获了240架订单及承诺，由美联航领投，当时计划在2020年交付。然而现在都2026年10月了，我们居然还没迎来首架交付。"
     },
     {
-      "id": 180,
+      "id": 166,
       "start_sec": 1835,
       "speaker": "Jon Ostrower",
       "en": "That was of course derailed first by the 737 MAX crashes, but later by the pandemic. Boeing needed to get the MAX 7 done first, which it finally did this past August, but during the MAX 10 flight testing that started in 2021, there were a bunch of other findings. It was an absolute slog going through the certification.",
       "zh": "这当然先是被737 MAX的两起坠机事故打乱，随后又遭遇了疫情。波音必须先搞定MAX 7，直到今年8月才终于完成；但在2021年启动的MAX 10试飞过程中，又发现了一大堆其他问题。整个适航取证过程简直是一场极度艰难的苦战。"
     },
     {
-      "id": 181,
+      "id": 167,
       "start_sec": 1853,
       "speaker": "Jon Ostrower",
       "en": "At one point in 2022, there was a massive question about whether or not the MAX 10 would actually be required by law to have an EICAS system, so the Engine-Indicating and Crew-Alerting System, that effectively centralized all of the caution and warning indications to a centralized display, instead of the 1960s-style caution and warning system that the airplanes have today.",
       "zh": "在2022年的某个阶段，曾出现过一个巨大的悬念：法律是否会强制要求MAX 10配备EICAS系统，也就是发动机指示与机组告警系统。它能将所有警示与告警提示汇聚到一个中央显示屏上，而不是沿用当今飞机上那种1960年代风格的警示系统。"
     },
     {
-      "id": 182,
+      "id": 168,
       "start_sec": 1877,
       "speaker": "Jon Ostrower",
       "en": "That was directly the result of the language that came out of the late 2020 certification reform bill that ultimately would have prevented the FAA administrator from issuing any new type certificate two years after the enactment of the law. Well, the delays stretched on and there was a real question about whether or not the MAX 10 was going to be done in time. Obviously, it wasn't.",
       "zh": "这直接源于2020年底出台的适航审定改革法案条款，该条款本会禁止FAA局长在法律生效两年后签发任何新的型号合格证（TC）。随着延误不断拉长，MAX 10能否按时完成被打上了一个大大的问号。显而易见，它没能赶上。"
     },
     {
-      "id": 183,
+      "id": 169,
       "start_sec": 1896,
       "speaker": "Jon Ostrower",
       "en": "But look, Boeing CEO Dave Calhoun threatened, quite emptily, I will add, to cancel the MAX if an exemption or an extension wasn't granted by Congress or the FAA on EICAS. By the way, that only served to fortify the bad vibes and the mistrust that would end up delaying the airplane another few years after Alaska 1282.",
       "zh": "但是你看，波音首席执行官Dave Calhoun曾威胁说——我得补一句，这完全是虚张声势——如果国会或FAA不针对EICAS给予豁免或延期，波音就取消MAX项目。顺便说一句，这种表态只会加剧外界的恶感与不信任，而这种不信任最终在阿拉斯加航空1282号航班事故后，又让这架飞机多耽搁了好几年。"
     },
     {
-      "id": 184,
+      "id": 170,
       "start_sec": 1915,
       "speaker": "Brian Sumers",
       "en": "1282, that's the plug door one when it blew out?",
       "zh": "1282号，就是门塞在空中爆开的那次吗？"
     },
     {
-      "id": 185,
+      "id": 171,
       "start_sec": 1918,
       "speaker": "Jon Ostrower",
       "en": "Yeah. So even before that, Boeing got Congress to change the law in December of 2022, but that also meant that the MAX 10 would be at the end of the 737's 17 derivatives. No more after that, we're done.",
       "zh": "对。所以在发生那件事之前，波音在2022年12月成功促使国会修改了法律，但这也意味着MAX 10将成为737系列17个衍生型号中的绝唱。此后再也不会有了，就此打住。"
     },
     {
-      "id": 186,
+      "id": 172,
       "start_sec": 1931,
       "speaker": "Jon Ostrower",
       "en": "By the way, this also was before it became fully clear that there was a risk of overheating for the engine anti-ice system on the MAX. That became important a year later when Boeing actually wanted another exemption for allowing the MAX 7 to cert.",
       "zh": "顺便提一句，这还是在MAX发动机防冰系统存在过热风险的问题彻底暴露之前。一年之后这变成了一个重大问题，当时波音实际上又想为MAX 7申请一项适航取证豁免。"
     },
     {
-      "id": 187,
+      "id": 173,
       "start_sec": 1947,
       "speaker": "Jon Ostrower",
       "en": "Alaska 1282 rolled around, and Boeing didn't have a leg to stand on for asking for a safety exemption of any kind for the MAX 7 and 10, and needed to get this resolved for FAA approval of both airplanes. The MAX 10 was the testbed for the anti-ice fix, and the MAX family also includes safety features that were additionally required by EASA as part of the MAX 8 and 9's return to service. I mean, the scope kept growing. There's a lot more.",
       "zh": "阿拉斯加航空1282事故发生后，波音在为MAX 7和MAX 10申请任何安全豁免时都彻底站不住脚了，必须将防冰问题彻底解决，才能获得FAA对这两款飞机的批准。MAX 10成为了这项防冰改装方案的测试平台，而且MAX机队还涵盖了EASA在MAX 8和9复飞时额外要求的安全特性。改动范围一直在扩大，还有很多其他内容。"
     },
     {
-      "id": 188,
+      "id": 174,
       "start_sec": 1972,
       "speaker": "Jon Ostrower",
       "en": "Those included like a stick shaker cutout system, along with an enhanced angle of attack sensor system, so effectively the control column will shake...",
       "zh": "这些改动包括抖杆切断系统，以及增强型迎角（AoA）传感器系统，因此驾驶杆不仅会震动……"
     },
     {
-      "id": 189,
+      "id": 175,
       "start_sec": 1980,
       "speaker": "Jon Ostrower",
       "en": "when it thinks the airplane is close to a stall, that's pretty violent. It's a very loud cue to the pilots that something is wrong. But also can trigger and keep triggering if the AOA system is damaged in any way and giving bad airspeed indications.",
       "zh": "当系统判定飞机接近失速时，这种抖杆会相当剧烈。这是向飞行员发出的非常响亮的提示，表明出现了异常。但如果迎角（AOA）系统发生任何损坏并给出了错误的空速读数，抖杆器也可能会被触发并不停抖动。"
     },
     {
-      "id": 190,
+      "id": 176,
       "start_sec": 1994,
       "speaker": "Jon Ostrower",
       "en": "That's now addressed in this enhanced system, which can monitor whether or not there's erroneous data coming off of the sensors. That's going to be retrofit on the rest of the MAX fleet also, but debuting first on the MAX 10.",
       "zh": "现在这一增强版系统解决了该问题，它可以监控传感器输出的数据是否异常。这套系统后续也会改装到现有的其他 MAX 机队上，不过率先在 MAX 10 上首次亮相。"
     },
     {
-      "id": 191,
+      "id": 177,
       "start_sec": 2006,
       "speaker": "Brian Sumers",
       "en": "All right. So now, Boeing has, I believe, built a bunch of the MAX 10s and they're ramping up production. They have the main line in Renton, they also have that new North line in Everett, right? So, so when does this enter service? When do we see this thing and its fantastical landing gear fly?",
       "zh": "好的。那么现在据我所知，波音已经制造了一批 MAX 10，并且正在提升产能。他们在伦顿有主产线，在埃弗里特也新设了北线，对吧？所以，它什么时候能投入商业运营？我们什么时候能看到它带着那套神奇的起落架飞上蓝天？"
     },
     {
-      "id": 192,
+      "id": 178,
       "start_sec": 2026,
       "speaker": "Jon Ostrower",
       "en": "FAA certification is the first big step, and what's needed next is actually certification by Transport Canada to validate the FAA side of certification. And that will allow for deliveries to WestJet.",
       "zh": "FAA 适航认证是迈出的关键第一步，接下来还需要加拿大交通部进行审定，认可 FAA 方面的认证结果。这样才能获准向西捷航空（WestJet）交付。"
     },
     {
-      "id": 193,
+      "id": 179,
       "start_sec": 2040,
       "speaker": "Jon Ostrower",
       "en": "Boeing has built a bunch of these airplanes already for WestJet, and they are more or less ready to go. But I think that certification is really important. Nothing's happening until that happens.",
       "zh": "波音已经为西捷航空造好了一批飞机，它们基本处于待命状态。但我认为取证才是真正的核心，在完成认证之前一切都无从谈起。"
     },
     {
-      "id": 194,
+      "id": 180,
       "start_sec": 2051,
       "speaker": "Brett Snyder",
       "en": "Guys, I have an idea. I think we should all go to Calgary for the first flight. Could be a very good excuse to have friend of the show Alexis von Hoensbroech on the pod. Although I did see him last week in New York City, and he was very much non-committal. Rude, I say.",
       "zh": "各位，我有个想法。我觉得首航我们应该一起去卡尔加里。这正好是个绝佳的借口，能把本节目的老朋友 Alexis von Hoensbroech 请来播客聊聊。虽然我上周在纽约见过他，但他态度非常不置可否。依我看，这太不够意思了。"
     },
     {
-      "id": 195,
+      "id": 181,
       "start_sec": 2070,
       "speaker": "Brian Sumers",
       "en": "Wait, January in Calgary?",
       "zh": "等等，一月份去卡尔加里？"
     },
     {
-      "id": 196,
-      "start_sec": 2076,
-      "speaker": "Jon Ostrower",
-      "en": "You've been listening to The Air Show, brought to you by the Alaska Hawaiian Airlines pilots. We'd like to thank our sponsor, Upgrade, Inc. Learn more at upgrade.com/flex-pay.",
-      "zh": "感谢收听 The Air Show，本节目由阿拉斯加航空与夏威夷航空的飞行员赞助呈现。感谢我们的赞助商 Upgrade, Inc.。了解更多信息，请访问 upgrade.com/flex-pay。"
-    },
-    {
-      "id": 197,
+      "id": 182,
       "start_sec": 2087,
       "speaker": "Jon Ostrower",
       "en": "If you have suggestions or questions for us, or are interested in sponsoring the podcast, email us at info@theairshowpodcast.com to get in touch.",
       "zh": "如果您有任何建议或疑问，或者有兴趣赞助本播客，欢迎发送邮件至 info@theairshowpodcast.com 与我们联系。"
     },
     {
-      "id": 198,
+      "id": 183,
       "start_sec": 2095,
       "speaker": "Brett Snyder",
       "en": "Leo Duran produced and edited this episode. Our theme music is by Joshua Mosier. Thanks for listening, and we'll be back soon.",
       "zh": "本期节目由 Leo Duran 制作并剪辑。主题音乐由 Joshua Mosier 创作。感谢收听，我们很快再见。"
     },
     {
-      "id": 199,
+      "id": 184,
       "start_sec": 2104,
       "speaker": "Brian Sumers",
       "en": "Let's talk about some airplanes!",

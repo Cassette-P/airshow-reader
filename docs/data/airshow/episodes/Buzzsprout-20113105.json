@@ -80,1746 +80,1676 @@
     },
     {
       "id": 4,
-      "start_sec": 11,
+      "start_sec": 31,
       "speaker": "Brett Snyder",
-      "en": "Brought to you by the Alaska Hawaiian Airlines pilots, who, by the way, just came to a tentative agreement the day before we recorded this.",
-      "zh": "本期节目由阿拉斯加航空和夏威夷航空的飞行员赞助，顺便说一句，就在我们录制节目前一天，他们刚刚达成了一项劳资协议初稿。"
+      "en": "Brian, welcome back.",
+      "zh": "Brian，欢迎回来。"
     },
     {
       "id": 5,
-      "start_sec": 18,
-      "speaker": "Brett Snyder",
-      "en": "So congrats to all.",
-      "zh": "在此向大家表示祝贺。"
-    },
-    {
-      "id": 6,
-      "start_sec": 19,
-      "speaker": "Brett Snyder",
-      "en": "I have no idea if that'll be approved or not by the membership, but hey, this is a big step and a welcome one.",
-      "zh": "我不知道会员们最终是否会投票通过，但无论如何，这是重要且受欢迎的一步。"
-    },
-    {
-      "id": 7,
-      "start_sec": 25,
-      "speaker": "Brian Sumers",
-      "en": "Indeed it is, and I I presume none of this would have happened without their sponsorship of the air show.",
-      "zh": "确实如此，我想如果没有他们对The Air Show的赞助，这一切都不会发生。"
-    },
-    {
-      "id": 8,
-      "start_sec": 31,
-      "speaker": "Brian Sumers",
-      "en": "This episode is also sponsored by Plusgrade and Brian, welcome back.",
-      "zh": "本期节目还得到了Plusgrade的赞助。Brian，欢迎回来。"
-    },
-    {
-      "id": 9,
       "start_sec": 36,
-      "speaker": "Brian Sumers",
+      "speaker": "Brett Snyder",
       "en": "I'm sorry to say it's just you and me this week, so there will be no talk of metal.",
       "zh": "很遗憾这周只有你和我，所以今天不会聊到关于飞机硬体（Metal）的话题。"
     },
     {
-      "id": 10,
+      "id": 6,
       "start_sec": 41,
-      "speaker": "Brett Snyder",
+      "speaker": "Brian Sumers",
       "en": "Very good to hear that, uh, Brett and it is nice to be here.",
       "zh": "很高兴听到这个，Brett，很高兴能来到这里。"
     },
     {
-      "id": 11,
+      "id": 7,
       "start_sec": 44,
-      "speaker": "Brett Snyder",
+      "speaker": "Brian Sumers",
       "en": "I enjoyed the show last week.",
       "zh": "我很享受上周的节目。"
     },
     {
-      "id": 12,
+      "id": 8,
       "start_sec": 46,
-      "speaker": "Brett Snyder",
+      "speaker": "Brian Sumers",
       "en": "You did get something wrong, though.",
       "zh": "不过，你确实说错了一件事。"
     },
     {
-      "id": 13,
+      "id": 9,
       "start_sec": 48,
-      "speaker": "Brett Snyder",
+      "speaker": "Brian Sumers",
       "en": "Ironically enough, it wasn't the part about me buying Finnair loyalty currency with Japanese Yen.",
       "zh": "具有讽刺意味的是，那并不是关于我用日元购买芬航常旅客积分的部分。"
     },
     {
-      "id": 14,
+      "id": 10,
       "start_sec": 56,
-      "speaker": "Brett Snyder",
+      "speaker": "Brian Sumers",
       "en": "That was accurate.",
       "zh": "那部分是准确的。"
     },
     {
-      "id": 15,
+      "id": 11,
       "start_sec": 57,
-      "speaker": "Brett Snyder",
+      "speaker": "Brian Sumers",
       "en": "I think you also mentioned though that I was moderating at a conference.",
       "zh": "我想你还提到我正在某个会议上担任主持人。"
     },
     {
-      "id": 16,
+      "id": 12,
       "start_sec": 61,
-      "speaker": "Brett Snyder",
+      "speaker": "Brian Sumers",
       "en": "I am doing that this week.",
       "zh": "我这周确实在主持。"
     },
     {
-      "id": 17,
+      "id": 13,
       "start_sec": 62,
-      "speaker": "Brett Snyder",
+      "speaker": "Brian Sumers",
       "en": "I'm in New York for the Skift Aviation Conference.",
       "zh": "我正在纽约参加Skift航空论坛。"
     },
     {
-      "id": 18,
+      "id": 14,
       "start_sec": 65,
-      "speaker": "Brett Snyder",
+      "speaker": "Brian Sumers",
       "en": "We will see whether Marty St. George and Nat Pieper will ever, uh, talk to me again after I grill them the next two days.",
       "zh": "我们要看看在经历了接连两天我的连环拷问后，Marty St. George和Nat Pieper以后还会不会理我。"
     },
     {
-      "id": 19,
+      "id": 15,
       "start_sec": 72,
-      "speaker": "Brett Snyder",
+      "speaker": "Brian Sumers",
       "en": "Last week though, Brett, I was in Mexico, and you knew this because you sent me a text before I landed.",
       "zh": "不过上周啊，Brett，我在墨西哥，你知道这一点，因为我在落地前还给你发了短信。"
     },
     {
-      "id": 20,
+      "id": 16,
       "start_sec": 80,
-      "speaker": "Brett Snyder",
+      "speaker": "Brian Sumers",
       "en": "And it said quote, I have exciting news.",
       "zh": "上面写着，引述一下，“我有激动人心的消息。"
     },
     {
-      "id": 21,
+      "id": 17,
       "start_sec": 83,
-      "speaker": "Brett Snyder",
+      "speaker": "Brian Sumers",
       "en": "You are following, uh, Senior Air 722 from Hermosillo, is that how you say it?",
       "zh": "你正在关注来自埃莫西约的Senior Air 722航班，是这么读的吗？"
     },
     {
-      "id": 22,
+      "id": 18,
       "start_sec": 90,
-      "speaker": "Brian Sumers",
+      "speaker": "Brett Snyder",
       "en": "Hermosillo.",
       "zh": "埃莫西约。"
     },
     {
-      "id": 23,
+      "id": 19,
       "start_sec": 91,
-      "speaker": "Brett Snyder",
+      "speaker": "Brian Sumers",
       "en": "Hermosillo, so XASEA will be on the ground, ready for you to enjoy its magnificence.",
       "zh": "埃莫西约，所以注册号为XASEA的飞机将停在地面上，随时准备让您去领略它的壮丽风采。”"
     },
     {
-      "id": 24,
+      "id": 20,
       "start_sec": 100,
-      "speaker": "Brett Snyder",
+      "speaker": "Brian Sumers",
       "en": "That may have been the most bizarre text you've ever sent me.",
       "zh": "这可能你给我发过最诡异的一条短信了。"
     },
     {
-      "id": 25,
+      "id": 21,
       "start_sec": 104,
       "speaker": "Brian Sumers",
       "en": "Hold on, hold on.",
       "zh": "等等，等等。"
     },
     {
-      "id": 26,
+      "id": 22,
       "start_sec": 105,
       "speaker": "Brian Sumers",
       "en": "I have to set the record straight for our listeners who don't have the context.",
       "zh": "我得为那些不了解背景的听众澄清一下事实。"
     },
     {
-      "id": 27,
+      "id": 23,
       "start_sec": 110,
       "speaker": "Brian Sumers",
       "en": "So first of all, I only sent that text once you told me who you're flying down there.",
       "zh": "首先，我只有在听说了你搭乘谁的航班去那里之后才发的那条短信。"
     },
     {
-      "id": 28,
+      "id": 24,
       "start_sec": 116,
       "speaker": "Brian Sumers",
       "en": "So it's not like I'm just generally stalking you on flights and know where you're going at all times.",
       "zh": "所以这并不是说我平时到处跟踪你的航班，时刻知道你去哪里。"
     },
     {
-      "id": 29,
+      "id": 25,
       "start_sec": 121,
       "speaker": "Brian Sumers",
       "en": "So I just want everyone to know that.",
       "zh": "所以我只是想让大家都知道这一点。"
     },
     {
-      "id": 30,
+      "id": 26,
       "start_sec": 123,
       "speaker": "Brian Sumers",
       "en": "Uh, second, yes, I did think you were going straight from Mexico to New York for this gift conference, but I did realize I messed that up.",
       "zh": "第二，是的，我之前以为你是直接从墨西哥去纽约参加这个礼品（Skift）会议，但我后来发现我弄错了。"
     },
     {
-      "id": 31,
+      "id": 27,
       "start_sec": 132,
       "speaker": "Brian Sumers",
       "en": "So my apologies to everyone.",
       "zh": "所以我向大家致歉。"
     },
     {
-      "id": 32,
+      "id": 28,
       "start_sec": 135,
       "speaker": "Brian Sumers",
       "en": "But you are in New York as we record this, which is the city with some of America's most expensive airports.",
       "zh": "但当我们录制这期节目时，你确实身处纽约，这里拥有全美最昂贵的机场。"
     },
     {
-      "id": 33,
+      "id": 29,
       "start_sec": 142,
       "speaker": "Brian Sumers",
       "en": "So I thought this week we could do an episode on how much of a problem these expensive airports are becoming, but also not.",
       "zh": "所以我想本期节目我们可以聊聊这些昂贵的机场正演变成多大的问题，当然也不完全是这样。"
     },
     {
-      "id": 34,
+      "id": 30,
       "start_sec": 150,
       "speaker": "Brian Sumers",
       "en": "Yeah, I am in New York, Brett.",
       "zh": "是的，我在纽约，Brett。"
     },
     {
-      "id": 35,
+      "id": 31,
       "start_sec": 152,
       "speaker": "Brett Snyder",
       "en": "I did fly into New Jersey, no matter what anybody says, the airport is in New Jersey.",
       "zh": "我确实飞到了新泽西，不管别人怎么说，机场就是位于新泽西。"
     },
     {
-      "id": 36,
+      "id": 32,
       "start_sec": 158,
       "speaker": "Brett Snyder",
       "en": "You talk about high cost airports, is Newark what you mean by expensive?",
       "zh": "你提到高成本机场，纽瓦克就是你所指的昂贵机场吗？"
     },
     {
-      "id": 37,
+      "id": 33,
       "start_sec": 163,
       "speaker": "Brian Sumers",
       "en": "That is definitely one of them, yes.",
       "zh": "那绝对是其中之一，是的。"
     },
     {
-      "id": 38,
+      "id": 34,
       "start_sec": 165,
       "speaker": "Brian Sumers",
       "en": "Though, JFK will soon put that one to shame, I think.",
       "zh": "不过，我想JFK不久后就会让它相形见绌。"
     },
     {
-      "id": 39,
+      "id": 35,
       "start_sec": 168,
       "speaker": "Brett Snyder",
       "en": "I think we'll have a good discussion here today, but where do you want to start this? And let let's not start with uh the year was.",
       "zh": "我想我们今天能有一场很好的讨论，但你想从哪里开始呢？而且，咱们别从“那是……年”这种老套路开始。"
     },
     {
-      "id": 40,
+      "id": 36,
       "start_sec": 175,
       "speaker": "Brian Sumers",
       "en": "All right, fine, we don't even need to start with the year.",
       "zh": "好吧，行，我们甚至不需要从年份开始。"
     },
     {
-      "id": 41,
+      "id": 37,
       "start_sec": 178,
       "speaker": "Brian Sumers",
-      "en": "We just need to talk about how air",
-      "zh": "我们只需要聊聊航空业……"
+      "en": "We just need to talk about how airports",
+      "zh": "我们只需要聊聊美国的机场——"
     },
     {
-      "id": 42,
+      "id": 38,
       "start_sec": 180,
-      "speaker": "Jon Ostrower",
-      "en": "ports in the US, and yes, I'm talking about US airports here, specifically, um how they've evolved differently than elsewhere in terms of funding and building.",
-      "zh": "美国的机场——是的，我这里特指美国机场——它们在资金筹措和建设方面的发展历程与其它地方有着怎样的不同。"
+      "speaker": "Brett Snyder",
+      "en": "in the US, and yes, I'm talking about US airports here, specifically, um how they've evolved differently than elsewhere in terms of funding and building.",
+      "zh": "是的，我这里特指美国机场——它们在资金筹措和建设方面的发展历程与其他地方有着怎样的不同。"
     },
     {
-      "id": 43,
+      "id": 39,
       "start_sec": 192,
       "speaker": "Brian Sumers",
       "en": "Yeah, and Brett, are you knocking the Via Ragosa pavilion at LAX, is Tom Bradley Terminal that marvel of modern architecture? I may be the only one here, but I admire Antonio's photo on each visit.",
       "zh": "是的，Brett，你是在吐槽洛杉矶国际机场（LAX）的Tom Bradley国际航站楼那个现代化建筑的奇迹吗？也许我是这里唯一一个每次去参观时都会欣赏Antonio照片的人。"
     },
     {
-      "id": 44,
+      "id": 40,
       "start_sec": 207,
-      "speaker": "Jon Ostrower",
+      "speaker": "Brett Snyder",
       "en": "You are the only one here. In fact, you're probably the only person who's ever called it that. And yes, I will knock that because it's totally unnecessary and expensive.",
       "zh": "你确实是这里唯一的一个。事实上，你可能是唯一一个这么称呼它的人。是的，我要吐槽这一点，因为这完全没必要而且造价昂贵。"
     },
     {
-      "id": 45,
+      "id": 41,
       "start_sec": 217,
       "speaker": "Brian Sumers",
       "en": "We know why we don't have airports like Singapore, Seoul and Doha in the United States. If we built those in the United States because they're so expensive, we'd be looking at hundreds of dollars per passenger that airlines would have to pay.",
       "zh": "我们知道为什么美国没有像新加坡、首尔和多哈那样的高端机场。如果我们在美国建造那样的大型机场，因为它们太贵了，我们将不得不面对每位旅客数百美元的机场建设费，航司将不得不为此买单。"
     },
     {
-      "id": 46,
+      "id": 42,
       "start_sec": 233,
       "speaker": "Brian Sumers",
       "en": "Amazingly, those airports abroad, uh the very cool ones, they're closer to $15 a passenger, but of course, they get a lot of uh outside help, shall we say?",
       "zh": "神奇的是，那些国外的机场——那些非常酷的机场——它们的人均机场费用接近15美元，但当然，它们得到了很多外部援助，我们可以这么说吗？"
     },
     {
-      "id": 47,
+      "id": 43,
       "start_sec": 243,
-      "speaker": "Jon Ostrower",
+      "speaker": "Brett Snyder",
       "en": "They do, and I think the $15 number is right. They don't report CPE uh cost per employment the way we do in the US. But yeah, funding comes from a completely different place and has many different options. There are big subsidies, and they also have the ability to shift more onto the passenger themselves uh directly as opposed to the US.",
       "zh": "确实如此，而且我觉得15美元这个数字是准确的。它们不像我们在美国那样报告每登机旅客成本（CPE）这类指标。但话又说回来，资金来源完全不同，而且有很多不同的选项。不仅有大笔补贴，它们还将更多成本直接转嫁给旅客，这与美国有所不同。"
     },
     {
-      "id": 48,
+      "id": 44,
       "start_sec": 265,
       "speaker": "Brian Sumers",
       "en": "So we do things differently here in many, many ways, but let's not get into the other ones. How do we fund airports here in the United States, Brett?",
       "zh": "所以我们在很多很多方面都有着不同的做法，但我们先不扯远。Brett，我们在美国究竟是如何为机场筹措资金的呢？"
     },
     {
-      "id": 49,
+      "id": 45,
       "start_sec": 274,
-      "speaker": "Jon Ostrower",
+      "speaker": "Brett Snyder",
       "en": "All right, Brian, strap in. This is going to be a perilous journey.",
       "zh": "好吧，Brian，坐稳了。这将是一趟充满危险的旅程。"
     },
     {
-      "id": 50,
+      "id": 46,
       "start_sec": 279,
       "speaker": "Brian Sumers",
       "en": "You are such a nerd, Brett.",
       "zh": "你可真是个书呆子，Brett。"
     },
     {
-      "id": 51,
+      "id": 47,
       "start_sec": 281,
-      "speaker": "Jon Ostrower",
+      "speaker": "Brett Snyder",
       "en": "Yes, I am. Thank you. Uh, but first, uh a little caveat here. I just want to say, I'm going with a general explanation of how airport funding works in the US. Not every airport is the same. We get it. You don't need to email us. We I mean, you're welcome to email us, but you get the idea here.",
       "zh": "是的，我是。谢谢。不过首先，先做个小小的申明。我只是想对美国机场资金筹措机制做一个总体解释。并非每个机场的情况都完全相同。我们懂的，你们不用特意发邮件来纠正。当然，发邮件也欢迎，但你们懂我意思就行。"
     },
     {
-      "id": 52,
+      "id": 48,
       "start_sec": 298,
       "speaker": "Brian Sumers",
       "en": "We do get some angry emails from time to time if we make a mistake.",
       "zh": "如果我们犯了错，偶尔确实会收到一些愤怒的邮件。"
     },
     {
-      "id": 53,
+      "id": 49,
       "start_sec": 302,
-      "speaker": "Jon Ostrower",
+      "speaker": "Brett Snyder",
       "en": "Occasionally we do. But in general, in the US, airports uh operate in their own bubbles. Even ones like Long Beach in my backyard, which is technically a city department, it's just part of the city.",
       "zh": "偶尔确实会有。但总体而言，在美国，机场都在各自的“小环境”中运营。哪怕像我后院的长滩机场（Long Beach），它在技术上属于一个城市部门，仅仅是城市的一部分。"
     },
     {
-      "id": 54,
+      "id": 50,
       "start_sec": 316,
-      "speaker": "Jon Ostrower",
+      "speaker": "Brett Snyder",
       "en": "Um, but money that comes into an airport stays in the airport. And while cities can subsidize airport projects if they want, uh airports don't usually raise money that's backed by the general tax base. It's it's really more of a walled garden at the airport.",
       "zh": "不过，进入机场的资金都会留在机场内部。虽然城市如果有意愿的话也可以补贴机场项目，但机场通常不会筹集由一般税基担保的资金。机场在财务上其实更像是一个封闭的花园。"
     },
     {
-      "id": 55,
+      "id": 51,
       "start_sec": 333,
       "speaker": "Brian Sumers",
       "en": "That part is is true, Brett, but but what about the federal trust fund? Isn't that funded by taxes?",
       "zh": "那部分确实如此，Brett，但是联邦信托基金呢？那个难道不是靠税收资助的吗？"
     },
     {
-      "id": 56,
+      "id": 52,
       "start_sec": 340,
-      "speaker": "Jon Ostrower",
+      "speaker": "Brett Snyder",
       "en": "Ah, yes, the airport and airway trust fund. Yes, it is. But those are aviation specific taxes. So that comes from the seven and a half percent excise tax that's buried in the fare. Those who fly are the ones who are paying into that fund, right?",
       "zh": "啊，是的，机场和航路信托基金。是的，确实如此。但这些都是航空专属税收。所以这来自于机票中包含的7.5%的消费税。乘机出行的旅客才是向该基金缴款的人，对吧？"
     },
     {
-      "id": 57,
+      "id": 53,
       "start_sec": 355,
       "speaker": "Brian Sumers",
       "en": "So it's more of a sales tax.",
       "zh": "所以它更像是一种销售税。"
     },
     {
-      "id": 58,
+      "id": 54,
       "start_sec": 357,
-      "speaker": "Jon Ostrower",
-      "en": "Yes, it is a sales tax. You have to buy a plane ticket.",
+      "speaker": "Brett Snyder",
+      "en": "Yes, it is a sales tax. You have to buy a plane ticket",
       "zh": "是的，它确实是一种销售税。你必须买一张机票才能产生。"
     },
     {
-      "id": 59,
+      "id": 55,
       "start_sec": 360,
-      "speaker": "Jon Ostrower",
-      "en": "get to pay into that. And then the money that's there though, it goes to a lot of things including funding air traffic control. It's it's you know, it's just generally how the government funds what it has to do in aviation.",
-      "zh": "会被投入其中。随后留存的资金则会被用于许多方面，包括资助航空交通管制。你知道的，这基本上就是政府资助其在航空领域必须开展工作的方式。"
+      "speaker": "Brett Snyder",
+      "en": "to pay into that. And then the money that's there though, it goes to a lot of things including funding air traffic control. It's it's you know, it's just generally how the government funds what it has to do in aviation.",
+      "zh": "才能缴费注入这项基金。随后留存的资金则会被用于许多方面，包括资助航空交通管制。你知道的，这基本上就是政府资助其在航空领域必须开展工作的方式。"
     },
     {
-      "id": 60,
+      "id": 56,
       "start_sec": 372,
-      "speaker": "Jon Ostrower",
+      "speaker": "Brett Snyder",
       "en": "Um, but specific to airports, it does also fund the airport improvement program or the AIP, where they'll have money to airports that are in the national aviation system.",
       "zh": "嗯，但对于机场而言，它还资助机场改进计划（AIP），向处于国家航空系统中的机场提供资金。"
     },
     {
-      "id": 61,
+      "id": 57,
       "start_sec": 382,
-      "speaker": "Jon Ostrower",
+      "speaker": "Brett Snyder",
       "en": "It goes to a lot of like airfield projects, runway and taxiway rebuilding and things like that as an example.",
       "zh": "资金会被用于许多机场场道项目，例如跑道和滑行道的重建以及类似的项目。"
     },
     {
-      "id": 62,
+      "id": 58,
       "start_sec": 389,
-      "speaker": "Jon Ostrower",
+      "speaker": "Brett Snyder",
       "en": "They're not really big money though to do these things. These are smaller types of projects. So I looked at the the seven grant lists that have been announced in 2026 for the AIP so far.",
       "zh": "不过，用来做这些事情的资金其实算不上巨额资金。这些都是规模较小的项目。因此我查看了目前已公布的2026年AIP七批次补助名单。"
     },
     {
-      "id": 63,
+      "id": 59,
       "start_sec": 402,
-      "speaker": "Jon Ostrower",
+      "speaker": "Brett Snyder",
       "en": "There have been 1,513 grants for a total of $3.86 billion.",
       "zh": "共有1,513笔补助，总额达38.6亿美元。"
     },
     {
-      "id": 64,
+      "id": 60,
       "start_sec": 409,
       "speaker": "Brian Sumers",
       "en": "That number sounds like a lot, uh, but let's do some very basic math here. We have more than 1500 airports.",
       "zh": "这个数字听起来很大，但我们来做个非常基础的算术。我们有1500多个机场。"
     },
     {
-      "id": 65,
+      "id": 61,
       "start_sec": 416,
       "speaker": "Brian Sumers",
       "en": "So we're looking at $2.5 million for each airport. Not really enough money for significant construction.",
       "zh": "所以平均下来每个机场大约只有250万美元。这对于大规模建设来说，资金显然远远不够。"
     },
     {
-      "id": 66,
+      "id": 62,
       "start_sec": 424,
-      "speaker": "Jon Ostrower",
+      "speaker": "Brett Snyder",
       "en": "No, it's not. But the grant amounts do vary. Um, but still the biggest one that I could find this year was just shy of 65 million to Boise to rebuild a runway and then do some visual guidance system work.",
       "zh": "不，确实不够。不过补助金额确实有所不同。嗯，但我今年能找到的最大的一笔补助是接近6500万美元，用于博伊西（Boise）重建跑道并开展一些目视引导系统工程。"
     },
     {
-      "id": 67,
+      "id": 63,
       "start_sec": 436,
-      "speaker": "Jon Ostrower",
+      "speaker": "Brett Snyder",
       "en": "And the smallest was $25,000 to Iowa Falls Municipal to expand the terminal access road.",
       "zh": "而最小的一笔是向爱荷华福尔斯市立机场（Iowa Falls Municipal）提供25,000美元，用于拓宽航站楼进场道路。"
     },
     {
-      "id": 68,
+      "id": 64,
       "start_sec": 443,
-      "speaker": "Brett Snyder",
+      "speaker": "Brian Sumers",
       "en": "Brett, let's put you on the spot here. This answer is not in the outline that I'm looking at. Iowa Falls Municipal, what's the airport code?",
       "zh": "Brett，我们现在来考考你。这个答案不在我看到的提纲里。爱荷华福尔斯市立机场，机场代码是什么？"
     },
     {
-      "id": 69,
+      "id": 65,
       "start_sec": 451,
-      "speaker": "Jon Ostrower",
+      "speaker": "Brett Snyder",
       "en": "I have no idea. I think it's just a general aviation airport.",
       "zh": "我完全不知道。我想它只是一座通用航空机场。"
     },
     {
-      "id": 70,
+      "id": 66,
       "start_sec": 455,
       "speaker": "Brian Sumers",
       "en": "Okay. It is. It's a general aviation. It's IFA, I looked it up. Thank you for sharing that.",
       "zh": "好吧。确实如此。这是一座通用航空机场。代码是IFA，我查过了。谢谢你分享这个。"
     },
     {
-      "id": 71,
+      "id": 67,
       "start_sec": 459,
-      "speaker": "Jon Ostrower",
+      "speaker": "Brett Snyder",
       "en": "Sure. But it that is another important point though. This also goes to general aviation airports. It's not just for commercial airports. This fund is for the entire national aviation system.",
       "zh": "当然。但这也是另一个重点。这笔资金同样流向通用航空机场，不仅仅局限于商业机场。该基金服务于整个国家航空系统。"
     },
     {
-      "id": 72,
+      "id": 68,
       "start_sec": 468,
       "speaker": "Brian Sumers",
       "en": "Right. And beyond that, uh, you made it clear this is not even about massive terminal projects, or really terminal projects in general.",
       "zh": "没错。除此之外，你刚才也讲得很清楚，这甚至不涉及庞大的航站楼项目，或者说广义上的航站楼项目。"
     },
     {
-      "id": 73,
+      "id": 69,
       "start_sec": 476,
       "speaker": "Brian Sumers",
       "en": "Uh, some of the ones you mentioned, they're about keeping the airfield safe and functioning.",
       "zh": "嗯，你提到的一些项目，主要是为了保持机场飞行区的安全与正常运转。"
     },
     {
-      "id": 74,
+      "id": 70,
       "start_sec": 480,
-      "speaker": "Jon Ostrower",
+      "speaker": "Brett Snyder",
       "en": "Yeah, there's a little bit of terminal work, but they're not big.",
       "zh": "对，会有少量的航站楼工程，但规模都不大。"
     },
     {
-      "id": 75,
+      "id": 71,
       "start_sec": 483,
       "speaker": "Brian Sumers",
       "en": "My favorite airport, the one closest to my house, I'd like to see more transcontinental flights, but that's neither here nor there.",
       "zh": "我最喜欢的机场是离我家最近的那座，我很希望能看到更多越洋大陆航班，不过这倒无所谓。"
     },
     {
-      "id": 76,
+      "id": 72,
       "start_sec": 490,
       "speaker": "Brian Sumers",
       "en": "Burbank just built a new, fairly basic terminal, very quickly, I should say, and the cost was a little bit over a billion dollars.",
       "zh": "伯班克（Burbank）刚刚建了一座全新的、相当基础的航站楼，而且我得说进度非常快，成本略超10亿美元。"
     },
     {
-      "id": 77,
+      "id": 73,
       "start_sec": 499,
       "speaker": "Brian Sumers",
       "en": "Sounds like a lot, but actually quite cheap in the realm of new airport terminals.",
       "zh": "听起来好像很多，但在新建机场航站楼的领域里其实相当便宜。"
     },
     {
-      "id": 78,
+      "id": 74,
       "start_sec": 505,
       "speaker": "Brian Sumers",
       "en": "So, this money isn't going to go very far.",
       "zh": "所以，这点钱可撑不了多久。"
     },
     {
-      "id": 79,
+      "id": 75,
       "start_sec": 507,
       "speaker": "Brett Snyder",
       "en": "Right. And it's not supposed to. The money's not supposed to fund these big projects, that there are other mechanisms for doing that kind of thing.",
       "zh": "没错。而且它本来也不是干这个的。这笔资金本就不应该用来资助这些大项目，会有其他机制来处理这类事情。"
     },
     {
-      "id": 80,
+      "id": 76,
       "start_sec": 515,
       "speaker": "Brian Sumers",
       "en": "Yeah, when is the passenger facility charge, what we call the PFC? Those are attached to our tickets.",
       "zh": "对，那旅客设施费（PFC）是什么时候设立的？这些费用都是附加在我们的机票上的。"
     },
     {
-      "id": 81,
+      "id": 77,
       "start_sec": 523,
       "speaker": "Brian Sumers",
       "en": "How did that come about, Brett?",
       "zh": "Brett，这到底是怎么来的？"
     },
     {
-      "id": 82,
+      "id": 78,
       "start_sec": 525,
-      "speaker": "Jon Ostrower",
+      "speaker": "Brett Snyder",
       "en": "The year was 1990.",
       "zh": "那是1990年。"
     },
     {
-      "id": 83,
+      "id": 79,
       "start_sec": 528,
       "speaker": "Brian Sumers",
       "en": "I'm I'm just walking out of the recording. You can't do that. Nobody wants to hear that. No.",
       "zh": "我……我正准备离开录音室。你不能这样，没人想听这个。不。"
     },
     {
-      "id": 84,
+      "id": 80,
       "start_sec": 534,
-      "speaker": "Jon Ostrower",
+      "speaker": "Brett Snyder",
       "en": "Too late. It's already done.",
       "zh": "太迟了。已经录进去了。"
     },
     {
-      "id": 85,
+      "id": 81,
       "start_sec": 536,
-      "speaker": "Jon Ostrower",
+      "speaker": "Brett Snyder",
       "en": "But that was actually we could go back further because I didn't",
       "zh": "但实际上我们还可以追溯得更远，因为我没"
     },
     {
-      "id": 86,
+      "id": 82,
       "start_sec": 540,
-      "speaker": "Jon Ostrower",
+      "speaker": "Brett Snyder",
       "en": "realize this, but when I was doing some research for the show, it turns out that Congress actually had something before deregulation that prevented airports from putting passenger taxes on travelers, which is fascinating to me. But you know, 1990, we're in a different world and so that's when the PFC was born.",
       "zh": "大家可能没意识到这一点，我在为节目做研究时发现，在放松管制之前，美国国会其实通过了一项法案，禁止机场向旅客征收客运服务费（PFC），这让我觉得非常着迷。但你知道，1990年时我们身处一个不同的世界，也就是在那个时候，PFC诞生了。"
     },
     {
-      "id": 87,
+      "id": 83,
       "start_sec": 558,
-      "speaker": "Jon Ostrower",
+      "speaker": "Brett Snyder",
       "en": "It could be up to $3 per person per departure. And it was charged on the ticket, but it was broken out for passengers to see where the money was going. The first one went into place in 1992.",
       "zh": "当时每人每次出发的费用最高可达3美元。这笔费用会显示在机票上，但会被单独列出，以便旅客了解资金的去向。第一个PFC项目于1992年正式实施。"
     },
     {
-      "id": 88,
+      "id": 84,
       "start_sec": 570,
-      "speaker": "Jon Ostrower",
+      "speaker": "Brett Snyder",
       "en": "But there was a tradeoff here. So if airports put a PFC in place, they would get less of the AIP money. So it only makes sense to put a PFC in place if you have enough passengers to justify it.",
       "zh": "但这其中存在一个权衡。如果机场决定征收PFC，他们获得的机场改善计划（AIP）资金就会减少。因此，只有在拥有足够客流量来支撑的情况下，设立PFC才划算。"
     },
     {
-      "id": 89,
+      "id": 85,
       "start_sec": 581,
       "speaker": "Brian Sumers",
       "en": "Right, and then in 2000, the government raised the cap to $4.50 per passenger.",
       "zh": "没错，然后在2000年，政府将上限提高到了每位旅客4.50美元。"
     },
     {
-      "id": 90,
+      "id": 86,
       "start_sec": 586,
-      "speaker": "Jon Ostrower",
+      "speaker": "Brett Snyder",
       "en": "Yes, and that was 26 years ago and nothing has changed. It's still for well, okay, a lot has changed. But think about construction costs and what's happened there and everything else. Airport still can't collect more than $4.50 a person.",
       "zh": "是的，那已经是26年前的事了，至今没有任何改变。它仍然……好吧，其实很多事情都变了。但想想建设成本以及那里的变化和其他一切，机场仍然不能向每人收取超过4.50美元的费用。"
     },
     {
-      "id": 91,
+      "id": 87,
       "start_sec": 602,
       "speaker": "Brian Sumers",
       "en": "I'm curious, Brett, $4.50, not very much. There are some airports that have chosen not even to charge that much, right? Who are those airports? Why would they do that?",
       "zh": "我很好奇，Brett，4.50美元确实不多。有些机场甚至选择不收取那么高的费用，对吧？有哪些机场？他们为什么会这么做？"
     },
     {
-      "id": 92,
+      "id": 88,
       "start_sec": 613,
-      "speaker": "Jon Ostrower",
+      "speaker": "Brett Snyder",
       "en": "There are very few. So there are currently 366 airports that charge a PFC as I counted. And it looks like of those six of them don't charge the maximum. Do you want to guess which ones they are?",
       "zh": "数量非常少。据我统计，目前共有366个机场征收PFC。在这些机场中，似乎有6个没有收取最高标准。你想猜猜是哪几个吗？"
     },
     {
-      "id": 93,
+      "id": 89,
       "start_sec": 628,
-      "speaker": "Brett Snyder",
+      "speaker": "Brian Sumers",
       "en": "No, Brett, I don't.",
       "zh": "不，Brett，我不想猜。"
     },
     {
-      "id": 94,
+      "id": 90,
       "start_sec": 629,
-      "speaker": "Jon Ostrower",
+      "speaker": "Brett Snyder",
       "en": "Okay, didn't think so. But they are Orlando Sanford, the alternate airport there, that's at $4.",
       "zh": "好吧，我也觉得你不会猜。但它们是奥兰多桑福德机场（那个备降机场），收费是4美元。"
     },
     {
-      "id": 95,
+      "id": 91,
       "start_sec": 636,
       "speaker": "Brian Sumers",
       "en": "Allegiant must love that.",
       "zh": "忠实航空（Allegiant）肯定爱死这个了。"
     },
     {
-      "id": 96,
+      "id": 92,
       "start_sec": 638,
-      "speaker": "Jon Ostrower",
+      "speaker": "Brett Snyder",
       "en": "I bet they wish it was less. Then uh Anchorage, Fort Walton Beach in Florida, Hyannis in Massachusetts,",
       "zh": "我敢打赌他们希望费用更低。然后是安克雷奇、佛罗里达州的沃尔顿堡滩、马萨诸塞州的海恩尼斯，"
     },
     {
-      "id": 97,
+      "id": 93,
       "start_sec": 645,
-      "speaker": "Jon Ostrower",
+      "speaker": "Brett Snyder",
       "en": "Massena in New York. I'm not even sure how to say that and someone's going to send me a nasty gram. Uh and then Santa Fe, New Mexico, those are all still at $3.",
       "zh": "以及纽约州的马塞纳。我甚至不确定这个词怎么念，估计又有人要给我发气人的信了。然后是新墨西哥州的圣达菲，这些地方的收费都仍然是3美元。"
     },
     {
-      "id": 98,
+      "id": 94,
       "start_sec": 655,
       "speaker": "Brian Sumers",
       "en": "Never been to any of those places.",
       "zh": "这些地方我从来都没去过。"
     },
     {
-      "id": 99,
+      "id": 95,
       "start_sec": 657,
-      "speaker": "Jon Ostrower",
+      "speaker": "Brett Snyder",
       "en": "No, well you're missing out on Anchorage, but I haven't been to the others. Uh I guess they just don't need the money. They're happy with what they have. Uh but the one that was the most interesting was Charlotte, cuz Charlotte was at $3 until 2024 when it went up.",
       "zh": "不，那你可错过安克雷奇了，不过其他地方我也没去过。我想他们只是不需要这笔钱吧，对现状挺满意的。不过最有趣的是夏洛特，因为夏洛特在2024年涨价之前，收费一直都是3美元。"
     },
     {
-      "id": 100,
+      "id": 96,
       "start_sec": 669,
-      "speaker": "Jon Ostrower",
+      "speaker": "Brett Snyder",
       "en": "And so you would find when you were looking at pricing that American flights to Charlotte would be a $1.50 less than going through another hub. Uh that is now erased, but it it made for some interesting sorting behavior.",
       "zh": "因此你会发现，在查看价格时，美航飞往夏洛特的航班会比经由其他枢纽中转便宜1.50美元。现在这个差价已经没有了，但这曾引发了一些有趣的机票比价行为。"
     },
     {
-      "id": 101,
+      "id": 97,
       "start_sec": 682,
       "speaker": "Brian Sumers",
       "en": "Let's do some math here. In 2025, LAX had about 36.5 million departing passengers.",
       "zh": "我们来算笔账。2025年，洛杉矶国际机场（LAX）大约有3650万名出发旅客。"
     },
     {
-      "id": 102,
+      "id": 98,
       "start_sec": 689,
       "speaker": "Brian Sumers",
       "en": "So at best, it pulled in about 165 million in PFC money.",
       "zh": "因此按最佳情况计算，它大约筹集了1.65亿美元的PFC资金。"
     },
     {
-      "id": 103,
+      "id": 99,
       "start_sec": 694,
-      "speaker": "Jon Ostrower",
+      "speaker": "Brett Snyder",
       "en": "Yeah, and even that's high, cuz not everyone pays a PFC. For example, if you have more than one stop per direction, you only get charged on the first two departures.",
       "zh": "对，而且这还是按高估算的，因为并非每个人都支付PFC。例如，如果你的单程有多次中转，你通常只在前两次出发时被收费。"
     },
     {
-      "id": 104,
+      "id": 100,
       "start_sec": 703,
-      "speaker": "Jon Ostrower",
+      "speaker": "Brett Snyder",
       "en": "And the airlines also actually keep a 2% as well for it's like a handling fee. So it's going to be even less than that.",
       "zh": "而且航司实际上还会保留2%作为手续费。所以实际到手的金额会比这还要少。"
     },
     {
-      "id": 105,
+      "id": 101,
       "start_sec": 711,
       "speaker": "Brian Sumers",
       "en": "I did not know about that 2%.",
       "zh": "我还真不知道有这2%的手续费。"
     },
     {
-      "id": 106,
+      "id": 102,
       "start_sec": 713,
-      "speaker": "Jon Ostrower",
+      "speaker": "Brett Snyder",
       "en": "I didn't either. I just found that out. It's fascinating.",
       "zh": "我以前也不知道，刚查到的。太有意思了。"
     },
     {
-      "id": 107,
+      "id": 103,
       "start_sec": 716,
       "speaker": "Brian Sumers",
-      "en": "It doesn't matter in the grand scheme of things. The point is that 165",
-      "zh": "从宏观角度来看这并不重要。重点在于这1.65亿……"
+      "en": "It doesn't matter in the grand scheme of things. The point is that $165 million",
+      "zh": "从宏观角度来看这并不重要。重点在于这1.65亿美元——"
     },
     {
-      "id": 108,
+      "id": 104,
       "start_sec": 720,
-      "speaker": "Jon Ostrower",
-      "en": "5 million at a very, very busy airport in the United States is not going to fund any of these billion dollar plus projects. You can save it for several years and even that's not enough.",
-      "zh": "在美国一个非常、非常繁忙的机场，500万资金根本无法资助任何这些数十亿美元以上的项目。你可以把它存上好几年，即便如此也远远不够。"
+      "speaker": "Brett Snyder",
+      "en": "at a very, very busy airport in the United States is not going to fund any of these billion dollar plus projects. You can save it for several years and even that's not enough.",
+      "zh": "放在美国一座极其繁忙的大型机场里，根本不足以支撑任何动辄数十亿美元的基建项目。哪怕攒上好几年，也依然远远不够。"
     },
     {
-      "id": 109,
+      "id": 105,
       "start_sec": 731,
       "speaker": "Brian Sumers",
       "en": "That is true. But there are projects that are that are happening, right? So where does the rest of the money come from?",
       "zh": "确实如此。但确实有一些项目正在进行中，对吧？那其余的资金从哪里来呢？"
     },
     {
-      "id": 110,
+      "id": 106,
       "start_sec": 737,
-      "speaker": "Jon Ostrower",
+      "speaker": "Brett Snyder",
       "en": "Usually bonds, actually. I just have to mention there was the temporary five-year surge from the infrastructure bill in the Biden administration, but that was more like the AIP. So, it's bonds pretty much is where this goes.",
       "zh": "实际上通常是债券。我不得不提一下，拜登政府的基础设施法案曾带来为期五年的临时资金激增，但这更类似于机场改进计划（AIP）。所以，这笔资金基本上是通过发债解决的。"
     },
     {
-      "id": 111,
+      "id": 107,
       "start_sec": 750,
       "speaker": "Brian Sumers",
       "en": "And then how do these bonds work? We know there's really no tax money used to pay for this.",
       "zh": "那么这些债券是如何运作的呢？我们知道这其中并没有使用税收资金来支付。"
     },
     {
-      "id": 112,
+      "id": 108,
       "start_sec": 755,
-      "speaker": "Jon Ostrower",
+      "speaker": "Brett Snyder",
       "en": "Mostly. So, there are some small airports, especially general aviation ones that may rely on tax revenues, they use general obligation bonds, but for big airport projects, the usual suspect is what is called the general airport revenue bond or GARB.",
       "zh": "大部分是这样。所以，有一些小型机场，尤其是通用航空机场，可能会依赖税收收入，它们使用的是一般责任债券。但对于大型机场项目，最常见的嫌疑人就是所谓的机场一般收益债券，简称GARB。"
     },
     {
-      "id": 113,
+      "id": 109,
       "start_sec": 771,
-      "speaker": "Jon Ostrower",
+      "speaker": "Brett Snyder",
       "en": "These are issued, um, well, okay, based on airport revenues, named kind of explains that for you. But, uh, the good news for the airlines, these are tax-exempt bonds.",
       "zh": "这些债券的发行，嗯，好吧，是基于机场收入的，名字本身就为你解释了这一点。不过，对航司来说的好消息是，这些都是免税债券。"
     },
     {
-      "id": 114,
+      "id": 110,
       "start_sec": 781,
-      "speaker": "Jon Ostrower",
+      "speaker": "Brett Snyder",
       "en": "Can I just say something to any of the airport bureaucrats that are listening here or just overall bureaucrats, not everything needs to be an acronym.",
       "zh": "我能对在听节目的任何机场官僚或者整体上的官僚们说句话吗，并非每件事都需要缩写。"
     },
     {
-      "id": 115,
+      "id": 111,
       "start_sec": 791,
       "speaker": "Brett Snyder",
       "en": "Garb. But GARBs are interesting. Uh, I I read uh before this show that interest rates on GARBs are higher. So, why do airports like them?",
       "zh": "GARB。但GARB很有意思。我在这档节目之前读到过，GARB的利率更高。那么，为什么机场会喜欢它们呢？"
     },
     {
-      "id": 116,
+      "id": 112,
       "start_sec": 802,
       "speaker": "Brian Sumers",
       "en": "Well, there are a lot of reasons actually. So, for one, these are big projects, right? And it requires a lot of debt to do them. So, some cities would actually have trouble raising all this money. Uh, and if they did, then it would really hurt their ability to borrow for everything else they need in the city.",
       "zh": "嗯，实际上有很多原因。首先，这些都是大项目，对吧？完成这些项目需要大量的债务。因此，一些城市实际上很难筹集到这么多资金。而且，如果他们真这么做了，那将严重损害他们在城市中借贷以应付其他所有需求的能力。"
     },
     {
-      "id": 117,
+      "id": 113,
       "start_sec": 819,
       "speaker": "Brian Sumers",
       "en": "So, with a GARB, you can tie that directly to airport revenue, it frees up borrowing capacity for them. Also, it's a lot easier to put together a GARB, you don't need voter approval to issue bonds, uh, things like that. We all just voted on several of those here in California, you know, this this makes it easier.",
       "zh": "因此，有了GARB，你可以将其直接与机场收入挂钩，这释放了他们的借贷能力。此外，组装一个GARB要容易得多，发行债券不需要选民批准之类的。我们大家刚刚在加州就投了好几项这样的票，你知道的，这让事情变得更容易了。"
     },
     {
-      "id": 118,
+      "id": 114,
       "start_sec": 838,
       "speaker": "Brian Sumers",
       "en": "Also, not everyone locally flies, right? So GARBs are just more appealing in general because they're backed by the revenues from the people who do travel. So it's a much easier sell to constituents politically as well.",
       "zh": "另外，并不是当地每个人都坐飞机，对吧？所以GARB总的来说更具吸引力，因为它们是由实际出行的人所产生的收入作担保的。因此，从政治上讲，向选民推销这也容易得多。"
     },
     {
-      "id": 119,
+      "id": 115,
       "start_sec": 850,
-      "speaker": "Brett Snyder",
+      "speaker": "Brian Sumers",
       "en": "This sounds like a great idea, Brett. As long as revenues go up. But what happens if revenues go down?",
       "zh": "听起来是个好主意，Brett。只要收入一直在涨就行。但如果收入下降了会发生什么？"
     },
     {
-      "id": 120,
+      "id": 116,
       "start_sec": 856,
       "speaker": "Brian Sumers",
       "en": "Well, that's another reason for using GARBs, it's also probably why interest rates are higher, um, because they can't hit the local tax base.",
       "zh": "嗯，这也是使用GARB的另一个原因，这也可能是为什么利率更高，嗯，因为它们无法动用地方税基。"
     },
     {
-      "id": 121,
+      "id": 117,
       "start_sec": 865,
       "speaker": "Brian Sumers",
       "en": "So, since the bonds are only repaid by airport revenue, if the airport revenue goes down, it's the bondholders who take the hit, not the constituents.",
       "zh": "所以，既然债券只能由机场收入偿还，如果机场收入下降，承担损失的是债券持有人，而不是选民。"
     },
     {
-      "id": 122,
+      "id": 118,
       "start_sec": 876,
       "speaker": "Brian Sumers",
       "en": "And I could only find one airport that has defaulted on a GARB, and that was the what I would call a weird case in Branson.",
       "zh": "而且我只发现了一个对GARB违约的机场，那就是我所谓的布兰森（Branson）的一个奇怪案例。"
     },
     {
-      "id": 123,
+      "id": 119,
       "start_sec": 885,
       "speaker": "Brian Sumers",
       "en": "Branson was privately built, brand new airport, they cut off the top of a mountain, actually pretty cool. But it didn't work and airlines didn't flock there and whatever. But that's an outlier, that's very different than a place that you can imagine",
       "zh": "布兰森是由私人建造的全新机场，他们削平了一座山的山顶，其实挺酷的。但它没有成功，航司也没有蜂拥而至诸如此类的。但那是一个特例，这与你可以想象的那些地方非常不同。"
     },
     {
-      "id": 124,
+      "id": 120,
       "start_sec": 900,
-      "speaker": "Jon Ostrower",
+      "speaker": "Brett Snyder",
       "en": "you know, maybe traffic fluctuates up and down, but ultimately it's not going to disappear in most places and and there are ways to recover that.",
       "zh": "你知道，也许客流量会有所起伏，但在大多数地方它终究不会消失，而且总有办法恢复这些损失。"
     },
     {
-      "id": 125,
+      "id": 121,
       "start_sec": 907,
       "speaker": "Brian Sumers",
       "en": "Could you excuse me for a moment? I would just like to uh call my broker and place an order for garbs.",
       "zh": "能失陪一会儿吗？我只想给我的经纪人打个电话，下单买点垃圾债券。"
     },
     {
-      "id": 126,
+      "id": 122,
       "start_sec": 913,
-      "speaker": "Jon Ostrower",
+      "speaker": "Brett Snyder",
       "en": "Go right ahead. Sounds like a nice investment.",
       "zh": "请便。听起来是个不错的投资。"
     },
     {
-      "id": 127,
+      "id": 123,
       "start_sec": 916,
       "speaker": "Brian Sumers",
       "en": "It is, but the airlines I mean the problem is when revenues go down at an airport, there are probably fewer passengers, the airlines are the ones that have to make up the difference. They're the ones who are paying into this, and so, you know,",
       "zh": "确实是，但航司的——我是说问题在于，当机场收入下降时，可能意味着旅客减少，而航司才是必须填补这一差额的主体。他们是掏钱填补这个窟窿的人，所以，你懂的。"
     },
     {
-      "id": 128,
+      "id": 124,
       "start_sec": 933,
-      "speaker": "Jon Ostrower",
+      "speaker": "Brett Snyder",
       "en": "Exactly, like the debt has to be paid. So the costs are going to go out and be spread out to the rate base. So if you drop from say 36 million to 30 million passengers, it's going to get a lot more expensive per passenger. Of course, passengers don't actually pay this, the airlines do.",
       "zh": "没错，这笔债务必须偿还。因此成本将会外溢并摊派到费率基数中。所以如果你从比如说3600万旅客跌至3000万，每个旅客分摊的成本就会高得多。当然，实际上付钱的不是旅客，而是航司。"
     },
     {
-      "id": 129,
+      "id": 125,
       "start_sec": 952,
-      "speaker": "Jon Ostrower",
+      "speaker": "Brett Snyder",
       "en": "So the airlines have to absorb that cost. And they hate that because they can't necessarily raise fares just to cover that. I mean they they can try, but it doesn't usually work that way. They just end up having to take it out of their their profits.",
       "zh": "因此航司必须承担这笔成本。他们对此深恶痛绝，因为他们无法仅仅为了弥补这一点而随意提高票价。我是说他们可以尝试，但通常行不通。他们最后只能从利润中把这笔钱扣除。"
     },
     {
-      "id": 130,
+      "id": 126,
       "start_sec": 966,
       "speaker": "Brian Sumers",
       "en": "And I think that's why we have such a funding problem here in the United States. For sure. So, you know, let's say an airport wants to build a $5 billion project or as JFK calls, a small project.",
       "zh": "我想这也是为什么我们在美国会有如此严重的资金问题。确实如此。所以，比如说，假设某个机场想建一个50亿美元的项目，或者按JFK机场的标准来说，这只是个“小项目”。"
     },
     {
-      "id": 131,
+      "id": 127,
       "start_sec": 977,
-      "speaker": "Jon Ostrower",
+      "speaker": "Brett Snyder",
       "en": "So then the airlines are going to have to pay for most of that by pushing through their revenues and to repay the debt. I mean that's just kind of how that works.",
       "zh": "那航司就不得不通过其营业收入来支付其中绝大部分费用，以此来偿还债务。我的意思是，事情基本上就是这样运作的。"
     },
     {
-      "id": 132,
+      "id": 128,
       "start_sec": 988,
-      "speaker": "Jon Ostrower",
+      "speaker": "Brett Snyder",
       "en": "Of course, airport revenues can offset that if they rise somehow and we see a lot more revenues to offset airline costs in other parts of the world.",
       "zh": "当然，如果机场收入某种程度上有所增长，就可以抵消这部分影响，而且我们在世界其他地区看到了更多的收入来抵消航司成本。"
     },
     {
-      "id": 133,
+      "id": 129,
       "start_sec": 996,
-      "speaker": "Jon Ostrower",
+      "speaker": "Brett Snyder",
       "en": "If you've ever seen some of the incredible shopping at Incheon, like not just generic duty-free, you've got Louis Vuitton or even Tiffany is there, you know they make a ton of money.",
       "zh": "如果你见识过仁川机场那些令人难以置信的商业购物，不仅仅是一般的免税店，连路易威登甚至蒂芙尼都在那儿，你就知道他们能赚一大笔钱。"
     },
     {
-      "id": 134,
+      "id": 130,
       "start_sec": 1005,
-      "speaker": "Jon Ostrower",
+      "speaker": "Brett Snyder",
       "en": "And there's just a lot more to spend money on in these global hubs outside the US, even beyond shopping.",
       "zh": "而且在美国以外的这些全球枢纽里，除了购物之外，还有很多其他可以花钱的地方。"
     },
     {
-      "id": 135,
+      "id": 131,
       "start_sec": 1012,
-      "speaker": "Jon Ostrower",
+      "speaker": "Brett Snyder",
       "en": "We just don't develop airports in the same way. Instead, we worry about small things.",
       "zh": "我们只是没有以同样的方式来开发机场。相反，我们总是在担心一些小事。"
     },
     {
-      "id": 136,
+      "id": 132,
       "start_sec": 1017,
-      "speaker": "Jon Ostrower",
+      "speaker": "Brett Snyder",
       "en": "For example, I had someone at Allegiant tell me once that they hated when small airports would offer free parking.",
       "zh": "例如，Allegiant的一位员工曾对我说过，他们很讨厌小机场提供免费停车服务。"
     },
     {
-      "id": 137,
+      "id": 133,
       "start_sec": 1023,
       "speaker": "Brian Sumers",
       "en": "Uh first of all, I had no idea that any airports did this, certainly not any that I have been to. And then second of all, why did Allegiant care?",
       "zh": "呃，首先，我完全不知道还有机场会这么做，至少我去的那些没有。其次，为什么Allegiant会介意这个？"
     },
     {
-      "id": 138,
+      "id": 134,
       "start_sec": 1032,
-      "speaker": "Jon Ostrower",
+      "speaker": "Brett Snyder",
       "en": "We are talking teeny tiny airports, right? These are Allegiant airports. That's why I mentioned them specifically.",
       "zh": "我们说的是极小的机场，对吧？这些都是Allegiant运营的机场。所以我才特意提到它们。"
     },
     {
-      "id": 139,
+      "id": 135,
       "start_sec": 1038,
-      "speaker": "Jon Ostrower",
+      "speaker": "Brett Snyder",
       "en": "But Allegiant hated it because the airport needs to generate as much revenue as it can, and the more it generates, then the less has to go to the airline side, right?",
       "zh": "但Allegiant讨厌这一点，因为机场需要尽可能多地创收，赚得越多，需要转嫁给航司的成本就越少，对吧？"
     },
     {
-      "id": 140,
+      "id": 136,
       "start_sec": 1047,
-      "speaker": "Jon Ostrower",
+      "speaker": "Brett Snyder",
       "en": "So free parking is basically just jacking up the cost of operating to the airlines.",
       "zh": "所以免费停车基本上就是在推高航司的运营成本。"
     },
     {
-      "id": 141,
+      "id": 137,
       "start_sec": 1053,
-      "speaker": "Jon Ostrower",
+      "speaker": "Brett Snyder",
       "en": "When you charge for parking, it's kind of like a I don't know, like a bonus PFC in a sense.",
       "zh": "当你收取停车费时，某种程度上这就像是一笔额外的PFC（旅客设施费）。"
     },
     {
-      "id": 142,
+      "id": 138,
       "start_sec": 1059,
       "speaker": "Brian Sumers",
       "en": "Uh that is a a very good point. I understand it.",
       "zh": "呃，这确实是一个非常好的观点。我理解这一点。"
     },
     {
-      "id": 143,
+      "id": 139,
       "start_sec": 1063,
       "speaker": "Brian Sumers",
       "en": "We've had a nice chat here and I think we should all know why airports in the United States are are never going to look like Singapore. They don't actually need to. That stuff is over the top.",
       "zh": "我们在这里聊得很开心，我想大家也都应该明白，为什么美国的机场永远不会变成新加坡樟宜机场那样。其实它们根本没必要那样。那些东西有点过头了。"
     },
     {
-      "id": 144,
+      "id": 140,
       "start_sec": 1074,
       "speaker": "Brian Sumers",
       "en": "But a little modernization doesn't hurt anyone. There are some pretty big projects going on.",
       "zh": "但少许的现代化改造对谁都没有坏处。现在确实有一些相当大的项目正在进行中。"
     },
     {
-      "id": 145,
+      "id": 141,
       "start_sec": 1080,
       "speaker": "Brett Snyder",
       "en": "now, that's a good thing. Well, it's a good thing for everything except cost, right?",
       "zh": "好吧，这是件好事。嗯，除了成本之外，对什么都好，对吧？"
     },
     {
-      "id": 146,
+      "id": 142,
       "start_sec": 1084,
       "speaker": "Brian Sumers",
       "en": "Right. And the cost part, that is the bad news. Airports need to be renovated, they need to be improved. Anyone who's flown United into Washington Dulles knows this very well. Uh, but, you know, it is costly.",
       "zh": "没错。而成本部分，这就是坏消息了。机场需要翻新，需要改善。任何坐过美联航飞往华盛顿杜勒斯机场的人都很清楚这一点。不过，你知道，这确实代价高昂。"
     },
     {
-      "id": 147,
+      "id": 143,
       "start_sec": 1098,
       "speaker": "Brian Sumers",
       "en": "And that's generally bad news for airlines, but it's actually not entirely bad news and we will discuss why that's the case after the break.",
       "zh": "这通常对航司来说是个坏消息，但其实也不完全是坏消息，我们将在中场休息后讨论为什么会这样。"
     },
     {
-      "id": 148,
-      "start_sec": 1108,
-      "speaker": "Brian Sumers",
-      "en": "So Brett, I know you aren't our resident mileage buyer, but have you bought any this quarter? Your timing is great. I was just looking at joining my wife on a business trip. Fares are high and mileage options are slim.",
-      "zh": "所以Brett，我知道你不是我们常驻的里程买家，但这季度你买过里程吗？你挑的时机真好。我刚在看要不要陪我太太去出差。机票价格很高，里程兑换的选择也很少。"
-    },
-    {
-      "id": 149,
-      "start_sec": 1121,
-      "speaker": "Brian Sumers",
-      "en": "The only thing I found was on an airline that doesn't transfer from any of my credit card point programs, so I was actually looking at buying miles to boost my balance.",
-      "zh": "我唯一找到的是一家不支持我的任何信用卡积分计划转点航司的航班，所以我其实是在考虑购买里程来增加我的账户余额。"
-    },
-    {
-      "id": 150,
-      "start_sec": 1128,
-      "speaker": "Brian Sumers",
-      "en": "You're not alone. A lot of members are doing exactly that, especially when there's a trip they really want to take. Buying miles helps get there faster. And in cases like mine, it's the difference between being able to take a trip or not going at all.",
-      "zh": "你并不孤单。很多会员都在这么做，尤其是当有一场他们非常想去的旅行时。购买里程能帮他们更快到达目的地。而在像我这样的情况下，这就是能去旅行还是根本去不了的区别。"
-    },
-    {
-      "id": 151,
-      "start_sec": 1139,
-      "speaker": "Brian Sumers",
-      "en": "And if I think I have enough, but reach checkout a few miles short, there's also the top-up option which closes the gap right there.",
-      "zh": "如果我觉得自己有足够的里程，但在结账时发现还差几英里，这里也有充值选项可以直接弥补这个差距。"
-    },
-    {
-      "id": 152,
-      "start_sec": 1139,
-      "speaker": "Brett Snyder",
-      "en": "And buyers like you aren't just generating incremental revenue. They tend to redeem more, fly more, stay active longer.",
-      "zh": "而且像你这样的买家不仅在创造增量收入。他们往往会兑换更多、飞得更多、保持活跃的时间也更长。"
-    },
-    {
-      "id": 153,
-      "start_sec": 1152,
-      "speaker": "Brian Sumers",
-      "en": "That's what buy and top-up from points a plus-grade company are built for. And because points works across more than 60 loyalty programs in a billion plus members, every partner benefits from what they learn about what actually converts.",
-      "zh": "这就是Points.com这家评级为A的公司所提供的“购买”和“充值”功能旨在实现的目标。由于Points的业务覆盖了60多个忠诚度计划以及超过10亿会员，每个合作伙伴都能从中受益，了解究竟是什么能够真正转化用户。"
-    },
-    {
-      "id": 154,
-      "start_sec": 1165,
-      "speaker": "Brett Snyder",
-      "en": "Because the moment a member like you decides that they want to go is exactly when a program should be ready to meet them. Buy and top-up from points a plus-grade company help members close the gap between the balance they have and the reward they want. Learn more at plusgrade.com.",
-      "zh": "因为就像你这样的会员决定要出行的一瞬间，正是航司的常旅客计划应该随时准备好迎接他们的时候。由Points这家评级为A的公司提供的“购买”和“充值”功能，帮助会员弥补他们现有余额与想要的奖励之间的差距。请访问plusgrade.com了解更多信息。"
-    },
-    {
-      "id": 155,
+      "id": 144,
       "start_sec": 1181,
-      "speaker": "Jon Ostrower",
+      "speaker": "Brian Sumers",
       "en": "We're back. Brett, we're talking about high costs. You say this is not all bad news. Why not?",
       "zh": "我们回来了。Brett，我们在讨论高成本。你说这并不全是坏消息。为什么不呢？"
     },
     {
-      "id": 156,
+      "id": 145,
       "start_sec": 1187,
-      "speaker": "Brian Sumers",
+      "speaker": "Brett Snyder",
       "en": "Well, don't get me wrong. The high costs are bad news and they are getting way too high at some of the biggest airports. But there is something of a silver lining, I guess you could call it, for the airlines.",
       "zh": "嗯，别误会我。高成本确实是坏消息，而且在一些最大的机场，成本正在变得高得离谱。但对于航司来说，我想你可以称之为有一线生机吧。"
     },
     {
-      "id": 157,
+      "id": 146,
       "start_sec": 1198,
       "speaker": "Brian Sumers",
       "en": "Really? What is it?",
       "zh": "真的吗？是什么？"
     },
     {
-      "id": 158,
+      "id": 147,
       "start_sec": 1200,
-      "speaker": "Brian Sumers",
+      "speaker": "Brett Snyder",
       "en": "When there's very high costs to operate an airport, it creates uh I guess you call it a moat for the legacy carriers. Low-cost operators just can't afford to operate when it's that expensive. So, good news for them.",
       "zh": "当运营一个机场的成本非常高时，它就会为传统全服务航司建立起一道护城河。低成本航司在成本如此高昂的情况下根本无法承担运营费用。所以，这对他们来说是个好消息。"
     },
     {
-      "id": 159,
+      "id": 148,
       "start_sec": 1213,
-      "speaker": "Jon Ostrower",
+      "speaker": "Brian Sumers",
       "en": "True, or or they can, they can get sent on the other side of a literal moat, which uh might be the midfield concourse at LAX. Yeah. I mean, that is true.",
       "zh": "确实，或者说它们可以，它们可能会被安排在一条真正的“护城河”的另一边，那可能就是洛杉矶国际机场（LAX）的中场大厅。对。我的意思是，这确实是真的。"
     },
     {
-      "id": 160,
+      "id": 149,
       "start_sec": 1226,
-      "speaker": "Brian Sumers",
+      "speaker": "Brett Snyder",
       "en": "But in general, uh you're right. High cost airports, very difficult for ULCCs. If only uh Frontier had realized this before it launched JFK LAX uh last year, right?",
       "zh": "但总的来说，你是对的。高成本机场对ULCC来说非常困难。要不是Frontier在去年推出纽约肯尼迪（JFK）到洛杉矶（LAX）航线之前意识到这一点就好了，对吧？"
     },
     {
-      "id": 161,
+      "id": 150,
       "start_sec": 1238,
-      "speaker": "Jon Ostrower",
+      "speaker": "Brian Sumers",
       "en": "Yeah, right. So we know that uh high costs can be helpful for legacy airlines, probably a little less for consumers uh who have to pay higher fares.",
       "zh": "是的，没错。所以我们知道高成本对传统全服务航司是有帮助的，对那些不得不支付更高票价的消费者来说可能就没那么友好了。"
     },
     {
-      "id": 162,
+      "id": 151,
       "start_sec": 1247,
-      "speaker": "Brian Sumers",
+      "speaker": "Brett Snyder",
       "en": "Yeah, well, sure. That's a downside for those people. But need I remind you, Brian, this is a podcast about the business of the sky. But seriously, I'm sort of grasping at straws here, like you",
       "zh": "是的，当然。这对那些人来说是个不利因素。但需要我提醒你吗，Brian，这是一个关于空中商业的播客。不过说真的，我在这里有点像是在抓救命稻草，就像你一样"
     },
     {
-      "id": 163,
+      "id": 152,
       "start_sec": 1260,
-      "speaker": "Jon Ostrower",
+      "speaker": "Brett Snyder",
       "en": "Yes, there is a benefit, but nobody wants these really high costs.",
       "zh": "是的，确实有好处，但没有人想要这么高昂的成本。"
     },
     {
-      "id": 164,
+      "id": 153,
       "start_sec": 1264,
       "speaker": "Brian Sumers",
-      "en": "And thank you for reminding me. This is about the business of the sky. It is a good thing that John, the resident voice of the consumer here at The Air Show, is not here. I I don't mind high fares. I don't like paying them, but I do understand that they keep airlines solvent, especially right now.",
-      "zh": "谢谢你提醒我。我们今天讨论的是航空商业。好在作为The Air Show常驻消费者代言人的John今天不在这里。我不介意高票价，我虽然不喜欢付高价，但我确实理解它们能让航司保持偿付能力，尤其是现在这个时候。"
+      "en": "And thank you for reminding me. This is about the business of the sky. It is a good thing that Jon, the resident voice of the consumer here at The Air Show, is not here. I I don't mind high fares. I don't like paying them, but I do understand that they keep airlines solvent, especially right now.",
+      "zh": "谢谢你提醒我。我们今天讨论的是航空商业。好在作为The Air Show常驻消费者代言人的Jon今天不在这里。我不介意高票价，我虽然不喜欢付高价，但我确实理解它们能让航司保持偿付能力，尤其是现在这个时候。"
     },
     {
-      "id": 165,
+      "id": 154,
       "start_sec": 1283,
       "speaker": "Brian Sumers",
       "en": "Let's name some of these airports that are not so friendly to ULCCs and LCCs. LAX is obvious, the New York airports. What else we got?",
       "zh": "我们来点名几个对ULCC和LCC不太友好的机场。LAX是显而易见的，还有纽约的机场。我们还有哪些？"
     },
     {
-      "id": 166,
+      "id": 155,
       "start_sec": 1293,
-      "speaker": "Jon Ostrower",
+      "speaker": "Brett Snyder",
       "en": "There's actually a great webpage you can go to from DWU Consulting. They gather all this. There is a web page for everything. Well, there is. That's true. So they gather all this information.",
       "zh": "其实你可以去DWU Consulting的一个很棒的网页查看。他们收集了所有这些数据。世上万物皆有网页。嗯，确实如此。所以他们收集了所有这些信息。"
     },
     {
-      "id": 167,
+      "id": 156,
       "start_sec": 1304,
-      "speaker": "Jon Ostrower",
+      "speaker": "Brett Snyder",
       "en": "If we look at 2025 cost per enplanement, CPE, JFK was over $38, Newark over $35, LAX over $33, and O'Hare at near $30. Those are the terrible four, I suppose we could call them.",
       "zh": "如果我们看2025年的每登机旅客成本（CPE），JFK超过38美元，纽瓦克超过35美元，LAX超过33美元，奥黑尔接近30美元。这大概可以被称为“悲惨四杰”吧。"
     },
     {
-      "id": 168,
+      "id": 157,
       "start_sec": 1321,
       "speaker": "Brian Sumers",
       "en": "LaGuardia is not on there? Well, LaGuardia is under $24, so it's still high, but it's just not stratospheric, I guess we'll call it.",
       "zh": "拉瓜迪亚没上榜吗？嗯，拉瓜迪亚低于24美元，所以它依然很高，但还没达到天文数字级别，我们可以这么说。"
     },
     {
-      "id": 169,
+      "id": 158,
       "start_sec": 1330,
       "speaker": "Brian Sumers",
       "en": "I'll also give a shout out to SFO, San Francisco, which was above $32.24, but it's down to just over $28 now. Still concerning, but not in those dirty 30s there.",
       "zh": "我还要给SFO（旧金山）点个赞，它之前曾高于32.24美元，但现在降到了刚刚超过28美元。依然令人担忧，但总算没掉进那个“三十多美元的泥潭”里。"
     },
     {
-      "id": 170,
+      "id": 159,
       "start_sec": 1342,
-      "speaker": "Jon Ostrower",
+      "speaker": "Brett Snyder",
       "en": "The dirty 30s you say. Great that those airports are not in the 30s yet. But I think what we should talk about is what happens in the future because these things just seem to go up and up and up. LAX always under construction, JFK is rebuilding T1 and adding a T6. That's not cheap. O'Hare has this global terminal idea that's going to cost a fortune. And then maybe Newark doesn't have any huge plans, but Newark's, you know, still Newark.",
       "zh": "你说的“三十多美元的泥潭”。太好了，那些机场还没进入30多美元的区间。但我觉得我们应该讨论的是未来会发生什么，因为这些成本似乎一直在不断上涨。LAX总是在施工，JFK正在重建T1并增建T6。这可不便宜。奥黑尔有那个将耗费巨资的全球航站楼构想。然后也许纽瓦克没有什么宏大的计划，但纽瓦克嘛，你知道的，依然是纽瓦克。"
     },
     {
-      "id": 171,
+      "id": 160,
       "start_sec": 1374,
       "speaker": "Brian Sumers",
       "en": "Yeah, this is where things start to really stack up and it is going to get ugly.",
       "zh": "对，这就是各种费用开始真正叠加、局面将变得难看的时候。"
     },
     {
-      "id": 172,
+      "id": 161,
       "start_sec": 1379,
       "speaker": "Brian Sumers",
       "en": "So LAX at last check will be over $60 by 2029.",
       "zh": "所以根据最新查询，到2029年LAX的CPE将超过60美元。"
     },
     {
-      "id": 173,
+      "id": 162,
       "start_sec": 1385,
       "speaker": "Brian Sumers",
       "en": "O'Hare somehow is projected to not get above $40 until 2034.",
       "zh": "不知为何，奥黑尔预计直到2034年才会突破40美元。"
     },
     {
-      "id": 174,
+      "id": 163,
       "start_sec": 1390,
       "speaker": "Brian Sumers",
       "en": "SFO will climb back up over $40 by 2030.",
       "zh": "SFO到2030年将回升至40美元以上。"
     },
     {
-      "id": 175,
+      "id": 164,
       "start_sec": 1395,
       "speaker": "Brian Sumers",
       "en": "JFK is weird because of how the terminal ownership and management structure works.",
       "zh": "JFK的情况很诡异，因为它的航站楼所有权和管理结构运作方式很特殊。"
     },
     {
-      "id": 176,
+      "id": 165,
       "start_sec": 1400,
       "speaker": "Brian Sumers",
       "en": "Suffice it to say it's going to be a lot more expensive.",
       "zh": "简而言之，它将会变得贵得多。"
     },
     {
-      "id": 177,
+      "id": 166,
       "start_sec": 1403,
       "speaker": "Brian Sumers",
       "en": "And we all remember the very well-publicized extreme home makeover proposed for Dallas.",
       "zh": "而且大家都还记得闹得沸沸扬扬、针对达拉斯（DFW）提出的极端“老房大改造”方案。"
     },
     {
-      "id": 178,
+      "id": 167,
       "start_sec": 1409,
       "speaker": "Brian Sumers",
       "en": "That would spike CPE to potentially over $90, but it's never going to get built that way anyway.",
       "zh": "那会使CPE飙升至潜在的90美元以上，不过反正它也不太可能按那个方案建造。"
     },
     {
-      "id": 179,
+      "id": 168,
       "start_sec": 1415,
-      "speaker": "Jon Ostrower",
+      "speaker": "Brett Snyder",
       "en": "Yes, Dallas needs capital improvements, however, and that is going to cost money.",
       "zh": "是的，达拉斯确实需要资本开支改善，不过这势必要花钱。"
     },
     {
-      "id": 180,
+      "id": 169,
       "start_sec": 1421,
       "speaker": "Brian Sumers",
       "en": "Yeah, they just opened their new third of Concourse E out there, so they're making a little bit of progress.",
       "zh": "对，他们刚刚在那里启用了E航站楼的第三部分，所以他们取得了一点进展。"
     },
     {
-      "id": 181,
+      "id": 170,
       "start_sec": 1427,
-      "speaker": "Jon Ostrower",
+      "speaker": "Brett Snyder",
       "en": "They seem to have natural sunlight in there.",
       "zh": "那里似乎有自然光。"
     },
     {
-      "id": 182,
+      "id": 171,
       "start_sec": 1430,
       "speaker": "Brian Sumers",
       "en": "They do! All the people who use Dallas regularly had no idea lounges could see outside.",
       "zh": "确实有！所有经常使用达拉斯机场的人都不知道贵宾室原来还能看到外面。"
     },
     {
-      "id": 183,
+      "id": 172,
       "start_sec": 1435,
-      "speaker": "Jon Ostrower",
+      "speaker": "Brett Snyder",
       "en": "But the bigger issue here too, I mean we have these giant mega airports in places like New",
       "zh": "但这里更大的问题在于，我的意思是我们在像纽约这样的地方有这些巨型超级机场。"
     },
     {
-      "id": 184,
+      "id": 173,
       "start_sec": 1440,
-      "speaker": "Jon Ostrower",
+      "speaker": "Brett Snyder",
       "en": "York and LA. But it's not just them, it's even just smaller airports, like Portland, which uh they just built that beautiful new central terminal area there. That puts them over $30 this year.",
       "zh": "纽约和洛杉矶。但不仅是它们，甚至是一些较小的机场，比如波特兰，他们刚刚建成了那个美丽的新中央航站楼区域。这使得他们今年的费用超过了30美元。"
     },
     {
-      "id": 185,
+      "id": 174,
       "start_sec": 1452,
-      "speaker": "Brett Snyder",
+      "speaker": "Brian Sumers",
       "en": "Carpet is not cheap, Brett. It's carpet is not cheap.",
       "zh": "地毯可不便宜，Brett。地毯确实不便宜。"
     },
     {
-      "id": 186,
+      "id": 175,
       "start_sec": 1456,
-      "speaker": "Jon Ostrower",
+      "speaker": "Brett Snyder",
       "en": "Austin, uh when it finishes its new terminal in 2031, it's going to be over $40 by then. Uh Seattle just keeps growing. It's supposed to hit $30 around them, but it's going to go way higher if it builds that new proposed terminal, the second terminal they're talking about.",
       "zh": "奥斯汀在2031年完成其新航站楼建设时，到那时费用将超过40美元。西雅图则在不断增长。它周围的费用预计将达到30美元左右，但如果它建造那个提议中的新航站楼——他们正在讨论的第二个航站楼，费用将会高得多。"
     },
     {
-      "id": 187,
+      "id": 176,
       "start_sec": 1472,
-      "speaker": "Jon Ostrower",
+      "speaker": "Brett Snyder",
       "en": "And these projections, to be clear, these tend to be tied to bonds that are being issued for approved work. So when they're rating it from the rating agencies. So the grand plans of the future are not included, except for that Dulles one just because people did the math on that when it was announced.",
       "zh": "需要明确的是，这些预测往往与为获批工程发行的债券挂钩。因此，当评级机构对其进行评级时也是如此。所以未来的宏伟计划并未包含在内，除了杜勒斯的那个计划，因为在宣布时人们对此进行了计算。"
     },
     {
-      "id": 188,
+      "id": 177,
       "start_sec": 1489,
-      "speaker": "Jon Ostrower",
+      "speaker": "Brett Snyder",
       "en": "But that probably explains O'Hare's numbers and countless others, too. These are all going to just spike like crazy when they do work.",
       "zh": "但这大概解释了奥黑尔的数据以及无数其他机场的数据。当它们进行工程时，这些费用都将疯狂飙升。"
     },
     {
-      "id": 189,
+      "id": 178,
       "start_sec": 1496,
       "speaker": "Brian Sumers",
       "en": "Yeah, let's talk about what CPE really is. Uh it's kind of a a made up number, right? It's it's it's like chasm. It's a it's a math exercise. So when we say CPE is $37, that doesn't mean that every ticket goes up by exactly $37.",
       "zh": "是的，我们来谈谈CPE到底是什么。这其实是一个虚构的数字，对吧？它就像CASM一样。它是一个数学计算练习。所以当我们说CPE是37美元时，并不意味着每张机票的价格都正好上涨37美元。"
     },
     {
-      "id": 190,
+      "id": 179,
       "start_sec": 1515,
       "speaker": "Brian Sumers",
       "en": "But then Brett, what happens when the costs get really too high?",
       "zh": "但Brett，当成本实在变得太高时会发生什么？"
     },
     {
-      "id": 191,
+      "id": 180,
       "start_sec": 1518,
-      "speaker": "Jon Ostrower",
+      "speaker": "Brett Snyder",
       "en": "A small child can no longer afford to visit his family for Christmas.",
       "zh": "一个小孩再也负担不起去探望过圣诞节的家人了。"
     },
     {
-      "id": 192,
+      "id": 181,
       "start_sec": 1522,
       "speaker": "Brian Sumers",
       "en": "A bit dramatic there, Brett. But but also like not completely wrong. Uh as Fairs go up, what happens? People tend to fly less.",
       "zh": "有点戏剧化了，Brett。但也不完全错。随着机票价格上涨，会发生什么？人们倾向于减少飞行。"
     },
     {
-      "id": 193,
+      "id": 182,
       "start_sec": 1530,
-      "speaker": "Jon Ostrower",
+      "speaker": "Brett Snyder",
       "en": "Yeah, and you're right. This is not a flat number and it varies as well, you know, if you have a base at an airport, you're going to pay more if you're at some of these places. They may have differential pricing on, you know, terrible terminals that are farther away. They're there is some wobble in this, I guess is how we could say it.",
       "zh": "是的，你说得对。这不是一个固定数字，而且它也会有所不同，你知道的，如果你在某个机场有基地，如果你在其中一些地方，你会支付更多费用。它们可能对更远一些的糟糕航站楼实行差异化定价。我想我们可以这样说，这里面存在一些浮动。"
     },
     {
-      "id": 194,
+      "id": 183,
       "start_sec": 1550,
-      "speaker": "Jon Ostrower",
+      "speaker": "Brett Snyder",
       "en": "But in general, what happens when the costs keep going up is there are two issues. One, the low cost operators, they go away or shrink. And two, short haul travel shrinks because that's where the biggest impact is felt because that's where fares are lower.",
       "zh": "但总的来说，当成本持续上升时，会出现两个问题。第一，低成本航司会消失或收缩。第二，短途旅行会萎缩，因为那是感受到最大冲击的地方，因为那里的机票价格本来就较低。"
     },
     {
-      "id": 195,
+      "id": 184,
       "start_sec": 1567,
       "speaker": "Brian Sumers",
       "en": "The low cost angle is pretty easy to see. We saw Frontier leave Newark and Los Angeles a few years ago. It had complained about the costs. Then again, it went back in when it changed its strategy.",
       "zh": "低成本的角度很容易看出来。我们看到边疆航空几年前撤出了纽瓦克和洛杉矶。它曾抱怨过成本高。不过后来，当它改变战略时，又重新进驻了。"
     },
     {
-      "id": 196,
+      "id": 185,
       "start_sec": 1580,
       "speaker": "Brian Sumers",
       "en": "Allegiant also recently walked away from LAX. It said the costs were too high for its operation. And then we know about Frontier's failed experiment at JFK. Oops, if anybody had had predicted that, maybe a CEO of another airline.",
       "zh": "忠实航空最近也退出了洛杉矶国际机场。它表示该机场对其运营而言成本太高。然后我们知道边疆航空在肯尼迪机场的失败尝试。哎呀，如果有人预测到这一点就好了，也许是另一家航司的CEO。"
     },
     {
-      "id": 197,
+      "id": 186,
       "start_sec": 1595,
-      "speaker": "Jon Ostrower",
+      "speaker": "Brett Snyder",
       "en": "Honestly, I I think it's hard to imagine how Frontier doesn't leave LAX again when the costs double there. Honestly, I can't even believe Frontier is still there. This this airline, they still fly LAX to Vegas, San Francisco, San Jose, Sacramento.",
       "zh": "说实话，我真的很难想象当洛杉矶国际机场的成本翻倍时，边疆航空怎么会不再次离开。老实说，我甚至难以置信边疆航空还在那里。这家航司，它们依然执飞从洛杉矶到拉斯维加斯、旧金山、圣何塞、萨克拉门托的航班。"
     },
     {
-      "id": 198,
+      "id": 187,
       "start_sec": 1609,
-      "speaker": "Jon Ostrower",
+      "speaker": "Brett Snyder",
       "en": "I mean, I know Southwest has jacked up its fairs a lot, but still, how do you operate with those kind of cost levels on that type of model? I don't really understand it.",
       "zh": "我的意思是，我知道西南航空大幅提高了机票价格，但即便如此，你怎么能在那种模式下靠那种成本水平运营呢？我真的不太理解。"
     },
     {
-      "id": 199,
+      "id": 188,
       "start_sec": 1620,
-      "speaker": "Jon Ostrower",
+      "speaker": "Brian Sumers",
       "en": "you're misunderstanding the new Frontier. Did you see the big media reveal uh this week?",
       "zh": "你对新的Frontier产生了误解。你看到这周的大型媒体发布会了吗？"
     },
     {
-      "id": 200,
+      "id": 189,
       "start_sec": 1625,
       "speaker": "Brian Sumers",
       "en": "Sure. The Frontier of today is not the Frontier of old, it's got the first class coming early next year. Starlink is on its way. Frontier's a revenue-generating operation now.",
       "zh": "当然。如今的Frontier已不再是过去的Frontier了，它明年年初就要推出头等舱了。Starlink也在路上了。Frontier现在是一个创收运营体。"
     },
     {
-      "id": 201,
+      "id": 190,
       "start_sec": 1638,
-      "speaker": "Jon Ostrower",
+      "speaker": "Brian Sumers",
       "en": "Maybe it'll stay in LA, I don't know. I hear there's money in Los Angeles. It's it's not like it's Long Beach, right?",
       "zh": "也许它会留在LA，我不知道。我听说洛杉矶很有钱。这又不像长滩，对吧？"
     },
     {
-      "id": 202,
+      "id": 191,
       "start_sec": 1643,
       "speaker": "Brett Snyder",
       "en": "How dare you. Now, there are some other uh LCCs uh that fly from LAX and I guess could change their models. Uh we have Sun Country which flies to uh Minneapolis. It is under new ownership uh that ownership has not liked LAX in recent years, and then we also have Breeze.",
       "zh": "你好大的胆子。现在，还有其他一些从LAX起飞的LCC，我想它们可能会改变其商业模式。我们有飞往明尼阿波利斯的Sun Country。它现在有了新东家，而这个新东家近年来并不太喜欢LAX，然后我们还有Breeze。"
     },
     {
-      "id": 203,
+      "id": 192,
       "start_sec": 1661,
-      "speaker": "Jon Ostrower",
+      "speaker": "Brian Sumers",
       "en": "Yeah, which Breeze, I don't even know if you'd call it an LCC here. If you think about Breeze, it's built for premium, right? It has nicer, nicest, niciest, whatever all the different categories are.",
       "zh": "对，至于Breeze，我甚至不知道你在这里能不能把它叫作LCC。如果你想想Breeze，它是为高端客群打造的，对吧？它有更舒适、最舒适、超级舒适，诸如此类的各种不同舱位类别。"
     },
     {
-      "id": 204,
+      "id": 193,
       "start_sec": 1674,
       "speaker": "Brett Snyder",
       "en": "Um so it is trying to get a higher fare. And it also from LAX, it only flies long distances. So if you look at it, it's tried a few things, but uh right now the shortest flight is to Madison, Wisconsin. So it's getting a higher fare than Frontier and, you know, the the airport costs end up being a smaller percentage of the total.",
       "zh": "嗯，所以它在努力争取更高的票价。而且它从LAX出发，飞的都是长途航线。所以如果你看一下，它尝试过一些东西，但……目前最短的航班是飞往威斯康星州麦迪逊的。所以它的票价比Frontier高，而且，你知道的，机场成本最终只占总成本很小的一个比例。"
     },
     {
-      "id": 205,
+      "id": 194,
       "start_sec": 1692,
-      "speaker": "Jon Ostrower",
+      "speaker": "Brian Sumers",
       "en": "Yeah, it it is uh Brett. And I think we all know why, right? I mean, Lucas Johnson is a is a genius, and I know that because he tells us that all the time.",
       "zh": "对，确实如此，Brett。而且我想我们都知道为什么，对吧？我的意思是，Lucas Johnson是个天才，我知道这一点是因为他总是这么告诉我们。"
     },
     {
-      "id": 206,
+      "id": 195,
       "start_sec": 1703,
       "speaker": "Brett Snyder",
       "en": "Ouch.",
       "zh": "哎哟。"
     },
     {
-      "id": 207,
+      "id": 196,
       "start_sec": 1704,
-      "speaker": "Jon Ostrower",
+      "speaker": "Brian Sumers",
       "en": "No, I am I am sorry, Brett, to be so hard on him. It's just that uh, you know, he just invited me to Provo uh in December, and uh the place is so dark and cold that time of year that I'm I'm actually doing everything I can to get disinvited.",
       "zh": "不，我很抱歉，Brett，对他这么严厉。只是……你知道的，他刚邀请我12月去普罗沃，而且那一年的那个地方又黑又冷，以至于我其实正在竭尽全力让自己被取消邀请。"
     },
     {
-      "id": 208,
+      "id": 197,
       "start_sec": 1719,
       "speaker": "Brett Snyder",
       "en": "Maybe I'll join you. Let's go. We could fly together in our nice seats. Nicer, nicest? You only fly nicest, I think.",
       "zh": "也许我会加入你们。我们走吧。我们可以坐在一起，坐在我们舒适的座位上。更舒适？最舒适？我想你只坐最舒适的座位。"
     },
     {
-      "id": 209,
+      "id": 198,
       "start_sec": 1726,
-      "speaker": "Jon Ostrower",
+      "speaker": "Brian Sumers",
       "en": "No, isn't there another one, the one that I made fun of? Isn't there a a scent, right?",
       "zh": "不对，难道没有另一个吗，就是我取笑过的那家？难道没有所谓的香氛吗，对吧？"
     },
     {
-      "id": 210,
+      "id": 199,
       "start_sec": 1730,
       "speaker": "Brett Snyder",
       "en": "Is that what they call it now?",
       "zh": "现在他们是这么叫的吗？"
     },
     {
-      "id": 211,
+      "id": 200,
       "start_sec": 1732,
-      "speaker": "Jon Ostrower",
+      "speaker": "Brian Sumers",
       "en": "I think so. Who who's to say?",
       "zh": "我想是的。谁说得准呢？"
     },
     {
-      "id": 212,
+      "id": 201,
       "start_sec": 1734,
       "speaker": "Brett Snyder",
       "en": "Back to work here. Uh let's talk about short haul. That seems to be a place where high CPE really hurts you.",
       "zh": "言归正传。我们来谈谈短途航线。那似乎是一个高CPE（每登机旅客成本）真正伤害你的领域。"
     },
     {
-      "id": 213,
+      "id": 202,
       "start_sec": 1742,
-      "speaker": "Jon Ostrower",
+      "speaker": "Brian Sumers",
       "en": "So, let's say you have a fare of like $79 for an intra-California route. That LAX CPE, it's got to be a big problem.",
       "zh": "所以，假设你有一条加州内部航线的票价是79美元左右。那个LAX的CPE，肯定是个大问题。"
     },
     {
-      "id": 214,
+      "id": 203,
       "start_sec": 1751,
       "speaker": "Brett Snyder",
       "en": "Huge. You have to have higher fares when you're paying that much per enplanement. But there is a lot of noise in here, cuz short haul has already been declining anyway over the last 25 years. Some of that's due to increased security and hassle or at least perception of it, and travel habit shifting and all that.",
       "zh": "非常巨大。当你每名登机旅客支付这么多成本时，你必须提高票价。但这里面有很多干扰因素，因为无论如何，在过去25年里，短途航线一直在下滑。部分原因在于安检和繁琐手续的增加，或者至少是人们对它的这种看法，以及旅行习惯的改变等等。"
     },
     {
-      "id": 215,
+      "id": 204,
       "start_sec": 1770,
-      "speaker": "Jon Ostrower",
+      "speaker": "Brian Sumers",
       "en": "Brett, you want to give us some numbers about that? What has changed for short haul?",
       "zh": "Brett，你想给我们提供一些关于这方面的数字吗？短途航线发生了什么变化？"
     },
     {
-      "id": 216,
+      "id": 205,
       "start_sec": 1773,
       "speaker": "Brett Snyder",
       "en": "All right. Well, I dove into the Syrium data here. And so if we look at LAX, uh in January 2005, there were nearly 800,000 seats going less than 500 mi, with an average of 78 seats per flight.",
       "zh": "好吧。我深入研究了Syrium的数据。如果我们看LAX，嗯，在2005年1月，有将近80万个座位执飞飞行距离不到500英里的航线，平均每班飞机有78个座位。"
     },
     {
-      "id": 217,
+      "id": 206,
       "start_sec": 1790,
       "speaker": "Brett Snyder",
-      "en": "It dropped a little during the great recession, then it rebounded. But just before the pandemic, it was sitting at 784,000 seats, but 140",
-      "zh": "大萧条期间它有所下降，随后又反弹了。但在疫情爆发前夕，它维持在78.4万个座位，但140个"
+      "en": "It dropped a little during the great recession, then it rebounded. But just before the pandemic, it was sitting at 784,000 seats, at 114",
+      "zh": "大萧条期间它有所下降，随后又反弹了。但在疫情爆发前夕，总运力维持在78.4万个座位，而平均每班为——"
     },
     {
-      "id": 218,
+      "id": 207,
       "start_sec": 1800,
-      "speaker": "Jon Ostrower",
-      "en": "teen seats per flight.",
-      "zh": "每趟航班的座位数减少了十几位。"
+      "speaker": "Brett Snyder",
+      "en": "seats per flight.",
+      "zh": "每趟航班114个座位。"
     },
     {
-      "id": 219,
+      "id": 208,
       "start_sec": 1801,
       "speaker": "Brian Sumers",
-      "en": "That does make some sense, right? It's all about upgaging, so steady on seats and then frequencies dropped.",
+      "en": "That does make some sense, right? It's all about upgauging, so steady on seats and then frequencies dropped.",
       "zh": "这确实有点道理，对吧？这全关乎机型升级，所以座位数保持稳定，但航班频次下降了。"
     },
     {
-      "id": 220,
+      "id": 209,
       "start_sec": 1807,
-      "speaker": "Jon Ostrower",
+      "speaker": "Brett Snyder",
       "en": "Right. But now, come to January 2027 and it is down to only 642,000 seats with 134 seats per flight.",
       "zh": "没错。但现在，到了2027年1月，座位数将锐减至仅64.2万个，平均每趟航班只有134个座位。"
     },
     {
-      "id": 221,
+      "id": 210,
       "start_sec": 1819,
       "speaker": "Brian Sumers",
       "en": "Yeah, that is a pretty big cut in overall seats and then of course a big jump in in seats per flight.",
       "zh": "对，这可以说是整体座位数的大幅削减，当然，单机座位数也迎来了大幅跃升。"
     },
     {
-      "id": 222,
+      "id": 211,
       "start_sec": 1824,
-      "speaker": "Jon Ostrower",
+      "speaker": "Brett Snyder",
       "en": "Yep. Now we can see this elsewhere. Look at JFK under 500 miles, which obviously it doesn't have a lot of short haul since that's La Guardia's job out there.",
       "zh": "没错。现在我们在其他地方也能看到这种趋势。看看500英里以下的JFK航线，显然那里没有太多短途航线，因为拉瓜迪亚机场承担了大部分这方面的工作。"
     },
     {
-      "id": 223,
+      "id": 212,
       "start_sec": 1832,
-      "speaker": "Jon Ostrower",
+      "speaker": "Brett Snyder",
       "en": "Um, but in January 2005, it had 169,000 seats with about 73 seats per flight.",
       "zh": "不过，在2005年1月，它拥有16.9万个座位，每趟航班大约73个座位。"
     },
     {
-      "id": 224,
+      "id": 213,
       "start_sec": 1839,
-      "speaker": "Jon Ostrower",
+      "speaker": "Brett Snyder",
       "en": "Uh, and it has grown since then and then kind of leveled off, but now it is up. So it has 247,000 seats in January 2027, but it'll have more like 90 seats per flight.",
       "zh": "嗯，此后它有所增长，然后趋于平稳，但现在它又上升了。因此它在2027年1月将拥有24.7万个座位，但每趟航班的座位数大概更接近90个。"
     },
     {
-      "id": 225,
+      "id": 214,
       "start_sec": 1852,
       "speaker": "Brian Sumers",
       "en": "Yeah, there's probably some noise there. Delta has that big hub for transatlantic flying from JFK, and I presume it needs some short haul for those big money connections.",
       "zh": "对，这其中可能包含一些数据杂音。达美航空在JFK拥有一个庞大的大西洋航线枢纽，我猜它需要一些短途航线来为这些高收益的中转旅客提供支撑。"
     },
     {
-      "id": 226,
+      "id": 215,
       "start_sec": 1863,
-      "speaker": "Jon Ostrower",
+      "speaker": "Brett Snyder",
       "en": "Hey, I think you're right on that. Obviously, if the flights are there because of connections, they're easier to justify. They get bigger fares. If you're going to Europe, you need to have all that feed.",
       "zh": "嘿，我觉得你说的很对。显然，如果航班的存在是为了中转衔接，它们就更容易论证其合理性。它们能获得更高的收益率。如果你要去欧洲，你就需要有所有这些客源喂给航班。"
     },
     {
-      "id": 227,
+      "id": 216,
       "start_sec": 1875,
-      "speaker": "Jon Ostrower",
+      "speaker": "Brett Snyder",
       "en": "It's the ones that are really like the local market corridors that are hit the hardest.",
       "zh": "正是那些纯粹的本地市场航线走廊受到的冲击最为严重。"
     },
     {
-      "id": 228,
+      "id": 217,
       "start_sec": 1879,
-      "speaker": "Jon Ostrower",
+      "speaker": "Brett Snyder",
       "en": "So if we want to narrow down LAX, get rid of, you know, Fresnos and San Diegos, which are there for connections.",
       "zh": "所以如果我们想缩小到LAX的范围，剔除掉那些为了中转而存在的弗雷斯诺和圣迭戈航线。"
     },
     {
-      "id": 229,
+      "id": 218,
       "start_sec": 1887,
-      "speaker": "Jon Ostrower",
+      "speaker": "Brett Snyder",
       "en": "If we look at LAX to the Bay Area, in January 2020, there were 342,000 seats with just over 130 seats per flight.",
       "zh": "如果我们看看从LAX到湾区的航线，在2020年1月，有34.2万个座位，每趟航班略多于130个座位。"
     },
     {
-      "id": 230,
+      "id": 219,
       "start_sec": 1897,
-      "speaker": "Jon Ostrower",
+      "speaker": "Brett Snyder",
       "en": "Skip ahead to January 2027, it is down to just shy of 263,000 seats and 147 seats per flight.",
       "zh": "快进到2027年1月，座位数下降到不到26.3万个，而每趟航班有147个座位。"
     },
     {
-      "id": 231,
+      "id": 220,
       "start_sec": 1907,
-      "speaker": "Jon Ostrower",
+      "speaker": "Brett Snyder",
       "en": "So that's almost a quarter of seats and nearly a third of departures between LAX and the Bay Area that are gone since right before the pandemic.",
       "zh": "所以自疫情爆发前夕以来，LAX与湾区之间的座位数减少了近四分之一，航班起降架次减少了近三分之一。"
     },
     {
-      "id": 232,
+      "id": 221,
       "start_sec": 1915,
       "speaker": "Brian Sumers",
       "en": "Yeah, I do wonder if some of that will come back with time because there really is no viable alternative that high-speed rail thing, I don't think it worked out.",
       "zh": "是的，我确实在想随着时间推移其中一部分会不会恢复，因为确实没有什么可行的替代方案——那个高铁项目，我觉得它并没有成功。"
     },
     {
-      "id": 233,
+      "id": 222,
       "start_sec": 1925,
-      "speaker": "Jon Ostrower",
+      "speaker": "Brett Snyder",
       "en": "Yeah, but people can drive and they do drive. And especially as the fairs get more expensive, you have a family vacation, it gets really much more expensive to do that and and that's going to lead into that just not being able to support as many flights and as many seats.",
       "zh": "是的，但人们可以开车，而且他们确实在开车。特别是随着机票价格越来越贵，如果你带着家人度假，这样做的成本会高得多，而这会导致其无法支撑如此多的航班和座位数。"
     },
     {
-      "id": 234,
+      "id": 223,
       "start_sec": 1940,
-      "speaker": "Jon Ostrower",
+      "speaker": "Brett Snyder",
       "en": "That's a problem, right? So, you know, I'm not sure what the rebounds going to look like here.",
       "zh": "这倒是个问题，对吧？所以，你知道，我不太确定这里的反弹会是什么样子。"
     },
     {
-      "id": 235,
+      "id": 224,
       "start_sec": 1944,
       "speaker": "Brian Sumers",
       "en": "Yeah, we have uh two issues here, right? I mean, the first one is just fewer people who want to travel uh perhaps after the pandemic.",
       "zh": "对，我们这里有两个问题，对吧？我的意思是，第一个问题是疫情过后想旅行的人变少了。"
     },
     {
-      "id": 236,
+      "id": 225,
       "start_sec": 1953,
       "speaker": "Brian Sumers",
       "en": "That's not what this podcast is about. And then the second part is just higher airport cost, lead to higher fares and fewer people traveling.",
       "zh": "这不是本期播客讨论的重点。然后第二部分就是更高的机场成本导致了更高的机票价格，从而导致出行人数减少。"
     },
     {
-      "id": 237,
+      "id": 226,
       "start_sec": 1961,
       "speaker": "Brian Sumers",
       "en": "The second part, Brett, what's the solution?",
       "zh": "第二部分嘛，Brett，解决方案是什么？"
     },
     {
-      "id": 238,
+      "id": 227,
       "start_sec": 1964,
       "speaker": "Brett Snyder",
       "en": "I don't know, you tell me. What do you got?",
       "zh": "我不知道，你告诉我。你有什么高见？"
     },
     {
-      "id": 239,
+      "id": 228,
       "start_sec": 1966,
       "speaker": "Brian Sumers",
       "en": "Uh, someone needs to find a better way to pay for these projects.",
       "zh": "呃，总得有人想出个更好的办法来为这些项目筹资。"
     },
     {
-      "id": 240,
+      "id": 229,
       "start_sec": 1969,
       "speaker": "Brett Snyder",
       "en": "Great. Problem solved. You've been listening No, okay.",
       "zh": "太棒了。问题完美解决。你们一直在听——不，好吧。"
     },
     {
-      "id": 241,
+      "id": 230,
       "start_sec": 1973,
       "speaker": "Brett Snyder",
-      "en": "I I am not entirely sure what it is. You know, maybe there's a way to make a a p",
+      "en": "I I am not entirely sure what it is. You know, maybe there's a way to make a",
       "zh": "我……我不太确定具体该怎么做。你知道，也许有什么办法能搞出一个……"
     },
     {
-      "id": 242,
+      "id": 231,
       "start_sec": 1980,
       "speaker": "Brett Snyder",
       "en": "public-private partnership to work out. I don't know that that's also a problem though because you look at LaGuardia and JFK where a third-party is contracted to design, build, maintain and operate the terminal. So I don't know that this really makes it any cheaper for airlines to operate.",
       "zh": "PPP模式能行得通。不过我不知道这算不算是个问题，因为你看拉瓜迪亚和JFK，都是由第三方承包来设计、建造、维护和运营航站楼的。所以我不知道这是否真的能让航司的运营成本变得更低。"
     },
     {
-      "id": 243,
+      "id": 232,
       "start_sec": 1996,
       "speaker": "Brian Sumers",
       "en": "Cheaper, maybe not, but maybe more likely to get done on time. By the way, Brett, I I can't believe we've done this entire episode without mentioning the LAX People Mover debacle.",
       "zh": "更便宜可能谈不上，但或许更有可能按时完工。顺便说一句，Brett，我简直不敢相信我们这期节目都快说完了，竟然还没提到洛杉矶国际机场（LAX）APM（旅客捷运系统）项目的焦头烂额。"
     },
     {
-      "id": 244,
+      "id": 233,
       "start_sec": 2006,
       "speaker": "Brett Snyder",
       "en": "Well, funny story there. That is a P3. So clearly that's not the solution to getting done on time, right?",
       "zh": "好吧，这里有个很有趣的笑话。那个项目就是个PPP模式。所以很显然，这并不是按时完工的解决方案，对吧？"
     },
     {
-      "id": 245,
+      "id": 234,
       "start_sec": 2015,
       "speaker": "Brian Sumers",
       "en": "Have you seen the thing just go empty all day? Yeah, well they have to do 30 days of continuous testing before it's allowed and then they keep running into problems and then it stops and it just keeps running when it's feels like it it's a mess.",
       "zh": "你见过那玩意儿整天空转吗？对，他们必须在获批前进行30天的连续测试，然后他们不断遇到问题，接着系统停摆，等它觉得行的时候又继续运行，简直是一团糟。"
     },
     {
-      "id": 246,
+      "id": 235,
       "start_sec": 2030,
       "speaker": "Brett Snyder",
       "en": "What we really need is different sources that don't hit the rate base, and that's certainly what happens outside the US, in other places.",
       "zh": "我们真正需要的是不计入基础费率的其他资金来源，美国以外的其他地方显然就是这么做的。"
     },
     {
-      "id": 247,
+      "id": 236,
       "start_sec": 2038,
       "speaker": "Brett Snyder",
       "en": "Sure, you could raise the PFC cap, and the airports would love that, by the way, they would really love that. But that also just increases the cost of flying because that gets passed through to the customer anyway. So, when they're looking at the total amount they have to pay, it's there.",
       "zh": "当然，你可以提高PFC（旅客设施费）上限，顺便说一句，机场会非常喜欢这样，他们真的会举双手赞成。但这也会推高飞行成本，因为这笔费用最终还是会转嫁给旅客。所以，当旅客看到他们必须支付的总费用时，这笔钱就在那里。"
     },
     {
-      "id": 248,
+      "id": 237,
       "start_sec": 2055,
       "speaker": "Brett Snyder",
       "en": "But, you know, if the government was using grant monies, really stepped that up, some other mechanism to to keep the costs off of the rate base, well then that's the real solution.",
       "zh": "但是，你知道的，如果政府使用拨款资金并真正加大力度，或者通过某种其他机制将成本从基础费率中剥离出去，那才是真正的解决方案。"
     },
     {
-      "id": 249,
+      "id": 238,
       "start_sec": 2065,
       "speaker": "Brian Sumers",
       "en": "A brilliant idea, Brett, but is it going to happen? I doubt it.",
       "zh": "真是个绝妙的主意，Brett，但它会发生吗？我表示怀疑。"
     },
     {
-      "id": 250,
+      "id": 239,
       "start_sec": 2070,
       "speaker": "Brett Snyder",
-      "en": "I mean, the government can't build enough runways or maintain air traffic control well enough to keep up with demand as it is, and those are just more basic functions of what they should be doing. So, I would be pretty surprised if pretty new terminals were on the list, but there's always hope. Hope is not a strategy, Brett.",
-      "zh": "我的意思是，政府目前连修建足够多的跑道、维护好空管系统以满足现有需求都做不到，而这本来只是他们应该履行的最基础职能。所以，如果有相当崭新的航站楼能列入计划，我会感到相当惊讶，不过总归还是有希望的。希望可不是什么策略，Brett。"
+      "en": "I mean, the government can't build enough runways or maintain air traffic control well enough to keep up with demand as it is, and those are just more basic functions of what they should be doing. So, I would be pretty surprised if pretty new terminals were on the list, but there's always hope.",
+      "zh": "我的意思是，政府目前连修建足够多的跑道、维护好空管系统以满足现有需求都做不到，而这本来只是他们应该履行的最基础职能。所以，如果有相当崭新的航站楼能列入计划，我会感到相当惊讶，不过总归还是有希望的。"
     },
     {
-      "id": 251,
+      "id": 240,
+      "start_sec": 2086,
+      "speaker": "Brian Sumers",
+      "en": "Hope is not a strategy, Brett.",
+      "zh": "希望可不是什么战略，Brett。"
+    },
+    {
+      "id": 241,
       "start_sec": 2090,
       "speaker": "Brian Sumers",
-      "en": "You've been listening to The Air Show, brought to you by the Alaska Hawaiian Airlines pilots. We'd also like to thank our sponsor Plusgrade. If you have suggestions or questions for us, or if you're interested in sponsoring the podcast, email us at info@theairshowpodcast.com to get in touch.",
-      "zh": "您一直在收听由阿拉斯加航空和夏威夷航空飞行员为您带来的《The Air Show》。我们还要感谢我们的赞助商 Plusgrade。如果您对我们有任何建议或问题，或者您有兴趣赞助本播客，请发送电子邮件至 info@theairshowpodcast.com 与我们联系。"
+      "en": "You've been listening to The Air Show. If you have suggestions or questions for us, or if you're interested in sponsoring the podcast, email us at info@theairshowpodcast.com to get in touch.",
+      "zh": "感谢收听《The Air Show》。如果您对我们有任何建议或问题，或者有兴趣赞助本播客，请发送电子邮件至 info@theairshowpodcast.com 与我们联系。"
     },
     {
-      "id": 252,
+      "id": 242,
       "start_sec": 2105,
       "speaker": "Brian Sumers",
-      "en": "Leo Duran produced and edited this episode. Our theme music is by Joshua Moser. Thanks for listening and we'll be back soon.",
-      "zh": "本期节目由 Leo Duran 制作和剪辑。我们的主题音乐由 Joshua Moser 创作。感谢您的收听，我们很快就会回来。"
+      "en": "Leo Duran produced and edited this episode. Our theme music is by Joshua Mosier. Thanks for listening and we'll be back soon.",
+      "zh": "本期节目由 Leo Duran 制作和剪辑。我们的主题音乐由 Joshua Mosier 创作。感谢您的收听，我们很快就会回来。"
     }
   ],
   "show_id": "airshow",

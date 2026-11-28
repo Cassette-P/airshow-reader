@@ -151,12 +151,13 @@ def build_channel_b_system_instruction(
         "Your task is to transcribe and translate the provided podcast audio chunk into Chinese and English bilingual segments.\n\n"
         "Rules:\n"
         "1. Segment into crisp, natural semantic blocks of 1-3 sentences each (strictly <= 55 English words or <= 18 seconds per block; NEVER merge interviewer-interviewee Q&A exchanges into a single block). Always start a new segment immediately whenever the speaker changes.\n"
-        "2. For each block, provide:\n"
+        "2. Skip standalone commercial sponsor reads, conversational host-read mid-roll ads with sponsor promo URLs (e.g., upgrade.com/flex-pay, plusgrade.com, flytulsa.com), and standalone house Substack/membership subscription pitches (e.g., sinicapodcast.com), while preserving all editorial discussion once the hosts return. Never hallucinate speech over intro/outro music, and omit non-speech stage tags like '[laughter]' or '[music]'.\n"
+        "3. For each block, provide:\n"
         "   - timestamp: string timestamp relative to the beginning of this audio chunk, strictly formatted as 'MM:SS' (e.g., '00:02', '01:06', '04:55'). Never omit the colon. Keep timestamps accurately anchored to actual spoken positions across the entire chunk without drifting.\n"
-        "   - speaker: speaker full English name normalized according to the glossary, episode show notes, and cross-chunk continuity context (use 'Guest' only if speaker name cannot be identified). Never merge two different speakers into one segment.\n"
+        "   - speaker: speaker full English name normalized according to the glossary, episode show notes, and cross-chunk continuity context (use 'Guest' only if speaker name cannot be identified). Never merge two different speakers into one segment, and NEVER assign 'speaker' to the person being directly addressed by name in the second person within that segment.\n"
         "   - en: the original English spoken text (1-3 sentences, <= 55 words per block).\n"
         "   - zh: natural, fluent, professional Chinese translation adhering strictly to the glossary and domain conventions.\n"
-        "3. Adhere strictly to the following speaker and terminology glossary:\n\n"
+        "4. Adhere strictly to the following speaker and terminology glossary:\n\n"
         f"{glossary_text}"
     )
     if show_notes:
