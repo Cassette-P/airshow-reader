@@ -61,6 +61,7 @@ from pipeline.storage import (
     get_ch_b_cache_path,
     load_ch_b_cache,
     save_ch_b_cache,
+    sync_shows_manifest,
 )
 
 
@@ -1652,6 +1653,78 @@ class TestChannelBFreeTierRouting(unittest.TestCase):
         self.assertEqual(paid_client.files.upload.call_count, 2)
         self.assertNotIn("gemini-4-hydrogen", CH_B_QUOTA_STATE.free_503_tripped_models)
         self.assertEqual(CH_B_QUOTA_STATE.consecutive_503_chunks.get("gemini-4-hydrogen"), 0)
+
+
+class TestShowsManifestIdempotency(unittest.TestCase):
+    """Test sync_shows_manifest skips rewriting shows.json when content is unchanged."""
+
+    def setUp(self):
+        self.temp_dir = Path(tempfile.mkdtemp(prefix="test_shows_sync_"))
+        self.docs_data_dir = self.temp_dir / "docs" / "data"
+        self.manifest_file = self.docs_data_dir / "shows.json"
+        self.airshow_dir = self.docs_data_dir / "airshow"
+        self.airshow_dir.mkdir(parents=True, exist_ok=True)
+        (self.airshow_dir / "index.json").write_text(
+            json.dumps(
+                {
+                    "schema_version": "3.0",
+                    "show_id": "airshow",
+                    "episodes": [{"guid": "ep-1", "pub_date": "2026-11-27T10:00:00Z"}],
+                }
+            ),
+            encoding="utf-8",
+        )
+        self.mock_config = {
+            "site_title": "Podcast Bilingual Reader",
+            "shows": [
+                {
+                    "id": "airshow",
+                    "title": "The Air Show",
+                    "subtitle": "Aviation",
+                    "accent_color": "#0a2540",
+                    "enabled": True,
+                }
+            ],
+        }
+
+    def tearDown(self):
+        shutil.rmtree(self.temp_dir, ignore_errors=True)
+
+    def test_sync_shows_manifest_skips_rewrite_when_unchanged_and_updates_on_change(self):
+        with patch("pipeline.storage.DOCS_DATA_DIR", self.docs_data_dir), \
+             patch("pipeline.storage.SHOWS_MANIFEST_FILE", self.manifest_file), \
+             patch("pipeline.storage.load_podcasts_config", return_value=self.mock_config):
+            first = sync_shows_manifest()
+            self.assertTrue(self.manifest_file.exists())
+            self.assertEqual(first["shows"][0]["episode_count"], 1)
+
+            # Force a known historic updated_at on disk to verify second sync does not rewrite it
+            first["updated_at"] = "2026-11-20T00:00:00Z"
+            self.manifest_file.write_text(json.dumps(first, ensure_ascii=False, indent=2), encoding="utf-8")
+            before_bytes = self.manifest_file.read_bytes()
+
+            second = sync_shows_manifest()
+            self.assertEqual(second["updated_at"], "2026-11-20T00:00:00Z")
+            self.assertEqual(self.manifest_file.read_bytes(), before_bytes)
+
+            # Add a new episode -> manifest MUST update episode_count, latest_pub_date, and updated_at
+            (self.airshow_dir / "index.json").write_text(
+                json.dumps(
+                    {
+                        "schema_version": "3.0",
+                        "show_id": "airshow",
+                        "episodes": [
+                            {"guid": "ep-2", "pub_date": "2026-11-28T00:00:00Z"},
+                            {"guid": "ep-1", "pub_date": "2026-11-27T10:00:00Z"},
+                        ],
+                    }
+                ),
+                encoding="utf-8",
+            )
+            third = sync_shows_manifest()
+            self.assertEqual(third["shows"][0]["episode_count"], 2)
+            self.assertEqual(third["shows"][0]["latest_pub_date"], "2026-11-28T00:00:00Z")
+            self.assertNotEqual(third["updated_at"], "2026-11-20T00:00:00Z")
 
 
 if __name__ == "__main__":

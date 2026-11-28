@@ -176,9 +176,29 @@ def sync_shows_manifest() -> dict:
             "latest_pub_date": latest_pub_date,
         })
 
+    desired_schema_version = "3.0"
+    desired_site_title = config.get("site_title", "Podcast Bilingual Reader")
+
+    if SHOWS_MANIFEST_FILE.exists():
+        try:
+            with open(SHOWS_MANIFEST_FILE, "r", encoding="utf-8") as f:
+                existing_manifest = json.load(f)
+            if (
+                isinstance(existing_manifest, dict)
+                and existing_manifest.get("schema_version") == desired_schema_version
+                and existing_manifest.get("site_title") == desired_site_title
+                and existing_manifest.get("shows") == shows_manifest_list
+                and isinstance(existing_manifest.get("updated_at"), str)
+                and bool(existing_manifest.get("updated_at", "").strip())
+            ):
+                log("SAVE", f"Shows manifest at {SHOWS_MANIFEST_FILE} is already up to date; skipping rewrite.")
+                return existing_manifest
+        except Exception as e:
+            log("WARN", f"Failed to read existing shows manifest for idempotency check: {e}")
+
     manifest = {
-        "schema_version": "3.0",
-        "site_title": config.get("site_title", "Podcast Bilingual Reader"),
+        "schema_version": desired_schema_version,
+        "site_title": desired_site_title,
         "updated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "shows": shows_manifest_list,
     }
