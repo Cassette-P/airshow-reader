@@ -1,0 +1,2120 @@
+{
+  "schema_version": "3.0",
+  "show_id": "tal",
+  "guid": "46252 at https://www.thisamericanlife.org",
+  "title": "900: Talk Me Into It",
+  "pub_date": "2026-11-02T00:00:00Z",
+  "duration_sec": 3479,
+  "audio_url": "https://www.thisamericanlife.org/sites/default/files/audio/upload/archive/900.mp3",
+  "summary_zh": "本期节目以“说服他人的执念与困境”为母主题，在中期选举上百亿美元广告轰炸的背景下，探讨面对面改变一个人想法究竟有多难。Prologue从底特律切入，热心助选的Rose Johnson苦劝黑人老友放下对阿拉伯裔的成见投票，却在对方一句“我就是不想投”面前碰壁。Act One转向蒙大拿州参议员选战，民主党暗中用巨资捧红政坛素人Alani Bankhead，企图事后逼退她以保独立候选人，不料她顶住全党施压坚决不退。Act Two暂别政坛，Ira Glass重温已故前辈Noah Adams的经典录音，拆解汽车销售员逼单的“富兰克林收尾法”及唯一破局台词。Act Three则跟随助选人Sam Negron走进宾州西裔理发店，看他如何无视悲观民调、凭人情背书现场策反摇摆选民。",
+  "key_takeaways_zh": [
+    "Prologue（主持与记者：Ira Glass、Ike Sriskandarajah）：底特律退休警务调度员 Rose Johnson 热心游说身边黑人选民支持阿拉伯裔民主党候选人 Abdul El-Sayed，却在老友根深蒂固的族裔不信任面前碰了软钉子。",
+    "Act One: Where's the Party?（记者：Heather Tal Murphy；制作人：Miki Meek）：蒙大拿州民主党操盘手疑借超级政治行动委员会捧红政坛新人 Alani Bankhead，原以为能轻易劝退她为独立候选人 Seth Bodnar 让路，却遭遇她的强硬回击与拒不退选。",
+    "Act Two: The Ben Franklin Close（主持：Ira Glass）：Ira Glass 缅怀刚离世的 NPR 资深主持人 Noah Adams，回顾他早年做汽车销售员时见识到的心理逼单术“本·富兰克林收尾法”，以及唯独一句“我就是不想要”能令推销员哑口无言。",
+    "Act Three: Polls Schmolls（记者：Ike Sriskandarajah）：尽管全美民调显示西裔选民对共和党支持率下滑，宾州阿伦敦助选人 Sam Negron 仍带记者走访当地理发店，凭熟人交情与私下背书现场说服摇摆选民倒向共和党。"
+  ],
+  "highlights": [
+    {
+      "start_sec": 11,
+      "title_zh": "Prologue: 难劝的老友",
+      "summary_zh": "尽管中期选举广告狂砸逾110亿美元，选战最真实的较量仍发生在人与人面对面的游说之中。在选情胶着的底特律，退休警务调度员 Rose Johnson 奔走于黑人社区，试图化解非裔选民对阿拉伯裔商家积怨已久的隔阂，为民主党参议员候选人 Abdul El-Sayed 拉票。",
+      "quote_en": "There are still human beings out there in this election, trying to persuade the old-fashioned way, person to person, in one-on-one conversations."
+    },
+    {
+      "start_sec": 241,
+      "title_zh": "免提电话里的族裔隔阂",
+      "summary_zh": "Rose Johnson 当着记者按下免提键致电多年老友 Cynthia，试图最后一次劝她改变主意。Cynthia 坦言自己既没听过候选人演讲也不清楚其政见，纯粹因族裔身份而不信任他，并婉拒了当面见面的提议，但同样固执的 Rose 发誓要把她一路牵到投票站帘幕外低声念叨候选人的名字。",
+      "quote_en": "I really can't say why I wouldn't vote for that dude, because to be honest with you, I don't trust him."
+    },
+    {
+      "start_sec": 449,
+      "title_zh": "Act One: 党派去哪了",
+      "summary_zh": "Ira Glass 与驻蒙大拿州记者 Heather Tal Murphy 揭开当地参议员选战的一桩悬案。44岁的前空军反恐专家 Alani Bankhead 因不满现任共和党参议员而在 LinkedIn 上宣布参选，起初毫无根基、筹款不足1.5万美元，是彻头彻尾的陪跑新人。",
+      "quote_en": "In the Senate race in Montana this year, there's been this messy, cloak-and-dagger fight among Democrats, where longtime big-name Democrats are not endorsing their own nominee."
+    },
+    {
+      "start_sec": 589,
+      "title_zh": "神秘资金助黑马意外胜选",
+      "summary_zh": "初选前夕，一个名为 Progressive Vet PAC 的神秘超级政治行动委员会突然豪掷280万美元，为毫不知情的 Alani Bankhead 铺天盖地投放电视广告。这笔天降巨资让她在三周内从政坛素人逆袭以两位数优势赢得民主党初选，不料刚一胜选，该组织便宣称她胜算渺茫并瞬间撤资。",
+      "quote_en": "So it was either amazing angel investor or some nefarious plot."
+    },
+    {
+      "start_sec": 1055,
+      "title_zh": "捧杀新人的暗箱弃保局",
+      "summary_zh": "经前参议员 Max Baucus 等知情人士证实，由于民主党招牌在深红州过于不受欢迎，党内策略师决定押注履历亮眼的独立候选人 Seth Bodnar。操盘手在初选中故意用金主资金把 Alani Bankhead 抬上台以挤掉绝不退选的领跑者 Reilly Neill，误以为外表娇小友善的她是个事后容易劝退的软柿子。",
+      "quote_en": "They urged their rich donors to send money to the newcomer, Alani Bankhead, figuring as a newbie, she'd be the most likely to drop out."
+    },
+    {
+      "start_sec": 1940,
+      "title_zh": "党内元老痛批与拒不退选",
+      "summary_zh": "初选过后，Alani Bankhead 家附近插满要求她退选的草坪标牌，州外参议员、现任州长乃至内阁前成员纷纷致电试探甚至暗示提供职位，均遭她断然回绝。蒙大拿州民主党教父 Jon Tester 痛批她看不清民主危局与自身微薄的草根支持，Alani 却反唇相讥称他在无理取闹，坚持留守选票直至最后一刻。",
+      "quote_en": "I don't think there's an understanding of the gravity of the situation. I don't think there's an understanding of what's at risk here."
+    },
+    {
+      "start_sec": 2133,
+      "title_zh": "Act Two: 富兰克林法",
+      "summary_zh": "Ira Glass 暂别政治选战，追忆数周前辞世的 NPR 传奇主持人 Noah Adams，并播放了一段1976年的珍贵采访录音。早年曾在肯塔基州卖大众汽车的 Noah 详细复盘了推销员培训中的“本·富兰克林收尾法”：推销员替犹豫的顾客写满二十多条购买理由，再把纸笔推给顾客让其自行填写不买的理由，利用社交尴尬制造压倒性的心理优势。",
+      "quote_en": "The whole thing is built around creating this very awkward social experience where you put the customers on the spot."
+    },
+    {
+      "start_sec": 2558,
+      "title_zh": "破解推销话术的唯一绝招",
+      "summary_zh": "面对推销员长达半小时的沉默盯人与逐条反驳，顾客只要给出任何具体的价格或颜色顾虑，都会被受过专业训练的销售顺势转化为签单突破口。Noah Adams 指出，顾客全身而退的唯一办法就是跳出被设定的理性讨论角色，直接丢下一句毫无理由的“我不知道为什么，我就是不想要”，令推销员彻底无招可接。",
+      "quote_en": "The only way out is to be willing to step out of the role that you've created for yourself and say, I don't know why. I just don't want it."
+    },
+    {
+      "start_sec": 2664,
+      "title_zh": "Act Three: 蔑视民调",
+      "summary_zh": "被记者戏称为“阿伦敦神谕者”的西裔共和党助选人 Sam Negron 曾准确预言特朗普在当地西裔选民中的大胜，如今他对全美民调预测西裔支持率回落的说法嗤之以鼻。记者 Ike Sriskandarajah 随他走进阿伦敦一家理发店实地验证，竟发现哪怕身边有好友被移民局逮捕遣返，店里的西裔选民依然坚定支持特朗普。",
+      "quote_en": "It's not going to be a problem for Trump, and I don't know where they're getting those numbers, because it's not what I see, it's not what I find."
+    },
+    {
+      "start_sec": 3109,
+      "title_zh": "理发店门前的精准策反",
+      "summary_zh": "在理发店门外，年长的波多黎各裔共和党选民 Rolando Rolon 表示认可民主党州长 Josh Shapiro 的政绩并考虑投他一票。Sam Negron 敏锐捕捉到战机，立刻切换西英双语上前攀谈，掏出自己为共和党候选人 Stacy Garrity 做安保时的后台合影与贴心细节背书，短短几分钟便成功完成了上百万美元竞选广告都没做到的现场策反。",
+      "quote_en": "To be honest to you, I'm not gonna vote for Josh Shapiro after what he tell me."
+    }
+  ],
+  "vocab_notes": [
+    {
+      "term": "too close to call",
+      "meaning_zh": "势均力敌，选情胶着到难分胜负",
+      "note_zh": "美国大选报道高频习语，指两位候选人支持率极其接近，在计票结束前无法预测赢家。",
+      "start_sec": 34
+    },
+    {
+      "term": "cloak-and-dagger",
+      "meaning_zh": "暗箱操作的，充满秘密阴谋的",
+      "note_zh": "字面意为“斗篷与匕首”式的间谍戏码，文中用来形容蒙大拿州民主党内部秘密操纵初选资金的政治暗战。",
+      "start_sec": 449
+    },
+    {
+      "term": "boilerplate",
+      "meaning_zh": "千篇一律的套话，标准模板式的政纲",
+      "note_zh": "源自19世纪美国报业用预制钢板向各地分发通稿的历史，现常指政客缺乏个人特色的标准立场。",
+      "start_sec": 562
+    },
+    {
+      "term": "dark money",
+      "meaning_zh": "政治黑金，来源不透明的竞选资金",
+      "note_zh": "美国竞选财务术语，指通过特定非营利机构或超级政治行动委员会注入选战、公众难以追查真实金主的巨额资金。",
+      "start_sec": 998
+    },
+    {
+      "term": "pushover",
+      "meaning_zh": "软柿子，容易被摆布或劝服的人",
+      "note_zh": "地道美式口语，Alani Bankhead 讽刺党内操盘手因她身材娇小、态度和善而误判她一推就倒、好拿捏。",
+      "start_sec": 1118
+    },
+    {
+      "term": "hang out to dry",
+      "meaning_zh": "过河拆桥，将某人抛弃于孤立无援的境地",
+      "note_zh": "源自把湿衣服挂出去暴晒晾干的日常意象，引申为利用完某人后在关键时刻将其抛弃、任其自生自灭。",
+      "start_sec": 1165
+    },
+    {
+      "term": "trial balloon",
+      "meaning_zh": "试探气球，投石问路的试探性提议",
+      "note_zh": "源自气象上放飞气球观测风向的做法，政坛常指故意放出风声或口头开价以试探对方的真实底线。",
+      "start_sec": 1381
+    },
+    {
+      "term": "pitch a hissy fit",
+      "meaning_zh": "大发脾气，无理取闹地发飙",
+      "note_zh": "带有戏谑和轻蔑色彩的美国南方及日常俚语，Alani Bankhead 用它回击党内元老 Jon Tester 对她的严厉指责。",
+      "start_sec": 2047
+    },
+    {
+      "term": "put on the spot",
+      "meaning_zh": "让某人当场下不来台，使人陷入尴尬为难的处境",
+      "note_zh": "Ira Glass 用该短语点破“富兰克林收尾法”的心理机制，即制造当面社交压力迫使顾客不好意思翻脸走人。",
+      "start_sec": 2400
+    },
+    {
+      "term": "Polls Schmolls",
+      "meaning_zh": "民调算老几，去他的民调",
+      "note_zh": "受意第绪语（Yiddish）影响的美式英语押韵重叠构词法（shm-reduplication），把词首替换为 schm- 重复一遍以表达嗤之以鼻的态度。",
+      "start_sec": 2664
+    }
+  ],
+  "references": [
+    {
+      "title": "Humble Warrior",
+      "creator": "Alani Bankhead",
+      "category": "media",
+      "note_zh": "第一幕提及的参议员候选人 Alani Bankhead 主持的个人成长播客，节目聚焦克服冒充者综合征与绝不轻言放弃，侧面印证了她拒不退选的性格底色。",
+      "start_sec": 1584,
+      "links": []
+    },
+    {
+      "title": "All Things Considered",
+      "creator": "NPR",
+      "category": "media",
+      "note_zh": "第二幕中 Ira Glass 追忆已故广播前辈 Noah Adams 时提到的 NPR 旗舰新闻节目，Ira 年轻时曾在该节目为他担任剪辑助理并习得访谈技艺。",
+      "start_sec": 2160,
+      "links": [
+        {
+          "source": "wikipedia",
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/All_Things_Considered"
+        }
+      ]
+    },
+    {
+      "title": "The Selling Game",
+      "creator": "Keith Talbot",
+      "category": "media",
+      "note_zh": "第二幕播放的1976年广播纪录片历史录音，Noah Adams 在节目中接受 Keith Talbot 采访，生动讲述了汽车销售行业的“本·富兰克林收尾法”。",
+      "start_sec": 2203,
+      "links": []
+    }
+  ],
+  "transcript": [
+    {
+      "id": 1,
+      "start_sec": 1,
+      "speaker": "Ira Glass",
+      "en": "A quick warning, there are curse words that are unbeeped in today's episode of the show. If you prefer a beeped version, you can find that at our website, thisamericanlife.org.",
+      "zh": "先提醒一下，今天的节目里有一些未经消音处理的脏话。如果您更喜欢消音版本，可以在我们的网站 thisamericanlife.org 上找到。"
+    },
+    {
+      "id": 2,
+      "start_sec": 11,
+      "speaker": "Ira Glass",
+      "en": "So sure, over $11 billion is being spent on advertising for the election next week. But of course, in addition to the ads, there are still human beings out there in this election, trying to persuade the old-fashioned way, person to person, in one-on-one conversations. Which is where you really see what people are made of, and how they're deciding who they're going to vote for. People really say some stuff.",
+      "zh": "没错，下周的选举广告投入已经超过了110亿美元。但除了铺天盖地的广告之外，这次选举中依然有人在用最传统的方式拉票——面对面、一对一地去说服别人。也正是在这种时候，你才能真正看清人们的想法，以及他们究竟是如何决定把票投给谁的。人们说出来的话，有时候真的让人大跌眼镜。"
+    },
+    {
+      "id": 3,
+      "start_sec": 34,
+      "speaker": "Ira Glass",
+      "en": "One of our producers, Ike Sriskandarajah, met this woman, Rose Johnson, in Detroit. The Senate race there is too close to call. And one problem that the Democrat, Abdul El-Sayed, has been having is getting Black voters. Rose has been out trying to convince those voters.",
+      "zh": "我们的制作人之一 Ike Sriskandarajah 在底特律遇到了这位名叫 Rose Johnson 的女士。当地的参议员竞选胶着得难分胜负。而民主党候选人 Abdul El-Sayed 面临的一个难题，就是如何争取非裔选民的支持。Rose 一直在外面奔走，试图说服这些选民。"
+    },
+    {
+      "id": 4,
+      "start_sec": 48,
+      "speaker": "Ira Glass",
+      "en": "And, Ike, who is she?",
+      "zh": "Ike，她是个什么样的人？"
+    },
+    {
+      "id": 5,
+      "start_sec": 50,
+      "speaker": "Ike Sriskandarajah",
+      "en": "Okay, so Rose is a retired police dispatcher. She's a great-grandmother. And she's only been doing this about a year, but she's already worked on seven campaigns. She kind of got obsessed.",
+      "zh": "是这样的，Rose 是一位退休的警察调度员，已经当曾祖母了。她干这行才一年左右，但已经参与了七场竞选活动。她可以说是有点着迷了。"
+    },
+    {
+      "id": 6,
+      "start_sec": 64,
+      "speaker": "Ira Glass",
+      "en": "And you met her at a community center?",
+      "zh": "你是在一个社区中心见到她的吗？"
+    },
+    {
+      "id": 7,
+      "start_sec": 65,
+      "speaker": "Ike Sriskandarajah",
+      "en": "Yeah. At the front of the room, her reverend was hosting this live radio show, and there's about 50 people who showed up to hear it. They're all Black. And the show spent about half an hour telling people to get out and vote for Abdul El-Sayed. But Rose didn't need the nudge. She was already on board.",
+      "zh": "对。在房间的前面，她的牧师正在主持一档现场广播节目，大概有50个人到场收听，全都是非裔。节目花了大约半个小时呼吁大家出门投票给 Abdul El-Sayed。不过 Rose 不需要别人催，她早就坚定了立场。"
+    },
+    {
+      "id": 8,
+      "start_sec": 84,
+      "speaker": "Rose Johnson",
+      "en": "Well, I mean, he comes here all the time, so we see him all the time.",
+      "zh": "嗯，我的意思是，他经常来这里，所以我们经常见到他。"
+    },
+    {
+      "id": 9,
+      "start_sec": 87,
+      "speaker": "Ike Sriskandarajah",
+      "en": "She's been to so many events that he's been at, that now he actually knows her.",
+      "zh": "她参加过太多他出席的活动，以至于他现在真的认识她了。"
+    },
+    {
+      "id": 10,
+      "start_sec": 92,
+      "speaker": "Rose Johnson",
+      "en": "I stand behind him 1,000% because I feel comfortable with him. He's very, very approachable. He reaches out to you, and when you see him and you meet him, he knows you. So if he sees you in the crowd, he's going to wave at you, he's going to hug you if he can, because he knows you, he don't act funny. He's the guy.",
+      "zh": "我百分之千支持他，因为和他在一起我觉得很自在。他非常非常平易近人。他会主动走近你，当你见到他、和他打招呼时，他认识你。所以如果他在人群里看到你，他会向你挥手，如果可以的话还会抱抱你，因为他认识你，不会端架子。他就是那个对的人。"
+    },
+    {
+      "id": 11,
+      "start_sec": 111,
+      "speaker": "Ike Sriskandarajah",
+      "en": "She's knocked on doors for him, she's done phone banking. But she knows lots of people don't agree with her, even people who usually vote for Democrats.",
+      "zh": "她为他挨家挨户敲过门，也打过电话拉票。但她知道很多人并不认同她的看法，甚至包括那些平时投给民主党的人。"
+    },
+    {
+      "id": 12,
+      "start_sec": 120,
+      "speaker": "Ike Sriskandarajah",
+      "en": "If he's showing up, like you're saying, why don't people like him?",
+      "zh": "如果他像你说的那样经常露面，那为什么大家不喜欢他呢？"
+    },
+    {
+      "id": 13,
+      "start_sec": 126,
+      "speaker": "Rose Johnson",
+      "en": "It's the religion. They want to say, 'Oh, the Arab.' I don't see that.",
+      "zh": "是因为宗教。他们总爱说，‘哦，那个阿拉伯人。’我不这么看。"
+    },
+    {
+      "id": 14,
+      "start_sec": 130,
+      "speaker": "Ike Sriskandarajah",
+      "en": "People told that to you?",
+      "zh": "有人直接跟你说过这种话吗？"
+    },
+    {
+      "id": 15,
+      "start_sec": 131,
+      "speaker": "Rose Johnson",
+      "en": "Yes. I have a friend of mine, and she talks crazy anyway. And she said, 'Well, I have to be honest with you, I can't vote for him because he's an Arab.' And I said, 'Well, that's dumb, because they said the same thing about Kamala Harris. They said Kamala Harris, they wouldn't vote for her because she's a Black woman.' So I get so upset when people say that. And if she wants to be my friend, she's going to do the right thing and vote for Abdul. Otherwise, I just can't mess with her. I don't want to hear her complaining about, 'Oh, oh, oh,' I don't want to hear it.",
+      "zh": "是的。我有个朋友，她说话本来就疯疯癫癫的。她说：‘好吧，我得跟你说实话，我不能投给他，因为他是阿拉伯人。’我就说：‘这太蠢了，因为他们对 Kamala Harris 也说过同样的话。他们说不会投给 Kamala Harris，因为她是个黑人女性。’所以大家这么说的时候，我真的很生气。如果她还想跟我做朋友，她就该做正确的事，投票给 Abdul。不然的话，我真没法跟她来往了。我不想听她在那儿抱怨‘哦，这啊那啊的’，我不想听。"
+    },
+    {
+      "id": 16,
+      "start_sec": 163,
+      "speaker": "Ike Sriskandarajah",
+      "en": "And the thing she's saying came up with basically every Black supporter of El-Sayed I talked to while I was in Detroit. They all describe this decades-long tension between Arabs who own stores and the Black patrons who shop there. Detroit has seen decades of violence, distrust, and racism between these two groups. And Rose has seen this attitude towards Arabs and other newcomers, too.",
+      "zh": "她在底特律说的这件事，几乎在我采访过的每一位 El-Sayed 的非裔支持者口中都提到过。他们都描述了开店的阿拉伯人和在那里购物的非裔顾客之间长达数十年的紧张关系。底特律见证了这两个群体之间几十年的暴力、不信任和种族主义。而 Rose 也见过这种针对阿拉伯人以及其他新移民的态度。"
+    },
+    {
+      "id": 17,
+      "start_sec": 188,
+      "speaker": "Rose Johnson",
+      "en": "They get businesses, they get stores, they get loans, they get a lot of things that we didn't get coming into this country as African-Americans, you know, and they just feel that they're entitled. Just don't come here and act like you're better than us, you're privileged. We get that enough from white people. So we don't need that from others. We need to band against white people, you know, my opinion, because it's us against them. That's my opinion.",
+      "zh": "他们能开公司、开商店、拿到贷款，能得到很多我们非裔美国人来到这个国家时没能得到的东西，你知道吗，而且他们就觉得自己理所应当。别跑到这儿来装得好像比我们高人一等、享有特权似的。我们从白人那儿受的气已经够多了。所以我们不需要再从其他人那儿受这种气。在我看来，我们得团结起来对抗白人，因为这是我们和他们之间的较量。这就是我的看法。"
+    },
+    {
+      "id": 18,
+      "start_sec": 215,
+      "speaker": "Ike Sriskandarajah",
+      "en": "And she says that with people she knows, she's been able to talk them out of their prejudice and into a vote for El-Sayed. But there's this one person in her life, you heard her talking about her earlier, one of her oldest friends, and she's been making the case to her for weeks. And I asked if I could listen in and record their conversation.",
+      "zh": "她说，对于她认识的人，她一直能说服他们放下偏见，把票投给 El-Sayed。但在她的生活中有这么一个人——你刚才听她提到过，是她最老的朋友之一——她已经连续几周都在试图说服她了。我问她我能不能旁听并录下她们的对话。"
+    },
+    {
+      "id": 19,
+      "start_sec": 241,
+      "speaker": "Rose Johnson",
+      "en": "I'm going to put you on speaker. So, tell me your opinion of Abdul and why you... are you going to vote for him?",
+      "zh": "我把你开成免提。那你跟我说说你对 Abdul 的看法，还有为什么你……你会投票给他吗？"
+    },
+    {
+      "id": 20,
+      "start_sec": 249,
+      "speaker": "Cynthia",
+      "en": "No.",
+      "zh": "不会。"
+    },
+    {
+      "id": 21,
+      "start_sec": 250,
+      "speaker": "Rose Johnson",
+      "en": "Why?",
+      "zh": "为什么？"
+    },
+    {
+      "id": 22,
+      "start_sec": 252,
+      "speaker": "Cynthia",
+      "en": "I don't want to.",
+      "zh": "我不想投。"
+    },
+    {
+      "id": 23,
+      "start_sec": 254,
+      "speaker": "Rose Johnson",
+      "en": "I mean, can you elaborate?",
+      "zh": "我是说，你能具体说说吗？"
+    },
+    {
+      "id": 24,
+      "start_sec": 257,
+      "speaker": "Cynthia",
+      "en": "I really can't say why I wouldn't vote for that dude, because to be honest with you, I don't trust him. That's why I won't vote for him.",
+      "zh": "我也说不上来为什么不投给那家伙，但老实跟你说，我不信任他。这就是我不会投给他的原因。"
+    },
+    {
+      "id": 25,
+      "start_sec": 266,
+      "speaker": "Rose Johnson",
+      "en": "What is it about him you don't trust?",
+      "zh": "他到底哪里让你不信任了？"
+    },
+    {
+      "id": 26,
+      "start_sec": 269,
+      "speaker": "Cynthia",
+      "en": "His nationality.",
+      "zh": "他的国籍背景。"
+    },
+    {
+      "id": 27,
+      "start_sec": 271,
+      "speaker": "Rose Johnson",
+      "en": "What does that have to do with anything?",
+      "zh": "这跟选举有什么关系？"
+    },
+    {
+      "id": 28,
+      "start_sec": 273,
+      "speaker": "Cynthia",
+      "en": "A lot. What I'm saying is, I want to vote for an American.",
+      "zh": "关系大了。我的意思是，我想把票投给一个美国人。"
+    },
+    {
+      "id": 29,
+      "start_sec": 278,
+      "speaker": "Rose Johnson",
+      "en": "He is an American. He's Arabic-American.",
+      "zh": "他就是美国人啊。他是阿拉伯裔美国人。"
+    },
+    {
+      "id": 30,
+      "start_sec": 284,
+      "speaker": "Cynthia",
+      "en": "No, we're not... you know, we're not in that boat.",
+      "zh": "不，我们不是……你知道，我们跟他们不是一路人。"
+    },
+    {
+      "id": 31,
+      "start_sec": 287,
+      "speaker": "Rose Johnson",
+      "en": "We're African-American.",
+      "zh": "我们是非裔美国人。"
+    },
+    {
+      "id": 32,
+      "start_sec": 289,
+      "speaker": "Cynthia",
+      "en": "That's different. I'll vote for them. For us. I'm not going to vote for him. I'm just being honest with you.",
+      "zh": "那不一样。我会投给他们。投给我们自己人。我不会投给他的。我只是跟你说实话。"
+    },
+    {
+      "id": 33,
+      "start_sec": 298,
+      "speaker": "Rose Johnson",
+      "en": "Okay.",
+      "zh": "好吧。"
+    },
+    {
+      "id": 34,
+      "start_sec": 300,
+      "speaker": "Ike Sriskandarajah",
+      "en": "ask, is there anything he could change, like a policy, or is there anything he could say? By the way, my name's Ike, I'm a reporter talking to your friend Rose about El-Sayed, and I was wondering, is there an argument or something that you could hear that would change your mind?",
+      "zh": "我想问一下，他有没有什么可以改变的地方，比如某项政策，或者他能说些什么？顺便说一句，我叫 Ike，是一名记者，正在和你的朋友 Rose 聊关于 El-Sayed 的事。我想知道，有没有什么论点或者话，是你听了之后会改变主意的？"
+    },
+    {
+      "id": 35,
+      "start_sec": 321,
+      "speaker": "Cynthia",
+      "en": "It probably is, but it just, I don't, I don't trust him. I'm not clear on none of his point of views. I haven't listened to none of his speeches.",
+      "zh": "也许有吧，但就是……我不信任他。他的观点我一个也不清楚，他的演讲我也一场没听过。"
+    },
+    {
+      "id": 36,
+      "start_sec": 334,
+      "speaker": "Rose Johnson",
+      "en": "So would you like to meet him in person and have a conversation with him? Because I can arrange that.",
+      "zh": "那你想不想跟他本人见个面，当面聊聊？我可以安排。"
+    },
+    {
+      "id": 37,
+      "start_sec": 338,
+      "speaker": "Ike Sriskandarajah",
+      "en": "This is one of Rose's like special moves. It's kind of a flex. This is exactly how she got her sister to vote for Detroit's current mayor. She just put them on the phone together.",
+      "zh": "这算是 Rose 的杀手锏之一，也有点炫技的意思。她当初就是用这招说服她妹妹把票投给底特律现任市长的——直接把俩人拉到电话里聊。"
+    },
+    {
+      "id": 38,
+      "start_sec": 349,
+      "speaker": "Ike Sriskandarajah",
+      "en": "But when Rose offered the same thing, like, do you want to meet El-Sayed in person? She said no. She just can't right now. She said she's got too much going on, her brother just passed away, and she's heading down to his funeral.",
+      "zh": "但当 Rose 提出同样的建议，问她想不想亲自见见 El-Sayed 时，她拒绝了。她现在实在抽不开身，她说自己手头事儿太多了，她哥哥刚去世，她正赶着去参加葬礼。"
+    },
+    {
+      "id": 39,
+      "start_sec": 364,
+      "speaker": "Ike Sriskandarajah",
+      "en": "No. I mean, Rose is just as stubborn as her friend. And she said, I am going to take her to the polls. I'm going to hold her hand right up until the booth, and when she goes into the booth, the place that I can't go, I'm going to be whispering outside the booth, Abdul, Abdul, Abdul.",
+      "zh": "没有。我是说，Rose 跟她朋友一样固执。她说：“我要带她去投票站。我会一直牵着她的手走到投票隔间门口，等她进了那个我进不去的隔间，我就在外面小声念叨：Abdul，Abdul，Abdul。”"
+    },
+    {
+      "id": 40,
+      "start_sec": 392,
+      "speaker": "Ira Glass",
+      "en": "Well, ladies and gentlemen, for all the talk the last few weeks about how so many people have changed their minds about President Trump and the Republicans, and all the talk about how tables are about to turn in these midterm elections, let us remember, please, how hard it is to change anybody's mind. Today on our program, we have stories about people who are not changing their minds so easily, and some unusual and extraordinary things being done to try to get them to change, including a tale of millions and millions of dollars being spent, all in the hope that just one person, one person, will change her mind. That's our first act today.",
+      "zh": "女士们先生们，过去几周大家都在议论，有多少人对 Trump 总统和共和党改变了看法，还说这次中期选举局势即将逆转。但请别忘了，要改变任何人的想法其实有多难。今天我们的节目将带来关于那些不轻易改变主意的人的故事，以及为了让他们回心转意而采取的一些非同寻常的举措——其中包括一个砸下数百万美元的故事，而这一切只是为了寄希望于一个人，仅仅一个人，能改变她的主意。这就是我们今天的第一幕。"
+    },
+    {
+      "id": 41,
+      "start_sec": 429,
+      "speaker": "Ira Glass",
+      "en": "From WBEZ Chicago, it's This American Life. I'm Ira Glass. Stay with us.",
+      "zh": "这里是来自 WBEZ Chicago 的《This American Life》。我是 Ira Glass。请继续收听。"
+    },
+    {
+      "id": 42,
+      "start_sec": 449,
+      "speaker": "Ira Glass",
+      "en": "This American Life, Act One: Where's the Party? In the Senate race in Montana this year, there's been this messy, cloak-and-dagger fight among Democrats, where longtime big-name Democrats are not endorsing their own nominee. And so many people have been trying to persuade one of the candidates, Alani Bankhead, to do something that she has refused to do. People are scratching their heads, why not? To untangle all this for us and tell the story is reporter Heather Tal Murphy, who lives in Montana, and somehow seems to be able to get anybody in the state on the phone.",
+      "zh": "《This American Life》，Act One：政党去哪儿了？在今年的蒙大拿州参议院竞选中，民主党内部爆发了一场混乱的暗战，资深的民主党大佬们竟然没有为自家的提名人背书。无数人试图说服其中一位候选人 Alani Bankhead 去做某件事，但她就是拒绝。大家都在挠头，不明白为什么。为了帮我们理清这一切并讲述这个故事，我们请来了住在蒙大拿州的记者 Heather Tal Murphy，她似乎总能有办法联系上该州的任何人。"
+    },
+    {
+      "id": 43,
+      "start_sec": 480,
+      "speaker": "Heather Tal Murphy",
+      "en": "Lots of things about Alani Bankhead's biography are perfect for someone running for Senate. She's former Air Force, 44 years old, counter-terrorism specialist, intelligence analyst, then she became a child sex crimes investigator. She's been part of dozens of convictions. She thought the Republican incumbent was doing a terrible job. He didn't show up for important votes. He didn't seem in touch with voters around the state. She was really bothered by that. And so, she decided to run.",
+      "zh": "Alani Bankhead 的履历中有太多地方非常适合竞选参议员了。她今年 44 岁，曾服役于空军，担任过反恐专家、情报分析师，后来又成了一名儿童性犯罪调查员，参与过数十起定罪案件。她认为现任共和党议员干得很糟糕，重要投票他不露面，似乎也和全州选民脱节。她对此非常不满。于是，她决定亲自上阵竞选。"
+    },
+    {
+      "id": 44,
+      "start_sec": 510,
+      "speaker": "Heather Tal Murphy",
+      "en": "She drafted up an announcement and posted it to social media, to LinkedIn. Why LinkedIn?",
+      "zh": "她起草了一份参选声明，发到了社交媒体上——发在了 LinkedIn 上。为什么要发在 LinkedIn 上？"
+    },
+    {
+      "id": 45,
+      "start_sec": 517,
+      "speaker": "Alani Bankhead",
+      "en": "Uh, I love LinkedIn. Yeah, LinkedIn is my jam.",
+      "zh": "呃，我超爱 LinkedIn。对，LinkedIn 就是我的菜。"
+    },
+    {
+      "id": 46,
+      "start_sec": 521,
+      "speaker": "Heather Tal Murphy",
+      "en": "It's unconventional for a political announcement.",
+      "zh": "作为政治参选声明，这可真够另类的。"
+    },
+    {
+      "id": 47,
+      "start_sec": 524,
+      "speaker": "Alani Bankhead",
+      "en": "Oh. Well, I'm not a, I'm not a politician. I'm a public servant. I like to see myself that way, anyway.",
+      "zh": "哦，嗯，我又不是……我不是政客，我是公仆。反正我喜欢这么看待自己。"
+    },
+    {
+      "id": 48,
+      "start_sec": 533,
+      "speaker": "Heather Tal Murphy",
+      "en": "She knew she was a long shot to win the race. In the Democratic primary, she was running against four other people, two far more established. She'd never ever run for anything before, never been to a city council meeting or a protest. And she was still pretty new to Montana, moved here just a few years ago from Hawaii. She had few connections, no family ranch. Montana has also never sent a woman or a person of color to the Senate. Alani is both. She's Puerto Rican.",
+      "zh": "她知道自己赢面不大。在民主党初选中，她要和另外四个人竞争，其中两位资历深厚得多。她以前从未竞选过任何公职，甚至没参加过市议会会议或抗议活动。而且她来蒙大拿州的时间也不长，几年前才从夏威夷搬过来，人脉寥寥，也没有家族牧场。蒙大拿州也从未选出过女性或有色人种进入参议院，而 Alani 两者兼备——她是波多黎各裔。"
+    },
+    {
+      "id": 49,
+      "start_sec": 562,
+      "speaker": "Heather Tal Murphy",
+      "en": "It went about how you'd imagine. A few months after announcing, Alani found her campaign floundering. She'd raised less than $15,000, a tiny amount for a Senate campaign. All of her media was homemade, and her positions were boilerplate Democratic stuff: affordability, end the war in Iran, stop dark money in politics. She was getting very little attention. And then, one day in May, everything changed.",
+      "zh": "事情的发展不出所料。宣布参选几个月后，Alani 的竞选活动陷入了困境。她筹集到的资金不到 1.5 万美元，对于参议院竞选来说简直是杯水车薪。她所有的宣传物料都是自制的，政治立场也是民主党老生常谈的那一套：降低生活成本、结束伊朗战争、阻止政治黑金。她几乎没受到什么关注。然而，在五月的某一天，一切都改变了。"
+    },
+    {
+      "id": 50,
+      "start_sec": 589,
+      "speaker": "Alani Bankhead",
+      "en": "I was in the car with my campaign manager. I don't remember where, I think we were driving somewhere, and her stepdad had texted her, and he was like, I love the ad on TV.",
+      "zh": "当时我和我的竞选经理在车里，我记不清去哪儿了，好像正开车去某个地方。她继父给她发了条短信说：“我超喜欢电视上那个广告。”"
+    },
+    {
+      "id": 51,
+      "start_sec": 602,
+      "speaker": "Ad Narrator 1",
+      "en": "Democrat Alani Bankhead, U.S. Air Force veteran, running for Senate to fight for our public lands, for affordable healthcare, and to stand up to MAGA Republicans who think they're above the law. Alani Bankhead, the fighter we need in the U.S. Senate.",
+      "zh": "民主党人 Alani Bankhead，美国空军退伍军人，竞选参议员只为捍卫我们的公共土地、争取平价医疗，并对抗那些自以为凌驾于法律之上的 MAGA 共和党人。Alani Bankhead，正是我们在美国参议院需要的斗士。"
+    },
+    {
+      "id": 52,
+      "start_sec": 617,
+      "speaker": "Heather Tal Murphy",
+      "en": "The ad was good. Slow-motion, gauzy shots of Alani. An old photo from her Air Force days, looking veterany. And there were more ads, Alani walking with her police dog.",
+      "zh": "这支广告拍得很不错。Alani 的慢镜头、柔焦画面，还有她空军时期的老照片，看起来很有退伍军人的风范。而且还有更多广告，比如 Alani 牵着她的警犬散步。"
+    },
+    {
+      "id": 53,
+      "start_sec": 629,
+      "speaker": "Ad Narrator 2",
+      "en": "Alani Bankhead is stepping up to defend our public lands from the Trump agenda. Alani Bankhead, the proven fighter we need to defend...",
+      "zh": "Alani Bankhead 正在挺身而出，保卫我们的公共土地免受特朗普议程的侵害。Alani Bankhead，正是我们所需要的久经考验的斗士……"
+    },
+    {
+      "id": 54,
+      "start_sec": 637,
+      "speaker": "Heather Tal Murphy",
+      "en": "And at that point, did you know who was creating them?",
+      "zh": "那时候你知道是谁在制作这些广告吗？"
+    },
+    {
+      "id": 55,
+      "start_sec": 640,
+      "speaker": "Alani Bankhead",
+      "en": "No. Had no idea. I remember running on the treadmill at the gym and seeing myself twice in a 20-minute run, and I was like, I need to get the hell out of here.",
+      "zh": "不知道，完全没头绪。我记得在健身房跑步机上跑步时，二十分钟里在屏幕上看到了自己两次，当时我就想，我得赶紧离开这儿。"
+    },
+    {
+      "id": 56,
+      "start_sec": 652,
+      "speaker": "Heather Tal Murphy",
+      "en": "On one hand, this was a huge gift falling out of the sky. But it was also confusing. Who was doing it?",
+      "zh": "一方面，这简直是天上掉下来的大礼。但另一方面又让人一头雾水。到底是谁干的呢？"
+    },
+    {
+      "id": 57,
+      "start_sec": 659,
+      "speaker": "Alani Bankhead",
+      "en": "It felt really weird because I was skeptical. Like, I'm like, why are these people putting these ads on? What do they want? Nobody had approached us, there had been zero conversations, we hadn't gotten a whiff of anything, so, you know, we didn't know what was happening.",
+      "zh": "感觉非常奇怪，因为我心存疑虑。我就想，这些人为什么要投放这些广告？他们想要什么？没人联系过我们，没有任何沟通，我们一点风声都没收到，所以，你懂的，我们完全不知道发生了什么。"
+    },
+    {
+      "id": 58,
+      "start_sec": 673,
+      "speaker": "Heather Tal Murphy",
+      "en": "What were all the things that went through as possibilities for you?",
+      "zh": "你当时都往哪些可能性上猜了？"
+    },
+    {
+      "id": 59,
+      "start_sec": 676,
+      "speaker": "Alani Bankhead",
+      "en": "So it was either amazing angel investor or some nefarious plot. You know, like I was like, someone trying to influence me later on in the election, or some very, like a MacKenzie Bezos, like really generous person who was like, I see her and her background and we need to help her.",
+      "zh": "要么是遇到了绝佳的天使投资人，要么就是什么阴谋。我当时就想，是不是有人想在选举后期影响我，或者像 MacKenzie Bezos 那样特别慷慨的人，看到我和我的背景后觉得“我们需要帮帮她”。"
+    },
+    {
+      "id": 60,
+      "start_sec": 697,
+      "speaker": "Heather Tal Murphy",
+      "en": "The TV ad blitz was accompanied by glossy mailers, social media ads, text messages, and phone calls. This kind of thing happens. Super PACs show up and pay for ads for candidates who have no idea who they are.",
+      "zh": "伴随电视广告狂轰滥炸的，还有印刷精美的直邮传单、社交媒体广告、短信和电话。这种事在政坛时有发生。超级政治行动委员会会突然冒出来，为那些根本不知道他们是谁的候选人买单打广告。"
+    },
+    {
+      "id": 61,
+      "start_sec": 711,
+      "speaker": "Heather Tal Murphy",
+      "en": "But this was an extreme version of it. Suddenly this totally unknown novice's campaign had way more money pouring in on its behalf than anyone else in her race. Ten times more money than the obvious frontrunner, a former state lawmaker who'd been campaigning for two years.",
+      "zh": "但这一次简直是极端版本。突然之间，这个名不见经传的新手竞选团队，收到的外部资金涌入量远远超过了同场竞技的任何对手。是那位公认领跑者——一位已经竞选了两年之久的前州议员——的十倍之多。"
+    },
+    {
+      "id": 62,
+      "start_sec": 727,
+      "speaker": "Heather Tal Murphy",
+      "en": "There was a name on these commercials. A super PAC called Progressive Vet PAC. Alani had never heard of it, but the name made sense. She's a veteran. FEC filings showed that the super PAC had raised $2.8 million, and it seemed to have been created specifically to support her.",
+      "zh": "这些商业广告上署了一个名字，是一个叫“Progressive Vet PAC”的超级政治行动委员会。Alani 从未听说过它，但这个名字听起来很合理，毕竟她是退伍军人。联邦选举委员会的文件显示，这个超级政治行动委员会筹集了 280 万美元，而且似乎是专门为了支持她而成立的。"
+    },
+    {
+      "id": 63,
+      "start_sec": 746,
+      "speaker": "Heather Tal Murphy",
+      "en": "This kind of super PAC money is something Alani actively campaigns against. So she put out statements on social media saying, 'These are not our ads.' Because this was a super PAC, and it's illegal for super PACs to coordinate with political candidates, Alani and her campaign didn't believe they could call them up and ask a lot of questions.",
+      "zh": "Alani 在竞选中一直积极反对这种超级政治行动委员会的资金。因此她在社交媒体上发表声明称：“这些不是我们的广告。”由于这是超级政治行动委员会，而法律禁止其与政治候选人协调，Alani 和她的竞选团队认为他们不能直接打电话过去追问太多。"
+    },
+    {
+      "id": 64,
+      "start_sec": 764,
+      "speaker": "Heather Tal Murphy",
+      "en": "On the PAC's financial documents, there were only two names: someone who's listed as treasurer, and a compliance guy. It's impossible to see who donated most of the money, but a few hundred thousand were connected to a billionaire finance guy named Jason Carroll. Carroll co-founded a company that's involved in 10% of all the trades in the U.S. stock market. The ads kept pouring in.",
+      "zh": "在该委员会的财务文件上，只有两个名字：一个是挂名的财务主管，另一个是合规专员。我们无法查明大部分资金的捐赠者，但其中有几十万美元与一位名叫 Jason Carroll 的亿万富翁金融大亨有关。Carroll 联合创办的一家公司参与了美国股市 10% 的交易。而广告依然源源不断地涌来。"
+    },
+    {
+      "id": 65,
+      "start_sec": 791,
+      "speaker": "Heather Tal Murphy",
+      "en": "On primary night in June, Alani and her husband held a watch party at a divey bar in the state capitol, one where lobbyists and lawmakers often hang out. There were little American flags dangling from the ceiling. The huge influx of ads had taken Alani from an unknown to getting stopped by strangers at the grocery store and at the gas station.",
+      "zh": "六月的初选之夜，Alani 和她的丈夫在州首府一家简陋的小酒吧里举办了开票派对，那家酒吧平时常有说客和议员光顾。天花板上垂挂着小小的美国国旗。铺天盖地的广告让 Alani 从一个无名小卒变成了在杂货店和加油站都会被陌生人拦下来打招呼的名人。"
+    },
+    {
+      "id": 66,
+      "start_sec": 813,
+      "speaker": "Heather Tal Murphy",
+      "en": "The ad blitz had been so sudden, there were no fresh polls to predict how the vote would shake out. Alani watched as the first results were tallied.",
+      "zh": "广告攻势来得太突然，根本没有最新的民调能预测投票结果会如何。Alani 紧盯着第一批统计出来的票数。"
+    },
+    {
+      "id": 67,
+      "start_sec": 822,
+      "speaker": "Alani Bankhead",
+      "en": "As soon as that first chart hit the screen, I was at the top, and it didn't stop, so. And we won by double digits, so pretty decisive win. It was crazy. It was just, I mean, you're just in shock, right? Because in January everybody was like, who the hell is this girl? She's never gonna win.",
+      "zh": "第一张图表一出现在屏幕上，我就排在第一位，而且一路领先。我们以两位数的优势获胜，算是一场相当决定性的胜利。太疯狂了。就是，我的意思是，你会感到震惊，对吧？因为一月份的时候大家还都在说，这姑娘到底是谁啊？她绝对赢不了的。"
+    },
+    {
+      "id": 68,
+      "start_sec": 843,
+      "speaker": "Heather Tal Murphy",
+      "en": "Alani Bankhead had essentially gone from political nobody to runaway U.S. Senate nominee in just three weeks' time.",
+      "zh": "Alani Bankhead 几乎是在短短三周之内，就从政坛无名小卒一跃成为势不可挡的美国参议院提名人。"
+    },
+    {
+      "id": 69,
+      "start_sec": 850,
+      "speaker": "Alani Bankhead",
+      "en": "And if tonight proves anything, it's this: never underestimate what one person can do. The future of this country will not be decided by the loudest people online or the richest people in Washington. It'll be decided by individuals.",
+      "zh": "如果今晚证明了什么，那就是：永远不要低估一个人的力量。这个国家的未来不会由网上声音最大的人或华盛顿最有钱的人决定，而是由每一个普通人决定。"
+    },
+    {
+      "id": 70,
+      "start_sec": 863,
+      "speaker": "Heather Tal Murphy",
+      "en": "This, of course, is not what happened. It was the opposite. The loudest, richest people had completely turned this race upside down and propelled a totally unlikely candidate to a double-digit victory.",
+      "zh": "当然，事实并非如此，甚至恰恰相反。正是那些声音最大、最有钱的人彻底颠覆了这场竞选，把一个原本毫无胜算的候选人推向了两位数的胜利。"
+    },
+    {
+      "id": 71,
+      "start_sec": 879,
+      "speaker": "Heather Tal Murphy",
+      "en": "After the primary, rumors started flying about who had just elevated Alani Bankhead from long-shot unknown to the Democratic nominee for Senate in just weeks. Who was behind this giant infusion of super PAC money? And I'll get to that mystery in a minute, but for any of this to make any sense to you, I need to explain how the race laid out at the...",
+      "zh": "初选结束后，关于究竟是谁在短短几周内将 Alani Bankhead 从一个冷门无名之辈捧成民主党参议院提名人的传闻四起。这笔巨额超级政治行动委员会资金的幕后推手到底是谁？我很快就会揭开这个谜团，但在那之前，为了让你们明白这一切，我得先解释一下这场竞选最初的格局……"
+    },
+    {
+      "id": 72,
+      "start_sec": 901,
+      "speaker": "Heather Tal Murphy",
+      "en": "Alani was now set up to face a Republican, former U.S. Attorney named Kurt Alme, a Trump loyalist who'd been lined up by the outgoing Republican senator. She was also, and this is important, facing a second candidate, an independent named Seth Bodnar. His ads were running everywhere.",
+      "zh": "Alani 如今要面对的是一位共和党人，名叫 Kurt Alme 的前美国联邦检察官。他是特朗普的忠实拥趸，由即将卸任的共和党参议员一手安排出战。而且——这一点非常关键——她还要面对第二位候选人，名叫 Seth Bodnar 的独立参选人。他的竞选广告铺天盖地。"
+    },
+    {
+      "id": 73,
+      "start_sec": 921,
+      "speaker": "Seth Bodnar",
+      "en": "In Washington, they force you into a box. Democrat or Republican, and you vote how you're told to, even if it hurts your state. And I reject that. I'm Seth Bodnar.",
+      "zh": "在华盛顿，他们硬要把你塞进一个框框里。要么是民主党，要么是共和党，让你怎么投你就得怎么投，哪怕这会损害你所在州的利益。我拒绝这种做法。我是 Seth Bodnar。"
+    },
+    {
+      "id": 74,
+      "start_sec": 931,
+      "speaker": "Heather Tal Murphy",
+      "en": "Bodnar, like Alani, is former military, served in Iraq, a Green Beret.",
+      "zh": "Bodnar 和 Alani 一样也曾在军队服役，去过伊拉克，还是绿色贝雷帽特种部队成员。"
+    },
+    {
+      "id": 75,
+      "start_sec": 936,
+      "speaker": "Seth Bodnar",
+      "en": "I'm not a politician. I'm a soldier, a businessman, a husband, a father.",
+      "zh": "我不是政客。我是一名军人、一名商人、一位丈夫、一位父亲。"
+    },
+    {
+      "id": 76,
+      "start_sec": 941,
+      "speaker": "Heather Tal Murphy",
+      "en": "Bodnar's resume is full of impressive credentials. First in his class at West Point, two master's degrees from Oxford, Rhodes Scholar, a Bronze Star. And unlike Alani Bankhead, Bodnar has deeper ties and way more political connections in Montana. His wife's a fifth-generation Montanan. His most recent job, president of the University of Montana, which of course brings all kinds of personal and political connections across the state. A perfect centrist candidate for this political moment.",
+      "zh": "Bodnar 的履历可谓金光闪闪：西点军校同届第一名、牛津大学双硕士、罗德学者、铜星勋章获得者。而且与 Alani Bankhead 不同，Bodnar 在蒙大拿州根基深厚，政治人脉也广得多。他的妻子是第五代蒙大拿人。他最近一份工作是蒙大拿大学校长，这自然为他在全州积累了各种私人和政治关系。在当下的政治气候下，他简直是完美的中间派候选人。"
+    },
+    {
+      "id": 77,
+      "start_sec": 974,
+      "speaker": "Heather Tal Murphy",
+      "en": "So that's what Alani was up against. But she looked at this formidable opponent and thought, well, okay, this is the part where Montana Democrats will unite behind their nominee. Instead, something strange happened. Those millions of dollars of mysterious ads supporting her stopped running. Alani started getting calls from reporters about the Progressive Vet PAC that had funded those ads.",
+      "zh": "这就是 Alani 要面对的局面。不过，她看着这位强大的对手心想：好吧，接下来蒙大拿州的民主党人该团结起来支持自家提名人了。然而，奇怪的事情发生了。那些花费数百万美元、支持她的神秘广告突然停播了。Alani 开始接到记者打来的电话，询问资助这些广告的“进步退伍军人政治行动委员会”（Progressive Vet PAC）的情况。"
+    },
+    {
+      "id": 78,
+      "start_sec": 998,
+      "speaker": "Alani Bankhead",
+      "en": "They're like, Progressive Vet PAC is saying your race is unviable, or something about like you can't win, so we're taking our money elsewhere. And I was like, bye. You know, I mean, we didn't ask for that money anyway. And that's what we told all the reporters, right? We're like, we didn't ask for this money. We don't want dark money. We're opposed to dark money.",
+      "zh": "他们就说，Progressive Vet PAC 称你的选战没有胜算，或者说你赢不了之类的，所以要把钱撤走投到别处去。我当时就想，拜拜，反正我们也没主动要过那笔钱。我们也是这么跟所有记者说的，对吧？我们说，我们没要过这笔钱，我们不想要黑钱，我们反对黑钱。"
+    },
+    {
+      "id": 79,
+      "start_sec": 1016,
+      "speaker": "Heather Tal Murphy",
+      "en": "In other words, the group that put her on the map was abandoning her. So what was going on here? Well, Montana is one of five red states where Democrats are so unpopular, the brand is so toxic, that lots of Democrats have concluded that in certain races, that no Democrat can win. So the best path to victory is to back an independent.",
+      "zh": "换句话说，那个把她捧红的团体正在抛弃她。这到底是怎么一回事？原来，蒙大拿州是五个红州之一，在这些地方民主党极不受欢迎，党派名声臭不可闻，以至于很多民主党人断定，在某些选战中，民主党候选人根本不可能赢。因此，通往胜利的最佳途径就是支持一位独立参选人。"
+    },
+    {
+      "id": 80,
+      "start_sec": 1036,
+      "speaker": "Heather Tal Murphy",
+      "en": "And in four of those states—Idaho, Nebraska, South Dakota, and Alaska—they did it. The Democratic nominee bowed out over the summer, leaving the field open for independent candidates in those states to sweep up all the voters who are unhappy with Trump and the Republicans. This is what so many of us in Montana thought was happening here.",
+      "zh": "在其中四个州——爱达荷、内布拉斯加、南达科他和阿拉斯加——他们确实这么干了。民主党提名人在夏天退选，把舞台留给这些州的独立候选人，好让他们把所有对特朗普和共和党不满的选民一网打尽。蒙大拿州的很多人原本以为这里也会上演同样的戏码。"
+    },
+    {
+      "id": 81,
+      "start_sec": 1055,
+      "speaker": "Heather Tal Murphy",
+      "en": "The rumor was Democratic strategists threw themselves behind the independent, Seth Bodnar, hoping they could get the Democratic nominee to drop out. And to ensure that it happened, they took an extra step during the primary. They urged their rich donors to send money to the newcomer, Alani Bankhead, figuring as a newbie, she'd be the most likely to drop out.",
+      "zh": "坊间传闻是，民主党策略师全力支持独立参选人 Seth Bodnar，指望能劝退民主党提名人。为了确保这事能成，他们在初选期间还多走了一步。他们敦促富有的金主给新人 Alani Bankhead 捐款，盘算着她作为新手，最有可能在之后退选。"
+    },
+    {
+      "id": 82,
+      "start_sec": 1082,
+      "speaker": "Heather Tal Murphy",
+      "en": "Anyway, that was the rumor, and that was what Alani suspected. Something that looked fishy to Alani was that the billionaire connected to the super PAC, Jason Carroll, had also given money to Bodnar.",
+      "zh": "总之，传闻就是这样，Alani 也是这么怀疑的。让 Alani 觉得蹊跷的一点是，与这个超级政治行动委员会有关联的亿万富翁 Jason Carroll，同时也给 Bodnar 捐了款。"
+    },
+    {
+      "id": 83,
+      "start_sec": 1094,
+      "speaker": "Alani Bankhead",
+      "en": "So to me, that's as much of a smoking gun as you're going to get to show that Progressive Vet PAC was pro-Bodnar, I think with the intent of get Alani elected and get Alani pushed out of the election.",
+      "zh": "所以对我来说，这几乎就是铁证了，说明 Progressive Vet PAC 就是支持 Bodnar 的，我想他们的意图就是先把 Alani 推上初选提名人位置，再把 Alani 挤出大选。"
+    },
+    {
+      "id": 84,
+      "start_sec": 1108,
+      "speaker": "Heather Tal Murphy",
+      "en": "So it reaffirmed that it was a nefarious plot.",
+      "zh": "所以这印证了那是一个阴险的阴谋。"
+    },
+    {
+      "id": 85,
+      "start_sec": 1110,
+      "speaker": "Alani Bankhead",
+      "en": "Yes, it did.",
+      "zh": "是的，没错。"
+    },
+    {
+      "id": 86,
+      "start_sec": 1112,
+      "speaker": "Heather Tal Murphy",
+      "en": "Why do you think you were misread as someone who was more likely to drop out, or the most likely to drop out?",
+      "zh": "你觉得为什么他们会误判你，认为你更有可能退选，甚至是最有可能退选的人？"
+    },
+    {
+      "id": 87,
+      "start_sec": 1118,
+      "speaker": "Alani Bankhead",
+      "en": "I think because I'm female, and I look really young, and I'm brown, and I'm petite, and I'm kind, and I've, you know, people have mistook that for weakness my entire career. She's cute and adorable. Like you could, she's a pushover. Like, she won't be that hard, which I think is really hilarious because joke's on them. Like, eat shit, you know, get some better consultants.",
+      "zh": "我想是因为我是女性，看起来很年轻，我是棕色人种，身材娇小，而且待人和善。你知道，我整个职业生涯中人们都把这误认为是软弱。“她娇小可爱，好拿捏，不会太难搞的。”我觉得这真的很好笑，因为这下他们搬起石头砸自己的脚了。简直是吃瘪吧，拜托，换几个高明点的顾问吧。"
+    },
+    {
+      "id": 88,
+      "start_sec": 1141,
+      "speaker": "Heather Tal Murphy",
+      "en": "I reached out to Carroll, the billionaire, but he didn't respond. I also tried to get the super PAC's treasurer. When I asked Seth Bodnar about what happened in the Democratic primary, he said, flat out, he was not part of any plan to force out any Democratic nominee. He wasn't involved, doesn't know where the money came from that poured into Alani's campaign.",
+      "zh": "我联系了那位亿万富翁 Carroll，但他没有回应。我也试图联系那个超级政治行动委员会的财务主管。当我问 Seth Bodnar 民主党初选到底发生了什么时，他一口回绝，说自己没有参与任何逼退民主党提名人的计划。他没有插手，也不知道涌入 Alani 竞选团队的钱是从哪儿来的。"
+    },
+    {
+      "id": 89,
+      "start_sec": 1165,
+      "speaker": "Heather Tal Murphy",
+      "en": "So where did the money come from? Who was behind it? Who had just elevated Alani Bankhead from long-shot unknown to the Democratic nominee and then hung her out to dry? I called all kinds of people about this, Democratic insiders and operatives. No one was exactly sure what had happened or if the rumors were true, until I got to Max Baucus. Baucus is a huge deal for Montana Democrats. He was a Democratic senator here for more than three decades. He knows everyone.",
+      "zh": "那么钱到底是从哪儿来的？幕后黑手是谁？是谁把默默无闻、胜算渺茫的 Alani Bankhead 一手捧成民主党提名人，然后又把她晾在一边不管了？为此我给各种人打了电话，包括民主党内部人士和操盘手。谁也说不准到底发生了什么，也不确定传闻是真是假，直到我联系上了 Max Baucus。Baucus 在蒙大拿州民主党人中举足轻重。他曾在这里担任了三十多年的民主党参议员。他认识所有人。"
+    },
+    {
+      "id": 90,
+      "start_sec": 1193,
+      "speaker": "Max Baucus",
+      "en": "No, I was not, but I do know of some people who were involved.",
+      "zh": "不，我没有参与，但我确实知道有几个人参与了。"
+    },
+    {
+      "id": 91,
+      "start_sec": 1198,
+      "speaker": "Heather Tal Murphy",
+      "en": "Who was involved?",
+      "zh": "谁参与了？"
+    },
+    {
+      "id": 92,
+      "start_sec": 1200,
+      "speaker": "Max Baucus",
+      "en": "Um, some people I know, um, involved in Montana campaigns, really wonderful people, um, they, they were part of some organizations that directed the money.",
+      "zh": "嗯，我认识一些参与Montana州竞选活动的人，都是非常棒的人，他们当时属于一些负责调配资金的组织。"
+    },
+    {
+      "id": 93,
+      "start_sec": 1213,
+      "speaker": "Heather Tal Murphy",
+      "en": "But they told you that they were going to pick somebody who would be more likely to withdraw? Somebody told you that?",
+      "zh": "但他们当时跟你说，他们打算挑一个更有可能退选的人？有人这么告诉过你吗？"
+    },
+    {
+      "id": 94,
+      "start_sec": 1217,
+      "speaker": "Max Baucus",
+      "en": "Yes, that's correct. That's correct.",
+      "zh": "是的，没错。完全正确。"
+    },
+    {
+      "id": 95,
+      "start_sec": 1222,
+      "speaker": "Heather Tal Murphy",
+      "en": "Baucus wouldn't name names, but he's one of many big-name Democrats in Montana who've thrown all their support behind Bodnar, the independent candidate, saying he's their best shot at beating the Republican, and going on at length about what an amazing, impressive person Bodnar is.",
+      "zh": "Max Baucus不愿透露具体姓名，但他是Montana州众多全力支持独立候选人Seth Bodnar的民主党大佬之一。他们都说Bodnar是击败共和党人的最佳人选，还大谈特谈Bodnar是个多么出色、令人印象深刻的人物。"
+    },
+    {
+      "id": 96,
+      "start_sec": 1237,
+      "speaker": "Heather Tal Murphy",
+      "en": "Since that conversation, I've spoken with politicians and political insiders. And as best as I can reconstruct, here's what happened.",
+      "zh": "自那次谈话之后，我又采访了许多政客和政坛内部人士。我尽最大努力拼凑出了事情的经过。"
+    },
+    {
+      "id": 97,
+      "start_sec": 1246,
+      "speaker": "Heather Tal Murphy",
+      "en": "It all began with a meeting in August 2025 in Anaconda with Democratic politicians and strategists from Montana and beyond. They talked about how only an independent could win certain races in the state, and their win would require getting the Democrat to withdraw.",
+      "zh": "这一切始于2025年8月在Anaconda举行的一次会议，参会的有来自Montana州内外的民主党政客和策略师。他们讨论了为什么只有独立候选人才能赢得该州的某些选区，而要想获胜，就必须让民主党候选人退选。"
+    },
+    {
+      "id": 98,
+      "start_sec": 1263,
+      "speaker": "Heather Tal Murphy",
+      "en": "Meanwhile, Bodnar, this promising former Green Beret who some Democrats had been eyeing for years, decided he was ready to take the plunge as an independent.",
+      "zh": "与此同时，Bodnar——这位前途无量的前“绿色贝雷帽”特种兵，也是部分民主党人多年来一直在物色的人选——决定以独立候选人的身份放手一搏。"
+    },
+    {
+      "id": 99,
+      "start_sec": 1273,
+      "speaker": "Heather Tal Murphy",
+      "en": "One Democratic insider told me about later conversations where strategists discussed which Democratic candidate would be the best to push out after the primary. There was the Native American man—they decided it would look bad to push him out. And they knew the front-runner, the former state lawmaker, would never drop out. She'd said so many times. So they settled on Alani Bankhead. Though no one spoke to her about this.",
+      "zh": "一位民主党内部人士向我透露了后来的几次谈话，当时策略师们讨论了初选之后最适合劝退哪位民主党候选人。其中有一位美洲原住民男性，他们觉得把他挤出去观感太不好了。而且他们知道领跑者、也就是那位前州议员绝对不会退选，她自己都说过好多次了。于是他们选定了Alani Bankhead。不过，当时根本没人和她沟通过这件事。"
+    },
+    {
+      "id": 100,
+      "start_sec": 1297,
+      "speaker": "Heather Tal Murphy",
+      "en": "In Nebraska, where Democrats were also running this strategy, they did get a commitment from the Democratic nominee to drop out in advance. Democrats didn't make an agreement like that with Alani, but they funded her during the primary because they needed someone to knock the front-runner out of the race. And if you talk to the front-runner about what happened, that is definitely how she sees it. Her name is Reilly Neill.",
+      "zh": "在Nebraska州，民主党人也采用了同样的策略，但他们事先确实拿到了民主党提名人的退选承诺。民主党人并没有和Alani达成这样的协议，但他们在初选期间资助了她，因为他们需要有人把领跑者拉下马。如果你去问那位领跑者发生了什么，她肯定也是这么看的。她的名字叫Reilly Neill。"
+    },
+    {
+      "id": 101,
+      "start_sec": 1320,
+      "speaker": "Reilly Neill",
+      "en": "It was a purposeful effort to repress my race. And I can't say that after this experience I feel like much of a Democrat.",
+      "zh": "这就是一场蓄意打压我竞选的行动。经历过这件事之后，我实在没法说自己还觉得自己是个民主党人。"
+    },
+    {
+      "id": 102,
+      "start_sec": 1334,
+      "speaker": "Heather Tal Murphy",
+      "en": "She told me about this one very unsettling phone call she says she got right before Bodnar entered the race, from a well-known Democrat in the state.",
+      "zh": "她向我讲述了一通非常令人不安的电话，她说就在Bodnar宣布参选前夕，州里一位知名民主党人打给了她。"
+    },
+    {
+      "id": 103,
+      "start_sec": 1341,
+      "speaker": "Reilly Neill",
+      "en": "And he said, 'So how much would it take you to drop out of the race? $500,000?' And I said, 'No, hell no! I don't need that kind of money. You know, I have plenty of money.' And he's like, 'How about 15 million?'",
+      "zh": "他说：“那要多少钱你才肯退选？50万美元？”我说：“不，见鬼去吧！我不稀罕那种钱。要知道，我有的是钱。”然后他说：“1500万怎么样？”"
+    },
+    {
+      "id": 104,
+      "start_sec": 1360,
+      "speaker": "Heather Tal Murphy",
+      "en": "No, he didn't.",
+      "zh": "不会吧，他真这么说？"
+    },
+    {
+      "id": 105,
+      "start_sec": 1362,
+      "speaker": "Reilly Neill",
+      "en": "Yes, he did.",
+      "zh": "是的，他真这么说了。"
+    },
+    {
+      "id": 106,
+      "start_sec": 1363,
+      "speaker": "Heather Tal Murphy",
+      "en": "Where did he think he'd get 15 million?",
+      "zh": "他以为自己能从哪儿弄来1500万？"
+    },
+    {
+      "id": 107,
+      "start_sec": 1366,
+      "speaker": "Reilly Neill",
+      "en": "I laughed to make it less serious, and said, 'How about 50 million? And I'm not dropping out.' And then he laughed, and we ended the conversation.",
+      "zh": "我笑了笑，想把气氛缓和一下，然后说：“5000万怎么样？而且我不会退选的。”接着他也笑了，我们就结束了通话。"
+    },
+    {
+      "id": 108,
+      "start_sec": 1378,
+      "speaker": "Heather Tal Murphy",
+      "en": "Did he say why he would want you to drop out?",
+      "zh": "他有说为什么要你退选吗？"
+    },
+    {
+      "id": 109,
+      "start_sec": 1381,
+      "speaker": "Reilly Neill",
+      "en": "No. I don't know if it was a trial balloon or if it was sincere. I don't know, he could probably say, 'I was just messing around,' but you can ask my husband, because I thought he was dead serious.",
+      "zh": "没有。我不知道他是在试探风声，还是认真的。说不定他会说“我只是开个玩笑”，但你可以去问我丈夫，因为我当时觉得他简直认真得要命。"
+    },
+    {
+      "id": 110,
+      "start_sec": 1398,
+      "speaker": "Brian Schweitzer",
+      "en": "Well, that's completely false.",
+      "zh": "嗯，这完全是无稽之谈。"
+    },
+    {
+      "id": 111,
+      "start_sec": 1400,
+      "speaker": "Heather Tal Murphy",
+      "en": "The person who she said made this offer to her? Former Montana governor Brian Schweitzer, a Democrat. If the offer were sincere, this would break state law. I called up Schweitzer and told him what Reilly Neill said.",
+      "zh": "她说向她开出这个价码的人是谁？Montana州前州长、民主党人Brian Schweitzer。如果这笔交易是认真的，那就违反了州法律。我打电话给Schweitzer，把Reilly Neill的话转述给了他。"
+    },
+    {
+      "id": 112,
+      "start_sec": 1414,
+      "speaker": "Brian Schweitzer",
+      "en": "I have absolutely no idea about that. By the way, not only no idea, this is outrageous for her to have said that.",
+      "zh": "我对此完全不知情。顺便说一句，不仅是不知情，她这么说简直太离谱了。"
+    },
+    {
+      "id": 113,
+      "start_sec": 1428,
+      "speaker": "Heather Tal Murphy",
+      "en": "Okay. So she said that then the conversation switched, and she was quite surprised, and then you both laughed, and then you hung up, and then you didn't talk to her again for a while.",
+      "zh": "好的。她说当时谈话突然转到了这个话题，她非常惊讶，然后你们俩都笑了，接着就挂了电话，之后好长一段时间你们都没再联系。"
+    },
+    {
+      "id": 114,
+      "start_sec": 1436,
+      "speaker": "Brian Schweitzer",
+      "en": "I may well have done that because the rumors were out there that people were getting offered to get out of the race.",
+      "zh": "我确实有可能那么说过，因为当时外面都在传，有人开价让候选人退选。"
+    },
+    {
+      "id": 115,
+      "start_sec": 1444,
+      "speaker": "Heather Tal Murphy",
+      "en": "Wait, so what do you mean you may well have done that?",
+      "zh": "等等，你说的“确实有可能那么说过”是什么意思？"
+    },
+    {
+      "id": 116,
+      "start_sec": 1447,
+      "speaker": "Brian Schweitzer",
+      "en": "The rumors were all over the place that whoever won this race might be getting out of the race.",
+      "zh": "当时到处都在传，不管谁赢下这场初选，都可能会退选。"
+    },
+    {
+      "id": 117,
+      "start_sec": 1455,
+      "speaker": "Brian Schweitzer",
+      "en": "But I was not proposing anything to anybody. I was saying how ridiculous it would be if somebody would propose to pay money to get out of the race.",
+      "zh": "但我可没向任何人提出过这种交易。我当时是在说，如果有人提议花钱让人退选，那该有多荒谬。"
+    },
+    {
+      "id": 118,
+      "start_sec": 1469,
+      "speaker": "Brian Schweitzer",
+      "en": "I may have been making a point that you can't be bought. Maybe somebody else in this race can be bought, but I knew she couldn't be.",
+      "zh": "我当时可能只是想表达一个观点，那就是你是收买不了的。也许这场竞选里的其他人能被收买，但我知道她绝不可能。"
+    },
+    {
+      "id": 119,
+      "start_sec": 1480,
+      "speaker": "Heather Tal Murphy",
+      "en": "He told me this whole story makes no sense. He endorsed Reilly Neill through the primary, then endorsed Alani after she won. He believes it's important for the party to stand behind their Democratic nominee.",
+      "zh": "他告诉我，整个故事根本说不通。他在初选期间一直支持Reilly Neill，而在Alani获胜后又转而支持她。他认为，民主党站在自己的提名人身后至关重要。"
+    },
+    {
+      "id": 120,
+      "start_sec": 1491,
+      "speaker": "Heather Tal Murphy",
+      "en": "So after speaking with several people who've worked for Schweitzer, I don't think he was offering her a bribe. I think what might have been happening here is that he might have been trying to figure out if anyone",
+      "zh": "因此，在与几位曾为Schweitzer工作过的人交谈后，我并不认为他当时是在向她行贿。我觉得当时的情况可能是，他只是想搞清楚是不是有人"
+    },
+    {
+      "id": 121,
+      "start_sec": 1500,
+      "speaker": "Heather Tal Murphy",
+      "en": "could get Neil to drop out, so he threw these numbers at her. Or, he might have been making a joke. Who knows? Everyone's so paranoid at this point in Montana politics.",
+      "zh": "能让Neil退选，所以他把这些数据甩给了她。或者，他可能只是在开玩笑。谁知道呢？现在Montana政坛里每个人都草木皆兵。"
+    },
+    {
+      "id": 122,
+      "start_sec": 1511,
+      "speaker": "Heather Tal Murphy",
+      "en": "Anyway, back to Alani. After the primary, this intense pressure campaign started to get her to drop out. Lawn signs started appearing all over the capital city of Helena.",
+      "zh": "言归正传，回到Alani这里。初选之后，一场旨在迫使她退选的高压攻势开始了。首府Helena到处都开始出现草坪标语牌。"
+    },
+    {
+      "id": 123,
+      "start_sec": 1523,
+      "speaker": "Alani Bankhead",
+      "en": "They papered Helena and my neighborhood with yard signs that said Alani drop out. Um, we heard about that because one of our neighbors, he travels a lot for business. And as he was leaving at like 4:00 AM, he called my husband and was like, hey, like there are these signs around the neighborhood.",
+      "zh": "他们在Helena和我住的社区贴满了写着“Alani退选”的草坪标语。呃，我们之所以知道这事，是因为我们有个邻居经常出差。他凌晨四点左右出门的时候，给我丈夫打电话说，嘿，社区里到处都是这种牌子。"
+    },
+    {
+      "id": 124,
+      "start_sec": 1542,
+      "speaker": "Alani Bankhead",
+      "en": "We might have one. Do you want me to go get it?",
+      "zh": "我们这儿可能留了一块。要我去拿来看看吗？"
+    },
+    {
+      "id": 125,
+      "start_sec": 1544,
+      "speaker": "Heather Tal Murphy",
+      "en": "A yard sign?",
+      "zh": "草坪标语牌吗？"
+    },
+    {
+      "id": 126,
+      "start_sec": 1545,
+      "speaker": "Alani Bankhead",
+      "en": "I think we might.",
+      "zh": "我觉得好像有一块。"
+    },
+    {
+      "id": 127,
+      "start_sec": 1547,
+      "speaker": "Heather Tal Murphy",
+      "en": "She carried this big blue sign into her living room.",
+      "zh": "她把一块蓝色的大标语牌拿进了客厅。"
+    },
+    {
+      "id": 128,
+      "start_sec": 1550,
+      "speaker": "Alani Bankhead",
+      "en": "So it says, bow out Bankhead. Thank you, Alani, please bow out. Paid for by Montana Freedom PAC, mtfreedompac.org. Not authorized by any candidate. The other side says, bow out Bankhead. Step back so Montana can step forward. Paid for by Montana Freedom PAC.",
+      "zh": "上面写着：“Bankhead退出吧。谢谢你，Alani，请退出。”由Montana Freedom PAC出资，网址mtfreedompac.org。未经任何候选人授权。另一面写着：“Bankhead退出吧。退后一步，让Montana向前迈进。”同样由Montana Freedom PAC出资。"
+    },
+    {
+      "id": 129,
+      "start_sec": 1567,
+      "speaker": "Heather Tal Murphy",
+      "en": "The Montana Freedom PAC supports Bodnar. At this point I have to pause and say, whoever was in on the plans to boost Alani Bankhead with the idea that she'd be a pushover, that she would wither and quit, their scheming could have benefited from some more basic research about who she is.",
+      "zh": "这个Montana Freedom PAC支持的是Bodnar。说到这儿我得停下来插一句，不管当初是谁策划了捧红Alani Bankhead的计划，以为她是个软柿子，会受不了压力而退选，他们在算计之前真该先做点最基本的背调，搞清楚她到底是什么人。"
+    },
+    {
+      "id": 130,
+      "start_sec": 1584,
+      "speaker": "Heather Tal Murphy",
+      "en": "There's the frequently cited stuff, like working as a senior bodyguard for a secretary in the Air Force. But she's also a life coach and podcaster. People often point to her self-help podcast and sort of make fun of it for its live, laugh, love vibes. It's called Humble Warrior.",
+      "zh": "那些常被提及的履历就不说了，比如她曾担任空军部长的高级保镖。但她同时还是一名人生导师和播客主。人们经常拿她的自助类播客说事，调侃它那种“生活、欢笑、去爱”的心灵鸡汤画风。这档播客叫《Humble Warrior》。"
+    },
+    {
+      "id": 131,
+      "start_sec": 1600,
+      "speaker": "Alani Bankhead",
+      "en": "Journey beyond imposter syndrome. This is where I invite you into a space where high achievers and spiritual leaders converge to redefine success and self-worth.",
+      "zh": "（播客录音）超越冒充者综合征的旅程。在这里，我邀请你进入一个空间，让高成就者与精神领袖汇聚一堂，重新定义成功与自我价值。"
+    },
+    {
+      "id": 132,
+      "start_sec": 1612,
+      "speaker": "Heather Tal Murphy",
+      "en": "But if you listen to what she's actually saying on it, her thing is, here's how to get past these moments when you feel like you're not qualified. Her whole focus is on telling people not to give up. She's written a book on it, runs trainings on this kind of thing for law enforcement.",
+      "zh": "但如果你仔细听她在节目里到底在讲什么，她的核心其实是：当你觉得自己不够格时，该如何度过这些时刻。她关注的重点就是告诉大家不要放弃。她还为此写了一本书，并为执法部门开展这类培训。"
+    },
+    {
+      "id": 133,
+      "start_sec": 1630,
+      "speaker": "Heather Tal Murphy",
+      "en": "Still, the pressure on Alani has only increased and it's easy to see why. If the polls are right and nothing changes, the Republicans will easily hold on to Montana's Senate seat. The Republican is polling over 40, Bodnar's numbers are in the high 20s or low 30s, and Alani is trailing behind them both in the teens.",
+      "zh": "尽管如此，施加在Alani身上的压力只增不减，原因也很显而易见。如果民调准确且局势没有变化，共和党人将轻松保住Montana的参议院席位。共和党候选人的民调支持率超过40%，Bodnar的支持率在20%多到30%出头，而Alani则以十几的支持率排在他们俩后面。"
+    },
+    {
+      "id": 134,
+      "start_sec": 1649,
+      "speaker": "Heather Tal Murphy",
+      "en": "If she quit the race and Bodnar somehow picked up all her votes, he might win. She hasn't raised very much money since the primaries, while Bodnar has raised millions.",
+      "zh": "如果她退选，而Bodnar设法接盘了她所有的选票，他就有可能获胜。自初选以来，她没筹到多少钱，而Bodnar已经筹集了数百万美元。"
+    },
+    {
+      "id": 135,
+      "start_sec": 1662,
+      "speaker": "Heather Tal Murphy",
+      "en": "Everyone in politics is seeing this. And Alani started to get calls from Democrats outside the state. They weren't actually telling her to drop out. It was more like, hey, looks like you don't have much of a chance. You have no money, how can you actually compete here?",
+      "zh": "政界每个人都看到了这一点。Alani开始接到来自州外民主党人的电话。他们倒不是直接叫她退选，更像是说：嘿，看起来你胜算不大啊。你又没钱，在这里怎么跟人竞争呢？"
+    },
+    {
+      "id": 136,
+      "start_sec": 1678,
+      "speaker": "Heather Tal Murphy",
+      "en": "I heard that one of the calls was from one of Alani's political idols, Elissa Slotkin, a Democratic senator from Michigan, also with a military background like her.",
+      "zh": "我听说其中一个电话来自Alani的政治偶像之一，来自Michigan的民主党参议员Elissa Slotkin，她和Alani一样也有军方背景。"
+    },
+    {
+      "id": 137,
+      "start_sec": 1687,
+      "speaker": "Heather Tal Murphy",
+      "en": "So, am I correct that did Elissa Slotkin call you and ask you to resign?",
+      "zh": "那么，Elissa Slotkin确实给你打过电话，劝你退选，对吗？"
+    },
+    {
+      "id": 138,
+      "start_sec": 1695,
+      "speaker": "Alani Bankhead",
+      "en": "I cannot confirm nor deny.",
+      "zh": "我既不能证实，也不能否认。"
+    },
+    {
+      "id": 139,
+      "start_sec": 1697,
+      "speaker": "Heather Tal Murphy",
+      "en": "Why not? Come on.",
+      "zh": "为什么呀？说说嘛。"
+    },
+    {
+      "id": 140,
+      "start_sec": 1699,
+      "speaker": "Alani Bankhead",
+      "en": "Because, um, that's not my style to like name-drop in that way. Um, I respect her.",
+      "zh": "因为，呃，那样随便搬出别人的名字不是我的风格。呃，我很尊重她。"
+    },
+    {
+      "id": 141,
+      "start_sec": 1707,
+      "speaker": "Heather Tal Murphy",
+      "en": "I reached out to Slotkin and didn't hear back.",
+      "zh": "我联系了Slotkin方面，但没有收到回复。"
+    },
+    {
+      "id": 142,
+      "start_sec": 1709,
+      "speaker": "Alani Bankhead",
+      "en": "I mean, on the record, I had a US senator, a sitting governor, and a former member of cabinet call me to try to get me to drop out.",
+      "zh": "我是说，可以公开记录的是，确实有一位美国参议员、一位现任州长和一位前内阁成员给我打过电话，试图劝我退选。"
+    },
+    {
+      "id": 143,
+      "start_sec": 1717,
+      "speaker": "Heather Tal Murphy",
+      "en": "Did any of them come visit you in person or all phone calls?",
+      "zh": "他们中有人亲自来拜访过你吗，还是都是打电话？"
+    },
+    {
+      "id": 144,
+      "start_sec": 1720,
+      "speaker": "Alani Bankhead",
+      "en": "One of them tried to come visit me in person and I told them not to come, because I just thought it was weird, um, and I suspected they were going to try to get me to drop out and I was like, I don't want you to travel all this way for you to fail at your mission.",
+      "zh": "其中有一个人想亲自来找我，但我叫他们别来，因为我觉得这太奇怪了，呃，而且我怀疑他们是想来劝我退选的，我就想，我可不想让你大老远跑一趟，结果任务还失败了。"
+    },
+    {
+      "id": 145,
+      "start_sec": 1734,
+      "speaker": "Heather Tal Murphy",
+      "en": "So can I ask you too, when these people called, did anyone ever offer you or hint at anything you would get? Like we would support you in future runs, or maybe you could have a job, or like we're going to support you. What kind of things did they try to offer?",
+      "zh": "那我能再问一下吗，这些人打电话来的时候，有没有人向你许诺或暗示过你能得到什么好处？比如“我们以后会支持你参选”，或者“也许你可以谋个职位”，之类的。他们试图开出过什么条件吗？"
+    },
+    {
+      "id": 146,
+      "start_sec": 1747,
+      "speaker": "Alani Bankhead",
+      "en": "Oh yeah, there was probing. They're like, what do you want to do next? And I was like, what do you mean? They're like, well, you know, me and my colleagues, like we got into the House and then I got into Senate and others are governors, like what's the next thing? And I was like, nothing, like I'm running for Senate and that's it. And they're like, okay.",
+      "zh": "哦，有的，确实有试探。他们会问：“你下一步想做什么？”我就说：“你什么意思？”他们就说：“嗯，你知道的，我和我的同事们，先是进了众议院，然后我进了参议院，其他人当了州长，那你下一步打算干嘛？”我就说：“没打算干嘛，我正在竞选参议员，就这样。”他们就说：“好吧。”"
+    },
+    {
+      "id": 147,
+      "start_sec": 1765,
+      "speaker": "Alani Bankhead",
+      "en": "And then they're like, you know, the DNC is standing up this like female veteran like office to support female veterans running as Dems, like, would you want to run it? And I was like, why would I go work for the same organization that has stabbed me in the back and told me that I'm not supportable? That makes no sense.",
+      "zh": "然后他们又说：“你知道，DNC正在筹建一个类似女性退伍军人的办公室，用来支持作为民主党人竞选的女性退伍军人，你想去负责这个部门吗？”我就说：“我为什么要去为那个在背后捅我一刀、还说我‘不值得支持’的组织工作呢？这毫无道理。”"
+    },
+    {
+      "id": 148,
+      "start_sec": 1786,
+      "speaker": "Heather Tal Murphy",
+      "en": "Alani would not tell me who talked to her about this job and said they didn't explicitly ask her to drop out. But the state's Republican attorney general recently announced he's investigating what happened and whether it broke the law. The DNC",
+      "zh": "Alani不愿告诉我到底是谁跟她谈起这份工作的，并表示对方并没有明确要求她退选。但该州的共和党籍总检察长最近宣布，他正在调查此事以及这是否触犯了法律。DNC"
+    },
+    {
+      "id": 149,
+      "start_sec": 1800,
+      "speaker": "Heather Tal Murphy",
+      "en": "as they never offered her a job.",
+      "zh": "因为他们压根没给过她工作机会。"
+    },
+    {
+      "id": 150,
+      "start_sec": 1809,
+      "speaker": "Heather Tal Murphy",
+      "en": "As Alani heads into the final days of the race, she says she hasn't had a moment of doubt about what she should do. There's no one out there, not on your campaign, who believes that you can win based on the polling numbers. Do you still think you could win?",
+      "zh": "随着Alani进入竞选的最后几天，她说自己对自己该做什么从未有过一丝怀疑。除了你自己的竞选团队，外面没人觉得凭这些民调数据你能赢。你还是觉得自己能赢吗？"
+    },
+    {
+      "id": 151,
+      "start_sec": 1824,
+      "speaker": "Alani Bankhead",
+      "en": "If polls mattered, Hillary would have won.",
+      "zh": "如果民调有用的话，希拉里早就赢了。"
+    },
+    {
+      "id": 152,
+      "start_sec": 1826,
+      "speaker": "Heather Tal Murphy",
+      "en": "She says if the Republican wins, she'll feel fine.",
+      "zh": "她说如果共和党人赢了，她也能接受。"
+    },
+    {
+      "id": 153,
+      "start_sec": 1830,
+      "speaker": "Alani Bankhead",
+      "en": "I will be proud to have run the race that we did. Um, and I mean, it will have been the people of Montana that voted that way. It's the people's choice, it's not my choice.",
+      "zh": "我会为我们打的这场选战感到自豪。呃，我是说，那是蒙大拿州人民自己投出来的选择。是人民的选择，不是我的选择。"
+    },
+    {
+      "id": 154,
+      "start_sec": 1841,
+      "speaker": "Heather Tal Murphy",
+      "en": "Her response is always like this. She ran, she won the party's nomination, she didn't break any rules. If someone trying to manipulate the race is disappointed, that is their problem. It's like one part moral high ground, one part middle finger.",
+      "zh": "她的回应向来如此。她参选了，赢下了党内提名，没违反任何规则。如果那些试图操纵选情的人感到失望，那是他们自己的问题。这态度就像是一半占领道德高地，另一半直接竖起中指。"
+    },
+    {
+      "id": 155,
+      "start_sec": 1856,
+      "speaker": "Heather Tal Murphy",
+      "en": "The deadline for Alani to withdraw, for her name and the Democratic Party to be removed from the ballot, came and went. People are still urging her to suspend her campaign.",
+      "zh": "Alani退选的截止日期——也就是把她的名字和民主党字样从选票上撤下的最后期限——已经过去了。人们仍在敦促她暂停竞选。"
+    },
+    {
+      "id": 156,
+      "start_sec": 1873,
+      "speaker": "Heather Tal Murphy",
+      "en": "Alani Bankhead's refusal to leave the race fueled a whole second pool of rumors. The rumors are that she's actually a tool of the Republicans, a Republican plant who's trying to split the anti-Trump vote to help the Republican candidate win.",
+      "zh": "Alani Bankhead拒绝退选，又引发了另一波谣言。传言说她其实是共和党人的工具，是共和党安插的棋子，试图分散反特朗普选民的选票，从而帮助共和党候选人获胜。"
+    },
+    {
+      "id": 157,
+      "start_sec": 1888,
+      "speaker": "Heather Tal Murphy",
+      "en": "What's been left is a mess here for Montana Democrats. The head of the state party just resigned and endorsed Bodnar. The Republican candidate is so confident in his win that he hasn't been coming to debates or even hosting many public events.",
+      "zh": "留给蒙大拿州民主党的，是一个烂摊子。州民主党主席刚刚辞职，并宣布支持Bodnar。而共和党候选人对胜选充满信心，连辩论都不来参加了，甚至很少举办公开活动。"
+    },
+    {
+      "id": 158,
+      "start_sec": 1901,
+      "speaker": "Heather Tal Murphy",
+      "en": "I went to the godfather of Democratic politics in the state, Jon Tester, to see what he made of all this. Tester is the last Democrat elected to Senate in Montana, a seat he held for 18 years. He understands well how thin the margins can be in this red state. He once won his seat by fewer than 4,000 votes.",
+      "zh": "我去找了该州民主党政坛的教父级人物Jon Tester，想听听他对这一切的看法。Tester是蒙大拿州最后一位当选联邦参议员的民主党人，他在这个席位上坐了18年。他深知在这个红州，胜负的差距可以有多微弱。他曾以不到4000票的微弱优势赢下自己的席位。"
+    },
+    {
+      "id": 159,
+      "start_sec": 1921,
+      "speaker": "Heather Tal Murphy",
+      "en": "Tester was one of the first big-name Democrats to support Bodnar. I heard many rumors that he was actually behind the scheme to pump money into the primary for Alani, but he insisted to me that he had nothing to do with it and thought it was, quote, 'stupid.' Still, he's clearly frustrated by Alani's decision to stay in the race.",
+      "zh": "Tester是最早支持Bodnar的民主党重量级人物之一。我听到很多传言说，其实正是他在幕后策划，往初选里砸钱捧Alani。但他向我坚称自己与此事毫无关系，并称其“愚蠢”。不过，他对Alani决定留在选战中显然感到很沮丧。"
+    },
+    {
+      "id": 160,
+      "start_sec": 1940,
+      "speaker": "Jon Tester",
+      "en": "I don't know what her motivation is for running. But either way, I don't think there's an understanding of the gravity of the situation. I don't think there's an understanding of what's at risk here.",
+      "zh": "我不知道她参选的动机是什么。但不管怎样，我觉得她根本没意识到局势的严重性。我觉得她根本没意识到这里面赌上的是什么。"
+    },
+    {
+      "id": 161,
+      "start_sec": 1954,
+      "speaker": "Jon Tester",
+      "en": "Um, look, our democracy's hanging on by its fingernails, if that. Congress has been AWOL for a year and three quarters. And so, is this important? Yeah, I mean, I'm 70 years old. I worked my whole damn life to make sure we have a country that my kids can enjoy and be able to prosper in, my grandkids too. It may be gone.",
+      "zh": "呃，听着，我们的民主制度已经岌岌可危，甚至可以说命悬一线。国会已经失职一年零九个月了。所以，这事重要吗？当然，我都70岁了。我这辈子拼死拼活，就是为了确保我们有一个能让我的孩子、还有我的孙辈们安居乐业的国家。而这一切可能就要毁于一旦了。"
+    },
+    {
+      "id": 162,
+      "start_sec": 1983,
+      "speaker": "Jon Tester",
+      "en": "And I've ran four times, and I can tell you, I can tell you when I was behind, and I can tell you when I was close to being ahead. And there's no way that anybody that knows anything about politics would say, if you're in Alani Bankhead's shoes, that 'I've got grassroots support and I'm gonna win this thing.'",
+      "zh": "我参选过四次，我可以告诉你，我什么时候落后，什么时候快要反超，我心里门儿清。任何一个懂点政治的人，如果站在Alani Bankhead的处境里，绝不可能说出“我有草根支持，我能赢下这场选举”这种话。"
+    },
+    {
+      "id": 163,
+      "start_sec": 2006,
+      "speaker": "Jon Tester",
+      "en": "You're smoking something illegal if that's what you're thinking. 'Cause it ain't there, I don't see it, I have not seen it. There was a homecoming parade at the University of Montana that I was at this weekend. Bodnar had 40 people in his float. I saw one lady carrying an Alani Bankhead sign. If that's grassroots support that's gonna push you across the finish line, you got a different view of politics in Montana than I do.",
+      "zh": "你要是真这么想，那准是抽了什么违禁品。因为根本没有那回事，我没看到，从来没看到过。这个周末我去了蒙大拿大学的返校节游行。Bodnar的花车上有40个人。而我只看到一位女士举着Alani Bankhead的牌子。如果这也算能把你推过终点线的草根支持，那你对蒙大拿州政治的看法可跟我太不一样了。"
+    },
+    {
+      "id": 164,
+      "start_sec": 2038,
+      "speaker": "Heather Tal Murphy",
+      "en": "I wanted to know what Alani made of that in these final days. I called her while she was on her way to a campaign event in Billings and played her what Tester said.",
+      "zh": "我想知道在这最后几天里，Alani对此作何感想。我在她前往比灵斯参加竞选活动的路上给她打了电话，并把Tester的话放给她听。"
+    },
+    {
+      "id": 165,
+      "start_sec": 2047,
+      "speaker": "Alani Bankhead",
+      "en": "I don't really care. Uh, I think Jon is pitching some kind of hissy fit. Um, I put my ring in the hat, I won 48,000 votes. Um, and if they want to support democracy, then they can support the Democratic candidate.",
+      "zh": "我其实不在乎。呃，我觉得Jon就是在无理取闹、发脾气。呃，我报名参选了，我赢得了48000张选票。呃，如果他们想支持民主，那就应该支持民主党候选人。"
+    },
+    {
+      "id": 166,
+      "start_sec": 2063,
+      "speaker": "Heather Tal Murphy",
+      "en": "I think Alani's truly convinced herself that it doesn't matter what the intention of the money was. She won the primary because voters, after learning about her, voted for her.",
+      "zh": "我觉得Alani是真的说服了自己，认为那些钱背后的意图并不重要。她赢下了初选，是因为选民在了解她之后，把票投给了她。"
+    },
+    {
+      "id": 167,
+      "start_sec": 2075,
+      "speaker": "Heather Tal Murphy",
+      "en": "There's this moment when I was watching her campaign at a fall festival in a small town outside of Helena. She made her way through the crowd, and person after person stopped her saying, 'Hey, Alani. You got this, Alani. Nice to see you, Alani.' They shake her hand, tap her on the shoulder. She seems to be enjoying herself.",
+      "zh": "有一次，我在海伦娜郊外一个小镇的秋季庆典上观看她拉票。她穿过人群，一个又一个人拦住她说：“嘿，Alani。你可以的，Alani。很高兴见到你，Alani。”他们和她握手，拍拍她的肩膀。她看起来很享受这个过程。"
+    },
+    {
+      "id": 168,
+      "start_sec": 2094,
+      "speaker": "Heather Tal Murphy",
+      "en": "In all those other states, the Democratic candidate got out of the way for the independent.",
+      "zh": "在所有其他那些州，民主党候选人都为独立候选人让了路。"
+    },
+    {
+      "id": 169,
+      "start_sec": 2100,
+      "speaker": "Heather Tal Murphy",
+      "en": "The one in South Dakota dropped out after his house caught on fire. Alani is the last one standing.",
+      "zh": "南达科他州的那位在自家房子着火后退出了。Alani 成了唯一坚持到最后的人。"
+    },
+    {
+      "id": 170,
+      "start_sec": 2118,
+      "speaker": "Ira Glass",
+      "en": "Heather Tal Murphy. Her story was produced by Miki Meek. Coming up, an oracle and a reporter walk into a barbershop. That's in a minute from Chicago Public Radio, when our program continues.",
+      "zh": "以上是 Heather Tal Murphy 的报道，本期故事由 Miki Meek 制作。稍后，一位预言家和一位记者走进了一家理发店。精彩内容马上回来，这里是 WBEZ Chicago，我们的节目稍后继续。"
+    },
+    {
+      "id": 171,
+      "start_sec": 2133,
+      "speaker": "Ira Glass",
+      "en": "It's This American Life. I'm Ira Glass. Today's show, \"Talk Me Into It.\" With the midterm elections upon us, we have stories of people convincing other people to change their minds. We've arrived at Act Two of our program. For this act, we're going to leave the world of politics for just a minute and talk about the tactics of persuasion that professional salespeople use to get us to buy a car, or a refrigerator, or a timeshare, or whatever. So this is Act Two, \"The Ben Franklin Close.\"",
+      "zh": "这里是《This American Life》，我是 Ira Glass。今天的节目主题是“说服我”。随着中期选举临近，我们准备了一些关于人们如何说服他人改变主意的故事。现在我们来到节目的 Act Two。在这一幕中，我们要暂时离开政治的世界，聊聊专业销售人员用来劝我们买车、买冰箱、买分时度假屋或者其他什么东西的说服技巧。这就是 Act Two，“本·富兰克林成交法”。"
+    },
+    {
+      "id": 172,
+      "start_sec": 2160,
+      "speaker": "Ira Glass",
+      "en": "Noah Adams died a few weeks ago. And maybe you know who this is. He was one of the longtime hosts of All Things Considered on NPR. Back when I was young, I was his tape cutter for a while. And I have to say, I learned so much about interviewing listening to how he would structure his interviews and how he would come up with questions that drove in surprising directions.",
+      "zh": "Noah Adams 几周前去世了。也许你知道他是谁。他曾长期担任 NPR《All Things Considered》节目的主持人。我年轻的时候，曾给他做过一段时间的录音剪辑。我得说，听他如何架构采访、如何提出能把对话引向意想不到方向的问题，让我学到了太多关于采访的技巧。"
+    },
+    {
+      "id": 173,
+      "start_sec": 2181,
+      "speaker": "Ira Glass",
+      "en": "And since he died a couple of weeks ago, I've been thinking about one of the stories that he did that has always stuck with me. And it was this story where he was not the interviewer. He was actually the interviewee in this story. And this was about one of the jobs that he did before he came to NPR. Noah had been a car salesman in Lexington, Kentucky, at a VW dealership.",
+      "zh": "自从他几周前去世后，我一直在想他讲过的一个让我印象极其深刻的故事。在这个故事里，他不是采访者，而是受访者。这讲的是他在去 NPR 之前做过的一份工作。Noah 曾在肯塔基州列克星敦的一家大众汽车经销商那里当过汽车销售员。"
+    },
+    {
+      "id": 174,
+      "start_sec": 2203,
+      "speaker": "Ira Glass",
+      "en": "And he was interviewed for this documentary called The Selling Game. And you'll hear it, like, he's being interviewed, but mostly he just kind of tells this long story without a lot of interruption. And in it, he explains that he used to go to these salesman training seminars where they would teach different moves and sales techniques. And there was one technique that he saw people do and that he heard recordings of that he said was just incredible, but he could never bring himself to do it. He said he would just be too embarrassed. As you'll hear, it requires a lot of shamelessness.",
+      "zh": "他为一部叫《The Selling Game》的纪录片接受了采访。你会听到，虽然他在接受采访，但大部分时间里他只是在一口气讲一个长长的故事，几乎没什么被打断。在故事里，他解释说自己以前常去参加那种销售员培训研讨会，会上会教各种套路和销售技巧。有一种技巧，他见过别人用，也听过录音，他说那简直太神奇了，但他自己却怎么也拉不下脸去用。他说那样做会让他觉得太尴尬了。正如你即将听到的，这需要相当厚的脸皮。"
+    },
+    {
+      "id": 175,
+      "start_sec": 2234,
+      "speaker": "Ira Glass",
+      "en": "The technique was called the Ben Franklin close. And Noah said that you would use this when you got the customer to the point where they had picked out, you know, the car or the insurance policy or whatever it is that you were selling. They picked out the one they liked, but they just hadn't committed, you know, they were hesitating. And then it's your job as the salesman to get them to buy right now, like, don't wait, buy it right now. And they're saying, \"I don't want to jump into it. I want to think about it.\" That's when it's time to kick in the Ben Franklin close.",
+      "zh": "这个技巧叫做“本·富兰克林成交法”。Noah 说，当你把顾客引导到已经挑好了东西——比如车、保险单或者随便什么你在卖的东西——他们已经选定了自己喜欢的，但就是还没下定决心，还在犹豫的时候，就可以用这一招。这时候，作为销售员，你的工作就是让他们立刻买下来，别等了，现在就买。而他们会说：“我不想这么草率，我想再考虑考虑。”这时候，就该使出“本·富兰克林成交法”了。"
+    },
+    {
+      "id": 176,
+      "start_sec": 2261,
+      "speaker": "Noah Adams",
+      "en": "And you say, \"Fine. Let's think about it together.\" And you absolutely have to say, \"Do you know who Ben Franklin was?\" You say this to a college professor. I mean, you have to say it. \"Do you know who Ben Franklin was?\" The reason you have to do it is because you get them involved and interacting with you. \"Yeah, yeah, we know who Ben Franklin was.\" \"Do you know what old Ben Franklin would do when he found himself in a situation like this?\"",
+      "zh": "然后你说：“好啊，那我们一起来考虑考虑。”接着你绝对得说一句：“你知道本·富兰克林是谁吗？”哪怕对方是大学教授，你也得这么问。我的意思是，你必须这么说：“你知道本·富兰克林是谁吗？”之所以必须这么做，是因为这样能把他们拉进来，和你产生互动。“知道，知道，我们知道本·富兰克林是谁。”“那你知道老本·富兰克林在遇到这种情况时会怎么做吗？”"
+    },
+    {
+      "id": 177,
+      "start_sec": 2287,
+      "speaker": "Noah Adams",
+      "en": "Then you'd wait, and they'd say, they have to, you know, they have to say, \"No, what would Ben Franklin do?\" At this point, you pull out a piece of paper and pencil and ruler. It's a white piece of paper, nothing on it. You say, \"Ben Franklin, when he found himself in a situation just like this, couldn't decide what to do, would take a piece of paper\"—and then you take the piece of paper out—\"and he'd draw a line down the middle.\" You draw a line. \"And he would then put on one side of that line the reasons why he should do this.\"",
+      "zh": "然后你停下来等，他们就不得不说：“不知道，本·富兰克林会怎么做？”这时候，你拿出一张纸、一支铅笔和一把尺子。那是一张白纸，上面什么都没有。你说：“本·富兰克林在遇到像现在这样拿不定主意的情况时，会拿出一张纸”——然后你拿出那张纸——“在中间画一条线。”你画一条线。“然后他会在那条线的一边，写下他应该这么做的理由。”"
+    },
+    {
+      "id": 178,
+      "start_sec": 2319,
+      "speaker": "Ira Glass",
+      "en": "And then Noah explains that you, the salesman, then write down on the left side of the paper all the reasons why they should buy today. You know, our old car is on its last legs, and there's a special deal on the financing, like, whatever. Let's say there's a married couple there. You have them name reasons, and you name reasons, and then you write in big block letters so you have to turn over the page and continue the list all the way down the back.",
+      "zh": "接着 Noah 解释说，作为销售员，你就在纸的左边写下所有他们今天应该买下来的理由。比如，旧车快报废了，贷款有特别优惠，诸如此类的。假设来的是一对夫妻，你让他们说理由，你自己也说理由，然后你用大号正楷字写下来，大到你不得不翻过纸去，在背面一直往下写。"
+    },
+    {
+      "id": 179,
+      "start_sec": 2342,
+      "speaker": "Noah Adams",
+      "en": "Whatever product it is, if the salesman's any good at all, he can come up with about 20 reasons, with the help of the customer, why this should be done today, right now. And then—and this is the fun part of it—\"Well, then what old Ben Franklin would do is take the other side of the page and write down the reasons why he shouldn't do this at this time.\"",
+      "zh": "无论是什么产品，只要这个销售员稍微有点本事，在顾客的配合下，他都能想出大概 20 个理由，说明为什么今天、现在就该把这事办了。然后——这才是最有趣的部分——“好，接下来老本·富兰克林会做的，就是在纸的另一边写下为什么此时此刻不应该这么做的理由。”"
+    },
+    {
+      "id": 180,
+      "start_sec": 2366,
+      "speaker": "Noah Adams",
+      "en": "And then the salesman who has helped them, who has written down, in fact, in big block letters the reasons why they should, then takes the piece of paper, very casually, pushes it across the desk, and gives it to them. Gives them the pen and says, \"Okay,\" very, you know, very nicely, \"Now, you folks write down the reasons why you shouldn't.\" And then he just leans back, and he's not helping them at this point. And they're lost. They don't know what to do.",
+      "zh": "然后，刚才一直在帮他们、甚至用大号正楷字写下“应该买”的理由的销售员，会非常随意的拿起那张纸，推过桌面，递给他们。把笔交给他们，非常客气地说：“好了，现在请你们写下不应该买的理由。”说完他就往椅背上一靠，这时候他可不帮忙了。而顾客们就懵了，他们不知道该写什么。"
+    },
+    {
+      "id": 181,
+      "start_sec": 2393,
+      "speaker": "Ira Glass",
+      "en": "I'm just going to jump in again. I think this moment is the reason that this stuck with me all these years, is that the whole sales...",
+      "zh": "我再插一句。我觉得正是这一刻，让这个故事这么多年来一直留在我的记忆里，那就是整个销售……"
+    },
+    {
+      "id": 182,
+      "start_sec": 2400,
+      "speaker": "Ira Glass",
+      "en": "The whole thing is built around creating this very awkward social experience where you put the customers on the spot. And they find themselves suddenly participating in this ridiculous exercise that you roped them into. And like, in theory, they could stand up and walk out. But doing that would just feel weird.",
+      "zh": "这整套话术就是刻意营造一种特别尴尬的社交场面，把顾客直接架在火上烤。他们会突然发现自己被你拽进了一个荒唐的小游戏里。按理说，他们完全可以站起来一走了之，但真要那么做，又会觉得特别别扭。"
+    },
+    {
+      "id": 183,
+      "start_sec": 2416,
+      "speaker": "Ira Glass",
+      "en": "It would be like violating some sort of like social rules of sitting there in the room with you. And so these poor customers, they always play along. And they kind of sort of tentatively, you know, pick up the pen like they've been instructed.",
+      "zh": "感觉就像打破了某种“坐在一个屋檐下”的社交潜规则。于是这些可怜的顾客每次都只能硬着头皮配合，小心翼翼地按你的指示拿起笔。"
+    },
+    {
+      "id": 184,
+      "start_sec": 2428,
+      "speaker": "Noah Adams",
+      "en": "And they look at each other. Well, let's see. Bob, what should we write? Let's put down this. Shouldn't jump into a decision. Number two, maybe it's too much money.",
+      "zh": "然后他们就面面相觑。“嗯，我想想。Bob，咱们写点啥？要不写这个：‘不应该草率做决定’。第二条，‘可能太贵了’。”"
+    },
+    {
+      "id": 185,
+      "start_sec": 2444,
+      "speaker": "Noah Adams",
+      "en": "And the salesman's just sitting there waiting. And they look at him for help, you know, because he helped them with the other one. And he can't think of any reasons why they shouldn't buy it right now. And he just looks at them and he's sort of tapping his finger on the desk, and time's going on, and the clock's ticking.",
+      "zh": "而销售员就干坐在那儿等着。他们还指望他能帮帮忙，毕竟刚才列好处的时候他可是帮了大忙。但他偏偏一条不买的理由都想不出来，就只是看着他们，手指在桌上一敲一敲的，时间一分一秒地过去，时钟滴答作响。"
+    },
+    {
+      "id": 186,
+      "start_sec": 2462,
+      "speaker": "Noah Adams",
+      "en": "And they get to three, maybe, four. I've seen four. And then the salesman says, well, is that it? Is that all?",
+      "zh": "他们好不容易凑出三条，顶多四条。我见过最多也就四条。这时候销售员就会开口了：“行了，就这些吗？没别的了？”"
+    },
+    {
+      "id": 187,
+      "start_sec": 2473,
+      "speaker": "Noah Adams",
+      "en": "And he says, let's see how many you got. Let's see, there's 1, 2, 3, 4, 5, 6, 23 reasons why you should buy it today. And let's see how many you have. Here, it says four.",
+      "zh": "接着他说：“咱们来数数看你们列了几条。这儿有1、2、3、4、5、6……足足23条今天必须买下的理由。再看看你们这边，这儿写着，四条。”"
+    },
+    {
+      "id": 188,
+      "start_sec": 2487,
+      "speaker": "Noah Adams",
+      "en": "This is what Ben Franklin would do. He would then total up the reasons for and the reasons against. Then you just lay the paper on the table and sit there. And you sit there and sit there and sit there until they say something.",
+      "zh": "这就是本杰明·富兰克林会做的事。他会把赞成的理由和反对的理由加起来比对。然后你就把纸往桌上一摊，干坐着。就这么一直坐着、坐着、坐着，直到他们先开口。"
+    },
+    {
+      "id": 189,
+      "start_sec": 2501,
+      "speaker": "Noah Adams",
+      "en": "And salesmen have a hard time doing this. You have to be quiet. Because the next move is theirs, they have to make it. And you should be willing to sit there and wait 30 minutes for them to do it.",
+      "zh": "很多销售员都扛不住这一招，你必须得闭嘴。因为下一步该他们出牌了，他们必须得接招。哪怕为此干坐着等上30分钟，你也得沉得住气。"
+    },
+    {
+      "id": 190,
+      "start_sec": 2513,
+      "speaker": "Ira Glass",
+      "en": "So you wait, Noah explains. He said, what sometimes happens is that at this point, the customers will say what's really bothering them, like why they are not buying right now. But Noah says any specific reason they give, like the payments or whatever, any specific reason, a good salesman has an answer to that specific reason and can kind of solve that problem for them and then close the sale.",
+      "zh": "所以你就等，Noah 解释道。他说，有时候到了这个节骨眼，顾客就会说出心里真正的顾虑，也就是他们此刻不肯买单的真正原因。但 Noah 说，只要他们给出任何具体的理由——比如分期付款啊什么的——一个优秀的销售员对任何具体理由都有现成的说辞，能顺势帮他们把问题解决掉，然后顺理成章地成交。"
+    },
+    {
+      "id": 191,
+      "start_sec": 2535,
+      "speaker": "Noah Adams",
+      "en": "Is it the color? Is it me? Is it my company? Is it the delivery time? Is it the price? Can I give you more money? Can I get you a new one, you know, from the factory? I can get you this in right now.",
+      "zh": "“是颜色不喜欢？是对我有意见？还是信不过我们公司？是交货时间太长？还是价格问题？要不我再给您让点利？或者直接从厂里给您调一台全新的？我现在就能给您办妥。”"
+    },
+    {
+      "id": 192,
+      "start_sec": 2544,
+      "speaker": "Noah Adams",
+      "en": "You know, you've got to get that objection, turn it around, use it to close.",
+      "zh": "你得把他们的反对意见套出来，再顺势扭转乾坤，用它来促成交易。"
+    },
+    {
+      "id": 193,
+      "start_sec": 2549,
+      "speaker": "Ira Glass",
+      "en": "So it's pretty airtight. And the interviewer asks Noah, what can the consumer possibly say to get out of this and not buy this item?",
+      "zh": "这招简直密不透风。于是采访者问 Noah，消费者到底得说什么，才能从这个局里脱身、不买这件东西呢？"
+    },
+    {
+      "id": 194,
+      "start_sec": 2558,
+      "speaker": "Noah Adams",
+      "en": "Ah, I've thought of that many times. And when I used to go to these sales training seminars and listen to these people who are really good, I tried to figure out a way that a customer could get out of it. And there is only one way, and I figured it out, and I've used it a couple of times, and it's hard to do.",
+      "zh": "啊，这个问题我想过无数次。以前我去参加那些销售培训研讨会，听那些顶尖高手讲课时，我就在琢磨顾客到底怎么才能脱身。其实只有一种办法，我琢磨出来了，自己也用过几次，但做起来挺难的。"
+    },
+    {
+      "id": 195,
+      "start_sec": 2578,
+      "speaker": "Noah Adams",
+      "en": "The only way out is to be willing to step out of the role that you've created for yourself and say, I don't know why. I just don't want it.",
+      "zh": "唯一的出路，就是你得愿意跳出自己预设的那个角色，直接说：‘我也不知道为什么，我就是不想要。’"
+    },
+    {
+      "id": 196,
+      "start_sec": 2592,
+      "speaker": "Noah Adams",
+      "en": "The salesman's been trained to handle every possible objection that you can come up with. There's not an objection you can come up with the salesman has not been trained to take, turn completely around into a closing device, and pin you down to a contract.",
+      "zh": "销售员受过专门训练，能应付你能想到的每一种反对意见。无论你提出什么理由，他们都练过怎么接招，把它彻底反转成逼单的工具，把你按在合同上签字。"
+    },
+    {
+      "id": 197,
+      "start_sec": 2607,
+      "speaker": "Noah Adams",
+      "en": "And if you say, I don't know why, I just don't want it. I don't know why. It'll floor him. He has no response to that.",
+      "zh": "但如果你说：‘我不知道为什么，我就是不想要。我也不知道为啥。’这一下就能把他整懵。对这句话，他毫无招架之力。"
+    },
+    {
+      "id": 198,
+      "start_sec": 2619,
+      "speaker": "Ira Glass",
+      "en": "Noah Adams, 1976, on a show called The Selling Game, being interviewed by another old mentor of mine, Keith Talbot, who I am 100% sure is listening. Hello there, Keith.",
+      "zh": "这是1976年 Noah Adams 在一档名叫《销售游戏》（The Selling Game）的节目里的录音，采访他的是我另一位老前辈 Keith Talbot。我百分之百确定他此刻正在收听。你好啊，Keith。"
+    },
+    {
+      "id": 199,
+      "start_sec": 2629,
+      "speaker": "Ira Glass",
+      "en": "If you know Noah's work at all, you can totally understand why he would never be able to bring himself to do the Ben Franklin close. Noah was like the master of connecting with people, with anybody, and getting them to open up. This kind of manipulation, just not his nature.",
+      "zh": "如果你对 Noah 的作品哪怕有一点了解，就完全能明白他为什么绝对拉不下脸去用“本杰明·富兰克林成交法”。Noah 简直是与人沟通的大师，不管跟谁都能迅速拉近距离，让人敞开心扉。这种操纵人心的套路，压根不是他的本性。"
+    },
+    {
+      "id": 200,
+      "start_sec": 2646,
+      "speaker": "Ira Glass",
+      "en": "Though Noah's wife, Nina, says that she did see Noah tell salesmen a bunch of times, \"I don't know why, I just don't want it,\" and then walk away. She says he got her doing it, too.",
+      "zh": "不过 Noah 的妻子 Nina 说，她确实见过 Noah 好多次直接对销售员说：“我不知道为什么，我就是不想要”，然后转身就走。她说，连她自己也被他教会了这一招。"
+    },
+    {
+      "id": 201,
+      "start_sec": 2664,
+      "speaker": "Ira Glass",
+      "en": "All right, back to politics. Act Three, Polls Schmolls. We now turn to one last persuader in this program of persuaders. This is a Republican in Pennsylvania who seems to have a real gift for bringing voters over to his side.",
+      "zh": "好了，说回政治。Act Three，管他什么民调。现在我们来看看本期“说服者”专题里的最后一位说服高手。这是宾夕法尼亚州的一位共和党人，他似乎天生就有把选民拉到自己这边的本事。"
+    },
+    {
+      "id": 202,
+      "start_sec": 2678,
+      "speaker": "Ira Glass",
+      "en": "He also has some predictions and some thoughts about the polls that he was happy to share with our producer, Ike Sriskandarajah.",
+      "zh": "对于民调，他也有一番自己的预测和见解，并且很乐意跟我们的制作人 Ike Sriskandarajah 分享。"
+    },
+    {
+      "id": 203,
+      "start_sec": 2684,
+      "speaker": "Ike Sriskandarajah",
+      "en": "Sam Negron is the Oracle of Allentown. I first met him two years ago at this weird moment in time. Remember when a comedian at a Trump rally called Puerto Rico an island of garbage? Sam was out here doing damage control.",
+      "zh": "Sam Negron 堪称阿伦敦（Allentown）的“预言家”。我两年前第一次见到他，正赶上一个特别魔幻的时刻。还记得有个喜剧演员在 Trump 的集会上管波多黎各叫“垃圾岛”吗？当时 Sam 就在这儿忙着危机公关呢。"
+    },
+    {
+      "id": 204,
+      "start_sec": 2703,
+      "speaker": "Ike Sriskandarajah",
+      "en": "He said it wasn't going to be a problem for Trump. And he was right. Trump did better with Hispanic voters than any Republican ever, and picked up lots right here in Allentown. That's the oracle.",
+      "zh": "他说这对Trump来说根本不是问题。而他说对了。Trump在拉美裔选民中的表现超过了以往任何一位共和党人，就在Allentown这里也拿下了大量选票。简直是神算子。"
+    },
+    {
+      "id": 205,
+      "start_sec": 2716,
+      "speaker": "Ike Sriskandarajah",
+      "en": "This time around, every poll is saying Hispanic support of Trump is down. But Sam's been knocking on thousands of doors for a PAC called Pennsylvania Republicanos. And again, he's saying...",
+      "zh": "而这一次，每一项民调都显示拉美裔对Trump的支持率正在下降。但Sam一直在为一个叫“Pennsylvania Republicanos”的政治行动委员会挨家挨户敲门拉票，敲了上千户人家。他又一次表示……"
+    },
+    {
+      "id": 206,
+      "start_sec": 2730,
+      "speaker": "Sam Negron",
+      "en": "...it's not going to be a problem for Trump, and I don't know where they're getting those numbers, because it's not what I see, it's not what I find. And when I talk to people, what I find is that they're still on board, that they're still voting Republican, that they see the Democratic Party have been taken over by socialists. I've even been able to help a few switch parties through our slate cards.",
+      "zh": "……这对Trump来说不成问题，我真不知道他们那些数据是从哪儿来的，因为我看到的、我了解到的根本不是这样。我和大家聊天时发现，他们依然支持他，依然会投给共和党，他们觉得民主党已经被社会主义者接管了。我甚至还通过我们的候选人名单卡，帮好几个人改换了党派。"
+    },
+    {
+      "id": 207,
+      "start_sec": 2755,
+      "speaker": "Ike Sriskandarajah",
+      "en": "From Democrat to Republican, registered Republican, in the last year.",
+      "zh": "就在过去一年里，从民主党改成了注册共和党人。"
+    },
+    {
+      "id": 208,
+      "start_sec": 2759,
+      "speaker": "Sam Negron",
+      "en": "Yeah, in the last two months I've flipped a couple of people. They were frustrated with the Democrats, and I'm like, well, come here, I got you.",
+      "zh": "没错，就在过去两个月里，我就策反了好几个人。他们对民主党很失望，我就说，行啊，过来吧，我帮你们搞定。"
+    },
+    {
+      "id": 209,
+      "start_sec": 2773,
+      "speaker": "Ike Sriskandarajah",
+      "en": "So, that's the mission. Is Sam right? We head out onto the streets of this majority Hispanic town to find out if Trump voters really are sticking with Republicans. It's slow going at first finding voters, until we stop by a barbershop.",
+      "zh": "所以，这就是我们的任务。Sam说得对吗？我们走上这座以拉美裔为主的小镇街头，想看看Trump的选民是不是真的还坚定地站在共和党这边。一开始找选民不太顺利，直到我们走进了一家理发店。"
+    },
+    {
+      "id": 210,
+      "start_sec": 2790,
+      "speaker": "Sam Negron",
+      "en": "This is my favorite part of town because it's still affordable, and it's not so much drama.",
+      "zh": "这是我全镇最喜欢的地方，因为这里物价还算公道，也没那么多乱七八糟的事。"
+    },
+    {
+      "id": 211,
+      "start_sec": 2798,
+      "speaker": "Ike Sriskandarajah",
+      "en": "There's a reason why barbershops are a cliché of election coverage. It's a room designed for long conversations. And Sam happens to know the barber here from way back. Actually wanted his sister to date him, but she thought he was too nice. Sam hasn't seen him in more than a decade.",
+      "zh": "理发店之所以成了大选报道里的老套场景，是有原因的。这种地方天生就是用来长聊的。而Sam碰巧跟这里的理发师是老相识。他以前还想撮合自己妹妹跟那位理发师约会，但妹妹觉得他人太老实了。Sam已经十多年没见过他了。"
+    },
+    {
+      "id": 212,
+      "start_sec": 2825,
+      "speaker": "Ike Sriskandarajah",
+      "en": "Willie Castillo is happy to see Sam. Tells him he's got six kids now. Sam says, I've got five, raised five more. Willie's like, hey, do you remember my brother? He's cutting hair just over there. Sam's like, remember my sister? She's still crazy.",
+      "zh": "Willie Castillo见到Sam非常高兴。他告诉Sam自己现在有六个孩子了。Sam说，我也有五个，还另外拉扯大了五个。Willie说，嘿，还记得我弟弟吗？他就在那边剪头发呢。Sam说，还记得我妹妹吗？她还是那么疯。"
+    },
+    {
+      "id": 213,
+      "start_sec": 2847,
+      "speaker": "Ike Sriskandarajah",
+      "en": "Then, Sam tells him why he's here.",
+      "zh": "接着，Sam告诉他自己今天来是干嘛的。"
+    },
+    {
+      "id": 214,
+      "start_sec": 2849,
+      "speaker": "Sam Negron",
+      "en": "In 2019 I switched parties to Republican, right? And I've been somebody that some people see me as influential in helping other Hispanics what I consider see the light, right? And...",
+      "zh": "2019年的时候，我改投共和党了，对吧？而且有些人觉得我挺有影响力的，能帮其他拉美裔——用我的话说——“看到光明”，对吧？然后……"
+    },
+    {
+      "id": 215,
+      "start_sec": 2864,
+      "speaker": "Willie Castillo",
+      "en": "I am a Republican voter, so you know.",
+      "zh": "我就是共和党选民，先跟你说一声。"
+    },
+    {
+      "id": 216,
+      "start_sec": 2866,
+      "speaker": "Sam Negron",
+      "en": "Okay. Okay, and that was the main question. There's news reports all over the place saying that a lot of Hispanics that swung towards the Republican Party and voted for Trump are two years later regretting doing that vote. And that's the question, right?",
+      "zh": "好。行，这正是我想问的核心问题。现在到处都有新闻报道说，很多倒向共和党并投票给Trump的拉美裔，两年后开始后悔当初投了那一票。这就是问题所在，对吧？"
+    },
+    {
+      "id": 217,
+      "start_sec": 2885,
+      "speaker": "Willie Castillo",
+      "en": "In the past two years, no, I haven't regretted that. I supported him.",
+      "zh": "过去这两年，没有，我没后悔过。我支持他。"
+    },
+    {
+      "id": 218,
+      "start_sec": 2889,
+      "speaker": "Ike Sriskandarajah",
+      "en": "Sam is looking at me smiling with his arms open, like, see? Willie is even on board with how Trump is removing immigrants.",
+      "zh": "Sam摊开双手，笑着看着我，仿佛在说：你看吧？Willie甚至连Trump驱逐移民的做法都赞成。"
+    },
+    {
+      "id": 219,
+      "start_sec": 2898,
+      "speaker": "Willie Castillo",
+      "en": "I actually got, no lie, friends that I found out that they were illegal after they got arrested by ICE.",
+      "zh": "说真的，不骗你，我有些朋友就是被移民与海关执法局（ICE）抓了之后，我才知道他们是非法移民。"
+    },
+    {
+      "id": 220,
+      "start_sec": 2908,
+      "speaker": "Ike Sriskandarajah",
+      "en": "In the last two years?",
+      "zh": "就在过去这两年吗？"
+    },
+    {
+      "id": 221,
+      "start_sec": 2910,
+      "speaker": "Willie Castillo",
+      "en": "Yeah. Those people, they got taken by ICE and they got deported.",
+      "zh": "对。那些人被ICE带走了，然后就被遣返了。"
+    },
+    {
+      "id": 222,
+      "start_sec": 2915,
+      "speaker": "Ike Sriskandarajah",
+      "en": "These were good friends of yours? Even though your own friends have been removed from this country by the Trump administration, you still support the Republican Party?",
+      "zh": "那些都是你的好朋友吗？尽管你自己的朋友都被Trump政府赶出了这个国家，你还是支持共和党？"
+    },
+    {
+      "id": 223,
+      "start_sec": 2927,
+      "speaker": "Willie Castillo",
+      "en": "Yeah.",
+      "zh": "是的。"
+    },
+    {
+      "id": 224,
+      "start_sec": 2929,
+      "speaker": "Ike Sriskandarajah",
+      "en": "Can you explain that? Because I think that might be a hard thing for people to understand.",
+      "zh": "你能解释一下吗？因为我觉得很多人可能很难理解这一点。"
+    },
+    {
+      "id": 225,
+      "start_sec": 2934,
+      "speaker": "Willie Castillo",
+      "en": "I'll be honest with you. I know a lot of immigrants that came into this country, personally, that don't belong here, not because they're immigrants, because they're criminals. They're criminals.",
+      "zh": "我跟你说实话吧。我个人就认识很多来到这个国家的移民，他们根本不该待在这里，不是因为他们是移民，而是因为他们是罪犯。他们就是罪犯。"
+    },
+    {
+      "id": 226,
+      "start_sec": 2949,
+      "speaker": "Ike Sriskandarajah",
+      "en": "Just for the record, the vast majority of immigrants detained and deported by the Trump administration have no criminal record. How about your friends? Have they been...",
+      "zh": "需要说明的是，被Trump政府拘留和遣返的绝大多数移民都没有犯罪记录。那你的朋友们呢？他们有……"
+    },
+    {
+      "id": 227,
+      "start_sec": 2959,
+      "speaker": "Willie Castillo",
+      "en": "My friends are not criminals. The people I know, they're not criminals. They're good people, they wanted to come here and work. But, no. You came in in a certain way, now you gotta go back.",
+      "zh": "我的朋友不是罪犯。我认识的那些人，他们不是罪犯。他们都是好人，想来这儿干活赚钱。但是，不行。你是用那种方式进来的，现在就得回去。"
+    },
+    {
+      "id": 228,
+      "start_sec": 2968,
+      "speaker": "Ike Sriskandarajah",
+      "en": "So, Willie's still backing the president and his party. That's one point for Sam. Willie's 21-year-old son is quietly listening. He's cutting hair, too. I ask him where he's at. He's like, nah, I didn't vote. And is certain he will not be voting anytime soon. He sends me to AJ, another younger guy who's been listening nearby.",
+      "zh": "所以，Willie依然力挺总统和他的政党。Sam先得一分。Willie 21岁的儿子一直在旁边安静地听着。他也在理发。我问他是什么态度。他说，没，我没投票。而且他很确定自己短期内都不会去投票。他让我去问问AJ，那是旁边另一个一直在听我们说话的年轻人。"
+    },
+    {
+      "id": 229,
+      "start_sec": 2991,
+      "speaker": "AJ",
+      "en": "I voted Trump. Trump, yeah.",
+      "zh": "我投了Trump。投的Trump，对。"
+    },
+    {
+      "id": 230,
+      "start_sec": 2994,
+      "speaker": "Ike Sriskandarajah",
+      "en": "How do you feel now?",
+      "zh": "你现在感觉怎么样？"
+    },
+    {
+      "id": 231,
+      "start_sec": 2996,
+      "speaker": "AJ",
+      "en": "Yeah, I'm not really into all that... everything he got going...",
+      "zh": "嗯，我其实不太喜欢他现在搞的那些……他弄出来的那堆事……"
+    },
+    {
+      "id": 232,
+      "start_sec": 3000,
+      "speaker": "Man",
+      "en": "I just know a little bit here and there.",
+      "zh": "我只是零零星星知道一点儿。"
+    },
+    {
+      "id": 233,
+      "start_sec": 3003,
+      "speaker": "Ike Sriskandarajah",
+      "en": "Do you regret voting for him? Sam jumps in.",
+      "zh": "你后悔投给他了吗？Sam插话问道。"
+    },
+    {
+      "id": 234,
+      "start_sec": 3006,
+      "speaker": "Sam Negron",
+      "en": "Do you feel like it might have been a mistake voting for him?",
+      "zh": "你觉得投给他可能是个错误吗？"
+    },
+    {
+      "id": 235,
+      "start_sec": 3009,
+      "speaker": "Man",
+      "en": "The regret is probably from the racistness, like people be saying he's racist, all that. But no, I don't, me personally, I don't regret it, no. Yeah. He knows, he knows what he's doing most of the time.",
+      "zh": "后悔的可能在于种族歧视那方面，就像人们老说他是种族主义者什么的。但我个人不后悔，真的不后悔。嗯，他大多数时候都知道自己在干嘛。"
+    },
+    {
+      "id": 236,
+      "start_sec": 3022,
+      "speaker": "Ike Sriskandarajah",
+      "en": "That's another point for Sam. In the waiting chairs at the front, I meet another guy, black guy. Hang on. Honorary Dominican, according to a barber nearby.",
+      "zh": "Sam又拿下一分。在前面的候客椅上，我又遇到一个黑人小哥。等等，按旁边一位理发师的说法，他算是个“荣誉多米尼加人”。"
+    },
+    {
+      "id": 237,
+      "start_sec": 3033,
+      "speaker": "Ike Sriskandarajah",
+      "en": "He's also sticking with Trump. He wishes ICE would go further. Not technically a Hispanic voter, but I'll give Sam the honorary point. Sam's killing it. His prophecies coming true.",
+      "zh": "他也依然支持Trump，甚至希望ICE能采取更强硬的行动。严格来说他不算西语裔选民，但我就给Sam算个“荣誉分”吧。Sam简直太神了，他的预言正在一一应验。"
+    },
+    {
+      "id": 238,
+      "start_sec": 3055,
+      "speaker": "Ike Sriskandarajah",
+      "en": "Outside, we run into one more person, Rolando Rolon, an older Puerto Rican guy who was sitting on a pink camp chair in front of the store. He's got a cane, aviators on, lots of jewelry on his hands and neck. He's been voting Republican for a long time. And he also stands by his vote for Trump.",
+      "zh": "走到店外，我们又碰见一个人，名叫Rolando Rolon，是一位上了年纪的波多黎各裔大叔，正坐在店门口一把粉色的折叠露营椅上。他拄着拐杖，戴着飞行员墨镜，手上和脖子上戴满了首饰。他一直投给共和党，而且这次也依然坚定支持Trump。"
+    },
+    {
+      "id": 239,
+      "start_sec": 3075,
+      "speaker": "Rolando Rolon",
+      "en": "'Cause that job is a tough job, and the mess that was happened before is not easy to fix in two years.",
+      "zh": "因为那份工作本来就不好干，以前留下的烂摊子，哪能那么容易在两年内收拾好。"
+    },
+    {
+      "id": 240,
+      "start_sec": 3085,
+      "speaker": "Ike Sriskandarajah",
+      "en": "He's gonna vote Republican in the midterms. But with one possible exception.",
+      "zh": "中期选举他还是会投给共和党。不过，可能有一个例外。"
+    },
+    {
+      "id": 241,
+      "start_sec": 3090,
+      "speaker": "Rolando Rolon",
+      "en": "I understand the governor is Democrat, and I admit it, he's doing a good job.",
+      "zh": "我知道州长是民主党人，但我也承认，他干得确实不错。"
+    },
+    {
+      "id": 242,
+      "start_sec": 3099,
+      "speaker": "Ike Sriskandarajah",
+      "en": "Which one?",
+      "zh": "哪位？"
+    },
+    {
+      "id": 243,
+      "start_sec": 3100,
+      "speaker": "Rolando Rolon",
+      "en": "Shapiro.",
+      "zh": "Shapiro。"
+    },
+    {
+      "id": 244,
+      "start_sec": 3101,
+      "speaker": "Ike Sriskandarajah",
+      "en": "The governor. Yeah, yeah, yeah.",
+      "zh": "州长啊。对对对。"
+    },
+    {
+      "id": 245,
+      "start_sec": 3102,
+      "speaker": "Rolando Rolon",
+      "en": "I gotta be realistic, you know, he's doing a good job.",
+      "zh": "我得实事求是嘛，他干得确实挺好。"
+    },
+    {
+      "id": 246,
+      "start_sec": 3106,
+      "speaker": "Ike Sriskandarajah",
+      "en": "Are you gonna vote for Shapiro for governor?",
+      "zh": "那你州长选举会投给Shapiro吗？"
+    },
+    {
+      "id": 247,
+      "start_sec": 3108,
+      "speaker": "Rolando Rolon",
+      "en": "I'm not sure.",
+      "zh": "说不准。"
+    },
+    {
+      "id": 248,
+      "start_sec": 3109,
+      "speaker": "Ike Sriskandarajah",
+      "en": "Sam senses opportunity, like when a lion hears a gazelle step on a branch. His head snaps towards the undecided voter.",
+      "zh": "Sam嗅到了机会，就像狮子听见羚羊踩断树枝的声音一样。他猛地转过头，盯住了这位还没拿定主意的选民。"
+    },
+    {
+      "id": 249,
+      "start_sec": 3119,
+      "speaker": "Sam Negron",
+      "en": "¿Verdad?",
+      "zh": "真的吗？"
+    },
+    {
+      "id": 250,
+      "start_sec": 3120,
+      "speaker": "Rolando Rolon",
+      "en": "Sí, sí.",
+      "zh": "对，对。"
+    },
+    {
+      "id": 251,
+      "start_sec": 3122,
+      "speaker": "Ike Sriskandarajah",
+      "en": "Rolando also perks up. He obviously would rather talk to Sam than me. Sam asks him, what do you know about the Republican candidate for governor, Stacy Garrity?",
+      "zh": "Rolando也来了精神，他显然更愿意跟Sam聊，而不是跟我。Sam问他，对共和党州长候选人Stacy Garrity了解多少？"
+    },
+    {
+      "id": 252,
+      "start_sec": 3131,
+      "speaker": "Sam Negron",
+      "en": "¿Qué tú sabes de Stacy Garrity? ¿Sabes algo de ella?",
+      "zh": "你对Stacy Garrity了解多少？知道她吗？"
+    },
+    {
+      "id": 253,
+      "start_sec": 3137,
+      "speaker": "Rolando Rolon",
+      "en": "No, es que realmente no ha hecho, o no le han dado la oportunidad para que ella le diga al pueblo cuál es su plan de trabajo.",
+      "zh": "不了解，其实她没怎么露面，或者说别人没给她机会，让她向老百姓讲清楚自己的施政计划。"
+    },
+    {
+      "id": 254,
+      "start_sec": 3153,
+      "speaker": "Sam Negron",
+      "en": "Yo conozco... You speak English. I know Stacy. I can't say that I know her personally. I've done a lot of work with Stacy.",
+      "zh": "我认识……你会说英语吧。我认识Stacy。不能说私交有多深，但我跟她共事过很多次。"
+    },
+    {
+      "id": 255,
+      "start_sec": 3161,
+      "speaker": "Ike Sriskandarajah",
+      "en": "Sam pulls up pictures on his phone. He's done private security at some Garrity events. And these are of him and Garrity, videos he's taken behind the scenes with her. Also, pictures of her in uniform. He talks about her military service, her years in Harrisburg as treasurer.",
+      "zh": "Sam在手机上翻出照片。他在Garrity的几场活动上做过私人安保。这些是他和Garrity的合影，还有他在幕后拍的视频，以及她穿军装的照片。他聊起她的军旅生涯，还有她在哈里斯堡担任州财政部长那几年的经历。"
+    },
+    {
+      "id": 256,
+      "start_sec": 3178,
+      "speaker": "Sam Negron",
+      "en": "Um, it's somebody that you really need to look into, Stacy Garrity, papi, just la buscas. And look up on the information. She's the one running against Shapiro. They just had a debate. There was several times that the moderators had to say to him after he finished answering, 'Okay, can you answer the question now?' You know what I mean? It's something that you...",
+      "zh": "嗯，Stacy Garrity这人你真得去了解一下，老兄，去搜搜看，查查她的资料。就是她跟Shapiro竞选。他俩刚辩论完，好几次他回答完问题，主持人不得不对他说：“好了，你现在能回答刚才的问题了吗？”你懂我意思吧？这就是那种……"
+    },
+    {
+      "id": 257,
+      "start_sec": 3203,
+      "speaker": "Rolando Rolon",
+      "en": "He monkey around.",
+      "zh": "他就在那儿耍滑头。"
+    },
+    {
+      "id": 258,
+      "start_sec": 3204,
+      "speaker": "Sam Negron",
+      "en": "Right. You know, you know attorneys, brother, they're good at talking and saying stuff. For me, it's different, especially with her, since I've done protection for her so many times. It's different when you go to a place and you see these candidates talk, obviously they got their, you know, their game face on.",
+      "zh": "没错。你也知道那些律师，老兄，最擅长兜圈子耍嘴皮子了。但对我来说不一样，尤其是对她，因为我给她做过太多次安保了。你去现场听那些候选人演讲，他们肯定都戴着“职业假笑”嘛，那跟私底下完全不一样。"
+    },
+    {
+      "id": 259,
+      "start_sec": 3225,
+      "speaker": "Sam Negron",
+      "en": "It's different when we're in a back room waiting and I'm helping her mom get into, you know, into a chair, or and we're talking. I find her to be a very, very genuine person, someone who really cares. And I believe that she would be the better candidate. That's just my opinion, but it's something you should look into.",
+      "zh": "我们在后台休息室等着的时候，我扶她妈妈坐下，或者跟她聊天，那种感觉是不一样的。我觉得她是个非常、非常真诚的人，是真的关心大家。我相信她会是更好的候选人。这只是我的看法，但你真应该去了解一下。"
+    },
+    {
+      "id": 260,
+      "start_sec": 3247,
+      "speaker": "Rolando Rolon",
+      "en": "Yeah, I think that...",
+      "zh": "是啊，我觉得……"
+    },
+    {
+      "id": 261,
+      "start_sec": 3248,
+      "speaker": "Ike Sriskandarajah",
+      "en": "What's he gonna say, faced with that charismatic sell?",
+      "zh": "面对这么有感染力的推销，他能怎么说呢？"
+    },
+    {
+      "id": 262,
+      "start_sec": 3251,
+      "speaker": "Rolando Rolon",
+      "en": "To be honest to you, I'm not gonna vote for Josh Shapiro after what he tell me.",
+      "zh": "老实跟你说，听完他这么一讲，我不会投给Josh Shapiro了。"
+    },
+    {
+      "id": 263,
+      "start_sec": 3256,
+      "speaker": "Ike Sriskandarajah",
+      "en": "Somehow, millions of dollars in Stacy Garrity ads hadn't reached him. But Sam did. That's one last bonus point for Sam.",
+      "zh": "不知怎么的，Stacy Garrity砸了几百万美元的广告都没打动他，但Sam做到了。这是Sam拿下的最后一份加分。"
+    },
+    {
+      "id": 264,
+      "start_sec": 3266,
+      "speaker": "Ike Sriskandarajah",
+      "en": "That was crazy, right? Did you bring me to Republican headquarters disguised as a barbershop?",
+      "zh": "刚才太疯狂了，对吧？你是不是把我带到了一个伪装成理发店的共和党总部啊？"
+    },
+    {
+      "id": 265,
+      "start_sec": 3273,
+      "speaker": "Sam Negron",
+      "en": "No, brother. What I'm finding is that most of us are still on board. I was a little worried at first, but now I'm not worried. I think we got this.",
+      "zh": "没有啦，老兄。我发现我们大多数人还是支持共和党的。一开始我还有点担心，但现在不担心了。我觉得稳了。"
+    },
+    {
+      "id": 266,
+      "start_sec": 3284,
+      "speaker": "Ike Sriskandarajah",
+      "en": "A lot of people are predicting a blue wave.",
+      "zh": "很多人都在预测会出现“蓝色浪潮”。"
+    },
+    {
+      "id": 267,
+      "start_sec": 3287,
+      "speaker": "Sam Negron",
+      "en": "For real? I haven't heard that. I can show you my Facebook. It's all red, brother. From all the people that I've spoken to, I don't see...",
+      "zh": "真的假的？我可没听说。我可以给你看我的Facebook，全是红的，老兄。就我聊过的所有人来看，我没觉得……"
+    },
+    {
+      "id": 268,
+      "start_sec": 3300,
+      "speaker": "Sam Negron",
+      "en": "...blue wave coming. I don't see it. It would shock the hell out of me.",
+      "zh": "……什么蓝色浪潮要来了，我可没看出来。要是真发生了，我绝对会大吃一惊。"
+    },
+    {
+      "id": 269,
+      "start_sec": 3307,
+      "speaker": "Ike Sriskandarajah",
+      "en": "I called the Oracle back just days before the election. He's still predicting a red wave, with a Republican winning his local congressional district and Republicans gaining seats in the House and the Senate.",
+      "zh": "就在大选前几天，我又给这位“先知”打了个电话。他依然预测会出现一场红色浪潮：不仅共和党人会赢下他所在的国会选区，共和党还会在众议院和参议院双双斩获更多席位。"
+    },
+    {
+      "id": 270,
+      "start_sec": 3321,
+      "speaker": "Ike Sriskandarajah",
+      "en": "For Pennsylvania governor, he says Stacy Garrity will beat Josh Shapiro. All of these predictions are the opposite of what the polls say. On Tuesday, we get to find out if Sam is still the Oracle of Allentown.",
+      "zh": "至于宾夕法尼亚州州长之位，他认为 Stacy Garrity 会击败 Josh Shapiro。所有这些预测都和民调结果恰恰相反。到了周二，我们就能见分晓，看看 Sam 究竟还是不是那个“阿伦敦先知”。"
+    },
+    {
+      "id": 271,
+      "start_sec": 3344,
+      "speaker": "Ira Glass",
+      "en": "Ike Sriskandarajah is one of the producers of our show.",
+      "zh": "Ike Sriskandarajah 是我们节目的制作人之一。"
+    },
+    {
+      "id": 272,
+      "start_sec": 3355,
+      "speaker": "Ira Glass",
+      "en": "Our program was produced today by Lilly Sullivan and edited by David Kestenbaum. The people who put our show together today include Michael Comite, Andrea Lopez-Cruzado, Emmanuel Dzotsi, Chana Joffe-Walt, Adrienne Lilly, Seth Lind, Andrea Marks, Miki Meek, Katherine Raimondo, Stone Nelson, Nadia Reiman, Anthony Roman, Ryan Rumery, Ruby Schwartz, Alisa Shipp, Christopher Swetala, and Diane Wu. Our managing editor is Sara Abdurrahman. Our senior editors, David Kestenbaum and Nancy Updike. Our executive editor is Emmanuel Berry.",
+      "zh": "本期节目由 Lilly Sullivan 制作，David Kestenbaum 担任编辑。今天参与节目制作的工作人员包括：Michael Comite、Andrea Lopez-Cruzado、Emmanuel Dzotsi、Chana Joffe-Walt、Adrienne Lilly、Seth Lind、Andrea Marks、Miki Meek、Katherine Raimondo、Stone Nelson、Nadia Reiman、Anthony Roman、Ryan Rumery、Ruby Schwartz、Alisa Shipp、Christopher Swetala 和 Diane Wu。我们的执行主编是 Sara Abdurrahman，资深编辑是 David Kestenbaum 和 Nancy Updike，总编辑是 Emmanuel Berry。"
+    },
+    {
+      "id": 273,
+      "start_sec": 3381,
+      "speaker": "Ira Glass",
+      "en": "This is our very last week with Katherine Raimondo mixing our show. She does such beautiful work that you hear and don't know is hers, but we do. We're gonna miss her.",
+      "zh": "这周是 Katherine Raimondo 最后一次为我们的节目做混音了。她的工作非常出色，你们平时听到的许多精彩之处其实都出自她手，只是你们不知道罢了，但我们心里都清楚。我们会非常想念她的。"
+    },
+    {
+      "id": 274,
+      "start_sec": 3392,
+      "speaker": "Ira Glass",
+      "en": "Special thanks today to Victoria Eavis, Chris Moyles, Montana Public Radio, Nathan Heller, Mina Ganesan, Mito Habe-Evans, Constance Van Kley, and Jenna Molster and Julie Rogers at NPR.",
+      "zh": "今天特别鸣谢 Victoria Eavis、Chris Moyles、蒙大拿公共广播电台、Nathan Heller、Mina Ganesan、Mito Habe-Evans、Constance Van Kley，以及 NPR 的 Jenna Molster 和 Julie Rogers。"
+    },
+    {
+      "id": 275,
+      "start_sec": 3402,
+      "speaker": "Ira Glass",
+      "en": "Our website, thisamericanlife.org, where you can stream our archive of 900 episodes for absolutely free. This is literally the 900th episode right here. Again, thisamericanlife.org. This American Life is delivered to public radio stations by PRX, the Public Radio Exchange.",
+      "zh": "我们的网站是 thisamericanlife.org，在那里你可以完全免费地在线收听我们全部 900 期往期节目。没错，你现在听到的正是第 900 期。再次提醒，网址是 thisamericanlife.org。This American Life 由公共广播交流中心 PRX 向各公共广播电台传送。"
+    },
+    {
+      "id": 276,
+      "start_sec": 3419,
+      "speaker": "Ira Glass",
+      "en": "Quick program note: this is going to be the last time I mention the live show that we did on stage in Los Angeles. In that show, I told stories, these amazing comedians improvised scenes based on the stories. It's super funny. We filmed it. You can watch it for free by signing up for a free trial, This American Life Partners membership. And yes, we are doing this hoping you're going to try it out, see all the bonus episodes and the other stuff you get, and decide to stick around and support the show.",
+      "zh": "最后插播一条节目预告：这大概是我最后一次提到我们在洛杉矶举办的那场舞台现场秀了。在那场演出里，我负责讲故事，一群超棒的喜剧演员则根据我的故事进行即兴表演。现场效果特别搞笑，我们还把它拍了下来。只要注册成为 This American Life Partners 会员并开启免费试用，你就能免费观看这场演出。当然，我们这么做也是希望你能来体验一下，看看里面的加更节目和其他福利，最后决定留下来支持我们。"
+    },
+    {
+      "id": 277,
+      "start_sec": 3443,
+      "speaker": "Ira Glass",
+      "en": "But if you don't, if you just watch the live show and then cancel, no hard feelings, we're still friends. Either way, head to thisamericanlife.org/lifepartners, use promo code VIDEO for the free trial. That link is also in the show notes.",
+      "zh": "不过就算你不留下来，只是看完现场秀就取消订阅，我们也完全不会介意，咱们依然是好朋友。无论如何，欢迎访问 thisamericanlife.org/lifepartners，使用优惠码 VIDEO 即可开启免费试用。链接也附在节目简介里了。"
+    },
+    {
+      "id": 278,
+      "start_sec": 3459,
+      "speaker": "Ira Glass",
+      "en": "Thanks as always to our program's co-founder, Mr. Torey Malatia. You know, this week, the place that he goes for acupuncture, they offered him a job. He told them, that's ridiculous. Why would I go work for the same organization that has stabbed me in the back? I'm Ira Glass, back next week with more stories of This American Life.",
+      "zh": "一如既往地感谢我们节目的联合创始人 Torey Malatia 先生。话说这周啊，他常去针灸的那家诊所竟然邀请他去那儿工作。他直接跟人家说：“这也太荒唐了，我干嘛要去一家在背后捅过我那么多刀（扎过我那么多针）的机构上班呢？”我是 Ira Glass，下周同一时间，我们继续为您带来更多《This American Life》的故事。"
+    }
+  ]
+}

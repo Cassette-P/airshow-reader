@@ -3,7 +3,7 @@
   "show_id": "tal",
   "podcast_title": "This American Life",
   "rss_url": "https://www.thisamericanlife.org/podcast/rss.xml",
-  "updated_at": "2026-11-27T15:57:46Z",
+  "updated_at": "2026-11-28T01:15:54Z",
   "episodes": [
     {
       "guid": "37237 at https://www.thisamericanlife.org",
@@ -54,6 +54,23 @@
       ],
       "highlights_count": 9,
       "transcript_count": 270
+    },
+    {
+      "guid": "46252 at https://www.thisamericanlife.org",
+      "title": "900: Talk Me Into It",
+      "pub_date": "2026-11-02T00:00:00Z",
+      "duration_sec": 3479,
+      "audio_url": "https://www.thisamericanlife.org/sites/default/files/audio/upload/archive/900.mp3",
+      "file": "episodes/46252_at_https_www.thisamericanlife.org.json",
+      "summary_zh": "本期节目以“说服他人的执念与困境”为母主题，在中期选举上百亿美元广告轰炸的背景下，探讨面对面改变一个人想法究竟有多难。Prologue从底特律切入，热心助选的Rose Johnson苦劝黑人老友放下对阿拉伯裔的成见投票，却在对方一句“我就是不想投”面前碰壁。Act One转向蒙大拿州参议员选战，民主党暗中用巨资捧红政坛素人Alani Bankhead，企图事后逼退她以保独立候选人，不料她顶住全党施压坚决不退。Act Two暂别政坛，Ira Glass重温已故前辈Noah Adams的经典录音，拆解汽车销售员逼单的“富兰克林收尾法”及唯一破局台词。Act Three则跟随助选人Sam Negron走进宾州西裔理发店，看他如何无视悲观民调、凭人情背书现场策反摇摆选民。",
+      "key_takeaways_zh": [
+        "Prologue（主持与记者：Ira Glass、Ike Sriskandarajah）：底特律退休警务调度员 Rose Johnson 热心游说身边黑人选民支持阿拉伯裔民主党候选人 Abdul El-Sayed，却在老友根深蒂固的族裔不信任面前碰了软钉子。",
+        "Act One: Where's the Party?（记者：Heather Tal Murphy；制作人：Miki Meek）：蒙大拿州民主党操盘手疑借超级政治行动委员会捧红政坛新人 Alani Bankhead，原以为能轻易劝退她为独立候选人 Seth Bodnar 让路，却遭遇她的强硬回击与拒不退选。",
+        "Act Two: The Ben Franklin Close（主持：Ira Glass）：Ira Glass 缅怀刚离世的 NPR 资深主持人 Noah Adams，回顾他早年做汽车销售员时见识到的心理逼单术“本·富兰克林收尾法”，以及唯独一句“我就是不想要”能令推销员哑口无言。",
+        "Act Three: Polls Schmolls（记者：Ike Sriskandarajah）：尽管全美民调显示西裔选民对共和党支持率下滑，宾州阿伦敦助选人 Sam Negron 仍带记者走访当地理发店，凭熟人交情与私下背书现场说服摇摆选民倒向共和党。"
+      ],
+      "highlights_count": 10,
+      "transcript_count": 278
     }
   ]
 }
