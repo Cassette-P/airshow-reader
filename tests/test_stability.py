@@ -1727,5 +1727,157 @@ class TestShowsManifestIdempotency(unittest.TestCase):
             self.assertNotEqual(third["updated_at"], "2026-11-20T00:00:00Z")
 
 
+class TestChannelBCrossChunkContextAndPromptTightening(unittest.TestCase):
+    """Test Scheme A cross-chunk continuity context injection, prompt tightening, and TAL glossary roster."""
+
+    def setUp(self):
+        reset_ch_b_quota_state()
+
+    def tearDown(self):
+        reset_ch_b_quota_state()
+
+    def test_build_channel_b_user_prompt_chunk0_vs_subsequent(self):
+        from pipeline.prompts import CHANNEL_B_USER_PROMPT, build_channel_b_user_prompt
+
+        # Chunk 0 must stay pure base prompt
+        p0 = build_channel_b_user_prompt(
+            chunk_index=0,
+            total_chunks=5,
+            prev_tail_segments=[{"speaker": "Ira Glass", "en": "Ignored", "zh": "忽略"}],
+            observed_speakers=["Ira Glass"],
+        )
+        self.assertEqual(p0, CHANNEL_B_USER_PROMPT)
+
+        # Chunk 1 filters out generic speaker placeholders and keeps only last 2 tail segments
+        p1 = build_channel_b_user_prompt(
+            chunk_index=1,
+            total_chunks=5,
+            prev_tail_segments=[
+                {"speaker": "Ira Glass", "en": "First segment ignored.", "zh": "第一段忽略。"},
+                {"speaker": "Heather Tal Murphy", "en": "Second segment kept.", "zh": "第二段保留。"},
+                {"speaker": "Heather Tal Murphy", "en": "The DNC", "zh": "DNC"},
+            ],
+            observed_speakers=["Ira Glass", "Guest", "Man", "Heather Tal Murphy", "Ira Glass"],
+        )
+        self.assertIn("Chunk 2 of 5", p1)
+        self.assertIn("READ-ONLY reference, DO NOT re-transcribe", p1)
+        self.assertIn("Ira Glass, Heather Tal Murphy", p1)
+        self.assertNotIn("Guest, Man", p1)
+        self.assertNotIn("First segment ignored.", p1)
+        self.assertIn("Second segment kept.", p1)
+        self.assertIn("[Heather Tal Murphy] EN: The DNC", p1)
+        self.assertIn("starting near '00:00'", p1)
+
+    @patch("time.sleep")
+    @patch("pipeline.gemini.get_audio_duration_sec", return_value=300)
+    def test_run_channel_b_propagates_tail_context_across_chunks_and_paid_overflow(self, mock_dur, mock_sleep):
+        from pipeline.prompts import CHANNEL_B_USER_PROMPT
+
+        free_prompts: list[str] = []
+        paid_prompts: list[str] = []
+
+        chunk0_payload = (
+            '{"segments": ['
+            '{"timestamp": "00:10", "speaker": "Ira Glass", "en": "Welcome.", "zh": "欢迎。"}, '
+            '{"timestamp": "04:56", "speaker": "Gary", "en": "I would probably have to put", "zh": "我大概得把"}'
+            ']}'
+        )
+        chunk1_payload = (
+            '{"segments": ['
+            '{"timestamp": "00:00", "speaker": "Gary", "en": "somewhere between seven and eight.", "zh": "打在7到8分之间。"}, '
+            '{"timestamp": "04:50", "speaker": "Guest", "en": "Yeah.", "zh": "对。"}'
+            ']}'
+        )
+        chunk2_payload = (
+            '{"segments": ['
+            '{"timestamp": "00:05", "speaker": "Ira Glass", "en": "Thanks.", "zh": "谢谢。"}'
+            ']}'
+        )
+
+        def free_stream(**kw):
+            free_prompts.append(kw["contents"][1])
+            if len(free_prompts) == 1:
+                return [MagicMock(text=chunk0_payload)]
+            raise Exception(
+                "429 RESOURCE_EXHAUSTED: Quota exceeded for GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+            )
+
+        def paid_stream(**kw):
+            paid_prompts.append(kw["contents"][1])
+            if len(paid_prompts) == 1:
+                return [MagicMock(text=chunk1_payload)]
+            return [MagicMock(text=chunk2_payload)]
+
+        free_client = MagicMock()
+        free_client.files.upload.side_effect = lambda file: MagicMock(name=f"files/free_{file}")
+        free_client.files.get.side_effect = lambda name: MagicMock(name=name, state="FileState.ACTIVE")
+        free_client.models.generate_content_stream.side_effect = free_stream
+
+        paid_client = MagicMock()
+        paid_client.files.upload.side_effect = lambda file: MagicMock(name=f"files/paid_{file}")
+        paid_client.files.get.side_effect = lambda name: MagicMock(name=name, state="FileState.ACTIVE")
+        paid_client.models.generate_content_stream.side_effect = paid_stream
+
+        def fake_factory(api_key=None):
+            return free_client if api_key == "free_key" else paid_client
+
+        chunks = []
+        for i in range(3):
+            p = MagicMock(spec=Path)
+            p.name = f"chunk_00{i}.mp3"
+            p.__str__.return_value = f"/tmp/chunk_00{i}.mp3"
+            chunks.append(p)
+
+        with patch.dict(
+            "os.environ",
+            {
+                "GEMINI_API_KEY": "paid_key",
+                "GEMINI_API_KEY_CH_B": "free_key",
+                "CH_B_FREE_RPM": "0",
+                "CH_B_FREE_RPD": "20",
+                "CH_B_FREE_OVERFLOW_TO_PAID": "true",
+                "CHUNK_SLEEP_SEC": "0",
+            },
+            clear=True,
+        ), patch("pipeline.gemini.create_genai_client", side_effect=fake_factory):
+            transcript = run_channel_b(chunks=chunks, glossary_text="", duration_sec=900, show_id="tal")
+
+        self.assertEqual(len(transcript), 5)
+        # Chunk 0 on Free got clean base prompt
+        self.assertEqual(free_prompts[0], CHANNEL_B_USER_PROMPT)
+        # Chunk 1 failed RPD on Free and overflowed to Paid: BOTH must carry identical Chunk 0 tail context!
+        self.assertEqual(free_prompts[1], paid_prompts[0])
+        self.assertIn("[Gary] EN: I would probably have to put", paid_prompts[0])
+        self.assertIn("Ira Glass, Gary", paid_prompts[0])
+        # Chunk 2 on Paid got Chunk 1 tail context, and generic 'Guest' was excluded from speaker list
+        self.assertIn("somewhere between seven and eight.", paid_prompts[1])
+        self.assertNotIn("Ira Glass, Gary, Guest", paid_prompts[1])
+
+    def test_tightened_channel_b_prompt_and_tal_glossary_staff_roster(self):
+        from pipeline.prompts import build_channel_b_system_instruction, load_glossary_for_show
+
+        tal_glossary = load_glossary_for_show({"id": "tal", "glossary_file": "glossaries/tal.md"})
+        for staff_name in [
+            "Emanuele Berry",
+            "Sarah Abdurrahman",
+            "Adrienne Lilly",
+            "Stowe Nelson",
+            "Katherine Rae Mondo",
+            "Torey Malatia",
+        ]:
+            self.assertIn(staff_name, tal_glossary)
+
+        sys_inst = build_channel_b_system_instruction(
+            show_title="This American Life",
+            show_subtitle="Narrative Journalism",
+            glossary_text=tal_glossary,
+            content_style="narrative",
+        )
+        self.assertIn("<= 55 English words", sys_inst)
+        self.assertIn("whenever the speaker changes", sys_inst)
+        self.assertIn("This American Life Partners", sys_inst)
+        self.assertIn("蒙大拿州", sys_inst)
+
+
 if __name__ == "__main__":
     unittest.main()

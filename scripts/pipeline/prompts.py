@@ -13,6 +13,80 @@ CHANNEL_B_USER_PROMPT = (
     "according to the rules and schema."
 )
 
+GENERIC_SPEAKER_PLACEHOLDERS = {
+    "guest",
+    "man",
+    "woman",
+    "man 1",
+    "man 2",
+    "woman 1",
+    "woman 2",
+    "speaker",
+    "unknown",
+    "narrator",
+    "waiter",
+    "archival recording",
+    "ad narrator",
+    "ad narrator 1",
+    "ad narrator 2",
+}
+
+
+def build_channel_b_user_prompt(
+    chunk_index: int = 0,
+    total_chunks: int = 1,
+    prev_tail_segments: list[dict] | None = None,
+    observed_speakers: list[str] | None = None,
+) -> str:
+    """Build per-chunk Channel B user prompt with read-only previous-chunk continuity context."""
+    if chunk_index <= 0:
+        return CHANNEL_B_USER_PROMPT
+
+    filtered_speakers: list[str] = []
+    if observed_speakers:
+        seen: set[str] = set()
+        for spk in observed_speakers:
+            s = str(spk or "").strip()
+            if not s or s.lower() in GENERIC_SPEAKER_PLACEHOLDERS or s in seen:
+                continue
+            seen.add(s)
+            filtered_speakers.append(s)
+
+    valid_tail = [seg for seg in (prev_tail_segments or []) if isinstance(seg, dict) and seg.get("en")]
+    if not filtered_speakers and not valid_tail:
+        return CHANNEL_B_USER_PROMPT
+
+    lines = [
+        CHANNEL_B_USER_PROMPT,
+        "",
+        f"Cross-Chunk Continuity Context (Chunk {chunk_index + 1} of {max(total_chunks, chunk_index + 1)} — READ-ONLY reference, DO NOT re-transcribe):",
+    ]
+    if filtered_speakers:
+        lines.append(
+            "- Speakers already identified in earlier chunks (reuse exact name spelling if the same person speaks): "
+            + ", ".join(filtered_speakers[:30])
+        )
+    if valid_tail:
+        lines.append("- Previous audio chunk ended with these final segment(s):")
+        for seg in valid_tail[-2:]:
+            spk = str(seg.get("speaker") or "Guest").strip()
+            en_tail = str(seg.get("en") or "").strip()
+            zh_tail = str(seg.get("zh") or "").strip()
+            if len(en_tail) > 280:
+                en_tail = "..." + en_tail[-280:]
+            if len(zh_tail) > 200:
+                zh_tail = "……" + zh_tail[-200:]
+            lines.append(f"  * [{spk}] EN: {en_tail}")
+            if zh_tail:
+                lines.append(f"    ZH: {zh_tail}")
+    lines.append(
+        "- Continuity rules: (1) Do NOT repeat or re-transcribe words already covered in the previous chunk; "
+        "(2) Keep 'timestamp' strictly relative to the beginning of THIS audio chunk (starting near '00:00'); "
+        "(3) If the previous chunk ended mid-sentence or mid-word, use that context to accurately recognize the opening word(s) of this chunk, keep the exact same speaker name if the same voice continues, and make the Chinese translation connect naturally without broken fragments; "
+        "(4) Keep proper-noun spellings and Chinese terminology consistent with earlier chunks."
+    )
+    return "\n".join(lines)
+
 
 def load_glossary_for_show(show: dict) -> str:
     """Load glossary file specified by show config."""
@@ -50,12 +124,12 @@ def build_channel_b_system_instruction(
             f"You are an expert bilingual podcast transcriptionist and narrative journalism translator for '{show_title}' ({show_subtitle}).\n"
             "Your task is to transcribe and translate the provided podcast audio chunk into Chinese and English bilingual segments.\n\n"
             "Rules:\n"
-            "1. Segment into natural semantic blocks of 2-4 sentences each.\n"
+            "1. Segment into crisp, natural semantic blocks of 1-3 sentences each (strictly <= 55 English words or <= 18 seconds per block; NEVER merge long monologues or interviewer-interviewee Q&A exchanges into a single block). Always start a new segment immediately whenever the speaker changes.\n"
             "2. For each block, provide:\n"
             "   - timestamp: string timestamp relative to the beginning of this audio chunk, strictly formatted as 'MM:SS' (e.g., '00:02', '01:06', '04:55'). Never omit the colon. Keep timestamps accurately anchored to actual spoken positions across the entire chunk without drifting.\n"
-            "   - speaker: speaker full English name. Priority reference to the provided Speaker Roster and Show Notes to accurately spell names of interviewees and reporters (all speakers will be normalized; use 'Guest' only if completely unidentifiable). For multi-lingual voiceover interpretations, label as '<Name> (via translator)'. For archival audio recordings, briefly indicate provenance if mentioned.\n"
-            "   - en: the original English spoken text (2-4 sentences per block). Skip pure transitional background music, interlude score, and sponsor / commercial sponsor credits (skip sponsor credits and promo reads).\n"
-            "   - zh: natural, lively, and idiomatic Chinese spoken translation capturing narrative tension, humor, emotions, and colloquial rhythm, avoiding overly rigid academic or written phrasing.\n"
+            "   - speaker: speaker full English name. Priority reference to the provided Speaker Roster, Show Notes, Glossary, and Cross-Chunk Continuity Context to accurately spell full names of interviewees, reporters, and staff credits (resolve first-name-only speakers to full names when their surname appears in Show Notes or context, e.g., 'The Bengsons, Abigail and Shaun' -> 'Shaun Bengson' / 'Abigail Bengson'; use 'Guest' only if completely unidentifiable). Never merge two different speakers into one segment. For multi-lingual voiceover interpretations, label as '<Name> (via translator)'. For archival audio recordings, briefly indicate provenance if mentioned.\n"
+            "   - en: the original English spoken text (1-3 sentences, <= 55 words per block; omit bracketed stage directions such as [LAUGHTER]). Skip pure transitional background music, interlude score, commercial sponsor credits / promo reads, and house membership trial promos with promo codes (e.g., This American Life Partners trial reads), while preserving end-of-episode staff credits and post-credits stings.\n"
+            "   - zh: natural, lively, and idiomatic Chinese spoken translation capturing narrative tension, humor, wordplay/puns, emotions, and colloquial rhythm, avoiding rigid literal calques or translationese. Keep person names and fixed act labels ('Prologue', 'Act One', 'Act Two', etc.) in original English per glossary rules, but translate standard US state, country, and major city names into standard Chinese (e.g., 蒙大拿州, 内布拉斯加州, 密歇根州, 底特律).\n"
             "3. Adhere strictly to the following speaker and terminology glossary:\n\n"
             f"{glossary_text}"
         )
@@ -76,11 +150,11 @@ def build_channel_b_system_instruction(
         f"You are an expert bilingual podcast transcriptionist and translator for '{show_title}' ({show_subtitle}).\n"
         "Your task is to transcribe and translate the provided podcast audio chunk into Chinese and English bilingual segments.\n\n"
         "Rules:\n"
-        "1. Segment into natural semantic blocks of 2-4 sentences each.\n"
+        "1. Segment into crisp, natural semantic blocks of 1-3 sentences each (strictly <= 55 English words or <= 18 seconds per block; NEVER merge interviewer-interviewee Q&A exchanges into a single block). Always start a new segment immediately whenever the speaker changes.\n"
         "2. For each block, provide:\n"
         "   - timestamp: string timestamp relative to the beginning of this audio chunk, strictly formatted as 'MM:SS' (e.g., '00:02', '01:06', '04:55'). Never omit the colon. Keep timestamps accurately anchored to actual spoken positions across the entire chunk without drifting.\n"
-        "   - speaker: speaker full English name normalized according to the glossary and episode show notes (use 'Guest' only if speaker name cannot be identified).\n"
-        "   - en: the original English spoken text (2-4 sentences per block).\n"
+        "   - speaker: speaker full English name normalized according to the glossary, episode show notes, and cross-chunk continuity context (use 'Guest' only if speaker name cannot be identified). Never merge two different speakers into one segment.\n"
+        "   - en: the original English spoken text (1-3 sentences, <= 55 words per block).\n"
         "   - zh: natural, fluent, professional Chinese translation adhering strictly to the glossary and domain conventions.\n"
         "3. Adhere strictly to the following speaker and terminology glossary:\n\n"
         f"{glossary_text}"

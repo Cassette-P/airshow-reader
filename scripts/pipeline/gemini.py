@@ -38,6 +38,7 @@ from pipeline.prompts import (
     build_channel_a_system_instruction,
     build_channel_a_user_prompt,
     build_channel_b_system_instruction,
+    build_channel_b_user_prompt,
 )
 from pipeline.storage import (
     format_sec_to_mmss,
@@ -1182,6 +1183,7 @@ def _transcribe_single_chunk(
     fail_fast_on_rpd: bool = False,
     is_free_tier: bool = False,
     usage_tier_tag: str = "",
+    user_prompt: str = CHANNEL_B_USER_PROMPT,
 ) -> ChannelBOutput:
     """Upload one audio chunk to the client's project File API, transcribe, and clean up cloud file."""
     tier_prefix = f"[{usage_tier_tag.upper()}] " if usage_tier_tag else ""
@@ -1209,7 +1211,7 @@ def _transcribe_single_chunk(
             file_info = client.files.get(name=uploaded.name)
         log("CH-B", f"{tier_prefix}Cloud file {uploaded.name} is ACTIVE.", show_id=show_id)
 
-        contents = [file_info, CHANNEL_B_USER_PROMPT]
+        contents = [file_info, user_prompt]
 
         return generate_structured_with_retry(
             client=client,
@@ -1316,6 +1318,8 @@ def run_channel_b(
         )
 
         all_raw_segments = []
+        observed_speakers: list[str] = []
+        observed_speakers_set: set[str] = set()
         accumulated_chunk_start_sec = 0
         free_chunks_ok = 0
         paid_chunks_ok = 0
@@ -1324,6 +1328,13 @@ def run_channel_b(
             log("CH-B", f"--- Processing chunk [{idx + 1}/{len(chunks_to_process)}]: {chunk_path.name} ---", show_id=show_id)
             chunk_dur = get_audio_duration_sec(chunk_path, show_id=show_id)
             log("CH-B", f"Chunk duration via ffprobe: {chunk_dur}s (accumulated base: {accumulated_chunk_start_sec}s).", show_id=show_id)
+
+            chunk_user_prompt = build_channel_b_user_prompt(
+                chunk_index=idx,
+                total_chunks=len(chunks_to_process),
+                prev_tail_segments=all_raw_segments[-2:] if all_raw_segments else None,
+                observed_speakers=observed_speakers,
+            )
 
             parsed_resp: ChannelBOutput
             if free_mode:
@@ -1344,6 +1355,7 @@ def run_channel_b(
                                 fail_fast_on_rpd=True,
                                 is_free_tier=True,
                                 usage_tier_tag="free",
+                                user_prompt=chunk_user_prompt,
                             )
                             used_now = CH_B_QUOTA_STATE.record_free_success(primary_model)
                             free_chunks_ok += 1
@@ -1369,6 +1381,7 @@ def run_channel_b(
                                 fail_fast_on_rpd=False,
                                 is_free_tier=False,
                                 usage_tier_tag="paid",
+                                user_prompt=chunk_user_prompt,
                             )
                             paid_chunks_ok += 1
                         except Exception as free_err:
@@ -1410,6 +1423,7 @@ def run_channel_b(
                                 fail_fast_on_rpd=False,
                                 is_free_tier=False,
                                 usage_tier_tag="paid",
+                                user_prompt=chunk_user_prompt,
                             )
                             paid_chunks_ok += 1
                     else:
@@ -1428,6 +1442,7 @@ def run_channel_b(
                             fail_fast_on_rpd=False,
                             is_free_tier=True,
                             usage_tier_tag="free",
+                            user_prompt=chunk_user_prompt,
                         )
                         CH_B_QUOTA_STATE.record_free_success(available_free_pool[0])
                         free_chunks_ok += 1
@@ -1451,6 +1466,7 @@ def run_channel_b(
                             fail_fast_on_rpd=False,
                             is_free_tier=False,
                             usage_tier_tag="paid",
+                            user_prompt=chunk_user_prompt,
                         )
                         paid_chunks_ok += 1
                     else:
@@ -1480,6 +1496,7 @@ def run_channel_b(
                             fail_fast_on_rpd=False,
                             is_free_tier=True,
                             usage_tier_tag="free",
+                            user_prompt=chunk_user_prompt,
                         )
                         CH_B_QUOTA_STATE.record_free_success(remaining_pool[0])
                         free_chunks_ok += 1
@@ -1496,6 +1513,7 @@ def run_channel_b(
                     fail_fast_on_rpd=False,
                     is_free_tier=False,
                     usage_tier_tag="",
+                    user_prompt=chunk_user_prompt,
                 )
                 paid_chunks_ok += 1
 
@@ -1506,9 +1524,13 @@ def run_channel_b(
                 clamped_offset = max(0, min(offset, chunk_dur))
                 global_start = accumulated_chunk_start_sec + clamped_offset
                 clamped_start = max(0, min(global_start, duration_sec))
+                norm_spk = normalize_speaker(seg.speaker)
+                if norm_spk and norm_spk not in observed_speakers_set:
+                    observed_speakers_set.add(norm_spk)
+                    observed_speakers.append(norm_spk)
                 all_raw_segments.append({
                     "start_sec": clamped_start,
-                    "speaker": normalize_speaker(seg.speaker),
+                    "speaker": norm_spk,
                     "en": seg.en.strip(),
                     "zh": seg.zh.strip(),
                 })
